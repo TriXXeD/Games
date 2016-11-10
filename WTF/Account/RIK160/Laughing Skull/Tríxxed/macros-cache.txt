@@ -1,0 +1,22 @@
+VER 3 0100000000000004 "Dark Soul" "SPELL_WARLOCK_DEMONSOUL"
+#Showtooltip Dark Soul: Knowledge
+/use Dominator's Arcane Badge
+/Cast Dark Soul: Knowledge
+END
+VER 3 0100000000000005 "Dark Soul: Miser" "SPELL_WARLOCK_DEMONSOUL"
+#Showtooltip Dark Soul: Misery
+/use Dominator's Arcane Badge
+/Cast Dark Soul: Misery
+END
+VER 3 0100000000000003 "Drain Soul" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nochanneling:Drain Soul] Drain Soul
+END
+VER 3 0100000000000001 "Harvest Life" "INV_MISC_QUESTIONMARK"
+#showtooltip Harvest Life
+/cast [nochanneling:Harvest Life] Harvest Life
+END
+VER 3 0100000000000002 "Maelfic Grasp" "INV_MISC_QUESTIONMARK"
+#showtooltip Malefic Grasp
+/cast [nochanneling:Malefic Grasp] Malefic Grasp
+END

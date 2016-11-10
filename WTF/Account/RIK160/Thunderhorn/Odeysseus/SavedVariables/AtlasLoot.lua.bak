@@ -1,0 +1,11 @@
+
+AtlasLootCharDB = {
+	["namespaces"] = {
+		["WishList"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Odeysseus - Thunderhorn"] = "Odeysseus - Thunderhorn",
+	},
+	["AtlasLootVersion"] = "70703",
+}

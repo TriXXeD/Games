@@ -1,0 +1,24 @@
+
+ButtonFacadeDB = {
+	["namespaces"] = {
+		["ButtonTest"] = {
+			["profileKeys"] = {
+				["Saonserey - Dark Iron"] = "Saonserey - Dark Iron",
+			},
+			["profiles"] = {
+				["Saonserey - Dark Iron"] = {
+					["x"] = 153.6381683349609,
+					["Unlocked"] = false,
+					["y"] = -683.7182006835938,
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Saonserey - Dark Iron"] = "Saonserey - Dark Iron",
+	},
+	["profiles"] = {
+		["Saonserey - Dark Iron"] = {
+		},
+	},
+}

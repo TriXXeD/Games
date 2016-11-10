@@ -1,0 +1,11 @@
+
+AtlasLootCharDB = {
+	["namespaces"] = {
+		["WishList"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Tríxxed - Laughing Skull"] = "Tríxxed - Laughing Skull",
+	},
+	["AtlasLootVersion"] = "70401",
+}

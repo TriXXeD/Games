@@ -1,0 +1,249 @@
+
+ElvUI_ChatTweaksDB = {
+	["namespaces"] = {
+		["EmoteFilter"] = {
+		},
+		["AutoWelcome"] = {
+		},
+		["DamageMeters"] = {
+			["profiles"] = {
+				["Daemonikos - Ravencrest"] = {
+					["Party Leader"] = 2,
+					["Raid Leader"] = 2,
+					["Yell"] = 2,
+					["Instance Chat Leader"] = 2,
+					["Instance Chat"] = 2,
+					["Party"] = 2,
+					["Whisper"] = 2,
+					["Channel"] = 2,
+					["Say"] = 2,
+					["Raid"] = 2,
+					["Guild"] = 2,
+					["Officer"] = 2,
+				},
+			},
+		},
+		["PetBattles"] = {
+		},
+		["FunFilters"] = {
+		},
+		["AutoCongratulate"] = {
+		},
+		["ChannelColors"] = {
+			["profiles"] = {
+				["Daemonikos - Ravencrest"] = {
+					["colors"] = {
+						["RealID Conversation"] = {
+							["b"] = 0.9411765262484551,
+							["g"] = 0.6941176881082356,
+							["r"] = 0,
+						},
+						["Guild"] = {
+							["b"] = 0.250980406999588,
+							["g"] = 1.000000059138984,
+							["r"] = 0.250980406999588,
+						},
+						["Instance Leader"] = {
+							["b"] = 0.03529411973431706,
+							["g"] = 0.2823529578745365,
+							["r"] = 1.000000059138984,
+						},
+						["Raid Leader"] = {
+							["b"] = 0.03529411973431706,
+							["g"] = 0.2823529578745365,
+							["r"] = 1.000000059138984,
+						},
+						["LookingForGroup"] = {
+							["b"] = 0.752941220998764,
+							["g"] = 0.752941220998764,
+							["r"] = 1.000000059138984,
+						},
+						["Party"] = {
+							["b"] = 1.000000059138984,
+							["g"] = 0.6666667060926557,
+							["r"] = 0.6666667060926557,
+						},
+						["Whisper"] = {
+							["b"] = 1.000000059138984,
+							["g"] = 0.501960813999176,
+							["r"] = 1.000000059138984,
+						},
+						["Raid"] = {
+							["b"] = 0,
+							["g"] = 0.4980392451398075,
+							["r"] = 1.000000059138984,
+						},
+						["Raid Warning"] = {
+							["b"] = 0,
+							["g"] = 0.2823529578745365,
+							["r"] = 1.000000059138984,
+						},
+						["Party Leader"] = {
+							["b"] = 1.000000059138984,
+							["g"] = 0.7843137718737125,
+							["r"] = 0.4627451254054904,
+						},
+						["Instance"] = {
+							["b"] = 0,
+							["g"] = 0.4980392451398075,
+							["r"] = 1.000000059138984,
+						},
+						["Yell"] = {
+							["b"] = 0.250980406999588,
+							["g"] = 0.250980406999588,
+							["r"] = 1.000000059138984,
+						},
+						["LocalDefense"] = {
+							["b"] = 0.4745098319835961,
+							["g"] = 0.8941176999360323,
+							["r"] = 0.9098039753735066,
+						},
+						["Say"] = {
+							["b"] = 1.000000059138984,
+							["g"] = 1.000000059138984,
+							["r"] = 1.000000059138984,
+						},
+						["Trade"] = {
+							["b"] = 0.4745098319835961,
+							["g"] = 0.6196078797802329,
+							["r"] = 0.9098039753735066,
+						},
+						["General"] = {
+							["b"] = 0.9098039753735066,
+							["g"] = 0.9019608376547694,
+							["r"] = 0.7647059275768697,
+						},
+						["RealID Whisper"] = {
+							["b"] = 0.9647059394046664,
+							["g"] = 1.000000059138984,
+							["r"] = 0,
+						},
+						["Officer"] = {
+							["b"] = 0.250980406999588,
+							["g"] = 0.752941220998764,
+							["r"] = 0.250980406999588,
+						},
+					},
+				},
+			},
+		},
+		["GoldCalculator"] = {
+		},
+		["ChannelSounds"] = {
+		},
+		["AutoFarewell"] = {
+		},
+		["Reputation"] = {
+		},
+		["RepeatCommand"] = {
+		},
+		["MaterialsFarming"] = {
+		},
+		["AFK/DNDFilter"] = {
+		},
+		["ChatTabs"] = {
+		},
+		["EditBoxAltKeyArrows"] = {
+		},
+		["Substitutions"] = {
+		},
+		["ColorRolls"] = {
+		},
+		["CustomChatFilters"] = {
+		},
+		["PlayerNames"] = {
+		},
+		["TextJustification"] = {
+		},
+		["Datatext"] = {
+		},
+		["Magic8-Ball"] = {
+		},
+		["Companions"] = {
+			["profiles"] = {
+				["Daemonikos - Ravencrest"] = {
+					["global"] = {
+					},
+				},
+			},
+		},
+		["AutoSetRole"] = {
+		},
+		["CustomEmotes"] = {
+		},
+		["Calculator"] = {
+		},
+		["ATestofValor"] = {
+		},
+		["MultipleInviteCommand"] = {
+		},
+		["Timestamps"] = {
+		},
+		["Search"] = {
+		},
+		["InviteLinks"] = {
+			["profiles"] = {
+				["Daemonikos - Ravencrest"] = {
+					["groupWords"] = {
+						["inv"] = "inv",
+						["invite"] = "invite",
+					},
+					["guildWords"] = {
+						["ginvite"] = "ginvite",
+						["ginv"] = "ginv",
+					},
+				},
+			},
+		},
+		["CustomNamedChatFilters"] = {
+		},
+		["LootIcons"] = {
+		},
+		["AutoProfessionLink"] = {
+			["profiles"] = {
+				["Daemonikos - Ravencrest"] = {
+					["Guild"] = false,
+					["Instance Chat"] = false,
+					["Raid"] = false,
+					["Party Leader"] = false,
+					["Yell"] = false,
+					["Party"] = false,
+					["Say"] = false,
+					["Instance Chat Leader"] = false,
+					["Raid Leader"] = false,
+					["Whisper"] = false,
+					["Officer"] = false,
+				},
+			},
+		},
+		["AutoDing"] = {
+		},
+		["RerouteAuctionMessages"] = {
+		},
+		["KeywordSounds"] = {
+		},
+		["AltNames"] = {
+		},
+		["PopupMessages"] = {
+		},
+		["XPLeftToLevel"] = {
+		},
+		["ChannelNoticeFilter"] = {
+		},
+		["AuctionMessageFiltering"] = {
+		},
+		["ImprovedAuctionMessages"] = {
+		},
+		["MinimapButton"] = {
+		},
+		["AchievementFilter"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Daemonikos - Ravencrest"] = "Daemonikos - Ravencrest",
+	},
+	["profiles"] = {
+		["Daemonikos - Ravencrest"] = {
+		},
+	},
+}

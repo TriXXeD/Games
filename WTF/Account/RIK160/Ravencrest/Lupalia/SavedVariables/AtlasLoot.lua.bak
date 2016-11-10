@@ -1,0 +1,11 @@
+
+AtlasLootCharDB = {
+	["namespaces"] = {
+		["WishList"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Lupalia - Ravencrest"] = "Lupalia - Ravencrest",
+	},
+	["AtlasLootVersion"] = "70701",
+}

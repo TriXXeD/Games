@@ -1,0 +1,9 @@
+BINDINGMODE 0
+bind NUMPADDIVIDE NONE
+bind CTRL-1 CLICK DominosActionButton-11:LeftButton
+bind CTRL-2 CLICK DominosActionButton-10:LeftButton
+bind CTRL-3 CLICK DominosActionButton-9:LeftButton
+bind ALT-M CARTOGRAPHER_OPENALTERNATEMAP
+bind BACKSPACE TOGGLERUN
+modifiedclick ALT SELFCAST
+modifiedclick NONE AUTOLOOTTOGGLE

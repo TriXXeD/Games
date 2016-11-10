@@ -1,0 +1,78 @@
+
+Prat3HighCPUPerCharDB = {
+	["time"] = 1356897488,
+	["scrollback"] = {
+		["ChatFrame1"] = {
+			{
+				"|cff979797[20:53:21]|r|c00000000|r |Hchannel:channel:1|h[1] |h Joined Channel: |Hchannel:1|h[1. General - Orgrimmar]|h", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+				69, -- [5]
+			}, -- [1]
+			{
+				"|cff979797[20:53:21]|r|c00000000|r |Hchannel:channel:2|h[2] |h Joined Channel: |Hchannel:2|h[2. Trade - City]|h", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+				70, -- [5]
+			}, -- [2]
+			{
+				"|cff979797[20:53:21]|r|c00000000|r |Hchannel:channel:3|h[3] |h Joined Channel: |Hchannel:3|h[3. LocalDefense - Orgrimmar]|h", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+				71, -- [5]
+			}, -- [3]
+			{
+				"|cff979797[20:53:24]|r|c00000000|r You feel rested.", -- [1]
+				1, -- [2]
+				1, -- [3]
+				0, -- [4]
+				1, -- [5]
+			}, -- [4]
+			{
+				"|cff979797[20:53:25]|r|c00000000|r Quest accepted: The Art of War", -- [1]
+				1, -- [2]
+				1, -- [3]
+				0, -- [4]
+				1, -- [5]
+			}, -- [5]
+			{
+				"|cff979797[20:53:32]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Varana:64:CHANNEL:2|h|cffff7c0aVarana|r|h|cffd8d8d8]|r: If you're bad at math, you open them yourself, hoping for that near impossible win, if you're good you sell them to someone who's bad at math.", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+				70, -- [5]
+			}, -- [6]
+			{
+				"|cff979797[20:56:05]|r|c00000000|r |cffd8d8d8[|r|Hplayer:Noqreh:85|h|cffa5a5a5Noqreh|r|h|cffd8d8d8]|r invites you to join Atomic Lizards.", -- [1]
+				1, -- [2]
+				1, -- [3]
+				0, -- [4]
+				1, -- [5]
+			}, -- [7]
+			{
+				"|cff979797[20:57:03]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mackano:86:CHANNEL:2|h|cff00ff96Mackano|r|h|cffd8d8d8]|r: Want a brawlers guild invite =)", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+				70, -- [5]
+			}, -- [8]
+			{
+				"|cff979797[20:57:52]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Trosha:87:CHANNEL:2|h|cff0070ddTrosha|r|h|cffd8d8d8]|r: u can buy an invite on the black market", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+				70, -- [5]
+			}, -- [9]
+			{
+				"|cff979797[20:58:08]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mackano:88:CHANNEL:2|h|cff00ff96Mackano|r|h|cffd8d8d8]|r: know that", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+				70, -- [5]
+			}, -- [10]
+		},
+	},
+}

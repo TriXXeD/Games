@@ -1,0 +1,223 @@
+
+Prat3DB = {
+	["namespaces"] = {
+		["Prat_UrlCopy"] = {
+			["profileKeys"] = {
+				["Saonserey - Drak'thul"] = "Default",
+			},
+			["profiles"] = {
+				["Default"] = {
+				},
+			},
+		},
+		["Prat_AltNames"] = {
+			["profileKeys"] = {
+				["Saonserey - Drak'thul"] = "Default",
+			},
+			["profiles"] = {
+				["Default"] = {
+				},
+			},
+		},
+		["Prat_PlayerNames"] = {
+			["realm"] = {
+				["Drak'thul"] = {
+				},
+			},
+			["profileKeys"] = {
+				["Saonserey - Drak'thul"] = "Default",
+			},
+			["profiles"] = {
+				["Default"] = {
+				},
+			},
+		},
+		["Prat_Frames"] = {
+			["profileKeys"] = {
+				["Saonserey - Drak'thul"] = "Default",
+			},
+			["profiles"] = {
+				["Default"] = {
+					["minchatwidthdefault"] = 296.0000050607818,
+					["initialized"] = true,
+					["minchatheightdefault"] = 74.99999824278412,
+					["maxchatwidthdefault"] = 608.000033738545,
+					["maxchatheightdefault"] = 399.9999786322549,
+				},
+			},
+		},
+		["Prat_ChannelColorMemory"] = {
+			["profileKeys"] = {
+				["Saonserey - Drak'thul"] = "Default",
+			},
+			["profiles"] = {
+				["Default"] = {
+					["colors"] = {
+						["General - Tirisfal Glades"] = {
+							["b"] = 0.752941220998764,
+							["g"] = 0.752941220998764,
+							["r"] = 1.000000059138984,
+						},
+						["LocalDefense - Tirisfal Glades"] = {
+							["b"] = 0.752941220998764,
+							["g"] = 0.752941220998764,
+							["r"] = 1.000000059138984,
+						},
+					},
+				},
+			},
+		},
+		["Prat_Fading"] = {
+			["profileKeys"] = {
+				["Saonserey - Drak'thul"] = "Default",
+			},
+			["profiles"] = {
+				["Default"] = {
+				},
+			},
+		},
+		["Prat_ChannelNames"] = {
+			["profileKeys"] = {
+				["Saonserey - Drak'thul"] = "Default",
+			},
+			["profiles"] = {
+				["Default"] = {
+				},
+			},
+		},
+		["Prat_ChatLink"] = {
+			["profileKeys"] = {
+				["Saonserey - Drak'thul"] = "Default",
+			},
+			["profiles"] = {
+				["Default"] = {
+				},
+			},
+		},
+		["Prat_Scroll"] = {
+			["profileKeys"] = {
+				["Saonserey - Drak'thul"] = "Default",
+			},
+			["profiles"] = {
+				["Default"] = {
+				},
+			},
+		},
+		["Prat_Paragraph"] = {
+			["profileKeys"] = {
+				["Saonserey - Drak'thul"] = "Default",
+			},
+			["profiles"] = {
+				["Default"] = {
+				},
+			},
+		},
+		["Prat_Alias"] = {
+			["profileKeys"] = {
+				["Saonserey - Drak'thul"] = "Default",
+			},
+			["profiles"] = {
+				["Default"] = {
+				},
+			},
+		},
+		["Prat_Experimental"] = {
+			["profileKeys"] = {
+				["Saonserey - Drak'thul"] = "Default",
+			},
+			["profiles"] = {
+				["Default"] = {
+				},
+			},
+		},
+		["Prat_Timestamps"] = {
+			["profileKeys"] = {
+				["Saonserey - Drak'thul"] = "Default",
+			},
+			["profiles"] = {
+				["Default"] = {
+				},
+			},
+		},
+		["Prat_Sounds"] = {
+			["profileKeys"] = {
+				["Saonserey - Drak'thul"] = "Default",
+			},
+			["profiles"] = {
+				["Default"] = {
+				},
+			},
+		},
+		["Prat_PopupMessage"] = {
+			["profileKeys"] = {
+				["Saonserey - Drak'thul"] = "Default",
+			},
+			["profiles"] = {
+				["Default"] = {
+				},
+			},
+		},
+		["Prat_CopyChat"] = {
+			["profileKeys"] = {
+				["Saonserey - Drak'thul"] = "Default",
+			},
+			["profiles"] = {
+				["Default"] = {
+				},
+			},
+		},
+		["Prat_ChatLog"] = {
+			["profileKeys"] = {
+				["Saonserey - Drak'thul"] = "Default",
+			},
+			["profiles"] = {
+				["Default"] = {
+				},
+			},
+		},
+		["Prat_ChannelSticky"] = {
+			["profileKeys"] = {
+				["Saonserey - Drak'thul"] = "Default",
+			},
+			["profiles"] = {
+				["Default"] = {
+				},
+			},
+		},
+		["Prat_Buttons"] = {
+			["profileKeys"] = {
+				["Saonserey - Drak'thul"] = "Default",
+			},
+			["profiles"] = {
+				["Default"] = {
+				},
+			},
+		},
+		["Prat_History"] = {
+			["profileKeys"] = {
+				["Saonserey - Drak'thul"] = "Default",
+			},
+			["profiles"] = {
+				["Default"] = {
+				},
+			},
+		},
+		["Prat_Font"] = {
+			["profileKeys"] = {
+				["Saonserey - Drak'thul"] = "Default",
+			},
+			["profiles"] = {
+				["Default"] = {
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Saonserey - Drak'thul"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}
+Prat3FuDB = nil

@@ -1,0 +1,35 @@
+
+AtlasLootDB = {
+	["namespaces"] = {
+		["DefaultFrame"] = {
+			["profiles"] = {
+				["Razoi - Thunderhorn"] = {
+					["module"] = "AtlasLootMoP",
+					["NEWpoint"] = {
+						nil, -- [1]
+						nil, -- [2]
+						"CENTER", -- [3]
+						-277.8804931640625, -- [4]
+						133.4701080322266, -- [5]
+					},
+					["instance"] = "MoguShanPalace",
+				},
+			},
+		},
+		["AtlasLootPanel"] = {
+		},
+		["WishList"] = {
+		},
+		["Filter"] = {
+		},
+	},
+	["showWarning"] = true,
+	["profileKeys"] = {
+		["Razoi - Thunderhorn"] = "Razoi - Thunderhorn",
+	},
+	["profiles"] = {
+		["Razoi - Thunderhorn"] = {
+			["LastSearch"] = "Qu'nas'",
+		},
+	},
+}

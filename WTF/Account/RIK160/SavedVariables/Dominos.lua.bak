@@ -1,0 +1,11 @@
+
+DominosDB = {
+	["profileKeys"] = {
+		["Saonserey - Drak'thul"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}
+DominosVersion = "1.3.3"

@@ -1,0 +1,12 @@
+## Interface: 60000
+## Author: Hydra
+## Version: 1.02
+## Title: |cffff8000Tukui|r |cffFFFFFFCombo|r
+## Notes: Sexy combo points.
+## SavedVariables: tComboConfig
+
+Load.xml
+ 
+ 
+## X-Tukui-ProjectID: 233
+## X-Tukui-ProjectFolders: tCombo

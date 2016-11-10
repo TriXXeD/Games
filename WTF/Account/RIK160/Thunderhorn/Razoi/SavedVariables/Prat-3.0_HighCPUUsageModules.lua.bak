@@ -1,0 +1,96 @@
+
+Prat3HighCPUPerCharDB = {
+	["time"] = 1295433638,
+	["scrollback"] = {
+		["ChatFrame5"] = {
+			{
+				"|cff979797[02:40:22]|r|c00000000|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Cheya:26:GUILD|h|cffd8d83f85|r:|cff0070ddCheya|r|h|cffd8d8d8]|r: rude", -- [1]
+				0.5843137600459158, -- [2]
+				0.2666666824370623, -- [3]
+				0.843137304764241, -- [4]
+				5, -- [5]
+			}, -- [1]
+			{
+				"|cff979797[02:40:26]|r|c00000000|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Robb:27:GUILD|h|cff65b26581|r:|cff9382c9Robb|r|h|cffd8d8d8]|r:  |cff1eff00|Hitem:61980:0:0:0:0:0:0:1153912960:81:0|h[Burning Embers]|h|r 50% from  |cffffffff|Hitem:52987:0:0:0:0:0:0:1936029952:81:0|h[Twilight Jasmine]|h|r my ass", -- [1]
+				0.5843137600459158, -- [2]
+				0.2666666824370623, -- [3]
+				0.843137304764241, -- [4]
+				5, -- [5]
+			}, -- [2]
+		},
+		["ChatFrame4"] = {
+			{
+				"|cff979797[02:40:22]|r|c00000000|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Cheya:26:GUILD|h|cffd8d83f85|r:|cff0070ddCheya|r|h|cffd8d8d8]|r: rude", -- [1]
+				0.5843137600459158, -- [2]
+				0.2666666824370623, -- [3]
+				0.843137304764241, -- [4]
+				5, -- [5]
+			}, -- [1]
+			{
+				"|cff979797[02:40:26]|r|c00000000|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Robb:27:GUILD|h|cff65b26581|r:|cff9382c9Robb|r|h|cffd8d8d8]|r:  |cff1eff00|Hitem:61980:0:0:0:0:0:0:1153912960:81:0|h[Burning Embers]|h|r 50% from  |cffffffff|Hitem:52987:0:0:0:0:0:0:1936029952:81:0|h[Twilight Jasmine]|h|r my ass", -- [1]
+				0.5843137600459158, -- [2]
+				0.2666666824370623, -- [3]
+				0.843137304764241, -- [4]
+				5, -- [5]
+			}, -- [2]
+		},
+		["ChatFrame1"] = {
+			{
+				"|cff979797[02:40:21]|r|c00000000|r |Hchannel:channel:1|h[1] |h Joined Channel: |Hchannel:1|h[1. General - Orgrimmar]|h", -- [1]
+				1.000000059138984, -- [2]
+				0.752941220998764, -- [3]
+				0.752941220998764, -- [4]
+				64, -- [5]
+			}, -- [1]
+			{
+				"|cff979797[02:40:21]|r|c00000000|r |Hchannel:channel:2|h[2] |h Joined Channel: |Hchannel:2|h[2. Trade - City]|h", -- [1]
+				1.000000059138984, -- [2]
+				0.752941220998764, -- [3]
+				0.752941220998764, -- [4]
+				65, -- [5]
+			}, -- [2]
+			{
+				"|cff979797[02:40:21]|r|c00000000|r |Hchannel:channel:3|h[3] |h Joined Channel: |Hchannel:3|h[3. LocalDefense - Orgrimmar]|h", -- [1]
+				1.000000059138984, -- [2]
+				0.752941220998764, -- [3]
+				0.752941220998764, -- [4]
+				66, -- [5]
+			}, -- [3]
+			{
+				"|cff979797[02:40:21]|r|c00000000|r |Hchannel:channel:5|h[5] |h Joined Channel: |Hchannel:5|h[5. voidheal]|h", -- [1]
+				0.250980406999588, -- [2]
+				0.2862745267339051, -- [3]
+				1.000000059138984, -- [4]
+				68, -- [5]
+			}, -- [4]
+			{
+				"|cff979797[02:40:22]|r|c00000000|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Cheya:26:GUILD|h|cffd8d83f85|r:|cff0070ddCheya|r|h|cffd8d8d8]|r: rude", -- [1]
+				0.5843137600459158, -- [2]
+				0.2666666824370623, -- [3]
+				0.843137304764241, -- [4]
+				5, -- [5]
+			}, -- [5]
+			{
+				"|cff979797[02:40:26]|r|c00000000|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Robb:27:GUILD|h|cff65b26581|r:|cff9382c9Robb|r|h|cffd8d8d8]|r:  |cff1eff00|Hitem:61980:0:0:0:0:0:0:1153912960:81:0|h[Burning Embers]|h|r 50% from  |cffffffff|Hitem:52987:0:0:0:0:0:0:1936029952:81:0|h[Twilight Jasmine]|h|r my ass", -- [1]
+				0.5843137600459158, -- [2]
+				0.2666666824370623, -- [3]
+				0.843137304764241, -- [4]
+				5, -- [5]
+			}, -- [6]
+			{
+				"|cff979797[02:40:28]|r|c00000000|r |Hchannel:channel:2|h[2] |h<Away>|cffd8d8d8[|r|Hplayer:Schit:28:CHANNEL:2|h|cfff48cbaSchit|r|h|cffd8d8d8]|r: WTS BoE Valor Point boots of your choice; pst w offer", -- [1]
+				1.000000059138984, -- [2]
+				0.752941220998764, -- [3]
+				0.752941220998764, -- [4]
+				65, -- [5]
+			}, -- [7]
+			{
+				"|cff979797[02:40:38]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Theaxes:29:CHANNEL:2|h|cfff48cbaTheaxes|r|h|cffd8d8d8]|r: |cffffffff|Hitem:60838:0:0:0:0:0:0:0:83:0|h[Mysterious Fortune Card]|h|r on AH now! Chance at getting 5000g vendor |cffa335ee|Hitem:60844:0:0:0:0:0:0:0:83:0|h[Fortune Card]|h|r or 1000g, 200g, etc. versions.", -- [1]
+				1.000000059138984, -- [2]
+				0.752941220998764, -- [3]
+				0.752941220998764, -- [4]
+				65, -- [5]
+			}, -- [8]
+		},
+	},
+}

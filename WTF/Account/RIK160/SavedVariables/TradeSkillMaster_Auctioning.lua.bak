@@ -1,0 +1,17 @@
+
+TradeSkillMaster_AuctioningDB = {
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Daemonikos - Ravencrest"] = "Default",
+	},
+	["factionrealm"] = {
+		["Alliance - Ravencrest"] = {
+			["player"] = {
+				["Daemonikos"] = true,
+			},
+		},
+	},
+}

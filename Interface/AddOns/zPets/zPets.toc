@@ -1,0 +1,15 @@
+## Interface: 70000
+
+## Title: zPets
+## Notes: Zinnin's Demonology Utilities
+## Author: Zinnin
+## X-Category: Combat
+## X-License: GPL v2
+## Version: 2.5.2a
+## SavedVariables: impframelocked, zpetsartifactpower1, zpetsartifactpower2, zpetsframeshow, allframesshow, zPetsHitCountShow, zPetsImplosionBarShow, zPetsImpendingDoomBarShow, zpetsactioncamlock, zpetshidepets, zpetshideshards, zpetshidecooldowns, zpetshidepettext
+
+zPets.lua
+zPets.xml
+zPets_GUI.xml
+zPets_HitCount.xml
+zPetsu.xml

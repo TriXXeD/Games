@@ -1,0 +1,10 @@
+
+AtlasLootCharDB = {
+	["profileKeys"] = {
+		["Fausta - Ravencrest"] = "Fausta - Ravencrest",
+	},
+	["namespaces"] = {
+		["WishList"] = {
+		},
+	},
+}

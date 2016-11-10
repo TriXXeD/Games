@@ -1,0 +1,11 @@
+
+AtlasLootCharDB = {
+	["namespaces"] = {
+		["WishList"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Eruditus - Ravencrest"] = "Eruditus - Ravencrest",
+	},
+	["AtlasLootVersion"] = "70703",
+}

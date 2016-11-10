@@ -1,0 +1,151 @@
+
+TradeSkillMaster_AdditionsDB = {
+	["char"] = {
+		["Daemonikos - Ravencrest"] = {
+			["auctionMessages"] = {
+				["A buyer has been found for your auction of Silkweed."] = "|cffffffff|Hitem:72235:0:0:0:0:0:0:588193408:90:0:0|h[Silkweed]|h|r",
+				["A buyer has been found for your auction of Royal Satchel."] = "|cffa335ee|Hitem:82446:0:0:0:0:0:0:623155200:90:0:0|h[Royal Satchel]|h|r",
+				["A buyer has been found for your auction of Snow Lily."] = "|cffffffff|Hitem:79010:0:0:0:0:0:0:595775360:90:0:0|h[Snow Lily]|h|r",
+				["A buyer has been found for your auction of Green Tea Leaf."] = "|cffffffff|Hitem:72234:0:0:0:0:0:0:1892722816:90:0:0|h[Green Tea Leaf]|h|r",
+				["A buyer has been found for your auction of Preserved Holly."] = "|cff1eff00|Hitem:21213:0:0:0:0:0:0:1280372736:90:0:0|h[Preserved Holly]|h|r",
+				["A buyer has been found for your auction of Fool's Cap."] = "|cffffffff|Hitem:79011:0:0:0:0:0:0:588193408:90:0:0|h[Fool's Cap]|h|r",
+				["A buyer has been found for your auction of Rain Poppy."] = "|cffffffff|Hitem:72237:0:0:0:0:0:0:459594112:90:0:0|h[Rain Poppy]|h|r",
+			},
+			["auctionPrices"] = {
+				["|cffffffff|Hitem:72234:0:0:0:0:0:0:2036735744:90:0:0|h[Green Tea Leaf]|h|r"] = {
+					236000, -- [1]
+				},
+				["|cffffffff|Hitem:72234:0:0:0:0:0:0:1746492544:90:0:0|h[Green Tea Leaf]|h|r"] = {
+					236000, -- [1]
+				},
+				["|cffffffff|Hitem:72237:0:0:0:0:0:0:1631403520:90:0:0|h[Rain Poppy]|h|r"] = {
+					248000, -- [1]
+				},
+				["|cffffffff|Hitem:72234:0:0:0:0:0:0:407254528:90:0:0|h[Green Tea Leaf]|h|r"] = {
+					236000, -- [1]
+				},
+				["|cffffffff|Hitem:72235:0:0:0:0:0:0:2036735744:90:0:0|h[Silkweed]|h|r"] = {
+					212000, -- [1]
+					212000, -- [2]
+					212000, -- [3]
+					212000, -- [4]
+				},
+				["|cffffffff|Hitem:72234:0:0:0:0:0:0:352016896:90:0:0|h[Green Tea Leaf]|h|r"] = {
+					236000, -- [1]
+				},
+				["|cffa335ee|Hitem:82446:0:0:0:0:0:0:602390656:90:0:0|h[Royal Satchel]|h|r"] = {
+					29590000, -- [1]
+				},
+				["|cffffffff|Hitem:72237:0:0:0:0:0:0:1593199488:90:0:0|h[Rain Poppy]|h|r"] = {
+					248000, -- [1]
+				},
+				["|cffffffff|Hitem:72235:0:0:0:0:0:0:1580374400:90:0:0|h[Silkweed]|h|r"] = {
+					212000, -- [1]
+				},
+				["|cffffffff|Hitem:72234:0:0:0:0:0:0:588193408:90:0:0|h[Green Tea Leaf]|h|r"] = {
+					236000, -- [1]
+				},
+				["|cffffffff|Hitem:72237:0:0:0:0:0:0:1363906688:90:0:0|h[Rain Poppy]|h|r"] = {
+					248000, -- [1]
+				},
+				["|cffffffff|Hitem:72237:0:0:0:0:0:0:588193408:90:0:0|h[Rain Poppy]|h|r"] = {
+					248000, -- [1]
+					248000, -- [2]
+				},
+				["|cffffffff|Hitem:72235:0:0:0:0:0:0:384817536:90:0:0|h[Silkweed]|h|r"] = {
+					212000, -- [1]
+				},
+				["|cffffffff|Hitem:79010:0:0:0:0:0:0:1432254336:90:0:0|h[Snow Lily]|h|r"] = {
+					240000, -- [1]
+				},
+				["|cffffffff|Hitem:72234:0:0:0:0:0:0:1398347776:90:0:0|h[Green Tea Leaf]|h|r"] = {
+					236000, -- [1]
+				},
+				["|cff1eff00|Hitem:21213:0:0:0:0:0:0:1280372736:90:0:0|h[Preserved Holly]|h|r"] = {
+					999000, -- [1]
+					999000, -- [2]
+					999000, -- [3]
+					999000, -- [4]
+					999000, -- [5]
+					999000, -- [6]
+					999000, -- [7]
+					999000, -- [8]
+					999000, -- [9]
+					999000, -- [10]
+					999000, -- [11]
+					999000, -- [12]
+				},
+				["|cffffffff|Hitem:72234:0:0:0:0:0:0:769222400:90:0:0|h[Green Tea Leaf]|h|r"] = {
+					236000, -- [1]
+				},
+				["|cffffffff|Hitem:79010:0:0:0:0:0:0:2036735744:90:0:0|h[Snow Lily]|h|r"] = {
+					240000, -- [1]
+				},
+				["|cffffffff|Hitem:72235:0:0:0:0:0:0:595775360:90:0:0|h[Silkweed]|h|r"] = {
+					212000, -- [1]
+				},
+				["|cffffffff|Hitem:72234:0:0:0:0:0:0:2050758144:90:0:0|h[Green Tea Leaf]|h|r"] = {
+					236000, -- [1]
+				},
+				["|cffffffff|Hitem:72234:0:0:0:0:0:0:1353601536:90:0:0|h[Green Tea Leaf]|h|r"] = {
+					236000, -- [1]
+				},
+				["|cffffffff|Hitem:79010:0:0:0:0:0:0:61501056:90:0:0|h[Snow Lily]|h|r"] = {
+					240000, -- [1]
+				},
+				["|cffffffff|Hitem:72234:0:0:0:0:0:0:752326912:90:0:0|h[Green Tea Leaf]|h|r"] = {
+					236000, -- [1]
+				},
+				["|cffffffff|Hitem:79011:0:0:0:0:0:0:588193408:90:0:0|h[Fool's Cap]|h|r"] = {
+					284000, -- [1]
+					284000, -- [2]
+				},
+				["|cffa335ee|Hitem:82446:0:0:0:0:0:0:623155200:90:0:0|h[Royal Satchel]|h|r"] = {
+					29590000, -- [1]
+				},
+				["|cffffffff|Hitem:72234:0:0:0:0:0:0:2018726656:90:0:0|h[Green Tea Leaf]|h|r"] = {
+					236000, -- [1]
+				},
+				["|cffffffff|Hitem:79010:0:0:0:0:0:0:451451008:90:0:0|h[Snow Lily]|h|r"] = {
+					240000, -- [1]
+				},
+				["|cffffffff|Hitem:72237:0:0:0:0:0:0:459594112:90:0:0|h[Rain Poppy]|h|r"] = {
+					248000, -- [1]
+				},
+				["|cffffffff|Hitem:72234:0:0:0:0:0:0:1495562880:90:0:0|h[Green Tea Leaf]|h|r"] = {
+					236000, -- [1]
+				},
+				["|cffffffff|Hitem:72234:0:0:0:0:0:0:1293208320:90:0:0|h[Green Tea Leaf]|h|r"] = {
+					236000, -- [1]
+				},
+				["|cffffffff|Hitem:72235:0:0:0:0:0:0:588193408:90:0:0|h[Silkweed]|h|r"] = {
+					212000, -- [1]
+					212000, -- [2]
+					212000, -- [3]
+				},
+				["|cffffffff|Hitem:79011:0:0:0:0:0:0:2036735744:90:0:0|h[Fool's Cap]|h|r"] = {
+					284000, -- [1]
+					284000, -- [2]
+				},
+				["|cffffffff|Hitem:72234:0:0:0:0:0:0:574721024:90:0:0|h[Green Tea Leaf]|h|r"] = {
+					236000, -- [1]
+				},
+				["|cffffffff|Hitem:72234:0:0:0:0:0:0:1892722816:90:0:0|h[Green Tea Leaf]|h|r"] = {
+					236000, -- [1]
+				},
+				["|cffffffff|Hitem:72234:0:0:0:0:0:0:803261696:90:0:0|h[Green Tea Leaf]|h|r"] = {
+					236000, -- [1]
+				},
+				["|cffffffff|Hitem:72237:0:0:0:0:0:0:1293208320:90:0:0|h[Rain Poppy]|h|r"] = {
+					248000, -- [1]
+				},
+				["|cffffffff|Hitem:79010:0:0:0:0:0:0:595775360:90:0:0|h[Snow Lily]|h|r"] = {
+					240000, -- [1]
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Daemonikos - Ravencrest"] = "Default",
+	},
+}

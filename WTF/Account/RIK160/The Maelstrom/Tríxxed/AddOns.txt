@@ -1,0 +1,2 @@
+StufRaid_Options: disabled
+StufRaid: disabled

@@ -1,0 +1,84 @@
+
+AmrBagItems = {
+	"|cff0070dd|Hitem:57277:0:0:0:0:0:0:1508407680:82:0:0|h[Crown of Chelonian Freedom]|h|r", -- [1]
+	"|cffffffff|Hitem:41808:0:0:0:0:0:0:2040590208:82:0:0|h[Bonescale Snapper]|h|r", -- [2]
+	"|cffffffff|Hitem:41808:0:0:0:0:0:0:-2068105344:82:0:0|h[Bonescale Snapper]|h|r", -- [3]
+	"|cffffffff|Hitem:60835:0:0:0:0:0:0:1873599360:82:0:0|h[Depleted Totem]|h|r", -- [4]
+	"|cffffffff|Hitem:41808:0:0:0:0:0:0:306017052:82:0:0|h[Bonescale Snapper]|h|r", -- [5]
+	"|cffa335ee|Hitem:40139:0:0:0:0:0:0:183013072:82:0:0|h[Defender's Dreadstone]|h|r", -- [6]
+	"|cff0070dd|Hitem:36930:0:0:0:0:0:0:1811471360:82:0:0|h[Monarch Topaz]|h|r", -- [7]
+	"|cff1eff00|Hitem:52179:0:0:0:0:0:0:-1834039296:82:0:0|h[Alicite]|h|r", -- [8]
+	"|cff1eff00|Hitem:52182:0:0:0:0:0:0:2045679744:82:0:0|h[Jasper]|h|r", -- [9]
+	"|cffffffff|Hitem:52327:0:0:0:0:0:0:-1682273280:82:0:0|h[Volatile Earth]|h|r", -- [10]
+	"|cff1eff00|Hitem:51950:0:0:0:0:0:0:974723904:82:0:0|h[Pyrium Bar]|h|r", -- [11]
+	"|cff1eff00|Hitem:52177:0:0:0:0:0:0:1402094336:82:0:0|h[Carnelian]|h|r", -- [12]
+	"|cff9d9d9d|Hitem:45254:0:0:0:0:0:0:907946944:82:0:0|h[Sigil of the Vengeful Heart]|h|r", -- [13]
+	"|cffffffff|Hitem:52185:0:0:0:0:0:0:1581727104:82:0:0|h[Elementium Ore]|h|r", -- [14]
+	"|cffffffff|Hitem:52185:0:0:0:0:0:0:793690400:82:0:0|h[Elementium Ore]|h|r", -- [15]
+	"|cffffffff|Hitem:52185:0:0:0:0:0:0:1472107520:82:0:0|h[Elementium Ore]|h|r", -- [16]
+	"|cffffffff|Hitem:52185:0:0:0:0:0:0:-1983025536:82:0:0|h[Elementium Ore]|h|r", -- [17]
+	"|cffffffff|Hitem:52185:0:0:0:0:0:0:-1561585536:82:0:0|h[Elementium Ore]|h|r", -- [18]
+	"|cffffffff|Hitem:52185:0:0:0:0:0:0:1114579904:82:0:0|h[Elementium Ore]|h|r", -- [19]
+	"|cffffffff|Hitem:52185:0:0:0:0:0:0:1861858432:82:0:0|h[Elementium Ore]|h|r", -- [20]
+	"|cffffffff|Hitem:52185:0:0:0:0:0:0:2105136384:82:0:0|h[Elementium Ore]|h|r", -- [21]
+	"|cffffffff|Hitem:52185:0:0:0:0:0:0:1420231552:82:0:0|h[Elementium Ore]|h|r", -- [22]
+	"|cffffffff|Hitem:52185:0:0:0:0:0:0:1488212480:82:0:0|h[Elementium Ore]|h|r", -- [23]
+	"|cffffffff|Hitem:58258:0:0:0:0:0:0:581494080:82:0:0|h[Smoked String Cheese]|h|r", -- [24]
+	"|cff1eff00|Hitem:52180:0:0:0:0:0:0:521941408:82:0:0|h[Nightstone]|h|r", -- [25]
+	"|cff1eff00|Hitem:52178:0:0:0:0:0:0:790376864:82:0:0|h[Zephyrite]|h|r", -- [26]
+	"|cff1eff00|Hitem:52181:0:0:0:0:0:0:827553280:82:0:0|h[Hessonite]|h|r", -- [27]
+	"|cff0070dd|Hitem:52193:0:0:0:0:0:0:1938965248:82:0:0|h[Ember Topaz]|h|r", -- [28]
+	"|cff0070dd|Hitem:52195:0:0:0:0:0:0:623785360:82:0:0|h[Amberjewel]|h|r", -- [29]
+	"|cffffffff|Hitem:53038:0:0:0:0:0:0:1300813632:82:0:0|h[Obsidium Ore]|h|r", -- [30]
+	"|cff1eff00|Hitem:90883:0:0:0:0:0:0:357940080:82:0:0|h[The Pigskin]|h|r", -- [31]
+	"|cffffffff|Hitem:21309:0:0:0:0:0:0:1871539328:82:0:0|h[Snowman Kit]|h|r", -- [32]
+	"|cff1eff00|Hitem:90888:0:0:0:0:0:0:626375536:82:0:0|h[Foot Ball]|h|r", -- [33]
+	"|cffffffff|Hitem:52716:0:0:0:0:0:0:2139605248:82:0:0|h[Twilight Firelance]|h|r", -- [34]
+	"|cff1eff00|Hitem:52183:0:0:0:0:0:0:1210994944:82:0:0|h[Pyrite Ore]|h|r", -- [35]
+	"|cffffffff|Hitem:20815:0:0:0:0:0:0:0:82:0:0|h[Jeweler's Kit]|h|r", -- [36]
+	"|cffa335ee|Hitem:40718:0:0:0:0:0:0:0:82:0:0|h[Signet of the Impregnable Fortress]|h|r", -- [37]
+	"|cffa335ee|Hitem:37620:3850:0:0:0:0:0:2080317184:82:0:0|h[Bracers of the Herald]|h|r", -- [38]
+	"|cffa335ee|Hitem:45338:3822:3454:3454:0:0:0:313046916:82:0:0|h[Valorous Darkruned Legguards]|h|r", -- [39]
+	"|cffa335ee|Hitem:45696:0:0:0:0:0:0:1118152000:82:0:0|h[Mark of the Unyielding]|h|r", -- [40]
+	"|cff1eff00|Hitem:57290:0:0:0:0:0:0:2144318080:82:0:0|h[Druidic Guardian Plate]|h|r", -- [41]
+	"|cffa335ee|Hitem:46119:3253:3293:0:0:0:0:-1620910848:82:0:0|h[Conqueror's Darkruned Handguards]|h|r", -- [42]
+	"|cff1eff00|Hitem:55546:0:0:0:0:0:-45:551747850:82:0:0|h[Fargodeep Pauldrons of the Champion]|h|r", -- [43]
+	"|cffffffff|Hitem:6948:0:0:0:0:0:0:144662016:82:0:0|h[Hearthstone]|h|r", -- [44]
+	"|cff9d9d9d|Hitem:20824:0:0:0:0:0:0:0:82:0:0|h[Simple Grinder]|h|r", -- [45]
+	"|cffffffff|Hitem:2901:0:0:0:0:0:0:0:82:0:0|h[Mining Pick]|h|r", -- [46]
+	"|cffa335ee|Hitem:49116:0:0:0:0:0:0:780010752:82:0:0|h[Bitter Balebrew Charm]|h|r", -- [47]
+	"|cff0070dd|Hitem:52720:0:0:0:0:0:0:1771610624:82:0:0|h[Small Heavenly Shard]|h|r", -- [48]
+	"|cffa335ee|Hitem:47882:0:0:0:0:0:0:1833977856:82:0:0|h[Eitrigg's Oath]|h|r", -- [49]
+}
+AmrBankItems = {
+}
+AmrEquipedItems = {
+	["1"] = "|cffe6cc80|Hitem:69887:0:0:0:0:0:0:0:82:0:0|h[Burnished Helm of Might]|h|r",
+	["14"] = "|cff0070dd|Hitem:55266:0:0:0:0:0:0:670866624:82:0:0|h[Grace of the Herald]|h|r",
+	["3"] = "|cff1eff00|Hitem:57360:0:0:0:0:0:0:1005353664:82:0:0|h[Shoulderguards of Empty Memory]|h|r",
+	["2"] = "|cff1eff00|Hitem:57374:0:0:0:0:0:0:688290624:82:0:0|h[Choker of Lo'Gosh]|h|r",
+	["5"] = "|cff0070dd|Hitem:57264:0:0:0:0:0:0:469072896:82:0:0|h[Chestplate of Viridian Renewal]|h|r",
+	["4"] = "|cffffffff|Hitem:18231:0:0:0:0:0:0:1784404480:82:0:0|h[Sleeveless T-Shirt]|h|r",
+	["7"] = "|cff1eff00|Hitem:57312:0:0:0:0:0:0:189469344:82:0:0|h[Discarded Juggernaut Plating]|h|r",
+	["6"] = "|cff0070dd|Hitem:57268:0:0:0:0:0:0:295950176:82:0:0|h[Forgemaster's Shattered Shackle]|h|r",
+	["9"] = "|cff1eff00|Hitem:57303:0:0:0:0:0:0:513073824:82:0:0|h[Heatbinder Wristplates]|h|r",
+	["15"] = "|cff1eff00|Hitem:57348:0:0:0:0:0:0:656575488:82:0:0|h[Flameward Cloak]|h|r",
+	["16"] = "|cff1eff00|Hitem:57294:3847:0:0:0:0:0:758894528:82:0:0|h[Poisonfire Greatsword]|h|r",
+	["8"] = "|cff0070dd|Hitem:57260:0:0:0:0:0:0:1350398464:82:0:0|h[Nemesis Crushers]|h|r",
+	["13"] = "|cffa335ee|Hitem:42987:0:0:0:0:0:0:1929785856:82:0:0|h[Darkmoon Card: Greatness]|h|r",
+	["12"] = "|cff1eff00|Hitem:57383:0:0:0:0:0:0:2085004544:82:0:0|h[Sharptooth Signet]|h|r",
+	["11"] = "|cff1eff00|Hitem:57335:0:0:0:0:0:0:1624941824:82:0:0|h[Signet of Fragrant Summoning]|h|r",
+	["10"] = "|cff1eff00|Hitem:57320:0:0:0:0:0:0:1939780864:82:0:0|h[Embercrusher Grips]|h|r",
+}
+AmrGold = 11013155
+AmrRealmName = "Thunderhorn"
+AmrCharacterName = "Odeysseus"
+AmrIconInfo = {
+}
+AmrCurrencies = {
+	[395] = 104,
+	[392] = 157,
+	[81] = 4,
+	[241] = 3,
+	[61] = 3,
+}

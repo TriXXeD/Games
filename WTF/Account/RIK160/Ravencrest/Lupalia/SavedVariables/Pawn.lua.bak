@@ -1,0 +1,9 @@
+
+PawnOptions = {
+	["LastPlayerFullName"] = "Lupalia-Ravencrest",
+	["LastKeybindingsSet"] = 1,
+}
+PawnWowheadScaleProviderOptions = {
+	["LastClass"] = "ROGUE",
+	["LastAdded"] = 3,
+}

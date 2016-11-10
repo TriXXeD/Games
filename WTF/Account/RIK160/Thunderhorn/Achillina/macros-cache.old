@@ -1,0 +1,7 @@
+VER 3 0100000000000001 "k" "Ability_Creature_Cursed_02"
+/kiss
+END
+VER 3 010000000000000F "ZGVMacro2" "Ability_Priest_HeavanlyVoice"
+/target Patch
+/run ZGV:MagicRaidMarker()
+END

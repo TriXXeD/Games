@@ -1,0 +1,209 @@
+
+AmrBagItems = {
+	"|cffa335ee|Hitem:86776:0:0:0:0:0:0:1927407744:90:0:445|h[Amulet of the Hidden Kings]|h|r", -- [1]
+	"|cffffffff|Hitem:74837:0:0:0:0:0:0:1991805440:90:0:0|h[Raw Turtle Meat]|h|r", -- [2]
+	"|cffffffff|Hitem:75014:0:0:0:0:0:0:1564531200:90:0:0|h[Raw Crocolisk Belly]|h|r", -- [3]
+	"|cffffffff|Hitem:6657:0:0:0:0:0:0:34068300:90:0:0|h[Savory Deviate Delight]|h|r", -- [4]
+	"|cffffffff|Hitem:72120:0:0:0:0:0:0:758291968:90:0:0|h[Exotic Leather]|h|r", -- [5]
+	"|cffffffff|Hitem:72162:0:0:0:0:0:0:1788690560:90:0:0|h[Sha-Touched Leather]|h|r", -- [6]
+	"|cffffffff|Hitem:79101:0:0:0:0:0:0:1993160064:90:0:0|h[Prismatic Scale]|h|r", -- [7]
+	"|cffffffff|Hitem:72988:0:0:0:0:0:0:-1823208704:90:0:0|h[Windwool Cloth]|h|r", -- [8]
+	"|cffffffff|Hitem:79030:0:0:0:0:0:0:748471248:90:0:0|h[Honeycomb]|h|r", -- [9]
+	"|cffffffff|Hitem:81404:0:0:0:0:0:0:1038360384:90:0:0|h[Dried Needle Mushrooms]|h|r", -- [10]
+	"|cffffffff|Hitem:86143:0:0:0:0:0:0:1808993280:90:0:0|h[Battle Pet Bandage]|h|r", -- [11]
+	"|cff1eff00|Hitem:43626:0:0:0:0:0:0:2022856704:90:0:0|h[Happy Pet Snack]|h|r", -- [12]
+	"|cff0070dd|Hitem:81286:0:0:0:0:0:0:1622340352:90:0:451|h[Ner'onok's Razor Katar]|h|r", -- [13]
+	"|cffff8000|Hitem:87208:0:0:0:0:0:0:892516736:90:0:0|h[Sigil of Power]|h|r", -- [14]
+	"|cffffffff|Hitem:91838:0:0:0:0:0:0:1134200704:90:0:0|h[Lion's Landing Commission]|h|r", -- [15]
+	"|cffffffff|Hitem:74849:0:0:0:0:0:0:137511936:90:0:0|h[Pink Turnip]|h|r", -- [16]
+	"|cffffffff|Hitem:74848:0:0:0:0:0:0:1745274624:90:0:0|h[Striped Melon]|h|r", -- [17]
+	"|cffffffff|Hitem:74839:0:0:0:0:0:0:1932371968:90:0:0|h[Wildfowl Breast]|h|r", -- [18]
+	"|cffffffff|Hitem:74840:0:0:0:0:0:0:122475176:90:0:0|h[Green Cabbage]|h|r", -- [19]
+	"|cffffffff|Hitem:74844:0:0:0:0:0:0:22345096:90:0:0|h[Red Blossom Leek]|h|r", -- [20]
+	"|cffffffff|Hitem:74842:0:0:0:0:0:0:105564832:90:0:0|h[Mogu Pumpkin]|h|r", -- [21]
+	"|cffffffff|Hitem:74846:0:0:0:0:0:0:1144440320:90:0:0|h[Witchberries]|h|r", -- [22]
+	"|cffffffff|Hitem:74843:0:0:0:0:0:0:1448907392:90:0:0|h[Scallions]|h|r", -- [23]
+	"|cffffffff|Hitem:74847:0:0:0:0:0:0:854379456:90:0:0|h[Jade Squash]|h|r", -- [24]
+	"|cffffffff|Hitem:74850:0:0:0:0:0:0:1142223360:90:0:0|h[White Turnip]|h|r", -- [25]
+	"|cffffffff|Hitem:74833:0:0:0:0:0:0:435977072:90:0:0|h[Raw Tiger Steak]|h|r", -- [26]
+	"|cffffffff|Hitem:75014:0:0:0:0:0:0:1941757824:90:0:0|h[Raw Crocolisk Belly]|h|r", -- [27]
+	"|cffffffff|Hitem:91861:0:0:0:0:0:0:185933632:90:0:0|h[Thunder Bluff Portal Shard]|h|r", -- [28]
+	"|cffffffff|Hitem:74866:0:0:0:0:0:0:-1555741312:90:0:0|h[Golden Carp]|h|r", -- [29]
+	"|cffffffff|Hitem:74859:0:0:0:0:0:0:1631906176:90:0:0|h[Emperor Salmon]|h|r", -- [30]
+	"|cffffffff|Hitem:74838:0:0:0:0:0:0:1244668864:90:0:0|h[Raw Crab Meat]|h|r", -- [31]
+	"|cffffffff|Hitem:85506:0:0:0:0:0:0:1176406816:90:0:0|h[Viseclaw Meat]|h|r", -- [32]
+	"|cffffffff|Hitem:74655:0:0:0:0:0:0:206548320:90:0:0|h[Twin Fish Platter]|h|r", -- [33]
+	"|cffffffff|Hitem:74837:0:0:0:0:0:0:612328128:90:0:0|h[Raw Turtle Meat]|h|r", -- [34]
+	"|cffffffff|Hitem:74834:0:0:0:0:0:0:-1863612672:90:0:0|h[Mushan Ribs]|h|r", -- [35]
+	"|cffffffff|Hitem:74834:0:0:0:0:0:0:938771328:90:0:0|h[Mushan Ribs]|h|r", -- [36]
+	"|cffffffff|Hitem:74834:0:0:0:0:0:0:-2004636928:90:0:0|h[Mushan Ribs]|h|r", -- [37]
+	"|cffffffff|Hitem:74654:0:0:0:0:0:0:1053455040:90:0:0|h[Wildfowl Roast]|h|r", -- [38]
+	"|cffffffff|Hitem:81405:0:0:0:0:0:0:1443664256:90:0:0|h[Boiled Silkworm Pupa]|h|r", -- [39]
+	"|cffffffff|Hitem:74643:0:0:0:0:0:0:1290181632:90:0:0|h[Sauteed Carrots]|h|r", -- [40]
+	"|cffffffff|Hitem:74647:0:0:0:0:0:0:289688512:90:0:0|h[Valley Stir Fry]|h|r", -- [41]
+	"|cff1eff00|Hitem:71083:0:0:0:0:0:0:1798050176:90:0:0|h[Darkmoon Game Token]|h|r", -- [42]
+	"|cffffffff|Hitem:72985:0:0:0:0:0:0:1415411584:90:0:0|h[Windwool Bandage]|h|r", -- [43]
+	"|cffffffff|Hitem:72986:0:0:0:0:0:0:46984260:90:0:0|h[Heavy Windwool Bandage]|h|r", -- [44]
+	"|cffffffff|Hitem:87903:0:0:0:0:0:0:1624199168:90:0:0|h[Dread Amber Shards]|h|r", -- [45]
+	"|cffffffff|Hitem:75037:0:0:0:0:0:0:1586612992:90:0:0|h[Jade Witch Brew]|h|r", -- [46]
+	"|cffffffff|Hitem:74642:0:0:0:0:0:0:520360096:90:0:0|h[Charbroiled Tiger Steak]|h|r", -- [47]
+	"|cff0070dd|Hitem:33820:0:0:0:0:0:0:-1842366208:90:0:0|h[Weather-Beaten Fishing Hat]|h|r", -- [48]
+	"|cffa335ee|Hitem:43348:0:0:0:0:0:0:1769179904:90:0:0|h[Tabard of the Explorer]|h|r", -- [49]
+	"|cff0070dd|Hitem:76061:0:0:0:0:0:0:528826912:90:0:0|h[Spirit of Harmony]|h|r", -- [50]
+	"|cffffffff|Hitem:89112:0:0:0:0:0:0:1656111360:90:0:0|h[Mote of Harmony]|h|r", -- [51]
+	"|cffa335ee|Hitem:86547:0:0:0:0:0:0:308923992:90:0:0|h[Skyshard]|h|r", -- [52]
+	"|cffffffff|Hitem:7005:0:0:0:0:0:0:0:90:0:0|h[Skinning Knife]|h|r", -- [53]
+	"|cff1eff00|Hitem:19022:0:0:0:0:0:0:286638369:90:0:0|h[Nat Pagle's Extreme Angler FC-5000]|h|r", -- [54]
+	"|cffffffff|Hitem:6948:0:0:0:0:0:0:0:90:0:0|h[Hearthstone]|h|r", -- [55]
+}
+AmrBankItems = {
+	"|cffffffff|Hitem:88385:0:0:0:0:0:0:945821376:90:0:0|h[Hozen Idol]|h|r", -- [1]
+	"|cff0070dd|Hitem:46709:0:0:0:0:0:0:792347392:90:0:0|h[MiniZep Controller]|h|r", -- [2]
+	"|cff1eff00|Hitem:18706:0:0:0:0:0:0:1737833088:90:0:0|h[Arena Master]|h|r", -- [3]
+	"|cffffffff|Hitem:5060:0:0:0:0:0:0:0:90:0:0|h[Thieves' Tools]|h|r", -- [4]
+	"|cffa335ee|Hitem:70607:0:0:0:0:0:0:0:90:0:0|h[Vicious Gladiator's Medallion of Tenacity]|h|r", -- [5]
+	"|cffffffff|Hitem:12846:0:0:0:0:0:0:1222675328:90:0:0|h[Argent Dawn Commission]|h|r", -- [6]
+	"|cff0070dd|Hitem:68778:0:0:0:0:0:0:182648512:90:0:0|h[Agile Shadowspirit Diamond]|h|r", -- [7]
+	"|cffffffff|Hitem:52766:0:0:0:0:0:0:889460672:90:0:0|h[Enchant Bracer - Precision]|h|r", -- [8]
+	"|cffffffff|Hitem:88384:0:0:0:0:0:0:466002336:90:0:0|h[Burlap Ritual Bag]|h|r", -- [9]
+	"|cff0070dd|Hitem:52720:0:0:0:0:0:0:-2104360192:90:0:0|h[Small Heavenly Shard]|h|r", -- [10]
+	"|cffffffff|Hitem:44987:0:0:0:0:0:0:1595984640:90:0:0|h[Valiant's Seal]|h|r", -- [11]
+	"|cffffffff|Hitem:21745:0:0:0:0:0:0:530214224:90:0:0|h[Elder's Moonstone]|h|r", -- [12]
+	"|cff1eff00|Hitem:21213:0:0:0:0:0:0:1280372736:90:0:0|h[Preserved Holly]|h|r", -- [13]
+	"|cffffffff|Hitem:21309:0:0:0:0:0:0:847801152:90:0:0|h[Snowman Kit]|h|r", -- [14]
+	"|cffffffff|Hitem:21308:0:0:0:0:0:0:1175020928:90:0:0|h[Jingling Bell]|h|r", -- [15]
+	"|cff1eff00|Hitem:63128:0:0:0:0:0:0:1030450560:90:0:0|h[Troll Tablet]|h|r", -- [16]
+	"|cffffffff|Hitem:21100:0:0:0:0:0:0:1633756032:90:0:0|h[Coin of Ancestry]|h|r", -- [17]
+	"|cffffffff|Hitem:88579:0:0:0:0:0:0:1228678784:90:0:0|h[Jin Warmkeg's Brew]|h|r", -- [18]
+	"|cff0070dd|Hitem:33927:0:0:0:0:0:0:0:90:0:0|h[Brewfest Pony Keg]|h|r", -- [19]
+	"|cffffffff|Hitem:21539:0:0:0:0:0:0:0:90:0:0|h[Festive Purple Dress]|h|r", -- [20]
+	"|cffffffff|Hitem:82467:0:0:0:0:0:0:996690752:90:0:0|h[Ruthers' Harness]|h|r", -- [21]
+	"|cffffffff|Hitem:21157:0:0:0:0:0:0:0:90:0:0|h[Festive Green Dress]|h|r", -- [22]
+	"|cff0070dd|Hitem:64361:0:0:0:0:0:0:1120237568:90:0:0|h[Druid and Priest Statue Set]|h|r", -- [23]
+	"|cff1eff00|Hitem:23192:0:0:0:0:0:0:-1940637056:90:0:0|h[Tabard of the Scarlet Crusade]|h|r", -- [24]
+	"|cffffffff|Hitem:34087:0:0:0:0:0:0:207521568:90:0:0|h[Green Winter Clothes]|h|r", -- [25]
+	"|cffffffff|Hitem:88381:0:0:0:0:0:0:1888349568:90:0:0|h[Silversage Incense]|h|r", -- [26]
+	"|cff1eff00|Hitem:52843:0:0:0:0:0:0:753807328:90:0:0|h[Dwarf Rune Stone]|h|r", -- [27]
+	"|cff1eff00|Hitem:63127:0:0:0:0:0:0:623472872:90:0:0|h[Highborne Scroll]|h|r", -- [28]
+	"|cff1eff00|Hitem:21524:0:0:0:0:0:0:1142668800:90:0:0|h[Red Winter Hat]|h|r", -- [29]
+	"|cffffffff|Hitem:72988:0:0:0:0:0:0:1341327104:90:0:0|h[Windwool Cloth]|h|r", -- [30]
+	"|cffffffff|Hitem:72988:0:0:0:0:0:0:-1885701632:90:0:0|h[Windwool Cloth]|h|r", -- [31]
+	"|cffffffff|Hitem:72988:0:0:0:0:0:0:1188134464:90:0:0|h[Windwool Cloth]|h|r", -- [32]
+	"|cffffffff|Hitem:72988:0:0:0:0:0:0:1052322432:90:0:0|h[Windwool Cloth]|h|r", -- [33]
+	"|cffffffff|Hitem:72988:0:0:0:0:0:0:1080260416:90:0:0|h[Windwool Cloth]|h|r", -- [34]
+	"|cffffffff|Hitem:72988:0:0:0:0:0:0:371769592:90:0:0|h[Windwool Cloth]|h|r", -- [35]
+	"|cffffffff|Hitem:72988:0:0:0:0:0:0:-2010875264:90:0:0|h[Windwool Cloth]|h|r", -- [36]
+	"|cffa335ee|Hitem:71047:4209:4251:4008:0:0:0:0:90:0:0|h[Dark Phoenix Helmet]|h|r", -- [37]
+	"|cffa335ee|Hitem:69951:4094:3996:0:0:0:0:911380992:90:0:0|h[Treads of the Craft]|h|r", -- [38]
+	"|cffa335ee|Hitem:71314:4063:3996:3996:0:0:0:940917760:90:0:0|h[Breastplate of the Incendiary Soul]|h|r", -- [39]
+	"|cffa335ee|Hitem:71131:0:3987:3996:0:0:0:0:90:0:0|h[Flamebinding Girdle]|h|r", -- [40]
+	"|cffa335ee|Hitem:71048:4126:3996:3987:0:0:0:0:90:0:0|h[Dark Phoenix Legguards]|h|r", -- [41]
+	"|cffa335ee|Hitem:71049:0:0:0:0:0:0:0:90:0:0|h[Dark Phoenix Spaulders]|h|r", -- [42]
+	"|cffa335ee|Hitem:71130:4190:0:0:0:0:0:0:90:161:0|h[Flamebinder Bracers]|h|r", -- [43]
+	"|cffa335ee|Hitem:62417:4082:4008:0:0:0:0:0:90:144:0|h[Liar's Handwraps]|h|r", -- [44]
+	"|cffa335ee|Hitem:70992:0:4012:4008:0:0:0:2008955648:90:138:0|h[Dreadfire Drape]|h|r", -- [45]
+	"|cffa335ee|Hitem:71456:4205:3996:0:0:0:0:-2043560064:90:140:0|h[Shoulderpads of the Forgotten Gate]|h|r", -- [46]
+	"|cffa335ee|Hitem:16910:0:0:0:0:0:0:1534367872:90:0:0|h[Bloodfang Belt]|h|r", -- [47]
+	"|cffa335ee|Hitem:16909:0:0:0:0:0:0:-1018751872:90:0:0|h[Bloodfang Pants]|h|r", -- [48]
+	"|cffa335ee|Hitem:16911:0:0:0:0:0:0:578841536:90:0:0|h[Bloodfang Bracers]|h|r", -- [49]
+	"|cffa335ee|Hitem:69210:0:0:0:0:0:0:0:90:0:0|h[Renowned Guild Tabard]|h|r", -- [50]
+	"|cff0070dd|Hitem:52211:0:0:0:0:0:0:1003396096:90:0:0|h[Deft Ember Topaz]|h|r", -- [51]
+	"|cffa335ee|Hitem:47887:3252:3527:3519:0:0:0:847279200:90:0:0|h[Vest of Shifting Shadows]|h|r", -- [52]
+	"|cffa335ee|Hitem:48239:3328:3554:3554:0:0:0:-1387573696:90:0:0|h[Garona's Legplates of Triumph]|h|r", -- [53]
+	"|cffa335ee|Hitem:48241:1603:3554:0:0:0:0:1837324048:90:0:0|h[Garona's Gauntlets of Triumph]|h|r", -- [54]
+	"|cffa335ee|Hitem:48240:3817:3621:3537:0:0:0:0:90:0:0|h[Garona's Helmet of Triumph]|h|r", -- [55]
+	"|cffa335ee|Hitem:48238:3808:3554:0:0:0:0:0:90:0:0|h[Garona's Pauldrons of Triumph]|h|r", -- [56]
+	"|cffa335ee|Hitem:16820:0:0:0:0:0:0:1616091840:90:0:0|h[Nightslayer Chestpiece]|h|r", -- [57]
+	"|cffa335ee|Hitem:16821:0:0:0:0:0:0:1261376512:90:0:0|h[Nightslayer Cover]|h|r", -- [58]
+	"|cffa335ee|Hitem:16824:0:0:0:0:0:0:-2044880128:90:0:0|h[Nightslayer Boots]|h|r", -- [59]
+	"|cffa335ee|Hitem:16826:0:0:0:0:0:0:-1565876224:90:0:0|h[Nightslayer Gloves]|h|r", -- [60]
+	"|cffffffff|Hitem:16204:0:0:0:0:0:0:1935191808:90:0:0|h[Illusion Dust]|h|r", -- [61]
+	"|cffa335ee|Hitem:50088:0:3521:0:0:0:0:861750720:90:144:0|h[Shadowblade Gauntlets]|h|r", -- [62]
+	"|cffa335ee|Hitem:50995:0:3554:3525:3525:0:0:0:90:144:0|h[Vengeful Noose]|h|r", -- [63]
+	"|cffa335ee|Hitem:50105:3808:3524:0:0:0:0:0:90:0:0|h[Shadowblade Pauldrons]|h|r", -- [64]
+	"|cffa335ee|Hitem:51923:0:3554:3525:3525:0:0:832001920:90:144:0|h[Chestguard of the Frigid Noose]|h|r", -- [65]
+	"|cffa335ee|Hitem:51187:3817:3628:3524:0:0:0:0:90:144:0|h[Sanctified Shadowblade Helmet]|h|r", -- [66]
+	"|cffffffff|Hitem:52327:0:0:0:0:0:0:1101806720:90:0:0|h[Volatile Earth]|h|r", -- [67]
+	"|cffa335ee|Hitem:71013:4099:0:0:0:0:0:936170368:90:147:0|h[Feeding Frenzy]|h|r", -- [68]
+	"|cffa335ee|Hitem:70215:4217:0:0:0:0:0:0:90:0:0|h[Ruthless Gladiator's Shiv]|h|r", -- [69]
+	"|cffa335ee|Hitem:71782:0:0:0:0:0:0:1805399424:90:0:0|h[Shatterskull Bonecrusher]|h|r", -- [70]
+	"|cffa335ee|Hitem:19352:0:0:0:0:0:0:1991287936:90:0:0|h[Chromatically Tempered Sword]|h|r", -- [71]
+	"|cff0070dd|Hitem:37863:0:0:0:0:0:0:1313809728:90:0:0|h[Direbrew's Remote]|h|r", -- [72]
+	"|cffffffff|Hitem:58087:0:0:0:0:0:0:1278382336:90:0:0|h[Flask of the Winds]|h|r", -- [73]
+	"|cffffffff|Hitem:58091:0:0:0:0:0:0:105924632:90:0:0|h[Volcanic Potion]|h|r", -- [74]
+	"|cffffffff|Hitem:58145:0:0:0:0:0:0:729042752:90:0:0|h[Potion of the Tol'vir]|h|r", -- [75]
+	"|cff1eff00|Hitem:80822:0:0:0:0:0:0:272195392:90:0:0|h[The Golden Banana]|h|r", -- [76]
+	"|cff1eff00|Hitem:12363:0:0:0:0:0:0:1773425408:90:0:0|h[Arcane Crystal]|h|r", -- [77]
+	"|cffffffff|Hitem:88580:0:0:0:0:0:0:1704903552:90:0:0|h[Ken-Ken's Mask]|h|r", -- [78]
+	"|cffffffff|Hitem:88370:0:0:0:0:0:0:616042688:90:0:0|h[Puntable Marmot]|h|r", -- [79]
+	"|cffffffff|Hitem:17012:0:0:0:0:0:0:-1575936000:90:0:0|h[Core Leather]|h|r", -- [80]
+	"|cff1eff00|Hitem:44731:0:0:0:0:0:0:-1112232320:90:0:0|h[Bouquet of Ebon Roses]|h|r", -- [81]
+	"|cffffffff|Hitem:21538:0:0:0:0:0:0:0:90:0:0|h[Festive Pink Dress]|h|r", -- [82]
+	"|cffffffff|Hitem:17712:0:0:0:0:0:0:848394591:90:0:0|h[Winter Veil Disguise Kit]|h|r", -- [83]
+	"|cffffffff|Hitem:46800:0:0:0:0:0:0:1549805568:90:0:0|h[Pilgrim's Attire]|h|r", -- [84]
+	"|cffffffff|Hitem:40110:0:0:0:0:0:0:305653952:90:0:0|h[Haunted Memento]|h|r", -- [85]
+	"|cff0070dd|Hitem:32782:0:0:0:0:0:0:1000899120:90:0:0|h[Time-Lost Figurine]|h|r", -- [86]
+	"|cffffffff|Hitem:52328:0:0:0:0:0:0:2034007552:90:0:0|h[Volatile Air]|h|r", -- [87]
+	"|cffffffff|Hitem:45582:0:0:0:0:0:0:0:90:0:0|h[Darkspear Tabard]|h|r", -- [88]
+	"|cff1eff00|Hitem:21540:0:0:0:0:0:0:34423160:90:0:0|h[Elune's Lantern]|h|r", -- [89]
+	"|cffffffff|Hitem:64884:0:0:0:0:0:0:0:90:0:0|h[Bilgewater Cartel Tabard]|h|r", -- [90]
+	"|cffffffff|Hitem:32445:0:0:0:0:0:0:0:90:0:0|h[Skyguard Tabard]|h|r", -- [91]
+	"|cffffffff|Hitem:31773:0:0:0:0:0:0:0:90:0:0|h[Mag'har Tabard]|h|r", -- [92]
+	"|cffffffff|Hitem:15197:0:0:0:0:0:0:0:90:0:0|h[Scout's Tabard]|h|r", -- [93]
+	"|cffffffff|Hitem:15199:0:0:0:0:0:0:0:90:0:0|h[Stone Guard's Herald]|h|r", -- [94]
+	"|cffa335ee|Hitem:70350:4190:0:0:0:0:0:1690424640:90:0:0|h[Ruthless Gladiator's Armwraps of Accuracy]|h|r", -- [95]
+	"|cffa335ee|Hitem:70214:4099:0:0:0:0:0:0:90:0:0|h[Ruthless Gladiator's Shanker]|h|r", -- [96]
+	"|cffa335ee|Hitem:70587:4126:3996:4022:0:0:0:0:90:0:0|h[Vicious Gladiator's Leather Legguards]|h|r", -- [97]
+	"|cffa335ee|Hitem:70663:0:4004:3996:0:0:0:0:90:137:0|h[Vicious Gladiator's Waistband of Accuracy]|h|r", -- [98]
+	"|cffa335ee|Hitem:70585:4068:4004:0:0:0:0:0:90:0:0|h[Vicious Gladiator's Leather Gloves]|h|r", -- [99]
+	"|cffa335ee|Hitem:70528:4062:4011:0:0:0:0:0:90:0:0|h[Vicious Gladiator's Boots of Cruelty]|h|r", -- [100]
+	"|cffffffff|Hitem:46723:0:0:0:0:0:0:1479939712:90:0:0|h[Pilgrim's Hat]|h|r", -- [101]
+	"|cffa335ee|Hitem:70298:4205:4011:0:0:0:0:0:90:0:0|h[Ruthless Gladiator's Leather Spaulders]|h|r", -- [102]
+	"|cffa335ee|Hitem:70294:4063:3996:4011:0:0:0:0:90:0:0|h[Ruthless Gladiator's Leather Tunic]|h|r", -- [103]
+	"|cffa335ee|Hitem:70296:4209:4251:4011:0:0:0:0:90:166:0|h[Ruthless Gladiator's Leather Helm]|h|r", -- [104]
+	"|cffa335ee|Hitem:50470:0:3537:0:0:0:0:0:90:144:0|h[Recovered Scarlet Onslaught Cape]|h|r", -- [105]
+	"|cffa335ee|Hitem:41672:3795:3625:3521:0:0:0:0:90:0:0|h[Furious Gladiator's Leather Helm]|h|r", -- [106]
+	"|cffa335ee|Hitem:41683:3852:3521:0:0:0:0:0:90:0:0|h[Furious Gladiator's Leather Spaulders]|h|r", -- [107]
+	"|cffa335ee|Hitem:42074:3256:0:0:0:0:0:0:90:0:0|h[Furious Gladiator's Cloak of Triumph]|h|r", -- [108]
+	"|cffa335ee|Hitem:41671:3795:3625:3449:0:0:0:0:90:0:0|h[Deadly Gladiator's Leather Helm]|h|r", -- [109]
+	"|cffa335ee|Hitem:41650:3245:3521:3521:0:0:0:0:90:0:0|h[Furious Gladiator's Leather Tunic]|h|r", -- [110]
+	"|cffa335ee|Hitem:41833:0:3539:3521:0:0:0:0:90:0:0|h[Relentless Gladiator's Belt of Triumph]|h|r", -- [111]
+}
+AmrEquipedItems = {
+	["1"] = "|cffa335ee|Hitem:86804:0:4656:4643:0:0:0:93567096:90:146:445|h[Crown of Opportunistic Strikes]|h|r",
+	["8"] = "|cffa335ee|Hitem:90914:0:0:0:0:0:0:513013504:90:168:445|h[Boots of Raging Haze]|h|r",
+	["3"] = "|cffa335ee|Hitem:86763:4804:4643:0:0:0:0:1335648768:90:167:445|h[Netherrealm Shoulderpads]|h|r",
+	["2"] = "|cffa335ee|Hitem:84889:0:0:0:0:0:0:1743182848:90:158:453|h[Malevolent Gladiator's Necklace of Proficiency]|h|r",
+	["5"] = "|cff0070dd|Hitem:87387:0:0:0:0:0:0:244496624:90:0:0|h[Foul Cadaverous Armor]|h|r",
+	["14"] = "|cff0070dd|Hitem:93341:0:0:0:0:0:0:0:90:0:451|h[Dominator's Deadeye Badge]|h|r",
+	["7"] = "|cff0070dd|Hitem:89661:0:0:0:0:0:0:0:90:168:451|h[Tough Mushanhide Leggings]|h|r",
+	["6"] = "|cffa335ee|Hitem:84948:0:4632:0:0:0:0:1514066304:90:0:453|h[Malevolent Gladiator's Waistband of Accuracy]|h|r",
+	["9"] = "|cff0070dd|Hitem:84460:0:0:0:0:0:0:0:90:0:456|h[Dreadful Gladiator's Armwraps of Alacrity]|h|r",
+	["15"] = "|cff0070dd|Hitem:81282:0:0:0:0:0:0:1092268480:90:139:451|h[Aerial Bombardment Cloak]|h|r",
+	["16"] = "|cffa335ee|Hitem:86741:0:0:0:0:0:0:1410230144:90:153:445|h[Dagger of the Seven Stars]|h|r",
+	["17"] = "|cff0070dd|Hitem:81088:0:0:0:0:0:0:-2056436608:90:146:451|h[Mantid Trochanter]|h|r",
+	["13"] = "|cff1eff00|Hitem:83738:0:0:0:0:0:0:98058632:90:168:0|h[Sigil of Grace]|h|r",
+	["12"] = "|cffa335ee|Hitem:93248:0:0:0:0:0:0:0:90:168:445|h[Dominator's Signet]|h|r",
+	["11"] = "|cff0070dd|Hitem:89504:0:0:0:0:0:-136:-866319431:90:165:451|h[Stormbound Ring of the Zephyr]|h|r",
+	["10"] = "|cff0070dd|Hitem:84463:0:4588:0:0:0:0:0:90:0:456|h[Dreadful Gladiator's Leather Gloves]|h|r",
+}
+AmrGold = 83525400
+AmrRealmName = "Thunderhorn"
+AmrCharacterName = "Razoi"
+AmrIconInfo = {
+}
+AmrCurrencies = {
+	[395] = 408,
+	[396] = 750,
+	[81] = 21,
+	[384] = 25,
+	[416] = 25,
+	[402] = 26,
+	[515] = 25,
+	[390] = 900,
+	[241] = 70,
+	[392] = 684,
+	[393] = 61,
+	[394] = 76,
+	[391] = 15,
+}

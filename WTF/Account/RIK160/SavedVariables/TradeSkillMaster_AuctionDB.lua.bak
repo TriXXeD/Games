@@ -1,0 +1,10 @@
+
+TradeSkillMaster_AuctionDBDB = {
+	["profileKeys"] = {
+		["Daemonikos - Ravencrest"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

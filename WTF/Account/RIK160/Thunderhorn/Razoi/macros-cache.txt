@@ -1,0 +1,40 @@
+VER 3 0100000000000010 "AR + SB + Trink" "INV_MISC_QUESTIONMARK"
+#showtooltip Adrenaline Rush
+/cast Dominator's Deadeye Badge
+/Cast Shadow Blades
+/Cast Adrenaline Rush
+END
+VER 3 0100000000000013 "Backstab" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/Startattack
+/Cast Backstab
+END
+VER 3 010000000000000C "FoK" "INV_MISC_QUESTIONMARK"
+#showtooltip Fan of Knives
+/startattack
+/cast Fan of Knives
+END
+VER 3 010000000000000F "Killing Spree" "INV_MISC_QUESTIONMARK"
+#showtooltip Killing Spree
+/cast Dominator's Deadeye Badge
+/Cast Killing Spree
+END
+VER 3 0100000000000011 "Shadow Blades" "INV_MISC_QUESTIONMARK"
+#showtooltip Shadow Blades
+/cast Dominator's Deadeye Badge
+/Cast Shadow Blades
+END
+VER 3 0100000000000012 "Shadow Dance" "INV_MISC_QUESTIONMARK"
+#showtooltip Shadow Dance
+/cast Dominator's Deadeye Badge
+/Cast Shadow Dance
+END
+VER 3 010000000000000E "Sinister Strike" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/Startattack
+/Cast Sinister Strike
+END
+VER 3 010000000000000D "ToTT" "INV_MISC_QUESTIONMARK"
+#showtooltip Tricks of the Trade
+/cast [target=shàdows, exists] Tricks of the Trade; Tricks of the Trade;
+END

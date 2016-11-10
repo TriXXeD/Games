@@ -1,0 +1,26 @@
+
+QuartzDB = {
+	["namespaces"] = {
+		["Player"] = {
+			["profiles"] = {
+				["Default"] = {
+					["x"] = 463.5057373046875,
+				},
+			},
+		},
+		["Target"] = {
+			["profiles"] = {
+				["Default"] = {
+					["x"] = 593.5057373046875,
+				},
+			},
+		},
+		["Focus"] = {
+			["profiles"] = {
+				["Default"] = {
+					["x"] = 383.5057373046875,
+				},
+			},
+		},
+	},
+}

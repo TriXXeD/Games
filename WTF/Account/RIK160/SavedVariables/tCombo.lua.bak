@@ -1,0 +1,18 @@
+
+tComboConfig = {
+	["ComboBarHeight"] = 10,
+	["ComboBarPoint"] = {
+		"CENTER", -- [1]
+		nil, -- [2]
+		"CENTER", -- [3]
+		1.00033571295851, -- [4]
+		-204.000470230659, -- [5]
+	},
+	["ComboBarWidth"] = 190,
+	["ComboHideOOC"] = false,
+	["EnergyBarEnable"] = true,
+	["EnergyFadeTime"] = 0.5,
+	["EnergyBarHeight"] = 10,
+	["ComboMinAlpha"] = 0.2,
+	["EnergyFontSize"] = 12,
+}

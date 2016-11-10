@@ -1,0 +1,5 @@
+MACRO 16777217 "Doomguard" INV_Misc_QuestionMark
+#showtooltip Ritual of Doom
+/y I Whom Dare Summon The Great Doomguard He Must OBEY ME!
+/cast Ritual of Doom
+END

@@ -1,0 +1,100 @@
+
+SkadaPerCharDB = {
+	["total"] = {
+		["healingabsorbed"] = 0,
+		["dispells"] = 0,
+		["ccbreaks"] = 0,
+		["time"] = 0,
+		["interrupts"] = 0,
+		["damage"] = 92,
+		["players"] = {
+			{
+				["healingabsorbed"] = 0,
+				["class"] = "DRUID",
+				["damaged"] = {
+				},
+				["dispells"] = 0,
+				["ccbreaks"] = 0,
+				["time"] = 0,
+				["interrupts"] = 0,
+				["damage"] = 92,
+				["damagespells"] = {
+					["Wrath"] = {
+						["DODGE"] = 0,
+						["REFLECT"] = 0,
+						["crushing"] = 0,
+						["IMMUNE"] = 0,
+						["glancing"] = 0,
+						["totalhits"] = 2,
+						["MISS"] = 0,
+						["damage"] = 92,
+						["DEFLECT"] = 0,
+						["id"] = 5176,
+						["max"] = 49,
+						["min"] = 43,
+						["PARRY"] = 0,
+						["critical"] = 0,
+						["hit"] = 2,
+						["EVADE"] = 0,
+						["RESIST"] = 0,
+						["BLOCK"] = 0,
+						["ABSORB"] = 0,
+					},
+				},
+				["damagetaken"] = 0,
+				["deathlog"] = {
+				},
+				["id"] = "0x0200000005F29CF0",
+				["power"] = {
+				},
+				["damagetakenspells"] = {
+				},
+				["overhealing"] = 0,
+				["healingspells"] = {
+				},
+				["name"] = "Chrysante",
+				["shielding"] = 0,
+				["healing"] = 0,
+				["healed"] = {
+				},
+				["auras"] = {
+				},
+				["maxhp"] = 103,
+			}, -- [1]
+		},
+		["deaths"] = 0,
+		["mobs"] = {
+			["Deer"] = {
+				["players"] = {
+					["Chrysante"] = {
+						["taken"] = 92,
+						["done"] = 0,
+						["class"] = "DRUID",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 92,
+				["done"] = 0,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+		},
+		["mobtaken"] = 92,
+		["healing"] = 0,
+		["power"] = {
+		},
+		["overhealing"] = 0,
+		["shielding"] = 0,
+		["name"] = "Total",
+		["starttime"] = 1401057387,
+		["damagetaken"] = 0,
+		["mobhdone"] = 0,
+		["last_action"] = 1401057387,
+		["mobdone"] = 0,
+	},
+	["sets"] = {
+	},
+}

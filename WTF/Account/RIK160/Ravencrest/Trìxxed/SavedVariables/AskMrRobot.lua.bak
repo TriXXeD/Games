@@ -1,0 +1,62 @@
+
+AmrBagItems = {
+	"|cffffffff|Hitem:6948:0:0:0:0:0:0:0:9:0:0|h[Hearthstone]|h|r", -- [1]
+	"|cffffffff|Hitem:16310:0:0:0:0:0:0:1716503040:9:0:0|h[Gremlock's List]|h|r", -- [2]
+	"|cffffffff|Hitem:57550:0:0:0:0:0:0:645591296:9:0:0|h[Grizzled Den Boots]|h|r", -- [3]
+	"|cffffffff|Hitem:2589:0:0:0:0:0:0:960813696:9:0:0|h[Linen Cloth]|h|r", -- [4]
+	"|cffffffff|Hitem:56009:0:0:0:0:0:0:238874880:9:0:0|h[Rune of Fire]|h|r", -- [5]
+	"|cffffffff|Hitem:769:0:0:0:0:0:0:709951744:9:0:0|h[Chunk of Boar Meat]|h|r", -- [6]
+	"|cffffffff|Hitem:3084:0:0:0:0:0:0:1931469568:9:0:0|h[Gyromechanic Gear]|h|r", -- [7]
+	"|cffffffff|Hitem:2886:0:0:0:0:0:0:709951744:9:0:0|h[Crag Boar Rib]|h|r", -- [8]
+	"|cffffffff|Hitem:117:0:0:0:0:0:0:709951744:9:0:0|h[Tough Jerky]|h|r", -- [9]
+}
+AmrBankItems = {
+}
+AmrEquipedItems = {
+	["1"] = "|cffe6cc80|Hitem:61937:0:0:0:0:0:0:0:9:0:0|h[Stained Shadowcraft Cap]|h|r",
+	["3"] = "|cffe6cc80|Hitem:42952:0:0:0:0:0:0:0:9:0:0|h[Stained Shadowcraft Spaulders]|h|r",
+	["5"] = "|cffe6cc80|Hitem:48689:1892:0:0:0:0:0:0:9:0:0|h[Stained Shadowcraft Tunic]|h|r",
+	["7"] = "|cffe6cc80|Hitem:62026:0:0:0:0:0:0:0:9:0:0|h[Stained Shadowcraft Pants]|h|r",
+	["9"] = "|cffffffff|Hitem:57535:0:0:0:0:0:0:1093909632:9:0:0|h[Whitebeard's Bracer]|h|r",
+	["8"] = "|cffffffff|Hitem:57547:0:0:0:0:0:0:337998368:9:0:0|h[Shimmerweed Boots]|h|r",
+	["16"] = "|cffe6cc80|Hitem:42946:0:0:0:0:0:0:0:9:0:0|h[Charmed Ancient Bone Bow]|h|r",
+	["15"] = "|cffe6cc80|Hitem:62039:0:0:0:0:0:0:0:9:0:0|h[Inherited Cape of the Black Baron]|h|r",
+	["10"] = "|cffffffff|Hitem:66923:0:0:0:0:0:0:466219040:9:0:0|h[Lent Hands]|h|r",
+}
+AmrGold = 2025
+AmrRealmName = "Ravencrest"
+AmrCharacterName = "Trìxxed"
+AmrIconInfo = {
+}
+AmrCurrencies = {
+}
+AmrProfessions = {
+}
+AmrSpecializations = {
+}
+AmrRace = "Dwarf"
+AmrLevel = 9
+AmrFaction = "Alliance"
+AmrActiveSpec = 1
+AmrOptions = {
+}
+AmrGlyphs = {
+	{
+	}, -- [1]
+}
+AmrTalents = {
+	"000000", -- [1]
+}
+AmrBankItemsAndCounts = {
+}
+AmrImportString = ""
+AmrImportDate = ""
+AmrSendSettings = {
+	["SendTo"] = "",
+	["SendGems"] = true,
+	["SendEnchants"] = true,
+	["SendEnchantMaterials"] = true,
+	["SendToType"] = "a friend",
+}
+AmrLogData = {
+}

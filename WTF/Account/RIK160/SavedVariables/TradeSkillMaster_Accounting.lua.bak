@@ -1,0 +1,46 @@
+
+TradeSkillMaster_AccountingDB = {
+	["global"] = {
+		["itemStrings"] = {
+			["Green Tea Leaf"] = "item:72234:0:0:0:0:0:0",
+			["Royal Satchel"] = "item:82446:0:0:0:0:0:0",
+			["Shattered Bone Fragment"] = "item:83157:0:0:0:0:0:0",
+			["Sparkling Oasis Water"] = "item:58256:0:0:0:0:0:0",
+			["Stolen Shado-Pan Insignia"] = "item:94223:0:0:0:0:0:0",
+			["Snow Lily"] = "item:79010:0:0:0:0:0:0",
+			["Sharp Fangs"] = "item:81194:0:0:0:0:0:0",
+			["Bolt of Windwool Cloth"] = "item:82441:0:0:0:0:0:0",
+			["Eternium Thread"] = "item:38426:0:0:0:0:0:0",
+			["Tome of the Clear Mind"] = "item:79249:0:0:0:0:0:0",
+			["Juggling Torch"] = "item:34599:0:0:0:0:0:0",
+			["Rain Poppy"] = "item:72237:0:0:0:0:0:0",
+			["Fool's Cap"] = "item:79011:0:0:0:0:0:0",
+			["G91 Landshark"] = "item:77589:0:0:0:0:0:0",
+			["Windwool Cloth"] = "item:72988:0:0:0:0:0:0",
+			["Master Healing Potion"] = "item:76097:0:0:0:0:0:0",
+			["Spirit Dust"] = "item:74249:0:0:0:0:0:0",
+			["Preserved Holly"] = "item:21213:0:0:0:0:0:0",
+			["Silkweed"] = "item:72235:0:0:0:0:0:0",
+			["Bolt of Embersilk Cloth"] = "item:53643:0:0:0:0:0:0",
+			["White Trillium Ore"] = "item:72103:0:0:0:0:0:0",
+			["Potion of Treasure Finding"] = "item:58488:0:0:0:0:0:0",
+		},
+	},
+	["profileKeys"] = {
+		["Daemonikos - Ravencrest"] = "Default",
+	},
+	["factionrealm"] = {
+		["Alliance - Ravencrest"] = {
+			["csvExpired"] = "itemString,itemName,stackSize,quantity,player,time",
+			["csvBuys"] = "itemString,itemName,stackSize,quantity,price,seller,player,time,source\nitem:79010:0:0:0:0:0:0,Snow Lily,20,60,7599,Lingan,Daemonikos,1407534481,Auction",
+			["saveTimeBuys"] = "1407534568",
+			["csvIncome"] = "type,amount,source,player,time",
+			["csvExpense"] = "type,amount,destination,player,time\nPostage,30,Lupalia,Daemonikos,1407534564",
+			["goldLog"] = {
+				["Daemonikos"] = "startMinute,endMinute,copper\n23458901,23458909,360000000",
+			},
+			["csvSales"] = "itemString,itemName,stackSize,quantity,price,buyer,player,time,source",
+			["csvCancelled"] = "itemString,itemName,stackSize,quantity,player,time",
+		},
+	},
+}

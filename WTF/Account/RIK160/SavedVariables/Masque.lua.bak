@@ -1,0 +1,10 @@
+
+MasqueDB = {
+	["profileKeys"] = {
+		["Razoi - Thunderhorn"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

@@ -1,0 +1,17 @@
+Dominos_XP: enabled
+AtlasLoot_Cataclysm: enabled
+AtlasLoot_BurningCrusade: enabled
+AtlasLoot_WrathoftheLichKing: enabled
+AtlasLoot_Crafting: enabled
+AtlasLoot: enabled
+Masque: enabled
+Omen: enabled
+AtlasLoot_WorldEvents: enabled
+Gatherer: enabled
+Gatherer_HUD: enabled
+Outfitter: disabled
+Bagnon: enabled
+DBM-Core: enabled
+GridStatusHots: enabled
+Bagnon_GuildBank: disabled
+Bagnon_VoidStorage: disabled

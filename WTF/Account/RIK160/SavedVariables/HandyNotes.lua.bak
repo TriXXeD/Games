@@ -1,0 +1,19 @@
+
+HandyNotesDB = {
+	["profileKeys"] = {
+		["Lupalia - Ravencrest"] = "Lupalia - Ravencrest",
+	},
+	["profiles"] = {
+		["Lupalia - Ravencrest"] = {
+		},
+	},
+}
+HandyNotes_HandyNotesDB = {
+	["profileKeys"] = {
+		["Lupalia - Ravencrest"] = "Lupalia - Ravencrest",
+	},
+	["profiles"] = {
+		["Lupalia - Ravencrest"] = {
+		},
+	},
+}

@@ -1,0 +1,23 @@
+VER 3 0100000000000003 "adf" "INV_Misc_QuestionMark"
+xs
+END
+VER 3 0100000000000004 "Lightwell" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Lightwell
+/Y Wells here ITS NOT DANGEROUS CLICK IT!
+END
+VER 3 0100000000000001 "Mind Flay" "INV_Misc_QuestionMark"
+#showtooltip Mind Flay
+/cast [nochanneling:Mind Flay] Mind Flay
+END
+VER 3 0100000000000002 "Shadowfiend" "INV_Misc_QuestionMark"
+#showtooltip Shadowfiend
+/cast [nopet] Shadowfiend
+/petaggressive
+/petattack
+/cast [harm, pet] Shadowcrawl; [target=pettarget, pet] Shadowcrawl
+END
+VER 3 0100000000000009 "ZGVMacro2" "Ability_Priest_HeavanlyVoice"
+/target Sassy Hardwrench
+/run ZGV:MagicRaidMarker()
+END

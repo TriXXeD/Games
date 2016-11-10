@@ -1,0 +1,231 @@
+
+WQTrackerDB = {
+	["profileKeys"] = {
+		["Trïxxed - Ravencrest"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["GotTutorial"] = true,
+			["quests_tracked"] = {
+				["Player-1329-040E4918"] = {
+					{
+						["mapID"] = 1017,
+						["index"] = 7,
+						["timeFraction"] = 1040619.246,
+						["questID"] = 43722,
+						["questType"] = 2,
+						["mapIDSynthetic"] = 4,
+						["expireAt"] = 1473404452,
+						["numObjectives"] = 2,
+						["rewardTexture"] = "Interface\\Icons\\inv_orderhall_orderresources",
+						["LastDistance"] = 0.200194071613301,
+						["rewardAmount"] = 870,
+						["timeLeft"] = 2106,
+						["timeAdded"] = 1473278092,
+					}, -- [1]
+					{
+						["mapID"] = 1024,
+						["index"] = 2,
+						["timeFraction"] = 1038524.36,
+						["questID"] = 41204,
+						["mapIDSynthetic"] = 3,
+						["questType"] = 4,
+						["expireAt"] = 1473318057,
+						["timeAdded"] = 1473275997,
+						["LastDistance"] = 0.90986174181259,
+						["numObjectives"] = 1,
+						["rewardAmount"] = "20",
+						["timeLeft"] = 701,
+						["rewardTexture"] = 1394960,
+					}, -- [2]
+					{
+						["mapID"] = 1024,
+						["index"] = 1,
+						["timeFraction"] = 1038514.007,
+						["questID"] = 40920,
+						["mapIDSynthetic"] = 3,
+						["questType"] = 8,
+						["expireAt"] = 1473318047,
+						["timeAdded"] = 1473275987,
+						["LastDistance"] = 0.849455856508594,
+						["numObjectives"] = 3,
+						["rewardAmount"] = 220,
+						["timeLeft"] = 701,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifactpower_red_roundT",
+					}, -- [3]
+					{
+						["mapID"] = 1024,
+						["index"] = 0,
+						["timeFraction"] = 1038512.275,
+						["questID"] = 43619,
+						["mapIDSynthetic"] = 3,
+						["questType"] = 8,
+						["expireAt"] = 1473296505,
+						["timeAdded"] = 1473275985,
+						["LastDistance"] = 0.39066899161235,
+						["numObjectives"] = 1,
+						["rewardAmount"] = 350,
+						["timeLeft"] = 342,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifactpower_red_roundT",
+					}, -- [4]
+					{
+						["mapID"] = 1018,
+						["index"] = 4,
+						["timeFraction"] = 1038533.486,
+						["questID"] = 42028,
+						["mapIDSynthetic"] = 2,
+						["questType"] = 8,
+						["expireAt"] = 1473361266,
+						["timeAdded"] = 1473276006,
+						["LastDistance"] = 0,
+						["numObjectives"] = 1,
+						["rewardAmount"] = 190,
+						["timeLeft"] = 1421,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifactpower_red_roundT",
+					}, -- [5]
+					{
+						["mapID"] = 1018,
+						["index"] = 3,
+						["timeFraction"] = 1038532.981,
+						["questID"] = 41996,
+						["mapIDSynthetic"] = 2,
+						["questType"] = 8,
+						["expireAt"] = 1473318066,
+						["timeAdded"] = 1473276006,
+						["LastDistance"] = 0,
+						["numObjectives"] = 3,
+						["rewardAmount"] = 215,
+						["timeLeft"] = 701,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifactpower_red_roundT",
+					}, -- [6]
+				},
+			},
+			["quests_all_characters"] = {
+				["Player-1329-040E4918"] = {
+					[42086] = {
+						["expireAt"] = 1473296412,
+						["rewardAmount"] = "1",
+						["rewardTexture"] = 1417744,
+					},
+					[41996] = {
+						["expireAt"] = 1473318072,
+						["rewardAmount"] = 215,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifactpower_red_roundT",
+					},
+					[42090] = {
+						["expireAt"] = 1473361254,
+						["rewardAmount"] = "2",
+						["rewardTexture"] = 1417744,
+					},
+					[42743] = {
+						["expireAt"] = 1473318072,
+						["rewardAmount"] = "810",
+						["rewardTexture"] = 1122334,
+					},
+					[42713] = {
+						["expireAt"] = 1473490872,
+						["rewardAmount"] = "820",
+						["rewardTexture"] = 237372,
+					},
+					[42004] = {
+						["expireAt"] = 1473339672,
+						["rewardAmount"] = "810",
+						["rewardTexture"] = 1029591,
+					},
+					[40920] = {
+						["expireAt"] = 1473318012,
+						["rewardAmount"] = 220,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifactpower_red_roundT",
+					},
+					[43619] = {
+						["expireAt"] = 1473296472,
+						["rewardAmount"] = 350,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifactpower_red_roundT",
+					},
+					[41204] = {
+						["expireAt"] = 1473318072,
+						["rewardAmount"] = "20",
+						["rewardTexture"] = 1394960,
+					},
+					[41766] = {
+						["expireAt"] = 1473318072,
+						["rewardAmount"] = "20",
+						["rewardTexture"] = 413584,
+					},
+					[42028] = {
+						["expireAt"] = 1473361272,
+						["rewardAmount"] = 190,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifactpower_red_roundT",
+					},
+					[40278] = {
+						["expireAt"] = 1473318072,
+						["rewardAmount"] = 100,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifactpower_red_roundT",
+					},
+				},
+			},
+			["player_names"] = {
+				["Player-1329-040E4918"] = {
+					["class"] = "DEATHKNIGHT",
+					["name"] = "Trïxxed",
+					["realm"] = "Ravencrest",
+				},
+			},
+			["history"] = {
+				["period"] = {
+					["global"] = {
+						["160907"] = {
+							["quest"] = 8,
+							["artifact"] = 1370,
+						},
+					},
+					["character"] = {
+						["Player-1329-040E4918"] = {
+							["160907"] = {
+								["quest"] = 8,
+								["artifact"] = 1370,
+							},
+						},
+					},
+				},
+				["quest"] = {
+					["global"] = {
+						["total"] = 8,
+						[41925] = 1,
+						[42953] = 1,
+						[41926] = 1,
+						[43435] = 1,
+						[43428] = 1,
+						[42169] = 1,
+						[43963] = 1,
+						[42511] = 1,
+					},
+					["character"] = {
+						["Player-1329-040E4918"] = {
+							["total"] = 8,
+							[41925] = 1,
+							[42953] = 1,
+							[41926] = 1,
+							[43435] = 1,
+							[43428] = 1,
+							[42169] = 1,
+							[43963] = 1,
+							[42511] = 1,
+						},
+					},
+				},
+				["reward"] = {
+					["global"] = {
+						["artifact"] = 1370,
+					},
+					["character"] = {
+						["Player-1329-040E4918"] = {
+							["artifact"] = 1370,
+						},
+					},
+				},
+			},
+			["AlertTutorialStep"] = 5,
+		},
+	},
+}

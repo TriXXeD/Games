@@ -1,0 +1,42 @@
+
+SellJunkDB = {
+	["char"] = {
+		["Daemonikos - Ravencrest"] = {
+			["auto"] = true,
+		},
+		["Razoi - Thunderhorn"] = {
+			["auto"] = true,
+		},
+	},
+	["profileKeys"] = {
+		["Razoi - Thunderhorn"] = "Razoi - Thunderhorn",
+		["Dístúrbed - Thunderhorn"] = "Dístúrbed - Thunderhorn",
+		["Trixxed - Ravencrest"] = "Trixxed - Ravencrest",
+		["Zaou - Thunderhorn"] = "Zaou - Thunderhorn",
+		["Tríxxed - Laughing Skull"] = "Tríxxed - Laughing Skull",
+		["Tríxxed - Darksorrow"] = "Tríxxed - Darksorrow",
+		["Tríxxed - Thunderhorn"] = "Tríxxed - Thunderhorn",
+		["Achilina - Ravencrest"] = "Achilina - Ravencrest",
+		["Trìxxed - Ravencrest"] = "Trìxxed - Ravencrest",
+		["Achillina - Thunderhorn"] = "Achillina - Thunderhorn",
+		["Shallu - The Maelstrom"] = "Shallu - The Maelstrom",
+		["Asgfdfgdf - Silvermoon"] = "Asgfdfgdf - Silvermoon",
+		["Lupalia - Ravencrest"] = "Lupalia - Ravencrest",
+		["Eventimeless - Ravencrest"] = "Eventimeless - Ravencrest",
+		["Tríxxed - The Maelstrom"] = "Tríxxed - The Maelstrom",
+		["Daemonikos - Ravencrest"] = "Daemonikos - Ravencrest",
+		["Shadefighter - Thunderhorn"] = "Shadefighter - Thunderhorn",
+		["Trîxxed - Ravencrest"] = "Trîxxed - Ravencrest",
+		["Chrysante - Ravencrest"] = "Chrysante - Ravencrest",
+		["Marcellinus - Ravencrest"] = "Marcellinus - Ravencrest",
+		["Trixxedz - Thunderhorn"] = "Trixxedz - Thunderhorn",
+		["Odeysseus - Thunderhorn"] = "Odeysseus - Thunderhorn",
+		["Trïxxed - Ravencrest"] = "Trïxxed - Ravencrest",
+		["Trïxxed - Shadowsong"] = "Trïxxed - Shadowsong",
+		["Fausta - Ravencrest"] = "Fausta - Ravencrest",
+		["Kazzía - Thunderhorn"] = "Kazzía - Thunderhorn",
+		["Lichservent - Thunderhorn"] = "Lichservent - Thunderhorn",
+		["Trixxed - Shadowsong"] = "Trixxed - Shadowsong",
+		["Earthina - Argent Dawn"] = "Earthina - Argent Dawn",
+	},
+}

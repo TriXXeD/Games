@@ -1,0 +1,22 @@
+VER 3 0100000000000001 "Demo Banner" "INV_MISC_QUESTIONMARK"
+#showtooltip Demoralizing Banner
+/targetexact Skull Banner
+/targetexact Demoralizing banner
+/targetexact Mocking Banner
+/cast [noraid, noparty, noharm] Intervene
+/targetlasttarget [noraid, noparty, noharm, exists]
+/cast Demoralizing Banner
+END
+VER 3 0100000000000002 "Mocking Banner" "INV_MISC_QUESTIONMARK"
+#showtooltip Mocking Banner
+/targetexact Skull Banner
+/targetexact Demoralizing banner
+/targetexact Mocking Banner
+/cast [noraid, noparty, noharm] Intervene
+/targetlasttarget [noraid, noparty, noharm, exists]
+/cast Mocking Banner
+END
+VER 3 0100000000000003 "Tier2" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:2/1] Shockwave; [talent:2/2] Storm Bolt; [talent:2/3] Double Time
+END

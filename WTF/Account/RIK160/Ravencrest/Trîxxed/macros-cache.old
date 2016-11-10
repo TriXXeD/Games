@@ -1,0 +1,69 @@
+VER 3 0100000000000009 "A1Hex" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@arena1,exists] Hex; Hex
+END
+VER 3 010000000000000A "A2Hex" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@arena2,exists] Hex; Hex
+END
+VER 3 010000000000000B "A3Hex" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@arena3,exists] Hex; Hex
+END
+VER 3 0100000000000007 "Chain Heal" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,exists] Chain Heal; Chain Heal
+END
+VER 3 0100000000000005 "Earth Shield" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,exists] Earth Shield; Earth Shield
+END
+VER 3 010000000000000E "Elemental Blast" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/targetenemy
+/cast Elemental Blast
+/targetprevioustarget
+END
+VER 3 010000000000000C "Frost Shock" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/cast [@mouseover,exists,harm] Frost Shock; Frost Shock
+END
+VER 3 010000000000000D "GTotem" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/cast Grounding Totem
+END
+VER 3 0100000000000002 "Healing Surge" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,exists] Healing Surge; Healing Surge
+END
+VER 3 0100000000000001 "Healing Wave" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,exists] Healing Wave; Healing Wave
+END
+VER 3 0100000000000010 "Purge" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,harm,exists] Purge; Purge
+END
+VER 3 0100000000000006 "Purify Spirit" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,exists] Purify Spirit; Purify Spirit
+END
+VER 3 0100000000000004 "Riptide" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,exists] Riptide; Riptide
+END
+VER 3 010000000000000F "T7" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:7/1] Cloudburst Totem; [talent:7/2] Storm Elemental Totem; [talent:7/3] High Tide
+END
+VER 3 0100000000000003 "Unleash Life" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,exists] Unleash Life; Unleash Life
+END
+VER 3 0100000000000008 "Win Shear" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/cast [@mouseover,exists,harm] Wind Shear; Wind Shear
+END

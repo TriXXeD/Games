@@ -1,0 +1,25 @@
+
+AmrBagItems = {
+	"|cffffffff|Hitem:6948:0:0:0:0:0:0:0:6:0:0|h[Hearthstone]|h|r", -- [1]
+	"|cffffffff|Hitem:16115:0:0:0:0:0:0:1655987968:6:0:0|h[Osric's Crate]|h|r", -- [2]
+	"|cff9d9d9d|Hitem:62328:0:0:0:0:0:0:1439616768:6:0:0|h[Shed Fur]|h|r", -- [3]
+}
+AmrBankItems = {
+}
+AmrEquipedItems = {
+	["9"] = "|cffffffff|Hitem:57395:0:0:0:0:0:0:1919179776:6:0:0|h[Lion's Pride Bracer]|h|r",
+	["15"] = "|cffffffff|Hitem:11475:0:0:0:0:0:0:172436576:6:0:0|h[Wine-Stained Cloak]|h|r",
+	["16"] = "|cffffffff|Hitem:85575:0:0:0:0:0:0:1249310208:6:0:0|h[Peacebringer's Staff]|h|r",
+	["8"] = "|cffffffff|Hitem:57256:0:0:0:0:0:0:1040900800:6:0:0|h[Northshire Abbot's Shoes]|h|r",
+	["5"] = "|cffffffff|Hitem:57398:0:0:0:0:0:0:787654784:6:0:0|h[Candlewax Streaked Robe]|h|r",
+	["6"] = "|cffffffff|Hitem:57400:0:0:0:0:0:0:375228576:6:0:0|h[Gold Dust Belt]|h|r",
+	["7"] = "|cffffffff|Hitem:57389:0:0:0:0:0:0:1871331968:6:0:0|h[Innkeeper's Longstockings]|h|r",
+	["10"] = "|cffffffff|Hitem:11192:0:0:0:0:0:0:411026592:6:0:0|h[Outfitter Gloves]|h|r",
+}
+AmrGold = 1505
+AmrRealmName = "The Maelstrom"
+AmrCharacterName = "Tríxxed"
+AmrIconInfo = {
+}
+AmrCurrencies = {
+}

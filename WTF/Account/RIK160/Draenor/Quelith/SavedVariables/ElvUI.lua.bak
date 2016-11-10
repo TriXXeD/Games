@@ -1,0 +1,9 @@
+
+ElvCharacterDB = {
+	["ChatEditHistory"] = {
+		"/ELVUI", -- [1]
+		"/elvui", -- [2]
+	},
+	["ChatLog"] = {
+	},
+}

@@ -1,0 +1,9 @@
+
+PawnOptions = {
+	["LastPlayerFullName"] = "Kazzía-Thunderhorn",
+	["LastKeybindingsSet"] = 1,
+}
+PawnWowheadScaleProviderOptions = {
+	["LastClass"] = "PRIEST",
+	["LastAdded"] = 4,
+}

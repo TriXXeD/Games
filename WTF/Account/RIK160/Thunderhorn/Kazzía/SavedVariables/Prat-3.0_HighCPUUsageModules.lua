@@ -1,0 +1,141 @@
+
+Prat3HighCPUPerCharDB = {
+	["time"] = 1390226951,
+	["scrollback"] = {
+		["ChatFrame1"] = {
+			{
+				"|cff979797[20:26:23]|r|c00000000|r |Hchannel:channel:1|h[1] |h Joined Channel: |Hchannel:1|h[1. General - Orgrimmar]|h", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+				69, -- [5]
+			}, -- [1]
+			{
+				"|cff979797[20:26:23]|r|c00000000|r |Hchannel:channel:2|h[2] |h Joined Channel: |Hchannel:2|h[2. Trade - City]|h", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+				70, -- [5]
+			}, -- [2]
+			{
+				"|cff979797[20:26:23]|r|c00000000|r |Hchannel:channel:3|h[3] |h Joined Channel: |Hchannel:3|h[3. LocalDefense - Orgrimmar]|h", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+				71, -- [5]
+			}, -- [3]
+			{
+				"|cff979797[14:57:29]|r|c00000000|r |Hchannel:channel:1|h[1] |h Joined Channel: |Hchannel:1|h[1. General - Orgrimmar]|h", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+				69, -- [5]
+			}, -- [4]
+			{
+				"|cff979797[14:57:29]|r|c00000000|r |Hchannel:channel:2|h[2] |h Joined Channel: |Hchannel:2|h[2. Trade - City]|h", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+				70, -- [5]
+			}, -- [5]
+			{
+				"|cff979797[14:57:29]|r|c00000000|r |Hchannel:channel:3|h[3] |h Joined Channel: |Hchannel:3|h[3. LocalDefense - Orgrimmar]|h", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+				71, -- [5]
+			}, -- [6]
+			{
+				"|cff979797[14:58:19]|r|c00000000|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Coramora-Wildhammer:375:CHANNEL:1|h|cffaad372Coramora|r-|cff83efe0Wil|r|h|cffd8d8d8]|r: LFM HC Scen", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+				69, -- [5]
+			}, -- [7]
+			{
+				"|cff979797[14:58:20]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Roggéro:376:CHANNEL:2|h|cfff48cbaRoggéro|r|h|cffd8d8d8]|r: What level can paladins wear plate", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+				70, -- [5]
+			}, -- [8]
+			{
+				"|cff979797[14:58:25]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Smokeyegg-Wildhammer:377:CHANNEL:2|h|cfffff468Smokeyegg|r-|cff83efe0Wil|r|h|cffd8d8d8]|r: 40", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+				70, -- [5]
+			}, -- [9]
+			{
+				"|cff979797[14:58:28]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Roggéro:378:CHANNEL:2|h|cfff48cbaRoggéro|r|h|cffd8d8d8]|r: ty", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+				70, -- [5]
+			}, -- [10]
+			{
+				"|cff979797[14:58:29]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Búrnt-Wildhammer:379:CHANNEL:2|h|cffc69b6dBúrnt|r-|cff83efe0Wil|r|h|cffd8d8d8]|r: 40", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+				70, -- [5]
+			}, -- [11]
+			{
+				"|cff979797[14:58:47]|r|c00000000|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Coramora-Wildhammer:380:CHANNEL:1|h|cffaad372Coramora|r-|cff83efe0Wil|r|h|cffd8d8d8]|r: LFM HC Scen", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+				69, -- [5]
+			}, -- [12]
+			{
+				"|cff979797[15:00:07]|r|c00000000|r |cffd8d8d8[|r|Hplayer:Normaali-Wildhammer:383|h|cffa5a5a5Normaali|r-|cff83efe0Wil|r|h|cffd8d8d8]|r invites you to join Blinded.", -- [1]
+				1, -- [2]
+				1, -- [3]
+				0, -- [4]
+				1, -- [5]
+			}, -- [13]
+			{
+				"|cff979797[15:00:08]|r|c00000000|r [W From] |cffd8d8d8[|r|Hplayer:Normaali-Wildhammer:384:WHISPER:NORMAALI-WILDHAMMER|h|cffff7c0aNormaali|r-|cff83efe0Wil|r|h|cffd8d8d8]|r: Heya, Welcome to join Blinded we are social guild and we start raiding soon enough we have members for it! join us and easy your lvling whit 10 % exp boost and good company!", -- [1]
+				1, -- [2]
+				0.501960813999176, -- [3]
+				1, -- [4]
+				0, -- [5]
+			}, -- [14]
+			{
+				"|cff979797[15:00:35]|r|c00000000|r |cffd8d8d8[|r|Hplayer:Piksvinet:387|h|cffa5a5a5Piksvinet|r|h|cffd8d8d8]|r invites you to join inzane hordecore.", -- [1]
+				1, -- [2]
+				1, -- [3]
+				0, -- [4]
+				1, -- [5]
+			}, -- [15]
+			{
+				"|cff979797[15:00:47]|r|c00000000|r |cffd8d8d8[|r|Hplayer:Gaboro-Wildhammer:388|h|cffa5a5a5Gaboro|r-|cff83efe0Wil|r|h|cffd8d8d8]|r invites you to join Key to Success.", -- [1]
+				1, -- [2]
+				1, -- [3]
+				0, -- [4]
+				1, -- [5]
+			}, -- [16]
+			{
+				"|cff979797[15:09:10]|r|c00000000|r |Hchannel:channel:1|h[1] |h Joined Channel: |Hchannel:1|h[1. General - Orgrimmar]|h", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+				69, -- [5]
+			}, -- [17]
+			{
+				"|cff979797[15:09:11]|r|c00000000|r |Hchannel:channel:2|h[2] |h Joined Channel: |Hchannel:2|h[2. Trade - City]|h", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+				70, -- [5]
+			}, -- [18]
+			{
+				"|cff979797[15:09:11]|r|c00000000|r |Hchannel:channel:3|h[3] |h Joined Channel: |Hchannel:3|h[3. LocalDefense - Orgrimmar]|h", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+				71, -- [5]
+			}, -- [19]
+		},
+	},
+}

@@ -1,0 +1,27 @@
+
+MogItDB = {
+	["profileKeys"] = {
+		["Achilina - Draenor"] = "Default",
+	},
+	["global"] = {
+		["version"] = "3.6.3",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["x"] = 0,
+			["y"] = 0,
+		},
+	},
+}
+MogItWishlist = {
+	["global"] = {
+		["version"] = 70000,
+	},
+	["profileKeys"] = {
+		["Achilina - Draenor"] = "Achilina - Draenor",
+	},
+	["profiles"] = {
+		["Achilina - Draenor"] = {
+		},
+	},
+}

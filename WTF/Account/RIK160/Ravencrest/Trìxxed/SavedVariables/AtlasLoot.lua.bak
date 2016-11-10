@@ -1,0 +1,11 @@
+
+AtlasLootCharDB = {
+	["namespaces"] = {
+		["WishList"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Trìxxed - Ravencrest"] = "Trìxxed - Ravencrest",
+	},
+	["AtlasLootVersion"] = "70703",
+}

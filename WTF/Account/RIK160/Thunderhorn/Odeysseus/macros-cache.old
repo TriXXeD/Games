@@ -1,0 +1,32 @@
+VER 3 0100000000000004 "Army of the Unde" "Spell_DeathKnight_ArmyOfTheDead"
+/y Army of Death, come take your vengence against this foul creatures, hear my call! fight for your master and take a new slave for me!
+/cast Army of the Dead
+END
+VER 3 0100000000000002 "Army of Undeath" "Spell_Deathknight_UnholyPresence"
+/y Army of the slain! Come take your vengence, take this foul creature down! Make him another slave! Make him another minion of mine!
+END
+VER 3 0100000000000001 "Decursive" "INV_Misc_QuestionMark"
+/script Dcr:Println('No spell available')
+END
+VER 3 0100000000000007 "Epic gems" "Ability_Ambush"
+/2 Odeysseus|cffffd000|Htrade:51311:450:450:2000000024202E7:8f6V8qMsJyjpmMHAAAAwHAAAg/Bg/vBAAAAAAA+BAAAA6/37v7re2f1ezr3PqVMjHCEBmgwGnAE//v8Pg/JAAeLd6d0wFAB|h[Jewelcrafting]|h|r buisness is open!just come to me with mats and fee
+END
+VER 3 0100000000000003 "Heart Strike" "Ability_Warrior_WeaponMastery"
+#showtooltip someAbility
+/cast Heart Strike
+/cast !Rune Strike 
+END
+VER 3 0100000000000005 "Hysteria" "INV_Misc_QuestionMark"
+#showtooltip Hysteria
+/cast [target=ëvil] Hysteria
+END
+VER 3 0100000000000006 "Plz" "INV_Misc_QuestionMark"
+PPPP     L              ZZZZZ
+P    PP   L                       Z
+PPPP     L                  Z
+P            L              Z
+P            LLLLL   ZZZZZ
+END
+VER 3 0100000000000008 "TaunT" "Ability_BullRush"
+/r Taunt
+END

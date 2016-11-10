@@ -1,0 +1,4 @@
+VER 3 0100000000000001 "Pet" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nopet][@pet,dead]Summon Water Elemental;Freeze
+END

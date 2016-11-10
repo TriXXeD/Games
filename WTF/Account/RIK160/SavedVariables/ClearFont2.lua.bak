@@ -1,0 +1,12 @@
+
+ClearFontDB = {
+	["profiles"] = {
+		["Default"] = {
+			["currentScale"] = 0.88,
+			["minimapPosition"] = 315.8424890677492,
+			["detachedTooltip"] = {
+				["fontSizePercent"] = 1,
+			},
+		},
+	},
+}

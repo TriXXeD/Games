@@ -1,0 +1,304 @@
+
+GridDB = {
+	["namespaces"] = {
+		["GridFrame"] = {
+			["profiles"] = {
+				["Default"] = {
+					["statusmap"] = {
+						["side3"] = {
+						},
+						["side2"] = {
+						},
+						["side1"] = {
+							["player_target"] = true,
+						},
+						["side4"] = {
+						},
+					},
+					["invertBarColor"] = true,
+				},
+			},
+		},
+		["GridAlert"] = {
+			["profiles"] = {
+				["Default"] = {
+					["modules"] = {
+						["GridAlertAggro"] = true,
+						["GridAlertDetox"] = true,
+					},
+					["alerts"] = {
+						["GridAlertAggro"] = {
+							["min_pause"] = 0.5,
+							["sound_filename"] = "Interface\\Addons\\GridAlert\\sounds\\aggro.wav",
+						},
+						["GridAlertDetox"] = {
+							["min_pause"] = 0.5,
+							["sound_filename"] = "Sound\\interface\\AuctionWindowOpen.wav",
+						},
+					},
+					["triggers"] = {
+						["alert_lowMana"] = {
+							["gain"] = {
+								["units"] = {
+								},
+							},
+							["lost"] = {
+								["units"] = {
+								},
+							},
+						},
+						["unit_health"] = {
+							["gain"] = {
+								["units"] = {
+								},
+							},
+							["lost"] = {
+								["units"] = {
+								},
+							},
+						},
+						["player_target"] = {
+							["gain"] = {
+								["units"] = {
+								},
+							},
+							["lost"] = {
+								["units"] = {
+								},
+							},
+						},
+						["unit_name"] = {
+							["gain"] = {
+								["units"] = {
+								},
+							},
+							["lost"] = {
+								["units"] = {
+								},
+							},
+						},
+						["buff_PowerWord:Shield"] = {
+							["gain"] = {
+								["units"] = {
+								},
+							},
+							["lost"] = {
+								["units"] = {
+								},
+							},
+						},
+						["alert_range_oor"] = {
+							["gain"] = {
+								["units"] = {
+								},
+							},
+							["lost"] = {
+								["units"] = {
+								},
+							},
+						},
+						["buff_Renew"] = {
+							["gain"] = {
+								["units"] = {
+								},
+							},
+							["lost"] = {
+								["units"] = {
+								},
+							},
+						},
+						["alert_aggro"] = {
+							["gain"] = {
+								["player"] = "GridAlertAggro",
+								["units"] = {
+								},
+							},
+							["lost"] = {
+								["units"] = {
+								},
+							},
+						},
+						["debuff_curse"] = {
+							["gain"] = {
+								["units"] = {
+								},
+							},
+							["lost"] = {
+								["units"] = {
+								},
+							},
+						},
+						["debuff_poison"] = {
+							["gain"] = {
+								["units"] = {
+								},
+							},
+							["lost"] = {
+								["units"] = {
+								},
+							},
+						},
+						["alert_tothots"] = {
+							["gain"] = {
+								["units"] = {
+								},
+							},
+							["lost"] = {
+								["units"] = {
+								},
+							},
+						},
+						["debuff_disease"] = {
+							["gain"] = {
+								["any"] = "GridAlertDetox",
+								["units"] = {
+								},
+							},
+							["lost"] = {
+								["units"] = {
+								},
+							},
+						},
+						["buff_Rejuvenation"] = {
+							["gain"] = {
+								["units"] = {
+								},
+							},
+							["lost"] = {
+								["units"] = {
+								},
+							},
+						},
+						["alert_heals"] = {
+							["gain"] = {
+								["units"] = {
+								},
+							},
+							["lost"] = {
+								["units"] = {
+								},
+							},
+						},
+						["alert_lowHealth"] = {
+							["gain"] = {
+								["units"] = {
+								},
+							},
+							["lost"] = {
+								["units"] = {
+								},
+							},
+						},
+						["alert_offline"] = {
+							["gain"] = {
+								["units"] = {
+								},
+							},
+							["lost"] = {
+								["units"] = {
+								},
+							},
+						},
+						["unit_healthDeficit"] = {
+							["gain"] = {
+								["units"] = {
+								},
+							},
+							["lost"] = {
+								["units"] = {
+								},
+							},
+						},
+						["alert_feignDeath"] = {
+							["gain"] = {
+								["units"] = {
+								},
+							},
+							["lost"] = {
+								["units"] = {
+								},
+							},
+						},
+						["buff_Regrowth"] = {
+							["gain"] = {
+								["units"] = {
+								},
+							},
+							["lost"] = {
+								["units"] = {
+								},
+							},
+						},
+						["alert_renew"] = {
+							["gain"] = {
+								["units"] = {
+								},
+							},
+							["lost"] = {
+								["units"] = {
+								},
+							},
+						},
+						["debuff_MortalStrike"] = {
+							["gain"] = {
+								["units"] = {
+								},
+							},
+							["lost"] = {
+								["units"] = {
+								},
+							},
+						},
+						["debuff_WeakenedSoul"] = {
+							["gain"] = {
+								["units"] = {
+								},
+							},
+							["lost"] = {
+								["units"] = {
+								},
+							},
+						},
+						["alert_death"] = {
+							["gain"] = {
+								["units"] = {
+								},
+							},
+							["lost"] = {
+								["units"] = {
+								},
+							},
+						},
+						["debuff_magic"] = {
+							["gain"] = {
+								["any"] = "GridAlertDetox",
+								["units"] = {
+								},
+							},
+							["lost"] = {
+								["units"] = {
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		["GridLayout"] = {
+			["profiles"] = {
+				["Default"] = {
+					["anchorRel"] = "TOPLEFT",
+					["PosX"] = 16.99997640277024,
+					["PosY"] = -378.0000044565422,
+				},
+			},
+		},
+	},
+	["profiles"] = {
+		["Default"] = {
+			["detachedTooltip"] = {
+				["fontSizePercent"] = 1,
+			},
+		},
+	},
+}

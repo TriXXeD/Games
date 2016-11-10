@@ -1,0 +1,39 @@
+
+SkadaDB = {
+	["profileKeys"] = {
+		["Aliena - Mug'thol"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["windows"] = {
+				{
+					["scale"] = 1,
+					["mode"] = "Healing",
+					["point"] = "BOTTOMRIGHT",
+					["background"] = {
+						["color"] = {
+							["a"] = 0.550000011920929,
+							["b"] = 0.0196078431372549,
+						},
+						["bordertexture"] = "Blizzard Chat Bubble",
+						["margin"] = 5,
+						["texture"] = "Planets",
+					},
+					["x"] = -98.47566402470807,
+					["bartexture"] = "Graphite",
+					["set"] = "total",
+					["modeincombat"] = "Healing",
+					["y"] = 165.2867012601238,
+					["barfont"] = "Calibri v0.9",
+					["title"] = {
+						["borderthickness"] = 0,
+						["font"] = "Daville",
+						["fontsize"] = 12,
+						["texture"] = "Glamour5",
+					},
+				}, -- [1]
+			},
+			["numberformat"] = 2,
+		},
+	},
+}

@@ -1,0 +1,10 @@
+
+EPGPLootMaster = {
+	["profileKeys"] = {
+		["Lupalia - Ravencrest"] = "Lupalia - Ravencrest",
+	},
+	["profiles"] = {
+		["Lupalia - Ravencrest"] = {
+		},
+	},
+}

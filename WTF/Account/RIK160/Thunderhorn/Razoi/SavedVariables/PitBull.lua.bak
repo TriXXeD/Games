@@ -1,0 +1,7226 @@
+
+PitBullDB = {
+	["disabledModules"] = {
+		["Default"] = {
+			["Portrait"] = true,
+			["RangeCheck"] = true,
+			["CombatFader"] = true,
+			["Experience"] = true,
+			["Aura"] = true,
+			["InteractLines"] = true,
+			["Reputation"] = true,
+			["ThreatBar"] = true,
+			["Highlight"] = true,
+		},
+		["realm/The Venture Co - Alliance"] = {
+		},
+	},
+	["namespaces"] = {
+		["MetaLayout"] = {
+			["profiles"] = {
+				["Default"] = {
+					["mainassist"] = {
+						["bars"] = {
+							["healthBar"] = {
+								["height"] = 4,
+							},
+							["powerBar"] = {
+								["height"] = 1,
+							},
+						},
+						["icons"] = {
+							["leaderIcon"] = {
+								["position"] = "frame-edgeleft",
+								["size"] = 0.78,
+							},
+							["raidTargetIcon"] = {
+								["position"] = "frame-edgeleft",
+								["size"] = 0.75,
+							},
+							["voiceIcon"] = {
+								["size"] = 0.9,
+								["position"] = "frame-edgeleft",
+							},
+							["masterIcon"] = {
+								["position"] = "frame-edgeleft",
+								["size"] = 0.55,
+							},
+							["readyCheckIcon"] = {
+								["position"] = "frame-edgeright",
+							},
+						},
+						["texts"] = {
+							["Threat"] = {
+								["hidden"] = true,
+							},
+							["Power"] = {
+								["hidden"] = true,
+							},
+							["CastTime"] = {
+								["hidden"] = true,
+							},
+							["Class"] = {
+								["hidden"] = true,
+							},
+							["Cast"] = {
+								["hidden"] = true,
+							},
+							["Health"] = {
+								["hidden"] = true,
+							},
+							["combatText"] = {
+								["position"] = "frame-intopright",
+							},
+							["Combo"] = {
+								["position"] = "frame-outbottomright",
+							},
+							["Name"] = {
+								["custom"] = " [Name:White] [DruidForm:Paren]",
+								["position"] = "frame-center",
+								["style"] = "Custom",
+								["size"] = 0.92,
+							},
+						},
+					},
+					["mainassisttarget"] = {
+						["bars"] = {
+							["healthBar"] = {
+								["height"] = 4,
+							},
+							["powerBar"] = {
+								["height"] = 1,
+							},
+						},
+						["icons"] = {
+							["leaderIcon"] = {
+								["size"] = 0.78,
+								["position"] = "frame-edgeleft",
+							},
+							["raidTargetIcon"] = {
+								["size"] = 0.75,
+								["position"] = "frame-edgeleft",
+							},
+							["voiceIcon"] = {
+								["size"] = 0.9,
+								["position"] = "frame-edgeleft",
+							},
+							["masterIcon"] = {
+								["size"] = 0.55,
+								["position"] = "frame-edgeleft",
+							},
+							["readyCheckIcon"] = {
+								["position"] = "frame-edgeright",
+							},
+						},
+						["texts"] = {
+							["Raid Group"] = {
+								["position"] = "healthBar-right",
+							},
+							["Threat"] = {
+								["hidden"] = true,
+							},
+							["Combo"] = {
+								["position"] = "frame-outbottomright",
+							},
+							["Class"] = {
+								["hidden"] = true,
+							},
+							["Cast"] = {
+								["hidden"] = true,
+							},
+							["Health"] = {
+								["custom"] = "[Status || PercentHP:Short:Percent]",
+								["position"] = "frame-center",
+								["style"] = "Custom",
+							},
+							["combatText"] = {
+								["position"] = "frame-intopright",
+							},
+							["Power"] = {
+								["hidden"] = true,
+							},
+							["CastTime"] = {
+								["hidden"] = true,
+							},
+							["Name"] = {
+								["style"] = "Custom",
+								["position"] = "frame-outrighttop",
+								["custom"] = "[IsPlayer ? [Name:ClassColor] ] [~IsPlayer ? [Name:Trunc(15):HostileColor] ] [DruidForm:Paren] [AFKDND:Angle]",
+								["size"] = 0.93,
+							},
+						},
+					},
+					["targettarget"] = {
+						["texts"] = {
+							["Combo"] = {
+								["position"] = "healthBar-right",
+							},
+							["Name"] = {
+								["style"] = "Custom",
+								["position"] = "frame-outright",
+								["custom"] = "[Name:Upper]",
+								["size"] = 1.15,
+							},
+							["Health"] = {
+								["custom"] = "[Status:PercentHP:Short:Percent]",
+								["position"] = "frame-inleft",
+								["style"] = "Custom",
+								["size"] = 0.91,
+							},
+						},
+					},
+					["focustarget"] = {
+						["texts"] = {
+							["Class"] = {
+								["hidden"] = true,
+							},
+							["Health"] = {
+								["custom"] = "[Status:PercentHP:Short:Percent]",
+								["position"] = "healthBar-center",
+								["style"] = "Custom",
+								["size"] = 0.87,
+							},
+							["Name"] = {
+								["hidden"] = true,
+							},
+						},
+					},
+					["pet"] = {
+						["bars"] = {
+							["castBar"] = {
+								["position"] = 3,
+								["height"] = 1,
+							},
+							["druidManaBar"] = {
+								["position"] = 6,
+							},
+							["powerBar"] = {
+								["position"] = 4,
+							},
+							["repBar"] = {
+								["position"] = 9,
+							},
+						},
+						["texts"] = {
+							["Raid Group"] = {
+								["styleType"] = "none",
+								["style"] = "Custom",
+								["position"] = "frame-center",
+								["custom"] = "",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["Debuffs"] = {
+								["styleType"] = "none",
+								["style"] = "Custom",
+								["position"] = "frame-intopleft",
+								["custom"] = "[HasAura(Banish) ? Text(BANISHED):Color(9933ff)]",
+								["hidden"] = false,
+								["size"] = 0.91,
+							},
+							["Buffs (Amp)"] = {
+								["styleType"] = "none",
+								["style"] = "Custom",
+								["position"] = "frame-center",
+								["custom"] = "",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["Class"] = {
+								["styleType"] = "class",
+								["style"] = "Standard",
+								["position"] = "powerBar-left",
+								["custom"] = "[Classification] [Level:DifficultyColor] [SmartClass:ClassColor] [DruidForm:Paren] [SmartRace]",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["threat 2"] = {
+								["styleType"] = "none",
+								["custom"] = "",
+								["position"] = "frame-center",
+								["style"] = "Custom",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["Cast"] = {
+								["styleType"] = "cast",
+								["custom"] = "[Alpha([[CastStopTime-CurrentTime+1]:1])][CastStopMessage:Text([CastName] [CastTarget:Paren])]",
+								["position"] = "castBar-right",
+								["style"] = "Standard Name",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["DND"] = {
+								["styleType"] = "none",
+								["style"] = "Custom",
+								["position"] = "frame-center",
+								["custom"] = "",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["Threat"] = {
+								["styleType"] = "threat",
+								["custom"] = "[Threat]/[MaxThreat]",
+								["position"] = "threatBar-right",
+								["style"] = "Absolute Short",
+								["hidden"] = false,
+								["size"] = 1,
+							},
+							["Idle"] = {
+								["styleType"] = "none",
+								["style"] = "Custom",
+								["position"] = "frame-center",
+								["custom"] = "",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["Power"] = {
+								["styleType"] = "power",
+								["custom"] = "[CurMP]/[MaxMP]",
+								["position"] = "powerBar-right",
+								["style"] = "Absolute",
+								["hidden"] = false,
+								["size"] = 1,
+							},
+							["Reputation"] = {
+								["styleType"] = "reputation",
+								["style"] = "Standard",
+								["position"] = "repBar-center",
+								["custom"] = "",
+								["hidden"] = false,
+								["size"] = 1,
+							},
+							["Spec"] = {
+								["styleType"] = "none",
+								["style"] = "Custom",
+								["position"] = "frame-center",
+								["custom"] = "",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["DruidMana"] = {
+								["styleType"] = "druidMana",
+								["custom"] = "[~IsMana ? FractionalDruidMP]",
+								["position"] = "druidManaBar-right",
+								["style"] = "Absolute",
+								["hidden"] = false,
+								["size"] = 1,
+							},
+							["AFKDND"] = {
+								["styleType"] = "none",
+								["style"] = "Custom",
+								["position"] = "frame-center",
+								["custom"] = "",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["Combo"] = {
+								["styleType"] = "combo",
+								["custom"] = "",
+								["position"] = "frame-outright",
+								["style"] = "Standard",
+								["hidden"] = false,
+								["size"] = 1,
+							},
+							["Experience"] = {
+								["styleType"] = "experience",
+								["custom"] = "",
+								["position"] = "expBar-center",
+								["style"] = "Standard",
+								["hidden"] = false,
+								["size"] = 1,
+							},
+							["Health"] = {
+								["styleType"] = "health",
+								["style"] = "Percent",
+								["position"] = "healthBar-right",
+								["custom"] = "[Status:PercentHP:Percent]",
+								["hidden"] = false,
+								["size"] = 0.92,
+							},
+							["combatText"] = {
+								["styleType"] = "none",
+								["custom"] = "",
+								["position"] = "frame-center",
+								["style"] = "Custom",
+								["hidden"] = false,
+								["size"] = 1,
+							},
+							["Buffs"] = {
+								["styleType"] = "none",
+								["custom"] = "",
+								["position"] = "frame-center",
+								["style"] = "Custom",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["Casting"] = {
+								["styleType"] = "none",
+								["custom"] = "",
+								["position"] = "frame-center",
+								["style"] = "Custom",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["Name"] = {
+								["styleType"] = "name",
+								["style"] = "Standard",
+								["position"] = "healthBar-left",
+								["custom"] = "[Name] [AFKDND:Angle]",
+								["hidden"] = true,
+								["size"] = 0.92,
+							},
+							["CastTime"] = {
+								["styleType"] = "cast",
+								["custom"] = "[~CastStopTime?Text([CastDelay:Round(1):HideZero:Prepend(+):Red] [[CastEndTime-CurrentTime]:Round(1)>=0])]",
+								["position"] = "castBar-left",
+								["style"] = "Standard Time",
+								["hidden"] = false,
+								["size"] = 0.91,
+							},
+						},
+					},
+					["raid"] = {
+						["bars"] = {
+							["healthBar"] = {
+								["height"] = 4,
+							},
+							["powerBar"] = {
+								["height"] = 1,
+							},
+						},
+						["icons"] = {
+							["leaderIcon"] = {
+								["size"] = 0.78,
+								["position"] = "frame-edgeleft",
+							},
+							["raidTargetIcon"] = {
+								["size"] = 0.75,
+								["position"] = "frame-edgeleft",
+							},
+							["voiceIcon"] = {
+								["position"] = "frame-edgeleft",
+								["size"] = 0.9,
+							},
+							["masterIcon"] = {
+								["size"] = 0.55,
+								["position"] = "frame-edgeleft",
+							},
+							["readyCheckIcon"] = {
+								["position"] = "frame-edgeright",
+							},
+						},
+						["texts"] = {
+							["Raid Group"] = {
+								["custom"] = "[RaidGroup = RaidGroup#player ? Text(*):Gray]",
+								["position"] = "frame-outlefttop",
+							},
+							["Debuffs"] = {
+								["position"] = "frame-outright",
+							},
+							["Combo"] = {
+								["position"] = "frame-outbottomright",
+							},
+							["Class"] = {
+								["hidden"] = true,
+							},
+							["Cast"] = {
+								["custom"] = "[Alpha([[CastStopTime-CurrentTime+1]:1])][CastStopMessage:Text([CastName] [CastTarget:Paren])]",
+							},
+							["Threat"] = {
+								["hidden"] = true,
+							},
+							["Power"] = {
+								["hidden"] = true,
+							},
+							["Name"] = {
+								["custom"] = "[Name:Upper][RaidGroup = RaidGroup#player ? Text(*):Gray] [DruidForm:Paren] [Gray][AFK ? Text(AFK):Angle][DND ? Text(DND):Angle]",
+								["position"] = "frame-center",
+								["style"] = "Custom",
+								["size"] = 0.9500000000000001,
+							},
+							["combatText"] = {
+								["position"] = "frame-intopright",
+							},
+							["Buffs (Amp)"] = {
+								["custom"] = "Buffs (Amp)",
+								["position"] = "hide",
+							},
+							["Buffs"] = {
+								["custom"] = "[~Status ? [HasAura(Idle) || HasAura(Inactive) ? Text(Idle):Gray] ] [~Status ? HasCurseDebuff ? Text(Cu):Color(9933ff)] [IsMana ? ~Status ? ~HasAura(Arcane Intellect) ? ~HasAura(Arcane Brilliance) ? ~HasAura(Inactive) ? ~HasAura(Idle) ? Text(Int):Color(99ccff)] [~Status ? ~HasAura(Amplify Magic) ? [MaxHP >= 19000] ? Text(Amp):Color(ffc100)] ",
+								["position"] = "frame-outrighttop",
+								["hidden"] = false,
+								["size"] = 0.9500000000000001,
+							},
+							["CastTime"] = {
+								["custom"] = "[~CastStopTime?Text([CastDelay:Round(1):HideZero:Prepend(+):Red] [[CastEndTime-CurrentTime]:Round(1)>=0])]",
+							},
+							["Health"] = {
+								["custom"] = "[Status]",
+								["position"] = "healthBar-center",
+								["style"] = "Custom",
+								["size"] = 0.9400000000000001,
+							},
+						},
+					},
+					["player"] = {
+						["bars"] = {
+							["powerBar"] = {
+								["height"] = 3,
+							},
+						},
+						["icons"] = {
+							["leaderIcon"] = {
+								["size"] = 0.75,
+							},
+							["masterIcon"] = {
+								["size"] = 0.75,
+							},
+							["combatIcon"] = {
+								["position"] = "frame-edgetopleft",
+							},
+						},
+						["texts"] = {
+							["Raid Group"] = {
+								["styleType"] = "none",
+								["style"] = "Custom",
+								["position"] = "frame-center",
+								["custom"] = "",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["Debuffs"] = {
+								["styleType"] = "none",
+								["style"] = "Custom",
+								["position"] = "frame-center",
+								["custom"] = "",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["Buffs (Amp)"] = {
+								["styleType"] = "none",
+								["style"] = "Custom",
+								["position"] = "frame-center",
+								["custom"] = "",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["Class"] = {
+								["styleType"] = "class",
+								["custom"] = "[Classification:Upper] [Level:DifficultyColor] [SmartClass:Upper:ClassColor] [DruidForm:Upper:Paren] [SmartRace:Upper]",
+								["position"] = "frame-outleftbottom",
+								["style"] = "Custom",
+								["hidden"] = false,
+								["size"] = 1,
+							},
+							["threat 2"] = {
+								["styleType"] = "none",
+								["style"] = "Custom",
+								["position"] = "frame-center",
+								["custom"] = "",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["Cast"] = {
+								["styleType"] = "cast",
+								["style"] = "Standard Name",
+								["position"] = "castBar-left",
+								["Health"] = {
+									["style"] = "Informational",
+								},
+								["custom"] = "[CastName] [CastTarget:Paren]",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["DND"] = {
+								["styleType"] = "none",
+								["style"] = "Custom",
+								["position"] = "frame-center",
+								["custom"] = "",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["Threat"] = {
+								["styleType"] = "threat",
+								["custom"] = "[Threat]/[MaxThreat]",
+								["position"] = "threatBar-right",
+								["Health"] = {
+									["style"] = "Informational",
+								},
+								["style"] = "Absolute Short",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["Idle"] = {
+								["styleType"] = "none",
+								["style"] = "Custom",
+								["position"] = "frame-center",
+								["custom"] = "",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["Power"] = {
+								["styleType"] = "power",
+								["custom"] = "[~HasNoMP?FractionalMP]",
+								["position"] = "frame-outbottomright",
+								["Health"] = {
+									["style"] = "Informational",
+								},
+								["style"] = "Absolute",
+								["hidden"] = false,
+								["size"] = 0.91,
+							},
+							["Reputation"] = {
+								["styleType"] = "reputation",
+								["style"] = "Standard",
+								["position"] = "repBar-center",
+								["Health"] = {
+									["style"] = "Informational",
+								},
+								["custom"] = "",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["Spec"] = {
+								["styleType"] = "none",
+								["style"] = "Custom",
+								["position"] = "frame-center",
+								["custom"] = "",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["DruidMana"] = {
+								["styleType"] = "druidMana",
+								["custom"] = "[~IsMana ? FractionalDruidMP]",
+								["position"] = "druidManaBar-right",
+								["style"] = "Absolute",
+								["hidden"] = false,
+								["size"] = 1,
+							},
+							["AFKDND"] = {
+								["styleType"] = "none",
+								["style"] = "Custom",
+								["position"] = "frame-outlefttop",
+								["custom"] = "[AFK ? Text(AFK)] [DND ? Text(DND)]",
+								["hidden"] = false,
+								["size"] = 0.9500000000000001,
+							},
+							["CastTime"] = {
+								["styleType"] = "cast",
+								["style"] = "Standard Time",
+								["position"] = "castBar-right",
+								["Health"] = {
+									["style"] = "Informational",
+								},
+								["custom"] = "[CastDelay:Round] [[CastEndTime-CurrentTime]:Round>=0)]",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["Health"] = {
+								["styleType"] = "health",
+								["custom"] = "[Status:SureHP:Short:PercentHP:Percent] [~Status?SureHP?PercentHP:Short:Percent:Paren]",
+								["position"] = "frame-outbottomleft",
+								["style"] = "Custom",
+								["hidden"] = false,
+								["size"] = 0.91,
+							},
+							["Experience"] = {
+								["styleType"] = "experience",
+								["style"] = "Standard",
+								["position"] = "expBar-center",
+								["Health"] = {
+									["style"] = "Informational",
+								},
+								["custom"] = "",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["combatText"] = {
+								["styleType"] = "none",
+								["style"] = "Custom",
+								["position"] = "frame-center",
+								["custom"] = "",
+								["hidden"] = false,
+								["size"] = 1,
+							},
+							["Buffs"] = {
+								["styleType"] = "none",
+								["style"] = "Custom",
+								["position"] = "frame-center",
+								["custom"] = "",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["Casting"] = {
+								["styleType"] = "none",
+								["custom"] = "",
+								["position"] = "frame-center",
+								["style"] = "Custom",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["Name"] = {
+								["styleType"] = "name",
+								["style"] = "Custom",
+								["position"] = "frame-outleft",
+								["custom"] = "[Name:Upper]",
+								["hidden"] = false,
+								["size"] = 1.75,
+							},
+							["Combo"] = {
+								["styleType"] = "combo",
+								["custom"] = "",
+								["position"] = "frame-inbottomright",
+								["style"] = "Standard",
+								["hidden"] = false,
+								["size"] = 1,
+							},
+						},
+					},
+					["maintanktarget"] = {
+						["bars"] = {
+							["healthBar"] = {
+								["height"] = 4,
+							},
+							["powerBar"] = {
+								["height"] = 1,
+							},
+						},
+						["icons"] = {
+							["leaderIcon"] = {
+								["position"] = "frame-edgeleft",
+								["size"] = 0.78,
+							},
+							["raidTargetIcon"] = {
+								["size"] = 0.75,
+								["position"] = "frame-edgeleft",
+							},
+							["voiceIcon"] = {
+								["position"] = "frame-edgeleft",
+								["size"] = 0.9,
+							},
+							["masterIcon"] = {
+								["position"] = "frame-edgeleft",
+								["size"] = 0.55,
+							},
+							["readyCheckIcon"] = {
+								["position"] = "frame-edgeright",
+							},
+						},
+						["texts"] = {
+							["Threat"] = {
+								["hidden"] = true,
+							},
+							["Combo"] = {
+								["position"] = "frame-outbottomright",
+							},
+							["Class"] = {
+								["hidden"] = true,
+							},
+							["Cast"] = {
+								["custom"] = "[Alpha([[CastStopTime-CurrentTime+1]:1])][CastStopMessage:Text([CastName] [CastTarget:Paren])]",
+								["hidden"] = true,
+							},
+							["Power"] = {
+								["hidden"] = true,
+							},
+							["Name"] = {
+								["custom"] = "[IsPlayer ? [Name:ClassColor] ] [~IsPlayer ? [Name:Trunc(15):HostileColor] ] [DruidForm:Paren] [AFKDND:Angle]",
+								["position"] = "frame-outrightbottom",
+								["style"] = "Custom",
+							},
+							["combatText"] = {
+								["position"] = "frame-intopright",
+							},
+							["CastTime"] = {
+								["custom"] = "[~CastStopTime?Text([CastDelay:Round(1):HideZero:Prepend(+):Red] [[CastEndTime-CurrentTime]:Round(1)>=0])]",
+								["hidden"] = true,
+							},
+							["Buffs"] = {
+								["custom"] = "[~Status ? [HasAura(Idle) || HasAura(Inactive) ? Text(Idle):Gray] ] [~Status ? HasCurseDebuff ? Text(Cu):Color(9933ff)] [IsMana ? ~Status ? ~HasAura(Arcane Intellect) ? ~HasAura(Arcane Brilliance) ? ~HasAura(Inactive) ? ~HasAura(Idle) ? Text(Int):Color(99ccff)] [~Status ? ~HasAura(Amplify Magic) ? [MaxHP >= 19000] ? Text(Amp):Color(ffc100)] ",
+								["position"] = "frame-inright",
+								["size"] = 0.9500000000000001,
+							},
+							["Health"] = {
+								["style"] = "Custom",
+								["position"] = "healthBar-center",
+								["custom"] = "[Status || PercentHP:Short:Percent]",
+								["size"] = 0.9400000000000001,
+							},
+						},
+					},
+					["focus"] = {
+						["texts"] = {
+							["Combo"] = {
+								["position"] = "healthBar-right",
+							},
+							["Cast"] = {
+								["custom"] = "[Alpha([[CastStopTime-CurrentTime+1]:1])][CastStopMessage:Text([CastName] [CastTarget:Paren])]",
+							},
+							["Name"] = {
+								["style"] = "Custom",
+								["position"] = "frame-outleft",
+								["custom"] = "[Name:Upper]",
+								["size"] = 1.15,
+							},
+							["Casting"] = {
+								["custom"] = "[CastStartTime ? [CastStopTime ? Text( ) ! Text(!!! CASTING !!!)] ]",
+								["position"] = "frame-inleft",
+								["hidden"] = false,
+							},
+							["Health"] = {
+								["style"] = "Custom",
+								["position"] = "frame-inright",
+								["custom"] = "[Status:PercentHP:Short:Percent]",
+								["size"] = 0.91,
+							},
+						},
+					},
+					["target"] = {
+						["bars"] = {
+							["portrait"] = {
+								["side"] = "left",
+								["position"] = 1,
+								["height"] = 2,
+								["reverse"] = false,
+							},
+							["healthBar"] = {
+								["side"] = "center",
+								["position"] = 2,
+								["height"] = 5,
+								["reverse"] = false,
+							},
+							["castBar"] = {
+								["side"] = "center",
+								["position"] = 9,
+								["height"] = 2,
+								["reverse"] = false,
+							},
+							["fullBar"] = {
+								["side"] = "center",
+								["position"] = 10,
+								["height"] = 5,
+								["reverse"] = false,
+							},
+							["expBar"] = {
+								["side"] = "center",
+								["position"] = 5,
+								["height"] = 2,
+								["reverse"] = false,
+							},
+							["blankSpace"] = {
+								["side"] = "center",
+								["position"] = 8,
+								["height"] = 2,
+								["hidden"] = true,
+								["reverse"] = false,
+							},
+							["threatBar"] = {
+								["side"] = "center",
+								["position"] = 7,
+								["height"] = 2,
+								["reverse"] = false,
+							},
+							["druidManaBar"] = {
+								["side"] = "center",
+								["reverse"] = false,
+								["height"] = 1,
+								["position"] = 4,
+							},
+							["powerBar"] = {
+								["side"] = "center",
+								["position"] = 3,
+								["height"] = 3,
+								["reverse"] = false,
+							},
+							["repBar"] = {
+								["side"] = "center",
+								["position"] = 6,
+								["height"] = 2,
+								["reverse"] = false,
+							},
+						},
+						["auraSide"] = "bottom",
+						["icons"] = {
+							["leaderIcon"] = {
+								["size"] = 0.75,
+							},
+							["masterIcon"] = {
+								["size"] = 0.75,
+							},
+						},
+						["texts"] = {
+							["Raid Group"] = {
+								["styleType"] = "none",
+								["style"] = "Custom",
+								["position"] = "frame-center",
+								["custom"] = "",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["Debuffs"] = {
+								["styleType"] = "none",
+								["style"] = "Custom",
+								["position"] = "frame-center",
+								["custom"] = "",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["Buffs (Amp)"] = {
+								["styleType"] = "none",
+								["style"] = "Custom",
+								["position"] = "frame-center",
+								["custom"] = "",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["Class"] = {
+								["styleType"] = "class",
+								["Health"] = {
+									["style"] = "Informational",
+								},
+								["position"] = "frame-outrightbottom",
+								["style"] = "Custom",
+								["custom"] = "[Classification:Upper] [Level:DifficultyColor] [TalentTree:Upper:TruncEllipsis(15):ClassColor] [SmartClass:Upper:ClassColor] [DruidForm:Upper:Paren] [SmartRace:Upper]",
+								["hidden"] = false,
+								["size"] = 1,
+							},
+							["threat 2"] = {
+								["styleType"] = "none",
+								["style"] = "Custom",
+								["position"] = "frame-center",
+								["custom"] = "",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["Cast"] = {
+								["styleType"] = "cast",
+								["Health"] = {
+									["style"] = "Informational",
+								},
+								["position"] = "castBar-left",
+								["custom"] = "[CastName] [CastTarget:Paren]",
+								["style"] = "Standard Name",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["DND"] = {
+								["styleType"] = "none",
+								["style"] = "Custom",
+								["position"] = "frame-outrighttop",
+								["custom"] = "[AFK ? Text(AFK)] [DND ? Text(DND)]",
+								["hidden"] = false,
+								["size"] = 0.9500000000000001,
+							},
+							["Threat"] = {
+								["styleType"] = "threat",
+								["Health"] = {
+									["style"] = "Informational",
+								},
+								["position"] = "threatBar-right",
+								["style"] = "Absolute Short",
+								["custom"] = "[Threat]/[MaxThreat]",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["Idle"] = {
+								["styleType"] = "none",
+								["style"] = "Custom",
+								["position"] = "frame-center",
+								["custom"] = "",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["Power"] = {
+								["styleType"] = "power",
+								["style"] = "Custom",
+								["position"] = "frame-outbottomright",
+								["custom"] = "[IsPlayer ? [~HasNoMP ? FractionalMP] ] ",
+								["hidden"] = false,
+								["size"] = 0.92,
+							},
+							["Reputation"] = {
+								["styleType"] = "reputation",
+								["style"] = "Standard",
+								["position"] = "repBar-center",
+								["custom"] = "",
+								["Health"] = {
+									["style"] = "Informational",
+								},
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["Spec"] = {
+								["styleType"] = "none",
+								["style"] = "Custom",
+								["position"] = "frame-center",
+								["custom"] = "",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["DruidMana"] = {
+								["styleType"] = "druidMana",
+								["custom"] = "[~IsMana ? FractionalDruidMP]",
+								["position"] = "druidManaBar-right",
+								["style"] = "Absolute",
+								["hidden"] = false,
+								["size"] = 1,
+							},
+							["AFKDND"] = {
+								["styleType"] = "none",
+								["style"] = "Custom",
+								["position"] = "frame-center",
+								["custom"] = "",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["CastTime"] = {
+								["styleType"] = "cast",
+								["Health"] = {
+									["style"] = "Informational",
+								},
+								["position"] = "castBar-right",
+								["style"] = "Standard Time",
+								["custom"] = "[CastDelay:Round] [[CastEndTime-CurrentTime]:Round>=0)]",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["Health"] = {
+								["styleType"] = "health",
+								["style"] = "Custom",
+								["position"] = "frame-outbottomleft",
+								["custom"] = "[Status:SureHP:Short:PercentHP:Percent] [~Status?SureHP?PercentHP:Short:Percent:Paren]",
+								["hidden"] = false,
+								["size"] = 0.91,
+							},
+							["Experience"] = {
+								["styleType"] = "experience",
+								["style"] = "Standard",
+								["position"] = "expBar-center",
+								["custom"] = "",
+								["Health"] = {
+									["style"] = "Informational",
+								},
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["combatText"] = {
+								["styleType"] = "none",
+								["style"] = "Custom",
+								["position"] = "frame-center",
+								["custom"] = "",
+								["hidden"] = false,
+								["size"] = 1,
+							},
+							["Buffs"] = {
+								["styleType"] = "none",
+								["style"] = "Custom",
+								["position"] = "frame-center",
+								["custom"] = "",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["Casting"] = {
+								["styleType"] = "none",
+								["custom"] = "",
+								["position"] = "frame-center",
+								["style"] = "Custom",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["Name"] = {
+								["styleType"] = "name",
+								["Health"] = {
+									["style"] = "Informational",
+								},
+								["position"] = "frame-outright",
+								["custom"] = "[Name:TruncEllipsis(15):Upper]",
+								["style"] = "Custom",
+								["hidden"] = false,
+								["size"] = 1.75,
+							},
+							["Combo"] = {
+								["styleType"] = "combo",
+								["custom"] = "",
+								["position"] = "frame-inbottomright",
+								["style"] = "Standard",
+								["hidden"] = false,
+								["size"] = 1,
+							},
+						},
+					},
+					["maintank"] = {
+						["bars"] = {
+							["healthBar"] = {
+								["height"] = 4,
+							},
+							["powerBar"] = {
+								["height"] = 1,
+							},
+						},
+						["icons"] = {
+							["leaderIcon"] = {
+								["position"] = "frame-edgeleft",
+								["size"] = 0.78,
+							},
+							["raidTargetIcon"] = {
+								["position"] = "frame-edgeleft",
+								["size"] = 0.75,
+							},
+							["voiceIcon"] = {
+								["position"] = "frame-edgeleft",
+								["size"] = 0.9,
+							},
+							["masterIcon"] = {
+								["position"] = "frame-edgeleft",
+								["size"] = 0.55,
+							},
+							["readyCheckIcon"] = {
+								["position"] = "frame-edgeright",
+							},
+						},
+						["texts"] = {
+							["Threat"] = {
+								["hidden"] = true,
+							},
+							["Combo"] = {
+								["position"] = "frame-outbottomright",
+							},
+							["Class"] = {
+								["hidden"] = true,
+							},
+							["Cast"] = {
+								["custom"] = "[Alpha([[CastStopTime-CurrentTime+1]:1])][CastStopMessage:Text([CastName] [CastTarget:Paren])]",
+							},
+							["Power"] = {
+								["hidden"] = true,
+							},
+							["Health"] = {
+								["custom"] = "[Status]",
+								["position"] = "healthBar-center",
+								["style"] = "Custom",
+								["size"] = 0.9400000000000001,
+							},
+							["combatText"] = {
+								["position"] = "frame-intopright",
+							},
+							["CastTime"] = {
+								["custom"] = "[~CastStopTime?Text([CastDelay:Round(1):HideZero:Prepend(+):Red] [[CastEndTime-CurrentTime]:Round(1)>=0])]",
+							},
+							["Buffs"] = {
+								["custom"] = "[~Status ? [HasAura(Idle) || HasAura(Inactive) ? Text(Idle):Gray] ] [~Status ? HasCurseDebuff ? Text(Cu):Color(9933ff)] [IsMana ? ~Status ? ~HasAura(Arcane Intellect) ? ~HasAura(Arcane Brilliance) ? ~HasAura(Inactive) ? ~HasAura(Idle) ? Text(Int):Color(99ccff)] [~Status ? ~HasAura(Amplify Magic) ? [MaxHP >= 19000] ? Text(Amp):Color(ffc100)] ",
+								["position"] = "frame-outrighttop",
+								["hidden"] = false,
+								["size"] = 0.9500000000000001,
+							},
+							["Name"] = {
+								["style"] = "Custom",
+								["position"] = "frame-center",
+								["custom"] = "[Name:Upper][RaidGroup = RaidGroup#player ? Text(*):Gray] [DruidForm:Paren] [Gray][AFK ? Text(AFK):Angle][DND ? Text(DND):Angle]",
+								["size"] = 0.9500000000000001,
+							},
+						},
+					},
+					["party"] = {
+						["bars"] = {
+							["powerBar"] = {
+								["height"] = 2,
+							},
+						},
+						["icons"] = {
+							["leaderIcon"] = {
+								["size"] = 0.6799999999999999,
+							},
+							["masterIcon"] = {
+								["size"] = 0.6799999999999999,
+							},
+						},
+						["texts"] = {
+							["Raid Group"] = {
+								["position"] = "frame-outrightbottom",
+							},
+							["Combo"] = {
+								["position"] = "frame-center",
+							},
+							["Class"] = {
+								["custom"] = "[Classification:Upper] [Level:DifficultyColor] [SmartClass:ClassColor:Upper]",
+								["position"] = "frame-outleftbottom",
+								["style"] = "Custom",
+							},
+							["Cast"] = {
+								["custom"] = "[Alpha([[CastStopTime-CurrentTime+1]:1])][CastStopMessage:Text([CastName] [CastTarget:Paren])]",
+							},
+							["Power"] = {
+								["custom"] = "[PercentMP:Percent:Short]",
+								["position"] = "frame-outbottomright",
+								["style"] = "Custom",
+								["size"] = 0.9500000000000001,
+							},
+							["Spec"] = {
+								["position"] = "frame-inleft",
+							},
+							["AFKDND"] = {
+								["custom"] = "[AFK ? Text(AFK)] [DND ? Text(DND)]",
+								["position"] = "frame-outlefttop",
+								["hidden"] = false,
+								["size"] = 0.9500000000000001,
+							},
+							["Health"] = {
+								["custom"] = "[Status:PercentHP:Percent]",
+								["position"] = "frame-outbottomleft",
+								["style"] = "Percent",
+								["size"] = 0.93,
+							},
+							["Buffs"] = {
+								["custom"] = "[~Status ? HasCurseDebuff ? Text(!! CURSED !!):Color(9933ff)] [IsMana ? ~Status ? ~HasAura(Arcane Intellect) ? ~HasAura(Arcane Brilliance) ? Text(INT):Color(99ccff)]",
+								["position"] = "frame-intop",
+								["hidden"] = false,
+								["size"] = 1.05,
+							},
+							["Name"] = {
+								["custom"] = "[Name:Upper] [AFKDND:Angle]",
+								["position"] = "frame-outleft",
+								["style"] = "Custom",
+								["size"] = 1.45,
+							},
+						},
+					},
+					["pettarget"] = {
+						["texts"] = {
+							["Name"] = {
+								["size"] = 0.96,
+							},
+							["Health"] = {
+								["custom"] = "[Status:PercentHP:Percent]",
+								["style"] = "Percent",
+								["size"] = 0.91,
+							},
+						},
+					},
+				},
+			},
+		},
+		["Combat"] = {
+			["profiles"] = {
+				["realm/The Venture Co - Alliance"] = {
+					["groups"] = {
+						["player"] = {
+							["disable"] = false,
+						},
+						["target"] = {
+							["disable"] = false,
+						},
+						["targettarget"] = {
+							["disable"] = true,
+						},
+						["party"] = {
+							["disable"] = false,
+						},
+					},
+				},
+				["Default"] = {
+					["groups"] = {
+						["party"] = {
+							["disable"] = true,
+						},
+					},
+				},
+				["char/Beska - The Venture Co"] = {
+					["groups"] = {
+						["player"] = {
+							["disable"] = false,
+						},
+						["target"] = {
+							["disable"] = false,
+						},
+						["targettarget"] = {
+							["disable"] = true,
+						},
+						["party"] = {
+							["disable"] = false,
+						},
+					},
+				},
+				["class/Mage"] = {
+					["groups"] = {
+						["player"] = {
+							["disable"] = false,
+						},
+						["target"] = {
+							["disable"] = false,
+						},
+						["targettarget"] = {
+							["disable"] = true,
+						},
+						["party"] = {
+							["disable"] = false,
+						},
+					},
+				},
+			},
+		},
+		["Banzai"] = {
+			["profiles"] = {
+				["Default"] = {
+					["groups"] = {
+						["partytarget"] = {
+							["ignore"] = true,
+						},
+						["focustarget"] = {
+							["ignore"] = true,
+						},
+						["mouseover"] = {
+							["ignore"] = true,
+						},
+						["party"] = {
+							["ignore"] = false,
+						},
+						["focus"] = {
+							["ignore"] = true,
+						},
+						["raid"] = {
+							["ignore"] = true,
+						},
+						["player"] = {
+							["ignore"] = true,
+						},
+					},
+				},
+			},
+		},
+		["RaidTargetIcon"] = {
+			["profiles"] = {
+				["Default"] = {
+					["raid"] = {
+						["disable"] = true,
+					},
+					["pettarget"] = {
+						["disable"] = true,
+					},
+					["focustarget"] = {
+						["disable"] = true,
+					},
+				},
+			},
+		},
+		["Leader"] = {
+			["profiles"] = {
+				["Default"] = {
+					["raid"] = {
+						["disable"] = true,
+					},
+				},
+			},
+		},
+		["CastBar"] = {
+			["profiles"] = {
+				["realm/The Venture Co - Alliance"] = {
+					["channelingcolor"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+					},
+					["completecolor"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+					},
+					["backgroundcolor"] = {
+						0.5, -- [1]
+						0.5, -- [2]
+						0.5, -- [3]
+						0.8, -- [4]
+					},
+					["failcolor"] = {
+						1, -- [1]
+						0, -- [2]
+						0, -- [3]
+					},
+					["spelltextcolor"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+					},
+					["castingcolor"] = {
+						1, -- [1]
+						0.7, -- [2]
+						0, -- [3]
+					},
+					["groups"] = {
+						["partytarget"] = {
+							["showIcon"] = true,
+							["ignore"] = true,
+						},
+						["targettargettarget"] = {
+							["showIcon"] = true,
+							["ignore"] = true,
+						},
+						["partypettarget"] = {
+							["showIcon"] = true,
+							["ignore"] = true,
+						},
+						["target"] = {
+							["showIcon"] = true,
+							["ignore"] = false,
+						},
+						["focustarget"] = {
+							["showIcon"] = true,
+							["ignore"] = true,
+						},
+						["targettarget"] = {
+							["showIcon"] = true,
+							["ignore"] = true,
+						},
+						["raidtarget"] = {
+							["showIcon"] = true,
+							["ignore"] = true,
+						},
+					},
+					["timetextcolor"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+					},
+				},
+				["Default"] = {
+					["groups"] = {
+						["mainassisttarget"] = {
+							["ignore"] = true,
+						},
+						["party"] = {
+							["ignore"] = true,
+						},
+						["maintanktarget"] = {
+							["ignore"] = true,
+						},
+						["focus"] = {
+							["ignore"] = true,
+						},
+						["target"] = {
+							["ignore"] = true,
+						},
+						["raid"] = {
+							["ignore"] = true,
+						},
+						["pettarget"] = {
+							["ignore"] = true,
+						},
+						["partypet"] = {
+							["ignore"] = true,
+						},
+						["player"] = {
+							["ignore"] = true,
+						},
+						["maintank"] = {
+							["ignore"] = true,
+						},
+						["mainassist"] = {
+							["ignore"] = true,
+						},
+					},
+				},
+				["char/Beska - The Venture Co"] = {
+					["channelingcolor"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+					},
+					["completecolor"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+					},
+					["backgroundcolor"] = {
+						0.5, -- [1]
+						0.5, -- [2]
+						0.5, -- [3]
+						0.8, -- [4]
+					},
+					["failcolor"] = {
+						1, -- [1]
+						0, -- [2]
+						0, -- [3]
+					},
+					["spelltextcolor"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+					},
+					["castingcolor"] = {
+						1, -- [1]
+						0.7, -- [2]
+						0, -- [3]
+					},
+					["groups"] = {
+						["partytarget"] = {
+							["showIcon"] = true,
+							["ignore"] = true,
+						},
+						["targettargettarget"] = {
+							["showIcon"] = true,
+							["ignore"] = true,
+						},
+						["partypettarget"] = {
+							["showIcon"] = true,
+							["ignore"] = true,
+						},
+						["target"] = {
+							["showIcon"] = true,
+							["ignore"] = false,
+						},
+						["focustarget"] = {
+							["showIcon"] = true,
+							["ignore"] = true,
+						},
+						["targettarget"] = {
+							["showIcon"] = true,
+							["ignore"] = true,
+						},
+						["raidtarget"] = {
+							["showIcon"] = true,
+							["ignore"] = true,
+						},
+					},
+					["timetextcolor"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+					},
+				},
+				["class/Mage"] = {
+					["channelingcolor"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+					},
+					["completecolor"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+					},
+					["backgroundcolor"] = {
+						0.5, -- [1]
+						0.5, -- [2]
+						0.5, -- [3]
+						0.8, -- [4]
+					},
+					["failcolor"] = {
+						1, -- [1]
+						0, -- [2]
+						0, -- [3]
+					},
+					["spelltextcolor"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+					},
+					["castingcolor"] = {
+						1, -- [1]
+						0.7, -- [2]
+						0, -- [3]
+					},
+					["groups"] = {
+						["partytarget"] = {
+							["showIcon"] = true,
+							["ignore"] = true,
+						},
+						["targettargettarget"] = {
+							["showIcon"] = true,
+							["ignore"] = true,
+						},
+						["partypettarget"] = {
+							["showIcon"] = true,
+							["ignore"] = true,
+						},
+						["target"] = {
+							["showIcon"] = true,
+							["ignore"] = false,
+						},
+						["focustarget"] = {
+							["showIcon"] = true,
+							["ignore"] = true,
+						},
+						["targettarget"] = {
+							["showIcon"] = true,
+							["ignore"] = true,
+						},
+						["raidtarget"] = {
+							["showIcon"] = true,
+							["ignore"] = true,
+						},
+					},
+					["timetextcolor"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+					},
+				},
+			},
+		},
+		["BarFader"] = {
+			["profiles"] = {
+				["realm/The Venture Co - Alliance"] = {
+					["color"] = {
+						0, -- [1]
+						0.8, -- [2]
+						0, -- [3]
+						0.5, -- [4]
+					},
+					["groups"] = {
+						["target"] = {
+						},
+						["targettarget"] = {
+						},
+					},
+					["fadetime"] = 0.5,
+				},
+				["Default"] = {
+					["groups"] = {
+						["player"] = {
+							["disableHealth"] = false,
+							["fade"] = false,
+							["ignore"] = false,
+							["smooth"] = false,
+						},
+						["target"] = {
+							["fade"] = false,
+						},
+						["raid"] = {
+							["smooth"] = false,
+							["fade"] = false,
+						},
+					},
+				},
+				["char/Beska - The Venture Co"] = {
+					["color"] = {
+						0, -- [1]
+						0.8, -- [2]
+						0, -- [3]
+						0.5, -- [4]
+					},
+					["groups"] = {
+						["target"] = {
+						},
+						["targettarget"] = {
+						},
+					},
+					["fadetime"] = 0.5,
+				},
+				["class/Mage"] = {
+					["color"] = {
+						0, -- [1]
+						0.8, -- [2]
+						0, -- [3]
+						0.5, -- [4]
+					},
+					["groups"] = {
+						["target"] = {
+						},
+						["targettarget"] = {
+						},
+					},
+					["fadetime"] = 0.5,
+				},
+			},
+		},
+		["Aura"] = {
+			["profiles"] = {
+				["realm/The Venture Co - Alliance"] = {
+					["cooldownText"] = false,
+					["zoomAura"] = true,
+					["cooldownTextAlpha"] = 0.5,
+					["target"] = {
+						["grow"] = -1,
+						["highlight"] = {
+							["Debuffs"] = true,
+							["Buffs"] = true,
+						},
+						["split"] = false,
+						["maxdebuffs"] = 40,
+						["buffFilterSelection"] = {
+						},
+						["sort"] = true,
+						["buffsize"] = 16,
+						["hiddenBuffs"] = false,
+						["frameHighlight"] = "Never",
+						["snap"] = true,
+						["debuffFilter"] = false,
+						["hidden"] = false,
+						["debuffsize"] = 16,
+						["hiddenDebuffs"] = false,
+						["debuffdirection"] = "Right then Down",
+						["maxbuffs"] = 40,
+						["buffdirection"] = "Right then Down",
+						["highlightType"] = true,
+						["highlightStyle"] = "border",
+						["buffFilter"] = false,
+						["flip"] = false,
+					},
+					["colors"] = {
+						["grow"] = -1,
+						["debuffs"] = {
+							["Disease"] = {
+								0.55, -- [1]
+								0.15, -- [2]
+								0, -- [3]
+								1, -- [4]
+							},
+							["nil"] = {
+								1, -- [1]
+								0, -- [2]
+								0, -- [3]
+								1, -- [4]
+							},
+							["Curse"] = {
+								5, -- [1]
+								0, -- [2]
+								5, -- [3]
+								1, -- [4]
+							},
+							["Magic"] = {
+								0, -- [1]
+								0, -- [2]
+								1, -- [3]
+								1, -- [4]
+							},
+							["Poison"] = {
+								0, -- [1]
+								1, -- [2]
+								0, -- [3]
+								1, -- [4]
+							},
+						},
+						["highlight"] = {
+							["Debuffs"] = true,
+							["Buffs"] = true,
+						},
+						["flip"] = false,
+						["maxdebuffs"] = 6,
+						["buffFilterSelection"] = {
+						},
+						["sort"] = true,
+						["buffsize"] = 16,
+						["split"] = false,
+						["maxbuffs"] = 6,
+						["frameHighlight"] = "Cureable by me",
+						["buffs"] = {
+							0, -- [1]
+							1, -- [2]
+							0, -- [3]
+							1, -- [4]
+						},
+						["hiddenBuffs"] = false,
+						["hidden"] = false,
+						["debuffFilter"] = true,
+						["buffFilter"] = true,
+						["debuffdirection"] = "Right then Down",
+						["debuffsize"] = 16,
+						["buffdirection"] = "Right then Down",
+						["highlightType"] = true,
+						["highlightStyle"] = "border",
+						["snap"] = true,
+						["hiddenDebuffs"] = false,
+					},
+					["targettarget"] = {
+						["grow"] = -1,
+						["highlight"] = {
+							["Debuffs"] = true,
+							["Buffs"] = true,
+						},
+						["flip"] = false,
+						["maxdebuffs"] = 6,
+						["buffFilterSelection"] = {
+						},
+						["sort"] = true,
+						["buffsize"] = 16,
+						["debuffsize"] = 16,
+						["frameHighlight"] = "Cureable by me",
+						["buffFilter"] = true,
+						["hiddenDebuffs"] = false,
+						["hidden"] = false,
+						["hiddenBuffs"] = false,
+						["debuffFilter"] = true,
+						["debuffdirection"] = "Right then Down",
+						["maxbuffs"] = 6,
+						["buffdirection"] = "Right then Down",
+						["highlightType"] = true,
+						["highlightStyle"] = "border",
+						["snap"] = true,
+						["split"] = false,
+					},
+					["cooldown"] = true,
+				},
+				["Default"] = {
+					["party"] = {
+						["highlight"] = {
+							["Buffs"] = false,
+							["Debuffs"] = false,
+						},
+						["debuffFilter"] = false,
+						["buffsize"] = 14,
+						["debuffsize"] = 14,
+					},
+					["pet"] = {
+						["hiddenBuffs"] = true,
+						["highlight"] = {
+							["Debuffs"] = false,
+						},
+						["hiddenDebuffs"] = true,
+						["hidden"] = true,
+					},
+					["zoomAura"] = false,
+					["partytarget"] = {
+						["hiddenBuffs"] = true,
+						["hiddenDebuffs"] = true,
+						["hidden"] = true,
+					},
+					["focustarget"] = {
+						["hiddenBuffs"] = true,
+						["hiddenDebuffs"] = true,
+						["hidden"] = true,
+					},
+					["targettarget"] = {
+						["hiddenBuffs"] = true,
+						["frameHighlight"] = "Never",
+						["maxdebuffs"] = 3,
+						["hidden"] = true,
+						["hiddenDebuffs"] = true,
+					},
+					["partypet"] = {
+						["hiddenBuffs"] = true,
+						["hiddenDebuffs"] = true,
+						["hidden"] = true,
+					},
+					["player"] = {
+						["hiddenBuffs"] = true,
+						["hiddenDebuffs"] = true,
+						["hidden"] = true,
+					},
+					["maintanktarget"] = {
+						["hiddenBuffs"] = true,
+						["hiddenDebuffs"] = true,
+						["hidden"] = true,
+					},
+					["focus"] = {
+						["hiddenBuffs"] = true,
+						["highlight"] = {
+							["Debuffs"] = false,
+						},
+						["split"] = true,
+						["debuffsize"] = 30,
+						["hidden"] = true,
+						["buffFilterSelection"] = {
+							["Amplify Magic"] = false,
+							["Mana Shield"] = false,
+							["Warsong Flag"] = false,
+							["Mage Armor"] = false,
+							["Netherstorm Flag"] = false,
+							["Perception"] = false,
+							["Blazing Speed"] = false,
+							["Fire Ward"] = false,
+							["Ice Barrier"] = false,
+							["Frost Armor"] = false,
+							["Clearcasting"] = false,
+							["Arcane Power"] = false,
+							["Combustion"] = false,
+							["Presence of Mind"] = false,
+							["Frost Ward"] = false,
+							["Dampen Magic"] = false,
+							["Blink"] = false,
+							["Slow Fall"] = false,
+							["Ice Block"] = false,
+							["Molten Armor"] = false,
+							["Evocation"] = false,
+							["Ice Armor"] = false,
+							["Invisibility"] = false,
+						},
+						["debuffdirection"] = "Left then Up",
+						["hiddenDebuffs"] = true,
+						["maxdebuffs"] = 1,
+					},
+					["target"] = {
+						["maxdebuffs"] = 39,
+						["maxbuffs"] = 26,
+						["highlight"] = {
+							["Debuffs"] = false,
+							["Buffs"] = false,
+						},
+					},
+					["raid"] = {
+						["hiddenBuffs"] = true,
+						["highlight"] = {
+							["Debuffs"] = false,
+						},
+						["split"] = true,
+						["debuffFilter"] = false,
+						["hidden"] = true,
+						["buffFilterSelection"] = {
+							["Amplify Magic"] = false,
+							["Mana Shield"] = false,
+							["Warsong Flag"] = false,
+							["Mage Armor"] = false,
+							["Presence of Mind"] = false,
+							["Perception"] = false,
+							["Blazing Speed"] = false,
+							["Fire Ward"] = false,
+							["Ice Barrier"] = false,
+							["Frost Armor"] = false,
+							["Clearcasting"] = false,
+							["Arcane Power"] = false,
+							["Molten Armor"] = false,
+							["Netherstorm Flag"] = false,
+							["Frost Ward"] = false,
+							["Combustion"] = false,
+							["Blink"] = false,
+							["Slow Fall"] = false,
+							["Ice Block"] = false,
+							["Dampen Magic"] = false,
+							["Evocation"] = false,
+							["Ice Armor"] = false,
+							["Invisibility"] = false,
+						},
+						["maxdebuffs"] = 2,
+						["maxbuffs"] = 2,
+						["buffsize"] = 10,
+						["debuffsize"] = 4,
+						["buffFilter"] = false,
+						["hiddenDebuffs"] = true,
+					},
+					["cooldown"] = false,
+					["maintank"] = {
+						["hiddenBuffs"] = true,
+						["hiddenDebuffs"] = true,
+						["hidden"] = true,
+					},
+				},
+				["char/Beska - The Venture Co"] = {
+					["cooldownText"] = false,
+					["zoomAura"] = true,
+					["cooldownTextAlpha"] = 0.5,
+					["target"] = {
+						["grow"] = -1,
+						["highlight"] = {
+							["Debuffs"] = true,
+							["Buffs"] = true,
+						},
+						["split"] = false,
+						["maxdebuffs"] = 40,
+						["buffFilterSelection"] = {
+						},
+						["sort"] = true,
+						["buffsize"] = 16,
+						["hiddenBuffs"] = false,
+						["frameHighlight"] = "Never",
+						["snap"] = true,
+						["debuffFilter"] = false,
+						["hidden"] = false,
+						["debuffsize"] = 16,
+						["hiddenDebuffs"] = false,
+						["debuffdirection"] = "Right then Down",
+						["maxbuffs"] = 40,
+						["buffdirection"] = "Right then Down",
+						["highlightType"] = true,
+						["highlightStyle"] = "border",
+						["buffFilter"] = false,
+						["flip"] = false,
+					},
+					["colors"] = {
+						["grow"] = -1,
+						["debuffs"] = {
+							["Disease"] = {
+								0.55, -- [1]
+								0.15, -- [2]
+								0, -- [3]
+								1, -- [4]
+							},
+							["nil"] = {
+								1, -- [1]
+								0, -- [2]
+								0, -- [3]
+								1, -- [4]
+							},
+							["Curse"] = {
+								5, -- [1]
+								0, -- [2]
+								5, -- [3]
+								1, -- [4]
+							},
+							["Magic"] = {
+								0, -- [1]
+								0, -- [2]
+								1, -- [3]
+								1, -- [4]
+							},
+							["Poison"] = {
+								0, -- [1]
+								1, -- [2]
+								0, -- [3]
+								1, -- [4]
+							},
+						},
+						["highlight"] = {
+							["Debuffs"] = true,
+							["Buffs"] = true,
+						},
+						["flip"] = false,
+						["maxdebuffs"] = 6,
+						["buffFilterSelection"] = {
+						},
+						["sort"] = true,
+						["buffsize"] = 16,
+						["split"] = false,
+						["maxbuffs"] = 6,
+						["frameHighlight"] = "Cureable by me",
+						["buffs"] = {
+							0, -- [1]
+							1, -- [2]
+							0, -- [3]
+							1, -- [4]
+						},
+						["hiddenBuffs"] = false,
+						["hidden"] = false,
+						["debuffFilter"] = true,
+						["buffFilter"] = true,
+						["debuffdirection"] = "Right then Down",
+						["debuffsize"] = 16,
+						["buffdirection"] = "Right then Down",
+						["highlightType"] = true,
+						["highlightStyle"] = "border",
+						["snap"] = true,
+						["hiddenDebuffs"] = false,
+					},
+					["targettarget"] = {
+						["grow"] = -1,
+						["highlight"] = {
+							["Debuffs"] = true,
+							["Buffs"] = true,
+						},
+						["flip"] = false,
+						["maxdebuffs"] = 6,
+						["buffFilterSelection"] = {
+						},
+						["sort"] = true,
+						["buffsize"] = 16,
+						["debuffsize"] = 16,
+						["frameHighlight"] = "Cureable by me",
+						["buffFilter"] = true,
+						["hiddenDebuffs"] = false,
+						["hidden"] = false,
+						["hiddenBuffs"] = false,
+						["debuffFilter"] = true,
+						["debuffdirection"] = "Right then Down",
+						["maxbuffs"] = 6,
+						["buffdirection"] = "Right then Down",
+						["highlightType"] = true,
+						["highlightStyle"] = "border",
+						["snap"] = true,
+						["split"] = false,
+					},
+					["cooldown"] = true,
+				},
+				["class/Mage"] = {
+					["cooldownText"] = false,
+					["zoomAura"] = true,
+					["cooldownTextAlpha"] = 0.5,
+					["target"] = {
+						["grow"] = -1,
+						["highlight"] = {
+							["Debuffs"] = true,
+							["Buffs"] = true,
+						},
+						["split"] = false,
+						["maxdebuffs"] = 40,
+						["buffFilterSelection"] = {
+						},
+						["sort"] = true,
+						["buffsize"] = 16,
+						["hiddenBuffs"] = false,
+						["frameHighlight"] = "Never",
+						["snap"] = true,
+						["debuffFilter"] = false,
+						["hidden"] = false,
+						["debuffsize"] = 16,
+						["hiddenDebuffs"] = false,
+						["debuffdirection"] = "Right then Down",
+						["maxbuffs"] = 40,
+						["buffdirection"] = "Right then Down",
+						["highlightType"] = true,
+						["highlightStyle"] = "border",
+						["buffFilter"] = false,
+						["flip"] = false,
+					},
+					["colors"] = {
+						["grow"] = -1,
+						["debuffs"] = {
+							["Disease"] = {
+								0.55, -- [1]
+								0.15, -- [2]
+								0, -- [3]
+								1, -- [4]
+							},
+							["nil"] = {
+								1, -- [1]
+								0, -- [2]
+								0, -- [3]
+								1, -- [4]
+							},
+							["Curse"] = {
+								5, -- [1]
+								0, -- [2]
+								5, -- [3]
+								1, -- [4]
+							},
+							["Magic"] = {
+								0, -- [1]
+								0, -- [2]
+								1, -- [3]
+								1, -- [4]
+							},
+							["Poison"] = {
+								0, -- [1]
+								1, -- [2]
+								0, -- [3]
+								1, -- [4]
+							},
+						},
+						["highlight"] = {
+							["Debuffs"] = true,
+							["Buffs"] = true,
+						},
+						["flip"] = false,
+						["maxdebuffs"] = 6,
+						["buffFilterSelection"] = {
+						},
+						["sort"] = true,
+						["buffsize"] = 16,
+						["split"] = false,
+						["maxbuffs"] = 6,
+						["frameHighlight"] = "Cureable by me",
+						["buffs"] = {
+							0, -- [1]
+							1, -- [2]
+							0, -- [3]
+							1, -- [4]
+						},
+						["hiddenBuffs"] = false,
+						["hidden"] = false,
+						["debuffFilter"] = true,
+						["buffFilter"] = true,
+						["debuffdirection"] = "Right then Down",
+						["debuffsize"] = 16,
+						["buffdirection"] = "Right then Down",
+						["highlightType"] = true,
+						["highlightStyle"] = "border",
+						["snap"] = true,
+						["hiddenDebuffs"] = false,
+					},
+					["targettarget"] = {
+						["grow"] = -1,
+						["highlight"] = {
+							["Debuffs"] = true,
+							["Buffs"] = true,
+						},
+						["flip"] = false,
+						["maxdebuffs"] = 6,
+						["buffFilterSelection"] = {
+						},
+						["sort"] = true,
+						["buffsize"] = 16,
+						["debuffsize"] = 16,
+						["frameHighlight"] = "Cureable by me",
+						["buffFilter"] = true,
+						["hiddenDebuffs"] = false,
+						["hidden"] = false,
+						["hiddenBuffs"] = false,
+						["debuffFilter"] = true,
+						["debuffdirection"] = "Right then Down",
+						["maxbuffs"] = 6,
+						["buffdirection"] = "Right then Down",
+						["highlightType"] = true,
+						["highlightStyle"] = "border",
+						["snap"] = true,
+						["split"] = false,
+					},
+					["cooldown"] = true,
+				},
+			},
+		},
+		["Highlight"] = {
+			["profiles"] = {
+				["realm/The Venture Co - Alliance"] = {
+					["target"] = {
+						["showTarget"] = false,
+						["hidden"] = false,
+					},
+					["targettarget"] = {
+						["showTarget"] = false,
+						["hidden"] = false,
+					},
+					["targettargettarget"] = {
+						["showTarget"] = false,
+						["hidden"] = false,
+					},
+				},
+				["Default"] = {
+					["party"] = {
+						["hidden"] = true,
+					},
+					["player"] = {
+						["hidden"] = true,
+					},
+					["focus"] = {
+						["hidden"] = true,
+					},
+					["target"] = {
+						["hidden"] = true,
+					},
+					["focustarget"] = {
+						["hidden"] = true,
+					},
+					["pet"] = {
+						["hidden"] = true,
+					},
+					["targettarget"] = {
+						["hidden"] = true,
+					},
+				},
+				["char/Beska - The Venture Co"] = {
+					["target"] = {
+						["showTarget"] = false,
+						["hidden"] = false,
+					},
+					["targettarget"] = {
+						["showTarget"] = false,
+						["hidden"] = false,
+					},
+					["targettargettarget"] = {
+						["showTarget"] = false,
+						["hidden"] = false,
+					},
+				},
+				["class/Mage"] = {
+					["target"] = {
+						["showTarget"] = false,
+						["hidden"] = false,
+					},
+					["targettarget"] = {
+						["showTarget"] = false,
+						["hidden"] = false,
+					},
+					["targettargettarget"] = {
+						["showTarget"] = false,
+						["hidden"] = false,
+					},
+				},
+			},
+		},
+		["PvPIcon"] = {
+			["profiles"] = {
+				["Default"] = {
+					["groups"] = {
+						["maintank"] = {
+							["ignore"] = true,
+						},
+						["mainassisttarget"] = {
+							["ignore"] = true,
+						},
+						["party"] = {
+							["ignore"] = true,
+						},
+						["partytarget"] = {
+							["ignore"] = true,
+						},
+						["focustarget"] = {
+							["ignore"] = true,
+						},
+						["targettarget"] = {
+							["ignore"] = true,
+						},
+						["pet"] = {
+							["ignore"] = true,
+						},
+						["player"] = {
+							["ignore"] = false,
+						},
+						["maintanktarget"] = {
+							["ignore"] = true,
+						},
+						["focus"] = {
+							["ignore"] = true,
+						},
+						["target"] = {
+							["ignore"] = true,
+						},
+						["raid"] = {
+							["ignore"] = true,
+						},
+						["mainassist"] = {
+							["ignore"] = true,
+						},
+						["pettarget"] = {
+							["ignore"] = true,
+						},
+					},
+				},
+			},
+		},
+		["PowerBar"] = {
+			["profiles"] = {
+				["Default"] = {
+					["mainassisttarget"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+						},
+						["hidden"] = true,
+					},
+					["targettargettarget"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+								1, -- [4]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+						},
+					},
+					["partytarget"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+								1, -- [4]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+						},
+						["hidden"] = true,
+					},
+					["party"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+								1, -- [4]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+						},
+					},
+					["mainassist"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+						},
+						["hidden"] = true,
+					},
+					["focus"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+								1, -- [4]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+						},
+						["hidden"] = true,
+					},
+					["target"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+								1, -- [4]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+						},
+					},
+					["raid"] = {
+						["hideNoMana"] = false,
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+								1, -- [4]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+						},
+						["hidden"] = true,
+					},
+					["focustarget"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+								1, -- [4]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+						},
+						["hidden"] = true,
+					},
+					["targettarget"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+								1, -- [4]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+						},
+					},
+					["player"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+								1, -- [4]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+						},
+					},
+					["maintanktarget"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+						},
+						["hidden"] = true,
+					},
+					["pet"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+								1, -- [4]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+						},
+						["hidden"] = true,
+					},
+					["maintank"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+						},
+						["hidden"] = true,
+					},
+					["pettarget"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+						},
+						["hidden"] = true,
+					},
+					["mouseover"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+						},
+					},
+				},
+			},
+		},
+		["HideBlizzard"] = {
+			["profiles"] = {
+				["Default"] = {
+					["aura"] = true,
+				},
+			},
+		},
+		["RaidTarget"] = {
+			["profiles"] = {
+				["realm/The Venture Co - Alliance"] = {
+					["target"] = {
+						["disable"] = false,
+					},
+					["targettarget"] = {
+						["disable"] = false,
+					},
+				},
+				["Default"] = {
+					["raid"] = {
+						["disable"] = true,
+					},
+				},
+				["char/Beska - The Venture Co"] = {
+					["target"] = {
+						["disable"] = false,
+					},
+					["targettarget"] = {
+						["disable"] = false,
+					},
+				},
+				["class/Mage"] = {
+					["target"] = {
+						["disable"] = false,
+					},
+					["targettarget"] = {
+						["disable"] = false,
+					},
+				},
+			},
+		},
+		["Threat"] = {
+			["profiles"] = {
+				["Default"] = {
+					["player"] = {
+						["ignore"] = true,
+					},
+					["focus"] = {
+						["ignore"] = true,
+					},
+					["pet"] = {
+						["ignore"] = true,
+					},
+					["party"] = {
+						["ignore"] = true,
+					},
+				},
+			},
+		},
+		["HealthBar"] = {
+			["profiles"] = {
+				["Default"] = {
+					["mainassisttarget"] = {
+						["hostilityColorNPCs"] = true,
+					},
+					["partytarget"] = {
+						["classColorPvP"] = true,
+					},
+					["maintanktarget"] = {
+						["hostilityColor"] = true,
+					},
+					["raid"] = {
+						["customColor"] = true,
+						["customColors"] = {
+							0, -- [1]
+							0, -- [2]
+							0, -- [3]
+						},
+					},
+					["player"] = {
+						["customColors"] = {
+							0, -- [1]
+							0, -- [2]
+							0, -- [3]
+						},
+						["customBGColors"] = {
+							0.1058823529411765, -- [1]
+							0.1058823529411765, -- [2]
+							0.1058823529411765, -- [3]
+						},
+					},
+					["pettarget"] = {
+						["classColorPvP"] = true,
+					},
+					["pet"] = {
+						["customColor"] = true,
+						["classColor"] = false,
+						["customColors"] = {
+							0.4117647058823529, -- [1]
+							0.8, -- [2]
+							0.9411764705882353, -- [3]
+						},
+						["happinessColor"] = false,
+						["customBGColors"] = {
+							0, -- [1]
+							0.6784313725490196, -- [2]
+							0.6784313725490196, -- [3]
+						},
+					},
+				},
+			},
+		},
+		["Power"] = {
+			["profiles"] = {
+				["realm/The Venture Co - Alliance"] = {
+					["targettargettarget"] = {
+						["customBGColor"] = false,
+						["hideNoMana"] = false,
+						["hidden"] = true,
+						["customColor"] = false,
+						["deficit"] = false,
+						["reverse"] = false,
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["rageBG"] = {
+								0.04313725490196078, -- [1]
+								0.04313725490196078, -- [2]
+								0.04313725490196078, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["manaBG"] = {
+								0.04313725490196078, -- [1]
+								0.04313725490196078, -- [2]
+								0.04313725490196078, -- [3]
+							},
+							["focusBG"] = {
+								0.04313725490196078, -- [1]
+								0.04313725490196078, -- [2]
+								0.04313725490196078, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+							["energyBG"] = {
+								0.04313725490196078, -- [1]
+								0.04313725490196078, -- [2]
+								0.04313725490196078, -- [3]
+							},
+						},
+						["colorByClass"] = false,
+						["hideNoPower"] = false,
+					},
+					["target"] = {
+						["customBGColor"] = false,
+						["hideNoMana"] = false,
+						["hidden"] = false,
+						["customColor"] = false,
+						["deficit"] = false,
+						["reverse"] = false,
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["rageBG"] = {
+								0.04313725490196078, -- [1]
+								0.04313725490196078, -- [2]
+								0.04313725490196078, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["manaBG"] = {
+								0.04313725490196078, -- [1]
+								0.04313725490196078, -- [2]
+								0.04313725490196078, -- [3]
+							},
+							["focusBG"] = {
+								0.04313725490196078, -- [1]
+								0.04313725490196078, -- [2]
+								0.04313725490196078, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+							["energyBG"] = {
+								0.04313725490196078, -- [1]
+								0.04313725490196078, -- [2]
+								0.04313725490196078, -- [3]
+							},
+						},
+						["colorByClass"] = false,
+						["hideNoPower"] = false,
+					},
+					["raid"] = {
+						["customBGColor"] = false,
+						["hideNoMana"] = true,
+						["hidden"] = false,
+						["customColor"] = false,
+						["deficit"] = false,
+						["reverse"] = false,
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["rageBG"] = {
+								0.04313725490196078, -- [1]
+								0.04313725490196078, -- [2]
+								0.04313725490196078, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["manaBG"] = {
+								0.04313725490196078, -- [1]
+								0.04313725490196078, -- [2]
+								0.04313725490196078, -- [3]
+							},
+							["focusBG"] = {
+								0.04313725490196078, -- [1]
+								0.04313725490196078, -- [2]
+								0.04313725490196078, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+							["energyBG"] = {
+								0.04313725490196078, -- [1]
+								0.04313725490196078, -- [2]
+								0.04313725490196078, -- [3]
+							},
+						},
+						["colorByClass"] = false,
+						["hideNoPower"] = false,
+					},
+					["targettarget"] = {
+						["customBGColor"] = false,
+						["hideNoMana"] = false,
+						["hidden"] = true,
+						["customColor"] = false,
+						["deficit"] = false,
+						["reverse"] = false,
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["rageBG"] = {
+								0.04313725490196078, -- [1]
+								0.04313725490196078, -- [2]
+								0.04313725490196078, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["manaBG"] = {
+								0.04313725490196078, -- [1]
+								0.04313725490196078, -- [2]
+								0.04313725490196078, -- [3]
+							},
+							["focusBG"] = {
+								0.04313725490196078, -- [1]
+								0.04313725490196078, -- [2]
+								0.04313725490196078, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+							["energyBG"] = {
+								0.04313725490196078, -- [1]
+								0.04313725490196078, -- [2]
+								0.04313725490196078, -- [3]
+							},
+						},
+						["colorByClass"] = false,
+						["hideNoPower"] = false,
+					},
+				},
+				["Default"] = {
+					["mainassisttarget"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+						},
+					},
+					["targettargettarget"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+						},
+					},
+					["partytarget"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+						},
+					},
+					["mainassisttargettarget"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+						},
+					},
+					["party"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+						},
+					},
+					["mainassist"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+						},
+					},
+					["focus"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+						},
+						["hidden"] = true,
+					},
+					["target"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+						},
+					},
+					["raid"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+						},
+						["hidden"] = true,
+					},
+					["focustarget"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+						},
+						["hidden"] = true,
+					},
+					["pet"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+						},
+						["hidden"] = true,
+					},
+					["partypet"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+						},
+						["hidden"] = true,
+					},
+					["player"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+						},
+					},
+					["maintanktarget"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+						},
+					},
+					["mouseover"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+						},
+					},
+					["pettarget"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+						},
+					},
+					["maintank"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+						},
+					},
+					["maintanktargettarget"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+						},
+					},
+					["targettarget"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+						},
+					},
+				},
+				["char/Beska - The Venture Co"] = {
+					["targettargettarget"] = {
+						["customBGColor"] = false,
+						["hideNoMana"] = false,
+						["hidden"] = true,
+						["customColor"] = false,
+						["deficit"] = false,
+						["reverse"] = false,
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["rageBG"] = {
+								0.04313725490196078, -- [1]
+								0.04313725490196078, -- [2]
+								0.04313725490196078, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["manaBG"] = {
+								0.04313725490196078, -- [1]
+								0.04313725490196078, -- [2]
+								0.04313725490196078, -- [3]
+							},
+							["focusBG"] = {
+								0.04313725490196078, -- [1]
+								0.04313725490196078, -- [2]
+								0.04313725490196078, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+							["energyBG"] = {
+								0.04313725490196078, -- [1]
+								0.04313725490196078, -- [2]
+								0.04313725490196078, -- [3]
+							},
+						},
+						["colorByClass"] = false,
+						["hideNoPower"] = false,
+					},
+					["target"] = {
+						["customBGColor"] = false,
+						["hideNoMana"] = false,
+						["hidden"] = false,
+						["customColor"] = false,
+						["deficit"] = false,
+						["reverse"] = false,
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["rageBG"] = {
+								0.04313725490196078, -- [1]
+								0.04313725490196078, -- [2]
+								0.04313725490196078, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["manaBG"] = {
+								0.04313725490196078, -- [1]
+								0.04313725490196078, -- [2]
+								0.04313725490196078, -- [3]
+							},
+							["focusBG"] = {
+								0.04313725490196078, -- [1]
+								0.04313725490196078, -- [2]
+								0.04313725490196078, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+							["energyBG"] = {
+								0.04313725490196078, -- [1]
+								0.04313725490196078, -- [2]
+								0.04313725490196078, -- [3]
+							},
+						},
+						["colorByClass"] = false,
+						["hideNoPower"] = false,
+					},
+					["raid"] = {
+						["customBGColor"] = false,
+						["hideNoMana"] = true,
+						["hidden"] = false,
+						["customColor"] = false,
+						["deficit"] = false,
+						["reverse"] = false,
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["rageBG"] = {
+								0.04313725490196078, -- [1]
+								0.04313725490196078, -- [2]
+								0.04313725490196078, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["manaBG"] = {
+								0.04313725490196078, -- [1]
+								0.04313725490196078, -- [2]
+								0.04313725490196078, -- [3]
+							},
+							["focusBG"] = {
+								0.04313725490196078, -- [1]
+								0.04313725490196078, -- [2]
+								0.04313725490196078, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+							["energyBG"] = {
+								0.04313725490196078, -- [1]
+								0.04313725490196078, -- [2]
+								0.04313725490196078, -- [3]
+							},
+						},
+						["colorByClass"] = false,
+						["hideNoPower"] = false,
+					},
+					["targettarget"] = {
+						["customBGColor"] = false,
+						["hideNoMana"] = false,
+						["hidden"] = true,
+						["customColor"] = false,
+						["deficit"] = false,
+						["reverse"] = false,
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["rageBG"] = {
+								0.04313725490196078, -- [1]
+								0.04313725490196078, -- [2]
+								0.04313725490196078, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["manaBG"] = {
+								0.04313725490196078, -- [1]
+								0.04313725490196078, -- [2]
+								0.04313725490196078, -- [3]
+							},
+							["focusBG"] = {
+								0.04313725490196078, -- [1]
+								0.04313725490196078, -- [2]
+								0.04313725490196078, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+							["energyBG"] = {
+								0.04313725490196078, -- [1]
+								0.04313725490196078, -- [2]
+								0.04313725490196078, -- [3]
+							},
+						},
+						["colorByClass"] = false,
+						["hideNoPower"] = false,
+					},
+				},
+				["class/Mage"] = {
+					["targettargettarget"] = {
+						["customBGColor"] = false,
+						["hideNoMana"] = false,
+						["hidden"] = true,
+						["customColor"] = false,
+						["deficit"] = false,
+						["reverse"] = false,
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["rageBG"] = {
+								0.04313725490196078, -- [1]
+								0.04313725490196078, -- [2]
+								0.04313725490196078, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["manaBG"] = {
+								0.04313725490196078, -- [1]
+								0.04313725490196078, -- [2]
+								0.04313725490196078, -- [3]
+							},
+							["focusBG"] = {
+								0.04313725490196078, -- [1]
+								0.04313725490196078, -- [2]
+								0.04313725490196078, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+							["energyBG"] = {
+								0.04313725490196078, -- [1]
+								0.04313725490196078, -- [2]
+								0.04313725490196078, -- [3]
+							},
+						},
+						["colorByClass"] = false,
+						["hideNoPower"] = false,
+					},
+					["target"] = {
+						["customBGColor"] = false,
+						["hideNoMana"] = false,
+						["hidden"] = false,
+						["customColor"] = false,
+						["deficit"] = false,
+						["reverse"] = false,
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["rageBG"] = {
+								0.04313725490196078, -- [1]
+								0.04313725490196078, -- [2]
+								0.04313725490196078, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["manaBG"] = {
+								0.04313725490196078, -- [1]
+								0.04313725490196078, -- [2]
+								0.04313725490196078, -- [3]
+							},
+							["focusBG"] = {
+								0.04313725490196078, -- [1]
+								0.04313725490196078, -- [2]
+								0.04313725490196078, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+							["energyBG"] = {
+								0.04313725490196078, -- [1]
+								0.04313725490196078, -- [2]
+								0.04313725490196078, -- [3]
+							},
+						},
+						["colorByClass"] = false,
+						["hideNoPower"] = false,
+					},
+					["raid"] = {
+						["customBGColor"] = false,
+						["hideNoMana"] = true,
+						["hidden"] = false,
+						["customColor"] = false,
+						["deficit"] = false,
+						["reverse"] = false,
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["rageBG"] = {
+								0.04313725490196078, -- [1]
+								0.04313725490196078, -- [2]
+								0.04313725490196078, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["manaBG"] = {
+								0.04313725490196078, -- [1]
+								0.04313725490196078, -- [2]
+								0.04313725490196078, -- [3]
+							},
+							["focusBG"] = {
+								0.04313725490196078, -- [1]
+								0.04313725490196078, -- [2]
+								0.04313725490196078, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+							["energyBG"] = {
+								0.04313725490196078, -- [1]
+								0.04313725490196078, -- [2]
+								0.04313725490196078, -- [3]
+							},
+						},
+						["colorByClass"] = false,
+						["hideNoPower"] = false,
+					},
+					["targettarget"] = {
+						["customBGColor"] = false,
+						["hideNoMana"] = false,
+						["hidden"] = true,
+						["customColor"] = false,
+						["deficit"] = false,
+						["reverse"] = false,
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["rageBG"] = {
+								0.04313725490196078, -- [1]
+								0.04313725490196078, -- [2]
+								0.04313725490196078, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["manaBG"] = {
+								0.04313725490196078, -- [1]
+								0.04313725490196078, -- [2]
+								0.04313725490196078, -- [3]
+							},
+							["focusBG"] = {
+								0.04313725490196078, -- [1]
+								0.04313725490196078, -- [2]
+								0.04313725490196078, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+							["energyBG"] = {
+								0.04313725490196078, -- [1]
+								0.04313725490196078, -- [2]
+								0.04313725490196078, -- [3]
+							},
+						},
+						["colorByClass"] = false,
+						["hideNoPower"] = false,
+					},
+				},
+			},
+		},
+		["RangeCheck"] = {
+			["profiles"] = {
+				["Default"] = {
+					["opacity"] = 0.65,
+					["groups"] = {
+						["party"] = {
+							["ignore"] = true,
+						},
+					},
+				},
+				["realm/The Venture Co - Alliance"] = {
+					["enabled"] = true,
+					["groups"] = {
+						["player"] = {
+							["ignore"] = true,
+						},
+						["targettargettarget"] = {
+							["ignore"] = true,
+						},
+						["target"] = {
+							["ignore"] = true,
+						},
+						["targettarget"] = {
+							["ignore"] = true,
+						},
+					},
+					["interval"] = 0.7,
+					["opacity"] = 0.6,
+				},
+				["char/Beska - The Venture Co"] = {
+					["enabled"] = true,
+					["groups"] = {
+						["player"] = {
+							["ignore"] = true,
+						},
+						["targettargettarget"] = {
+							["ignore"] = true,
+						},
+						["target"] = {
+							["ignore"] = true,
+						},
+						["targettarget"] = {
+							["ignore"] = true,
+						},
+					},
+					["interval"] = 0.7,
+					["opacity"] = 0.6,
+				},
+				["class/Mage"] = {
+					["enabled"] = true,
+					["groups"] = {
+						["player"] = {
+							["ignore"] = true,
+						},
+						["targettargettarget"] = {
+							["ignore"] = true,
+						},
+						["target"] = {
+							["ignore"] = true,
+						},
+						["targettarget"] = {
+							["ignore"] = true,
+						},
+					},
+					["interval"] = 0.7,
+					["opacity"] = 0.6,
+				},
+			},
+		},
+		["VoiceIcon"] = {
+			["profiles"] = {
+				["Default"] = {
+					["groups"] = {
+						["mainassisttarget"] = {
+							["disable"] = true,
+						},
+						["player"] = {
+							["disable"] = true,
+						},
+						["mainassist"] = {
+							["disable"] = true,
+						},
+						["maintank"] = {
+							["disable"] = true,
+						},
+						["maintanktarget"] = {
+							["disable"] = true,
+						},
+						["raid"] = {
+							["disable"] = true,
+						},
+					},
+				},
+			},
+		},
+		["VisualHeal"] = {
+			["profiles"] = {
+				["Default"] = {
+					["groups"] = {
+						["maintank"] = {
+							["enabled"] = false,
+						},
+						["targettarget"] = {
+							["enabled"] = false,
+						},
+					},
+				},
+			},
+		},
+		["MasterLooterIcon"] = {
+			["profiles"] = {
+				["Default"] = {
+					["raid"] = {
+						["disable"] = true,
+					},
+				},
+			},
+		},
+		["MasterLooter"] = {
+			["profiles"] = {
+				["Default"] = {
+					["raid"] = {
+						["disable"] = true,
+					},
+				},
+			},
+		},
+		["Health"] = {
+			["profiles"] = {
+				["char/Beska - The Venture Co"] = {
+					["targettargettarget"] = {
+						["customBGColor"] = false,
+						["hostilityColorNPCs"] = false,
+						["customColor"] = false,
+						["classColor"] = true,
+						["deficit"] = false,
+						["hostilityColor"] = true,
+						["customColors"] = {
+							1, -- [1]
+							1, -- [2]
+							1, -- [3]
+						},
+						["customBGColors"] = {
+							0.04313725490196078, -- [1]
+							0.04313725490196078, -- [2]
+							0.04313725490196078, -- [3]
+						},
+						["reverse"] = false,
+						["classColorPvP"] = false,
+					},
+					["partytarget"] = {
+						["customBGColor"] = false,
+						["hostilityColorNPCs"] = false,
+						["customColor"] = false,
+						["classColor"] = true,
+						["deficit"] = false,
+						["hostilityColor"] = true,
+						["customColors"] = {
+							1, -- [1]
+							1, -- [2]
+							1, -- [3]
+						},
+						["customBGColors"] = {
+							0.04313725490196078, -- [1]
+							0.04313725490196078, -- [2]
+							0.04313725490196078, -- [3]
+						},
+						["reverse"] = false,
+						["classColorPvP"] = false,
+					},
+					["focustarget"] = {
+						["customBGColor"] = false,
+						["hostilityColorNPCs"] = false,
+						["customColor"] = false,
+						["classColor"] = true,
+						["deficit"] = false,
+						["hostilityColor"] = true,
+						["customColors"] = {
+							1, -- [1]
+							1, -- [2]
+							1, -- [3]
+						},
+						["customBGColors"] = {
+							0.04313725490196078, -- [1]
+							0.04313725490196078, -- [2]
+							0.04313725490196078, -- [3]
+						},
+						["reverse"] = false,
+						["classColorPvP"] = false,
+					},
+					["pet"] = {
+						["customBGColor"] = false,
+						["hostilityColorNPCs"] = false,
+						["customColor"] = false,
+						["classColorPvP"] = false,
+						["deficit"] = false,
+						["hostilityColor"] = false,
+						["reverse"] = false,
+						["customColors"] = {
+							1, -- [1]
+							1, -- [2]
+							1, -- [3]
+						},
+						["happinessColor"] = true,
+						["customBGColors"] = {
+							0.04313725490196078, -- [1]
+							0.04313725490196078, -- [2]
+							0.04313725490196078, -- [3]
+						},
+						["classColor"] = true,
+					},
+					["focus"] = {
+						["customBGColor"] = false,
+						["hostilityColorNPCs"] = false,
+						["customColor"] = false,
+						["classColor"] = true,
+						["deficit"] = false,
+						["hostilityColor"] = true,
+						["customColors"] = {
+							1, -- [1]
+							1, -- [2]
+							1, -- [3]
+						},
+						["customBGColors"] = {
+							0.04313725490196078, -- [1]
+							0.04313725490196078, -- [2]
+							0.04313725490196078, -- [3]
+						},
+						["reverse"] = false,
+						["classColorPvP"] = false,
+					},
+					["target"] = {
+						["customBGColor"] = false,
+						["hostilityColorNPCs"] = false,
+						["customColor"] = false,
+						["classColor"] = true,
+						["deficit"] = false,
+						["hostilityColor"] = true,
+						["customColors"] = {
+							1, -- [1]
+							1, -- [2]
+							1, -- [3]
+						},
+						["customBGColors"] = {
+							0.04313725490196078, -- [1]
+							0.04313725490196078, -- [2]
+							0.04313725490196078, -- [3]
+						},
+						["reverse"] = false,
+						["classColorPvP"] = false,
+					},
+					["targettarget"] = {
+						["customBGColor"] = false,
+						["hostilityColorNPCs"] = false,
+						["customColor"] = false,
+						["classColor"] = true,
+						["deficit"] = false,
+						["hostilityColor"] = true,
+						["customColors"] = {
+							1, -- [1]
+							1, -- [2]
+							1, -- [3]
+						},
+						["customBGColors"] = {
+							0.04313725490196078, -- [1]
+							0.04313725490196078, -- [2]
+							0.04313725490196078, -- [3]
+						},
+						["reverse"] = false,
+						["classColorPvP"] = false,
+					},
+					["partypettarget"] = {
+						["customBGColor"] = false,
+						["hostilityColorNPCs"] = false,
+						["customColor"] = false,
+						["classColor"] = true,
+						["deficit"] = false,
+						["hostilityColor"] = true,
+						["customColors"] = {
+							1, -- [1]
+							1, -- [2]
+							1, -- [3]
+						},
+						["customBGColors"] = {
+							0.04313725490196078, -- [1]
+							0.04313725490196078, -- [2]
+							0.04313725490196078, -- [3]
+						},
+						["reverse"] = false,
+						["classColorPvP"] = false,
+					},
+					["raidtarget"] = {
+						["customBGColor"] = false,
+						["hostilityColorNPCs"] = false,
+						["customColor"] = false,
+						["classColor"] = true,
+						["deficit"] = false,
+						["hostilityColor"] = true,
+						["customColors"] = {
+							1, -- [1]
+							1, -- [2]
+							1, -- [3]
+						},
+						["customBGColors"] = {
+							0.04313725490196078, -- [1]
+							0.04313725490196078, -- [2]
+							0.04313725490196078, -- [3]
+						},
+						["reverse"] = false,
+						["classColorPvP"] = false,
+					},
+				},
+				["realm/The Venture Co - Alliance"] = {
+					["targettargettarget"] = {
+						["customBGColor"] = false,
+						["hostilityColorNPCs"] = false,
+						["customColor"] = false,
+						["classColor"] = true,
+						["deficit"] = false,
+						["hostilityColor"] = true,
+						["customColors"] = {
+							1, -- [1]
+							1, -- [2]
+							1, -- [3]
+						},
+						["customBGColors"] = {
+							0.04313725490196078, -- [1]
+							0.04313725490196078, -- [2]
+							0.04313725490196078, -- [3]
+						},
+						["reverse"] = false,
+						["classColorPvP"] = false,
+					},
+					["partytarget"] = {
+						["customBGColor"] = false,
+						["hostilityColorNPCs"] = false,
+						["customColor"] = false,
+						["classColor"] = true,
+						["deficit"] = false,
+						["hostilityColor"] = true,
+						["customColors"] = {
+							1, -- [1]
+							1, -- [2]
+							1, -- [3]
+						},
+						["customBGColors"] = {
+							0.04313725490196078, -- [1]
+							0.04313725490196078, -- [2]
+							0.04313725490196078, -- [3]
+						},
+						["reverse"] = false,
+						["classColorPvP"] = false,
+					},
+					["focustarget"] = {
+						["customBGColor"] = false,
+						["hostilityColorNPCs"] = false,
+						["customColor"] = false,
+						["classColor"] = true,
+						["deficit"] = false,
+						["hostilityColor"] = true,
+						["customColors"] = {
+							1, -- [1]
+							1, -- [2]
+							1, -- [3]
+						},
+						["customBGColors"] = {
+							0.04313725490196078, -- [1]
+							0.04313725490196078, -- [2]
+							0.04313725490196078, -- [3]
+						},
+						["reverse"] = false,
+						["classColorPvP"] = false,
+					},
+					["pet"] = {
+						["customBGColor"] = false,
+						["hostilityColorNPCs"] = false,
+						["customColor"] = false,
+						["classColorPvP"] = false,
+						["deficit"] = false,
+						["hostilityColor"] = false,
+						["reverse"] = false,
+						["customColors"] = {
+							1, -- [1]
+							1, -- [2]
+							1, -- [3]
+						},
+						["happinessColor"] = true,
+						["customBGColors"] = {
+							0.04313725490196078, -- [1]
+							0.04313725490196078, -- [2]
+							0.04313725490196078, -- [3]
+						},
+						["classColor"] = true,
+					},
+					["focus"] = {
+						["customBGColor"] = false,
+						["hostilityColorNPCs"] = false,
+						["customColor"] = false,
+						["classColor"] = true,
+						["deficit"] = false,
+						["hostilityColor"] = true,
+						["customColors"] = {
+							1, -- [1]
+							1, -- [2]
+							1, -- [3]
+						},
+						["customBGColors"] = {
+							0.04313725490196078, -- [1]
+							0.04313725490196078, -- [2]
+							0.04313725490196078, -- [3]
+						},
+						["reverse"] = false,
+						["classColorPvP"] = false,
+					},
+					["target"] = {
+						["customBGColor"] = false,
+						["hostilityColorNPCs"] = false,
+						["customColor"] = false,
+						["classColor"] = true,
+						["deficit"] = false,
+						["hostilityColor"] = true,
+						["customColors"] = {
+							1, -- [1]
+							1, -- [2]
+							1, -- [3]
+						},
+						["customBGColors"] = {
+							0.04313725490196078, -- [1]
+							0.04313725490196078, -- [2]
+							0.04313725490196078, -- [3]
+						},
+						["reverse"] = false,
+						["classColorPvP"] = false,
+					},
+					["targettarget"] = {
+						["customBGColor"] = false,
+						["hostilityColorNPCs"] = false,
+						["customColor"] = false,
+						["classColor"] = true,
+						["deficit"] = false,
+						["hostilityColor"] = true,
+						["customColors"] = {
+							1, -- [1]
+							1, -- [2]
+							1, -- [3]
+						},
+						["customBGColors"] = {
+							0.04313725490196078, -- [1]
+							0.04313725490196078, -- [2]
+							0.04313725490196078, -- [3]
+						},
+						["reverse"] = false,
+						["classColorPvP"] = false,
+					},
+					["partypettarget"] = {
+						["customBGColor"] = false,
+						["hostilityColorNPCs"] = false,
+						["customColor"] = false,
+						["classColor"] = true,
+						["deficit"] = false,
+						["hostilityColor"] = true,
+						["customColors"] = {
+							1, -- [1]
+							1, -- [2]
+							1, -- [3]
+						},
+						["customBGColors"] = {
+							0.04313725490196078, -- [1]
+							0.04313725490196078, -- [2]
+							0.04313725490196078, -- [3]
+						},
+						["reverse"] = false,
+						["classColorPvP"] = false,
+					},
+					["raidtarget"] = {
+						["customBGColor"] = false,
+						["hostilityColorNPCs"] = false,
+						["customColor"] = false,
+						["classColor"] = true,
+						["deficit"] = false,
+						["hostilityColor"] = true,
+						["customColors"] = {
+							1, -- [1]
+							1, -- [2]
+							1, -- [3]
+						},
+						["customBGColors"] = {
+							0.04313725490196078, -- [1]
+							0.04313725490196078, -- [2]
+							0.04313725490196078, -- [3]
+						},
+						["reverse"] = false,
+						["classColorPvP"] = false,
+					},
+				},
+				["class/Mage"] = {
+					["targettargettarget"] = {
+						["customBGColor"] = false,
+						["hostilityColorNPCs"] = false,
+						["customColor"] = false,
+						["classColor"] = true,
+						["deficit"] = false,
+						["hostilityColor"] = true,
+						["customColors"] = {
+							1, -- [1]
+							1, -- [2]
+							1, -- [3]
+						},
+						["customBGColors"] = {
+							0.04313725490196078, -- [1]
+							0.04313725490196078, -- [2]
+							0.04313725490196078, -- [3]
+						},
+						["reverse"] = false,
+						["classColorPvP"] = false,
+					},
+					["partytarget"] = {
+						["customBGColor"] = false,
+						["hostilityColorNPCs"] = false,
+						["customColor"] = false,
+						["classColor"] = true,
+						["deficit"] = false,
+						["hostilityColor"] = true,
+						["customColors"] = {
+							1, -- [1]
+							1, -- [2]
+							1, -- [3]
+						},
+						["customBGColors"] = {
+							0.04313725490196078, -- [1]
+							0.04313725490196078, -- [2]
+							0.04313725490196078, -- [3]
+						},
+						["reverse"] = false,
+						["classColorPvP"] = false,
+					},
+					["focustarget"] = {
+						["customBGColor"] = false,
+						["hostilityColorNPCs"] = false,
+						["customColor"] = false,
+						["classColor"] = true,
+						["deficit"] = false,
+						["hostilityColor"] = true,
+						["customColors"] = {
+							1, -- [1]
+							1, -- [2]
+							1, -- [3]
+						},
+						["customBGColors"] = {
+							0.04313725490196078, -- [1]
+							0.04313725490196078, -- [2]
+							0.04313725490196078, -- [3]
+						},
+						["reverse"] = false,
+						["classColorPvP"] = false,
+					},
+					["pet"] = {
+						["customBGColor"] = false,
+						["hostilityColorNPCs"] = false,
+						["customColor"] = false,
+						["classColorPvP"] = false,
+						["deficit"] = false,
+						["hostilityColor"] = false,
+						["reverse"] = false,
+						["customColors"] = {
+							1, -- [1]
+							1, -- [2]
+							1, -- [3]
+						},
+						["happinessColor"] = true,
+						["customBGColors"] = {
+							0.04313725490196078, -- [1]
+							0.04313725490196078, -- [2]
+							0.04313725490196078, -- [3]
+						},
+						["classColor"] = true,
+					},
+					["focus"] = {
+						["customBGColor"] = false,
+						["hostilityColorNPCs"] = false,
+						["customColor"] = false,
+						["classColor"] = true,
+						["deficit"] = false,
+						["hostilityColor"] = true,
+						["customColors"] = {
+							1, -- [1]
+							1, -- [2]
+							1, -- [3]
+						},
+						["customBGColors"] = {
+							0.04313725490196078, -- [1]
+							0.04313725490196078, -- [2]
+							0.04313725490196078, -- [3]
+						},
+						["reverse"] = false,
+						["classColorPvP"] = false,
+					},
+					["target"] = {
+						["customBGColor"] = false,
+						["hostilityColorNPCs"] = false,
+						["customColor"] = false,
+						["classColor"] = true,
+						["deficit"] = false,
+						["hostilityColor"] = true,
+						["customColors"] = {
+							1, -- [1]
+							1, -- [2]
+							1, -- [3]
+						},
+						["customBGColors"] = {
+							0.04313725490196078, -- [1]
+							0.04313725490196078, -- [2]
+							0.04313725490196078, -- [3]
+						},
+						["reverse"] = false,
+						["classColorPvP"] = false,
+					},
+					["targettarget"] = {
+						["customBGColor"] = false,
+						["hostilityColorNPCs"] = false,
+						["customColor"] = false,
+						["classColor"] = true,
+						["deficit"] = false,
+						["hostilityColor"] = true,
+						["customColors"] = {
+							1, -- [1]
+							1, -- [2]
+							1, -- [3]
+						},
+						["customBGColors"] = {
+							0.04313725490196078, -- [1]
+							0.04313725490196078, -- [2]
+							0.04313725490196078, -- [3]
+						},
+						["reverse"] = false,
+						["classColorPvP"] = false,
+					},
+					["partypettarget"] = {
+						["customBGColor"] = false,
+						["hostilityColorNPCs"] = false,
+						["customColor"] = false,
+						["classColor"] = true,
+						["deficit"] = false,
+						["hostilityColor"] = true,
+						["customColors"] = {
+							1, -- [1]
+							1, -- [2]
+							1, -- [3]
+						},
+						["customBGColors"] = {
+							0.04313725490196078, -- [1]
+							0.04313725490196078, -- [2]
+							0.04313725490196078, -- [3]
+						},
+						["reverse"] = false,
+						["classColorPvP"] = false,
+					},
+					["raidtarget"] = {
+						["customBGColor"] = false,
+						["hostilityColorNPCs"] = false,
+						["customColor"] = false,
+						["classColor"] = true,
+						["deficit"] = false,
+						["hostilityColor"] = true,
+						["customColors"] = {
+							1, -- [1]
+							1, -- [2]
+							1, -- [3]
+						},
+						["customBGColors"] = {
+							0.04313725490196078, -- [1]
+							0.04313725490196078, -- [2]
+							0.04313725490196078, -- [3]
+						},
+						["reverse"] = false,
+						["classColorPvP"] = false,
+					},
+				},
+			},
+		},
+		["CombatText"] = {
+			["profiles"] = {
+				["Default"] = {
+					["groups"] = {
+						["pet"] = {
+							["ignore"] = true,
+						},
+						["party"] = {
+							["ignore"] = true,
+						},
+						["mainassist"] = {
+							["ignore"] = true,
+						},
+						["focus"] = {
+							["ignore"] = true,
+						},
+						["target"] = {
+							["fontheight"] = 20,
+							["ignore"] = true,
+						},
+						["maintank"] = {
+							["ignore"] = true,
+						},
+						["raid"] = {
+							["ignore"] = true,
+						},
+						["player"] = {
+							["ignore"] = true,
+						},
+					},
+				},
+			},
+		},
+		["PvP"] = {
+			["profiles"] = {
+				["realm/The Venture Co - Alliance"] = {
+					["groups"] = {
+						["target"] = {
+						},
+						["targettarget"] = {
+						},
+					},
+				},
+				["Default"] = {
+					["groups"] = {
+						["party"] = {
+							["ignore"] = true,
+						},
+						["targettarget"] = {
+							["ignore"] = true,
+						},
+						["focus"] = {
+							["ignore"] = true,
+						},
+						["focustarget"] = {
+							["ignore"] = true,
+						},
+						["raid"] = {
+							["ignore"] = true,
+						},
+						["mouseover"] = {
+							["ignore"] = true,
+						},
+						["partypet"] = {
+							["ignore"] = true,
+						},
+					},
+				},
+				["char/Beska - The Venture Co"] = {
+					["groups"] = {
+						["target"] = {
+						},
+						["targettarget"] = {
+						},
+					},
+				},
+				["class/Mage"] = {
+					["groups"] = {
+						["target"] = {
+						},
+						["targettarget"] = {
+						},
+					},
+				},
+			},
+		},
+		["RestIcon"] = {
+			["profiles"] = {
+				["Default"] = {
+					["disable"] = true,
+				},
+			},
+		},
+		["ReadyCheckIcon"] = {
+			["profiles"] = {
+				["Default"] = {
+					["mainassisttarget"] = {
+						["disable"] = true,
+					},
+					["player"] = {
+						["disable"] = true,
+					},
+					["maintanktarget"] = {
+						["disable"] = true,
+					},
+					["maintank"] = {
+						["disable"] = true,
+					},
+					["mainassist"] = {
+						["disable"] = true,
+					},
+				},
+			},
+		},
+		["Layout-ABF"] = {
+			["profiles"] = {
+				["realm/The Venture Co - Alliance"] = {
+					["player"] = {
+						["combatTextPosition"] = "frame-center",
+						["comboTextPosition"] = "frame-right",
+						["portraitSide"] = "left",
+						["comboTextSize"] = 1,
+						["portraitHeight"] = 2,
+						["experienceTextSize"] = 1,
+						["castBarHeight"] = 2,
+						["nameTextPosition"] = "healthBar-left",
+						["healthTextSize"] = 1,
+						["threatTextSize"] = 1,
+						["threatTextPosition"] = "threatBar-right",
+						["repBarHeight"] = 2,
+						["healthBarHeight"] = 5,
+						["classTextSize"] = 1,
+						["classTextCustom"] = "[Classification] [Level:DifficultyColor] [SmartClass:ClassColor] [DruidForm:Paren] [SmartRace]",
+						["nameTextSize"] = 1,
+						["comboTextStyle"] = "Standard",
+						["powerBarHeight"] = 4,
+						["powerTextStyle"] = "Absolute",
+						["threatBarHeight"] = 2,
+						["experienceTextPosition"] = "expBar-center",
+						["repTextSize"] = 1,
+						["auraSide"] = "bottom",
+						["druidManaBarHeight"] = 0.25,
+						["expBarHeight"] = 2,
+						["nameTextCustom"] = "[Name]",
+						["threatTextStyle"] = "Absolute Short",
+						["experienceTextStyle"] = "Standard",
+						["powerTextCustom"] = "[CurMP]/[MaxMP]",
+						["debuffSide"] = "right",
+						["healthTextPosition"] = "healthBar-right",
+						["buffSide"] = "bottom",
+						["repTextPosition"] = "repBar-center",
+						["threatTextCustom"] = "[Threat]/[MaxThreat]",
+						["healthTextStyle"] = "Informational",
+						["classTextStyle"] = "Standard",
+						["powerTextPosition"] = "powerBar-right",
+						["healthTextCustom"] = "[CurHP]/[MaxHP]",
+						["classTextPosition"] = "powerBar-left",
+						["nameTextStyle"] = "Standard",
+						["repTextStyle"] = "Standard",
+						["powerTextSize"] = 1,
+					},
+					["target"] = {
+						["combatTextPosition"] = "frame-center",
+						["comboTextPosition"] = "frame-right",
+						["portraitSide"] = "right",
+						["comboTextSize"] = 1,
+						["portraitHeight"] = 2,
+						["experienceTextSize"] = 1,
+						["comboSide"] = "bottom",
+						["castBarHeight"] = 2,
+						["nameTextPosition"] = "healthBar-left",
+						["healthTextSize"] = 1,
+						["threatTextSize"] = 1,
+						["threatTextPosition"] = "threatBar-right",
+						["repBarHeight"] = 2,
+						["healthBarHeight"] = 5,
+						["classTextSize"] = 1,
+						["classTextCustom"] = "[Classification] [Level:DifficultyColor] [SmartClass:ClassColor] [DruidForm:Paren] [SmartRace]",
+						["nameTextSize"] = 1,
+						["comboTextStyle"] = "Standard",
+						["powerBarHeight"] = 4,
+						["powerTextStyle"] = "Absolute",
+						["threatBarHeight"] = 2,
+						["experienceTextPosition"] = "expBar-center",
+						["repTextSize"] = 1,
+						["auraSide"] = "right",
+						["druidManaBarHeight"] = 0.25,
+						["expBarHeight"] = 2,
+						["nameTextCustom"] = "[Name]",
+						["threatTextStyle"] = "Absolute Short",
+						["experienceTextStyle"] = "Standard",
+						["powerTextCustom"] = "[CurMP]/[MaxMP]",
+						["debuffSide"] = "right",
+						["healthTextPosition"] = "healthBar-right",
+						["buffSide"] = "bottom",
+						["repTextPosition"] = "repBar-center",
+						["threatTextCustom"] = "[Threat]/[MaxThreat]",
+						["healthTextStyle"] = "Informational",
+						["classTextStyle"] = "Standard",
+						["powerTextPosition"] = "powerBar-right",
+						["healthTextCustom"] = "[CurHP]/[MaxHP]",
+						["classTextPosition"] = "powerBar-left",
+						["nameTextStyle"] = "Standard",
+						["repTextStyle"] = "Standard",
+						["powerTextSize"] = 1,
+					},
+					["pet"] = {
+						["combatTextPosition"] = "frame-center",
+						["comboTextPosition"] = "frame-right",
+						["portraitSide"] = "left",
+						["comboTextSize"] = 1,
+						["portraitHeight"] = 2,
+						["experienceTextSize"] = 1,
+						["castBarHeight"] = 2,
+						["nameTextPosition"] = "healthBar-left",
+						["healthTextSize"] = 1,
+						["threatTextSize"] = 1,
+						["threatTextPosition"] = "threatBar-right",
+						["repBarHeight"] = 2,
+						["healthBarHeight"] = 5,
+						["classTextSize"] = 1,
+						["classTextCustom"] = "[Classification] [Level:DifficultyColor] [SmartClass:ClassColor] [DruidForm:Paren] [SmartRace]",
+						["nameTextSize"] = 1,
+						["comboTextStyle"] = "Standard",
+						["powerBarHeight"] = 4,
+						["powerTextStyle"] = "Absolute",
+						["threatBarHeight"] = 2,
+						["experienceTextPosition"] = "expBar-center",
+						["repTextSize"] = 1,
+						["auraSide"] = "bottom",
+						["druidManaBarHeight"] = 0.25,
+						["expBarHeight"] = 2,
+						["nameTextCustom"] = "[Name]",
+						["threatTextStyle"] = "Absolute Short",
+						["experienceTextStyle"] = "Standard",
+						["powerTextCustom"] = "[CurMP]/[MaxMP]",
+						["debuffSide"] = "right",
+						["healthTextPosition"] = "healthBar-right",
+						["buffSide"] = "bottom",
+						["repTextPosition"] = "repBar-center",
+						["threatTextCustom"] = "[Threat]/[MaxThreat]",
+						["healthTextStyle"] = "Informational",
+						["classTextStyle"] = "Standard",
+						["powerTextPosition"] = "powerBar-right",
+						["healthTextCustom"] = "[CurHP]/[MaxHP]",
+						["classTextPosition"] = "powerBar-left",
+						["nameTextStyle"] = "Standard",
+						["repTextStyle"] = "Standard",
+						["powerTextSize"] = 1,
+					},
+					["targettarget"] = {
+						["combatTextPosition"] = "frame-center",
+						["comboTextPosition"] = "frame-right",
+						["portraitSide"] = "left",
+						["comboTextSize"] = 1,
+						["portraitHeight"] = 2,
+						["experienceTextSize"] = 1,
+						["castBarHeight"] = 2,
+						["powerBarHeight"] = 4,
+						["healthTextSize"] = 1,
+						["threatTextSize"] = 1,
+						["threatTextPosition"] = "threatBar-right",
+						["repBarHeight"] = 2,
+						["healthBarHeight"] = 5,
+						["classTextSize"] = 1,
+						["classTextCustom"] = "[Classification] [Level:DifficultyColor] [SmartClass:ClassColor] [DruidForm:Paren] [SmartRace]",
+						["nameTextSize"] = 1,
+						["comboTextStyle"] = "Standard",
+						["classTextPosition"] = "powerBar-left",
+						["powerTextStyle"] = "Absolute",
+						["threatBarHeight"] = 2,
+						["experienceTextPosition"] = "expBar-center",
+						["repTextSize"] = 1,
+						["auraSide"] = "bottom",
+						["druidManaBarHeight"] = 0.25,
+						["expBarHeight"] = 2,
+						["nameTextCustom"] = "[Name]",
+						["threatTextStyle"] = "Absolute Short",
+						["experienceTextStyle"] = "Standard",
+						["powerTextCustom"] = "[CurMP]/[MaxMP]",
+						["debuffSide"] = "right",
+						["healthTextPosition"] = "healthBar-right",
+						["buffSide"] = "bottom",
+						["repTextPosition"] = "repBar-center",
+						["threatTextCustom"] = "[Threat]/[MaxThreat]",
+						["healthTextStyle"] = "Smart",
+						["classTextStyle"] = "Standard",
+						["powerTextPosition"] = "powerBar-right",
+						["healthTextCustom"] = "[CurHP]/[MaxHP]",
+						["powerTextSize"] = 1,
+						["nameTextStyle"] = "Standard",
+						["repTextStyle"] = "Standard",
+						["nameTextPosition"] = "healthBar-left",
+					},
+				},
+				["Default"] = {
+					["partytarget"] = {
+						["auraSide"] = "right",
+						["shownTexts"] = {
+							["Class"] = true,
+							["Health"] = true,
+							["Name"] = true,
+						},
+						["texts"] = {
+							["Name"] = {
+								["size"] = 0.9500000000000001,
+							},
+							["Health"] = {
+								["style"] = "Percent",
+								["custom"] = "[Status:PercentHP:Percent]",
+								["size"] = 0.89,
+							},
+						},
+					},
+					["focustarget"] = {
+						["shownTexts"] = {
+							["Class"] = true,
+							["Health"] = true,
+							["Power"] = true,
+						},
+						["texts"] = {
+							["Name"] = {
+								["size"] = 0.92,
+							},
+							["Health"] = {
+								["custom"] = "[Status:PercentHP:Percent]",
+								["style"] = "Percent",
+								["size"] = 0.83,
+							},
+						},
+					},
+					["targettarget"] = {
+						["healthTextStyle"] = "Mini",
+						["shownTexts"] = {
+							["Health"] = true,
+							["Power"] = true,
+							["Class"] = true,
+							["Name"] = true,
+						},
+						["healthTextCustom"] = "[CurHP:VeryShort]",
+						["auraSide"] = "right",
+						["nameTextSize"] = 1.01,
+						["texts"] = {
+							["Name"] = {
+								["size"] = 0.99,
+							},
+							["Health"] = {
+								["custom"] = "[Status:PercentHP:Percent]",
+								["style"] = "Percent",
+								["size"] = 0.89,
+							},
+						},
+					},
+					["player"] = {
+						["repTextSize"] = 0.76,
+						["shownTexts"] = {
+							["Threat"] = true,
+							["Health"] = true,
+							["Power"] = true,
+							["Reputation"] = true,
+							["Class"] = true,
+							["Experience"] = true,
+							["Name"] = true,
+						},
+						["nameTextSize"] = 1.13,
+						["repTextCustom"] = "[~IsMouseOver?FractionalRep] [~IsMouseOver?PercentRep:Percent:Paren!RepName]",
+						["threatBarHeight"] = 1,
+						["threatTextStyle"] = "Percent",
+						["powerTextSize"] = 1.02,
+						["healthTextSize"] = 1.11,
+						["threatTextSize"] = 0.98,
+						["threatTextCustom"] = "[~HasNoThreat?PercentThreat:Percent]",
+						["healthTextStyle"] = "Custom",
+						["repTextPosition"] = "repBar-left",
+						["healthTextCustom"] = "[~Status?FractionalHP:Short] ([Status:PercentHP:Percent])",
+						["iconSizes"] = {
+							["masterIcon"] = 0.6,
+							["leaderIcon"] = 0.6,
+						},
+						["classTextSize"] = 1.02,
+						["texts"] = {
+							["Raid Group"] = {
+								["styleType"] = "none",
+								["style"] = "Custom",
+								["position"] = "frame-outtopleft",
+								["custom"] = "[Text(Group)] [RaidGroup]",
+								["size"] = 1,
+							},
+							["Threat"] = {
+								["styleType"] = "threat",
+								["custom"] = "[Threat]/[MaxThreat]",
+								["position"] = "threatBar-right",
+								["style"] = "Absolute Short",
+								["size"] = 1,
+							},
+							["Guild"] = {
+								["styleType"] = "none",
+								["style"] = "Custom",
+								["position"] = "frame-center",
+								["custom"] = "",
+								["size"] = 1,
+							},
+							["Power"] = {
+								["styleType"] = "power",
+								["custom"] = "[CurMP]/[MaxMP]",
+								["position"] = "powerBar-right",
+								["style"] = "Absolute",
+								["size"] = 0.92,
+							},
+							["Reputation"] = {
+								["styleType"] = "reputation",
+								["custom"] = "",
+								["position"] = "repBar-center",
+								["style"] = "Standard",
+								["size"] = 1,
+							},
+							["Class"] = {
+								["styleType"] = "class",
+								["custom"] = "[Classification] [Level:DifficultyColor] [SmartClass:ClassColor] [DruidForm:Paren] [SmartRace]",
+								["position"] = "powerBar-left",
+								["style"] = "Standard",
+								["size"] = 0.92,
+							},
+							["Health"] = {
+								["styleType"] = "health",
+								["custom"] = "[~Status?SureHP:Short] [Status:PercentHP:Percent:Paren]",
+								["position"] = "healthBar-right",
+								["style"] = "Custom",
+								["size"] = 0.93,
+							},
+							["combatText"] = {
+								["styleType"] = "none",
+								["style"] = "Custom",
+								["position"] = "frame-center",
+								["custom"] = "",
+								["size"] = 1,
+							},
+							["Experience"] = {
+								["styleType"] = "experience",
+								["custom"] = "",
+								["position"] = "expBar-center",
+								["style"] = "Standard",
+								["size"] = 1,
+							},
+							["Name"] = {
+								["styleType"] = "name",
+								["custom"] = "[Name] [AFKDND:Angle]",
+								["position"] = "healthBar-left",
+								["style"] = "Standard",
+								["size"] = 1,
+							},
+							["Combo"] = {
+								["styleType"] = "combo",
+								["custom"] = "",
+								["position"] = "frame-outright",
+								["style"] = "Standard",
+								["size"] = 1,
+							},
+						},
+					},
+					["focus"] = {
+						["castBarHeight"] = 8,
+						["shownTexts"] = {
+							["Name"] = true,
+							["Power"] = true,
+							["Class"] = true,
+							["Health"] = true,
+						},
+						["powerTextCustom"] = "[PercentMP:Percent]",
+						["healthTextStyle"] = "Mini",
+						["heights"] = {
+							["castBar"] = 3,
+						},
+						["healthTextCustom"] = "[CurHP:VeryShort]",
+						["healthBarHeight"] = 7,
+						["powerTextStyle"] = "Percent",
+						["auraSide"] = "left",
+						["texts"] = {
+							["Name"] = {
+								["size"] = 0.92,
+							},
+							["Health"] = {
+								["custom"] = "[Status:PercentHP:Percent]",
+								["style"] = "Percent",
+								["size"] = 0.8200000000000001,
+							},
+						},
+					},
+					["target"] = {
+						["powerTextSize"] = 1.03,
+						["shownTexts"] = {
+							["Combo"] = true,
+							["Name"] = true,
+							["Power"] = true,
+							["Class"] = true,
+							["Health"] = true,
+						},
+						["nameTextSize"] = 1.11,
+						["healthTextSize"] = 1.11,
+						["auraSide"] = "bottom",
+						["healthTextStyle"] = "Custom",
+						["healthTextCustom"] = "[~Status?SureHP:Short] [Status:PercentHP:Percent:Paren]",
+						["texts"] = {
+							["Raid Group"] = {
+								["styleType"] = "none",
+								["style"] = "Custom",
+								["position"] = "frame-center",
+								["custom"] = "",
+								["size"] = 1,
+							},
+							["Threat"] = {
+								["styleType"] = "threat",
+								["custom"] = "[Threat]/[MaxThreat]",
+								["position"] = "threatBar-right",
+								["style"] = "Absolute Short",
+								["size"] = 1,
+							},
+							["Guild"] = {
+								["styleType"] = "none",
+								["style"] = "Custom",
+								["position"] = "healthBar-center",
+								["custom"] = "[Guild:Angle]",
+								["size"] = 0.86,
+							},
+							["Power"] = {
+								["styleType"] = "power",
+								["custom"] = "[CurMP]/[MaxMP]",
+								["position"] = "powerBar-right",
+								["style"] = "Absolute",
+								["size"] = 0.92,
+							},
+							["Reputation"] = {
+								["styleType"] = "reputation",
+								["custom"] = "",
+								["position"] = "repBar-center",
+								["style"] = "Standard",
+								["size"] = 1,
+							},
+							["Class"] = {
+								["styleType"] = "class",
+								["custom"] = "[Classification] [Level:DifficultyColor][Plus] [PlayerClass:ClassColor] [DruidForm:Paren] [SmartRace]",
+								["position"] = "powerBar-left",
+								["style"] = "Custom",
+								["size"] = 0.91,
+							},
+							["Health"] = {
+								["styleType"] = "health",
+								["custom"] = "[~Status?SureHP:Short] [Status:PercentHP:Percent:Paren]",
+								["position"] = "healthBar-right",
+								["style"] = "Custom",
+								["size"] = 0.93,
+							},
+							["combatText"] = {
+								["styleType"] = "none",
+								["style"] = "Custom",
+								["position"] = "frame-center",
+								["custom"] = "",
+								["size"] = 1,
+							},
+							["Experience"] = {
+								["styleType"] = "experience",
+								["custom"] = "",
+								["position"] = "expBar-center",
+								["style"] = "Standard",
+								["size"] = 1,
+							},
+							["Name"] = {
+								["styleType"] = "name",
+								["custom"] = "[Name] [AFKDND:Angle]",
+								["position"] = "healthBar-left",
+								["style"] = "Custom",
+								["size"] = 1,
+							},
+							["Combo"] = {
+								["styleType"] = "combo",
+								["custom"] = "",
+								["position"] = "frame-outright",
+								["style"] = "Standard",
+								["size"] = 1,
+							},
+						},
+						["classTextSize"] = 1.02,
+						["barPositions"] = {
+							["expBar"] = 5,
+							["blankSpace"] = 4,
+							["threatBar"] = 7,
+							["repBar"] = 6,
+						},
+						["nameTextCustom"] = "[Name] [AFKDND:Angle]",
+					},
+					["raid"] = {
+						["shownTexts"] = {
+							["Class"] = true,
+							["Name"] = true,
+						},
+						["nameTextSize"] = 0.92,
+						["healthTextSize"] = 0.8100000000000001,
+						["buffSide"] = "bottomright",
+						["healthTextStyle"] = "Percent",
+						["nameTextCustom"] = "[Name:ClassColor] [AFKDND:Angle]",
+						["heights"] = {
+							["healthBar"] = 10,
+						},
+						["healthTextCustom"] = "[Status:PercentHP:Percent]",
+						["nameTextPosition"] = "frame-left",
+						["nameTextStyle"] = "Class Colored",
+						["auraSide"] = "topright",
+						["texts"] = {
+							["Name"] = {
+								["style"] = "Class Colored",
+								["custom"] = "[Name:ClassColor] [AFKDND:Angle]",
+								["size"] = 0.96,
+							},
+						},
+					},
+					["pet"] = {
+						["shownTexts"] = {
+							["Threat"] = true,
+							["Health"] = true,
+							["Power"] = true,
+							["Class"] = true,
+							["Experience"] = true,
+							["Name"] = true,
+						},
+						["texts"] = {
+							["Threat"] = {
+								["styleType"] = "threat",
+								["custom"] = "[Threat]/[MaxThreat]",
+								["position"] = "threatBar-right",
+								["style"] = "Absolute Short",
+								["size"] = 1,
+							},
+							["Power"] = {
+								["styleType"] = "power",
+								["custom"] = "[CurMP]/[MaxMP]",
+								["position"] = "powerBar-right",
+								["style"] = "Absolute",
+								["size"] = 1,
+							},
+							["Reputation"] = {
+								["styleType"] = "reputation",
+								["custom"] = "",
+								["position"] = "repBar-center",
+								["style"] = "Standard",
+								["size"] = 1,
+							},
+							["Class"] = {
+								["styleType"] = "class",
+								["custom"] = "[Classification] [Level:DifficultyColor] [SmartClass:ClassColor] [DruidForm:Paren] [SmartRace]",
+								["position"] = "powerBar-left",
+								["style"] = "Standard",
+								["size"] = 1,
+							},
+							["Health"] = {
+								["styleType"] = "health",
+								["style"] = "Percent",
+								["position"] = "healthBar-right",
+								["custom"] = "[Status:PercentHP:Percent]",
+								["size"] = 1,
+							},
+							["combatText"] = {
+								["styleType"] = "none",
+								["style"] = "Custom",
+								["position"] = "frame-center",
+								["custom"] = "",
+								["size"] = 1,
+							},
+							["Experience"] = {
+								["styleType"] = "experience",
+								["custom"] = "",
+								["position"] = "expBar-center",
+								["style"] = "Standard",
+								["size"] = 1,
+							},
+							["Name"] = {
+								["styleType"] = "name",
+								["custom"] = "[Name]",
+								["position"] = "healthBar-left",
+								["style"] = "Standard",
+								["size"] = 0.93,
+							},
+							["Combo"] = {
+								["styleType"] = "combo",
+								["custom"] = "",
+								["position"] = "frame-outright",
+								["style"] = "Standard",
+								["size"] = 1,
+							},
+						},
+					},
+					["party"] = {
+						["powerTextSize"] = 1.02,
+						["shownTexts"] = {
+							["Threat"] = true,
+							["Name"] = true,
+							["Health"] = true,
+						},
+						["nameTextSize"] = 1.12,
+						["healthTextSize"] = 1.11,
+						["healthTextStyle"] = "Custom",
+						["heights"] = {
+							["powerBar"] = 1,
+							["blankSpace"] = 1,
+						},
+						["healthTextCustom"] = "[~Status?FractionalHP:Short] ([Status:PercentHP:Percent])",
+						["iconSizes"] = {
+							["masterIcon"] = 0.6,
+							["leaderIcon"] = 0.6,
+						},
+						["texts"] = {
+							["Health"] = {
+								["custom"] = "[~Status?SureHP:Short] [Status:PercentHP:Percent:Paren]",
+								["style"] = "Custom",
+								["size"] = 0.9500000000000001,
+							},
+							["Power"] = {
+								["style"] = "Percent",
+								["custom"] = "[PercentMP:Percent]",
+								["size"] = 0.9,
+							},
+							["Class"] = {
+								["size"] = 0.91,
+							},
+							["Name"] = {
+								["size"] = 0.99,
+							},
+						},
+						["classTextSize"] = 1.03,
+					},
+				},
+				["char/Beska - The Venture Co"] = {
+					["player"] = {
+						["combatTextPosition"] = "frame-center",
+						["comboTextPosition"] = "frame-right",
+						["portraitSide"] = "left",
+						["comboTextSize"] = 1,
+						["portraitHeight"] = 2,
+						["experienceTextSize"] = 1,
+						["castBarHeight"] = 2,
+						["nameTextPosition"] = "healthBar-left",
+						["healthTextSize"] = 1,
+						["threatTextSize"] = 1,
+						["threatTextPosition"] = "threatBar-right",
+						["repBarHeight"] = 2,
+						["healthBarHeight"] = 5,
+						["classTextSize"] = 1,
+						["classTextCustom"] = "[Classification] [Level:DifficultyColor] [SmartClass:ClassColor] [DruidForm:Paren] [SmartRace]",
+						["nameTextSize"] = 1,
+						["comboTextStyle"] = "Standard",
+						["powerBarHeight"] = 4,
+						["powerTextStyle"] = "Absolute",
+						["threatBarHeight"] = 2,
+						["experienceTextPosition"] = "expBar-center",
+						["repTextSize"] = 1,
+						["auraSide"] = "bottom",
+						["druidManaBarHeight"] = 0.25,
+						["expBarHeight"] = 2,
+						["nameTextCustom"] = "[Name]",
+						["threatTextStyle"] = "Absolute Short",
+						["experienceTextStyle"] = "Standard",
+						["powerTextCustom"] = "[CurMP]/[MaxMP]",
+						["debuffSide"] = "right",
+						["healthTextPosition"] = "healthBar-right",
+						["buffSide"] = "bottom",
+						["repTextPosition"] = "repBar-center",
+						["threatTextCustom"] = "[Threat]/[MaxThreat]",
+						["healthTextStyle"] = "Informational",
+						["classTextStyle"] = "Standard",
+						["powerTextPosition"] = "powerBar-right",
+						["healthTextCustom"] = "[CurHP]/[MaxHP]",
+						["classTextPosition"] = "powerBar-left",
+						["nameTextStyle"] = "Standard",
+						["repTextStyle"] = "Standard",
+						["powerTextSize"] = 1,
+					},
+					["target"] = {
+						["combatTextPosition"] = "frame-center",
+						["comboTextPosition"] = "frame-right",
+						["portraitSide"] = "right",
+						["comboTextSize"] = 1,
+						["portraitHeight"] = 2,
+						["experienceTextSize"] = 1,
+						["comboSide"] = "bottom",
+						["castBarHeight"] = 2,
+						["nameTextPosition"] = "healthBar-left",
+						["healthTextSize"] = 1,
+						["threatTextSize"] = 1,
+						["threatTextPosition"] = "threatBar-right",
+						["repBarHeight"] = 2,
+						["healthBarHeight"] = 5,
+						["classTextSize"] = 1,
+						["classTextCustom"] = "[Classification] [Level:DifficultyColor] [SmartClass:ClassColor] [DruidForm:Paren] [SmartRace]",
+						["nameTextSize"] = 1,
+						["comboTextStyle"] = "Standard",
+						["powerBarHeight"] = 4,
+						["powerTextStyle"] = "Absolute",
+						["threatBarHeight"] = 2,
+						["experienceTextPosition"] = "expBar-center",
+						["repTextSize"] = 1,
+						["auraSide"] = "right",
+						["druidManaBarHeight"] = 0.25,
+						["expBarHeight"] = 2,
+						["nameTextCustom"] = "[Name]",
+						["threatTextStyle"] = "Absolute Short",
+						["experienceTextStyle"] = "Standard",
+						["powerTextCustom"] = "[CurMP]/[MaxMP]",
+						["debuffSide"] = "right",
+						["healthTextPosition"] = "healthBar-right",
+						["buffSide"] = "bottom",
+						["repTextPosition"] = "repBar-center",
+						["threatTextCustom"] = "[Threat]/[MaxThreat]",
+						["healthTextStyle"] = "Informational",
+						["classTextStyle"] = "Standard",
+						["powerTextPosition"] = "powerBar-right",
+						["healthTextCustom"] = "[CurHP]/[MaxHP]",
+						["classTextPosition"] = "powerBar-left",
+						["nameTextStyle"] = "Standard",
+						["repTextStyle"] = "Standard",
+						["powerTextSize"] = 1,
+					},
+					["pet"] = {
+						["combatTextPosition"] = "frame-center",
+						["comboTextPosition"] = "frame-right",
+						["portraitSide"] = "left",
+						["comboTextSize"] = 1,
+						["portraitHeight"] = 2,
+						["experienceTextSize"] = 1,
+						["castBarHeight"] = 2,
+						["nameTextPosition"] = "healthBar-left",
+						["healthTextSize"] = 1,
+						["threatTextSize"] = 1,
+						["threatTextPosition"] = "threatBar-right",
+						["repBarHeight"] = 2,
+						["healthBarHeight"] = 5,
+						["classTextSize"] = 1,
+						["classTextCustom"] = "[Classification] [Level:DifficultyColor] [SmartClass:ClassColor] [DruidForm:Paren] [SmartRace]",
+						["nameTextSize"] = 1,
+						["comboTextStyle"] = "Standard",
+						["powerBarHeight"] = 4,
+						["powerTextStyle"] = "Absolute",
+						["threatBarHeight"] = 2,
+						["experienceTextPosition"] = "expBar-center",
+						["repTextSize"] = 1,
+						["auraSide"] = "bottom",
+						["druidManaBarHeight"] = 0.25,
+						["expBarHeight"] = 2,
+						["nameTextCustom"] = "[Name]",
+						["threatTextStyle"] = "Absolute Short",
+						["experienceTextStyle"] = "Standard",
+						["powerTextCustom"] = "[CurMP]/[MaxMP]",
+						["debuffSide"] = "right",
+						["healthTextPosition"] = "healthBar-right",
+						["buffSide"] = "bottom",
+						["repTextPosition"] = "repBar-center",
+						["threatTextCustom"] = "[Threat]/[MaxThreat]",
+						["healthTextStyle"] = "Informational",
+						["classTextStyle"] = "Standard",
+						["powerTextPosition"] = "powerBar-right",
+						["healthTextCustom"] = "[CurHP]/[MaxHP]",
+						["classTextPosition"] = "powerBar-left",
+						["nameTextStyle"] = "Standard",
+						["repTextStyle"] = "Standard",
+						["powerTextSize"] = 1,
+					},
+					["targettarget"] = {
+						["combatTextPosition"] = "frame-center",
+						["comboTextPosition"] = "frame-right",
+						["portraitSide"] = "left",
+						["comboTextSize"] = 1,
+						["portraitHeight"] = 2,
+						["experienceTextSize"] = 1,
+						["castBarHeight"] = 2,
+						["powerBarHeight"] = 4,
+						["healthTextSize"] = 1,
+						["threatTextSize"] = 1,
+						["threatTextPosition"] = "threatBar-right",
+						["repBarHeight"] = 2,
+						["healthBarHeight"] = 5,
+						["classTextSize"] = 1,
+						["classTextCustom"] = "[Classification] [Level:DifficultyColor] [SmartClass:ClassColor] [DruidForm:Paren] [SmartRace]",
+						["nameTextSize"] = 1,
+						["comboTextStyle"] = "Standard",
+						["classTextPosition"] = "powerBar-left",
+						["powerTextStyle"] = "Absolute",
+						["threatBarHeight"] = 2,
+						["experienceTextPosition"] = "expBar-center",
+						["repTextSize"] = 1,
+						["auraSide"] = "bottom",
+						["druidManaBarHeight"] = 0.25,
+						["expBarHeight"] = 2,
+						["nameTextCustom"] = "[Name]",
+						["threatTextStyle"] = "Absolute Short",
+						["experienceTextStyle"] = "Standard",
+						["powerTextCustom"] = "[CurMP]/[MaxMP]",
+						["debuffSide"] = "right",
+						["healthTextPosition"] = "healthBar-right",
+						["buffSide"] = "bottom",
+						["repTextPosition"] = "repBar-center",
+						["threatTextCustom"] = "[Threat]/[MaxThreat]",
+						["healthTextStyle"] = "Smart",
+						["classTextStyle"] = "Standard",
+						["powerTextPosition"] = "powerBar-right",
+						["healthTextCustom"] = "[CurHP]/[MaxHP]",
+						["powerTextSize"] = 1,
+						["nameTextStyle"] = "Standard",
+						["repTextStyle"] = "Standard",
+						["nameTextPosition"] = "healthBar-left",
+					},
+				},
+				["class/Mage"] = {
+					["player"] = {
+						["combatTextPosition"] = "frame-center",
+						["comboTextPosition"] = "frame-right",
+						["portraitSide"] = "left",
+						["comboTextSize"] = 1,
+						["portraitHeight"] = 2,
+						["experienceTextSize"] = 1,
+						["castBarHeight"] = 2,
+						["nameTextPosition"] = "healthBar-left",
+						["healthTextSize"] = 1,
+						["threatTextSize"] = 1,
+						["threatTextPosition"] = "threatBar-right",
+						["repBarHeight"] = 2,
+						["healthBarHeight"] = 5,
+						["classTextSize"] = 1,
+						["classTextCustom"] = "[Classification] [Level:DifficultyColor] [SmartClass:ClassColor] [DruidForm:Paren] [SmartRace]",
+						["nameTextSize"] = 1,
+						["comboTextStyle"] = "Standard",
+						["powerBarHeight"] = 4,
+						["powerTextStyle"] = "Absolute",
+						["threatBarHeight"] = 2,
+						["experienceTextPosition"] = "expBar-center",
+						["repTextSize"] = 1,
+						["auraSide"] = "bottom",
+						["druidManaBarHeight"] = 0.25,
+						["expBarHeight"] = 2,
+						["nameTextCustom"] = "[Name]",
+						["threatTextStyle"] = "Absolute Short",
+						["experienceTextStyle"] = "Standard",
+						["powerTextCustom"] = "[CurMP]/[MaxMP]",
+						["debuffSide"] = "right",
+						["healthTextPosition"] = "healthBar-right",
+						["buffSide"] = "bottom",
+						["repTextPosition"] = "repBar-center",
+						["threatTextCustom"] = "[Threat]/[MaxThreat]",
+						["healthTextStyle"] = "Informational",
+						["classTextStyle"] = "Standard",
+						["powerTextPosition"] = "powerBar-right",
+						["healthTextCustom"] = "[CurHP]/[MaxHP]",
+						["classTextPosition"] = "powerBar-left",
+						["nameTextStyle"] = "Standard",
+						["repTextStyle"] = "Standard",
+						["powerTextSize"] = 1,
+					},
+					["target"] = {
+						["combatTextPosition"] = "frame-center",
+						["comboTextPosition"] = "frame-right",
+						["portraitSide"] = "right",
+						["comboTextSize"] = 1,
+						["portraitHeight"] = 2,
+						["experienceTextSize"] = 1,
+						["comboSide"] = "bottom",
+						["castBarHeight"] = 2,
+						["nameTextPosition"] = "healthBar-left",
+						["healthTextSize"] = 1,
+						["threatTextSize"] = 1,
+						["threatTextPosition"] = "threatBar-right",
+						["repBarHeight"] = 2,
+						["healthBarHeight"] = 5,
+						["classTextSize"] = 1,
+						["classTextCustom"] = "[Classification] [Level:DifficultyColor] [SmartClass:ClassColor] [DruidForm:Paren] [SmartRace]",
+						["nameTextSize"] = 1,
+						["comboTextStyle"] = "Standard",
+						["powerBarHeight"] = 4,
+						["powerTextStyle"] = "Absolute",
+						["threatBarHeight"] = 2,
+						["experienceTextPosition"] = "expBar-center",
+						["repTextSize"] = 1,
+						["auraSide"] = "right",
+						["druidManaBarHeight"] = 0.25,
+						["expBarHeight"] = 2,
+						["nameTextCustom"] = "[Name]",
+						["threatTextStyle"] = "Absolute Short",
+						["experienceTextStyle"] = "Standard",
+						["powerTextCustom"] = "[CurMP]/[MaxMP]",
+						["debuffSide"] = "right",
+						["healthTextPosition"] = "healthBar-right",
+						["buffSide"] = "bottom",
+						["repTextPosition"] = "repBar-center",
+						["threatTextCustom"] = "[Threat]/[MaxThreat]",
+						["healthTextStyle"] = "Informational",
+						["classTextStyle"] = "Standard",
+						["powerTextPosition"] = "powerBar-right",
+						["healthTextCustom"] = "[CurHP]/[MaxHP]",
+						["classTextPosition"] = "powerBar-left",
+						["nameTextStyle"] = "Standard",
+						["repTextStyle"] = "Standard",
+						["powerTextSize"] = 1,
+					},
+					["pet"] = {
+						["combatTextPosition"] = "frame-center",
+						["comboTextPosition"] = "frame-right",
+						["portraitSide"] = "left",
+						["comboTextSize"] = 1,
+						["portraitHeight"] = 2,
+						["experienceTextSize"] = 1,
+						["castBarHeight"] = 2,
+						["nameTextPosition"] = "healthBar-left",
+						["healthTextSize"] = 1,
+						["threatTextSize"] = 1,
+						["threatTextPosition"] = "threatBar-right",
+						["repBarHeight"] = 2,
+						["healthBarHeight"] = 5,
+						["classTextSize"] = 1,
+						["classTextCustom"] = "[Classification] [Level:DifficultyColor] [SmartClass:ClassColor] [DruidForm:Paren] [SmartRace]",
+						["nameTextSize"] = 1,
+						["comboTextStyle"] = "Standard",
+						["powerBarHeight"] = 4,
+						["powerTextStyle"] = "Absolute",
+						["threatBarHeight"] = 2,
+						["experienceTextPosition"] = "expBar-center",
+						["repTextSize"] = 1,
+						["auraSide"] = "bottom",
+						["druidManaBarHeight"] = 0.25,
+						["expBarHeight"] = 2,
+						["nameTextCustom"] = "[Name]",
+						["threatTextStyle"] = "Absolute Short",
+						["experienceTextStyle"] = "Standard",
+						["powerTextCustom"] = "[CurMP]/[MaxMP]",
+						["debuffSide"] = "right",
+						["healthTextPosition"] = "healthBar-right",
+						["buffSide"] = "bottom",
+						["repTextPosition"] = "repBar-center",
+						["threatTextCustom"] = "[Threat]/[MaxThreat]",
+						["healthTextStyle"] = "Informational",
+						["classTextStyle"] = "Standard",
+						["powerTextPosition"] = "powerBar-right",
+						["healthTextCustom"] = "[CurHP]/[MaxHP]",
+						["classTextPosition"] = "powerBar-left",
+						["nameTextStyle"] = "Standard",
+						["repTextStyle"] = "Standard",
+						["powerTextSize"] = 1,
+					},
+					["targettarget"] = {
+						["combatTextPosition"] = "frame-center",
+						["comboTextPosition"] = "frame-right",
+						["portraitSide"] = "left",
+						["comboTextSize"] = 1,
+						["portraitHeight"] = 2,
+						["experienceTextSize"] = 1,
+						["castBarHeight"] = 2,
+						["powerBarHeight"] = 4,
+						["healthTextSize"] = 1,
+						["threatTextSize"] = 1,
+						["threatTextPosition"] = "threatBar-right",
+						["repBarHeight"] = 2,
+						["healthBarHeight"] = 5,
+						["classTextSize"] = 1,
+						["classTextCustom"] = "[Classification] [Level:DifficultyColor] [SmartClass:ClassColor] [DruidForm:Paren] [SmartRace]",
+						["nameTextSize"] = 1,
+						["comboTextStyle"] = "Standard",
+						["classTextPosition"] = "powerBar-left",
+						["powerTextStyle"] = "Absolute",
+						["threatBarHeight"] = 2,
+						["experienceTextPosition"] = "expBar-center",
+						["repTextSize"] = 1,
+						["auraSide"] = "bottom",
+						["druidManaBarHeight"] = 0.25,
+						["expBarHeight"] = 2,
+						["nameTextCustom"] = "[Name]",
+						["threatTextStyle"] = "Absolute Short",
+						["experienceTextStyle"] = "Standard",
+						["powerTextCustom"] = "[CurMP]/[MaxMP]",
+						["debuffSide"] = "right",
+						["healthTextPosition"] = "healthBar-right",
+						["buffSide"] = "bottom",
+						["repTextPosition"] = "repBar-center",
+						["threatTextCustom"] = "[Threat]/[MaxThreat]",
+						["healthTextStyle"] = "Smart",
+						["classTextStyle"] = "Standard",
+						["powerTextPosition"] = "powerBar-right",
+						["healthTextCustom"] = "[CurHP]/[MaxHP]",
+						["powerTextSize"] = 1,
+						["nameTextStyle"] = "Standard",
+						["repTextStyle"] = "Standard",
+						["nameTextPosition"] = "healthBar-left",
+					},
+				},
+			},
+		},
+	},
+	["profiles"] = {
+		["realm/The Venture Co - Alliance"] = {
+			["detachedTooltip"] = {
+			},
+		},
+		["Default"] = {
+			["clusters"] = {
+				["partytarget"] = {
+					["y"] = 229.6484985351562,
+					["x"] = -90.946044921875,
+				},
+				["raid4"] = {
+					["y"] = 79.14154052734375,
+					["x"] = -353.5432739257812,
+				},
+				["raidMAINTANKtarget"] = {
+					["y"] = -63.34921264648438,
+					["x"] = -680.9662475585938,
+				},
+				["raid3"] = {
+					["y"] = 61.20281982421875,
+					["x"] = -379.9271240234375,
+				},
+				["raid"] = {
+					["y"] = 382.9591674804688,
+					["x"] = -779.2556610107422,
+				},
+				["raid2"] = {
+					["y"] = -18.993896484375,
+					["x"] = 215.2918701171875,
+				},
+				["raidMAINTANK"] = {
+					["y"] = -63.425537109375,
+					["x"] = -779.9142608642578,
+				},
+				["raidMAINTANKtargettarget"] = {
+					["y"] = 247.976806640625,
+					["x"] = -649.0420684814453,
+				},
+				["raid6"] = {
+					["y"] = 2.1104736328125,
+					["x"] = 223.7347412109375,
+				},
+				["raid7"] = {
+					["y"] = 314.455810546875,
+					["x"] = -256.45068359375,
+				},
+				["partypet"] = {
+					["y"] = 26.380615234375,
+					["x"] = 503.4031982421875,
+				},
+				["raid8"] = {
+					["y"] = 80.19677734375,
+					["x"] = -439.0268859863281,
+				},
+				["raid5"] = {
+					["y"] = 432.6404418945312,
+					["x"] = 281.779296875,
+				},
+				["raid1"] = {
+					["y"] = -2.11041259765625,
+					["x"] = 308.1630859375,
+				},
+				["raidMAINASSIST"] = {
+					["y"] = 515.893798828125,
+					["x"] = -642.011962890625,
+				},
+				["party"] = {
+					["y"] = -90.1318359375,
+					["x"] = -343.5169677734375,
+				},
+				["raidMAINASSISTtarget"] = {
+					["y"] = 515.7174072265625,
+					["x"] = -542.53662109375,
+				},
+				["raidMAINASSISTtargettarget"] = {
+					["y"] = 222.651611328125,
+					["x"] = -177.29931640625,
+				},
+			},
+			["groups"] = {
+				["mainassisttarget"] = {
+					["scale"] = 0.9199999999999999,
+					["hidden"] = true,
+					["width"] = 84,
+					["spacing"] = 4,
+					["height"] = 16,
+				},
+				["partytarget"] = {
+					["scale"] = 0.97,
+					["hidden"] = true,
+					["width"] = 115,
+					["spacing"] = 55,
+					["height"] = 16,
+				},
+				["mainassisttargettarget"] = {
+					["hidden"] = true,
+				},
+				["party"] = {
+					["direction"] = "up",
+					["scale"] = 0.97,
+					["spacing"] = 21,
+					["height"] = 36,
+					["width"] = 160,
+				},
+				["mainassist"] = {
+					["scale"] = 0.9299999999999999,
+					["hidden"] = true,
+					["width"] = 122,
+					["spacing"] = 4,
+					["height"] = 16,
+				},
+				["focus"] = {
+					["scale"] = 0.9399999999999999,
+					["width"] = 207,
+					["height"] = 22,
+				},
+				["target"] = {
+					["scale"] = 0.9399999999999999,
+					["width"] = 207,
+					["height"] = 48,
+				},
+				["raid"] = {
+					["scale"] = 0.9299999999999999,
+					["groupStyle"] = "flatClass",
+					["width"] = 122,
+					["groupFilter"] = {
+						[7] = false,
+						[8] = false,
+						[6] = false,
+					},
+					["spacing"] = 3,
+					["height"] = 16,
+					["hidden"] = true,
+				},
+				["maintanktargettarget"] = {
+					["hidden"] = true,
+				},
+				["focustarget"] = {
+					["hidden"] = true,
+					["width"] = 37,
+					["height"] = 18,
+				},
+				["targettarget"] = {
+					["scale"] = 0.9399999999999999,
+					["width"] = 207,
+					["height"] = 22,
+				},
+				["partypet"] = {
+					["hidden"] = true,
+					["width"] = 145,
+					["height"] = 28,
+				},
+				["player"] = {
+					["scale"] = 0.9399999999999999,
+					["width"] = 207,
+					["height"] = 45,
+				},
+				["pettarget"] = {
+					["scale"] = 0.9399999999999999,
+					["width"] = 150,
+					["height"] = 20,
+				},
+				["pet"] = {
+					["scale"] = 0.9399999999999999,
+					["width"] = 150,
+					["height"] = 24,
+				},
+				["maintank"] = {
+					["width"] = 122,
+					["scale"] = 0.9299999999999999,
+					["spacing"] = 4,
+					["height"] = 16,
+				},
+				["maintanktarget"] = {
+					["scale"] = 0.9299999999999999,
+					["width"] = 84,
+					["spacing"] = 4,
+					["height"] = 16,
+				},
+			},
+			["detachedTooltip"] = {
+			},
+			["settings"] = {
+				["font"] = "Default (Calibri v1)",
+				["colors"] = {
+					["MAGE"] = {
+						0.4117647058823529, -- [1]
+						nil, -- [2]
+						0.9411764705882353, -- [3]
+						1, -- [4]
+					},
+					["disconnected"] = {
+						0.09803921568627451, -- [1]
+						0.09803921568627451, -- [2]
+						0.09803921568627451, -- [3]
+					},
+					["PALADIN"] = {
+						0.9607843137254902, -- [1]
+						0.5607843137254902, -- [2]
+						0.7333333333333333, -- [3]
+					},
+				},
+				["locked"] = true,
+				["hideTooltipInCombat"] = true,
+				["fontsize"] = 13,
+				["texture"] = "Smooth v2",
+			},
+			["units"] = {
+				["player"] = {
+					["y"] = -260.4854149236234,
+					["x"] = -153.0566896442402,
+				},
+				["pettarget"] = {
+					["y"] = -142.8561278703152,
+					["x"] = 1.006460582209315,
+				},
+				["focus"] = {
+					["y"] = -225.8179243844777,
+					["x"] = -152.8771120122659,
+				},
+				["target"] = {
+					["y"] = -258.9102092767645,
+					["x"] = 152.5367629751873,
+				},
+				["focustarget"] = {
+					["y"] = -167.3341064453125,
+					["x"] = -103.2996826171875,
+				},
+				["targettarget"] = {
+					["y"] = -222.8182894539639,
+					["x"] = 152.2730764587165,
+				},
+				["pet"] = {
+					["y"] = -118.9293590932927,
+					["x"] = 1.415702514756314,
+				},
+			},
+		},
+		["char/Beska - The Venture Co"] = {
+			["detachedTooltip"] = {
+			},
+		},
+		["class/Mage"] = {
+			["detachedTooltip"] = {
+			},
+		},
+	},
+	["account"] = {
+		["customLayouts"] = {
+			["Beska's Raid Frames"] = {
+				["name"] = "Beska's Raid Frames",
+				["pbRevision"] = 51570,
+				["bars"] = {
+					["portrait"] = {
+						["side"] = "left",
+						["position"] = 1,
+					},
+					["castBar"] = {
+						["position"] = 8,
+					},
+					["healthBar"] = {
+						["height"] = 4,
+						["position"] = 2,
+					},
+					["expBar"] = {
+						["position"] = 4,
+					},
+					["blankSpace"] = {
+						["hidden"] = true,
+						["position"] = 7,
+					},
+					["threatBar"] = {
+						["position"] = 6,
+					},
+					["fullBar"] = {
+						["height"] = 5,
+						["position"] = 9,
+					},
+					["powerBar"] = {
+						["height"] = 1,
+						["position"] = 3,
+					},
+					["repBar"] = {
+						["position"] = 5,
+					},
+				},
+				["icons"] = {
+					["restIcon"] = {
+						["position"] = "frame-edgebottomleft",
+					},
+					["masterIcon"] = {
+						["size"] = 0.77,
+						["position"] = "frame-edgeleft",
+					},
+					["leaderIcon"] = {
+						["position"] = "frame-edgeleft",
+						["size"] = 0.78,
+					},
+					["pvpIcon"] = {
+						["position"] = "frame-edgetopright",
+					},
+					["raidTargetIcon"] = {
+						["position"] = "frame-outleft",
+						["size"] = 0.75,
+					},
+					["voiceIcon"] = {
+						["position"] = "frame-edgeleft",
+					},
+					["combatIcon"] = {
+						["position"] = "frame-edgebottomleft",
+					},
+				},
+				["texts"] = {
+					["Experience"] = {
+						["styleType"] = "experience",
+						["style"] = "Standard",
+						["position"] = "expBar-center",
+					},
+					["Name"] = {
+						["styleType"] = "name",
+						["custom"] = "[Name:ClassColor] [DruidForm:Paren] [AFKDND:Angle]",
+						["position"] = "frame-outright",
+					},
+					["Combo"] = {
+						["styleType"] = "combo",
+						["style"] = "Standard",
+						["position"] = "frame-outrightbottom",
+					},
+					["Reputation"] = {
+						["styleType"] = "reputation",
+						["style"] = "Standard",
+						["position"] = "repBar-center",
+					},
+					["Buffs"] = {
+						["size"] = 0.9500000000000001,
+						["custom"] = "[~Status?HasCurseDebuff?Text(Cu):Color(9933ff)] [IsMana?~Status?~HasAura(Arcane Intellect)?~HasAura(Arcane Brilliance)?Text(Int):Color(99ccff)]",
+						["position"] = "healthBar-right",
+					},
+					["Health"] = {
+						["styleType"] = "health",
+						["custom"] = "[Status]",
+						["position"] = "healthBar-center",
+						["size"] = 0.9400000000000001,
+					},
+					["combatText"] = {
+						["position"] = "frame-inbottomright",
+					},
+				},
+			},
+			["NEW Beska's Focus"] = {
+				["name"] = "NEW Beska's Focus",
+				["pbRevision"] = 62852,
+				["bars"] = {
+					["portrait"] = {
+						["side"] = "left",
+						["position"] = 1,
+						["hidden"] = false,
+						["reverse"] = false,
+					},
+					["healthBar"] = {
+						["side"] = "center",
+						["reverse"] = false,
+						["height"] = 5,
+						["hidden"] = false,
+						["position"] = 2,
+					},
+					["castBar"] = {
+						["side"] = "center",
+						["position"] = 9,
+						["hidden"] = false,
+						["reverse"] = false,
+					},
+					["fullBar"] = {
+						["side"] = "center",
+						["reverse"] = false,
+						["height"] = 5,
+						["hidden"] = false,
+						["position"] = 10,
+					},
+					["expBar"] = {
+						["side"] = "center",
+						["position"] = 5,
+						["hidden"] = false,
+						["reverse"] = false,
+					},
+					["blankSpace"] = {
+						["side"] = "center",
+						["position"] = 8,
+						["hidden"] = true,
+						["reverse"] = false,
+					},
+					["threatBar"] = {
+						["side"] = "center",
+						["position"] = 7,
+						["hidden"] = false,
+						["reverse"] = false,
+					},
+					["druidManaBar"] = {
+						["side"] = "center",
+						["reverse"] = false,
+						["height"] = 1,
+						["hidden"] = false,
+						["position"] = 4,
+					},
+					["powerBar"] = {
+						["side"] = "center",
+						["reverse"] = false,
+						["height"] = 4,
+						["hidden"] = false,
+						["position"] = 3,
+					},
+					["repBar"] = {
+						["side"] = "center",
+						["position"] = 6,
+						["hidden"] = false,
+						["reverse"] = false,
+					},
+				},
+				["icons"] = {
+					["restIcon"] = {
+						["position"] = "frame-edgebottomleft",
+					},
+					["leaderIcon"] = {
+						["position"] = "frame-edgetopleft",
+					},
+					["pvpIcon"] = {
+						["position"] = "frame-edgetopright",
+					},
+					["raidTargetIcon"] = {
+						["position"] = "frame-edgetop",
+					},
+					["voiceIcon"] = {
+						["position"] = "frame-edgetopright",
+					},
+					["masterIcon"] = {
+						["position"] = "frame-edgetopleft",
+					},
+					["readyCheckIcon"] = {
+						["position"] = "frame-edgebottomright",
+					},
+					["combatIcon"] = {
+						["position"] = "frame-edgebottomleft",
+					},
+				},
+				["texts"] = {
+					["Threat"] = {
+						["styleType"] = "threat",
+						["custom"] = "[Threat]/[MaxThreat]",
+						["position"] = "threatBar-right",
+						["style"] = "Absolute Short",
+					},
+					["Combo"] = {
+						["styleType"] = "combo",
+						["style"] = "Standard",
+						["position"] = "healthBar-right",
+					},
+					["CastTime"] = {
+						["styleType"] = "cast",
+						["custom"] = "[CastDelay:Round] [[CastEndTime-CurrentTime]:Round>=0)]",
+						["position"] = "castBar-right",
+						["style"] = "Standard Time",
+					},
+					["Class"] = {
+						["styleType"] = "class",
+						["custom"] = "[Classification] [Level:DifficultyColor] [SmartClass:ClassColor] [DruidForm:Paren] [SmartRace]",
+						["position"] = "powerBar-left",
+						["style"] = "Standard",
+					},
+					["DruidMana"] = {
+						["styleType"] = "druidMana",
+						["custom"] = "[~IsMana ? FractionalDruidMP]",
+						["position"] = "druidManaBar-right",
+						["style"] = "Absolute",
+					},
+					["Cast"] = {
+						["styleType"] = "cast",
+						["custom"] = "[Alpha([[CastStopTime-CurrentTime+1]:1])][CastStopMessage:Text([CastName] [CastTarget:Paren])]",
+						["position"] = "castBar-left",
+						["style"] = "Standard Name",
+					},
+					["Power"] = {
+						["styleType"] = "power",
+						["custom"] = "[CurMP]/[MaxMP]",
+						["position"] = "powerBar-right",
+						["style"] = "Absolute",
+					},
+					["Experience"] = {
+						["styleType"] = "experience",
+						["style"] = "Standard",
+						["position"] = "expBar-center",
+					},
+					["combatText"] = {
+						["position"] = "frame-center",
+					},
+					["Reputation"] = {
+						["styleType"] = "reputation",
+						["style"] = "Standard",
+						["position"] = "repBar-center",
+					},
+					["Casting"] = {
+						["custom"] = "[CastStartTime ? [CastStopTime ? Text( ) ! Text(!!! CASTING !!!)] ]",
+						["position"] = "frame-inleft",
+					},
+					["Name"] = {
+						["styleType"] = "name",
+						["custom"] = "[Name:Upper]",
+						["position"] = "frame-outleft",
+						["size"] = 1.15,
+					},
+					["Health"] = {
+						["styleType"] = "health",
+						["custom"] = "[Status:PercentHP:Short:Percent]",
+						["position"] = "frame-inright",
+						["size"] = 0.91,
+					},
+				},
+			},
+			["NEW Beska's Unit Frames"] = {
+				["name"] = "NEW Beska's Unit Frames",
+				["pbRevision"] = 62852,
+				["bars"] = {
+					["healthBar"] = {
+						["side"] = "center",
+						["reverse"] = false,
+						["height"] = 5,
+						["hidden"] = false,
+						["position"] = 2,
+					},
+					["portrait"] = {
+						["side"] = "left",
+						["position"] = 1,
+						["hidden"] = false,
+						["reverse"] = false,
+					},
+					["castBar"] = {
+						["side"] = "center",
+						["position"] = 9,
+						["hidden"] = false,
+						["reverse"] = false,
+					},
+					["fullBar"] = {
+						["side"] = "center",
+						["position"] = 10,
+						["height"] = 5,
+						["hidden"] = false,
+						["reverse"] = false,
+					},
+					["expBar"] = {
+						["side"] = "center",
+						["position"] = 5,
+						["hidden"] = false,
+						["reverse"] = false,
+					},
+					["blankSpace"] = {
+						["side"] = "center",
+						["position"] = 8,
+						["hidden"] = true,
+						["reverse"] = false,
+					},
+					["threatBar"] = {
+						["side"] = "center",
+						["position"] = 7,
+						["hidden"] = false,
+						["reverse"] = false,
+					},
+					["druidManaBar"] = {
+						["side"] = "center",
+						["reverse"] = false,
+						["height"] = 1,
+						["hidden"] = false,
+						["position"] = 4,
+					},
+					["powerBar"] = {
+						["side"] = "center",
+						["position"] = 3,
+						["height"] = 3,
+						["hidden"] = false,
+						["reverse"] = false,
+					},
+					["repBar"] = {
+						["side"] = "center",
+						["reverse"] = false,
+						["hidden"] = false,
+						["position"] = 6,
+					},
+				},
+				["icons"] = {
+					["restIcon"] = {
+						["position"] = "frame-edgebottomleft",
+					},
+					["leaderIcon"] = {
+						["position"] = "frame-edgetopleft",
+						["size"] = 0.75,
+					},
+					["pvpIcon"] = {
+						["position"] = "frame-edgetopright",
+					},
+					["raidTargetIcon"] = {
+						["position"] = "frame-edgetop",
+					},
+					["voiceIcon"] = {
+						["position"] = "frame-edgetopright",
+					},
+					["masterIcon"] = {
+						["position"] = "frame-edgetopleft",
+						["size"] = 0.75,
+					},
+					["readyCheckIcon"] = {
+						["position"] = "frame-edgebottomright",
+					},
+					["combatIcon"] = {
+						["position"] = "frame-edgetopleft",
+					},
+				},
+				["texts"] = {
+					["Combo"] = {
+						["styleType"] = "combo",
+						["style"] = "Standard",
+						["position"] = "frame-inbottomright",
+					},
+					["Class"] = {
+						["styleType"] = "class",
+						["custom"] = "[Classification:Upper] [Level:DifficultyColor] [SmartClass:Upper:ClassColor] [DruidForm:Upper:Paren] [SmartRace:Upper]",
+						["position"] = "frame-outleftbottom",
+					},
+					["DruidMana"] = {
+						["styleType"] = "druidMana",
+						["custom"] = "[~IsMana ? FractionalDruidMP]",
+						["position"] = "druidManaBar-right",
+						["style"] = "Absolute",
+					},
+					["AFKDND"] = {
+						["position"] = "frame-outlefttop",
+						["custom"] = "[AFK ? Text(AFK)] [DND ? Text(DND)]",
+						["size"] = 0.9500000000000001,
+					},
+					["Health"] = {
+						["styleType"] = "health",
+						["custom"] = "[Status:SureHP:Short:PercentHP:Percent] [~Status?SureHP?PercentHP:Short:Percent:Paren]",
+						["position"] = "frame-outbottomleft",
+						["size"] = 0.91,
+					},
+					["combatText"] = {
+						["position"] = "frame-center",
+					},
+					["Power"] = {
+						["styleType"] = "power",
+						["style"] = "Absolute",
+						["position"] = "frame-outbottomright",
+						["custom"] = "[~HasNoMP?FractionalMP]",
+						["size"] = 0.91,
+					},
+					["Name"] = {
+						["styleType"] = "name",
+						["custom"] = "[Name:Upper]",
+						["position"] = "frame-outleft",
+						["size"] = 1.75,
+					},
+				},
+			},
+			["Beska's Perfectraid"] = {
+				["name"] = "Beska's Perfectraid",
+				["pbRevision"] = 46849,
+				["bars"] = {
+					["portrait"] = {
+						["side"] = "left",
+						["position"] = 1,
+					},
+					["castBar"] = {
+						["position"] = 8,
+					},
+					["expBar"] = {
+						["position"] = 4,
+					},
+					["blankSpace"] = {
+						["hidden"] = true,
+						["position"] = 7,
+					},
+					["threatBar"] = {
+						["position"] = 6,
+					},
+					["healthBar"] = {
+						["height"] = 4,
+						["position"] = 2,
+					},
+					["powerBar"] = {
+						["height"] = 1,
+						["position"] = 3,
+					},
+					["repBar"] = {
+						["position"] = 5,
+					},
+				},
+				["icons"] = {
+					["restIcon"] = {
+						["position"] = "frame-edgebottomleft",
+					},
+					["masterIcon"] = {
+						["position"] = "healthBar-left",
+						["size"] = 0.67,
+					},
+					["leaderIcon"] = {
+						["position"] = "healthBar-left",
+						["size"] = 0.67,
+					},
+					["pvpIcon"] = {
+						["position"] = "frame-edgetopright",
+					},
+					["raidTargetIcon"] = {
+						["position"] = "frame-outleft",
+						["size"] = 0.75,
+					},
+					["combatIcon"] = {
+						["position"] = "frame-edgebottomleft",
+					},
+				},
+				["texts"] = {
+					["Experience"] = {
+						["styleType"] = "experience",
+						["style"] = "Standard",
+						["position"] = "expBar-center",
+					},
+					["Health"] = {
+						["styleType"] = "health",
+						["custom"] = "[Status]",
+						["position"] = "healthBar-center",
+						["size"] = 0.9400000000000001,
+					},
+					["combatText"] = {
+						["position"] = "frame-inbottomright",
+					},
+					["Reputation"] = {
+						["styleType"] = "reputation",
+						["style"] = "Standard",
+						["position"] = "repBar-center",
+					},
+					["Buffs"] = {
+						["size"] = 0.9,
+						["custom"] = "[HasAura(Arcane Brilliance)?Text(INT):Color(99ccff)][HasAura(Arcane Intellect)?Text(INT):Color(99ccff)]",
+						["position"] = "healthBar-right",
+					},
+					["Name"] = {
+						["styleType"] = "name",
+						["custom"] = "[Name:ClassColor] [AFKDND:Angle]",
+						["position"] = "frame-outright",
+						["style"] = "Class Colored",
+					},
+					["Combo"] = {
+						["styleType"] = "combo",
+						["style"] = "Standard",
+						["position"] = "frame-outrightbottom",
+					},
+				},
+			},
+			["NEW Beska's Target"] = {
+				["name"] = "NEW Beska's Target",
+				["pbRevision"] = 62852,
+				["bars"] = {
+					["portrait"] = {
+						["side"] = "left",
+						["position"] = 1,
+						["hidden"] = false,
+						["reverse"] = false,
+					},
+					["healthBar"] = {
+						["side"] = "center",
+						["reverse"] = false,
+						["height"] = 5,
+						["hidden"] = false,
+						["position"] = 2,
+					},
+					["castBar"] = {
+						["side"] = "center",
+						["reverse"] = false,
+						["hidden"] = false,
+						["position"] = 9,
+					},
+					["powerBar"] = {
+						["side"] = "center",
+						["position"] = 3,
+						["height"] = 3,
+						["hidden"] = false,
+						["reverse"] = false,
+					},
+					["expBar"] = {
+						["side"] = "center",
+						["position"] = 5,
+						["hidden"] = false,
+						["reverse"] = false,
+					},
+					["blankSpace"] = {
+						["side"] = "center",
+						["position"] = 8,
+						["hidden"] = true,
+						["reverse"] = false,
+					},
+					["threatBar"] = {
+						["side"] = "center",
+						["position"] = 7,
+						["hidden"] = false,
+						["reverse"] = false,
+					},
+					["druidManaBar"] = {
+						["side"] = "center",
+						["reverse"] = false,
+						["height"] = 1,
+						["hidden"] = false,
+						["position"] = 4,
+					},
+					["fullBar"] = {
+						["side"] = "center",
+						["reverse"] = false,
+						["height"] = 5,
+						["hidden"] = false,
+						["position"] = 10,
+					},
+					["repBar"] = {
+						["side"] = "center",
+						["position"] = 6,
+						["hidden"] = false,
+						["reverse"] = false,
+					},
+				},
+				["icons"] = {
+					["restIcon"] = {
+						["position"] = "frame-edgebottomleft",
+					},
+					["leaderIcon"] = {
+						["position"] = "frame-edgetopleft",
+						["size"] = 0.75,
+					},
+					["pvpIcon"] = {
+						["position"] = "frame-edgetopright",
+					},
+					["raidTargetIcon"] = {
+						["position"] = "frame-edgetop",
+					},
+					["voiceIcon"] = {
+						["position"] = "frame-edgetopright",
+					},
+					["masterIcon"] = {
+						["position"] = "frame-edgetopleft",
+						["size"] = 0.75,
+					},
+					["readyCheckIcon"] = {
+						["position"] = "frame-edgebottomright",
+					},
+					["combatIcon"] = {
+						["position"] = "frame-edgebottomleft",
+					},
+				},
+				["texts"] = {
+					["DND"] = {
+						["position"] = "frame-outrighttop",
+						["custom"] = "[AFK ? Text(AFK)] [DND ? Text(DND)]",
+						["size"] = 0.9500000000000001,
+					},
+					["Combo"] = {
+						["styleType"] = "combo",
+						["style"] = "Standard",
+						["position"] = "frame-inbottomright",
+					},
+					["Class"] = {
+						["styleType"] = "class",
+						["custom"] = "[Classification:Upper] [Level:DifficultyColor] [SmartClass:Upper:ClassColor] [DruidForm:Upper:Paren] [SmartRace:Upper]",
+						["position"] = "frame-outrightbottom",
+					},
+					["DruidMana"] = {
+						["styleType"] = "druidMana",
+						["custom"] = "[~IsMana ? FractionalDruidMP]",
+						["position"] = "druidManaBar-right",
+						["style"] = "Absolute",
+					},
+					["Name"] = {
+						["styleType"] = "name",
+						["custom"] = "[Name:TruncEllipsis(15):Upper]",
+						["position"] = "frame-outright",
+						["size"] = 1.75,
+					},
+					["combatText"] = {
+						["position"] = "frame-center",
+					},
+					["Power"] = {
+						["styleType"] = "power",
+						["custom"] = "[IsPlayer ? [~HasNoMP ? FractionalMP] ] ",
+						["position"] = "frame-outbottomright",
+						["size"] = 0.92,
+					},
+					["Health"] = {
+						["styleType"] = "health",
+						["custom"] = "[Status:SureHP:Short:PercentHP:Percent] [~Status?SureHP?PercentHP:Short:Percent:Paren]",
+						["position"] = "frame-outbottomleft",
+						["size"] = 0.91,
+					},
+				},
+			},
+			["Beska's Party Frames"] = {
+				["name"] = "Beska's Party Frames",
+				["pbRevision"] = 51570,
+				["bars"] = {
+					["portrait"] = {
+						["side"] = "left",
+						["position"] = 1,
+					},
+					["castBar"] = {
+						["position"] = 8,
+					},
+					["healthBar"] = {
+						["height"] = 5,
+						["position"] = 2,
+					},
+					["expBar"] = {
+						["position"] = 4,
+					},
+					["blankSpace"] = {
+						["hidden"] = true,
+						["position"] = 7,
+					},
+					["threatBar"] = {
+						["position"] = 6,
+					},
+					["powerBar"] = {
+						["height"] = 1,
+						["position"] = 3,
+					},
+					["fullBar"] = {
+						["height"] = 5,
+						["position"] = 9,
+					},
+					["repBar"] = {
+						["position"] = 5,
+					},
+				},
+				["icons"] = {
+					["restIcon"] = {
+						["position"] = "frame-edgebottomleft",
+					},
+					["masterIcon"] = {
+						["size"] = 0.6799999999999999,
+						["position"] = "frame-edgetopleft",
+					},
+					["leaderIcon"] = {
+						["size"] = 0.6799999999999999,
+						["position"] = "frame-edgetopleft",
+					},
+					["pvpIcon"] = {
+						["position"] = "frame-edgetopright",
+					},
+					["raidTargetIcon"] = {
+						["position"] = "frame-edgetop",
+					},
+					["voiceIcon"] = {
+						["position"] = "frame-edgetopright",
+					},
+					["combatIcon"] = {
+						["position"] = "frame-edgebottomleft",
+					},
+				},
+				["texts"] = {
+					["Threat"] = {
+						["styleType"] = "threat",
+						["custom"] = "[Threat]/[MaxThreat]",
+						["position"] = "threatBar-right",
+						["style"] = "Absolute Short",
+					},
+					["Health"] = {
+						["styleType"] = "health",
+						["custom"] = "[Status:SureHP:Short:PercentHP:Percent] [~Status?SureHP?PercentHP:Percent:Short:Paren]",
+						["position"] = "healthBar-right",
+						["size"] = 0.93,
+					},
+					["Combo"] = {
+						["styleType"] = "combo",
+						["style"] = "Standard",
+						["position"] = "frame-outright",
+					},
+					["Reputation"] = {
+						["styleType"] = "reputation",
+						["style"] = "Standard",
+						["position"] = "repBar-center",
+					},
+					["Name"] = {
+						["styleType"] = "name",
+						["custom"] = "[Name]",
+						["position"] = "healthBar-left",
+						["style"] = "Standard",
+					},
+					["combatText"] = {
+						["position"] = "frame-center",
+					},
+					["Experience"] = {
+						["styleType"] = "experience",
+						["style"] = "Standard",
+						["position"] = "expBar-center",
+					},
+				},
+			},
+			["NEW Beska's ToT"] = {
+				["name"] = "NEW Beska's ToT",
+				["pbRevision"] = 62852,
+				["bars"] = {
+					["portrait"] = {
+						["side"] = "left",
+						["position"] = 1,
+						["hidden"] = false,
+						["reverse"] = false,
+					},
+					["healthBar"] = {
+						["side"] = "center",
+						["reverse"] = false,
+						["height"] = 5,
+						["hidden"] = false,
+						["position"] = 2,
+					},
+					["castBar"] = {
+						["side"] = "center",
+						["position"] = 9,
+						["hidden"] = false,
+						["reverse"] = false,
+					},
+					["fullBar"] = {
+						["side"] = "center",
+						["reverse"] = false,
+						["height"] = 5,
+						["hidden"] = false,
+						["position"] = 10,
+					},
+					["expBar"] = {
+						["side"] = "center",
+						["position"] = 5,
+						["hidden"] = false,
+						["reverse"] = false,
+					},
+					["blankSpace"] = {
+						["side"] = "center",
+						["position"] = 8,
+						["hidden"] = true,
+						["reverse"] = false,
+					},
+					["threatBar"] = {
+						["side"] = "center",
+						["reverse"] = false,
+						["hidden"] = false,
+						["position"] = 7,
+					},
+					["druidManaBar"] = {
+						["side"] = "center",
+						["reverse"] = false,
+						["height"] = 1,
+						["hidden"] = false,
+						["position"] = 4,
+					},
+					["powerBar"] = {
+						["side"] = "center",
+						["position"] = 3,
+						["height"] = 4,
+						["hidden"] = false,
+						["reverse"] = false,
+					},
+					["repBar"] = {
+						["side"] = "center",
+						["reverse"] = false,
+						["hidden"] = false,
+						["position"] = 6,
+					},
+				},
+				["icons"] = {
+					["restIcon"] = {
+						["position"] = "frame-edgebottomleft",
+					},
+					["leaderIcon"] = {
+						["position"] = "frame-edgetopleft",
+					},
+					["pvpIcon"] = {
+						["position"] = "frame-edgetopright",
+					},
+					["raidTargetIcon"] = {
+						["position"] = "frame-edgetop",
+					},
+					["voiceIcon"] = {
+						["position"] = "frame-edgetopright",
+					},
+					["masterIcon"] = {
+						["position"] = "frame-edgetopleft",
+					},
+					["readyCheckIcon"] = {
+						["position"] = "frame-edgebottomright",
+					},
+					["combatIcon"] = {
+						["position"] = "frame-edgebottomleft",
+					},
+				},
+				["texts"] = {
+					["Threat"] = {
+						["styleType"] = "threat",
+						["custom"] = "[Threat]/[MaxThreat]",
+						["position"] = "threatBar-right",
+						["style"] = "Absolute Short",
+					},
+					["Power"] = {
+						["styleType"] = "power",
+						["style"] = "Absolute",
+						["position"] = "powerBar-right",
+						["custom"] = "[CurMP]/[MaxMP]",
+					},
+					["Reputation"] = {
+						["styleType"] = "reputation",
+						["style"] = "Standard",
+						["position"] = "repBar-center",
+					},
+					["Class"] = {
+						["styleType"] = "class",
+						["custom"] = "[Classification] [Level:DifficultyColor] [SmartClass:ClassColor] [DruidForm:Paren] [SmartRace]",
+						["position"] = "powerBar-left",
+						["style"] = "Standard",
+					},
+					["DruidMana"] = {
+						["styleType"] = "druidMana",
+						["style"] = "Absolute",
+						["position"] = "druidManaBar-right",
+						["custom"] = "[~IsMana ? FractionalDruidMP]",
+					},
+					["Cast"] = {
+						["styleType"] = "cast",
+						["custom"] = "[CastName] [CastTarget:Paren]",
+						["position"] = "castBar-left",
+						["style"] = "Standard Name",
+					},
+					["Name"] = {
+						["styleType"] = "name",
+						["custom"] = "[Name:Upper]",
+						["position"] = "frame-outright",
+						["size"] = 1.15,
+					},
+					["combatText"] = {
+						["position"] = "frame-center",
+					},
+					["Experience"] = {
+						["styleType"] = "experience",
+						["style"] = "Standard",
+						["position"] = "expBar-center",
+					},
+					["Health"] = {
+						["styleType"] = "health",
+						["custom"] = "[Status:PercentHP:Short:Percent]",
+						["position"] = "frame-inleft",
+						["size"] = 0.91,
+					},
+					["Combo"] = {
+						["styleType"] = "combo",
+						["style"] = "Standard",
+						["position"] = "healthBar-right",
+					},
+					["CastTime"] = {
+						["styleType"] = "cast",
+						["custom"] = "[CastDelay:Round] [[CastEndTime-CurrentTime]:Round>=0)]",
+						["position"] = "castBar-right",
+						["style"] = "Standard Time",
+					},
+				},
+			},
+			["NEW Beska's Party"] = {
+				["name"] = "NEW Beska's Party",
+				["pbRevision"] = 62852,
+				["bars"] = {
+					["portrait"] = {
+						["side"] = "left",
+						["position"] = 1,
+						["hidden"] = false,
+						["reverse"] = false,
+					},
+					["healthBar"] = {
+						["side"] = "center",
+						["reverse"] = false,
+						["height"] = 5,
+						["hidden"] = false,
+						["position"] = 2,
+					},
+					["castBar"] = {
+						["side"] = "center",
+						["reverse"] = false,
+						["hidden"] = false,
+						["position"] = 9,
+					},
+					["fullBar"] = {
+						["side"] = "center",
+						["reverse"] = false,
+						["height"] = 5,
+						["hidden"] = false,
+						["position"] = 10,
+					},
+					["expBar"] = {
+						["side"] = "center",
+						["position"] = 5,
+						["hidden"] = false,
+						["reverse"] = false,
+					},
+					["blankSpace"] = {
+						["side"] = "center",
+						["position"] = 8,
+						["hidden"] = true,
+						["reverse"] = false,
+					},
+					["threatBar"] = {
+						["side"] = "center",
+						["position"] = 7,
+						["hidden"] = false,
+						["reverse"] = false,
+					},
+					["druidManaBar"] = {
+						["side"] = "center",
+						["reverse"] = false,
+						["height"] = 1,
+						["hidden"] = false,
+						["position"] = 4,
+					},
+					["powerBar"] = {
+						["side"] = "center",
+						["position"] = 3,
+						["hidden"] = false,
+						["reverse"] = false,
+					},
+					["repBar"] = {
+						["side"] = "center",
+						["reverse"] = false,
+						["hidden"] = false,
+						["position"] = 6,
+					},
+				},
+				["icons"] = {
+					["restIcon"] = {
+						["position"] = "frame-edgebottomleft",
+					},
+					["leaderIcon"] = {
+						["position"] = "frame-edgetopleft",
+						["size"] = 0.6799999999999999,
+					},
+					["pvpIcon"] = {
+						["position"] = "frame-edgetopright",
+					},
+					["raidTargetIcon"] = {
+						["position"] = "frame-edgetop",
+					},
+					["voiceIcon"] = {
+						["position"] = "frame-edgetopright",
+					},
+					["masterIcon"] = {
+						["position"] = "frame-edgetopleft",
+						["size"] = 0.6799999999999999,
+					},
+					["readyCheckIcon"] = {
+						["position"] = "frame-edgebottomright",
+					},
+					["combatIcon"] = {
+						["position"] = "frame-edgebottomleft",
+					},
+				},
+				["texts"] = {
+					["Threat"] = {
+						["styleType"] = "threat",
+						["custom"] = "[Threat]/[MaxThreat]",
+						["position"] = "threatBar-right",
+						["style"] = "Absolute Short",
+					},
+					["Power"] = {
+						["styleType"] = "power",
+						["custom"] = "[PercentMP:Percent:Short]",
+						["position"] = "frame-outbottomright",
+						["size"] = 0.9500000000000001,
+					},
+					["Reputation"] = {
+						["styleType"] = "reputation",
+						["style"] = "Standard",
+						["position"] = "repBar-center",
+					},
+					["Class"] = {
+						["styleType"] = "class",
+						["custom"] = "[Classification:Upper] [Level:DifficultyColor] [SmartClass:ClassColor:Upper]",
+						["position"] = "frame-outleftbottom",
+					},
+					["DruidMana"] = {
+						["styleType"] = "druidMana",
+						["style"] = "Absolute",
+						["position"] = "druidManaBar-right",
+						["custom"] = "[~IsMana ? FractionalDruidMP]",
+					},
+					["AFKDND"] = {
+						["position"] = "frame-outlefttop",
+						["custom"] = "[AFK ? Text(AFK)] [DND ? Text(DND)]",
+						["size"] = 0.9500000000000001,
+					},
+					["Cast"] = {
+						["styleType"] = "cast",
+						["style"] = "Standard Name",
+						["position"] = "castBar-left",
+						["custom"] = "[Alpha([[CastStopTime-CurrentTime+1]:1])][CastStopMessage:Text([CastName] [CastTarget:Paren])]",
+					},
+					["Combo"] = {
+						["styleType"] = "combo",
+						["style"] = "Standard",
+						["position"] = "frame-center",
+					},
+					["Health"] = {
+						["styleType"] = "health",
+						["style"] = "Percent",
+						["position"] = "frame-outbottomleft",
+						["custom"] = "[Status:PercentHP:Percent]",
+						["size"] = 0.93,
+					},
+					["combatText"] = {
+						["position"] = "frame-center",
+					},
+					["CastTime"] = {
+						["styleType"] = "cast",
+						["style"] = "Standard Time",
+						["position"] = "castBar-right",
+						["custom"] = "[CastDelay:Round] [[CastEndTime-CurrentTime]:Round>=0)]",
+					},
+					["Buffs"] = {
+						["position"] = "frame-intop",
+						["custom"] = "[~Status ? HasCurseDebuff ? Text(!! CURSED !!):Color(9933ff)] [IsMana ? ~Status ? ~HasAura(Arcane Intellect) ? ~HasAura(Arcane Brilliance) ? Text(INT):Color(99ccff)]",
+						["size"] = 1.05,
+					},
+					["Experience"] = {
+						["styleType"] = "experience",
+						["style"] = "Standard",
+						["position"] = "expBar-center",
+					},
+					["Name"] = {
+						["styleType"] = "name",
+						["custom"] = "[Name:Upper] [AFKDND:Angle]",
+						["position"] = "frame-outleft",
+						["size"] = 1.45,
+					},
+				},
+			},
+			["Beska's Target Frame"] = {
+				["name"] = "Beska's Target Frame",
+				["pbRevision"] = 51570,
+				["bars"] = {
+					["healthBar"] = {
+						["height"] = 5,
+						["position"] = 2,
+					},
+					["castBar"] = {
+						["position"] = 8,
+					},
+					["portrait"] = {
+						["side"] = "left",
+						["position"] = 1,
+					},
+					["expBar"] = {
+						["position"] = 4,
+					},
+					["blankSpace"] = {
+						["hidden"] = true,
+						["position"] = 7,
+					},
+					["threatBar"] = {
+						["position"] = 6,
+					},
+					["powerBar"] = {
+						["height"] = 4,
+						["position"] = 3,
+					},
+					["fullBar"] = {
+						["height"] = 5,
+						["position"] = 9,
+					},
+					["repBar"] = {
+						["position"] = 5,
+					},
+				},
+				["icons"] = {
+					["restIcon"] = {
+						["position"] = "frame-edgebottomleft",
+					},
+					["masterIcon"] = {
+						["size"] = 0.75,
+						["position"] = "frame-edgetopleft",
+					},
+					["leaderIcon"] = {
+						["size"] = 0.75,
+						["position"] = "frame-edgetopleft",
+					},
+					["pvpIcon"] = {
+						["position"] = "frame-edgetopright",
+					},
+					["raidTargetIcon"] = {
+						["position"] = "frame-edgetop",
+					},
+					["voiceIcon"] = {
+						["position"] = "frame-edgetopright",
+					},
+					["combatIcon"] = {
+						["position"] = "frame-edgebottomleft",
+					},
+				},
+				["texts"] = {
+					["Threat"] = {
+						["styleType"] = "threat",
+						["custom"] = "[Threat]/[MaxThreat]",
+						["position"] = "threatBar-right",
+						["style"] = "Absolute Short",
+					},
+					["Power"] = {
+						["styleType"] = "power",
+						["custom"] = "[CurMP]/[MaxMP]",
+						["position"] = "powerBar-right",
+						["style"] = "Absolute",
+						["size"] = 0.92,
+					},
+					["Reputation"] = {
+						["styleType"] = "reputation",
+						["style"] = "Standard",
+						["position"] = "repBar-center",
+					},
+					["Class"] = {
+						["styleType"] = "class",
+						["custom"] = "[Classification] [Level:DifficultyColor] [PlayerClass:ClassColor] [DruidForm:Paren] [SmartRace]",
+						["position"] = "powerBar-left",
+						["size"] = 0.92,
+					},
+					["Name"] = {
+						["styleType"] = "name",
+						["style"] = "Standard",
+						["position"] = "healthBar-left",
+						["custom"] = "[Name]",
+					},
+					["combatText"] = {
+						["position"] = "frame-center",
+					},
+					["Combo"] = {
+						["styleType"] = "combo",
+						["style"] = "Standard",
+						["position"] = "frame-outright",
+					},
+					["Experience"] = {
+						["styleType"] = "experience",
+						["style"] = "Standard",
+						["position"] = "expBar-center",
+					},
+					["Health"] = {
+						["styleType"] = "health",
+						["custom"] = "[Status:SureHP:Short:PercentHP:Percent] [~Status?SureHP?PercentHP:Short:Percent:Paren]",
+						["position"] = "healthBar-right",
+						["size"] = 0.9,
+					},
+				},
+			},
+			["Beska's Player Frame"] = {
+				["name"] = "Beska's Player Frame",
+				["pbRevision"] = 51570,
+				["bars"] = {
+					["healthBar"] = {
+						["height"] = 5,
+						["position"] = 2,
+					},
+					["castBar"] = {
+						["position"] = 8,
+					},
+					["portrait"] = {
+						["side"] = "left",
+						["position"] = 1,
+					},
+					["expBar"] = {
+						["position"] = 4,
+					},
+					["blankSpace"] = {
+						["hidden"] = true,
+						["position"] = 7,
+					},
+					["threatBar"] = {
+						["position"] = 6,
+					},
+					["powerBar"] = {
+						["height"] = 4,
+						["position"] = 3,
+					},
+					["fullBar"] = {
+						["height"] = 5,
+						["position"] = 9,
+					},
+					["repBar"] = {
+						["position"] = 5,
+					},
+				},
+				["icons"] = {
+					["restIcon"] = {
+						["position"] = "frame-edgebottomleft",
+					},
+					["masterIcon"] = {
+						["size"] = 0.75,
+						["position"] = "frame-edgetopleft",
+					},
+					["leaderIcon"] = {
+						["size"] = 0.75,
+						["position"] = "frame-edgetopleft",
+					},
+					["pvpIcon"] = {
+						["position"] = "frame-edgetopright",
+					},
+					["raidTargetIcon"] = {
+						["position"] = "frame-edgetop",
+					},
+					["voiceIcon"] = {
+						["position"] = "frame-edgetopright",
+					},
+					["combatIcon"] = {
+						["position"] = "frame-edgebottomleft",
+					},
+				},
+				["texts"] = {
+					["Threat"] = {
+						["styleType"] = "threat",
+						["custom"] = "[Threat]/[MaxThreat]",
+						["position"] = "threatBar-right",
+						["style"] = "Absolute Short",
+					},
+					["Combo"] = {
+						["styleType"] = "combo",
+						["style"] = "Standard",
+						["position"] = "frame-outright",
+					},
+					["Reputation"] = {
+						["styleType"] = "reputation",
+						["style"] = "Standard",
+						["position"] = "repBar-center",
+					},
+					["Class"] = {
+						["styleType"] = "class",
+						["custom"] = "[Classification] [Level:DifficultyColor] [SmartClass:ClassColor] [DruidForm:Paren] [SmartRace]",
+						["position"] = "powerBar-left",
+						["style"] = "Standard",
+						["size"] = 0.92,
+					},
+					["Health"] = {
+						["styleType"] = "health",
+						["custom"] = "[Status:SureHP:Short:PercentHP:Percent] [~Status?SureHP?PercentHP:Short:Percent:Paren]",
+						["position"] = "healthBar-right",
+						["size"] = 0.9,
+					},
+					["combatText"] = {
+						["position"] = "frame-center",
+					},
+					["Power"] = {
+						["styleType"] = "power",
+						["custom"] = "[CurMP]/[MaxMP]",
+						["position"] = "powerBar-right",
+						["style"] = "Absolute",
+						["size"] = 0.92,
+					},
+					["Experience"] = {
+						["styleType"] = "experience",
+						["style"] = "Standard",
+						["position"] = "expBar-center",
+					},
+					["Name"] = {
+						["styleType"] = "name",
+						["custom"] = "[Name] [AFKDND:Angle]",
+						["position"] = "healthBar-left",
+						["style"] = "Standard",
+					},
+				},
+			},
+		},
+		["firstTimeWoW21"] = true,
+	},
+}

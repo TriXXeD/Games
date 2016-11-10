@@ -1,0 +1,11 @@
+
+GottaGoFastDB = {
+	["profileKeys"] = {
+		["Daemonikos - Ravencrest"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["Version"] = 25000,
+		},
+	},
+}

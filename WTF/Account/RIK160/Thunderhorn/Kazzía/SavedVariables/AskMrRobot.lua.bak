@@ -1,0 +1,441 @@
+
+AmrBagItems = nil
+AmrBankItems = {
+	"|cff1eff00|Hitem:21524:0:0:0:0:0:0:708491904:85:0:0|h[Red Winter Hat]|h|r", -- [1]
+	"|cffffffff|Hitem:23768:0:0:0:0:0:0:1649565952:85:0:0|h[White Smoke Flare]|h|r", -- [2]
+	"|cff0070dd|Hitem:46709:0:0:0:0:0:0:362565568:85:0:0|h[MiniZep Controller]|h|r", -- [3]
+	"|cffffffff|Hitem:23768:0:0:0:0:0:0:1624067328:85:0:0|h[White Smoke Flare]|h|r", -- [4]
+	"|cffffffff|Hitem:40093:0:0:0:0:0:0:1612809856:85:0:0|h[Indestructible Potion]|h|r", -- [5]
+	"|cffffffff|Hitem:34086:0:0:0:0:0:0:1773788160:85:0:0|h[Winter Boots]|h|r", -- [6]
+	"|cffffffff|Hitem:34085:0:0:0:0:0:0:302273376:85:0:0|h[Red Winter Clothes]|h|r", -- [7]
+	"|cff1eff00|Hitem:21525:0:0:0:0:0:0:1466698496:85:0:0|h[Green Winter Hat]|h|r", -- [8]
+	"|cffa335ee|Hitem:51451:0:0:0:0:0:0:0:85:0:0|h[Wrathful Gladiator's Wand of Alacrity]|h|r", -- [9]
+	"|cffffffff|Hitem:17712:0:0:0:0:0:0:1255215744:85:0:0|h[Winter Veil Disguise Kit]|h|r", -- [10]
+	"|cffffffff|Hitem:23768:0:0:0:0:0:0:1226616704:85:0:0|h[White Smoke Flare]|h|r", -- [11]
+	"|cffffffff|Hitem:12207:0:0:0:0:0:0:682850832:85:0:0|h[Giant Egg]|h|r", -- [12]
+	"|cff0070dd|Hitem:56806:0:0:0:0:0:0:1181476608:85:0:0|h[Mini Thor]|h|r", -- [13]
+	"|cffffffff|Hitem:49362:0:0:0:0:0:0:9004062:85:0:0|h[Onyxian Whelpling]|h|r", -- [14]
+	"|cffa335ee|Hitem:49893:3232:3563:3563:0:0:0:976244992:85:0:0|h[Sandals of Consecration]|h|r", -- [15]
+	"|cffffffff|Hitem:23768:0:0:0:0:0:0:415032832:85:0:0|h[White Smoke Flare]|h|r", -- [16]
+	"|cffffffff|Hitem:23768:0:0:0:0:0:0:1839938560:85:0:0|h[White Smoke Flare]|h|r", -- [17]
+	"|cffffffff|Hitem:32388:0:0:0:0:0:0:919910704:85:0:0|h[Shadow Dust]|h|r", -- [18]
+	"|cff1eff00|Hitem:32897:0:0:0:0:0:0:-2068532480:85:0:0|h[Mark of the Illidari]|h|r", -- [19]
+	"|cffa335ee|Hitem:31101:0:0:0:0:0:0:1847130048:85:0:0|h[Pauldrons of the Forgotten Conqueror]|h|r", -- [20]
+	"|cffffffff|Hitem:52327:0:0:0:0:0:0:1508001728:85:0:0|h[Volatile Earth]|h|r", -- [21]
+	"|cffa335ee|Hitem:809:0:0:0:0:0:0:1925741312:85:0:0|h[Bloodrazor]|h|r", -- [22]
+	"|cffffffff|Hitem:21877:0:0:0:0:0:0:2088036352:85:0:0|h[Netherweave Cloth]|h|r", -- [23]
+	"|cffffffff|Hitem:32446:0:0:0:0:0:0:1933459072:85:0:0|h[Elixir of Shadows]|h|r", -- [24]
+	"|cff0070dd|Hitem:33292:0:0:0:0:0:0:523087616:85:0:0|h[Hallowed Helm]|h|r", -- [25]
+	"|cff1eff00|Hitem:90883:0:0:0:0:0:0:653703488:85:0:0|h[The Pigskin]|h|r", -- [26]
+	"|cff1eff00|Hitem:90888:0:0:0:0:0:0:922138944:85:0:0|h[Foot Ball]|h|r", -- [27]
+	"|cffa335ee|Hitem:61350:0:0:0:0:0:0:0:85:0:0|h[Vicious Gladiator's Touch of Defeat]|h|r", -- [28]
+	"|cffa335ee|Hitem:90717:0:0:0:0:0:0:-2075350528:85:0:0|h[Qu'nas' Apocryphal Legplates]|h|r", -- [29]
+	"|cffa335ee|Hitem:60468:0:4007:0:0:0:0:1124865064:85:0:0|h[Vicious Gladiator's Mooncloth Gloves]|h|r", -- [30]
+	"|cffa335ee|Hitem:60470:0:3900:3900:0:0:0:-1537141120:85:0:0|h[Vicious Gladiator's Mooncloth Leggings]|h|r", -- [31]
+	"|cff1eff00|Hitem:41599:0:0:0:0:0:0:1904881408:85:0:0|h[Frostweave Bag]|h|r", -- [32]
+	"|cffffffff|Hitem:53010:0:0:0:0:0:0:1424212608:85:0:0|h[Embersilk Cloth]|h|r", -- [33]
+	"|cffffffff|Hitem:72988:0:0:0:0:0:0:1151033664:85:0:0|h[Windwool Cloth]|h|r", -- [34]
+	"|cffffffff|Hitem:72988:0:0:0:0:0:0:1140910848:85:0:0|h[Windwool Cloth]|h|r", -- [35]
+	"|cff1eff00|Hitem:52719:0:0:0:0:0:0:1235871744:85:0:0|h[Greater Celestial Essence]|h|r", -- [36]
+	"|cffffffff|Hitem:74249:0:0:0:0:0:0:1392673456:85:0:0|h[Spirit Dust]|h|r", -- [37]
+	"|cffffffff|Hitem:74249:0:0:0:0:0:0:1404664832:85:0:0|h[Spirit Dust]|h|r", -- [38]
+	"|cffffffff|Hitem:37159:0:0:0:0:0:0:1320610944:85:0:0|h[Three of Swords]|h|r", -- [39]
+	"|cffffffff|Hitem:74249:0:0:0:0:0:0:1403650866:85:0:0|h[Spirit Dust]|h|r", -- [40]
+	"|cff1eff00|Hitem:74250:0:0:0:0:0:0:1399194843:85:0:0|h[Mysterious Essence]|h|r", -- [41]
+	"|cffffffff|Hitem:72988:0:0:0:0:0:0:1006015616:85:0:0|h[Windwool Cloth]|h|r", -- [42]
+	"|cffffffff|Hitem:72988:0:0:0:0:0:0:604641000:85:0:0|h[Windwool Cloth]|h|r", -- [43]
+	"|cffffffff|Hitem:72988:0:0:0:0:0:0:279369982:85:0:0|h[Windwool Cloth]|h|r", -- [44]
+	"|cff9d9d9d|Hitem:44615:0:0:0:0:0:0:0:85:0:0|h[Devout Candle]|h|r", -- [45]
+	"|cff9d9d9d|Hitem:44615:0:0:0:0:0:0:0:85:0:0|h[Devout Candle]|h|r", -- [46]
+	"|cff9d9d9d|Hitem:44615:0:0:0:0:0:0:0:85:0:0|h[Devout Candle]|h|r", -- [47]
+	"|cffffffff|Hitem:12804:0:0:0:0:0:0:-1481944320:85:0:0|h[Powerful Mojo]|h|r", -- [48]
+	"|cffffffff|Hitem:33454:0:0:0:0:0:0:1437835008:85:0:0|h[Salted Venison]|h|r", -- [49]
+	"|cffffffff|Hitem:12846:0:0:0:0:0:0:2054794624:85:0:0|h[Argent Dawn Commission]|h|r", -- [50]
+	"|cffffffff|Hitem:33445:0:0:0:0:0:0:0:85:0:0|h[Honeymint Tea]|h|r", -- [51]
+	"|cffffffff|Hitem:46106:0:0:0:0:0:0:109861264:85:0:0|h[Argent Lance]|h|r", -- [52]
+	"|cff9d9d9d|Hitem:44615:0:0:0:0:0:0:0:85:0:0|h[Devout Candle]|h|r", -- [53]
+	"|cff1eff00|Hitem:12704:0:0:0:0:0:0:1489211520:85:0:0|h[Plans: Thorium Leggings]|h|r", -- [54]
+	"|cffffffff|Hitem:43473:0:0:0:0:0:0:97092376:85:0:0|h[Drakefire Chile Ale]|h|r", -- [55]
+	"|cffffffff|Hitem:33445:0:0:0:0:0:0:0:85:0:0|h[Honeymint Tea]|h|r", -- [56]
+	"|cffffffff|Hitem:33445:0:0:0:0:0:0:0:85:0:0|h[Honeymint Tea]|h|r", -- [57]
+	"|cff9d9d9d|Hitem:44615:0:0:0:0:0:0:0:85:0:0|h[Devout Candle]|h|r", -- [58]
+	"|cffffffff|Hitem:13948:0:0:0:0:0:0:0:85:0:0|h[Recipe: Mightfish Steak]|h|r", -- [59]
+	"|cffffffff|Hitem:52762:0:0:0:0:0:0:646426368:85:0:0|h[Enchant Shield - Mastery]|h|r", -- [60]
+	"|cffffffff|Hitem:13943:0:0:0:0:0:0:0:85:0:0|h[Recipe: Hot Smoked Bass]|h|r", -- [61]
+	"|cffffffff|Hitem:52767:0:0:0:0:0:0:1000637888:85:0:0|h[Enchant Cloak - Protection]|h|r", -- [62]
+	"|cffffffff|Hitem:52761:0:0:0:0:0:0:536804448:85:0:0|h[Enchant Weapon - Heartsong]|h|r", -- [63]
+	"|cffffffff|Hitem:39690:0:0:0:0:0:0:-1929189248:85:0:0|h[Volatile Blasting Trigger]|h|r", -- [64]
+	"|cffffffff|Hitem:12359:0:0:0:0:0:0:1366974336:85:0:0|h[Thorium Bar]|h|r", -- [65]
+	"|cff0070dd|Hitem:41594:0:0:0:0:0:0:43808720:85:0:0|h[Moonshroud]|h|r", -- [66]
+	"|cffffffff|Hitem:49633:0:0:0:0:0:0:638948800:85:0:0|h[Drums of Forgotten Kings]|h|r", -- [67]
+	"|cffffffff|Hitem:33568:0:0:0:0:0:0:1497824384:85:0:0|h[Borean Leather]|h|r", -- [68]
+	"|cffffffff|Hitem:14047:0:0:0:0:0:0:-1922887936:85:0:0|h[Runecloth]|h|r", -- [69]
+	"|cffffffff|Hitem:38849:0:0:0:0:0:0:1902078080:85:0:0|h[Enchant Bracer - Greater Stamina]|h|r", -- [70]
+	"|cff0070dd|Hitem:41593:0:0:0:0:0:0:28935940:85:0:0|h[Ebonweave]|h|r", -- [71]
+	"|cffffffff|Hitem:43007:0:0:0:0:0:0:-1761142576:85:0:0|h[Northern Spices]|h|r", -- [72]
+	"|cff0070dd|Hitem:41595:0:0:0:0:0:0:152774496:85:0:0|h[Spellweave]|h|r", -- [73]
+	"|cffffffff|Hitem:41802:0:0:0:0:0:0:0:85:0:0|h[Imperial Manta Ray]|h|r", -- [74]
+	"|cffffffff|Hitem:43011:0:0:0:0:0:0:958039552:85:0:0|h[Worg Haunch]|h|r", -- [75]
+	"|cffffffff|Hitem:37705:0:0:0:0:0:0:-1784486528:85:0:0|h[Crystallized Water]|h|r", -- [76]
+	"|cffffffff|Hitem:46376:0:0:0:0:0:0:892241792:85:0:0|h[Flask of the Frost Wyrm]|h|r", -- [77]
+	"|cff0070dd|Hitem:22448:0:0:0:0:0:0:1527880668:85:0:0|h[Small Prismatic Shard]|h|r", -- [78]
+	"|cff0070dd|Hitem:34053:0:0:0:0:0:0:366558996:85:0:0|h[Small Dream Shard]|h|r", -- [79]
+	"|cff0070dd|Hitem:36924:0:0:0:0:0:0:676016992:85:0:0|h[Sky Sapphire]|h|r", -- [80]
+	"|cff0070dd|Hitem:52078:0:0:0:0:0:0:-1357820032:85:0:0|h[Chaos Orb]|h|r", -- [81]
+}
+AmrEquipedItems = nil
+AmrGold = nil
+AmrRealmName = "Thunderhorn"
+AmrCharacterName = "Kazzía"
+AmrIconInfo = {
+}
+AmrCurrencies = {
+}
+AmrProfessions = nil
+AmrSpecializations = {
+}
+AmrRace = nil
+AmrLevel = nil
+AmrFaction = nil
+AmrActiveSpec = nil
+AmrOptions = {
+}
+AmrGlyphs = {
+}
+AmrTalents = {
+}
+AmrBankItemsAndCounts = {
+	{
+		["count"] = 1,
+		["link"] = "|cff1eff00|Hitem:21524:0:0:0:0:0:0:708491904:85:0:0|h[Red Winter Hat]|h|r",
+	}, -- [1]
+	{
+		["count"] = 20,
+		["link"] = "|cffffffff|Hitem:23768:0:0:0:0:0:0:1649565952:85:0:0|h[White Smoke Flare]|h|r",
+	}, -- [2]
+	{
+		["count"] = 1,
+		["link"] = "|cff0070dd|Hitem:46709:0:0:0:0:0:0:362565568:85:0:0|h[MiniZep Controller]|h|r",
+	}, -- [3]
+	{
+		["count"] = 20,
+		["link"] = "|cffffffff|Hitem:23768:0:0:0:0:0:0:1624067328:85:0:0|h[White Smoke Flare]|h|r",
+	}, -- [4]
+	{
+		["count"] = 8,
+		["link"] = "|cffffffff|Hitem:40093:0:0:0:0:0:0:1612809856:85:0:0|h[Indestructible Potion]|h|r",
+	}, -- [5]
+	{
+		["count"] = 1,
+		["link"] = "|cffffffff|Hitem:34086:0:0:0:0:0:0:1773788160:85:0:0|h[Winter Boots]|h|r",
+	}, -- [6]
+	{
+		["count"] = 1,
+		["link"] = "|cffffffff|Hitem:34085:0:0:0:0:0:0:302273376:85:0:0|h[Red Winter Clothes]|h|r",
+	}, -- [7]
+	{
+		["count"] = 1,
+		["link"] = "|cff1eff00|Hitem:21525:0:0:0:0:0:0:1466698496:85:0:0|h[Green Winter Hat]|h|r",
+	}, -- [8]
+	{
+		["count"] = 1,
+		["link"] = "|cffa335ee|Hitem:51451:0:0:0:0:0:0:0:85:0:0|h[Wrathful Gladiator's Wand of Alacrity]|h|r",
+	}, -- [9]
+	{
+		["count"] = 1,
+		["link"] = "|cffffffff|Hitem:17712:0:0:0:0:0:0:1255215744:85:0:0|h[Winter Veil Disguise Kit]|h|r",
+	}, -- [10]
+	{
+		["count"] = 20,
+		["link"] = "|cffffffff|Hitem:23768:0:0:0:0:0:0:1226616704:85:0:0|h[White Smoke Flare]|h|r",
+	}, -- [11]
+	{
+		["count"] = 7,
+		["link"] = "|cffffffff|Hitem:12207:0:0:0:0:0:0:682850832:85:0:0|h[Giant Egg]|h|r",
+	}, -- [12]
+	{
+		["count"] = 1,
+		["link"] = "|cff0070dd|Hitem:56806:0:0:0:0:0:0:1181476608:85:0:0|h[Mini Thor]|h|r",
+	}, -- [13]
+	{
+		["count"] = 1,
+		["link"] = "|cffffffff|Hitem:49362:0:0:0:0:0:0:9004062:85:0:0|h[Onyxian Whelpling]|h|r",
+	}, -- [14]
+	{
+		["count"] = 1,
+		["link"] = "|cffa335ee|Hitem:49893:3232:3563:3563:0:0:0:976244992:85:0:0|h[Sandals of Consecration]|h|r",
+	}, -- [15]
+	{
+		["count"] = 18,
+		["link"] = "|cffffffff|Hitem:23768:0:0:0:0:0:0:415032832:85:0:0|h[White Smoke Flare]|h|r",
+	}, -- [16]
+	{
+		["count"] = 20,
+		["link"] = "|cffffffff|Hitem:23768:0:0:0:0:0:0:1839938560:85:0:0|h[White Smoke Flare]|h|r",
+	}, -- [17]
+	{
+		["count"] = 4,
+		["link"] = "|cffffffff|Hitem:32388:0:0:0:0:0:0:919910704:85:0:0|h[Shadow Dust]|h|r",
+	}, -- [18]
+	{
+		["count"] = 1,
+		["link"] = "|cff1eff00|Hitem:32897:0:0:0:0:0:0:-2068532480:85:0:0|h[Mark of the Illidari]|h|r",
+	}, -- [19]
+	{
+		["count"] = 1,
+		["link"] = "|cffa335ee|Hitem:31101:0:0:0:0:0:0:1847130048:85:0:0|h[Pauldrons of the Forgotten Conqueror]|h|r",
+	}, -- [20]
+	{
+		["count"] = 2,
+		["link"] = "|cffffffff|Hitem:52327:0:0:0:0:0:0:1508001728:85:0:0|h[Volatile Earth]|h|r",
+	}, -- [21]
+	{
+		["count"] = 1,
+		["link"] = "|cffa335ee|Hitem:809:0:0:0:0:0:0:1925741312:85:0:0|h[Bloodrazor]|h|r",
+	}, -- [22]
+	{
+		["count"] = 16,
+		["link"] = "|cffffffff|Hitem:21877:0:0:0:0:0:0:2088036352:85:0:0|h[Netherweave Cloth]|h|r",
+	}, -- [23]
+	{
+		["count"] = 1,
+		["link"] = "|cffffffff|Hitem:32446:0:0:0:0:0:0:1933459072:85:0:0|h[Elixir of Shadows]|h|r",
+	}, -- [24]
+	{
+		["count"] = 1,
+		["link"] = "|cff0070dd|Hitem:33292:0:0:0:0:0:0:523087616:85:0:0|h[Hallowed Helm]|h|r",
+	}, -- [25]
+	{
+		["count"] = 1,
+		["link"] = "|cff1eff00|Hitem:90883:0:0:0:0:0:0:653703488:85:0:0|h[The Pigskin]|h|r",
+	}, -- [26]
+	{
+		["count"] = 1,
+		["link"] = "|cff1eff00|Hitem:90888:0:0:0:0:0:0:922138944:85:0:0|h[Foot Ball]|h|r",
+	}, -- [27]
+	{
+		["count"] = 1,
+		["link"] = "|cffa335ee|Hitem:61350:0:0:0:0:0:0:0:85:0:0|h[Vicious Gladiator's Touch of Defeat]|h|r",
+	}, -- [28]
+	{
+		["count"] = 1,
+		["link"] = "|cffa335ee|Hitem:90717:0:0:0:0:0:0:-2075350528:85:0:0|h[Qu'nas' Apocryphal Legplates]|h|r",
+	}, -- [29]
+	{
+		["count"] = 1,
+		["link"] = "|cffa335ee|Hitem:60468:0:4007:0:0:0:0:1124865064:85:0:0|h[Vicious Gladiator's Mooncloth Gloves]|h|r",
+	}, -- [30]
+	{
+		["count"] = 1,
+		["link"] = "|cffa335ee|Hitem:60470:0:3900:3900:0:0:0:-1537141120:85:0:0|h[Vicious Gladiator's Mooncloth Leggings]|h|r",
+	}, -- [31]
+	{
+		["count"] = 1,
+		["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:1904881408:85:0:0|h[Frostweave Bag]|h|r",
+	}, -- [32]
+	{
+		["count"] = 5,
+		["link"] = "|cffffffff|Hitem:53010:0:0:0:0:0:0:1424212608:85:0:0|h[Embersilk Cloth]|h|r",
+	}, -- [33]
+	{
+		["count"] = 20,
+		["link"] = "|cffffffff|Hitem:72988:0:0:0:0:0:0:1151033664:85:0:0|h[Windwool Cloth]|h|r",
+	}, -- [34]
+	{
+		["count"] = 14,
+		["link"] = "|cffffffff|Hitem:72988:0:0:0:0:0:0:1140910848:85:0:0|h[Windwool Cloth]|h|r",
+	}, -- [35]
+	{
+		["count"] = 1,
+		["link"] = "|cff1eff00|Hitem:52719:0:0:0:0:0:0:1235871744:85:0:0|h[Greater Celestial Essence]|h|r",
+	}, -- [36]
+	{
+		["count"] = 20,
+		["link"] = "|cffffffff|Hitem:74249:0:0:0:0:0:0:1392673456:85:0:0|h[Spirit Dust]|h|r",
+	}, -- [37]
+	{
+		["count"] = 20,
+		["link"] = "|cffffffff|Hitem:74249:0:0:0:0:0:0:1404664832:85:0:0|h[Spirit Dust]|h|r",
+	}, -- [38]
+	{
+		["count"] = 1,
+		["link"] = "|cffffffff|Hitem:37159:0:0:0:0:0:0:1320610944:85:0:0|h[Three of Swords]|h|r",
+	}, -- [39]
+	{
+		["count"] = 20,
+		["link"] = "|cffffffff|Hitem:74249:0:0:0:0:0:0:1403650866:85:0:0|h[Spirit Dust]|h|r",
+	}, -- [40]
+	{
+		["count"] = 8,
+		["link"] = "|cff1eff00|Hitem:74250:0:0:0:0:0:0:1399194843:85:0:0|h[Mysterious Essence]|h|r",
+	}, -- [41]
+	{
+		["count"] = 20,
+		["link"] = "|cffffffff|Hitem:72988:0:0:0:0:0:0:1006015616:85:0:0|h[Windwool Cloth]|h|r",
+	}, -- [42]
+	{
+		["count"] = 20,
+		["link"] = "|cffffffff|Hitem:72988:0:0:0:0:0:0:604641000:85:0:0|h[Windwool Cloth]|h|r",
+	}, -- [43]
+	{
+		["count"] = 20,
+		["link"] = "|cffffffff|Hitem:72988:0:0:0:0:0:0:279369982:85:0:0|h[Windwool Cloth]|h|r",
+	}, -- [44]
+	{
+		["count"] = 16,
+		["link"] = "|cff9d9d9d|Hitem:44615:0:0:0:0:0:0:0:85:0:0|h[Devout Candle]|h|r",
+	}, -- [45]
+	{
+		["count"] = 20,
+		["link"] = "|cff9d9d9d|Hitem:44615:0:0:0:0:0:0:0:85:0:0|h[Devout Candle]|h|r",
+	}, -- [46]
+	{
+		["count"] = 20,
+		["link"] = "|cff9d9d9d|Hitem:44615:0:0:0:0:0:0:0:85:0:0|h[Devout Candle]|h|r",
+	}, -- [47]
+	{
+		["count"] = 8,
+		["link"] = "|cffffffff|Hitem:12804:0:0:0:0:0:0:-1481944320:85:0:0|h[Powerful Mojo]|h|r",
+	}, -- [48]
+	{
+		["count"] = 1,
+		["link"] = "|cffffffff|Hitem:33454:0:0:0:0:0:0:1437835008:85:0:0|h[Salted Venison]|h|r",
+	}, -- [49]
+	{
+		["count"] = 1,
+		["link"] = "|cffffffff|Hitem:12846:0:0:0:0:0:0:2054794624:85:0:0|h[Argent Dawn Commission]|h|r",
+	}, -- [50]
+	{
+		["count"] = 13,
+		["link"] = "|cffffffff|Hitem:33445:0:0:0:0:0:0:0:85:0:0|h[Honeymint Tea]|h|r",
+	}, -- [51]
+	{
+		["count"] = 1,
+		["link"] = "|cffffffff|Hitem:46106:0:0:0:0:0:0:109861264:85:0:0|h[Argent Lance]|h|r",
+	}, -- [52]
+	{
+		["count"] = 20,
+		["link"] = "|cff9d9d9d|Hitem:44615:0:0:0:0:0:0:0:85:0:0|h[Devout Candle]|h|r",
+	}, -- [53]
+	{
+		["count"] = 1,
+		["link"] = "|cff1eff00|Hitem:12704:0:0:0:0:0:0:1489211520:85:0:0|h[Plans: Thorium Leggings]|h|r",
+	}, -- [54]
+	{
+		["count"] = 2,
+		["link"] = "|cffffffff|Hitem:43473:0:0:0:0:0:0:97092376:85:0:0|h[Drakefire Chile Ale]|h|r",
+	}, -- [55]
+	{
+		["count"] = 19,
+		["link"] = "|cffffffff|Hitem:33445:0:0:0:0:0:0:0:85:0:0|h[Honeymint Tea]|h|r",
+	}, -- [56]
+	{
+		["count"] = 20,
+		["link"] = "|cffffffff|Hitem:33445:0:0:0:0:0:0:0:85:0:0|h[Honeymint Tea]|h|r",
+	}, -- [57]
+	{
+		["count"] = 20,
+		["link"] = "|cff9d9d9d|Hitem:44615:0:0:0:0:0:0:0:85:0:0|h[Devout Candle]|h|r",
+	}, -- [58]
+	{
+		["count"] = 1,
+		["link"] = "|cffffffff|Hitem:13948:0:0:0:0:0:0:0:85:0:0|h[Recipe: Mightfish Steak]|h|r",
+	}, -- [59]
+	{
+		["count"] = 2,
+		["link"] = "|cffffffff|Hitem:52762:0:0:0:0:0:0:646426368:85:0:0|h[Enchant Shield - Mastery]|h|r",
+	}, -- [60]
+	{
+		["count"] = 1,
+		["link"] = "|cffffffff|Hitem:13943:0:0:0:0:0:0:0:85:0:0|h[Recipe: Hot Smoked Bass]|h|r",
+	}, -- [61]
+	{
+		["count"] = 1,
+		["link"] = "|cffffffff|Hitem:52767:0:0:0:0:0:0:1000637888:85:0:0|h[Enchant Cloak - Protection]|h|r",
+	}, -- [62]
+	{
+		["count"] = 1,
+		["link"] = "|cffffffff|Hitem:52761:0:0:0:0:0:0:536804448:85:0:0|h[Enchant Weapon - Heartsong]|h|r",
+	}, -- [63]
+	{
+		["count"] = 14,
+		["link"] = "|cffffffff|Hitem:39690:0:0:0:0:0:0:-1929189248:85:0:0|h[Volatile Blasting Trigger]|h|r",
+	}, -- [64]
+	{
+		["count"] = 3,
+		["link"] = "|cffffffff|Hitem:12359:0:0:0:0:0:0:1366974336:85:0:0|h[Thorium Bar]|h|r",
+	}, -- [65]
+	{
+		["count"] = 2,
+		["link"] = "|cff0070dd|Hitem:41594:0:0:0:0:0:0:43808720:85:0:0|h[Moonshroud]|h|r",
+	}, -- [66]
+	{
+		["count"] = 1,
+		["link"] = "|cffffffff|Hitem:49633:0:0:0:0:0:0:638948800:85:0:0|h[Drums of Forgotten Kings]|h|r",
+	}, -- [67]
+	{
+		["count"] = 4,
+		["link"] = "|cffffffff|Hitem:33568:0:0:0:0:0:0:1497824384:85:0:0|h[Borean Leather]|h|r",
+	}, -- [68]
+	{
+		["count"] = 7,
+		["link"] = "|cffffffff|Hitem:14047:0:0:0:0:0:0:-1922887936:85:0:0|h[Runecloth]|h|r",
+	}, -- [69]
+	{
+		["count"] = 1,
+		["link"] = "|cffffffff|Hitem:38849:0:0:0:0:0:0:1902078080:85:0:0|h[Enchant Bracer - Greater Stamina]|h|r",
+	}, -- [70]
+	{
+		["count"] = 1,
+		["link"] = "|cff0070dd|Hitem:41593:0:0:0:0:0:0:28935940:85:0:0|h[Ebonweave]|h|r",
+	}, -- [71]
+	{
+		["count"] = 6,
+		["link"] = "|cffffffff|Hitem:43007:0:0:0:0:0:0:-1761142576:85:0:0|h[Northern Spices]|h|r",
+	}, -- [72]
+	{
+		["count"] = 1,
+		["link"] = "|cff0070dd|Hitem:41595:0:0:0:0:0:0:152774496:85:0:0|h[Spellweave]|h|r",
+	}, -- [73]
+	{
+		["count"] = 8,
+		["link"] = "|cffffffff|Hitem:41802:0:0:0:0:0:0:0:85:0:0|h[Imperial Manta Ray]|h|r",
+	}, -- [74]
+	{
+		["count"] = 2,
+		["link"] = "|cffffffff|Hitem:43011:0:0:0:0:0:0:958039552:85:0:0|h[Worg Haunch]|h|r",
+	}, -- [75]
+	{
+		["count"] = 9,
+		["link"] = "|cffffffff|Hitem:37705:0:0:0:0:0:0:-1784486528:85:0:0|h[Crystallized Water]|h|r",
+	}, -- [76]
+	{
+		["count"] = 1,
+		["link"] = "|cffffffff|Hitem:46376:0:0:0:0:0:0:892241792:85:0:0|h[Flask of the Frost Wyrm]|h|r",
+	}, -- [77]
+	{
+		["count"] = 1,
+		["link"] = "|cff0070dd|Hitem:22448:0:0:0:0:0:0:1527880668:85:0:0|h[Small Prismatic Shard]|h|r",
+	}, -- [78]
+	{
+		["count"] = 3,
+		["link"] = "|cff0070dd|Hitem:34053:0:0:0:0:0:0:366558996:85:0:0|h[Small Dream Shard]|h|r",
+	}, -- [79]
+	{
+		["count"] = 2,
+		["link"] = "|cff0070dd|Hitem:36924:0:0:0:0:0:0:676016992:85:0:0|h[Sky Sapphire]|h|r",
+	}, -- [80]
+	{
+		["count"] = 7,
+		["link"] = "|cff0070dd|Hitem:52078:0:0:0:0:0:0:-1357820032:85:0:0|h[Chaos Orb]|h|r",
+	}, -- [81]
+}
+AmrImportString = ""
+AmrImportDate = ""
+AmrSendSettings = {
+	["SendTo"] = "",
+	["SendGems"] = true,
+	["SendEnchants"] = true,
+	["SendEnchantMaterials"] = true,
+	["SendToType"] = "a friend",
+}
