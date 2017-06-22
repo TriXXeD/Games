@@ -1,0 +1,7 @@
+## Interface: 70300
+## Author: notarealwizard
+## Version: 1.0.4
+## Title: KeystoneLinks
+## Notes: Adds info to keystone links.
+
+KeystoneLinks.xml

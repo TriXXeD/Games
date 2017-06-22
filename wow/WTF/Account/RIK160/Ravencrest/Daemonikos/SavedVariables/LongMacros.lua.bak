@@ -1,0 +1,11 @@
+
+LongMacrosCharacterConfig = {
+	["version"] = 1,
+	["macros"] = {
+		["Invite_me_bitch"] = {
+			["name"] = "Invite_me_bitch",
+			["isPerCharacter"] = true,
+			["macroText"] = "/w cirylli Also\n/w cirylli the\n/w cirylli invite\n/w cirylli phrase\n/w cirylli for\n/w cirylli next\n/w cirylli reset\n/w cirylli will\n/w cirylli be\n/w cirylli tickle\n/w cirylli or\n/w cirylli tentickle\n/w cirylli ehehehe\n",
+		},
+	},
+}

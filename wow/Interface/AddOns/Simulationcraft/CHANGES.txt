@@ -1,0 +1,12 @@
+tag c7f52071ca37d0a82bb3cba7c0cc13f45eafd8f0 v1.7.4
+Author:	Navv <navv1234@gmail.com>
+Date:	Tue Jun 13 20:39:17 2017 +0300
+
+v1.7.4
+
+commit 15ff35bf265da1ad52e1550c49091ae3e03f53e1
+Author: Navv <navv1234@gmail.com>
+Date:   Tue Jun 13 20:38:13 2017 +0300
+
+    Fix sanity checks. Update toc.
+

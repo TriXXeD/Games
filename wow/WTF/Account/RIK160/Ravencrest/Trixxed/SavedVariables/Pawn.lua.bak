@@ -1,0 +1,26 @@
+
+PawnOptions = {
+	["LastVersion"] = 2.0205,
+	["LastPlayerFullName"] = "Trixxed-Ravencrest",
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
+	["Artifacts"] = {
+		[128910] = {
+			["Relics"] = {
+				{
+					["Type"] = "Iron",
+				}, -- [1]
+				{
+					["ItemLevel"] = 4,
+					["Type"] = "Blood",
+				}, -- [2]
+			},
+			["Name"] = "Strom'kar, the Warbreaker",
+		},
+	},
+	["LastKeybindingsSet"] = 1,
+}
+PawnMrRobotScaleProviderOptions = {
+	["LastClass"] = "WARRIOR",
+	["LastAdded"] = 1,
+}

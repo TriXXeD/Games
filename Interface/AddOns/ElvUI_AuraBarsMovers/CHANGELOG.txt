@@ -1,3 +1,0 @@
-v1.26
-- Fixed errors on ElvUI Unitframes updating
-- Patch 7.1 ready

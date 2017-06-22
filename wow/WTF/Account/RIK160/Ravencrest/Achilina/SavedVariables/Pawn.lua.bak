@@ -1,0 +1,28 @@
+
+PawnOptions = {
+	["LastVersion"] = 2.02,
+	["LastPlayerFullName"] = "Achilina-Ravencrest",
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
+	["Artifacts"] = {
+		[120978] = {
+			["Relics"] = {
+				{
+					["Type"] = "Holy",
+				}, -- [1]
+				{
+					["Type"] = "Fire",
+				}, -- [2]
+				{
+					["Type"] = "Holy",
+				}, -- [3]
+			},
+			["Name"] = "Ashbringer",
+		},
+	},
+	["LastKeybindingsSet"] = 1,
+}
+PawnMrRobotScaleProviderOptions = {
+	["LastClass"] = "PALADIN",
+	["LastAdded"] = 1,
+}

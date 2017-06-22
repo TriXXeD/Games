@@ -1,0 +1,71 @@
+VER 3 0000000000000044 "BR" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cancelaura Burning Rush
+/cast Burning Rush
+END
+VER 3 000000000000003A "Buy Item" "ACHIEVEMENT_GUILDPERK_MOBILEBANKING"
+/run BuyMerchantItem(1) 
+/click StaticPopup1Button1
+END
+VER 3 0000000000000037 "CastTalentOutlin" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:1/1] Talentname; [talent:1/2] Talentname; [talent:1/3] Talentname
+END
+VER 3 0000000000000045 "Challenge" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=Karam Magespear] Mortal Coil
+END
+VER 3 0000000000000035 "Cloak" "INV_MISC_QUESTIONMARK"
+#show 15
+/use 15
+END
+VER 3 000000000000002C "CM Reset" "INV_STAVE_2H_PVPHORDE_A_01_UPRES"
+/script ResetChallengeMode()
+END
+VER 3 0000000000000031 "EAB" "SPELL_MISC_PETHEAL"
+#showtooltip
+/click ExtraActionButton1
+/stopcasting
+END
+VER 3 000000000000003C "focus+retarget" "ABILITY_DRUID_RAKE"
+/focus
+/targetlasttarget
+END
+VER 3 0000000000000043 "Hidden Appearenc" "INV_ENCHANT_ESSENCEETERNALLARGE"
+/run local q,x,_,a,b = GetAchievementCriteriaInfo,0 for i=1,11 do _,_,_,a,b = q(11152,i) x=x+a end local _,_,_,c,d = q(11153,1) local _,_,_,e,f = q(11154,1) print("Dungeons: "..x.."/"..b) print("WQs: "..c.."/"..d) print("Kills: "..e.."/"..f)
+END
+VER 3 0000000000000038 "MouseOverOutline" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,exists] Gift of the Naaru; Gift of the Naaru
+END
+VER 3 0000000000000024 "NX" "Ability_Creature_Cursed_02"
+/ra       ^ . . . ^
+/ra      /  O,O  \    O RLY?
+/ra     ||(   : : :  )||
+/ra  ===W=W===
+END
+VER 3 000000000000002D "PetAttack" "Ability_GhoulFrenzy"
+/petattack
+END
+VER 3 0000000000000027 "Pull" "SPELL_SHADOW_CHARM"
+/dbM pull 10
+END
+VER 3 0000000000000032 "Rares" "ACHIEVEMENT_DUNGEON_BLACKROCKDOCKS"
+/target Luk'Hok
+/target Nakk
+END
+VER 3 000000000000003D "Trink13" "INV_MISC_QUESTIONMARK"
+#showtooltip 13
+/use 13
+END
+VER 3 0000000000000036 "Use Trink" "INV_MISC_QUESTIONMARK"
+#showtooltip 14
+/use 14
+END
+VER 3 000000000000003E "UseItemBag" "INV_SWORD_04"
+/run for bag = 0,4,1 do for slot = 1, GetContainerNumSlots(bag), 1 do local name = GetContainerItemLink(bag,slot); if name and string.find(name,"126990") then UseContainerItem(bag,slot) end end end
+END
+VER 3 0000000000000034 "Waist" "INV_MISC_QUESTIONMARK"
+#show 6
+/use 6
+END

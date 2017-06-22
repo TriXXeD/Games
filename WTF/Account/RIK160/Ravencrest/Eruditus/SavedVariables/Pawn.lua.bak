@@ -1,9 +1,0 @@
-
-PawnOptions = {
-	["LastPlayerFullName"] = "Eruditus-Ravencrest",
-	["LastKeybindingsSet"] = 1,
-}
-PawnWowheadScaleProviderOptions = {
-	["LastClass"] = "MAGE",
-	["LastAdded"] = 3,
-}

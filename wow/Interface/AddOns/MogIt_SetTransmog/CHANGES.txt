@@ -1,0 +1,11 @@
+------------------------------------------------------------------------
+r14 | Lombra | 2017-04-07 17:30:05 -0500 (Fri, 07 Apr 2017) | 3 lines
+Changed paths:
+   M /trunk/Core.lua
+   M /trunk/MogIt_SetTransmog.toc
+
+- ToC 70200.
+- Add support for hidden shirts, tabards and belts.
+- Support various cases.
+------------------------------------------------------------------------
+

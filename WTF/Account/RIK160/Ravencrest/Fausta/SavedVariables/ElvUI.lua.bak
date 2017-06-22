@@ -1,9 +1,0 @@
-
-ElvCharacterDB = {
-	["ChatEditHistory"] = {
-		"/ec", -- [1]
-		"/clm config", -- [2]
-	},
-	["ChatLog"] = {
-	},
-}

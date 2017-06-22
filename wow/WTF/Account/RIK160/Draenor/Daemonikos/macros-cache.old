@@ -1,0 +1,80 @@
+VER 3 0100000000000006 "aRCWAY" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@focus,help][@player] brand of the legion
+END
+VER 3 0100000000000019 "Circle" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cancelaura Demonic Circle
+/cast Demonic Circle
+END
+VER 3 0100000000000016 "Cripple" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=Karam Magespears,help] Cripple; Cripple
+END
+VER 3 0100000000000002 "Drain Souls" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nochanneling:Drain Soul] Drain Soul
+END
+VER 3 010000000000000B "FearA1" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@arena1,exists] Fear; Fear
+END
+VER 3 010000000000000C "FearA2" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@arena2,exists] Fear; Fear
+END
+VER 3 010000000000000D "FearA3" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@arena3,exists] Fear; Fear
+END
+VER 3 0100000000000003 "Havoc" "INV_MISC_QUESTIONMARK"
+#showtooltip Havoc
+/cast [target=mouseover,exists] Havoc;[target= focus, exists] Havoc; Havoc
+END
+VER 3 0100000000000014 "SE Agony" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@focus] Agony
+END
+VER 3 0100000000000015 "SE Corruption" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@focus] Corruption
+END
+VER 3 010000000000000F "SE SL" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@focus] Siphon Life
+END
+VER 3 010000000000000E "Stun" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Axe Toss
+END
+VER 3 0100000000000011 "Summon Demon Aff" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomodifier] Summon Felhunter;
+/cast [modifier:shift] Summon Succubus;
+/cast [modifier:alt] Summon Imp;
+/cast [modifier:ctrl] Summon Voidwalker
+END
+VER 3 0100000000000012 "Summon Pet Demo" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomodifier] Summon Felguard;
+/cast [modifier:shift] Summon Felhunter;
+/cast [modifier:alt] Summon Succubus;
+/cast [modifier:ctrl] Summon Imp
+END
+VER 3 0100000000000008 "Tier 2" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:2/1] Demon Skin; [talent:2/2] Mortal Coil; [talent:2/3] Shadowfury
+END
+VER 3 0100000000000007 "Tier 3" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:3/1] Demonic Circle; [talent:3/2] Mortal Coil; [talent:3/3] Howl of Terror
+END
+VER 3 0100000000000017 "Tier 5" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cancelaura Burning Rush
+/cast [talent:5/1] Demon Skin; [talent:5/2] Burning Rush; [talent:5/3] Dark Pact
+END
+VER 3 0100000000000018 "Tier7" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:7/1] Soul Effigy; [talent:7/2] Phantom Singularity; [talent:7/3] Soul Conduit
+END

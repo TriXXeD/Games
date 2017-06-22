@@ -1,0 +1,7 @@
+changeset:   624:4be72351c8a1
+tag:         v7.2.0.3673.118
+user:        Tercio
+date:        Tue May 09 13:52:54 2017 -0300
+summary:     - more fixes to #187 ticket.
+
+
