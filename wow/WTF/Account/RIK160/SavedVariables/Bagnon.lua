@@ -92,6 +92,9 @@ Bagnon_Sets = {
 						"trade/recipe", -- [20]
 						"quest", -- [21]
 						"misc", -- [22]
+						"quest/all", -- [23]
+						"contain/all", -- [24]
+						"misc/all", -- [25]
 					},
 					["hiddenRules"] = {
 					},
@@ -1704,7 +1707,7 @@ Bagnon_Sets = {
 	},
 	["global"] = {
 		["inventory"] = {
-			["y"] = -66.9920654296875,
+			["y"] = 119.007919311523,
 			["rules"] = {
 				"all", -- [1]
 				"all/all", -- [2]
@@ -1732,7 +1735,7 @@ Bagnon_Sets = {
 				"contain/all", -- [24]
 				"misc/all", -- [25]
 			},
-			["point"] = "TOPRIGHT",
+			["point"] = "BOTTOMRIGHT",
 			["hiddenBags"] = {
 				[2] = false,
 			},
@@ -1742,7 +1745,7 @@ Bagnon_Sets = {
 			},
 			["hiddenRules"] = {
 			},
-			["x"] = -302.998901367188,
+			["x"] = -227.998779296875,
 		},
 		["vault"] = {
 			["rules"] = {

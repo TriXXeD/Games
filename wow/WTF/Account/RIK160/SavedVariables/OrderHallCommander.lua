@@ -7,7 +7,7 @@ dbOHC = {
 		["Fausta - Ravencrest"] = {
 			["firstun"] = false,
 		},
-		["Quelith - Draenor"] = {
+		["Lupalia - Ravencrest"] = {
 			["firstun"] = false,
 		},
 		["Achilina - Draenor"] = {
@@ -16,9 +16,17 @@ dbOHC = {
 		["Daemonikos - Draenor"] = {
 			["firstun"] = false,
 		},
-		["Lupalia - Ravencrest"] = {
+		["Quelith - Draenor"] = {
 			["firstun"] = false,
 		},
+	},
+	["profileKeys"] = {
+		["Trïxxed - Ravencrest"] = "Default",
+		["Fausta - Ravencrest"] = "Default",
+		["Lupalia - Ravencrest"] = "Default",
+		["Achilina - Draenor"] = "Default",
+		["Daemonikos - Draenor"] = "Default",
+		["Quelith - Draenor"] = "Default",
 	},
 	["global"] = {
 		["warn01_seen"] = 0,
@@ -26,14 +34,6 @@ dbOHC = {
 		["news"] = {
 		},
 		["warn02_seen"] = 0,
-	},
-	["profileKeys"] = {
-		["Trïxxed - Ravencrest"] = "Default",
-		["Fausta - Ravencrest"] = "Default",
-		["Quelith - Draenor"] = "Default",
-		["Achilina - Draenor"] = "Default",
-		["Daemonikos - Draenor"] = "Default",
-		["Lupalia - Ravencrest"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -45,8 +45,8 @@ dbOHC = {
 				["SORTMISSION"] = "Garrison_SortMissions_Class",
 				["SPARE"] = false,
 				["NOTROOPS"] = false,
-				["MAKEITVERYQUICK"] = false,
 				["IGNORELOW"] = false,
+				["MAKEITVERYQUICK"] = false,
 				["MAXCHAMP"] = 2,
 				["MAKEITQUICK"] = false,
 				["MOVEPANEL"] = true,
@@ -54,17 +54,17 @@ dbOHC = {
 				["IGNOREBUSY"] = false,
 				["USEALLY"] = true,
 			},
-			["showmenu"] = true,
 			["blacklist"] = {
-				[1185] = true,
+				[1668] = false,
 				[1055] = true,
-				[1346] = true,
+				[1185] = true,
 				[1644] = false,
 				[1655] = true,
 				[1638] = false,
 				[1659] = false,
-				[1668] = false,
+				[1346] = true,
 			},
+			["showmenu"] = true,
 		},
 	},
 }

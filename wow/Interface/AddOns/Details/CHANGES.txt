@@ -1,7 +1,13 @@
-changeset:   624:4be72351c8a1
-tag:         v7.2.0.3673.118
+changeset:   645:3d6d197af426
+tag:         a7.2.5.4102.121-Alpha
 user:        Tercio
-date:        Tue May 09 13:52:54 2017 -0300
-summary:     - more fixes to #187 ticket.
+date:        Thu Jun 22 19:37:38 2017 -0300
+summary:     - API: added class tables: _detalhes.classstring_to_classid and _detalhes.classid_to_classstring.
+
+
+changeset:   644:cd5368e88a67
+user:        Tercio
+date:        Wed Jun 21 00:18:05 2017 -0300
+summary:     - attempt to fix the spellname nil problem on some encounters.
 
 

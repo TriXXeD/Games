@@ -253,17 +253,17 @@ MogIt_ClothDB = {
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
+			[57759] = {
+				["classes"] = 400,
+				["sourceType"] = 4,
+				["faction"] = 3,
+			},
 			[57726] = {
 				["classes"] = 400,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[66626] = {
-				["classes"] = 400,
-				["sourceType"] = 4,
-				["faction"] = 3,
-			},
-			[57759] = {
 				["classes"] = 400,
 				["sourceType"] = 4,
 				["faction"] = 3,
@@ -1365,14 +1365,14 @@ MogIt_ClothDB = {
 			},
 		},
 		[27814] = {
-			[74377] = {
+			[68719] = {
 				["classes"] = 400,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
-			[76261] = {
+			[74377] = {
 				["classes"] = 400,
-				["sourceType"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[68372] = {
@@ -1380,9 +1380,9 @@ MogIt_ClothDB = {
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
-			[68719] = {
+			[76261] = {
 				["classes"] = 400,
-				["sourceType"] = 2,
+				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
@@ -1432,7 +1432,30 @@ MogIt_ClothDB = {
 			},
 		},
 		[17712] = {
+			[44773] = {
+				["classes"] = 400,
+				["sourceType"] = 1,
+				["faction"] = 3,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Wind Lord Mel'jarak",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+							"Looking For Raid", -- [1]
+						},
+						["instance"] = "Heart of Fear",
+					}, -- [1]
+				},
+			},
 			[44605] = {
+				["classes"] = 16,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[44598] = {
 				["classes"] = 16,
 				["sourceType"] = 3,
 				["faction"] = 1,
@@ -1452,29 +1475,6 @@ MogIt_ClothDB = {
 							"Looking For Raid", -- [1]
 						},
 						["instance"] = "Terrace of Endless Spring",
-					}, -- [1]
-				},
-			},
-			[44598] = {
-				["classes"] = 16,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[44773] = {
-				["classes"] = 400,
-				["sourceType"] = 1,
-				["faction"] = 3,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Wind Lord Mel'jarak",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-							"Looking For Raid", -- [1]
-						},
-						["instance"] = "Heart of Fear",
 					}, -- [1]
 				},
 			},
@@ -1557,6 +1557,25 @@ MogIt_ClothDB = {
 			},
 		},
 		[20158] = {
+			[49762] = {
+				["classes"] = 400,
+				["sourceType"] = 1,
+				["faction"] = 3,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Primordius",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player", -- [1]
+							"25 Player", -- [2]
+						},
+						["instance"] = "Throne of Thunder",
+					}, -- [1]
+				},
+			},
 			[49615] = {
 				["classes"] = 400,
 				["sourceType"] = 1,
@@ -1576,6 +1595,11 @@ MogIt_ClothDB = {
 					}, -- [1]
 				},
 			},
+			[50070] = {
+				["classes"] = 256,
+				["sourceType"] = 3,
+				["faction"] = 2,
+			},
 			[49930] = {
 				["classes"] = 400,
 				["sourceType"] = 1,
@@ -1590,30 +1614,6 @@ MogIt_ClothDB = {
 						["difficulties"] = {
 						},
 						["instance"] = "Pandaria",
-					}, -- [1]
-				},
-			},
-			[50070] = {
-				["classes"] = 256,
-				["sourceType"] = 3,
-				["faction"] = 2,
-			},
-			[49762] = {
-				["classes"] = 400,
-				["sourceType"] = 1,
-				["faction"] = 3,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Primordius",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player", -- [1]
-							"25 Player", -- [2]
-						},
-						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
 			},
@@ -2609,9 +2609,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Molten Core",
 						["difficulties"] = {
 						},
+						["instance"] = "Molten Core",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -3087,10 +3087,10 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Vault of Archavon",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Vault of Archavon",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -3160,9 +3160,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "Tomb of Sargeras",
 						["difficulties"] = {
 						},
+						["instance"] = "Tomb of Sargeras",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -3405,9 +3405,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "The Nighthold",
 						["difficulties"] = {
 						},
+						["instance"] = "The Nighthold",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -3514,12 +3514,17 @@ MogIt_ClothDB = {
 			},
 		},
 		[16917] = {
-			[38574] = {
+			[38880] = {
+				["classes"] = 400,
+				["sourceType"] = 3,
+				["faction"] = 3,
+			},
+			[38566] = {
 				["classes"] = 16,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
-			[38566] = {
+			[38574] = {
 				["classes"] = 16,
 				["sourceType"] = 3,
 				["faction"] = 1,
@@ -3542,11 +3547,6 @@ MogIt_ClothDB = {
 						["instance"] = "Dragon Soul",
 					}, -- [1]
 				},
-			},
-			[38880] = {
-				["classes"] = 400,
-				["sourceType"] = 3,
-				["faction"] = 3,
 			},
 		},
 		[5524] = {
@@ -3596,17 +3596,17 @@ MogIt_ClothDB = {
 				["sourceType"] = 4,
 				["faction"] = 2,
 			},
+			[83606] = {
+				["classes"] = 128,
+				["sourceType"] = 4,
+				["faction"] = 2,
+			},
 			[83654] = {
 				["classes"] = 256,
 				["sourceType"] = 4,
 				["faction"] = 2,
 			},
 			[79304] = {
-				["classes"] = 128,
-				["sourceType"] = 4,
-				["faction"] = 2,
-			},
-			[83606] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
 				["faction"] = 2,
@@ -4493,10 +4493,10 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -5575,9 +5575,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "Tomb of Sargeras",
 						["difficulties"] = {
 						},
+						["instance"] = "Tomb of Sargeras",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -5658,10 +5658,10 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Vault of Archavon",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Vault of Archavon",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -6269,9 +6269,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "The Nighthold",
 						["difficulties"] = {
 						},
+						["instance"] = "The Nighthold",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -7288,10 +7288,10 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Mythic", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -7801,10 +7801,10 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -8169,9 +8169,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "The Nighthold",
 						["difficulties"] = {
 						},
+						["instance"] = "The Nighthold",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -8206,10 +8206,10 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -8319,17 +8319,17 @@ MogIt_ClothDB = {
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
+			[24238] = {
+				["classes"] = 400,
+				["sourceType"] = 2,
+				["faction"] = 3,
+			},
 			[870] = {
 				["classes"] = 400,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[31528] = {
-				["classes"] = 400,
-				["sourceType"] = 2,
-				["faction"] = 3,
-			},
-			[24238] = {
 				["classes"] = 400,
 				["sourceType"] = 2,
 				["faction"] = 3,
@@ -8825,9 +8825,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "Tomb of Sargeras",
 						["difficulties"] = {
 						},
+						["instance"] = "Tomb of Sargeras",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -8861,9 +8861,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "Tomb of Sargeras",
 						["difficulties"] = {
 						},
+						["instance"] = "Tomb of Sargeras",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -9562,10 +9562,10 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
 						["difficulties"] = {
 							"Mythic", -- [1]
 						},
+						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -10010,9 +10010,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "The Nighthold",
 						["difficulties"] = {
 						},
+						["instance"] = "The Nighthold",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -10870,10 +10870,10 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -11088,6 +11088,11 @@ MogIt_ClothDB = {
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
+			[57627] = {
+				["classes"] = 400,
+				["sourceType"] = 4,
+				["faction"] = 3,
+			},
 			[57594] = {
 				["classes"] = 400,
 				["sourceType"] = 4,
@@ -11096,11 +11101,6 @@ MogIt_ClothDB = {
 			[62079] = {
 				["classes"] = 400,
 				["sourceType"] = 2,
-				["faction"] = 3,
-			},
-			[57627] = {
-				["classes"] = 400,
-				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
@@ -11423,9 +11423,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Blackwing Lair",
 						["difficulties"] = {
 						},
+						["instance"] = "Blackwing Lair",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -14724,13 +14724,13 @@ MogIt_ClothDB = {
 			},
 		},
 		[28296] = {
-			[83656] = {
-				["classes"] = 256,
+			[83608] = {
+				["classes"] = 128,
 				["sourceType"] = 4,
 				["faction"] = 2,
 			},
-			[79306] = {
-				["classes"] = 128,
+			[83656] = {
+				["classes"] = 256,
 				["sourceType"] = 4,
 				["faction"] = 2,
 			},
@@ -14739,7 +14739,7 @@ MogIt_ClothDB = {
 				["sourceType"] = 4,
 				["faction"] = 2,
 			},
-			[83608] = {
+			[79306] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
 				["faction"] = 2,
@@ -15542,9 +15542,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Blackwing Lair",
 						["difficulties"] = {
 						},
+						["instance"] = "Blackwing Lair",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -16741,11 +16741,11 @@ MogIt_ClothDB = {
 				},
 			},
 		},
-		[24100] = {
-			[64500] = {
-				["classes"] = 16,
-				["sourceType"] = 3,
-				["faction"] = 1,
+		[3280] = {
+			[5423] = {
+				["classes"] = 400,
+				["sourceType"] = 4,
+				["faction"] = 3,
 			},
 		},
 		[21960] = {
@@ -16786,10 +16786,10 @@ MogIt_ClothDB = {
 				["faction"] = 3,
 			},
 		},
-		[3280] = {
-			[5423] = {
+		[14621] = {
+			[32359] = {
 				["classes"] = 400,
-				["sourceType"] = 4,
+				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
@@ -16933,11 +16933,11 @@ MogIt_ClothDB = {
 				["faction"] = 3,
 			},
 		},
-		[14621] = {
-			[32359] = {
-				["classes"] = 400,
+		[24100] = {
+			[64500] = {
+				["classes"] = 16,
 				["sourceType"] = 3,
-				["faction"] = 3,
+				["faction"] = 1,
 			},
 		},
 		[33333] = {
@@ -17522,11 +17522,30 @@ MogIt_ClothDB = {
 				},
 			},
 		},
-		[32468] = {
-			[81033] = {
-				["classes"] = 16,
-				["sourceType"] = 3,
-				["faction"] = 1,
+		[14717] = {
+			[32627] = {
+				["classes"] = 400,
+				["sourceType"] = 1,
+				["faction"] = 3,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Maloriak",
+						["tiers"] = {
+							"Cataclysm", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player (Heroic)", -- [1]
+							"25 Player (Heroic)", -- [2]
+						},
+						["instance"] = "Blackwing Descent",
+					}, -- [1]
+				},
+			},
+			[76266] = {
+				["classes"] = 256,
+				["sourceType"] = 4,
+				["faction"] = 2,
 			},
 		},
 		[21202] = {
@@ -17621,23 +17640,11 @@ MogIt_ClothDB = {
 				["faction"] = 3,
 			},
 		},
-		[33190] = {
-			[86762] = {
-				["classes"] = 400,
-				["sourceType"] = 1,
-				["faction"] = 3,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Maiden of Vigilance",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Tomb of Sargeras",
-					}, -- [1]
-				},
+		[32468] = {
+			[81033] = {
+				["classes"] = 16,
+				["sourceType"] = 3,
+				["faction"] = 1,
 			},
 		},
 		[2283] = {
@@ -17785,16 +17792,23 @@ MogIt_ClothDB = {
 				["faction"] = 3,
 			},
 		},
-		[30754] = {
-			[79671] = {
-				["classes"] = 128,
-				["sourceType"] = 4,
-				["faction"] = 2,
-			},
-			[83420] = {
-				["classes"] = 128,
-				["sourceType"] = 4,
-				["faction"] = 2,
+		[32828] = {
+			[83099] = {
+				["classes"] = 400,
+				["sourceType"] = 1,
+				["faction"] = 3,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Odyn",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Trial of Valor",
+					}, -- [1]
+				},
 			},
 		},
 		[30267] = {
@@ -17836,12 +17850,12 @@ MogIt_ClothDB = {
 			},
 		},
 		[1405] = {
-			[30396] = {
+			[27888] = {
 				["classes"] = 400,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
-			[33127] = {
+			[30396] = {
 				["classes"] = 400,
 				["sourceType"] = 2,
 				["faction"] = 3,
@@ -17851,7 +17865,7 @@ MogIt_ClothDB = {
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
-			[27888] = {
+			[33127] = {
 				["classes"] = 400,
 				["sourceType"] = 2,
 				["faction"] = 3,
@@ -18037,21 +18051,22 @@ MogIt_ClothDB = {
 				},
 			},
 		},
-		[32828] = {
-			[83099] = {
+		[23600] = {
+			[62869] = {
 				["classes"] = 400,
 				["sourceType"] = 1,
 				["faction"] = 3,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Odyn",
+						["encounter"] = "The Iron Maidens",
 						["tiers"] = {
-							"Legion", -- [1]
+							"Warlords of Draenor", -- [1]
 						},
 						["difficulties"] = {
+							"Mythic", -- [1]
 						},
-						["instance"] = "Trial of Valor",
+						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 			},
@@ -18092,20 +18107,15 @@ MogIt_ClothDB = {
 				["faction"] = 3,
 			},
 		},
-		[2327] = {
-			[2698] = {
+		[6690] = {
+			[10408] = {
 				["classes"] = 400,
-				["sourceType"] = 6,
+				["sourceType"] = 2,
 				["faction"] = 3,
 			},
-			[3843] = {
+			[10411] = {
 				["classes"] = 400,
-				["sourceType"] = 4,
-				["faction"] = 3,
-			},
-			[13776] = {
-				["classes"] = 400,
-				["sourceType"] = 6,
+				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
@@ -18206,6 +18216,83 @@ MogIt_ClothDB = {
 					}, -- [7]
 				},
 			},
+			[61194] = {
+				["classes"] = 400,
+				["sourceType"] = 1,
+				["faction"] = 3,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Ranjit",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Skyreach",
+					}, -- [1]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Vigilant Kaathar",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Auchindoun",
+					}, -- [2]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Rocketspark and Borka",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Grimrail Depot",
+					}, -- [3]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Oshir",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Iron Docks",
+					}, -- [4]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Bonemaw",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Shadowmoon Burial Grounds",
+					}, -- [5]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Ancient Protectors",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "The Everbloom",
+					}, -- [6]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Warlord Zaela",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Upper Blackrock Spire",
+					}, -- [7]
+				},
+			},
 			[59493] = {
 				["classes"] = 400,
 				["sourceType"] = 1,
@@ -18289,11 +18376,6 @@ MogIt_ClothDB = {
 						["instance"] = "Upper Blackrock Spire",
 					}, -- [7]
 				},
-			},
-			[63329] = {
-				["classes"] = 400,
-				["sourceType"] = 4,
-				["faction"] = 3,
 			},
 			[59495] = {
 				["classes"] = 400,
@@ -18456,82 +18538,10 @@ MogIt_ClothDB = {
 					}, -- [7]
 				},
 			},
-			[61194] = {
+			[63329] = {
 				["classes"] = 400,
-				["sourceType"] = 1,
+				["sourceType"] = 4,
 				["faction"] = 3,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Ranjit",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Skyreach",
-					}, -- [1]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Vigilant Kaathar",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Auchindoun",
-					}, -- [2]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Rocketspark and Borka",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Grimrail Depot",
-					}, -- [3]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Oshir",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Iron Docks",
-					}, -- [4]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Bonemaw",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Shadowmoon Burial Grounds",
-					}, -- [5]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Ancient Protectors",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "The Everbloom",
-					}, -- [6]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Warlord Zaela",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Upper Blackrock Spire",
-					}, -- [7]
-				},
 			},
 		},
 		[2310] = {
@@ -18593,10 +18603,15 @@ MogIt_ClothDB = {
 				},
 			},
 		},
-		[13859] = {
-			[34212] = {
+		[10793] = {
+			[20228] = {
 				["classes"] = 400,
-				["sourceType"] = 2,
+				["sourceType"] = 3,
+				["faction"] = 3,
+			},
+			[24002] = {
+				["classes"] = 400,
+				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
@@ -18636,13 +18651,8 @@ MogIt_ClothDB = {
 				["faction"] = 3,
 			},
 		},
-		[6690] = {
-			[10408] = {
-				["classes"] = 400,
-				["sourceType"] = 2,
-				["faction"] = 3,
-			},
-			[10411] = {
+		[8254] = {
+			[14562] = {
 				["classes"] = 400,
 				["sourceType"] = 2,
 				["faction"] = 3,
@@ -18818,11 +18828,11 @@ MogIt_ClothDB = {
 				["faction"] = 3,
 			},
 		},
-		[24109] = {
-			[60157] = {
-				["classes"] = 384,
-				["sourceType"] = 3,
-				["faction"] = 2,
+		[13859] = {
+			[34212] = {
+				["classes"] = 400,
+				["sourceType"] = 2,
+				["faction"] = 3,
 			},
 		},
 		[1677] = {
@@ -18856,10 +18866,20 @@ MogIt_ClothDB = {
 				["faction"] = 1,
 			},
 		},
-		[8254] = {
-			[14562] = {
+		[2327] = {
+			[2698] = {
 				["classes"] = 400,
-				["sourceType"] = 2,
+				["sourceType"] = 6,
+				["faction"] = 3,
+			},
+			[3843] = {
+				["classes"] = 400,
+				["sourceType"] = 4,
+				["faction"] = 3,
+			},
+			[13776] = {
+				["classes"] = 400,
+				["sourceType"] = 6,
 				["faction"] = 3,
 			},
 		},
@@ -19536,20 +19556,25 @@ MogIt_ClothDB = {
 				["faction"] = 2,
 			},
 		},
-		[1181] = {
-			[3364] = {
+		[13999] = {
+			[29594] = {
 				["classes"] = 400,
+				["sourceType"] = 1,
 				["faction"] = 3,
-			},
-			[1216] = {
-				["classes"] = 400,
-				["sourceType"] = 2,
-				["faction"] = 3,
-			},
-			[12279] = {
-				["classes"] = 384,
-				["sourceType"] = 3,
-				["faction"] = 2,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Maloriak",
+						["tiers"] = {
+							"Cataclysm", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player", -- [1]
+							"25 Player", -- [2]
+						},
+						["instance"] = "Blackwing Descent",
+					}, -- [1]
+				},
 			},
 		},
 		[23862] = {
@@ -19570,6 +19595,22 @@ MogIt_ClothDB = {
 						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
+			},
+		},
+		[1181] = {
+			[3364] = {
+				["classes"] = 400,
+				["faction"] = 3,
+			},
+			[1216] = {
+				["classes"] = 400,
+				["sourceType"] = 2,
+				["faction"] = 3,
+			},
+			[12279] = {
+				["classes"] = 384,
+				["sourceType"] = 3,
+				["faction"] = 2,
 			},
 		},
 		[10422] = {
@@ -19595,27 +19636,6 @@ MogIt_ClothDB = {
 				["classes"] = 16,
 				["sourceType"] = 3,
 				["faction"] = 1,
-			},
-		},
-		[13999] = {
-			[29594] = {
-				["classes"] = 400,
-				["sourceType"] = 1,
-				["faction"] = 3,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Maloriak",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player", -- [1]
-							"25 Player", -- [2]
-						},
-						["instance"] = "Blackwing Descent",
-					}, -- [1]
-				},
 			},
 		},
 		[25419] = {
@@ -19692,26 +19712,16 @@ MogIt_ClothDB = {
 				},
 			},
 		},
-		[2383] = {
-			[13304] = {
-				["classes"] = 400,
-				["sourceType"] = 2,
-				["faction"] = 3,
+		[8989] = {
+			[16017] = {
+				["classes"] = 16,
+				["sourceType"] = 3,
+				["faction"] = 1,
 			},
-			[14585] = {
-				["classes"] = 400,
-				["sourceType"] = 2,
-				["faction"] = 3,
-			},
-			[5256] = {
-				["classes"] = 400,
-				["sourceType"] = 4,
-				["faction"] = 3,
-			},
-			[2769] = {
-				["classes"] = 400,
-				["sourceType"] = 4,
-				["faction"] = 3,
+			[16018] = {
+				["classes"] = 16,
+				["sourceType"] = 3,
+				["faction"] = 1,
 			},
 		},
 		[2937] = {
@@ -19905,24 +19915,33 @@ MogIt_ClothDB = {
 				},
 			},
 		},
-		[19958] = {
-			[50236] = {
+		[18425] = {
+			[47731] = {
+				["classes"] = 400,
+				["sourceType"] = 3,
+				["faction"] = 3,
+			},
+			[43398] = {
 				["classes"] = 400,
 				["sourceType"] = 1,
 				["faction"] = 3,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Ji-Kun",
+						["encounter"] = "Sha of Anger",
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
 						["difficulties"] = {
-							"Looking For Raid", -- [1]
 						},
-						["instance"] = "Throne of Thunder",
+						["instance"] = "Pandaria",
 					}, -- [1]
 				},
+			},
+			[52114] = {
+				["classes"] = 400,
+				["sourceType"] = 6,
+				["faction"] = 3,
 			},
 		},
 		[3904] = {
@@ -19952,16 +19971,23 @@ MogIt_ClothDB = {
 				["faction"] = 3,
 			},
 		},
-		[8989] = {
-			[16017] = {
-				["classes"] = 16,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[16018] = {
-				["classes"] = 16,
-				["sourceType"] = 3,
-				["faction"] = 1,
+		[5780] = {
+			[8531] = {
+				["classes"] = 400,
+				["sourceType"] = 1,
+				["faction"] = 3,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "C'thun",
+						["tiers"] = {
+							"Classic", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Temple of Ahn'Qiraj",
+					}, -- [1]
+				},
 			},
 		},
 		[5856] = {
@@ -19989,42 +20015,11 @@ MogIt_ClothDB = {
 				["faction"] = 2,
 			},
 		},
-		[22593] = {
-			[66925] = {
+		[13101] = {
+			[38260] = {
 				["classes"] = 400,
-				["sourceType"] = 1,
+				["sourceType"] = 6,
 				["faction"] = 3,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "The Iron Maidens",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Looking For Raid", -- [1]
-						},
-						["instance"] = "Blackrock Foundry",
-					}, -- [1]
-				},
-			},
-			[73384] = {
-				["classes"] = 400,
-				["sourceType"] = 1,
-				["faction"] = 3,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Xhul'horac",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Looking For Raid", -- [1]
-						},
-						["instance"] = "Hellfire Citadel",
-					}, -- [1]
-				},
 			},
 		},
 		[17898] = {
@@ -20076,32 +20071,31 @@ MogIt_ClothDB = {
 				["faction"] = 3,
 			},
 		},
-		[19447] = {
-			[46603] = {
+		[19958] = {
+			[50236] = {
 				["classes"] = 400,
 				["sourceType"] = 1,
 				["faction"] = 3,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Elegon",
+						["encounter"] = "Ji-Kun",
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
 						["difficulties"] = {
-							"10 Player", -- [1]
-							"25 Player", -- [2]
+							"Looking For Raid", -- [1]
 						},
-						["instance"] = "Mogu'shan Vaults",
+						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
 			},
 		},
-		[9001] = {
-			[16038] = {
-				["classes"] = 128,
+		[14622] = {
+			[32360] = {
+				["classes"] = 400,
 				["sourceType"] = 3,
-				["faction"] = 2,
+				["faction"] = 3,
 			},
 		},
 		[363] = {
@@ -20118,74 +20112,26 @@ MogIt_ClothDB = {
 				["faction"] = 3,
 			},
 		},
-		[5780] = {
-			[8531] = {
+		[2383] = {
+			[2769] = {
 				["classes"] = 400,
-				["sourceType"] = 1,
-				["faction"] = 3,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "C'thun",
-						["tiers"] = {
-							"Classic", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Temple of Ahn'Qiraj",
-					}, -- [1]
-				},
-			},
-		},
-		[13101] = {
-			[38260] = {
-				["classes"] = 400,
-				["sourceType"] = 6,
+				["sourceType"] = 4,
 				["faction"] = 3,
 			},
-		},
-		[8486] = {
-			[15106] = {
+			[13304] = {
 				["classes"] = 400,
-				["sourceType"] = 3,
+				["sourceType"] = 2,
 				["faction"] = 3,
 			},
-		},
-		[32810] = {
-			[83096] = {
+			[5256] = {
 				["classes"] = 400,
-				["sourceType"] = 1,
-				["faction"] = 3,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Odyn",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Trial of Valor",
-					}, -- [1]
-				},
-			},
-			[83990] = {
-				["classes"] = 400,
+				["sourceType"] = 4,
 				["faction"] = 3,
 			},
-		},
-		[13105] = {
-			[26480] = {
+			[14585] = {
 				["classes"] = 400,
-				["sourceType"] = 6,
+				["sourceType"] = 2,
 				["faction"] = 3,
-			},
-		},
-		[24118] = {
-			[60158] = {
-				["classes"] = 384,
-				["sourceType"] = 3,
-				["faction"] = 2,
 			},
 		},
 		[30258] = {
@@ -20210,6 +20156,72 @@ MogIt_ClothDB = {
 				["classes"] = 400,
 				["sourceType"] = 4,
 				["faction"] = 3,
+			},
+		},
+		[8486] = {
+			[15106] = {
+				["classes"] = 400,
+				["sourceType"] = 3,
+				["faction"] = 3,
+			},
+		},
+		[9001] = {
+			[16038] = {
+				["classes"] = 128,
+				["sourceType"] = 3,
+				["faction"] = 2,
+			},
+		},
+		[13105] = {
+			[26480] = {
+				["classes"] = 400,
+				["sourceType"] = 6,
+				["faction"] = 3,
+			},
+		},
+		[24118] = {
+			[60158] = {
+				["classes"] = 384,
+				["sourceType"] = 3,
+				["faction"] = 2,
+			},
+		},
+		[22593] = {
+			[66925] = {
+				["classes"] = 400,
+				["sourceType"] = 1,
+				["faction"] = 3,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "The Iron Maidens",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Looking For Raid", -- [1]
+						},
+						["instance"] = "Blackrock Foundry",
+					}, -- [1]
+				},
+			},
+			[73384] = {
+				["classes"] = 400,
+				["sourceType"] = 1,
+				["faction"] = 3,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Xhul'horac",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Looking For Raid", -- [1]
+						},
+						["instance"] = "Hellfire Citadel",
+					}, -- [1]
+				},
 			},
 		},
 		[33896] = {
@@ -20683,10 +20695,26 @@ MogIt_ClothDB = {
 				["faction"] = 3,
 			},
 		},
-		[14622] = {
-			[32360] = {
+		[32810] = {
+			[83096] = {
 				["classes"] = 400,
-				["sourceType"] = 3,
+				["sourceType"] = 1,
+				["faction"] = 3,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Odyn",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Trial of Valor",
+					}, -- [1]
+				},
+			},
+			[83990] = {
+				["classes"] = 400,
 				["faction"] = 3,
 			},
 		},
@@ -20723,33 +20751,25 @@ MogIt_ClothDB = {
 				["faction"] = 3,
 			},
 		},
-		[18425] = {
-			[47731] = {
-				["classes"] = 400,
-				["sourceType"] = 3,
-				["faction"] = 3,
-			},
-			[43398] = {
+		[19447] = {
+			[46603] = {
 				["classes"] = 400,
 				["sourceType"] = 1,
 				["faction"] = 3,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Sha of Anger",
+						["encounter"] = "Elegon",
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
 						["difficulties"] = {
+							"10 Player", -- [1]
+							"25 Player", -- [2]
 						},
-						["instance"] = "Pandaria",
+						["instance"] = "Mogu'shan Vaults",
 					}, -- [1]
 				},
-			},
-			[52114] = {
-				["classes"] = 400,
-				["sourceType"] = 6,
-				["faction"] = 3,
 			},
 		},
 		[1725] = {
@@ -21343,16 +21363,11 @@ MogIt_ClothDB = {
 				},
 			},
 		},
-		[10793] = {
-			[20228] = {
-				["classes"] = 400,
+		[24109] = {
+			[60157] = {
+				["classes"] = 384,
 				["sourceType"] = 3,
-				["faction"] = 3,
-			},
-			[24002] = {
-				["classes"] = 400,
-				["sourceType"] = 3,
-				["faction"] = 3,
+				["faction"] = 2,
 			},
 		},
 		[19480] = {
@@ -21395,24 +21410,16 @@ MogIt_ClothDB = {
 				["faction"] = 3,
 			},
 		},
-		[23600] = {
-			[62869] = {
-				["classes"] = 400,
-				["sourceType"] = 1,
-				["faction"] = 3,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "The Iron Maidens",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Mythic", -- [1]
-						},
-						["instance"] = "Blackrock Foundry",
-					}, -- [1]
-				},
+		[30754] = {
+			[79671] = {
+				["classes"] = 128,
+				["sourceType"] = 4,
+				["faction"] = 2,
+			},
+			[83420] = {
+				["classes"] = 128,
+				["sourceType"] = 4,
+				["faction"] = 2,
 			},
 		},
 		[21564] = {
@@ -21580,30 +21587,23 @@ MogIt_ClothDB = {
 				["faction"] = 3,
 			},
 		},
-		[14717] = {
-			[32627] = {
+		[33190] = {
+			[86762] = {
 				["classes"] = 400,
 				["sourceType"] = 1,
 				["faction"] = 3,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Maloriak",
+						["encounter"] = "Maiden of Vigilance",
 						["tiers"] = {
-							"Cataclysm", -- [1]
+							"Legion", -- [1]
 						},
 						["difficulties"] = {
-							"10 Player (Heroic)", -- [1]
-							"25 Player (Heroic)", -- [2]
 						},
-						["instance"] = "Blackwing Descent",
+						["instance"] = "Tomb of Sargeras",
 					}, -- [1]
 				},
-			},
-			[76266] = {
-				["classes"] = 256,
-				["sourceType"] = 4,
-				["faction"] = 2,
 			},
 		},
 		[21133] = {
@@ -21850,9 +21850,9 @@ MogIt_ClothDB = {
 			},
 		},
 		[9361] = {
-			[16720] = {
+			[16678] = {
 				["classes"] = 400,
-				["sourceType"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[16752] = {
@@ -21870,9 +21870,9 @@ MogIt_ClothDB = {
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
-			[19100] = {
+			[16720] = {
 				["classes"] = 400,
-				["sourceType"] = 2,
+				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[18105] = {
@@ -21885,7 +21885,7 @@ MogIt_ClothDB = {
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
-			[16678] = {
+			[19100] = {
 				["classes"] = 400,
 				["sourceType"] = 2,
 				["faction"] = 3,
@@ -21966,22 +21966,22 @@ MogIt_ClothDB = {
 			},
 		},
 		[2665] = {
+			[3129] = {
+				["classes"] = 400,
+				["sourceType"] = 4,
+				["faction"] = 3,
+			},
 			[7580] = {
 				["classes"] = 16,
 				["sourceType"] = 3,
 				["faction"] = 1,
-			},
-			[8156] = {
-				["classes"] = 400,
-				["sourceType"] = 4,
-				["faction"] = 3,
 			},
 			[9622] = {
 				["classes"] = 400,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
-			[3129] = {
+			[8156] = {
 				["classes"] = 400,
 				["sourceType"] = 4,
 				["faction"] = 3,
@@ -22983,10 +22983,10 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Vault of Archavon",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Vault of Archavon",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -24143,9 +24143,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "Tomb of Sargeras",
 						["difficulties"] = {
 						},
+						["instance"] = "Tomb of Sargeras",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -24171,9 +24171,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "The Nighthold",
 						["difficulties"] = {
 						},
+						["instance"] = "The Nighthold",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -24479,10 +24479,10 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Vault of Archavon",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Vault of Archavon",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -24605,48 +24605,21 @@ MogIt_ClothDB = {
 				["faction"] = 3,
 			},
 		},
-		[15762] = {
-			[36555] = {
+		[3182] = {
+			[39206] = {
 				["classes"] = 16,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Occu'thar",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-						},
-						["instance"] = "Baradin Hold",
-						["difficulties"] = {
-							"10 Player", -- [1]
-							"25 Player", -- [2]
-							"10 Player (Heroic)", -- [3]
-							"25 Player (Heroic)", -- [4]
-						},
-					}, -- [1]
-				},
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
-			[36560] = {
+			[39375] = {
 				["classes"] = 16,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Occu'thar",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-						},
-						["instance"] = "Baradin Hold",
-						["difficulties"] = {
-							"10 Player", -- [1]
-							"25 Player", -- [2]
-							"10 Player (Heroic)", -- [3]
-							"25 Player (Heroic)", -- [4]
-						},
-					}, -- [1]
-				},
+				["sourceType"] = 3,
 				["faction"] = 1,
+			},
+			[3844] = {
+				["classes"] = 400,
+				["sourceType"] = 4,
+				["faction"] = 3,
 			},
 		},
 		[7849] = {
@@ -24803,18 +24776,8 @@ MogIt_ClothDB = {
 				["faction"] = 3,
 			},
 		},
-		[3182] = {
-			[39206] = {
-				["classes"] = 16,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[39375] = {
-				["classes"] = 16,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[3844] = {
+		[2160] = {
+			[2492] = {
 				["classes"] = 400,
 				["sourceType"] = 4,
 				["faction"] = 3,
@@ -24832,42 +24795,23 @@ MogIt_ClothDB = {
 				["faction"] = 2,
 			},
 		},
-		[11429] = {
-			[21855] = {
-				["classes"] = 16,
+		[7000] = {
+			[12120] = {
+				["classes"] = 400,
 				["sourceType"] = 1,
+				["faction"] = 3,
 				["drops"] = {
 					{
-						["instanceType"] = 2,
-						["encounter"] = "Emalon the Storm Watcher",
+						["instanceType"] = 1,
+						["encounter"] = "Talon King Ikiss",
 						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
+							"Burning Crusade", -- [1]
 						},
-						["instance"] = "Vault of Archavon",
 						["difficulties"] = {
-							"10 Player", -- [1]
 						},
+						["instance"] = "Sethekk Halls",
 					}, -- [1]
 				},
-				["faction"] = 1,
-			},
-			[21861] = {
-				["classes"] = 16,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Emalon the Storm Watcher",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["instance"] = "Vault of Archavon",
-						["difficulties"] = {
-							"10 Player", -- [1]
-						},
-					}, -- [1]
-				},
-				["faction"] = 1,
 			},
 		},
 		[11445] = {
@@ -24901,9 +24845,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "The Nighthold",
 						["difficulties"] = {
 						},
+						["instance"] = "The Nighthold",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -25032,11 +24976,48 @@ MogIt_ClothDB = {
 				},
 			},
 		},
-		[2160] = {
-			[2492] = {
-				["classes"] = 400,
-				["sourceType"] = 4,
-				["faction"] = 3,
+		[15762] = {
+			[36555] = {
+				["classes"] = 16,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Occu'thar",
+						["tiers"] = {
+							"Cataclysm", -- [1]
+						},
+						["instance"] = "Baradin Hold",
+						["difficulties"] = {
+							"10 Player", -- [1]
+							"25 Player", -- [2]
+							"10 Player (Heroic)", -- [3]
+							"25 Player (Heroic)", -- [4]
+						},
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[36560] = {
+				["classes"] = 16,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Occu'thar",
+						["tiers"] = {
+							"Cataclysm", -- [1]
+						},
+						["instance"] = "Baradin Hold",
+						["difficulties"] = {
+							"10 Player", -- [1]
+							"25 Player", -- [2]
+							"10 Player (Heroic)", -- [3]
+							"25 Player (Heroic)", -- [4]
+						},
+					}, -- [1]
+				},
+				["faction"] = 1,
 			},
 		},
 		[17213] = {
@@ -25081,23 +25062,24 @@ MogIt_ClothDB = {
 				["faction"] = 3,
 			},
 		},
-		[7000] = {
-			[12120] = {
-				["classes"] = 400,
+		[25892] = {
+			[69617] = {
+				["classes"] = 16,
 				["sourceType"] = 1,
-				["faction"] = 3,
 				["drops"] = {
 					{
-						["instanceType"] = 1,
-						["encounter"] = "Talon King Ikiss",
+						["instanceType"] = 2,
+						["encounter"] = "Gorefiend",
 						["tiers"] = {
-							"Burning Crusade", -- [1]
+							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
+							"Heroic", -- [1]
 						},
-						["instance"] = "Sethekk Halls",
 					}, -- [1]
 				},
+				["faction"] = 1,
 			},
 		},
 		[10153] = {
@@ -26131,42 +26113,16 @@ MogIt_ClothDB = {
 				["faction"] = 3,
 			},
 		},
-		[11778] = {
-			[22618] = {
-				["classes"] = 16,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Anub'arak",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["instance"] = "Trial of the Crusader",
-						["difficulties"] = {
-							"25 Player", -- [1]
-						},
-					}, -- [1]
-				},
-				["faction"] = 1,
+		[2697] = {
+			[3165] = {
+				["classes"] = 400,
+				["sourceType"] = 4,
+				["faction"] = 3,
 			},
-			[22619] = {
-				["classes"] = 16,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Anub'arak",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["instance"] = "Trial of the Crusader",
-						["difficulties"] = {
-							"25 Player (Heroic)", -- [1]
-						},
-					}, -- [1]
-				},
-				["faction"] = 1,
+			[5151] = {
+				["classes"] = 400,
+				["sourceType"] = 6,
+				["faction"] = 3,
 			},
 		},
 		[20977] = {
@@ -26211,6 +26167,18 @@ MogIt_ClothDB = {
 				},
 			},
 		},
+		[13842] = {
+			[32225] = {
+				["classes"] = 400,
+				["sourceType"] = 2,
+				["faction"] = 3,
+			},
+			[32228] = {
+				["classes"] = 400,
+				["sourceType"] = 2,
+				["faction"] = 3,
+			},
+		},
 		[10776] = {
 			[20211] = {
 				["classes"] = 16,
@@ -26223,13 +26191,6 @@ MogIt_ClothDB = {
 				["faction"] = 1,
 			},
 		},
-		[7951] = {
-			[13879] = {
-				["classes"] = 400,
-				["sourceType"] = 4,
-				["faction"] = 3,
-			},
-		},
 		[5909] = {
 			[39621] = {
 				["classes"] = 400,
@@ -26237,26 +26198,16 @@ MogIt_ClothDB = {
 				["faction"] = 3,
 			},
 		},
-		[18007] = {
-			[43031] = {
-				["classes"] = 16,
+		[4901] = {
+			[39633] = {
+				["classes"] = 400,
 				["sourceType"] = 3,
-				["faction"] = 1,
+				["faction"] = 3,
 			},
-			[48790] = {
-				["classes"] = 16,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-			[43026] = {
-				["classes"] = 16,
+			[69097] = {
+				["classes"] = 400,
 				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[48795] = {
-				["classes"] = 16,
-				["sourceType"] = 6,
-				["faction"] = 1,
+				["faction"] = 3,
 			},
 		},
 		[6424] = {
@@ -26278,15 +26229,10 @@ MogIt_ClothDB = {
 				["faction"] = 1,
 			},
 		},
-		[4901] = {
-			[39633] = {
+		[6434] = {
+			[9691] = {
 				["classes"] = 400,
-				["sourceType"] = 3,
-				["faction"] = 3,
-			},
-			[69097] = {
-				["classes"] = 400,
-				["sourceType"] = 3,
+				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
@@ -26338,11 +26284,26 @@ MogIt_ClothDB = {
 				["faction"] = 1,
 			},
 		},
-		[6434] = {
-			[9691] = {
-				["classes"] = 400,
-				["sourceType"] = 4,
-				["faction"] = 3,
+		[18007] = {
+			[43031] = {
+				["classes"] = 16,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[48790] = {
+				["classes"] = 16,
+				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+			[43026] = {
+				["classes"] = 16,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[48795] = {
+				["classes"] = 16,
+				["sourceType"] = 6,
+				["faction"] = 1,
 			},
 		},
 		[20059] = {
@@ -26643,7 +26604,30 @@ MogIt_ClothDB = {
 			},
 		},
 		[20050] = {
+			[50272] = {
+				["classes"] = 400,
+				["sourceType"] = 1,
+				["faction"] = 3,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Primordius",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+							"Looking For Raid", -- [1]
+						},
+						["instance"] = "Throne of Thunder",
+					}, -- [1]
+				},
+			},
 			[50413] = {
+				["classes"] = 16,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[50418] = {
 				["classes"] = 16,
 				["sourceType"] = 3,
 				["faction"] = 1,
@@ -26656,29 +26640,6 @@ MogIt_ClothDB = {
 					{
 						["instanceType"] = 2,
 						["encounter"] = "Iron Qon",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-							"Looking For Raid", -- [1]
-						},
-						["instance"] = "Throne of Thunder",
-					}, -- [1]
-				},
-			},
-			[50418] = {
-				["classes"] = 16,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[50272] = {
-				["classes"] = 400,
-				["sourceType"] = 1,
-				["faction"] = 3,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Primordius",
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
@@ -26706,9 +26667,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Baradin Hold",
 						["difficulties"] = {
 						},
+						["instance"] = "Baradin Hold",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -27032,9 +26993,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "The Nighthold",
 						["difficulties"] = {
 						},
+						["instance"] = "The Nighthold",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -27201,8 +27162,8 @@ MogIt_ClothDB = {
 				["faction"] = 3,
 			},
 		},
-		[8095] = {
-			[14121] = {
+		[14641] = {
+			[32384] = {
 				["classes"] = 256,
 				["sourceType"] = 3,
 				["faction"] = 2,
@@ -27831,11 +27792,40 @@ MogIt_ClothDB = {
 				["faction"] = 3,
 			},
 		},
-		[14641] = {
-			[32384] = {
-				["classes"] = 256,
-				["sourceType"] = 3,
-				["faction"] = 2,
+		[30272] = {
+			[81813] = {
+				["classes"] = 400,
+				["sourceType"] = 1,
+				["faction"] = 3,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Spellblade Aluriel",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "The Nighthold",
+					}, -- [1]
+				},
+			},
+			[79791] = {
+				["classes"] = 16,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Gul'dan",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["instance"] = "The Nighthold",
+						["difficulties"] = {
+						},
+					}, -- [1]
+				},
+				["faction"] = 1,
 			},
 		},
 		[5896] = {
@@ -27917,11 +27907,16 @@ MogIt_ClothDB = {
 				["faction"] = 2,
 			},
 		},
-		[16659] = {
-			[40057] = {
-				["classes"] = 128,
+		[15755] = {
+			[36755] = {
+				["classes"] = 16,
 				["sourceType"] = 3,
-				["faction"] = 2,
+				["faction"] = 1,
+			},
+			[36760] = {
+				["classes"] = 16,
+				["sourceType"] = 3,
+				["faction"] = 1,
 			},
 		},
 		[17697] = {
@@ -28029,40 +28024,11 @@ MogIt_ClothDB = {
 				["faction"] = 2,
 			},
 		},
-		[30272] = {
-			[81813] = {
-				["classes"] = 400,
-				["sourceType"] = 1,
-				["faction"] = 3,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Spellblade Aluriel",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "The Nighthold",
-					}, -- [1]
-				},
-			},
-			[79791] = {
-				["classes"] = 16,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Gul'dan",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["instance"] = "The Nighthold",
-						["difficulties"] = {
-						},
-					}, -- [1]
-				},
-				["faction"] = 1,
+		[8095] = {
+			[14121] = {
+				["classes"] = 256,
+				["sourceType"] = 3,
+				["faction"] = 2,
 			},
 		},
 		[7417] = {
@@ -28072,16 +28038,11 @@ MogIt_ClothDB = {
 				["faction"] = 2,
 			},
 		},
-		[15755] = {
-			[36755] = {
-				["classes"] = 16,
+		[9112] = {
+			[16256] = {
+				["classes"] = 256,
 				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[36760] = {
-				["classes"] = 16,
-				["sourceType"] = 3,
-				["faction"] = 1,
+				["faction"] = 2,
 			},
 		},
 		[3799] = {
@@ -28142,10 +28103,10 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -28179,9 +28140,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Molten Core",
 						["difficulties"] = {
 						},
+						["instance"] = "Molten Core",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -28260,9 +28221,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "Tomb of Sargeras",
 						["difficulties"] = {
 						},
+						["instance"] = "Tomb of Sargeras",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -28321,39 +28282,83 @@ MogIt_ClothDB = {
 				},
 			},
 		},
-		[9260] = {
-			[16559] = {
-				["classes"] = 400,
+		[11815] = {
+			[22751] = {
+				["classes"] = 384,
 				["sourceType"] = 1,
-				["faction"] = 3,
+				["faction"] = 2,
 				["drops"] = {
 					{
-						["instanceType"] = 1,
-						["encounter"] = "King Dred",
+						["instanceType"] = 2,
+						["encounter"] = "Lord Jaraxxus",
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
 						["difficulties"] = {
-							"Normal", -- [1]
+							"25 Player (Heroic)", -- [1]
 						},
-						["instance"] = "Drak'Tharon Keep",
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 			},
-			[17667] = {
-				["classes"] = 400,
+			[46889] = {
+				["classes"] = 384,
 				["sourceType"] = 2,
-				["faction"] = 3,
+				["faction"] = 2,
 			},
-			[20076] = {
-				["classes"] = 400,
-				["sourceType"] = 6,
-				["faction"] = 3,
+			[23054] = {
+				["classes"] = 384,
+				["sourceType"] = 1,
+				["faction"] = 2,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Lord Jaraxxus",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player", -- [1]
+						},
+						["instance"] = "Trial of the Crusader",
+					}, -- [1]
+				},
 			},
-			[20072] = {
-				["classes"] = 400,
-				["sourceType"] = 6,
-				["faction"] = 3,
+			[22684] = {
+				["classes"] = 384,
+				["sourceType"] = 1,
+				["faction"] = 2,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Lord Jaraxxus",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"25 Player", -- [1]
+						},
+						["instance"] = "Trial of the Crusader",
+					}, -- [1]
+				},
+			},
+			[23168] = {
+				["classes"] = 384,
+				["sourceType"] = 1,
+				["faction"] = 2,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Lord Jaraxxus",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player (Heroic)", -- [1]
+						},
+						["instance"] = "Trial of the Crusader",
+					}, -- [1]
+				},
 			},
 		},
 		[1395] = {
@@ -28505,18 +28510,25 @@ MogIt_ClothDB = {
 				["faction"] = 3,
 			},
 		},
-		[2328] = {
-			[5122] = {
+		[584] = {
+			[496] = {
 				["classes"] = 400,
-				["sourceType"] = 6,
+				["sourceType"] = 1,
 				["faction"] = 3,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Lord Overheat",
+						["tiers"] = {
+							"Classic", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "The Stockade",
+					}, -- [1]
+				},
 			},
-			[5183] = {
-				["classes"] = 400,
-				["sourceType"] = 4,
-				["faction"] = 3,
-			},
-			[2699] = {
+			[5147] = {
 				["classes"] = 400,
 				["sourceType"] = 6,
 				["faction"] = 3,
@@ -28585,9 +28597,9 @@ MogIt_ClothDB = {
 				["faction"] = 3,
 			},
 		},
-		[9112] = {
-			[16256] = {
-				["classes"] = 256,
+		[16659] = {
+			[40057] = {
+				["classes"] = 128,
 				["sourceType"] = 3,
 				["faction"] = 2,
 			},
@@ -28800,11 +28812,11 @@ MogIt_ClothDB = {
 				["faction"] = 3,
 			},
 		},
-		[32518] = {
-			[81038] = {
-				["classes"] = 256,
-				["sourceType"] = 3,
-				["faction"] = 2,
+		[5846] = {
+			[8637] = {
+				["classes"] = 400,
+				["sourceType"] = 6,
+				["faction"] = 3,
 			},
 		},
 		[22903] = {
@@ -28814,90 +28826,61 @@ MogIt_ClothDB = {
 				["faction"] = 3,
 			},
 		},
-		[11815] = {
-			[22751] = {
-				["classes"] = 384,
+		[32824] = {
+			[83106] = {
+				["classes"] = 400,
 				["sourceType"] = 1,
-				["faction"] = 2,
+				["faction"] = 3,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Lord Jaraxxus",
+						["encounter"] = "Guarm",
 						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
+							"Legion", -- [1]
 						},
 						["difficulties"] = {
-							"25 Player (Heroic)", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
-					}, -- [1]
-				},
-			},
-			[46889] = {
-				["classes"] = 384,
-				["sourceType"] = 2,
-				["faction"] = 2,
-			},
-			[23054] = {
-				["classes"] = 384,
-				["sourceType"] = 1,
-				["faction"] = 2,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Lord Jaraxxus",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player", -- [1]
-						},
-						["instance"] = "Trial of the Crusader",
-					}, -- [1]
-				},
-			},
-			[22684] = {
-				["classes"] = 384,
-				["sourceType"] = 1,
-				["faction"] = 2,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Lord Jaraxxus",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"25 Player", -- [1]
-						},
-						["instance"] = "Trial of the Crusader",
-					}, -- [1]
-				},
-			},
-			[23168] = {
-				["classes"] = 384,
-				["sourceType"] = 1,
-				["faction"] = 2,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Lord Jaraxxus",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player (Heroic)", -- [1]
-						},
-						["instance"] = "Trial of the Crusader",
+						["instance"] = "Trial of Valor",
 					}, -- [1]
 				},
 			},
 		},
-		[1164] = {
-			[1190] = {
+		[26161] = {
+			[69608] = {
 				["classes"] = 400,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
 				["faction"] = 3,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Hellfire High Council",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Heroic", -- [1]
+						},
+						["instance"] = "Hellfire Citadel",
+					}, -- [1]
+				},
+			},
+			[69620] = {
+				["classes"] = 256,
+				["sourceType"] = 1,
+				["faction"] = 2,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Gorefiend",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Heroic", -- [1]
+						},
+						["instance"] = "Hellfire Citadel",
+					}, -- [1]
+				},
 			},
 		},
 		[5620] = {
@@ -28989,35 +28972,59 @@ MogIt_ClothDB = {
 				["faction"] = 2,
 			},
 		},
-		[584] = {
-			[496] = {
+		[30281] = {
+			[81814] = {
 				["classes"] = 400,
 				["sourceType"] = 1,
 				["faction"] = 3,
 				["drops"] = {
 					{
-						["instanceType"] = 1,
-						["encounter"] = "Lord Overheat",
+						["instanceType"] = 2,
+						["encounter"] = "Spellblade Aluriel",
 						["tiers"] = {
-							"Classic", -- [1]
+							"Legion", -- [1]
 						},
 						["difficulties"] = {
 						},
-						["instance"] = "The Stockade",
+						["instance"] = "The Nighthold",
 					}, -- [1]
 				},
 			},
-			[5147] = {
-				["classes"] = 400,
-				["sourceType"] = 6,
-				["faction"] = 3,
+			[79792] = {
+				["classes"] = 16,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Gul'dan",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["instance"] = "The Nighthold",
+						["difficulties"] = {
+						},
+					}, -- [1]
+				},
+				["faction"] = 1,
 			},
 		},
-		[2843] = {
-			[5112] = {
+		[7722] = {
+			[13427] = {
 				["classes"] = 400,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
 				["faction"] = 3,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "High Astromancer Solarian",
+						["tiers"] = {
+							"Burning Crusade", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "The Eye",
+					}, -- [1]
+				},
 			},
 		},
 		[22480] = {
@@ -29454,39 +29461,55 @@ MogIt_ClothDB = {
 				["faction"] = 2,
 			},
 		},
-		[5846] = {
-			[8637] = {
-				["classes"] = 400,
-				["sourceType"] = 6,
-				["faction"] = 3,
+		[12698] = {
+			[25336] = {
+				["classes"] = 16,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[25341] = {
+				["classes"] = 16,
+				["sourceType"] = 3,
+				["faction"] = 1,
 			},
 		},
-		[32824] = {
-			[83106] = {
+		[9260] = {
+			[16559] = {
 				["classes"] = 400,
 				["sourceType"] = 1,
 				["faction"] = 3,
 				["drops"] = {
 					{
-						["instanceType"] = 2,
-						["encounter"] = "Guarm",
+						["instanceType"] = 1,
+						["encounter"] = "King Dred",
 						["tiers"] = {
-							"Legion", -- [1]
+							"Wrath of the Lich King", -- [1]
 						},
 						["difficulties"] = {
+							"Normal", -- [1]
 						},
-						["instance"] = "Trial of Valor",
+						["instance"] = "Drak'Tharon Keep",
 					}, -- [1]
 				},
 			},
-		},
-		[13863] = {
-			[32287] = {
+			[17667] = {
 				["classes"] = 400,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
-			[77838] = {
+			[20076] = {
+				["classes"] = 400,
+				["sourceType"] = 6,
+				["faction"] = 3,
+			},
+			[20072] = {
+				["classes"] = 400,
+				["sourceType"] = 6,
+				["faction"] = 3,
+			},
+		},
+		[1164] = {
+			[1190] = {
 				["classes"] = 400,
 				["sourceType"] = 4,
 				["faction"] = 3,
@@ -29566,73 +29589,21 @@ MogIt_ClothDB = {
 				["faction"] = 1,
 			},
 		},
-		[30281] = {
-			[81814] = {
+		[2328] = {
+			[5122] = {
 				["classes"] = 400,
-				["sourceType"] = 1,
+				["sourceType"] = 6,
 				["faction"] = 3,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Spellblade Aluriel",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "The Nighthold",
-					}, -- [1]
-				},
 			},
-			[79792] = {
-				["classes"] = 16,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Gul'dan",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["instance"] = "The Nighthold",
-						["difficulties"] = {
-						},
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-		},
-		[7722] = {
-			[13427] = {
+			[5183] = {
 				["classes"] = 400,
-				["sourceType"] = 1,
+				["sourceType"] = 4,
 				["faction"] = 3,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "High Astromancer Solarian",
-						["tiers"] = {
-							"Burning Crusade", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "The Eye",
-					}, -- [1]
-				},
 			},
-		},
-		[8777] = {
-			[15634] = {
-				["classes"] = 128,
-				["sourceType"] = 3,
-				["faction"] = 2,
-			},
-		},
-		[21107] = {
-			[55521] = {
-				["classes"] = 128,
-				["sourceType"] = 3,
-				["faction"] = 2,
+			[2699] = {
+				["classes"] = 400,
+				["sourceType"] = 6,
+				["faction"] = 3,
 			},
 		},
 		[9807] = {
@@ -29699,6 +29670,27 @@ MogIt_ClothDB = {
 						["instance"] = "Utgarde Pinnacle",
 					}, -- [1]
 				},
+			},
+		},
+		[8777] = {
+			[15634] = {
+				["classes"] = 128,
+				["sourceType"] = 3,
+				["faction"] = 2,
+			},
+		},
+		[21107] = {
+			[55521] = {
+				["classes"] = 128,
+				["sourceType"] = 3,
+				["faction"] = 2,
+			},
+		},
+		[2843] = {
+			[5112] = {
+				["classes"] = 400,
+				["sourceType"] = 4,
+				["faction"] = 3,
 			},
 		},
 		[13412] = {
@@ -29775,13 +29767,13 @@ MogIt_ClothDB = {
 			},
 		},
 		[28301] = {
-			[83653] = {
-				["classes"] = 256,
+			[83605] = {
+				["classes"] = 128,
 				["sourceType"] = 4,
 				["faction"] = 2,
 			},
-			[79303] = {
-				["classes"] = 128,
+			[83653] = {
+				["classes"] = 256,
 				["sourceType"] = 4,
 				["faction"] = 2,
 			},
@@ -29790,7 +29782,7 @@ MogIt_ClothDB = {
 				["sourceType"] = 4,
 				["faction"] = 2,
 			},
-			[83605] = {
+			[79303] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
 				["faction"] = 2,
@@ -30063,10 +30055,10 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Vault of Archavon",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Vault of Archavon",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -30180,11 +30172,11 @@ MogIt_ClothDB = {
 				["faction"] = 3,
 			},
 		},
-		[22912] = {
-			[63696] = {
-				["classes"] = 400,
-				["sourceType"] = 6,
-				["faction"] = 3,
+		[15560] = {
+			[35863] = {
+				["classes"] = 256,
+				["sourceType"] = 3,
+				["faction"] = 2,
 			},
 		},
 		[9404] = {
@@ -30209,11 +30201,24 @@ MogIt_ClothDB = {
 				["faction"] = 3,
 			},
 		},
-		[15560] = {
-			[35863] = {
-				["classes"] = 256,
-				["sourceType"] = 3,
-				["faction"] = 2,
+		[11472] = {
+			[21924] = {
+				["classes"] = 400,
+				["sourceType"] = 1,
+				["faction"] = 3,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Thorim",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"25 Player", -- [1]
+						},
+						["instance"] = "Ulduar",
+					}, -- [1]
+				},
 			},
 		},
 		[24924] = {
@@ -30283,24 +30288,11 @@ MogIt_ClothDB = {
 				["faction"] = 3,
 			},
 		},
-		[11472] = {
-			[21924] = {
+		[22912] = {
+			[63696] = {
 				["classes"] = 400,
-				["sourceType"] = 1,
+				["sourceType"] = 6,
 				["faction"] = 3,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Thorim",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"25 Player", -- [1]
-						},
-						["instance"] = "Ulduar",
-					}, -- [1]
-				},
 			},
 		},
 		[17810] = {
@@ -30374,10 +30366,10 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -30394,9 +30386,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Molten Core",
 						["difficulties"] = {
 						},
+						["instance"] = "Molten Core",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -30472,10 +30464,41 @@ MogIt_ClothDB = {
 				},
 			},
 		},
-		[20932] = {
-			[52358] = {
+		[25531] = {
+			[69612] = {
+				["classes"] = 400,
+				["sourceType"] = 1,
+				["faction"] = 3,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Mannoroth",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Mythic", -- [1]
+						},
+						["instance"] = "Hellfire Citadel",
+					}, -- [1]
+				},
+			},
+			[69615] = {
 				["classes"] = 128,
-				["sourceType"] = 3,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Gorefiend",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Mythic", -- [1]
+						},
+						["instance"] = "Hellfire Citadel",
+					}, -- [1]
+				},
 				["faction"] = 2,
 			},
 		},
@@ -30515,11 +30538,11 @@ MogIt_ClothDB = {
 				},
 			},
 		},
-		[8949] = {
-			[15930] = {
-				["classes"] = 400,
+		[20932] = {
+			[52358] = {
+				["classes"] = 128,
 				["sourceType"] = 3,
-				["faction"] = 3,
+				["faction"] = 2,
 			},
 		},
 		[18920] = {
@@ -30786,9 +30809,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "The Nighthold",
 						["difficulties"] = {
 						},
+						["instance"] = "The Nighthold",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -31182,42 +31205,11 @@ MogIt_ClothDB = {
 				["faction"] = 2,
 			},
 		},
-		[25531] = {
-			[69612] = {
+		[8949] = {
+			[15930] = {
 				["classes"] = 400,
-				["sourceType"] = 1,
+				["sourceType"] = 3,
 				["faction"] = 3,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Mannoroth",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Mythic", -- [1]
-						},
-						["instance"] = "Hellfire Citadel",
-					}, -- [1]
-				},
-			},
-			[69615] = {
-				["classes"] = 128,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Gorefiend",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["instance"] = "Hellfire Citadel",
-						["difficulties"] = {
-							"Mythic", -- [1]
-						},
-					}, -- [1]
-				},
-				["faction"] = 2,
 			},
 		},
 		[6776] = {
@@ -31324,13 +31316,13 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Baradin Hold",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 							"10 Player (Heroic)", -- [3]
 							"25 Player (Heroic)", -- [4]
 						},
+						["instance"] = "Baradin Hold",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -31583,16 +31575,11 @@ MogIt_ClothDB = {
 				["faction"] = 2,
 			},
 		},
-		[12698] = {
-			[25336] = {
-				["classes"] = 16,
+		[32518] = {
+			[81038] = {
+				["classes"] = 256,
 				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[25341] = {
-				["classes"] = 16,
-				["sourceType"] = 3,
-				["faction"] = 1,
+				["faction"] = 2,
 			},
 		},
 		[25883] = {
@@ -31710,42 +31697,16 @@ MogIt_ClothDB = {
 				["faction"] = 3,
 			},
 		},
-		[26161] = {
-			[69608] = {
+		[13863] = {
+			[32287] = {
 				["classes"] = 400,
-				["sourceType"] = 1,
+				["sourceType"] = 2,
 				["faction"] = 3,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Hellfire High Council",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "Hellfire Citadel",
-					}, -- [1]
-				},
 			},
-			[69620] = {
-				["classes"] = 256,
-				["sourceType"] = 1,
-				["faction"] = 2,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Gorefiend",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "Hellfire Citadel",
-					}, -- [1]
-				},
+			[77838] = {
+				["classes"] = 400,
+				["sourceType"] = 4,
+				["faction"] = 3,
 			},
 		},
 		[7910] = {
@@ -31784,10 +31745,10 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -31972,6 +31933,11 @@ MogIt_ClothDB = {
 			},
 		},
 		[1475] = {
+			[8377] = {
+				["classes"] = 128,
+				["sourceType"] = 2,
+				["faction"] = 2,
+			},
 			[5040] = {
 				["classes"] = 400,
 				["sourceType"] = 6,
@@ -31981,11 +31947,6 @@ MogIt_ClothDB = {
 				["classes"] = 400,
 				["sourceType"] = 4,
 				["faction"] = 3,
-			},
-			[8377] = {
-				["classes"] = 128,
-				["sourceType"] = 2,
-				["faction"] = 2,
 			},
 		},
 		[33557] = {
@@ -32016,9 +31977,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "Tomb of Sargeras",
 						["difficulties"] = {
 						},
+						["instance"] = "Tomb of Sargeras",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -32059,9 +32020,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "Tomb of Sargeras",
 						["difficulties"] = {
 						},
+						["instance"] = "Tomb of Sargeras",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -32194,10 +32155,10 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
 						["difficulties"] = {
 							"Mythic", -- [1]
 						},
+						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -32383,10 +32344,10 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Vault of Archavon",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Vault of Archavon",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -32406,10 +32367,10 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Vault of Archavon",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Vault of Archavon",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -32598,10 +32559,10 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Vault of Archavon",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Vault of Archavon",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -32631,15 +32592,10 @@ MogIt_ClothDB = {
 				["faction"] = 3,
 			},
 		},
-		[13842] = {
-			[32225] = {
+		[7951] = {
+			[13879] = {
 				["classes"] = 400,
-				["sourceType"] = 2,
-				["faction"] = 3,
-			},
-			[32228] = {
-				["classes"] = 400,
-				["sourceType"] = 2,
+				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
@@ -32690,18 +32646,6 @@ MogIt_ClothDB = {
 				["faction"] = 3,
 			},
 		},
-		[2697] = {
-			[3165] = {
-				["classes"] = 400,
-				["sourceType"] = 4,
-				["faction"] = 3,
-			},
-			[5151] = {
-				["classes"] = 400,
-				["sourceType"] = 6,
-				["faction"] = 3,
-			},
-		},
 		[804] = {
 			[12278] = {
 				["classes"] = 400,
@@ -32724,6 +32668,44 @@ MogIt_ClothDB = {
 						["instance"] = "Ragefire Chasm",
 					}, -- [1]
 				},
+			},
+		},
+		[11778] = {
+			[22618] = {
+				["classes"] = 16,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Anub'arak",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["instance"] = "Trial of the Crusader",
+						["difficulties"] = {
+							"25 Player", -- [1]
+						},
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[22619] = {
+				["classes"] = 16,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Anub'arak",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["instance"] = "Trial of the Crusader",
+						["difficulties"] = {
+							"25 Player (Heroic)", -- [1]
+						},
+					}, -- [1]
+				},
+				["faction"] = 1,
 			},
 		},
 		[1346] = {
@@ -32800,29 +32782,47 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 				["faction"] = 2,
 			},
 		},
-		[25892] = {
-			[69617] = {
+		[11429] = {
+			[21855] = {
 				["classes"] = 16,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Gorefiend",
+						["encounter"] = "Emalon the Storm Watcher",
 						["tiers"] = {
-							"Warlords of Draenor", -- [1]
+							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
+						["instance"] = "Vault of Archavon",
 						["difficulties"] = {
-							"Heroic", -- [1]
+							"10 Player", -- [1]
+						},
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[21861] = {
+				["classes"] = 16,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Emalon the Storm Watcher",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["instance"] = "Vault of Archavon",
+						["difficulties"] = {
+							"10 Player", -- [1]
 						},
 					}, -- [1]
 				},
@@ -33250,9 +33250,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Pandaria",
 						["difficulties"] = {
 						},
+						["instance"] = "Pandaria",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -34161,9 +34161,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "The Nighthold",
 						["difficulties"] = {
 						},
+						["instance"] = "The Nighthold",
 					}, -- [1]
 					{
 						["instanceType"] = 2,
@@ -34171,10 +34171,10 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "The Nighthold",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
+						["instance"] = "The Nighthold",
 					}, -- [2]
 				},
 				["faction"] = 2,
@@ -35985,10 +35985,10 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -36469,6 +36469,11 @@ MogIt_ClothDB = {
 				["sourceType"] = 3,
 				["faction"] = 2,
 			},
+			[52857] = {
+				["classes"] = 128,
+				["sourceType"] = 3,
+				["faction"] = 2,
+			},
 			[61947] = {
 				["classes"] = 400,
 				["sourceType"] = 1,
@@ -36502,11 +36507,6 @@ MogIt_ClothDB = {
 						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
-			},
-			[52857] = {
-				["classes"] = 128,
-				["sourceType"] = 3,
-				["faction"] = 2,
 			},
 		},
 		[12574] = {
@@ -36602,10 +36602,10 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -38086,10 +38086,10 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -38269,9 +38269,9 @@ MogIt_ClothDB = {
 			},
 		},
 		[3090] = {
-			[9445] = {
+			[3728] = {
 				["classes"] = 400,
-				["sourceType"] = 6,
+				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[8609] = {
@@ -38279,14 +38279,14 @@ MogIt_ClothDB = {
 				["sourceType"] = 6,
 				["faction"] = 3,
 			},
+			[9445] = {
+				["classes"] = 400,
+				["sourceType"] = 6,
+				["faction"] = 3,
+			},
 			[17833] = {
 				["classes"] = 400,
 				["sourceType"] = 3,
-				["faction"] = 3,
-			},
-			[3728] = {
-				["classes"] = 400,
-				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
@@ -38692,7 +38692,31 @@ MogIt_ClothDB = {
 			},
 		},
 		[14710] = {
+			[32616] = {
+				["classes"] = 400,
+				["sourceType"] = 1,
+				["faction"] = 3,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Magmaw",
+						["tiers"] = {
+							"Cataclysm", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player (Heroic)", -- [1]
+							"25 Player (Heroic)", -- [2]
+						},
+						["instance"] = "Blackwing Descent",
+					}, -- [1]
+				},
+			},
 			[32791] = {
+				["classes"] = 16,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[32796] = {
 				["classes"] = 16,
 				["sourceType"] = 3,
 				["faction"] = 1,
@@ -38713,30 +38737,6 @@ MogIt_ClothDB = {
 							"25 Player (Heroic)", -- [2]
 						},
 						["instance"] = "The Bastion of Twilight",
-					}, -- [1]
-				},
-			},
-			[32796] = {
-				["classes"] = 16,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[32616] = {
-				["classes"] = 400,
-				["sourceType"] = 1,
-				["faction"] = 3,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Magmaw",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player (Heroic)", -- [1]
-							"25 Player (Heroic)", -- [2]
-						},
-						["instance"] = "Blackwing Descent",
 					}, -- [1]
 				},
 			},
@@ -39031,10 +39031,10 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "The Nighthold",
 						["difficulties"] = {
 							"Mythic", -- [1]
 						},
+						["instance"] = "The Nighthold",
 					}, -- [1]
 					{
 						["instanceType"] = 2,
@@ -39042,10 +39042,10 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "The Nighthold",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
+						["instance"] = "The Nighthold",
 					}, -- [2]
 				},
 				["faction"] = 2,
@@ -39383,9 +39383,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "Tomb of Sargeras",
 						["difficulties"] = {
 						},
+						["instance"] = "Tomb of Sargeras",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -39402,9 +39402,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "Tomb of Sargeras",
 						["difficulties"] = {
 						},
+						["instance"] = "Tomb of Sargeras",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -39945,9 +39945,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Blackwing Lair",
 						["difficulties"] = {
 						},
+						["instance"] = "Blackwing Lair",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -40046,10 +40046,10 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -41776,10 +41776,10 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Mythic", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -42059,10 +42059,10 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "The Nighthold",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "The Nighthold",
 					}, -- [1]
 					{
 						["instanceType"] = 2,
@@ -42070,10 +42070,10 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "The Nighthold",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
+						["instance"] = "The Nighthold",
 					}, -- [2]
 				},
 				["faction"] = 2,
@@ -42108,10 +42108,10 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
 						["difficulties"] = {
 							"Mythic", -- [1]
 						},
+						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -42330,9 +42330,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "Tomb of Sargeras",
 						["difficulties"] = {
 						},
+						["instance"] = "Tomb of Sargeras",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -42455,9 +42455,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Molten Core",
 						["difficulties"] = {
 						},
+						["instance"] = "Molten Core",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -42809,6 +42809,24 @@ MogIt_ClothDB = {
 					}, -- [1]
 				},
 			},
+			[72938] = {
+				["classes"] = 400,
+				["sourceType"] = 1,
+				["faction"] = 3,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Archimonde",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Looking For Raid", -- [1]
+						},
+						["instance"] = "Hellfire Citadel",
+					}, -- [1]
+				},
+			},
 			[73193] = {
 				["classes"] = 400,
 				["faction"] = 3,
@@ -42821,24 +42839,6 @@ MogIt_ClothDB = {
 					{
 						["instanceType"] = 2,
 						["encounter"] = "Kormrok",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Looking For Raid", -- [1]
-						},
-						["instance"] = "Hellfire Citadel",
-					}, -- [1]
-				},
-			},
-			[72938] = {
-				["classes"] = 400,
-				["sourceType"] = 1,
-				["faction"] = 3,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Archimonde",
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
@@ -43028,9 +43028,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "Tomb of Sargeras",
 						["difficulties"] = {
 						},
+						["instance"] = "Tomb of Sargeras",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -43415,10 +43415,10 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Onyxia's Lair",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Onyxia's Lair",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -43433,16 +43433,21 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Onyxia's Lair",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Onyxia's Lair",
 					}, -- [1]
 				},
 				["faction"] = 2,
 			},
 		},
 		[18387] = {
+			[52167] = {
+				["classes"] = 128,
+				["sourceType"] = 6,
+				["faction"] = 2,
+			},
 			[47793] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
@@ -43451,11 +43456,6 @@ MogIt_ClothDB = {
 			[43320] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["faction"] = 2,
-			},
-			[52167] = {
-				["classes"] = 128,
-				["sourceType"] = 6,
 				["faction"] = 2,
 			},
 		},
@@ -43787,7 +43787,7 @@ MogIt_ClothDB = {
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
-			[27486] = {
+			[27458] = {
 				["classes"] = 400,
 				["sourceType"] = 2,
 				["faction"] = 3,
@@ -43797,7 +43797,7 @@ MogIt_ClothDB = {
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
-			[29558] = {
+			[27486] = {
 				["classes"] = 400,
 				["sourceType"] = 2,
 				["faction"] = 3,
@@ -43807,7 +43807,7 @@ MogIt_ClothDB = {
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
-			[27458] = {
+			[29558] = {
 				["classes"] = 400,
 				["sourceType"] = 2,
 				["faction"] = 3,
@@ -44049,10 +44049,10 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "The Nighthold",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "The Nighthold",
 					}, -- [1]
 					{
 						["instanceType"] = 2,
@@ -44060,10 +44060,10 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "The Nighthold",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
+						["instance"] = "The Nighthold",
 					}, -- [2]
 				},
 				["faction"] = 2,
@@ -44783,9 +44783,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "The Nighthold",
 						["difficulties"] = {
 						},
+						["instance"] = "The Nighthold",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -47191,9 +47191,9 @@ MogIt_ClothDB = {
 			},
 		},
 		[1577] = {
-			[26204] = {
+			[3606] = {
 				["classes"] = 400,
-				["sourceType"] = 2,
+				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[31572] = {
@@ -47201,7 +47201,7 @@ MogIt_ClothDB = {
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
-			[30292] = {
+			[26204] = {
 				["classes"] = 400,
 				["sourceType"] = 2,
 				["faction"] = 3,
@@ -47221,9 +47221,9 @@ MogIt_ClothDB = {
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
-			[3606] = {
+			[30292] = {
 				["classes"] = 400,
-				["sourceType"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
@@ -47275,10 +47275,10 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
 						["difficulties"] = {
 							"Mythic", -- [1]
 						},
+						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -47544,13 +47544,13 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Baradin Hold",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 							"10 Player (Heroic)", -- [3]
 							"25 Player (Heroic)", -- [4]
 						},
+						["instance"] = "Baradin Hold",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -47563,11 +47563,16 @@ MogIt_ClothDB = {
 				["faction"] = 2,
 			},
 		},
-		[12696] = {
-			[25334] = {
-				["classes"] = 16,
-				["sourceType"] = 3,
-				["faction"] = 1,
+		[1082] = {
+			[1093] = {
+				["classes"] = 400,
+				["sourceType"] = 4,
+				["faction"] = 3,
+			},
+			[5132] = {
+				["classes"] = 400,
+				["sourceType"] = 4,
+				["faction"] = 3,
 			},
 		},
 		[27827] = {
@@ -47668,12 +47673,12 @@ MogIt_ClothDB = {
 			},
 		},
 		[13179] = {
-			[26718] = {
+			[26721] = {
 				["classes"] = 400,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
-			[30861] = {
+			[26718] = {
 				["classes"] = 400,
 				["sourceType"] = 2,
 				["faction"] = 3,
@@ -47683,13 +47688,18 @@ MogIt_ClothDB = {
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
-			[26721] = {
+			[30861] = {
 				["classes"] = 400,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[20202] = {
+			[50376] = {
+				["classes"] = 128,
+				["sourceType"] = 3,
+				["faction"] = 2,
+			},
 			[50214] = {
 				["classes"] = 400,
 				["sourceType"] = 1,
@@ -47725,11 +47735,6 @@ MogIt_ClothDB = {
 						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
-			},
-			[50376] = {
-				["classes"] = 128,
-				["sourceType"] = 3,
-				["faction"] = 2,
 			},
 		},
 		[33202] = {
@@ -47851,42 +47856,40 @@ MogIt_ClothDB = {
 				["faction"] = 1,
 			},
 		},
-		[11674] = {
-			[22284] = {
+		[17695] = {
+			[43721] = {
 				["classes"] = 16,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Emalon the Storm Watcher",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["instance"] = "Vault of Archavon",
-						["difficulties"] = {
-							"25 Player", -- [1]
-						},
-					}, -- [1]
-				},
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
-			[22308] = {
+			[44368] = {
+				["classes"] = 400,
+				["sourceType"] = 6,
+				["faction"] = 3,
+			},
+			[43722] = {
 				["classes"] = 16,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[44302] = {
+				["classes"] = 400,
 				["sourceType"] = 1,
+				["faction"] = 3,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Emalon the Storm Watcher",
+						["encounter"] = "Imperial Vizier Zor'lok",
 						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
+							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Vault of Archavon",
 						["difficulties"] = {
-							"25 Player", -- [1]
+							"10 Player", -- [1]
+							"25 Player", -- [2]
 						},
+						["instance"] = "Heart of Fear",
 					}, -- [1]
 				},
-				["faction"] = 1,
 			},
 		},
 		[12700] = {
@@ -47948,9 +47951,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "The Nighthold",
 						["difficulties"] = {
 						},
+						["instance"] = "The Nighthold",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -48161,10 +48164,10 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -48699,9 +48702,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "Tomb of Sargeras",
 						["difficulties"] = {
 						},
+						["instance"] = "Tomb of Sargeras",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -48845,9 +48848,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "Tomb of Sargeras",
 						["difficulties"] = {
 						},
+						["instance"] = "Tomb of Sargeras",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -48864,10 +48867,10 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Vault of Archavon",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Vault of Archavon",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -48923,10 +48926,10 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Vault of Archavon",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Vault of Archavon",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -48969,9 +48972,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "Tomb of Sargeras",
 						["difficulties"] = {
 						},
+						["instance"] = "Tomb of Sargeras",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -48995,10 +48998,10 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Vault of Archavon",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Vault of Archavon",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -49104,9 +49107,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Molten Core",
 						["difficulties"] = {
 						},
+						["instance"] = "Molten Core",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -49592,10 +49595,10 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -49666,10 +49669,10 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Vault of Archavon",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Vault of Archavon",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -49813,6 +49816,11 @@ MogIt_ClothDB = {
 					}, -- [1]
 				},
 			},
+			[52848] = {
+				["classes"] = 256,
+				["sourceType"] = 3,
+				["faction"] = 2,
+			},
 			[52377] = {
 				["classes"] = 256,
 				["sourceType"] = 3,
@@ -49834,11 +49842,6 @@ MogIt_ClothDB = {
 						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
-			},
-			[52848] = {
-				["classes"] = 256,
-				["sourceType"] = 3,
-				["faction"] = 2,
 			},
 		},
 		[2759] = {
@@ -50179,20 +50182,20 @@ MogIt_ClothDB = {
 					}, -- [1]
 				},
 			},
-			[80009] = {
+			[79995] = {
 				["classes"] = 400,
 				["sourceType"] = 1,
 				["faction"] = 3,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
-						["encounter"] = "Dargrul the Underking",
+						["encounter"] = "Fenryr",
 						["tiers"] = {
 							"Legion", -- [1]
 						},
 						["difficulties"] = {
 						},
-						["instance"] = "Neltharion's Lair",
+						["instance"] = "Halls of Valor",
 					}, -- [1]
 				},
 			},
@@ -50213,6 +50216,23 @@ MogIt_ClothDB = {
 					}, -- [1]
 				},
 			},
+			[80009] = {
+				["classes"] = 400,
+				["sourceType"] = 1,
+				["faction"] = 3,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Dargrul the Underking",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Neltharion's Lair",
+					}, -- [1]
+				},
+			},
 			[80051] = {
 				["classes"] = 400,
 				["sourceType"] = 1,
@@ -50227,23 +50247,6 @@ MogIt_ClothDB = {
 						["difficulties"] = {
 						},
 						["instance"] = "Vault of the Wardens",
-					}, -- [1]
-				},
-			},
-			[79995] = {
-				["classes"] = 400,
-				["sourceType"] = 1,
-				["faction"] = 3,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Fenryr",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Halls of Valor",
 					}, -- [1]
 				},
 			},
@@ -50293,9 +50296,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "The Nighthold",
 						["difficulties"] = {
 						},
+						["instance"] = "The Nighthold",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -50453,9 +50456,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Blackwing Lair",
 						["difficulties"] = {
 						},
+						["instance"] = "Blackwing Lair",
 					}, -- [1]
 					{
 						["instanceType"] = 2,
@@ -50463,9 +50466,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Blackwing Lair",
 						["difficulties"] = {
 						},
+						["instance"] = "Blackwing Lair",
 					}, -- [2]
 					{
 						["instanceType"] = 2,
@@ -50473,9 +50476,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Blackwing Lair",
 						["difficulties"] = {
 						},
+						["instance"] = "Blackwing Lair",
 					}, -- [3]
 				},
 				["faction"] = 2,
@@ -50726,10 +50729,10 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Vault of Archavon",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Vault of Archavon",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -50826,6 +50829,11 @@ MogIt_ClothDB = {
 			},
 		},
 		[20220] = {
+			[51000] = {
+				["classes"] = 128,
+				["sourceType"] = 3,
+				["faction"] = 2,
+			},
 			[50838] = {
 				["classes"] = 400,
 				["sourceType"] = 1,
@@ -50863,11 +50871,6 @@ MogIt_ClothDB = {
 						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
-			},
-			[51000] = {
-				["classes"] = 128,
-				["sourceType"] = 3,
-				["faction"] = 2,
 			},
 		},
 		[3818] = {
@@ -51140,10 +51143,10 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -51233,10 +51236,10 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Mythic", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -51336,25 +51339,25 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 				["faction"] = 2,
 			},
 		},
-		[10785] = {
-			[20220] = {
-				["classes"] = 16,
+		[8741] = {
+			[15549] = {
+				["classes"] = 256,
 				["sourceType"] = 3,
-				["faction"] = 1,
+				["faction"] = 2,
 			},
-			[20274] = {
-				["classes"] = 16,
+			[15557] = {
+				["classes"] = 256,
 				["sourceType"] = 3,
-				["faction"] = 1,
+				["faction"] = 2,
 			},
 		},
 		[1163] = {
@@ -51555,26 +51558,16 @@ MogIt_ClothDB = {
 				["faction"] = 3,
 			},
 		},
-		[9763] = {
-			[77868] = {
-				["classes"] = 400,
-				["sourceType"] = 4,
-				["faction"] = 3,
+		[10785] = {
+			[20220] = {
+				["classes"] = 16,
+				["sourceType"] = 3,
+				["faction"] = 1,
 			},
-			[20181] = {
-				["classes"] = 400,
-				["sourceType"] = 2,
-				["faction"] = 3,
-			},
-			[17665] = {
-				["classes"] = 400,
-				["sourceType"] = 2,
-				["faction"] = 3,
-			},
-			[21394] = {
-				["classes"] = 400,
-				["sourceType"] = 6,
-				["faction"] = 3,
+			[20274] = {
+				["classes"] = 16,
+				["sourceType"] = 3,
+				["faction"] = 1,
 			},
 		},
 		[21035] = {
@@ -51713,9 +51706,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "The Nighthold",
 						["difficulties"] = {
 						},
+						["instance"] = "The Nighthold",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -51746,11 +51739,11 @@ MogIt_ClothDB = {
 				},
 			},
 		},
-		[5171] = {
-			[39271] = {
-				["classes"] = 16,
+		[10837] = {
+			[20301] = {
+				["classes"] = 128,
 				["sourceType"] = 3,
-				["faction"] = 1,
+				["faction"] = 2,
 			},
 		},
 		[2330] = {
@@ -51850,11 +51843,11 @@ MogIt_ClothDB = {
 				["faction"] = 2,
 			},
 		},
-		[12370] = {
-			[24636] = {
-				["classes"] = 256,
+		[5171] = {
+			[39271] = {
+				["classes"] = 16,
 				["sourceType"] = 3,
-				["faction"] = 2,
+				["faction"] = 1,
 			},
 		},
 		[6693] = {
@@ -52537,9 +52530,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Pandaria",
 						["difficulties"] = {
 						},
+						["instance"] = "Pandaria",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -53359,10 +53352,10 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Vault of Archavon",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Vault of Archavon",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -53910,9 +53903,9 @@ MogIt_ClothDB = {
 				["faction"] = 3,
 			},
 		},
-		[10837] = {
-			[20301] = {
-				["classes"] = 128,
+		[12370] = {
+			[24636] = {
+				["classes"] = 256,
 				["sourceType"] = 3,
 				["faction"] = 2,
 			},
@@ -54011,16 +54004,26 @@ MogIt_ClothDB = {
 				},
 			},
 		},
-		[8741] = {
-			[15549] = {
-				["classes"] = 256,
-				["sourceType"] = 3,
-				["faction"] = 2,
+		[9763] = {
+			[77868] = {
+				["classes"] = 400,
+				["sourceType"] = 4,
+				["faction"] = 3,
 			},
-			[15557] = {
-				["classes"] = 256,
-				["sourceType"] = 3,
-				["faction"] = 2,
+			[20181] = {
+				["classes"] = 400,
+				["sourceType"] = 2,
+				["faction"] = 3,
+			},
+			[17665] = {
+				["classes"] = 400,
+				["sourceType"] = 2,
+				["faction"] = 3,
+			},
+			[21394] = {
+				["classes"] = 400,
+				["sourceType"] = 6,
+				["faction"] = 3,
 			},
 		},
 		[838] = {
@@ -54900,9 +54903,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "Tomb of Sargeras",
 						["difficulties"] = {
 						},
+						["instance"] = "Tomb of Sargeras",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -55065,9 +55068,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Baradin Hold",
 						["difficulties"] = {
 						},
+						["instance"] = "Baradin Hold",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -55201,17 +55204,17 @@ MogIt_ClothDB = {
 				["sourceType"] = 4,
 				["faction"] = 2,
 			},
+			[83603] = {
+				["classes"] = 128,
+				["sourceType"] = 4,
+				["faction"] = 2,
+			},
 			[83651] = {
 				["classes"] = 256,
 				["sourceType"] = 4,
 				["faction"] = 2,
 			},
 			[79301] = {
-				["classes"] = 128,
-				["sourceType"] = 4,
-				["faction"] = 2,
-			},
-			[83603] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
 				["faction"] = 2,
@@ -55678,40 +55681,42 @@ MogIt_ClothDB = {
 				["faction"] = 1,
 			},
 		},
-		[17695] = {
-			[43721] = {
+		[11674] = {
+			[22284] = {
 				["classes"] = 16,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[44368] = {
-				["classes"] = 400,
-				["sourceType"] = 6,
-				["faction"] = 3,
-			},
-			[43722] = {
-				["classes"] = 16,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[44302] = {
-				["classes"] = 400,
 				["sourceType"] = 1,
-				["faction"] = 3,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Imperial Vizier Zor'lok",
+						["encounter"] = "Emalon the Storm Watcher",
 						["tiers"] = {
-							"Mists of Pandaria", -- [1]
+							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Vault of Archavon",
 						["difficulties"] = {
-							"10 Player", -- [1]
-							"25 Player", -- [2]
+							"25 Player", -- [1]
 						},
-						["instance"] = "Heart of Fear",
 					}, -- [1]
 				},
+				["faction"] = 1,
+			},
+			[22308] = {
+				["classes"] = 16,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Emalon the Storm Watcher",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["instance"] = "Vault of Archavon",
+						["difficulties"] = {
+							"25 Player", -- [1]
+						},
+					}, -- [1]
+				},
+				["faction"] = 1,
 			},
 		},
 		[32506] = {
@@ -55728,16 +55733,11 @@ MogIt_ClothDB = {
 				["faction"] = 3,
 			},
 		},
-		[1082] = {
-			[1093] = {
-				["classes"] = 400,
-				["sourceType"] = 4,
-				["faction"] = 3,
-			},
-			[5132] = {
-				["classes"] = 400,
-				["sourceType"] = 4,
-				["faction"] = 3,
+		[12696] = {
+			[25334] = {
+				["classes"] = 16,
+				["sourceType"] = 3,
+				["faction"] = 1,
 			},
 		},
 		[8934] = {
@@ -55796,9 +55796,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Pandaria",
 						["difficulties"] = {
 						},
+						["instance"] = "Pandaria",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -56069,9 +56069,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Blackwing Lair",
 						["difficulties"] = {
 						},
+						["instance"] = "Blackwing Lair",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -56294,6 +56294,11 @@ MogIt_ClothDB = {
 			},
 		},
 		[1785] = {
+			[5301] = {
+				["classes"] = 400,
+				["sourceType"] = 4,
+				["faction"] = 3,
+			},
 			[1961] = {
 				["classes"] = 400,
 				["sourceType"] = 4,
@@ -56302,11 +56307,6 @@ MogIt_ClothDB = {
 			[10672] = {
 				["classes"] = 400,
 				["sourceType"] = 2,
-				["faction"] = 3,
-			},
-			[5301] = {
-				["classes"] = 400,
-				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
@@ -56694,6 +56694,11 @@ MogIt_ClothDB = {
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
+			[57762] = {
+				["classes"] = 400,
+				["sourceType"] = 4,
+				["faction"] = 3,
+			},
 			[57729] = {
 				["classes"] = 400,
 				["sourceType"] = 4,
@@ -56702,11 +56707,6 @@ MogIt_ClothDB = {
 			[66470] = {
 				["classes"] = 400,
 				["sourceType"] = 2,
-				["faction"] = 3,
-			},
-			[57762] = {
-				["classes"] = 400,
-				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
@@ -58674,9 +58674,9 @@ MogIt_ClothDB = {
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
-			[8629] = {
+			[3875] = {
 				["classes"] = 400,
-				["sourceType"] = 6,
+				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[10578] = {
@@ -58684,12 +58684,12 @@ MogIt_ClothDB = {
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
-			[9693] = {
+			[8629] = {
 				["classes"] = 400,
-				["sourceType"] = 4,
+				["sourceType"] = 6,
 				["faction"] = 3,
 			},
-			[3875] = {
+			[9693] = {
 				["classes"] = 400,
 				["sourceType"] = 4,
 				["faction"] = 3,
@@ -58794,6 +58794,11 @@ MogIt_ClothDB = {
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
+			[57630] = {
+				["classes"] = 400,
+				["sourceType"] = 4,
+				["faction"] = 3,
+			},
 			[57597] = {
 				["classes"] = 400,
 				["sourceType"] = 4,
@@ -58802,11 +58807,6 @@ MogIt_ClothDB = {
 			[62082] = {
 				["classes"] = 400,
 				["sourceType"] = 2,
-				["faction"] = 3,
-			},
-			[57630] = {
-				["classes"] = 400,
-				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
@@ -59632,6 +59632,38 @@ MogIt_ClothDB = {
 				["faction"] = 2,
 			},
 		},
+		[1399] = {
+			[25781] = {
+				["classes"] = 400,
+				["sourceType"] = 2,
+				["faction"] = 3,
+			},
+			[30283] = {
+				["classes"] = 400,
+				["sourceType"] = 2,
+				["faction"] = 3,
+			},
+			[9709] = {
+				["classes"] = 400,
+				["sourceType"] = 4,
+				["faction"] = 3,
+			},
+			[31546] = {
+				["classes"] = 400,
+				["sourceType"] = 2,
+				["faction"] = 3,
+			},
+			[3489] = {
+				["classes"] = 400,
+				["sourceType"] = 4,
+				["faction"] = 3,
+			},
+			[9717] = {
+				["classes"] = 400,
+				["sourceType"] = 4,
+				["faction"] = 3,
+			},
+		},
 		[2794] = {
 			[5218] = {
 				["classes"] = 400,
@@ -59647,25 +59679,6 @@ MogIt_ClothDB = {
 				["classes"] = 400,
 				["sourceType"] = 4,
 				["faction"] = 3,
-			},
-		},
-		[33206] = {
-			[86763] = {
-				["classes"] = 400,
-				["sourceType"] = 1,
-				["faction"] = 3,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Harjatan",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Tomb of Sargeras",
-					}, -- [1]
-				},
 			},
 		},
 		[21208] = {
@@ -60157,21 +60170,11 @@ MogIt_ClothDB = {
 				["faction"] = 3,
 			},
 		},
-		[9277] = {
-			[16577] = {
+		[10810] = {
+			[20247] = {
 				["classes"] = 400,
-				["sourceType"] = 4,
-				["faction"] = 3,
-			},
-			[21192] = {
-				["classes"] = 400,
-				["sourceType"] = 2,
-				["faction"] = 3,
-			},
-			[37220] = {
-				["classes"] = 256,
 				["sourceType"] = 3,
-				["faction"] = 2,
+				["faction"] = 3,
 			},
 		},
 		[10789] = {
@@ -60303,8 +60306,27 @@ MogIt_ClothDB = {
 				["faction"] = 3,
 			},
 		},
-		[10810] = {
-			[20247] = {
+		[20055] = {
+			[49605] = {
+				["classes"] = 400,
+				["sourceType"] = 1,
+				["faction"] = 3,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Horridon",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player", -- [1]
+							"25 Player", -- [2]
+						},
+						["instance"] = "Throne of Thunder",
+					}, -- [1]
+				},
+			},
+			[49920] = {
 				["classes"] = 400,
 				["sourceType"] = 3,
 				["faction"] = 3,
@@ -61041,14 +61063,14 @@ MogIt_ClothDB = {
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
+			[16727] = {
+				["classes"] = 400,
+				["sourceType"] = 4,
+				["faction"] = 3,
+			},
 			[18122] = {
 				["classes"] = 400,
 				["sourceType"] = 2,
-				["faction"] = 3,
-			},
-			[20057] = {
-				["classes"] = 400,
-				["sourceType"] = 6,
 				["faction"] = 3,
 			},
 			[16686] = {
@@ -61076,9 +61098,9 @@ MogIt_ClothDB = {
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
-			[16727] = {
+			[20057] = {
 				["classes"] = 400,
-				["sourceType"] = 4,
+				["sourceType"] = 6,
 				["faction"] = 3,
 			},
 		},
@@ -61146,22 +61168,22 @@ MogIt_ClothDB = {
 				},
 			},
 		},
-		[12470] = {
-			[24770] = {
+		[11448] = {
+			[21888] = {
 				["classes"] = 400,
 				["sourceType"] = 1,
 				["faction"] = 3,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Lady Deathwhisper",
+						["encounter"] = "The Assembly of Iron",
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
 						["difficulties"] = {
-							"25 Player (Heroic)", -- [1]
+							"10 Player", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
+						["instance"] = "Ulduar",
 					}, -- [1]
 				},
 			},
@@ -61186,28 +61208,31 @@ MogIt_ClothDB = {
 				},
 			},
 		},
-		[21963] = {
-			[72751] = {
-				["classes"] = 400,
-				["sourceType"] = 4,
-				["faction"] = 3,
-			},
-			[57498] = {
-				["classes"] = 400,
-				["sourceType"] = 4,
-				["faction"] = 3,
-			},
-			[57465] = {
+		[2438] = {
+			[2835] = {
 				["classes"] = 400,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
-		[34422] = {
-			[86481] = {
+		[12470] = {
+			[24770] = {
 				["classes"] = 400,
-				["sourceType"] = 3,
+				["sourceType"] = 1,
 				["faction"] = 3,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Lady Deathwhisper",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"25 Player (Heroic)", -- [1]
+						},
+						["instance"] = "Icecrown Citadel",
+					}, -- [1]
+				},
 			},
 		},
 		[24405] = {
@@ -61234,10 +61259,15 @@ MogIt_ClothDB = {
 				["faction"] = 3,
 			},
 		},
-		[2438] = {
-			[2835] = {
+		[7423] = {
+			[12865] = {
 				["classes"] = 400,
-				["sourceType"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 3,
+			},
+			[15210] = {
+				["classes"] = 400,
+				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
@@ -61328,8 +61358,8 @@ MogIt_ClothDB = {
 				},
 			},
 		},
-		[8494] = {
-			[15118] = {
+		[14626] = {
+			[32364] = {
 				["classes"] = 400,
 				["sourceType"] = 3,
 				["faction"] = 3,
@@ -61501,40 +61531,26 @@ MogIt_ClothDB = {
 				},
 			},
 		},
-		[30274] = {
-			[81146] = {
-				["classes"] = 400,
-				["sourceType"] = 1,
-				["faction"] = 3,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Ursoc",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "The Emerald Nightmare",
-					}, -- [1]
-				},
+		[33912] = {
+			[85920] = {
+				["classes"] = 256,
+				["sourceType"] = 4,
+				["faction"] = 2,
 			},
-			[82471] = {
-				["classes"] = 400,
-				["sourceType"] = 1,
-				["faction"] = 3,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Drugon the Frostblood",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Broken Isles",
-					}, -- [1]
-				},
+			[85824] = {
+				["classes"] = 128,
+				["sourceType"] = 4,
+				["faction"] = 2,
+			},
+			[85175] = {
+				["classes"] = 128,
+				["sourceType"] = 4,
+				["faction"] = 2,
+			},
+			[85271] = {
+				["classes"] = 256,
+				["sourceType"] = 4,
+				["faction"] = 2,
 			},
 		},
 		[27575] = {
@@ -61646,11 +61662,23 @@ MogIt_ClothDB = {
 				["faction"] = 3,
 			},
 		},
-		[14626] = {
-			[32364] = {
+		[32826] = {
+			[83114] = {
 				["classes"] = 400,
-				["sourceType"] = 3,
+				["sourceType"] = 1,
 				["faction"] = 3,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Guarm",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Trial of Valor",
+					}, -- [1]
+				},
 			},
 		},
 		[29164] = {
@@ -61745,26 +61773,23 @@ MogIt_ClothDB = {
 				["faction"] = 3,
 			},
 		},
-		[33912] = {
-			[85920] = {
-				["classes"] = 256,
-				["sourceType"] = 4,
-				["faction"] = 2,
-			},
-			[85824] = {
-				["classes"] = 128,
-				["sourceType"] = 4,
-				["faction"] = 2,
-			},
-			[85175] = {
-				["classes"] = 128,
-				["sourceType"] = 4,
-				["faction"] = 2,
-			},
-			[85271] = {
-				["classes"] = 256,
-				["sourceType"] = 4,
-				["faction"] = 2,
+		[5796] = {
+			[8551] = {
+				["classes"] = 400,
+				["sourceType"] = 1,
+				["faction"] = 3,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Ouro",
+						["tiers"] = {
+							"Classic", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Temple of Ahn'Qiraj",
+					}, -- [1]
+				},
 			},
 		},
 		[13089] = {
@@ -61774,23 +61799,11 @@ MogIt_ClothDB = {
 				["faction"] = 3,
 			},
 		},
-		[32826] = {
-			[83114] = {
+		[8494] = {
+			[15118] = {
 				["classes"] = 400,
-				["sourceType"] = 1,
+				["sourceType"] = 3,
 				["faction"] = 3,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Guarm",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Trial of Valor",
-					}, -- [1]
-				},
 			},
 		},
 		[1196] = {
@@ -61824,21 +61837,38 @@ MogIt_ClothDB = {
 				["faction"] = 1,
 			},
 		},
-		[5796] = {
-			[8551] = {
+		[30274] = {
+			[81146] = {
 				["classes"] = 400,
 				["sourceType"] = 1,
 				["faction"] = 3,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Ouro",
+						["encounter"] = "Ursoc",
 						["tiers"] = {
-							"Classic", -- [1]
+							"Legion", -- [1]
 						},
 						["difficulties"] = {
 						},
-						["instance"] = "Temple of Ahn'Qiraj",
+						["instance"] = "The Emerald Nightmare",
+					}, -- [1]
+				},
+			},
+			[82471] = {
+				["classes"] = 400,
+				["sourceType"] = 1,
+				["faction"] = 3,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Drugon the Frostblood",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Broken Isles",
 					}, -- [1]
 				},
 			},
@@ -61994,6 +62024,23 @@ MogIt_ClothDB = {
 					}, -- [1]
 				},
 			},
+			[57111] = {
+				["classes"] = 400,
+				["sourceType"] = 1,
+				["faction"] = 3,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Ordos, Fire-God of the Yaungol",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Pandaria",
+					}, -- [1]
+				},
+			},
 			[55824] = {
 				["classes"] = 400,
 				["faction"] = 3,
@@ -62012,23 +62059,6 @@ MogIt_ClothDB = {
 						["difficulties"] = {
 						},
 						["instance"] = "Siege of Orgrimmar",
-					}, -- [1]
-				},
-			},
-			[57111] = {
-				["classes"] = 400,
-				["sourceType"] = 1,
-				["faction"] = 3,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Ordos, Fire-God of the Yaungol",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Pandaria",
 					}, -- [1]
 				},
 			},
@@ -62541,14 +62571,14 @@ MogIt_ClothDB = {
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
+			[9468] = {
+				["classes"] = 400,
+				["sourceType"] = 6,
+				["faction"] = 3,
+			},
 			[1571] = {
 				["classes"] = 400,
 				["sourceType"] = 4,
-				["faction"] = 3,
-			},
-			[29313] = {
-				["classes"] = 400,
-				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[25912] = {
@@ -62573,9 +62603,9 @@ MogIt_ClothDB = {
 					}, -- [1]
 				},
 			},
-			[9468] = {
+			[29313] = {
 				["classes"] = 400,
-				["sourceType"] = 6,
+				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
@@ -63023,6 +63053,106 @@ MogIt_ClothDB = {
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
+			[59532] = {
+				["classes"] = 400,
+				["sourceType"] = 1,
+				["faction"] = 3,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Azzakel",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Auchindoun",
+					}, -- [1]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Slave Watcher Crushto",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Bloodmaul Slag Mines",
+					}, -- [2]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Skylord Tovra",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Grimrail Depot",
+					}, -- [3]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Oshir",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Iron Docks",
+					}, -- [4]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Nhallish",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Shadowmoon Burial Grounds",
+					}, -- [5]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Rukhran",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Skyreach",
+					}, -- [6]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Archmage Sol",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "The Everbloom",
+					}, -- [7]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Warlord Zaela",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Upper Blackrock Spire",
+					}, -- [8]
+				},
+			},
+			[69127] = {
+				["classes"] = 400,
+				["sourceType"] = 3,
+				["faction"] = 3,
+			},
 			[61182] = {
 				["classes"] = 400,
 				["sourceType"] = 1,
@@ -63105,106 +63235,6 @@ MogIt_ClothDB = {
 							"Warlords of Draenor", -- [1]
 						},
 						["difficulties"] = {
-						},
-						["instance"] = "Upper Blackrock Spire",
-					}, -- [8]
-				},
-			},
-			[69127] = {
-				["classes"] = 400,
-				["sourceType"] = 3,
-				["faction"] = 3,
-			},
-			[61197] = {
-				["classes"] = 400,
-				["sourceType"] = 1,
-				["faction"] = 3,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Azzakel",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "Auchindoun",
-					}, -- [1]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Slave Watcher Crushto",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "Bloodmaul Slag Mines",
-					}, -- [2]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Skylord Tovra",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "Grimrail Depot",
-					}, -- [3]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Oshir",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "Iron Docks",
-					}, -- [4]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Nhallish",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "Shadowmoon Burial Grounds",
-					}, -- [5]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Rukhran",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "Skyreach",
-					}, -- [6]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Archmage Sol",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "The Everbloom",
-					}, -- [7]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Warlord Zaela",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
 						},
 						["instance"] = "Upper Blackrock Spire",
 					}, -- [8]
@@ -63310,7 +63340,7 @@ MogIt_ClothDB = {
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
-			[59532] = {
+			[61197] = {
 				["classes"] = 400,
 				["sourceType"] = 1,
 				["faction"] = 3,
@@ -63322,7 +63352,7 @@ MogIt_ClothDB = {
 							"Warlords of Draenor", -- [1]
 						},
 						["difficulties"] = {
-							"Normal", -- [1]
+							"Heroic", -- [1]
 						},
 						["instance"] = "Auchindoun",
 					}, -- [1]
@@ -63333,7 +63363,7 @@ MogIt_ClothDB = {
 							"Warlords of Draenor", -- [1]
 						},
 						["difficulties"] = {
-							"Normal", -- [1]
+							"Heroic", -- [1]
 						},
 						["instance"] = "Bloodmaul Slag Mines",
 					}, -- [2]
@@ -63344,7 +63374,7 @@ MogIt_ClothDB = {
 							"Warlords of Draenor", -- [1]
 						},
 						["difficulties"] = {
-							"Normal", -- [1]
+							"Heroic", -- [1]
 						},
 						["instance"] = "Grimrail Depot",
 					}, -- [3]
@@ -63355,7 +63385,7 @@ MogIt_ClothDB = {
 							"Warlords of Draenor", -- [1]
 						},
 						["difficulties"] = {
-							"Normal", -- [1]
+							"Heroic", -- [1]
 						},
 						["instance"] = "Iron Docks",
 					}, -- [4]
@@ -63366,7 +63396,7 @@ MogIt_ClothDB = {
 							"Warlords of Draenor", -- [1]
 						},
 						["difficulties"] = {
-							"Normal", -- [1]
+							"Heroic", -- [1]
 						},
 						["instance"] = "Shadowmoon Burial Grounds",
 					}, -- [5]
@@ -63377,7 +63407,7 @@ MogIt_ClothDB = {
 							"Warlords of Draenor", -- [1]
 						},
 						["difficulties"] = {
-							"Normal", -- [1]
+							"Heroic", -- [1]
 						},
 						["instance"] = "Skyreach",
 					}, -- [6]
@@ -63388,7 +63418,7 @@ MogIt_ClothDB = {
 							"Warlords of Draenor", -- [1]
 						},
 						["difficulties"] = {
-							"Normal", -- [1]
+							"Heroic", -- [1]
 						},
 						["instance"] = "The Everbloom",
 					}, -- [7]
@@ -63399,7 +63429,7 @@ MogIt_ClothDB = {
 							"Warlords of Draenor", -- [1]
 						},
 						["difficulties"] = {
-							"Normal", -- [1]
+							"Heroic", -- [1]
 						},
 						["instance"] = "Upper Blackrock Spire",
 					}, -- [8]
@@ -63513,15 +63543,20 @@ MogIt_ClothDB = {
 				["faction"] = 3,
 			},
 		},
-		[7423] = {
-			[12865] = {
+		[21963] = {
+			[72751] = {
 				["classes"] = 400,
-				["sourceType"] = 3,
+				["sourceType"] = 4,
 				["faction"] = 3,
 			},
-			[15210] = {
+			[57498] = {
 				["classes"] = 400,
-				["sourceType"] = 3,
+				["sourceType"] = 4,
+				["faction"] = 3,
+			},
+			[57465] = {
+				["classes"] = 400,
+				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
@@ -63532,24 +63567,11 @@ MogIt_ClothDB = {
 				["faction"] = 3,
 			},
 		},
-		[11448] = {
-			[21888] = {
+		[34422] = {
+			[86481] = {
 				["classes"] = 400,
-				["sourceType"] = 1,
+				["sourceType"] = 3,
 				["faction"] = 3,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "The Assembly of Iron",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player", -- [1]
-						},
-						["instance"] = "Ulduar",
-					}, -- [1]
-				},
 			},
 		},
 		[1478] = {
@@ -63843,30 +63865,21 @@ MogIt_ClothDB = {
 				["faction"] = 3,
 			},
 		},
-		[20055] = {
-			[49605] = {
+		[9277] = {
+			[16577] = {
 				["classes"] = 400,
-				["sourceType"] = 1,
+				["sourceType"] = 4,
 				["faction"] = 3,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Horridon",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player", -- [1]
-							"25 Player", -- [2]
-						},
-						["instance"] = "Throne of Thunder",
-					}, -- [1]
-				},
 			},
-			[49920] = {
+			[21192] = {
 				["classes"] = 400,
-				["sourceType"] = 3,
+				["sourceType"] = 2,
 				["faction"] = 3,
+			},
+			[37220] = {
+				["classes"] = 256,
+				["sourceType"] = 3,
+				["faction"] = 2,
 			},
 		},
 		[11360] = {
@@ -63919,7 +63932,7 @@ MogIt_ClothDB = {
 				["sourceType"] = 6,
 				["faction"] = 3,
 			},
-			[18108] = {
+			[19095] = {
 				["classes"] = 400,
 				["sourceType"] = 2,
 				["faction"] = 3,
@@ -63929,14 +63942,14 @@ MogIt_ClothDB = {
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
+			[18108] = {
+				["classes"] = 400,
+				["sourceType"] = 2,
+				["faction"] = 3,
+			},
 			[20075] = {
 				["classes"] = 400,
 				["sourceType"] = 6,
-				["faction"] = 3,
-			},
-			[19095] = {
-				["classes"] = 400,
-				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
@@ -64077,17 +64090,17 @@ MogIt_ClothDB = {
 				["sourceType"] = 4,
 				["faction"] = 2,
 			},
+			[83609] = {
+				["classes"] = 128,
+				["sourceType"] = 4,
+				["faction"] = 2,
+			},
 			[83657] = {
 				["classes"] = 256,
 				["sourceType"] = 4,
 				["faction"] = 2,
 			},
 			[79307] = {
-				["classes"] = 128,
-				["sourceType"] = 4,
-				["faction"] = 2,
-			},
-			[83609] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
 				["faction"] = 2,
@@ -64361,36 +64374,23 @@ MogIt_ClothDB = {
 				["faction"] = 3,
 			},
 		},
-		[1399] = {
-			[25781] = {
+		[33206] = {
+			[86763] = {
 				["classes"] = 400,
-				["sourceType"] = 2,
+				["sourceType"] = 1,
 				["faction"] = 3,
-			},
-			[30283] = {
-				["classes"] = 400,
-				["sourceType"] = 2,
-				["faction"] = 3,
-			},
-			[9709] = {
-				["classes"] = 400,
-				["sourceType"] = 4,
-				["faction"] = 3,
-			},
-			[31546] = {
-				["classes"] = 400,
-				["sourceType"] = 2,
-				["faction"] = 3,
-			},
-			[3489] = {
-				["classes"] = 400,
-				["sourceType"] = 4,
-				["faction"] = 3,
-			},
-			[9717] = {
-				["classes"] = 400,
-				["sourceType"] = 4,
-				["faction"] = 3,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Harjatan",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Tomb of Sargeras",
+					}, -- [1]
+				},
 			},
 		},
 		[32511] = {
@@ -65360,9 +65360,9 @@ MogIt_ClothDB = {
 			},
 		},
 		[13074] = {
-			[26449] = {
+			[29881] = {
 				["classes"] = 400,
-				["sourceType"] = 6,
+				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[29919] = {
@@ -65370,12 +65370,12 @@ MogIt_ClothDB = {
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
-			[29884] = {
+			[26449] = {
 				["classes"] = 400,
-				["sourceType"] = 2,
+				["sourceType"] = 6,
 				["faction"] = 3,
 			},
-			[29881] = {
+			[29884] = {
 				["classes"] = 400,
 				["sourceType"] = 2,
 				["faction"] = 3,
@@ -66341,6 +66341,24 @@ MogIt_ClothDB = {
 					}, -- [1]
 				},
 			},
+			[27661] = {
+				["classes"] = 400,
+				["sourceType"] = 1,
+				["faction"] = 3,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Ascendant Lord Obsidius",
+						["tiers"] = {
+							"Cataclysm", -- [1]
+						},
+						["difficulties"] = {
+							"Heroic", -- [1]
+						},
+						["instance"] = "Blackrock Caverns",
+					}, -- [1]
+				},
+			},
 			[31825] = {
 				["classes"] = 400,
 				["sourceType"] = 1,
@@ -66364,24 +66382,6 @@ MogIt_ClothDB = {
 				["classes"] = 400,
 				["sourceType"] = 4,
 				["faction"] = 3,
-			},
-			[27661] = {
-				["classes"] = 400,
-				["sourceType"] = 1,
-				["faction"] = 3,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Ascendant Lord Obsidius",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "Blackrock Caverns",
-					}, -- [1]
-				},
 			},
 		},
 		[5192] = {
@@ -67291,6 +67291,24 @@ MogIt_ClothDB = {
 					}, -- [1]
 				},
 			},
+			[72974] = {
+				["classes"] = 400,
+				["sourceType"] = 1,
+				["faction"] = 3,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Iron Reaver",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Looking For Raid", -- [1]
+						},
+						["instance"] = "Hellfire Citadel",
+					}, -- [1]
+				},
+			},
 			[73163] = {
 				["classes"] = 400,
 				["faction"] = 3,
@@ -67303,24 +67321,6 @@ MogIt_ClothDB = {
 					{
 						["instanceType"] = 2,
 						["encounter"] = "Mannoroth",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Looking For Raid", -- [1]
-						},
-						["instance"] = "Hellfire Citadel",
-					}, -- [1]
-				},
-			},
-			[72974] = {
-				["classes"] = 400,
-				["sourceType"] = 1,
-				["faction"] = 3,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Iron Reaver",
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
@@ -67590,10 +67590,10 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -67650,9 +67650,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "The Nighthold",
 						["difficulties"] = {
 						},
+						["instance"] = "The Nighthold",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -67925,9 +67925,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "Tomb of Sargeras",
 						["difficulties"] = {
 						},
+						["instance"] = "Tomb of Sargeras",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -68028,20 +68028,20 @@ MogIt_ClothDB = {
 					}, -- [1]
 				},
 			},
-			[80543] = {
+			[79031] = {
 				["classes"] = 400,
 				["sourceType"] = 1,
 				["faction"] = 3,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
-						["encounter"] = "Lord Kur'talos Ravencrest",
+						["encounter"] = "Millificent Manastorm",
 						["tiers"] = {
 							"Legion", -- [1]
 						},
 						["difficulties"] = {
 						},
-						["instance"] = "Black Rook Hold",
+						["instance"] = "Assault on Violet Hold",
 					}, -- [1]
 				},
 			},
@@ -68062,20 +68062,20 @@ MogIt_ClothDB = {
 					}, -- [1]
 				},
 			},
-			[79080] = {
+			[80543] = {
 				["classes"] = 400,
 				["sourceType"] = 1,
 				["faction"] = 3,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
-						["encounter"] = "Inquisitor Tormentorum",
+						["encounter"] = "Lord Kur'talos Ravencrest",
 						["tiers"] = {
 							"Legion", -- [1]
 						},
 						["difficulties"] = {
 						},
-						["instance"] = "Vault of the Wardens",
+						["instance"] = "Black Rook Hold",
 					}, -- [1]
 				},
 			},
@@ -68130,20 +68130,20 @@ MogIt_ClothDB = {
 					}, -- [1]
 				},
 			},
-			[79031] = {
+			[79080] = {
 				["classes"] = 400,
 				["sourceType"] = 1,
 				["faction"] = 3,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
-						["encounter"] = "Millificent Manastorm",
+						["encounter"] = "Inquisitor Tormentorum",
 						["tiers"] = {
 							"Legion", -- [1]
 						},
 						["difficulties"] = {
 						},
-						["instance"] = "Assault on Violet Hold",
+						["instance"] = "Vault of the Wardens",
 					}, -- [1]
 				},
 			},
@@ -68447,9 +68447,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "The Nighthold",
 						["difficulties"] = {
 						},
+						["instance"] = "The Nighthold",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -68502,9 +68502,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Molten Core",
 						["difficulties"] = {
 						},
+						["instance"] = "Molten Core",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -68518,10 +68518,10 @@ MogIt_ClothDB = {
 			},
 		},
 		[25856] = {
-			[71658] = {
-				["classes"] = 16,
-				["sourceType"] = 4,
-				["faction"] = 1,
+			[71007] = {
+				["classes"] = 128,
+				["sourceType"] = 3,
+				["faction"] = 2,
 			},
 			[71142] = {
 				["classes"] = 256,
@@ -68538,13 +68538,13 @@ MogIt_ClothDB = {
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
+			[71658] = {
+				["classes"] = 16,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
 			[71070] = {
 				["classes"] = 256,
-				["sourceType"] = 3,
-				["faction"] = 2,
-			},
-			[71007] = {
-				["classes"] = 128,
 				["sourceType"] = 3,
 				["faction"] = 2,
 			},
@@ -68609,41 +68609,31 @@ MogIt_ClothDB = {
 				["faction"] = 3,
 			},
 		},
-		[11934] = {
-			[23149] = {
-				["classes"] = 16,
-				["sourceType"] = 3,
-				["faction"] = 1,
+		[9379] = {
+			[16702] = {
+				["classes"] = 400,
+				["sourceType"] = 2,
+				["faction"] = 3,
 			},
-			[23186] = {
-				["classes"] = 16,
-				["sourceType"] = 3,
-				["faction"] = 1,
+			[16766] = {
+				["classes"] = 400,
+				["sourceType"] = 4,
+				["faction"] = 3,
 			},
-			[23232] = {
-				["classes"] = 16,
-				["sourceType"] = 3,
-				["faction"] = 1,
+			[16782] = {
+				["classes"] = 400,
+				["sourceType"] = 4,
+				["faction"] = 3,
 			},
-			[23237] = {
-				["classes"] = 16,
-				["sourceType"] = 3,
-				["faction"] = 1,
+			[16734] = {
+				["classes"] = 400,
+				["sourceType"] = 4,
+				["faction"] = 3,
 			},
-			[23238] = {
-				["classes"] = 16,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[23155] = {
-				["classes"] = 16,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[22943] = {
-				["classes"] = 16,
-				["sourceType"] = 3,
-				["faction"] = 1,
+			[16750] = {
+				["classes"] = 400,
+				["sourceType"] = 4,
+				["faction"] = 3,
 			},
 		},
 		[23844] = {
@@ -68788,10 +68778,10 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -69180,15 +69170,45 @@ MogIt_ClothDB = {
 				["faction"] = 2,
 			},
 		},
-		[14637] = {
-			[32380] = {
-				["classes"] = 256,
-				["sourceType"] = 3,
-				["faction"] = 2,
+		[30264] = {
+			[80493] = {
+				["classes"] = 400,
+				["sourceType"] = 1,
+				["faction"] = 3,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Cenarius",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "The Emerald Nightmare",
+					}, -- [1]
+				},
 			},
-			[36062] = {
-				["classes"] = 256,
-				["faction"] = 2,
+			[82835] = {
+				["classes"] = 400,
+				["sourceType"] = 4,
+				["faction"] = 3,
+			},
+			[79808] = {
+				["classes"] = 16,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Tichondrius",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["instance"] = "The Nighthold",
+						["difficulties"] = {
+						},
+					}, -- [1]
+				},
+				["faction"] = 1,
 			},
 		},
 		[6946] = {
@@ -69221,9 +69241,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "The Nighthold",
 						["difficulties"] = {
 						},
+						["instance"] = "The Nighthold",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -69427,11 +69447,15 @@ MogIt_ClothDB = {
 				["faction"] = 1,
 			},
 		},
-		[33892] = {
-			[86002] = {
-				["classes"] = 400,
-				["sourceType"] = 4,
-				["faction"] = 3,
+		[14637] = {
+			[32380] = {
+				["classes"] = 256,
+				["sourceType"] = 3,
+				["faction"] = 2,
+			},
+			[36062] = {
+				["classes"] = 256,
+				["faction"] = 2,
 			},
 		},
 		[9020] = {
@@ -69472,9 +69496,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Blackwing Lair",
 						["difficulties"] = {
 						},
+						["instance"] = "Blackwing Lair",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -70062,10 +70086,10 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Mythic", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -70156,9 +70180,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "Tomb of Sargeras",
 						["difficulties"] = {
 						},
+						["instance"] = "Tomb of Sargeras",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -70246,9 +70270,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "Tomb of Sargeras",
 						["difficulties"] = {
 						},
+						["instance"] = "Tomb of Sargeras",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -70265,9 +70289,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "Tomb of Sargeras",
 						["difficulties"] = {
 						},
+						["instance"] = "Tomb of Sargeras",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -70495,10 +70519,10 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -71077,8 +71101,9 @@ MogIt_ClothDB = {
 			},
 		},
 		[17642] = {
-			[41184] = {
+			[41832] = {
 				["classes"] = 400,
+				["sourceType"] = 6,
 				["faction"] = 3,
 			},
 			[84334] = {
@@ -71100,6 +71125,10 @@ MogIt_ClothDB = {
 					}, -- [1]
 				},
 			},
+			[41184] = {
+				["classes"] = 400,
+				["faction"] = 3,
+			},
 			[84326] = {
 				["classes"] = 400,
 				["sourceType"] = 1,
@@ -71118,11 +71147,6 @@ MogIt_ClothDB = {
 						["instance"] = "Gate of the Setting Sun",
 					}, -- [1]
 				},
-			},
-			[41832] = {
-				["classes"] = 400,
-				["sourceType"] = 6,
-				["faction"] = 3,
 			},
 		},
 		[10374] = {
@@ -72407,10 +72431,10 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
 						["difficulties"] = {
 							"Mythic", -- [1]
 						},
+						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -73981,45 +74005,11 @@ MogIt_ClothDB = {
 				["faction"] = 1,
 			},
 		},
-		[30264] = {
-			[80493] = {
-				["classes"] = 400,
-				["sourceType"] = 1,
-				["faction"] = 3,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Cenarius",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "The Emerald Nightmare",
-					}, -- [1]
-				},
-			},
-			[82835] = {
+		[33892] = {
+			[86002] = {
 				["classes"] = 400,
 				["sourceType"] = 4,
 				["faction"] = 3,
-			},
-			[79808] = {
-				["classes"] = 16,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Tichondrius",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["instance"] = "The Nighthold",
-						["difficulties"] = {
-						},
-					}, -- [1]
-				},
-				["faction"] = 1,
 			},
 		},
 		[16419] = {
@@ -74323,33 +74313,6 @@ MogIt_ClothDB = {
 				},
 			},
 		},
-		[9379] = {
-			[16702] = {
-				["classes"] = 400,
-				["sourceType"] = 2,
-				["faction"] = 3,
-			},
-			[16766] = {
-				["classes"] = 400,
-				["sourceType"] = 4,
-				["faction"] = 3,
-			},
-			[16782] = {
-				["classes"] = 400,
-				["sourceType"] = 4,
-				["faction"] = 3,
-			},
-			[16734] = {
-				["classes"] = 400,
-				["sourceType"] = 4,
-				["faction"] = 3,
-			},
-			[16750] = {
-				["classes"] = 400,
-				["sourceType"] = 4,
-				["faction"] = 3,
-			},
-		},
 		[4953] = {
 			[6892] = {
 				["classes"] = 256,
@@ -74367,6 +74330,43 @@ MogIt_ClothDB = {
 						["instance"] = "Molten Core",
 					}, -- [1]
 				},
+			},
+		},
+		[11934] = {
+			[23149] = {
+				["classes"] = 16,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[23186] = {
+				["classes"] = 16,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[23232] = {
+				["classes"] = 16,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[23237] = {
+				["classes"] = 16,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[23238] = {
+				["classes"] = 16,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[23155] = {
+				["classes"] = 16,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[22943] = {
+				["classes"] = 16,
+				["sourceType"] = 3,
+				["faction"] = 1,
 			},
 		},
 		[15497] = {
@@ -74589,10 +74589,10 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -74681,9 +74681,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "The Nighthold",
 						["difficulties"] = {
 						},
+						["instance"] = "The Nighthold",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -74927,6 +74927,11 @@ MogIt_ClothDB = {
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
+			[67031] = {
+				["classes"] = 400,
+				["sourceType"] = 4,
+				["faction"] = 3,
+			},
 			[61191] = {
 				["classes"] = 400,
 				["sourceType"] = 1,
@@ -75050,11 +75055,6 @@ MogIt_ClothDB = {
 						["instance"] = "Upper Blackrock Spire",
 					}, -- [5]
 				},
-			},
-			[67031] = {
-				["classes"] = 400,
-				["sourceType"] = 4,
-				["faction"] = 3,
 			},
 		},
 		[7042] = {
@@ -77200,13 +77200,13 @@ MogIt_ClothDB = {
 			},
 		},
 		[28297] = {
-			[83650] = {
-				["classes"] = 256,
+			[83602] = {
+				["classes"] = 128,
 				["sourceType"] = 4,
 				["faction"] = 2,
 			},
-			[79300] = {
-				["classes"] = 128,
+			[83650] = {
+				["classes"] = 256,
 				["sourceType"] = 4,
 				["faction"] = 2,
 			},
@@ -77215,7 +77215,7 @@ MogIt_ClothDB = {
 				["sourceType"] = 4,
 				["faction"] = 2,
 			},
-			[83602] = {
+			[79300] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
 				["faction"] = 2,
@@ -77547,14 +77547,14 @@ MogIt_ClothDB = {
 			},
 		},
 		[11291] = {
-			[21664] = {
+			[21904] = {
 				["classes"] = 400,
 				["sourceType"] = 1,
 				["faction"] = 3,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Flame Leviathan",
+						["encounter"] = "Auriaya",
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
@@ -77583,19 +77583,14 @@ MogIt_ClothDB = {
 					}, -- [1]
 				},
 			},
-			[21994] = {
-				["classes"] = 400,
-				["sourceType"] = 6,
-				["faction"] = 3,
-			},
-			[21904] = {
+			[21664] = {
 				["classes"] = 400,
 				["sourceType"] = 1,
 				["faction"] = 3,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Auriaya",
+						["encounter"] = "Flame Leviathan",
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
@@ -77605,6 +77600,11 @@ MogIt_ClothDB = {
 						["instance"] = "Ulduar",
 					}, -- [1]
 				},
+			},
+			[21994] = {
+				["classes"] = 400,
+				["sourceType"] = 6,
+				["faction"] = 3,
 			},
 		},
 		[6422] = {
@@ -80353,26 +80353,11 @@ MogIt_ClothDB = {
 				["faction"] = 3,
 			},
 		},
-		[2833] = {
-			[26036] = {
-				["classes"] = 400,
-				["sourceType"] = 2,
-				["faction"] = 3,
-			},
-			[27497] = {
-				["classes"] = 400,
-				["sourceType"] = 2,
-				["faction"] = 3,
-			},
-			[27494] = {
-				["classes"] = 400,
-				["sourceType"] = 2,
-				["faction"] = 3,
-			},
-			[3334] = {
-				["classes"] = 400,
-				["sourceType"] = 2,
-				["faction"] = 3,
+		[24101] = {
+			[64504] = {
+				["classes"] = 16,
+				["sourceType"] = 3,
+				["faction"] = 1,
 			},
 		},
 		[3339] = {
@@ -80435,49 +80420,26 @@ MogIt_ClothDB = {
 				["faction"] = 2,
 			},
 		},
-		[9767] = {
-			[21261] = {
-				["classes"] = 400,
-				["sourceType"] = 6,
-				["faction"] = 3,
-			},
-			[18798] = {
+		[2833] = {
+			[26036] = {
 				["classes"] = 400,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
-			[17671] = {
-				["classes"] = 400,
-				["sourceType"] = 1,
-				["faction"] = 3,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Krik'thir the Gatewatcher",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "Azjol-Nerub",
-					}, -- [1]
-				},
-			},
-			[37221] = {
-				["classes"] = 16,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[20883] = {
+			[27497] = {
 				["classes"] = 400,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
-			[37229] = {
-				["classes"] = 16,
-				["sourceType"] = 3,
-				["faction"] = 1,
+			[27494] = {
+				["classes"] = 400,
+				["sourceType"] = 2,
+				["faction"] = 3,
+			},
+			[3334] = {
+				["classes"] = 400,
+				["sourceType"] = 2,
+				["faction"] = 3,
 			},
 		},
 		[30241] = {
@@ -80913,13 +80875,6 @@ MogIt_ClothDB = {
 				},
 			},
 		},
-		[7235] = {
-			[12502] = {
-				["classes"] = 400,
-				["sourceType"] = 4,
-				["faction"] = 3,
-			},
-		},
 		[18656] = {
 			[44702] = {
 				["classes"] = 400,
@@ -80936,6 +80891,29 @@ MogIt_ClothDB = {
 							"Looking For Raid", -- [1]
 						},
 						["instance"] = "Heart of Fear",
+					}, -- [1]
+				},
+			},
+		},
+		[21211] = {
+			[55788] = {
+				["classes"] = 400,
+				["faction"] = 3,
+			},
+			[61650] = {
+				["classes"] = 400,
+				["sourceType"] = 1,
+				["faction"] = 3,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Kor'kron Dark Shaman",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
 			},
@@ -80990,27 +80968,11 @@ MogIt_ClothDB = {
 				},
 			},
 		},
-		[21211] = {
-			[55788] = {
+		[7235] = {
+			[12502] = {
 				["classes"] = 400,
+				["sourceType"] = 4,
 				["faction"] = 3,
-			},
-			[61650] = {
-				["classes"] = 400,
-				["sourceType"] = 1,
-				["faction"] = 3,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Kor'kron Dark Shaman",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Siege of Orgrimmar",
-					}, -- [1]
-				},
 			},
 		},
 		[18672] = {
@@ -82430,23 +82392,11 @@ MogIt_ClothDB = {
 				["faction"] = 3,
 			},
 		},
-		[16195] = {
-			[37315] = {
-				["classes"] = 400,
-				["sourceType"] = 1,
-				["faction"] = 3,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Queen Azshara",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Well of Eternity",
-					}, -- [1]
-				},
+		[9041] = {
+			[16110] = {
+				["classes"] = 384,
+				["sourceType"] = 3,
+				["faction"] = 2,
 			},
 		},
 		[6824] = {
@@ -82469,13 +82419,6 @@ MogIt_ClothDB = {
 				},
 			},
 		},
-		[9041] = {
-			[16110] = {
-				["classes"] = 384,
-				["sourceType"] = 3,
-				["faction"] = 2,
-			},
-		},
 		[5295] = {
 			[7462] = {
 				["classes"] = 400,
@@ -82491,6 +82434,25 @@ MogIt_ClothDB = {
 						["difficulties"] = {
 						},
 						["instance"] = "Stratholme",
+					}, -- [1]
+				},
+			},
+		},
+		[16195] = {
+			[37315] = {
+				["classes"] = 400,
+				["sourceType"] = 1,
+				["faction"] = 3,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Queen Azshara",
+						["tiers"] = {
+							"Cataclysm", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Well of Eternity",
 					}, -- [1]
 				},
 			},
@@ -82602,9 +82564,9 @@ MogIt_ClothDB = {
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
-			[80800] = {
+			[68704] = {
 				["classes"] = 400,
-				["sourceType"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[74510] = {
@@ -82612,12 +82574,12 @@ MogIt_ClothDB = {
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
-			[82788] = {
+			[80800] = {
 				["classes"] = 400,
-				["sourceType"] = 2,
+				["sourceType"] = 4,
 				["faction"] = 3,
 			},
-			[68704] = {
+			[82788] = {
 				["classes"] = 400,
 				["sourceType"] = 2,
 				["faction"] = 3,
@@ -83137,8 +83099,46 @@ MogIt_ClothDB = {
 				["faction"] = 3,
 			},
 		},
-		[24101] = {
-			[64504] = {
+		[9767] = {
+			[21261] = {
+				["classes"] = 400,
+				["sourceType"] = 6,
+				["faction"] = 3,
+			},
+			[18798] = {
+				["classes"] = 400,
+				["sourceType"] = 2,
+				["faction"] = 3,
+			},
+			[17671] = {
+				["classes"] = 400,
+				["sourceType"] = 1,
+				["faction"] = 3,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Krik'thir the Gatewatcher",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"Heroic", -- [1]
+						},
+						["instance"] = "Azjol-Nerub",
+					}, -- [1]
+				},
+			},
+			[37221] = {
+				["classes"] = 16,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[20883] = {
+				["classes"] = 400,
+				["sourceType"] = 2,
+				["faction"] = 3,
+			},
+			[37229] = {
 				["classes"] = 16,
 				["sourceType"] = 3,
 				["faction"] = 1,
@@ -83182,6 +83182,24 @@ MogIt_ClothDB = {
 					}, -- [1]
 				},
 			},
+			[17908] = {
+				["classes"] = 400,
+				["sourceType"] = 1,
+				["faction"] = 3,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Slad'ran",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"Heroic", -- [1]
+						},
+						["instance"] = "Gundrak",
+					}, -- [1]
+				},
+			},
 			[17974] = {
 				["classes"] = 400,
 				["sourceType"] = 1,
@@ -83215,24 +83233,6 @@ MogIt_ClothDB = {
 				["classes"] = 400,
 				["sourceType"] = 6,
 				["faction"] = 3,
-			},
-			[17908] = {
-				["classes"] = 400,
-				["sourceType"] = 1,
-				["faction"] = 3,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Slad'ran",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "Gundrak",
-					}, -- [1]
-				},
 			},
 		},
 		[10790] = {
@@ -84221,9 +84221,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Molten Core",
 						["difficulties"] = {
 						},
+						["instance"] = "Molten Core",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -84766,9 +84766,9 @@ MogIt_ClothDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Blackwing Lair",
 						["difficulties"] = {
 						},
+						["instance"] = "Blackwing Lair",
 					}, -- [1]
 				},
 				["faction"] = 2,

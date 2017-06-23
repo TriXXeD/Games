@@ -35,7 +35,7 @@ AucAdvancedConfig = {
 				["uierrormsg"] = 1,
 			},
 			["ahwindowcontrol"] = {
-				["ahframeanchors"] = "TOPLEFT:TOPLEFT:0.0:-134.0",
+				["ahframeanchors"] = "TOPLEFT:TOPLEFT:49.0:-155.0",
 			},
 		},
 		["configator.top"] = 815.769246135318,
@@ -92,7 +92,7 @@ AucAdvancedServers = {
 	["KnownServerKeys"] = {
 		["#Thunderhorn"] = 1479682349,
 		["Ravencrest"] = 1468975097,
-		["Draenor"] = 1498080468,
+		["Draenor"] = 1498225071,
 		["#LaughingSkull"] = 1468186687,
 		["ArgentDawn"] = 1458341929,
 	},

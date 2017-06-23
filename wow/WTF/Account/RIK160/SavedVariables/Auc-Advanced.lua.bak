@@ -20,7 +20,7 @@ AucAdvancedConfig = {
 				["priceperitem"] = true,
 			},
 			["ahwindowcontrol"] = {
-				["ahframeanchors"] = "TOPLEFT:TOPLEFT:0.0:-134.0",
+				["ahframeanchors"] = "TOPLEFT:TOPLEFT:49.0:-155.0",
 			},
 			["automagic"] = {
 				["ammailguix"] = 160,
@@ -92,7 +92,7 @@ AucAdvancedServers = {
 	["KnownServerKeys"] = {
 		["#Thunderhorn"] = 1479682349,
 		["Ravencrest"] = 1468975097,
-		["Draenor"] = 1498073090,
+		["Draenor"] = 1498222802,
 		["ArgentDawn"] = 1458341929,
 		["#LaughingSkull"] = 1468186687,
 	},

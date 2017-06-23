@@ -247,15 +247,11 @@ function RCLootCouncil:OnInitialize()
 
 			-- List of items to ignore:
 			ignore = {
-				109693, -- Draenic Dust
-				115502, -- Small Luminous Shard
-				111245, -- Luminous Shard
-				115504, -- Fractured Temporal Crystal
-				113588, -- Temporal Crystal
-				124442, -- Chaos Crystal (Legion)
-				124441, -- Leylight Shard (Legion)
-				141303,141304,141305, -- Essence of Clarity (Emerald Nightmare quest item)
-				143656,143657,143658, -- Echo of Time (Nighthold quest item)
+				109693,115502,111245,115504,113588, -- WoD enchant mats
+				124442,124441, 							-- Chaos Crystal (Legion), Leylight Shard (Legion)
+				141303,141304,141305, 					-- Essence of Clarity (Emerald Nightmare quest item)
+				143656,143657,143658, 					-- Echo of Time (Nighthold quest item)
+				132204,151248,151249, 151250,			-- Sticky Volatile Essence, Fragment of the Guardian's Seal (Tomb of Sargeras)
 			},
 		},
 	} -- defaults end
@@ -353,7 +349,7 @@ function RCLootCouncil:OnEnable()
 	if self.db.global.version and self:VersionCompare(self.db.global.version, self.version)
 	 		or (self.db.global.tVersion and self.db.global.tVersion == "Beta.1") -- TODO Remove this extra check for beta testers
 		then -- We've upgraded
-		if self:VersionCompare(self.db.global.version, "2.4.0") or self.db.global.tVersion == "Beta.1" then -- Update lootDB with newest changes
+		if self:VersionCompare(self.db.global.version, "2.4.1") or self.db.global.tVersion == "Beta.1" then -- Update lootDB with newest changes
 			self:Print("v2.4 adds seperate buttons for tier tokens. You might want to change your buttons setup - have a look in the options menu! (/rc config)")
 			-- delay it abit
 			self:ScheduleTimer("UpdateLootHistory", 5)
@@ -1329,32 +1325,6 @@ function RCLootCouncil:IsCouncil(name)
 	 or self.nnp or self:UnitIsUnit(name, self.masterLooter) then ret = true end -- ML and nnp is always council
 	self:DebugLog(tostring(ret).." =", "IsCouncil", name)
 	return ret
-end
-
---- Fetches the council members in the current group.
--- @return table [i] = "council_man_name".
-function RCLootCouncil:GetCouncilInGroup()
-	local council = {}
-	if IsInRaid() then
-		for k,v in ipairs(self.council) do
-			if UnitInRaid(Ambiguate(v, "short")) then
-				tinsert(council, v)
-			end
-		end
-	elseif IsInGroup() then -- Party
-		for k,v in ipairs(self.council) do
-			if UnitInParty(Ambiguate(v, "short")) then
-				tinsert(council, v)
-			end
-		end
-	elseif self.isCouncil then -- When we're alone
-		tinsert(council, self.playerName)
-	end
-	if self.masterLooter and not tContains(council, self.masterLooter) then -- We always need to count the ML
-		tinsert(council, self.masterLooter)
-	end
-	self:DebugLog("GetCouncilInGroup", unpack(council))
-	return council
 end
 
 function RCLootCouncil:GetInstalledModulesFormattedData()

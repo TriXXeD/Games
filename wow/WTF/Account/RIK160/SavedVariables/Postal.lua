@@ -475,9 +475,10 @@ Postal3DB = {
 		["Daemonikos - Draenor"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"Trixxedbank|Draenor|Horde", -- [1]
-					"Achilina|Draenor|Horde", -- [2]
-					"Kedodda|Draenor|Horde", -- [3]
+					"Lupalia-Ravencrest|Draenor|Horde", -- [1]
+					"Trixxedbank|Draenor|Horde", -- [2]
+					"Achilina|Draenor|Horde", -- [3]
+					"Kedodda|Draenor|Horde", -- [4]
 				},
 			},
 		},

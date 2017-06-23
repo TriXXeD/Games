@@ -4,6 +4,7 @@ PawnOptions = {
 	["LastPlayerFullName"] = "Daemonikos-Draenor",
 	["AutoSelectScales"] = false,
 	["UpgradeTracking"] = false,
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128943] = {
 			["Relics"] = {
@@ -57,7 +58,6 @@ PawnOptions = {
 			["Name"] = "Ulthalesh, the Deadwind Harvester",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "WARLOCK",

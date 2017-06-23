@@ -269,10 +269,10 @@ PawnCommon = {
 		},
 		["Afflic"] = {
 			["PerCharacterOptions"] = {
-				["Daemonikos-Ravencrest"] = {
+				["Daemonikos-Draenor"] = {
 					["Visible"] = true,
 				},
-				["Daemonikos-Draenor"] = {
+				["Daemonikos-Ravencrest"] = {
 					["Visible"] = true,
 				},
 			},
@@ -492,20 +492,20 @@ PawnCommon = {
 			["UpgradesFollowSpecialization"] = true,
 			["Color"] = "8a28ee",
 			["PerCharacterOptions"] = {
-				["Daemonikos-Ravencrest"] = {
+				["Daemonikos-Draenor"] = {
 					["Visible"] = true,
 				},
-				["Daemonikos-Draenor"] = {
+				["Daemonikos-Ravencrest"] = {
 					["Visible"] = true,
 				},
 			},
 		},
 		["DestroCleav"] = {
 			["PerCharacterOptions"] = {
-				["Daemonikos-Ravencrest"] = {
+				["Daemonikos-Draenor"] = {
 					["Visible"] = true,
 				},
-				["Daemonikos-Draenor"] = {
+				["Daemonikos-Ravencrest"] = {
 					["Visible"] = true,
 				},
 			},
@@ -516,7 +516,7 @@ PawnCommon = {
 				["Intellect"] = 1,
 				["IsFist"] = -1000000,
 				["Indestructible"] = 0.01,
-				["IsWarglaive"] = -1000000,
+				["IsMace"] = -1000000,
 				["MovementSpeed"] = 0.01,
 				["IsAxe"] = -1000000,
 				["HasteRating"] = 0.93,
@@ -528,14 +528,14 @@ PawnCommon = {
 				["IsOffHand"] = -1000000,
 				["Is2HAxe"] = -1000000,
 				["Is2HMace"] = -1000000,
-				["IsMace"] = -1000000,
+				["Leech"] = 0.01,
 				["IsBow"] = -1000000,
 				["IsMail"] = -1000000,
 				["IsPlate"] = -1000000,
 				["IsLeather"] = -1000000,
 				["CritRating"] = 0.93,
 				["IsCrossbow"] = -1000000,
-				["Leech"] = 0.01,
+				["IsWarglaive"] = -1000000,
 				["Is2HSword"] = -1000000,
 				["IsShield"] = -1000000,
 			},

@@ -1,3 +1,12 @@
+### v2.4.1
+---
+* Added Fragment of the Guardian's Seal and Sticky Volatile Essence to the ignore list.
+
+###### Bugfixes
+ + *Tier Awards will now be announced properly (#264).*
+ + *The loot frame will now properly reset after a session.(#263)*
+ + *Huge amount of councilmembers should no longer slow down the addon. (#263)*
+
 ### v2.4.0
 ---
 **Note:**

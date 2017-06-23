@@ -52,7 +52,7 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["Enchanting"] = {
 				["isSecondary"] = false,
-				["level"] = 62,
+				["level"] = 64,
 				["maxLevel"] = 85,
 			},
 		},
@@ -98,8 +98,8 @@ TradeSkillMaster_CraftingDB = {
 		[228409] = {
 			["mats"] = {
 				["i:124441"] = 12,
-				["i:124442"] = 12,
 				["i:38682"] = 1,
+				["i:124442"] = 12,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
@@ -308,8 +308,8 @@ TradeSkillMaster_CraftingDB = {
 		},
 		[159236] = {
 			["mats"] = {
-				["i:113588"] = 1,
 				["i:38682"] = 1,
+				["i:113588"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
@@ -686,8 +686,8 @@ TradeSkillMaster_CraftingDB = {
 		},
 		[190988] = {
 			["mats"] = {
-				["i:124441"] = 1,
 				["i:38682"] = 1,
+				["i:124441"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
@@ -768,6 +768,21 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Falling Blossom Hood",
 		},
+		[8467] = {
+			["mats"] = {
+				["i:2321"] = 1,
+				["i:2997"] = 3,
+				["i:2324"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:6787",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "White Woolen Dress",
+		},
 		[142955] = {
 			["mats"] = {
 				["i:98619"] = 28,
@@ -806,21 +821,6 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["queued"] = 0,
 			["name"] = "Braised Riverbeast",
-		},
-		[8467] = {
-			["mats"] = {
-				["i:2321"] = 1,
-				["i:2997"] = 3,
-				["i:2324"] = 4,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:6787",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "White Woolen Dress",
 		},
 		[63205] = {
 			["mats"] = {
@@ -889,6 +889,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Crafted Malevolent Gladiator's Mooncloth Gloves",
 		},
+		[185944] = {
+			["mats"] = {
+				["i:124437"] = 12,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:126992",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Silkweave Epaulets",
+		},
 		[137910] = {
 			["mats"] = {
 				["i:82441"] = 5,
@@ -914,19 +927,6 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["queued"] = 0,
 			["name"] = "Rylak Crepes",
-		},
-		[185944] = {
-			["mats"] = {
-				["i:124437"] = 12,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:126992",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Silkweave Epaulets",
 		},
 		[143073] = {
 			["mats"] = {
@@ -967,6 +967,21 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["queued"] = 0,
 			["itemString"] = "i:110621",
+		},
+		[208351] = {
+			["mats"] = {
+				["i:124437"] = 16,
+				["i:127037"] = 1,
+				["i:127681"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:126990",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Silkweave Hood",
 		},
 		[55908] = {
 			["mats"] = {
@@ -1022,21 +1037,6 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Crafted Malevolent Gladiator's Felweave Cowl",
 		},
-		[208351] = {
-			["mats"] = {
-				["i:124437"] = 16,
-				["i:127037"] = 1,
-				["i:127681"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:126990",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Silkweave Hood",
-		},
 		[75247] = {
 			["mats"] = {
 				["i:53010"] = 6,
@@ -1065,6 +1065,20 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Crimson Silk Pantaloons",
 		},
+		[55921] = {
+			["mats"] = {
+				["i:41510"] = 10,
+				["i:38426"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:41549",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Duskweave Robe",
+		},
 		[56020] = {
 			["mats"] = {
 				["i:42253"] = 4,
@@ -1081,19 +1095,18 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Deep Frozen Cord",
 		},
-		[55921] = {
+		[137913] = {
 			["mats"] = {
-				["i:41510"] = 10,
-				["i:38426"] = 1,
+				["i:82441"] = 5,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:41549",
+			["itemString"] = "i:93432",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Duskweave Robe",
+			["name"] = "Crafted Dreadful Gladiator's Treads of Alacrity",
 		},
 		[63206] = {
 			["mats"] = {
@@ -1135,19 +1148,6 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Clefthoof Sausages",
 		},
-		[137913] = {
-			["mats"] = {
-				["i:82441"] = 5,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:93432",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Treads of Alacrity",
-		},
 		[229045] = {
 			["mats"] = {
 				["i:127037"] = 10,
@@ -1163,27 +1163,25 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Imbued Silkweave Bag",
 		},
-		[36315] = {
+		[12049] = {
 			["mats"] = {
-				["i:30183"] = 2,
-				["i:21842"] = 4,
-				["i:21884"] = 15,
-				["i:14341"] = 2,
+				["i:4339"] = 2,
+				["i:4291"] = 3,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:30038",
+			["itemString"] = "i:9999",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Belt of Blasting",
+			["name"] = "Black Mageweave Leggings",
 		},
 		[228406] = {
 			["mats"] = {
 				["i:124441"] = 12,
-				["i:124442"] = 12,
 				["i:38682"] = 1,
+				["i:124442"] = 12,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
@@ -1194,18 +1192,34 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:141909",
 		},
-		[160973] = {
+		[12053] = {
 			["mats"] = {
-				["i:109142"] = 10,
+				["i:4339"] = 2,
+				["i:8343"] = 2,
 			},
 			["numResult"] = 1,
-			["profession"] = "Cooking",
-			["itemString"] = "i:111439",
+			["profession"] = "Tailoring",
+			["itemString"] = "i:10003",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Steamed Scorpion",
+			["name"] = "Black Mageweave Gloves",
+		},
+		[12069] = {
+			["mats"] = {
+				["i:4339"] = 5,
+				["i:7077"] = 2,
+				["i:8343"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:10042",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Cindercloth Robe",
 		},
 		[18413] = {
 			["mats"] = {
@@ -1265,33 +1279,38 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Felcloth Boots",
 		},
-		[12049] = {
+		[36315] = {
 			["mats"] = {
-				["i:4339"] = 2,
-				["i:4291"] = 3,
+				["i:30183"] = 2,
+				["i:21842"] = 4,
+				["i:21884"] = 15,
+				["i:14341"] = 2,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:9999",
+			["itemString"] = "i:30038",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Black Mageweave Leggings",
+			["name"] = "Belt of Blasting",
 		},
-		[12053] = {
+		[18453] = {
 			["mats"] = {
-				["i:4339"] = 2,
-				["i:8343"] = 2,
+				["i:14048"] = 7,
+				["i:12662"] = 2,
+				["i:14256"] = 3,
+				["i:14341"] = 2,
+				["i:8170"] = 4,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:10003",
+			["itemString"] = "i:14112",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Black Mageweave Gloves",
+			["name"] = "Felcloth Shoulders",
 		},
 		[75249] = {
 			["mats"] = {
@@ -1348,18 +1367,18 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Crafted Dreadful Gladiator's Treads of Meditation",
 		},
-		[143088] = {
+		[160973] = {
 			["mats"] = {
-				["i:82441"] = 7,
+				["i:109142"] = 10,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:98925",
+			["profession"] = "Cooking",
+			["itemString"] = "i:111439",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Malevolent Gladiator's Felweave Amice",
+			["name"] = "Steamed Scorpion",
 		},
 		[12077] = {
 			["mats"] = {
@@ -1411,50 +1430,18 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:133570",
 		},
-		[18453] = {
+		[143086] = {
 			["mats"] = {
-				["i:14048"] = 7,
-				["i:12662"] = 2,
-				["i:14256"] = 3,
-				["i:14341"] = 2,
-				["i:8170"] = 4,
+				["i:82441"] = 8,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:14112",
+			["itemString"] = "i:98923",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Felcloth Shoulders",
-		},
-		[125551] = {
-			["mats"] = {
-				["i:72988"] = 5,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:82441",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Bolt of Windwool Cloth",
-		},
-		[55925] = {
-			["mats"] = {
-				["i:42253"] = 2,
-				["i:38426"] = 2,
-				["i:41511"] = 5,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:41553",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Black Duskweave Leggings",
+			["name"] = "Crafted Malevolent Gladiator's Felweave Trousers",
 		},
 		[55941] = {
 			["mats"] = {
@@ -1471,6 +1458,34 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Black Duskweave Robe",
 		},
+		[55925] = {
+			["mats"] = {
+				["i:42253"] = 2,
+				["i:38426"] = 2,
+				["i:41511"] = 5,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:41553",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Black Duskweave Leggings",
+		},
+		[137915] = {
+			["mats"] = {
+				["i:82441"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:93434",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Crafted Dreadful Gladiator's Cuffs of Accuracy",
+		},
 		[58512] = {
 			["mats"] = {
 				["i:43501"] = 1,
@@ -1485,19 +1500,6 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Tasty Cupcake",
 		},
-		[143086] = {
-			["mats"] = {
-				["i:82441"] = 8,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:98923",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Crafted Malevolent Gladiator's Felweave Trousers",
-		},
 		[2538] = {
 			["mats"] = {
 				["i:2672"] = 1,
@@ -1510,6 +1512,20 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["queued"] = 0,
 			["name"] = "Charred Wolf Meat",
+		},
+		[185945] = {
+			["mats"] = {
+				["i:124437"] = 16,
+				["i:127037"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:126987",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Silkweave Robe",
 		},
 		[59582] = {
 			["mats"] = {
@@ -1555,19 +1571,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Netherweave Robe",
 		},
-		[185945] = {
+		[158909] = {
 			["mats"] = {
-				["i:124437"] = 16,
-				["i:127037"] = 2,
+				["i:111245"] = 1,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:126987",
+			["profession"] = "Enchanting",
+			["name"] = "Breath of Mastery",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Silkweave Robe",
+			["itemString"] = "i:110619",
 		},
 		[137916] = {
 			["mats"] = {
@@ -1595,20 +1611,6 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["queued"] = 0,
 			["name"] = "Enchanted Spellthread",
-		},
-		[158909] = {
-			["mats"] = {
-				["i:111245"] = 1,
-				["i:38682"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Breath of Mastery",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:110619",
 		},
 		[209509] = {
 			["mats"] = {
@@ -1665,6 +1667,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Crafted Dreadful Gladiator's Cuffs of Meditation",
 		},
+		[137919] = {
+			["mats"] = {
+				["i:82441"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:93438",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Crafted Dreadful Gladiator's Drape of Prowess",
+		},
 		[213035] = {
 			["mats"] = {
 				["i:124437"] = 50,
@@ -1704,19 +1719,6 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Netherweave Net",
 		},
-		[125553] = {
-			["mats"] = {
-				["i:82441"] = 4,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:82443",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Cerulean Spellthread",
-		},
 		[169091] = {
 			["mats"] = {
 				["i:109693"] = 20,
@@ -1729,6 +1731,21 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["queued"] = 0,
 			["itemString"] = "i:111245",
+		},
+		[228404] = {
+			["mats"] = {
+				["i:124441"] = 10,
+				["i:38682"] = 1,
+				["i:124442"] = 12,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["name"] = "Mark of the Heavy Hide",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:141908",
 		},
 		[201537] = {
 			["mats"] = {
@@ -1760,20 +1777,18 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Heavy Frostweave Bandage",
 		},
-		[228404] = {
+		[74964] = {
 			["mats"] = {
-				["i:124441"] = 10,
-				["i:124442"] = 12,
-				["i:38682"] = 1,
+				["i:53010"] = 5,
 			},
 			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Mark of the Heavy Hide",
+			["profession"] = "Tailoring",
+			["itemString"] = "i:53643",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:141908",
+			["name"] = "Bolt of Embersilk Cloth",
 		},
 		[142964] = {
 			["mats"] = {
@@ -1815,18 +1830,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Deathsilk Shoulders",
 		},
-		[137919] = {
+		[158907] = {
 			["mats"] = {
-				["i:82441"] = 4,
+				["i:111245"] = 1,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:93438",
+			["profession"] = "Enchanting",
+			["name"] = "Breath of Critical Strike",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Drape of Prowess",
+			["itemString"] = "i:110617",
 		},
 		[185954] = {
 			["mats"] = {
@@ -1842,19 +1858,18 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Imbued Silkweave Bracers",
 		},
-		[75252] = {
+		[160979] = {
 			["mats"] = {
-				["i:53643"] = 3,
-				["i:38426"] = 2,
+				["i:109140"] = 10,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:54477",
+			["profession"] = "Cooking",
+			["itemString"] = "i:111442",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Deathsilk Boots",
+			["name"] = "Sturgeon Stew",
 		},
 		[146925] = {
 			["mats"] = {
@@ -1884,32 +1899,31 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Antiseptic Bandage",
 		},
-		[158907] = {
+		[168836] = {
 			["mats"] = {
-				["i:111245"] = 1,
-				["i:38682"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Breath of Critical Strike",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:110617",
-		},
-		[74964] = {
-			["mats"] = {
-				["i:53010"] = 5,
+				["i:111557"] = 30,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:53643",
+			["itemString"] = "i:114836",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Bolt of Embersilk Cloth",
+			["name"] = "Hexweave Embroidery",
+		},
+		[125553] = {
+			["mats"] = {
+				["i:82441"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:82443",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Cerulean Spellthread",
 		},
 		[160978] = {
 			["mats"] = {
@@ -1924,48 +1938,46 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Grilled Gulper",
 		},
-		[168836] = {
+		[18406] = {
 			["mats"] = {
-				["i:111557"] = 30,
+				["i:14048"] = 5,
+				["i:14227"] = 1,
+				["i:14341"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:114836",
+			["itemString"] = "i:13858",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Hexweave Embroidery",
+			["name"] = "Runecloth Robe",
 		},
-		[172541] = {
+		[137921] = {
 			["mats"] = {
-				["i:109144"] = 10,
-			},
-			["numResult"] = 1,
-			["profession"] = "First Aid",
-			["itemString"] = "i:116979",
-			["players"] = {
-				["Daemonikos"] = true,
-				["Achilina"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Blackwater Anti-Venom",
-		},
-		[59583] = {
-			["mats"] = {
-				["i:41511"] = 3,
-				["i:38426"] = 2,
-				["i:37701"] = 3,
-				["i:37702"] = 3,
+				["i:82441"] = 5,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:43974",
+			["itemString"] = "i:93499",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Frostsavage Bracers",
+			["name"] = "Crafted Dreadful Gladiator's Silk Handguards",
+		},
+		[201539] = {
+			["mats"] = {
+				["i:133607"] = 5,
+			},
+			["numResult"] = 7,
+			["profession"] = "Cooking",
+			["itemString"] = "i:133575",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Dried Mackerel Strips",
 		},
 		[56022] = {
 			["mats"] = {
@@ -1997,18 +2009,18 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Healing Tonic",
 		},
-		[137921] = {
+		[143066] = {
 			["mats"] = {
-				["i:82441"] = 5,
+				["i:82441"] = 6,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:93499",
+			["itemString"] = "i:98774",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Silk Handguards",
+			["name"] = "Crafted Malevolent Gladiator's Drape of Meditation",
 		},
 		[213037] = {
 			["mats"] = {
@@ -2024,31 +2036,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Clothes Chest: Molten Core",
 		},
-		[160979] = {
+		[7418] = {
 			["mats"] = {
-				["i:109140"] = 10,
+				["i:38682"] = 1,
+				["i:10940"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Cooking",
-			["itemString"] = "i:111442",
+			["profession"] = "Enchanting",
+			["name"] = "Minor Health",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Sturgeon Stew",
-		},
-		[143066] = {
-			["mats"] = {
-				["i:82441"] = 6,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:98774",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Crafted Malevolent Gladiator's Drape of Meditation",
+			["itemString"] = "i:38679",
 		},
 		[75253] = {
 			["mats"] = {
@@ -2064,6 +2064,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Deathsilk Gloves",
 		},
+		[137923] = {
+			["mats"] = {
+				["i:82441"] = 6,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:93501",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Crafted Dreadful Gladiator's Silk Trousers",
+		},
 		[201540] = {
 			["mats"] = {
 				["i:133591"] = 1,
@@ -2078,35 +2091,34 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Bear Tartare",
 		},
-		[8764] = {
+		[56031] = {
 			["mats"] = {
-				["i:4305"] = 3,
-				["i:7067"] = 1,
-				["i:2321"] = 2,
+				["i:41510"] = 3,
+				["i:38426"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:7051",
+			["itemString"] = "i:41512",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Earthen Vest",
+			["name"] = "Frostwoven Wristwraps",
 		},
-		[18406] = {
+		[7428] = {
 			["mats"] = {
-				["i:14048"] = 5,
-				["i:14227"] = 1,
-				["i:14341"] = 1,
+				["i:38682"] = 1,
+				["i:10938"] = 1,
+				["i:10940"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:13858",
+			["profession"] = "Enchanting",
+			["name"] = "Minor Dodge",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Runecloth Robe",
+			["itemString"] = "i:38768",
 		},
 		[18414] = {
 			["mats"] = {
@@ -2141,19 +2153,18 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Temporal Crystal",
 		},
-		[56031] = {
+		[125523] = {
 			["mats"] = {
-				["i:41510"] = 3,
-				["i:38426"] = 1,
+				["i:82441"] = 5,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:41512",
+			["itemString"] = "i:82397",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Frostwoven Wristwraps",
+			["name"] = "Windwool Hood",
 		},
 		[18438] = {
 			["mats"] = {
@@ -2185,46 +2196,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Wizardweave Robe",
 		},
-		[168837] = {
+		[182123] = {
 			["mats"] = {
-				["i:111556"] = 100,
-				["i:109119"] = 10,
+				["i:120945"] = 1,
+				["i:111557"] = 10,
 			},
-			["numResult"] = 1,
+			["numResult"] = 2,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:114809",
+			["itemString"] = "i:111556",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Hexweave Mantle",
-		},
-		[125523] = {
-			["mats"] = {
-				["i:82441"] = 5,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:82397",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Windwool Hood",
-		},
-		[172542] = {
-			["mats"] = {
-				["i:109141"] = 10,
-			},
-			["numResult"] = 1,
-			["profession"] = "First Aid",
-			["itemString"] = "i:116981",
-			["players"] = {
-				["Daemonikos"] = true,
-				["Achilina"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Fire Ammonite Oil",
+			["name"] = "Hexweave Cloth",
 		},
 		[55911] = {
 			["mats"] = {
@@ -2240,6 +2224,36 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["queued"] = 0,
 			["name"] = "Mystic Frostwoven Robe",
+		},
+		[172542] = {
+			["mats"] = {
+				["i:109141"] = 10,
+			},
+			["numResult"] = 1,
+			["profession"] = "First Aid",
+			["itemString"] = "i:116981",
+			["players"] = {
+				["Daemonikos"] = true,
+				["Achilina"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Fire Ammonite Oil",
+		},
+		[191003] = {
+			["mats"] = {
+				["i:124440"] = 30,
+				["i:124442"] = 8,
+				["i:124124"] = 2,
+				["i:38682"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["name"] = "Binding of Strength",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:128548",
 		},
 		[137922] = {
 			["mats"] = {
@@ -2267,18 +2281,22 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Fat Sleeper Cakes",
 		},
-		[137923] = {
+		[185957] = {
 			["mats"] = {
-				["i:82441"] = 6,
+				["i:124106"] = 2,
+				["i:127004"] = 8,
+				["i:127037"] = 2,
+				["i:124124"] = 2,
+				["i:127681"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:93501",
+			["itemString"] = "i:126999",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Silk Trousers",
+			["name"] = "Imbued Silkweave Pantaloons",
 		},
 		[8760] = {
 			["mats"] = {
@@ -2309,22 +2327,18 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Hexweave Cowl",
 		},
-		[185957] = {
+		[160983] = {
 			["mats"] = {
-				["i:124106"] = 2,
-				["i:127004"] = 8,
-				["i:127037"] = 2,
-				["i:124124"] = 2,
-				["i:127681"] = 1,
+				["i:109138"] = 10,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:126999",
+			["profession"] = "Cooking",
+			["itemString"] = "i:111446",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Imbued Silkweave Pantaloons",
+			["name"] = "Skulker Chowder",
 		},
 		[8772] = {
 			["mats"] = {
@@ -2342,21 +2356,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Crimson Silk Belt",
 		},
-		[191003] = {
+		[8776] = {
 			["mats"] = {
-				["i:124440"] = 30,
-				["i:124442"] = 8,
-				["i:124124"] = 2,
-				["i:38682"] = 1,
+				["i:2320"] = 1,
+				["i:2996"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Binding of Strength",
+			["profession"] = "Tailoring",
+			["itemString"] = "i:7026",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:128548",
+			["name"] = "Linen Belt",
 		},
 		[55943] = {
 			["mats"] = {
@@ -2386,19 +2398,6 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Fiery Calamari",
 		},
-		[160983] = {
-			["mats"] = {
-				["i:109138"] = 10,
-			},
-			["numResult"] = 1,
-			["profession"] = "Cooking",
-			["itemString"] = "i:111446",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Skulker Chowder",
-		},
 		[201544] = {
 			["mats"] = {
 				["i:124117"] = 5,
@@ -2413,6 +2412,20 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["queued"] = 0,
 			["name"] = "Salt & Pepper Shank",
+		},
+		[8774] = {
+			["mats"] = {
+				["i:4305"] = 5,
+				["i:4291"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:7057",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Green Silken Shoulders",
 		},
 		[56007] = {
 			["mats"] = {
@@ -2463,19 +2476,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Crimson Silk Gloves",
 		},
-		[8774] = {
+		[55903] = {
 			["mats"] = {
-				["i:4305"] = 5,
-				["i:4291"] = 2,
+				["i:41510"] = 4,
+				["i:38426"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:7057",
+			["itemString"] = "i:41515",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Green Silken Shoulders",
+			["name"] = "Frostwoven Robe",
 		},
 		[137924] = {
 			["mats"] = {
@@ -2504,33 +2517,33 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Deathsilk Leggings",
 		},
-		[55903] = {
+		[125556] = {
 			["mats"] = {
-				["i:41510"] = 4,
-				["i:38426"] = 1,
+				["i:82447"] = 12,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:41515",
+			["itemString"] = "i:82446",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Frostwoven Robe",
+			["name"] = "Royal Satchel",
 		},
-		[168842] = {
+		[201547] = {
 			["mats"] = {
-				["i:111556"] = 100,
-				["i:111557"] = 1,
+				["i:133591"] = 2,
+				["i:124121"] = 5,
+				["i:133593"] = 3,
 			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:114814",
+			["numResult"] = 10,
+			["profession"] = "Cooking",
+			["itemString"] = "i:133563",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Hexweave Bracers",
+			["name"] = "Faronaar Fizz",
 		},
 		[168840] = {
 			["mats"] = {
@@ -2565,18 +2578,18 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Secret of Draenor Tailoring",
 		},
-		[137927] = {
+		[2964] = {
 			["mats"] = {
-				["i:82441"] = 6,
+				["i:2592"] = 3,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:93551",
+			["itemString"] = "i:2997",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Mooncloth Helm",
+			["name"] = "Bolt of Woolen Cloth",
 		},
 		[125524] = {
 			["mats"] = {
@@ -2619,18 +2632,18 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Talador Surf and Turf",
 		},
-		[2964] = {
+		[2963] = {
 			["mats"] = {
-				["i:2592"] = 3,
+				["i:2589"] = 2,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:2997",
+			["itemString"] = "i:2996",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Bolt of Woolen Cloth",
+			["name"] = "Bolt of Linen Cloth",
 		},
 		[3755] = {
 			["mats"] = {
@@ -2674,33 +2687,33 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Woolen Bag",
 		},
-		[2963] = {
+		[168842] = {
 			["mats"] = {
-				["i:2589"] = 2,
+				["i:111556"] = 100,
+				["i:111557"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:2996",
+			["itemString"] = "i:114814",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Bolt of Linen Cloth",
+			["name"] = "Hexweave Bracers",
 		},
-		[191006] = {
+		[18415] = {
 			["mats"] = {
-				["i:124441"] = 12,
-				["i:124442"] = 12,
-				["i:38682"] = 1,
+				["i:14048"] = 4,
+				["i:3577"] = 2,
 			},
 			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Mark of the Claw",
+			["profession"] = "Tailoring",
+			["itemString"] = "i:14101",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:128551",
+			["name"] = "Brightcloth Gloves",
 		},
 		[137926] = {
 			["mats"] = {
@@ -2729,34 +2742,35 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Ghostly Spellthread",
 		},
-		[59585] = {
+		[185961] = {
 			["mats"] = {
-				["i:41511"] = 3,
-				["i:38426"] = 2,
-				["i:37701"] = 4,
-				["i:37702"] = 4,
+				["i:124106"] = 2,
+				["i:127037"] = 2,
+				["i:127004"] = 60,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:43970",
+			["itemString"] = "i:126995",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Frostsavage Boots",
+			["name"] = "Imbued Silkweave Robe",
 		},
-		[125526] = {
+		[45022] = {
 			["mats"] = {
-				["i:82441"] = 4,
+				["i:34412"] = 1,
+				["i:17196"] = 1,
+				["i:17194"] = 1,
 			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:82400",
+			["numResult"] = 2,
+			["profession"] = "Cooking",
+			["itemString"] = "i:34411",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Windwool Gloves",
+			["name"] = "Hot Apple Cider",
 		},
 		[60990] = {
 			["mats"] = {
@@ -2775,20 +2789,18 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Glacial Waistband",
 		},
-		[201547] = {
+		[137928] = {
 			["mats"] = {
-				["i:133591"] = 2,
-				["i:124121"] = 5,
-				["i:133593"] = 3,
+				["i:82441"] = 6,
 			},
-			["numResult"] = 10,
-			["profession"] = "Cooking",
-			["itemString"] = "i:133563",
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:93552",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Faronaar Fizz",
+			["name"] = "Crafted Dreadful Gladiator's Mooncloth Leggings",
 		},
 		[160987] = {
 			["mats"] = {
@@ -2818,20 +2830,18 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Windwool Tunic",
 		},
-		[185961] = {
+		[137927] = {
 			["mats"] = {
-				["i:124106"] = 2,
-				["i:127037"] = 2,
-				["i:127004"] = 60,
+				["i:82441"] = 6,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:126995",
+			["itemString"] = "i:93551",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Imbued Silkweave Robe",
+			["name"] = "Crafted Dreadful Gladiator's Mooncloth Helm",
 		},
 		[160986] = {
 			["mats"] = {
@@ -2848,34 +2858,32 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Blackrock Barbecue",
 		},
-		[191009] = {
+		[125526] = {
 			["mats"] = {
-				["i:124440"] = 10,
-				["i:38682"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Word of Critical Strike",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:128537",
-		},
-		[18423] = {
-			["mats"] = {
-				["i:14048"] = 4,
-				["i:8170"] = 2,
-				["i:14341"] = 1,
+				["i:82441"] = 4,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:13864",
+			["itemString"] = "i:82400",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Runecloth Boots",
+			["name"] = "Windwool Gloves",
+		},
+		[12046] = {
+			["mats"] = {
+				["i:2321"] = 1,
+				["i:2996"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:10047",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Simple Kilt",
 		},
 		[56008] = {
 			["mats"] = {
@@ -2907,25 +2915,26 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Moonshroud Robe",
 		},
-		[3275] = {
+		[201549] = {
 			["mats"] = {
-				["i:2589"] = 1,
+				["i:124120"] = 5,
+				["i:124119"] = 5,
+				["i:133589"] = 5,
 			},
-			["numResult"] = 1,
-			["profession"] = "First Aid",
-			["itemString"] = "i:1251",
+			["numResult"] = 10,
+			["profession"] = "Cooking",
+			["itemString"] = "i:133565",
 			["players"] = {
 				["Daemonikos"] = true,
-				["Achilina"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Linen Bandage",
+			["name"] = "Leybeque Ribs",
 		},
 		[191008] = {
 			["mats"] = {
 				["i:124441"] = 12,
-				["i:124442"] = 12,
 				["i:38682"] = 1,
+				["i:124442"] = 12,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
@@ -2964,34 +2973,35 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Deathsilk Cowl",
 		},
-		[201549] = {
+		[8489] = {
 			["mats"] = {
-				["i:124120"] = 5,
-				["i:124119"] = 5,
-				["i:133589"] = 5,
-			},
-			["numResult"] = 10,
-			["profession"] = "Cooking",
-			["itemString"] = "i:133565",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Leybeque Ribs",
-		},
-		[191010] = {
-			["mats"] = {
-				["i:124440"] = 10,
-				["i:38682"] = 1,
+				["i:4305"] = 3,
+				["i:4291"] = 1,
+				["i:2604"] = 2,
 			},
 			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Word of Haste",
+			["profession"] = "Tailoring",
+			["itemString"] = "i:6796",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:128538",
+			["name"] = "Red Swashbuckler's Shirt",
+		},
+		[160989] = {
+			["mats"] = {
+				["i:109127"] = 1,
+				["i:111444"] = 5,
+				["i:111436"] = 5,
+			},
+			["numResult"] = 1,
+			["profession"] = "Cooking",
+			["itemString"] = "i:111452",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Sleeper Surprise",
 		},
 		[168844] = {
 			["mats"] = {
@@ -3007,18 +3017,21 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Hexweave Belt",
 		},
-		[137930] = {
+		[201551] = {
 			["mats"] = {
-				["i:82441"] = 5,
+				["i:124120"] = 5,
+				["i:124112"] = 5,
+				["i:133590"] = 4,
+				["i:133591"] = 1,
 			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:93554",
+			["numResult"] = 10,
+			["profession"] = "Cooking",
+			["itemString"] = "i:133567",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Mooncloth Mantle",
+			["name"] = "Barracuda Mrglgagh",
 		},
 		[18407] = {
 			["mats"] = {
@@ -3035,19 +3048,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Runecloth Tunic",
 		},
-		[18415] = {
+		[191009] = {
 			["mats"] = {
-				["i:14048"] = 4,
-				["i:3577"] = 2,
+				["i:124440"] = 10,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:14101",
+			["profession"] = "Enchanting",
+			["name"] = "Word of Critical Strike",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Brightcloth Gloves",
+			["itemString"] = "i:128537",
 		},
 		[137929] = {
 			["mats"] = {
@@ -3078,19 +3091,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Simple Dress",
 		},
-		[12046] = {
+		[3275] = {
 			["mats"] = {
-				["i:2321"] = 1,
-				["i:2996"] = 4,
+				["i:2589"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:10047",
+			["profession"] = "First Aid",
+			["itemString"] = "i:1251",
 			["players"] = {
 				["Daemonikos"] = true,
+				["Achilina"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Simple Kilt",
+			["name"] = "Linen Bandage",
 		},
 		[12050] = {
 			["mats"] = {
@@ -3106,20 +3119,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Black Mageweave Robe",
 		},
-		[45022] = {
+		[168845] = {
 			["mats"] = {
-				["i:34412"] = 1,
-				["i:17196"] = 1,
-				["i:17194"] = 1,
+				["i:111556"] = 100,
+				["i:109219"] = 1,
 			},
-			["numResult"] = 2,
-			["profession"] = "Cooking",
-			["itemString"] = "i:34411",
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:114817",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Hot Apple Cider",
+			["name"] = "Powerful Hexweave Cloak",
 		},
 		[168846] = {
 			["mats"] = {
@@ -3135,50 +3147,45 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Nimble Hexweave Cloak",
 		},
-		[191011] = {
+		[125527] = {
+			["mats"] = {
+				["i:82441"] = 5,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:82401",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Windwool Pants",
+		},
+		[191010] = {
 			["mats"] = {
 				["i:124440"] = 10,
 				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Word of Mastery",
+			["name"] = "Word of Haste",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:128539",
+			["itemString"] = "i:128538",
 		},
-		[8489] = {
+		[137930] = {
 			["mats"] = {
-				["i:4305"] = 3,
-				["i:4291"] = 1,
-				["i:2604"] = 2,
+				["i:82441"] = 5,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:6796",
+			["itemString"] = "i:93554",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Red Swashbuckler's Shirt",
-		},
-		[12070] = {
-			["mats"] = {
-				["i:8153"] = 6,
-				["i:4339"] = 6,
-				["i:10286"] = 2,
-				["i:8343"] = 2,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:10021",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Dreamweave Vest",
+			["name"] = "Crafted Dreadful Gladiator's Mooncloth Mantle",
 		},
 		[12074] = {
 			["mats"] = {
@@ -3194,21 +3201,21 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Black Mageweave Shoulders",
 		},
-		[59586] = {
+		[56025] = {
 			["mats"] = {
-				["i:41511"] = 3,
-				["i:38426"] = 2,
-				["i:37701"] = 4,
-				["i:37702"] = 4,
+				["i:41594"] = 4,
+				["i:38426"] = 1,
+				["i:41511"] = 4,
+				["i:43102"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:41516",
+			["itemString"] = "i:42103",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Frostsavage Gloves",
+			["name"] = "Moonshroud Gloves",
 		},
 		[12082] = {
 			["mats"] = {
@@ -3242,21 +3249,21 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Suramar Surf and Turf",
 		},
-		[201551] = {
+		[191076] = {
 			["mats"] = {
-				["i:124120"] = 5,
-				["i:124112"] = 5,
-				["i:133590"] = 4,
-				["i:133591"] = 1,
+				["i:124440"] = 50,
+				["i:124442"] = 5,
+				["i:124441"] = 20,
+				["i:124116"] = 10,
 			},
-			["numResult"] = 10,
-			["profession"] = "Cooking",
-			["itemString"] = "i:133567",
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["name"] = "Enchanted Pen",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Barracuda Mrglgagh",
+			["itemString"] = "i:128535",
 		},
 		[55913] = {
 			["mats"] = {
@@ -3273,18 +3280,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Mystic Frostwoven Wristwraps",
 		},
-		[125527] = {
+		[191011] = {
 			["mats"] = {
-				["i:82441"] = 5,
+				["i:124440"] = 10,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:82401",
+			["profession"] = "Enchanting",
+			["name"] = "Word of Mastery",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Windwool Pants",
+			["itemString"] = "i:128539",
 		},
 		[137931] = {
 			["mats"] = {
@@ -3298,22 +3306,6 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["queued"] = 0,
 			["name"] = "Crafted Dreadful Gladiator's Satin Gloves",
-		},
-		[191076] = {
-			["mats"] = {
-				["i:124440"] = 50,
-				["i:124442"] = 5,
-				["i:124116"] = 10,
-				["i:124441"] = 20,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Enchanted Pen",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:128535",
 		},
 		[168848] = {
 			["mats"] = {
@@ -3329,20 +3321,31 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Hexweave Bag",
 		},
-		[191013] = {
+		[125528] = {
 			["mats"] = {
-				["i:124440"] = 35,
-				["i:124442"] = 4,
-				["i:38682"] = 1,
+				["i:82441"] = 3,
 			},
 			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Binding of Critical Strike",
+			["profession"] = "Tailoring",
+			["itemString"] = "i:82402",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:128541",
+			["name"] = "Windwool Bracers",
+		},
+		[137933] = {
+			["mats"] = {
+				["i:82441"] = 6,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:93557",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Crafted Dreadful Gladiator's Satin Leggings",
 		},
 		[168847] = {
 			["mats"] = {
@@ -3374,18 +3377,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Mantle of Nimble Thought",
 		},
-		[137933] = {
+		[3848] = {
 			["mats"] = {
-				["i:82441"] = 6,
+				["i:2997"] = 3,
+				["i:2321"] = 2,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:93557",
+			["itemString"] = "i:4314",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Satin Leggings",
+			["name"] = "Double-Stitched Woolen Shoulders",
 		},
 		[191012] = {
 			["mats"] = {
@@ -3443,19 +3447,24 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Vicious Fireweave Bracers",
 		},
-		[56010] = {
-			["mats"] = {
-				["i:42253"] = 2,
-				["i:37702"] = 2,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:41603",
+		[177043] = {
 			["players"] = {
 				["Daemonikos"] = true,
 			},
+			["numResult"] = 1,
+			["cooldownTimes"] = {
+				["Daemonikos"] = {
+					["endTime"] = 0,
+				},
+			},
+			["hasCD"] = true,
+			["mats"] = {
+				["i:109693"] = 3,
+			},
+			["itemString"] = "i:119293",
+			["profession"] = "Enchanting",
 			["queued"] = 0,
-			["name"] = "Azure Spellthread",
+			["name"] = "Secret of Draenor Enchanting",
 		},
 		[201552] = {
 			["mats"] = {
@@ -3488,31 +3497,34 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Small Silk Pack",
 		},
-		[137936] = {
+		[18416] = {
 			["mats"] = {
-				["i:82441"] = 4,
+				["i:14048"] = 2,
+				["i:9210"] = 3,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:93607",
+			["itemString"] = "i:14141",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Cloak of Alacrity",
+			["name"] = "Ghostweave Vest",
 		},
-		[125528] = {
+		[191013] = {
 			["mats"] = {
-				["i:82441"] = 3,
+				["i:124440"] = 35,
+				["i:124442"] = 4,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:82402",
+			["profession"] = "Enchanting",
+			["name"] = "Binding of Critical Strike",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Windwool Bracers",
+			["itemString"] = "i:128541",
 		},
 		[7624] = {
 			["mats"] = {
@@ -3529,56 +3541,48 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "White Linen Robe",
 		},
-		[177043] = {
-			["players"] = {
-				["Daemonikos"] = true,
+		[59587] = {
+			["mats"] = {
+				["i:41511"] = 4,
+				["i:38426"] = 2,
+				["i:37701"] = 5,
+				["i:37702"] = 5,
 			},
 			["numResult"] = 1,
-			["cooldownTimes"] = {
-				["Daemonikos"] = {
-					["endTime"] = 0,
-				},
-			},
-			["hasCD"] = true,
-			["mats"] = {
-				["i:109693"] = 3,
-			},
-			["itemString"] = "i:119293",
-			["profession"] = "Enchanting",
-			["queued"] = 0,
-			["name"] = "Secret of Draenor Enchanting",
-		},
-		[201555] = {
-			["mats"] = {
-				["i:124104"] = 5,
-				["i:124102"] = 5,
-				["i:124101"] = 5,
-				["i:133566"] = 1,
-				["i:124103"] = 5,
-			},
-			["numResult"] = 10,
-			["profession"] = "Cooking",
-			["itemString"] = "i:133571",
+			["profession"] = "Tailoring",
+			["itemString"] = "i:43972",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Azshari Salad",
+			["name"] = "Frostsavage Robe",
 		},
-		[191016] = {
+		[137936] = {
 			["mats"] = {
-				["i:124440"] = 35,
-				["i:124442"] = 4,
-				["i:38682"] = 1,
+				["i:82441"] = 4,
 			},
 			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Binding of Versatility",
+			["profession"] = "Tailoring",
+			["itemString"] = "i:93607",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:128544",
+			["name"] = "Crafted Dreadful Gladiator's Cloak of Alacrity",
+		},
+		[75260] = {
+			["mats"] = {
+				["i:53643"] = 9,
+				["i:52326"] = 5,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:54479",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Spiritmend Shoulders",
 		},
 		[168849] = {
 			["mats"] = {
@@ -3594,32 +3598,35 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Elekk Plushie",
 		},
-		[168852] = {
+		[201556] = {
 			["mats"] = {
-				["i:111557"] = 50,
+				["i:124105"] = 1,
+				["i:124121"] = 5,
+				["i:133592"] = 10,
+				["i:129100"] = 20,
+				["i:133567"] = 1,
+			},
+			["numResult"] = 10,
+			["profession"] = "Cooking",
+			["itemString"] = "i:133572",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Nightborne Delicacy Platter",
+		},
+		[125530] = {
+			["mats"] = {
+				["i:82441"] = 4,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:114828",
+			["itemString"] = "i:82404",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Sumptuous Cowl",
-		},
-		[191017] = {
-			["mats"] = {
-				["i:124441"] = 12,
-				["i:38682"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Word of Strength",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:128545",
+			["name"] = "Windwool Belt",
 		},
 		[191014] = {
 			["mats"] = {
@@ -3763,18 +3770,20 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Crafted Dreadful Gladiator's Satin Mantle",
 		},
-		[125530] = {
+		[3852] = {
 			["mats"] = {
-				["i:82441"] = 4,
+				["i:2321"] = 3,
+				["i:3383"] = 1,
+				["i:2997"] = 4,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:82404",
+			["itemString"] = "i:4318",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Windwool Belt",
+			["name"] = "Gloves of Meditation",
 		},
 		[186097] = {
 			["mats"] = {
@@ -3791,36 +3800,36 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Silkweave Cover",
 		},
-		[18424] = {
+		[191018] = {
 			["mats"] = {
-				["i:14048"] = 6,
-				["i:6260"] = 2,
-				["i:14341"] = 1,
+				["i:38682"] = 1,
+				["i:124441"] = 12,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:13871",
+			["profession"] = "Enchanting",
+			["name"] = "Word of Agility",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Frostweave Pants",
+			["itemString"] = "i:128546",
 		},
-		[59587] = {
+		[201555] = {
 			["mats"] = {
-				["i:41511"] = 4,
-				["i:38426"] = 2,
-				["i:37701"] = 5,
-				["i:37702"] = 5,
+				["i:124104"] = 5,
+				["i:124102"] = 5,
+				["i:124101"] = 5,
+				["i:133566"] = 1,
+				["i:124103"] = 5,
 			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:43972",
+			["numResult"] = 10,
+			["profession"] = "Cooking",
+			["itemString"] = "i:133571",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Frostsavage Robe",
+			["name"] = "Azshari Salad",
 		},
 		[56026] = {
 			["mats"] = {
@@ -3853,18 +3862,20 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Frostguard Drape",
 		},
-		[3839] = {
+		[191016] = {
 			["mats"] = {
-				["i:4306"] = 4,
+				["i:124440"] = 35,
+				["i:124442"] = 4,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:4305",
+			["profession"] = "Enchanting",
+			["name"] = "Binding of Versatility",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Bolt of Silk Cloth",
+			["itemString"] = "i:128544",
 		},
 		[3840] = {
 			["mats"] = {
@@ -3924,22 +3935,18 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Heavy Woolen Gloves",
 		},
-		[201556] = {
+		[168852] = {
 			["mats"] = {
-				["i:124105"] = 1,
-				["i:124121"] = 5,
-				["i:133592"] = 10,
-				["i:129100"] = 20,
-				["i:133567"] = 1,
+				["i:111557"] = 50,
 			},
-			["numResult"] = 10,
-			["profession"] = "Cooking",
-			["itemString"] = "i:133572",
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:114828",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Nightborne Delicacy Platter",
+			["name"] = "Sumptuous Cowl",
 		},
 		[3845] = {
 			["mats"] = {
@@ -3956,62 +3963,62 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Soft-Soled Linen Boots",
 		},
-		[6690] = {
+		[230046] = {
 			["mats"] = {
-				["i:3182"] = 2,
-				["i:4305"] = 2,
-				["i:2321"] = 2,
+				["i:142336"] = 2,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:5766",
+			["profession"] = "Cooking",
+			["itemString"] = "i:142334",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Lesser Wizard's Robe",
+			["name"] = "Spiced Falcosaur Omelet",
 		},
-		[18416] = {
+		[191017] = {
 			["mats"] = {
-				["i:14048"] = 2,
-				["i:9210"] = 3,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:14141",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Ghostweave Vest",
-		},
-		[3848] = {
-			["mats"] = {
-				["i:2997"] = 3,
-				["i:2321"] = 2,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:4314",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Double-Stitched Woolen Shoulders",
-		},
-		[191018] = {
-			["mats"] = {
-				["i:124441"] = 12,
 				["i:38682"] = 1,
+				["i:124441"] = 12,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Word of Agility",
+			["name"] = "Word of Strength",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:128546",
+			["itemString"] = "i:128545",
+		},
+		[137937] = {
+			["mats"] = {
+				["i:82441"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:93608",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Crafted Dreadful Gladiator's Cloak of Prowess",
+		},
+		[60993] = {
+			["mats"] = {
+				["i:36860"] = 3,
+				["i:35622"] = 3,
+				["i:38426"] = 3,
+				["i:41511"] = 6,
+				["i:43102"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:43583",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Glacial Robe",
 		},
 		[3850] = {
 			["mats"] = {
@@ -4027,18 +4034,20 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Heavy Woolen Pants",
 		},
-		[168854] = {
+		[3866] = {
 			["mats"] = {
-				["i:111557"] = 50,
+				["i:2321"] = 1,
+				["i:2997"] = 3,
+				["i:2604"] = 2,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:114831",
+			["itemString"] = "i:4330",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Sumptuous Leggings",
+			["name"] = "Stylish Red Shirt",
 		},
 		[168853] = {
 			["mats"] = {
@@ -4053,24 +4062,26 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Sumptuous Robes",
 		},
-		[55995] = {
+		[8793] = {
 			["mats"] = {
-				["i:41510"] = 4,
-				["i:4341"] = 1,
+				["i:4305"] = 5,
+				["i:6371"] = 2,
+				["i:4291"] = 2,
+				["i:2604"] = 2,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:41251",
+			["itemString"] = "i:7059",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Yellow Lumberjack Shirt",
+			["name"] = "Crimson Silk Shoulders",
 		},
 		[190954] = {
 			["mats"] = {
-				["i:124441"] = 2,
 				["i:38682"] = 1,
+				["i:124441"] = 2,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
@@ -4153,22 +4164,18 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Dreamcloth",
 		},
-		[60993] = {
+		[168854] = {
 			["mats"] = {
-				["i:36860"] = 3,
-				["i:35622"] = 3,
-				["i:38426"] = 3,
-				["i:41511"] = 6,
-				["i:43102"] = 1,
+				["i:111557"] = 50,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:43583",
+			["itemString"] = "i:114831",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Glacial Robe",
+			["name"] = "Sumptuous Leggings",
 		},
 		[55899] = {
 			["mats"] = {
@@ -4183,24 +4190,25 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Bolt of Frostweave",
 		},
-		[75262] = {
+		[160999] = {
 			["mats"] = {
-				["i:53643"] = 4,
-				["i:38426"] = 2,
+				["i:111437"] = 5,
+				["i:111445"] = 5,
+				["i:109128"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:54484",
+			["profession"] = "Cooking",
+			["itemString"] = "i:111453",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Spiritmend Gloves",
+			["name"] = "Calamari Crepes",
 		},
 		[191019] = {
 			["mats"] = {
-				["i:124441"] = 12,
 				["i:38682"] = 1,
+				["i:124441"] = 12,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
@@ -4250,36 +4258,35 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Feathered Luffa",
 		},
-		[8793] = {
+		[55995] = {
 			["mats"] = {
-				["i:4305"] = 5,
-				["i:6371"] = 2,
-				["i:4291"] = 2,
-				["i:2604"] = 2,
+				["i:41510"] = 4,
+				["i:4341"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:7059",
+			["itemString"] = "i:41251",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crimson Silk Shoulders",
+			["name"] = "Yellow Lumberjack Shirt",
 		},
-		[168855] = {
+		[59588] = {
 			["mats"] = {
-				["i:113262"] = 15,
-				["i:118472"] = 15,
-				["i:111556"] = 70,
+				["i:41511"] = 4,
+				["i:38426"] = 2,
+				["i:37701"] = 5,
+				["i:37702"] = 5,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:128012",
+			["itemString"] = "i:43975",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Hexweave Essence",
+			["name"] = "Frostsavage Leggings",
 		},
 		[56027] = {
 			["mats"] = {
@@ -4340,20 +4347,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Crafted Dreadful Gladiator's Felweave Trousers",
 		},
-		[160999] = {
+		[75262] = {
 			["mats"] = {
-				["i:111437"] = 5,
-				["i:111445"] = 5,
-				["i:109128"] = 1,
+				["i:53643"] = 4,
+				["i:38426"] = 2,
 			},
 			["numResult"] = 1,
-			["profession"] = "Cooking",
-			["itemString"] = "i:111453",
+			["profession"] = "Tailoring",
+			["itemString"] = "i:54484",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Calamari Crepes",
+			["name"] = "Spiritmend Gloves",
 		},
 		[75294] = {
 			["mats"] = {
@@ -4369,20 +4375,6 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["queued"] = 0,
 			["name"] = "Vicious Fireweave Boots",
-		},
-		[168839] = {
-			["mats"] = {
-				["i:111556"] = 100,
-				["i:110609"] = 4,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:114811",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Hexweave Leggings",
 		},
 		[44958] = {
 			["mats"] = {
@@ -4428,6 +4420,20 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Clothes Chest: Karazhan Opera House",
 		},
+		[7623] = {
+			["mats"] = {
+				["i:2320"] = 1,
+				["i:2996"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:6238",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Brown Linen Robe",
+		},
 		[191021] = {
 			["mats"] = {
 				["i:124440"] = 20,
@@ -4472,34 +4478,6 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Gorgrond Chowder",
 		},
-		[7623] = {
-			["mats"] = {
-				["i:2320"] = 1,
-				["i:2996"] = 3,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:6238",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Brown Linen Robe",
-		},
-		[201497] = {
-			["mats"] = {
-				["i:124110"] = 5,
-				["i:133588"] = 3,
-			},
-			["numResult"] = 5,
-			["profession"] = "Cooking",
-			["itemString"] = "i:133562",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Pickled Stormray",
-		},
 		[75145] = {
 			["players"] = {
 				["Daemonikos"] = true,
@@ -4520,6 +4498,20 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Dreamcloth",
 		},
+		[201497] = {
+			["mats"] = {
+				["i:124110"] = 5,
+				["i:133588"] = 3,
+			},
+			["numResult"] = 5,
+			["profession"] = "Cooking",
+			["itemString"] = "i:133562",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Pickled Stormray",
+		},
 		[125557] = {
 			["players"] = {
 				["Daemonikos"] = true,
@@ -4538,6 +4530,19 @@ TradeSkillMaster_CraftingDB = {
 			["profession"] = "Tailoring",
 			["queued"] = 0,
 			["name"] = "Silkworm Cocoon",
+		},
+		[143059] = {
+			["mats"] = {
+				["i:82441"] = 7,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:98767",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Crafted Malevolent Gladiator's Treads of Alacrity",
 		},
 		[75263] = {
 			["mats"] = {
@@ -4610,18 +4615,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Vicious Embersilk Gloves",
 		},
-		[143059] = {
+		[185959] = {
 			["mats"] = {
-				["i:82441"] = 7,
+				["i:127004"] = 55,
+				["i:127037"] = 3,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:98767",
+			["itemString"] = "i:126997",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Malevolent Gladiator's Treads of Alacrity",
+			["name"] = "Imbued Silkweave Gloves",
 		},
 		[60994] = {
 			["mats"] = {
@@ -4654,20 +4660,6 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Bolt of Imbued Frostweave",
 		},
-		[185959] = {
-			["mats"] = {
-				["i:127004"] = 55,
-				["i:127037"] = 3,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:126997",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Imbued Silkweave Gloves",
-		},
 		[180758] = {
 			["mats"] = {
 				["i:109137"] = 6,
@@ -4681,6 +4673,21 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["queued"] = 0,
 			["name"] = "Pickled Eel",
+		},
+		[191023] = {
+			["mats"] = {
+				["i:124441"] = 10,
+				["i:38682"] = 1,
+				["i:124442"] = 12,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["name"] = "Mark of the Claw",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:128551",
 		},
 		[143053] = {
 			["mats"] = {
@@ -4708,19 +4715,6 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Grilled Saberfish",
 		},
-		[125556] = {
-			["mats"] = {
-				["i:82447"] = 12,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:82446",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Royal Satchel",
-		},
 		[26771] = {
 			["mats"] = {
 				["i:21840"] = 6,
@@ -4734,6 +4728,22 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["queued"] = 0,
 			["name"] = "Netherweave Pants",
+		},
+		[201504] = {
+			["mats"] = {
+				["i:124109"] = 5,
+				["i:133592"] = 10,
+				["i:133589"] = 4,
+				["i:133593"] = 10,
+			},
+			["numResult"] = 5,
+			["profession"] = "Cooking",
+			["name"] = "Drogbar-Style Salmon",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:133569",
 		},
 		[102698] = {
 			["mats"] = {
@@ -4765,27 +4775,27 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Spellweave Robe",
 		},
-		[201504] = {
+		[18449] = {
 			["mats"] = {
-				["i:124109"] = 5,
-				["i:133592"] = 10,
-				["i:133589"] = 4,
-				["i:133593"] = 10,
+				["i:14048"] = 7,
+				["i:14341"] = 1,
+				["i:14227"] = 2,
+				["i:8170"] = 4,
 			},
-			["numResult"] = 5,
-			["profession"] = "Cooking",
-			["name"] = "Drogbar-Style Salmon",
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:13867",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:133569",
+			["name"] = "Runecloth Shoulders",
 		},
 		[191024] = {
 			["mats"] = {
 				["i:124441"] = 10,
-				["i:124442"] = 12,
 				["i:38682"] = 1,
+				["i:124442"] = 12,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
@@ -4838,35 +4848,33 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Vicious Fireweave Gloves",
 		},
-		[18449] = {
+		[12079] = {
 			["mats"] = {
-				["i:14048"] = 7,
-				["i:14341"] = 1,
-				["i:14227"] = 2,
-				["i:8170"] = 4,
+				["i:4339"] = 4,
+				["i:8343"] = 2,
+				["i:2604"] = 2,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:13867",
+			["itemString"] = "i:10051",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Runecloth Shoulders",
+			["name"] = "Red Mageweave Bag",
 		},
-		[55901] = {
+		[143058] = {
 			["mats"] = {
-				["i:41510"] = 8,
-				["i:38426"] = 1,
+				["i:82441"] = 7,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:41548",
+			["itemString"] = "i:98766",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Duskweave Leggings",
+			["name"] = "Crafted Malevolent Gladiator's Treads of Cruelty",
 		},
 		[18401] = {
 			["mats"] = {
@@ -5024,18 +5032,20 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Dreamweave Gloves",
 		},
-		[143056] = {
+		[12071] = {
 			["mats"] = {
-				["i:82441"] = 7,
+				["i:4339"] = 5,
+				["i:8343"] = 2,
+				["i:10285"] = 5,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:98764",
+			["itemString"] = "i:10023",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Malevolent Gladiator's Cord of Accuracy",
+			["name"] = "Shadoweave Gloves",
 		},
 		[75265] = {
 			["mats"] = {
@@ -5053,33 +5063,34 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Otherworldly Bag",
 		},
-		[12079] = {
+		[75297] = {
 			["mats"] = {
-				["i:4339"] = 4,
-				["i:8343"] = 2,
-				["i:2604"] = 2,
+				["i:52326"] = 4,
+				["i:52325"] = 4,
+				["i:53643"] = 10,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:10051",
+			["itemString"] = "i:75095",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Red Mageweave Bag",
+			["name"] = "Vicious Embersilk Boots",
 		},
-		[143058] = {
+		[55901] = {
 			["mats"] = {
-				["i:82441"] = 7,
+				["i:41510"] = 8,
+				["i:38426"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:98766",
+			["itemString"] = "i:41548",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Malevolent Gladiator's Treads of Cruelty",
+			["name"] = "Duskweave Leggings",
 		},
 		[143057] = {
 			["mats"] = {
@@ -5285,20 +5296,18 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Spiritmend Cowl",
 		},
-		[75297] = {
+		[143056] = {
 			["mats"] = {
-				["i:52326"] = 4,
-				["i:52325"] = 4,
-				["i:53643"] = 10,
+				["i:82441"] = 7,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:75095",
+			["itemString"] = "i:98764",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Vicious Embersilk Boots",
+			["name"] = "Crafted Malevolent Gladiator's Cord of Accuracy",
 		},
 		[2406] = {
 			["mats"] = {
@@ -5314,20 +5323,6 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["queued"] = 0,
 			["name"] = "Gray Woolen Shirt",
-		},
-		[2387] = {
-			["mats"] = {
-				["i:2320"] = 1,
-				["i:2996"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:2570",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Linen Cloak",
 		},
 		[2386] = {
 			["mats"] = {
@@ -5357,6 +5352,20 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["queued"] = 0,
 			["name"] = "Brown Linen Pants",
+		},
+		[2387] = {
+			["mats"] = {
+				["i:2320"] = 1,
+				["i:2996"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:2570",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Linen Cloak",
 		},
 		[59589] = {
 			["mats"] = {
@@ -5388,21 +5397,6 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["queued"] = 0,
 			["name"] = "Savage Hexweave Essence",
-		},
-		[12071] = {
-			["mats"] = {
-				["i:4339"] = 5,
-				["i:8343"] = 2,
-				["i:10285"] = 5,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:10023",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Shadoweave Gloves",
 		},
 		[12073] = {
 			["mats"] = {
@@ -5495,6 +5489,21 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Robe of Eternal Rule",
 		},
+		[168855] = {
+			["mats"] = {
+				["i:113262"] = 15,
+				["i:118472"] = 15,
+				["i:111556"] = 70,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:128012",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Hexweave Essence",
+		},
 		[143060] = {
 			["mats"] = {
 				["i:82441"] = 7,
@@ -5522,36 +5531,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Spiritmend Robe",
 		},
-		[59588] = {
+		[168839] = {
 			["mats"] = {
-				["i:41511"] = 4,
-				["i:38426"] = 2,
-				["i:37701"] = 5,
-				["i:37702"] = 5,
+				["i:111556"] = 100,
+				["i:110609"] = 4,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:43975",
+			["itemString"] = "i:114811",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Frostsavage Leggings",
-		},
-		[3866] = {
-			["mats"] = {
-				["i:2321"] = 1,
-				["i:2997"] = 3,
-				["i:2604"] = 2,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:4330",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Stylish Red Shirt",
+			["name"] = "Hexweave Leggings",
 		},
 		[3861] = {
 			["mats"] = {
@@ -5568,6 +5560,21 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Long Silken Cloak",
 		},
+		[6690] = {
+			["mats"] = {
+				["i:3182"] = 2,
+				["i:4305"] = 2,
+				["i:2321"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:5766",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Lesser Wizard's Robe",
+		},
 		[55902] = {
 			["mats"] = {
 				["i:41510"] = 3,
@@ -5582,33 +5589,34 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Frostwoven Shoulders",
 		},
-		[3852] = {
+		[18424] = {
 			["mats"] = {
-				["i:2321"] = 3,
-				["i:3383"] = 1,
-				["i:2997"] = 4,
+				["i:14048"] = 6,
+				["i:6260"] = 2,
+				["i:14341"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:4318",
+			["itemString"] = "i:13871",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Gloves of Meditation",
+			["name"] = "Frostweave Pants",
 		},
-		[137937] = {
+		[3842] = {
 			["mats"] = {
-				["i:82441"] = 4,
+				["i:2321"] = 2,
+				["i:2996"] = 4,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:93608",
+			["itemString"] = "i:4309",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Cloak of Prowess",
+			["name"] = "Handstitched Linen Britches",
 		},
 		[143061] = {
 			["mats"] = {
@@ -5636,33 +5644,32 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Last Week's Mammoth",
 		},
-		[3842] = {
+		[3839] = {
 			["mats"] = {
-				["i:2321"] = 2,
-				["i:2996"] = 4,
+				["i:4306"] = 4,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:4309",
+			["itemString"] = "i:4305",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Handstitched Linen Britches",
+			["name"] = "Bolt of Silk Cloth",
 		},
-		[75260] = {
+		[56010] = {
 			["mats"] = {
-				["i:53643"] = 9,
-				["i:52326"] = 5,
+				["i:42253"] = 2,
+				["i:37702"] = 2,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:54479",
+			["itemString"] = "i:41603",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Spiritmend Shoulders",
+			["name"] = "Azure Spellthread",
 		},
 		[56014] = {
 			["mats"] = {
@@ -5747,8 +5754,8 @@ TradeSkillMaster_CraftingDB = {
 		},
 		[7421] = {
 			["mats"] = {
-				["i:6217"] = 1,
 				["i:10938"] = 1,
+				["i:6217"] = 1,
 				["i:10940"] = 1,
 			},
 			["numResult"] = 1,
@@ -5760,21 +5767,21 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:6218",
 		},
-		[56025] = {
+		[59586] = {
 			["mats"] = {
-				["i:41594"] = 4,
-				["i:38426"] = 1,
-				["i:41511"] = 4,
-				["i:43102"] = 1,
+				["i:41511"] = 3,
+				["i:38426"] = 2,
+				["i:37701"] = 4,
+				["i:37702"] = 4,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:42103",
+			["itemString"] = "i:41516",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Moonshroud Gloves",
+			["name"] = "Frostsavage Gloves",
 		},
 		[173978] = {
 			["mats"] = {
@@ -5822,20 +5829,21 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Ghostweave Belt",
 		},
-		[160989] = {
+		[12070] = {
 			["mats"] = {
-				["i:109127"] = 1,
-				["i:111444"] = 5,
-				["i:111436"] = 5,
+				["i:8153"] = 6,
+				["i:4339"] = 6,
+				["i:10286"] = 2,
+				["i:8343"] = 2,
 			},
 			["numResult"] = 1,
-			["profession"] = "Cooking",
-			["itemString"] = "i:111452",
+			["profession"] = "Tailoring",
+			["itemString"] = "i:10021",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Sleeper Surprise",
+			["name"] = "Dreamweave Vest",
 		},
 		[143063] = {
 			["mats"] = {
@@ -5850,19 +5858,20 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Crafted Malevolent Gladiator's Cuffs of Meditation",
 		},
-		[168845] = {
+		[18423] = {
 			["mats"] = {
-				["i:111556"] = 100,
-				["i:109219"] = 1,
+				["i:14048"] = 4,
+				["i:8170"] = 2,
+				["i:14341"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:114817",
+			["itemString"] = "i:13864",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Powerful Hexweave Cloak",
+			["name"] = "Runecloth Boots",
 		},
 		[18442] = {
 			["mats"] = {
@@ -5933,19 +5942,6 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Dreamcloth",
 		},
-		[137928] = {
-			["mats"] = {
-				["i:82441"] = 6,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:93552",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Mooncloth Leggings",
-		},
 		[41205] = {
 			["mats"] = {
 				["i:24271"] = 4,
@@ -5961,6 +5957,22 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["queued"] = 0,
 			["itemString"] = "i:32586",
+		},
+		[59585] = {
+			["mats"] = {
+				["i:41511"] = 3,
+				["i:38426"] = 2,
+				["i:37701"] = 4,
+				["i:37702"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:43970",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Frostsavage Boots",
 		},
 		[143064] = {
 			["mats"] = {
@@ -6126,19 +6138,20 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Netherweave Bag",
 		},
-		[8776] = {
+		[8764] = {
 			["mats"] = {
-				["i:2320"] = 1,
-				["i:2996"] = 1,
+				["i:4305"] = 3,
+				["i:7067"] = 1,
+				["i:2321"] = 2,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:7026",
+			["itemString"] = "i:7051",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Linen Belt",
+			["name"] = "Earthen Vest",
 		},
 		[56015] = {
 			["mats"] = {
@@ -6169,19 +6182,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Netherweave Gloves",
 		},
-		[201541] = {
+		[168837] = {
 			["mats"] = {
-				["i:133593"] = 1,
-				["i:124107"] = 5,
+				["i:111556"] = 100,
+				["i:109119"] = 10,
 			},
-			["numResult"] = 7,
-			["profession"] = "Cooking",
-			["itemString"] = "i:133577",
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:114809",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Fighter Chow",
+			["name"] = "Hexweave Mantle",
 		},
 		[36317] = {
 			["mats"] = {
@@ -6227,48 +6240,47 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Vicious Embersilk Bracers",
 		},
-		[7428] = {
+		[172541] = {
 			["mats"] = {
-				["i:38682"] = 1,
-				["i:10938"] = 1,
-				["i:10940"] = 1,
+				["i:109144"] = 10,
 			},
 			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Minor Dodge",
+			["profession"] = "First Aid",
+			["itemString"] = "i:116979",
+			["players"] = {
+				["Daemonikos"] = true,
+				["Achilina"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Blackwater Anti-Venom",
+		},
+		[201541] = {
+			["mats"] = {
+				["i:133593"] = 1,
+				["i:124107"] = 5,
+			},
+			["numResult"] = 7,
+			["profession"] = "Cooking",
+			["itemString"] = "i:133577",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38768",
+			["name"] = "Fighter Chow",
 		},
-		[182123] = {
+		[75252] = {
 			["mats"] = {
-				["i:120945"] = 1,
-				["i:111557"] = 10,
+				["i:53643"] = 3,
+				["i:38426"] = 2,
 			},
-			["numResult"] = 2,
+			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:111556",
+			["itemString"] = "i:54477",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Hexweave Cloth",
-		},
-		[7418] = {
-			["mats"] = {
-				["i:10940"] = 1,
-				["i:38682"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Minor Health",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:38679",
+			["name"] = "Deathsilk Boots",
 		},
 		[137920] = {
 			["mats"] = {
@@ -6283,25 +6295,21 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Crafted Dreadful Gladiator's Drape of Meditation",
 		},
-		[168835] = {
+		[59583] = {
+			["mats"] = {
+				["i:41511"] = 3,
+				["i:38426"] = 2,
+				["i:37701"] = 3,
+				["i:37702"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:43974",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
-			["numResult"] = 1,
-			["cooldownTimes"] = {
-				["Daemonikos"] = {
-					["endTime"] = 1498114800,
-				},
-			},
-			["hasCD"] = true,
-			["mats"] = {
-				["i:109126"] = 10,
-				["i:111557"] = 20,
-			},
-			["itemString"] = "i:111556",
-			["profession"] = "Tailoring",
 			["queued"] = 0,
-			["name"] = "Hexweave Cloth",
+			["name"] = "Frostsavage Bracers",
 		},
 		[55910] = {
 			["mats"] = {
@@ -6331,18 +6339,38 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Crafted Malevolent Gladiator's Silk Handguards",
 		},
-		[201539] = {
-			["mats"] = {
-				["i:133607"] = 5,
+		[168835] = {
+			["players"] = {
+				["Daemonikos"] = true,
 			},
-			["numResult"] = 7,
+			["numResult"] = 1,
+			["cooldownTimes"] = {
+				["Daemonikos"] = {
+					["endTime"] = 1498255219,
+				},
+			},
+			["hasCD"] = true,
+			["mats"] = {
+				["i:109126"] = 10,
+				["i:111557"] = 20,
+			},
+			["itemString"] = "i:111556",
+			["profession"] = "Tailoring",
+			["queued"] = 0,
+			["name"] = "Hexweave Cloth",
+		},
+		[8604] = {
+			["mats"] = {
+				["i:6889"] = 1,
+			},
+			["numResult"] = 1,
 			["profession"] = "Cooking",
-			["itemString"] = "i:133575",
+			["itemString"] = "i:6888",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Dried Mackerel Strips",
+			["name"] = "Herb Baked Egg",
 		},
 		[158908] = {
 			["mats"] = {
@@ -6357,19 +6385,6 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["queued"] = 0,
 			["itemString"] = "i:110618",
-		},
-		[8604] = {
-			["mats"] = {
-				["i:6889"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Cooking",
-			["itemString"] = "i:6888",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Herb Baked Egg",
 		},
 		[26764] = {
 			["mats"] = {
@@ -6472,6 +6487,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Falling Blossom Treads",
 		},
+		[125551] = {
+			["mats"] = {
+				["i:72988"] = 5,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:82441",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Bolt of Windwool Cloth",
+		},
 		[75597] = {
 			["mats"] = {
 				["i:41594"] = 1,
@@ -6487,19 +6515,6 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["queued"] = 0,
 			["name"] = "Frosty Flying Carpet",
-		},
-		[137915] = {
-			["mats"] = {
-				["i:82441"] = 4,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:93434",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Cuffs of Accuracy",
 		},
 		[55904] = {
 			["mats"] = {
@@ -6529,20 +6544,18 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Duskweave Wristwraps",
 		},
-		[12069] = {
+		[143088] = {
 			["mats"] = {
-				["i:4339"] = 5,
-				["i:7077"] = 2,
-				["i:8343"] = 2,
+				["i:82441"] = 7,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:10042",
+			["itemString"] = "i:98925",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Cindercloth Robe",
+			["name"] = "Crafted Malevolent Gladiator's Felweave Amice",
 		},
 		[143069] = {
 			["mats"] = {
@@ -6872,37 +6885,41 @@ TradeSkillMaster_CraftingDB = {
 			["hash"] = 10808399,
 			["scanTime"] = 1490876979,
 		},
-		["TrïxxedJewelcrafting"] = {
-			["hash"] = 7788730,
-			["scanTime"] = 1490878125,
-		},
 		["EruditusTailoring"] = {
 			["hash"] = 1368033,
 			["scanTime"] = 1490879863,
 		},
-		["FaustaEnchanting"] = {
-			["hash"] = 8402586,
-			["scanTime"] = 1489844469,
+		["TrïxxedJewelcrafting"] = {
+			["hash"] = 7788730,
+			["scanTime"] = 1490878125,
 		},
-		["DaemonikosFirst Aid"] = {
-			["hash"] = 1423413,
-			["scanTime"] = 1488297089,
+		["LupaliaLeatherworking"] = {
+			["hash"] = 12163057,
+			["scanTime"] = 1490037176,
 		},
 		["ChrysanteInscription"] = {
 			["hash"] = 13047371,
 			["scanTime"] = 1489939688,
 		},
+		["DaemonikosFirst Aid"] = {
+			["hash"] = 1423413,
+			["scanTime"] = 1488297089,
+		},
 		["ChrysanteCooking"] = {
 			["hash"] = 12649726,
 			["scanTime"] = 1489361287,
+		},
+		["FaustaEnchanting"] = {
+			["hash"] = 8402586,
+			["scanTime"] = 1489844469,
 		},
 		["TrîxxedAlchemy"] = {
 			["hash"] = 2650100,
 			["scanTime"] = 1490878573,
 		},
-		["LupaliaLeatherworking"] = {
-			["hash"] = 12163057,
-			["scanTime"] = 1490037176,
+		["LupaliaEnchanting"] = {
+			["hash"] = 14198462,
+			["scanTime"] = 1498228052,
 		},
 	},
 	["f@Horde - Draenor@disableCheckBox"] = false,
@@ -7082,6 +7099,7 @@ TradeSkillMaster_CraftingDB = {
 			["profession"] = "Enchanting",
 			["itemString"] = "i:38944",
 			["players"] = {
+				["Lupalia"] = true,
 				["Fausta"] = true,
 			},
 			["queued"] = 0,
@@ -7339,9 +7357,9 @@ TradeSkillMaster_CraftingDB = {
 		[9198] = {
 			["mats"] = {
 				["i:2321"] = 2,
-				["i:4234"] = 6,
 				["i:7070"] = 2,
 				["i:7067"] = 2,
+				["i:4234"] = 6,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
@@ -8462,9 +8480,9 @@ TradeSkillMaster_CraftingDB = {
 		},
 		[36317] = {
 			["mats"] = {
+				["i:24271"] = 4,
 				["i:14341"] = 2,
 				["i:23572"] = 2,
-				["i:24271"] = 4,
 				["i:24272"] = 4,
 			},
 			["numResult"] = 1,
@@ -9622,6 +9640,7 @@ TradeSkillMaster_CraftingDB = {
 			["profession"] = "Enchanting",
 			["itemString"] = "i:110682",
 			["players"] = {
+				["Lupalia"] = true,
 				["Fausta"] = true,
 			},
 			["queued"] = 0,
@@ -9686,13 +9705,14 @@ TradeSkillMaster_CraftingDB = {
 		},
 		[159236] = {
 			["mats"] = {
-				["i:113588"] = 1,
 				["i:38682"] = 1,
+				["i:113588"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
 			["itemString"] = "i:112093",
 			["players"] = {
+				["Lupalia"] = true,
 				["Daemonikos"] = true,
 				["Fausta"] = true,
 			},
@@ -9807,6 +9827,7 @@ TradeSkillMaster_CraftingDB = {
 			["profession"] = "Enchanting",
 			["itemString"] = "i:74250",
 			["players"] = {
+				["Lupalia"] = true,
 				["Fausta"] = true,
 			},
 			["queued"] = 0,
@@ -9943,6 +9964,7 @@ TradeSkillMaster_CraftingDB = {
 			["profession"] = "Enchanting",
 			["itemString"] = "i:74247",
 			["players"] = {
+				["Lupalia"] = true,
 				["Fausta"] = true,
 			},
 			["queued"] = 0,
@@ -10059,16 +10081,22 @@ TradeSkillMaster_CraftingDB = {
 			["name"] = "Nimble Burnished Cloak",
 		},
 		[116499] = {
+			["players"] = {
+				["Lupalia"] = true,
+				["Fausta"] = true,
+			},
+			["numResult"] = 1,
+			["cooldownTimes"] = {
+				["Lupalia"] = {
+					["endTime"] = 0,
+				},
+			},
+			["hasCD"] = true,
 			["mats"] = {
 				["i:74247"] = 5,
 			},
 			["itemString"] = "i:74248",
-			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["players"] = {
-				["Fausta"] = true,
-			},
-			["hasCD"] = true,
 			["queued"] = 0,
 			["name"] = "Sha Crystal",
 		},
@@ -10159,10 +10187,10 @@ TradeSkillMaster_CraftingDB = {
 		},
 		[25079] = {
 			["mats"] = {
-				["i:38682"] = 1,
 				["i:22448"] = 3,
-				["i:14344"] = 8,
 				["i:12811"] = 1,
+				["i:14344"] = 8,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
@@ -10503,6 +10531,7 @@ TradeSkillMaster_CraftingDB = {
 			["profession"] = "Enchanting",
 			["itemString"] = "i:118015",
 			["players"] = {
+				["Lupalia"] = true,
 				["Fausta"] = true,
 			},
 			["queued"] = 0,
@@ -10664,9 +10693,9 @@ TradeSkillMaster_CraftingDB = {
 		},
 		[225524] = {
 			["mats"] = {
-				["i:39354"] = 1,
 				["i:129034"] = 10,
 				["i:129032"] = 30,
+				["i:39354"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Inscription",
@@ -11085,9 +11114,9 @@ TradeSkillMaster_CraftingDB = {
 		},
 		[225530] = {
 			["mats"] = {
-				["i:39354"] = 1,
 				["i:129034"] = 12,
 				["i:129032"] = 20,
+				["i:39354"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Inscription",
@@ -11915,9 +11944,9 @@ TradeSkillMaster_CraftingDB = {
 		},
 		[225541] = {
 			["mats"] = {
-				["i:39354"] = 1,
 				["i:129034"] = 8,
 				["i:129032"] = 40,
+				["i:39354"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Inscription",
@@ -11959,13 +11988,14 @@ TradeSkillMaster_CraftingDB = {
 		},
 		[7418] = {
 			["mats"] = {
-				["i:10940"] = 1,
 				["i:38682"] = 1,
+				["i:10940"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
 			["itemString"] = "i:38679",
 			["players"] = {
+				["Lupalia"] = true,
 				["Daemonikos"] = true,
 				["Fausta"] = true,
 			},
@@ -11989,9 +12019,9 @@ TradeSkillMaster_CraftingDB = {
 		},
 		[225542] = {
 			["mats"] = {
-				["i:39354"] = 1,
 				["i:129034"] = 8,
 				["i:129032"] = 40,
+				["i:39354"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Inscription",
@@ -12544,9 +12574,9 @@ TradeSkillMaster_CraftingDB = {
 		},
 		[225550] = {
 			["mats"] = {
-				["i:39354"] = 1,
 				["i:129034"] = 6,
 				["i:129032"] = 50,
+				["i:39354"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Inscription",
@@ -12854,10 +12884,10 @@ TradeSkillMaster_CraftingDB = {
 		},
 		[201502] = {
 			["mats"] = {
-				["i:124120"] = 5,
 				["i:124112"] = 5,
-				["i:133590"] = 4,
 				["i:133591"] = 1,
+				["i:133590"] = 4,
+				["i:124120"] = 5,
 			},
 			["numResult"] = 5,
 			["profession"] = "Cooking",
@@ -12940,9 +12970,9 @@ TradeSkillMaster_CraftingDB = {
 		},
 		[225556] = {
 			["mats"] = {
-				["i:39354"] = 1,
 				["i:129034"] = 15,
 				["i:129032"] = 5,
+				["i:39354"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Inscription",
@@ -12970,10 +13000,10 @@ TradeSkillMaster_CraftingDB = {
 		},
 		[201504] = {
 			["mats"] = {
-				["i:124109"] = 5,
 				["i:133592"] = 10,
-				["i:133589"] = 4,
 				["i:133593"] = 10,
+				["i:133589"] = 4,
+				["i:124109"] = 5,
 			},
 			["numResult"] = 5,
 			["profession"] = "Cooking",
@@ -13908,9 +13938,9 @@ TradeSkillMaster_CraftingDB = {
 		},
 		[19073] = {
 			["mats"] = {
-				["i:8170"] = 8,
 				["i:12803"] = 1,
 				["i:14341"] = 1,
+				["i:8170"] = 8,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
@@ -13974,6 +14004,23 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["queued"] = 0,
 			["itemString"] = "i:39469",
+		},
+		[217641] = {
+			["mats"] = {
+				["i:22449"] = 5,
+				["i:22457"] = 5,
+				["i:22450"] = 10,
+				["i:21884"] = 5,
+				["i:39354"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:138789",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Tome of Illusions: Outland",
 		},
 		[63206] = {
 			["mats"] = {
@@ -14336,6 +14383,65 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Minor Agility",
 		},
+		[10499] = {
+			["mats"] = {
+				["i:4291"] = 2,
+				["i:4304"] = 7,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:8175",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Nightscape Tunic",
+		},
+		[56015] = {
+			["mats"] = {
+				["i:41510"] = 8,
+				["i:36783"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:41608",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Cloak of Frozen Spirits",
+		},
+		[60697] = {
+			["mats"] = {
+				["i:38425"] = 12,
+				["i:35623"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:43260",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Eviscerator's Facemask",
+		},
+		[217637] = {
+			["mats"] = {
+				["i:14344"] = 10,
+				["i:7078"] = 5,
+				["i:12808"] = 5,
+				["i:39354"] = 3,
+				["i:7080"] = 5,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:138787",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Tome of Illusions: Azeroth",
+		},
 		[127023] = {
 			["mats"] = {
 				["i:39354"] = 1,
@@ -14349,6 +14455,20 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["queued"] = 0,
 			["itemString"] = "i:87582",
+		},
+		[35544] = {
+			["mats"] = {
+				["i:23793"] = 6,
+				["i:29547"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:29530",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Drums of Speed",
 		},
 		[137815] = {
 			["mats"] = {
@@ -14391,6 +14511,25 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["queued"] = 0,
 			["name"] = "Darkbrand Boots",
+		},
+		[217649] = {
+			["mats"] = {
+				["i:52327"] = 3,
+				["i:52328"] = 3,
+				["i:52329"] = 3,
+				["i:52326"] = 3,
+				["i:52325"] = 3,
+				["i:39354"] = 1,
+				["i:52722"] = 10,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:138792",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Tome of Illusions: Elemental Lords",
 		},
 		[50606] = {
 			["mats"] = {
@@ -14436,6 +14575,21 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Major Versatility",
 		},
+		[192804] = {
+			["mats"] = {
+				["i:129034"] = 24,
+				["i:129032"] = 50,
+				["i:39354"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Inscription",
+			["name"] = "Steamy Romance Novel Kit",
+			["players"] = {
+				["Chrysante"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:129211",
+		},
 		[137816] = {
 			["mats"] = {
 				["i:72163"] = 1,
@@ -14448,6 +14602,79 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["queued"] = 0,
 			["name"] = "Crafted Dreadful Gladiator's Bindings of Meditation",
+		},
+		[78477] = {
+			["mats"] = {
+				["i:52979"] = 20,
+				["i:52980"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:56550",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Dragonscale Leg Armor",
+		},
+		[201500] = {
+			["mats"] = {
+				["i:124120"] = 5,
+				["i:124119"] = 5,
+				["i:133589"] = 5,
+			},
+			["numResult"] = 5,
+			["profession"] = "Cooking",
+			["itemString"] = "i:133565",
+			["players"] = {
+				["Chrysante"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Leybeque Ribs",
+		},
+		[60969] = {
+			["mats"] = {
+				["i:22445"] = 4,
+				["i:8343"] = 5,
+				["i:23112"] = 4,
+				["i:21840"] = 6,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:44554",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Flying Carpet",
+		},
+		[58316] = {
+			["mats"] = {
+				["i:39354"] = 1,
+				["i:43120"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Inscription",
+			["name"] = "Glyph of Fire From the Heavens",
+			["players"] = {
+				["Chrysante"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:43369",
+		},
+		[60631] = {
+			["mats"] = {
+				["i:33568"] = 16,
+				["i:37700"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:38441",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Cloak of Harsh Winds",
 		},
 		[127024] = {
 			["mats"] = {
@@ -14478,18 +14705,22 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:44210",
 		},
-		[137817] = {
+		[217650] = {
 			["mats"] = {
-				["i:72163"] = 1,
+				["i:76139"] = 2,
+				["i:74248"] = 10,
+				["i:76140"] = 2,
+				["i:39354"] = 3,
+				["i:76141"] = 2,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:93466",
+			["profession"] = "Enchanting",
+			["itemString"] = "i:138793",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Kodohide Gloves",
+			["name"] = "Tome of Illusions: Pandaria",
 		},
 		[2963] = {
 			["mats"] = {
@@ -14504,6 +14735,20 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["queued"] = 0,
 			["name"] = "Bolt of Linen Cloth",
+		},
+		[13746] = {
+			["mats"] = {
+				["i:11137"] = 3,
+				["i:38682"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38825",
+			["players"] = {
+				["Fausta"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Greater Defense",
 		},
 		[57707] = {
 			["mats"] = {
@@ -14532,349 +14777,6 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["queued"] = 0,
 			["name"] = "Greater Strength",
-		},
-		[10499] = {
-			["mats"] = {
-				["i:4291"] = 2,
-				["i:4304"] = 7,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:8175",
-			["players"] = {
-				["Lupalia"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Nightscape Tunic",
-		},
-		[59489] = {
-			["mats"] = {
-				["i:39354"] = 10,
-				["i:43121"] = 5,
-			},
-			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Fire Eater's Guide",
-			["players"] = {
-				["Chrysante"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:43660",
-		},
-		[137818] = {
-			["mats"] = {
-				["i:72163"] = 2,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:93467",
-			["players"] = {
-				["Lupalia"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Kodohide Helm",
-		},
-		[60697] = {
-			["mats"] = {
-				["i:38425"] = 12,
-				["i:35623"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:43260",
-			["players"] = {
-				["Lupalia"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Eviscerator's Facemask",
-		},
-		[124466] = {
-			["mats"] = {
-				["i:39354"] = 1,
-				["i:61978"] = 3,
-			},
-			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Glyph of the Heavens",
-			["players"] = {
-				["Chrysante"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:79538",
-		},
-		[195902] = {
-			["mats"] = {
-				["i:130177"] = 1,
-				["i:130175"] = 1,
-				["i:130173"] = 2,
-			},
-			["numResult"] = 1,
-			["profession"] = "Jewelcrafting",
-			["itemString"] = "i:130223",
-			["players"] = {
-				["Trïxxed"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Deep Amber Loop",
-		},
-		[58316] = {
-			["mats"] = {
-				["i:39354"] = 1,
-				["i:43120"] = 3,
-			},
-			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Glyph of Fire From the Heavens",
-			["players"] = {
-				["Chrysante"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:43369",
-		},
-		[58347] = {
-			["mats"] = {
-				["i:39354"] = 1,
-				["i:43118"] = 3,
-			},
-			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Glyph of Mighty Victory",
-			["players"] = {
-				["Chrysante"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:43400",
-		},
-		[12052] = {
-			["mats"] = {
-				["i:4339"] = 3,
-				["i:8343"] = 1,
-				["i:10285"] = 2,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:10002",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Shadoweave Pants",
-		},
-		[35544] = {
-			["mats"] = {
-				["i:23793"] = 6,
-				["i:29547"] = 4,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:29530",
-			["players"] = {
-				["Lupalia"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Drums of Speed",
-		},
-		[137819] = {
-			["mats"] = {
-				["i:72163"] = 2,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:93468",
-			["players"] = {
-				["Lupalia"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Kodohide Legguards",
-		},
-		[13746] = {
-			["mats"] = {
-				["i:11137"] = 3,
-				["i:38682"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:38825",
-			["players"] = {
-				["Fausta"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Greater Defense",
-		},
-		[192804] = {
-			["mats"] = {
-				["i:39354"] = 1,
-				["i:129034"] = 24,
-				["i:129032"] = 50,
-			},
-			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Steamy Romance Novel Kit",
-			["players"] = {
-				["Chrysante"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:129211",
-		},
-		[78477] = {
-			["mats"] = {
-				["i:52979"] = 20,
-				["i:52980"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:56550",
-			["players"] = {
-				["Lupalia"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Dragonscale Leg Armor",
-		},
-		[50607] = {
-			["mats"] = {
-				["i:39354"] = 2,
-				["i:43120"] = 1,
-			},
-			["numResult"] = 2,
-			["profession"] = "Inscription",
-			["name"] = "Scroll of Versatility IV",
-			["players"] = {
-				["Chrysante"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:10306",
-		},
-		[201500] = {
-			["mats"] = {
-				["i:124120"] = 5,
-				["i:124119"] = 5,
-				["i:133589"] = 5,
-			},
-			["numResult"] = 5,
-			["profession"] = "Cooking",
-			["itemString"] = "i:133565",
-			["players"] = {
-				["Chrysante"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Leybeque Ribs",
-		},
-		[178248] = {
-			["mats"] = {
-				["i:112377"] = 70,
-				["i:113262"] = 15,
-				["i:118472"] = 15,
-			},
-			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Ensorcelled Tarot",
-			["players"] = {
-				["Chrysante"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:128018",
-		},
-		[9074] = {
-			["mats"] = {
-				["i:2321"] = 1,
-				["i:2319"] = 6,
-				["i:2457"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:7285",
-			["players"] = {
-				["Lupalia"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Nimble Leather Gloves",
-		},
-		[137820] = {
-			["mats"] = {
-				["i:72163"] = 2,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:93469",
-			["players"] = {
-				["Lupalia"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Kodohide Robes",
-		},
-		[32465] = {
-			["mats"] = {
-				["i:23793"] = 2,
-				["i:14341"] = 3,
-				["i:25700"] = 3,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:25657",
-			["players"] = {
-				["Lupalia"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Felscale Breastplate",
-		},
-		[60969] = {
-			["mats"] = {
-				["i:22445"] = 4,
-				["i:8343"] = 5,
-				["i:23112"] = 4,
-				["i:21840"] = 6,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:44554",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Flying Carpet",
-		},
-		[28019] = {
-			["mats"] = {
-				["i:3371"] = 1,
-				["i:22445"] = 3,
-				["i:22792"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:22522",
-			["players"] = {
-				["Fausta"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Superior Wizard Oil",
-		},
-		[18403] = {
-			["mats"] = {
-				["i:14048"] = 5,
-				["i:6260"] = 2,
-				["i:14341"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:13869",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Frostweave Tunic",
-		},
-		[143128] = {
-			["mats"] = {
-				["i:72163"] = 3,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:98886",
-			["players"] = {
-				["Lupalia"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Crafted Malevolent Gladiator's Leather Helm",
 		},
 		[201413] = {
 			["mats"] = {
@@ -14909,6 +14811,371 @@ TradeSkillMaster_CraftingDB = {
 			["profession"] = "Alchemy",
 			["queued"] = 0,
 			["itemString"] = "i:137591",
+		},
+		[217651] = {
+			["mats"] = {
+				["i:76142"] = 2,
+				["i:74248"] = 10,
+				["i:76138"] = 2,
+				["i:39354"] = 3,
+				["i:76131"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:138794",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Tome of Illusions: Secrets of the Shado-Pan",
+		},
+		[137818] = {
+			["mats"] = {
+				["i:72163"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:93467",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Crafted Dreadful Gladiator's Kodohide Helm",
+		},
+		[60622] = {
+			["mats"] = {
+				["i:33568"] = 12,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:38435",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Nerubian Bracers",
+		},
+		[124466] = {
+			["mats"] = {
+				["i:39354"] = 1,
+				["i:61978"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Inscription",
+			["name"] = "Glyph of the Heavens",
+			["players"] = {
+				["Chrysante"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:79538",
+		},
+		[195902] = {
+			["mats"] = {
+				["i:130177"] = 1,
+				["i:130175"] = 1,
+				["i:130173"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting",
+			["itemString"] = "i:130223",
+			["players"] = {
+				["Trïxxed"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Deep Amber Loop",
+		},
+		[9074] = {
+			["mats"] = {
+				["i:2321"] = 1,
+				["i:2319"] = 6,
+				["i:2457"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:7285",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Nimble Leather Gloves",
+		},
+		[58347] = {
+			["mats"] = {
+				["i:39354"] = 1,
+				["i:43118"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Inscription",
+			["name"] = "Glyph of Mighty Victory",
+			["players"] = {
+				["Chrysante"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:43400",
+		},
+		[12052] = {
+			["mats"] = {
+				["i:4339"] = 3,
+				["i:8343"] = 1,
+				["i:10285"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:10002",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Shadoweave Pants",
+		},
+		[32465] = {
+			["mats"] = {
+				["i:23793"] = 2,
+				["i:14341"] = 3,
+				["i:25700"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:25657",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Felscale Breastplate",
+		},
+		[137819] = {
+			["mats"] = {
+				["i:72163"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:93468",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Crafted Dreadful Gladiator's Kodohide Legguards",
+		},
+		[27957] = {
+			["mats"] = {
+				["i:22445"] = 8,
+				["i:38682"] = 1,
+				["i:14344"] = 2,
+				["i:13446"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38911",
+			["players"] = {
+				["Fausta"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Exceptional Health",
+		},
+		[9201] = {
+			["mats"] = {
+				["i:2325"] = 1,
+				["i:4234"] = 16,
+				["i:4291"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:7378",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Dusky Bracers",
+		},
+		[143128] = {
+			["mats"] = {
+				["i:72163"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:98886",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Crafted Malevolent Gladiator's Leather Helm",
+		},
+		[50607] = {
+			["mats"] = {
+				["i:39354"] = 2,
+				["i:43120"] = 1,
+			},
+			["numResult"] = 2,
+			["profession"] = "Inscription",
+			["name"] = "Scroll of Versatility IV",
+			["players"] = {
+				["Chrysante"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:10306",
+		},
+		[35559] = {
+			["mats"] = {
+				["i:23572"] = 1,
+				["i:23793"] = 4,
+				["i:22451"] = 12,
+				["i:22456"] = 12,
+				["i:29539"] = 8,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:29503",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Cobrascale Gloves",
+		},
+		[178248] = {
+			["mats"] = {
+				["i:112377"] = 70,
+				["i:113262"] = 15,
+				["i:118472"] = 15,
+			},
+			["numResult"] = 1,
+			["profession"] = "Inscription",
+			["name"] = "Ensorcelled Tarot",
+			["players"] = {
+				["Chrysante"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:128018",
+		},
+		[60757] = {
+			["mats"] = {
+				["i:35622"] = 10,
+				["i:38425"] = 10,
+				["i:43102"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:43469",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Revenant's Treads",
+		},
+		[137820] = {
+			["mats"] = {
+				["i:72163"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:93469",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Crafted Dreadful Gladiator's Kodohide Robes",
+		},
+		[7857] = {
+			["mats"] = {
+				["i:38682"] = 1,
+				["i:10998"] = 1,
+				["i:10940"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38782",
+			["players"] = {
+				["Fausta"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Health",
+		},
+		[19072] = {
+			["mats"] = {
+				["i:8170"] = 10,
+				["i:14341"] = 1,
+				["i:14047"] = 10,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:15093",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Runic Leather Belt",
+		},
+		[10558] = {
+			["mats"] = {
+				["i:8343"] = 2,
+				["i:4304"] = 16,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:8197",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Nightscape Boots",
+		},
+		[18403] = {
+			["mats"] = {
+				["i:14048"] = 5,
+				["i:6260"] = 2,
+				["i:14341"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:13869",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Frostweave Tunic",
+		},
+		[12065] = {
+			["mats"] = {
+				["i:4339"] = 4,
+				["i:4291"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:10050",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Mageweave Bag",
+		},
+		[10542] = {
+			["mats"] = {
+				["i:8154"] = 8,
+				["i:4291"] = 2,
+				["i:4304"] = 6,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:8204",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Tough Scorpid Gloves",
+		},
+		[63200] = {
+			["mats"] = {
+				["i:44128"] = 3,
+				["i:38425"] = 4,
+				["i:45087"] = 6,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:45556",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Belt of Arctic Life",
 		},
 		[137821] = {
 			["mats"] = {
@@ -14981,45 +15248,49 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:141644",
 		},
-		[60624] = {
+		[60629] = {
 			["mats"] = {
-				["i:33568"] = 14,
+				["i:38425"] = 6,
+				["i:37705"] = 4,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:38439",
+			["itemString"] = "i:44444",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Nerubian Helm",
+			["name"] = "Dark Nerubian Chestpiece",
 		},
-		[171291] = {
+		[217655] = {
 			["mats"] = {
-				["i:113264"] = 20,
-				["i:110611"] = 100,
+				["i:113262"] = 10,
+				["i:113264"] = 10,
+				["i:113588"] = 20,
+				["i:118472"] = 15,
+				["i:39354"] = 3,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:108883",
+			["profession"] = "Enchanting",
+			["itemString"] = "i:138795",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Riding Harness",
+			["name"] = "Tome of Illusions: Draenor",
 		},
-		[124573] = {
+		[50958] = {
 			["mats"] = {
-				["i:72120"] = 10,
+				["i:33568"] = 10,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:85835",
+			["itemString"] = "i:38417",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Misthide Chestguard",
+			["name"] = "Nerubian Shoulders",
 		},
 		[137822] = {
 			["mats"] = {
@@ -15034,36 +15305,34 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Crafted Dreadful Gladiator's Belt of Cruelty",
 		},
-		[27957] = {
+		[186097] = {
 			["mats"] = {
-				["i:22445"] = 8,
+				["i:124437"] = 35,
+				["i:127037"] = 1,
+				["i:127681"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:127016",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Silkweave Cover",
+		},
+		[190988] = {
+			["mats"] = {
+				["i:124441"] = 1,
 				["i:38682"] = 1,
-				["i:14344"] = 2,
-				["i:13446"] = 4,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["itemString"] = "i:38911",
+			["itemString"] = "i:128558",
 			["players"] = {
-				["Fausta"] = true,
+				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Exceptional Health",
-		},
-		[9201] = {
-			["mats"] = {
-				["i:2325"] = 1,
-				["i:4234"] = 16,
-				["i:4291"] = 2,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:7378",
-			["players"] = {
-				["Lupalia"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Dusky Bracers",
+			["name"] = "Legion Herbalism",
 		},
 		[138590] = {
 			["mats"] = {
@@ -15079,48 +15348,47 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Quilen Hide Helm",
 		},
-		[63200] = {
+		[171284] = {
 			["mats"] = {
-				["i:44128"] = 3,
-				["i:38425"] = 4,
-				["i:45087"] = 6,
+				["i:111557"] = 2,
+				["i:110611"] = 100,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:45556",
+			["itemString"] = "i:116193",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Belt of Arctic Life",
+			["name"] = "Wayfaring Boots",
 		},
-		[60629] = {
+		[127020] = {
 			["mats"] = {
-				["i:38425"] = 6,
-				["i:37705"] = 4,
+				["i:39354"] = 1,
+				["i:79254"] = 3,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:44444",
+			["profession"] = "Inscription",
+			["name"] = "Secret Tiger Fang Inscription",
 			["players"] = {
-				["Lupalia"] = true,
+				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Dark Nerubian Chestpiece",
+			["itemString"] = "i:87585",
 		},
-		[60651] = {
+		[58320] = {
 			["mats"] = {
-				["i:38425"] = 12,
-				["i:36860"] = 2,
+				["i:39354"] = 1,
+				["i:43122"] = 3,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:43130",
+			["profession"] = "Inscription",
+			["name"] = "Glyph of Shackle Undead",
 			["players"] = {
-				["Lupalia"] = true,
+				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Virulent Spaulders",
+			["itemString"] = "i:43373",
 		},
 		[58476] = {
 			["mats"] = {
@@ -15205,20 +15473,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:27501",
 		},
-		[7857] = {
+		[60651] = {
 			["mats"] = {
-				["i:38682"] = 1,
-				["i:10998"] = 1,
-				["i:10940"] = 4,
+				["i:38425"] = 12,
+				["i:36860"] = 2,
 			},
 			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:38782",
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:43130",
 			["players"] = {
-				["Fausta"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Health",
+			["name"] = "Virulent Spaulders",
 		},
 		[60971] = {
 			["mats"] = {
@@ -15237,20 +15504,18 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Magnificent Flying Carpet",
 		},
-		[19072] = {
+		[125552] = {
 			["mats"] = {
-				["i:8170"] = 10,
-				["i:14341"] = 1,
-				["i:14047"] = 10,
+				["i:82441"] = 4,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:15093",
+			["profession"] = "Tailoring",
+			["itemString"] = "i:82442",
 			["players"] = {
-				["Lupalia"] = true,
+				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Runic Leather Belt",
+			["name"] = "Pearlescent Spellthread",
 		},
 		[137824] = {
 			["mats"] = {
@@ -15327,48 +15592,33 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Frosty Flying Carpet",
 		},
-		[10558] = {
+		[143116] = {
 			["mats"] = {
-				["i:8343"] = 2,
-				["i:4304"] = 16,
+				["i:72163"] = 2,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:8197",
+			["itemString"] = "i:98836",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Nightscape Boots",
+			["name"] = "Crafted Malevolent Gladiator's Ironskin Spaulders",
 		},
-		[12065] = {
+		[19071] = {
 			["mats"] = {
-				["i:4339"] = 4,
-				["i:4291"] = 2,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:10050",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Mageweave Bag",
-		},
-		[10542] = {
-			["mats"] = {
-				["i:8154"] = 8,
-				["i:4291"] = 2,
-				["i:4304"] = 6,
+				["i:2325"] = 1,
+				["i:8170"] = 12,
+				["i:14341"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:8204",
+			["itemString"] = "i:15086",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Tough Scorpid Gloves",
+			["name"] = "Wicked Leather Headband",
 		},
 		[8758] = {
 			["mats"] = {
@@ -15385,6 +15635,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Azure Silk Pants",
 		},
+		[137825] = {
+			["mats"] = {
+				["i:72163"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:93475",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Crafted Dreadful Gladiator's Wyrmhide Gloves",
+		},
 		[8774] = {
 			["mats"] = {
 				["i:4305"] = 5,
@@ -15398,6 +15661,19 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["queued"] = 0,
 			["name"] = "Green Silken Shoulders",
+		},
+		[57709] = {
+			["mats"] = {
+				["i:39340"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Inscription",
+			["name"] = "Celestial Ink",
+			["players"] = {
+				["Chrysante"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:43120",
 		},
 		[138593] = {
 			["mats"] = {
@@ -15413,19 +15689,6 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Spirit Keeper Footguards",
 		},
-		[57709] = {
-			["mats"] = {
-				["i:39340"] = 2,
-			},
-			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Celestial Ink",
-			["players"] = {
-				["Chrysante"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:43120",
-		},
 		[165460] = {
 			["mats"] = {
 				["i:39354"] = 3,
@@ -15440,46 +15703,44 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:141644",
 		},
-		[195850] = {
+		[137814] = {
 			["mats"] = {
-				["i:130176"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Jewelcrafting",
-			["itemString"] = "i:130217",
-			["players"] = {
-				["Trïxxed"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Versatile Skystone",
-		},
-		[50967] = {
-			["mats"] = {
-				["i:44128"] = 2,
-				["i:43102"] = 1,
-				["i:38557"] = 2,
+				["i:72163"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:38374",
+			["itemString"] = "i:93463",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Icescale Leg Armor",
+			["name"] = "Crafted Dreadful Gladiator's Belt of Meditation",
 		},
-		[50958] = {
+		[143060] = {
 			["mats"] = {
-				["i:33568"] = 10,
+				["i:82441"] = 7,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:98768",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Crafted Malevolent Gladiator's Treads of Meditation",
+		},
+		[64661] = {
+			["mats"] = {
+				["i:33567"] = 5,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:38417",
+			["itemString"] = "i:33568",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Nerubian Shoulders",
+			["name"] = "Borean Leather",
 		},
 		[137826] = {
 			["mats"] = {
@@ -15565,18 +15826,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:955",
 		},
-		[143116] = {
+		[59496] = {
 			["mats"] = {
-				["i:72163"] = 2,
+				["i:39354"] = 10,
+				["i:43125"] = 6,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:98836",
+			["profession"] = "Inscription",
+			["name"] = "Book of Clever Tricks",
 			["players"] = {
-				["Lupalia"] = true,
+				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Malevolent Gladiator's Ironskin Spaulders",
+			["itemString"] = "i:43667",
 		},
 		[3275] = {
 			["mats"] = {
@@ -15618,19 +15880,18 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:133576",
 		},
-		[190988] = {
+		[143110] = {
 			["mats"] = {
-				["i:124441"] = 1,
-				["i:38682"] = 1,
+				["i:72163"] = 2,
 			},
 			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:128558",
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:98830",
 			["players"] = {
-				["Daemonikos"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Legion Herbalism",
+			["name"] = "Crafted Malevolent Gladiator's Waistband of Cruelty",
 		},
 		[138595] = {
 			["mats"] = {
@@ -15660,33 +15921,37 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:33460",
 		},
-		[171284] = {
+		[137942] = {
 			["mats"] = {
-				["i:111557"] = 2,
-				["i:110611"] = 100,
+				["i:82441"] = 5,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:116193",
+			["profession"] = "Tailoring",
+			["itemString"] = "i:93619",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Crafted Dreadful Gladiator's Felweave Amice",
+		},
+		[140041] = {
 			["players"] = {
 				["Lupalia"] = true,
 			},
-			["queued"] = 0,
-			["name"] = "Wayfaring Boots",
-		},
-		[127020] = {
-			["mats"] = {
-				["i:39354"] = 1,
-				["i:79254"] = 3,
-			},
 			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Secret Tiger Fang Inscription",
-			["players"] = {
-				["Chrysante"] = true,
+			["cooldownTimes"] = {
+				["Lupalia"] = {
+					["endTime"] = 0,
+				},
 			},
+			["hasCD"] = true,
+			["mats"] = {
+				["i:79101"] = 20,
+			},
+			["itemString"] = "i:72163",
+			["profession"] = "Leatherworking",
 			["queued"] = 0,
-			["itemString"] = "i:87585",
+			["name"] = "Magnificent Hide",
 		},
 		[42613] = {
 			["mats"] = {
@@ -15696,6 +15961,7 @@ TradeSkillMaster_CraftingDB = {
 			["profession"] = "Enchanting",
 			["itemString"] = "i:22448",
 			["players"] = {
+				["Lupalia"] = true,
 				["Fausta"] = true,
 			},
 			["queued"] = 0,
@@ -15728,18 +15994,18 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:133577",
 		},
-		[143117] = {
+		[143114] = {
 			["mats"] = {
 				["i:72163"] = 3,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:98837",
+			["itemString"] = "i:98834",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Malevolent Gladiator's Ironskin Tunic",
+			["name"] = "Crafted Malevolent Gladiator's Ironskin Helm",
 		},
 		[138596] = {
 			["mats"] = {
@@ -15784,25 +16050,25 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Major Dodge",
 		},
-		[138597] = {
+		[51569] = {
 			["mats"] = {
-				["i:94289"] = 6,
-				["i:82447"] = 4,
+				["i:38425"] = 6,
+				["i:37703"] = 4,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:94277",
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:38591",
 			["players"] = {
-				["Daemonikos"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Falling Blossom Treads",
+			["name"] = "Dark Arctic Leggings",
 		},
 		[192842] = {
 			["mats"] = {
-				["i:39354"] = 1,
 				["i:129034"] = 4,
 				["i:129032"] = 60,
+				["i:39354"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Inscription",
@@ -15857,19 +16123,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Mark of the Ancient Priestess",
 		},
-		[51569] = {
+		[138597] = {
 			["mats"] = {
-				["i:38425"] = 6,
-				["i:37703"] = 4,
+				["i:94289"] = 6,
+				["i:82447"] = 4,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:38591",
+			["profession"] = "Tailoring",
+			["itemString"] = "i:94277",
 			["players"] = {
-				["Lupalia"] = true,
+				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Dark Arctic Leggings",
+			["name"] = "Falling Blossom Treads",
 		},
 		[165464] = {
 			["mats"] = {
@@ -15885,32 +16151,34 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:141644",
 		},
-		[125552] = {
+		[67087] = {
 			["mats"] = {
-				["i:82441"] = 4,
+				["i:47556"] = 4,
+				["i:44128"] = 6,
+				["i:35627"] = 12,
+				["i:38425"] = 20,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:82442",
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:47581",
 			["players"] = {
-				["Daemonikos"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Pearlescent Spellthread",
+			["name"] = "Bracers of Swift Death",
 		},
-		[58320] = {
+		[131865] = {
 			["mats"] = {
-				["i:39354"] = 1,
-				["i:43122"] = 3,
+				["i:72120"] = 50,
 			},
 			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Glyph of Shackle Undead",
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:72163",
 			["players"] = {
-				["Chrysante"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:43373",
+			["name"] = "Magnificent Hide",
 		},
 		[55919] = {
 			["mats"] = {
@@ -15939,32 +16207,34 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Crafted Dreadful Gladiator's Waistband of Cruelty",
 		},
-		[60643] = {
+		[195883] = {
 			["mats"] = {
-				["i:38425"] = 8,
+				["i:130175"] = 10,
+				["i:124124"] = 1,
+				["i:130172"] = 10,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:44446",
+			["profession"] = "Jewelcrafting",
+			["itemString"] = "i:130254",
 			["players"] = {
-				["Lupalia"] = true,
+				["Trïxxed"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Pack of Endless Pockets",
+			["name"] = "Chatterstone",
 		},
-		[165465] = {
+		[2402] = {
 			["mats"] = {
-				["i:39354"] = 3,
-				["i:43126"] = 3,
+				["i:2997"] = 1,
+				["i:2321"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Assorted Glyphs",
+			["profession"] = "Tailoring",
+			["itemString"] = "i:2584",
 			["players"] = {
-				["Chrysante"] = true,
+				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:141644",
+			["name"] = "Woolen Cape",
 		},
 		[138598] = {
 			["mats"] = {
@@ -15980,46 +16250,46 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Falling Blossom Cowl",
 		},
-		[185935] = {
+		[165465] = {
 			["mats"] = {
-				["i:124437"] = 18,
+				["i:39354"] = 3,
+				["i:43126"] = 3,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:126993",
+			["profession"] = "Inscription",
+			["name"] = "Assorted Glyphs",
 			["players"] = {
-				["Daemonikos"] = true,
+				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Silkweave Cinch",
+			["itemString"] = "i:141644",
 		},
-		[19071] = {
+		[143098] = {
 			["mats"] = {
-				["i:2325"] = 1,
-				["i:8170"] = 12,
-				["i:14341"] = 1,
+				["i:72163"] = 3,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:15086",
+			["itemString"] = "i:98798",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Wicked Leather Headband",
+			["name"] = "Crafted Malevolent Gladiator's Kodohide Helm",
 		},
-		[137814] = {
+		[50610] = {
 			["mats"] = {
-				["i:72163"] = 1,
+				["i:39354"] = 2,
+				["i:43126"] = 1,
 			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:93463",
+			["numResult"] = 2,
+			["profession"] = "Inscription",
+			["name"] = "Scroll of Versatility VII",
 			["players"] = {
-				["Lupalia"] = true,
+				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Belt of Meditation",
+			["itemString"] = "i:37097",
 		},
 		[58478] = {
 			["mats"] = {
@@ -16090,19 +16360,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Falling Blossom Sandals",
 		},
-		[50610] = {
+		[165466] = {
 			["mats"] = {
-				["i:39354"] = 2,
-				["i:43126"] = 1,
+				["i:39354"] = 3,
+				["i:61978"] = 3,
 			},
-			["numResult"] = 2,
+			["numResult"] = 1,
 			["profession"] = "Inscription",
-			["name"] = "Scroll of Versatility VII",
+			["name"] = "Assorted Glyphs",
 			["players"] = {
 				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:37097",
+			["itemString"] = "i:141644",
 		},
 		[13700] = {
 			["mats"] = {
@@ -16120,31 +16390,33 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Lesser Stats",
 		},
-		[143060] = {
+		[175868] = {
 			["mats"] = {
-				["i:82441"] = 7,
+				["i:109141"] = 3,
+				["i:109123"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:98768",
+			["profession"] = "Alchemy",
+			["itemString"] = "i:118704",
 			["players"] = {
-				["Daemonikos"] = true,
+				["Trîxxed"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Malevolent Gladiator's Treads of Meditation",
+			["name"] = "Pure Rage Potion",
 		},
-		[64661] = {
+		[60705] = {
 			["mats"] = {
-				["i:33567"] = 5,
+				["i:38425"] = 10,
+				["i:35623"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:33568",
+			["itemString"] = "i:43436",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Borean Leather",
+			["name"] = "Eviscerator's Gauntlets",
 		},
 		[137832] = {
 			["mats"] = {
@@ -16159,34 +16431,34 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Crafted Dreadful Gladiator's Armwraps of Accuracy",
 		},
-		[195883] = {
+		[47766] = {
 			["mats"] = {
-				["i:130175"] = 10,
-				["i:124124"] = 1,
-				["i:130172"] = 10,
+				["i:34054"] = 3,
+				["i:35624"] = 1,
+				["i:38682"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:39002",
+			["players"] = {
+				["Fausta"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Greater Dodge",
+		},
+		[209610] = {
+			["mats"] = {
+				["i:130177"] = 5,
+				["i:130172"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Jewelcrafting",
-			["itemString"] = "i:130254",
+			["itemString"] = "i:136712",
 			["players"] = {
 				["Trïxxed"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Chatterstone",
-		},
-		[59496] = {
-			["mats"] = {
-				["i:39354"] = 10,
-				["i:43125"] = 6,
-			},
-			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Book of Clever Tricks",
-			["players"] = {
-				["Chrysante"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:43667",
+			["name"] = "Queen's Opal Pendant",
 		},
 		[138600] = {
 			["mats"] = {
@@ -16216,31 +16488,32 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:141644",
 		},
-		[137942] = {
+		[78478] = {
 			["mats"] = {
-				["i:82441"] = 5,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:93619",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Felweave Amice",
-		},
-		[143110] = {
-			["mats"] = {
-				["i:72163"] = 2,
+				["i:52325"] = 20,
+				["i:52980"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:98830",
+			["itemString"] = "i:56551",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Malevolent Gladiator's Waistband of Cruelty",
+			["name"] = "Charscale Leg Armor",
+		},
+		[50957] = {
+			["mats"] = {
+				["i:33568"] = 8,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:38422",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Nerubian Legguards",
 		},
 		[59502] = {
 			["mats"] = {
@@ -16269,24 +16542,20 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Crafted Dreadful Gladiator's Ironskin Gloves",
 		},
-		[140041] = {
-			["players"] = {
-				["Lupalia"] = true,
+		[229045] = {
+			["mats"] = {
+				["i:127037"] = 10,
+				["i:127004"] = 60,
+				["i:124124"] = 8,
 			},
 			["numResult"] = 1,
-			["cooldownTimes"] = {
-				["Lupalia"] = {
-					["endTime"] = 0,
-				},
+			["profession"] = "Tailoring",
+			["itemString"] = "i:142075",
+			["players"] = {
+				["Daemonikos"] = true,
 			},
-			["hasCD"] = true,
-			["mats"] = {
-				["i:79101"] = 20,
-			},
-			["itemString"] = "i:72163",
-			["profession"] = "Leatherworking",
 			["queued"] = 0,
-			["name"] = "Magnificent Hide",
+			["name"] = "Imbued Silkweave Bag",
 		},
 		[78416] = {
 			["mats"] = {
@@ -16328,32 +16597,33 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "White Cloud Leggings",
 		},
-		[143114] = {
+		[208352] = {
 			["mats"] = {
-				["i:72163"] = 3,
+				["i:124437"] = 12,
+				["i:127037"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:98834",
+			["profession"] = "Tailoring",
+			["itemString"] = "i:126988",
 			["players"] = {
-				["Lupalia"] = true,
+				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Malevolent Gladiator's Ironskin Helm",
+			["name"] = "Silkweave Slippers",
 		},
-		[209610] = {
+		[2538] = {
 			["mats"] = {
-				["i:130177"] = 5,
-				["i:130172"] = 1,
+				["i:2672"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Jewelcrafting",
-			["itemString"] = "i:136712",
+			["profession"] = "Cooking",
+			["name"] = "Charred Wolf Meat",
 			["players"] = {
-				["Trïxxed"] = true,
+				["Daemonikos"] = true,
+				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Queen's Opal Pendant",
+			["itemString"] = "i:2679",
 		},
 		[55920] = {
 			["mats"] = {
@@ -16397,33 +16667,35 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:133563",
 		},
-		[78478] = {
+		[188347] = {
 			["mats"] = {
-				["i:52325"] = 20,
-				["i:52980"] = 1,
+				["i:3371"] = 1,
+				["i:124105"] = 7,
+				["i:124101"] = 10,
+				["i:124102"] = 10,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:127850",
+			["players"] = {
+				["Trîxxed"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Flask of Ten Thousand Scars",
+		},
+		[32478] = {
+			["mats"] = {
+				["i:14341"] = 3,
+				["i:21887"] = 6,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:56551",
+			["itemString"] = "i:25673",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Charscale Leg Armor",
-		},
-		[127009] = {
-			["mats"] = {
-				["i:39354"] = 1,
-				["i:79254"] = 4,
-			},
-			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Chi-Ji Kite",
-			["players"] = {
-				["Chrysante"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:89368",
+			["name"] = "Wild Draenish Boots",
 		},
 		[58287] = {
 			["mats"] = {
@@ -16510,18 +16782,33 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Mending",
 		},
-		[131865] = {
+		[18421] = {
 			["mats"] = {
-				["i:72120"] = 50,
+				["i:14048"] = 4,
+				["i:11176"] = 1,
+				["i:14341"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:72163",
+			["profession"] = "Tailoring",
+			["itemString"] = "i:14132",
 			["players"] = {
-				["Lupalia"] = true,
+				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Magnificent Hide",
+			["name"] = "Wizardweave Leggings",
+		},
+		[160968] = {
+			["mats"] = {
+				["i:109135"] = 5,
+			},
+			["numResult"] = 1,
+			["profession"] = "Cooking",
+			["name"] = "Braised Riverbeast",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:111436",
 		},
 		[50611] = {
 			["mats"] = {
@@ -16536,20 +16823,6 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["queued"] = 0,
 			["itemString"] = "i:37098",
-		},
-		[32478] = {
-			["mats"] = {
-				["i:14341"] = 3,
-				["i:21887"] = 6,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:25673",
-			["players"] = {
-				["Lupalia"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Wild Draenish Boots",
 		},
 		[229183] = {
 			["mats"] = {
@@ -16582,9 +16855,9 @@ TradeSkillMaster_CraftingDB = {
 		},
 		[192849] = {
 			["mats"] = {
-				["i:39354"] = 1,
 				["i:129034"] = 12,
 				["i:129032"] = 20,
+				["i:39354"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Inscription",
@@ -16623,20 +16896,18 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:133565",
 		},
-		[60640] = {
+		[51571] = {
 			["mats"] = {
-				["i:44128"] = 2,
-				["i:38558"] = 40,
-				["i:43102"] = 1,
+				["i:33568"] = 12,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:43565",
+			["itemString"] = "i:38433",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Durable Nerubhide Cape",
+			["name"] = "Arctic Wristguards",
 		},
 		[7156] = {
 			["mats"] = {
@@ -16653,19 +16924,18 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Guardian Gloves",
 		},
-		[175868] = {
+		[137939] = {
 			["mats"] = {
-				["i:109141"] = 3,
-				["i:109123"] = 1,
+				["i:82441"] = 6,
 			},
 			["numResult"] = 1,
-			["profession"] = "Alchemy",
-			["itemString"] = "i:118704",
+			["profession"] = "Tailoring",
+			["itemString"] = "i:93616",
 			["players"] = {
-				["Trîxxed"] = true,
+				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Pure Rage Potion",
+			["name"] = "Crafted Dreadful Gladiator's Felweave Cowl",
 		},
 		[18437] = {
 			["mats"] = {
@@ -16683,24 +16953,25 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Felcloth Boots",
 		},
-		[57712] = {
+		[171283] = {
 			["mats"] = {
-				["i:43107"] = 1,
+				["i:110609"] = 1,
+				["i:110611"] = 100,
 			},
 			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Ink of the Sky",
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:116192",
 			["players"] = {
-				["Chrysante"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:43123",
+			["name"] = "Wayfaring Bracers",
 		},
 		[192850] = {
 			["mats"] = {
-				["i:39354"] = 1,
 				["i:129034"] = 12,
 				["i:129032"] = 20,
+				["i:39354"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Inscription",
@@ -16740,33 +17011,31 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:133566",
 		},
-		[192851] = {
+		[74964] = {
 			["mats"] = {
-				["i:39354"] = 1,
-				["i:129034"] = 12,
-				["i:129032"] = 20,
+				["i:53010"] = 5,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:53643",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Bolt of Embersilk Cloth",
+		},
+		[57712] = {
+			["mats"] = {
+				["i:43107"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Inscription",
-			["name"] = "Glyph of Fallow Wings",
+			["name"] = "Ink of the Sky",
 			["players"] = {
 				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:139417",
-		},
-		[51571] = {
-			["mats"] = {
-				["i:33568"] = 12,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:38433",
-			["players"] = {
-				["Lupalia"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Arctic Wristguards",
+			["itemString"] = "i:43123",
 		},
 		[142955] = {
 			["mats"] = {
@@ -16795,32 +17064,36 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:142103",
 		},
-		[60655] = {
+		[36318] = {
 			["mats"] = {
-				["i:38425"] = 14,
-				["i:35627"] = 2,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:43132",
-			["players"] = {
-				["Lupalia"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Nightshock Hood",
-		},
-		[74964] = {
-			["mats"] = {
-				["i:53010"] = 5,
+				["i:24271"] = 4,
+				["i:21845"] = 4,
+				["i:14341"] = 2,
+				["i:23572"] = 2,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:53643",
+			["itemString"] = "i:30035",
 			["players"] = {
-				["Daemonikos"] = true,
+				["Eruditus"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Bolt of Embersilk Cloth",
+			["name"] = "Boots of the Long Road",
+		},
+		[192851] = {
+			["mats"] = {
+				["i:129034"] = 12,
+				["i:129032"] = 20,
+				["i:39354"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Inscription",
+			["name"] = "Glyph of Fallow Wings",
+			["players"] = {
+				["Chrysante"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:139417",
 		},
 		[137838] = {
 			["mats"] = {
@@ -16837,10 +17110,10 @@ TradeSkillMaster_CraftingDB = {
 		},
 		[201551] = {
 			["mats"] = {
-				["i:124120"] = 5,
 				["i:124112"] = 5,
-				["i:133590"] = 4,
 				["i:133591"] = 1,
+				["i:133590"] = 4,
+				["i:124120"] = 5,
 			},
 			["numResult"] = 10,
 			["profession"] = "Cooking",
@@ -16851,27 +17124,25 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:133567",
 		},
-		[74197] = {
+		[143124] = {
 			["mats"] = {
-				["i:52719"] = 6,
-				["i:38682"] = 1,
-				["i:52555"] = 4,
+				["i:72163"] = 2,
 			},
 			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:52748",
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:98882",
 			["players"] = {
-				["Fausta"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Avalanche",
+			["name"] = "Crafted Malevolent Gladiator's Boots of Cruelty",
 		},
 		[195922] = {
 			["mats"] = {
 				["i:124444"] = 2,
-				["i:124124"] = 5,
 				["i:130181"] = 1,
 				["i:130178"] = 4,
+				["i:124124"] = 5,
 			},
 			["numResult"] = 1,
 			["profession"] = "Jewelcrafting",
@@ -16895,18 +17166,18 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Snow Lily Britches",
 		},
-		[50957] = {
+		[185944] = {
 			["mats"] = {
-				["i:33568"] = 8,
+				["i:124437"] = 12,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:38422",
+			["profession"] = "Tailoring",
+			["itemString"] = "i:126992",
 			["players"] = {
-				["Lupalia"] = true,
+				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Nerubian Legguards",
+			["name"] = "Silkweave Epaulets",
 		},
 		[10518] = {
 			["mats"] = {
@@ -16980,6 +17251,23 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Scorched Leg Armor",
 		},
+		[3770] = {
+			["mats"] = {
+				["i:2321"] = 2,
+				["i:3389"] = 2,
+				["i:3182"] = 2,
+				["i:2319"] = 4,
+				["i:4233"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:4253",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Toughened Leather Gloves",
+		},
 		[50612] = {
 			["mats"] = {
 				["i:39354"] = 1,
@@ -16993,19 +17281,6 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["queued"] = 0,
 			["itemString"] = "i:1711",
-		},
-		[185944] = {
-			["mats"] = {
-				["i:124437"] = 12,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:126992",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Silkweave Epaulets",
 		},
 		[10630] = {
 			["mats"] = {
@@ -17023,33 +17298,34 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Gauntlets of the Sea",
 		},
-		[208352] = {
+		[75270] = {
 			["mats"] = {
-				["i:124437"] = 12,
-				["i:127037"] = 1,
+				["i:52326"] = 4,
+				["i:52325"] = 4,
+				["i:53643"] = 6,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:126988",
+			["itemString"] = "i:75098",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Silkweave Slippers",
+			["name"] = "Vicious Embersilk Bracers",
 		},
-		[171283] = {
+		[56010] = {
 			["mats"] = {
-				["i:110609"] = 1,
-				["i:110611"] = 100,
+				["i:42253"] = 2,
+				["i:37702"] = 2,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:116192",
+			["profession"] = "Tailoring",
+			["itemString"] = "i:41603",
 			["players"] = {
-				["Lupalia"] = true,
+				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Wayfaring Bracers",
+			["name"] = "Azure Spellthread",
 		},
 		[137840] = {
 			["mats"] = {
@@ -17064,35 +17340,36 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Crafted Dreadful Gladiator's Copperskin Legguards",
 		},
-		[188347] = {
+		[225527] = {
 			["mats"] = {
-				["i:3371"] = 1,
-				["i:124105"] = 7,
-				["i:124101"] = 10,
-				["i:124102"] = 10,
+				["i:129034"] = 12,
+				["i:129032"] = 20,
+				["i:39354"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Alchemy",
-			["itemString"] = "i:127850",
+			["profession"] = "Inscription",
+			["name"] = "Glyph of Fel Wings",
 			["players"] = {
-				["Trîxxed"] = true,
+				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Flask of Ten Thousand Scars",
+			["itemString"] = "i:139435",
 		},
-		[185945] = {
+		[111917] = {
 			["mats"] = {
-				["i:124437"] = 16,
-				["i:127037"] = 2,
+				["i:76061"] = 2,
+				["i:72237"] = 3,
+				["i:79254"] = 8,
+				["i:79740"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:126987",
+			["profession"] = "Inscription",
+			["name"] = "Rain Poppy Staff",
 			["players"] = {
-				["Daemonikos"] = true,
+				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Silkweave Robe",
+			["itemString"] = "i:79339",
 		},
 		[195924] = {
 			["mats"] = {
@@ -17132,26 +17409,31 @@ TradeSkillMaster_CraftingDB = {
 			["profession"] = "Enchanting",
 			["itemString"] = "i:38768",
 			["players"] = {
+				["Lupalia"] = true,
 				["Daemonikos"] = true,
 				["Fausta"] = true,
 			},
 			["queued"] = 0,
 			["name"] = "Minor Dodge",
 		},
-		[8791] = {
-			["mats"] = {
-				["i:2321"] = 2,
-				["i:4305"] = 4,
-				["i:2604"] = 2,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:7058",
+		[125557] = {
 			["players"] = {
 				["Daemonikos"] = true,
 			},
+			["numResult"] = 1,
+			["cooldownTimes"] = {
+				["Daemonikos"] = {
+					["endTime"] = 0,
+				},
+			},
+			["hasCD"] = true,
+			["mats"] = {
+				["i:82441"] = 8,
+			},
+			["itemString"] = "i:92960",
+			["profession"] = "Tailoring",
 			["queued"] = 0,
-			["name"] = "Crimson Silk Vest",
+			["name"] = "Silkworm Cocoon",
 		},
 		[59504] = {
 			["mats"] = {
@@ -17196,19 +17478,20 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Haste",
 		},
-		[78420] = {
+		[8791] = {
 			["mats"] = {
-				["i:52326"] = 4,
-				["i:52976"] = 6,
+				["i:2321"] = 2,
+				["i:4305"] = 4,
+				["i:2604"] = 2,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:56503",
+			["profession"] = "Tailoring",
+			["itemString"] = "i:7058",
 			["players"] = {
-				["Lupalia"] = true,
+				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Twilight Leg Armor",
+			["name"] = "Crimson Silk Vest",
 		},
 		[195925] = {
 			["mats"] = {
@@ -17224,18 +17507,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Azsunite Loop",
 		},
-		[160968] = {
+		[3755] = {
 			["mats"] = {
-				["i:109135"] = 5,
+				["i:2320"] = 3,
+				["i:2996"] = 3,
 			},
 			["numResult"] = 1,
-			["profession"] = "Cooking",
-			["name"] = "Braised Riverbeast",
+			["profession"] = "Tailoring",
+			["itemString"] = "i:4238",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:111436",
+			["name"] = "Linen Bag",
 		},
 		[27905] = {
 			["mats"] = {
@@ -17252,11 +17536,26 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Stats",
 		},
+		[233278] = {
+			["mats"] = {
+				["i:129034"] = 4,
+				["i:129032"] = 60,
+				["i:39354"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Inscription",
+			["name"] = "Glyph of Twilight Bloom",
+			["players"] = {
+				["Chrysante"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:143750",
+		},
 		[192855] = {
 			["mats"] = {
-				["i:39354"] = 1,
 				["i:129034"] = 5,
 				["i:129032"] = 45,
+				["i:39354"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Inscription",
@@ -17267,25 +17566,11 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:128978",
 		},
-		[3755] = {
-			["mats"] = {
-				["i:2320"] = 3,
-				["i:2996"] = 3,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:4238",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Linen Bag",
-		},
 		[3759] = {
 			["mats"] = {
-				["i:4231"] = 1,
 				["i:2318"] = 6,
 				["i:2320"] = 2,
+				["i:4231"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
@@ -17313,18 +17598,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:133571",
 		},
-		[137939] = {
+		[60655] = {
 			["mats"] = {
-				["i:82441"] = 6,
+				["i:38425"] = 14,
+				["i:35627"] = 2,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:93616",
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:43132",
 			["players"] = {
-				["Daemonikos"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Felweave Cowl",
+			["name"] = "Nightshock Hood",
 		},
 		[195926] = {
 			["mats"] = {
@@ -17368,19 +17654,22 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Super Resilience",
 		},
-		[2538] = {
+		[201556] = {
 			["mats"] = {
-				["i:2672"] = 1,
+				["i:124105"] = 1,
+				["i:124121"] = 5,
+				["i:133592"] = 10,
+				["i:129100"] = 20,
+				["i:133567"] = 1,
 			},
-			["numResult"] = 1,
+			["numResult"] = 10,
 			["profession"] = "Cooking",
-			["name"] = "Charred Wolf Meat",
+			["name"] = "Nightborne Delicacy Platter",
 			["players"] = {
 				["Daemonikos"] = true,
-				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:2679",
+			["itemString"] = "i:133572",
 		},
 		[58481] = {
 			["mats"] = {
@@ -17481,36 +17770,32 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Spellpower",
 		},
-		[225527] = {
+		[59495] = {
 			["mats"] = {
-				["i:39354"] = 1,
-				["i:129034"] = 12,
-				["i:129032"] = 20,
+				["i:39354"] = 10,
+				["i:43125"] = 6,
 			},
 			["numResult"] = 1,
 			["profession"] = "Inscription",
-			["name"] = "Glyph of Fel Wings",
+			["name"] = "Hellfire Tome",
 			["players"] = {
 				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:139435",
+			["itemString"] = "i:43666",
 		},
-		[111917] = {
+		[143125] = {
 			["mats"] = {
-				["i:76061"] = 2,
-				["i:72237"] = 3,
-				["i:79254"] = 8,
-				["i:79740"] = 1,
+				["i:72163"] = 2,
 			},
 			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Rain Poppy Staff",
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:98883",
 			["players"] = {
-				["Chrysante"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:79339",
+			["name"] = "Crafted Malevolent Gladiator's Armwraps of Alacrity",
 		},
 		[137844] = {
 			["mats"] = {
@@ -17525,34 +17810,33 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Crafted Dreadful Gladiator's Boots of Cruelty",
 		},
-		[51570] = {
+		[3761] = {
 			["mats"] = {
-				["i:38425"] = 5,
-				["i:37703"] = 5,
+				["i:2318"] = 6,
+				["i:2320"] = 4,
+				["i:4231"] = 3,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:38592",
+			["itemString"] = "i:4243",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Dark Arctic Chestpiece",
+			["name"] = "Fine Leather Tunic",
 		},
-		[233278] = {
+		[143113] = {
 			["mats"] = {
-				["i:39354"] = 1,
-				["i:129034"] = 4,
-				["i:129032"] = 60,
+				["i:72163"] = 2,
 			},
 			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Glyph of Twilight Bloom",
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:98833",
 			["players"] = {
-				["Chrysante"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:143750",
+			["name"] = "Crafted Malevolent Gladiator's Ironskin Gloves",
 		},
 		[195928] = {
 			["mats"] = {
@@ -17598,34 +17882,36 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Runecloth Pants",
 		},
-		[59491] = {
+		[225526] = {
 			["mats"] = {
+				["i:129034"] = 10,
+				["i:129032"] = 30,
 				["i:39354"] = 1,
-				["i:43121"] = 2,
 			},
 			["numResult"] = 1,
 			["profession"] = "Inscription",
-			["name"] = "Shadowy Tarot",
+			["name"] = "Glyph of the Unholy Wraith",
 			["players"] = {
 				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:44163",
+			["itemString"] = "i:139273",
 		},
-		[75270] = {
+		[192859] = {
 			["mats"] = {
-				["i:52326"] = 4,
-				["i:52325"] = 4,
-				["i:53643"] = 6,
+				["i:124106"] = 1,
+				["i:129032"] = 40,
+				["i:129034"] = 18,
+				["i:39354"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:75098",
+			["profession"] = "Inscription",
+			["name"] = "Darkmoon Card of the Legion",
 			["players"] = {
-				["Daemonikos"] = true,
+				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Vicious Embersilk Bracers",
+			["itemString"] = "i:128712",
 		},
 		[3855] = {
 			["mats"] = {
@@ -17643,33 +17929,36 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Spidersilk Boots",
 		},
-		[3859] = {
+		[74200] = {
 			["mats"] = {
-				["i:4305"] = 5,
-				["i:6260"] = 4,
+				["i:38682"] = 1,
+				["i:52555"] = 5,
+				["i:52718"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:4324",
+			["profession"] = "Enchanting",
+			["itemString"] = "i:52751",
 			["players"] = {
-				["Daemonikos"] = true,
+				["Fausta"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Azure Silk Vest",
+			["name"] = "Stamina",
 		},
-		[56010] = {
+		[158918] = {
 			["mats"] = {
-				["i:42253"] = 2,
-				["i:37702"] = 2,
+				["i:113588"] = 4,
+				["i:113262"] = 3,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:41603",
+			["profession"] = "Enchanting",
+			["itemString"] = "i:110642",
 			["players"] = {
-				["Daemonikos"] = true,
+				["Lupalia"] = true,
+				["Fausta"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Azure Spellthread",
+			["name"] = "Gift of Versatility",
 		},
 		[195929] = {
 			["mats"] = {
@@ -17716,35 +18005,32 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Lesser Health",
 		},
-		[127018] = {
+		[50956] = {
 			["mats"] = {
-				["i:39354"] = 1,
-				["i:79254"] = 3,
+				["i:33568"] = 12,
 			},
 			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Crane Wing Inscription",
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:38420",
 			["players"] = {
-				["Chrysante"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:87578",
+			["name"] = "Nerubian Chestguard",
 		},
-		[192859] = {
+		[55923] = {
 			["mats"] = {
-				["i:124106"] = 1,
-				["i:39354"] = 1,
-				["i:129032"] = 40,
-				["i:129034"] = 18,
+				["i:41510"] = 10,
+				["i:38426"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Darkmoon Card of the Legion",
+			["profession"] = "Tailoring",
+			["itemString"] = "i:41550",
 			["players"] = {
-				["Chrysante"] = true,
+				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:128712",
+			["name"] = "Duskweave Shoulders",
 		},
 		[137846] = {
 			["mats"] = {
@@ -17759,21 +18045,18 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Crafted Dreadful Gladiator's Leather Tunic",
 		},
-		[36318] = {
+		[137936] = {
 			["mats"] = {
-				["i:23572"] = 2,
-				["i:21845"] = 4,
-				["i:24271"] = 4,
-				["i:14341"] = 2,
+				["i:82441"] = 4,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:30035",
+			["itemString"] = "i:93607",
 			["players"] = {
-				["Eruditus"] = true,
+				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Boots of the Long Road",
+			["name"] = "Crafted Dreadful Gladiator's Cloak of Alacrity",
 		},
 		[7788] = {
 			["mats"] = {
@@ -17791,22 +18074,21 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Minor Striking",
 		},
-		[3770] = {
+		[36077] = {
 			["mats"] = {
-				["i:2321"] = 2,
-				["i:3389"] = 2,
-				["i:3182"] = 2,
-				["i:2319"] = 4,
-				["i:4233"] = 2,
+				["i:23793"] = 4,
+				["i:22451"] = 2,
+				["i:14341"] = 2,
+				["i:22452"] = 2,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:4253",
+			["itemString"] = "i:29973",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Toughened Leather Gloves",
+			["name"] = "Primalstorm Breastplate",
 		},
 		[60337] = {
 			["mats"] = {
@@ -17837,20 +18119,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Earthen Leg Armor",
 		},
-		[225526] = {
+		[44623] = {
 			["mats"] = {
-				["i:39354"] = 1,
-				["i:129034"] = 10,
-				["i:129032"] = 30,
+				["i:34056"] = 3,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Glyph of the Unholy Wraith",
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38989",
 			["players"] = {
-				["Chrysante"] = true,
+				["Fausta"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:139273",
+			["name"] = "Super Stats",
 		},
 		[58482] = {
 			["mats"] = {
@@ -17907,24 +18188,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Tsunami Chestguard",
 		},
-		[125557] = {
-			["players"] = {
-				["Daemonikos"] = true,
+		[3763] = {
+			["mats"] = {
+				["i:2318"] = 6,
+				["i:2320"] = 2,
 			},
 			["numResult"] = 1,
-			["cooldownTimes"] = {
-				["Daemonikos"] = {
-					["endTime"] = 0,
-				},
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:4246",
+			["players"] = {
+				["Lupalia"] = true,
 			},
-			["hasCD"] = true,
-			["mats"] = {
-				["i:82441"] = 8,
-			},
-			["itemString"] = "i:92960",
-			["profession"] = "Tailoring",
 			["queued"] = 0,
-			["name"] = "Silkworm Cocoon",
+			["name"] = "Fine Leather Belt",
 		},
 		[50614] = {
 			["mats"] = {
@@ -17957,32 +18233,31 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Belt of Natural Power",
 		},
-		[143102] = {
+		[143093] = {
 			["mats"] = {
 				["i:72163"] = 2,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:98802",
+			["itemString"] = "i:98793",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Malevolent Gladiator's Belt of Cruelty",
+			["name"] = "Crafted Malevolent Gladiator's Dragonhide Spaulders",
 		},
-		[10531] = {
+		[143150] = {
 			["mats"] = {
-				["i:8343"] = 1,
-				["i:4304"] = 8,
+				["i:72163"] = 3,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:8201",
+			["itemString"] = "i:98897",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Big Voodoo Mask",
+			["name"] = "Crafted Malevolent Gladiator's Ringmail Leggings",
 		},
 		[137848] = {
 			["mats"] = {
@@ -17997,46 +18272,48 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Crafted Dreadful Gladiator's Leather Helm",
 		},
-		[175853] = {
+		[57714] = {
 			["mats"] = {
-				["i:109144"] = 3,
-				["i:109123"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Alchemy",
-			["itemString"] = "i:116266",
-			["players"] = {
-				["Trîxxed"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Draenic Swiftness Potion",
-		},
-		[59495] = {
-			["mats"] = {
-				["i:39354"] = 10,
-				["i:43125"] = 6,
+				["i:43108"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Inscription",
-			["name"] = "Hellfire Tome",
+			["name"] = "Darkflame Ink",
 			["players"] = {
 				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:43666",
+			["itemString"] = "i:43125",
 		},
-		[143125] = {
+		[48247] = {
 			["mats"] = {
-				["i:72163"] = 2,
+				["i:39354"] = 1,
+				["i:43115"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:98883",
+			["profession"] = "Inscription",
+			["name"] = "Mysterious Tarot",
 			["players"] = {
-				["Lupalia"] = true,
+				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Malevolent Gladiator's Armwraps of Alacrity",
+			["itemString"] = "i:37168",
+		},
+		[34004] = {
+			["mats"] = {
+				["i:22445"] = 4,
+				["i:22451"] = 1,
+				["i:22446"] = 1,
+				["i:38682"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38940",
+			["players"] = {
+				["Fausta"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Greater Agility",
 		},
 		[142966] = {
 			["mats"] = {
@@ -18066,34 +18343,31 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Glorious Stats",
 		},
-		[187489] = {
+		[171263] = {
 			["mats"] = {
-				["i:127759"] = 30,
-				["i:113262"] = 30,
-				["i:110611"] = 175,
+				["i:110609"] = 50,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:127712",
+			["itemString"] = "i:116167",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Mighty Burnished Essence",
+			["name"] = "Traveling Helm",
 		},
-		[185954] = {
+		[78424] = {
 			["mats"] = {
-				["i:127004"] = 55,
-				["i:127037"] = 1,
+				["i:56516"] = 5,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:127002",
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:56505",
 			["players"] = {
-				["Daemonikos"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Imbued Silkweave Bracers",
+			["name"] = "Darkbrand Helm",
 		},
 		[137849] = {
 			["mats"] = {
@@ -18122,18 +18396,20 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Intellect",
 		},
-		[78424] = {
+		[187489] = {
 			["mats"] = {
-				["i:56516"] = 5,
+				["i:127759"] = 30,
+				["i:113262"] = 30,
+				["i:110611"] = 175,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:56505",
+			["itemString"] = "i:127712",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Darkbrand Helm",
+			["name"] = "Mighty Burnished Essence",
 		},
 		[57715] = {
 			["mats"] = {
@@ -18148,49 +18424,52 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:43126",
 		},
-		[13941] = {
+		[185954] = {
 			["mats"] = {
-				["i:11178"] = 1,
+				["i:127004"] = 55,
+				["i:127037"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:127002",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Imbued Silkweave Bracers",
+		},
+		[195882] = {
+			["mats"] = {
+				["i:130180"] = 3,
+				["i:130179"] = 3,
+				["i:130183"] = 3,
+				["i:124444"] = 10,
+				["i:130181"] = 3,
+				["i:130178"] = 3,
+				["i:130182"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting",
+			["itemString"] = "i:130251",
+			["players"] = {
+				["Trïxxed"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "JewelCraft",
+		},
+		[191009] = {
+			["mats"] = {
+				["i:124440"] = 10,
 				["i:38682"] = 1,
-				["i:11176"] = 3,
-				["i:11175"] = 2,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["itemString"] = "i:38847",
+			["itemString"] = "i:128537",
 			["players"] = {
-				["Fausta"] = true,
+				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Stats",
-		},
-		[143113] = {
-			["mats"] = {
-				["i:72163"] = 2,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:98833",
-			["players"] = {
-				["Lupalia"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Crafted Malevolent Gladiator's Ironskin Gloves",
-		},
-		[158918] = {
-			["mats"] = {
-				["i:113588"] = 4,
-				["i:113262"] = 3,
-				["i:38682"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:110642",
-			["players"] = {
-				["Fausta"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Gift of Versatility",
+			["name"] = "Word of Critical Strike",
 		},
 		[55924] = {
 			["mats"] = {
@@ -18219,75 +18498,89 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Crafted Dreadful Gladiator's Leather Spaulders",
 		},
-		[50956] = {
+		[143091] = {
 			["mats"] = {
-				["i:33568"] = 12,
+				["i:72163"] = 3,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:38420",
+			["itemString"] = "i:98791",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Nerubian Chestguard",
+			["name"] = "Crafted Malevolent Gladiator's Dragonhide Legguards",
 		},
-		[137936] = {
+		[67081] = {
 			["mats"] = {
-				["i:82441"] = 4,
+				["i:47556"] = 4,
+				["i:44128"] = 6,
+				["i:34057"] = 4,
+				["i:38558"] = 40,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:47579",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Black Chitin Bracers",
+		},
+		[64261] = {
+			["mats"] = {
+				["i:39354"] = 1,
+				["i:79254"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Inscription",
+			["name"] = "Glyph of Deluge",
+			["players"] = {
+				["Chrysante"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:45775",
+		},
+		[137934] = {
+			["mats"] = {
+				["i:82441"] = 6,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:93607",
+			["itemString"] = "i:93558",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Cloak of Alacrity",
+			["name"] = "Crafted Dreadful Gladiator's Satin Robe",
 		},
-		[36077] = {
+		[51568] = {
 			["mats"] = {
-				["i:23793"] = 4,
-				["i:22451"] = 2,
-				["i:14341"] = 2,
-				["i:22452"] = 2,
+				["i:38558"] = 25,
+				["i:37705"] = 6,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:29973",
+			["itemString"] = "i:38590",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Primalstorm Breastplate",
+			["name"] = "Black Chitinguard Boots",
 		},
-		[44623] = {
+		[48248] = {
 			["mats"] = {
-				["i:34056"] = 3,
-				["i:38682"] = 1,
+				["i:39354"] = 1,
+				["i:39469"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:38989",
+			["profession"] = "Inscription",
+			["name"] = "Scroll of Recall",
 			["players"] = {
-				["Fausta"] = true,
+				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Super Stats",
-		},
-		[3763] = {
-			["mats"] = {
-				["i:2318"] = 6,
-				["i:2320"] = 2,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:4246",
-			["players"] = {
-				["Lupalia"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Fine Leather Belt",
+			["itemString"] = "i:37118",
 		},
 		[12070] = {
 			["mats"] = {
@@ -18304,20 +18597,6 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["queued"] = 0,
 			["name"] = "Dreamweave Vest",
-		},
-		[48248] = {
-			["mats"] = {
-				["i:39354"] = 1,
-				["i:39469"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Scroll of Recall",
-			["players"] = {
-				["Chrysante"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:37118",
 		},
 		[137851] = {
 			["mats"] = {
@@ -18346,31 +18625,35 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Nightshock Girdle",
 		},
-		[143093] = {
+		[18451] = {
 			["mats"] = {
-				["i:72163"] = 2,
+				["i:14048"] = 8,
+				["i:14256"] = 3,
+				["i:14341"] = 2,
+				["i:12662"] = 2,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:98793",
+			["profession"] = "Tailoring",
+			["itemString"] = "i:14106",
 			["players"] = {
-				["Lupalia"] = true,
+				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Malevolent Gladiator's Dragonhide Spaulders",
+			["name"] = "Felcloth Robe",
 		},
-		[143150] = {
+		[56948] = {
 			["mats"] = {
-				["i:72163"] = 3,
+				["i:39354"] = 1,
+				["i:43126"] = 3,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:98897",
+			["profession"] = "Inscription",
+			["name"] = "Glyph of the Orca",
 			["players"] = {
-				["Lupalia"] = true,
+				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Malevolent Gladiator's Ringmail Leggings",
+			["itemString"] = "i:40919",
 		},
 		[32480] = {
 			["mats"] = {
@@ -18399,32 +18682,33 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Savage Leather",
 		},
-		[57714] = {
+		[60649] = {
 			["mats"] = {
-				["i:43108"] = 1,
+				["i:38425"] = 15,
+				["i:35623"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Darkflame Ink",
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:43129",
 			["players"] = {
-				["Chrysante"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:43125",
+			["name"] = "Razorstrike Breastplate",
 		},
-		[56948] = {
+		[99535] = {
 			["mats"] = {
-				["i:39354"] = 1,
-				["i:43126"] = 3,
+				["i:52325"] = 4,
+				["i:52980"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Glyph of the Orca",
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:75077",
 			["players"] = {
-				["Chrysante"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:40919",
+			["name"] = "Vicious Hide Cloak",
 		},
 		[137852] = {
 			["mats"] = {
@@ -18439,21 +18723,21 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Crafted Dreadful Gladiator's Links of Accuracy",
 		},
-		[34004] = {
+		[158915] = {
 			["mats"] = {
-				["i:22445"] = 4,
-				["i:22451"] = 1,
-				["i:22446"] = 1,
+				["i:113261"] = 3,
 				["i:38682"] = 1,
+				["i:113588"] = 4,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["itemString"] = "i:38940",
+			["itemString"] = "i:110639",
 			["players"] = {
+				["Lupalia"] = true,
 				["Fausta"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Greater Agility",
+			["name"] = "Gift of Haste",
 		},
 		[187492] = {
 			["mats"] = {
@@ -18470,19 +18754,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Mighty Hexweave Essence",
 		},
-		[48247] = {
+		[2159] = {
 			["mats"] = {
-				["i:39354"] = 1,
-				["i:43115"] = 1,
+				["i:2318"] = 10,
+				["i:2321"] = 2,
 			},
 			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Mysterious Tarot",
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:2308",
 			["players"] = {
-				["Chrysante"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:37168",
+			["name"] = "Fine Leather Cloak",
 		},
 		[18407] = {
 			["mats"] = {
@@ -18514,93 +18798,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Superior Stamina",
 		},
-		[171263] = {
+		[192867] = {
 			["mats"] = {
-				["i:110609"] = 50,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:116167",
-			["players"] = {
-				["Lupalia"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Traveling Helm",
-		},
-		[195882] = {
-			["mats"] = {
-				["i:130180"] = 3,
-				["i:130179"] = 3,
-				["i:130183"] = 3,
-				["i:124444"] = 10,
-				["i:130181"] = 3,
-				["i:130178"] = 3,
-				["i:130182"] = 3,
-			},
-			["numResult"] = 1,
-			["profession"] = "Jewelcrafting",
-			["itemString"] = "i:130251",
-			["players"] = {
-				["Trïxxed"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "JewelCraft",
-		},
-		[137853] = {
-			["mats"] = {
-				["i:72163"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:93490",
-			["players"] = {
-				["Lupalia"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Sabatons of Cruelty",
-		},
-		[32497] = {
-			["mats"] = {
-				["i:22452"] = 4,
-				["i:23793"] = 4,
-				["i:14341"] = 2,
-				["i:25708"] = 20,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:25691",
-			["players"] = {
-				["Lupalia"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Heavy Clefthoof Boots",
-		},
-		[99536] = {
-			["mats"] = {
-				["i:52327"] = 4,
-				["i:52980"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:75076",
-			["players"] = {
-				["Lupalia"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Vicious Fur Cloak",
-		},
-		[57716] = {
-			["mats"] = {
-				["i:43109"] = 2,
+				["i:129034"] = 3,
+				["i:129032"] = 20,
 			},
 			["numResult"] = 1,
 			["profession"] = "Inscription",
-			["name"] = "Snowfall Ink",
+			["name"] = "Vantus Rune: Skorpyron",
 			["players"] = {
 				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:43127",
+			["itemString"] = "i:128994",
 		},
 		[104398] = {
 			["mats"] = {
@@ -18616,46 +18826,128 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Accuracy",
 		},
-		[64261] = {
+		[137853] = {
 			["mats"] = {
-				["i:39354"] = 1,
-				["i:79254"] = 3,
+				["i:72163"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:93490",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Crafted Dreadful Gladiator's Sabatons of Cruelty",
+		},
+		[39997] = {
+			["mats"] = {
+				["i:22456"] = 4,
+				["i:32428"] = 2,
+				["i:22450"] = 1,
+				["i:25700"] = 4,
+				["i:21886"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:32398",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Boots of Shackled Souls",
+		},
+		[176058] = {
+			["players"] = {
+				["Daemonikos"] = true,
+				["Eruditus"] = true,
+			},
+			["numResult"] = 1,
+			["cooldownTimes"] = {
+				["Eruditus"] = {
+					["endTime"] = 0,
+				},
+				["Daemonikos"] = {
+					["endTime"] = 0,
+				},
+			},
+			["hasCD"] = true,
+			["mats"] = {
+				["i:111557"] = 5,
+			},
+			["itemString"] = "i:118722",
+			["profession"] = "Tailoring",
+			["queued"] = 0,
+			["name"] = "Secret of Draenor Tailoring",
+		},
+		[57716] = {
+			["mats"] = {
+				["i:43109"] = 2,
 			},
 			["numResult"] = 1,
 			["profession"] = "Inscription",
-			["name"] = "Glyph of Deluge",
+			["name"] = "Snowfall Ink",
 			["players"] = {
 				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:45775",
+			["itemString"] = "i:43127",
 		},
-		[137934] = {
-			["mats"] = {
-				["i:82441"] = 6,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:93558",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Satin Robe",
-		},
-		[192867] = {
+		[192868] = {
 			["mats"] = {
 				["i:129034"] = 3,
 				["i:129032"] = 20,
 			},
 			["numResult"] = 1,
 			["profession"] = "Inscription",
-			["name"] = "Vantus Rune: Skorpyron",
+			["name"] = "Vantus Rune: Chronomatic Anomaly",
 			["players"] = {
 				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:128994",
+			["itemString"] = "i:128995",
+		},
+		[137854] = {
+			["mats"] = {
+				["i:72163"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:93491",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Crafted Dreadful Gladiator's Sabatons of Alacrity",
+		},
+		[158914] = {
+			["mats"] = {
+				["i:113588"] = 4,
+				["i:113262"] = 3,
+				["i:38682"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:110638",
+			["players"] = {
+				["Lupalia"] = true,
+				["Fausta"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Gift of Critical Strike",
+		},
+		[99536] = {
+			["mats"] = {
+				["i:52327"] = 4,
+				["i:52980"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:75076",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Vicious Fur Cloak",
 		},
 		[191076] = {
 			["mats"] = {
@@ -18673,19 +18965,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Enchanted Pen",
 		},
-		[58484] = {
+		[75267] = {
 			["mats"] = {
-				["i:39354"] = 1,
-				["i:39469"] = 1,
+				["i:53643"] = 6,
+				["i:38426"] = 2,
 			},
 			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Scroll of Strength",
+			["profession"] = "Tailoring",
+			["itemString"] = "i:54486",
 			["players"] = {
-				["Chrysante"] = true,
+				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:954",
+			["name"] = "Spiritmend Robe",
 		},
 		[187494] = {
 			["mats"] = {
@@ -18702,18 +18994,20 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:127717",
 		},
-		[137855] = {
+		[7135] = {
 			["mats"] = {
-				["i:72163"] = 1,
+				["i:4340"] = 1,
+				["i:2319"] = 12,
+				["i:2321"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:93492",
+			["itemString"] = "i:5961",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Wristguards of Alacrity",
+			["name"] = "Dark Leather Pants",
 		},
 		[10487] = {
 			["mats"] = {
@@ -18743,36 +19037,33 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Burnished Leather",
 		},
-		[39997] = {
+		[25124] = {
 			["mats"] = {
-				["i:22456"] = 4,
-				["i:32428"] = 2,
-				["i:22450"] = 1,
-				["i:25700"] = 4,
-				["i:21886"] = 2,
+				["i:3371"] = 1,
+				["i:10940"] = 2,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:32398",
+			["profession"] = "Enchanting",
+			["itemString"] = "i:20744",
 			["players"] = {
-				["Lupalia"] = true,
+				["Fausta"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Boots of Shackled Souls",
+			["name"] = "Minor Wizard Oil",
 		},
-		[192868] = {
+		[58484] = {
 			["mats"] = {
-				["i:129034"] = 3,
-				["i:129032"] = 20,
+				["i:39354"] = 1,
+				["i:39469"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Inscription",
-			["name"] = "Vantus Rune: Chronomatic Anomaly",
+			["name"] = "Scroll of Strength",
 			["players"] = {
 				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:128995",
+			["itemString"] = "i:954",
 		},
 		[19047] = {
 			["mats"] = {
@@ -18788,20 +19079,18 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Cured Rugged Hide",
 		},
-		[86615] = {
+		[143154] = {
 			["mats"] = {
-				["i:61981"] = 10,
-				["i:39354"] = 1,
-				["i:52329"] = 30,
+				["i:72163"] = 3,
 			},
 			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Darkmoon Card of Destruction",
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:98901",
 			["players"] = {
-				["Chrysante"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:61987",
+			["name"] = "Crafted Malevolent Gladiator's Linked Helm",
 		},
 		[78427] = {
 			["mats"] = {
@@ -18817,18 +19106,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Tsunami Leggings",
 		},
-		[142957] = {
+		[192869] = {
 			["mats"] = {
-				["i:98617"] = 28,
+				["i:129034"] = 3,
+				["i:129032"] = 20,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:98605",
+			["profession"] = "Inscription",
+			["name"] = "Vantus Rune: Trilliax",
 			["players"] = {
-				["Lupalia"] = true,
+				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Gorge Stalker Legplates",
+			["itemString"] = "i:128996",
 		},
 		[50616] = {
 			["mats"] = {
@@ -18843,6 +19133,35 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["queued"] = 0,
 			["itemString"] = "i:10307",
+		},
+		[188339] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:124105"] = 7,
+				["i:124104"] = 10,
+				["i:124102"] = 10,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:127847",
+			["players"] = {
+				["Trîxxed"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Flask of the Whispered Pact",
+		},
+		[2152] = {
+			["mats"] = {
+				["i:2318"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:2304",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Light Armor Kit",
 		},
 		[99537] = {
 			["mats"] = {
@@ -18859,47 +19178,18 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Vicious Embersilk Cape",
 		},
-		[2152] = {
+		[137856] = {
 			["mats"] = {
-				["i:2318"] = 1,
+				["i:72163"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:2304",
+			["itemString"] = "i:93493",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Light Armor Kit",
-		},
-		[192869] = {
-			["mats"] = {
-				["i:129034"] = 3,
-				["i:129032"] = 20,
-			},
-			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Vantus Rune: Trilliax",
-			["players"] = {
-				["Chrysante"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:128996",
-		},
-		[191078] = {
-			["mats"] = {
-				["i:124440"] = 100,
-				["i:124442"] = 1,
-				["i:124124"] = 5,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:128536",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Leylight Brazier",
+			["name"] = "Crafted Dreadful Gladiator's Wristguards of Accuracy",
 		},
 		[50936] = {
 			["mats"] = {
@@ -18929,20 +19219,18 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Dark Leather Cloak",
 		},
-		[158915] = {
+		[143090] = {
 			["mats"] = {
-				["i:113261"] = 3,
-				["i:113588"] = 4,
-				["i:38682"] = 1,
+				["i:72163"] = 3,
 			},
 			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:110639",
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:98790",
 			["players"] = {
-				["Fausta"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Gift of Haste",
+			["name"] = "Crafted Malevolent Gladiator's Dragonhide Helm",
 		},
 		[185961] = {
 			["mats"] = {
@@ -18974,20 +19262,18 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Hexweave Cloth",
 		},
-		[86616] = {
+		[142965] = {
 			["mats"] = {
-				["i:61981"] = 3,
-				["i:39354"] = 10,
-				["i:52329"] = 6,
+				["i:98617"] = 21,
 			},
 			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Book of Blood",
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:98613",
 			["players"] = {
-				["Chrysante"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:62231",
+			["name"] = "Snow Lily Belt",
 		},
 		[192870] = {
 			["mats"] = {
@@ -19032,32 +19318,35 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Linen Belt",
 		},
-		[78428] = {
+		[86616] = {
 			["mats"] = {
-				["i:38426"] = 1,
-				["i:52976"] = 12,
+				["i:61981"] = 3,
+				["i:39354"] = 10,
+				["i:52329"] = 6,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:56509",
+			["profession"] = "Inscription",
+			["name"] = "Book of Blood",
 			["players"] = {
-				["Lupalia"] = true,
+				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Darkbrand Chestguard",
+			["itemString"] = "i:62231",
 		},
-		[137854] = {
+		[19092] = {
 			["mats"] = {
-				["i:72163"] = 1,
+				["i:2325"] = 2,
+				["i:8170"] = 14,
+				["i:14341"] = 2,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:93491",
+			["itemString"] = "i:15088",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Sabatons of Alacrity",
+			["name"] = "Wicked Leather Belt",
 		},
 		[185962] = {
 			["mats"] = {
@@ -19073,83 +19362,18 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Imbued Silkweave",
 		},
-		[143154] = {
-			["mats"] = {
-				["i:72163"] = 3,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:98901",
-			["players"] = {
-				["Lupalia"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Crafted Malevolent Gladiator's Linked Helm",
-		},
-		[192872] = {
-			["mats"] = {
-				["i:129034"] = 3,
-				["i:129032"] = 20,
-			},
-			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Vantus Rune: High Botanist Tel'arn",
-			["players"] = {
-				["Chrysante"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:128999",
-		},
-		[176058] = {
-			["players"] = {
-				["Daemonikos"] = true,
-				["Eruditus"] = true,
-			},
-			["numResult"] = 1,
-			["cooldownTimes"] = {
-				["Eruditus"] = {
-					["endTime"] = 0,
-				},
-				["Daemonikos"] = {
-					["endTime"] = 0,
-				},
-			},
-			["hasCD"] = true,
-			["mats"] = {
-				["i:111557"] = 5,
-			},
-			["itemString"] = "i:118722",
-			["profession"] = "Tailoring",
-			["queued"] = 0,
-			["name"] = "Secret of Draenor Tailoring",
-		},
-		[137858] = {
+		[137845] = {
 			["mats"] = {
 				["i:72163"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:93495",
+			["itemString"] = "i:93568",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Chain Gauntlets",
-		},
-		[74207] = {
-			["mats"] = {
-				["i:52719"] = 1,
-				["i:52327"] = 15,
-				["i:38682"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:52754",
-			["players"] = {
-				["Fausta"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Protection",
+			["name"] = "Crafted Dreadful Gladiator's Armwraps of Alacrity",
 		},
 		[57032] = {
 			["mats"] = {
@@ -19165,20 +19389,71 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:41100",
 		},
-		[158914] = {
+		[60620] = {
 			["mats"] = {
-				["i:113588"] = 4,
-				["i:113262"] = 3,
-				["i:38682"] = 1,
+				["i:38558"] = 35,
 			},
 			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:110638",
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:44442",
 			["players"] = {
-				["Fausta"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Gift of Critical Strike",
+			["name"] = "Bugsquashers",
+		},
+		[137858] = {
+			["mats"] = {
+				["i:72163"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:93495",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Crafted Dreadful Gladiator's Chain Gauntlets",
+		},
+		[137857] = {
+			["mats"] = {
+				["i:72163"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:93494",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Crafted Dreadful Gladiator's Chain Armor",
+		},
+		[143115] = {
+			["mats"] = {
+				["i:72163"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:98835",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Crafted Malevolent Gladiator's Ironskin Legguards",
+		},
+		[58485] = {
+			["mats"] = {
+				["i:39354"] = 1,
+				["i:39774"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Inscription",
+			["name"] = "Scroll of Strength II",
+			["players"] = {
+				["Chrysante"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:2289",
 		},
 		[142976] = {
 			["players"] = {
@@ -19213,33 +19488,32 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:112377",
 		},
-		[75267] = {
+		[60652] = {
 			["mats"] = {
-				["i:53643"] = 6,
-				["i:38426"] = 2,
+				["i:38557"] = 40,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:54486",
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:43131",
 			["players"] = {
-				["Daemonikos"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Spiritmend Robe",
+			["name"] = "Eaglebane Bracers",
 		},
-		[58485] = {
+		[192872] = {
 			["mats"] = {
-				["i:39354"] = 1,
-				["i:39774"] = 1,
+				["i:129034"] = 3,
+				["i:129032"] = 20,
 			},
 			["numResult"] = 1,
 			["profession"] = "Inscription",
-			["name"] = "Scroll of Strength II",
+			["name"] = "Vantus Rune: High Botanist Tel'arn",
 			["players"] = {
 				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:2289",
+			["itemString"] = "i:128999",
 		},
 		[137859] = {
 			["mats"] = {
@@ -19268,35 +19542,6 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Leggings of Visceral Strikes",
 		},
-		[7135] = {
-			["mats"] = {
-				["i:4340"] = 1,
-				["i:2319"] = 12,
-				["i:2321"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:5961",
-			["players"] = {
-				["Lupalia"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Dark Leather Pants",
-		},
-		[2159] = {
-			["mats"] = {
-				["i:2318"] = 10,
-				["i:2321"] = 2,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:2308",
-			["players"] = {
-				["Lupalia"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Fine Leather Cloak",
-		},
 		[50617] = {
 			["mats"] = {
 				["i:39354"] = 2,
@@ -19310,6 +19555,34 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["queued"] = 0,
 			["itemString"] = "i:27502",
+		},
+		[64260] = {
+			["mats"] = {
+				["i:39354"] = 1,
+				["i:61978"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Inscription",
+			["name"] = "Glyph of Disguise",
+			["players"] = {
+				["Chrysante"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:45768",
+		},
+		[32481] = {
+			["mats"] = {
+				["i:23793"] = 3,
+				["i:14341"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:25676",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Wild Draenish Vest",
 		},
 		[36352] = {
 			["mats"] = {
@@ -19328,34 +19601,35 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Belt of the Black Eagle",
 		},
-		[60620] = {
+		[56008] = {
 			["mats"] = {
-				["i:38558"] = 35,
+				["i:37704"] = 2,
+				["i:42253"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:41601",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Shining Spellthread",
+		},
+		[9206] = {
+			["mats"] = {
+				["i:4305"] = 2,
+				["i:2325"] = 2,
+				["i:4234"] = 10,
+				["i:7071"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:44442",
+			["itemString"] = "i:7387",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Bugsquashers",
-		},
-		[188339] = {
-			["mats"] = {
-				["i:3371"] = 1,
-				["i:124105"] = 7,
-				["i:124104"] = 10,
-				["i:124102"] = 10,
-			},
-			["numResult"] = 1,
-			["profession"] = "Alchemy",
-			["itemString"] = "i:127847",
-			["players"] = {
-				["Trîxxed"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Flask of the Whispered Pact",
+			["name"] = "Dusky Belt",
 		},
 		[137860] = {
 			["mats"] = {
@@ -19370,45 +19644,49 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Crafted Dreadful Gladiator's Chain Leggings",
 		},
-		[143090] = {
+		[74192] = {
 			["mats"] = {
-				["i:72163"] = 3,
+				["i:52555"] = 3,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:98790",
+			["profession"] = "Enchanting",
+			["itemString"] = "i:52745",
 			["players"] = {
-				["Lupalia"] = true,
+				["Fausta"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Malevolent Gladiator's Dragonhide Helm",
+			["name"] = "Lesser Power",
 		},
-		[32481] = {
+		[70557] = {
 			["mats"] = {
-				["i:23793"] = 3,
-				["i:14341"] = 3,
+				["i:49908"] = 5,
+				["i:44128"] = 8,
+				["i:38558"] = 12,
+				["i:35627"] = 10,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:25676",
+			["itemString"] = "i:49895",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Wild Draenish Vest",
+			["name"] = "Footpads of Impending Death",
 		},
-		[143132] = {
+		[209609] = {
 			["mats"] = {
-				["i:72163"] = 2,
+				["i:130177"] = 2,
+				["i:130175"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:98815",
+			["profession"] = "Jewelcrafting",
+			["itemString"] = "i:136711",
 			["players"] = {
-				["Lupalia"] = true,
+				["Trïxxed"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Malevolent Gladiator's Links of Accuracy",
+			["name"] = "Queen's Opal Loop",
 		},
 		[9208] = {
 			["mats"] = {
@@ -19453,20 +19731,22 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Silkweave Bandage",
 		},
-		[19092] = {
+		[86652] = {
 			["mats"] = {
-				["i:2325"] = 2,
-				["i:8170"] = 14,
-				["i:14341"] = 2,
+				["i:61981"] = 12,
+				["i:52329"] = 36,
+				["i:52326"] = 12,
+				["i:67319"] = 1,
+				["i:79740"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:15088",
+			["profession"] = "Inscription",
+			["name"] = "Rosethorn Staff",
 			["players"] = {
-				["Lupalia"] = true,
+				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Wicked Leather Belt",
+			["itemString"] = "i:87562",
 		},
 		[137861] = {
 			["mats"] = {
@@ -19481,101 +19761,104 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Crafted Dreadful Gladiator's Chain Spaulders",
 		},
-		[185959] = {
+		[158911] = {
 			["mats"] = {
-				["i:127004"] = 55,
-				["i:127037"] = 3,
+				["i:111245"] = 1,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:126997",
+			["profession"] = "Enchanting",
+			["itemString"] = "i:110621",
 			["players"] = {
+				["Lupalia"] = true,
 				["Daemonikos"] = true,
+				["Fausta"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Imbued Silkweave Gloves",
+			["name"] = "Breath of Versatility",
 		},
-		[137845] = {
+		[187495] = {
 			["mats"] = {
-				["i:72163"] = 1,
+				["i:112377"] = 175,
+				["i:127759"] = 30,
+				["i:113261"] = 30,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:93568",
+			["profession"] = "Inscription",
+			["name"] = "Mighty Ensorcelled Tarot",
 			["players"] = {
-				["Lupalia"] = true,
+				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Armwraps of Alacrity",
+			["itemString"] = "i:127718",
 		},
-		[70557] = {
-			["mats"] = {
-				["i:35627"] = 10,
-				["i:44128"] = 8,
-				["i:49908"] = 5,
-				["i:38558"] = 12,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:49895",
-			["players"] = {
-				["Lupalia"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Footpads of Impending Death",
-		},
-		[209609] = {
-			["mats"] = {
-				["i:130177"] = 2,
-				["i:130175"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Jewelcrafting",
-			["itemString"] = "i:136711",
-			["players"] = {
-				["Trïxxed"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Queen's Opal Loop",
-		},
-		[142952] = {
-			["mats"] = {
-				["i:98617"] = 28,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:98600",
-			["players"] = {
-				["Lupalia"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Pennyroyal Leggings",
-		},
-		[137857] = {
+		[143132] = {
 			["mats"] = {
 				["i:72163"] = 2,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:93494",
+			["itemString"] = "i:98815",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Chain Armor",
+			["name"] = "Crafted Malevolent Gladiator's Links of Accuracy",
 		},
-		[60652] = {
+		[14293] = {
 			["mats"] = {
-				["i:38557"] = 40,
+				["i:4470"] = 1,
+				["i:10938"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:11287",
+			["players"] = {
+				["Fausta"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Lesser Magic Wand",
+		},
+		[20028] = {
+			["mats"] = {
+				["i:16204"] = 8,
+				["i:38682"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38867",
+			["players"] = {
+				["Fausta"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Major Mana",
+		},
+		[32472] = {
+			["mats"] = {
+				["i:14341"] = 3,
+				["i:21887"] = 10,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:43131",
+			["itemString"] = "i:25668",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Eaglebane Bracers",
+			["name"] = "Thick Draenic Boots",
+		},
+		[142953] = {
+			["mats"] = {
+				["i:98617"] = 28,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:98601",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Krasari Prowler Britches",
 		},
 		[137862] = {
 			["mats"] = {
@@ -19590,49 +19873,51 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Crafted Dreadful Gladiator's Waistguard of Meditation",
 		},
-		[64260] = {
+		[32496] = {
 			["mats"] = {
-				["i:39354"] = 1,
-				["i:61978"] = 3,
-			},
-			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Glyph of Disguise",
-			["players"] = {
-				["Chrysante"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:45768",
-		},
-		[56008] = {
-			["mats"] = {
-				["i:37704"] = 2,
-				["i:42253"] = 2,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:41601",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Shining Spellthread",
-		},
-		[9206] = {
-			["mats"] = {
-				["i:4305"] = 2,
-				["i:2325"] = 2,
-				["i:4234"] = 10,
-				["i:7071"] = 1,
+				["i:22452"] = 4,
+				["i:23793"] = 6,
+				["i:14341"] = 2,
+				["i:25708"] = 34,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:7387",
+			["itemString"] = "i:25690",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Dusky Belt",
+			["name"] = "Heavy Clefthoof Leggings",
+		},
+		[13622] = {
+			["mats"] = {
+				["i:11082"] = 2,
+				["i:38682"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38803",
+			["players"] = {
+				["Fausta"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Lesser Intellect",
+		},
+		[75265] = {
+			["mats"] = {
+				["i:52555"] = 8,
+				["i:53643"] = 9,
+				["i:34052"] = 1,
+				["i:34055"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:54445",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Otherworldly Bag",
 		},
 		[112462] = {
 			["mats"] = {
@@ -19648,18 +19933,18 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:87881",
 		},
-		[137863] = {
+		[178208] = {
 			["mats"] = {
-				["i:72163"] = 1,
+				["i:110609"] = 5,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:93575",
+			["itemString"] = "i:120257",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Mail Footguards of Alacrity",
+			["name"] = "Drums of Fury",
 		},
 		[25125] = {
 			["mats"] = {
@@ -19689,35 +19974,33 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:4426",
 		},
-		[13622] = {
+		[137863] = {
 			["mats"] = {
-				["i:11082"] = 2,
-				["i:38682"] = 1,
+				["i:72163"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:93575",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Crafted Dreadful Gladiator's Mail Footguards of Alacrity",
+		},
+		[209509] = {
+			["mats"] = {
+				["i:124440"] = 10,
+				["i:124124"] = 8,
+				["i:124106"] = 2,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["itemString"] = "i:38803",
-			["players"] = {
-				["Fausta"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Lesser Intellect",
-		},
-		[36315] = {
-			["mats"] = {
-				["i:30183"] = 2,
-				["i:21842"] = 4,
-				["i:21884"] = 15,
-				["i:14341"] = 2,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:30038",
+			["itemString"] = "i:136691",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Belt of Blasting",
+			["name"] = "Immaculate Fibril",
 		},
 		[2392] = {
 			["mats"] = {
@@ -19763,65 +20046,63 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:33461",
 		},
-		[142953] = {
+		[13693] = {
 			["mats"] = {
-				["i:98617"] = 28,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:98601",
-			["players"] = {
-				["Lupalia"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Krasari Prowler Britches",
-		},
-		[86652] = {
-			["mats"] = {
-				["i:61981"] = 12,
-				["i:52329"] = 36,
-				["i:52326"] = 12,
-				["i:67319"] = 1,
-				["i:79740"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Rosethorn Staff",
-			["players"] = {
-				["Chrysante"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:87562",
-		},
-		[158911] = {
-			["mats"] = {
-				["i:111245"] = 1,
+				["i:11139"] = 1,
+				["i:11135"] = 2,
 				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["itemString"] = "i:110621",
+			["itemString"] = "i:38821",
 			["players"] = {
-				["Daemonikos"] = true,
 				["Fausta"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Breath of Versatility",
+			["name"] = "Striking",
 		},
-		[209509] = {
+		[190382] = {
 			["mats"] = {
-				["i:124440"] = 10,
-				["i:124124"] = 8,
-				["i:124106"] = 2,
+				["i:109125"] = 20,
 			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:136691",
+			["numResult"] = 8,
+			["profession"] = "Inscription",
+			["name"] = "Cerulean Pigment",
 			["players"] = {
-				["Daemonikos"] = true,
+				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Immaculate Fibril",
+			["itemString"] = "i:114931",
+		},
+		[209510] = {
+			["mats"] = {
+				["i:124106"] = 2,
+				["i:129034"] = 12,
+				["i:124124"] = 8,
+				["i:39354"] = 1,
+				["i:129032"] = 100,
+			},
+			["numResult"] = 1,
+			["profession"] = "Inscription",
+			["name"] = "Aqual Mark",
+			["players"] = {
+				["Chrysante"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:136692",
+		},
+		[137864] = {
+			["mats"] = {
+				["i:72163"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:93576",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Crafted Dreadful Gladiator's Mail Footguards of Meditation",
 		},
 		[50938] = {
 			["mats"] = {
@@ -19870,20 +20151,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Greater Parry",
 		},
-		[187495] = {
+		[31434] = {
 			["mats"] = {
-				["i:112377"] = 175,
-				["i:127759"] = 30,
-				["i:113261"] = 30,
+				["i:22452"] = 8,
+				["i:21842"] = 4,
 			},
 			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Mighty Ensorcelled Tarot",
+			["profession"] = "Tailoring",
+			["itemString"] = "i:24249",
 			["players"] = {
-				["Chrysante"] = true,
+				["Eruditus"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:127718",
+			["name"] = "Unyielding Bracers",
 		},
 		[104403] = {
 			["mats"] = {
@@ -19900,64 +20180,61 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Superior Intellect",
 		},
-		[78405] = {
+		[158909] = {
 			["mats"] = {
-				["i:52982"] = 8,
-				["i:52976"] = 2,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:56489",
-			["players"] = {
-				["Lupalia"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Hardened Scale Cloak",
-		},
-		[14293] = {
-			["mats"] = {
-				["i:4470"] = 1,
-				["i:10938"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:11287",
-			["players"] = {
-				["Fausta"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Lesser Magic Wand",
-		},
-		[209510] = {
-			["mats"] = {
-				["i:124106"] = 2,
-				["i:129034"] = 12,
-				["i:129032"] = 100,
-				["i:124124"] = 8,
-				["i:39354"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Aqual Mark",
-			["players"] = {
-				["Chrysante"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:136692",
-		},
-		[20028] = {
-			["mats"] = {
-				["i:16204"] = 8,
+				["i:111245"] = 1,
 				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["itemString"] = "i:38867",
+			["itemString"] = "i:110619",
+			["players"] = {
+				["Lupalia"] = true,
+				["Daemonikos"] = true,
+				["Fausta"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Breath of Mastery",
+		},
+		[13642] = {
+			["mats"] = {
+				["i:11134"] = 1,
+				["i:38682"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38809",
 			["players"] = {
 				["Fausta"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Major Mana",
+			["name"] = "Versatility",
+		},
+		[137865] = {
+			["mats"] = {
+				["i:72163"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:93577",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Crafted Dreadful Gladiator's Armbands of Prowess",
+		},
+		[137927] = {
+			["mats"] = {
+				["i:82441"] = 6,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:93551",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Crafted Dreadful Gladiator's Mooncloth Helm",
 		},
 		[78432] = {
 			["mats"] = {
@@ -19972,32 +20249,35 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Tsunami Helm",
 		},
-		[178208] = {
+		[6661] = {
 			["mats"] = {
-				["i:110609"] = 5,
+				["i:2321"] = 2,
+				["i:7071"] = 1,
+				["i:4234"] = 14,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:120257",
+			["itemString"] = "i:5739",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Drums of Fury",
+			["name"] = "Barbaric Harness",
 		},
-		[32472] = {
+		[170717] = {
 			["mats"] = {
-				["i:14341"] = 3,
-				["i:21887"] = 10,
+				["i:115524"] = 100,
+				["i:109118"] = 10,
+				["i:109119"] = 10,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:25668",
+			["profession"] = "Jewelcrafting (Garrison)",
+			["itemString"] = "i:115800",
 			["players"] = {
-				["Lupalia"] = true,
+				["Achilina"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Thick Draenic Boots",
+			["name"] = "Shifting Taladite Pendant",
 		},
 		[57713] = {
 			["mats"] = {
@@ -20012,64 +20292,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:43124",
 		},
-		[32496] = {
+		[20008] = {
 			["mats"] = {
-				["i:22452"] = 4,
-				["i:23793"] = 6,
-				["i:14341"] = 2,
-				["i:25708"] = 34,
+				["i:16202"] = 3,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:25690",
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38852",
 			["players"] = {
-				["Lupalia"] = true,
+				["Fausta"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Heavy Clefthoof Leggings",
-		},
-		[75265] = {
-			["mats"] = {
-				["i:52555"] = 8,
-				["i:53643"] = 9,
-				["i:34052"] = 1,
-				["i:34055"] = 4,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:54445",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Otherworldly Bag",
-		},
-		[137866] = {
-			["mats"] = {
-				["i:72163"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:93578",
-			["players"] = {
-				["Lupalia"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Armbands of Meditation",
-		},
-		[55921] = {
-			["mats"] = {
-				["i:41510"] = 10,
-				["i:38426"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:41549",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Duskweave Robe",
+			["name"] = "Greater Intellect",
 		},
 		[12071] = {
 			["mats"] = {
@@ -20086,18 +20321,62 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Shadoweave Gloves",
 		},
-		[137927] = {
+		[137866] = {
 			["mats"] = {
-				["i:82441"] = 6,
+				["i:72163"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:93578",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Crafted Dreadful Gladiator's Armbands of Meditation",
+		},
+		[13626] = {
+			["mats"] = {
+				["i:11082"] = 1,
+				["i:11083"] = 1,
+				["i:38682"] = 1,
+				["i:11084"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38804",
+			["players"] = {
+				["Fausta"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Minor Stats",
+		},
+		[2385] = {
+			["mats"] = {
+				["i:2320"] = 1,
+				["i:2996"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:93551",
+			["itemString"] = "i:2568",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Mooncloth Helm",
+			["name"] = "Brown Linen Vest",
+		},
+		[56007] = {
+			["mats"] = {
+				["i:41511"] = 6,
+				["i:38426"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:41599",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Frostweave Bag",
 		},
 		[112464] = {
 			["mats"] = {
@@ -20199,18 +20478,18 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Darkbrand Leggings",
 		},
-		[190382] = {
+		[143106] = {
 			["mats"] = {
-				["i:109125"] = 20,
+				["i:72163"] = 3,
 			},
-			["numResult"] = 8,
-			["profession"] = "Inscription",
-			["name"] = "Cerulean Pigment",
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:98806",
 			["players"] = {
-				["Chrysante"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:114931",
+			["name"] = "Crafted Malevolent Gladiator's Wyrmhide Helm",
 		},
 		[50619] = {
 			["mats"] = {
@@ -20226,33 +20505,35 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:37093",
 		},
-		[60613] = {
+		[10552] = {
 			["mats"] = {
-				["i:38425"] = 6,
-				["i:37703"] = 4,
+				["i:8343"] = 1,
+				["i:8167"] = 24,
+				["i:4304"] = 14,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:44441",
+			["itemString"] = "i:8191",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Dark Iceborne Chestguard",
+			["name"] = "Turtle Scale Helm",
 		},
-		[31434] = {
+		[10568] = {
 			["mats"] = {
-				["i:22452"] = 8,
-				["i:21842"] = 4,
+				["i:8154"] = 8,
+				["i:8343"] = 2,
+				["i:4304"] = 14,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:24249",
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:8206",
 			["players"] = {
-				["Eruditus"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Unyielding Bracers",
+			["name"] = "Tough Scorpid Leggings",
 		},
 		[2540] = {
 			["mats"] = {
@@ -20294,34 +20575,33 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Iceborne Leggings",
 		},
-		[158909] = {
+		[51572] = {
 			["mats"] = {
-				["i:111245"] = 1,
-				["i:38682"] = 1,
+				["i:33568"] = 14,
 			},
 			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:110619",
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:38437",
 			["players"] = {
-				["Daemonikos"] = true,
-				["Fausta"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Breath of Mastery",
+			["name"] = "Arctic Helm",
 		},
-		[13642] = {
+		[19081] = {
 			["mats"] = {
-				["i:11134"] = 1,
-				["i:38682"] = 1,
+				["i:12803"] = 1,
+				["i:14341"] = 1,
+				["i:8170"] = 10,
 			},
 			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:38809",
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:15075",
 			["players"] = {
-				["Fausta"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Versatility",
+			["name"] = "Chimeric Vest",
 		},
 		[18409] = {
 			["mats"] = {
@@ -20351,34 +20631,34 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Ghostweave Pants",
 		},
-		[34002] = {
+		[2329] = {
 			["mats"] = {
-				["i:22445"] = 6,
-				["i:38682"] = 1,
+				["i:3371"] = 1,
+				["i:2449"] = 1,
+				["i:765"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:38938",
+			["profession"] = "Alchemy",
+			["itemString"] = "i:2454",
 			["players"] = {
-				["Fausta"] = true,
+				["Trîxxed"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Lesser Assault",
+			["name"] = "Elixir of Lion's Strength",
 		},
-		[13693] = {
+		[26764] = {
 			["mats"] = {
-				["i:11139"] = 1,
-				["i:11135"] = 2,
-				["i:38682"] = 1,
+				["i:21840"] = 3,
+				["i:14341"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:38821",
+			["profession"] = "Tailoring",
+			["itemString"] = "i:21849",
 			["players"] = {
-				["Fausta"] = true,
+				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Striking",
+			["name"] = "Netherweave Bracers",
 		},
 		[137869] = {
 			["mats"] = {
@@ -20435,32 +20715,34 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Core Armor Kit",
 		},
-		[143106] = {
+		[59589] = {
 			["mats"] = {
-				["i:72163"] = 3,
+				["i:41511"] = 4,
+				["i:38426"] = 2,
+				["i:37701"] = 5,
+				["i:37702"] = 5,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:43971",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Frostsavage Cowl",
+		},
+		[78436] = {
+			["mats"] = {
+				["i:52976"] = 5,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:98806",
+			["itemString"] = "i:56516",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Malevolent Gladiator's Wyrmhide Helm",
-		},
-		[175865] = {
-			["mats"] = {
-				["i:109123"] = 1,
-				["i:109138"] = 3,
-			},
-			["numResult"] = 1,
-			["profession"] = "Alchemy",
-			["itemString"] = "i:116268",
-			["players"] = {
-				["Trîxxed"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Draenic Invisibility Potion",
+			["name"] = "Heavy Savage Leather",
 		},
 		[64053] = {
 			["mats"] = {
@@ -20477,20 +20759,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:45849",
 		},
-		[74213] = {
+		[181627] = {
 			["mats"] = {
-				["i:52719"] = 2,
-				["i:38682"] = 1,
-				["i:52555"] = 4,
+				["i:108996"] = 4,
+				["i:113261"] = 10,
 			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:52757",
+			["numResult"] = 10,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:113264",
 			["players"] = {
-				["Fausta"] = true,
+				["Trîxxed"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Major Agility",
+			["name"] = "Sorcerous Air",
 		},
 		[137870] = {
 			["mats"] = {
@@ -20505,35 +20786,35 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Crafted Dreadful Gladiator's Ringmail Leggings",
 		},
-		[10552] = {
+		[159674] = {
 			["mats"] = {
-				["i:8343"] = 1,
-				["i:8167"] = 24,
-				["i:4304"] = 14,
+				["i:113263"] = 5,
+				["i:113588"] = 3,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:8191",
+			["profession"] = "Enchanting",
+			["itemString"] = "i:112160",
 			["players"] = {
 				["Lupalia"] = true,
+				["Fausta"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Turtle Scale Helm",
+			["name"] = "Mark of Blackrock",
 		},
-		[19081] = {
+		[18416] = {
 			["mats"] = {
-				["i:8170"] = 10,
-				["i:12803"] = 1,
-				["i:14341"] = 1,
+				["i:14048"] = 2,
+				["i:9210"] = 3,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:15075",
+			["profession"] = "Tailoring",
+			["itemString"] = "i:14141",
 			["players"] = {
-				["Lupalia"] = true,
+				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Chimeric Vest",
+			["name"] = "Ghostweave Vest",
 		},
 		[181625] = {
 			["mats"] = {
@@ -20563,21 +20844,18 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:87885",
 		},
-		[10632] = {
+		[137872] = {
 			["mats"] = {
-				["i:8172"] = 2,
-				["i:7077"] = 8,
-				["i:8343"] = 4,
-				["i:4304"] = 30,
+				["i:72163"] = 2,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:8348",
+			["itemString"] = "i:93584",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Helm of Fire",
+			["name"] = "Crafted Dreadful Gladiator's Linked Armor",
 		},
 		[25126] = {
 			["mats"] = {
@@ -20622,34 +20900,33 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Wicked Leather Gauntlets",
 		},
-		[10568] = {
+		[74213] = {
 			["mats"] = {
-				["i:8154"] = 8,
-				["i:8343"] = 2,
-				["i:4304"] = 14,
+				["i:52719"] = 2,
+				["i:38682"] = 1,
+				["i:52555"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:52757",
+			["players"] = {
+				["Fausta"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Major Agility",
+		},
+		[60600] = {
+			["mats"] = {
+				["i:33568"] = 14,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:8206",
+			["itemString"] = "i:38440",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Tough Scorpid Leggings",
-		},
-		[56007] = {
-			["mats"] = {
-				["i:41511"] = 6,
-				["i:38426"] = 2,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:41599",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Frostweave Bag",
+			["name"] = "Frostscale Helm",
 		},
 		[171391] = {
 			["players"] = {
@@ -20685,36 +20962,49 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:37094",
 		},
-		[36355] = {
+		[10632] = {
 			["mats"] = {
-				["i:23793"] = 4,
-				["i:14341"] = 2,
-				["i:23572"] = 2,
-				["i:21886"] = 12,
+				["i:8172"] = 2,
+				["i:7077"] = 8,
+				["i:8343"] = 4,
+				["i:4304"] = 30,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:30041",
+			["itemString"] = "i:8348",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Boots of Natural Grace",
+			["name"] = "Helm of Fire",
 		},
-		[7955] = {
+		[75263] = {
 			["mats"] = {
-				["i:2321"] = 2,
-				["i:6470"] = 4,
-				["i:6471"] = 6,
+				["i:53643"] = 4,
+				["i:38426"] = 2,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:6468",
+			["profession"] = "Tailoring",
+			["itemString"] = "i:54483",
 			["players"] = {
-				["Lupalia"] = true,
+				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Deviate Scale Belt",
+			["name"] = "Spiritmend Leggings",
+		},
+		[13501] = {
+			["mats"] = {
+				["i:11083"] = 2,
+				["i:38682"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38793",
+			["players"] = {
+				["Fausta"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Lesser Stamina",
 		},
 		[23399] = {
 			["mats"] = {
@@ -20732,19 +21022,6 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["queued"] = 0,
 			["name"] = "Barbaric Bracers",
-		},
-		[137872] = {
-			["mats"] = {
-				["i:72163"] = 2,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:93584",
-			["players"] = {
-				["Lupalia"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Linked Armor",
 		},
 		[50940] = {
 			["mats"] = {
@@ -20767,36 +21044,38 @@ TradeSkillMaster_CraftingDB = {
 			["profession"] = "Enchanting",
 			["itemString"] = "i:112321",
 			["players"] = {
+				["Lupalia"] = true,
 				["Daemonikos"] = true,
 				["Fausta"] = true,
 			},
 			["queued"] = 0,
 			["name"] = "Enchanted Dust",
 		},
-		[181627] = {
+		[57209] = {
 			["mats"] = {
-				["i:108996"] = 4,
-				["i:113261"] = 10,
+				["i:39354"] = 1,
+				["i:43116"] = 3,
 			},
-			["numResult"] = 10,
-			["profession"] = "Alchemy",
-			["itemString"] = "i:113264",
+			["numResult"] = 1,
+			["profession"] = "Inscription",
+			["name"] = "Glyph of the Geist",
 			["players"] = {
-				["Trîxxed"] = true,
+				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Sorcerous Air",
+			["itemString"] = "i:43535",
 		},
 		[7421] = {
 			["mats"] = {
-				["i:6217"] = 1,
 				["i:10938"] = 1,
+				["i:6217"] = 1,
 				["i:10940"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
 			["itemString"] = "i:6218",
 			["players"] = {
+				["Lupalia"] = true,
 				["Daemonikos"] = true,
 				["Fausta"] = true,
 			},
@@ -20818,34 +21097,34 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Greater Haste",
 		},
-		[8793] = {
+		[170714] = {
 			["mats"] = {
-				["i:4305"] = 5,
-				["i:6371"] = 2,
-				["i:4291"] = 2,
-				["i:2604"] = 2,
+				["i:115524"] = 100,
+				["i:109118"] = 10,
+				["i:109119"] = 10,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:7059",
+			["profession"] = "Jewelcrafting (Garrison)",
+			["itemString"] = "i:115796",
 			["players"] = {
-				["Daemonikos"] = true,
+				["Achilina"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crimson Silk Shoulders",
+			["name"] = "Shifting Taladite Ring",
 		},
-		[60600] = {
+		[9065] = {
 			["mats"] = {
-				["i:33568"] = 14,
+				["i:2318"] = 6,
+				["i:2320"] = 4,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:38440",
+			["itemString"] = "i:7281",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Frostscale Helm",
+			["name"] = "Light Leather Bracers",
 		},
 		[137873] = {
 			["mats"] = {
@@ -20874,18 +21153,20 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Mighty Resilience",
 		},
-		[78436] = {
+		[187513] = {
 			["mats"] = {
-				["i:52976"] = 5,
+				["i:127759"] = 60,
+				["i:113262"] = 60,
+				["i:110611"] = 350,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:56516",
+			["itemString"] = "i:127730",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Heavy Savage Leather",
+			["name"] = "Savage Burnished Essence",
 		},
 		[181628] = {
 			["mats"] = {
@@ -20901,63 +21182,63 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Sorcerous Water",
 		},
-		[78437] = {
+		[170715] = {
 			["mats"] = {
-				["i:56516"] = 4,
+				["i:115524"] = 100,
+				["i:109118"] = 10,
+				["i:109119"] = 10,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting (Garrison)",
+			["itemString"] = "i:115798",
+			["players"] = {
+				["Achilina"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Whispering Taladite Ring",
+		},
+		[44492] = {
+			["mats"] = {
+				["i:34055"] = 3,
+				["i:38682"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38955",
+			["players"] = {
+				["Fausta"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Mighty Health",
+		},
+		[13890] = {
+			["mats"] = {
+				["i:11174"] = 1,
+				["i:38682"] = 1,
+				["i:7909"] = 1,
+				["i:11177"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38837",
+			["players"] = {
+				["Fausta"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Minor Speed",
+		},
+		[137876] = {
+			["mats"] = {
+				["i:72163"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:56517",
+			["itemString"] = "i:93588",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Heavy Savage Armor Kit",
-		},
-		[2329] = {
-			["mats"] = {
-				["i:3371"] = 1,
-				["i:2449"] = 1,
-				["i:765"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Alchemy",
-			["itemString"] = "i:2454",
-			["players"] = {
-				["Trîxxed"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Elixir of Lion's Strength",
-		},
-		[26764] = {
-			["mats"] = {
-				["i:21840"] = 3,
-				["i:14341"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:21849",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Netherweave Bracers",
-		},
-		[59589] = {
-			["mats"] = {
-				["i:41511"] = 4,
-				["i:38426"] = 2,
-				["i:37701"] = 5,
-				["i:37702"] = 5,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:43971",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Frostsavage Cowl",
+			["name"] = "Crafted Dreadful Gladiator's Linked Spaulders",
 		},
 		[137874] = {
 			["mats"] = {
@@ -21004,6 +21285,7 @@ TradeSkillMaster_CraftingDB = {
 			["profession"] = "Enchanting",
 			["itemString"] = "i:111245",
 			["players"] = {
+				["Lupalia"] = true,
 				["Daemonikos"] = true,
 				["Fausta"] = true,
 			},
@@ -21024,20 +21306,18 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Sorcerous Earth",
 		},
-		[9145] = {
+		[50941] = {
 			["mats"] = {
-				["i:2321"] = 2,
-				["i:2319"] = 8,
-				["i:4233"] = 4,
+				["i:33568"] = 8,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:7348",
+			["itemString"] = "i:38409",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Fletcher's Gloves",
+			["name"] = "Iceborne Gloves",
 		},
 		[104408] = {
 			["mats"] = {
@@ -21054,19 +21334,18 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Greater Precision",
 		},
-		[18410] = {
+		[137923] = {
 			["mats"] = {
-				["i:14048"] = 2,
-				["i:9210"] = 2,
+				["i:82441"] = 6,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:14143",
+			["itemString"] = "i:93501",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Ghostweave Belt",
+			["name"] = "Crafted Dreadful Gladiator's Silk Trousers",
 		},
 		[58489] = {
 			["mats"] = {
@@ -21109,123 +21388,123 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Hexweave Embroidery",
 		},
-		[169092] = {
-			["players"] = {
-				["Daemonikos"] = true,
-				["Fausta"] = true,
-			},
-			["numResult"] = 1,
-			["cooldownTimes"] = {
-				["Daemonikos"] = {
-					["endTime"] = 0,
-				},
-			},
-			["hasCD"] = true,
+		[78437] = {
 			["mats"] = {
-				["i:111245"] = 1,
-			},
-			["name"] = "Temporal Crystal",
-			["profession"] = "Enchanting",
-			["queued"] = 0,
-			["itemString"] = "i:113588",
-		},
-		[9065] = {
-			["mats"] = {
-				["i:2318"] = 6,
-				["i:2320"] = 4,
+				["i:56516"] = 4,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:7281",
+			["itemString"] = "i:56517",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Light Leather Bracers",
+			["name"] = "Heavy Savage Armor Kit",
 		},
-		[159674] = {
+		[181630] = {
 			["mats"] = {
-				["i:113263"] = 5,
-				["i:113588"] = 3,
-				["i:38682"] = 1,
+				["i:113262"] = 10,
+				["i:108996"] = 4,
 			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:112160",
+			["numResult"] = 10,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:113264",
 			["players"] = {
-				["Fausta"] = true,
+				["Trîxxed"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Mark of Blackrock",
+			["name"] = "Sorcerous Air",
 		},
-		[18416] = {
+		[18442] = {
 			["mats"] = {
 				["i:14048"] = 2,
-				["i:9210"] = 3,
+				["i:14256"] = 2,
+				["i:14341"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:14141",
+			["itemString"] = "i:14111",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Ghostweave Vest",
+			["name"] = "Felcloth Hood",
 		},
-		[104409] = {
+		[192824] = {
 			["mats"] = {
-				["i:74247"] = 2,
-				["i:38682"] = 1,
+				["i:129034"] = 3,
+				["i:129032"] = 25,
 			},
 			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:74717",
+			["profession"] = "Inscription",
+			["itemString"] = "i:129003",
 			["players"] = {
-				["Fausta"] = true,
+				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Blurred Speed",
+			["name"] = "Vantus Rune: Gul'dan",
 		},
-		[19082] = {
+		[225546] = {
 			["mats"] = {
-				["i:8170"] = 14,
-				["i:14341"] = 1,
-				["i:14047"] = 10,
+				["i:129034"] = 6,
+				["i:129032"] = 50,
+				["i:39354"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Inscription",
+			["name"] = "Glyph of Smolder",
+			["players"] = {
+				["Chrysante"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:139348",
+		},
+		[78438] = {
+			["mats"] = {
+				["i:56516"] = 8,
+				["i:52327"] = 2,
+				["i:52326"] = 2,
+				["i:52325"] = 2,
+				["i:52328"] = 2,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:15094",
+			["itemString"] = "i:56518",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Runic Leather Headband",
+			["name"] = "Cloak of Beasts",
 		},
-		[137876] = {
+		[9145] = {
 			["mats"] = {
-				["i:72163"] = 1,
+				["i:2321"] = 2,
+				["i:2319"] = 8,
+				["i:4233"] = 4,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:93588",
+			["itemString"] = "i:7348",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Linked Spaulders",
+			["name"] = "Fletcher's Gloves",
 		},
-		[50941] = {
+		[168837] = {
 			["mats"] = {
-				["i:33568"] = 8,
+				["i:111556"] = 100,
+				["i:109119"] = 10,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:38409",
+			["profession"] = "Tailoring",
+			["itemString"] = "i:114809",
 			["players"] = {
-				["Lupalia"] = true,
+				["Daemonikos"] = true,
+				["Eruditus"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Iceborne Gloves",
+			["name"] = "Hexweave Mantle",
 		},
 		[187516] = {
 			["mats"] = {
@@ -21256,61 +21535,63 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Sorcerous Air",
 		},
-		[112469] = {
-			["mats"] = {
-				["i:39354"] = 1,
-				["i:43126"] = 3,
-			},
-			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Glyph of Fighting Pose",
-			["players"] = {
-				["Chrysante"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:87888",
-		},
-		[18442] = {
+		[18410] = {
 			["mats"] = {
 				["i:14048"] = 2,
-				["i:14256"] = 2,
-				["i:14341"] = 1,
+				["i:9210"] = 2,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:14111",
+			["itemString"] = "i:14143",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Felcloth Hood",
+			["name"] = "Ghostweave Belt",
 		},
-		[75263] = {
+		[104409] = {
 			["mats"] = {
-				["i:53643"] = 4,
-				["i:38426"] = 2,
+				["i:74247"] = 2,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:54483",
+			["profession"] = "Enchanting",
+			["itemString"] = "i:74717",
 			["players"] = {
-				["Daemonikos"] = true,
+				["Fausta"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Spiritmend Leggings",
+			["name"] = "Blurred Speed",
 		},
-		[137878] = {
+		[36078] = {
 			["mats"] = {
-				["i:72163"] = 2,
+				["i:23793"] = 4,
+				["i:25699"] = 12,
+				["i:14341"] = 2,
+				["i:21886"] = 3,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:93590",
+			["itemString"] = "i:29974",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Mail Armor",
+			["name"] = "Living Crystal Breastplate",
+		},
+		[33990] = {
+			["mats"] = {
+				["i:22446"] = 2,
+				["i:38682"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38928",
+			["players"] = {
+				["Fausta"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Major Versatility",
 		},
 		[137877] = {
 			["mats"] = {
@@ -21340,22 +21621,18 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Hexweave Cowl",
 		},
-		[78438] = {
+		[20649] = {
 			["mats"] = {
-				["i:56516"] = 8,
-				["i:52327"] = 2,
-				["i:52326"] = 2,
-				["i:52325"] = 2,
-				["i:52328"] = 2,
+				["i:2319"] = 5,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:56518",
+			["itemString"] = "i:4234",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Cloak of Beasts",
+			["name"] = "Heavy Leather",
 		},
 		[181632] = {
 			["mats"] = {
@@ -21371,20 +21648,6 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Sorcerous Fire",
 		},
-		[60601] = {
-			["mats"] = {
-				["i:38425"] = 4,
-				["i:37705"] = 5,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:44436",
-			["players"] = {
-				["Lupalia"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Dark Frostscale Leggings",
-		},
 		[60665] = {
 			["mats"] = {
 				["i:38425"] = 10,
@@ -21399,18 +21662,32 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Seafoam Gauntlets",
 		},
-		[78439] = {
+		[25255] = {
 			["mats"] = {
-				["i:52979"] = 60,
+				["i:2840"] = 2,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:56519",
+			["profession"] = "Jewelcrafting",
+			["itemString"] = "i:20816",
 			["players"] = {
-				["Lupalia"] = true,
+				["Trïxxed"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Cloak of War",
+			["name"] = "Delicate Copper Wire",
+		},
+		[126800] = {
+			["mats"] = {
+				["i:39354"] = 1,
+				["i:61978"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Inscription",
+			["name"] = "Glyph of Shadowy Friends",
+			["players"] = {
+				["Chrysante"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:87392",
 		},
 		[111830] = {
 			["mats"] = {
@@ -21427,19 +21704,18 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:79318",
 		},
-		[55995] = {
+		[137878] = {
 			["mats"] = {
-				["i:41510"] = 4,
-				["i:4341"] = 1,
+				["i:72163"] = 2,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:41251",
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:93590",
 			["players"] = {
-				["Daemonikos"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Yellow Lumberjack Shirt",
+			["name"] = "Crafted Dreadful Gladiator's Mail Armor",
 		},
 		[168839] = {
 			["mats"] = {
@@ -21485,34 +21761,34 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Sorcerous Fire",
 		},
-		[44492] = {
+		[2964] = {
 			["mats"] = {
-				["i:34055"] = 3,
-				["i:38682"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:38955",
-			["players"] = {
-				["Fausta"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Mighty Health",
-		},
-		[168841] = {
-			["mats"] = {
-				["i:111556"] = 100,
-				["i:111557"] = 10,
+				["i:2592"] = 3,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:114813",
+			["itemString"] = "i:2997",
 			["players"] = {
 				["Daemonikos"] = true,
-				["Eruditus"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Hexweave Robe",
+			["name"] = "Bolt of Woolen Cloth",
+		},
+		[159671] = {
+			["mats"] = {
+				["i:113261"] = 10,
+				["i:38682"] = 1,
+				["i:113588"] = 15,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:112164",
+			["players"] = {
+				["Lupalia"] = true,
+				["Fausta"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Mark of Warsong",
 		},
 		[25127] = {
 			["mats"] = {
@@ -21543,47 +21819,46 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:43465",
 		},
-		[33990] = {
+		[137879] = {
 			["mats"] = {
-				["i:22446"] = 2,
-				["i:38682"] = 1,
+				["i:72163"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:38928",
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:93591",
 			["players"] = {
-				["Fausta"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Major Versatility",
+			["name"] = "Crafted Dreadful Gladiator's Mail Gauntlets",
 		},
-		[168840] = {
+		[19082] = {
 			["mats"] = {
-				["i:111556"] = 100,
-				["i:110609"] = 2,
+				["i:8170"] = 14,
+				["i:14341"] = 1,
+				["i:14047"] = 10,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:114812",
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:15094",
 			["players"] = {
-				["Daemonikos"] = true,
-				["Eruditus"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Hexweave Gloves",
+			["name"] = "Runic Leather Headband",
 		},
-		[25255] = {
+		[78439] = {
 			["mats"] = {
-				["i:2840"] = 2,
+				["i:52979"] = 60,
 			},
 			["numResult"] = 1,
-			["profession"] = "Jewelcrafting",
-			["itemString"] = "i:20816",
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:56519",
 			["players"] = {
-				["Trïxxed"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Delicate Copper Wire",
+			["name"] = "Cloak of War",
 		},
 		[181634] = {
 			["mats"] = {
@@ -21615,9 +21890,9 @@ TradeSkillMaster_CraftingDB = {
 		[36357] = {
 			["mats"] = {
 				["i:23793"] = 4,
-				["i:22456"] = 12,
 				["i:14341"] = 2,
 				["i:23572"] = 2,
+				["i:22456"] = 12,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
@@ -21628,20 +21903,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Boots of Utter Darkness",
 		},
-		[13815] = {
+		[3843] = {
 			["mats"] = {
-				["i:11137"] = 1,
-				["i:38682"] = 1,
-				["i:11174"] = 1,
+				["i:2997"] = 3,
+				["i:2321"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:38827",
+			["profession"] = "Tailoring",
+			["itemString"] = "i:4310",
 			["players"] = {
-				["Fausta"] = true,
+				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Agility",
+			["name"] = "Heavy Woolen Gloves",
 		},
 		[192893] = {
 			["mats"] = {
@@ -21670,32 +21944,34 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Crafted Dreadful Gladiator's Mail Helm",
 		},
-		[50942] = {
+		[168841] = {
 			["mats"] = {
-				["i:33568"] = 10,
+				["i:111556"] = 100,
+				["i:111557"] = 10,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:38407",
+			["profession"] = "Tailoring",
+			["itemString"] = "i:114813",
 			["players"] = {
-				["Lupalia"] = true,
+				["Daemonikos"] = true,
+				["Eruditus"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Iceborne Boots",
+			["name"] = "Hexweave Robe",
 		},
-		[58565] = {
+		[75261] = {
 			["mats"] = {
-				["i:39354"] = 10,
-				["i:43115"] = 5,
+				["i:53643"] = 4,
+				["i:38426"] = 2,
 			},
 			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Mystic Tome",
+			["profession"] = "Tailoring",
+			["itemString"] = "i:54482",
 			["players"] = {
-				["Chrysante"] = true,
+				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:43515",
+			["name"] = "Spiritmend Boots",
 		},
 		[181635] = {
 			["mats"] = {
@@ -21711,47 +21987,51 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Sorcerous Water",
 		},
-		[126800] = {
+		[13815] = {
 			["mats"] = {
-				["i:39354"] = 1,
-				["i:61978"] = 3,
+				["i:11137"] = 1,
+				["i:38682"] = 1,
+				["i:11174"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Glyph of Shadowy Friends",
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38827",
 			["players"] = {
-				["Chrysante"] = true,
+				["Fausta"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:87392",
+			["name"] = "Agility",
 		},
-		[137923] = {
+		[158903] = {
 			["mats"] = {
-				["i:82441"] = 6,
+				["i:113261"] = 3,
+				["i:38682"] = 1,
+				["i:113588"] = 4,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:93501",
+			["profession"] = "Enchanting",
+			["itemString"] = "i:110649",
 			["players"] = {
-				["Daemonikos"] = true,
+				["Lupalia"] = true,
+				["Fausta"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Silk Trousers",
+			["name"] = "Gift of Versatility",
 		},
-		[170714] = {
+		[74238] = {
 			["mats"] = {
-				["i:115524"] = 100,
-				["i:109118"] = 10,
-				["i:109119"] = 10,
+				["i:52719"] = 3,
+				["i:38682"] = 1,
+				["i:52555"] = 10,
 			},
 			["numResult"] = 1,
-			["profession"] = "Jewelcrafting (Garrison)",
-			["itemString"] = "i:115796",
+			["profession"] = "Enchanting",
+			["itemString"] = "i:52771",
 			["players"] = {
-				["Achilina"] = true,
+				["Fausta"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Shifting Taladite Ring",
+			["name"] = "Mastery",
 		},
 		[192894] = {
 			["mats"] = {
@@ -21780,19 +22060,6 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Crafted Dreadful Gladiator's Mail Leggings",
 		},
-		[2964] = {
-			["mats"] = {
-				["i:2592"] = 3,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:2997",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Bolt of Woolen Cloth",
-		},
 		[168842] = {
 			["mats"] = {
 				["i:111556"] = 100,
@@ -21807,6 +22074,19 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["queued"] = 0,
 			["name"] = "Hexweave Bracers",
+		},
+		[137921] = {
+			["mats"] = {
+				["i:82441"] = 5,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:93499",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Crafted Dreadful Gladiator's Silk Handguards",
 		},
 		[181636] = {
 			["mats"] = {
@@ -21837,133 +22117,6 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Greater Striking",
 		},
-		[55922] = {
-			["mats"] = {
-				["i:41510"] = 9,
-				["i:38426"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:41545",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Duskweave Gloves",
-		},
-		[13501] = {
-			["mats"] = {
-				["i:11083"] = 2,
-				["i:38682"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:38793",
-			["players"] = {
-				["Fausta"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Lesser Stamina",
-		},
-		[192824] = {
-			["mats"] = {
-				["i:129034"] = 3,
-				["i:129032"] = 25,
-			},
-			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["itemString"] = "i:129003",
-			["players"] = {
-				["Chrysante"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Vantus Rune: Gul'dan",
-		},
-		[137882] = {
-			["mats"] = {
-				["i:72163"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:93594",
-			["players"] = {
-				["Lupalia"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Mail Spaulders",
-		},
-		[140185] = {
-			["mats"] = {
-				["i:72163"] = 7,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:95536",
-			["players"] = {
-				["Lupalia"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Magnificent Hide Pack",
-		},
-		[13890] = {
-			["mats"] = {
-				["i:11174"] = 1,
-				["i:38682"] = 1,
-				["i:7909"] = 1,
-				["i:11177"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:38837",
-			["players"] = {
-				["Fausta"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Minor Speed",
-		},
-		[181637] = {
-			["mats"] = {
-				["i:113264"] = 10,
-				["i:108996"] = 4,
-			},
-			["numResult"] = 10,
-			["profession"] = "Alchemy",
-			["itemString"] = "i:113263",
-			["players"] = {
-				["Trîxxed"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Sorcerous Earth",
-		},
-		[170719] = {
-			["mats"] = {
-				["i:109125"] = 2,
-				["i:109118"] = 10,
-			},
-			["numResult"] = 1,
-			["profession"] = "Jewelcrafting (Garrison)",
-			["itemString"] = "i:115803",
-			["players"] = {
-				["Achilina"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Critical Strike Taladite",
-		},
-		[74193] = {
-			["mats"] = {
-				["i:38682"] = 1,
-				["i:52555"] = 2,
-				["i:52718"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:52746",
-			["players"] = {
-				["Fausta"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Speed",
-		},
 		[58491] = {
 			["mats"] = {
 				["i:39354"] = 2,
@@ -21977,20 +22130,6 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["queued"] = 0,
 			["itemString"] = "i:43466",
-		},
-		[192896] = {
-			["mats"] = {
-				["i:129034"] = 3,
-				["i:129032"] = 15,
-			},
-			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Vantus Rune: Elerethe Renferal",
-			["players"] = {
-				["Chrysante"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:128992",
 		},
 		[12088] = {
 			["mats"] = {
@@ -22006,6 +22145,147 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Cindercloth Boots",
 		},
+		[170719] = {
+			["mats"] = {
+				["i:109125"] = 2,
+				["i:109118"] = 10,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting (Garrison)",
+			["itemString"] = "i:115803",
+			["players"] = {
+				["Achilina"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Critical Strike Taladite",
+		},
+		[137882] = {
+			["mats"] = {
+				["i:72163"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:93594",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Crafted Dreadful Gladiator's Mail Spaulders",
+		},
+		[168843] = {
+			["mats"] = {
+				["i:111556"] = 100,
+				["i:110609"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:114815",
+			["players"] = {
+				["Daemonikos"] = true,
+				["Eruditus"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Hexweave Slippers",
+		},
+		[75268] = {
+			["mats"] = {
+				["i:53643"] = 20,
+				["i:52329"] = 40,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:54446",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Hyjal Expedition Bag",
+		},
+		[181637] = {
+			["mats"] = {
+				["i:113264"] = 10,
+				["i:108996"] = 4,
+			},
+			["numResult"] = 10,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:113263",
+			["players"] = {
+				["Trîxxed"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Sorcerous Earth",
+		},
+		[3839] = {
+			["mats"] = {
+				["i:4306"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:4305",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Bolt of Silk Cloth",
+		},
+		[14809] = {
+			["mats"] = {
+				["i:11291"] = 1,
+				["i:11083"] = 1,
+				["i:11134"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:11289",
+			["players"] = {
+				["Fausta"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Lesser Mystic Wand",
+		},
+		[2165] = {
+			["mats"] = {
+				["i:2319"] = 4,
+				["i:2320"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:2313",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Medium Armor Kit",
+		},
+		[192896] = {
+			["mats"] = {
+				["i:129034"] = 3,
+				["i:129032"] = 15,
+			},
+			["numResult"] = 1,
+			["profession"] = "Inscription",
+			["name"] = "Vantus Rune: Elerethe Renferal",
+			["players"] = {
+				["Chrysante"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:128992",
+		},
+		[33991] = {
+			["mats"] = {
+				["i:22445"] = 2,
+				["i:38682"] = 1,
+				["i:22447"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38929",
+			["players"] = {
+				["Fausta"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Versatility Prime",
+		},
 		[60666] = {
 			["mats"] = {
 				["i:38561"] = 40,
@@ -22019,51 +22299,103 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Jormscale Footpads",
 		},
-		[36078] = {
+		[137920] = {
 			["mats"] = {
-				["i:23793"] = 4,
-				["i:25699"] = 12,
-				["i:14341"] = 2,
-				["i:21886"] = 3,
+				["i:82441"] = 4,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:29974",
+			["profession"] = "Tailoring",
+			["itemString"] = "i:93439",
 			["players"] = {
-				["Lupalia"] = true,
+				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Living Crystal Breastplate",
+			["name"] = "Crafted Dreadful Gladiator's Drape of Meditation",
 		},
-		[159671] = {
+		[34009] = {
 			["mats"] = {
-				["i:113261"] = 10,
-				["i:113588"] = 15,
+				["i:22445"] = 15,
 				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["itemString"] = "i:112164",
+			["itemString"] = "i:38945",
 			["players"] = {
 				["Fausta"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Mark of Warsong",
+			["name"] = "Major Stamina",
 		},
-		[225546] = {
+		[8604] = {
 			["mats"] = {
-				["i:39354"] = 1,
-				["i:129034"] = 6,
-				["i:129032"] = 50,
+				["i:6889"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Cooking",
+			["name"] = "Herb Baked Egg",
+			["players"] = {
+				["Daemonikos"] = true,
+				["Chrysante"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:6888",
+		},
+		[44555] = {
+			["mats"] = {
+				["i:34054"] = 10,
+				["i:38682"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38968",
+			["players"] = {
+				["Fausta"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Exceptional Intellect",
+		},
+		[59490] = {
+			["mats"] = {
+				["i:39354"] = 10,
+				["i:43121"] = 5,
 			},
 			["numResult"] = 1,
 			["profession"] = "Inscription",
-			["name"] = "Glyph of Smolder",
+			["name"] = "Book of Stars",
 			["players"] = {
 				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:139348",
+			["itemString"] = "i:43661",
+		},
+		[192897] = {
+			["mats"] = {
+				["i:129034"] = 3,
+				["i:129032"] = 15,
+			},
+			["numResult"] = 1,
+			["profession"] = "Inscription",
+			["name"] = "Vantus Rune: Cenarius",
+			["players"] = {
+				["Chrysante"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:128993",
+		},
+		[13503] = {
+			["mats"] = {
+				["i:11083"] = 2,
+				["i:38682"] = 1,
+				["i:11084"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38794",
+			["players"] = {
+				["Fausta"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Lesser Striking",
 		},
 		[168845] = {
 			["mats"] = {
@@ -22080,75 +22412,18 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Powerful Hexweave Cloak",
 		},
-		[158903] = {
+		[142964] = {
 			["mats"] = {
-				["i:113261"] = 3,
-				["i:113588"] = 4,
-				["i:38682"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:110649",
-			["players"] = {
-				["Fausta"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Gift of Versatility",
-		},
-		[192897] = {
-			["mats"] = {
-				["i:129034"] = 3,
-				["i:129032"] = 15,
-			},
-			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Vantus Rune: Cenarius",
-			["players"] = {
-				["Chrysante"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:128993",
-		},
-		[74238] = {
-			["mats"] = {
-				["i:52719"] = 3,
-				["i:38682"] = 1,
-				["i:52555"] = 10,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:52771",
-			["players"] = {
-				["Fausta"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Mastery",
-		},
-		[50943] = {
-			["mats"] = {
-				["i:33568"] = 10,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:38406",
-			["players"] = {
-				["Lupalia"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Iceborne Belt",
-		},
-		[137921] = {
-			["mats"] = {
-				["i:82441"] = 5,
+				["i:98619"] = 21,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:93499",
+			["itemString"] = "i:98612",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Silk Handguards",
+			["name"] = "Belt of the Night Sky",
 		},
 		[124627] = {
 			["mats"] = {
@@ -22192,20 +22467,45 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:43850",
 		},
-		[33991] = {
+		[140185] = {
 			["mats"] = {
-				["i:22445"] = 2,
-				["i:38682"] = 1,
-				["i:22447"] = 2,
+				["i:72163"] = 7,
 			},
 			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:38929",
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:95536",
 			["players"] = {
-				["Fausta"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Versatility Prime",
+			["name"] = "Magnificent Hide Pack",
+		},
+		[60611] = {
+			["mats"] = {
+				["i:38425"] = 4,
+				["i:37703"] = 5,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:44440",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Dark Iceborne Leggings",
+		},
+		[125523] = {
+			["mats"] = {
+				["i:82441"] = 5,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:82397",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Windwool Hood",
 		},
 		[74220] = {
 			["mats"] = {
@@ -22222,34 +22522,6 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Greater Haste",
 		},
-		[125523] = {
-			["mats"] = {
-				["i:82441"] = 5,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:82397",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Windwool Hood",
-		},
-		[168846] = {
-			["mats"] = {
-				["i:111556"] = 100,
-				["i:109217"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:114818",
-			["players"] = {
-				["Daemonikos"] = true,
-				["Eruditus"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Nimble Hexweave Cloak",
-		},
 		[20650] = {
 			["mats"] = {
 				["i:4234"] = 6,
@@ -22263,62 +22535,62 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Thick Leather",
 		},
-		[3843] = {
+		[187519] = {
 			["mats"] = {
-				["i:2997"] = 3,
-				["i:2321"] = 1,
+				["i:112377"] = 350,
+				["i:127759"] = 60,
+				["i:113261"] = 60,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:4310",
+			["profession"] = "Inscription",
+			["name"] = "Savage Ensorcelled Tarot",
 			["players"] = {
-				["Daemonikos"] = true,
+				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Heavy Woolen Gloves",
+			["itemString"] = "i:127736",
 		},
-		[75261] = {
+		[104430] = {
 			["mats"] = {
-				["i:53643"] = 4,
-				["i:38426"] = 2,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:54482",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Spiritmend Boots",
-		},
-		[14809] = {
-			["mats"] = {
-				["i:11291"] = 1,
-				["i:11083"] = 1,
-				["i:11134"] = 1,
+				["i:74250"] = 3,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["itemString"] = "i:11289",
+			["itemString"] = "i:74725",
 			["players"] = {
 				["Fausta"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Lesser Mystic Wand",
+			["name"] = "Elemental Force",
 		},
-		[2165] = {
+		[126994] = {
 			["mats"] = {
-				["i:2319"] = 4,
-				["i:2320"] = 1,
+				["i:39354"] = 1,
+				["i:79255"] = 3,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:2313",
+			["profession"] = "Inscription",
+			["name"] = "Greater Ox Horn Inscription",
 			["players"] = {
-				["Lupalia"] = true,
+				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Medium Armor Kit",
+			["itemString"] = "i:87560",
+		},
+		[12072] = {
+			["mats"] = {
+				["i:4339"] = 3,
+				["i:8343"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:10024",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Black Mageweave Headband",
 		},
 		[101599] = {
 			["mats"] = {
@@ -22334,18 +22606,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Drakehide Leg Armor",
 		},
-		[137920] = {
+		[59494] = {
 			["mats"] = {
-				["i:82441"] = 4,
+				["i:39354"] = 10,
+				["i:43123"] = 8,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:93439",
+			["profession"] = "Inscription",
+			["name"] = "Manual of Clouds",
 			["players"] = {
-				["Daemonikos"] = true,
+				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Drape of Meditation",
+			["itemString"] = "i:43664",
 		},
 		[168847] = {
 			["mats"] = {
@@ -22362,20 +22635,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Brilliant Hexweave Cloak",
 		},
-		[25128] = {
+		[42615] = {
 			["mats"] = {
-				["i:3371"] = 1,
-				["i:16204"] = 3,
-				["i:4625"] = 2,
+				["i:22449"] = 1,
 			},
-			["numResult"] = 1,
+			["numResult"] = 3,
 			["profession"] = "Enchanting",
-			["itemString"] = "i:20750",
+			["itemString"] = "i:22448",
 			["players"] = {
+				["Lupalia"] = true,
 				["Fausta"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Wizard Oil",
+			["name"] = "Small Prismatic Shard",
 		},
 		[124628] = {
 			["mats"] = {
@@ -22390,19 +22662,21 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Sha Armor Kit",
 		},
-		[8604] = {
+		[64441] = {
 			["mats"] = {
-				["i:6889"] = 1,
+				["i:37663"] = 1,
+				["i:38682"] = 1,
+				["i:34055"] = 8,
+				["i:34057"] = 4,
 			},
 			["numResult"] = 1,
-			["profession"] = "Cooking",
-			["name"] = "Herb Baked Egg",
+			["profession"] = "Enchanting",
+			["itemString"] = "i:46026",
 			["players"] = {
-				["Daemonikos"] = true,
-				["Chrysante"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:6888",
+			["name"] = "Blade Ward",
 		},
 		[104414] = {
 			["mats"] = {
@@ -22436,33 +22710,36 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Redeemed Soul Legguards",
 		},
-		[44555] = {
+		[3861] = {
 			["mats"] = {
-				["i:34054"] = 10,
-				["i:38682"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:38968",
-			["players"] = {
-				["Fausta"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Exceptional Intellect",
-		},
-		[75268] = {
-			["mats"] = {
-				["i:53643"] = 20,
-				["i:52329"] = 40,
+				["i:4305"] = 4,
+				["i:4291"] = 1,
+				["i:3827"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:54446",
+			["itemString"] = "i:4326",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Hyjal Expedition Bag",
+			["name"] = "Long Silken Cloak",
+		},
+		[19083] = {
+			["mats"] = {
+				["i:14341"] = 1,
+				["i:15407"] = 1,
+				["i:8170"] = 12,
+				["i:2325"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:15087",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Wicked Leather Pants",
 		},
 		[168848] = {
 			["mats"] = {
@@ -22492,85 +22769,75 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Windwool Shoulders",
 		},
-		[3839] = {
+		[125558] = {
 			["mats"] = {
-				["i:4306"] = 4,
+				["i:82447"] = 6,
+				["i:80433"] = 8,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:4305",
+			["itemString"] = "i:86311",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Bolt of Silk Cloth",
+			["name"] = "Robe of Eternal Rule",
 		},
-		[102698] = {
+		[137935] = {
 			["mats"] = {
-				["i:72988"] = 2,
-			},
-			["numResult"] = 1,
-			["profession"] = "First Aid",
-			["itemString"] = "i:72986",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Heavy Windwool Bandage",
-		},
-		[59494] = {
-			["mats"] = {
-				["i:39354"] = 10,
-				["i:43123"] = 8,
-			},
-			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Manual of Clouds",
-			["players"] = {
-				["Chrysante"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:43664",
-		},
-		[60611] = {
-			["mats"] = {
-				["i:38425"] = 4,
-				["i:37703"] = 5,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:44440",
-			["players"] = {
-				["Lupalia"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Dark Iceborne Leggings",
-		},
-		[142964] = {
-			["mats"] = {
-				["i:98619"] = 21,
+				["i:82441"] = 5,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:98612",
+			["itemString"] = "i:93559",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Belt of the Night Sky",
+			["name"] = "Crafted Dreadful Gladiator's Satin Mantle",
 		},
-		[50944] = {
+		[13948] = {
 			["mats"] = {
-				["i:33568"] = 12,
+				["i:11178"] = 2,
+				["i:8153"] = 2,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:38400",
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38851",
 			["players"] = {
-				["Lupalia"] = true,
+				["Fausta"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Arctic Chestpiece",
+			["name"] = "Minor Haste",
+		},
+		[74201] = {
+			["mats"] = {
+				["i:38682"] = 1,
+				["i:52555"] = 4,
+				["i:52718"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:52752",
+			["players"] = {
+				["Fausta"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Critical Strike",
+		},
+		[143074] = {
+			["mats"] = {
+				["i:82441"] = 8,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:98867",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Crafted Malevolent Gladiator's Mooncloth Leggings",
 		},
 		[168849] = {
 			["mats"] = {
@@ -22586,6 +22853,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Elekk Plushie",
 		},
+		[50944] = {
+			["mats"] = {
+				["i:33568"] = 12,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:38400",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Arctic Chestpiece",
+		},
 		[14807] = {
 			["mats"] = {
 				["i:4470"] = 1,
@@ -22600,75 +22880,88 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Greater Magic Wand",
 		},
-		[104430] = {
+		[59587] = {
 			["mats"] = {
-				["i:74250"] = 3,
-				["i:38682"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:74725",
-			["players"] = {
-				["Fausta"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Elemental Force",
-		},
-		[187519] = {
-			["mats"] = {
-				["i:112377"] = 350,
-				["i:127759"] = 60,
-				["i:113261"] = 60,
-			},
-			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Savage Ensorcelled Tarot",
-			["players"] = {
-				["Chrysante"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:127736",
-		},
-		[126994] = {
-			["mats"] = {
-				["i:39354"] = 1,
-				["i:79255"] = 3,
-			},
-			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Greater Ox Horn Inscription",
-			["players"] = {
-				["Chrysante"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:87560",
-		},
-		[143074] = {
-			["mats"] = {
-				["i:82441"] = 8,
+				["i:41511"] = 4,
+				["i:38426"] = 2,
+				["i:37701"] = 5,
+				["i:37702"] = 5,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:98867",
+			["itemString"] = "i:43972",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Malevolent Gladiator's Mooncloth Leggings",
+			["name"] = "Frostsavage Robe",
 		},
-		[57263] = {
+		[137842] = {
 			["mats"] = {
-				["i:39354"] = 1,
-				["i:43124"] = 3,
+				["i:72163"] = 2,
 			},
 			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Glyph of Felguard",
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:93525",
 			["players"] = {
-				["Chrysante"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:42459",
+			["name"] = "Crafted Dreadful Gladiator's Copperskin Tunic",
+		},
+		[188800] = {
+			["players"] = {
+				["Trîxxed"] = true,
+			},
+			["numResult"] = 1,
+			["cooldownTimes"] = {
+				["Trîxxed"] = {
+					["endTime"] = 0,
+				},
+			},
+			["hasCD"] = true,
+			["mats"] = {
+				["i:124105"] = 1,
+				["i:124104"] = 10,
+				["i:124101"] = 10,
+				["i:124102"] = 10,
+				["i:124103"] = 10,
+			},
+			["name"] = "Wild Transmutation",
+			["profession"] = "Alchemy",
+			["queued"] = 0,
+			["itemString"] = "i:141323",
+		},
+		[60621] = {
+			["mats"] = {
+				["i:34056"] = 4,
+				["i:34054"] = 2,
+				["i:38682"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:44453",
+			["players"] = {
+				["Fausta"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Greater Potency",
+		},
+		[41205] = {
+			["mats"] = {
+				["i:22457"] = 8,
+				["i:21842"] = 3,
+				["i:24271"] = 4,
+				["i:32428"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:32586",
+			["players"] = {
+				["Eruditus"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Bracers of Nimble Thought",
 		},
 		[8762] = {
 			["mats"] = {
@@ -22711,76 +23004,75 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Windwool Tunic",
 		},
-		[60653] = {
+		[192860] = {
 			["mats"] = {
-				["i:34054"] = 12,
+				["i:129034"] = 4,
+				["i:129032"] = 15,
+			},
+			["numResult"] = 1,
+			["profession"] = "Inscription",
+			["name"] = "Vantus Rune: Ursoc",
+			["players"] = {
+				["Chrysante"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:128987",
+		},
+		[104393] = {
+			["mats"] = {
+				["i:74249"] = 4,
 				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["itemString"] = "i:44455",
+			["itemString"] = "i:74707",
 			["players"] = {
 				["Fausta"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Greater Intellect",
+			["name"] = "Mighty Versatility",
 		},
-		[2399] = {
+		[75259] = {
 			["mats"] = {
-				["i:2321"] = 2,
-				["i:2605"] = 1,
-				["i:2997"] = 2,
+				["i:53643"] = 4,
+				["i:38426"] = 2,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:2582",
+			["itemString"] = "i:54480",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Green Woolen Vest",
+			["name"] = "Spiritmend Bracers",
 		},
-		[3861] = {
+		[57263] = {
 			["mats"] = {
-				["i:4305"] = 4,
-				["i:4291"] = 1,
-				["i:3827"] = 1,
+				["i:39354"] = 1,
+				["i:43124"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Inscription",
+			["name"] = "Glyph of Felguard",
+			["players"] = {
+				["Chrysante"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:42459",
+		},
+		[185942] = {
+			["mats"] = {
+				["i:124437"] = 9,
+				["i:127037"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:4326",
+			["itemString"] = "i:126994",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Long Silken Cloak",
-		},
-		[125558] = {
-			["mats"] = {
-				["i:82447"] = 6,
-				["i:80433"] = 8,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:86311",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Robe of Eternal Rule",
-		},
-		[137935] = {
-			["mats"] = {
-				["i:82441"] = 5,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:93559",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Satin Mantle",
+			["name"] = "Silkweave Bracers",
 		},
 		[53951] = {
 			["mats"] = {
@@ -22809,34 +23101,40 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:45789",
 		},
-		[13948] = {
+		[59503] = {
 			["mats"] = {
-				["i:11178"] = 2,
-				["i:8153"] = 2,
-				["i:38682"] = 1,
+				["i:43125"] = 3,
+				["i:39354"] = 1,
+				["i:21886"] = 3,
 			},
 			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:38851",
+			["profession"] = "Inscription",
+			["name"] = "Greater Darkmoon Card",
 			["players"] = {
-				["Fausta"] = true,
+				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Minor Haste",
+			["itemString"] = "i:44317",
 		},
-		[60604] = {
-			["mats"] = {
-				["i:38425"] = 6,
-				["i:37705"] = 4,
+		[213248] = {
+			["players"] = {
+				["Trîxxed"] = true,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:44437",
-			["players"] = {
-				["Lupalia"] = true,
+			["cooldownTimes"] = {
+				["Trîxxed"] = {
+					["endTime"] = 0,
+				},
 			},
+			["hasCD"] = true,
+			["mats"] = {
+				["i:123918"] = 5,
+				["i:123919"] = 5,
+			},
+			["name"] = "Pile of Silk",
+			["profession"] = "Alchemy",
 			["queued"] = 0,
-			["name"] = "Dark Frostscale Breastplate",
+			["itemString"] = "i:137590",
 		},
 		[58301] = {
 			["mats"] = {
@@ -22883,19 +23181,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Redeemed Soul Cinch",
 		},
-		[60668] = {
+		[175866] = {
 			["mats"] = {
-				["i:34054"] = 15,
-				["i:38682"] = 1,
+				["i:109123"] = 1,
+				["i:109143"] = 3,
 			},
 			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:44458",
+			["profession"] = "Alchemy",
+			["itemString"] = "i:116271",
 			["players"] = {
-				["Fausta"] = true,
+				["Trîxxed"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crusher",
+			["name"] = "Draenic Water Breathing Elixir",
 		},
 		[33993] = {
 			["mats"] = {
@@ -22939,21 +23237,21 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Windwool Gloves",
 		},
-		[59587] = {
+		[63203] = {
 			["mats"] = {
-				["i:41511"] = 4,
-				["i:38426"] = 2,
-				["i:37701"] = 5,
-				["i:37702"] = 5,
+				["i:41593"] = 4,
+				["i:41595"] = 4,
+				["i:45087"] = 6,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:43972",
+			["itemString"] = "i:45557",
 			["players"] = {
 				["Daemonikos"] = true,
+				["Eruditus"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Frostsavage Robe",
+			["name"] = "Sash of Ancient Power",
 		},
 		[44484] = {
 			["mats"] = {
@@ -22983,55 +23281,6 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:118061",
 		},
-		[137842] = {
-			["mats"] = {
-				["i:72163"] = 2,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:93525",
-			["players"] = {
-				["Lupalia"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Copperskin Tunic",
-		},
-		[188800] = {
-			["players"] = {
-				["Trîxxed"] = true,
-			},
-			["numResult"] = 1,
-			["cooldownTimes"] = {
-				["Trîxxed"] = {
-					["endTime"] = 0,
-				},
-			},
-			["hasCD"] = true,
-			["mats"] = {
-				["i:124105"] = 1,
-				["i:124104"] = 10,
-				["i:124101"] = 10,
-				["i:124102"] = 10,
-				["i:124103"] = 10,
-			},
-			["name"] = "Wild Transmutation",
-			["profession"] = "Alchemy",
-			["queued"] = 0,
-			["itemString"] = "i:141323",
-		},
-		[75247] = {
-			["mats"] = {
-				["i:53010"] = 6,
-			},
-			["numResult"] = 3,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:54442",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Embersilk Net",
-		},
 		[168853] = {
 			["mats"] = {
 				["i:111557"] = 50,
@@ -23046,55 +23295,88 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Sumptuous Robes",
 		},
-		[213248] = {
+		[74191] = {
+			["mats"] = {
+				["i:52718"] = 2,
+				["i:38682"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:52744",
 			["players"] = {
-				["Trîxxed"] = true,
+				["Fausta"] = true,
 			},
-			["numResult"] = 1,
-			["cooldownTimes"] = {
-				["Trîxxed"] = {
-					["endTime"] = 0,
-				},
-			},
-			["hasCD"] = true,
-			["mats"] = {
-				["i:123918"] = 5,
-				["i:123919"] = 5,
-			},
-			["name"] = "Pile of Silk",
-			["profession"] = "Alchemy",
 			["queued"] = 0,
-			["itemString"] = "i:137590",
+			["name"] = "Mighty Stats",
 		},
-		[41205] = {
+		[75247] = {
 			["mats"] = {
-				["i:22457"] = 8,
-				["i:21842"] = 3,
-				["i:24271"] = 4,
-				["i:32428"] = 4,
+				["i:53010"] = 6,
 			},
-			["numResult"] = 1,
+			["numResult"] = 3,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:32586",
+			["itemString"] = "i:54442",
 			["players"] = {
-				["Eruditus"] = true,
+				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Bracers of Nimble Thought",
+			["name"] = "Embersilk Net",
 		},
-		[192860] = {
+		[50945] = {
 			["mats"] = {
-				["i:129034"] = 4,
-				["i:129032"] = 15,
+				["i:33568"] = 12,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:38401",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Arctic Leggings",
+		},
+		[104417] = {
+			["mats"] = {
+				["i:74250"] = 2,
+				["i:38682"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:74720",
+			["players"] = {
+				["Fausta"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Superior Haste",
+		},
+		[25072] = {
+			["mats"] = {
+				["i:22446"] = 2,
+				["i:22448"] = 4,
+				["i:38682"] = 1,
+				["i:21886"] = 8,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38885",
+			["players"] = {
+				["Fausta"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Threat",
+		},
+		[86005] = {
+			["mats"] = {
+				["i:61980"] = 2,
 			},
 			["numResult"] = 1,
 			["profession"] = "Inscription",
-			["name"] = "Vantus Rune: Ursoc",
+			["name"] = "Inferno Ink",
 			["players"] = {
 				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:128987",
+			["itemString"] = "i:61981",
 		},
 		[188300] = {
 			["mats"] = {
@@ -23110,48 +23392,48 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Ancient Healing Potion",
 		},
-		[75259] = {
+		[161002] = {
 			["mats"] = {
-				["i:53643"] = 4,
-				["i:38426"] = 2,
+				["i:109137"] = 5,
+			},
+			["numResult"] = 1,
+			["profession"] = "Cooking",
+			["name"] = "Grilled Saberfish",
+			["players"] = {
+				["Daemonikos"] = true,
+				["Chrysante"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:111456",
+		},
+		[168855] = {
+			["mats"] = {
+				["i:111556"] = 70,
+				["i:113262"] = 15,
+				["i:118472"] = 15,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:54480",
+			["itemString"] = "i:128012",
+			["players"] = {
+				["Daemonikos"] = true,
+				["Eruditus"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Hexweave Essence",
+		},
+		[125527] = {
+			["mats"] = {
+				["i:82441"] = 5,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:82401",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Spiritmend Bracers",
-		},
-		[195909] = {
-			["mats"] = {
-				["i:130179"] = 2,
-				["i:130181"] = 1,
-				["i:130182"] = 3,
-			},
-			["numResult"] = 1,
-			["profession"] = "Jewelcrafting",
-			["itemString"] = "i:130230",
-			["players"] = {
-				["Trïxxed"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Maelstrom Band",
-		},
-		[104393] = {
-			["mats"] = {
-				["i:74249"] = 4,
-				["i:38682"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:74707",
-			["players"] = {
-				["Fausta"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Mighty Versatility",
+			["name"] = "Windwool Pants",
 		},
 		[168854] = {
 			["mats"] = {
@@ -23181,19 +23463,21 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Vicious Leather Bracers",
 		},
-		[192892] = {
+		[111919] = {
 			["mats"] = {
-				["i:129034"] = 3,
-				["i:129032"] = 15,
+				["i:79731"] = 20,
+				["i:79339"] = 1,
+				["i:79255"] = 20,
+				["i:76061"] = 5,
 			},
 			["numResult"] = 1,
 			["profession"] = "Inscription",
-			["name"] = "Vantus Rune: Nythendra",
+			["name"] = "Inscribed Serpent Staff",
 			["players"] = {
 				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:128988",
+			["itemString"] = "i:79341",
 		},
 		[143011] = {
 			["players"] = {
@@ -23214,47 +23498,71 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Celestial Cloth",
 		},
-		[104417] = {
+		[18444] = {
 			["mats"] = {
-				["i:74250"] = 2,
-				["i:38682"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:74720",
-			["players"] = {
-				["Fausta"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Superior Haste",
-		},
-		[185942] = {
-			["mats"] = {
-				["i:124437"] = 9,
-				["i:127037"] = 1,
+				["i:14048"] = 6,
+				["i:14341"] = 2,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:126994",
+			["itemString"] = "i:13866",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Silkweave Bracers",
+			["name"] = "Runecloth Headband",
 		},
-		[161002] = {
-			["mats"] = {
-				["i:109137"] = 5,
+		[177043] = {
+			["players"] = {
+				["Lupalia"] = true,
+				["Daemonikos"] = true,
+				["Fausta"] = true,
 			},
 			["numResult"] = 1,
-			["profession"] = "Cooking",
-			["name"] = "Grilled Saberfish",
+			["cooldownTimes"] = {
+				["Lupalia"] = {
+					["endTime"] = 0,
+				},
+				["Daemonikos"] = {
+					["endTime"] = 0,
+				},
+			},
+			["hasCD"] = true,
+			["mats"] = {
+				["i:109693"] = 3,
+			},
+			["name"] = "Secret of Draenor Enchanting",
+			["profession"] = "Enchanting",
+			["queued"] = 0,
+			["itemString"] = "i:119293",
+		},
+		[227240] = {
+			["mats"] = {
+				["i:129034"] = 5,
+				["i:129032"] = 5,
+				["i:39354"] = 50,
+			},
+			["numResult"] = 1,
+			["profession"] = "Inscription",
+			["name"] = "Codex of the Tranquil Mind",
 			["players"] = {
-				["Daemonikos"] = true,
 				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:111456",
+			["itemString"] = "i:141333",
+		},
+		[137938] = {
+			["mats"] = {
+				["i:82441"] = 5,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:93615",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Crafted Dreadful Gladiator's Felweave Handguards",
 		},
 		[75248] = {
 			["mats"] = {
@@ -23270,94 +23578,50 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Deathsilk Belt",
 		},
-		[177043] = {
+		[3813] = {
+			["mats"] = {
+				["i:4305"] = 3,
+				["i:4234"] = 2,
+				["i:2321"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:4245",
 			["players"] = {
 				["Daemonikos"] = true,
-				["Fausta"] = true,
-			},
-			["numResult"] = 1,
-			["cooldownTimes"] = {
-				["Daemonikos"] = {
-					["endTime"] = 0,
-				},
-			},
-			["hasCD"] = true,
-			["mats"] = {
-				["i:109693"] = 3,
-			},
-			["name"] = "Secret of Draenor Enchanting",
-			["profession"] = "Enchanting",
-			["queued"] = 0,
-			["itemString"] = "i:119293",
-		},
-		[60663] = {
-			["mats"] = {
-				["i:34054"] = 3,
-				["i:34052"] = 3,
-				["i:38682"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:44457",
-			["players"] = {
-				["Fausta"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Major Agility",
+			["name"] = "Small Silk Pack",
 		},
-		[143105] = {
+		[10647] = {
 			["mats"] = {
-				["i:72163"] = 2,
+				["i:8172"] = 4,
+				["i:8343"] = 4,
+				["i:17056"] = 20,
+				["i:7971"] = 2,
+				["i:4304"] = 25,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:98805",
+			["itemString"] = "i:8349",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Malevolent Gladiator's Wyrmhide Gloves",
+			["name"] = "Feathered Breastplate",
 		},
-		[229184] = {
+		[60605] = {
 			["mats"] = {
-				["i:129034"] = 1,
-				["i:129032"] = 25,
+				["i:38557"] = 35,
 			},
 			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Vantus Rune: Guarm",
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:44438",
 			["players"] = {
-				["Chrysante"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:142102",
-		},
-		[74191] = {
-			["mats"] = {
-				["i:52718"] = 2,
-				["i:38682"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:52744",
-			["players"] = {
-				["Fausta"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Mighty Stats",
-		},
-		[86005] = {
-			["mats"] = {
-				["i:61980"] = 2,
-			},
-			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Inferno Ink",
-			["players"] = {
-				["Chrysante"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:61981",
+			["name"] = "Dragonstompers",
 		},
 		[13640] = {
 			["mats"] = {
@@ -23372,6 +23636,32 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["queued"] = 0,
 			["name"] = "Greater Health",
+		},
+		[137913] = {
+			["mats"] = {
+				["i:82441"] = 5,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:93432",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Crafted Dreadful Gladiator's Treads of Alacrity",
+		},
+		[172541] = {
+			["mats"] = {
+				["i:109144"] = 10,
+			},
+			["numResult"] = 1,
+			["profession"] = "First Aid",
+			["itemString"] = "i:116979",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Blackwater Anti-Venom",
 		},
 		[19052] = {
 			["mats"] = {
@@ -23388,66 +23678,61 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Wicked Leather Bracers",
 		},
-		[74225] = {
+		[60669] = {
 			["mats"] = {
-				["i:52721"] = 3,
-				["i:52555"] = 9,
-				["i:52329"] = 3,
-				["i:52719"] = 3,
+				["i:38425"] = 25,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:43257",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Wildscale Breastplate",
+		},
+		[158877] = {
+			["mats"] = {
+				["i:111245"] = 1,
 				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["itemString"] = "i:52761",
+			["itemString"] = "i:110631",
 			["players"] = {
-				["Fausta"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Heartsong",
+			["name"] = "Breath of Critical Strike",
 		},
-		[125528] = {
+		[50946] = {
 			["mats"] = {
-				["i:82441"] = 3,
+				["i:33568"] = 10,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:82402",
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:38402",
 			["players"] = {
-				["Daemonikos"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Windwool Bracers",
+			["name"] = "Arctic Shoulderpads",
 		},
-		[25072] = {
+		[111920] = {
 			["mats"] = {
-				["i:22446"] = 2,
-				["i:22448"] = 4,
-				["i:38682"] = 1,
-				["i:21886"] = 8,
+				["i:72096"] = 3,
+				["i:76061"] = 2,
+				["i:79254"] = 8,
+				["i:79740"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:38885",
+			["profession"] = "Inscription",
+			["name"] = "Ghost Iron Staff",
 			["players"] = {
-				["Fausta"] = true,
+				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Threat",
-		},
-		[3915] = {
-			["mats"] = {
-				["i:2320"] = 1,
-				["i:2996"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:4344",
-			["players"] = {
-				["Daemonikos"] = true,
-				["Eruditus"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Brown Linen Shirt",
+			["itemString"] = "i:79342",
 		},
 		[188303] = {
 			["mats"] = {
@@ -23463,33 +23748,48 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Ancient Mana Potion",
 		},
-		[143123] = {
+		[13646] = {
 			["mats"] = {
-				["i:72163"] = 2,
+				["i:11083"] = 2,
+				["i:38682"] = 1,
+				["i:11134"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:98881",
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38811",
 			["players"] = {
-				["Lupalia"] = true,
+				["Fausta"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Malevolent Gladiator's Waistband of Accuracy",
+			["name"] = "Lesser Dodge",
 		},
-		[8489] = {
+		[75249] = {
 			["mats"] = {
-				["i:4305"] = 3,
-				["i:4291"] = 1,
-				["i:2604"] = 2,
+				["i:53643"] = 2,
+				["i:38426"] = 2,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:6796",
+			["itemString"] = "i:54473",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Red Swashbuckler's Shirt",
+			["name"] = "Deathsilk Bracers",
+		},
+		[188304] = {
+			["mats"] = {
+				["i:127834"] = 1,
+				["i:127835"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:127836",
+			["players"] = {
+				["Trîxxed"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Ancient Rejuvenation Potion",
 		},
 		[177045] = {
 			["players"] = {
@@ -23510,64 +23810,50 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Secret of Draenor Inscription",
 		},
-		[75249] = {
+		[158878] = {
 			["mats"] = {
-				["i:53643"] = 2,
-				["i:38426"] = 2,
+				["i:111245"] = 1,
+				["i:38682"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:110632",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Breath of Haste",
+		},
+		[75257] = {
+			["mats"] = {
+				["i:53643"] = 8,
+				["i:52325"] = 5,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:54473",
+			["itemString"] = "i:54475",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Deathsilk Bracers",
+			["name"] = "Deathsilk Robe",
 		},
-		[111919] = {
+		[41163] = {
 			["mats"] = {
-				["i:79731"] = 20,
-				["i:79339"] = 1,
-				["i:79255"] = 20,
-				["i:76061"] = 5,
+				["i:29547"] = 12,
+				["i:32428"] = 4,
+				["i:22452"] = 4,
+				["i:22451"] = 4,
+				["i:23793"] = 4,
 			},
 			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Inscribed Serpent Staff",
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:32577",
 			["players"] = {
-				["Chrysante"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:79341",
-		},
-		[18444] = {
-			["mats"] = {
-				["i:14048"] = 6,
-				["i:14341"] = 2,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:13866",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Runecloth Headband",
-		},
-		[227240] = {
-			["mats"] = {
-				["i:39354"] = 50,
-				["i:129034"] = 5,
-				["i:129032"] = 5,
-			},
-			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Codex of the Tranquil Mind",
-			["players"] = {
-				["Chrysante"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:141333",
+			["name"] = "Living Earth Bindings",
 		},
 		[104419] = {
 			["mats"] = {
@@ -23585,33 +23871,34 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Super Strength",
 		},
-		[137938] = {
+		[95471] = {
 			["mats"] = {
-				["i:82441"] = 5,
+				["i:52719"] = 3,
+				["i:52721"] = 3,
+				["i:52555"] = 3,
+				["i:38682"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:68134",
+			["players"] = {
+				["Fausta"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Mighty Agility",
+		},
+		[125529] = {
+			["mats"] = {
+				["i:82441"] = 4,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:93615",
+			["itemString"] = "i:82403",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Felweave Handguards",
-		},
-		[192852] = {
-			["mats"] = {
-				["i:39354"] = 1,
-				["i:129034"] = 12,
-				["i:129032"] = 20,
-			},
-			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Glyph of Tattered Wings",
-			["players"] = {
-				["Chrysante"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:139436",
+			["name"] = "Windwool Boots",
 		},
 		[59582] = {
 			["mats"] = {
@@ -23643,63 +23930,63 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Mastery",
 		},
-		[125529] = {
+		[158879] = {
 			["mats"] = {
-				["i:82441"] = 4,
+				["i:111245"] = 1,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:82403",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Windwool Boots",
-		},
-		[55925] = {
-			["mats"] = {
-				["i:42253"] = 2,
-				["i:38426"] = 2,
-				["i:41511"] = 5,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:41553",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Black Duskweave Leggings",
-		},
-		[137913] = {
-			["mats"] = {
-				["i:82441"] = 5,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:93432",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Treads of Alacrity",
-		},
-		[10647] = {
-			["mats"] = {
-				["i:8172"] = 4,
-				["i:8343"] = 4,
-				["i:17056"] = 20,
-				["i:7971"] = 2,
-				["i:4304"] = 25,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:8349",
+			["profession"] = "Enchanting",
+			["itemString"] = "i:110633",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Feathered Breastplate",
+			["name"] = "Breath of Mastery",
+		},
+		[75250] = {
+			["mats"] = {
+				["i:53643"] = 3,
+				["i:52325"] = 6,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:54447",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Enchanted Spellthread",
+		},
+		[192852] = {
+			["mats"] = {
+				["i:129034"] = 12,
+				["i:129032"] = 20,
+				["i:39354"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Inscription",
+			["name"] = "Glyph of Tattered Wings",
+			["players"] = {
+				["Chrysante"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:139436",
+		},
+		[60606] = {
+			["mats"] = {
+				["i:34056"] = 4,
+				["i:34054"] = 4,
+				["i:38682"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:44449",
+			["players"] = {
+				["Fausta"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Assault",
 		},
 		[27944] = {
 			["mats"] = {
@@ -23716,18 +24003,20 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Lesser Dodge",
 		},
-		[172541] = {
+		[158893] = {
 			["mats"] = {
-				["i:109144"] = 10,
+				["i:111245"] = 1,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "First Aid",
-			["itemString"] = "i:116979",
+			["profession"] = "Enchanting",
+			["itemString"] = "i:110625",
 			["players"] = {
-				["Daemonikos"] = true,
+				["Lupalia"] = true,
+				["Fausta"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Blackwater Anti-Venom",
+			["name"] = "Breath of Haste",
 		},
 		[56000] = {
 			["mats"] = {
@@ -23743,62 +24032,69 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Green Workman's Shirt",
 		},
-		[75250] = {
+		[118237] = {
 			["mats"] = {
-				["i:53643"] = 3,
-				["i:52325"] = 6,
+				["i:74250"] = 1,
 			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:54447",
+			["numResult"] = 3,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:74249",
 			["players"] = {
-				["Daemonikos"] = true,
+				["Lupalia"] = true,
+				["Fausta"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Enchanted Spellthread",
+			["name"] = "Spirit Dust",
 		},
-		[56015] = {
+		[21931] = {
 			["mats"] = {
-				["i:41510"] = 8,
-				["i:36783"] = 1,
+				["i:3819"] = 2,
+				["i:11137"] = 3,
+				["i:11139"] = 1,
+				["i:11135"] = 3,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:41608",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Cloak of Frozen Spirits",
-		},
-		[111920] = {
-			["mats"] = {
-				["i:72096"] = 3,
-				["i:76061"] = 2,
-				["i:79254"] = 8,
-				["i:79740"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Ghost Iron Staff",
-			["players"] = {
-				["Chrysante"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:79342",
-		},
-		[50947] = {
-			["mats"] = {
-				["i:33568"] = 10,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:38403",
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38876",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Arctic Gloves",
+			["name"] = "Winter's Might",
+		},
+		[75142] = {
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["numResult"] = 1,
+			["cooldownTimes"] = {
+				["Daemonikos"] = {
+					["endTime"] = 0,
+				},
+			},
+			["hasCD"] = true,
+			["mats"] = {
+				["i:53643"] = 8,
+				["i:52327"] = 30,
+			},
+			["itemString"] = "i:54440",
+			["profession"] = "Tailoring",
+			["queued"] = 0,
+			["name"] = "Dreamcloth",
+		},
+		[137911] = {
+			["mats"] = {
+				["i:82441"] = 5,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:93430",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Crafted Dreadful Gladiator's Cord of Meditation",
 		},
 		[104420] = {
 			["mats"] = {
@@ -23844,20 +24140,20 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Black Mageweave Boots",
 		},
-		[60606] = {
+		[33995] = {
 			["mats"] = {
-				["i:34056"] = 4,
-				["i:34054"] = 4,
+				["i:22446"] = 1,
 				["i:38682"] = 1,
+				["i:22445"] = 12,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["itemString"] = "i:44449",
+			["itemString"] = "i:38933",
 			["players"] = {
 				["Fausta"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Assault",
+			["name"] = "Major Strength",
 		},
 		[156578] = {
 			["mats"] = {
@@ -23873,18 +24169,20 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Draenic Intellect Potion",
 		},
-		[125530] = {
+		[158881] = {
 			["mats"] = {
-				["i:82441"] = 4,
+				["i:111245"] = 1,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:82404",
+			["profession"] = "Enchanting",
+			["itemString"] = "i:110635",
 			["players"] = {
-				["Daemonikos"] = true,
+				["Lupalia"] = true,
+				["Fausta"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Windwool Belt",
+			["name"] = "Breath of Versatility",
 		},
 		[32454] = {
 			["mats"] = {
@@ -23899,19 +24197,18 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Knothide Leather",
 		},
-		[75251] = {
+		[125530] = {
 			["mats"] = {
-				["i:53643"] = 3,
-				["i:38426"] = 2,
+				["i:82441"] = 4,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:54474",
+			["itemString"] = "i:82404",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Deathsilk Shoulders",
+			["name"] = "Windwool Belt",
 		},
 		[173978] = {
 			["mats"] = {
@@ -23963,19 +24260,18 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Handstitched Leather Vest",
 		},
-		[75257] = {
+		[50947] = {
 			["mats"] = {
-				["i:53643"] = 8,
-				["i:52325"] = 5,
+				["i:33568"] = 10,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:54475",
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:38403",
 			["players"] = {
-				["Daemonikos"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Deathsilk Robe",
+			["name"] = "Arctic Gloves",
 		},
 		[118238] = {
 			["mats"] = {
@@ -23985,24 +24281,25 @@ TradeSkillMaster_CraftingDB = {
 			["profession"] = "Enchanting",
 			["itemString"] = "i:74250",
 			["players"] = {
+				["Lupalia"] = true,
 				["Fausta"] = true,
 			},
 			["queued"] = 0,
 			["name"] = "Mysterious Essence",
 		},
-		[188308] = {
+		[118239] = {
 			["mats"] = {
-				["i:127834"] = 1,
-				["i:124101"] = 20,
+				["i:74248"] = 1,
 			},
-			["numResult"] = 1,
-			["profession"] = "Alchemy",
-			["itemString"] = "i:127837",
+			["numResult"] = 2,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:74247",
 			["players"] = {
-				["Trîxxed"] = true,
+				["Lupalia"] = true,
+				["Fausta"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Draught of Raw Magic",
+			["name"] = "Ethereal Shard",
 		},
 		[124635] = {
 			["mats"] = {
@@ -24032,39 +24329,47 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Ghostweave Gloves",
 		},
-		[173979] = {
+		[188308] = {
 			["mats"] = {
-				["i:109140"] = 10,
-				["i:109139"] = 10,
-				["i:109141"] = 10,
-				["i:109138"] = 10,
-				["i:109142"] = 10,
-				["i:109143"] = 10,
+				["i:127834"] = 1,
+				["i:124101"] = 20,
 			},
 			["numResult"] = 1,
-			["profession"] = "Cooking",
-			["name"] = "Feast of the Waters",
+			["profession"] = "Alchemy",
+			["itemString"] = "i:127837",
 			["players"] = {
-				["Daemonikos"] = true,
+				["Trîxxed"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:111458",
+			["name"] = "Draught of Raw Magic",
 		},
-		[95471] = {
+		[50949] = {
 			["mats"] = {
-				["i:52719"] = 3,
-				["i:52721"] = 3,
-				["i:52555"] = 3,
-				["i:38682"] = 1,
+				["i:33568"] = 10,
 			},
 			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:68134",
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:38405",
 			["players"] = {
-				["Fausta"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Mighty Agility",
+			["name"] = "Arctic Belt",
+		},
+		[10554] = {
+			["mats"] = {
+				["i:8154"] = 12,
+				["i:4291"] = 6,
+				["i:4304"] = 12,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:8209",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Tough Scorpid Boots",
 		},
 		[41160] = {
 			["mats"] = {
@@ -24081,35 +24386,20 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Swiftstrike Shoulders",
 		},
-		[59583] = {
+		[13529] = {
 			["mats"] = {
-				["i:41511"] = 3,
-				["i:38426"] = 2,
-				["i:37701"] = 3,
-				["i:37702"] = 3,
+				["i:11083"] = 3,
+				["i:38682"] = 1,
+				["i:11084"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:43974",
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38796",
 			["players"] = {
-				["Daemonikos"] = true,
+				["Fausta"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Frostsavage Bracers",
-		},
-		[170705] = {
-			["mats"] = {
-				["i:109119"] = 30,
-				["i:109118"] = 30,
-			},
-			["numResult"] = 1,
-			["profession"] = "Jewelcrafting",
-			["itemString"] = "i:115988",
-			["players"] = {
-				["Trïxxed"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Shifting Iron Band",
+			["name"] = "Lesser Impact",
 		},
 		[45382] = {
 			["mats"] = {
@@ -24125,61 +24415,61 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:1180",
 		},
-		[44582] = {
+		[10570] = {
 			["mats"] = {
-				["i:34054"] = 15,
+				["i:8154"] = 20,
+				["i:8343"] = 2,
+				["i:4304"] = 10,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:8208",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Tough Scorpid Helm",
+		},
+		[137910] = {
+			["mats"] = {
+				["i:82441"] = 5,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:93429",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Crafted Dreadful Gladiator's Cord of Accuracy",
+		},
+		[74229] = {
+			["mats"] = {
+				["i:52719"] = 5,
+				["i:52328"] = 1,
 				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["itemString"] = "i:38973",
+			["itemString"] = "i:52763",
 			["players"] = {
 				["Fausta"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Minor Power",
+			["name"] = "Superior Dodge",
 		},
-		[59497] = {
+		[50948] = {
 			["mats"] = {
-				["i:43102"] = 1,
-				["i:39354"] = 10,
-				["i:43127"] = 5,
+				["i:33568"] = 8,
 			},
 			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Iron-Bound Tome",
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:38404",
 			["players"] = {
-				["Chrysante"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38322",
-		},
-		[158893] = {
-			["mats"] = {
-				["i:111245"] = 1,
-				["i:38682"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:110625",
-			["players"] = {
-				["Fausta"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Breath of Haste",
-		},
-		[118239] = {
-			["mats"] = {
-				["i:74248"] = 1,
-			},
-			["numResult"] = 2,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:74247",
-			["players"] = {
-				["Fausta"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Ethereal Shard",
+			["name"] = "Arctic Boots",
 		},
 		[124124] = {
 			["mats"] = {
@@ -24232,6 +24522,7 @@ TradeSkillMaster_CraftingDB = {
 			["profession"] = "Enchanting",
 			["itemString"] = "i:110652",
 			["players"] = {
+				["Lupalia"] = true,
 				["Fausta"] = true,
 			},
 			["queued"] = 0,
@@ -24251,18 +24542,21 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Stormscale Drape",
 		},
-		[137911] = {
+		[59585] = {
 			["mats"] = {
-				["i:82441"] = 5,
+				["i:41511"] = 3,
+				["i:38426"] = 2,
+				["i:37701"] = 4,
+				["i:37702"] = 4,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:93430",
+			["itemString"] = "i:43970",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Cord of Meditation",
+			["name"] = "Frostsavage Boots",
 		},
 		[188310] = {
 			["mats"] = {
@@ -24278,49 +24572,46 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Sylvan Elixir",
 		},
-		[33996] = {
+		[188316] = {
 			["mats"] = {
-				["i:22445"] = 8,
+				["i:124104"] = 5,
+				["i:127835"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:127840",
+			["players"] = {
+				["Trîxxed"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Skaggldrynk",
+		},
+		[190869] = {
+			["mats"] = {
+				["i:124440"] = 15,
 				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["itemString"] = "i:38934",
-			["players"] = {
-				["Fausta"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Assault",
-		},
-		[10570] = {
-			["mats"] = {
-				["i:8154"] = 20,
-				["i:8343"] = 2,
-				["i:4304"] = 10,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:8208",
+			["itemString"] = "i:128540",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Tough Scorpid Helm",
+			["name"] = "Word of Versatility",
 		},
-		[10554] = {
+		[60607] = {
 			["mats"] = {
-				["i:8154"] = 12,
-				["i:4291"] = 6,
-				["i:4304"] = 12,
+				["i:33568"] = 12,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:8209",
+			["itemString"] = "i:38434",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Tough Scorpid Boots",
+			["name"] = "Iceborne Wristguards",
 		},
 		[60671] = {
 			["mats"] = {
@@ -24345,44 +24636,42 @@ TradeSkillMaster_CraftingDB = {
 			["profession"] = "Enchanting",
 			["itemString"] = "i:110653",
 			["players"] = {
+				["Lupalia"] = true,
 				["Fausta"] = true,
 			},
 			["queued"] = 0,
 			["name"] = "Gift of Haste",
 		},
-		[75142] = {
+		[63742] = {
+			["mats"] = {
+				["i:2321"] = 2,
+				["i:4305"] = 3,
+				["i:3182"] = 6,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:45626",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
-			["numResult"] = 1,
-			["cooldownTimes"] = {
-				["Daemonikos"] = {
-					["endTime"] = 0,
-				},
-			},
-			["hasCD"] = true,
-			["mats"] = {
-				["i:53643"] = 8,
-				["i:52327"] = 30,
-			},
-			["itemString"] = "i:54440",
-			["profession"] = "Tailoring",
 			["queued"] = 0,
-			["name"] = "Dreamcloth",
+			["name"] = "Spidersilk Drape",
 		},
-		[75253] = {
+		[86642] = {
 			["mats"] = {
-				["i:53643"] = 7,
-				["i:52325"] = 4,
+				["i:39354"] = 10,
+				["i:52328"] = 6,
+				["i:61981"] = 8,
+				["i:52329"] = 24,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:54478",
+			["profession"] = "Inscription",
+			["name"] = "Divine Companion",
 			["players"] = {
-				["Daemonikos"] = true,
+				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Deathsilk Gloves",
+			["itemString"] = "i:62235",
 		},
 		[52739] = {
 			["mats"] = {
@@ -24427,32 +24716,32 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Toughened Leg Armor",
 		},
-		[75255] = {
+		[124126] = {
 			["mats"] = {
-				["i:53643"] = 3,
-				["i:52326"] = 6,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:54449",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Ghostly Spellthread",
-		},
-		[50948] = {
-			["mats"] = {
-				["i:33568"] = 8,
+				["i:72120"] = 12,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:38404",
+			["itemString"] = "i:85568",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Arctic Boots",
+			["name"] = "Brutal Leg Armor",
+		},
+		[67065] = {
+			["mats"] = {
+				["i:47556"] = 4,
+				["i:41594"] = 12,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:47587",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Royal Moonshroud Bracers",
 		},
 		[158886] = {
 			["mats"] = {
@@ -24464,6 +24753,7 @@ TradeSkillMaster_CraftingDB = {
 			["profession"] = "Enchanting",
 			["itemString"] = "i:110654",
 			["players"] = {
+				["Lupalia"] = true,
 				["Fausta"] = true,
 			},
 			["queued"] = 0,
@@ -24483,20 +24773,18 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Quick Strike Cloak",
 		},
-		[13529] = {
+		[137909] = {
 			["mats"] = {
-				["i:11083"] = 3,
-				["i:38682"] = 1,
-				["i:11084"] = 1,
+				["i:82441"] = 5,
 			},
 			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:38796",
+			["profession"] = "Tailoring",
+			["itemString"] = "i:93428",
 			["players"] = {
-				["Fausta"] = true,
+				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Lesser Impact",
+			["name"] = "Crafted Dreadful Gladiator's Cord of Cruelty",
 		},
 		[3756] = {
 			["mats"] = {
@@ -24512,19 +24800,6 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Embossed Leather Gloves",
 		},
-		[137910] = {
-			["mats"] = {
-				["i:82441"] = 5,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:93429",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Cord of Accuracy",
-		},
 		[56002] = {
 			["mats"] = {
 				["i:35627"] = 2,
@@ -24538,6 +24813,21 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["queued"] = 0,
 			["name"] = "Ebonweave",
+		},
+		[104425] = {
+			["mats"] = {
+				["i:38682"] = 1,
+				["i:74247"] = 1,
+				["i:74249"] = 12,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:74723",
+			["players"] = {
+				["Fausta"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Windsong",
 		},
 		[59584] = {
 			["mats"] = {
@@ -24555,20 +24845,20 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Frostsavage Shoulders",
 		},
-		[63742] = {
+		[74230] = {
 			["mats"] = {
-				["i:2321"] = 2,
-				["i:4305"] = 3,
-				["i:3182"] = 6,
+				["i:52719"] = 2,
+				["i:38682"] = 1,
+				["i:52555"] = 8,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:45626",
+			["profession"] = "Enchanting",
+			["itemString"] = "i:52764",
 			["players"] = {
-				["Daemonikos"] = true,
+				["Fausta"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Spidersilk Drape",
+			["name"] = "Critical Strike",
 		},
 		[86640] = {
 			["mats"] = {
@@ -24584,38 +24874,32 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:62233",
 		},
-		[112996] = {
-			["players"] = {
-				["Chrysante"] = true,
+		[3840] = {
+			["mats"] = {
+				["i:2320"] = 1,
+				["i:2996"] = 2,
 			},
 			["numResult"] = 1,
-			["cooldownTimes"] = {
-				["Chrysante"] = {
-					["endTime"] = 0,
-				},
+			["profession"] = "Tailoring",
+			["itemString"] = "i:4307",
+			["players"] = {
+				["Daemonikos"] = true,
 			},
-			["hasCD"] = true,
-			["mats"] = {
-				["i:39354"] = 1,
-				["i:79254"] = 3,
-			},
-			["itemString"] = "i:79731",
-			["profession"] = "Inscription",
 			["queued"] = 0,
-			["name"] = "Scroll of Wisdom",
+			["name"] = "Heavy Linen Gloves",
 		},
-		[50949] = {
+		[156585] = {
 			["mats"] = {
-				["i:33568"] = 10,
+				["i:109137"] = 3,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:38405",
+			["profession"] = "Alchemy",
+			["itemString"] = "i:109123",
 			["players"] = {
-				["Lupalia"] = true,
+				["Trîxxed"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Arctic Belt",
+			["name"] = "Crescent Oil",
 		},
 		[188313] = {
 			["mats"] = {
@@ -24631,34 +24915,34 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Avalanche Elixir",
 		},
-		[59585] = {
+		[137907] = {
 			["mats"] = {
-				["i:41511"] = 3,
-				["i:38426"] = 2,
-				["i:37701"] = 4,
-				["i:37702"] = 4,
+				["i:82441"] = 4,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:43970",
+			["itemString"] = "i:93420",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Frostsavage Boots",
+			["name"] = "Crafted Dreadful Gladiator's Cape of Cruelty",
 		},
-		[124126] = {
+		[27977] = {
 			["mats"] = {
-				["i:72120"] = 12,
+				["i:22446"] = 6,
+				["i:22449"] = 8,
+				["i:38682"] = 1,
+				["i:22445"] = 20,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:85568",
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38922",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Brutal Leg Armor",
+			["name"] = "Major Agility",
 		},
 		[3760] = {
 			["mats"] = {
@@ -24703,19 +24987,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Hillman's Shoulders",
 		},
-		[188316] = {
+		[75255] = {
 			["mats"] = {
-				["i:124104"] = 5,
-				["i:127835"] = 1,
+				["i:53643"] = 3,
+				["i:52326"] = 6,
 			},
 			["numResult"] = 1,
-			["profession"] = "Alchemy",
-			["itemString"] = "i:127840",
+			["profession"] = "Tailoring",
+			["itemString"] = "i:54449",
 			["players"] = {
-				["Trîxxed"] = true,
+				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Skaggldrynk",
+			["name"] = "Ghostly Spellthread",
 		},
 		[3776] = {
 			["mats"] = {
@@ -24762,34 +25046,34 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Greater Strength",
 		},
-		[86642] = {
+		[86641] = {
 			["mats"] = {
+				["i:52326"] = 6,
 				["i:39354"] = 10,
-				["i:52328"] = 6,
 				["i:61981"] = 8,
 				["i:52329"] = 24,
 			},
 			["numResult"] = 1,
 			["profession"] = "Inscription",
-			["name"] = "Divine Companion",
+			["name"] = "Dungeoneering Guide",
 			["players"] = {
 				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:62235",
+			["itemString"] = "i:62234",
 		},
-		[137907] = {
+		[60608] = {
 			["mats"] = {
-				["i:82441"] = 4,
+				["i:33568"] = 14,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:93420",
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:38438",
 			["players"] = {
-				["Daemonikos"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Cape of Cruelty",
+			["name"] = "Iceborne Helm",
 		},
 		[74231] = {
 			["mats"] = {
@@ -24806,21 +25090,21 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Exceptional Versatility",
 		},
-		[86641] = {
+		[158889] = {
 			["mats"] = {
-				["i:52326"] = 6,
-				["i:39354"] = 10,
-				["i:61981"] = 8,
-				["i:52329"] = 24,
+				["i:113264"] = 3,
+				["i:113588"] = 4,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Dungeoneering Guide",
+			["profession"] = "Enchanting",
+			["itemString"] = "i:110656",
 			["players"] = {
-				["Chrysante"] = true,
+				["Lupalia"] = true,
+				["Fausta"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:62234",
+			["name"] = "Gift of Versatility",
 		},
 		[32455] = {
 			["mats"] = {
@@ -24849,20 +25133,6 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Precision",
 		},
-		[3840] = {
-			["mats"] = {
-				["i:2320"] = 1,
-				["i:2996"] = 2,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:4307",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Heavy Linen Gloves",
-		},
 		[44616] = {
 			["mats"] = {
 				["i:34054"] = 9,
@@ -24877,6 +25147,20 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["queued"] = 0,
 			["name"] = "Greater Stats",
+		},
+		[3816] = {
+			["mats"] = {
+				["i:4289"] = 1,
+				["i:783"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:4231",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Cured Light Hide",
 		},
 		[124127] = {
 			["mats"] = {
@@ -24925,33 +25209,39 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:108996",
 		},
-		[137909] = {
+		[112996] = {
+			["players"] = {
+				["Chrysante"] = true,
+			},
+			["numResult"] = 1,
+			["cooldownTimes"] = {
+				["Chrysante"] = {
+					["endTime"] = 0,
+				},
+			},
+			["hasCD"] = true,
 			["mats"] = {
-				["i:82441"] = 5,
+				["i:39354"] = 1,
+				["i:79254"] = 3,
+			},
+			["itemString"] = "i:79731",
+			["profession"] = "Inscription",
+			["queued"] = 0,
+			["name"] = "Scroll of Wisdom",
+		},
+		[75254] = {
+			["mats"] = {
+				["i:53643"] = 3,
+				["i:38426"] = 2,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:93428",
+			["itemString"] = "i:54472",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Cord of Cruelty",
-		},
-		[104425] = {
-			["mats"] = {
-				["i:38682"] = 1,
-				["i:74247"] = 1,
-				["i:74249"] = 12,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:74723",
-			["players"] = {
-				["Fausta"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Windsong",
+			["name"] = "Deathsilk Leggings",
 		},
 		[18414] = {
 			["mats"] = {
@@ -25057,60 +25347,62 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Vicious Leather Boots",
 		},
-		[3816] = {
+		[75253] = {
 			["mats"] = {
-				["i:4289"] = 1,
-				["i:783"] = 1,
+				["i:53643"] = 7,
+				["i:52325"] = 4,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:4231",
+			["profession"] = "Tailoring",
+			["itemString"] = "i:54478",
 			["players"] = {
-				["Lupalia"] = true,
+				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Cured Light Hide",
+			["name"] = "Deathsilk Gloves",
 		},
-		[158889] = {
+		[59497] = {
 			["mats"] = {
-				["i:113264"] = 3,
-				["i:113588"] = 4,
-				["i:38682"] = 1,
+				["i:43102"] = 1,
+				["i:39354"] = 10,
+				["i:43127"] = 5,
 			},
 			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:110656",
+			["profession"] = "Inscription",
+			["name"] = "Iron-Bound Tome",
 			["players"] = {
-				["Fausta"] = true,
+				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Gift of Versatility",
+			["itemString"] = "i:38322",
 		},
-		[60608] = {
+		[156582] = {
 			["mats"] = {
-				["i:33568"] = 14,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:38438",
-			["players"] = {
-				["Lupalia"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Iceborne Helm",
-		},
-		[156585] = {
-			["mats"] = {
-				["i:109137"] = 3,
+				["i:3371"] = 1,
+				["i:109126"] = 3,
 			},
 			["numResult"] = 1,
 			["profession"] = "Alchemy",
-			["itemString"] = "i:109123",
+			["itemString"] = "i:109222",
 			["players"] = {
 				["Trîxxed"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crescent Oil",
+			["name"] = "Draenic Mana Potion",
+		},
+		[33996] = {
+			["mats"] = {
+				["i:22445"] = 8,
+				["i:38682"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38934",
+			["players"] = {
+				["Fausta"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Assault",
 		},
 		[124128] = {
 			["mats"] = {
@@ -25163,80 +25455,87 @@ TradeSkillMaster_CraftingDB = {
 			["profession"] = "Enchanting",
 			["itemString"] = "i:110624",
 			["players"] = {
+				["Lupalia"] = true,
 				["Fausta"] = true,
 			},
 			["queued"] = 0,
 			["name"] = "Breath of Critical Strike",
 		},
-		[75254] = {
+		[59583] = {
+			["mats"] = {
+				["i:41511"] = 3,
+				["i:38426"] = 2,
+				["i:37701"] = 3,
+				["i:37702"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:43974",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Frostsavage Bracers",
+		},
+		[44582] = {
+			["mats"] = {
+				["i:34054"] = 15,
+				["i:38682"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38973",
+			["players"] = {
+				["Fausta"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Minor Power",
+		},
+		[170705] = {
+			["mats"] = {
+				["i:109119"] = 30,
+				["i:109118"] = 30,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting",
+			["itemString"] = "i:115988",
+			["players"] = {
+				["Trïxxed"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Shifting Iron Band",
+		},
+		[173979] = {
+			["mats"] = {
+				["i:109140"] = 10,
+				["i:109139"] = 10,
+				["i:109141"] = 10,
+				["i:109138"] = 10,
+				["i:109142"] = 10,
+				["i:109143"] = 10,
+			},
+			["numResult"] = 1,
+			["profession"] = "Cooking",
+			["name"] = "Feast of the Waters",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:111458",
+		},
+		[75251] = {
 			["mats"] = {
 				["i:53643"] = 3,
 				["i:38426"] = 2,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:54472",
+			["itemString"] = "i:54474",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Deathsilk Leggings",
-		},
-		[74230] = {
-			["mats"] = {
-				["i:52719"] = 2,
-				["i:38682"] = 1,
-				["i:52555"] = 8,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:52764",
-			["players"] = {
-				["Fausta"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Critical Strike",
-		},
-		[67065] = {
-			["mats"] = {
-				["i:47556"] = 4,
-				["i:41594"] = 12,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:47587",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Royal Moonshroud Bracers",
-		},
-		[156582] = {
-			["mats"] = {
-				["i:3371"] = 1,
-				["i:109126"] = 3,
-			},
-			["numResult"] = 1,
-			["profession"] = "Alchemy",
-			["itemString"] = "i:109222",
-			["players"] = {
-				["Trîxxed"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Draenic Mana Potion",
-		},
-		[60607] = {
-			["mats"] = {
-				["i:33568"] = 12,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:38434",
-			["players"] = {
-				["Lupalia"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Iceborne Wristguards",
+			["name"] = "Deathsilk Shoulders",
 		},
 		[60609] = {
 			["mats"] = {
@@ -25252,20 +25551,20 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Speed",
 		},
-		[74229] = {
+		[55925] = {
 			["mats"] = {
-				["i:52719"] = 5,
-				["i:52328"] = 1,
-				["i:38682"] = 1,
+				["i:42253"] = 2,
+				["i:38426"] = 2,
+				["i:41511"] = 5,
 			},
 			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:52763",
+			["profession"] = "Tailoring",
+			["itemString"] = "i:41553",
 			["players"] = {
-				["Fausta"] = true,
+				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Superior Dodge",
+			["name"] = "Black Duskweave Leggings",
 		},
 		[86643] = {
 			["mats"] = {
@@ -25393,39 +25692,43 @@ TradeSkillMaster_CraftingDB = {
 			["profession"] = "Enchanting",
 			["itemString"] = "i:110626",
 			["players"] = {
+				["Lupalia"] = true,
 				["Fausta"] = true,
 			},
 			["queued"] = 0,
 			["name"] = "Breath of Mastery",
 		},
-		[158881] = {
+		[3915] = {
 			["mats"] = {
-				["i:111245"] = 1,
-				["i:38682"] = 1,
+				["i:2320"] = 1,
+				["i:2996"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:110635",
+			["profession"] = "Tailoring",
+			["itemString"] = "i:4344",
 			["players"] = {
-				["Fausta"] = true,
+				["Daemonikos"] = true,
+				["Eruditus"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Breath of Versatility",
+			["name"] = "Brown Linen Shirt",
 		},
-		[33995] = {
+		[185957] = {
 			["mats"] = {
-				["i:22446"] = 1,
-				["i:38682"] = 1,
-				["i:22445"] = 12,
+				["i:124106"] = 2,
+				["i:127004"] = 8,
+				["i:127037"] = 2,
+				["i:124124"] = 2,
+				["i:127681"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:38933",
+			["profession"] = "Tailoring",
+			["itemString"] = "i:126999",
 			["players"] = {
-				["Fausta"] = true,
+				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Major Strength",
+			["name"] = "Imbued Silkweave Pantaloons",
 		},
 		[86004] = {
 			["mats"] = {
@@ -25440,35 +25743,33 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:61978",
 		},
-		[118237] = {
+		[8489] = {
 			["mats"] = {
-				["i:74250"] = 1,
-			},
-			["numResult"] = 3,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:74249",
-			["players"] = {
-				["Fausta"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Spirit Dust",
-		},
-		[41163] = {
-			["mats"] = {
-				["i:29547"] = 12,
-				["i:32428"] = 4,
-				["i:22452"] = 4,
-				["i:22451"] = 4,
-				["i:23793"] = 4,
+				["i:4305"] = 3,
+				["i:4291"] = 1,
+				["i:2604"] = 2,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:32577",
+			["profession"] = "Tailoring",
+			["itemString"] = "i:6796",
 			["players"] = {
-				["Lupalia"] = true,
+				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Living Earth Bindings",
+			["name"] = "Red Swashbuckler's Shirt",
+		},
+		[125528] = {
+			["mats"] = {
+				["i:82441"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:82402",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Windwool Bracers",
 		},
 		[59586] = {
 			["mats"] = {
@@ -25514,78 +25815,76 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Drums of Rage",
 		},
-		[13646] = {
+		[143123] = {
 			["mats"] = {
-				["i:11083"] = 2,
-				["i:38682"] = 1,
-				["i:11134"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:38811",
-			["players"] = {
-				["Fausta"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Lesser Dodge",
-		},
-		[188304] = {
-			["mats"] = {
-				["i:127834"] = 1,
-				["i:127835"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Alchemy",
-			["itemString"] = "i:127836",
-			["players"] = {
-				["Trîxxed"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Ancient Rejuvenation Potion",
-		},
-		[185957] = {
-			["mats"] = {
-				["i:124106"] = 2,
-				["i:127004"] = 8,
-				["i:127037"] = 2,
-				["i:124124"] = 2,
-				["i:127681"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:126999",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Imbued Silkweave Pantaloons",
-		},
-		[148282] = {
-			["mats"] = {
-				["i:39354"] = 1,
-				["i:39774"] = 3,
-			},
-			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Glyph of Lingering Ancestors",
-			["players"] = {
-				["Chrysante"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:104127",
-		},
-		[50946] = {
-			["mats"] = {
-				["i:33568"] = 10,
+				["i:72163"] = 2,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:38402",
+			["itemString"] = "i:98881",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Arctic Shoulderpads",
+			["name"] = "Crafted Malevolent Gladiator's Waistband of Accuracy",
+		},
+		[74225] = {
+			["mats"] = {
+				["i:52721"] = 3,
+				["i:52555"] = 9,
+				["i:52329"] = 3,
+				["i:52719"] = 3,
+				["i:38682"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:52761",
+			["players"] = {
+				["Fausta"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Heartsong",
+		},
+		[192892] = {
+			["mats"] = {
+				["i:129034"] = 3,
+				["i:129032"] = 15,
+			},
+			["numResult"] = 1,
+			["profession"] = "Inscription",
+			["name"] = "Vantus Rune: Nythendra",
+			["players"] = {
+				["Chrysante"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:128988",
+		},
+		[229184] = {
+			["mats"] = {
+				["i:129034"] = 1,
+				["i:129032"] = 25,
+			},
+			["numResult"] = 1,
+			["profession"] = "Inscription",
+			["name"] = "Vantus Rune: Guarm",
+			["players"] = {
+				["Chrysante"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:142102",
+		},
+		[143105] = {
+			["mats"] = {
+				["i:72163"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:98805",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Crafted Malevolent Gladiator's Wyrmhide Gloves",
 		},
 		[137914] = {
 			["mats"] = {
@@ -25628,33 +25927,33 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Breath of Versatility",
 		},
-		[3813] = {
+		[60663] = {
 			["mats"] = {
-				["i:4305"] = 3,
-				["i:4234"] = 2,
-				["i:2321"] = 3,
+				["i:34054"] = 3,
+				["i:34052"] = 3,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:4245",
+			["profession"] = "Enchanting",
+			["itemString"] = "i:44457",
 			["players"] = {
-				["Daemonikos"] = true,
+				["Fausta"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Small Silk Pack",
+			["name"] = "Major Agility",
 		},
-		[60669] = {
+		[57710] = {
 			["mats"] = {
-				["i:38425"] = 25,
+				["i:43106"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:43257",
+			["profession"] = "Inscription",
+			["name"] = "Fiery Ink",
 			["players"] = {
-				["Lupalia"] = true,
+				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Wildscale Breastplate",
+			["itemString"] = "i:43121",
 		},
 		[188322] = {
 			["mats"] = {
@@ -25671,18 +25970,20 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Infernal Alchemist Stone",
 		},
-		[60605] = {
+		[13695] = {
 			["mats"] = {
-				["i:38557"] = 35,
+				["i:11137"] = 4,
+				["i:11139"] = 1,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:44438",
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38822",
 			["players"] = {
-				["Lupalia"] = true,
+				["Fausta"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Dragonstompers",
+			["name"] = "Impact",
 		},
 		[12074] = {
 			["mats"] = {
@@ -25726,21 +26027,20 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Superior Intellect",
 		},
-		[168855] = {
+		[195909] = {
 			["mats"] = {
-				["i:118472"] = 15,
-				["i:111556"] = 70,
-				["i:113262"] = 15,
+				["i:130179"] = 2,
+				["i:130181"] = 1,
+				["i:130182"] = 3,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:128012",
+			["profession"] = "Jewelcrafting",
+			["itemString"] = "i:130230",
 			["players"] = {
-				["Daemonikos"] = true,
-				["Eruditus"] = true,
+				["Trïxxed"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Hexweave Essence",
+			["name"] = "Maelstrom Band",
 		},
 		[32456] = {
 			["mats"] = {
@@ -25755,33 +26055,33 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Knothide Armor Kit",
 		},
-		[57710] = {
+		[60604] = {
 			["mats"] = {
-				["i:43106"] = 1,
+				["i:38425"] = 6,
+				["i:37705"] = 4,
 			},
 			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Fiery Ink",
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:44437",
 			["players"] = {
-				["Chrysante"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:43121",
+			["name"] = "Dark Frostscale Breastplate",
 		},
-		[13695] = {
+		[60668] = {
 			["mats"] = {
-				["i:11137"] = 4,
-				["i:11139"] = 1,
+				["i:34054"] = 15,
 				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["itemString"] = "i:38822",
+			["itemString"] = "i:44458",
 			["players"] = {
 				["Fausta"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Impact",
+			["name"] = "Crusher",
 		},
 		[60994] = {
 			["mats"] = {
@@ -25800,18 +26100,20 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Glacial Slippers",
 		},
-		[125527] = {
+		[74223] = {
 			["mats"] = {
-				["i:82441"] = 5,
+				["i:52328"] = 6,
+				["i:52721"] = 6,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:82401",
+			["profession"] = "Enchanting",
+			["itemString"] = "i:52760",
 			["players"] = {
-				["Daemonikos"] = true,
+				["Fausta"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Windwool Pants",
+			["name"] = "Hurricane",
 		},
 		[137916] = {
 			["mats"] = {
@@ -25839,35 +26141,39 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Frostscale Leggings",
 		},
-		[175866] = {
+		[58483] = {
 			["mats"] = {
-				["i:109123"] = 1,
-				["i:109143"] = 3,
+				["i:39354"] = 2,
+				["i:43126"] = 1,
 			},
-			["numResult"] = 1,
-			["profession"] = "Alchemy",
-			["itemString"] = "i:116271",
+			["numResult"] = 2,
+			["profession"] = "Inscription",
+			["name"] = "Scroll of Agility VIII",
+			["players"] = {
+				["Chrysante"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:43464",
+		},
+		[213253] = {
 			["players"] = {
 				["Trîxxed"] = true,
 			},
-			["queued"] = 0,
-			["name"] = "Draenic Water Breathing Elixir",
-		},
-		[63203] = {
-			["mats"] = {
-				["i:41593"] = 4,
-				["i:41595"] = 4,
-				["i:45087"] = 6,
-			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:45557",
-			["players"] = {
-				["Daemonikos"] = true,
-				["Eruditus"] = true,
+			["cooldownTimes"] = {
+				["Trîxxed"] = {
+					["endTime"] = 0,
+				},
 			},
+			["hasCD"] = true,
+			["mats"] = {
+				["i:124113"] = 5,
+				["i:124115"] = 5,
+			},
+			["name"] = "Pile of Herbs",
+			["profession"] = "Alchemy",
 			["queued"] = 0,
-			["name"] = "Sash of Ancient Power",
+			["itemString"] = "i:137593",
 		},
 		[18415] = {
 			["mats"] = {
@@ -25883,47 +26189,48 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Brightcloth Gloves",
 		},
-		[50945] = {
+		[148276] = {
 			["mats"] = {
-				["i:33568"] = 12,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:38401",
-			["players"] = {
-				["Lupalia"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Arctic Leggings",
-		},
-		[59503] = {
-			["mats"] = {
-				["i:43125"] = 3,
 				["i:39354"] = 1,
-				["i:21886"] = 3,
+				["i:43124"] = 3,
 			},
 			["numResult"] = 1,
 			["profession"] = "Inscription",
-			["name"] = "Greater Darkmoon Card",
+			["name"] = "Glyph of the Sha",
 			["players"] = {
 				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:44317",
+			["itemString"] = "i:104120",
 		},
-		[58483] = {
+		[2399] = {
 			["mats"] = {
-				["i:39354"] = 2,
-				["i:43126"] = 1,
+				["i:2321"] = 2,
+				["i:2605"] = 1,
+				["i:2997"] = 2,
 			},
-			["numResult"] = 2,
-			["profession"] = "Inscription",
-			["name"] = "Scroll of Agility VIII",
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:2582",
 			["players"] = {
-				["Chrysante"] = true,
+				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:43464",
+			["name"] = "Green Woolen Vest",
+		},
+		[60653] = {
+			["mats"] = {
+				["i:34054"] = 12,
+				["i:38682"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:44455",
+			["players"] = {
+				["Fausta"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Greater Intellect",
 		},
 		[137917] = {
 			["mats"] = {
@@ -25957,34 +26264,51 @@ TradeSkillMaster_CraftingDB = {
 		[158899] = {
 			["mats"] = {
 				["i:113261"] = 3,
-				["i:113588"] = 4,
 				["i:38682"] = 1,
+				["i:113588"] = 4,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
 			["itemString"] = "i:110645",
 			["players"] = {
+				["Lupalia"] = true,
 				["Fausta"] = true,
 			},
 			["queued"] = 0,
 			["name"] = "Gift of Critical Strike",
 		},
-		[74223] = {
+		[188326] = {
 			["mats"] = {
-				["i:52328"] = 6,
-				["i:52721"] = 6,
-				["i:38682"] = 1,
+				["i:3371"] = 1,
+				["i:124105"] = 1,
+				["i:124104"] = 2,
+				["i:124102"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:127843",
+			["players"] = {
+				["Trîxxed"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Potion of Deadly Grace",
+		},
+		[25128] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:16204"] = 3,
+				["i:4625"] = 2,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["itemString"] = "i:52760",
+			["itemString"] = "i:20750",
 			["players"] = {
 				["Fausta"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Hurricane",
+			["name"] = "Wizard Oil",
 		},
-		[213253] = {
+		[213252] = {
 			["players"] = {
 				["Trîxxed"] = true,
 			},
@@ -25996,42 +26320,25 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["hasCD"] = true,
 			["mats"] = {
-				["i:124113"] = 5,
-				["i:124115"] = 5,
+				["i:124437"] = 10,
 			},
 			["name"] = "Pile of Herbs",
 			["profession"] = "Alchemy",
 			["queued"] = 0,
 			["itemString"] = "i:137593",
 		},
-		[60621] = {
+		[137919] = {
 			["mats"] = {
-				["i:34056"] = 4,
-				["i:34054"] = 2,
-				["i:38682"] = 1,
+				["i:82441"] = 4,
 			},
 			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:44453",
+			["profession"] = "Tailoring",
+			["itemString"] = "i:93438",
 			["players"] = {
-				["Fausta"] = true,
+				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Greater Potency",
-		},
-		[148276] = {
-			["mats"] = {
-				["i:39354"] = 1,
-				["i:43124"] = 3,
-			},
-			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Glyph of the Sha",
-			["players"] = {
-				["Chrysante"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:104120",
+			["name"] = "Crafted Dreadful Gladiator's Drape of Prowess",
 		},
 		[55941] = {
 			["mats"] = {
@@ -26085,41 +26392,39 @@ TradeSkillMaster_CraftingDB = {
 			["profession"] = "Enchanting",
 			["itemString"] = "i:110646",
 			["players"] = {
+				["Lupalia"] = true,
 				["Fausta"] = true,
 			},
 			["queued"] = 0,
 			["name"] = "Gift of Haste",
 		},
-		[74201] = {
+		[102698] = {
 			["mats"] = {
-				["i:38682"] = 1,
-				["i:52555"] = 4,
-				["i:52718"] = 2,
+				["i:72988"] = 2,
 			},
 			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:52752",
+			["profession"] = "First Aid",
+			["itemString"] = "i:72986",
 			["players"] = {
-				["Fausta"] = true,
+				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Critical Strike",
+			["name"] = "Heavy Windwool Bandage",
 		},
-		[188326] = {
+		[8764] = {
 			["mats"] = {
-				["i:3371"] = 1,
-				["i:124105"] = 1,
-				["i:124104"] = 2,
-				["i:124102"] = 2,
+				["i:4305"] = 3,
+				["i:7067"] = 1,
+				["i:2321"] = 2,
 			},
 			["numResult"] = 1,
-			["profession"] = "Alchemy",
-			["itemString"] = "i:127843",
+			["profession"] = "Tailoring",
+			["itemString"] = "i:7051",
 			["players"] = {
-				["Trîxxed"] = true,
+				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Potion of Deadly Grace",
+			["name"] = "Earthen Vest",
 		},
 		[10507] = {
 			["mats"] = {
@@ -26135,37 +26440,35 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Nightscape Headband",
 		},
-		[213252] = {
-			["players"] = {
-				["Trîxxed"] = true,
+		[170716] = {
+			["mats"] = {
+				["i:115524"] = 100,
+				["i:109118"] = 10,
+				["i:109119"] = 10,
 			},
 			["numResult"] = 1,
-			["cooldownTimes"] = {
-				["Trîxxed"] = {
-					["endTime"] = 0,
-				},
+			["profession"] = "Jewelcrafting (Garrison)",
+			["itemString"] = "i:115799",
+			["players"] = {
+				["Achilina"] = true,
 			},
-			["hasCD"] = true,
-			["mats"] = {
-				["i:124437"] = 10,
-			},
-			["name"] = "Pile of Herbs",
-			["profession"] = "Alchemy",
 			["queued"] = 0,
-			["itemString"] = "i:137593",
+			["name"] = "Glowing Taladite Pendant",
 		},
-		[137919] = {
+		[168846] = {
 			["mats"] = {
-				["i:82441"] = 4,
+				["i:111556"] = 100,
+				["i:109217"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:93438",
+			["itemString"] = "i:114818",
 			["players"] = {
 				["Daemonikos"] = true,
+				["Eruditus"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Drape of Prowess",
+			["name"] = "Nimble Hexweave Cloak",
 		},
 		[19055] = {
 			["mats"] = {
@@ -26207,40 +26510,37 @@ TradeSkillMaster_CraftingDB = {
 			["profession"] = "Enchanting",
 			["itemString"] = "i:110647",
 			["players"] = {
+				["Lupalia"] = true,
 				["Fausta"] = true,
 			},
 			["queued"] = 0,
 			["name"] = "Gift of Mastery",
 		},
-		[12072] = {
+		[50943] = {
 			["mats"] = {
-				["i:4339"] = 3,
-				["i:8343"] = 2,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:10024",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Black Mageweave Headband",
-		},
-		[19083] = {
-			["mats"] = {
-				["i:14341"] = 1,
-				["i:15407"] = 1,
-				["i:8170"] = 12,
-				["i:2325"] = 3,
+				["i:33568"] = 10,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:15087",
+			["itemString"] = "i:38406",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Wicked Leather Pants",
+			["name"] = "Iceborne Belt",
+		},
+		[32259] = {
+			["mats"] = {
+				["i:2835"] = 8,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting",
+			["itemString"] = "i:25498",
+			["players"] = {
+				["Trïxxed"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Rough Stone Statue",
 		},
 		[2149] = {
 			["mats"] = {
@@ -26326,76 +26626,75 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Dark Leather Tunic",
 		},
-		[13503] = {
+		[168844] = {
 			["mats"] = {
-				["i:11083"] = 2,
-				["i:38682"] = 1,
-				["i:11084"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:38794",
-			["players"] = {
-				["Fausta"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Lesser Striking",
-		},
-		[59490] = {
-			["mats"] = {
-				["i:39354"] = 10,
-				["i:43121"] = 5,
-			},
-			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Book of Stars",
-			["players"] = {
-				["Chrysante"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:43661",
-		},
-		[32259] = {
-			["mats"] = {
-				["i:2835"] = 8,
-			},
-			["numResult"] = 1,
-			["profession"] = "Jewelcrafting",
-			["itemString"] = "i:25498",
-			["players"] = {
-				["Trïxxed"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Rough Stone Statue",
-		},
-		[34009] = {
-			["mats"] = {
-				["i:22445"] = 15,
-				["i:38682"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:38945",
-			["players"] = {
-				["Fausta"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Major Stamina",
-		},
-		[8764] = {
-			["mats"] = {
-				["i:4305"] = 3,
-				["i:7067"] = 1,
-				["i:2321"] = 2,
+				["i:111556"] = 100,
+				["i:110609"] = 3,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:7051",
+			["itemString"] = "i:114816",
+			["players"] = {
+				["Daemonikos"] = true,
+				["Eruditus"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Hexweave Belt",
+		},
+		[143073] = {
+			["mats"] = {
+				["i:82441"] = 8,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:98866",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Earthen Vest",
+			["name"] = "Crafted Malevolent Gladiator's Mooncloth Helm",
+		},
+		[27961] = {
+			["mats"] = {
+				["i:22445"] = 8,
+				["i:38682"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38914",
+			["players"] = {
+				["Fausta"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Major Armor",
+		},
+		[172539] = {
+			["mats"] = {
+				["i:111557"] = 5,
+			},
+			["numResult"] = 1,
+			["profession"] = "First Aid",
+			["itemString"] = "i:111603",
+			["players"] = {
+				["Daemonikos"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Antiseptic Bandage",
+		},
+		[74193] = {
+			["mats"] = {
+				["i:38682"] = 1,
+				["i:52555"] = 2,
+				["i:52718"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:52746",
+			["players"] = {
+				["Fausta"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Speed",
 		},
 		[59588] = {
 			["mats"] = {
@@ -26445,31 +26744,33 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:87565",
 		},
-		[42615] = {
+		[225902] = {
 			["mats"] = {
-				["i:22449"] = 1,
+				["i:123918"] = 20,
 			},
-			["numResult"] = 3,
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting",
+			["itemString"] = "i:130172",
+			["players"] = {
+				["Trïxxed"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Sangrite",
+		},
+		[13607] = {
+			["mats"] = {
+				["i:11082"] = 1,
+				["i:38682"] = 1,
+				["i:10998"] = 2,
+			},
+			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["itemString"] = "i:22448",
+			["itemString"] = "i:38799",
 			["players"] = {
 				["Fausta"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Small Prismatic Shard",
-		},
-		[143073] = {
-			["mats"] = {
-				["i:82441"] = 8,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:98866",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Crafted Malevolent Gladiator's Mooncloth Helm",
+			["name"] = "Mana",
 		},
 		[188329] = {
 			["mats"] = {
@@ -26487,33 +26788,32 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Potion of the Old War",
 		},
-		[172539] = {
+		[50942] = {
 			["mats"] = {
-				["i:111557"] = 5,
+				["i:33568"] = 10,
 			},
 			["numResult"] = 1,
-			["profession"] = "First Aid",
-			["itemString"] = "i:111603",
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:38407",
 			["players"] = {
-				["Daemonikos"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Antiseptic Bandage",
+			["name"] = "Iceborne Boots",
 		},
-		[168844] = {
+		[55922] = {
 			["mats"] = {
-				["i:111556"] = 100,
-				["i:110609"] = 3,
+				["i:41510"] = 9,
+				["i:38426"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:114816",
+			["itemString"] = "i:41545",
 			["players"] = {
 				["Daemonikos"] = true,
-				["Eruditus"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Hexweave Belt",
+			["name"] = "Duskweave Gloves",
 		},
 		[137922] = {
 			["mats"] = {
@@ -26542,50 +26842,47 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Spiritmend Gloves",
 		},
-		[170716] = {
+		[60601] = {
 			["mats"] = {
-				["i:115524"] = 100,
-				["i:109118"] = 10,
-				["i:109119"] = 10,
+				["i:38425"] = 4,
+				["i:37705"] = 5,
 			},
 			["numResult"] = 1,
-			["profession"] = "Jewelcrafting (Garrison)",
-			["itemString"] = "i:115799",
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:44436",
 			["players"] = {
-				["Achilina"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Glowing Taladite Pendant",
+			["name"] = "Dark Frostscale Leggings",
 		},
-		[168843] = {
+		[55995] = {
 			["mats"] = {
-				["i:111556"] = 100,
-				["i:110609"] = 2,
+				["i:41510"] = 4,
+				["i:4341"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:114815",
+			["itemString"] = "i:41251",
 			["players"] = {
 				["Daemonikos"] = true,
-				["Eruditus"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Hexweave Slippers",
+			["name"] = "Yellow Lumberjack Shirt",
 		},
-		[13607] = {
+		[58565] = {
 			["mats"] = {
-				["i:11082"] = 1,
-				["i:38682"] = 1,
-				["i:10998"] = 2,
+				["i:39354"] = 10,
+				["i:43115"] = 5,
 			},
 			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:38799",
+			["profession"] = "Inscription",
+			["name"] = "Mystic Tome",
 			["players"] = {
-				["Fausta"] = true,
+				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Mana",
+			["itemString"] = "i:43515",
 		},
 		[159672] = {
 			["mats"] = {
@@ -26597,37 +26894,40 @@ TradeSkillMaster_CraftingDB = {
 			["profession"] = "Enchanting",
 			["itemString"] = "i:112165",
 			["players"] = {
+				["Lupalia"] = true,
 				["Fausta"] = true,
 			},
 			["queued"] = 0,
 			["name"] = "Mark of the Frostwolf",
 		},
-		[27961] = {
+		[168840] = {
 			["mats"] = {
-				["i:22445"] = 8,
-				["i:38682"] = 1,
+				["i:111556"] = 100,
+				["i:110609"] = 2,
 			},
 			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:38914",
+			["profession"] = "Tailoring",
+			["itemString"] = "i:114812",
 			["players"] = {
-				["Fausta"] = true,
+				["Daemonikos"] = true,
+				["Eruditus"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Major Armor",
+			["name"] = "Hexweave Gloves",
 		},
-		[225902] = {
+		[112469] = {
 			["mats"] = {
-				["i:123918"] = 20,
+				["i:39354"] = 1,
+				["i:43126"] = 3,
 			},
 			["numResult"] = 1,
-			["profession"] = "Jewelcrafting",
-			["itemString"] = "i:130172",
+			["profession"] = "Inscription",
+			["name"] = "Glyph of Fighting Pose",
 			["players"] = {
-				["Trïxxed"] = true,
+				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Sangrite",
+			["itemString"] = "i:87888",
 		},
 		[34001] = {
 			["mats"] = {
@@ -26709,13 +27009,14 @@ TradeSkillMaster_CraftingDB = {
 		[159673] = {
 			["mats"] = {
 				["i:113261"] = 5,
-				["i:113588"] = 3,
 				["i:38682"] = 1,
+				["i:113588"] = 3,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
 			["itemString"] = "i:112115",
 			["players"] = {
+				["Lupalia"] = true,
 				["Fausta"] = true,
 			},
 			["queued"] = 0,
@@ -26738,18 +27039,29 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Polar Vest",
 		},
-		[137879] = {
-			["mats"] = {
-				["i:72163"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:93591",
+		[169092] = {
 			["players"] = {
 				["Lupalia"] = true,
+				["Daemonikos"] = true,
+				["Fausta"] = true,
 			},
+			["numResult"] = 1,
+			["cooldownTimes"] = {
+				["Lupalia"] = {
+					["endTime"] = 0,
+				},
+				["Daemonikos"] = {
+					["endTime"] = 0,
+				},
+			},
+			["hasCD"] = true,
+			["mats"] = {
+				["i:111245"] = 1,
+			},
+			["name"] = "Temporal Crystal",
+			["profession"] = "Enchanting",
 			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Mail Gauntlets",
+			["itemString"] = "i:113588",
 		},
 		[137924] = {
 			["mats"] = {
@@ -26777,18 +27089,21 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Frostscale Gloves",
 		},
-		[20649] = {
+		[8793] = {
 			["mats"] = {
-				["i:2319"] = 5,
+				["i:4305"] = 5,
+				["i:6371"] = 2,
+				["i:4291"] = 2,
+				["i:2604"] = 2,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:4234",
+			["profession"] = "Tailoring",
+			["itemString"] = "i:7059",
 			["players"] = {
-				["Lupalia"] = true,
+				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Heavy Leather",
+			["name"] = "Crimson Silk Shoulders",
 		},
 		[9196] = {
 			["mats"] = {
@@ -26836,34 +27151,34 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Unbending Potion",
 		},
-		[168837] = {
+		[36355] = {
 			["mats"] = {
-				["i:111556"] = 100,
-				["i:109119"] = 10,
+				["i:23793"] = 4,
+				["i:14341"] = 2,
+				["i:23572"] = 2,
+				["i:21886"] = 12,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:114809",
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:30041",
 			["players"] = {
-				["Daemonikos"] = true,
-				["Eruditus"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Hexweave Mantle",
+			["name"] = "Boots of Natural Grace",
 		},
-		[181630] = {
+		[60599] = {
 			["mats"] = {
-				["i:113262"] = 10,
-				["i:108996"] = 4,
+				["i:33568"] = 12,
 			},
-			["numResult"] = 10,
-			["profession"] = "Alchemy",
-			["itemString"] = "i:113264",
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:38436",
 			["players"] = {
-				["Trîxxed"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Sorcerous Air",
+			["name"] = "Frostscale Bracers",
 		},
 		[137925] = {
 			["mats"] = {
@@ -26902,6 +27217,7 @@ TradeSkillMaster_CraftingDB = {
 			["profession"] = "Enchanting",
 			["itemString"] = "i:110617",
 			["players"] = {
+				["Lupalia"] = true,
 				["Daemonikos"] = true,
 				["Fausta"] = true,
 			},
@@ -26922,49 +27238,47 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:141644",
 		},
-		[187513] = {
+		[137871] = {
 			["mats"] = {
-				["i:127759"] = 60,
-				["i:113262"] = 60,
-				["i:110611"] = 350,
+				["i:72163"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:127730",
+			["itemString"] = "i:93583",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Savage Burnished Essence",
+			["name"] = "Crafted Dreadful Gladiator's Ringmail Spaulders",
 		},
-		[170715] = {
+		[7955] = {
 			["mats"] = {
-				["i:115524"] = 100,
-				["i:109118"] = 10,
-				["i:109119"] = 10,
+				["i:2321"] = 2,
+				["i:6470"] = 4,
+				["i:6471"] = 6,
 			},
 			["numResult"] = 1,
-			["profession"] = "Jewelcrafting (Garrison)",
-			["itemString"] = "i:115798",
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:6468",
 			["players"] = {
-				["Achilina"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Whispering Taladite Ring",
+			["name"] = "Deviate Scale Belt",
 		},
-		[57209] = {
+		[175865] = {
 			["mats"] = {
-				["i:39354"] = 1,
-				["i:43116"] = 3,
+				["i:109123"] = 1,
+				["i:109138"] = 3,
 			},
 			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Glyph of the Geist",
+			["profession"] = "Alchemy",
+			["itemString"] = "i:116268",
 			["players"] = {
-				["Chrysante"] = true,
+				["Trîxxed"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:43535",
+			["name"] = "Draenic Invisibility Potion",
 		},
 		[55943] = {
 			["mats"] = {
@@ -27017,37 +27331,39 @@ TradeSkillMaster_CraftingDB = {
 			["profession"] = "Enchanting",
 			["itemString"] = "i:110618",
 			["players"] = {
+				["Lupalia"] = true,
 				["Daemonikos"] = true,
 				["Fausta"] = true,
 			},
 			["queued"] = 0,
 			["name"] = "Breath of Haste",
 		},
-		[137871] = {
+		[34002] = {
 			["mats"] = {
-				["i:72163"] = 1,
+				["i:22445"] = 6,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:93583",
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38938",
 			["players"] = {
-				["Lupalia"] = true,
+				["Fausta"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Ringmail Spaulders",
+			["name"] = "Lesser Assault",
 		},
-		[60599] = {
+		[137932] = {
 			["mats"] = {
-				["i:33568"] = 12,
+				["i:82441"] = 6,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:38436",
+			["profession"] = "Tailoring",
+			["itemString"] = "i:93556",
 			["players"] = {
-				["Lupalia"] = true,
+				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Frostscale Bracers",
+			["name"] = "Crafted Dreadful Gladiator's Satin Hood",
 		},
 		[190381] = {
 			["mats"] = {
@@ -27064,8 +27380,8 @@ TradeSkillMaster_CraftingDB = {
 		},
 		[64579] = {
 			["mats"] = {
-				["i:34054"] = 40,
 				["i:38682"] = 1,
+				["i:34054"] = 40,
 				["i:34057"] = 4,
 				["i:36918"] = 1,
 			},
@@ -27073,40 +27389,39 @@ TradeSkillMaster_CraftingDB = {
 			["profession"] = "Enchanting",
 			["itemString"] = "i:46098",
 			["players"] = {
+				["Lupalia"] = true,
 				["Fausta"] = true,
 			},
 			["queued"] = 0,
 			["name"] = "Blood Draining",
 		},
-		[2385] = {
+		[55921] = {
 			["mats"] = {
-				["i:2320"] = 1,
-				["i:2996"] = 1,
+				["i:41510"] = 10,
+				["i:38426"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:2568",
+			["itemString"] = "i:41549",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Brown Linen Vest",
+			["name"] = "Duskweave Robe",
 		},
-		[13626] = {
+		[60613] = {
 			["mats"] = {
-				["i:11082"] = 1,
-				["i:11083"] = 1,
-				["i:38682"] = 1,
-				["i:11084"] = 1,
+				["i:38425"] = 6,
+				["i:37703"] = 4,
 			},
 			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:38804",
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:44441",
 			["players"] = {
-				["Fausta"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Minor Stats",
+			["name"] = "Dark Iceborne Chestguard",
 		},
 		[19088] = {
 			["mats"] = {
@@ -27201,19 +27516,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Polar Cord",
 		},
-		[20008] = {
+		[78405] = {
 			["mats"] = {
-				["i:16202"] = 3,
-				["i:38682"] = 1,
+				["i:52982"] = 8,
+				["i:52976"] = 2,
 			},
 			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:38852",
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:56489",
 			["players"] = {
-				["Fausta"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Greater Intellect",
+			["name"] = "Hardened Scale Cloak",
 		},
 		[137928] = {
 			["mats"] = {
@@ -27241,18 +27556,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Frostscale Boots",
 		},
-		[51572] = {
+		[60336] = {
 			["mats"] = {
-				["i:33568"] = 14,
+				["i:39354"] = 1,
+				["i:43120"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:38437",
+			["profession"] = "Inscription",
+			["name"] = "Scroll of Recall II",
 			["players"] = {
-				["Lupalia"] = true,
+				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Arctic Helm",
+			["itemString"] = "i:44314",
 		},
 		[126696] = {
 			["mats"] = {
@@ -27268,20 +27584,21 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:87277",
 		},
-		[170717] = {
+		[36315] = {
 			["mats"] = {
-				["i:115524"] = 100,
-				["i:109118"] = 10,
-				["i:109119"] = 10,
+				["i:30183"] = 2,
+				["i:21842"] = 4,
+				["i:21884"] = 15,
+				["i:14341"] = 2,
 			},
 			["numResult"] = 1,
-			["profession"] = "Jewelcrafting (Garrison)",
-			["itemString"] = "i:115800",
+			["profession"] = "Tailoring",
+			["itemString"] = "i:30038",
 			["players"] = {
-				["Achilina"] = true,
+				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Shifting Taladite Pendant",
+			["name"] = "Belt of Blasting",
 		},
 		[190383] = {
 			["mats"] = {
@@ -27296,31 +27613,32 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:114931",
 		},
-		[137932] = {
+		[142962] = {
 			["mats"] = {
-				["i:82441"] = 6,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:93556",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Satin Hood",
-		},
-		[137865] = {
-			["mats"] = {
-				["i:72163"] = 1,
+				["i:98617"] = 21,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:93577",
+			["itemString"] = "i:98610",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Armbands of Prowess",
+			["name"] = "Krasari Prowler Belt",
+		},
+		[32473] = {
+			["mats"] = {
+				["i:23793"] = 3,
+				["i:14341"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:25671",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Thick Draenic Vest",
 		},
 		[137929] = {
 			["mats"] = {
@@ -27335,18 +27653,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Crafted Dreadful Gladiator's Mooncloth Robe",
 		},
-		[137864] = {
+		[190954] = {
 			["mats"] = {
-				["i:72163"] = 1,
+				["i:124441"] = 2,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:93576",
+			["profession"] = "Enchanting",
+			["itemString"] = "i:128554",
 			["players"] = {
-				["Lupalia"] = true,
+				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Mail Footguards of Meditation",
+			["name"] = "Boon of the Scavenger",
 		},
 		[160958] = {
 			["mats"] = {
@@ -27361,19 +27680,18 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:111431",
 		},
-		[60336] = {
+		[142952] = {
 			["mats"] = {
-				["i:39354"] = 1,
-				["i:43120"] = 1,
+				["i:98617"] = 28,
 			},
 			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Scroll of Recall II",
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:98600",
 			["players"] = {
-				["Chrysante"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:44314",
+			["name"] = "Pennyroyal Leggings",
 		},
 		[165564] = {
 			["mats"] = {
@@ -27418,18 +27736,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Vitality",
 		},
-		[142962] = {
+		[185959] = {
 			["mats"] = {
-				["i:98617"] = 21,
+				["i:127004"] = 55,
+				["i:127037"] = 3,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:98610",
+			["profession"] = "Tailoring",
+			["itemString"] = "i:126997",
 			["players"] = {
-				["Lupalia"] = true,
+				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Krasari Prowler Belt",
+			["name"] = "Imbued Silkweave Gloves",
 		},
 		[137930] = {
 			["mats"] = {
@@ -27458,34 +27777,34 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Spiritmend Cowl",
 		},
-		[190954] = {
+		[171271] = {
 			["mats"] = {
-				["i:124441"] = 2,
-				["i:38682"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:128554",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Boon of the Scavenger",
-		},
-		[6661] = {
-			["mats"] = {
-				["i:2321"] = 2,
-				["i:7071"] = 1,
-				["i:4234"] = 14,
+				["i:109119"] = 5,
+				["i:110611"] = 100,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:5739",
+			["itemString"] = "i:116177",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Barbaric Harness",
+			["name"] = "Supple Helm",
+		},
+		[74207] = {
+			["mats"] = {
+				["i:52719"] = 1,
+				["i:52327"] = 15,
+				["i:38682"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:52754",
+			["players"] = {
+				["Fausta"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Protection",
 		},
 		[92026] = {
 			["mats"] = {
@@ -27528,19 +27847,18 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Vitality",
 		},
-		[74192] = {
+		[137855] = {
 			["mats"] = {
-				["i:52555"] = 3,
-				["i:38682"] = 1,
+				["i:72163"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:52745",
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:93492",
 			["players"] = {
-				["Fausta"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Lesser Power",
+			["name"] = "Crafted Dreadful Gladiator's Wristguards of Alacrity",
 		},
 		[137931] = {
 			["mats"] = {
@@ -27555,19 +27873,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Crafted Dreadful Gladiator's Satin Gloves",
 		},
-		[32473] = {
+		[2160] = {
 			["mats"] = {
-				["i:23793"] = 3,
-				["i:14341"] = 3,
+				["i:2318"] = 8,
+				["i:2320"] = 4,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:25671",
+			["itemString"] = "i:2300",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Thick Draenic Vest",
+			["name"] = "Embossed Leather Vest",
 		},
 		[86653] = {
 			["mats"] = {
@@ -27586,32 +27904,34 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:87561",
 		},
-		[171271] = {
+		[78428] = {
 			["mats"] = {
-				["i:109119"] = 5,
-				["i:110611"] = 100,
+				["i:38426"] = 1,
+				["i:52976"] = 12,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:116177",
+			["itemString"] = "i:56509",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Supple Helm",
+			["name"] = "Darkbrand Chestguard",
 		},
-		[143115] = {
+		[191078] = {
 			["mats"] = {
-				["i:72163"] = 3,
+				["i:124440"] = 100,
+				["i:124442"] = 1,
+				["i:124124"] = 5,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:98835",
+			["profession"] = "Enchanting",
+			["itemString"] = "i:128536",
 			["players"] = {
-				["Lupalia"] = true,
+				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Malevolent Gladiator's Ironskin Legguards",
+			["name"] = "Leylight Brazier",
 		},
 		[190386] = {
 			["mats"] = {
@@ -27643,19 +27963,20 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Polar Boots",
 		},
-		[2160] = {
+		[86615] = {
 			["mats"] = {
-				["i:2318"] = 8,
-				["i:2320"] = 4,
+				["i:61981"] = 10,
+				["i:39354"] = 1,
+				["i:52329"] = 30,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:2300",
+			["profession"] = "Inscription",
+			["name"] = "Darkmoon Card of Destruction",
 			["players"] = {
-				["Lupalia"] = true,
+				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Embossed Leather Vest",
+			["itemString"] = "i:61987",
 		},
 		[230047] = {
 			["mats"] = {
@@ -27729,9 +28050,9 @@ TradeSkillMaster_CraftingDB = {
 		[18449] = {
 			["mats"] = {
 				["i:14048"] = 7,
-				["i:8170"] = 4,
 				["i:14341"] = 1,
 				["i:14227"] = 2,
+				["i:8170"] = 4,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
@@ -27812,32 +28133,38 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:111433",
 		},
-		[137856] = {
+		[32497] = {
 			["mats"] = {
-				["i:72163"] = 1,
+				["i:22452"] = 4,
+				["i:23793"] = 4,
+				["i:14341"] = 2,
+				["i:25708"] = 20,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:93493",
+			["itemString"] = "i:25691",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Wristguards of Accuracy",
+			["name"] = "Heavy Clefthoof Boots",
 		},
-		[60649] = {
+		[36075] = {
 			["mats"] = {
-				["i:38425"] = 15,
-				["i:35623"] = 1,
+				["i:8172"] = 2,
+				["i:8153"] = 4,
+				["i:17056"] = 5,
+				["i:14341"] = 1,
+				["i:8170"] = 10,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:43129",
+			["itemString"] = "i:29970",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Razorstrike Breastplate",
+			["name"] = "Wildfeather Leggings",
 		},
 		[188341] = {
 			["mats"] = {
@@ -27869,19 +28196,18 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Woven Copper Ring",
 		},
-		[25124] = {
+		[142957] = {
 			["mats"] = {
-				["i:3371"] = 1,
-				["i:10940"] = 2,
+				["i:98617"] = 28,
 			},
 			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:20744",
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:98605",
 			["players"] = {
-				["Fausta"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Minor Wizard Oil",
+			["name"] = "Gorge Stalker Legplates",
 		},
 		[35539] = {
 			["mats"] = {
@@ -27924,23 +28250,24 @@ TradeSkillMaster_CraftingDB = {
 			["profession"] = "Enchanting",
 			["itemString"] = "i:110640",
 			["players"] = {
+				["Lupalia"] = true,
 				["Fausta"] = true,
 			},
 			["queued"] = 0,
 			["name"] = "Gift of Mastery",
 		},
-		[142965] = {
+		[143109] = {
 			["mats"] = {
-				["i:98617"] = 21,
+				["i:72163"] = 2,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:98613",
+			["itemString"] = "i:98809",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Snow Lily Belt",
+			["name"] = "Crafted Malevolent Gladiator's Wyrmhide Spaulders",
 		},
 		[58312] = {
 			["mats"] = {
@@ -27956,49 +28283,49 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:43366",
 		},
-		[36075] = {
-			["mats"] = {
-				["i:8172"] = 2,
-				["i:8170"] = 10,
-				["i:17056"] = 5,
-				["i:8153"] = 4,
-				["i:14341"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:29970",
-			["players"] = {
-				["Lupalia"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Wildfeather Leggings",
-		},
-		[51568] = {
-			["mats"] = {
-				["i:38558"] = 25,
-				["i:37705"] = 6,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:38590",
-			["players"] = {
-				["Lupalia"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Black Chitinguard Boots",
-		},
-		[143109] = {
+		[143097] = {
 			["mats"] = {
 				["i:72163"] = 2,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:98809",
+			["itemString"] = "i:98797",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Malevolent Gladiator's Wyrmhide Spaulders",
+			["name"] = "Crafted Malevolent Gladiator's Kodohide Gloves",
+		},
+		[13941] = {
+			["mats"] = {
+				["i:11178"] = 1,
+				["i:38682"] = 1,
+				["i:11176"] = 3,
+				["i:11175"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38847",
+			["players"] = {
+				["Fausta"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Stats",
+		},
+		[2166] = {
+			["mats"] = {
+				["i:2321"] = 2,
+				["i:4231"] = 6,
+				["i:2319"] = 10,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:2314",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Toughened Leather Armor",
 		},
 		[10556] = {
 			["mats"] = {
@@ -28015,48 +28342,47 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Turtle Scale Leggings",
 		},
-		[99535] = {
-			["mats"] = {
-				["i:52325"] = 4,
-				["i:52980"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:75077",
-			["players"] = {
-				["Lupalia"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Vicious Hide Cloak",
-		},
-		[18451] = {
-			["mats"] = {
-				["i:14048"] = 8,
-				["i:14256"] = 3,
-				["i:14341"] = 2,
-				["i:12662"] = 2,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:14106",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Felcloth Robe",
-		},
-		[143091] = {
+		[143108] = {
 			["mats"] = {
 				["i:72163"] = 3,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:98791",
+			["itemString"] = "i:98808",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Malevolent Gladiator's Dragonhide Legguards",
+			["name"] = "Crafted Malevolent Gladiator's Wyrmhide Robes",
+		},
+		[19078] = {
+			["mats"] = {
+				["i:14341"] = 1,
+				["i:15407"] = 1,
+				["i:12803"] = 6,
+				["i:8170"] = 16,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:15060",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Living Leggings",
+		},
+		[143102] = {
+			["mats"] = {
+				["i:72163"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:98802",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Crafted Malevolent Gladiator's Belt of Cruelty",
 		},
 		[143053] = {
 			["mats"] = {
@@ -28071,19 +28397,18 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Crafted Malevolent Gladiator's Cape of Cruelty",
 		},
-		[191009] = {
+		[143101] = {
 			["mats"] = {
-				["i:124440"] = 10,
-				["i:38682"] = 1,
+				["i:72163"] = 2,
 			},
 			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:128537",
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:98801",
 			["players"] = {
-				["Daemonikos"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Word of Critical Strike",
+			["name"] = "Crafted Malevolent Gladiator's Kodohide Spaulders",
 		},
 		[60999] = {
 			["mats"] = {
@@ -28102,20 +28427,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Icy Scale Chestguard",
 		},
-		[2166] = {
+		[175853] = {
 			["mats"] = {
-				["i:2321"] = 2,
-				["i:4231"] = 6,
-				["i:2319"] = 10,
+				["i:109144"] = 3,
+				["i:109123"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:2314",
+			["profession"] = "Alchemy",
+			["itemString"] = "i:116266",
 			["players"] = {
-				["Lupalia"] = true,
+				["Trîxxed"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Toughened Leather Armor",
+			["name"] = "Draenic Swiftness Potion",
 		},
 		[75141] = {
 			["players"] = {
@@ -28137,21 +28461,20 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Dreamcloth",
 		},
-		[67081] = {
+		[75269] = {
 			["mats"] = {
-				["i:47556"] = 4,
-				["i:44128"] = 6,
-				["i:34057"] = 4,
-				["i:38558"] = 40,
+				["i:52325"] = 3,
+				["i:53643"] = 6,
+				["i:52328"] = 3,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:47579",
+			["profession"] = "Tailoring",
+			["itemString"] = "i:75086",
 			["players"] = {
-				["Lupalia"] = true,
+				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Black Chitin Bracers",
+			["name"] = "Vicious Fireweave Belt",
 		},
 		[14810] = {
 			["mats"] = {
@@ -28168,20 +28491,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Greater Mystic Wand",
 		},
-		[75269] = {
+		[3859] = {
 			["mats"] = {
-				["i:52325"] = 3,
-				["i:53643"] = 6,
-				["i:52328"] = 3,
+				["i:4305"] = 5,
+				["i:6260"] = 4,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:75086",
+			["itemString"] = "i:4324",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Vicious Fireweave Belt",
+			["name"] = "Azure Silk Vest",
 		},
 		[143054] = {
 			["mats"] = {
@@ -28212,31 +28534,34 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Flask of the Countless Armies",
 		},
-		[143101] = {
+		[127018] = {
 			["mats"] = {
-				["i:72163"] = 2,
+				["i:39354"] = 1,
+				["i:79254"] = 3,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:98801",
+			["profession"] = "Inscription",
+			["name"] = "Crane Wing Inscription",
 			["players"] = {
-				["Lupalia"] = true,
+				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Malevolent Gladiator's Kodohide Spaulders",
+			["itemString"] = "i:87578",
 		},
-		[143097] = {
+		[74197] = {
 			["mats"] = {
-				["i:72163"] = 2,
+				["i:52719"] = 6,
+				["i:38682"] = 1,
+				["i:52555"] = 4,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:98797",
+			["profession"] = "Enchanting",
+			["itemString"] = "i:52748",
 			["players"] = {
-				["Lupalia"] = true,
+				["Fausta"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Malevolent Gladiator's Kodohide Gloves",
+			["name"] = "Avalanche",
 		},
 		[137937] = {
 			["mats"] = {
@@ -28251,18 +28576,18 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Crafted Dreadful Gladiator's Cloak of Prowess",
 		},
-		[143108] = {
+		[142961] = {
 			["mats"] = {
-				["i:72163"] = 3,
+				["i:98617"] = 21,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:98808",
+			["itemString"] = "i:98609",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Malevolent Gladiator's Wyrmhide Robes",
+			["name"] = "Pennyroyal Belt",
 		},
 		[160966] = {
 			["mats"] = {
@@ -28277,21 +28602,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:111434",
 		},
-		[19078] = {
+		[10531] = {
 			["mats"] = {
-				["i:8170"] = 16,
-				["i:15407"] = 1,
-				["i:14341"] = 1,
-				["i:12803"] = 6,
+				["i:8343"] = 1,
+				["i:4304"] = 8,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:15060",
+			["itemString"] = "i:8201",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Living Leggings",
+			["name"] = "Big Voodoo Mask",
 		},
 		[143055] = {
 			["mats"] = {
@@ -28306,34 +28629,33 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Crafted Malevolent Gladiator's Cord of Cruelty",
 		},
-		[3761] = {
+		[51570] = {
 			["mats"] = {
-				["i:4231"] = 3,
-				["i:2318"] = 6,
-				["i:2320"] = 4,
+				["i:38425"] = 5,
+				["i:37703"] = 5,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:4243",
+			["itemString"] = "i:38592",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Fine Leather Tunic",
+			["name"] = "Dark Arctic Chestpiece",
 		},
-		[55923] = {
+		[78420] = {
 			["mats"] = {
-				["i:41510"] = 10,
-				["i:38426"] = 1,
+				["i:52326"] = 4,
+				["i:52976"] = 6,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:41550",
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:56503",
 			["players"] = {
-				["Daemonikos"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Duskweave Shoulders",
+			["name"] = "Twilight Leg Armor",
 		},
 		[27981] = {
 			["mats"] = {
@@ -28384,20 +28706,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Crusader's Dragonscale Breastplate",
 		},
-		[74200] = {
+		[185945] = {
 			["mats"] = {
-				["i:38682"] = 1,
-				["i:52555"] = 5,
-				["i:52718"] = 1,
+				["i:124437"] = 16,
+				["i:127037"] = 2,
 			},
 			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:52751",
+			["profession"] = "Tailoring",
+			["itemString"] = "i:126987",
 			["players"] = {
-				["Fausta"] = true,
+				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Stamina",
+			["name"] = "Silkweave Robe",
 		},
 		[69385] = {
 			["mats"] = {
@@ -28454,18 +28775,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Greater Stamina",
 		},
-		[142961] = {
+		[59491] = {
 			["mats"] = {
-				["i:98617"] = 21,
+				["i:39354"] = 1,
+				["i:43121"] = 2,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:98609",
+			["profession"] = "Inscription",
+			["name"] = "Shadowy Tarot",
 			["players"] = {
-				["Lupalia"] = true,
+				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Pennyroyal Belt",
+			["itemString"] = "i:44163",
 		},
 		[60616] = {
 			["mats"] = {
@@ -28481,22 +28803,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Assault",
 		},
-		[201556] = {
+		[171276] = {
 			["mats"] = {
-				["i:124105"] = 1,
-				["i:124121"] = 5,
-				["i:133592"] = 10,
-				["i:129100"] = 20,
-				["i:133567"] = 1,
+				["i:111557"] = 2,
+				["i:110611"] = 100,
 			},
-			["numResult"] = 10,
-			["profession"] = "Cooking",
-			["name"] = "Nightborne Delicacy Platter",
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:116182",
 			["players"] = {
-				["Daemonikos"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:133572",
+			["name"] = "Supple Boots",
 		},
 		[78469] = {
 			["mats"] = {
@@ -28512,18 +28831,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Vicious Leather Helm",
 		},
-		[143124] = {
+		[127009] = {
 			["mats"] = {
-				["i:72163"] = 2,
+				["i:39354"] = 1,
+				["i:79254"] = 4,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:98882",
+			["profession"] = "Inscription",
+			["name"] = "Chi-Ji Kite",
 			["players"] = {
-				["Lupalia"] = true,
+				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Malevolent Gladiator's Boots of Cruelty",
+			["itemString"] = "i:89368",
 		},
 		[143057] = {
 			["mats"] = {
@@ -28569,20 +28889,20 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Icy Scale Belt",
 		},
-		[18421] = {
+		[60640] = {
 			["mats"] = {
-				["i:14048"] = 4,
-				["i:11176"] = 1,
-				["i:14341"] = 1,
+				["i:44128"] = 2,
+				["i:38558"] = 40,
+				["i:43102"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:14132",
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:43565",
 			["players"] = {
-				["Daemonikos"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Wizardweave Leggings",
+			["name"] = "Durable Nerubhide Cape",
 		},
 		[137940] = {
 			["mats"] = {
@@ -28670,19 +28990,18 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Wizardweave Turban",
 		},
-		[171276] = {
+		[124575] = {
 			["mats"] = {
-				["i:111557"] = 2,
-				["i:110611"] = 100,
+				["i:72120"] = 10,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:116182",
+			["itemString"] = "i:85838",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Supple Boots",
+			["name"] = "Misthide Leggings",
 		},
 		[24655] = {
 			["mats"] = {
@@ -28713,20 +29032,18 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Crafted Dreadful Gladiator's Felweave Raiment",
 		},
-		[229045] = {
+		[185935] = {
 			["mats"] = {
-				["i:127037"] = 10,
-				["i:127004"] = 60,
-				["i:124124"] = 8,
+				["i:124437"] = 18,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:142075",
+			["itemString"] = "i:126993",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Imbued Silkweave Bag",
+			["name"] = "Silkweave Cinch",
 		},
 		[125551] = {
 			["mats"] = {
@@ -28768,47 +29085,46 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Crafted Malevolent Gladiator's Treads of Alacrity",
 		},
-		[47766] = {
+		[56014] = {
 			["mats"] = {
-				["i:34054"] = 3,
-				["i:35624"] = 1,
-				["i:38682"] = 1,
+				["i:41510"] = 7,
+				["i:36783"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["itemString"] = "i:39002",
+			["profession"] = "Tailoring",
+			["itemString"] = "i:41607",
 			["players"] = {
-				["Fausta"] = true,
+				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Greater Dodge",
+			["name"] = "Cloak of the Moon",
 		},
-		[60705] = {
+		[171285] = {
 			["mats"] = {
-				["i:38425"] = 10,
-				["i:35623"] = 1,
+				["i:111557"] = 3,
+				["i:110611"] = 100,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:43436",
+			["itemString"] = "i:116194",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Eviscerator's Gauntlets",
+			["name"] = "Wayfaring Belt",
 		},
-		[124575] = {
+		[60643] = {
 			["mats"] = {
-				["i:72120"] = 10,
+				["i:38425"] = 8,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:85838",
+			["itemString"] = "i:44446",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Misthide Leggings",
+			["name"] = "Pack of Endless Pockets",
 		},
 		[75144] = {
 			["players"] = {
@@ -28830,19 +29146,18 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Dreamcloth",
 		},
-		[2402] = {
+		[195850] = {
 			["mats"] = {
-				["i:2997"] = 1,
-				["i:2321"] = 1,
+				["i:130176"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:2584",
+			["profession"] = "Jewelcrafting",
+			["itemString"] = "i:130217",
 			["players"] = {
-				["Daemonikos"] = true,
+				["Trïxxed"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Woolen Cape",
+			["name"] = "Versatile Skystone",
 		},
 		[160971] = {
 			["mats"] = {
@@ -28858,21 +29173,18 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:111438",
 		},
-		[67087] = {
+		[143117] = {
 			["mats"] = {
-				["i:47556"] = 4,
-				["i:44128"] = 6,
-				["i:35627"] = 12,
-				["i:38425"] = 20,
+				["i:72163"] = 3,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:47581",
+			["itemString"] = "i:98837",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Bracers of Swift Death",
+			["name"] = "Crafted Malevolent Gladiator's Ironskin Tunic",
 		},
 		[2881] = {
 			["mats"] = {
@@ -28887,33 +29199,33 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Light Leather",
 		},
-		[165466] = {
+		[171286] = {
 			["mats"] = {
-				["i:39354"] = 3,
-				["i:61978"] = 3,
-			},
-			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Assorted Glyphs",
-			["players"] = {
-				["Chrysante"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:141644",
-		},
-		[171285] = {
-			["mats"] = {
-				["i:111557"] = 3,
-				["i:110611"] = 100,
+				["i:113263"] = 15,
+				["i:118472"] = 15,
+				["i:110611"] = 70,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:116194",
+			["itemString"] = "i:128014",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Wayfaring Belt",
+			["name"] = "Burnished Essence",
+		},
+		[124574] = {
+			["mats"] = {
+				["i:72120"] = 8,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:85836",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Misthide Gloves",
 		},
 		[104698] = {
 			["mats"] = {
@@ -28923,6 +29235,7 @@ TradeSkillMaster_CraftingDB = {
 			["profession"] = "Enchanting",
 			["itemString"] = "i:52721",
 			["players"] = {
+				["Lupalia"] = true,
 				["Fausta"] = true,
 			},
 			["queued"] = 0,
@@ -28941,18 +29254,20 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Rugged Armor Kit",
 		},
-		[143098] = {
+		[50967] = {
 			["mats"] = {
-				["i:72163"] = 3,
+				["i:44128"] = 2,
+				["i:43102"] = 1,
+				["i:38557"] = 2,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:98798",
+			["itemString"] = "i:38374",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crafted Malevolent Gladiator's Kodohide Helm",
+			["name"] = "Icescale Leg Armor",
 		},
 		[13659] = {
 			["mats"] = {
@@ -28996,47 +29311,48 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Crafted Malevolent Gladiator's Cuffs of Accuracy",
 		},
-		[56014] = {
+		[75297] = {
 			["mats"] = {
-				["i:41510"] = 7,
-				["i:36783"] = 1,
+				["i:52326"] = 4,
+				["i:52325"] = 4,
+				["i:53643"] = 10,
 			},
 			["numResult"] = 1,
 			["profession"] = "Tailoring",
-			["itemString"] = "i:41607",
+			["itemString"] = "i:75095",
 			["players"] = {
 				["Daemonikos"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Cloak of the Moon",
+			["name"] = "Vicious Embersilk Boots",
 		},
-		[171286] = {
+		[85785] = {
 			["mats"] = {
-				["i:113263"] = 15,
-				["i:118472"] = 15,
-				["i:110611"] = 70,
+				["i:39354"] = 5,
+				["i:61981"] = 5,
+			},
+			["numResult"] = 5,
+			["profession"] = "Inscription",
+			["name"] = "Runescroll of Fortitude II",
+			["players"] = {
+				["Chrysante"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:62251",
+		},
+		[138589] = {
+			["mats"] = {
+				["i:72163"] = 7,
+				["i:94289"] = 6,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:128014",
+			["itemString"] = "i:94269",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Burnished Essence",
-		},
-		[124574] = {
-			["mats"] = {
-				["i:72120"] = 8,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:85836",
-			["players"] = {
-				["Lupalia"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Misthide Gloves",
+			["name"] = "Quilen Hide Boots",
 		},
 		[75145] = {
 			["players"] = {
@@ -29115,76 +29431,72 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Crafted Malevolent Gladiator's Cuffs of Prowess",
 		},
-		[137825] = {
+		[209664] = {
 			["mats"] = {
-				["i:72163"] = 1,
+				["i:124106"] = 20,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:93475",
-			["players"] = {
-				["Lupalia"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Crafted Dreadful Gladiator's Wyrmhide Gloves",
-		},
-		[75297] = {
-			["mats"] = {
-				["i:52326"] = 4,
-				["i:52325"] = 4,
-				["i:53643"] = 10,
-			},
-			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:75095",
-			["players"] = {
-				["Daemonikos"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Vicious Embersilk Boots",
-		},
-		[85785] = {
-			["mats"] = {
-				["i:39354"] = 5,
-				["i:61981"] = 5,
-			},
-			["numResult"] = 5,
 			["profession"] = "Inscription",
-			["name"] = "Runescroll of Fortitude II",
+			["name"] = "Sallow Pigment",
 			["players"] = {
 				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:62251",
+			["itemString"] = "i:129034",
 		},
-		[138589] = {
+		[27958] = {
 			["mats"] = {
-				["i:72163"] = 7,
-				["i:94289"] = 6,
+				["i:34054"] = 3,
+				["i:38682"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38912",
+			["players"] = {
+				["Fausta"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Exceptional Mana",
+		},
+		[124573] = {
+			["mats"] = {
+				["i:72120"] = 10,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:94269",
+			["itemString"] = "i:85835",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Quilen Hide Boots",
+			["name"] = "Misthide Chestguard",
 		},
-		[186097] = {
+		[171291] = {
 			["mats"] = {
-				["i:124437"] = 35,
-				["i:127037"] = 1,
-				["i:127681"] = 1,
+				["i:113264"] = 20,
+				["i:110611"] = 100,
 			},
 			["numResult"] = 1,
-			["profession"] = "Tailoring",
-			["itemString"] = "i:127016",
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:108883",
 			["players"] = {
-				["Daemonikos"] = true,
+				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Silkweave Cover",
+			["name"] = "Riding Harness",
+		},
+		[60624] = {
+			["mats"] = {
+				["i:33568"] = 14,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:38439",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Nerubian Helm",
 		},
 		[125553] = {
 			["mats"] = {
@@ -29227,32 +29539,36 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Crafted Malevolent Gladiator's Cuffs of Meditation",
 		},
-		[209664] = {
+		[28019] = {
 			["mats"] = {
-				["i:124106"] = 20,
-			},
-			["numResult"] = 1,
-			["profession"] = "Inscription",
-			["name"] = "Sallow Pigment",
-			["players"] = {
-				["Chrysante"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:129034",
-		},
-		[27958] = {
-			["mats"] = {
-				["i:34054"] = 3,
-				["i:38682"] = 1,
+				["i:3371"] = 1,
+				["i:22445"] = 3,
+				["i:22792"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["itemString"] = "i:38912",
+			["itemString"] = "i:22522",
 			["players"] = {
 				["Fausta"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Exceptional Mana",
+			["name"] = "Superior Wizard Oil",
+		},
+		[32495] = {
+			["mats"] = {
+				["i:22452"] = 4,
+				["i:23793"] = 6,
+				["i:14341"] = 2,
+				["i:25708"] = 40,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:25689",
+			["players"] = {
+				["Lupalia"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Heavy Clefthoof Vest",
 		},
 		[27982] = {
 			["mats"] = {
@@ -29308,37 +29624,34 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Knightbane Carapace",
 		},
-		[60757] = {
+		[36076] = {
 			["mats"] = {
-				["i:35622"] = 10,
-				["i:38425"] = 10,
-				["i:43102"] = 1,
+				["i:8172"] = 2,
+				["i:8165"] = 10,
+				["i:8170"] = 10,
+				["i:14341"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:43469",
+			["itemString"] = "i:29971",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Revenant's Treads",
+			["name"] = "Dragonstrike Leggings",
 		},
-		[35559] = {
+		[22331] = {
 			["mats"] = {
-				["i:23572"] = 1,
-				["i:23793"] = 4,
-				["i:22451"] = 12,
-				["i:22456"] = 12,
-				["i:29539"] = 8,
+				["i:4304"] = 6,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:29503",
+			["itemString"] = "i:8170",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Cobrascale Gloves",
+			["name"] = "Rugged Leather",
 		},
 		[143064] = {
 			["mats"] = {
@@ -29368,21 +29681,18 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Simple Linen Pants",
 		},
-		[32495] = {
+		[137817] = {
 			["mats"] = {
-				["i:22452"] = 4,
-				["i:23793"] = 6,
-				["i:14341"] = 2,
-				["i:25708"] = 40,
+				["i:72163"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:25689",
+			["itemString"] = "i:93466",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Heavy Clefthoof Vest",
+			["name"] = "Crafted Dreadful Gladiator's Kodohide Gloves",
 		},
 		[12076] = {
 			["mats"] = {
@@ -29417,47 +29727,48 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Dreamweave Circlet",
 		},
-		[60622] = {
+		[36079] = {
 			["mats"] = {
-				["i:33568"] = 12,
+				["i:23793"] = 4,
+				["i:14341"] = 2,
+				["i:21884"] = 3,
+				["i:15416"] = 8,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:38435",
+			["itemString"] = "i:29975",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Nerubian Bracers",
+			["name"] = "Golden Dragonstrike Breastplate",
 		},
-		[36076] = {
+		[59489] = {
 			["mats"] = {
-				["i:8172"] = 2,
-				["i:8165"] = 10,
-				["i:8170"] = 10,
-				["i:14341"] = 1,
+				["i:39354"] = 10,
+				["i:43121"] = 5,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:29971",
+			["profession"] = "Inscription",
+			["name"] = "Fire Eater's Guide",
 			["players"] = {
-				["Lupalia"] = true,
+				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Dragonstrike Leggings",
+			["itemString"] = "i:43660",
 		},
-		[22331] = {
+		[124584] = {
 			["mats"] = {
-				["i:4304"] = 6,
+				["i:79101"] = 5,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:8170",
+			["itemString"] = "i:85843",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Rugged Leather",
+			["name"] = "Stormscale Bracers",
 		},
 		[143065] = {
 			["mats"] = {
@@ -29472,19 +29783,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Crafted Malevolent Gladiator's Drape of Prowess",
 		},
-		[60631] = {
+		[148282] = {
 			["mats"] = {
-				["i:33568"] = 16,
-				["i:37700"] = 4,
+				["i:39354"] = 1,
+				["i:39774"] = 3,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:38441",
+			["profession"] = "Inscription",
+			["name"] = "Glyph of Lingering Ancestors",
 			["players"] = {
-				["Lupalia"] = true,
+				["Chrysante"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Cloak of Harsh Winds",
+			["itemString"] = "i:104127",
 		},
 		[61002] = {
 			["mats"] = {
@@ -29503,21 +29814,22 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Icy Scale Boots",
 		},
-		[36079] = {
+		[217645] = {
 			["mats"] = {
-				["i:23793"] = 4,
-				["i:14341"] = 2,
-				["i:21884"] = 3,
-				["i:15416"] = 8,
+				["i:52328"] = 5,
+				["i:52722"] = 10,
+				["i:52721"] = 10,
+				["i:39354"] = 3,
+				["i:52327"] = 5,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:29975",
+			["profession"] = "Enchanting",
+			["itemString"] = "i:138791",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Golden Dragonstrike Breastplate",
+			["name"] = "Tome of Illusions: Cataclysm",
 		},
 		[170700] = {
 			["players"] = {
@@ -29539,18 +29851,22 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["itemString"] = "i:115524",
 		},
-		[124584] = {
+		[217644] = {
 			["mats"] = {
-				["i:79101"] = 5,
+				["i:34057"] = 10,
+				["i:35622"] = 4,
+				["i:34052"] = 5,
+				["i:39354"] = 3,
+				["i:34055"] = 8,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:85843",
+			["profession"] = "Enchanting",
+			["itemString"] = "i:138790",
 			["players"] = {
 				["Lupalia"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Stormscale Bracers",
+			["name"] = "Tome of Illusions: Northrend",
 		},
 	},
 	["f@Alliance - Ravencrest@mats"] = {
@@ -29590,8 +29906,8 @@ TradeSkillMaster_CraftingDB = {
 		["i:7067"] = {
 			["name"] = "Elemental Earth",
 		},
-		["i:13444"] = {
-			["name"] = "Major Mana Potion",
+		["i:113111"] = {
+			["name"] = "Warbinder's Ink",
 		},
 		["i:22445"] = {
 			["name"] = "Arcane Dust",
@@ -29617,15 +29933,14 @@ TradeSkillMaster_CraftingDB = {
 		["i:52326"] = {
 			["name"] = "Volatile Water",
 		},
-		["i:74247"] = {
-			["name"] = "Ethereal Shard",
-			["customValue"] = "min(dbmarket, vendorbuy, convert(dbmarket))",
+		["i:43119"] = {
+			["name"] = "Royal Ink",
 		},
-		["i:4233"] = {
-			["name"] = "Cured Medium Hide",
+		["i:79740"] = {
+			["name"] = "Plain Wooden Staff",
 		},
-		["i:79253"] = {
-			["name"] = "Misty Pigment",
+		["i:2997"] = {
+			["name"] = "Bolt of Woolen Cloth",
 		},
 		["i:6371"] = {
 			["name"] = "Fire Oil",
@@ -29658,8 +29973,8 @@ TradeSkillMaster_CraftingDB = {
 		["i:6260"] = {
 			["name"] = "Blue Dye",
 		},
-		["i:53643"] = {
-			["name"] = "Bolt of Embersilk Cloth",
+		["i:79101"] = {
+			["name"] = "Prismatic Scale",
 		},
 		["i:10998"] = {
 			["name"] = "Lesser Astral Essence",
@@ -29694,8 +30009,8 @@ TradeSkillMaster_CraftingDB = {
 		["i:8150"] = {
 			["name"] = "Deeprock Salt",
 		},
-		["i:33470"] = {
-			["name"] = "Frostweave Cloth",
+		["i:9210"] = {
+			["name"] = "Ghost Dye",
 		},
 		["i:124441"] = {
 			["name"] = "Leylight Shard",
@@ -29718,8 +30033,8 @@ TradeSkillMaster_CraftingDB = {
 		["i:43108"] = {
 			["name"] = "Ebon Pigment",
 		},
-		["i:130172"] = {
-			["name"] = "Sangrite",
+		["i:4236"] = {
+			["name"] = "Cured Heavy Hide",
 		},
 		["i:124115"] = {
 			["name"] = "Stormscale",
@@ -29727,14 +30042,14 @@ TradeSkillMaster_CraftingDB = {
 		["i:109131"] = {
 			["name"] = "Raw Clefthoof Meat",
 		},
-		["i:2318"] = {
-			["name"] = "Light Leather",
+		["i:4289"] = {
+			["name"] = "Salt",
 		},
-		["i:109139"] = {
-			["name"] = "Fat Sleeper Flesh",
+		["i:38557"] = {
+			["name"] = "Icy Dragonscale",
 		},
-		["i:3389"] = {
-			["name"] = "Elixir of Defense",
+		["i:3182"] = {
+			["name"] = "Spider's Silk",
 		},
 		["i:29547"] = {
 			["name"] = "Wind Scales",
@@ -29766,8 +30081,8 @@ TradeSkillMaster_CraftingDB = {
 		["i:124120"] = {
 			["name"] = "Leyblood",
 		},
-		["i:11174"] = {
-			["name"] = "Lesser Nether Essence",
+		["i:79342"] = {
+			["name"] = "Ghost Iron Staff",
 		},
 		["i:124108"] = {
 			["name"] = "Mossgill Perch",
@@ -29805,8 +30120,8 @@ TradeSkillMaster_CraftingDB = {
 		["i:8343"] = {
 			["name"] = "Heavy Silken Thread",
 		},
-		["i:43117"] = {
-			["name"] = "Dawnstar Ink",
+		["i:24271"] = {
+			["name"] = "Spellcloth",
 		},
 		["i:111445"] = {
 			["name"] = "Fiery Calamari",
@@ -29841,23 +30156,23 @@ TradeSkillMaster_CraftingDB = {
 		["i:23112"] = {
 			["name"] = "Golden Draenite",
 		},
-		["i:23793"] = {
-			["name"] = "Heavy Knothide Leather",
+		["i:109141"] = {
+			["name"] = "Fire Ammonite Tentacle",
 		},
-		["i:17056"] = {
-			["name"] = "Light Feather",
+		["i:12662"] = {
+			["name"] = "Demonic Rune",
 		},
 		["i:41593"] = {
 			["name"] = "Ebonweave",
 		},
-		["i:109128"] = {
-			["name"] = "Nagrand Arrowbloom",
+		["i:41511"] = {
+			["name"] = "Bolt of Imbued Frostweave",
 		},
-		["i:8165"] = {
-			["name"] = "Worn Dragonscale",
+		["i:11291"] = {
+			["name"] = "Star Wood",
 		},
-		["i:124104"] = {
-			["name"] = "Fjarnskaggl",
+		["i:36783"] = {
+			["name"] = "Northsea Pearl",
 		},
 		["i:52718"] = {
 			["name"] = "Lesser Celestial Essence",
@@ -29871,26 +30186,56 @@ TradeSkillMaster_CraftingDB = {
 		["i:109143"] = {
 			["name"] = "Abyssal Gulper Eel Flesh",
 		},
+		["i:43117"] = {
+			["name"] = "Dawnstar Ink",
+		},
+		["i:62323"] = {
+			["name"] = "Deathwing Scale Fragment",
+		},
+		["i:7077"] = {
+			["name"] = "Heart of Fire",
+		},
 		["i:37703"] = {
 			["name"] = "Crystallized Shadow",
 		},
 		["i:43107"] = {
 			["name"] = "Sapphire Pigment",
 		},
+		["i:11084"] = {
+			["name"] = "Large Glimmering Shard",
+		},
+		["i:11175"] = {
+			["name"] = "Greater Nether Essence",
+		},
 		["i:39774"] = {
 			["name"] = "Midnight Ink",
+		},
+		["i:16203"] = {
+			["name"] = "Greater Eternal Essence",
+		},
+		["i:17056"] = {
+			["name"] = "Light Feather",
+		},
+		["i:23793"] = {
+			["name"] = "Heavy Knothide Leather",
 		},
 		["i:37705"] = {
 			["name"] = "Crystallized Water",
 		},
-		["i:38557"] = {
-			["name"] = "Icy Dragonscale",
+		["i:13446"] = {
+			["name"] = "Major Healing Potion",
 		},
-		["i:11291"] = {
-			["name"] = "Star Wood",
+		["i:4337"] = {
+			["name"] = "Thick Spider's Silk",
 		},
-		["i:35627"] = {
-			["name"] = "Eternal Shadow",
+		["i:72162"] = {
+			["name"] = "Sha-Touched Leather",
+		},
+		["i:124444"] = {
+			["name"] = "Infernal Brimstone",
+		},
+		["i:2605"] = {
+			["name"] = "Green Dye",
 		},
 		["i:11137"] = {
 			["name"] = "Vision Dust",
@@ -29901,8 +30246,8 @@ TradeSkillMaster_CraftingDB = {
 		["i:2319"] = {
 			["name"] = "Medium Leather",
 		},
-		["i:21840"] = {
-			["name"] = "Bolt of Netherweave",
+		["i:39151"] = {
+			["name"] = "Alabaster Pigment",
 		},
 		["i:5498"] = {
 			["name"] = "Small Lustrous Pearl",
@@ -29910,14 +30255,14 @@ TradeSkillMaster_CraftingDB = {
 		["i:44128"] = {
 			["name"] = "Arctic Fur",
 		},
-		["i:72162"] = {
-			["name"] = "Sha-Touched Leather",
+		["i:21840"] = {
+			["name"] = "Bolt of Netherweave",
 		},
-		["i:11175"] = {
-			["name"] = "Greater Nether Essence",
+		["i:4246"] = {
+			["name"] = "Fine Leather Belt",
 		},
-		["i:16203"] = {
-			["name"] = "Greater Eternal Essence",
+		["i:33568"] = {
+			["name"] = "Borean Leather",
 		},
 		["i:38682"] = {
 			["name"] = "Enchanting Vellum",
@@ -29931,8 +30276,8 @@ TradeSkillMaster_CraftingDB = {
 		["i:41510"] = {
 			["name"] = "Bolt of Frostweave",
 		},
-		["i:124119"] = {
-			["name"] = "Big Gamy Ribs",
+		["i:43124"] = {
+			["name"] = "Ethereal Ink",
 		},
 		["i:79254"] = {
 			["name"] = "Ink of Dreams",
@@ -29943,11 +30288,11 @@ TradeSkillMaster_CraftingDB = {
 		["i:4341"] = {
 			["name"] = "Yellow Dye",
 		},
-		["i:11084"] = {
-			["name"] = "Large Glimmering Shard",
+		["i:124119"] = {
+			["name"] = "Big Gamy Ribs",
 		},
-		["i:7077"] = {
-			["name"] = "Heart of Fire",
+		["i:2589"] = {
+			["name"] = "Linen Cloth",
 		},
 		["i:36918"] = {
 			["name"] = "Scarlet Ruby",
@@ -29961,8 +30306,8 @@ TradeSkillMaster_CraftingDB = {
 		["i:16204"] = {
 			["name"] = "Illusion Dust",
 		},
-		["i:62323"] = {
-			["name"] = "Deathwing Scale Fragment",
+		["i:111437"] = {
+			["name"] = "Rylak Crepes",
 		},
 		["i:35622"] = {
 			["name"] = "Eternal Water",
@@ -29976,20 +30321,20 @@ TradeSkillMaster_CraftingDB = {
 		["i:2459"] = {
 			["name"] = "Swiftness Potion",
 		},
-		["i:124444"] = {
-			["name"] = "Infernal Brimstone",
+		["i:39339"] = {
+			["name"] = "Emerald Pigment",
 		},
 		["i:133590"] = {
 			["name"] = "Muskenbutter",
 		},
-		["i:112377"] = {
-			["name"] = "War Paints",
+		["i:11083"] = {
+			["name"] = "Soul Dust",
 		},
 		["i:43104"] = {
 			["name"] = "Burnt Pigment",
 		},
-		["i:23572"] = {
-			["name"] = "Primal Nether",
+		["i:130180"] = {
+			["name"] = "Dawnlight",
 		},
 		["i:127037"] = {
 			["name"] = "Runic Catgut",
@@ -29997,71 +30342,71 @@ TradeSkillMaster_CraftingDB = {
 		["i:7079"] = {
 			["name"] = "Globe of Water",
 		},
-		["i:130180"] = {
-			["name"] = "Dawnlight",
-		},
 		["i:130179"] = {
 			["name"] = "Eye of Prophecy",
-		},
-		["i:12811"] = {
-			["name"] = "Righteous Orb",
-		},
-		["i:22456"] = {
-			["name"] = "Primal Shadow",
-		},
-		["i:4337"] = {
-			["name"] = "Thick Spider's Silk",
-		},
-		["i:5500"] = {
-			["name"] = "Iridescent Pearl",
-		},
-		["i:43124"] = {
-			["name"] = "Ethereal Ink",
-		},
-		["i:2589"] = {
-			["name"] = "Linen Cloth",
-		},
-		["i:111437"] = {
-			["name"] = "Rylak Crepes",
-		},
-		["i:39339"] = {
-			["name"] = "Emerald Pigment",
-		},
-		["i:11083"] = {
-			["name"] = "Soul Dust",
-		},
-		["i:79342"] = {
-			["name"] = "Ghost Iron Staff",
-		},
-		["i:7070"] = {
-			["name"] = "Elemental Water",
-		},
-		["i:130181"] = {
-			["name"] = "Pandemonite",
 		},
 		["i:98619"] = {
 			["name"] = "Celestial Cloth",
 		},
-		["i:2605"] = {
-			["name"] = "Green Dye",
+		["i:39343"] = {
+			["name"] = "Azure Pigment",
 		},
-		["i:124103"] = {
-			["name"] = "Foxflower",
+		["i:23572"] = {
+			["name"] = "Primal Nether",
 		},
 		["i:124101"] = {
 			["name"] = "Aethril",
 		},
-		["i:8169"] = {
-			["name"] = "Thick Hide",
+		["i:5500"] = {
+			["name"] = "Iridescent Pearl",
+		},
+		["i:3389"] = {
+			["name"] = "Elixir of Defense",
 		},
 		["i:67335"] = {
 			["name"] = "Silver Charm Bracelet",
 		},
-		["i:39151"] = {
-			["name"] = "Alabaster Pigment",
+		["i:7070"] = {
+			["name"] = "Elemental Water",
 		},
-		["i:4246"] = {
-			["name"] = "Fine Leather Belt",
+		["i:11174"] = {
+			["name"] = "Lesser Nether Essence",
+		},
+		["i:7071"] = {
+			["name"] = "Iron Buckle",
+		},
+		["i:130172"] = {
+			["name"] = "Sangrite",
+		},
+		["i:35627"] = {
+			["name"] = "Eternal Shadow",
+		},
+		["i:7080"] = {
+			["name"] = "Essence of Water",
+		},
+		["i:109139"] = {
+			["name"] = "Fat Sleeper Flesh",
+		},
+		["i:130181"] = {
+			["name"] = "Pandemonite",
+		},
+		["i:124103"] = {
+			["name"] = "Foxflower",
+		},
+		["i:37702"] = {
+			["name"] = "Crystallized Fire",
+		},
+		["i:8169"] = {
+			["name"] = "Thick Hide",
+		},
+		["i:76139"] = {
+			["name"] = "Wild Jade",
+		},
+		["i:76138"] = {
+			["name"] = "River's Heart",
+		},
+		["i:124118"] = {
+			["name"] = "Fatty Bearsteak",
 		},
 		["i:2840"] = {
 			["name"] = "Copper Bar",
@@ -30075,14 +30420,14 @@ TradeSkillMaster_CraftingDB = {
 		["i:111434"] = {
 			["name"] = "Pan-Seared Talbuk",
 		},
-		["i:33568"] = {
-			["name"] = "Borean Leather",
+		["i:109219"] = {
+			["name"] = "Draenic Strength Potion",
 		},
 		["i:43115"] = {
 			["name"] = "Hunter's Ink",
 		},
-		["i:13446"] = {
-			["name"] = "Major Healing Potion",
+		["i:76131"] = {
+			["name"] = "Primordial Ruby",
 		},
 		["i:39341"] = {
 			["name"] = "Silvery Pigment",
@@ -30090,17 +30435,17 @@ TradeSkillMaster_CraftingDB = {
 		["i:8154"] = {
 			["name"] = "Scorpid Scale",
 		},
-		["i:130183"] = {
-			["name"] = "Shadowruby",
+		["i:2318"] = {
+			["name"] = "Light Leather",
 		},
 		["i:2996"] = {
 			["name"] = "Bolt of Linen Cloth",
 		},
-		["i:41511"] = {
-			["name"] = "Bolt of Imbued Frostweave",
+		["i:109124"] = {
+			["name"] = "Frostweed",
 		},
-		["i:124118"] = {
-			["name"] = "Fatty Bearsteak",
+		["i:14344"] = {
+			["name"] = "Large Brilliant Shard",
 		},
 		["i:61981"] = {
 			["name"] = "Inferno Ink",
@@ -30108,32 +30453,32 @@ TradeSkillMaster_CraftingDB = {
 		["i:25700"] = {
 			["name"] = "Fel Scales",
 		},
-		["i:14344"] = {
-			["name"] = "Large Brilliant Shard",
+		["i:13444"] = {
+			["name"] = "Major Mana Potion",
 		},
 		["i:14256"] = {
 			["name"] = "Felcloth",
 		},
-		["i:37702"] = {
-			["name"] = "Crystallized Fire",
-		},
-		["i:22446"] = {
-			["name"] = "Greater Planar Essence",
-		},
-		["i:109219"] = {
-			["name"] = "Draenic Strength Potion",
-		},
-		["i:9210"] = {
-			["name"] = "Ghost Dye",
-		},
-		["i:109124"] = {
-			["name"] = "Frostweed",
-		},
-		["i:6471"] = {
-			["name"] = "Perfect Deviate Scale",
+		["i:25708"] = {
+			["name"] = "Thick Clefthoof Leather",
 		},
 		["i:127759"] = {
 			["name"] = "Felblight",
+		},
+		["i:15408"] = {
+			["name"] = "Heavy Scorpid Scale",
+		},
+		["i:72988"] = {
+			["name"] = "Windwool Cloth",
+		},
+		["i:37701"] = {
+			["name"] = "Crystallized Earth",
+		},
+		["i:72163"] = {
+			["name"] = "Magnificent Hide",
+		},
+		["i:6471"] = {
+			["name"] = "Perfect Deviate Scale",
 		},
 		["i:30183"] = {
 			["name"] = "Nether Vortex",
@@ -30141,8 +30486,8 @@ TradeSkillMaster_CraftingDB = {
 		["i:6217"] = {
 			["name"] = "Copper Rod",
 		},
-		["i:25707"] = {
-			["name"] = "Fel Hide",
+		["i:130173"] = {
+			["name"] = "Deep Amber",
 		},
 		["i:124116"] = {
 			["name"] = "Felhide",
@@ -30150,26 +30495,26 @@ TradeSkillMaster_CraftingDB = {
 		["i:111433"] = {
 			["name"] = "Blackrock Ham",
 		},
-		["i:25708"] = {
-			["name"] = "Thick Clefthoof Leather",
+		["i:53643"] = {
+			["name"] = "Bolt of Embersilk Cloth",
 		},
-		["i:24272"] = {
-			["name"] = "Shadowcloth",
+		["i:25707"] = {
+			["name"] = "Fel Hide",
 		},
-		["i:15408"] = {
-			["name"] = "Heavy Scorpid Scale",
+		["i:109126"] = {
+			["name"] = "Gorgrond Flytrap",
 		},
-		["i:113111"] = {
-			["name"] = "Warbinder's Ink",
+		["i:2321"] = {
+			["name"] = "Fine Thread",
 		},
 		["i:123918"] = {
 			["name"] = "Leystone Ore",
 		},
-		["i:72988"] = {
-			["name"] = "Windwool Cloth",
+		["i:79253"] = {
+			["name"] = "Misty Pigment",
 		},
-		["i:109126"] = {
-			["name"] = "Gorgrond Flytrap",
+		["i:76142"] = {
+			["name"] = "Sun's Radiance",
 		},
 		["i:114931"] = {
 			["name"] = "Cerulean Pigment",
@@ -30177,14 +30522,14 @@ TradeSkillMaster_CraftingDB = {
 		["i:61979"] = {
 			["name"] = "Ashen Pigment",
 		},
-		["i:72163"] = {
-			["name"] = "Magnificent Hide",
+		["i:20725"] = {
+			["name"] = "Nexus Crystal",
 		},
 		["i:79251"] = {
 			["name"] = "Shadow Pigment",
 		},
-		["i:2457"] = {
-			["name"] = "Elixir of Minor Agility",
+		["i:76141"] = {
+			["name"] = "Imperial Amethyst",
 		},
 		["i:10286"] = {
 			["name"] = "Heart of the Wild",
@@ -30192,8 +30537,8 @@ TradeSkillMaster_CraftingDB = {
 		["i:7909"] = {
 			["name"] = "Aquamarine",
 		},
-		["i:20725"] = {
-			["name"] = "Nexus Crystal",
+		["i:34054"] = {
+			["name"] = "Infinite Dust",
 		},
 		["i:82447"] = {
 			["name"] = "Imperial Silk",
@@ -30213,17 +30558,17 @@ TradeSkillMaster_CraftingDB = {
 		["i:14341"] = {
 			["name"] = "Rune Thread",
 		},
-		["i:130173"] = {
-			["name"] = "Deep Amber",
+		["i:33567"] = {
+			["name"] = "Borean Leather Scraps",
 		},
-		["i:43119"] = {
-			["name"] = "Royal Ink",
+		["i:10940"] = {
+			["name"] = "Strange Dust",
 		},
 		["i:111557"] = {
 			["name"] = "Sumptuous Fur",
 		},
-		["i:2321"] = {
-			["name"] = "Fine Thread",
+		["i:12810"] = {
+			["name"] = "Enchanted Leather",
 		},
 		["i:2604"] = {
 			["name"] = "Red Dye",
@@ -30231,104 +30576,102 @@ TradeSkillMaster_CraftingDB = {
 		["i:25699"] = {
 			["name"] = "Crystal Infused Leather",
 		},
-		["i:36930"] = {
-			["name"] = "Monarch Topaz",
+		["i:133589"] = {
+			["name"] = "Dalapeño Pepper",
 		},
-		["i:61978"] = {
-			["name"] = "Blackfallow Ink",
+		["i:109218"] = {
+			["name"] = "Draenic Intellect Potion",
 		},
-		["i:133591"] = {
-			["name"] = "River Onion",
+		["i:3819"] = {
+			["name"] = "Dragon's Teeth",
 		},
-		["i:22449"] = {
-			["name"] = "Large Prismatic Shard",
-		},
-		["i:129032"] = {
-			["name"] = "Roseate Pigment",
-		},
-		["i:38561"] = {
-			["name"] = "Jormungar Scale",
-		},
-		["i:22447"] = {
-			["name"] = "Lesser Planar Essence",
-		},
-		["i:33567"] = {
-			["name"] = "Borean Leather Scraps",
-		},
-		["i:37701"] = {
-			["name"] = "Crystallized Earth",
-		},
-		["i:12810"] = {
-			["name"] = "Enchanted Leather",
-		},
-		["i:10940"] = {
-			["name"] = "Strange Dust",
-		},
-		["i:79731"] = {
-			["name"] = "Scroll of Wisdom",
-		},
-		["i:34054"] = {
-			["name"] = "Infinite Dust",
-		},
-		["i:127834"] = {
-			["name"] = "Ancient Healing Potion",
+		["i:74247"] = {
+			["name"] = "Ethereal Shard",
+			["customValue"] = "min(dbmarket, vendorbuy, convert(dbmarket))",
 		},
 		["i:43103"] = {
 			["name"] = "Verdant Pigment",
 		},
-		["i:21877"] = {
-			["name"] = "Netherweave Cloth",
+		["i:38561"] = {
+			["name"] = "Jormungar Scale",
 		},
-		["i:52325"] = {
-			["name"] = "Volatile Fire",
+		["i:21885"] = {
+			["name"] = "Primal Water",
 		},
-		["i:2320"] = {
-			["name"] = "Coarse Thread",
+		["i:36930"] = {
+			["name"] = "Monarch Topaz",
 		},
-		["i:43106"] = {
-			["name"] = "Ruby Pigment",
-		},
-		["i:783"] = {
-			["name"] = "Light Hide",
-		},
-		["i:109217"] = {
-			["name"] = "Draenic Agility Potion",
-		},
-		["i:4234"] = {
-			["name"] = "Heavy Leather",
-		},
-		["i:109138"] = {
-			["name"] = "Jawless Skulker Flesh",
-		},
-		["i:7068"] = {
-			["name"] = "Elemental Fire",
-		},
-		["i:111444"] = {
-			["name"] = "Fat Sleeper Cakes",
+		["i:133591"] = {
+			["name"] = "River Onion",
 		},
 		["i:111439"] = {
 			["name"] = "Steamed Scorpion",
 		},
+		["i:783"] = {
+			["name"] = "Light Hide",
+		},
+		["i:79731"] = {
+			["name"] = "Scroll of Wisdom",
+		},
+		["i:22449"] = {
+			["name"] = "Large Prismatic Shard",
+		},
+		["i:4233"] = {
+			["name"] = "Cured Medium Hide",
+		},
+		["i:22447"] = {
+			["name"] = "Lesser Planar Essence",
+		},
+		["i:21877"] = {
+			["name"] = "Netherweave Cloth",
+		},
+		["i:111441"] = {
+			["name"] = "Grilled Gulper",
+		},
+		["i:127834"] = {
+			["name"] = "Ancient Healing Potion",
+		},
+		["i:109119"] = {
+			["name"] = "True Iron Ore",
+		},
+		["i:109138"] = {
+			["name"] = "Jawless Skulker Flesh",
+		},
 		["i:8171"] = {
 			["name"] = "Rugged Hide",
+		},
+		["i:4234"] = {
+			["name"] = "Heavy Leather",
+		},
+		["i:130178"] = {
+			["name"] = "Furystone",
+		},
+		["i:109217"] = {
+			["name"] = "Draenic Agility Potion",
+		},
+		["i:111444"] = {
+			["name"] = "Fat Sleeper Cakes",
+		},
+		["i:129100"] = {
+			["name"] = "Gem Chip",
+		},
+		["i:21886"] = {
+			["name"] = "Primal Life",
 		},
 		["i:133607"] = {
 			["name"] = "Silver Mackerel",
 		},
-		["i:2324"] = {
-			["name"] = "Bleach",
+		["i:133593"] = {
+			["name"] = "Royal Olive",
 		},
 		["i:98617"] = {
 			["name"] = "Hardened Magnificent Hide",
 		},
-		["i:15415"] = {
-			["name"] = "Blue Dragonscale",
+		["i:7068"] = {
+			["name"] = "Elemental Fire",
 		},
-		["i:6470"] = {
-			["name"] = "Deviate Scale",
-		},
-		["i:133593"] = {
-			["name"] = "Royal Olive",
+		["i:2324"] = {
+			["name"] = "Bleach",
 		},
 		["i:133566"] = {
 			["name"] = "Suramar Surf and Turf",
@@ -30336,11 +30679,14 @@ TradeSkillMaster_CraftingDB = {
 		["i:124112"] = {
 			["name"] = "Black Barracuda",
 		},
+		["i:71998"] = {
+			["name"] = "Essence of Destruction",
+		},
 		["i:3371"] = {
 			["name"] = "Crystal Vial",
 		},
-		["i:130178"] = {
-			["name"] = "Furystone",
+		["i:2449"] = {
+			["name"] = "Earthroot",
 		},
 		["i:79333"] = {
 			["name"] = "Inscribed Fan",
@@ -30348,8 +30694,8 @@ TradeSkillMaster_CraftingDB = {
 		["i:127835"] = {
 			["name"] = "Ancient Mana Potion",
 		},
-		["i:2449"] = {
-			["name"] = "Earthroot",
+		["i:43121"] = {
+			["name"] = "Fiery Ink",
 		},
 		["i:12808"] = {
 			["name"] = "Essence of Undeath",
@@ -30357,23 +30703,23 @@ TradeSkillMaster_CraftingDB = {
 		["i:43116"] = {
 			["name"] = "Lion's Ink",
 		},
-		["i:43121"] = {
-			["name"] = "Fiery Ink",
-		},
-		["i:21886"] = {
-			["name"] = "Primal Life",
-		},
-		["i:127004"] = {
-			["name"] = "Imbued Silkweave",
-		},
-		["i:52555"] = {
-			["name"] = "Hypnotic Dust",
+		["i:6470"] = {
+			["name"] = "Deviate Scale",
 		},
 		["i:127681"] = {
 			["name"] = "Sharp Spritethorn",
 		},
+		["i:52555"] = {
+			["name"] = "Hypnotic Dust",
+		},
+		["i:127004"] = {
+			["name"] = "Imbued Silkweave",
+		},
 		["i:21845"] = {
 			["name"] = "Primal Mooncloth",
+		},
+		["i:2320"] = {
+			["name"] = "Coarse Thread",
 		},
 		["i:109133"] = {
 			["name"] = "Rylak Egg",
@@ -30387,8 +30733,8 @@ TradeSkillMaster_CraftingDB = {
 		["i:124440"] = {
 			["name"] = "Arkhana",
 		},
-		["i:71998"] = {
-			["name"] = "Essence of Destruction",
+		["i:76140"] = {
+			["name"] = "Vermilion Onyx",
 		},
 		["i:6037"] = {
 			["name"] = "Truesilver Bar",
@@ -30429,17 +30775,17 @@ TradeSkillMaster_CraftingDB = {
 		["i:10938"] = {
 			["name"] = "Lesser Magic Essence",
 		},
-		["i:124105"] = {
-			["name"] = "Starlight Rose",
+		["i:110609"] = {
+			["name"] = "Raw Beast Hide",
 		},
 		["i:43109"] = {
 			["name"] = "Icy Pigment",
 		},
-		["i:110609"] = {
-			["name"] = "Raw Beast Hide",
+		["i:124105"] = {
+			["name"] = "Starlight Rose",
 		},
-		["i:45087"] = {
-			["name"] = "Runed Orb",
+		["i:11138"] = {
+			["name"] = "Small Glowing Shard",
 		},
 		["i:769"] = {
 			["name"] = "Chunk of Boar Meat",
@@ -30447,17 +30793,17 @@ TradeSkillMaster_CraftingDB = {
 		["i:5637"] = {
 			["name"] = "Large Fang",
 		},
-		["i:80433"] = {
-			["name"] = "Blood Spirit",
+		["i:4304"] = {
+			["name"] = "Thick Leather",
 		},
 		["i:109144"] = {
 			["name"] = "Blackwater Whiptail Flesh",
 		},
-		["i:4304"] = {
-			["name"] = "Thick Leather",
+		["i:45087"] = {
+			["name"] = "Runed Orb",
 		},
-		["i:11138"] = {
-			["name"] = "Small Glowing Shard",
+		["i:124442"] = {
+			["name"] = "Chaos Crystal",
 		},
 		["i:22577"] = {
 			["name"] = "Mote of Shadow",
@@ -30465,17 +30811,17 @@ TradeSkillMaster_CraftingDB = {
 		["i:17194"] = {
 			["name"] = "Holiday Spices",
 		},
-		["i:124442"] = {
-			["name"] = "Chaos Crystal",
+		["i:4232"] = {
+			["name"] = "Medium Hide",
 		},
-		["i:10285"] = {
-			["name"] = "Shadow Silk",
-		},
-		["i:11135"] = {
-			["name"] = "Greater Mystic Essence",
+		["i:74248"] = {
+			["name"] = "Sha Crystal",
 		},
 		["i:58094"] = {
 			["name"] = "Elixir of Impossible Accuracy",
+		},
+		["i:6889"] = {
+			["name"] = "Small Egg",
 		},
 		["i:43123"] = {
 			["name"] = "Ink of the Sky",
@@ -30486,21 +30832,21 @@ TradeSkillMaster_CraftingDB = {
 		["i:130176"] = {
 			["name"] = "Skystone",
 		},
-		["i:113264"] = {
-			["name"] = "Sorcerous Air",
-			["customValue"] = "min(dbmarket, vendorbuy, convert(dbmarket))",
+		["i:124107"] = {
+			["name"] = "Cursed Queenfish",
 		},
 		["i:765"] = {
 			["name"] = "Silverleaf",
 		},
-		["i:43105"] = {
-			["name"] = "Indigo Pigment",
+		["i:113264"] = {
+			["name"] = "Sorcerous Air",
+			["customValue"] = "min(dbmarket, vendorbuy, convert(dbmarket))",
 		},
 		["i:72237"] = {
 			["name"] = "Rain Poppy",
 		},
-		["i:39340"] = {
-			["name"] = "Violet Pigment",
+		["i:82441"] = {
+			["name"] = "Bolt of Windwool Cloth",
 		},
 		["i:133567"] = {
 			["name"] = "Barracuda Mrglgagh",
@@ -30511,20 +30857,20 @@ TradeSkillMaster_CraftingDB = {
 		["i:4291"] = {
 			["name"] = "Silken Thread",
 		},
-		["i:124107"] = {
-			["name"] = "Cursed Queenfish",
+		["i:3827"] = {
+			["name"] = "Mana Potion",
 		},
-		["i:4338"] = {
-			["name"] = "Mageweave Cloth",
+		["i:43105"] = {
+			["name"] = "Indigo Pigment",
 		},
 		["i:22791"] = {
 			["name"] = "Netherbloom",
 		},
-		["i:74248"] = {
-			["name"] = "Sha Crystal",
+		["i:10285"] = {
+			["name"] = "Shadow Silk",
 		},
-		["i:3827"] = {
-			["name"] = "Mana Potion",
+		["i:4338"] = {
+			["name"] = "Mageweave Cloth",
 		},
 		["i:7971"] = {
 			["name"] = "Black Pearl",
@@ -30535,17 +30881,17 @@ TradeSkillMaster_CraftingDB = {
 		["i:52980"] = {
 			["name"] = "Pristine Hide",
 		},
+		["i:39340"] = {
+			["name"] = "Violet Pigment",
+		},
 		["i:32428"] = {
 			["name"] = "Heart of Darkness",
-		},
-		["i:4232"] = {
-			["name"] = "Medium Hide",
 		},
 		["i:52719"] = {
 			["name"] = "Greater Celestial Essence",
 		},
-		["i:82441"] = {
-			["name"] = "Bolt of Windwool Cloth",
+		["i:11135"] = {
+			["name"] = "Greater Mystic Essence",
 		},
 		["i:34736"] = {
 			["name"] = "Chunk o' Mammoth",
@@ -30554,14 +30900,14 @@ TradeSkillMaster_CraftingDB = {
 			["name"] = "Mysterious Essence",
 			["customValue"] = "min(dbmarket, vendorbuy, convert(dbmarket))",
 		},
-		["i:52721"] = {
-			["name"] = "Heavenly Shard",
+		["i:80433"] = {
+			["name"] = "Blood Spirit",
 		},
 		["i:124109"] = {
 			["name"] = "Highmountain Salmon",
 		},
-		["i:6889"] = {
-			["name"] = "Small Egg",
+		["i:52721"] = {
+			["name"] = "Heavenly Shard",
 		},
 		["i:133588"] = {
 			["name"] = "Flaked Sea Salt",
@@ -30608,8 +30954,8 @@ TradeSkillMaster_CraftingDB = {
 		["i:3383"] = {
 			["name"] = "Elixir of Wisdom",
 		},
-		["i:129100"] = {
-			["name"] = "Gem Chip",
+		["i:15415"] = {
+			["name"] = "Blue Dragonscale",
 		},
 		["i:25649"] = {
 			["name"] = "Knothide Leather Scraps",
@@ -30623,11 +30969,11 @@ TradeSkillMaster_CraftingDB = {
 		["i:12803"] = {
 			["name"] = "Living Essence",
 		},
+		["i:41334"] = {
+			["name"] = "Earthsiege Diamond",
+		},
 		["i:67319"] = {
 			["name"] = "Preserved Ogre Eye",
-		},
-		["i:109119"] = {
-			["name"] = "True Iron Ore",
 		},
 		["i:113261"] = {
 			["name"] = "Sorcerous Fire",
@@ -30645,8 +30991,8 @@ TradeSkillMaster_CraftingDB = {
 		["i:11176"] = {
 			["name"] = "Dream Dust",
 		},
-		["i:36782"] = {
-			["name"] = "Succulent Clam Meat",
+		["i:52325"] = {
+			["name"] = "Volatile Fire",
 		},
 		["i:109123"] = {
 			["name"] = "Crescent Oil",
@@ -30663,29 +31009,29 @@ TradeSkillMaster_CraftingDB = {
 		["i:22792"] = {
 			["name"] = "Nightmare Vine",
 		},
-		["i:111441"] = {
-			["name"] = "Grilled Gulper",
+		["i:37700"] = {
+			["name"] = "Crystallized Air",
 		},
 		["i:7069"] = {
 			["name"] = "Elemental Air",
 		},
-		["i:109136"] = {
-			["name"] = "Raw Boar Meat",
+		["i:129032"] = {
+			["name"] = "Roseate Pigment",
 		},
-		["i:41334"] = {
-			["name"] = "Earthsiege Diamond",
+		["i:37663"] = {
+			["name"] = "Titansteel Bar",
 		},
-		["i:21885"] = {
-			["name"] = "Primal Water",
+		["i:61978"] = {
+			["name"] = "Blackfallow Ink",
 		},
-		["i:109218"] = {
-			["name"] = "Draenic Intellect Potion",
+		["i:43106"] = {
+			["name"] = "Ruby Pigment",
 		},
-		["i:2997"] = {
-			["name"] = "Bolt of Woolen Cloth",
+		["i:124104"] = {
+			["name"] = "Fjarnskaggl",
 		},
-		["i:37700"] = {
-			["name"] = "Crystallized Air",
+		["i:7078"] = {
+			["name"] = "Essence of Fire",
 		},
 		["i:4470"] = {
 			["name"] = "Simple Wood",
@@ -30702,20 +31048,20 @@ TradeSkillMaster_CraftingDB = {
 		["i:56516"] = {
 			["name"] = "Heavy Savage Leather",
 		},
-		["i:133589"] = {
-			["name"] = "Dalapeño Pepper",
+		["i:124124"] = {
+			["name"] = "Blood of Sargeras",
 		},
-		["i:79740"] = {
-			["name"] = "Plain Wooden Staff",
+		["i:22446"] = {
+			["name"] = "Greater Planar Essence",
 		},
-		["i:15412"] = {
-			["name"] = "Green Dragonscale",
+		["i:20816"] = {
+			["name"] = "Delicate Copper Wire",
 		},
 		["i:137595"] = {
 			["name"] = "Viscous Transmutagen",
 		},
-		["i:20816"] = {
-			["name"] = "Delicate Copper Wire",
+		["i:33470"] = {
+			["name"] = "Frostweave Cloth",
 		},
 		["i:111245"] = {
 			["name"] = "Luminous Shard",
@@ -30723,8 +31069,8 @@ TradeSkillMaster_CraftingDB = {
 		["i:130182"] = {
 			["name"] = "Maelstrom Sapphire",
 		},
-		["i:79101"] = {
-			["name"] = "Prismatic Scale",
+		["i:36782"] = {
+			["name"] = "Succulent Clam Meat",
 		},
 		["i:15407"] = {
 			["name"] = "Cured Rugged Hide",
@@ -30738,14 +31084,14 @@ TradeSkillMaster_CraftingDB = {
 		["i:4235"] = {
 			["name"] = "Heavy Hide",
 		},
-		["i:124124"] = {
-			["name"] = "Blood of Sargeras",
+		["i:130183"] = {
+			["name"] = "Shadowruby",
 		},
 		["i:35623"] = {
 			["name"] = "Eternal Air",
 		},
-		["i:3182"] = {
-			["name"] = "Spider's Silk",
+		["i:109136"] = {
+			["name"] = "Raw Boar Meat",
 		},
 		["i:137596"] = {
 			["name"] = "Black Transmutagen",
@@ -30753,11 +31099,11 @@ TradeSkillMaster_CraftingDB = {
 		["i:8831"] = {
 			["name"] = "Purple Lotus",
 		},
-		["i:4289"] = {
-			["name"] = "Salt",
+		["i:24272"] = {
+			["name"] = "Shadowcloth",
 		},
-		["i:7071"] = {
-			["name"] = "Iron Buckle",
+		["i:43102"] = {
+			["name"] = "Frozen Orb",
 		},
 		["i:113263"] = {
 			["name"] = "Sorcerous Earth",
@@ -30769,14 +31115,11 @@ TradeSkillMaster_CraftingDB = {
 		["i:124111"] = {
 			["name"] = "Runescale Koi",
 		},
-		["i:43102"] = {
-			["name"] = "Frozen Orb",
+		["i:2457"] = {
+			["name"] = "Elixir of Minor Agility",
 		},
-		["i:36783"] = {
-			["name"] = "Northsea Pearl",
-		},
-		["i:24271"] = {
-			["name"] = "Spellcloth",
+		["i:11178"] = {
+			["name"] = "Large Radiant Shard",
 		},
 		["i:76061"] = {
 			["name"] = "Spirit of Harmony",
@@ -30784,17 +31127,20 @@ TradeSkillMaster_CraftingDB = {
 		["i:34412"] = {
 			["name"] = "Sparkling Apple Cider",
 		},
+		["i:15412"] = {
+			["name"] = "Green Dragonscale",
+		},
 		["i:133565"] = {
 			["name"] = "Leybeque Ribs",
 		},
-		["i:109141"] = {
-			["name"] = "Fire Ammonite Tentacle",
+		["i:109128"] = {
+			["name"] = "Nagrand Arrowbloom",
 		},
 		["i:118472"] = {
 			["name"] = "Savage Blood",
 		},
-		["i:12662"] = {
-			["name"] = "Demonic Rune",
+		["i:8165"] = {
+			["name"] = "Worn Dragonscale",
 		},
 		["i:43122"] = {
 			["name"] = "Shimmering Ink",
@@ -30820,11 +31166,11 @@ TradeSkillMaster_CraftingDB = {
 		["i:11177"] = {
 			["name"] = "Small Radiant Shard",
 		},
-		["i:39343"] = {
-			["name"] = "Azure Pigment",
+		["i:22456"] = {
+			["name"] = "Primal Shadow",
 		},
-		["i:11178"] = {
-			["name"] = "Large Radiant Shard",
+		["i:112377"] = {
+			["name"] = "War Paints",
 		},
 		["i:74249"] = {
 			["name"] = "Spirit Dust",
@@ -30842,8 +31188,8 @@ TradeSkillMaster_CraftingDB = {
 		["i:109142"] = {
 			["name"] = "Sea Scorpion Segment",
 		},
-		["i:4236"] = {
-			["name"] = "Cured Heavy Hide",
+		["i:12811"] = {
+			["name"] = "Righteous Orb",
 		},
 	},
 	["_currentProfile"] = {
@@ -30873,13 +31219,13 @@ TradeSkillMaster_CraftingDB = {
 		},
 		["shortItems"] = {
 		},
-		["sessionOptions"] = {
-		},
-		["selectedSourceStatus"] = {
-		},
 		["destroyingMats"] = {
 		},
+		["sessionOptions"] = {
+		},
 		["selectedSources"] = {
+		},
+		["selectedSourceStatus"] = {
 		},
 		["neededMats"] = {
 		},
@@ -30913,6 +31259,8 @@ TradeSkillMaster_CraftingDB = {
 				["maxLevel"] = 700,
 			},
 			["Enchanting"] = {
+				["prompted"] = true,
+				["link"] = "|cffffd000|Htrade:Player-1329-04193D02:195096:333|h[Enchanting]|h|r",
 				["isSecondary"] = false,
 				["level"] = 704,
 				["maxLevel"] = 800,
@@ -31179,19 +31527,19 @@ TradeSkillMaster_CraftingDB = {
 	["f@Horde - Draenor@professionScanCache"] = {
 		["DaemonikosTailoring"] = {
 			["hash"] = 858147,
-			["scanTime"] = 1498071674,
+			["scanTime"] = 1498223049,
 		},
 		["DaemonikosFirst Aid"] = {
 			["hash"] = 1423413,
 			["scanTime"] = 1492341506,
 		},
 		["DaemonikosCooking"] = {
-			["hash"] = 348010,
-			["scanTime"] = 1494795481,
+			["hash"] = 6064916,
+			["scanTime"] = 1498160958,
 		},
 		["DaemonikosEnchanting"] = {
-			["hash"] = 6696800,
-			["scanTime"] = 1498077416,
+			["hash"] = 6899275,
+			["scanTime"] = 1498224049,
 		},
 		["AchilinaFirst Aid"] = {
 			["hash"] = 7169230,
@@ -31235,14 +31583,14 @@ TradeSkillMaster_CraftingDB = {
 		["i:22445"] = {
 			["name"] = "Arcane Dust",
 		},
-		["i:113588"] = {
-			["name"] = "Temporal Crystal",
+		["i:30183"] = {
+			["name"] = "Nether Vortex",
 		},
 		["i:6217"] = {
 			["name"] = "Copper Rod",
 		},
-		["i:124116"] = {
-			["name"] = "Felhide",
+		["i:124106"] = {
+			["name"] = "Felwort",
 		},
 		["i:111433"] = {
 			["name"] = "Blackrock Ham",
@@ -31256,8 +31604,8 @@ TradeSkillMaster_CraftingDB = {
 		["i:2997"] = {
 			["name"] = "Bolt of Woolen Cloth",
 		},
-		["i:6371"] = {
-			["name"] = "Fire Oil",
+		["i:124442"] = {
+			["name"] = "Chaos Crystal",
 		},
 		["i:10286"] = {
 			["name"] = "Heart of the Wild",
@@ -31331,8 +31679,8 @@ TradeSkillMaster_CraftingDB = {
 		["i:9210"] = {
 			["name"] = "Ghost Dye",
 		},
-		["i:124441"] = {
-			["name"] = "Leylight Shard",
+		["i:111444"] = {
+			["name"] = "Fat Sleeper Cakes",
 		},
 		["i:133607"] = {
 			["name"] = "Silver Mackerel",
@@ -31364,17 +31712,20 @@ TradeSkillMaster_CraftingDB = {
 		["i:12808"] = {
 			["name"] = "Essence of Undeath",
 		},
-		["i:52555"] = {
-			["name"] = "Hypnotic Dust",
-		},
-		["i:127004"] = {
-			["name"] = "Imbued Silkweave",
+		["i:45087"] = {
+			["name"] = "Runed Orb",
 		},
 		["i:109142"] = {
 			["name"] = "Sea Scorpion Segment",
 		},
-		["i:8153"] = {
-			["name"] = "Wildvine",
+		["i:52555"] = {
+			["name"] = "Hypnotic Dust",
+		},
+		["i:4339"] = {
+			["name"] = "Bolt of Mageweave",
+		},
+		["i:111446"] = {
+			["name"] = "Skulker Chowder",
 		},
 		["i:109133"] = {
 			["name"] = "Rylak Egg",
@@ -31388,20 +31739,20 @@ TradeSkillMaster_CraftingDB = {
 		["i:124440"] = {
 			["name"] = "Arkhana",
 		},
-		["i:6037"] = {
-			["name"] = "Truesilver Bar",
-		},
 		["i:17196"] = {
 			["name"] = "Holiday Spirits",
+		},
+		["i:6037"] = {
+			["name"] = "Truesilver Bar",
 		},
 		["i:6261"] = {
 			["name"] = "Orange Dye",
 		},
-		["i:22577"] = {
-			["name"] = "Mote of Shadow",
+		["i:8153"] = {
+			["name"] = "Wildvine",
 		},
-		["i:111446"] = {
-			["name"] = "Skulker Chowder",
+		["i:127004"] = {
+			["name"] = "Imbued Silkweave",
 		},
 		["i:94289"] = {
 			["name"] = "Haunting Spirit",
@@ -31409,14 +31760,14 @@ TradeSkillMaster_CraftingDB = {
 		["i:142335"] = {
 			["name"] = "Pristine Falcosaur Feather",
 		},
-		["i:4305"] = {
-			["name"] = "Bolt of Silk Cloth",
+		["i:2592"] = {
+			["name"] = "Wool Cloth",
 		},
-		["i:4339"] = {
-			["name"] = "Bolt of Mageweave",
+		["i:22577"] = {
+			["name"] = "Mote of Shadow",
 		},
-		["i:111444"] = {
-			["name"] = "Fat Sleeper Cakes",
+		["i:43102"] = {
+			["name"] = "Frozen Orb",
 		},
 		["i:133588"] = {
 			["name"] = "Flaked Sea Salt",
@@ -31424,20 +31775,20 @@ TradeSkillMaster_CraftingDB = {
 		["i:37704"] = {
 			["name"] = "Crystallized Life",
 		},
-		["i:38426"] = {
-			["name"] = "Eternium Thread",
+		["i:124120"] = {
+			["name"] = "Leyblood",
 		},
 		["i:10938"] = {
 			["name"] = "Lesser Magic Essence",
 		},
-		["i:109131"] = {
-			["name"] = "Raw Clefthoof Meat",
+		["i:127681"] = {
+			["name"] = "Sharp Spritethorn",
 		},
-		["i:129100"] = {
-			["name"] = "Gem Chip",
+		["i:2605"] = {
+			["name"] = "Green Dye",
 		},
-		["i:110609"] = {
-			["name"] = "Raw Beast Hide",
+		["i:124105"] = {
+			["name"] = "Starlight Rose",
 		},
 		["i:124108"] = {
 			["name"] = "Mossgill Perch",
@@ -31448,8 +31799,8 @@ TradeSkillMaster_CraftingDB = {
 		["i:42253"] = {
 			["name"] = "Iceweb Spider Silk",
 		},
-		["i:127681"] = {
-			["name"] = "Sharp Spritethorn",
+		["i:111437"] = {
+			["name"] = "Rylak Crepes",
 		},
 		["i:109144"] = {
 			["name"] = "Blackwater Whiptail Flesh",
@@ -31457,8 +31808,8 @@ TradeSkillMaster_CraftingDB = {
 		["i:80433"] = {
 			["name"] = "Blood Spirit",
 		},
-		["i:7070"] = {
-			["name"] = "Elemental Water",
+		["i:33470"] = {
+			["name"] = "Frostweave Cloth",
 		},
 		["i:2589"] = {
 			["name"] = "Linen Cloth",
@@ -31466,14 +31817,14 @@ TradeSkillMaster_CraftingDB = {
 		["i:17194"] = {
 			["name"] = "Holiday Spices",
 		},
-		["i:33470"] = {
-			["name"] = "Frostweave Cloth",
-		},
 		["i:133566"] = {
 			["name"] = "Suramar Surf and Turf",
 		},
 		["i:109132"] = {
 			["name"] = "Raw Talbuk Meat",
+		},
+		["i:21877"] = {
+			["name"] = "Netherweave Cloth",
 		},
 		["i:109134"] = {
 			["name"] = "Raw Elekk Meat",
@@ -31481,8 +31832,8 @@ TradeSkillMaster_CraftingDB = {
 		["i:14047"] = {
 			["name"] = "Runecloth",
 		},
-		["i:21877"] = {
-			["name"] = "Netherweave Cloth",
+		["i:6371"] = {
+			["name"] = "Fire Oil",
 		},
 		["i:8343"] = {
 			["name"] = "Heavy Silken Thread",
@@ -31499,38 +31850,38 @@ TradeSkillMaster_CraftingDB = {
 		["i:111445"] = {
 			["name"] = "Fiery Calamari",
 		},
-		["i:111557"] = {
-			["name"] = "Sumptuous Fur",
+		["i:4338"] = {
+			["name"] = "Mageweave Cloth",
 		},
 		["i:133567"] = {
 			["name"] = "Barracuda Mrglgagh",
 		},
-		["i:133589"] = {
-			["name"] = "Dalapeño Pepper",
+		["i:111557"] = {
+			["name"] = "Sumptuous Fur",
 		},
 		["i:4291"] = {
 			["name"] = "Silken Thread",
 		},
-		["i:124112"] = {
-			["name"] = "Black Barracuda",
+		["i:133589"] = {
+			["name"] = "Dalapeño Pepper",
 		},
 		["i:4306"] = {
 			["name"] = "Silk Cloth",
 		},
-		["i:124442"] = {
-			["name"] = "Chaos Crystal",
+		["i:133680"] = {
+			["name"] = "Slice of Bacon",
 		},
 		["i:34412"] = {
 			["name"] = "Sparkling Apple Cider",
 		},
-		["i:4338"] = {
-			["name"] = "Mageweave Cloth",
+		["i:3827"] = {
+			["name"] = "Mana Potion",
 		},
-		["i:30817"] = {
-			["name"] = "Simple Flour",
+		["i:113588"] = {
+			["name"] = "Temporal Crystal",
 		},
-		["i:133680"] = {
-			["name"] = "Slice of Bacon",
+		["i:82441"] = {
+			["name"] = "Bolt of Windwool Cloth",
 		},
 		["i:124107"] = {
 			["name"] = "Cursed Queenfish",
@@ -31544,17 +31895,17 @@ TradeSkillMaster_CraftingDB = {
 		["i:120945"] = {
 			["name"] = "Primal Spirit",
 		},
+		["i:111436"] = {
+			["name"] = "Braised Riverbeast",
+		},
 		["i:34736"] = {
 			["name"] = "Chunk o' Mammoth",
 		},
+		["i:109128"] = {
+			["name"] = "Nagrand Arrowbloom",
+		},
 		["i:8170"] = {
 			["name"] = "Rugged Leather",
-		},
-		["i:133568"] = {
-			["name"] = "Koi-Scented Stormray",
-		},
-		["i:41593"] = {
-			["name"] = "Ebonweave",
 		},
 		["i:124109"] = {
 			["name"] = "Highmountain Salmon",
@@ -31562,8 +31913,8 @@ TradeSkillMaster_CraftingDB = {
 		["i:133565"] = {
 			["name"] = "Leybeque Ribs",
 		},
-		["i:41511"] = {
-			["name"] = "Bolt of Imbued Frostweave",
+		["i:124101"] = {
+			["name"] = "Aethril",
 		},
 		["i:109141"] = {
 			["name"] = "Fire Ammonite Tentacle",
@@ -31574,32 +31925,32 @@ TradeSkillMaster_CraftingDB = {
 		["i:111438"] = {
 			["name"] = "Clefthoof Sausages",
 		},
-		["i:111436"] = {
-			["name"] = "Braised Riverbeast",
+		["i:41511"] = {
+			["name"] = "Bolt of Imbued Frostweave",
 		},
 		["i:14048"] = {
 			["name"] = "Bolt of Runecloth",
 		},
-		["i:7077"] = {
-			["name"] = "Heart of Fire",
-		},
-		["i:124104"] = {
-			["name"] = "Fjarnskaggl",
-		},
 		["i:124111"] = {
 			["name"] = "Runescale Koi",
+		},
+		["i:36783"] = {
+			["name"] = "Northsea Pearl",
+		},
+		["i:7077"] = {
+			["name"] = "Heart of Fire",
 		},
 		["i:2672"] = {
 			["name"] = "Stringy Wolf Meat",
 		},
-		["i:124101"] = {
-			["name"] = "Aethril",
+		["i:127037"] = {
+			["name"] = "Runic Catgut",
+		},
+		["i:142336"] = {
+			["name"] = "Falcosaur Egg",
 		},
 		["i:109143"] = {
 			["name"] = "Abyssal Gulper Eel Flesh",
-		},
-		["i:3577"] = {
-			["name"] = "Gold Bar",
 		},
 		["i:43501"] = {
 			["name"] = "Northern Egg",
@@ -31619,11 +31970,11 @@ TradeSkillMaster_CraftingDB = {
 		["i:6889"] = {
 			["name"] = "Small Egg",
 		},
-		["i:3383"] = {
-			["name"] = "Elixir of Wisdom",
-		},
 		["i:124119"] = {
 			["name"] = "Big Gamy Ribs",
+		},
+		["i:3383"] = {
+			["name"] = "Elixir of Wisdom",
 		},
 		["i:109217"] = {
 			["name"] = "Draenic Agility Potion",
@@ -31646,11 +31997,11 @@ TradeSkillMaster_CraftingDB = {
 		["i:4340"] = {
 			["name"] = "Gray Dye",
 		},
-		["i:7069"] = {
-			["name"] = "Elemental Air",
-		},
 		["i:52328"] = {
 			["name"] = "Volatile Air",
+		},
+		["i:109129"] = {
+			["name"] = "Talador Orchid",
 		},
 		["i:111431"] = {
 			["name"] = "Hearty Elekk Steak",
@@ -31661,14 +32012,14 @@ TradeSkillMaster_CraftingDB = {
 		["i:10940"] = {
 			["name"] = "Strange Dust",
 		},
-		["i:2319"] = {
-			["name"] = "Medium Leather",
-		},
-		["i:109129"] = {
-			["name"] = "Talador Orchid",
-		},
 		["i:35627"] = {
 			["name"] = "Eternal Shadow",
+		},
+		["i:7069"] = {
+			["name"] = "Elemental Air",
+		},
+		["i:109136"] = {
+			["name"] = "Raw Boar Meat",
 		},
 		["i:52325"] = {
 			["name"] = "Volatile Fire",
@@ -31682,8 +32033,8 @@ TradeSkillMaster_CraftingDB = {
 		["i:21840"] = {
 			["name"] = "Bolt of Netherweave",
 		},
-		["i:72988"] = {
-			["name"] = "Windwool Cloth",
+		["i:41594"] = {
+			["name"] = "Moonshroud",
 		},
 		["i:109693"] = {
 			["name"] = "Draenic Dust",
@@ -31706,14 +32057,14 @@ TradeSkillMaster_CraftingDB = {
 		["i:34055"] = {
 			["name"] = "Greater Cosmic Essence",
 		},
-		["i:34054"] = {
-			["name"] = "Infinite Dust",
+		["i:72988"] = {
+			["name"] = "Windwool Cloth",
 		},
 		["i:4341"] = {
 			["name"] = "Yellow Dye",
 		},
-		["i:41594"] = {
-			["name"] = "Moonshroud",
+		["i:34054"] = {
+			["name"] = "Infinite Dust",
 		},
 		["i:111245"] = {
 			["name"] = "Luminous Shard",
@@ -31721,8 +32072,8 @@ TradeSkillMaster_CraftingDB = {
 		["i:109124"] = {
 			["name"] = "Frostweed",
 		},
-		["i:109136"] = {
-			["name"] = "Raw Boar Meat",
+		["i:2319"] = {
+			["name"] = "Medium Leather",
 		},
 		["i:109219"] = {
 			["name"] = "Draenic Strength Potion",
@@ -31754,8 +32105,8 @@ TradeSkillMaster_CraftingDB = {
 		["i:23112"] = {
 			["name"] = "Golden Draenite",
 		},
-		["i:127037"] = {
-			["name"] = "Runic Catgut",
+		["i:3577"] = {
+			["name"] = "Gold Bar",
 		},
 		["i:113263"] = {
 			["name"] = "Sorcerous Earth",
@@ -31766,35 +32117,35 @@ TradeSkillMaster_CraftingDB = {
 		["i:98619"] = {
 			["name"] = "Celestial Cloth",
 		},
-		["i:36783"] = {
-			["name"] = "Northsea Pearl",
+		["i:124104"] = {
+			["name"] = "Fjarnskaggl",
 		},
-		["i:30183"] = {
-			["name"] = "Nether Vortex",
+		["i:30817"] = {
+			["name"] = "Simple Flour",
 		},
-		["i:109128"] = {
-			["name"] = "Nagrand Arrowbloom",
+		["i:41593"] = {
+			["name"] = "Ebonweave",
 		},
 		["i:23572"] = {
 			["name"] = "Primal Nether",
 		},
-		["i:124106"] = {
-			["name"] = "Felwort",
+		["i:133568"] = {
+			["name"] = "Koi-Scented Stormray",
 		},
 		["i:5500"] = {
 			["name"] = "Iridescent Pearl",
 		},
-		["i:109126"] = {
-			["name"] = "Gorgrond Flytrap",
+		["i:124116"] = {
+			["name"] = "Felhide",
 		},
 		["i:118472"] = {
 			["name"] = "Savage Blood",
 		},
-		["i:82441"] = {
-			["name"] = "Bolt of Windwool Cloth",
+		["i:109126"] = {
+			["name"] = "Gorgrond Flytrap",
 		},
-		["i:3827"] = {
-			["name"] = "Mana Potion",
+		["i:124112"] = {
+			["name"] = "Black Barracuda",
 		},
 		["i:52327"] = {
 			["name"] = "Volatile Earth",
@@ -31811,35 +32162,35 @@ TradeSkillMaster_CraftingDB = {
 		["i:21842"] = {
 			["name"] = "Bolt of Imbued Netherweave",
 		},
-		["i:2605"] = {
-			["name"] = "Green Dye",
+		["i:7070"] = {
+			["name"] = "Elemental Water",
 		},
 		["i:124103"] = {
 			["name"] = "Foxflower",
 		},
-		["i:43102"] = {
-			["name"] = "Frozen Orb",
+		["i:110609"] = {
+			["name"] = "Raw Beast Hide",
 		},
-		["i:111437"] = {
-			["name"] = "Rylak Crepes",
+		["i:129100"] = {
+			["name"] = "Gem Chip",
 		},
-		["i:2592"] = {
-			["name"] = "Wool Cloth",
-		},
-		["i:124120"] = {
-			["name"] = "Leyblood",
+		["i:109131"] = {
+			["name"] = "Raw Clefthoof Meat",
 		},
 		["i:7910"] = {
 			["name"] = "Star Ruby",
 		},
-		["i:124105"] = {
-			["name"] = "Starlight Rose",
+		["i:38426"] = {
+			["name"] = "Eternium Thread",
+		},
+		["i:4305"] = {
+			["name"] = "Bolt of Silk Cloth",
 		},
 		["i:35624"] = {
 			["name"] = "Eternal Earth",
 		},
-		["i:45087"] = {
-			["name"] = "Runed Orb",
+		["i:124441"] = {
+			["name"] = "Leylight Shard",
 		},
 	},
 	["f@Alliance - Ravencrest@gathering"] = {

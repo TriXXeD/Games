@@ -203,8 +203,34 @@
 --	/run local f=CreateFrame("frame");f:RegisterEvent("COMBAT_LOG_EVENT_UNFILTERED");f:SetScript("OnEvent",function(self, ...) local a = select(6, ...);if (a=="<chr name>")then print (...) end end)
 --	/run local f=CreateFrame("frame");f:RegisterEvent("COMBAT_LOG_EVENT_UNFILTERED");f:SetScript("OnEvent",function(self, ...) local a = select(3, ...);print (a);if (a=="SPELL_CAST_SUCCESS")then print (...) end end)
 	
+	local who_aggro = function (self)
+		if ((_detalhes.LastPullMsg or 0) + 30 > time()) then
+			_detalhes.WhoAggroTimer = nil
+			return
+		end
+		_detalhes.LastPullMsg = time()
+	
+		--local hitLine = self.HitBy or "|cFFFFFF00First Hit|r: *?* from *?* "
+		local hitLine = self.HitBy or "|cFFFFFF00First Hit|r: *?*"
+		local targetLine = ""
+		
+		for i = 1, 5 do
+			local boss = UnitExists ("boss" .. i)
+			if (boss) then
+				local target = UnitName ("boss" .. i .. "target")
+				if (target and type (target) == "string") then
+					targetLine = " |cFFFFFF00Boss First Target|r: " .. target
+					break
+				end
+			end
+		end
+		
+		_detalhes:Msg (hitLine .. targetLine)
+		_detalhes.WhoAggroTimer = nil
+	end
+	
 	function parser:spell_dmg (token, time, who_serial, who_name, who_flags, alvo_serial, alvo_name, alvo_flags, alvo_flags2, spellid, spellname, spelltype, amount, overkill, school, resisted, blocked, absorbed, critical, glacing, crushing, isoffhand)
-
+	
 	------------------------------------------------------------------------------------------------
 	--> early checks and fixes
 
@@ -250,15 +276,16 @@
 			return parser:SLT_damage (token, time, who_serial, who_name, who_flags, alvo_serial, alvo_name, alvo_flags, spellid, spellname, spelltype, amount, overkill, school, resisted, blocked, absorbed, critical, glacing, crushing, isoffhand)
 			
 		--> Light of the Martyr - paladin spell which causes damage to the caster it self
-		elseif (spellid == 196917) then
+		elseif (spellid == 196917) then -- or spellid == 183998 < healing part
 			local healingActor = healing_cache [who_name]
 			if (healingActor and healingActor.spells) then
-				local spell = healingActor.spells._ActorTable [spellid]
-				if (spell) then
-					healingActor.total = healingActor.total - (amount or 0)
-					spell.total = spell.total - (amount or 0)
-					return
-				end
+				healingActor.total = healingActor.total - (amount or 0)
+				
+				--local spell = healingActor.spells._ActorTable [spellid]
+				--if (spell) then
+				--	spell.total = spell.total - (amount or 0)
+				--	return
+				--end
 			end
 			return --> ignore this event
 		end
@@ -289,6 +316,11 @@
 		--	end
 		--end
 	
+	
+--	if (absorbed and absorbed > 0) then
+--		print ("dano absorbido", spellname, absorbed)
+--	end
+	
 	------------------------------------------------------------------------------------------------	
 	--> check if need start an combat
 
@@ -310,7 +342,12 @@
 					else
 						link = GetSpellLink (spellid)
 					end
-					_detalhes:Msg ("First hit: " .. (link or "") .. " from " .. (who_name or "Unknown"))
+					
+					if (_detalhes.WhoAggroTimer) then
+						_detalhes.WhoAggroTimer:Cancel()
+					end
+					_detalhes.WhoAggroTimer = C_Timer.NewTimer (0.5, who_aggro)
+					_detalhes.WhoAggroTimer.HitBy = "|cFFFFFF00First Hit|r: " .. (link or "") .. " from " .. (who_name or "Unknown")
 				end
 				_detalhes:EntrarEmCombate (who_serial, who_name, who_flags, alvo_serial, alvo_name, alvo_flags)
 			else
@@ -823,6 +860,10 @@
 	--> get actors
 		--print ("MISS", "|", missType, "|", isOffHand, "|", amountMissed, "|", arg1)
 		
+	
+		--print (missType, who_name,  spellname, amountMissed)
+		
+		
 		--> 'misser'
 		local este_jogador = damage_cache [who_serial]
 		if (not este_jogador) then
@@ -886,12 +927,15 @@
 		if (missType == "ABSORB") then
 		
 			if (token == "SWING_MISSED") then
+				este_jogador.totalabsorbed = este_jogador.totalabsorbed + amountMissed
 				return parser:swing ("SWING_DAMAGE", time, who_serial, who_name, who_flags, alvo_serial, alvo_name, alvo_flags, alvo_flags2, amountMissed, -1, 1, nil, nil, nil, false, false, false, false)
 				
 			elseif (token == "RANGE_MISSED") then
+				este_jogador.totalabsorbed = este_jogador.totalabsorbed + amountMissed
 				return parser:range ("RANGE_DAMAGE", time, who_serial, who_name, who_flags, alvo_serial, alvo_name, alvo_flags, alvo_flags2, spellid, spellname, spelltype, amountMissed, -1, 1, nil, nil, nil, false, false, false, false)
 				
 			else
+				este_jogador.totalabsorbed = este_jogador.totalabsorbed + amountMissed
 				return parser:spell_dmg (token, time, who_serial, who_name, who_flags, alvo_serial, alvo_name, alvo_flags, alvo_flags2, spellid, spellname, spelltype, amountMissed, -1, 1, nil, nil, nil, false, false, false, false)
 				
 			end
@@ -1008,7 +1052,11 @@
 
 		--> no name, use spellname
 		if (not who_name) then
-			who_name = "[*] "..spellname
+			if (not spellname) then
+				--print ("ERROR:", token, who_serial, who_name, who_flags, alvo_serial, alvo_name, alvo_flags, alvo_flags2, spellidAbsorb, spellnameAbsorb, spellschoolAbsorb, serialHealer, nameHealer, flagsHealer, flags2Healer, spellidHeal, spellnameHeal, typeHeal, amountDenied)
+			end
+			--who_name = "[*] "..spellname
+			who_name = "[*] " .. (spellname or "--unknown spell--")
 		end
 		
 		--> no target, just ignore
@@ -1173,6 +1221,7 @@ ameHealer: Bombad�o |flagsHealer: 1297 |flagsHealer2: 0 |spellidHeal: 116888 |
 
 		--> no name, use spellname
 		if (not who_name) then
+			--who_name = "[*] " .. (spellname or "--unknown spell--")
 			who_name = "[*] "..spellname
 		end
 
@@ -3729,7 +3778,6 @@ local SPELL_POWER_PAIN = SPELL_POWER_PAIN or (PowerEnum and PowerEnum.Pain) or 1
 	
 	-- ~encounter
 	function _detalhes.parser_functions:ENCOUNTER_START (...)
-	
 		if (_detalhes.debug) then
 			_detalhes:Msg ("(debug) |cFFFFFF00ENCOUNTER_START|r event triggered.")
 		end
@@ -3737,6 +3785,10 @@ local SPELL_POWER_PAIN = SPELL_POWER_PAIN or (PowerEnum and PowerEnum.Pain) or 1
 		_detalhes.latest_ENCOUNTER_END = _detalhes.latest_ENCOUNTER_END or 0
 		if (_detalhes.latest_ENCOUNTER_END + 10 > _GetTime()) then
 			return
+		end
+		
+		if (not _detalhes.WhoAggroTimer) then
+			_detalhes.WhoAggroTimer = C_Timer.NewTimer (0.5, who_aggro)
 		end
 	
 		local encounterID, encounterName, difficultyID, raidSize = _select (1, ...)
@@ -3915,7 +3967,9 @@ local SPELL_POWER_PAIN = SPELL_POWER_PAIN or (PowerEnum and PowerEnum.Pain) or 1
 			
 			for i = #_detalhes.schedule_add_to_overall, 1, -1 do
 				local CombatToAdd = tremove (_detalhes.schedule_add_to_overall, i)
-				_detalhes.historico:adicionar_overall (CombatToAdd)
+				if (CombatToAdd) then
+					_detalhes.historico:adicionar_overall (CombatToAdd)
+				end
 			end
 		end
 		

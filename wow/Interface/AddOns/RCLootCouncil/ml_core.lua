@@ -38,6 +38,7 @@ function RCLootCouncilML:OnEnable()
 	self.lootInBags = {} 	-- Items not yet awarded but stored in bags
 	self.lootOpen = false 	-- is the ML lootWindow open or closed?
 	self.running = false		-- true if we're handling a session
+	self.council = self:GetCouncilInGroup()
 
 	self:RegisterComm("RCLootCouncil", "OnCommReceived")
 	self:RegisterEvent("LOOT_OPENED","OnEvent")
@@ -190,7 +191,8 @@ end
 
 function RCLootCouncilML:CouncilChanged()
 	-- The council was changed, so send out the council
-	addon:SendCommand("group", "council", db.council)
+	self.council = self:GetCouncilInGroup()
+	addon:SendCommand("group", "council", self.council)
 	-- Send candidates so new council members can register it
 	addon:SendCommand("group", "candidates", self.candidates)
 end
@@ -259,7 +261,8 @@ function RCLootCouncilML:NewML(newML)
 	if addon:UnitIsUnit(newML, "player") then -- we are the the ML
 		addon:SendCommand("group", "playerInfoRequest")
 		self:UpdateMLdb() -- Will build and send mldb
-		addon:SendCommand("group", "council", db.council)
+		self.council = self:GetCouncilInGroup()
+		addon:SendCommand("group", "council", self.council)
 		self:UpdateGroup(true)
 		-- Set a timer to send out the incoming playerInfo changes
 		self:ScheduleTimer("Timer", 10, "GroupUpdate")
@@ -276,7 +279,7 @@ function RCLootCouncilML:Timer(type, ...)
 		addon:SendCommand("group", "offline_timer")
 
 	elseif type == "GroupUpdate" then
-		addon:SendCommand("group", "council", db.council)
+		addon:SendCommand("group", "council", self.council)
 		addon:SendCommand("group", "candidates", self.candidates)
 	end
 end
@@ -296,7 +299,7 @@ function RCLootCouncilML:OnCommReceived(prefix, serializedMsg, distri, sender)
 				addon:SendCommand("group", "MLdb", addon.mldb)
 
 			elseif command == "council_request" then
-				addon:SendCommand("group", "council", db.council)
+				addon:SendCommand("group", "council", self.council)
 
 			elseif command == "candidates_request" then
 				addon:SendCommand("group", "candidates", self.candidates)
@@ -304,7 +307,7 @@ function RCLootCouncilML:OnCommReceived(prefix, serializedMsg, distri, sender)
 			elseif command == "reconnect" and not addon:UnitIsUnit(sender, addon.playerName) then -- Don't receive our own reconnect
 				-- Someone asks for mldb, council and candidates
 				addon:SendCommand(sender, "MLdb", addon.mldb)
-				addon:SendCommand(sender, "council", db.council)
+				addon:SendCommand(sender, "council", self.council)
 
 			--[[NOTE: For some reason this can silently fail, but adding a 1 sec timer on the rest of the calls seems to fix it
 				v2.0.1: 	With huge candidates/lootTable we get AceComm lostdatawarning "First", presumeably due to the 4kb ChatThrottleLib limit.
@@ -462,12 +465,13 @@ function RCLootCouncilML:LootOnClick(button)
 	addon:GetActiveModule("sessionframe"):Show(self.lootTable)
 end
 
---@param session	The session to award
---@param winner	Nil/false if items should be stored in inventory and awarded later
---@param response	The candidates response, index in db.responses
---@param reason	Entry in db.awardReasons
+--@param session	The session to award.
+--@param winner	Nil/false if items should be stored in inventory and awarded later.
+--@param response	The candidates response, index in db.responses.
+--@param reason	Entry in db.awardReasons.
+--@param isToken	True if it's awarded as a tier token. Only used for announceAward().
 --@returns True if awarded successfully
-function RCLootCouncilML:Award(session, winner, response, reason)
+function RCLootCouncilML:Award(session, winner, response, reason, isToken)
 	addon:DebugLog("ML:Award", session, winner, response, reason)
 	if addon.testMode then
 		if winner then
@@ -524,7 +528,7 @@ function RCLootCouncilML:Award(session, winner, response, reason)
 			addon:SendCommand("group", "awarded", session)
 			self.lootTable[session].awarded = true -- No need to let Comms handle this
 
-			self:AnnounceAward(addon.Ambiguate(winner), self.lootTable[session].link, reason and reason.text or db.responses[response].text)
+			self:AnnounceAward(addon.Ambiguate(winner), self.lootTable[session].link, reason and reason.text or addon:GetResponseText(response, isToken))
 			if self:HasAllItemsBeenAwarded() then self:EndSession() end
 
 		else -- If we reach here it means we couldn't find a valid MasterLootCandidate, propably due to the winner is unable to receive the loot
@@ -700,6 +704,24 @@ function RCLootCouncilML:IsItemIgnored(link)
 	return tContains(db.ignore, itemID)
 end
 
+--- Fetches the council members from the current group.
+-- Used by the ML to only send out a council consisting of actual group members.
+-- That council is stored in RCLootCouncil.council
+-- @return table [i] = "council_man_name".
+function RCLootCouncilML:GetCouncilInGroup()
+	local council = {}
+	for _, name in ipairs(addon.db.profile.council) do
+		if self.candidates[name] then
+			tinsert(council, name)
+		end
+	end
+	if not tContains(council, addon.playerName) then -- Check if the ML (us) is included
+		tinsert(council, addon.playerName)
+	end
+	addon:DebugLog("GetCouncilInGroup", unpack(council))
+	return council
+end
+
 function RCLootCouncilML:GetItemsFromMessage(msg, sender)
 	addon:Debug("GetItemsFromMessage()", msg, sender)
 	if not addon.isMasterLooter then return end
@@ -804,7 +826,7 @@ LibDialog:Register("RCLOOTCOUNCIL_CONFIRM_AWARD", {
 				local session, player, response, reason, votes, item1, item2, isTierRoll = unpack(data,1,8)
 				local item = RCLootCouncilML.lootTable[session].link -- Store it now as we wipe lootTable after Award()
 				local isToken = RCLootCouncilML.lootTable[session].token
-				local awarded = RCLootCouncilML:Award(session, player, response, reason)
+				local awarded = RCLootCouncilML:Award(session, player, response, reason, isTierRoll)
 				if awarded then -- log it
 					RCLootCouncilML:TrackAndLogLoot(player, item, response, addon.target, votes, item1, item2, reason, isToken, isTierRoll)
 				end
