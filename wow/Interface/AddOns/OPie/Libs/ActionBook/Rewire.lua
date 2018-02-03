@@ -1,4 +1,4 @@
-local api, MAJ, REV, _, T = {}, 1, 9, ...
+local api, MAJ, REV, _, T = {}, 1, 10, ...
 if T.ActionBook then return end
 local AB, KR = nil, assert(T.Kindred:compatible(1,8), "A compatible version of Kindred is required.")
 
@@ -21,6 +21,35 @@ local forall do
 		return r(select("#", ...), f, ...)
 	end
 end
+
+local Spell_UncastableIDs do
+	local classLockedMounts = {
+		[48778]="DEATHKNIGHT", [54729]="DEATHKNIGHT", [229387]="DEATHKNIGHT",
+		[229417]="DEMONHUNTER", [200175]="DEMONHUNTER",
+		[229386]="HUNTER", [229438]="HUNTER", [229439]="HUNTER",
+		[229376]="MAGE",
+		[229385]="MONK",
+		[13819]="PALADIN", [23214]="PALADIN", [34767]="PALADIN", [34769]="PALADIN", [66906]="PALADIN", [69820]="PALADIN", [69826]="PALADIN", [221883]="PALADIN", [205656]="PALADIN", [221885]="PALADIN", [221886]="PALADIN", [231587]="PALADIN", [231588]="PALADIN", [231589]="PALADIN", [231435]="PALADIN",
+		[229377]="PRIEST",
+		[231434]="ROGUE", [231523]="ROGUE", [231524]="ROGUE", [231525]="ROGUE",
+		[231442]="SHAMAN",
+		[5784]="WARLOCK", [23161]="WARLOCK", [232412]="WARLOCK", [238452]="WARLOCK", [238454]="WARLOCK",
+		[229388]="WARRIOR",
+	}
+	local _, class = UnitClass("player")
+	for k,v in pairs(classLockedMounts) do
+		if v == class then
+			classLockedMounts[k] = nil
+		end
+	end
+	Spell_UncastableIDs = classLockedMounts
+end
+local Spell_CheckKnown = {[33891]=IsSpellKnown, [102543]=IsSpellKnown, [102558]=IsSpellKnown} do
+	Spell_CheckKnown[102560] = function()
+		return IsSpellKnown(194223) and select(7, GetSpellInfo(GetSpellInfo(194223))) == 102560 or false
+	end
+end
+local Spell_ForcedID = {[126819]=1, [28272]=1, [28271]=1, [161372]=1, [51514]=1, [210873]=1, [211004]=1, [211010]=1, [211015]=1}
 
 local namedMacros = {}
 local core, coreEnv = CreateFrame("FRAME", nil, nil, "SecureHandlerBaseTemplate") do
@@ -503,6 +532,21 @@ function api:SetCastEscapeAction(castArg, action)
 end
 function api:GetCastEscapeAction(castArg)
 	return coreEnv.castEscapes[castArg and castArg:lower()]
+end
+function api:IsSpellCastable(id, disallowRewireEscapes)
+	local cks = Spell_CheckKnown[id]
+	if cks and not cks(id) then
+		return false, "known-check"
+	elseif Spell_UncastableIDs[id] then
+		return false, "uncastable-class-lock"
+	elseif Spell_ForcedID[id] then
+		return not not FindSpellBookSlotBySpellID(id), "forced-id-cast"
+	end
+	local name, rank = GetSpellInfo(id)
+	if disallowRewireEscapes ~= true and coreEnv.castEscapes[name and name:lower()] then
+		return true, "rewire-escape"
+	end
+	return not not (name and GetSpellInfo(name, rank)), "double-gsi"
 end
 
 T.Rewire = {compatible=api.compatible}

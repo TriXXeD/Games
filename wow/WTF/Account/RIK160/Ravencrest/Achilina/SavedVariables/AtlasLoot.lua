@@ -11,11 +11,9 @@ AtlasLootCharDB = {
 	},
 	["GUI"] = {
 		["selected"] = {
-			"AtlasLoot_BurningCrusade", -- [1]
-			"CFRTheUnderbog", -- [2]
-			6, -- [3]
-			1, -- [4]
-			0, -- [5]
+			[5] = 0,
+			[2] = "AntorustheBurningThrone",
+			[4] = 1,
 		},
 		["point"] = {
 			[3] = "CENTER",
@@ -24,4 +22,13 @@ AtlasLootCharDB = {
 		},
 	},
 	["__addonrevision"] = 4325,
+	["QuickLootFrame"] = {
+		["point"] = {
+			"TOPLEFT", -- [1]
+			nil, -- [2]
+			"TOPLEFT", -- [3]
+			213.499908447266, -- [4]
+			-210.999938964844, -- [5]
+		},
+	},
 }

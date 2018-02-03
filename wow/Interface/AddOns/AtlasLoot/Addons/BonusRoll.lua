@@ -12,6 +12,8 @@ local tonumber = tonumber
 -- /run BonusRollFrame_StartBonusRoll(227131, "", 180, 1273)
 -- /run BonusRollFrame_StartBonusRoll(190156, "", 180, 738)
 -- [BonusRollID] = "tierID:instanceID:encounterID"		<- new
+-- Use /dump GetJournalInfoForSpellConfirmation(spellID) to get instanceID and encounterID
+-- Also look into here for more information: http://www.wowhead.com/spells/name:Bonus+Roll+Prompt
 local BONUS_ROLL_IDS = {
 	-- ### Legion
 	-- BrokenIsles
@@ -26,6 +28,21 @@ local BONUS_ROLL_IDS = {
 	[227136] = "7:822:1763",		-- Shar'thos
 	[227137] = "7:822:1756",		-- The Soultakers
 	[227138] = "7:822:1796",		-- Withered J'im
+	-- Broken Shore
+	[242970] = "7:822:1883",		-- Brutallus
+	[242971] = "7:822:1884",		-- Malificus
+	[242972] = "7:822:1885",		-- Si'vash
+	[242969] = "7:822:1956",		-- Apocron
+	-- Tomb of Sargeras
+	[240655] = "7:875:1862",		-- Goroth
+	[240656] = "7:875:1867",		-- Demonic Inquisition
+	[240657] = "7:875:1856",		-- Harjatan
+	[240659] = "7:875:1903",		-- Sisters of the Moon
+	[240658] = "7:875:1861",		-- Mistress Sassz'ine
+	[240660] = "7:875:1896",		-- The Desolate Host
+	[240661] = "7:875:1897",		-- Maiden of Vigilance
+	[240662] = "7:875:1873",		-- Fallen Avatar
+	[240663] = "7:875:1898",		-- Kil'jaeden
 	-- EmeraldNightmare
 	[221046] = "7:768:1703",		-- Nythendra
 	[221047] = "7:768:1738",		-- Il'gynoth, Heart of Corruption
@@ -49,6 +66,25 @@ local BONUS_ROLL_IDS = {
 	[232466] = "7:861:1819",		-- Odyn
 	[232467] = "7:861:1830",		-- Guarm
 	[232468] = "7:861:1829",		-- Helya
+	-- Antorus, the Burning Throne
+	[250588] = "7:946:1992",		-- Garothi Worldbreaker
+	[250598] = "7:946:1987",		-- Felhounds of Sargeras
+	[250600] = "7:946:1997",		-- Antoran High Command
+	[250601] = "7:946:1985",		-- Portal Keeper Hasabel
+	[250602] = "7:946:2025",		-- Eonar the Life-Binder
+	[250603] = "7:946:2009",		-- Imonar the Soulhunter
+	[250604] = "7:946:2004",		-- Kin'garoth
+	[250605] = "7:946:1983",		-- Varimathras
+	[250606] = "7:946:1986",		-- The Coven of Shivarra
+	[250607] = "7:946:1984",		-- Aggramar
+	[250608] = "7:946:2031",		-- Argus the Unmaker
+	-- Invasion Points
+	[254441] = "7:959:2010",		-- Matron Folnuna
+	[254437] = "7:959:2011",		-- Mistress Alluradel
+	[254435] = "7:959:2012",		-- Inquisitor Meto
+	[254443] = "7:959:2013",		-- Occularus
+	[254446] = "7:959:2014",		-- Sotanathor
+	[254439] = "7:959:2015",		-- Pit Lord Vilemus
 	
 	-- ### WoD
 	-- BlackrockFoundry
@@ -85,13 +121,15 @@ local BONUS_ROLL_IDS = {
 	[177526] = "6:477:1153",		-- Ko'ragh
 	[177528] = "6:477:1197",		-- Imperator Mar'gok
 	-- Draenor
+	--[[ no longer available
 	[178847] = "6:557:1291",		-- Drov the Ruiner
 	[178851] = "6:557:1262",		-- Rukhmar
 	[178849] = "6:557:1211",		-- Tarlna the Ageless
+	]]
 	[188985] = "6:557:1452",		-- Supreme Lord Kazzak	
 	
 	-- ### MoP
-	-- Mogu
+	-- MoguShanVaults
 	[125144] = "5:317:679",		-- The Stone Guard
 	[132189] = "5:317:689",		-- Feng
 	[132190] = "5:317:685",		-- Garajal
@@ -164,6 +202,6 @@ end
 BonusRollFrame:HookScript("OnShow", LoadQuickLootFrame)
 BonusRollFrame:HookScript("OnHide", ClearQuickLootFrame)
 
-function BonusRoll:Preview()
-	LoadQuickLootFrame({spellID = 177529})
+function BonusRoll:Preview(id)
+	LoadQuickLootFrame({spellID = id or 240655})
 end

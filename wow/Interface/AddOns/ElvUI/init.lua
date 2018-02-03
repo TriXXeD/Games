@@ -13,6 +13,7 @@ To load the AddOn engine inside another addon add this to the top of your file:
 --Cache global variables
 local _G = _G
 local pairs = pairs
+local format = string.format
 local GameMenuFrame = GameMenuFrame
 local GameMenuButtonLogout = GameMenuButtonLogout
 local GameMenuButtonAddons = GameMenuButtonAddons
@@ -94,9 +95,9 @@ function AddOn:OnInitialize()
 	if IsAddOnLoaded("Tukui") then
 		self:StaticPopup_Show("TUKUI_ELVUI_INCOMPATIBLE")
 	end
-	
+
 	local GameMenuButton = CreateFrame("Button", nil, GameMenuFrame, "GameMenuButtonTemplate")
-	GameMenuButton:SetText(AddOnName)
+	GameMenuButton:SetText(format("|cfffe7b2c%s|r", AddOnName))
 	GameMenuButton:SetScript("OnClick", function()
 		AddOn:ToggleConfig()
 		HideUIPanel(GameMenuFrame)
@@ -118,6 +119,8 @@ function AddOn:OnInitialize()
 		GameMenuButton:Point("TOP", GameMenuButtonWhatsNew, "BOTTOMLEFT", 0, -1)
 		GameMenuFrame:Size(530, 576)
 	end
+
+	self.loadedtime = GetTime()
 end
 
 function AddOn:PositionGameMenuButton()
@@ -193,7 +196,7 @@ function AddOn:ToggleConfig(msg)
 		self:RegisterEvent('PLAYER_REGEN_ENABLED')
 		return;
 	end
-	
+
 	if not IsAddOnLoaded("ElvUI_Config") then
 		local _, _, _, _, reason = GetAddOnInfo("ElvUI_Config")
 		if reason ~= "MISSING" and reason ~= "DISABLED" then
@@ -205,7 +208,7 @@ function AddOn:ToggleConfig(msg)
 				self:Print("|cffff0000Error -- Addon 'ElvUI_Config' not found or is disabled.|r")
 				return
 			end
-			if GetAddOnMetadata("ElvUI_Config", "Version") ~= "1.04" then
+			if GetAddOnMetadata("ElvUI_Config", "Version") ~= "1.05" then
 				self:StaticPopup_Show("CLIENT_UPDATE_REQUEST")
 			end
 		else

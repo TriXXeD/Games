@@ -250,7 +250,7 @@ R:SetRing("SpecMenu", {
 	{"specset", 2, _u="2"},
 	{"specset", 3, _u="3"},
 	{"specset", 4, _u="4"},
-	{id="/cast {{spell:50977/193753/126892/193759}}", _u="c"},
+	{id="/cast {{spell:50977}}; {{spell:193753}}; {{spell:126892}}; {{spell:193759}}", _u="c"},
 	{"item", 110560, _u="g"},
 	{"item", 140192, _u="d"},
 	{"item", 6948, _u="h"},

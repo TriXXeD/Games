@@ -1,4 +1,4 @@
-local E, L, V, P, G = unpack(select(2, ...)); --Inport: Engine, Locales, PrivateDB, ProfileDB, GlobalDB
+local E, L, V, P, G = unpack(select(2, ...)); --Import: Engine, Locales, PrivateDB, ProfileDB, GlobalDB
 local B = E:GetModule('Bags');
 local Search = LibStub('LibItemSearch-1.2-ElvUI');
 
@@ -34,6 +34,8 @@ local GetCurrentGuildBankTab = GetCurrentGuildBankTab
 local C_PetJournalGetPetInfoBySpeciesID = C_PetJournal.GetPetInfoBySpeciesID
 local LE_ITEM_CLASS_ARMOR = LE_ITEM_CLASS_ARMOR
 local LE_ITEM_CLASS_WEAPON = LE_ITEM_CLASS_WEAPON
+
+local C_Timer_After = C_Timer.After
 
 local guildBags = {51,52,53,54,55,56,57,58}
 local bankBags = {BANK_CONTAINER}
@@ -207,11 +209,10 @@ local function DefaultSort(a, b)
 		end
 	end
 
-	local _, _, aRarity, _, _, _, _, _, aEquipLoc, _, _, aItemClassId, aItemSubClassId = GetItemInfo(aID)
-	local _, _, bRarity, _, _, _, _, _, bEquipLoc, _, _, bItemClassId, bItemSubClassId = GetItemInfo(bID)
+	local _, _, _, _, _, _, _, _, aEquipLoc, _, _, aItemClassId, aItemSubClassId = GetItemInfo(aID)
+	local _, _, _, _, _, _, _, _, bEquipLoc, _, _, bItemClassId, bItemSubClassId = GetItemInfo(bID)
 
-	aRarity = bagQualities[a]
-	bRarity = bagQualities[b]
+	local aRarity, bRarity = bagQualities[a], bagQualities[b]
 
 
 	if bagPetIDs[a] then
@@ -715,12 +716,30 @@ function B:StartStacking()
 	end
 end
 
-function B:StopStacking(message)
+local function RegisterUpdateDelayed()
+	for _, bagFrame in pairs(B.BagFrames) do
+		if bagFrame.registerUpdate then
+			--call update and re-register BAG_UPDATE event
+			bagFrame.registerUpdate = nil
+			bagFrame:UpdateAllSlots()
+			bagFrame:RegisterEvent("BAG_UPDATE")
+		end
+	end
+end
+
+function B:StopStacking(message, noUpdate)
 	twipe(moves)
 	twipe(moveTracker)
 	moveRetries, lastItemID, lockStop, lastDestination, lastMove = 0, nil, nil, nil, nil
 
 	self.SortUpdateTimer:Hide()
+
+	if not noUpdate then
+		--Add a delayed update call, as BAG_UPDATE fires slightly delayed
+		-- and we don't want the last few unneeded updates to be catched
+		C_Timer_After(0.6, RegisterUpdateDelayed)
+	end
+
 	if message then
 		E:Print(message)
 	end
@@ -879,8 +898,7 @@ function B:CommandDecorator(func, groupsDefaults)
 
 	return function(groups)
 		if self.SortUpdateTimer:IsShown() then
-			E:Print(L["Already Running.. Bailing Out!"]);
-			B:StopStacking()
+			B:StopStacking(L["Already Running.. Bailing Out!"], true)
 			return;
 		end
 

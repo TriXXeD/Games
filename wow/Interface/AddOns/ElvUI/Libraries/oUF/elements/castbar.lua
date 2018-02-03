@@ -89,19 +89,12 @@ local function updateSafeZone(self)
 	local width = self:GetWidth()
 	local _, _, _, ms = GetNetStats()
 
-	-- Guard against GetNetStats returning latencies of 0.
-	if(ms ~= 0) then
-		-- MADNESS!
-		local safeZonePercent = (width / self.max) * (ms / 1e5)
-		if(safeZonePercent > 1) then
-			safeZonePercent = 1
-		end
-
-		safeZone:SetWidth(width * safeZonePercent)
-		safeZone:Show()
-	else
-		safeZone:Hide()
+	local safeZoneRatio = (ms / 1e3) / self.max
+	if(safeZoneRatio > 1) then
+		safeZoneRatio = 1
 	end
+
+	safeZone:SetWidth(width * safeZoneRatio)
 end
 
 local UNIT_SPELLCAST_SENT = function (self, event, unit, spell, rank, target, castid)
@@ -528,7 +521,15 @@ local function onUpdate(self, elapsed)
 		self:SetValue(duration)
 
 		if(self.Spark) then
-			self.Spark:SetPoint('CENTER', self, 'LEFT', (duration / self.max) * self:GetWidth(), 0)
+			local horiz = self.horizontal
+			local size = self[horiz and 'GetWidth' or 'GetHeight'](self)
+
+			local offset = (duration / self.max) * size
+			if(self:GetReverseFill()) then
+				offset = size - offset
+			end
+
+			self.Spark:SetPoint('CENTER', self, horiz and 'LEFT' or 'BOTTOM', horiz and offset or 0, horiz and 0 or offset)
 		end
 	elseif(self.channeling) then
 		local duration = self.duration - elapsed
@@ -560,7 +561,15 @@ local function onUpdate(self, elapsed)
 		self.duration = duration
 		self:SetValue(duration)
 		if(self.Spark) then
-			self.Spark:SetPoint('CENTER', self, 'LEFT', (duration / self.max) * self:GetWidth(), 0)
+			local horiz = self.horizontal
+			local size = self[horiz and 'GetWidth' or 'GetHeight'](self)
+
+			local offset = (duration / self.max) * size
+			if(self:GetReverseFill()) then
+				offset = size - offset
+			end
+
+			self.Spark:SetPoint('CENTER', self, horiz and 'LEFT' or 'BOTTOM', horiz and offset or 0, horiz and 0 or offset)
 		end
 	elseif(self.holdTime > 0) then
 		self.holdTime = self.holdTime - elapsed
@@ -603,6 +612,7 @@ local function Enable(self, unit)
 			self:RegisterEvent("UNIT_SPELLCAST_FAILED_QUIET", UNIT_SPELLCAST_FAILED_QUIET)
 		end
 
+		element.horizontal = element:GetOrientation() == 'HORIZONTAL'
 		element.holdTime = 0
 		element:SetScript('OnUpdate', element.OnUpdate or onUpdate)
 

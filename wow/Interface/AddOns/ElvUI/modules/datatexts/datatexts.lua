@@ -1,4 +1,4 @@
-local E, L, V, P, G = unpack(select(2, ...)); --Inport: Engine, Locales, PrivateDB, ProfileDB, GlobalDB
+local E, L, V, P, G = unpack(select(2, ...)); --Import: Engine, Locales, PrivateDB, ProfileDB, GlobalDB
 local DT = E:NewModule('DataTexts', 'AceTimer-3.0', 'AceHook-3.0', 'AceEvent-3.0')
 local LDB = LibStub:GetLibrary("LibDataBroker-1.1");
 local LSM = LibStub("LibSharedMedia-3.0")
@@ -15,7 +15,7 @@ local InCombatLockdown = InCombatLockdown
 local IsInInstance = IsInInstance
 
 --Global variables that we don't cache, list them here for mikk's FindGlobals script
--- GLOBALS: GameTooltip, ElvConfigToggle
+-- GLOBALS: GameTooltip
 
 function DT:Initialize()
 	--if E.db["datatexts"].enable ~= true then return end
@@ -135,7 +135,7 @@ function DT:GetDataPanelPoint(panel, i, numPoints)
 end
 
 function DT:UpdateAllDimensions()
-	for panelName, panel in pairs(DT.RegisteredPanels) do
+	for _, panel in pairs(DT.RegisteredPanels) do
 		local width = (panel:GetWidth() / panel.numPoints) - 4
 		local height = panel:GetHeight() - 4
 		for i=1, panel.numPoints do
@@ -156,7 +156,9 @@ function DT:SetupTooltip(panel)
 	self.tooltip:Hide()
 	self.tooltip:SetOwner(parent, parent.anchor, parent.xOff, parent.yOff)
 	self.tooltip:ClearLines()
-	GameTooltip:Hide() -- WHY??? BECAUSE FUCK GAMETOOLTIP, THATS WHY!!
+	if not GameTooltip:IsForbidden() then
+		GameTooltip:Hide() -- WHY??? BECAUSE FUCK GAMETOOLTIP, THATS WHY!!
+	end
 end
 
 function DT:RegisterPanel(panel, numPoints, anchor, xOff, yOff)
@@ -199,7 +201,7 @@ function DT:AssignPanelToDataText(panel, data)
 				or event == "UNIT_RANGED_ATTACK_POWER" or event == "UNIT_TARGET" or event == "UNIT_SPELL_HASTE" then
 				panel:RegisterUnitEvent(event, 'player')
 			elseif event == 'COMBAT_LOG_EVENT_UNFILTERED' then
-				panel:RegisterUnitEvent(event, UnitGUID("player"), UnitGUID("pet"))
+				panel:RegisterUnitEvent(event, E.myguid, UnitGUID("pet"))
 			else
 				panel:RegisterEvent(event)
 			end
@@ -245,10 +247,7 @@ function DT:LoadDataTexts()
 
 	local inInstance, instanceType = IsInInstance()
 	local fontTemplate = LSM:Fetch("font", self.db.font)
-	if ElvConfigToggle then
-		ElvConfigToggle.text:FontTemplate(fontTemplate, self.db.fontSize, self.db.fontOutline)
-	end
-	
+
 	for panelName, panel in pairs(DT.RegisteredPanels) do
 		--Restore Panels
 		for i=1, panel.numPoints do
@@ -337,7 +336,7 @@ function DT:RegisterDatatext(name, events, eventFunc, updateFunc, clickFunc, onE
 	if onLeaveFunc and type(onLeaveFunc) == 'function' then
 		DT.RegisteredDataTexts[name]['onLeave'] = onLeaveFunc
 	end
-	
+
 	if localizedName and type(localizedName) == "string" then
 		DT.RegisteredDataTexts[name]['localizedName'] = localizedName
 	end

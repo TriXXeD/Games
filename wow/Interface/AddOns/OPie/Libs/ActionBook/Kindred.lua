@@ -42,7 +42,8 @@ core:Execute([==[-- Kindred.Init
 					for m in clause:gmatch("[^,%s][^,]*") do
 						m = m:match("^%s*(.-)%s*$")
 						if m:sub(1,1) == "@" or m:sub(1,7) == "target=" then
-							ct.target = m:match("[=@](.*)")
+							local bu, suf = m:match("[=@]%s*([^-%d]%d*)(.-)%s*$")
+							ct.target, ct.targetS = bu, suf ~= "" and suf or nil
 						else
 							local cvalparsed, mark, wname, inv, name, col, cval = nil, m:match("^([+]?)((n?o?)([^:=]*))([:=]?)(.-)%s*$")
 							if inv ~= "no" then inv, name = "", wname end
@@ -74,8 +75,9 @@ core:Execute([==[-- Kindred.Init
 			local chunk, cparse, isTautology, skipThis = cond[i], "", false, i == skipNext
 			skipNext = skipThis and getNextSkip() or skipNext
 			for i=1,skipThis and 0 or #chunk do
-				local target, conditional, cnext = chunk[i].target, "", ""
+				local target, ts, conditional, cnext = chunk[i].target, chunk[i].targetS, "", ""
 				while unitAlias[target] do target = unitAlias[target] end
+				target = ts and target and target .. ts or target
 				for j=1,#chunk[i] do
 					local c = chunk[i][j]
 					local name, argp, goal, flag = c[1], c[2], c[3], c[4]

@@ -27,7 +27,7 @@ L["STRING_ASCENDING"] = "오름차순"
 L["STRING_ATACH_DESC"] = "창 #%d|1이;가; 창 #%d|1과;와; 그룹이 되었습니다."
 L["STRING_ATTRIBUTE_CUSTOM"] = "사용자 설정"
 L["STRING_ATTRIBUTE_DAMAGE"] = "피해"
-L["STRING_ATTRIBUTE_DAMAGE_BYSPELL"] = "주문으로 받은 피해"
+L["STRING_ATTRIBUTE_DAMAGE_BYSPELL"] = "주문 별 받은 피해"
 L["STRING_ATTRIBUTE_DAMAGE_DEBUFFS"] = "효과 & 바닥"
 L["STRING_ATTRIBUTE_DAMAGE_DEBUFFS_REPORT"] = "약화 효과 피해와 유지 시간"
 L["STRING_ATTRIBUTE_DAMAGE_DONE"] = "피해량"
@@ -38,7 +38,7 @@ L["STRING_ATTRIBUTE_DAMAGE_FRAGS"] = "죽임"
 L["STRING_ATTRIBUTE_DAMAGE_FRIENDLYFIRE"] = "아군에게 준 피해"
 L["STRING_ATTRIBUTE_DAMAGE_TAKEN"] = "받은 피해"
 L["STRING_ATTRIBUTE_ENERGY"] = "자원"
-L["STRING_ATTRIBUTE_ENERGY_ALTERNATEPOWER"] = "보조 자원"
+L["STRING_ATTRIBUTE_ENERGY_ALTERNATEPOWER"] = "보조 마력"
 L["STRING_ATTRIBUTE_ENERGY_ENERGY"] = "기력 생성"
 L["STRING_ATTRIBUTE_ENERGY_MANA"] = "마나 회복"
 L["STRING_ATTRIBUTE_ENERGY_RAGE"] = "분노 생성"
@@ -85,6 +85,7 @@ L["STRING_CLOSEALL"] = "모든 창이 닫혔습니다, 다시 열려면 '/detail
 L["STRING_COLOR"] = "색상"
 L["STRING_COMMAND_LIST"] = "명령어 목록"
 L["STRING_COOLTIP_NOOPTIONS"] = "옵션 없음"
+L["STRING_CREATEAURA"] = "오라 만들기"
 L["STRING_CRITICAL_HITS"] = "치명타 및 극대화 적중"
 L["STRING_CRITICAL_ONLY"] = "치명타"
 L["STRING_CURRENT"] = "현재"
@@ -125,7 +126,7 @@ L["STRING_CUSTOM_ENEMY_DT"] = " 받은 피해"
 L["STRING_CUSTOM_EXPORT"] = "내보내기"
 L["STRING_CUSTOM_FUNC_INVALID"] = "사용자 설정 스크립트가 올바르지 않아서 창을 새로고치지 못했습니다."
 L["STRING_CUSTOM_HEALTHSTONE_DEFAULT"] = "치유 물약 & 생명석"
-L["STRING_CUSTOM_HEALTHSTONE_DEFAULT_DESC"] = "생명석이나 치유 물약을 사용한 공격대원을 보여줍니다."
+L["STRING_CUSTOM_HEALTHSTONE_DEFAULT_DESC"] = "생명석이나 치유 물약을 사용한 공격대원을 표시합니다."
 L["STRING_CUSTOM_ICON"] = "아이콘:"
 L["STRING_CUSTOM_IMPORT"] = "가져오기"
 L["STRING_CUSTOM_IMPORT_ALERT"] = "디스플레이를 불러왔습니다, 가져오기를 클릭하여 승인하세요."
@@ -134,7 +135,7 @@ L["STRING_CUSTOM_IMPORT_ERROR"] = "가져오기 실패, 유효하지 않은 구�
 L["STRING_CUSTOM_IMPORTED"] = "디스플레이를 성공적으로 가져왔습니다."
 L["STRING_CUSTOM_LONGNAME"] = "이름이 너무 깁니다, 최대 32자까지 가능합니다."
 L["STRING_CUSTOM_MYSPELLS"] = "내 주문"
-L["STRING_CUSTOM_MYSPELLS_DESC"] = "창에 주문을 표시합니다."
+L["STRING_CUSTOM_MYSPELLS_DESC"] = "창에 당신의 주문을 표시합니다."
 L["STRING_CUSTOM_NAME"] = "이름:"
 L["STRING_CUSTOM_NAME_DESC"] = "새로운 사용자 설정 디스플레이의 이름을 입력하세요."
 L["STRING_CUSTOM_NEW"] = "사용자 설정 디스플레이 관리"
@@ -201,90 +202,69 @@ L["STRING_FEEDBACK_PREFERED_SITE"] = "선호하는 커뮤니티 사이트를 선
 L["STRING_FEEDBACK_SEND_FEEDBACK"] = "피드백 보내기"
 L["STRING_FEEDBACK_WOWI_DESC"] = "Details! 프로젝트 페이지에 의견을 남깁니다."
 L["STRING_FIGHTNUMBER"] = "전투 #"
---Translation missing 
--- L["STRING_FORGE_BUTTON_ALLSPELLS"] = ""
---Translation missing 
--- L["STRING_FORGE_BUTTON_ALLSPELLS_DESC"] = ""
---Translation missing 
--- L["STRING_FORGE_BUTTON_BWTIMERS"] = ""
---Translation missing 
--- L["STRING_FORGE_BUTTON_BWTIMERS_DESC"] = ""
---Translation missing 
--- L["STRING_FORGE_BUTTON_DBMTIMERS"] = ""
---Translation missing 
--- L["STRING_FORGE_BUTTON_DBMTIMERS_DESC"] = ""
---Translation missing 
--- L["STRING_FORGE_BUTTON_ENCOUNTERSPELLS"] = ""
---Translation missing 
--- L["STRING_FORGE_BUTTON_ENCOUNTERSPELLS_DESC"] = ""
---Translation missing 
--- L["STRING_FORGE_BUTTON_ENEMIES"] = ""
---Translation missing 
--- L["STRING_FORGE_BUTTON_ENEMIES_DESC"] = ""
---Translation missing 
--- L["STRING_FORGE_BUTTON_PETS"] = ""
---Translation missing 
--- L["STRING_FORGE_BUTTON_PETS_DESC"] = ""
---Translation missing 
--- L["STRING_FORGE_BUTTON_PLAYERS"] = ""
---Translation missing 
--- L["STRING_FORGE_BUTTON_PLAYERS_DESC"] = ""
---Translation missing 
--- L["STRING_FORGE_ENABLEPLUGINS"] = ""
---Translation missing 
--- L["STRING_FORGE_FILTER_BARTEXT"] = ""
---Translation missing 
--- L["STRING_FORGE_FILTER_CASTERNAME"] = ""
---Translation missing 
--- L["STRING_FORGE_FILTER_ENCOUNTERNAME"] = ""
---Translation missing 
--- L["STRING_FORGE_FILTER_ENEMYNAME"] = ""
---Translation missing 
--- L["STRING_FORGE_FILTER_OWNERNAME"] = ""
---Translation missing 
--- L["STRING_FORGE_FILTER_PETNAME"] = ""
---Translation missing 
--- L["STRING_FORGE_FILTER_PLAYERNAME"] = ""
---Translation missing 
--- L["STRING_FORGE_FILTER_SPELLNAME"] = ""
---Translation missing 
--- L["STRING_FORGE_HEADER_BARTEXT"] = ""
---Translation missing 
--- L["STRING_FORGE_HEADER_CASTER"] = ""
---Translation missing 
--- L["STRING_FORGE_HEADER_CLASS"] = ""
---Translation missing 
--- L["STRING_FORGE_HEADER_CREATEAURA"] = ""
---Translation missing 
--- L["STRING_FORGE_HEADER_ENCOUNTERID"] = ""
---Translation missing 
--- L["STRING_FORGE_HEADER_ENCOUNTERNAME"] = ""
---Translation missing 
--- L["STRING_FORGE_HEADER_EVENT"] = ""
---Translation missing 
--- L["STRING_FORGE_HEADER_FLAG"] = ""
---Translation missing 
--- L["STRING_FORGE_HEADER_GUID"] = ""
---Translation missing 
--- L["STRING_FORGE_HEADER_ID"] = ""
---Translation missing 
--- L["STRING_FORGE_HEADER_INDEX"] = ""
---Translation missing 
--- L["STRING_FORGE_HEADER_NAME"] = ""
---Translation missing 
--- L["STRING_FORGE_HEADER_NPCID"] = ""
---Translation missing 
--- L["STRING_FORGE_HEADER_OWNER"] = ""
---Translation missing 
--- L["STRING_FORGE_HEADER_SCHOOL"] = ""
---Translation missing 
--- L["STRING_FORGE_HEADER_SPELLID"] = ""
---Translation missing 
--- L["STRING_FORGE_HEADER_TIMER"] = ""
+L["STRING_FORGE_BUTTON_ALLSPELLS"] = "모든 주문"
+L["STRING_FORGE_BUTTON_ALLSPELLS_DESC"] = "플레이어와 npc의 모든 주문을 나열합니다."
+L["STRING_FORGE_BUTTON_BWTIMERS"] = "BigWigs 타이머"
+L["STRING_FORGE_BUTTON_BWTIMERS_DESC"] = "BigWigs의 타이머를 나열합니다"
+L["STRING_FORGE_BUTTON_DBMTIMERS"] = "DBM 타이머"
+L["STRING_FORGE_BUTTON_DBMTIMERS_DESC"] = "Deadly Boss Mods의 타이머를 나열합니다"
+L["STRING_FORGE_BUTTON_ENCOUNTERSPELLS"] = "우두머리 주문"
+L["STRING_FORGE_BUTTON_ENCOUNTERSPELLS_DESC"] = "공격대와 던전 우두머리 전투 관련 주문만 나열합니다."
+L["STRING_FORGE_BUTTON_ENEMIES"] = "적"
+L["STRING_FORGE_BUTTON_ENEMIES_DESC"] = "현재 전투의 적을 나열합니다."
+L["STRING_FORGE_BUTTON_PETS"] = "소환수"
+L["STRING_FORGE_BUTTON_PETS_DESC"] = "현재 전투의 소환수를 나열합니다."
+L["STRING_FORGE_BUTTON_PLAYERS"] = "플레이어"
+L["STRING_FORGE_BUTTON_PLAYERS_DESC"] = "현재 전투의 플레이어를 나열합니다."
+L["STRING_FORGE_ENABLEPLUGINS"] = "\"게임 메뉴 > 애드온에서 공격대 이름의 Details! 플러그인을 켜주세요. 예. Details: Tomb of Sargeras.\""
+L["STRING_FORGE_FILTER_BARTEXT"] = "바 이름"
+L["STRING_FORGE_FILTER_CASTERNAME"] = "시전자 이름"
+L["STRING_FORGE_FILTER_ENCOUNTERNAME"] = "우두머리 전투 이름"
+L["STRING_FORGE_FILTER_ENEMYNAME"] = "적 이름"
+L["STRING_FORGE_FILTER_OWNERNAME"] = "소유자 이름"
+L["STRING_FORGE_FILTER_PETNAME"] = "소환수 이름"
+L["STRING_FORGE_FILTER_PLAYERNAME"] = "플레이어 이름"
+L["STRING_FORGE_FILTER_SPELLNAME"] = "주문 이름"
+L["STRING_FORGE_HEADER_BARTEXT"] = "바 문자"
+L["STRING_FORGE_HEADER_CASTER"] = "시전자"
+L["STRING_FORGE_HEADER_CLASS"] = "직업"
+L["STRING_FORGE_HEADER_CREATEAURA"] = "오라 만들기"
+L["STRING_FORGE_HEADER_ENCOUNTERID"] = "우두머리 전투 ID"
+L["STRING_FORGE_HEADER_ENCOUNTERNAME"] = "우두머리 전투 이름"
+L["STRING_FORGE_HEADER_EVENT"] = "이벤트"
+L["STRING_FORGE_HEADER_FLAG"] = "Flag"
+L["STRING_FORGE_HEADER_GUID"] = "GUID (글로벌 유닛 ID)"
+L["STRING_FORGE_HEADER_ICON"] = "아이콘"
+L["STRING_FORGE_HEADER_ID"] = "ID"
+L["STRING_FORGE_HEADER_INDEX"] = "순서"
+L["STRING_FORGE_HEADER_NAME"] = "이름"
+L["STRING_FORGE_HEADER_NPCID"] = "NpcID"
+L["STRING_FORGE_HEADER_OWNER"] = "소유자"
+L["STRING_FORGE_HEADER_SCHOOL"] = "속성"
+L["STRING_FORGE_HEADER_SPELLID"] = "주문ID"
+L["STRING_FORGE_HEADER_TIMER"] = "타이머"
+L["STRING_FORGE_TUTORIAL_DESC"] = "'|cFFFFFF00오라 만들기|r'를 클릭하여 오라를 만들기 위해 주문과 우두머리 모듈 타이머를 탐색하세요."
+L["STRING_FORGE_TUTORIAL_TITLE"] = "Details! Forge에 오신 걸 환영합니다"
+L["STRING_FORGE_TUTORIAL_VIDEO"] = "우두머리 모듈 타이머를 사용하는 오라의 예:"
 L["STRING_FREEZE"] = "이 세분화는 지금 사용할 수 없음"
 L["STRING_FROM"] = "출처:"
 L["STRING_GERAL"] = "일반"
 L["STRING_GLANCING"] = "빗맞음"
+L["STRING_GUILDDAMAGERANK_BOSS"] = "우두머리"
+L["STRING_GUILDDAMAGERANK_DATABASEERROR"] = "'|cFFFFFF00Details! Storage|r'를 여는 데 실패했습니다, 애드온이 비활성화 되어 있나요?"
+L["STRING_GUILDDAMAGERANK_DIFF"] = "난이도"
+L["STRING_GUILDDAMAGERANK_GUILD"] = "길드"
+L["STRING_GUILDDAMAGERANK_PLAYERBASE"] = "플레이어 기반"
+L["STRING_GUILDDAMAGERANK_PLAYERBASE_INDIVIDUAL"] = "개인 별"
+L["STRING_GUILDDAMAGERANK_PLAYERBASE_PLAYER"] = "플레이어"
+L["STRING_GUILDDAMAGERANK_PLAYERBASE_RAID"] = "모든 플레이어"
+L["STRING_GUILDDAMAGERANK_RAID"] = "공격대"
+L["STRING_GUILDDAMAGERANK_ROLE"] = "역할"
+L["STRING_GUILDDAMAGERANK_SHOWHISTORY"] = "기록 표시"
+L["STRING_GUILDDAMAGERANK_SHOWRANK"] = "길드 순위 표시"
+L["STRING_GUILDDAMAGERANK_SYNCBUTTONTEXT"] = "길드와 동기화"
+L["STRING_GUILDDAMAGERANK_TUTORIAL_DESC"] = "Details!가 길드로 진행한 각 우두머리 전투의 피해량과 치유량을 저장합니다.\\n\\n'|cFFFFFF00기록 표시|r'를 선택하여 기록을 탐색하세요, 모든 전투 결과가 표시됩니다.\\n '|cFFFFFF00길드 순위 표시|r'를 선택하면 선택한 우두머리의 상위 점수가 표시됩니다.\\n\\n이 도구를 처음 사용하거나 공격대 진행에 참여하지 않았다면  '|cFFFFFF00길드와 동기화|r' 버튼을 클릭하세요."
+L["STRING_GUILDDAMAGERANK_WINDOWALERT"] = "우두머리 처치! 순위 표시"
 L["STRING_HEAL"] = "치유"
 L["STRING_HEAL_ABSORBED"] = "흡수된 치유"
 L["STRING_HEAL_CRIT"] = "극대화 치유"
@@ -377,6 +357,7 @@ L["STRING_MIRROR_IMAGE"] = "미러 이미지"
 L["STRING_MISS"] = "빗나감"
 L["STRING_MODE_ALL"] = "전체"
 L["STRING_MODE_GROUP"] = "표준"
+L["STRING_MODE_OPENFORGE"] = "주문 목록"
 L["STRING_MODE_PLUGINS"] = "플러그인"
 L["STRING_MODE_RAID"] = "플러그인: 공격대"
 L["STRING_MODE_SELF"] = "플러그인: 솔로 플레이"
@@ -424,6 +405,8 @@ L["STRING_OPTIONS_ADVANCED"] = "고급"
 L["STRING_OPTIONS_ALPHAMOD_ANCHOR"] = "자동 숨기기:"
 L["STRING_OPTIONS_ALWAYS_USE"] = "모든 캐릭터에 사용"
 L["STRING_OPTIONS_ALWAYS_USE_DESC"] = "모든 캐릭터에 같은 프로필이 사용됩니다. 저장된 다른 프로필을 선택하면 어떤 캐릭터든 강제 적용됩니다."
+L["STRING_OPTIONS_ALWAYSSHOWPLAYERS"] = "모든 플레이어 표시"
+L["STRING_OPTIONS_ALWAYSSHOWPLAYERS_DESC"] = "기본 표준 모드를 사용 중일 때 당신과 파티/공격대 중이지 않은 플레이어 캐릭터를 표시합니다."
 L["STRING_OPTIONS_ANCHOR"] = "가장자리"
 L["STRING_OPTIONS_ANIMATEBARS"] = "바 애니메이션"
 L["STRING_OPTIONS_ANIMATEBARS_DESC"] = "모든 바에 애니메이션 효과를 줍니다."
@@ -669,6 +652,10 @@ L["STRING_OPTIONS_DEATHLIMIT"] = "죽음 이벤트 갯수"
 L["STRING_OPTIONS_DEATHLIMIT_DESC"] = [=[죽음 로그에 표시할 이벤트 갯수를 설정합니다.
 
 |cFFFFFF00중요|r: 변경 후 죽음부터 적용됩니다.]=]
+L["STRING_OPTIONS_DEATHLOG_MINHEALING"] = "죽음 기록 최소 치유"
+L["STRING_OPTIONS_DEATHLOG_MINHEALING_DESC"] = [=[이 임계치보다 낮은 치유는 죽음 로그에 표시하지 않습니다.
+
+|cFFFFFF00팁|r: 값을 직접 입력하려면 오른쪽 클릭하세요.]=]
 L["STRING_OPTIONS_DESATURATE_MENU"] = "색 없애기"
 L["STRING_OPTIONS_DESATURATE_MENU_DESC"] = "활성화하면 툴바에 있는 모든 메뉴 아이콘이 흑백으로 바뀝니다."
 L["STRING_OPTIONS_DISABLE_ALLDISPLAYSWINDOW"] = "'모든 디스플레이' 메뉴 비활성"
@@ -851,15 +838,15 @@ L["STRING_OPTIONS_OPEN_TEXT_EDITOR"] = "문자 편집기 열기"
 L["STRING_OPTIONS_OVERALL_ALL"] = "모든 세분화"
 L["STRING_OPTIONS_OVERALL_ALL_DESC"] = "모든 세분화를 종합 데이터에 추가합니다."
 L["STRING_OPTIONS_OVERALL_ANCHOR"] = "종합 데이터:"
-L["STRING_OPTIONS_OVERALL_CHALLENGE"] = "도전 모드(신화+) 시 초기화"
-L["STRING_OPTIONS_OVERALL_CHALLENGE_DESC"] = "활성화하면 도전 모드(신화+)를 시작할 때 자동으로 종합 데이터를 지웁니다."
 L["STRING_OPTIONS_OVERALL_DUNGEONBOSS"] = "던전 우두머리"
 L["STRING_OPTIONS_OVERALL_DUNGEONBOSS_DESC"] = "던전 우두머리 세분화를 종합 데이터에 추가합니다."
 L["STRING_OPTIONS_OVERALL_DUNGEONCLEAN"] = "던전 일반몹"
 L["STRING_OPTIONS_OVERALL_DUNGEONCLEAN_DESC"] = "던전 일반몹 정리 세분화를 종합 데이터에 추가합니다."
 L["STRING_OPTIONS_OVERALL_LOGOFF"] = "접속 종료시 초기화"
 L["STRING_OPTIONS_OVERALL_LOGOFF_DESC"] = "활성화하면 캐릭터를 접속 종료 시 자동으로 종합 데이터를 삭제합니다."
-L["STRING_OPTIONS_OVERALL_NEWBOSS"] = "새로운 우두머리에서 초기화"
+L["STRING_OPTIONS_OVERALL_MYTHICPLUS"] = "신화+를 시작할 때 초기화"
+L["STRING_OPTIONS_OVERALL_MYTHICPLUS_DESC"] = "활성화하면 새로운 신화+ 던전을 시작할 때 종합 데이터를 자동으로 삭제합니다."
+L["STRING_OPTIONS_OVERALL_NEWBOSS"] = "새로운 공격대 우두머리에서 초기화"
 L["STRING_OPTIONS_OVERALL_NEWBOSS_DESC"] = "활성화하면 다른 공격대 우두머리를 만났을 때 자동으로 종합 데이터를 초기화 합니다."
 L["STRING_OPTIONS_OVERALL_RAIDBOSS"] = "공격대 우두머리"
 L["STRING_OPTIONS_OVERALL_RAIDBOSS_DESC"] = "공격대 전투 세분화를 종합 데이터에 추가합니다."
@@ -968,8 +955,8 @@ L["STRING_OPTIONS_PVPFRAGS_DESC"] = "활성화하면 |cFFFFFF00피해 > 죽임|r
 L["STRING_OPTIONS_REALMNAME"] = "서버 이름 제거"
 L["STRING_OPTIONS_REALMNAME_DESC"] = [=[활성화하면 캐릭터의 서버 이름을 표시하지 않습니다.
 
-|cFFFFFF00비활성|r: Charles-데스윙
-|cFFFFFF00활성|r: Charles]=]
+|cFFFFFF00비활성|r: Voidlord-아즈샤라
+|cFFFFFF00활성|r: Voidlord]=]
 L["STRING_OPTIONS_REPORT_ANCHOR"] = "보고서:"
 L["STRING_OPTIONS_REPORT_HEALLINKS"] = "이로운 주문 링크"
 L["STRING_OPTIONS_REPORT_HEALLINKS_DESC"] = [=[이 옵션이 활성화된 상태에서 보고서를 전송하면 |cFF55FF55이로운|r 주문이 이름 대신 주문 링크로 보고됩니다.
@@ -1392,7 +1379,7 @@ L["STRING_OPTIONSMENU_ROWSETTINGS"] = "바: 일반"
 L["STRING_OPTIONSMENU_ROWTEXTS"] = "바: 문자"
 L["STRING_OPTIONSMENU_SKIN"] = "스킨 선택"
 L["STRING_OPTIONSMENU_SPELLS"] = "주문 사용자 설정"
-L["STRING_OPTIONSMENU_SPELLS_CONSOLIDATE"] = "같은 이름의 주문을 공통 주문으로 통합하기"
+L["STRING_OPTIONSMENU_SPELLS_CONSOLIDATE"] = "같은 이름의 공통 주문 통합"
 L["STRING_OPTIONSMENU_TITLETEXT"] = "제목 바: 문자"
 L["STRING_OPTIONSMENU_TOOLTIP"] = "툴팁"
 L["STRING_OPTIONSMENU_WALLPAPER"] = "창: 배경화면"
@@ -1441,7 +1428,7 @@ L["STRING_PLUGINOPTIONS_TEXTSIZE"] = "글꼴 크기"
 L["STRING_PLUGINOPTIONS_TEXTSTYLE"] = "문자 스타일"
 L["STRING_QUERY_INSPECT"] = "특성과 아이템 레벨을 요청합니다."
 L["STRING_QUERY_INSPECT_FAIL1"] = "전투 중에는 요청할 수 없습니다."
-L["STRING_QUERY_INSPECT_TALENTS"] = "클릭하여 검색하기"
+L["STRING_QUERY_INSPECT_REFRESH"] = "새로고침 필요"
 L["STRING_RAID_WIDE"] = "[*] 공격대 단위 생존기"
 L["STRING_RAIDCHECK_PLUGIN_DESC"] = "공격대 던전에 있을 때, Details! 제목 바 위에 영약, 음식, 시작물약 사용을 보여주는 아이콘을 표시합니다."
 L["STRING_RAIDCHECK_PLUGIN_NAME"] = "공격대 확인"
@@ -1500,9 +1487,14 @@ L["STRING_SEGMENT_ENEMY"] = "적"
 L["STRING_SEGMENT_LOWER"] = "세분화"
 L["STRING_SEGMENT_OVERALL"] = "종합 데이터"
 L["STRING_SEGMENT_START"] = "시작"
-L["STRING_SEGMENT_TIME"] = "시간"
 L["STRING_SEGMENT_TRASH"] = "일반몹 정리"
 L["STRING_SEGMENTS"] = "세분화"
+L["STRING_SEGMENTS_LIST_BOSS"] = "우두머리 전투"
+L["STRING_SEGMENTS_LIST_COMBATTIME"] = "전투 시간"
+L["STRING_SEGMENTS_LIST_OVERALL"] = "종합"
+L["STRING_SEGMENTS_LIST_TIMEINCOMBAT"] = "전투 참여 시간"
+L["STRING_SEGMENTS_LIST_TOTALTIME"] = "전체 시간"
+L["STRING_SEGMENTS_LIST_TRASH"] = "일반몹"
 L["STRING_SHIELD_HEAL"] = "막음"
 L["STRING_SHIELD_OVERHEAL"] = "낭비됨"
 L["STRING_SHORTCUT_RIGHTCLICK"] = "오른쪽 클릭으로 닫기"
@@ -1537,6 +1529,7 @@ L["STRING_SLASH_WIPECONFIG_DESC"] = "모든 설정을 기본값으로 돌립니�
 L["STRING_SLASH_WORLDBOSS"] = "worldboss"
 L["STRING_SLASH_WORLDBOSS_DESC"] = "이번 주에 처치한 우두머리를 보여주는 매크로를 실행합니다."
 L["STRING_SPELL_INTERRUPTED"] = "시전 방해된 주문"
+L["STRING_SPELLLIST"] = "주문 목록"
 L["STRING_SPELLS"] = "주문"
 L["STRING_SPIRIT_LINK_TOTEM"] = "생명력 교환"
 L["STRING_SPIRIT_LINK_TOTEM_DESC"] = [=[토템 범위 안의 플레이어들 간에
@@ -1544,6 +1537,7 @@ L["STRING_SPIRIT_LINK_TOTEM_DESC"] = [=[토템 범위 안의 플레이어들 간
 
 이 치유는 플레이어의 전체 치유량에
 합산되지 않습니다.]=]
+L["STRING_STATISTICS"] = "통계"
 L["STRING_STATUSBAR_NOOPTIONS"] = "이 위젯은 옵션이 없습니다."
 L["STRING_SWITCH_CLICKME"] = "북마크 추가"
 L["STRING_SWITCH_SELECTMSG"] = "북마크 #%d의 디스플레이를 선택하세요."

@@ -1,5 +1,5 @@
 --Credit Baudzilla
-local E, L, V, P, G = unpack(select(2, ...)); --Inport: Engine, Locales, PrivateDB, ProfileDB, GlobalDB
+local E, L, V, P, G = unpack(select(2, ...)); --Import: Engine, Locales, PrivateDB, ProfileDB, GlobalDB
 local M = E:GetModule('Misc');
 
 --Cache global variables
@@ -77,7 +77,7 @@ function M:RaidMarkButton_OnLeave()
 end
 
 function M:RaidMarkButton_OnClick(arg1)
-	PlaySound("UChatScrollButton");
+	PlaySound(1115) --U_CHAT_SCROLL_BUTTON
 	SetRaidTarget("target", (arg1~="RightButton") and self:GetID() or 0);
 	self:GetParent():Hide();
 end

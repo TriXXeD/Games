@@ -1,12 +1,22 @@
-tag c7f52071ca37d0a82bb3cba7c0cc13f45eafd8f0 v1.7.4
-Author:	Navv <navv1234@gmail.com>
-Date:	Tue Jun 13 20:39:17 2017 +0300
+lightweight tag df729f159abfad4943627229eed572147b63c188 v1.9.1
+Author:	Dave Hendler <sollaires@gmail.com>
+Date:	Tue Jan 30 14:42:35 2018 -0800
 
-v1.7.4
+commit df729f159abfad4943627229eed572147b63c188
+Author: Dave Hendler <sollaires@gmail.com>
+Date:   Tue Jan 30 14:42:35 2018 -0800
 
-commit 15ff35bf265da1ad52e1550c49091ae3e03f53e1
-Author: Navv <navv1234@gmail.com>
-Date:   Tue Jun 13 20:38:13 2017 +0300
+    Update release version
 
-    Fix sanity checks. Update toc.
+commit 0498a3f7f1923c5a23104e0129ec810f61935890
+Author: Dave Hendler <sollaires@gmail.com>
+Date:   Tue Jan 30 14:42:24 2018 -0800
+
+    Make spacing more consistent
+
+commit 332e6998f217bdd89d129255cfba88f38e126bce
+Author: Dave Hendler <sollaires@gmail.com>
+Date:   Tue Jan 30 14:40:58 2018 -0800
+
+    Fix dumb typo of variable name
 

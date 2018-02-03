@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0204,
+	["LastVersion"] = 2.0217,
 	["LastPlayerFullName"] = "Trïxxed-Ravencrest",
 	["AutoSelectScales"] = false,
 	["UpgradeTracking"] = false,
@@ -8,14 +8,15 @@ PawnOptions = {
 		[128403] = {
 			["Relics"] = {
 				{
-					["ItemLevel"] = 40,
+					["ItemLevel"] = 64,
 					["Type"] = "Fire",
 				}, -- [1]
 				{
+					["ItemLevel"] = 65,
 					["Type"] = "Shadow",
 				}, -- [2]
 				{
-					["ItemLevel"] = 36,
+					["ItemLevel"] = 56,
 					["Type"] = "Blood",
 				}, -- [3]
 			},
@@ -24,15 +25,15 @@ PawnOptions = {
 		[128402] = {
 			["Relics"] = {
 				{
-					["ItemLevel"] = 43,
+					["ItemLevel"] = 62,
 					["Type"] = "Blood",
 				}, -- [1]
 				{
-					["ItemLevel"] = 49,
+					["ItemLevel"] = 64,
 					["Type"] = "Shadow",
 				}, -- [2]
 				{
-					["ItemLevel"] = 48,
+					["ItemLevel"] = 61,
 					["Type"] = "Iron",
 				}, -- [3]
 			},
@@ -41,15 +42,15 @@ PawnOptions = {
 		[128292] = {
 			["Relics"] = {
 				{
-					["ItemLevel"] = 46,
+					["ItemLevel"] = 61,
 					["Type"] = "Frost",
 				}, -- [1]
 				{
-					["ItemLevel"] = 40,
+					["ItemLevel"] = 64,
 					["Type"] = "Shadow",
 				}, -- [2]
 				{
-					["ItemLevel"] = 46,
+					["ItemLevel"] = 61,
 					["Type"] = "Frost",
 				}, -- [3]
 			},

@@ -24,10 +24,12 @@ EasyObliterate_Data = {
 			},
 		},
 	},
-	["addonVersion"] = 26,
+	["addonVersion"] = 30,
 	["addonSettings"] = {
+		["ignoreWardrobeItems"] = false,
+		["showTooltip"] = true,
 		["showAshStats"] = true,
 		["ashTextLocalized"] = "Obliterum Ash",
-		["showTooltip"] = true,
+		["show0AshMessage"] = true,
 	},
 }

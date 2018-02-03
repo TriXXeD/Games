@@ -25,21 +25,15 @@ if not L then return end
 --Translation missing 
 -- L["A tab delimited output for Excel. Might work with other spreadsheets."] = ""
 --Translation missing 
--- L["A tab delimited output for Excel. Might work with outher spreadsheets."] = ""
---Translation missing 
 -- L["Abort"] = ""
 --Translation missing 
 -- L["Accept Whispers"] = ""
 --Translation missing 
 -- L["accept_whispers_desc"] = ""
 --Translation missing 
--- L["Acknowledged as 'response'"] = ""
---Translation missing 
 -- L["Active"] = ""
 --Translation missing 
 -- L["active_desc"] = ""
---Translation missing 
--- L["add"] = ""
 --Translation missing 
 -- L["Add Item"] = ""
 --Translation missing 
@@ -49,13 +43,21 @@ if not L then return end
 --Translation missing 
 -- L["Add rolls"] = ""
 --Translation missing 
+-- L["Add Rolls"] = ""
+--Translation missing 
 -- L["add_ranks_desc"] = ""
 --Translation missing 
 -- L["add_ranks_desc2"] = ""
 --Translation missing 
+-- L["add_rolls_desc"] = ""
+--Translation missing 
 -- L["All items"] = ""
 --Translation missing 
 -- L["All items has been awarded and  the loot session concluded"] = ""
+--Translation missing 
+-- L["All items usable by the candidate"] = ""
+--Translation missing 
+-- L["All unawarded items"] = ""
 --Translation missing 
 -- L["Alt click Looting"] = ""
 --Translation missing 
@@ -67,9 +69,25 @@ if not L then return end
 --Translation missing 
 -- L["Always use when leader"] = ""
 --Translation missing 
+-- L["always_show_tooltip_howto"] = ""
+--Translation missing 
 -- L["Announce Awards"] = ""
 --Translation missing 
 -- L["Announce Considerations"] = ""
+--Translation missing 
+-- L["announce_&i_desc"] = ""
+--Translation missing 
+-- L["announce_&l_desc"] = ""
+--Translation missing 
+-- L["announce_&n_desc"] = ""
+--Translation missing 
+-- L["announce_&p_desc"] = ""
+--Translation missing 
+-- L["announce_&r_desc"] = ""
+--Translation missing 
+-- L["announce_&s_desc"] = ""
+--Translation missing 
+-- L["announce_&t_desc"] = ""
 --Translation missing 
 -- L["announce_awards_desc"] = ""
 --Translation missing 
@@ -79,19 +97,23 @@ if not L then return end
 --Translation missing 
 -- L["announce_considerations_desc2"] = ""
 --Translation missing 
+-- L["announce_item_string_desc"] = ""
+--Translation missing 
 -- L["Announcements"] = ""
 --Translation missing 
 -- L["Anonymous Voting"] = ""
 --Translation missing 
 -- L["anonymous_voting_desc"] = ""
 --Translation missing 
--- L["Appearance"] = ""
---Translation missing 
 -- L["Append realm names"] = ""
 --Translation missing 
 -- L["Are you sure you want to abort?"] = ""
 --Translation missing 
 -- L["Are you sure you want to give #item to #player?"] = ""
+--Translation missing 
+-- L["Are you sure you want to reannounce all unawarded items to %s?"] = ""
+--Translation missing 
+-- L["Are you sure you want to request rolls for all unawarded items from %s?"] = ""
 --Translation missing 
 -- L["Armor Token"] = ""
 --Translation missing 
@@ -111,13 +133,13 @@ if not L then return end
 --Translation missing 
 -- L["Auto extracted from whisper"] = ""
 --Translation missing 
--- L["Auto Loot"] = ""
---Translation missing 
 -- L["Auto Open"] = ""
 --Translation missing 
 -- L["Auto Pass"] = ""
 --Translation missing 
 -- L["Auto pass BoE"] = ""
+--Translation missing 
+-- L["Auto Pass Trinkets"] = ""
 --Translation missing 
 -- L["Auto Start"] = ""
 --Translation missing 
@@ -137,11 +159,19 @@ if not L then return end
 --Translation missing 
 -- L["auto_pass_desc"] = ""
 --Translation missing 
+-- L["auto_pass_trinket_desc"] = ""
+--Translation missing 
 -- L["auto_start_desc"] = ""
+--Translation missing 
+-- L["Autoloot all BoE"] = ""
 --Translation missing 
 -- L["Autoloot BoE"] = ""
 --Translation missing 
 -- L["autoloot_BoE_desc"] = ""
+--Translation missing 
+-- L["autoloot_others_BoE_desc"] = ""
+--Translation missing 
+-- L["autoloot_others_item_combat"] = ""
 --Translation missing 
 -- L["Autopass"] = ""
 --Translation missing 
@@ -157,11 +187,19 @@ if not L then return end
 --Translation missing 
 -- L["Award for ..."] = ""
 --Translation missing 
+-- L["Award later"] = ""
+--Translation missing 
+-- L["Award later isn't supported when testing."] = ""
+--Translation missing 
 -- L["Award later?"] = ""
 --Translation missing 
 -- L["Award Reasons"] = ""
 --Translation missing 
 -- L["award_reasons_desc"] = ""
+--Translation missing 
+-- L["Awarded"] = ""
+--Translation missing 
+-- L["Awarded item cannot be awarded later."] = ""
 --Translation missing 
 -- L["Awards"] = ""
 --Translation missing 
@@ -183,8 +221,6 @@ if not L then return end
 --Translation missing 
 -- L["buttons_and_responses_desc"] = ""
 --Translation missing 
--- L["Cancel"] = ""
---Translation missing 
 -- L["Candidate didn't respond on time"] = ""
 --Translation missing 
 -- L["Candidate has disabled RCLootCouncil"] = ""
@@ -195,9 +231,13 @@ if not L then return end
 --Translation missing 
 -- L["Candidate removed"] = ""
 --Translation missing 
+-- L["Candidates that can't use the item"] = ""
+--Translation missing 
 -- L["Cannot autoaward:"] = ""
 --Translation missing 
 -- L["Cannot give 'item' to 'player' due to Blizzard limitations. Gave it to you for distribution."] = ""
+--Translation missing 
+-- L["Change Award"] = ""
 --Translation missing 
 -- L["Change Response"] = ""
 --Translation missing 
@@ -205,15 +245,35 @@ if not L then return end
 --Translation missing 
 -- L["Changing LootMethod to Master Looting"] = ""
 --Translation missing 
--- L["Channel"] = ""
---Translation missing 
 -- L["channel_desc"] = ""
 --Translation missing 
 -- L["chat tVersion string"] = ""
 --Translation missing 
 -- L["chat version String"] = ""
 --Translation missing 
--- L["chat_commands"] = ""
+-- L["chat_commands_add"] = ""
+--Translation missing 
+-- L["chat_commands_award"] = ""
+--Translation missing 
+-- L["chat_commands_config"] = ""
+--Translation missing 
+-- L["chat_commands_council"] = ""
+--Translation missing 
+-- L["chat_commands_history"] = ""
+--Translation missing 
+-- L["chat_commands_open"] = ""
+--Translation missing 
+-- L["chat_commands_reset"] = ""
+--Translation missing 
+-- L["chat_commands_sync"] = ""
+--Translation missing 
+-- L["chat_commands_test"] = ""
+--Translation missing 
+-- L["chat_commands_version"] = ""
+--Translation missing 
+-- L["chat_commands_whisper"] = ""
+--Translation missing 
+-- L["chat_commands_winners"] = ""
 --Translation missing 
 -- L["Check this to loot the items and distribute them later."] = ""
 --Translation missing 
@@ -233,15 +293,19 @@ if not L then return end
 --Translation missing 
 -- L["Click to add note to send to the council."] = ""
 --Translation missing 
+-- L["Click to change your note."] = ""
+--Translation missing 
 -- L["Click to expand/collapse more info"] = ""
 --Translation missing 
 -- L["Click to switch to 'item'"] = ""
 --Translation missing 
--- L["Close"] = ""
---Translation missing 
 -- L["config"] = ""
 --Translation missing 
+-- L["confirm_award_later_text"] = ""
+--Translation missing 
 -- L["confirm_usage_text"] = ""
+--Translation missing 
+-- L["Conqueror Token"] = ""
 --Translation missing 
 -- L["Could not Auto Award i because the Loot Threshold is too high!"] = ""
 --Translation missing 
@@ -261,6 +325,8 @@ if not L then return end
 --Translation missing 
 -- L["customize_appearance_desc"] = ""
 --Translation missing 
+-- L["Data Received"] = ""
+--Translation missing 
 -- L["Date"] = ""
 --Translation missing 
 -- L["days and x months"] = ""
@@ -275,21 +341,29 @@ if not L then return end
 --Translation missing 
 -- L["Diff"] = ""
 --Translation missing 
--- L["Disenchant"] = ""
---Translation missing 
 -- L["disenchant_desc"] = ""
+--Translation missing 
+-- L["Done syncing"] = ""
 --Translation missing 
 -- L["Double click to delete this entry."] = ""
 --Translation missing 
--- L["DPS"] = ""
---Translation missing 
 -- L["Dropped by:"] = ""
 --Translation missing 
+-- L["Edit Entry"] = ""
+--Translation missing 
 -- L["Enable Loot History"] = ""
+--Translation missing 
+-- L["Enable Relic Buttons"] = ""
+--Translation missing 
+-- L["Enable Tier Buttons"] = ""
 --Translation missing 
 -- L["Enable Timeout"] = ""
 --Translation missing 
 -- L["enable_loot_history_desc"] = ""
+--Translation missing 
+-- L["enable_relicbuttons_desc"] = ""
+--Translation missing 
+-- L["enable_tierbuttons_desc"] = ""
 --Translation missing 
 -- L["enable_timeout_desc"] = ""
 --Translation missing 
@@ -301,25 +375,21 @@ if not L then return end
 --Translation missing 
 -- L["Export"] = ""
 --Translation missing 
--- L["Filter"] = ""
+-- L["Following items were registered in the award later list:"] = ""
 --Translation missing 
 -- L["Following winners was registered:"] = ""
 --Translation missing 
--- L["Free"] = ""
+-- L["Frame options"] = ""
 --Translation missing 
--- L["From:"] = ""
+-- L["Free"] = ""
 --Translation missing 
 -- L["g1"] = ""
 --Translation missing 
 -- L["g2"] = ""
 --Translation missing 
--- L["General"] = ""
+-- L["Gave the item to you for distribution."] = ""
 --Translation missing 
 -- L["General options"] = ""
---Translation missing 
--- L["Greed"] = ""
---Translation missing 
--- L["Group"] = ""
 --Translation missing 
 -- L["Group Council Members"] = ""
 --Translation missing 
@@ -327,19 +397,15 @@ if not L then return end
 --Translation missing 
 -- L["group_council_members_head"] = ""
 --Translation missing 
--- L["Guild"] = ""
---Translation missing 
 -- L["Guild Council Members"] = ""
---Translation missing 
--- L["Healer"] = ""
---Translation missing 
--- L["help"] = ""
 --Translation missing 
 -- L["Hide Votes"] = ""
 --Translation missing 
 -- L["hide_votes_desc"] = ""
 --Translation missing 
--- L["history"] = ""
+-- L["How to sync"] = ""
+--Translation missing 
+-- L["huge_export_desc"] = ""
 --Translation missing 
 -- L["Ignore List"] = ""
 --Translation missing 
@@ -353,17 +419,23 @@ if not L then return end
 --Translation missing 
 -- L["ignore_options_desc"] = ""
 --Translation missing 
--- L["ilvl"] = ""
---Translation missing 
--- L["ilvl: x"] = ""
+-- L["import_desc"] = ""
 --Translation missing 
 -- L["Item"] = ""
 --Translation missing 
--- L["Item has been awarded"] = ""
+-- L["'Item' is added to the award later list."] = ""
+--Translation missing 
+-- L["Item quality is below the loot threshold"] = ""
 --Translation missing 
 -- L["Item received and added from 'player'"] = ""
 --Translation missing 
+-- L["Item was awarded to"] = ""
+--Translation missing 
 -- L["Item(s) replaced:"] = ""
+--Translation missing 
+-- L["item_in_bags_low_trade_time_remaining_reminder"] = ""
+--Translation missing 
+-- L["Items stored in the loot master's bag for award later cannot be awarded later."] = ""
 --Translation missing 
 -- L["Items under consideration:"] = ""
 --Translation missing 
@@ -389,8 +461,6 @@ if not L then return end
 --Translation missing 
 -- L["loot_history_desc"] = ""
 --Translation missing 
--- L["Looted items to award later"] = ""
---Translation missing 
 -- L["Looting options"] = ""
 --Translation missing 
 -- L["Lower Quality Limit"] = ""
@@ -405,6 +475,8 @@ if not L then return end
 --Translation missing 
 -- L["Message"] = ""
 --Translation missing 
+-- L["Message for each item"] = ""
+--Translation missing 
 -- L["message_desc"] = ""
 --Translation missing 
 -- L["Minimize in combat"] = ""
@@ -414,6 +486,10 @@ if not L then return end
 -- L["ML sees voting"] = ""
 --Translation missing 
 -- L["ml_sees_voting_desc"] = ""
+--Translation missing 
+-- L["module_tVersion_outdated_msg"] = ""
+--Translation missing 
+-- L["module_version_outdated_msg"] = ""
 --Translation missing 
 -- L["Modules"] = ""
 --Translation missing 
@@ -427,25 +503,23 @@ if not L then return end
 --Translation missing 
 -- L["'n days' ago"] = ""
 --Translation missing 
--- L["Name"] = ""
---Translation missing 
--- L["Need"] = ""
---Translation missing 
 -- L["Never use RCLootCouncil"] = ""
 --Translation missing 
--- L["No"] = ""
+-- L["new_ml_bagged_items_reminder"] = ""
 --Translation missing 
 -- L["No (dis)enchanters found"] = ""
 --Translation missing 
 -- L["No entries in the Loot History"] = ""
 --Translation missing 
+-- L["No entry in the award later list is removed."] = ""
+--Translation missing 
 -- L["No items to award later registered"] = ""
+--Translation missing 
+-- L["No recipients available"] = ""
 --Translation missing 
 -- L["No session running"] = ""
 --Translation missing 
 -- L["No winners registered"] = ""
---Translation missing 
--- L["None"] = ""
 --Translation missing 
 -- L["Not announced"] = ""
 --Translation missing 
@@ -453,11 +527,9 @@ if not L then return end
 --Translation missing 
 -- L["Not Found"] = ""
 --Translation missing 
+-- L["Not in your guild"] = ""
+--Translation missing 
 -- L["Not installed"] = ""
---Translation missing 
--- L["Note"] = ""
---Translation missing 
--- L["Note: Huge exports will cause lag."] = ""
 --Translation missing 
 -- L["Notes"] = ""
 --Translation missing 
@@ -466,6 +538,8 @@ if not L then return end
 -- L["Now handles looting"] = ""
 --Translation missing 
 -- L["Number of buttons"] = ""
+--Translation missing 
+-- L["Number of raids received loot from:"] = ""
 --Translation missing 
 -- L["Number of reasons"] = ""
 --Translation missing 
@@ -478,8 +552,6 @@ if not L then return end
 -- L["Observe"] = ""
 --Translation missing 
 -- L["observe_desc"] = ""
---Translation missing 
--- L["Officer"] = ""
 --Translation missing 
 -- L["Offline or RCLootCouncil not installed"] = ""
 --Translation missing 
@@ -495,23 +567,43 @@ if not L then return end
 --Translation missing 
 -- L["open_the_loot_history_desc"] = ""
 --Translation missing 
+-- L["Opens the synchronizer"] = ""
+--Translation missing 
 -- L["Other piece"] = ""
 --Translation missing 
--- L["Party"] = ""
+-- L["'player' can't receive 'type'"] = ""
 --Translation missing 
--- L["Pass"] = ""
+-- L["'player' declined your sync request"] = ""
 --Translation missing 
 -- L["'player' has asked you to reroll"] = ""
 --Translation missing 
 -- L["'player' has ended the session"] = ""
 --Translation missing 
--- L["Raid"] = ""
+-- L["'player' has rolled 'roll' for: 'item'"] = ""
 --Translation missing 
--- L["Raid Warning"] = ""
+-- L["'player' hasn't opened the sync window"] = ""
 --Translation missing 
--- L["Rank"] = ""
+-- L["Player is not in the group"] = ""
+--Translation missing 
+-- L["Player is not in this instance or his inventory is full"] = ""
+--Translation missing 
+-- L["Player is not in this instance or is ineligible for this item"] = ""
+--Translation missing 
+-- L["Player is offline"] = ""
+--Translation missing 
+-- L["Please wait a few seconds until all data has been synchronized."] = ""
+--Translation missing 
+-- L["Please wait before trying to sync again."] = ""
+--Translation missing 
+-- L["Print Responses"] = ""
+--Translation missing 
+-- L["print_response_desc"] = ""
+--Translation missing 
+-- L["Protector Token"] = ""
 --Translation missing 
 -- L["Raw lua output. Doesn't work well with date selection."] = ""
+--Translation missing 
+-- L["RCLootCouncil - Synchronizer"] = ""
 --Translation missing 
 -- L["RCLootCouncil Loot Frame"] = ""
 --Translation missing 
@@ -523,11 +615,19 @@ if not L then return end
 --Translation missing 
 -- L["RCLootCouncil Voting Frame"] = ""
 --Translation missing 
+-- L["rclootcouncil_trade_add_item_confirm"] = ""
+--Translation missing 
 -- L["Reannounce ..."] = ""
+--Translation missing 
+-- L["Reannounced 'item' to 'target'"] = ""
 --Translation missing 
 -- L["Reason"] = ""
 --Translation missing 
 -- L["reason_desc"] = ""
+--Translation missing 
+-- L["Relic Buttons and Responses"] = ""
+--Translation missing 
+-- L["relic_buttons_desc"] = ""
 --Translation missing 
 -- L["Remove All"] = ""
 --Translation missing 
@@ -535,13 +635,11 @@ if not L then return end
 --Translation missing 
 -- L["remove_all_desc"] = ""
 --Translation missing 
--- L["reset"] = ""
+-- L["Requested rolls for 'item' from 'target'"] = ""
 --Translation missing 
 -- L["Reset Skin"] = ""
 --Translation missing 
 -- L["Reset skins"] = ""
---Translation missing 
--- L["Reset to default"] = ""
 --Translation missing 
 -- L["reset_announce_to_default_desc"] = ""
 --Translation missing 
@@ -557,21 +655,25 @@ if not L then return end
 --Translation missing 
 -- L["Response color"] = ""
 --Translation missing 
+-- L["Response isn't available. Please upgrade RCLootCouncil."] = ""
+--Translation missing 
+-- L["Response options"] = ""
+--Translation missing 
+-- L["Response to 'item'"] = ""
+--Translation missing 
+-- L["Response to 'item' acknowledged as 'response'"] = ""
+--Translation missing 
 -- L["response_color_desc"] = ""
+--Translation missing 
+-- L["Responses"] = ""
 --Translation missing 
 -- L["Responses from Chat"] = ""
 --Translation missing 
 -- L["responses_from_chat_desc"] = ""
 --Translation missing 
--- L["Role"] = ""
---Translation missing 
--- L["Roll"] = ""
---Translation missing 
 -- L["Save Skin"] = ""
 --Translation missing 
 -- L["save_skin_desc"] = ""
---Translation missing 
--- L["Say"] = ""
 --Translation missing 
 -- L["Self Vote"] = ""
 --Translation missing 
@@ -581,15 +683,25 @@ if not L then return end
 --Translation missing 
 -- L["send_history_desc"] = ""
 --Translation missing 
+-- L["Sending 'type' to 'player'..."] = ""
+--Translation missing 
 -- L["Sent whisper help to 'player'"] = ""
 --Translation missing 
 -- L["session_error"] = ""
+--Translation missing 
+-- L["session_help_from_bag"] = ""
+--Translation missing 
+-- L["session_help_not_direct"] = ""
 --Translation missing 
 -- L["Set the text for button i's response."] = ""
 --Translation missing 
 -- L["Set the text on button 'number'"] = ""
 --Translation missing 
 -- L["Set the whisper keys for button i."] = ""
+--Translation missing 
+-- L["Show Spec Icon"] = ""
+--Translation missing 
+-- L["show_spec_icon_desc"] = ""
 --Translation missing 
 -- L["Silent Auto Pass"] = ""
 --Translation missing 
@@ -601,21 +713,33 @@ if not L then return end
 --Translation missing 
 -- L["skins_description"] = ""
 --Translation missing 
+-- L["Socket"] = ""
+--Translation missing 
 -- L["Something went wrong :'("] = ""
+--Translation missing 
+-- L["Something went wrong during syncing, please try again."] = ""
+--Translation missing 
+-- L["Sort Items"] = ""
+--Translation missing 
+-- L["sort_items_desc"] = ""
 --Translation missing 
 -- L["Standard .csv output."] = ""
 --Translation missing 
--- L["Start"] = ""
---Translation missing 
 -- L["Status texts"] = ""
+--Translation missing 
+-- L["Store in bag and award later"] = ""
 --Translation missing 
 -- L["Successfully imported 'number' entries."] = ""
 --Translation missing 
--- L["Tank"] = ""
+-- L["Successfully received 'type' from 'player'"] = ""
 --Translation missing 
--- L["Test"] = ""
+-- L["Sync"] = ""
+--Translation missing 
+-- L["sync_detailed_description"] = ""
 --Translation missing 
 -- L["test"] = ""
+--Translation missing 
+-- L["Test"] = ""
 --Translation missing 
 -- L["test_desc"] = ""
 --Translation missing 
@@ -625,11 +749,25 @@ if not L then return end
 --Translation missing 
 -- L["text_color_desc"] = ""
 --Translation missing 
+-- L["The award later list has been cleared."] = ""
+--Translation missing 
+-- L["The award later list is empty."] = ""
+--Translation missing 
 -- L["The following council members have voted"] = ""
+--Translation missing 
+-- L["The following entries are removed from the award later list:"] = ""
+--Translation missing 
+-- L["The following items are removed from the award later list and traded to 'player'"] = ""
+--Translation missing 
+-- L["The item can only be looted by you but it is not bind on pick up"] = ""
+--Translation missing 
+-- L["The item will be awarded later"] = ""
 --Translation missing 
 -- L["The item would now be awarded to 'player'"] = ""
 --Translation missing 
 -- L["The loot is already on the list"] = ""
+--Translation missing 
+-- L["The loot master"] = ""
 --Translation missing 
 -- L["The Master Looter doesn't allow multiple votes."] = ""
 --Translation missing 
@@ -645,11 +783,17 @@ if not L then return end
 --Translation missing 
 -- L["Tier 20"] = ""
 --Translation missing 
+-- L["Tier 21"] = ""
+--Translation missing 
+-- L["Tier Buttons and Responses"] = ""
+--Translation missing 
 -- L["Tier Piece that doesn't complete a set"] = ""
 --Translation missing 
 -- L["Tier Tokens ..."] = ""
 --Translation missing 
 -- L["Tier tokens received from here:"] = ""
+--Translation missing 
+-- L["tier_buttons_desc"] = ""
 --Translation missing 
 -- L["tier_token_heroic"] = ""
 --Translation missing 
@@ -659,9 +803,11 @@ if not L then return end
 --Translation missing 
 -- L["Time"] = ""
 --Translation missing 
--- L["Time left (num seconds)"] = ""
---Translation missing 
 -- L["Timeout"] = ""
+--Translation missing 
+-- L["Timeout when giving 'item' to 'player'"] = ""
+--Translation missing 
+-- L["To target"] = ""
 --Translation missing 
 -- L["Tokens received"] = ""
 --Translation missing 
@@ -671,25 +817,23 @@ if not L then return end
 --Translation missing 
 -- L["Total items won:"] = ""
 --Translation missing 
--- L["Totals"] = ""
---Translation missing 
 -- L["tVersion_outdated_msg"] = ""
+--Translation missing 
+-- L["Unable to give 'item' to 'player'"] = ""
 --Translation missing 
 -- L["Unable to give 'item' to 'player' - (player offline, left group or instance?)"] = ""
 --Translation missing 
 -- L["Unable to give out loot without the loot window open."] = ""
 --Translation missing 
--- L["Unguilded"] = ""
+-- L["Unawarded"] = ""
 --Translation missing 
--- L["Unknown"] = ""
+-- L["Unguilded"] = ""
 --Translation missing 
 -- L["Unknown date"] = ""
 --Translation missing 
 -- L["Unknown/Chest"] = ""
 --Translation missing 
 -- L["Unvote"] = ""
---Translation missing 
--- L["Upgrade"] = ""
 --Translation missing 
 -- L["Upgrade to existing tier/random upgrade"] = ""
 --Translation missing 
@@ -700,6 +844,8 @@ if not L then return end
 -- L["Usage"] = ""
 --Translation missing 
 -- L["Usage Options"] = ""
+--Translation missing 
+-- L["Vanquisher Token"] = ""
 --Translation missing 
 -- L["version"] = ""
 --Translation missing 
@@ -719,11 +865,7 @@ if not L then return end
 --Translation missing 
 -- L["Voting options"] = ""
 --Translation missing 
--- L["Waiting for item info"] = ""
---Translation missing 
 -- L["Waiting for response"] = ""
---Translation missing 
--- L["whisper"] = ""
 --Translation missing 
 -- L["whisper_guide"] = ""
 --Translation missing 
@@ -745,10 +887,6 @@ if not L then return end
 --Translation missing 
 -- L["x out of x have voted"] = ""
 --Translation missing 
--- L["Yell"] = ""
---Translation missing 
--- L["Yes"] = ""
---Translation missing 
 -- L["You are not allowed to see the Voting Frame right now."] = ""
 --Translation missing 
 -- L["You can only auto award items with a quality lower than 'quality' to yourself due to Blizaard restrictions"] = ""
@@ -768,6 +906,8 @@ if not L then return end
 -- L["You haven't selected an award reason to use for disenchanting!"] = ""
 --Translation missing 
 -- L["You haven't set a council! You can edit your council by typing '/rc council'"] = ""
+--Translation missing 
+-- L["You must select a target"] = ""
 --Translation missing 
 -- L["Your note:"] = ""
 --Translation missing 

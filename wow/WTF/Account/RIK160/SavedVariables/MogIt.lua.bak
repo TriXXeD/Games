@@ -1,8 +1,5 @@
 
 MogItDB = {
-	["global"] = {
-		["version"] = "3.8.1",
-	},
 	["profileKeys"] = {
 		["Wonderwonder - Draenor"] = "Default",
 		["Tríxxed - Laughing Skull"] = "Default",
@@ -11,19 +8,23 @@ MogItDB = {
 		["Daemonikos - Ravencrest"] = "Default",
 		["Trixxedbank - Draenor"] = "Default",
 		["Lupalia - Ravencrest"] = "Default",
-		["Achilina - Draenor"] = "Default",
-		["Chrysante - Ravencrest"] = "Default",
+		["Fausta - Ravencrest"] = "Default",
 		["Eruditus - Ravencrest"] = "Default",
+		["Chrysante - Ravencrest"] = "Default",
 		["Daemonikos - Draenor"] = "Default",
+		["Marcellinus - Ravencrest"] = "Default",
 		["Quelith - Draenor"] = "Default",
 		["Odeysseus - Thunderhorn"] = "Default",
 		["Trïxxed - Ravencrest"] = "Default",
-		["Trîxxed - Ravencrest"] = "Default",
-		["Fausta - Ravencrest"] = "Default",
 		["Trixxed - Ravencrest"] = "Default",
+		["Petergrippin - Draenor"] = "Default",
+		["Trîxxed - Ravencrest"] = "Default",
 		["Lichservent - Thunderhorn"] = "Default",
-		["Marcellinus - Ravencrest"] = "Default",
+		["Achilina - Draenor"] = "Default",
 		["Molokh - Ravencrest"] = "Default",
+	},
+	["global"] = {
+		["version"] = "3.8.2",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -44,27 +45,27 @@ MogItDB = {
 				["Tabard"] = "Tabard",
 				["Legs"] = "Legs",
 				["Back"] = "Back",
-				["Warglaives"] = "Warglaives",
+				["2H-axe"] = "Two-Handed Axes",
 				["Shirt"] = "Shirt",
 				["Dagger"] = "Daggers",
 				["Hands"] = "Hands",
 				["Gun"] = "Guns",
 				["Polearm"] = "Polearms",
 				["2H-sword"] = "Two-Handed Swords",
-				["2H-axe"] = "Two-Handed Axes",
+				["Warglaives"] = "Warglaives",
 				["2H-mace"] = "Two-Handed Maces",
 				["1H-mace"] = "One-Handed Maces",
 				["Head"] = "Head",
 				["Holdable"] = "Held In Off-hand",
 				["Shield"] = "Shields",
-				["Staff"] = "Staves",
-				["Feet"] = "Feet",
-				["Chest"] = "Chest",
-				["Wrist"] = "Wrist",
-				["Crossbow"] = "Crossbows",
-				["1H-axe"] = "One-Handed Axes",
-				["Bow"] = "Bows",
 				["1H-sword"] = "One-Handed Swords",
+				["Staff"] = "Staves",
+				["Chest"] = "Chest",
+				["Bow"] = "Bows",
+				["1H-axe"] = "One-Handed Axes",
+				["Crossbow"] = "Crossbows",
+				["Wrist"] = "Wrist",
+				["Feet"] = "Feet",
 				["Shoulder"] = "Shoulder",
 				["Wand"] = "Wands",
 			},
@@ -77,6 +78,9 @@ MogItDB = {
 	},
 }
 MogItWishlist = {
+	["global"] = {
+		["version"] = 70300,
+	},
 	["profileKeys"] = {
 		["Wonderwonder - Draenor"] = "Wonderwonder - Draenor",
 		["Tríxxed - Laughing Skull"] = "Tríxxed - Laughing Skull",
@@ -85,22 +89,20 @@ MogItWishlist = {
 		["Daemonikos - Ravencrest"] = "Daemonikos - Ravencrest",
 		["Trixxedbank - Draenor"] = "Trixxedbank - Draenor",
 		["Lupalia - Ravencrest"] = "Lupalia - Ravencrest",
-		["Achilina - Draenor"] = "Achilina - Draenor",
-		["Chrysante - Ravencrest"] = "Chrysante - Ravencrest",
+		["Fausta - Ravencrest"] = "Fausta - Ravencrest",
 		["Eruditus - Ravencrest"] = "Eruditus - Ravencrest",
+		["Chrysante - Ravencrest"] = "Chrysante - Ravencrest",
 		["Daemonikos - Draenor"] = "Daemonikos - Draenor",
+		["Marcellinus - Ravencrest"] = "Marcellinus - Ravencrest",
 		["Quelith - Draenor"] = "Quelith - Draenor",
 		["Odeysseus - Thunderhorn"] = "Odeysseus - Thunderhorn",
 		["Trïxxed - Ravencrest"] = "Trïxxed - Ravencrest",
-		["Trîxxed - Ravencrest"] = "Trîxxed - Ravencrest",
-		["Fausta - Ravencrest"] = "Fausta - Ravencrest",
 		["Trixxed - Ravencrest"] = "Trixxed - Ravencrest",
+		["Petergrippin - Draenor"] = "Petergrippin - Draenor",
+		["Trîxxed - Ravencrest"] = "Trîxxed - Ravencrest",
 		["Lichservent - Thunderhorn"] = "Lichservent - Thunderhorn",
-		["Marcellinus - Ravencrest"] = "Marcellinus - Ravencrest",
+		["Achilina - Draenor"] = "Achilina - Draenor",
 		["Molokh - Ravencrest"] = "Molokh - Ravencrest",
-	},
-	["global"] = {
-		["version"] = 70200,
 	},
 	["profiles"] = {
 		["Wonderwonder - Draenor"] = {
@@ -120,42 +122,21 @@ MogItWishlist = {
 		},
 		["Lupalia - Ravencrest"] = {
 		},
-		["Achilina - Draenor"] = {
-			["sets"] = {
-				{
-					["items"] = {
-						["ChestSlot"] = "item:39188:0",
-						["WristSlot"] = "item:127984:0",
-						["BackSlot"] = "item:50764:0",
-						["MainHandSlot"] = "item:61346:0",
-						["FeetSlot"] = "item:50772:0",
-						["HeadSlot"] = "item:134110:0",
-						["ShoulderSlot"] = "item:48374:0",
-						["HandsSlot"] = "item:41975:0",
-						["LegsSlot"] = "item:33731:0",
-						["WaistSlot"] = "item:37670:0",
-					},
-					["name"] = "Golden Blue 2h",
-					["alternateItems"] = {
-					},
-				}, -- [1]
-			},
-		},
-		["Chrysante - Ravencrest"] = {
+		["Fausta - Ravencrest"] = {
 		},
 		["Eruditus - Ravencrest"] = {
 		},
+		["Chrysante - Ravencrest"] = {
+		},
 		["Daemonikos - Draenor"] = {
+		},
+		["Marcellinus - Ravencrest"] = {
 		},
 		["Quelith - Draenor"] = {
 		},
 		["Odeysseus - Thunderhorn"] = {
 		},
 		["Trïxxed - Ravencrest"] = {
-		},
-		["Trîxxed - Ravencrest"] = {
-		},
-		["Fausta - Ravencrest"] = {
 		},
 		["Trixxed - Ravencrest"] = {
 			["sets"] = {
@@ -166,9 +147,36 @@ MogItWishlist = {
 						["BackSlot"] = "item:50764:0",
 						["MainHandSlot"] = "item:61346:0",
 						["FeetSlot"] = "item:50772:0",
+						["HeadSlot"] = "item:134110:0",
+						["ShoulderSlot"] = "item:48374:0",
+						["LegsSlot"] = "item:33731:0",
 						["WaistSlot"] = "item:37670:0",
+						["HandsSlot"] = "item:41975:0",
+					},
+					["name"] = "Golden Blue 2h",
+					["alternateItems"] = {
+					},
+				}, -- [1]
+			},
+		},
+		["Petergrippin - Draenor"] = {
+		},
+		["Trîxxed - Ravencrest"] = {
+		},
+		["Lichservent - Thunderhorn"] = {
+		},
+		["Achilina - Draenor"] = {
+			["sets"] = {
+				{
+					["items"] = {
+						["ChestSlot"] = "item:39188:0",
+						["WristSlot"] = "item:127984:0",
+						["BackSlot"] = "item:50764:0",
+						["MainHandSlot"] = "item:61346:0",
+						["FeetSlot"] = "item:50772:0",
 						["LegsSlot"] = "item:33731:0",
 						["HandsSlot"] = "item:41975:0",
+						["WaistSlot"] = "item:37670:0",
 						["ShoulderSlot"] = "item:48374:0",
 						["HeadSlot"] = "item:134110:0",
 					},
@@ -177,10 +185,6 @@ MogItWishlist = {
 					},
 				}, -- [1]
 			},
-		},
-		["Lichservent - Thunderhorn"] = {
-		},
-		["Marcellinus - Ravencrest"] = {
 		},
 		["Molokh - Ravencrest"] = {
 		},

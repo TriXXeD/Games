@@ -146,7 +146,7 @@ local function CreatePluginFrames (data)
 				EncounterDetails:AutoShowIcon()
 			end
 			
-			EncounterDetails:CreateCallbackListeners()
+			--EncounterDetails:CreateCallbackListeners()
 		
 		elseif (event == "COMBAT_PLAYER_ENTER") then --> combat started
 			if (EncounterDetails.showing and EncounterDetails.db.hide_on_combat) then
@@ -236,6 +236,8 @@ local function CreatePluginFrames (data)
 		end
 	end
 	
+	
+	--desativado, agora ele � gerenciado dentro do proprio details!
 	function EncounterDetails:CreateCallbackListeners()
 	
 		EncounterDetails.DBM_timers = {}
@@ -471,11 +473,9 @@ local function CreatePluginFrames (data)
 		
 	end
 	
-	
-	
 	--> user clicked on button, need open or close window
 	function EncounterDetails:OpenWindow()
-		if (EncounterDetails.open) then
+		if (EncounterDetails.Frame:IsShown()) then
 			return EncounterDetails:CloseWindow()
 		end
 		
@@ -506,6 +506,8 @@ local function CreatePluginFrames (data)
 
 		C_Timer.After (3, function() EncounterDetails:ShowTutorial() end)
 
+		DetailsPluginContainerWindow.OpenPlugin (EncounterDetails)
+		
 		return true
 	end
 	
@@ -538,6 +540,9 @@ local shift_monitor = function (self)
 	if (IsShiftKeyDown()) then
 		local spellname = GetSpellInfo (self.spellid)
 		if (spellname) then
+			if (GameCooltip) then
+				GameCooltip:Hide()
+			end
 			GameTooltip:SetOwner (self, "ANCHOR_TOPLEFT")
 			GameTooltip:SetSpellByID (self.spellid)
 			GameTooltip:Show()
@@ -2097,6 +2102,11 @@ function EncounterDetails:OnEvent (_, event, ...)
 					[6] = "MONSTER_PARTY",
 					[7] = "MONSTER_YELL",
 				}
+				
+				--> embed the plugin into the plugin window
+				if (DetailsPluginContainerWindow) then
+					DetailsPluginContainerWindow.EmbedPlugin (EncounterDetails, EncounterDetails.Frame)
+				end
 				
 			end
 		end

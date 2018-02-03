@@ -24,4 +24,13 @@ AtlasLootCharDB = {
 		},
 	},
 	["__addonrevision"] = 4325,
+	["QuickLootFrame"] = {
+		["point"] = {
+			"LEFT", -- [1]
+			nil, -- [2]
+			"LEFT", -- [3]
+			183.499908447266, -- [4]
+			52.0001602172852, -- [5]
+		},
+	},
 }

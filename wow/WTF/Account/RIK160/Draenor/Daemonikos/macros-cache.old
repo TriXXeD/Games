@@ -74,7 +74,3 @@ VER 3 0100000000000017 "Tier 5" "INV_MISC_QUESTIONMARK"
 /cancelaura Burning Rush
 /cast [talent:5/1] Demon Skin; [talent:5/2] Burning Rush; [talent:5/3] Dark Pact
 END
-VER 3 0100000000000018 "Tier7" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [talent:7/1] Soul Effigy; [talent:7/2] Phantom Singularity; [talent:7/3] Soul Conduit
-END

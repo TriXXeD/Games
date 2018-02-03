@@ -360,6 +360,8 @@ P["sle"] = {
 			["nightmare"] = false,
 			["trial"] = false,
 			["palace"] = false,
+			["tomb"] = false,
+			["antorus"] = false,
 		},
 	},
 	--Loot 
@@ -531,6 +533,7 @@ P["sle"] = {
 			["customColor"] = {r = 1, g = 1, b = 1 },
 			["customColor_Coords"] = {r = 1, g = 1, b = 1 },
 			["combathide"] = false,
+			["orderhallhide"] = false,
 			["portals"] = {
 				["enable"] = true,
 				["HSplace"] = true,
@@ -556,8 +559,18 @@ P["sle"] = {
 	},
 	--Nameplate Options
 	["nameplates"] = {
-		["showthreat"] = false,
-		["targetcount"] = false,
+		["threat"] = {
+			["enable"] = false,
+			["font"] = "PT Sans Narrow",
+			["fontOutline"] = "OUTLINE",
+			["size"] = 12,
+		},
+		["targetcount"] = {
+			["enable"] = false,
+			["font"] = "PT Sans Narrow",
+			["fontOutline"] = "OUTLINE",
+			["size"] = 12,
+		},
 		["visibleRange"] = 60,
 	},
 	--Order Halls
@@ -579,6 +592,7 @@ P["sle"] = {
 			["rested"] = "FULL",
 			["garrison"] = "FULL",
 			["orderhall"] = "FULL",
+			["combat"] = "NONE",
 		},
 		["autoReward"] = false,
 	},
@@ -608,6 +622,8 @@ P["sle"] = {
 		["orientation"] = 'HORIZONTAL',
 		["modifier"] = 'shift-',
 		["reverse"] = false,
+		["mouseover"] = false,
+		["notooltip"] = false,
 	},
 	--Screensaver
 	["screensaver"] = {
@@ -689,6 +705,9 @@ P["sle"] = {
 				["subOutline"] = "OUTLINE",
 			},
 		},
+		["talkinghead"] = {
+			["hide"] = false,
+		},
 	},
 	--Tooltip
 	["tooltip"] = {
@@ -704,6 +723,8 @@ P["sle"] = {
 				["nightmare"] = true,
 				["trial"] = true,
 				["nighthold"] = true,
+				["sargeras"] = true,
+				["antorus"] = true,
 			},
 		},
 	},
@@ -746,20 +767,6 @@ P["sle"] = {
 	["unitframes"] = {
 		["unit"] = {
 			["player"] = {
-				["combatico"] = {
-					["xoffset"] = 0,
-					["yoffset"] = 0,
-					["size"] = 19,
-					["texture"] = "DEFAULT",
-					["red"] = true,
-				},
-				["rested"] = {
-					["xoffset"] = 0,
-					["yoffset"] = 0,
-					["size"] = 22,
-					["texture"] = "DEFAULT",
-					["customTexture"] = "",
-				},
 				["pvpIconText"] = {
 					["enable"] = false,
 					["xoffset"] = 0,
@@ -775,6 +782,18 @@ P["sle"] = {
 				},
 				["higherPortrait"] = false,
 				["portraitAlpha"] = 0.35,
+			},
+			["pet"] = {
+				["higherPortrait"] = false,
+				["portraitAlpha"] = 0.35,
+				["auras"] = {
+					["buffs"] = {
+						["threshold"] = 4,
+					},
+					["debuffs"] = {
+						["threshold"] = 4,
+					},
+				},
 			},
 			["target"] = {
 				["higherPortrait"] = false,
@@ -809,6 +828,14 @@ P["sle"] = {
 					["texture"] = "ALERT",
 					["CustomTexture"] = "",
 				},
+				["dead"] = {
+					["enable"] = false,
+					["size"] = 36,
+					["xOffset"] = 0,
+					["yOffset"] = 0,
+					["texture"] = "SKULL",
+					["CustomTexture"] = "",
+				},
 				["role"] = {
 					["xoffset"] = 0,
 					["yoffset"] = 0,
@@ -833,6 +860,14 @@ P["sle"] = {
 					["texture"] = "ALERT",
 					["CustomTexture"] = "",
 				},
+				["dead"] = {
+					["enable"] = false,
+					["size"] = 36,
+					["xOffset"] = 0,
+					["yOffset"] = 0,
+					["texture"] = "SKULL",
+					["CustomTexture"] = "",
+				},
 				["role"] = {
 					["xoffset"] = 0,
 					["yoffset"] = 0,
@@ -855,6 +890,14 @@ P["sle"] = {
 					["xOffset"] = 0,
 					["yOffset"] = 0,
 					["texture"] = "ALERT",
+					["CustomTexture"] = "",
+				},
+				["dead"] = {
+					["enable"] = false,
+					["size"] = 36,
+					["xOffset"] = 0,
+					["yOffset"] = 0,
+					["texture"] = "SKULL",
 					["CustomTexture"] = "",
 				},
 				["auras"] = {

@@ -1,6 +1,6 @@
-## Interface: 70200
+## Interface: 70300
 ## Title: OPie
-## Version: Umber 8
+## Version: Vanilla 1
 ## Notes: Group abilities into rings that appear when you hold down a binding.
 ## Notes-deDE: Gruppiere Fähigkeiten in Ringen die erscheinen wenn eine Tastenbelegung ausgelöst wird.
 ## Notes-esES: Agrupar habilitades en anillos que se aparecen al presionar teclados.

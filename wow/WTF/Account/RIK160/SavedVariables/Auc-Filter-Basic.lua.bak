@@ -12,12 +12,12 @@ AucAdvancedFilterBasic_IgnoreList = {
 		["List"] = {
 		},
 	},
-	["Thunderhorn"] = {
-		["List"] = {
-		},
-	},
 	["Argent Dawn"] = {
 		["Alliance"] = {
+		},
+	},
+	["Thunderhorn"] = {
+		["List"] = {
 		},
 	},
 }

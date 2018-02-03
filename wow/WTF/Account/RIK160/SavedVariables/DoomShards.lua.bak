@@ -30,12 +30,12 @@ DoomShardsDB = {
 					["g"] = 0,
 					["b"] = 0,
 				},
-				["resourceCappedColor"] = {
+				["fontColorHoGPrediction"] = {
 					["r"] = 0.63921568627451,
 					["g"] = 0.215686274509804,
 					["b"] = 0.831372549019608,
 				},
-				["stringYOffset"] = -21,
+				["useTexture"] = true,
 				["color4"] = {
 					["r"] = 0.576470588235294,
 					["g"] = 0.788235294117647,
@@ -50,13 +50,13 @@ DoomShardsDB = {
 				},
 				["statusbarCount"] = 1,
 				["posY"] = -245,
-				["fontColorHoGPrediction"] = {
+				["resourceCappedColor"] = {
 					["r"] = 0.63921568627451,
 					["g"] = 0.215686274509804,
 					["b"] = 0.831372549019608,
 				},
 				["textureHandle"] = "ElvUI Norm",
-				["useTexture"] = true,
+				["stringYOffset"] = -21,
 				["color1"] = {
 					["r"] = 0.576470588235294,
 					["g"] = 0.788235294117647,

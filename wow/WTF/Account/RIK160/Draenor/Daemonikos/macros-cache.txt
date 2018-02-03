@@ -9,7 +9,7 @@ VER 3 0100000000000019 "Circle" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0100000000000016 "Cripple" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [target=Karam Magespears,help] Cripple; Cripple
+/cast [@Jarl Velbrand,help] Cripple; Cripple
 END
 VER 3 0100000000000002 "Drain Souls" "INV_MISC_QUESTIONMARK"
 #showtooltip
@@ -30,6 +30,10 @@ END
 VER 3 0100000000000003 "Havoc" "INV_MISC_QUESTIONMARK"
 #showtooltip Havoc
 /cast [target=mouseover,exists] Havoc;[target= focus, exists] Havoc; Havoc
+END
+VER 3 010000000000001A "MCfoc" "607853"
+#showtooltip
+/cast [target=Sigryn,help] Mortal Coil; Mortal Coil
 END
 VER 3 0100000000000014 "SE Agony" "INV_MISC_QUESTIONMARK"
 #showtooltip

@@ -434,10 +434,12 @@ function StringToTable(inString, fromChat)
   else
     decoded = Encoder:Decode(inString);
   end
+
   local decompressed, errorMsg = Compresser:Decompress(decoded);
   if not(decompressed) then
     return "Error decompressing: "..errorMsg;
   end
+
   local success, deserialized = Serializer:Deserialize(decompressed);
   if not(success) then
     return "Error deserializing "..deserialized;
@@ -780,7 +782,7 @@ function WeakAuras.ShowDisplayTooltip(data, children, icon, icons, import, compr
               if (icons) then
                 tinsert(tooltip, {2, left, name..(icons[name] and (" |T"..icons[name]..":12:12:0:0:64:64:4:60:4:60|t") or ""), 1, 1, 1, 1, 1, 1});
               else
-                local icon = WeakAuras.spellCache.GetIcon(name) or "Interface\\Icons\\INV_Misc_QuestionMark";
+                local icon = WeakAuras.spellCache and WeakAuras.spellCache.GetIcon(name) or "Interface\\Icons\\INV_Misc_QuestionMark";
                 tinsert(tooltip, {2, left, name.." |T"..icon..":12:12:0:0:64:64:4:60:4:60|t", 1, 1, 1, 1, 1, 1});
               end
             end
@@ -805,7 +807,7 @@ function WeakAuras.ShowDisplayTooltip(data, children, icon, icons, import, compr
       local size = #tooltip
       tooltip[26] = {2, " ",  "[...]", 1, 1, 1, 1, 1, 1};
       local nrOfChildren = children and #children or data.controlledChildren and #data.controlledChildren or 0
-      tooltip[27] = {1, string.format(L["%s total auras"], nrOfChildren), "", 1, 1, 1, 1, 1, 1};
+      tooltip[27] = {1, string.format(L["%s total auras"], nrOfChildren), "", 1, 1, 1, 1};
       for i = 28, size do
         tooltip[i] = nil;
       end
@@ -813,8 +815,9 @@ function WeakAuras.ShowDisplayTooltip(data, children, icon, icons, import, compr
 
     local hasDescription = data.desc and data.desc ~= "";
     local hasUrl = data.url and data.url ~= "";
+    local hasVersion = data.version and data.version ~= "";
 
-    if(hasDescription or hasUrl) then
+    if(hasDescription or hasUrl or hasVersion) then
       tinsert(tooltip, {1, " "});
     end
 
@@ -826,6 +829,10 @@ function WeakAuras.ShowDisplayTooltip(data, children, icon, icons, import, compr
       tinsert(tooltip, {1, data.url, 1, 0.82, 0, 1});
     end
 
+    if (hasVersion) then
+      tinsert(tooltip, {1, L["Version: "] .. data.version, 1, 0.82, 0, 1});
+    end
+
     local importbutton;
     local showcodebutton;
     if(import) then
@@ -835,8 +842,8 @@ function WeakAuras.ShowDisplayTooltip(data, children, icon, icons, import, compr
       end
 
       if #codes > 0 then
-        tinsert(tooltip, {1, "This aura contains custom Lua code.", 1, 0, 0});
-        tinsert(tooltip, {1, "Make sure you can trust the person who sent it!", 1, 0, 0});
+        tinsert(tooltip, {1, L["This aura contains custom Lua code."], 1, 0, 0});
+        tinsert(tooltip, {1, L["Make sure you can trust the person who sent it!"], 1, 0, 0});
       end
 
       tinsert(tooltip, {2, " ", "                         ", 0, 1, 0});
@@ -872,7 +879,7 @@ function WeakAuras.ShowDisplayTooltip(data, children, icon, icons, import, compr
       end
       showcodebutton:SetText(L["Show Code"]);
       if not WeakAurasSaved.import_disabled or WeakAuras.IsImporting() then
-        importbutton:SetText("Import");
+        importbutton:SetText(L["Import"]);
         importbutton:SetScript("OnClick", function()
           local func = function()
             WeakAuras.SetImporting(true);
@@ -946,7 +953,8 @@ function WeakAuras.ShowDisplayTooltip(data, children, icon, icons, import, compr
         end);
       else
         -- TODO enable button after importing finished
-        importbutton:SetText("Import disabled");
+        importbutton:SetText(L["Import disabled"]);
+        importbutton:SetWidth(importbutton:GetTextWidth() + 24)
         importbutton:SetScript("OnClick", function()
           WeakAuras.CloseImportExport();
         end);

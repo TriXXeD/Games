@@ -6,34 +6,35 @@ Gladius2DB = {
 		["Achilina - Ravencrest"] = "Achilina - Ravencrest",
 		["Trìxxed - Ravencrest"] = "Trìxxed - Ravencrest",
 		["Achillina - Thunderhorn"] = "Achillina - Thunderhorn",
+		["Fausta - Ravencrest"] = "Fausta - Ravencrest",
 		["Trixxedbank - Draenor"] = "Trixxedbank - Draenor",
 		["Teukronar - Argent Dawn"] = "Teukronar - Argent Dawn",
 		["Lupalia - Ravencrest"] = "Lupalia - Ravencrest",
-		["Trixxed - Ravencrest"] = "Trixxed - Ravencrest",
+		["Daemonikos - Ravencrest"] = "Daemonikos - Ravencrest",
 		["Achilina - Draenor"] = "Achilina - Draenor",
 		["Shadefighter - Thunderhorn"] = "Shadefighter - Thunderhorn",
 		["Trîxxed - Ravencrest"] = "Trîxxed - Ravencrest",
-		["Marcellinus - Ravencrest"] = "Marcellinus - Ravencrest",
 		["Daemonikos - Draenor"] = "Daemonikos - Draenor",
+		["Marcellinus - Ravencrest"] = "Marcellinus - Ravencrest",
 		["Quelith - Draenor"] = "Quelith - Draenor",
 		["Odeysseus - Thunderhorn"] = "Odeysseus - Thunderhorn",
 		["Trïxxed - Ravencrest"] = "Trïxxed - Ravencrest",
-		["Fausta - Ravencrest"] = "Fausta - Ravencrest",
 		["Chrysante - Ravencrest"] = "Chrysante - Ravencrest",
+		["Petergrippin - Draenor"] = "Petergrippin - Draenor",
 		["Kazzía - Thunderhorn"] = "Kazzía - Thunderhorn",
 		["Lichservent - Thunderhorn"] = "Lichservent - Thunderhorn",
-		["Daemonikos - Ravencrest"] = "Daemonikos - Ravencrest",
+		["Trixxed - Ravencrest"] = "Trixxed - Ravencrest",
 		["Molokh - Ravencrest"] = "Molokh - Ravencrest",
 	},
 	["profiles"] = {
 		["Eruditus - Ravencrest"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["y"] = {
-				["arena1"] = 505.600046235812,
-			},
 			["x"] = {
 				["arena1"] = 1077.33372118577,
+			},
+			["y"] = {
+				["arena1"] = 505.600046235812,
 			},
 		},
 		["Tríxxed - Laughing Skull"] = {
@@ -115,17 +116,17 @@ Gladius2DB = {
 					["func"] = "function(unit)\nlocal health = not Gladius.test and UnitHealth(unit) or Gladius.testing[unit].health\nlocal maxHealth = not Gladius.test and UnitHealthMax(unit) or Gladius.testing[unit].maxHealth\nreturn strformat(\"%.1f%%\", (health / maxHealth * 100))\nend",
 					["events"] = "UNIT_HEALTH UNIT_MAXHEALTH UNIT_NAME_UPDATE",
 				},
-				["maxpower"] = {
-					["func"] = "function(unit)\nreturn not Gladius.test and UnitPowerMax(unit) or Gladius.testing[unit].maxPower\nend",
-					["events"] = "UNIT_MAXPOWER UNIT_DISPLAYPOWER UNIT_NAME_UPDATE",
+				["health"] = {
+					["func"] = "function(unit)\nreturn not Gladius.test and UnitHealth(unit) or Gladius.testing[unit].health\nend",
+					["events"] = "UNIT_HEALTH UNIT_MAXHEALTH UNIT_NAME_UPDATE",
 				},
 				["maxhealth:short"] = {
 					["func"] = "function(unit)\nlocal health = not Gladius.test and UnitHealthMax(unit) or Gladius.testing[unit].maxHealth\nif (health > 999) then\nreturn strformat(\"%.1fk\", (health / 1000))\nelse\nreturn health\nend\nend",
 					["events"] = "UNIT_HEALTH UNIT_MAXHEALTH UNIT_NAME_UPDATE",
 				},
-				["health"] = {
-					["func"] = "function(unit)\nreturn not Gladius.test and UnitHealth(unit) or Gladius.testing[unit].health\nend",
-					["events"] = "UNIT_HEALTH UNIT_MAXHEALTH UNIT_NAME_UPDATE",
+				["maxpower"] = {
+					["func"] = "function(unit)\nreturn not Gladius.test and UnitPowerMax(unit) or Gladius.testing[unit].maxPower\nend",
+					["events"] = "UNIT_MAXPOWER UNIT_DISPLAYPOWER UNIT_NAME_UPDATE",
 				},
 			},
 			["auraVersion"] = 1,
@@ -135,31 +136,41 @@ Gladius2DB = {
 		["Trìxxed - Ravencrest"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["x"] = {
-				["arena1"] = 1107.91172763712,
-			},
 			["y"] = {
 				["arena1"] = 502.755680115545,
+			},
+			["x"] = {
+				["arena1"] = 1107.91172763712,
 			},
 		},
 		["Achillina - Thunderhorn"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
+			["y"] = {
+				["arena1"] = 479.288887753273,
+			},
 			["x"] = {
 				["arena1"] = 1129.24472252947,
 			},
+		},
+		["Fausta - Ravencrest"] = {
+			["auraVersion"] = 1,
+			["tagsVersion"] = 4,
 			["y"] = {
-				["arena1"] = 479.288887753273,
+				["arena1"] = 482.133502863886,
+			},
+			["x"] = {
+				["arena1"] = 1112.88904466014,
 			},
 		},
 		["Trixxedbank - Draenor"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["x"] = {
-				["arena1"] = 951.466776511406,
-			},
 			["y"] = {
 				["arena1"] = 433.77783168422,
+			},
+			["x"] = {
+				["arena1"] = 951.466776511406,
 			},
 		},
 		["Teukronar - Argent Dawn"] = {
@@ -229,17 +240,17 @@ Gladius2DB = {
 					["func"] = "function(unit)\nlocal health = not Gladius.test and UnitHealth(unit) or Gladius.testing[unit].health\nlocal maxHealth = not Gladius.test and UnitHealthMax(unit) or Gladius.testing[unit].maxHealth\nreturn strformat(\"%.1f%%\", (health / maxHealth * 100))\nend",
 					["events"] = "UNIT_HEALTH UNIT_MAXHEALTH UNIT_NAME_UPDATE",
 				},
-				["maxpower"] = {
-					["func"] = "function(unit)\nreturn not Gladius.test and UnitPowerMax(unit) or Gladius.testing[unit].maxPower\nend",
-					["events"] = "UNIT_MAXPOWER UNIT_DISPLAYPOWER UNIT_NAME_UPDATE",
+				["health"] = {
+					["func"] = "function(unit)\nreturn not Gladius.test and UnitHealth(unit) or Gladius.testing[unit].health\nend",
+					["events"] = "UNIT_HEALTH UNIT_MAXHEALTH UNIT_NAME_UPDATE",
 				},
 				["maxhealth:short"] = {
 					["func"] = "function(unit)\nlocal health = not Gladius.test and UnitHealthMax(unit) or Gladius.testing[unit].maxHealth\nif (health > 999) then\nreturn strformat(\"%.1fk\", (health / 1000))\nelse\nreturn health\nend\nend",
 					["events"] = "UNIT_HEALTH UNIT_MAXHEALTH UNIT_NAME_UPDATE",
 				},
-				["health"] = {
-					["func"] = "function(unit)\nreturn not Gladius.test and UnitHealth(unit) or Gladius.testing[unit].health\nend",
-					["events"] = "UNIT_HEALTH UNIT_MAXHEALTH UNIT_NAME_UPDATE",
+				["maxpower"] = {
+					["func"] = "function(unit)\nreturn not Gladius.test and UnitPowerMax(unit) or Gladius.testing[unit].maxPower\nend",
+					["events"] = "UNIT_MAXPOWER UNIT_DISPLAYPOWER UNIT_NAME_UPDATE",
 				},
 			},
 			["auraVersion"] = 1,
@@ -254,24 +265,24 @@ Gladius2DB = {
 			["tagsVersion"] = 4,
 			["targetBarOffsetX"] = 51,
 		},
-		["Trixxed - Ravencrest"] = {
+		["Daemonikos - Ravencrest"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
 			["x"] = {
-				["arena1"] = 1044.62196706255,
+				["arena1"] = 1063.11119341146,
 			},
 			["y"] = {
-				["arena1"] = 539.733286246188,
+				["arena1"] = 507.022179497876,
 			},
 		},
 		["Achilina - Draenor"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["y"] = {
-				["arena1"] = 384.711163829434,
-			},
 			["x"] = {
 				["arena1"] = 921.600543149325,
+			},
+			["y"] = {
+				["arena1"] = 384.711163829434,
 			},
 		},
 		["Shadefighter - Thunderhorn"] = {
@@ -281,115 +292,115 @@ Gladius2DB = {
 		["Trîxxed - Ravencrest"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["x"] = {
-				["arena1"] = 797.866358894904,
-			},
 			["y"] = {
 				["arena1"] = 374.044453015392,
 			},
-		},
-		["Marcellinus - Ravencrest"] = {
-			["auraVersion"] = 1,
-			["tagsVersion"] = 4,
 			["x"] = {
-				["arena1"] = 1128.53350650423,
-			},
-			["y"] = {
-				["arena1"] = 480.711270005683,
+				["arena1"] = 797.866358894904,
 			},
 		},
 		["Daemonikos - Draenor"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
+			["y"] = {
+				["arena1"] = 400.35556524992,
+			},
 			["x"] = {
 				["arena1"] = 1108.62303031685,
 			},
+		},
+		["Marcellinus - Ravencrest"] = {
+			["auraVersion"] = 1,
+			["tagsVersion"] = 4,
 			["y"] = {
-				["arena1"] = 400.35556524992,
+				["arena1"] = 480.711270005683,
+			},
+			["x"] = {
+				["arena1"] = 1128.53350650423,
 			},
 		},
 		["Quelith - Draenor"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["x"] = {
-				["arena1"] = 1152.71122582886,
-			},
 			["y"] = {
 				["arena1"] = 486.400055180657,
+			},
+			["x"] = {
+				["arena1"] = 1152.71122582886,
 			},
 		},
 		["Odeysseus - Thunderhorn"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["y"] = {
-				["arena1"] = 480.000004182374,
-			},
 			["x"] = {
 				["arena1"] = 1148.44476651906,
+			},
+			["y"] = {
+				["arena1"] = 480.000004182374,
 			},
 		},
 		["Trïxxed - Ravencrest"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["x"] = {
-				["arena1"] = 1108.62244568167,
-			},
 			["y"] = {
 				["arena1"] = 501.333546853481,
 			},
-		},
-		["Fausta - Ravencrest"] = {
-			["auraVersion"] = 1,
-			["tagsVersion"] = 4,
 			["x"] = {
-				["arena1"] = 1112.88904466014,
-			},
-			["y"] = {
-				["arena1"] = 482.133502863886,
+				["arena1"] = 1108.62244568167,
 			},
 		},
 		["Chrysante - Ravencrest"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
+			["x"] = {
+				["arena1"] = 1082.31113780492,
+			},
 			["y"] = {
 				["arena1"] = 499.200097970039,
 			},
+		},
+		["Petergrippin - Draenor"] = {
+			["auraVersion"] = 1,
+			["tagsVersion"] = 4,
 			["x"] = {
-				["arena1"] = 1082.31113780492,
+				["arena1"] = 979.20106537742,
+			},
+			["y"] = {
+				["arena1"] = 637.155657789444,
 			},
 		},
 		["Kazzía - Thunderhorn"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["y"] = {
-				["arena1"] = 445.155696543061,
-			},
 			["x"] = {
 				["arena1"] = 803.555748624276,
+			},
+			["y"] = {
+				["arena1"] = 445.155696543061,
 			},
 		},
 		["Lichservent - Thunderhorn"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
 		},
-		["Daemonikos - Ravencrest"] = {
+		["Trixxed - Ravencrest"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
 			["y"] = {
-				["arena1"] = 507.022179497876,
+				["arena1"] = 539.733286246188,
 			},
 			["x"] = {
-				["arena1"] = 1063.11119341146,
+				["arena1"] = 1044.62196706255,
 			},
 		},
 		["Molokh - Ravencrest"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["y"] = {
-				["arena1"] = 534.755568504334,
-			},
 			["x"] = {
 				["arena1"] = 1058.84447008371,
+			},
+			["y"] = {
+				["arena1"] = 534.755568504334,
 			},
 		},
 	},

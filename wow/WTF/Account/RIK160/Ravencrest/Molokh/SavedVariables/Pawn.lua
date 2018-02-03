@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.02,
+	["LastVersion"] = 2.0217,
 	["LastPlayerFullName"] = "Molokh-Ravencrest",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,

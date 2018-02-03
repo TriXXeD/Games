@@ -146,7 +146,7 @@
 					end
 				end
 			end
-			
+
 			_detalhes.tabela_vigente.is_boss = boss_table
 			
 			if (_detalhes.in_combat and not _detalhes.leaving_combat) then
@@ -239,7 +239,7 @@
 		end	
 	
 	--try to get the encounter name after the encounter (can be called during the combat as well)
-		function _detalhes:FindBoss()
+		function _detalhes:FindBoss (noJournalSearch)
 
 			if (_detalhes.encounter_table.name) then
 				local encounter_table = _detalhes.encounter_table
@@ -269,24 +269,27 @@
 				end
 			end
 			
-			local in_instance = IsInInstance() --> garrison returns party as instance type.
-			if ((InstanceType == "party" or InstanceType == "raid") and in_instance) then
-				local boss_list = _detalhes:GetCurrentDungeonBossListFromEJ()
-				if (boss_list) then
-					local ActorsContainer = _detalhes.tabela_vigente [class_type_dano]._ActorTable
-					if (ActorsContainer) then
-						for index, Actor in _ipairs (ActorsContainer) do 
-							if (not Actor.grupo) then
-								if (boss_list [Actor.nome]) then
-									Actor.boss = true
-									return boss_found_not_registered (boss_list [Actor.nome], ZoneName, ZoneMapID, DifficultyID)
+			noJournalSearch = true --> disabling the scan on encounter journal
+			
+			if (not noJournalSearch) then
+				local in_instance = IsInInstance() --> garrison returns party as instance type.
+				if ((InstanceType == "party" or InstanceType == "raid") and in_instance) then
+					local boss_list = _detalhes:GetCurrentDungeonBossListFromEJ()
+					if (boss_list) then
+						local ActorsContainer = _detalhes.tabela_vigente [class_type_dano]._ActorTable
+						if (ActorsContainer) then
+							for index, Actor in _ipairs (ActorsContainer) do 
+								if (not Actor.grupo) then
+									if (boss_list [Actor.nome]) then
+										Actor.boss = true
+										return boss_found_not_registered (boss_list [Actor.nome], ZoneName, ZoneMapID, DifficultyID)
+									end
 								end
 							end
 						end
 					end
 				end
 			end
-
 			return false
 		end
 
@@ -297,9 +300,9 @@
 		-- ~start ~inicio ~novo �ovo
 		function _detalhes:EntrarEmCombate (...)
 			if (_detalhes.debug) then
-				_detalhes:Msg ("(debug) |cFFFFFF00started a new combat|r|cFFFF7700", _detalhes.encounter_table and _detalhes.encounter_table.name or "")
-				local from = debugstack (2, 1, 0)
-				print (from)
+				--_detalhes:Msg ("(debug) |cFFFFFF00started a new combat|r|cFFFF7700", _detalhes.encounter_table and _detalhes.encounter_table.name or "")
+				--local from = debugstack (2, 1, 0)
+				--print (from)
 			end
 
 			if (not _detalhes.tabela_historico.tabelas[1]) then 
@@ -309,7 +312,7 @@
 				_detalhes:InstanciaCallFunction (_detalhes.InstanciaFadeBarras, -1) --> esconde todas as barras
 				_detalhes:InstanciaCallFunction (_detalhes.AtualizaSegmentos) --> atualiza o showing
 			end
-
+			
 			--> re-lock nos tempos da tabela passada -- lock again last table times
 			_detalhes.tabela_vigente:TravarTempos()
 			
@@ -333,7 +336,7 @@
 			
 			--> � o timer que ve se o jogador ta em combate ou n�o -- check if any party or raid members are in combat
 			_detalhes.tabela_vigente.verifica_combate = _detalhes:ScheduleRepeatingTimer ("EstaEmCombate", 1) 
-
+			
 			_detalhes:ClearCCPetsBlackList()
 			
 			_table_wipe (_detalhes.encounter_end_table)
@@ -412,6 +415,9 @@
 			
 			_detalhes:CheckSwitchToCurrent()
 			_detalhes:CheckForTextTimeCounter (true)
+			
+			--> stop bar testing if any
+			_detalhes:StopTestBarUpdate()
 		end
 		
 		function _detalhes:DelayedSyncAlert()
@@ -460,12 +466,13 @@
 			_detalhes:CatchRaidDebuffUptime ("DEBUFF_UPTIME_OUT")
 			_detalhes:CloseEnemyDebuffsUptime()
 			
-			--> pega a zona do jogador e v� se foi uma luta contra um Boss -- identifica se a luta foi com um boss
+			--> check if this isn't a boss and try to find a boss in the segment
 			if (not _detalhes.tabela_vigente.is_boss) then 
-		
-				--> function which runs after a boss encounter to try recognize a encounter
+				
+				--> if this is a mythic+ dungeon, do not scan for encounter journal boss names in the actor list
 				_detalhes:FindBoss()
 				
+				--> still didn't find the boss
 				if (not _detalhes.tabela_vigente.is_boss) then
 					local ZoneName, _, DifficultyID, _, _, _, _, ZoneMapID = _GetInstanceInfo()
 					local findboss = _detalhes:GetRaidBossFindFunction (ZoneMapID)
@@ -510,7 +517,6 @@
 			
 			if (not _detalhes.tabela_vigente.is_boss and from_encounter_end and type (from_encounter_end) == "table") then
 				local encounterID, encounterName, difficultyID, raidSize, endStatus = unpack (from_encounter_end)
-				
 				if (encounterID) then
 					local ZoneName, InstanceType, DifficultyID, DifficultyName, _, _, _, ZoneMapID = GetInstanceInfo()
 					local ejid = EJ_GetCurrentInstance()
@@ -531,8 +537,20 @@
 						id = encounterID,
 					}
 				end
-			end			
-
+			end		
+			
+			--> tag as a mythic dungeon segment, can be any type of segment, this tag also avoid the segment to be tagged as trash
+			if (_detalhes.MythicPlus.Started) then
+				_detalhes.tabela_vigente.is_mythic_dungeon_segment = true
+				_detalhes.tabela_vigente.is_mythic_dungeon_run_id = _detalhes.mythic_dungeon_id
+			else
+				local mythicLevel = C_ChallengeMode.GetActiveKeystoneInfo()
+				if (mythicLevel and mythicLevel >= 2) then
+					_detalhes.tabela_vigente.is_mythic_dungeon_segment = true
+					_detalhes.tabela_vigente.is_mythic_dungeon_run_id = _detalhes.mythic_dungeon_id
+				end
+			end
+			
 			if (not _detalhes.tabela_vigente.is_boss) then
 
 				if (_detalhes.tabela_vigente.is_pvp or _detalhes.tabela_vigente.is_arena) then
@@ -542,16 +560,22 @@
 				if (_detalhes.tabela_vigente.is_arena) then
 					_detalhes.tabela_vigente.enemy = "[" .. ARENA .. "] " ..  _detalhes.tabela_vigente.is_arena.name
 				end
-			
+
 				local in_instance = IsInInstance() --> garrison returns party as instance type.
 				if ((InstanceType == "party" or InstanceType == "raid") and in_instance) then
 					if (InstanceType == "party") then
-						--if (_detalhes:GetBossNames (_detalhes.zone_id)) then
-						--	_detalhes.tabela_vigente.is_trash = true
-						--end
-						
-						--> is new dungeon?
-						_detalhes.tabela_vigente.is_trash = true
+						if (not _detalhes.tabela_vigente.is_mythic_dungeon_segment) then
+							--> tag the combat as trash clean up
+							_detalhes.tabela_vigente.is_trash = true
+						else
+							local zoneName, instanceType, difficultyID, difficultyName, maxPlayers, dynamicDifficulty, isDynamic, instanceMapID, instanceGroupSize = GetInstanceInfo()
+							_detalhes.tabela_vigente.is_mythic_dungeon_trash = {
+								ZoneName = zoneName,
+								MapID = instanceMapID,
+								Level = _detalhes.MythicPlus.Level,
+								EJID = _detalhes.MythicPlus.ejID,
+							}
+						end
 					else
 						_detalhes.tabela_vigente.is_trash = true
 					end
@@ -636,7 +660,7 @@
 					end
 
 					if (from_encounter_end) then
-						_detalhes.tabela_vigente:SetEndTime (_detalhes.encounter_table ["end"])
+						_detalhes.tabela_vigente:SetEndTime (_detalhes.encounter_table ["end"] or GetTime())
 					end
 
 					--> encounter boss function
@@ -764,8 +788,16 @@
 			end
 			
 			_detalhes.pre_pot_used = nil
-			_table_wipe (_detalhes.encounter_table)
 			
+			--> do not wipe the encounter table if is in the argus encounter ~REMOVE on 8.0
+			if (_detalhes.encounter_table and _detalhes.encounter_table.id ~= 2092) then
+				_table_wipe (_detalhes.encounter_table)
+			else
+				if (_detalhes.debug) then
+					_detalhes:Msg ("(debug) in argus encounter, cannot wipe the encounter table.")
+				end
+			end
+
 			_detalhes:InstanceCall (_detalhes.CheckPsUpdate)
 			
 			if (invalid_combat) then
@@ -879,6 +911,7 @@
 			_detalhes.tabela_vigente.arena = true
 			_detalhes.tabela_vigente.is_arena = {name = _detalhes.zone_name, zone = _detalhes.zone_name, mapid = _detalhes.zone_id}
 		
+			_detalhes:SendEvent ("COMBAT_ARENA_START")
 		end
 		
 		function _detalhes:StartArenaSegment (...)
@@ -925,6 +958,7 @@
 			_detalhes:TimeDataUnregister ("Your Team Healing")
 			_detalhes:TimeDataUnregister ("Enemy Team Healing")
 			
+			_detalhes:SendEvent ("COMBAT_ARENA_END")
 		end
 		
 		local validSpells = {
@@ -1612,6 +1646,10 @@
 			if (not instancia or type (instancia) == "boolean") then --> o primeiro par�metro n�o foi uma inst�ncia ou ALL
 				forcar = instancia
 				instancia = self
+			end
+			
+			if (not forcar) then
+				_detalhes.LastUpdateTick = _detalhes._tempo
 			end
 			
 			if (instancia == -1) then

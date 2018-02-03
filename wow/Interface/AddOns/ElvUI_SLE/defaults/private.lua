@@ -13,7 +13,6 @@ V["sle"] = {
 		["spam"] = false,
 		["onlyTalent"] = false,
 		["conditions"] = "",
-		["conditions"] = "",
 		["setoverlay"] = false,
 		["lockbutton"] = false,
 	},
@@ -64,7 +63,11 @@ V["sle"] = {
 
 	["module"] = {
 		["screensaver"] = false,
-		["blizzmove"] = true,
+		["blizzmove"] = {
+			["enable"] = true,
+			["remember"] = false,
+			["points"] = {},
+		},
 		["shadows"] = {
 			["vehicle"] = false,
 			["player"] = false,
@@ -103,6 +106,11 @@ V["sle"] = {
 				["stancebarbuttons"] = false,
 				["microbarbuttons"] = false,
 				["petbarbuttons"] = false,
+			},
+			["minimap"] = false,
+			["chat"] = {
+				["left"] = false,
+				["right"] = false,
 			},
 		},
 	},

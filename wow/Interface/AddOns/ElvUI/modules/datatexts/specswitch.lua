@@ -1,4 +1,4 @@
-local E, L, V, P, G = unpack(select(2, ...)); --Inport: Engine, Locales, PrivateDB, ProfileDB, GlobalDB
+local E, L, V, P, G = unpack(select(2, ...)); --Import: Engine, Locales, PrivateDB, ProfileDB, GlobalDB
 local DT = E:GetModule('DataTexts')
 
 --Cache global variables
@@ -6,7 +6,7 @@ local DT = E:GetModule('DataTexts')
 local select = select
 local format, join = string.format, string.join
 --WoW API / Variables
-local EasyMenu = EasyMenu
+local L_EasyMenu = L_EasyMenu
 local GetActiveSpecGroup = GetActiveSpecGroup
 local GetLootSpecialization = GetLootSpecialization
 local GetNumSpecGroups = GetNumSpecGroups
@@ -23,13 +23,13 @@ local SELECT_LOOT_SPECIALIZATION = SELECT_LOOT_SPECIALIZATION
 local LOOT_SPECIALIZATION_DEFAULT = LOOT_SPECIALIZATION_DEFAULT
 
 --Global variables that we don't cache, list them here for the mikk's Find Globals script
--- GLOBALS: PlayerTalentFrame, LoadAddOn, 
+-- GLOBALS: PlayerTalentFrame, LoadAddOn
 
 local lastPanel, active
 local displayString = '';
 local activeString = join("", "|cff00FF00" , ACTIVE_PETS, "|r")
 local inactiveString = join("", "|cffFF0000", FACTION_INACTIVE, "|r")
-local menuFrame = CreateFrame("Frame", "LootSpecializationDatatextClickMenu", E.UIParent, "UIDropDownMenuTemplate")
+local menuFrame = CreateFrame("Frame", "LootSpecializationDatatextClickMenu", E.UIParent, "L_UIDropDownMenuTemplate")
 local menuList = {
 	{ text = SELECT_LOOT_SPECIALIZATION, isTitle = true, notCheckable = true },
 	{ notCheckable = true, func = function() SetLootSpecialization(0) end },
@@ -50,14 +50,14 @@ local function OnEvent(self)
 	lastPanel = self
 
 	local specIndex = GetSpecialization();
-	if not specIndex then 
+	if not specIndex then
 		self.text:SetText('N/A')
-		return 
+		return
 	end
 
 	active = GetActiveSpecGroup()
 
-	local talent, loot = '', ''
+	local talent, loot = '', 'N/A'
 	local i = GetSpecialization(false, false, active)
 	if i then
 		i = select(4, GetSpecializationInfo(i))
@@ -74,18 +74,12 @@ local function OnEvent(self)
 			local _, _, _, texture = GetSpecializationInfo(specIndex);
 			if texture then
 				loot = format('|T%s:14:14:0:0:64:64:4:60:4:60|t', texture)
-			else
-				loot = 'N/A'
 			end
-		else
-			loot = 'N/A'
 		end
 	else
 		local _, _, _, texture = GetSpecializationInfoByID(specialization);
 		if texture then
 			loot = format('|T%s:14:14:0:0:64:64:4:60:4:60|t', texture)
-		else
-			loot = 'N/A'
 		end
 	end
 
@@ -134,7 +128,7 @@ local function OnClick(self, button)
 		if not PlayerTalentFrame then
 			LoadAddOn("Blizzard_TalentUI")
 		end
-		if IsShiftKeyDown() then 
+		if IsShiftKeyDown() then
 			if not PlayerTalentFrame:IsShown() then
 				ShowUIPanel(PlayerTalentFrame)
 			else
@@ -150,7 +144,7 @@ local function OnClick(self, button)
 					specList[index + 1] = nil
 				end
 			end
-			EasyMenu(specList, menuFrame, "cursor", -15, -7, "MENU", 2)
+			L_EasyMenu(specList, menuFrame, "cursor", -15, -7, "MENU", 2)
 		end
 	else
 		DT.tooltip:Hide()
@@ -167,7 +161,7 @@ local function OnClick(self, button)
 			end
 		end
 
-		EasyMenu(menuList, menuFrame, "cursor", -15, -7, "MENU", 2)
+		L_EasyMenu(menuList, menuFrame, "cursor", -15, -7, "MENU", 2)
 	end
 end
 

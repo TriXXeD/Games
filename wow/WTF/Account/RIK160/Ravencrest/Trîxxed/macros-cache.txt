@@ -18,12 +18,6 @@ VER 3 0100000000000005 "Earth Shield" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [target=mouseover,exists] Earth Shield; Earth Shield
 END
-VER 3 010000000000000E "Elemental Blast" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/targetenemy
-/cast Elemental Blast
-/targetprevioustarget
-END
 VER 3 010000000000000C "Frost Shock" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /stopcasting
@@ -42,6 +36,18 @@ VER 3 0100000000000001 "Healing Wave" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [target=mouseover,exists] Healing Wave; Healing Wave
 END
+VER 3 010000000000000F "L100" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:7/1] Ascendance; [talent:7/2] Wellspring; [talent:7/3] High Tide
+END
+VER 3 0100000000000012 "L45" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:3/1] Lightning Surge Totem; [talent:3/2] Earthgrab Totem; [talent:3/3] Voodoo Totem
+END
+VER 3 0100000000000013 "L75" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:5/1] Ancestral Protection Totem; [talent:5/2] Earthen Shield Totem; [talent:5/3] Ancestral Vigor
+END
 VER 3 0100000000000010 "Purge" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@mouseover,harm,exists] Purge; Purge
@@ -53,10 +59,6 @@ END
 VER 3 0100000000000004 "Riptide" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [target=mouseover,exists] Riptide; Riptide
-END
-VER 3 010000000000000F "T7" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [talent:7/1] Cloudburst Totem; [talent:7/2] Storm Elemental Totem; [talent:7/3] High Tide
 END
 VER 3 0100000000000003 "Unleash Life" "INV_MISC_QUESTIONMARK"
 #showtooltip

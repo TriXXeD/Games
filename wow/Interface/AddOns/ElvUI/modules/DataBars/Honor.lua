@@ -1,10 +1,9 @@
-local E, L, V, P, G = unpack(select(2, ...)); --Inport: Engine, Locales, PrivateDB, ProfileDB, GlobalDB
+local E, L, V, P, G = unpack(select(2, ...)); --Import: Engine, Locales, PrivateDB, ProfileDB, GlobalDB
 local mod = E:GetModule('DataBars');
 local LSM = LibStub("LibSharedMedia-3.0")
 
 --Cache global variables
 --Lua functions
-local _G = _G
 local format = format
 --WoW API / Variables
 local CanPrestige = CanPrestige
@@ -136,6 +135,13 @@ function mod:UpdateHonorDimensions()
 	self.honorBar.statusBar:SetOrientation(self.db.honor.orientation)
 	self.honorBar.statusBar:SetReverseFill(self.db.honor.reverseFill)
 	self.honorBar.text:FontTemplate(LSM:Fetch("font", self.db.honor.font), self.db.honor.textSize, self.db.honor.fontOutline)
+
+	if self.db.honor.orientation == "HORIZONTAL" then
+		self.honorBar.statusBar:SetRotatesTexture(false)
+	else
+		self.honorBar.statusBar:SetRotatesTexture(true)
+	end
+
 	if self.db.honor.mouseover then
 		self.honorBar:SetAlpha(0)
 	else

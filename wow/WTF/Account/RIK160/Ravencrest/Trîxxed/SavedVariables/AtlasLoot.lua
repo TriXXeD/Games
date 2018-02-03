@@ -14,7 +14,7 @@ AtlasLootCharDB = {
 			"AtlasLoot_WrathoftheLichKing", -- [1]
 			"IcecrownCitadel", -- [2]
 			nil, -- [3]
-			3, -- [4]
+			1, -- [4]
 			0, -- [5]
 		},
 		["point"] = {
@@ -24,4 +24,11 @@ AtlasLootCharDB = {
 		},
 	},
 	["__addonrevision"] = 4325,
+	["QuickLootFrame"] = {
+		["point"] = {
+			[3] = "CENTER",
+			[4] = -9.00013256072998,
+			[5] = -3.0001208782196,
+		},
+	},
 }

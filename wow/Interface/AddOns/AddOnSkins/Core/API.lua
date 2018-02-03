@@ -1,11 +1,15 @@
 local AS = unpack(AddOnSkins)
 
-local Color = RAID_CLASS_COLORS[AS.MyClass]
+local _G, CreateFrame = _G, CreateFrame
+local unpack, pairs, select, type, assert, next = unpack, pairs, select, type, assert, next
+local strlower, strfind = strlower, strfind
+local CopyTable, tremove = CopyTable, tremove
+local EnumerateFrames = EnumerateFrames
 
 function AS:SetTemplate(Frame, Template, UseTexture, TextureFile)
 	local Texture = AS.Blank
 
-	if UseTexture then 
+	if UseTexture then
 		Texture = TextureFile or AS.NormTex
 	end
 
@@ -29,14 +33,14 @@ function AS:SetTemplate(Frame, Template, UseTexture, TextureFile)
 			Frame.InsetTop:Point("TOPLEFT", Frame, "TOPLEFT", -1, 1)
 			Frame.InsetTop:Point("TOPRIGHT", Frame, "TOPRIGHT", 1, -1)
 			Frame.InsetTop:Height(1)
-			Frame.InsetTop:SetColorTexture(0,0,0)	
+			Frame.InsetTop:SetColorTexture(0,0,0)
 			Frame.InsetTop:SetDrawLayer("BORDER", -7)
 
 			Frame.InsetBottom = Frame:CreateTexture(nil, "BORDER")
 			Frame.InsetBottom:Point("BOTTOMLEFT", Frame, "BOTTOMLEFT", -1, -1)
 			Frame.InsetBottom:Point("BOTTOMRIGHT", Frame, "BOTTOMRIGHT", 1, -1)
 			Frame.InsetBottom:Height(1)
-			Frame.InsetBottom:SetColorTexture(0,0,0)	
+			Frame.InsetBottom:SetColorTexture(0,0,0)
 			Frame.InsetBottom:SetDrawLayer("BORDER", -7)
 
 			Frame.InsetLeft = Frame:CreateTexture(nil, "BORDER")
@@ -50,21 +54,21 @@ function AS:SetTemplate(Frame, Template, UseTexture, TextureFile)
 			Frame.InsetRight:Point("TOPRIGHT", Frame, "TOPRIGHT", 1, 1)
 			Frame.InsetRight:Point("BOTTOMRIGHT", Frame, "BOTTOMRIGHT", -1, -1)
 			Frame.InsetRight:Width(1)
-			Frame.InsetRight:SetColorTexture(0,0,0)	
+			Frame.InsetRight:SetColorTexture(0,0,0)
 			Frame.InsetRight:SetDrawLayer("BORDER", -7)
 
 			Frame.InsetInsideTop = Frame:CreateTexture(nil, "BORDER")
 			Frame.InsetInsideTop:Point("TOPLEFT", Frame, "TOPLEFT", 1, -1)
 			Frame.InsetInsideTop:Point("TOPRIGHT", Frame, "TOPRIGHT", -1, 1)
 			Frame.InsetInsideTop:Height(1)
-			Frame.InsetInsideTop:SetColorTexture(0,0,0)	
+			Frame.InsetInsideTop:SetColorTexture(0,0,0)
 			Frame.InsetInsideTop:SetDrawLayer("BORDER", -7)
 
 			Frame.InsetInsideBottom = Frame:CreateTexture(nil, "BORDER")
 			Frame.InsetInsideBottom:Point("BOTTOMLEFT", Frame, "BOTTOMLEFT", 1, 1)
 			Frame.InsetInsideBottom:Point("BOTTOMRIGHT", Frame, "BOTTOMRIGHT", -1, 1)
 			Frame.InsetInsideBottom:Height(1)
-			Frame.InsetInsideBottom:SetColorTexture(0,0,0)	
+			Frame.InsetInsideBottom:SetColorTexture(0,0,0)
 			Frame.InsetInsideBottom:SetDrawLayer("BORDER", -7)
 
 			Frame.InsetInsideLeft = Frame:CreateTexture(nil, "BORDER")
@@ -78,12 +82,13 @@ function AS:SetTemplate(Frame, Template, UseTexture, TextureFile)
 			Frame.InsetInsideRight:Point("TOPRIGHT", Frame, "TOPRIGHT", -1, -1)
 			Frame.InsetInsideRight:Point("BOTTOMRIGHT", Frame, "BOTTOMRIGHT", 1, 1)
 			Frame.InsetInsideRight:Width(1)
-			Frame.InsetInsideRight:SetColorTexture(0,0,0)	
+			Frame.InsetInsideRight:SetColorTexture(0,0,0)
 			Frame.InsetInsideRight:SetDrawLayer("BORDER", -7)
 
 			Frame.isInsetDone = true
 		end
 	end
+
 	local R, G, B = unpack(AS.BackdropColor)
 	local Alpha = (Template == "Transparent" and .8 or 1)
 
@@ -103,14 +108,14 @@ function AS:SetTemplate(Frame, Template, UseTexture, TextureFile)
 end
 
 local Insets = {
-	InsetTop,
-	InsetBottom,
-	InsetLeft,
-	InsetRight,
-	InsetInsideTop,
-	InsetInsideBottom,
-	InsetInsideLeft,
-	InsetInsideRight,
+	'InsetTop',
+	'InsetBottom',
+	'InsetLeft',
+	'InsetRight',
+	'InsetInsideTop',
+	'InsetInsideBottom',
+	'InsetInsideLeft',
+	'InsetInsideRight',
 }
 
 function AS:HideInset(Frame)
@@ -167,23 +172,18 @@ function AS:SkinButton(Button, Strip)
 
 	local ButtonName = Button:GetName()
 
-	if ButtonName then
-		for _, Region in pairs(BlizzardRegions) do
-			if _G[ButtonName..Region] then
-				_G[ButtonName..Region]:SetAlpha(0)
-			end
-		end
-	end
-
 	for _, Region in pairs(BlizzardRegions) do
+		if ButtonName and _G[ButtonName..Region] then
+			_G[ButtonName..Region]:SetAlpha(0)
+		end
 		if Button[Region] then
 			Button[Region]:SetAlpha(0)
 		end
 	end
 
-	if Button.SetNormalTexture then Button:SetNormalTexture("") end	
+	if Button.SetNormalTexture then Button:SetNormalTexture("") end
 	if Button.SetHighlightTexture then Button:SetHighlightTexture("") end
-	if Button.SetPushedTexture then Button:SetPushedTexture("") end	
+	if Button.SetPushedTexture then Button:SetPushedTexture("") end
 	if Button.SetDisabledTexture then Button:SetDisabledTexture("") end
 
 	AS:SkinFrame(Button, nil, not Strip)
@@ -193,11 +193,7 @@ function AS:SkinButton(Button, Strip)
 	end
 
 	Button:HookScript("OnEnter", function(self)
-		if AS.ValueColor then
-			self:SetBackdropBorderColor(unpack(AS.ValueColor))
-		else
-			self:SetBackdropBorderColor(Color.r, Color.g, Color.b)
-		end
+		self:SetBackdropBorderColor(unpack(AS.ValueColor or AS.ClassColor))
 	end)
 
 	Button:HookScript("OnLeave", function(self)
@@ -236,13 +232,18 @@ function AS:CreateShadow(Frame)
 	Shadow:Point("TOPRIGHT", 3, 3)
 	Shadow:Point("BOTTOMRIGHT", 3, -3)
 
-	Shadow:SetBackdrop({ 
+	Shadow:SetBackdrop({
 		edgeFile = [[Interface\AddOns\AddOnSkins\Media\Textures\Shadows]], edgeSize = AS:Scale(3),
 		insets = {left = AS:Scale(5), right = AS:Scale(5), top = AS:Scale(5), bottom = AS:Scale(5)},
 	})
 
 	Shadow:SetBackdropColor(0, 0, 0, 0)
 	Shadow:SetBackdropBorderColor(0, 0, 0, 0.8)
+
+	if AS.ES then
+		AS.ES:RegisterShadow(Shadow)
+	end
+
 	Frame.Shadow = Shadow
 end
 
@@ -292,10 +293,12 @@ function AS:SkinCloseButton(CloseButton, Reposition)
 	CloseButton.Backdrop:Point('TOPLEFT', 7, -8)
 	CloseButton.Backdrop:Point('BOTTOMRIGHT', -8, 8)
 
+	CloseButton:SetHitRectInsets(6, 6, 7, 7)
+
 	CloseButton:HookScript("OnEnter", function(self)
 		self.Text:SetTextColor(1, .2, .2)
 		if AS:CheckAddOn('ElvUI') and AS:CheckOption('ElvUISkinModule') then
-			self.Backdrop:SetBackdropBorderColor(unpack(ElvUI[1]["media"].rgbvaluecolor))
+			self.Backdrop:SetBackdropBorderColor(unpack(AS.ValueColor))
 		else
 			self.Backdrop:SetBackdropBorderColor(1, .2, .2)
 		end
@@ -440,19 +443,27 @@ local ScrollBarElements = {
 	'Top',
 	'Bottom',
 	'Middle',
+	'trackBG',
+	'ScrollBarTop',
+	'ScrollBarBottom',
+	'ScrollBarMiddle',
+	'thumbTexture',
 }
 
 function AS:SkinScrollBar(Frame)
-	local ScrollUpButton = Frame:GetName() and _G[Frame:GetName().."ScrollUpButton"] or Frame.ScrollUpButton
-	local ScrollDownButton = Frame:GetName() and _G[Frame:GetName().."ScrollDownButton"] or Frame.ScrollDownButton
-
-	for _, object in pairs(ScrollBarElements) do
-		if Frame:GetName() and _G[Frame:GetName()..object] then
-			_G[Frame:GetName()..object]:SetTexture(nil)
-		end
-	end
+	local ScrollUpButton = Frame:GetName() and _G[Frame:GetName().."ScrollUpButton"] or Frame.ScrollUpButton or Frame.UpButton
+	local ScrollDownButton = Frame:GetName() and _G[Frame:GetName().."ScrollDownButton"] or Frame.ScrollDownButton or Frame.DownButton
 
 	if ScrollUpButton and ScrollDownButton then
+		for _, object in pairs(ScrollBarElements) do
+			if Frame:GetName() and _G[Frame:GetName()..object] then
+				_G[Frame:GetName()..object]:SetTexture(nil)
+			end
+			if Frame[object] then
+				Frame[object]:SetTexture(nil)
+			end
+		end
+
 		AS:StripTextures(ScrollUpButton)
 		AS:SetTemplate(ScrollUpButton, "Default", true)
 
@@ -480,14 +491,14 @@ function AS:SkinScrollBar(Frame)
 			end)
 
 			ScrollUpButton:HookScript('OnEnter', function(self)
-				self:SetBackdropBorderColor(Color.r, Color.g, Color.b)
-				self.Text:SetTextColor(Color.r, Color.g, Color.b)
+				self:SetBackdropBorderColor(unpack(AS.ValueColor or AS.ClassColor))
+				self.Text:SetTextColor(unpack(AS.ValueColor or AS.ClassColor))
 			end)
 			ScrollUpButton:HookScript('OnLeave', function(self)
 				self:SetBackdropBorderColor(unpack(AS.BorderColor))
 				self.Text:SetTextColor(1, 1, 1)
 			end)
-		end	
+		end
 
 		if not ScrollDownButton.Text then
 			ScrollDownButton.Text = ScrollDownButton:CreateFontString(nil, "OVERLAY")
@@ -510,8 +521,8 @@ function AS:SkinScrollBar(Frame)
 			end)
 
 			ScrollDownButton:HookScript('OnEnter', function(self)
-				self:SetBackdropBorderColor(Color.r, Color.g, Color.b)
-				self.Text:SetTextColor(Color.r, Color.g, Color.b)
+				self:SetBackdropBorderColor(unpack(AS.ValueColor or AS.ClassColor))
+				self.Text:SetTextColor(unpack(AS.ValueColor or AS.ClassColor))
 			end)
 
 			ScrollDownButton:HookScript('OnLeave', function(self)
@@ -531,10 +542,17 @@ function AS:SkinScrollBar(Frame)
 			Frame:GetThumbTexture():SetTexture(nil)
 			if not Frame.ThumbBG then
 				Frame.ThumbBG = CreateFrame("Frame", nil, Frame)
-				Frame.ThumbBG:Point("TOPLEFT", Frame:GetThumbTexture(), "TOPLEFT", 2, -3)
-				Frame.ThumbBG:Point("BOTTOMRIGHT", Frame:GetThumbTexture(), "BOTTOMRIGHT", -2, 3)
+				Frame.ThumbBG:SetPoint("TOPLEFT", Frame:GetThumbTexture(), "TOPLEFT", 2, -3)
+				Frame.ThumbBG:SetPoint("BOTTOMRIGHT", Frame:GetThumbTexture(), "BOTTOMRIGHT", -2, 3)
 				AS:SetTemplate(Frame.ThumbBG, "Default")
-				if IsAddOnLoaded('ElvUI') then
+				Frame.ThumbBG:HookScript('OnEnter', function(self)
+					self:SetBackdropBorderColor(unpack(AS.ValueColor or AS.ClassColor))
+				end)
+				Frame.ThumbBG:HookScript('OnLeave', function(self)
+					self:SetBackdropBorderColor(unpack(AS.BorderColor))
+				end)
+
+				if AS:CheckAddOn('ElvUI') then
 					Frame.ThumbBG:SetBackdropColor(0.6, 0.6, 0.6)
 				else
 					Frame.ThumbBG:SetBackdropColor(unpack(AS.BorderColor))
@@ -548,74 +566,61 @@ function AS:SkinScrollBar(Frame)
 	end
 end
 
-function AS:SkinNextPrevButton(Button, Vertical)
-	if Button.isSkinned then return end
-	AS:SetTemplate(Button)
-	Button:Size(Button:GetWidth() - 7, Button:GetHeight() - 7)
+function AS:SkinNextPrevButton(Button, Vertical, Inverse)
+	local ButtonName = Button:GetName() and Button:GetName():lower()
+	Inverse = Inverse or ButtonName and (strfind(ButtonName, 'left') or strfind(ButtonName, 'prev') or strfind(ButtonName, 'decrement') or strfind(ButtonName, 'back'))
 
-	for i = 1, Button:GetNumRegions() do
-		local region = select(i, Button:GetRegions())
-		if region and region:GetObjectType() == "Texture" and region:GetTexture() == "Interface\\Buttons\\UI-PageButton-Background" then
-			region:SetTexture('')
+	AS:SkinButton(Button)
+	Button:SetSize(Button:GetWidth() - 7, Button:GetHeight() - 7)
+
+	if not Button.icon then
+		Button.icon = Button:CreateTexture(nil, 'ARTWORK')
+		Button.icon:SetSize(13, 13)
+		Button.icon:SetPoint('CENTER')
+		Button.icon:SetTexture([[Interface\Buttons\SquareButtonTextures]])
+		Button.icon:SetTexCoord(0.01562500, 0.20312500, 0.01562500, 0.20312500)
+
+		Button:HookScript('OnMouseDown', function(self)
+			if self:IsEnabled() then
+				self.icon:SetPoint("CENTER", -1, -1);
+			end
+		end)
+
+		Button:HookScript('OnMouseUp', function(self)
+			self.icon:SetPoint("CENTER", 0, 0);
+		end)
+
+		Button:HookScript('OnDisable', function(self)
+			SetDesaturation(self.icon, true);
+			self.icon:SetAlpha(0.5);
+		end)
+
+		Button:HookScript('OnEnable', function(self)
+			SetDesaturation(self.icon, false);
+			self.icon:SetAlpha(1.0);
+		end)
+
+		if not Button:IsEnabled() then
+			Button:GetScript('OnDisable')(Button)
 		end
 	end
 
-	if Vertical then
-		Button:GetNormalTexture():SetTexCoord(0.3, 0.29, 0.3, 0.72, 0.65, 0.29, 0.65, 0.72)
-
-		if Button:GetPushedTexture() then
-			Button:GetPushedTexture():SetTexCoord(0.3, 0.35, 0.3, 0.8, 0.65, 0.35, 0.65, 0.8)
-		end
-
-		if Button:GetDisabledTexture() then
-			Button:GetDisabledTexture():SetTexCoord(0.3, 0.29, 0.3, 0.75, 0.65, 0.29, 0.65, 0.75)
-		end
-	else
-		Button:GetNormalTexture():SetTexCoord(0.3, 0.29, 0.3, 0.81, 0.65, 0.29, 0.65, 0.81)
-
-		if Button:GetPushedTexture() then
-			Button:GetPushedTexture():SetTexCoord(0.3, 0.35, 0.3, 0.81, 0.65, 0.35, 0.65, 0.81)
-		end
-
-		if Button:GetDisabledTexture() then
-			Button:GetDisabledTexture():SetTexCoord(0.3, 0.29, 0.3, 0.75, 0.65, 0.29, 0.65, 0.75)
-		end
-	end
-
-	Button:GetNormalTexture():ClearAllPoints()
-	Button:GetNormalTexture():SetInside()
-
-	if Button:GetDisabledTexture() then
-		Button:GetDisabledTexture():SetAllPoints(Button:GetNormalTexture())
-	end
-
-	if Button:GetPushedTexture() then
-		Button:GetPushedTexture():SetAllPoints(Button:GetNormalTexture())
-	end
-
-	Button:GetHighlightTexture():SetColorTexture(1, 1, 1, 0.3)
-	Button:GetHighlightTexture():SetAllPoints(Button:GetNormalTexture())
-
-	Button.isSkinned = true
+	SquareButton_SetIcon(Button, Vertical and (Inverse and 'UP' or 'DOWN') or (Inverse and 'LEFT' or 'RIGHT'))
 end
 
 function AS:SkinRotateButton(Button)
-	if Button.isSkinned then return end
-
 	AS:SetTemplate(Button, "Default")
-	Button:Size(Button:GetWidth() - 14, Button:GetHeight() - 14)	
+	Button:Size(Button:GetWidth() - 14, Button:GetHeight() - 14)
 
 	Button:GetNormalTexture():SetTexCoord(0.3, 0.29, 0.3, 0.65, 0.69, 0.29, 0.69, 0.65)
-	Button:GetPushedTexture():SetTexCoord(0.3, 0.29, 0.3, 0.65, 0.69, 0.29, 0.69, 0.65)	
+	Button:GetPushedTexture():SetTexCoord(0.3, 0.29, 0.3, 0.65, 0.69, 0.29, 0.69, 0.65)
 
 	Button:GetHighlightTexture():SetColorTexture(1, 1, 1, 0.3)
 
 	Button:GetNormalTexture():ClearAllPoints()
 	Button:GetNormalTexture():SetInside()
-	Button:GetPushedTexture():SetAllPoints(Button:GetNormalTexture())	
+	Button:GetPushedTexture():SetAllPoints(Button:GetNormalTexture())
 	Button:GetHighlightTexture():SetAllPoints(Button:GetNormalTexture())
-
-	Button.isSkinned = true
 end
 
 function AS:SkinDropDownBox(Frame, Width)
@@ -692,29 +697,14 @@ function AS:SkinSlideBar(Frame, Height, MoveText)
 	end
 end
 
-function AS:SkinIconButton(Button, ShrinkIcon)
+function AS:SkinIconButton(Button)
 	if Button.isSkinned then return end
 
-	local Icon, Texture
 	local ButtonName = Button:GetName()
-
-	if Button.icon then
-		Icon = Button.icon
-		Texture = Button.icon:GetTexture()
-	elseif Button.Icon then
-		Icon = Button.Icon
-		Texture = Button.Icon:GetTexture()
-	elseif ButtonName then
-		if _G[ButtonName.."IconTexture"] then
-			Icon = _G[ButtonName.."IconTexture"]
-			Texture = _G[ButtonName.."IconTexture"]:GetTexture()
-		elseif _G[ButtonName.."Icon"] then
-			Icon = _G[ButtonName.."Icon"]
-			Texture = _G[ButtonName.."Icon"]:GetTexture()
-		end
-	end
+	local Icon, Texture = Button.icon or Button.Icon or ButtonName and (_G[ButtonName.."Icon"] or _G[ButtonName.."IconTexture"])
 
 	if Icon then
+		Texture = Icon:GetTexture()
 		AS:SkinFrame(Button)
 		AS:StyleButton(Button)
 		Icon:SetTexture(Texture)
@@ -749,11 +739,10 @@ function AS:SkinStatusBar(frame, ClassColor)
 	AS:SkinBackdropFrame(frame)
 	frame:SetStatusBarTexture(AS.NormTex)
 	if ClassColor then
-		local color = RAID_CLASS_COLORS[AS.MyClass]
-		frame:SetStatusBarColor(color.r, color.g, color.b)
+		frame:SetStatusBarColor(unpack(AS.ClassColor))
 	end
 	if AS:CheckAddOn('ElvUI') then
-		ElvUI[1]:RegisterStatusBar(Frame)
+		ElvUI[1]:RegisterStatusBar(frame)
 	end
 end
 
@@ -768,7 +757,7 @@ function AS:SkinTexture(frame)
 	frame:SetTexCoord(unpack(AS.TexCoords))
 end
 
-function AS:Desaturate(frame, point)
+function AS:Desaturate(frame)
 	for i = 1, frame:GetNumRegions() do
 		local region = select(i, frame:GetRegions())
 		if region:IsObjectType('Texture') then
@@ -780,7 +769,7 @@ function AS:Desaturate(frame, point)
 				region:SetDesaturated(true)
 			end
 		end
-	end	
+	end
 	frame:HookScript('OnUpdate', function(self)
 		if self:GetNormalTexture() then
 			self:GetNormalTexture():SetDesaturated(true)
@@ -792,6 +781,44 @@ function AS:Desaturate(frame, point)
 			self:GetHighlightTexture():SetDesaturated(true)
 		end
 	end)
+end
+
+function AS:SkinMaxMinFrame(frame)
+	AS:StripTextures(frame, true)
+
+	for _, name in pairs({"MaximizeButton", "MinimizeButton"}) do
+		local button = frame[name]
+
+		if button then
+			button:SetSize(16, 16)
+			button:ClearAllPoints()
+			button:SetPoint("CENTER")
+			button:SetHitRectInsets(1, 1, 1, 1)
+			AS:StripTextures(button, nil, true)
+			AS:SetTemplate(button)
+
+			button.Text = button:CreateFontString(nil, "OVERLAY")
+			button.Text:SetFont([[Interface\AddOns\AddOnSkins\Media\Fonts\Arial.TTF]], 12)
+			button.Text:SetText(name == "MaximizeButton" and "▲" or "▼")
+			button.Text:SetPoint("CENTER", 0, 0)
+
+			button:HookScript('OnShow', function(self)
+				if not self:IsEnabled() then
+					self.Text:SetTextColor(.3, .3, .3)
+				end
+			end)
+
+			button:HookScript('OnEnter', function(self)
+				self:SetBackdropBorderColor(unpack(AS.ValueColor or AS.ClassColor))
+				self.Text:SetTextColor(unpack(AS.ValueColor or AS.ClassColor))
+			end)
+
+			button:HookScript('OnLeave', function(self)
+				self:SetBackdropBorderColor(unpack(AS.BorderColor))
+				self.Text:SetTextColor(1, 1, 1)
+			end)
+		end
+	end
 end
 
 function AS:AdjustForPixelPerfect(number)
@@ -816,9 +843,9 @@ local function EnumObjectsHelper(enumFuncs, yieldFunc, iobj)
 			if (depth == 1) then
 				yieldFunc(obj)
 			else
-				local innerEnumFuncs = CopyTable(enumFuncs);
-				tremove(innerEnumFuncs, 1);
-				EnumObjectsHelper(innerEnumFuncs, yieldFunc, obj);
+				local innerEnumFuncs = CopyTable(enumFuncs)
+				tremove(innerEnumFuncs, 1)
+				EnumObjectsHelper(innerEnumFuncs, yieldFunc, obj)
 			end
 		end
 		i = i + 1
@@ -831,4 +858,144 @@ function AS:EnumObjects(enumFuncs, yieldFunc)
 	end
 
 	EnumObjectsHelper(enumFuncs, yieldFunc)
+end
+
+function AS:FindChildFrameByPoint(parent, objType, point1, relativeTo, point2, x, y)
+	if not parent then return end
+
+	local frame, childID
+	local childPoint1, childParent, childPoint2, childX, childY
+	local childs = {parent:GetChildren()}
+
+	x = AS:Round(x)
+	y = AS:Round(y)
+
+	for id, child in pairs(childs) do
+		if not child:GetName() then
+			if not objType or (objType and child:IsObjectType(objType)) then
+				childPoint1, childParent, childPoint2, childX, childY = child:GetPoint()
+				childX = childX and AS:Round(childX) or 0
+				childY = childY and AS:Round(childY) or 0
+
+				if childPoint1 == point1
+				and childParent == relativeTo
+				and (not point2 or (childPoint2 == point2))
+				and x == childX
+				and y == childY
+				then
+					frame, childID = child, id
+					break
+				end
+			end
+		end
+	end
+
+	return frame, childID
+end
+
+function AS:FindChildFrameBySize(parent, objType, width, height)
+	if not parent then return end
+
+	local frame, childID
+	local childs = {parent:GetChildren()}
+
+	width = AS:Round(width)
+	height = AS:Round(height)
+
+	for id, child in pairs(childs) do
+		if not child:GetName() then
+			if not objType or (objType and child:IsObjectType(objType)) then
+				if AS:Round(child:GetWidth()) == width and AS:Round(child:GetHeight()) == width then
+					frame, childID = child, id
+					break
+				end
+			end
+		end
+	end
+
+	return frame, childID
+end
+
+function AS:FindFrameBySizeChild(childTypes, width, height)
+	if not childTypes then return end
+
+	local frame
+	local obj = EnumerateFrames()
+
+	width = AS:Round(width)
+	height = AS:Round(height)
+
+	while obj do
+		if obj.IsObjectType and obj:IsObjectType("Frame") then
+			if not (obj:GetName() and obj:GetParent()) then
+				if AS:Round(obj:GetWidth()) == width and AS:Round(obj:GetHeight()) == height then
+					local childs = {}
+					for _, child in pairs({obj:GetChildren()}) do
+						childs[#childs + 1] = child:GetObjectType()
+					end
+
+					local matched = 0
+					for _, cType in pairs(childTypes) do
+						for _, type in pairs(childs) do
+							if cType == type then
+								matched = matched + 1
+							end
+						end
+					end
+
+					if matched == #childTypes then
+						frame = obj
+						break
+					end
+				end
+			end
+		end
+
+		obj = EnumerateFrames(obj)
+	end
+
+	return frame
+end
+
+function AS:FindFrameByPoint(point1, relativeTo, point2, x, y, multipleFrames)
+	if not relativeTo then return end
+
+	local frame
+	if multipleFrames then
+		frame = {}
+	end
+
+	local childPoint1, childParent, childPoint2, childX, childY
+	local obj = EnumerateFrames()
+
+	x = AS:Round(x)
+	y = AS:Round(y)
+
+	while obj do
+		if obj.IsObjectType and obj:IsObjectType("Frame") then
+			if not (obj:GetName() and obj:GetParent()) then
+				childPoint1, childParent, childPoint2, childX, childY = obj:GetPoint()
+				childX = childX and AS:Round(childX) or 0
+				childY = childY and AS:Round(childY) or 0
+
+				if childPoint1 == point1
+				and childParent == relativeTo
+				and (not point2 or (childPoint2 == point2))
+				and x == childX
+				and y == childY
+				then
+					if multipleFrames then
+						frame[#frame + 1] = obj
+					else
+						frame = obj
+						break
+					end
+				end
+			end
+		end
+
+		obj = EnumerateFrames(obj)
+	end
+
+	return frame
 end

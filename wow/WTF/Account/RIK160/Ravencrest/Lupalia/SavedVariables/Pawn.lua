@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0208,
+	["LastVersion"] = 2.0217,
 	["LastPlayerFullName"] = "Lupalia-Ravencrest",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,
@@ -9,15 +9,15 @@ PawnOptions = {
 		[128872] = {
 			["Relics"] = {
 				{
-					["ItemLevel"] = 33,
+					["ItemLevel"] = 61,
 					["Type"] = "Blood",
 				}, -- [1]
 				{
-					["ItemLevel"] = 23,
+					["ItemLevel"] = 53,
 					["Type"] = "Iron",
 				}, -- [2]
 				{
-					["ItemLevel"] = 43,
+					["ItemLevel"] = 58,
 					["Type"] = "Wind",
 				}, -- [3]
 			},
@@ -26,15 +26,15 @@ PawnOptions = {
 		[128870] = {
 			["Relics"] = {
 				{
-					["ItemLevel"] = 37,
+					["ItemLevel"] = 61,
 					["Type"] = "Shadow",
 				}, -- [1]
 				{
-					["ItemLevel"] = 46,
+					["ItemLevel"] = 52,
 					["Type"] = "Iron",
 				}, -- [2]
 				{
-					["ItemLevel"] = 42,
+					["ItemLevel"] = 61,
 					["Type"] = "Blood",
 				}, -- [3]
 			},
@@ -43,14 +43,15 @@ PawnOptions = {
 		[128476] = {
 			["Relics"] = {
 				{
-					["ItemLevel"] = 32,
+					["ItemLevel"] = 51,
 					["Type"] = "Fel",
 				}, -- [1]
 				{
+					["ItemLevel"] = 56,
 					["Type"] = "Shadow",
 				}, -- [2]
 				{
-					["ItemLevel"] = 49,
+					["ItemLevel"] = 59,
 					["Type"] = "Fel",
 				}, -- [3]
 			},

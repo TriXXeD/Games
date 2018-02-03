@@ -1,6 +1,5 @@
 
 AucAdvancedConfig = {
-	["version"] = 1,
 	["profile.Default"] = {
 		["configator.left"] = 650.256457755732,
 		["core"] = {
@@ -11,61 +10,62 @@ AucAdvancedConfig = {
 				},
 			},
 		},
+		["stat"] = {
+			["sales"] = {
+				["ignoredsigs"] = {
+				},
+				["upgraded32"] = true,
+			},
+		},
 		["util"] = {
 			["EasyBuyout"] = {
-				["EGL.EBuy.limit"] = 10000000,
 				["active"] = true,
+				["EGL.EBuy.limit"] = 10000000,
 			},
 			["compactui"] = {
 				["priceperitem"] = true,
 			},
-			["ahwindowcontrol"] = {
-				["ahframeanchors"] = "TOPLEFT:TOPLEFT:49.0:-155.0",
+			["pricelevel"] = {
 			},
 			["automagic"] = {
 				["ammailguix"] = 160,
-				["uierrormsg"] = 1,
-				["ammailguiy"] = 99.9,
 				["SavedMailButtons"] = {
 				},
+				["ammailguiy"] = 99.9,
+				["uierrormsg"] = 1,
 			},
-			["pricelevel"] = {
-			},
-		},
-		["stat"] = {
-			["sales"] = {
-				["upgraded32"] = true,
-				["ignoredsigs"] = {
-				},
+			["ahwindowcontrol"] = {
+				["ahframeanchors"] = "TOPLEFT:TOPLEFT:42.0:-152.0",
 			},
 		},
 		["configator.top"] = 815.769246135318,
 	},
+	["version"] = 1,
 	["users.Ravencrest.Achilina"] = "Default",
 }
 AucAdvancedData = {
 	["AserArbitrageRealms"] = {
 		["Laughing Skull"] = "Tríxxed",
-		["Argent Dawn"] = "Earthina",
+		["Aerie Peak"] = "Sftyhsfey",
 		["Shadowsong"] = "Trïxxed",
 		["The Maelstrom"] = "Tríxxed",
 		["Thunderhorn"] = "Odeysseus",
 		["Ravencrest"] = "Achilina",
 		["Silvermoon"] = "Asgfdfgdf",
-		["Aerie Peak"] = "Sftyhsfey",
+		["Argent Dawn"] = "Earthina",
 	},
 	["Stats"] = {
 	},
 	["UtilSearchUiData"] = {
-		["Global"] = {
-			["configator.left"] = 600.256591796875,
-			["configator.top"] = 840.769226074219,
-		},
+		["Version"] = 1,
 		["Current"] = {
 			["snatch.itemsList"] = {
 			},
 		},
-		["Version"] = 1,
+		["Global"] = {
+			["configator.left"] = 600.256591796875,
+			["configator.top"] = 840.769226074219,
+		},
 		["SavedSearches"] = {
 		},
 	},
@@ -92,9 +92,9 @@ AucAdvancedServers = {
 	["KnownServerKeys"] = {
 		["#Thunderhorn"] = 1479682349,
 		["Ravencrest"] = 1468975097,
-		["Draenor"] = 1498222802,
-		["ArgentDawn"] = 1458341929,
+		["Draenor"] = 1517668602,
 		["#LaughingSkull"] = 1468186687,
+		["ArgentDawn"] = 1458341929,
 	},
 	["Version"] = 1,
 	["Timestamp"] = 1440582986,
@@ -102,8 +102,8 @@ AucAdvancedServers = {
 		["LaughingSkull"] = "#LaughingSkull",
 		["Ravencrest"] = "Ravencrest",
 		["Draenor"] = "Draenor",
-		["Thunderhorn"] = "#Thunderhorn",
 		["ArgentDawn"] = "ArgentDawn",
+		["Thunderhorn"] = "#Thunderhorn",
 	},
 	["ExpandedNames"] = {
 		["LaughingSkull"] = "Laughing Skull",

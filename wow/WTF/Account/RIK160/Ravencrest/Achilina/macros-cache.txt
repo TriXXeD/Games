@@ -28,11 +28,11 @@ VER 3 0100000000000007 "Flash of Light" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0100000000000002 "Hand of Sacrific" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [target=mouseover,exists] Hand of Sacrifice; Hand of Sacrifice
+/cast [target=mouseover,exists] Blessing of Sacrifice; Blessing of Sacrifice
 END
 VER 3 010000000000000D "HoF" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [target=mouseover,exists] Hand of Freedom; Hand of Freedom
+/cast [target=mouseover,exists] Blessing of Freedom; Blessing of Freedom
 END
 VER 3 0100000000000005 "Holy Light" "INV_MISC_QUESTIONMARK"
 #showtooltip Holy Light
@@ -58,7 +58,7 @@ VER 3 0100000000000011 "Holy Tank Prism" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0100000000000008 "HoP" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [target=mouseover,exists] Hand of Protection; Hand of Protection
+/cast [target=mouseover,exists] Blessing of Protection; Blessing of Protection
 END
 VER 3 0100000000000012 "HP/ESSelf" "INV_MISC_QUESTIONMARK"
 #showtooltip Execution Sentence

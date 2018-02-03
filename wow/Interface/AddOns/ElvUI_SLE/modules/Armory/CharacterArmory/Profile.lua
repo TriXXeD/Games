@@ -19,7 +19,8 @@ P.sle.Armory.Character = {
 	
 	Gradation = {
 		Display = true,
-		Color = { .41, .83, 1 }
+		Color = { .41, .83, 1 },
+		ItemQuality = false,
 	},
 	
 	Level = {
@@ -28,6 +29,7 @@ P.sle.Armory.Character = {
 		Font = "PT Sans Narrow",
 		FontSize = 10,
 		FontStyle = "OUTLINE",
+		ItemColor = false,
 	},
 	
 	Enchant = {

@@ -4,7 +4,7 @@
 -- NickTag:SetNickname (name) -> set the player nick name, after set nicktag will broadcast the nick over addon guild channel.
 -- 
 
-local major, minor = "NickTag-1.0", 8
+local major, minor = "NickTag-1.0", 9
 local NickTag, oldminor = LibStub:NewLibrary (major, minor)
 
 if (not NickTag) then 
@@ -652,7 +652,7 @@ end
 		end
 		
 		--> here we format the text to match titles, e.g converts name like "JASON NICKSHOW" into "Jason Nickshow". 
-		-- name = name:gsub ("(%a)([%w_']*)", titlecase)
+		--name = name:gsub ("(%a)([%w_']*)", titlecase)
 		
 		--> get player serial, note that serials are unique between battlegroups and we are using serial instead of full GUID just for reduce memory usage, 
 		--> e.g guids are strings with 18 characters, serials are 8 digits number (or 9).
@@ -939,7 +939,10 @@ end
 
 			serial = select ( 3, strsplit ( "-", serial ) )
 		end
-		return tonumber ("0x"..serial)
+		if (not serial) then
+			return
+		end
+		return tonumber ("0x" .. serial)
 	end
 	
 	--> choose avatar window

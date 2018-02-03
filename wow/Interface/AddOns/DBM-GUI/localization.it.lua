@@ -139,19 +139,10 @@ L.SpecWarn_FontColor		= "Colore Carattere"
 L.SpecWarn_FontType			= "Seleziona Carattere"
 L.SpecWarn_ResetMe			= "Ripristina impostazioni di default"
 
--- Tab: HealthFrame
-L.Panel_HPFrame				= "Frame della Vita"
-L.Area_HPFrame				= "Frame della Vita - Opzioni"
-L.HP_Enabled				= "Visualizza sempre il frame della vita (sovrascive l'impostazione specifica dei boss)"
-L.HP_GrowUpwards			= "Espandi il frame della vita verso l'altro"
-L.HP_ShowDemo				= "Visualizza il frame della Vita"
-L.BarWidth					= "Larghezza Barra: %d"
-
 -- Tab: Spam Filter
 L.Panel_SpamFilter				= "Filtri globali e di Spam"
 L.Area_SpamFilter				= "Filtri di Spam - Opzioni"
 L.HideBossEmoteFrame			= "Nascondi la finestra con i messaggi dei boss"
-L.SpamBlockBossWhispers			= "Filtra i sussurri di &lt;DBM&gt; durante i combattimenti"
 L.BlockVersionUpdateNotice		= "Disabilita il popup di notifica"
 L.ShowBBOnCombatStart			= "Fai un Check dei Benefici con Big Brother quando inizia un combattimento"
 L.BigBrotherAnnounceToRaid		= "Annuncia i risultati di Big Brother all'incursione"

@@ -1,0 +1,16 @@
+VER 3 0100000000000001 "Flash Heal" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover] Flash Heal;Flash Heal
+END
+VER 3 0100000000000002 "Heal" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@target] Heal; Heal
+END
+VER 3 0100000000000003 "PoM" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@target] Prayer of Mending; Prayer of Mending
+END
+VER 3 0100000000000004 "Prayer of Healin" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@target] Prayer of Healing; Prayer of Healing
+END

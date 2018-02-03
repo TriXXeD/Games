@@ -151,8 +151,16 @@ E.Options.args.general = {
 					get = function(info) return E.global.general.disableTutorialButtons end,
 					set = function(info, value) E.global.general.disableTutorialButtons = value; E:StaticPopup_Show("GLOBAL_RL") end,
 				},
-				autoScale = {
+				showMissingTalentAlert = {
 					order = 19,
+					type = "toggle",
+					name = L["Missing Talent Alert"],
+					desc = L["Show an alert frame if you have unspend talent points."],
+					get = function(info) return E.global.general.showMissingTalentAlert end,
+					set = function(info, value) E.global.general.showMissingTalentAlert = value; E:StaticPopup_Show("GLOBAL_RL") end,
+				},
+				autoScale = {
+					order = 20,
 					name = L["Auto Scale"],
 					desc = L["Automatically scale the User Interface based on your screen resolution"],
 					type = "toggle",
@@ -160,7 +168,7 @@ E.Options.args.general = {
 					set = function(info, value) E.global.general[ info[#info] ] = value; E:StaticPopup_Show("GLOBAL_RL") end
 				},
 				raidUtility = {
-					order = 20,
+					order = 21,
 					type = "toggle",
 					name = RAID_CONTROL,
 					desc = L["Enables the ElvUI Raid Control panel."],
@@ -168,34 +176,21 @@ E.Options.args.general = {
 					set = function(info, value) E.private.general.raidUtility = value; E:StaticPopup_Show("PRIVATE_RL") end
 				},
 				minUiScale = {
-					order = 21,
+					order = 22,
 					type = "range",
 					name = L["Lowest Allowed UI Scale"],
-					min = 0.32, max = 0.64, step = 0.01,
+					softMin = 0.20, softMax = 0.64, step = 0.01,
 					get = function(info) return E.global.general.minUiScale end,
 					set = function(info, value) E.global.general.minUiScale = value; E:StaticPopup_Show("GLOBAL_RL") end
 				},
 				talkingHeadFrameScale = {
-					order = 22,
+					order = 23,
 					type = "range",
 					name = L["Talking Head Scale"],
 					isPercent = true,
 					min = 0.5, max = 2, step = 0.01,
 					get = function(info) return E.db.general.talkingHeadFrameScale end,
 					set = function(info, value) E.db.general.talkingHeadFrameScale = value; B:ScaleTalkingHeadFrame() end,
-				},
-				numberPrefixStyle = {
-					order = 23,
-					type = "select",
-					name = L["Number Prefix"],
-					desc = L["The unit prefixes you want to use when values are shortened in ElvUI. This is mostly used on UnitFrames."],
-					get = function(info) return E.db.general.numberPrefixStyle end,
-					set = function(info, value) E.db.general.numberPrefixStyle = value; E:StaticPopup_Show("CONFIG_RL") end,
-					values = {
-						["METRIC"] = "k, M, G",
-						["ENGLISH"] = "K, M, B",
-						["CHINESE"] = "W, Y",
-					},
 				},
 				commandBarSetting = {
 					order = 24,
@@ -209,6 +204,30 @@ E.Options.args.general = {
 						["ENABLED"] = L["Enable"],
 						["ENABLED_RESIZEPARENT"] = L["Enable + Adjust Movers"],
 					},
+				},
+				numberPrefixStyle = {
+					order = 25,
+					type = "select",
+					name = L["Unit Prefix Style"],
+					desc = L["The unit prefixes you want to use when values are shortened in ElvUI. This is mostly used on UnitFrames."],
+					get = function(info) return E.db.general.numberPrefixStyle end,
+					set = function(info, value) E.db.general.numberPrefixStyle = value; E:StaticPopup_Show("CONFIG_RL") end,
+					values = {
+						["METRIC"] = "Metric (k, M, G)",
+						["ENGLISH"] = "English (K, M, B)",
+						["CHINESE"] = "Chinese (W, Y)",
+						["KOREAN"] = "Korean (천, 만, 억)",
+						["GERMAN"] = "German (Tsd, Mio, Mrd)"
+					},
+				},
+				decimalLength = {
+					order = 26,
+					type = "range",
+					name = L["Decimal Length"],
+					desc = L["Controls the amount of decimals used in values displayed on elements like NamePlates and UnitFrames."],
+					min = 0, max = 4, step = 1,
+					get = function(info) return E.db.general.decimalLength end,
+					set = function(info, value) E.db.general.decimalLength = value; E:StaticPopup_Show("GLOBAL_RL") end,
 				},
 			},
 		},
@@ -226,10 +245,10 @@ E.Options.args.general = {
 				},
 				fontSize = {
 					order = 2,
-					name = L["Font Size"],
+					name = FONT_SIZE,
 					desc = L["Set the font size for everything in UI. Note: This doesn't effect somethings that have their own seperate options (UnitFrame Font, Datatext Font, ect..)"],
 					type = "range",
-					min = 4, max = 212, step = 1,
+					min = 4, softMax = 32, step = 1,
 					set = function(info, value) E.db.general[ info[#info] ] = value; E:UpdateMedia(); E:UpdateFontTemplates(); end,
 				},
 				font = {
@@ -336,7 +355,7 @@ E.Options.args.general = {
 				colorsHeader = {
 					order = 30,
 					type = "header",
-					name = L["Colors"],
+					name = COLORS,
 				},
 				bordercolor = {
 					type = "color",
@@ -556,7 +575,7 @@ E.Options.args.general = {
 						['backdrop'] = L["Skin Backdrop"],
 						['nobackdrop'] = L["Remove Backdrop"],
 						['backdrop_noborder'] = L["Skin Backdrop (No Borders)"],
-						['disabled'] = L["Disabled"]
+						['disabled'] = DISABLE
 					}
 				},
 				font = {
@@ -567,16 +586,14 @@ E.Options.args.general = {
 					values = AceGUIWidgetLSMlists.font,
 					get = function(info) return E.private.general.chatBubbleFont end,
 					set = function(info, value) E.private.general.chatBubbleFont = value; E:StaticPopup_Show("PRIVATE_RL") end,
-					disabled = function() return E.private.general.chatBubbles == "disabled" end,
 				},
 				fontSize = {
 					order = 4,
 					type = "range",
-					name = L["Font Size"],
+					name = FONT_SIZE,
 					get = function(info) return E.private.general.chatBubbleFontSize end,
 					set = function(info, value) E.private.general.chatBubbleFontSize = value; E:StaticPopup_Show("PRIVATE_RL") end,
 					min = 4, max = 212, step = 1,
-					disabled = function() return E.private.general.chatBubbles == "disabled" end,
 				},
 				fontOutline = {
 					order = 5,
@@ -584,21 +601,12 @@ E.Options.args.general = {
 					name = L["Font Outline"],
 					get = function(info) return E.private.general.chatBubbleFontOutline end,
 					set = function(info, value) E.private.general.chatBubbleFontOutline = value; E:StaticPopup_Show("PRIVATE_RL") end,
-					disabled = function() return E.private.general.chatBubbles == "disabled" end,
 					values = {
-						["NONE"] = L["None"],
+						["NONE"] = NONE,
 						["OUTLINE"] = "OUTLINE",
 						["MONOCHROMEOUTLINE"] = "MONOCROMEOUTLINE",
 						["THICKOUTLINE"] = "THICKOUTLINE",
 					},
-				},
-				chatBubbleHideInInstance = {
-					type = "toggle",
-					order = 6,
-					name = L["Hide in Instances"],
-					get = function(info) return E.private.general.chatBubbleHideInInstance end,
-					set = function(info, value) E.private.general.chatBubbleHideInInstance = value; E:GetModule('Misc'):UpdateChatBubbleInstanceToggle(value) end,
-					disabled = function() return E.private.general.chatBubbles == "disabled" end,
 				},
 			},
 		},
@@ -667,11 +675,24 @@ E.Options.args.general = {
 				},
 				threatTextSize = {
 					order = 43,
-					name = L["Font Size"],
+					name = FONT_SIZE,
 					type = "range",
 					min = 6, max = 22, step = 1,
 					get = function(info) return E.db.general.threat.textSize end,
 					set = function(info, value) E.db.general.threat.textSize = value; E:GetModule('Threat'):UpdatePosition() end,
+				},
+				threatTextOutline = {
+					order = 44,
+					type = "select",
+					name = L["Font Outline"],
+					get = function(info) return E.db.general.threat.textOutline end,
+					set = function(info, value) E.db.general.threat.textOutline = value; E:GetModule('Threat'):UpdatePosition() end,
+					values = {
+						["NONE"] = NONE,
+						["OUTLINE"] = "OUTLINE",
+						["MONOCHROMEOUTLINE"] = "MONOCROMEOUTLINE",
+						["THICKOUTLINE"] = "THICKOUTLINE",
+					},
 				},
 			},
 		},

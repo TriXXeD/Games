@@ -23,7 +23,6 @@ local function configTable()
 		local config = {
 			order = 5,
 			type = "group",
-			guiInline = true,
 			name = L["Offline Indicator"],
 			get = function(info) return E.db.sle.unitframes.unit[group].offline[ info[#info] ] end,
 			set = function(info, value) E.db.sle.unitframes.unit[group].offline[ info[#info] ] = value; UF:CreateAndUpdateHeaderGroup(group) end,
@@ -57,12 +56,72 @@ local function configTable()
 		return config
 	end
 	
+	local function CreateDeadConfig(group)
+		local config = {
+			order = 6,
+			type = "group",
+			name = L["Dead Indicator"],
+			get = function(info) return E.db.sle.unitframes.unit[group].dead[ info[#info] ] end,
+			set = function(info, value) E.db.sle.unitframes.unit[group].dead[ info[#info] ] = value; UF:CreateAndUpdateHeaderGroup(group) end,
+			args = {
+				enable = { order = 1, type = "toggle", name = L["Enable"] },
+				size = { order = 2, type = 'range', name = L["Size"], min = 10, max = 120, step = 1 },
+				xOffset = { order = 3, type = 'range', name = L["X-Offset"], min = -600, max = 600, step = 1 },
+				yOffset = { order = 4, type = 'range', name = L["Y-Offset"], min = -600, max = 600, step = 1 },
+				texture = {
+					order = 5,
+					type = "select",
+					name = L["Texture"],
+					values = {
+						["SKULL"] = [[|TInterface\LootFrame\LootPanel-Icon:14|t]],
+						["SKULL1"] = [[|TInterface\AddOns\ElvUI_SLE\media\textures\SKULL:14|t]],
+						["SKULL2"] = [[|TInterface\AddOns\ElvUI_SLE\media\textures\SKULL1:14|t]],
+						["SKULL3"] = [[|TInterface\AddOns\ElvUI_SLE\media\textures\SKULL2:14|t]],
+						["CUSTOM"] = CUSTOM,
+					},
+				},
+				CustomTexture = {
+					order = 6,
+					type = 'input',
+					width = 'full',
+					name = L["Custom Texture"],
+					disabled = function() return E.db.sle.unitframes.unit[group].dead.texture ~= "CUSTOM" end,
+				},
+			},
+		}
+		return config
+	end
+	
+	local function CreatePortraitConfig(unitID)
+		local config = {
+			order = 1,
+			type = 'group',
+			name = L["Portrait"],
+			get = function(info) return E.db.sle.unitframes.unit[unitID][ info[#info] ] end,
+			set = function(info, value) E.db.sle.unitframes.unit[unitID][ info[#info] ] = value; UF:CreateAndUpdateUF('player'); end,
+			args = {
+				higherPortrait = {
+					order = 1, type = "toggle",
+					name = L["Higher Overlay Portrait"],
+					desc = L["Makes frame portrait visible regardless of health level when overlay portrait is set."],
+				},
+				portraitAlpha = {
+					order = 2, type = 'range',
+					name = L["Overlay Portrait Alpha"],
+					isPercent = true,
+					 min = 0, max = 1, step = 0.01,
+				},
+			},
+		}
+		
+		return config
+	end
+	
 	local function CreateAurasConfig(unitID)
 		local config = {
 			order = 6,
 			name = L["Auras"],
 			type = "group",
-			guiInline = true,
 			args = {
 				buffs = {
 					order = 1,
@@ -142,84 +201,11 @@ local function configTable()
 				type = "group",
 				name = L["Player Frame"],
 				args = {
-					higherPortrait = {
-						order = 1, type = "toggle",
-						name = L["Higher Overlay Portrait"],
-						desc = L["Makes frame portrait visible regardles of health level when overlay portrait is set."],
-						get = function(info) return E.db.sle.unitframes.unit.player[ info[#info] ] end,
-						set = function(info, value) E.db.sle.unitframes.unit.player[ info[#info] ] = value; UF:CreateAndUpdateUF('player'); end,
-					},
-					portraitAlpha = {
-						order = 2, type = 'range',
-						name = L["Overlay Portrait Alpha"],
-						isPercent = true,
-						 min = 0, max = 1, step = 0.01,
-						get = function(info) return E.db.sle.unitframes.unit.player[ info[#info] ] end,
-						set = function(info, value) E.db.sle.unitframes.unit.player[ info[#info] ] = value; UF:CreateAndUpdateUF('player'); end,
-					},
-					combaticon = {
-						order = 3,
-						type = "group",
-						name = L["Combat Icon"],
-						guiInline = true,
-						get = function(info) return E.db.sle.unitframes.unit.player.combatico[ info[#info] ] end,
-						set = function(info, value) E.db.sle.unitframes.unit.player.combatico[ info[#info] ] = value; ElvUF_Player.CombatIndicator:PostUpdate(); SUF:TestCombat() end,
-						args = {
-							xoffset = { order = 1, type = 'range', name = L["X-Offset"], min = -300, max = 300, step = 1 },
-							yoffset = { order = 2, type = 'range', name = L["Y-Offset"], min = -150, max = 150, step = 1 },
-							size = { order = 3, type = 'range', name = L["Size"], min = 10, max = 60, step = 1 },
-							red = { order = 4, type = "toggle", name = L["Red Icon"] },
-							texture = {
-								order = 5,
-								type = "select",
-								name = L["Texture"],
-								values = {
-									["DEFAULT"] = DEFAULT,
-									["PLATINUM"] = [[|TInterface\Challenges\ChallengeMode_Medal_Platinum:14|t]],
-									["ATTACK"] = [[|TInterface\CURSOR\Attack:14|t]],
-									["ALERT"] = [[|TInterface\DialogFrame\UI-Dialog-Icon-AlertNew:14|t]],
-									["SKULL"] = [[|TInterface\LootFrame\LootPanel-Icon:14|t]],
-									["ARTHAS"] =[[|TInterface\LFGFRAME\UI-LFR-PORTRAIT:14|t]],
-									["SVUI"] = "Supervillian UI",
-								},
-							},
-						},
-					},
-					rested = {
-						order = 4,
-						type = "group",
-						name = L["Rest Icon"],
-						guiInline = true,
-						get = function(info) return E.db.sle.unitframes.unit.player.rested[ info[#info] ] end,
-						set = function(info, value) E.db.sle.unitframes.unit.player.rested[ info[#info] ] = value; UF:Configure_RestingIndicator(_G["ElvUF_Player"]) end,
-						args = {
-							xoffset = { order = 1, type = 'range', name = L["X-Offset"], min = -300, max = 300, step = 1 },
-							yoffset = { order = 2, type = 'range', name = L["Y-Offset"], min = -150, max = 150, step = 1 },
-							size = { order = 3, type = 'range', name = L["Size"], min = 10, max = 60, step = 1 },
-							texture = {
-								order = 5,
-								type = "select",
-								name = L["Texture"],
-								values = {
-									["DEFAULT"] = DEFAULT,
-									["SVUI"] = "Supervillian UI",
-									["CUSTOM"] = CUSTOM,
-								},
-							},
-							customTexture = {
-								order = 6,
-								type = 'input',
-								width = 'full',
-								name = L["Custom Texture"],
-								disabled = function() return E.db.sle.unitframes.unit.player.rested.texture ~= "CUSTOM" end,
-							},
-						},
-					},
+					portrait = CreatePortraitConfig("player"),
 					pvpIconText = {
 						order = 5,
 						type = "group",
 						name = L["PvP & Prestige Icon"],
-						guiInline = true,
 						get = function(info) return E.db.sle.unitframes.unit.player.pvpIconText[ info[#info] ] end,
 						set = function(info, value) E.db.sle.unitframes.unit.player.pvpIconText[ info[#info] ] = value; UF:Configure_PVPIcon(_G["ElvUF_Player"]) end,
 						args = {
@@ -232,49 +218,31 @@ local function configTable()
 					auras = CreateAurasConfig("player"),
 				},
 			},
-			target = {
+			pet = {
 				order = 11,
+				type = "group",
+				name = L["Pet Frame"],
+				args = {
+					portrait = CreatePortraitConfig("pet"),
+					auras = CreateAurasConfig("pet"),
+				},
+			},
+			target = {
+				order = 12,
 				type = "group",
 				name = L["Target Frame"],
 				args = {
-					higherPortrait = {
-						order = 1, type = "toggle",
-						name = L["Higher Overlay Portrait"],
-						desc = L["Makes frame portrait visible regardles of health level when overlay portrait is set."],
-						get = function(info) return E.db.sle.unitframes.unit.target[ info[#info] ] end,
-						set = function(info, value) E.db.sle.unitframes.unit.target[ info[#info] ] = value; UF:CreateAndUpdateUF('target'); end,
-					},
-					portraitAlpha = {
-						order = 2, type = 'range',
-						name = L["Overlay Portrait Alpha"],
-						isPercent = true,
-						 min = 0, max = 1, step = 0.01,
-						get = function(info) return E.db.sle.unitframes.unit.target[ info[#info] ] end,
-						set = function(info, value) E.db.sle.unitframes.unit.target[ info[#info] ] = value; UF:CreateAndUpdateUF('target'); end,
-					},
+					portrait = CreatePortraitConfig("target"),
 					auras = CreateAurasConfig("target"),
 				},
 			},
 			focus = {
-				order = 12,
+				order = 13,
 				type = "group",
 				name = L["Focus Frame"],
 				args = {
-					higherPortrait = {
-						order = 1, type = "toggle",
-						name = L["Higher Overlay Portrait"],
-						desc = L["Makes frame portrait visible regardles of health level when overlay portrait is set."],
-						get = function(info) return E.db.sle.unitframes.unit.focus[ info[#info] ] end,
-						set = function(info, value) E.db.sle.unitframes.unit.focus[ info[#info] ] = value; UF:CreateAndUpdateUF('focus'); end,
-					},
-					portraitAlpha = {
-						order = 2, type = 'range',
-						name = L["Overlay Portrait Alpha"],
-						isPercent = true,
-						 min = 0, max = 1, step = 0.01,
-						get = function(info) return E.db.sle.unitframes.unit.focus[ info[#info] ] end,
-						set = function(info, value) E.db.sle.unitframes.unit.focus[ info[#info] ] = value; UF:CreateAndUpdateUF('focus'); end,
-					},
+					portrait = CreatePortraitConfig("focus"),
+					auras = CreateAurasConfig("focus"),
 				},
 			},
 			party = {
@@ -283,29 +251,17 @@ local function configTable()
 				name = L["Party Frames"],
 				args = {
 					configureToggle = {
-						order = 1,
+						order = -10,
 						type = 'execute',
 						name = L["Display Frames"],
 						func = function()
 							UF:HeaderConfig(ElvUF_Party, ElvUF_Party.forceShow ~= true or nil)
 						end,
 					},
-					higherPortrait = {
-						order = 2, type = "toggle",
-						name = L["Higher Overlay Portrait"],
-						desc = L["Makes frame portrait visible regardles of health level when overlay portrait is set."],
-						get = function(info) return E.db.sle.unitframes.unit.party[ info[#info] ] end,
-						set = function(info, value) E.db.sle.unitframes.unit.party[ info[#info] ] = value; UF:CreateAndUpdateHeaderGroup('party') end,
-					},
-					portraitAlpha = {
-						order = 3, type = 'range',
-						name = L["Overlay Portrait Alpha"],
-						isPercent = true,
-						 min = 0, max = 1, step = 0.01,
-						get = function(info) return E.db.sle.unitframes.unit.party[ info[#info] ] end,
-						set = function(info, value) E.db.sle.unitframes.unit.party[ info[#info] ] = value; UF:CreateAndUpdateHeaderGroup('party') end,
-					},
-					offline = CreateOfflineConfig("party")
+					portrait = CreatePortraitConfig("party"),
+					offline = CreateOfflineConfig("party"),
+					dead = CreateDeadConfig("party"),
+					auras = CreateAurasConfig("party"),
 				},
 			},
 			raid = {
@@ -314,29 +270,17 @@ local function configTable()
 				name = L["Raid Frames"],
 				args = {
 					configureToggle = {
-						order = 1,
+						order = -10,
 						type = 'execute',
 						name = L["Display Frames"],
 						func = function()
 							UF:HeaderConfig(_G['ElvUF_Raid'], _G['ElvUF_Raid'].forceShow ~= true or nil)
 						end,
 					},
-					higherPortrait = {
-						order = 2, type = "toggle",
-						name = L["Higher Overlay Portrait"],
-						desc = L["Makes frame portrait visible regardles of health level when overlay portrait is set."],
-						get = function(info) return E.db.sle.unitframes.unit.raid[ info[#info] ] end,
-						set = function(info, value) E.db.sle.unitframes.unit.raid[ info[#info] ] = value; UF:CreateAndUpdateHeaderGroup('raid') end,
-					},
-					portraitAlpha = {
-						order = 3, type = 'range',
-						name = L["Overlay Portrait Alpha"],
-						isPercent = true,
-						 min = 0, max = 1, step = 0.01,
-						get = function(info) return E.db.sle.unitframes.unit.raid[ info[#info] ] end,
-						set = function(info, value) E.db.sle.unitframes.unit.raid[ info[#info] ] = value; UF:CreateAndUpdateHeaderGroup('raid') end,
-					},
-					offline = CreateOfflineConfig("raid")
+					portrait = CreatePortraitConfig("raid"),
+					offline = CreateOfflineConfig("raid"),
+					dead = CreateDeadConfig("raid"),
+					auras = CreateAurasConfig("raid"),
 				},
 			},
 			raid40 = {
@@ -345,29 +289,17 @@ local function configTable()
 				name = L["Raid-40 Frames"],
 				args = {
 					configureToggle = {
-						order = 1,
+						order = -10,
 						type = 'execute',
 						name = L["Display Frames"],
 						func = function()
 							UF:HeaderConfig(_G['ElvUF_Raid40'], _G['ElvUF_Raid40'].forceShow ~= true or nil)
 						end,
 					},
-					higherPortrait = {
-						order = 2, type = "toggle",
-						name = L["Higher Overlay Portrait"],
-						desc = L["Makes frame portrait visible regardles of health level when overlay portrait is set."],
-						get = function(info) return E.db.sle.unitframes.unit.raid40[ info[#info] ] end,
-						set = function(info, value) E.db.sle.unitframes.unit.raid40[ info[#info] ] = value; UF:CreateAndUpdateHeaderGroup('raid40') end,
-					},
-					portraitAlpha = {
-						order = 3, type = 'range',
-						name = L["Overlay Portrait Alpha"],
-						isPercent = true,
-						 min = 0, max = 1, step = 0.01,
-						get = function(info) return E.db.sle.unitframes.unit.raid40[ info[#info] ] end,
-						set = function(info, value) E.db.sle.unitframes.unit.raid40[ info[#info] ] = value; UF:CreateAndUpdateHeaderGroup('raid40') end,
-					},
-					offline = CreateOfflineConfig("raid40")
+					portrait = CreatePortraitConfig("raid40"),
+					offline = CreateOfflineConfig("raid40"),
+					dead = CreateDeadConfig("raid40"),
+					auras = CreateAurasConfig("raid40"),
 				},
 			},
 			boss = {
@@ -375,21 +307,8 @@ local function configTable()
 				type = "group",
 				name = L["Boss Frames"],
 				args = {
-					higherPortrait = {
-						order = 1, type = "toggle",
-						name = L["Higher Overlay Portrait"],
-						desc = L["Makes frame portrait visible regardles of health level when overlay portrait is set."],
-						get = function(info) return E.db.sle.unitframes.unit.boss[ info[#info] ] end,
-						set = function(info, value) E.db.sle.unitframes.unit.boss[ info[#info] ] = value; UF:CreateAndUpdateHeaderGroup('boss') end,
-					},
-					portraitAlpha = {
-						order = 2, type = 'range',
-						name = L["Overlay Portrait Alpha"],
-						isPercent = true,
-						 min = 0, max = 1, step = 0.01,
-						get = function(info) return E.db.sle.unitframes.unit.boss[ info[#info] ] end,
-						set = function(info, value) E.db.sle.unitframes.unit.boss[ info[#info] ] = value; UF:CreateAndUpdateHeaderGroup('boss') end,
-					},
+					portrait = CreatePortraitConfig("boss"),
+					auras = CreateAurasConfig("boss"),
 				},
 			},
 			arena = {
@@ -397,21 +316,8 @@ local function configTable()
 				type = "group",
 				name = L["Arena Frames"],
 				args = {
-					higherPortrait = {
-						order = 1, type = "toggle",
-						name = L["Higher Overlay Portrait"],
-						desc = L["Makes frame portrait visible regardles of health level when overlay portrait is set."],
-						get = function(info) return E.db.sle.unitframes.unit.arena[ info[#info] ] end,
-						set = function(info, value) E.db.sle.unitframes.unit.arena[ info[#info] ] = value; UF:CreateAndUpdateHeaderGroup('arena') end,
-					},
-					portraitAlpha = {
-						order = 2, type = 'range',
-						name = L["Overlay Portrait Alpha"],
-						isPercent = true,
-						 min = 0, max = 1, step = 0.01,
-						get = function(info) return E.db.sle.unitframes.unit.arena[ info[#info] ] end,
-						set = function(info, value) E.db.sle.unitframes.unit.arena[ info[#info] ] = value; UF:CreateAndUpdateHeaderGroup('arena') end,
-					},
+					portrait = CreatePortraitConfig("arena"),
+					auras = CreateAurasConfig("arena"),
 				},
 			},
 			statusbars = {
@@ -487,7 +393,7 @@ local function configTable()
 						order = 13,
 						type = "toggle",
 						name = L["Resize Health Prediction"],
-						desc = L["Slightly chages size of health prediction bars."],
+						desc = L["Slightly changes size of health prediction bars."],
 						get = function(info) return E.private.sle.unitframe.resizeHealthPrediction end,
 						set = function(info, value) E.private.sle.unitframe.resizeHealthPrediction = value; E:StaticPopup_Show("PRIVATE_RL") end,
 					},

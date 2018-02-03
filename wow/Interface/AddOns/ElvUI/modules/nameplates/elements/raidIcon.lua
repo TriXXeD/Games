@@ -1,4 +1,4 @@
-local E, L, V, P, G = unpack(select(2, ...)); --Inport: Engine, Locales, PrivateDB, ProfileDB, GlobalDB
+local E, L, V, P, G = unpack(select(2, ...)); --Import: Engine, Locales, PrivateDB, ProfileDB, GlobalDB
 local mod = E:GetModule('NamePlates')
 
 --Cache global variables
@@ -15,7 +15,9 @@ function mod:UpdateElement_RaidIcon(frame)
 	local icon = frame.RaidIcon;
 	local index = GetRaidTargetIndex(frame.unit);
 	icon:ClearAllPoints()
-	if(frame.HealthBar:IsShown()) then
+	if(frame.Portrait:IsShown()) then
+		icon:SetPoint("RIGHT", frame.Portrait, "LEFT", -6, 0)
+	elseif(frame.HealthBar:IsShown()) then
 		icon:SetPoint("RIGHT", frame.HealthBar, "LEFT", -6, 0)
 	else
 		icon:SetPoint("BOTTOM", frame.Name, "TOP", 0, 3)

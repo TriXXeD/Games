@@ -1,0 +1,14 @@
+## Interface: 70300
+## Title: Realm Hop Assist
+## Notes: Easy tool for cross-realm hoping
+## Author: Retloldin
+## Version: r02 beta
+## SavedVariables: RealmHopAssistDB
+## X-Curse-Packaged-Version: r02
+## X-Curse-Project-Name: Realm Hop Assist
+## X-Curse-Project-ID: realm-hop-assist
+## X-Curse-Repository-ID: wow/realm-hop-assist/mainline
+
+embeds.xml
+RealmHopAssist.lua
+RealmHopAssistSettings.lua

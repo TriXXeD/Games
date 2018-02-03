@@ -7,7 +7,7 @@ function AS:ParchmentRemover(event, addon)
 		AS:StripTextures(ArchaeologyFrame, true)
 		for i = 1, ARCHAEOLOGY_MAX_COMPLETED_SHOWN do
 			local artifact = _G["ArchaeologyFrameCompletedPageArtifact"..i]
-			
+
 			if artifact then
 				_G["ArchaeologyFrameCompletedPageArtifact"..i.."ArtifactName"]:SetTextColor(1, 1, 0)
 				_G["ArchaeologyFrameCompletedPageArtifact"..i.."ArtifactSubText"]:SetTextColor(0.6, 0.6, 0.6)
@@ -44,7 +44,7 @@ function AS:ParchmentRemover(event, addon)
 		ArchaeologyFrameArtifactPageHistoryScrollChildText:SetTextColor(1, 1, 1)
 	end
 	if addon == 'Blizzard_Calendar' and ElvUI[1].private.skins.blizzard.calendar == true then
-	 	for i = 1, 42 do
+		for i = 1, 42 do
 			_G['CalendarDayButton'..i]:SetFrameLevel(_G['CalendarDayButton'..i]:GetFrameLevel() + 1)
 			AS:StripTextures(_G['CalendarDayButton'..i])
 			AS:SetTemplate(_G['CalendarDayButton'..i], 'Default')
@@ -150,18 +150,18 @@ function AS:ParchmentRemover(event, addon)
 
 			if (QuestInfoRewardsFrame.spellHeaderPool) then
 				for _, pool in pairs({"followerRewardPool", "spellRewardPool"}) do
-					QuestInfoRewardsFrame[pool]._acquire = QuestInfoRewardsFrame[pool].Acquire;
+					QuestInfoRewardsFrame[pool]._acquire = QuestInfoRewardsFrame[pool].Acquire
 					QuestInfoRewardsFrame[pool].Acquire = function(self)
-						local frame = QuestInfoRewardsFrame[pool]:_acquire();
-						frame.Name:SetTextColor(1, 1, 1);
-						return frame;
+						local frame = QuestInfoRewardsFrame[pool]:_acquire()
+						frame.Name:SetTextColor(1, 1, 1)
+						return frame
 					end
 				end
-				QuestInfoRewardsFrame.spellHeaderPool._acquire = QuestInfoRewardsFrame.spellHeaderPool.Acquire;
+				QuestInfoRewardsFrame.spellHeaderPool._acquire = QuestInfoRewardsFrame.spellHeaderPool.Acquire
 				QuestInfoRewardsFrame.spellHeaderPool.Acquire = function(self)
-					local frame = self:_acquire();
-					frame:SetTextColor(1, 1, 1);
-					return frame;
+					local frame = self:_acquire()
+					frame:SetTextColor(1, 1, 1)
+					return frame
 				end
 			end
 
@@ -174,13 +174,14 @@ function AS:ParchmentRemover(event, addon)
 				QuestInfoObjectivesText:SetTextColor(1, 1, 1)
 				QuestInfoGroupSize:SetTextColor(1, 1, 1)
 				QuestInfoRewardText:SetTextColor(1, 1, 1)
-				QuestInfoRewardsFrame.ItemChooseText:SetTextColor(1, 1, 1);
-				QuestInfoRewardsFrame.ItemReceiveText:SetTextColor(1, 1, 1);
+				QuestInfoQuestType:SetTextColor(1, 1, 1)
+				QuestInfoRewardsFrame.ItemChooseText:SetTextColor(1, 1, 1)
+				QuestInfoRewardsFrame.ItemReceiveText:SetTextColor(1, 1, 1)
 				if (QuestInfoRewardsFrame.SpellLearnText) then
-					QuestInfoRewardsFrame.SpellLearnText:SetTextColor(1, 1, 1);
+					QuestInfoRewardsFrame.SpellLearnText:SetTextColor(1, 1, 1)
 				end
-				QuestInfoRewardsFrame.PlayerTitleText:SetTextColor(1, 1, 1);
-				QuestInfoRewardsFrame.XPFrame.ReceiveText:SetTextColor(1, 1, 1);
+				QuestInfoRewardsFrame.PlayerTitleText:SetTextColor(1, 1, 1)
+				QuestInfoRewardsFrame.XPFrame.ReceiveText:SetTextColor(1, 1, 1)
 				local numObjectives = GetNumQuestLeaderBoards()
 				local numVisibleObjectives = 0
 				for i = 1, numObjectives do

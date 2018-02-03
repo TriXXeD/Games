@@ -5,6 +5,7 @@
 local L = LibStub("AceLocale-3.0"):NewLocale("GatherMate2", "koKR")
 if not L then return end
 
+-- Options
 L["Add this location to Cartographer_Waypoints"] = "현재 위치를 Cartographer_Waypoints에 추가합니다."
 L["Add this location to TomTom waypoints"] = "현재 위치를 TomTom 웨이포인트에 추가합니다."
 L["Always show"] = "항상 표시"
@@ -203,9 +204,11 @@ L["World Map Icon Scale"] = "세계지도 아이콘 크기"
 L["World Map Icons"] = "세계지도 아이콘"
 L["Wrath of the Lich King"] = "리치왕의 분노"
 
+
 local NL = LibStub("AceLocale-3.0"):NewLocale("GatherMate2Nodes", "koKR")
 if not NL then return end
 
+-- Nodes
 NL["Abundant Bloodsail Wreckage"] = "풍부한 붉은해적단 잔해"
 NL["Abundant Firefin Snapper School"] = "풍부한 불지느러미퉁돔 떼"
 NL["Abundant Oily Blackmouth School"] = "풍부한 기름기 많은 아귀 떼"
@@ -224,6 +227,7 @@ NL["Arakkoa Archaeology Find"] = "아라코아 고고학 발굴품"
 NL["Arcane Vortex"] = "비전 소용돌이"
 NL["Arctic Cloud"] = "북극 구름"
 NL["Arthas' Tears"] = "아서스의 눈물"
+NL["Astral Glory"] = "천공의 영광"
 NL["Azshara's Veil"] = "아즈샤라의 신비"
 NL["Battered Chest"] = "찌그러진 궤짝"
 NL["Battered Footlocker"] = "찌그러진 사물함"
@@ -275,6 +279,8 @@ NL["Dwarf Archaeology Find"] = "드워프 고고학 발굴품"
 NL["Earthroot"] = "뱀뿌리"
 NL["Elementium Vein"] = "엘레멘티움 광맥"
 NL["Emperor Salmon School"] = "황제연어 떼"
+NL["Empyrium Deposit"] = "창천석 광맥"
+NL["Empyrium Seam"] = "창천석 융기"
 NL["Everfrost Chip"] = "영원의 서리 파편"
 NL["Fadeleaf"] = "미명초잎"
 NL["Fangtooth Herring School"] = "송곳니 청어 떼"
@@ -282,6 +288,8 @@ NL["Fat Sleeper School"] = "통통 망둑어 떼"
 NL["Fathom Eel Swarm"] = "심연 뱀장어 떼"
 NL["Fel Iron Chest"] = "지옥무쇠 궤짝"
 NL["Fel Iron Deposit"] = "지옥무쇠 광맥"
+NL["Fel-Encrusted Herb"] = "지옥마력으로 덮인 약초"
+NL["Fel-Encrusted Herb Cluster"] = "지옥마력으로 덮인 약초 조각"
 NL["Felmist"] = "지옥 안개"
 NL["Felmouth Frenzy School"] = "지옥아귀 광포어 떼"
 NL["Felslate Deposit"] = "지옥판암 광맥"
@@ -436,6 +444,7 @@ NL["Rich Adamantite Deposit"] = "풍부한 아다만타이트 광맥"
 NL["Rich Blackrock Deposit"] = "풍부한 검은바위 광맥"
 NL["Rich Cobalt Deposit"] = "풍부한 코발트 광맥"
 NL["Rich Elementium Vein"] = "풍부한 엘레멘티움 광맥"
+NL["Rich Empyrium Deposit"] = "풍부한 창천석 광맥"
 NL["Rich Felslate Deposit"] = "풍부한 지옥판암 광맥"
 NL["Rich Ghost Iron Deposit"] = "풍부한 유령무쇠 광맥"
 NL["Rich Kyparite Deposit"] = "풍부한 키파라이트 광맥"
@@ -523,3 +532,4 @@ NL["Wild Steelbloom"] = "야생 철쭉"
 NL["Windy Cloud"] = "흩어지는 구름"
 NL["Wintersbite"] = "겨울서리풀"
 NL["Withered Herb"] = "시든 약초"
+

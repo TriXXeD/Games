@@ -19,7 +19,7 @@
 --
 -- Special thanks to:
 --    * Arta
---    * Omegal @ US-Whisperwind (continuing mod support for 3.2+)
+--    * Omegal @ US-Kel'Thuzad (continuing mod support for 3.2+)
 --    * Tennberg (a lot of fixes in the enGB/enUS localization)
 --
 --
@@ -76,7 +76,6 @@ local UnitName = UnitName
 local UnitHealth, UnitPower, UnitPowerMax = UnitHealth, UnitPower, UnitPowerMax
 local UnitDebuff, UnitBuff = UnitDebuff, UnitBuff
 local UnitIsDeadOrGhost, UnitThreatSituation = UnitIsDeadOrGhost, UnitThreatSituation
-local GetSpellInfo = GetSpellInfo
 local UnitPosition = UnitPosition
 local twipe = table.wipe
 local select, tonumber = select, tonumber
@@ -379,12 +378,24 @@ end
 local function updateEnemyAbsorb()
 	twipe(lines)
 	local spellName = value[1]
+	local totalAbsorb = value[2]
 	for i = 1, 5 do
 		local uId = "boss"..i
 		if UnitExists(uId) then
-			local absorbAmount = select(17, UnitBuff(uId, spellName)) or select(17, UnitDebuff(uId, spellName))
+			local absorbAmount
+			if spellName then--Get specific spell absorb
+				absorbAmount = select(17, UnitBuff(uId, spellName)) or select(17, UnitDebuff(uId, spellName))
+			else--Get all of them
+				absorbAmount = UnitGetTotalAbsorbs(uId)
+			end
 			if absorbAmount then
-				lines[UnitName(uId)] = absorbAmount
+				local text
+				if totalAbsorb then
+					text = absorbAmount / totalAbsorb * 100
+				else
+					text = absorbAmount
+				end
+				lines[UnitName(uId)] = mfloor(text).."%"
 			end
 		end
 	end
@@ -395,19 +406,38 @@ end
 local function updateAllAbsorb()
 	twipe(lines)
 	local spellName = value[1]
+	local totalAbsorb = value[2]
+	local totalAbsorb2 = value[3]
 	for i = 1, 5 do
 		local uId = "boss"..i
 		if UnitExists(uId) then
-			local absorbAmount = select(17, UnitBuff(uId, spellName)) or select(17, UnitDebuff(uId, spellName))
+			local absorbAmount
+			if spellName then--Get specific spell absorb
+				absorbAmount = select(17, UnitBuff(uId, spellName)) or select(17, UnitDebuff(uId, spellName))
+			else--Get all of them
+				absorbAmount = UnitGetTotalAbsorbs(uId)
+			end
 			if absorbAmount then
-				lines[UnitName(uId)] = absorbAmount
+				local text
+				if totalAbsorb then
+					text = absorbAmount / totalAbsorb * 100
+				else
+					text = absorbAmount
+				end
+				lines[UnitName(uId)] = mfloor(text).."%"
 			end
 		end
 	end
 	for uId in DBM:GetGroupMembers() do
 		local absorbAmount = select(17, UnitBuff(uId, spellName)) or select(17, UnitDebuff(uId, spellName))
 		if absorbAmount then
-			lines[UnitName(uId)] = absorbAmount
+			local text
+			if totalAbsorb2 then
+				text = absorbAmount / totalAbsorb2 * 100
+			else
+				text = absorbAmount
+			end
+			lines[UnitName(uId)] = mfloor(text).."%"
 		end
 	end
 	updateLines()
@@ -417,10 +447,17 @@ end
 local function updatePlayerAbsorb()
 	twipe(lines)
 	local spellName = value[1]
+	local totalAbsorb = value[2]
 	for uId in DBM:GetGroupMembers() do
 		local absorbAmount = select(17, UnitBuff(uId, spellName)) or select(17, UnitDebuff(uId, spellName))
 		if absorbAmount then
-			lines[UnitName(uId)] = absorbAmount
+			local text
+			if totalAbsorb then
+				text = absorbAmount / totalAbsorb * 100
+			else
+				text = absorbAmount
+			end
+			lines[UnitName(uId)] = mfloor(text).."%"
 		end
 	end
 	updateLines()
@@ -547,7 +584,7 @@ local function updateReverseBadPlayerDebuffs()
 	for uId in DBM:GetGroupMembers() do
 		if tankIgnored and (UnitGroupRolesAssigned(uId) == "TANK" or GetPartyAssignment("MAINTANK", uId, 1)) then
 		else
-			if not UnitDebuff(uId, spellName) and not UnitIsDeadOrGhost(uId) and not UnitDebuff(uId, GetSpellInfo(27827)) then--27827 Spirit of Redemption. This particular info frame wants to ignore this
+			if not UnitDebuff(uId, spellName) and not UnitIsDeadOrGhost(uId) and not UnitDebuff(uId, DBM:GetSpellInfo(27827)) then--27827 Spirit of Redemption. This particular info frame wants to ignore this
 				lines[UnitName(uId)] = ""
 			end
 		end
@@ -612,14 +649,11 @@ local function updateByFunction()
 	lines, presortedLines = func()
 	if sortFunc then
 		if type(sortFunc) == "function" then
-			DBM:Debug("updateByFunction custom sorting", 3)
 			updateLinesCustomSort(sortFunc)
 		else--Sort function is a bool/true
-			DBM:Debug("updateByFunction regular sorting", 3)
 			updateLines()--regular update lines with regular sort code
 		end
 	else--Nil, or bool/false
-		DBM:Debug("updateByFunction no sorting or presorting", 3)
 		updateLines(presortedLines)--Update lines with sorting if provided by the custom function
 	end
 	if useIcon then
@@ -704,9 +738,10 @@ function onUpdate(frame)
 			frame:Hide()--Force close infoframe so it doesn't keep throwing 100s of errors onupdate. If leftText is broken the frame needs to be shut down
 			return
 		elseif leftText and type(leftText) ~= "string" then
-			error("DBM InfoFrame: leftText must be string, Notify DBM author. Infoframe force shutting down ", 2)
-			frame:Hide()--Force close infoframe so it doesn't keep throwing 100s of errors onupdate. If leftText is broken the frame needs to be shut down
-			return
+			tostring(leftText)
+			--error("DBM InfoFrame: leftText must be string, Notify DBM author. Infoframe force shutting down ", 2)
+			--frame:Hide()--Force close infoframe so it doesn't keep throwing 100s of errors onupdate. If leftText is broken the frame needs to be shut down
+			--return
 		end
 		local rightText = lines[leftText]
 		local icon = icons[leftText] and icons[leftText]..leftText
@@ -762,7 +797,7 @@ end
 ---------------
 --  Methods  --
 ---------------
---Arg 1: spellID, health/powervalue, customfunction. Arg 2: TankIgnore, Powertype, SortFunction. Arg 3: SpellFilter, UseIcon. Arg 4: disable onUpdate
+--Arg 1: spellID, health/powervalue, customfunction. Arg 2: TankIgnore, Powertype, SortFunction, totalAbsorb. Arg 3: SpellFilter, UseIcon. Arg 4: disable onUpdate
 function infoFrame:Show(maxLines, event, ...)
 	currentMapId = select(4, UnitPosition("player"))
 	if DBM.Options.DontShowInfoFrame and (event or 0) ~= "test" then return end
@@ -789,7 +824,8 @@ function infoFrame:Show(maxLines, event, ...)
 	--If spellId is given as value one, convert to spell name on show instead of in every onupdate
 	--this also allows spell name to be given by mod, since value 1 verifies it's a number
 	if type(value[1]) == "number" and event ~= "health" and event ~= "function" and event ~= "playertargets" and event ~= "playeraggro" and event ~= "playerpower" and event ~= "enemypower" and event ~= "test" then
-		value[1] = GetSpellInfo(value[1])
+		--value[1] = DBM:GetSpellInfo(value[1])
+		error("DBM-InfoFrame: Must pass spell NAME, not ID number. Report boss and this error to DBM author (MysticalOS)", 2)
 	end
 
 	if events[currentEvent] then
@@ -814,10 +850,14 @@ function infoFrame:RegisterCallback(cb)
 	updateCallbacks[#updateCallbacks + 1] = cb
 end
 
-function infoFrame:Update()
+function infoFrame:Update(time)
 	frame = frame or createFrame()
 	if frame:IsShown() then
-		onUpdate(frame)
+		if time then
+			C_Timer.After(time, function() onUpdate(frame) end)
+		else
+			onUpdate(frame)
+		end
 	end
 end
 

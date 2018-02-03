@@ -1,4 +1,4 @@
-local Type, Version = "WeakAurasMultiLineEditBox", 28
+local Type, Version = "WeakAurasMultiLineEditBox", 31
 local AceGUI = LibStub and LibStub("AceGUI-3.0", true)
 if not AceGUI or (AceGUI:GetWidgetVersion(Type) or 0) >= Version then return end
 
@@ -79,6 +79,7 @@ end
 local function OnEditFocusLost(self)                                             -- EditBox
 	self:HighlightText(0, 0)
 	self.obj:Fire("OnEditFocusLost")
+	self.obj.scrollFrame:EnableMouseWheel(false);
 end
 
 local function OnEnter(self)                                                     -- EditBox / ScrollFrame
@@ -145,14 +146,40 @@ local function OnVerticalScroll(self, offset)                                   
 	editBox:SetHitRectInsets(0, 0, offset, editBox:GetHeight() - offset - self:GetHeight())
 end
 
-local function OnShowFocus(frame)
-	frame.obj.editBox:SetFocus()
-	frame:SetScript("OnShow", nil)
+local function OnFrameShow(frame)
+	if (frame.focusOnShow) then
+		frame.obj.editBox:SetFocus()
+		frame.focusOnShow = nil;
+	end
+	local self = frame.obj;
+	local option = self.userdata.option;
+	local numExtraButtons = 0;
+	if (option and option.arg and option.arg.extraFunctions) then
+		numExtraButtons = #option.arg.extraFunctions;
+		for index, data in ipairs(option.arg.extraFunctions) do
+			if (not self.extraButtons[index]) then
+				local extraButton = CreateFrame("Button", ("%s%dExpandButton%d"):format(Type, self.widgetNum, index), frame, "UIPanelButtonTemplate")
+				extraButton:SetPoint("LEFT", self.extraButtons[index - 1], "RIGHT");
+				extraButton:SetHeight(22)
+				extraButton:SetWidth(100);
+				self.extraButtons[index] = extraButton;
+			end
+			local extraButton = self.extraButtons[index];
+			extraButton:SetText(data.buttonLabel);
+			extraButton:SetScript("OnClick", data.func);
+			extraButton:Show();
+		end
+	end
+
+	for i = numExtraButtons + 1, #self.extraButtons do
+		self.extraButtons[i]:Hide();
+	end
 end
 
 local function OnEditFocusGained(frame)
 	AceGUI:SetFocus(frame.obj)
 	frame.obj:Fire("OnEditFocusGained")
+	frame.obj.scrollFrame:EnableMouseWheel(true);
 end
 
 --[[-----------------------------------------------------------------------------
@@ -236,13 +263,13 @@ local methods = {
 
 	["ClearFocus"] = function(self)
 		self.editBox:ClearFocus()
-		self.frame:SetScript("OnShow", nil)
+		self.frame.focusOnShow = nil;
 	end,
 
 	["SetFocus"] = function(self)
 		self.editBox:SetFocus()
 		if not self.frame:IsShown() then
-			self.frame:SetScript("OnShow", OnShowFocus)
+			self.frame.focusOnShow = true;
 		end
 	end,
 
@@ -257,8 +284,6 @@ local methods = {
 	["SetCursorPosition"] = function(self, ...)
 		return self.editBox:SetCursorPosition(...)
 	end,
-
-
 }
 
 --[[-----------------------------------------------------------------------------
@@ -274,6 +299,7 @@ local function Constructor()
 	local frame = CreateFrame("Frame", nil, UIParent)
 	frame:Hide()
 
+	frame:SetScript("OnShow", OnFrameShow);
 	local widgetNum = AceGUI:GetNextWidgetNum(Type)
 
 	local label = frame:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall")
@@ -286,16 +312,13 @@ local function Constructor()
 	local button = CreateFrame("Button", ("%s%dButton"):format(Type, widgetNum), frame, "UIPanelButtonTemplate")
 	button:SetPoint("BOTTOMLEFT", 0, 4)
 	button:SetHeight(22)
-	button:SetWidth(label:GetStringWidth() + 24)
+	button:SetWidth(100)
 	button:SetText(ACCEPT)
 	button:SetScript("OnClick", OnClick)
 	button:Disable()
 
-	local text = button:GetFontString()
-	text:ClearAllPoints()
-	text:SetPoint("TOPLEFT", button, "TOPLEFT", 5, -5)
-	text:SetPoint("BOTTOMRIGHT", button, "BOTTOMRIGHT", -5, 1)
-	text:SetJustifyV("MIDDLE")
+	local extraButtons = {};
+	extraButtons[0] = button;
 
 	local scrollBG = CreateFrame("Frame", nil, frame)
 	scrollBG:SetBackdrop(backdrop)
@@ -303,6 +326,7 @@ local function Constructor()
 	scrollBG:SetBackdropBorderColor(0.4, 0.4, 0.4)
 
 	local scrollFrame = CreateFrame("ScrollFrame", ("%s%dScrollFrame"):format(Type, widgetNum), frame, "UIPanelScrollFrameTemplate")
+	scrollFrame:EnableMouseWheel(false);
 
 	local scrollBar = _G[scrollFrame:GetName() .. "ScrollBar"]
 	scrollBar:ClearAllPoints()
@@ -345,6 +369,7 @@ local function Constructor()
 
 	local widget = {
 		button      = button,
+		extraButtons = extraButtons,
 		editBox     = editBox,
 		frame       = frame,
 		label       = label,
@@ -353,7 +378,8 @@ local function Constructor()
 		scrollBar   = scrollBar,
 		scrollBG    = scrollBG,
 		scrollFrame = scrollFrame,
-		type        = Type
+		type        = Type,
+		widgetNum   = widgetNum,
 	}
 	for method, func in pairs(methods) do
 		widget[method] = func

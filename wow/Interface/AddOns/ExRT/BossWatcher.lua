@@ -347,6 +347,8 @@ local fightData_damage,fightData_damage_seen,fightData_heal,fightData_healFrom,f
 local active_segment
 local active_phase
 
+local healFromSpellActive
+
 local deathMaxEvents = 100
 
 do
@@ -525,6 +527,7 @@ function module.main:ADDON_LOADED()
 	end
 end
 
+local negateHealing = {}
 
 local SLTReductionAuraSpellID = 98007
 local SLTReductionAuraName = GetSpellInfo(SLTReductionAuraSpellID)
@@ -1027,6 +1030,33 @@ local BossPhasesData = {
 			[2] = -14719,
 		},		
 	},	--ToS: Аватара Падшего
+	[2051] = {
+		events = {"COMBAT_LOG_EVENT_UNFILTERED"},
+		func = function(_,_,_,event,_,sourceGUID,sourceName,sourceFlags,sourceFlags2,destGUID,destName,destFlags,destFlags2,spellId)
+			if event == "SPELL_CAST_SUCCESS" then
+				if spellId == 244834 then
+					active_phase = 2
+				elseif spellId == 241983 then
+					active_phase = 4
+				end
+			elseif event == "SPELL_AURA_REMOVED" then 
+				if spellId == 244834 and active_phase then
+					active_phase = 3
+				end
+			elseif event == "SPELL_CAST_START" then 
+				if spellId == 238999 and active_phase ~= 5 then
+					active_phase = 5
+				end
+			end
+		end,
+		names = {
+			[1] = -14921,
+			[2] = -15221,
+			[3] = -15229,
+			[4] = -15394,
+			[5] = -15255,
+		},
+	},	--ToS: Kj
 }
 local BossPhasesFrame = CreateFrame("Frame")
 local BossPhasesBossmodPhaseCounter, BossPhasesBossmodPhase, BossPhasesBossmodEnabled = 1
@@ -1156,7 +1186,9 @@ function _BW_Start(encounterID,encounterName)
 	segmentsData = fightData.segments
 	
 	active_segment = 1
-	active_phase = 1	
+	active_phase = 1
+	
+	wipe(negateHealing)
 	
 	module:RegisterEvents('COMBAT_LOG_EVENT_UNFILTERED','UNIT_TARGET','RAID_BOSS_EMOTE','RAID_BOSS_WHISPER','UPDATE_MOUSEOVER_UNIT')
 	
@@ -1811,7 +1843,7 @@ local function CLEUParser(self,_,timestamp,event,hideCaster,sourceGUID,sourceNam
 		
 
 		--------------> Add healing from
-		if bit_band(destFlags,0x00000040) == 0 and amount > 0 then	--COMBATLOG_OBJECT_REACTION_HOSTILE
+		if healFromSpellActive and bit_band(destFlags,0x00000040) == 0 and amount > 0 then	--COMBATLOG_OBJECT_REACTION_HOSTILE
 			local healingFromData = damageTakenLog[destGUID]
 			if not healingFromData then
 				healingFromData = {}
@@ -1976,58 +2008,60 @@ local function CLEUParser(self,_,timestamp,event,hideCaster,sourceGUID,sourceNam
 		
 		
 		--------------> Add healing from
-		local healingFromAmount = amount - overhealing
-		if healingFromAmount > 0 then
-			local healingFromData = damageTakenLog[destGUID]
-			if healingFromData then
-				local healingFromDataSize = #healingFromData
-				if healingFromDataSize > 0 then
-					local healingFromTable = fightData_healFrom[sourceGUID]
-					if not healingFromTable then
-						healingFromTable = {}
-						fightData_healFrom[sourceGUID] = healingFromTable
-					end
-					local healingFromDestTable = healingFromTable[destGUID]
-					if not healingFromDestTable then
-						healingFromDestTable = {}
-						healingFromTable[destGUID] = healingFromDestTable
-					end
-					local healingFromSpellTable = healingFromDestTable[spellID]
-					if not healingFromSpellTable then
-						healingFromSpellTable = {}
-						healingFromDestTable[spellID] = healingFromSpellTable
-					end
-					for i=(healingFromDataSize - 1),1,-2 do
-						local damageTaken = healingFromData[i+1]
-						if healingFromAmount > damageTaken then
-							healingFromAmount = healingFromAmount - damageTaken
-							
-							local fromSpellID = healingFromData[i]
-							local dataTable = healingFromSpellTable[fromSpellID]
-							if not dataTable then
-								dataTable = {}
-								healingFromSpellTable[fromSpellID] = dataTable
-							end
-							dataTable[active_segment] = (dataTable[active_segment] or 0)+damageTaken
-							
-							healingFromData[i+1] = nil
-							healingFromData[i] = nil
-						else
-							local fromSpellID = healingFromData[i]
-							local dataTable = healingFromSpellTable[fromSpellID]
-							if not dataTable then
-								dataTable = {}
-								healingFromSpellTable[fromSpellID] = dataTable
-							end
-							dataTable[active_segment] = (dataTable[active_segment] or 0)+healingFromAmount
-							
-							healingFromData[i+1] = healingFromData[i+1] - healingFromAmount
-							if healingFromData[i+1] == 0 then
+		if healFromSpellActive then
+			local healingFromAmount = amount - overhealing
+			if healingFromAmount > 0 then
+				local healingFromData = damageTakenLog[destGUID]
+				if healingFromData then
+					local healingFromDataSize = #healingFromData
+					if healingFromDataSize > 0 then
+						local healingFromTable = fightData_healFrom[sourceGUID]
+						if not healingFromTable then
+							healingFromTable = {}
+							fightData_healFrom[sourceGUID] = healingFromTable
+						end
+						local healingFromDestTable = healingFromTable[destGUID]
+						if not healingFromDestTable then
+							healingFromDestTable = {}
+							healingFromTable[destGUID] = healingFromDestTable
+						end
+						local healingFromSpellTable = healingFromDestTable[spellID]
+						if not healingFromSpellTable then
+							healingFromSpellTable = {}
+							healingFromDestTable[spellID] = healingFromSpellTable
+						end
+						for i=(healingFromDataSize - 1),1,-2 do
+							local damageTaken = healingFromData[i+1]
+							if healingFromAmount > damageTaken then
+								healingFromAmount = healingFromAmount - damageTaken
+								
+								local fromSpellID = healingFromData[i]
+								local dataTable = healingFromSpellTable[fromSpellID]
+								if not dataTable then
+									dataTable = {}
+									healingFromSpellTable[fromSpellID] = dataTable
+								end
+								dataTable[active_segment] = (dataTable[active_segment] or 0)+damageTaken
+								
 								healingFromData[i+1] = nil
 								healingFromData[i] = nil
+							else
+								local fromSpellID = healingFromData[i]
+								local dataTable = healingFromSpellTable[fromSpellID]
+								if not dataTable then
+									dataTable = {}
+									healingFromSpellTable[fromSpellID] = dataTable
+								end
+								dataTable[active_segment] = (dataTable[active_segment] or 0)+healingFromAmount
+								
+								healingFromData[i+1] = healingFromData[i+1] - healingFromAmount
+								if healingFromData[i+1] == 0 then
+									healingFromData[i+1] = nil
+									healingFromData[i] = nil
+								end
+								
+								break
 							end
-							
-							break
 						end
 					end
 				end
@@ -2036,6 +2070,18 @@ local function CLEUParser(self,_,timestamp,event,hideCaster,sourceGUID,sourceNam
 				
 		
 		--------------> Other
+		--[[
+		if negateHealing[destGUID] then
+			spellTable.amount = spellTable.amount - amount
+			spellTable.over = spellTable.over + amount + absorbed
+			spellTable.absorbed = spellTable.absorbed - absorbed
+			if critical then
+				spellTable.crit = spellTable.crit - amount - absorbed
+				spellTable.critcount = spellTable.critcount - 1
+				spellTable.critover = spellTable.critover - overhealing
+			end
+		end
+		]]
 		if spellID == 183998 then	--Light of the Martyr: effective healing fix
 			local lotmData = spellFix_LotM[sourceGUID]
 			if not lotmData then
@@ -2178,6 +2224,8 @@ local function CLEUParser(self,_,timestamp,event,hideCaster,sourceGUID,sourceNam
 		
 		if spellID == 45181 or spellID == 211336 or spellID == 87024 or spellID == 229333 or spellID == 116888 or spellID == 209261 then	--Cheated Death, Archbishop Benedictus' Restitution, Cauterize, Sands of Time (Trinket), Shroud of Purgatory, Uncontained Fel 
 			AddNotRealDeath(destGUID,timestamp,spellID)
+		--elseif spellID == 243961 then	--Varimatras Disable Healing Debuff
+		--	negateHealing[destGUID] = true
 		end
 		
 		
@@ -2231,6 +2279,8 @@ local function CLEUParser(self,_,timestamp,event,hideCaster,sourceGUID,sourceNam
 		--------------> Other
 		if spellID == 187464 then	--Shadow Mend
 			spellFix_SM[destGUID] = nil
+		--elseif spellID == 243961 then	--Varimatras Disable Healing Debuff
+		--	negateHealing[destGUID] = nil
 		end
 
 	---------------------------------
@@ -2281,17 +2331,17 @@ local function CLEUParser(self,_,timestamp,event,hideCaster,sourceGUID,sourceNam
 	------ powers
 	---------------------------------	
 	elseif event == "SPELL_ENERGIZE" or event == "SPELL_PERIODIC_ENERGIZE" then
-		local spellID,_,_,amount,powerType = ...
+		local spellID, _, _, amount, overEnergize, powerType, alternatePowerType = ...
 		
-		local sourceData = fightData_power[sourceGUID]
+		local sourceData = fightData_power[destGUID]
 		if not sourceData then
 			sourceData = {}
-			fightData_power[sourceGUID] = sourceData
+			fightData_power[destGUID] = sourceData
 		end
-		local powerData = sourceData[powerType]
+		local powerData = sourceData[powerType or 0]
 		if not powerData then
 			powerData = {}
-			sourceData[powerType] = powerData
+			sourceData[powerType or 0] = powerData
 		end
 		local spellData = powerData[spellID]
 		if not spellData then
@@ -2458,27 +2508,29 @@ local function CLEUParser(self,_,timestamp,event,hideCaster,sourceGUID,sourceNam
 		
 		
 		--------------> Add healing from
-		local healingFromTable = fightData_healFrom[sourceGUID]
-		if not healingFromTable then
-			healingFromTable = {}
-			fightData_healFrom[sourceGUID] = healingFromTable
+		if healFromSpellActive then
+			local healingFromTable = fightData_healFrom[sourceGUID]
+			if not healingFromTable then
+				healingFromTable = {}
+				fightData_healFrom[sourceGUID] = healingFromTable
+			end
+			local healingFromDestTable = healingFromTable[destGUID]
+			if not healingFromDestTable then
+				healingFromDestTable = {}
+				healingFromTable[destGUID] = healingFromDestTable
+			end
+			local healingFromSpellTable = healingFromDestTable[spellID]
+			if not healingFromSpellTable then
+				healingFromSpellTable = {}
+				healingFromDestTable[spellID] = healingFromSpellTable
+			end
+			local healingFromSpellTableSpell = healingFromSpellTable[attackerSpellId]
+			if not healingFromSpellTableSpell then
+				healingFromSpellTableSpell = {}
+				healingFromSpellTable[attackerSpellId] = healingFromSpellTableSpell
+			end
+			healingFromSpellTableSpell[active_segment] = (healingFromSpellTableSpell[active_segment] or 0)+amount
 		end
-		local healingFromDestTable = healingFromTable[destGUID]
-		if not healingFromDestTable then
-			healingFromDestTable = {}
-			healingFromTable[destGUID] = healingFromDestTable
-		end
-		local healingFromSpellTable = healingFromDestTable[spellID]
-		if not healingFromSpellTable then
-			healingFromSpellTable = {}
-			healingFromDestTable[spellID] = healingFromSpellTable
-		end
-		local healingFromSpellTableSpell = healingFromSpellTable[attackerSpellId]
-		if not healingFromSpellTableSpell then
-			healingFromSpellTableSpell = {}
-			healingFromSpellTable[attackerSpellId] = healingFromSpellTableSpell
-		end
-		healingFromSpellTableSpell[active_segment] = (healingFromSpellTableSpell[active_segment] or 0)+amount
 
 
 		if spellID == 213313 then	--Paladin: Divine intervention
@@ -2924,10 +2976,16 @@ function BWInterfaceFrameLoad()
 		---Tab with mobs fix
 		if activeTab == 4 then
 			local activeTabOnPage = BWInterfaceFrame.tab.tabs[4].infoTabs.selected
+			for i=1,#reportData[4][activeTabOnPage] do
+				reportData[4][activeTabOnPage][i] = reportData[4][activeTabOnPage][i]:gsub("||","")
+			end
 			ExRT.F:ToChatWindow(reportData[4][activeTabOnPage])
 			return		
 		end
 		
+		for i=1,#reportData[activeTab] do
+			reportData[activeTab][i] = reportData[activeTab][i]:gsub("||","")
+		end
 		ExRT.F:ToChatWindow(reportData[activeTab],nil,reportOptions[activeTab])
 	end)
 	BWInterfaceFrame.report:Hide()

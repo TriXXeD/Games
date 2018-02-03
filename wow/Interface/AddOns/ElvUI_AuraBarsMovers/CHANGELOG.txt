@@ -1,0 +1,14 @@
+v1.29
+- Patch 7.3 bump for reals
+
+v1.28
+- Patch 7.3 bump
+- Fixed selecting some attach options for target to prevent bars from appearing ever again
+- Fixed first aura for player frame sometimes having wrong width
+
+v1.27
+- Patch 7.2 bump
+
+v1.26
+- Fixed errors on ElvUI Unitframes updating
+- Patch 7.1 ready

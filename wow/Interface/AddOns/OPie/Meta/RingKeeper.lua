@@ -1,5 +1,5 @@
 local RingKeeper, _, T = {}, ...
-local RK_RingDesc, RK_CollectionIDs, RK_Version, RK_Rev, EV, SV = {}, {}, 2, 45, T.Evie
+local RK_RingDesc, RK_CollectionIDs, RK_Version, RK_Rev, EV, SV = {}, {}, 2, 46, T.Evie
 local unlocked, queue, RK_DeletedRings, RK_FlagStore, sharedCollection = false, {}, {}, {}, {}
 
 local function assert(condition, text, level, ...)
@@ -7,17 +7,16 @@ local function assert(condition, text, level, ...)
 end
 
 local AB = assert(T.ActionBook:compatible(2,19), "A compatible version of ActionBook is required")
-local RW = assert(T.ActionBook:compatible("Rewire", 1,8), "A compatible version of Rewire is required")
+local RW = assert(T.ActionBook:compatible("Rewire", 1,10), "A compatible version of Rewire is required")
 local ORI = OneRingLib.ext.OPieUI
 local CLASS, FULLNAME
 
 local RK_ParseMacro, RK_QuantizeMacro do -- +RingKeeper:SetMountPreference(groundSpellID, airSpellID)
 	local castAlias = {[SLASH_CAST1]=1,[SLASH_CAST2]=1,[SLASH_CAST3]=1,[SLASH_CAST4]=1,[SLASH_USE1]=1,[SLASH_USE2]=1,["#show"]=1,["#showtooltip"]=1,[SLASH_CASTSEQUENCE1]=2,[SLASH_CASTSEQUENCE2]=2,[SLASH_CASTRANDOM1]=3,[SLASH_CASTRANDOM2]=3}
-	local checkKnown = T.ABdodgySpells
 	local function replaceSpellID(sidlist, prefix)
 		for id, sn in sidlist:gmatch("%d+") do
 			id, sn = id+0, GetSpellInfo(id)
-			if sn and (checkKnown[id] == nil or checkKnown[id](id)) and (GetSpellInfo(sn) or RW:GetCastEscapeAction(sn)) then
+			if RW:IsSpellCastable(id) then
 				return prefix .. sn
 			end
 		end
@@ -35,7 +34,10 @@ local RK_ParseMacro, RK_QuantizeMacro do -- +RingKeeper:SetMountPreference(groun
 			for i=1, #idm do
 				i = idm[i]
 				local _1, sid, _3, _4, _5, _6, _7, factionLocked, factionId, hide, have = gmi(i)
-				if have and not hide and (not factionLocked or factionId == myFactionId) and GetSpellInfo((GetSpellInfo(sid))) then
+				if have and not hide
+				   and (not factionLocked or factionId == myFactionId)
+				   and RW:IsSpellCastable(sid)
+				   then
 					local _, _, _, _, t = gmiex(i)
 					if sid == prefSID then
 						return sid

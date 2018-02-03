@@ -107,6 +107,8 @@ L["STRING_CLOSEALL"] = "Todos las ventanas de Detalles se ocultan. Usar '/detail
 -- L["STRING_COLOR"] = ""
 L["STRING_COMMAND_LIST"] = "lista de comandos"
 L["STRING_COOLTIP_NOOPTIONS"] = "ningún opciones"
+--Translation missing 
+-- L["STRING_CREATEAURA"] = ""
 L["STRING_CRITICAL_HITS"] = "Golpes críticos"
 L["STRING_CRITICAL_ONLY"] = "crítico"
 L["STRING_CURRENT"] = "Actual"
@@ -310,6 +312,8 @@ L["STRING_FIGHTNUMBER"] = "Combate #"
 --Translation missing 
 -- L["STRING_FORGE_HEADER_GUID"] = ""
 --Translation missing 
+-- L["STRING_FORGE_HEADER_ICON"] = ""
+--Translation missing 
 -- L["STRING_FORGE_HEADER_ID"] = ""
 --Translation missing 
 -- L["STRING_FORGE_HEADER_INDEX"] = ""
@@ -325,10 +329,46 @@ L["STRING_FIGHTNUMBER"] = "Combate #"
 -- L["STRING_FORGE_HEADER_SPELLID"] = ""
 --Translation missing 
 -- L["STRING_FORGE_HEADER_TIMER"] = ""
+--Translation missing 
+-- L["STRING_FORGE_TUTORIAL_DESC"] = ""
+--Translation missing 
+-- L["STRING_FORGE_TUTORIAL_TITLE"] = ""
+--Translation missing 
+-- L["STRING_FORGE_TUTORIAL_VIDEO"] = ""
 L["STRING_FREEZE"] = "Este segmento no es disponible ahora."
 L["STRING_FROM"] = "Por"
 L["STRING_GERAL"] = "General"
 L["STRING_GLANCING"] = "Refilón"
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_BOSS"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_DATABASEERROR"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_DIFF"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_GUILD"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_PLAYERBASE"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_PLAYERBASE_INDIVIDUAL"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_PLAYERBASE_PLAYER"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_PLAYERBASE_RAID"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_RAID"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_ROLE"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_SHOWHISTORY"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_SHOWRANK"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_SYNCBUTTONTEXT"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_TUTORIAL_DESC"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_WINDOWALERT"] = ""
 L["STRING_HEAL"] = "Sanación"
 L["STRING_HEAL_ABSORBED"] = "Sanación absorbida"
 L["STRING_HEAL_CRIT"] = "Sanación crítica"
@@ -446,6 +486,8 @@ L["STRING_MINITUTORIAL_OPTIONS_PANEL6"] = "Seleccione aquí qué ventana desea c
 L["STRING_MISS"] = "Fallado"
 L["STRING_MODE_ALL"] = "Todos"
 L["STRING_MODE_GROUP"] = "Grupo & Banda"
+--Translation missing 
+-- L["STRING_MODE_OPENFORGE"] = ""
 L["STRING_MODE_PLUGINS"] = "plugins"
 L["STRING_MODE_RAID"] = "Plugins: banda"
 L["STRING_MODE_SELF"] = "Plugins: sin grupo"
@@ -511,6 +553,10 @@ L["STRING_OPTIONS_ALPHAMOD_ANCHOR"] = "Modificadores de opacidad:"
 -- L["STRING_OPTIONS_ALWAYS_USE"] = ""
 --Translation missing 
 -- L["STRING_OPTIONS_ALWAYS_USE_DESC"] = ""
+--Translation missing 
+-- L["STRING_OPTIONS_ALWAYSSHOWPLAYERS"] = ""
+--Translation missing 
+-- L["STRING_OPTIONS_ALWAYSSHOWPLAYERS_DESC"] = ""
 L["STRING_OPTIONS_ANCHOR"] = "Lado"
 --Translation missing 
 -- L["STRING_OPTIONS_ANIMATEBARS"] = ""
@@ -770,6 +816,10 @@ L["STRING_OPTIONS_DATACOLLECT_ANCHOR"] = "Tipos de datos:"
 -- L["STRING_OPTIONS_DEATHLIMIT"] = ""
 --Translation missing 
 -- L["STRING_OPTIONS_DEATHLIMIT_DESC"] = ""
+--Translation missing 
+-- L["STRING_OPTIONS_DEATHLOG_MINHEALING"] = ""
+--Translation missing 
+-- L["STRING_OPTIONS_DEATHLOG_MINHEALING_DESC"] = ""
 L["STRING_OPTIONS_DESATURATE_MENU"] = "Desaturar menú"
 L["STRING_OPTIONS_DESATURATE_MENU_DESC"] = "Mostrar los iconos en el menú en blanco y negro."
 --Translation missing 
@@ -997,10 +1047,6 @@ L["STRING_OPTIONS_OVERALL_ALL"] = "Todos segmentos"
 L["STRING_OPTIONS_OVERALL_ALL_DESC"] = "Todos segmentos se inclyen en los datos globales."
 L["STRING_OPTIONS_OVERALL_ANCHOR"] = "Datos globales:"
 --Translation missing 
--- L["STRING_OPTIONS_OVERALL_CHALLENGE"] = ""
---Translation missing 
--- L["STRING_OPTIONS_OVERALL_CHALLENGE_DESC"] = ""
---Translation missing 
 -- L["STRING_OPTIONS_OVERALL_DUNGEONBOSS"] = ""
 --Translation missing 
 -- L["STRING_OPTIONS_OVERALL_DUNGEONBOSS_DESC"] = ""
@@ -1012,6 +1058,10 @@ L["STRING_OPTIONS_OVERALL_ANCHOR"] = "Datos globales:"
 -- L["STRING_OPTIONS_OVERALL_LOGOFF"] = ""
 --Translation missing 
 -- L["STRING_OPTIONS_OVERALL_LOGOFF_DESC"] = ""
+--Translation missing 
+-- L["STRING_OPTIONS_OVERALL_MYTHICPLUS"] = ""
+--Translation missing 
+-- L["STRING_OPTIONS_OVERALL_MYTHICPLUS_DESC"] = ""
 --Translation missing 
 -- L["STRING_OPTIONS_OVERALL_NEWBOSS"] = ""
 --Translation missing 
@@ -1697,7 +1747,7 @@ L["STRING_PLUGINOPTIONS_TEXTSTYLE"] = "Estilo de fuente"
 --Translation missing 
 -- L["STRING_QUERY_INSPECT_FAIL1"] = ""
 --Translation missing 
--- L["STRING_QUERY_INSPECT_TALENTS"] = ""
+-- L["STRING_QUERY_INSPECT_REFRESH"] = ""
 --Translation missing 
 -- L["STRING_RAID_WIDE"] = ""
 --Translation missing 
@@ -1771,11 +1821,22 @@ L["STRING_SEGMENT_ENEMY"] = "Enemigo"
 L["STRING_SEGMENT_LOWER"] = "segmento"
 L["STRING_SEGMENT_OVERALL"] = "Datos globales"
 L["STRING_SEGMENT_START"] = "Iniciar"
-L["STRING_SEGMENT_TIME"] = "Tiempo"
 --Translation missing 
 -- L["STRING_SEGMENT_TRASH"] = ""
 --Translation missing 
 -- L["STRING_SEGMENTS"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_BOSS"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_COMBATTIME"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_OVERALL"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_TIMEINCOMBAT"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_TOTALTIME"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_TRASH"] = ""
 --Translation missing 
 -- L["STRING_SHIELD_HEAL"] = ""
 --Translation missing 
@@ -1824,11 +1885,15 @@ L["STRING_SLASH_WIPECONFIG_CONFIRM"] = "Hacer clic para continuar la reinstalaci
 --Translation missing 
 -- L["STRING_SLASH_WORLDBOSS_DESC"] = ""
 L["STRING_SPELL_INTERRUPTED"] = "Hechizos interrumpidos"
+--Translation missing 
+-- L["STRING_SPELLLIST"] = ""
 L["STRING_SPELLS"] = "Hechizos"
 --Translation missing 
 -- L["STRING_SPIRIT_LINK_TOTEM"] = ""
 --Translation missing 
 -- L["STRING_SPIRIT_LINK_TOTEM_DESC"] = ""
+--Translation missing 
+-- L["STRING_STATISTICS"] = ""
 --Translation missing 
 -- L["STRING_STATUSBAR_NOOPTIONS"] = ""
 --Translation missing 

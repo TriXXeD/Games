@@ -88,7 +88,7 @@ local function configTable()
 			zero = CreateCurrencyConfig(8, L["Show Zero Currency"], 'Zero'),
 			icons = CreateCurrencyConfig(9, L["Show Icons"], 'Icons'),
 			faction = CreateCurrencyConfig(10, L["Show Faction Totals"], 'Faction'),
-			unused = CreateCurrencyConfig(11, L["Show Unsed Currency"], 'Unused'),
+			unused = CreateCurrencyConfig(11, L["Show Unused Currencies"], 'Unused'),
 			delete = {
 				order = 12,
 				type = "select",
@@ -107,7 +107,8 @@ local function configTable()
 					return names;
 				end,
 				set = function(info, value) 
-					local name, realm = strsplit("-", value);
+					local name, realm, realm2 = strsplit("-", value);
+					if realm2 then realm = realm.."-"..realm2 end
 					E.PopupDialogs['SLE_CONFIRM_DELETE_CURRENCY_CHARACTER'].text = T.format(L["Are you sure you want to remove |cff1784d1%s|r from currency datatexts?"], name..(realm and "-"..realm or ""))
 					E:StaticPopup_Show('SLE_CONFIRM_DELETE_CURRENCY_CHARACTER', nil, nil, { ["name"] = name, ["realm"] = realm });
 				end,

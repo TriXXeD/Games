@@ -1,7 +1,7 @@
 local _, T = ...
 if T.SkipLocalActionBook then return end
 local AB = assert(T.ActionBook:compatible(2,14), "A compatible version of ActionBook is required")
-local RW = assert(AB:compatible("Rewire",1,2), "A compatible version of Rewire is required")
+local RW = assert(AB:compatible("Rewire",1,10), "A compatible version of Rewire is required")
 local EV = assert(T.Evie)
 local spellFeedback, itemHint, toyHint, mountHint, mountMap
 
@@ -49,25 +49,20 @@ do -- mount: mount ID
 			return "attribute", "type","macro", "macrotext",clickPrefix .. mountID
 		end
 	end
-	local trustHaveFlag, GetMountInfo = {[793]=1, [794]=1, [795]=1, [796]=1}, C_MountJournal.GetMountInfoByID
+
 	local function mountSync()
 		local changed, myFactionId = false, UnitFactionGroup("player") == "Horde" and 0 or 1
-		local idm, oldID, curID = C_MountJournal.GetMountIDs()
+		local idm, GetMountInfo, oldID, curID = C_MountJournal.GetMountIDs(), C_MountJournal.GetMountInfoByID
 		for mid=1,#idm do
 			mid = idm[mid]
 			local _1, sid, _3, _4, _5, _6, _7, factionLocked, factionId, hide, have = GetMountInfo(mid)
-			curID, oldID = not hide and (not factionLocked or factionId == myFactionId)
-			               and have and (trustHaveFlag[mid] or GetSpellInfo(GetSpellInfo(sid)) ~= nil) and mid or nil, mountMap[sid]
+			curID, oldID = not hide and (not factionLocked or factionId == myFactionId) and sid ~= 0
+			               and have and RW:IsSpellCastable(sid) and mid or nil, mountMap[sid]
 			if oldID ~= curID then
 				local sname, srank, rname = GetSpellInfo(sid)
 				rname = (sname .. "(" .. (srank or "") .. ")") -- Paladin/Warlock/Death Knight horses have spell ranks
 				changed, mountMap[sid], mountMap[sname], mountMap[sname:lower()], mountMap[rname], mountMap[rname:lower()] =
 					true, curID, curID, curID, curID, curID
-				if trustHaveFlag[mid] then
-					local aid = curID and AB:GetActionSlot("mount", mid) or nil
-					RW:SetCastEscapeAction(sname, aid)
-					RW:SetCastEscapeAction(rname, aid)
-				end
 			end
 		end
 		mountMap[150544] = 0
@@ -75,21 +70,21 @@ do -- mount: mount ID
 	end
 	function mountHint(id)
 		local usable = (not (InCombatLockdown() or IsIndoors())) and HasFullControl() and not UnitIsDeadOrGhost("player")
-		local cname, sid, icon, active, usable2 = GetMountInfo(id)
+		local cname, sid, icon, active, usable2 = C_MountJournal.GetMountInfoByID(id)
 		local time, cdStart, cdLength = GetTime(), GetSpellCooldown(sid)
 		return usable and cdStart == 0 and usable2, active and 1 or 0, icon, cname, 0, (cdStart or 0) > 0 and (cdStart+cdLength-time) or 0, cdLength, GameTooltip.SetMountBySpellID, sid
 	end
 	local actionMap = {}
 	AB:RegisterActionType("mount", function(id)
 		if type(id) == "number" and not actionMap[id] then
-			local _, sid = GetMountInfo(id)
+			local _, sid = C_MountJournal.GetMountInfoByID(id)
 			if mountMap[sid] then
 				actionMap[id] = AB:CreateActionSlot(mountHint, id, summonAction(id))
 			end
 		end
 		return actionMap[id]
 	end, function(id)
-		local name, sid, icon = GetMountInfo(id)
+		local name, sid, icon = C_MountJournal.GetMountInfoByID(id)
 		return "Mount", name, icon, nil, GameTooltip.SetMountBySpellID, sid
 	end)
 	do -- random
@@ -100,7 +95,7 @@ do -- mount: mount ID
 		RW:SetCastEscapeAction(GetSpellInfo(150544), actionMap[0])
 	end
 	EV.MOUNT_JOURNAL_USABILITY_CHANGED, EV.PLAYER_ENTERING_WORLD, EV.COMPANION_LEARNED = mountSync, mountSync, mountSync
-	T.ABdodgyMounts, mountMap = trustHaveFlag, {}
+	mountMap = {}
 end
 do -- spell: spell ID + mount spell ID
 	local function currentShapeshift()
@@ -138,21 +133,12 @@ do -- spell: spell ID + mount spell ID
 		return spellHint(sname, nil, target)
 	end
 	
-	local forcedSpellIDCasts = {[126819]=1, [28272]=1, [28271]=1, [161372]=1, [51514]=1, [210873]=1, [211004]=1, [211010]=1, [211015]=1}
-	local checkKnown = {[33891]=IsSpellKnown, [102543]=IsSpellKnown, [102558]=IsSpellKnown} do
-		checkKnown[102560] = function()
-			return IsSpellKnown(194223) and select(7, GetSpellInfo(GetSpellInfo(194223))) == 102560 or false
-		end
-		T.ABdodgySpells = checkKnown
-	end
 	AB:RegisterActionType("spell", function(id)
 		if type(id) ~= "number" then return end
 		local action = mountMap[id]
 		if action then
 			return AB:GetActionSlot("mount", action)
-		elseif forcedSpellIDCasts[id] then
-			action = FindSpellBookSlotBySpellID(id) and id or nil
-		elseif checkKnown[id] and not checkKnown[id](id) then
+		elseif not RW:IsSpellCastable(id) then
 			return
 		else
 			local s0, r0 = GetSpellInfo(id)
@@ -169,8 +155,11 @@ do -- spell: spell ID + mount spell ID
 		end
 		return actionMap[action]
 	end, function(id)
-		local name2, _, icon2, name, sname, icon = nil, nil, nil, GetSpellInfo(id)
-		if name and not forcedSpellIDCasts[id] then name2, _, icon2 = GetSpellInfo(name, sname) end
+		local name2, _, icon2, name, rank, icon = nil, nil, nil, GetSpellInfo(id)
+		local _, castType = RW:IsSpellCastable(id)
+		if name and castType ~= "forced-id-cast" then
+			name2, _, icon2 = GetSpellInfo(name, rank)
+		end
 		return mountMap[id] and "Mount" or "Spell", name2 or name, icon2 or icon, nil, GameTooltip.SetSpellByID, id
 	end)
 	do -- specials

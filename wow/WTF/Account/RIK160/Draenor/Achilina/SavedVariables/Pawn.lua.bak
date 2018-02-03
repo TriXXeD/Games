@@ -1,22 +1,23 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0208,
+	["LastVersion"] = 2.0217,
 	["LastPlayerFullName"] = "Achilina-Draenor",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128289] = {
 			["Relics"] = {
 				{
-					["ItemLevel"] = 43,
+					["ItemLevel"] = 56,
 					["Type"] = "Iron",
 				}, -- [1]
 				{
-					["ItemLevel"] = 39,
+					["ItemLevel"] = 58,
 					["Type"] = "Blood",
 				}, -- [2]
 				{
-					["ItemLevel"] = 49,
+					["ItemLevel"] = 62,
 					["Type"] = "Fire",
 				}, -- [3]
 			},
@@ -25,15 +26,15 @@ PawnOptions = {
 		[128908] = {
 			["Relics"] = {
 				{
-					["ItemLevel"] = 39,
+					["ItemLevel"] = 62,
 					["Type"] = "Fire",
 				}, -- [1]
 				{
-					["ItemLevel"] = 22,
+					["ItemLevel"] = 58,
 					["Type"] = "Wind",
 				}, -- [2]
 				{
-					["ItemLevel"] = 36,
+					["ItemLevel"] = 49,
 					["Type"] = "Iron",
 				}, -- [3]
 			},
@@ -42,20 +43,21 @@ PawnOptions = {
 		[128910] = {
 			["Relics"] = {
 				{
-					["ItemLevel"] = 27,
+					["ItemLevel"] = 58,
 					["Type"] = "Iron",
 				}, -- [1]
 				{
+					["ItemLevel"] = 52,
 					["Type"] = "Blood",
 				}, -- [2]
 				{
+					["ItemLevel"] = 56,
 					["Type"] = "Shadow",
 				}, -- [3]
 			},
 			["Name"] = "Strom'kar, the Warbreaker",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "WARRIOR",

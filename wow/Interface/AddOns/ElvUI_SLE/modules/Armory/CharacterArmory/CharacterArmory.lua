@@ -225,7 +225,6 @@ do --<< Button Script >>--
 
 end
 
-
 function CA:Setup_CharacterArmory()
 	local CharacterFrame_Level = CharacterModelFrame:GetFrameLevel()
 	--<< Core >>--
@@ -235,7 +234,7 @@ function CA:Setup_CharacterArmory()
 	--<< Updater >>--
 	local args
 	self:SetScript('OnEvent', function(self, Event, ...)
-		if Event == 'SOCKET_INFO_SUCCESS' or Event == 'ITEM_UPGRADE_MASTER_UPDATE' or Event == 'TRANSMOGRIFY_SUCCESS' or Event == 'PLAYER_ENTERING_WORLD' then
+		if Event == 'SOCKET_INFO_SUCCESS' or Event == 'ITEM_UPGRADE_MASTER_UPDATE' or Event == 'TRANSMOGRIFY_SUCCESS' or Event == 'LOADING_SCREEN_DISABLED' then
 
 			self.GearUpdated = nil
 			self:SetScript('OnUpdate', self.ScanData)
@@ -307,7 +306,7 @@ function CA:Setup_CharacterArmory()
 	--<< Average Item Level >>--
 	-- KF:TextSetting(self, nil, { Tag = 'AverageItemLevel', FontSize = 12 }, 'BOTTOM', CharacterModelFrame, 'TOP', 0, 14)
 	-- local function ValueColorUpdate()
-	-- 	self.AverageItemLevel:SetText(KF:Color_Value(STAT_AVERAGE_ITEM_LEVEL)..' : '..format('%.2f', select(2, GetAverageItemLevel())))
+		-- self.AverageItemLevel:SetText(KF:Color_Value(STAT_AVERAGE_ITEM_LEVEL)..' : '..format('%.2f', select(2, GetAverageItemLevel())))
 	-- end
 	-- E.valueColorUpdateFuncs[ValueColorUpdate] = true
 	
@@ -326,7 +325,7 @@ function CA:Setup_CharacterArmory()
 		_G["Character"..SlotName]:SetFrameLevel(Slot:GetFrameLevel() + 1)
 		
 		-- Gradation
-		Slot.Gradation = Slot:CreateTexture(nil, 'OVERLAY')
+		Slot.Gradation = Slot:CreateTexture(nil, 'ARTWORK')
 		Slot.Gradation:SetInside()
 		Slot.Gradation:SetTexture('Interface\\AddOns\\ElvUI_SLE\\modules\\Armory\\Media\\Textures\\Gradation')
 		if Slot.Direction == 'LEFT' then
@@ -351,7 +350,6 @@ function CA:Setup_CharacterArmory()
 			if E.db.sle.Armory.Character.Level.Display == 'Hide' then
 				Slot.ItemLevel:Hide()
 			end
-			
 			-- Enchantment Name
 			KF:TextSetting(Slot, nil, { Tag = 'ItemEnchant',
 				Font = E.db.sle.Armory.Character.Enchant.Font,
@@ -393,7 +391,7 @@ function CA:Setup_CharacterArmory()
 				})
 				Slot["Socket"..i]:SetBackdropColor(0, 0, 0, 1)
 				Slot["Socket"..i]:SetBackdropBorderColor(0, 0, 0)
-				Slot["Socket"..i]:SetFrameLevel(_G["CharacterModelFrame"]:GetFrameLevel() + 1)
+				Slot["Socket"..i]:SetFrameLevel(_G["CharacterModelFrame"]:GetFrameLevel())
 				
 				Slot["Socket"..i].SlotID = Slot.ID
 				Slot["Socket"..i].SocketNumber = i
@@ -513,7 +511,7 @@ function CA:Setup_CharacterArmory()
 		self.ArtifactMonitor:SetScript('OnEvent', function(_, Event)
 			if Event == 'ARTIFACT_UPDATE' or Event == 'ARTIFACT_XP_UPDATE' then
 				self.ArtifactMonitor.UpdateData = nil
-			elseif Event == 'BAG_UPDATE' or Event == 'PLAYER_ENTERING_WORLD' then
+			elseif Event == 'BAG_UPDATE' or Event == 'LOADING_SCREEN_DISABLED' then
 				self.ArtifactMonitor.SearchPowerItem = nil
 			end
 		end)
@@ -661,15 +659,12 @@ end
 
 function CA:ScanData()
 	self.NeedUpdate = nil
-	
 	if not self.DurabilityUpdated then
 		self.NeedUpdate = self:Update_Durability() or self.NeedUpdate
 	end
-	
 	if self.GearUpdated ~= true then
 		self.NeedUpdate = self:Update_Gear() or self.NeedUpdate
 	end
-	
 	if not self.NeedUpdate and self:IsShown() then
 		self:SetScript('OnUpdate', nil)
 		self:Update_Display(true)
@@ -780,11 +775,10 @@ function CA:Update_Gear()
 		ItemLink = T.GetInventoryItemLink('player', Slot.ID)
 		-- if ItemLink then local DaName = GetItemInfo(ItemLink); print(DaName, GetDetailedItemLevelInfo(ItemLink)) end
 		ErrorDetected = nil
-		
+
 		if not (SlotName == 'ShirtSlot' or SlotName == 'TabardSlot') then
 			do --<< Clear Setting >>--
 				NeedUpdate, TrueItemLevel, UsableEffect, ItemUpgradeID, CurrentUpgrade, MaxUpgrade, ItemType, ItemTexture, IsTransmogrified = nil, nil, nil, nil, nil, nil, nil, nil, nil
-
 				Slot.ItemRarity = nil
 				Slot.ItemLevel:SetText(nil)
 				Slot.IsEnchanted = nil
@@ -805,7 +799,6 @@ function CA:Update_Gear()
 				Slot.SocketWarning:Hide()
 				Slot.SocketWarning.Link = nil
 				Slot.SocketWarning.Message = nil
-				
 				if Slot.TransmogrifyAnchor then
 					Slot.TransmogrifyAnchor.SourceID = nil
 					Slot.TransmogrifyAnchor.Link = nil
@@ -817,7 +810,6 @@ function CA:Update_Gear()
 					Slot.IllusionAnchor:Hide()
 				end
 			end
-			
 			if ItemLink then
 				if not ItemLink:find('%[%]') then -- sometimes itemLink is malformed so we need to update when crashed
 
@@ -1053,8 +1045,13 @@ function CA:Update_Gear()
 							or
 							TrueItemLevel
 						)
+						if E.db.sle.Armory.Character.Level.ItemColor then
+							Slot.ItemLevel:SetTextColor(R, G, B)
+						else
+							Slot.ItemLevel:SetTextColor(1, 1, 1)
+						end
 					end
-					
+
 					if E.db.sle.Armory.Character.NoticeMissing ~= false then
 						if not Slot.IsEnchanted and 
 							(Info.Armory_Constants.EnchantableSlots[SlotName] or (E.myclass == 'DEATHKNIGHT' and (SlotName == 'MainHandSlot' or SlotName == 'SecondaryHandSlot'))) and
@@ -1103,34 +1100,44 @@ function CA:Update_Gear()
 				else
 					NeedUpdate = true
 				end
+
 			end
-			
+
 			if NeedUpdate then
 				NeedUpdateList = NeedUpdateList or {}
 				table.insert(NeedUpdateList, SlotName)
 				--NeedUpdateList[#NeedUpdateList + 1] = SlotName
 			end
 		end
-		
+
 		-- Change Gradation
-		if ItemLink and E.db.sle.Armory.Character.Gradation.Display then
-			Slot.Gradation:Show()
-		else
-			Slot.Gradation:Hide()
-		end
-		if ErrorDetected and E.db.sle.Armory.Character.NoticeMissing then
-			Slot.Gradation:SetVertexColor(1, 0, 0)
-			Slot.Gradation:Show()
-		else
-			Slot.Gradation:SetVertexColor(T.unpack(E.db.sle.Armory.Character.Gradation.Color))
+		-- if not NeedUpdate then
+			if ItemLink and E.db.sle.Armory.Character.Gradation.Display then
+				Slot.Gradation:Show()
+			else
+				Slot.Gradation:Hide()
+			end
+
+			if ErrorDetected and E.db.sle.Armory.Character.NoticeMissing then
+				Slot.Gradation:SetVertexColor(1, 0, 0)
+				Slot.Gradation:Show()
+			end
+		if not NeedUpdate then
+			if ItemLink and E.db.sle.Armory.Character.Gradation.ItemQuality then
+				_, _, Slot.ItemRarity, _, _, _, _, _, _ = T.GetItemInfo(ItemLink)
+				R, G, B = T.GetItemQualityColor(Slot.ItemRarity)
+				Slot.Gradation:SetVertexColor(R, G, B)
+			else
+				Slot.Gradation:SetVertexColor(T.unpack(E.db.sle.Armory.Character.Gradation.Color))
+			end
 		end
 	end
-	
+
 	if NeedUpdateList then
 		self.GearUpdated = NeedUpdateList
 		return true
 	end
-	
+
 	self.GearUpdated = true
 
 	if self.ArtifactMonitor and ArtifactMonitor_RequireUpdate then
@@ -1237,6 +1244,7 @@ do --<< Artifact Monitor >>
 	
 	
 	function CA:LegionArtifactMonitor_UpdateData()
+		if not self.ArtifactMonitor then return end
 		Artifact_ItemID, _, _, _, Artifact_Power, Artifact_Rank,_, _, _, _, _, _, Artifact_Tier = C_ArtifactUI.GetEquippedArtifactInfo()
 		if Artifact_ItemID then
 			Legion_ArtifactData.ItemID = Artifact_ItemID
@@ -1296,6 +1304,10 @@ do --<< Artifact Monitor >>
 	function CA:LegionArtifactMonitor_SearchPowerItem()
 		if not self.ArtifactMonitor.UpdateData then
 			CA:LegionArtifactMonitor_UpdateData()
+		end
+		if not self.ArtifactMonitor.BarExpected.InitialLoadCheck then
+			CA:LegionArtifactMonitor_UpdateData()
+			self.ArtifactMonitor.BarExpected.InitialLoadCheck = true
 		end
 		
 		-- LowestPower = nil
@@ -1357,7 +1369,6 @@ function CA:Update_BG()
 		self.BG:SetTexture(Info.Armory_Constants.BlizzardBackdropList[E.db.sle.Armory.Character.Backdrop.SelectedBG] or 'Interface\\AddOns\\ElvUI_SLE\\modules\\Armory\\Media\\Textures\\'..E.db.sle.Armory.Character.Backdrop.SelectedBG)
 	end
 end
-
 
 function CA:Update_Display(Force)
 	local Slot, Mouseover, SocketVisible
@@ -1480,6 +1491,12 @@ function CA:UpdateSettings(part)
 			if _G["CharacterArmory"][SlotName] and _G["CharacterArmory"][SlotName].SocketWarning then
 				_G["CharacterArmory"][SlotName].SocketWarning:Size(db.Gem.WarningSize)
 			end
+			if _G["CharacterArmory"].ArtifactMonitor then
+				for i = 1, C_ArtifactUI.GetEquippedArtifactNumRelicSlots() or 3 do
+					-- CA.ArtifactMonitor['Socket'..i] = CreateFrame('Frame', nil, CA.ArtifactMonitor)
+					_G["CharacterArmory"].ArtifactMonitor['Socket'..i]:Size(E.db.sle.Armory.Character.Gem.SocketSize)
+				end
+			end
 		end
 	end
 	if part == "dur" or part == "all" then
@@ -1530,26 +1547,28 @@ end
 KF.Modules[#KF.Modules + 1] = 'CharacterArmory'
 KF.Modules.CharacterArmory = function()
 	if E.private.sle.Armory then E.db.sle.Armory.Character.ItemLevel = E.private.sle.Armory.ItemLevel; E.db.sle.Armory.ItemLevel = nil end --DB converts
+
 	if E.db.sle.Armory.Character.Enable ~= false then
 		Info.CharacterArmory_Activate = true
-		
+
 		-- Setting frame
 		_G["CharacterFrame"]:SetHeight(444)
-		
+
 		-- Move right equipment slots
 		_G["CharacterHandsSlot"]:SetPoint('TOPRIGHT', _G["CharacterFrameInsetRight"], 'TOPLEFT', -4, -2)
-		
+
 		-- Move bottom equipment slots
 		_G["CharacterMainHandSlot"]:SetPoint('BOTTOMLEFT', _G["PaperDollItemsFrame"], 'BOTTOMLEFT', 185, 14)
-		
+
 		if CA.Setup_CharacterArmory then
 			CA:Setup_CharacterArmory()
 		else
 			CA:Show()
 		end
+
 		CA:ScanData()
 		CA:Update_BG()
-		
+
 		-- Model Frame
 		_G["CharacterModelFrame"]:ClearAllPoints()
 		_G["CharacterModelFrame"]:SetPoint('TOPLEFT', _G["CharacterHeadSlot"])
@@ -1559,12 +1578,15 @@ KF.Modules.CharacterArmory = function()
 		_G["CharacterModelFrame"].BackgroundTopRight:Hide()
 		_G["CharacterModelFrame"].BackgroundBotLeft:Hide()
 		_G["CharacterModelFrame"].BackgroundBotRight:Hide()
-		
+		if _G["CharacterModelFrame"].backdrop then
+			_G["CharacterModelFrame"].backdrop:Hide()
+		end
+
 		if _G["PaperDollFrame"]:IsShown() then
 			_G["CharacterFrame"]:SetWidth(_G["CharacterFrame"].Expanded and 650 or 444)
 			_G["CharacterFrameInsetRight"]:SetPoint('TOPLEFT', _G["CharacterFrameInset"], 'TOPRIGHT', 110, 0)
 		end
-		
+
 		-- Run KnightArmory
 		CA:RegisterEvent('SOCKET_INFO_SUCCESS')
 		CA:RegisterEvent('PLAYER_EQUIPMENT_CHANGED')
@@ -1573,12 +1595,12 @@ KF.Modules.CharacterArmory = function()
 		CA:RegisterEvent('TRANSMOGRIFY_SUCCESS')
 		CA:RegisterEvent('COMBAT_LOG_EVENT_UNFILTERED')
 		CA:RegisterEvent('UPDATE_INVENTORY_DURABILITY')
-		CA:RegisterEvent('PLAYER_ENTERING_WORLD')
+		CA:RegisterEvent('LOADING_SCREEN_DISABLED')
 		if CA.ArtifactMonitor then
 			CA.ArtifactMonitor:RegisterEvent('ARTIFACT_UPDATE')
 			CA.ArtifactMonitor:RegisterEvent('ARTIFACT_XP_UPDATE')
 			CA.ArtifactMonitor:RegisterEvent('BAG_UPDATE')
-			CA.ArtifactMonitor:RegisterEvent('PLAYER_ENTERING_WORLD')
+			CA.ArtifactMonitor:RegisterEvent('LOADING_SCREEN_DISABLED')
 		end
 		
 		--[[
@@ -1589,6 +1611,8 @@ KF.Modules.CharacterArmory = function()
 		]]
 		_G["CharacterModelFrameBackgroundOverlay"]:SetPoint('TOPLEFT', CharacterArmory, -8, 0)
 		_G["CharacterModelFrameBackgroundOverlay"]:SetPoint('BOTTOMRIGHT', CharacterArmory, 8, 0)
+		
+		CA:LegionArtifactMonitor_UpdateData()
 	elseif Info.CharacterArmory_Activate then
 		Info.CharacterArmory_Activate = nil
 		
@@ -1612,6 +1636,7 @@ KF.Modules.CharacterArmory = function()
 		_G["CharacterModelFrame"].BackgroundTopRight:Show()
 		_G["CharacterModelFrame"].BackgroundBotLeft:Show()
 		_G["CharacterModelFrame"].BackgroundBotRight:Show()
+		_G["CharacterModelFrame"].backdrop:Show()
 		
 		-- Turn off ArmoryFrame
 		CA:Hide()
@@ -1627,6 +1652,12 @@ KF.Modules.CharacterArmory = function()
 		_G["CharacterModelFrameBackgroundOverlay"]:SetPoint('TOPLEFT', CharacterModelFrame, 0, 0)
 		_G["CharacterModelFrameBackgroundOverlay"]:SetPoint('BOTTOMRIGHT', CharacterModelFrame, 0, 0)
 	end
+	
+	hooksecurefunc(E, "UpdateMedia", function(self)
+		if (not E.db.sle.Armory.Character.Enable) or (not CA.ArtifactMonitor) then return end
+		CA.ArtifactMonitor.BarExpected:SetStatusBarColor(unpack(E.media.rgbvaluecolor))
+		CA:LegionArtifactMonitor_UpdateData()
+	end)
 
 	CA:ElvOverlayToggle()
 	if SLE._Compatibility["DejaCharacterStats"] then

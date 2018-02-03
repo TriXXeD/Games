@@ -1,4 +1,4 @@
-local E, L, V, P, G = unpack(select(2, ...)); --Inport: Engine, Locales, PrivateDB, ProfileDB, GlobalDB
+local E, L, V, P, G = unpack(select(2, ...)); --Import: Engine, Locales, PrivateDB, ProfileDB, GlobalDB
 
 --Cache global variables
 --Lua functions
@@ -97,6 +97,11 @@ function E:CreateCooldownTimer(parent)
 	parent:SetScript('OnSizeChanged', function(_, ...) self:Cooldown_OnSizeChanged(timer, ...) end)
 
 	parent.timer = timer
+
+	if parent.FontOverride then
+		parent.FontOverride(parent) -- used to style nameplate aura cooldown text with `cooldownFontOverride`
+	end
+
 	return timer
 end
 

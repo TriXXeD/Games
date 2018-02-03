@@ -1,4 +1,4 @@
-local E, L, V, P, G = unpack(select(2, ...)); --Inport: Engine, Locales, PrivateDB, ProfileDB, GlobalDB
+local E, L, V, P, G = unpack(select(2, ...)); --Import: Engine, Locales, PrivateDB, ProfileDB, GlobalDB
 local AFKString = _G["AFK"]
 local AFK = E:NewModule('AFK', 'AceEvent-3.0', 'AceTimer-3.0');
 local CH = E:GetModule("Chat")
@@ -35,12 +35,12 @@ local SetCVar = SetCVar
 local UnitCastingInfo = UnitCastingInfo
 local UnitFactionGroup = UnitFactionGroup
 local UnitIsAFK = UnitIsAFK
-local CUSTOM_CLASS_COLORS = CUSTOM_CLASS_COLORS
 local DND = DND
 local RAID_CLASS_COLORS = RAID_CLASS_COLORS
 
 --Global variables that we don't cache, list them here for mikk's FindGlobals script
 -- GLOBALS: UIParent, PVEFrame, ElvUIAFKPlayerModel, ChatTypeInfo
+-- GLOBALS: CUSTOM_CLASS_COLORS
 
 local CAMERA_SPEED = 0.035
 local ignoreKeys = {
@@ -218,7 +218,7 @@ local function Chat_OnEvent(self, event, arg1, arg2, arg3, arg4, arg5, arg6, arg
 	if ( arg14 ) then	--isMobile
 		message = ChatFrame_GetMobileEmbeddedTexture(info.r, info.g, info.b)..message;
 	end
-	
+
 	--Escape any % characters, as it may otherwise cause an "invalid option in format" error in the next step
 	message = gsub(message, "%%", "%%%%");
 

@@ -9,6 +9,7 @@ debug = true
 
 local L = LibStub("AceLocale-3.0"):NewLocale("GatherMate2", "enUS", true, debug)
 
+-- Options
 L["Add this location to Cartographer_Waypoints"] = true
 L["Add this location to TomTom waypoints"] = true
 L["Always show"] = true
@@ -207,8 +208,10 @@ L["World Map Icon Scale"] = true
 L["World Map Icons"] = true
 L["Wrath of the Lich King"] = true
 
+
 local NL = LibStub("AceLocale-3.0"):NewLocale("GatherMate2Nodes", "enUS", true, debug)
 
+-- Nodes
 NL["Abundant Bloodsail Wreckage"] = true
 NL["Abundant Firefin Snapper School"] = true
 NL["Abundant Oily Blackmouth School"] = true
@@ -227,6 +230,7 @@ NL["Arakkoa Archaeology Find"] = true
 NL["Arcane Vortex"] = true
 NL["Arctic Cloud"] = true
 NL["Arthas' Tears"] = true
+NL["Astral Glory"] = true
 NL["Azshara's Veil"] = true
 NL["Battered Chest"] = true
 NL["Battered Footlocker"] = true
@@ -278,6 +282,8 @@ NL["Dwarf Archaeology Find"] = true
 NL["Earthroot"] = true
 NL["Elementium Vein"] = true
 NL["Emperor Salmon School"] = true
+NL["Empyrium Deposit"] = true
+NL["Empyrium Seam"] = true
 NL["Everfrost Chip"] = true
 NL["Fadeleaf"] = true
 NL["Fangtooth Herring School"] = true
@@ -285,8 +291,8 @@ NL["Fat Sleeper School"] = true
 NL["Fathom Eel Swarm"] = true
 NL["Fel Iron Chest"] = true
 NL["Fel Iron Deposit"] = true
-NL["Fel-encrusted Herb"] = true
-NL["Fel-encrusted Herb Cluster"] = true
+NL["Fel-Encrusted Herb"] = true
+NL["Fel-Encrusted Herb Cluster"] = true
 NL["Felmist"] = true
 NL["Felmouth Frenzy School"] = true
 NL["Felslate Deposit"] = true
@@ -441,6 +447,7 @@ NL["Rich Adamantite Deposit"] = true
 NL["Rich Blackrock Deposit"] = true
 NL["Rich Cobalt Deposit"] = true
 NL["Rich Elementium Vein"] = true
+NL["Rich Empyrium Deposit"] = true
 NL["Rich Felslate Deposit"] = true
 NL["Rich Ghost Iron Deposit"] = true
 NL["Rich Kyparite Deposit"] = true
@@ -528,3 +535,4 @@ NL["Wild Steelbloom"] = true
 NL["Windy Cloud"] = true
 NL["Wintersbite"] = true
 NL["Withered Herb"] = true
+

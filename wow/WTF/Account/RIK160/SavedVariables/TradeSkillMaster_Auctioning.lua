@@ -8,14 +8,14 @@ TradeSkillMaster_AuctioningDB = {
 		["Trixxed"] = true,
 		["Achilina"] = true,
 		["Trìxxed"] = true,
-		["Molokh"] = true,
+		["Trîxxed"] = true,
 		["Eruditus"] = true,
 		["Trïxxed"] = true,
-		["Fausta"] = true,
+		["Daemonikos"] = true,
 		["Marcellinus"] = true,
 		["Chrysante"] = true,
-		["Daemonikos"] = true,
-		["Trîxxed"] = true,
+		["Fausta"] = true,
+		["Molokh"] = true,
 	},
 	["g@ @cancelWithBid"] = false,
 	["g@ @helpPlatesShown"] = {
@@ -30,62 +30,27 @@ TradeSkillMaster_AuctioningDB = {
 		["Achilina - Ravencrest"] = "Default",
 		["Trìxxed - Ravencrest"] = "Default",
 		["Achillina - Thunderhorn"] = "Default",
+		["Lupalia - Ravencrest"] = "Default",
 		["Trixxedbank - Draenor"] = "Default",
 		["Teukronar - Argent Dawn"] = "Default",
 		["Fausta - Ravencrest"] = "Default",
-		["Daemonikos - Ravencrest"] = "Default",
+		["Trixxed - Ravencrest"] = "Default",
 		["Achilina - Draenor"] = "Default",
 		["Shadefighter - Thunderhorn"] = "Default",
 		["Chrysante - Ravencrest"] = "Default",
-		["Daemonikos - Draenor"] = "Default",
 		["Marcellinus - Ravencrest"] = "Default",
+		["Daemonikos - Draenor"] = "Default",
 		["Quelith - Draenor"] = "Default",
 		["Odeysseus - Thunderhorn"] = "Default",
 		["Trïxxed - Ravencrest"] = "Default",
-		["Lupalia - Ravencrest"] = "Default",
 		["Trîxxed - Ravencrest"] = "Default",
+		["Petergrippin - Draenor"] = "Default",
 		["Kazzía - Thunderhorn"] = "Default",
 		["Lichservent - Thunderhorn"] = "Default",
-		["Trixxed - Ravencrest"] = "Default",
+		["Daemonikos - Ravencrest"] = "Default",
 		["Molokh - Ravencrest"] = "Default",
 	},
 	["g@ @roundNormalPrice"] = false,
-	["f@Alliance - Aerie Peak@player"] = {
-		["Sftyhsfey"] = true,
-	},
-	["f@Horde - Laughing Skull@whitelist"] = {
-	},
-	["f@Horde - Thunderhorn@player"] = {
-		["Achillina"] = true,
-		["Lichservent"] = true,
-		["Dístúrbed"] = true,
-		["Kazzía"] = true,
-		["Odeysseus"] = true,
-		["Shadefighter"] = true,
-	},
-	["g@ @priceColumn"] = 1,
-	["f@Alliance - Aerie Peak@whitelist"] = {
-	},
-	["f@Alliance - Argent Dawn@player"] = {
-		["Teukronar"] = true,
-	},
-	["f@Alliance - Argent Dawn@whitelist"] = {
-	},
-	["f@Horde - Draenor@player"] = {
-		["Daemonikos"] = true,
-		["Achilina"] = true,
-		["Quelith"] = true,
-		["Trixxedbank"] = true,
-	},
-	["g@ @matchWhitelist"] = true,
-	["f@Alliance - Ravencrest@whitelist"] = {
-	},
-	["f@Horde - Laughing Skull@player"] = {
-		["Tríxxed"] = true,
-	},
-	["f@Horde - Draenor@whitelist"] = {
-	},
-	["_version"] = 1,
 	["_scopeKeys"] = {
 		["char"] = {
 			"Teukronar - Argent Dawn", -- [1]
@@ -111,16 +76,7 @@ TradeSkillMaster_AuctioningDB = {
 			"Quelith - Draenor", -- [21]
 			"Trixxedbank - Draenor", -- [22]
 			"Daemonikos - Draenor", -- [23]
-		},
-		["realm"] = {
-			"Argent Dawn", -- [1]
-			"Laughing Skull", -- [2]
-			"Thunderhorn", -- [3]
-			"Ravencrest", -- [4]
-			"Draenor", -- [5]
-		},
-		["profile"] = {
-			"Default", -- [1]
+			"Petergrippin - Draenor", -- [24]
 		},
 		["factionrealm"] = {
 			"Alliance - Argent Dawn", -- [1]
@@ -130,5 +86,52 @@ TradeSkillMaster_AuctioningDB = {
 			"Horde - Thunderhorn", -- [5]
 			"Horde - Draenor", -- [6]
 		},
+		["profile"] = {
+			"Default", -- [1]
+		},
+		["realm"] = {
+			"Argent Dawn", -- [1]
+			"Laughing Skull", -- [2]
+			"Thunderhorn", -- [3]
+			"Ravencrest", -- [4]
+			"Draenor", -- [5]
+		},
+	},
+	["f@Horde - Laughing Skull@whitelist"] = {
+	},
+	["_version"] = 1,
+	["g@ @priceColumn"] = 1,
+	["f@Alliance - Aerie Peak@whitelist"] = {
+	},
+	["f@Alliance - Argent Dawn@player"] = {
+		["Teukronar"] = true,
+	},
+	["f@Alliance - Ravencrest@whitelist"] = {
+	},
+	["f@Horde - Draenor@player"] = {
+		["Quelith"] = true,
+		["Petergrippin"] = true,
+		["Achilina"] = true,
+		["Trixxedbank"] = true,
+		["Daemonikos"] = true,
+	},
+	["g@ @matchWhitelist"] = true,
+	["f@Alliance - Argent Dawn@whitelist"] = {
+	},
+	["f@Horde - Laughing Skull@player"] = {
+		["Tríxxed"] = true,
+	},
+	["f@Horde - Draenor@whitelist"] = {
+	},
+	["f@Horde - Thunderhorn@player"] = {
+		["Achillina"] = true,
+		["Lichservent"] = true,
+		["Dístúrbed"] = true,
+		["Kazzía"] = true,
+		["Odeysseus"] = true,
+		["Shadefighter"] = true,
+	},
+	["f@Alliance - Aerie Peak@player"] = {
+		["Sftyhsfey"] = true,
 	},
 }

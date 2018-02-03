@@ -9,10 +9,10 @@ function AS:Blizzard_EncounterJournal(event, addon)
 	EncounterJournalNavBar.Backdrop:SetPoint("BOTTOMRIGHT")
 
 	AS:StripTextures(EncounterJournalNavBarOverlay, true)
-	
+
 	AS:SkinEditBox(EncounterJournalSearchBox)
 	AS:SkinCloseButton(EncounterJournalCloseButton)
-	
+
 	AS:StripTextures(EncounterJournalInset, true)
 	AS:CreateBackdrop(EncounterJournalEncounterFrameInfo)
 
@@ -68,7 +68,7 @@ function AS:Blizzard_EncounterJournal(event, addon)
 
 	local function SkinDungeons()
 		local b1 = EncounterJournalInstanceSelectScrollFrameScrollChildInstanceButton1
-		if b1 and not b1.isSkinned then 
+		if b1 and not b1.isSkinned then
 			AS:SkinButton(b1)
 			b1.bgImage:SetInside()
 			b1.bgImage:SetTexCoord(.08, .6, .08, .6)
@@ -95,8 +95,8 @@ function AS:Blizzard_EncounterJournal(event, addon)
 	AS:SkinScrollBar(EncounterJournalEncounterFrameInfoDetailsScrollFrameScrollBar)
 	AS:SkinScrollBar(EncounterJournalEncounterFrameInstanceFrameLoreScrollFrameScrollBar)
 	AS:SkinScrollBar(EncounterJournalEncounterFrameInfoBossesScrollFrameScrollBar)
-	
-	EncounterJournalScrollBar:SkinScrollBar()
+
+	AS:SkinScrollBar(EncounterJournalScrollBar)
 	AS:StripTextures(EncounterJournal.LootJournal)
 	AS:SkinButton(EncounterJournal.LootJournal.LegendariesFrame.ClassButton, true)
 	AS:SkinButton(EncounterJournal.LootJournal.LegendariesFrame.SlotButton, true)

@@ -1,59 +1,44 @@
---	4:21 08.06.2017
+--	3:31 03.02.2018
 
 --[[
-3870
-* Note: new option "Enable when you receive a new note"
-* Note: fixed bug when autoload boss randomly changed if you delete note
-* Note: added flash when you receive a new note
-* Note: added ToS icons
-* Raid cooldowns: set all traits minimum on 4th rank
-* Fight log: healing tab: added filter for targets "only tanks" & "non-tanks"
+3910
+* Raid cooldowns: Added allied racial abilities
+* Raid cooldowns: Small redesign for custom spell frame
+* Raid cooldowns: Added whisper-to-use option
 * Minor fixes
 
-3860
-* Note: fixed "blackbox" error
-* Note: added support for multilanguage icons
-* Raid cooldowns: added time till next charge for resurrect line
-
-3855
-* Raid Inspect: fixes (weapons still be missing if players in another zone)
-* Raid Inspect: you able to see artifact relics for all players	
-
-3850
-* 7.2 Update
-* Note: Added ToS bosses
-* Fight Log: added death report for cheath death procs
-* Added scale-bar for options window
-
-
-3845
-* Raid Inspect: Added Trial of Valor and Nighthold achievements
-* Fixed memory leak caused by inspecting
-* Localization updates
+3905
+* Raid cooldowns: Added stuns to quick setup
+* Note: Added Antorus icons
+* Raid Check: added 1% versatility food
 * Minor fixes
 
-3842
-* Note: added Nighthold icons
-* Timers: fixed sync with BW
-* Bonus Loot: removed AP rewards from notifications
+3900
+* Note: "Only trusted" option set to enabled for all users
+* Raid Check: added vantus runes checker
+* 7.3.2 & ABT raid Updates
+* Raid cooldowns: fixes for cd time for some abilities
+
+3890
+* Raid Inspect: added new gems
+* Raid Inspect: added 7.2.5 & 7.3.5 raid achievements
 * Minor fixes
 
-3841
-* Major fixes
+3885
+* 7.3.0 Update
+* Saving log: added options for difficulties
 
-3840
-* Fixed pull timer for party group
-* Auto Logging: added 5ppl mythic diff (must be correct logs if you run mythic+)
-* Raid cooldowns: 7.1.5 class balance & legendary updates
-* Who Pulled: added option for message in chat
-* Timers: Time to kill: new option
-* 7.1.5 Update
+3880
+* Note: added custom Weak Auras event for updating note: "EXRT_NOTE_UPDATE"
+* Fight log: minor fixes (powers gain, report for named mobs (KJ for ex.))
+* Coins: added 7.3 bosses
 * Minor fixes
+
 
 ]]
 local GlobalAddonName, ExRT = ...
 
-ExRT.V = 3870
+ExRT.V = 3910
 ExRT.T = "R"
 
 ExRT.OnUpdate = {}		--> таймеры, OnUpdate функции
@@ -65,6 +50,7 @@ ExRT.ModulesLoaded = {}		--> список загруженных модулей 
 ExRT.ModulesOptions = {}
 ExRT.Debug = {}
 ExRT.RaidVersions = {}
+ExRT.Temp = {}
 
 ExRT.A = {}			--> ссылки на все модули
 
@@ -99,10 +85,10 @@ end
 -------------> global DB <------------
 ExRT.GDB = {}
 -------------> upvalues <-------------
-local pcall, unpack, pairs = pcall, unpack, pairs
+local pcall, unpack, pairs, coroutine, assert = pcall, unpack, pairs, coroutine, assert
 local GetTime, IsEncounterInProgress = GetTime, IsEncounterInProgress
 local SendAddonMessage, strsplit = SendAddonMessage, strsplit
-local C_Timer_NewTicker = C_Timer.NewTicker
+local C_Timer_NewTicker, debugprofilestop = C_Timer.NewTicker, debugprofilestop
 
 if ExRT.T == "D" then
 	pcall = function(func,...)
@@ -185,7 +171,6 @@ function ExRT.mod:Event(event,...)
 end
 if ExRT.T == "DU" then
 	local ExRTDebug = ExRT.Debug
-	local debugprofilestop = debugprofilestop
 	function ExRT.mod:Event(event,...)
 		local dt = debugprofilestop()
 		self[event](self,...)
@@ -323,6 +308,23 @@ do
 	function ExRT.mod:RegisterHideOnPetBattle(frame)
 		hideOnPetBattle[#hideOnPetBattle + 1] = frame
 	end
+end
+
+
+ExRT.Coroutinies = {}
+function ExRT.mod:AddCoroutine(func)
+	local c = coroutine.create(func)
+	ExRT.Coroutinies[func] = c
+	
+	return c
+end
+
+function ExRT.mod:GetCoroutine(func)
+	return ExRT.Coroutinies[func]
+end
+
+function ExRT.mod:RemoveCoroutine(func)
+	ExRT.Coroutinies[func] = nil
 end
 
 ---------------> Mods <---------------
@@ -576,11 +578,27 @@ do
 			end
 			frameElapsed = 0
 		end
+		
+		--[[
+		local start = debugprofilestop()
+		local hasData = true
+		
+		while (debugprofilestop() - start < 16 and hasData) do
+			hasData = false
+			for func,c in pairs(ExRT.Coroutinies) do
+				hasData = true
+				if coroutine.status(c) ~= "dead" then
+					local err = assert(coroutine.resume(c))
+				else
+					ExRT.Coroutinies[func] = nil
+				end
+			end
+		end
+		]]
 	end
 	
 	if ExRT.T == "DU" then
 		local ExRTDebug = ExRT.Debug
-		local debugprofilestop = debugprofilestop
 		function ExRT.frame:OnUpdate(elapsed)
 			frameElapsed = frameElapsed + elapsed
 			if frameElapsed > reloadTimer then

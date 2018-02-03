@@ -8,10 +8,12 @@ function AS:BagSync()
 		BagSync_TokensFrame,
 		BagSync_CraftsFrame,
 		BagSync_BlackListFrame,
+		BagSync_ProfilesFrame,
 	}
 
 	for _, frame in pairs(Frames) do
 		AS:SkinFrame(frame)
+		frame:SetTemplate("Transparent")
 		frame:HookScript('OnShow', function(self)
 			if self.scrollbar and not self.scrollbar.isSkinned then
 				AS:CreateBackdrop(self.scrollbar)
@@ -38,18 +40,19 @@ function AS:BagSync()
 			end
 		end
 	end
-	AS:SkinEditBox(BagSync_SearchFrameEdit1)
+	-- AS:SkinEditBox(BagSync_SearchFrameEdit1)
+	-- BagSync_MinimapButton:Kill()
 
-	hooksecurefunc(BagSync, 'ShowMoneyTooltip', function()
-		if not BagSyncMoneyTooltip.isSkinned then
-			AS:SkinFrame(BagSyncMoneyTooltip)
-			BagSyncMoneyTooltip.isSkinned = true
-			for i = 1, BagSyncMoneyTooltip:GetNumChildren() do
-				local object = select(i, BagSyncMoneyTooltip:GetChildren())
-				if object:IsObjectType('Button') then AS:SkinCloseButton(object) end
-			end
-		end
-	end)
+	-- hooksecurefunc(BagSync, 'ShowMoneyTooltip', function()
+		-- if not BagSyncMoneyTooltip.isSkinned then
+			-- AS:SkinFrame(BagSyncMoneyTooltip)
+			-- BagSyncMoneyTooltip.isSkinned = true
+			-- for i = 1, BagSyncMoneyTooltip:GetNumChildren() do
+				-- local object = select(i, BagSyncMoneyTooltip:GetChildren())
+				-- if object:IsObjectType('Button') then AS:SkinCloseButton(object) end
+			-- end
+		-- end
+	-- end)
 end
 
 AS:RegisterSkin('BagSync', AS.BagSync)

@@ -86,9 +86,9 @@ local function OnEnter(self)
 end
 
 local function ValueColorUpdate(hex, r, g, b)
-	displayString = T.join("", "|cffffffff%s:|r", " ", hex, "%d / %d|r")
+	displayString = T.join("", "%s:", " ", hex, "%d / %d|r")
 	if lastPanel ~= nil then OnEvent(lastPanel) end
 end
 E["valueColorUpdateFuncs"][ValueColorUpdate] = true
 
-DT:RegisterDatatext("S&L Item Level", {"PLAYER_ENTERING_WORLD", "PLAYER_EQUIPMENT_CHANGED", "UNIT_INVENTORY_CHANGED"}, OnEvent, nil, nil, OnEnter)
+DT:RegisterDatatext("S&L Item Level", {"LOADING_SCREEN_DISABLED", "PLAYER_EQUIPMENT_CHANGED", "UNIT_INVENTORY_CHANGED"}, OnEvent, nil, nil, OnEnter)

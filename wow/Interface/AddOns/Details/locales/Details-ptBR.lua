@@ -27,27 +27,25 @@ L["STRING_ASCENDING"] = "Crescente"
 L["STRING_ATACH_DESC"] = "Janela #%d faz grupo com a janela #%d."
 L["STRING_ATTRIBUTE_CUSTOM"] = "Customizados"
 L["STRING_ATTRIBUTE_DAMAGE"] = "Dano"
-L["STRING_ATTRIBUTE_DAMAGE_BYSPELL"] = "Dano Sofrido por Feitiços"
+L["STRING_ATTRIBUTE_DAMAGE_BYSPELL"] = "Dano Recebido por Habilidade"
 L["STRING_ATTRIBUTE_DAMAGE_DEBUFFS"] = "Auras & Voidzones"
 L["STRING_ATTRIBUTE_DAMAGE_DEBUFFS_REPORT"] = "Dano e Tempo de Atividade da Aura"
 L["STRING_ATTRIBUTE_DAMAGE_DONE"] = "Dano Feito"
 L["STRING_ATTRIBUTE_DAMAGE_DPS"] = "Dano por Segundo"
 L["STRING_ATTRIBUTE_DAMAGE_ENEMIES"] = "Dano Recebido de Inimigos"
-L["STRING_ATTRIBUTE_DAMAGE_ENEMIES_DONE"] = "Dano Feito do Inimigo"
+L["STRING_ATTRIBUTE_DAMAGE_ENEMIES_DONE"] = "Dano Feito pelo Inimigo"
 L["STRING_ATTRIBUTE_DAMAGE_FRAGS"] = "Abates"
 L["STRING_ATTRIBUTE_DAMAGE_FRIENDLYFIRE"] = "Fogo Amigo"
 L["STRING_ATTRIBUTE_DAMAGE_TAKEN"] = "Dano Recebido"
 L["STRING_ATTRIBUTE_ENERGY"] = "Recursos"
---Translation missing 
--- L["STRING_ATTRIBUTE_ENERGY_ALTERNATEPOWER"] = ""
+L["STRING_ATTRIBUTE_ENERGY_ALTERNATEPOWER"] = "Poder Alternativo."
 L["STRING_ATTRIBUTE_ENERGY_ENERGY"] = "Energia Gerada"
 L["STRING_ATTRIBUTE_ENERGY_MANA"] = "Mana Restaurada"
 L["STRING_ATTRIBUTE_ENERGY_RAGE"] = "Raiva Gerada"
 L["STRING_ATTRIBUTE_ENERGY_RESOURCES"] = "Outros Recursos"
 L["STRING_ATTRIBUTE_ENERGY_RUNEPOWER"] = "Poder Rúnico Gerado"
 L["STRING_ATTRIBUTE_HEAL"] = "Cura"
---Translation missing 
--- L["STRING_ATTRIBUTE_HEAL_ABSORBED"] = ""
+L["STRING_ATTRIBUTE_HEAL_ABSORBED"] = "Cura Absorvida."
 L["STRING_ATTRIBUTE_HEAL_DONE"] = "Cura Feita"
 L["STRING_ATTRIBUTE_HEAL_ENEMY"] = "Cura Feita por Inimigos"
 L["STRING_ATTRIBUTE_HEAL_HPS"] = "Cura Por Segundo"
@@ -68,7 +66,7 @@ L["STRING_AUTOSHOT"] = "Tiro Automático"
 L["STRING_AVERAGE"] = "Média"
 L["STRING_BLOCKED"] = "Bloqueado"
 L["STRING_BOTTOM"] = "baixo"
-L["STRING_BOTTOM_TO_TOP"] = "Baixo para Cima"
+L["STRING_BOTTOM_TO_TOP"] = "De Baixo Para Cima"
 L["STRING_CAST"] = "Conjurada"
 L["STRING_CAUGHT"] = "pega"
 L["STRING_CCBROKE"] = "CC Quebrados"
@@ -87,6 +85,8 @@ L["STRING_CLOSEALL"] = "Todas as janelas estão fechadas, digite '/details mostr
 L["STRING_COLOR"] = "Cor"
 L["STRING_COMMAND_LIST"] = "lista de comandos"
 L["STRING_COOLTIP_NOOPTIONS"] = "não há opções"
+--Translation missing 
+-- L["STRING_CREATEAURA"] = ""
 L["STRING_CRITICAL_HITS"] = "Golpes Críticos"
 L["STRING_CRITICAL_ONLY"] = "critico"
 L["STRING_CURRENT"] = "Atual"
@@ -103,23 +103,21 @@ L["STRING_CUSTOM_ATTRIBUTE_SCRIPT"] = "Script Customizado"
 L["STRING_CUSTOM_AUTHOR"] = "Autor:"
 L["STRING_CUSTOM_AUTHOR_DESC"] = "Quem criou este display."
 L["STRING_CUSTOM_CANCEL"] = "Cancelar"
-L["STRING_CUSTOM_CC_DONE"] = "CC Efetuado"
-L["STRING_CUSTOM_CC_RECEIVED"] = "CC Recebido"
+L["STRING_CUSTOM_CC_DONE"] = "Controle de Grupo Feito"
+L["STRING_CUSTOM_CC_RECEIVED"] = "Controle de Grupo Recebido"
 L["STRING_CUSTOM_CREATE"] = "Criar"
 L["STRING_CUSTOM_CREATED"] = "O novo display foi criado com sucesso."
 L["STRING_CUSTOM_DAMAGEONANYMARKEDTARGET"] = "Dano em Outros Alvos Marcados"
 L["STRING_CUSTOM_DAMAGEONANYMARKEDTARGET_DESC"] = "Mostra o dano causado em alvos marcados com outras marcas."
---Translation missing 
--- L["STRING_CUSTOM_DAMAGEONSHIELDS"] = ""
+L["STRING_CUSTOM_DAMAGEONSHIELDS"] = "Danos em Escudos"
 L["STRING_CUSTOM_DAMAGEONSKULL"] = "Dano no Alvo com Caveira"
 L["STRING_CUSTOM_DAMAGEONSKULL_DESC"] = "Mostra o dano causado em alvos marcados com caveira."
 L["STRING_CUSTOM_DESCRIPTION"] = "Descrição:"
 L["STRING_CUSTOM_DESCRIPTION_DESC"] = "Descreva o que este display faz."
 L["STRING_CUSTOM_DONE"] = "Terminar"
-L["STRING_CUSTOM_DTBS"] = "Dano Sofrido por Magias"
-L["STRING_CUSTOM_DTBS_DESC"] = "Mostra o dano de magias inimigas contra o seu grupo de raide."
---Translation missing 
--- L["STRING_CUSTOM_DYNAMICOVERAL"] = ""
+L["STRING_CUSTOM_DTBS"] = "Dano Recebido por Habilidade"
+L["STRING_CUSTOM_DTBS_DESC"] = "Mostra o dano das habilidades dos inimigos contra seu grupo."
+L["STRING_CUSTOM_DYNAMICOVERAL"] = "Dano Dinâmico Geral"
 L["STRING_CUSTOM_EDIT"] = "Editar"
 L["STRING_CUSTOM_EDIT_SEARCH_CODE"] = "Editar Código de Busca"
 L["STRING_CUSTOM_EDIT_TOOLTIP_CODE"] = "Editar Código do Tooltip"
@@ -127,7 +125,7 @@ L["STRING_CUSTOM_EDITCODE_DESC"] = "Esta é uma função avançada aonde o usuá
 L["STRING_CUSTOM_EDITTOOLTIP_DESC"] = "Este é o código do tooltip, é executado quando o usuário passa o mouse sobre uma barra."
 L["STRING_CUSTOM_ENEMY_DT"] = "Dano Recebido"
 L["STRING_CUSTOM_EXPORT"] = "Exportar"
-L["STRING_CUSTOM_FUNC_INVALID"] = "O script customizado é inválido e não foi possível atualizar a janela."
+L["STRING_CUSTOM_FUNC_INVALID"] = "O script customizado é inválido e não foi possível atualizar a janela"
 L["STRING_CUSTOM_HEALTHSTONE_DEFAULT"] = "Pedra e Poção de Vida"
 L["STRING_CUSTOM_HEALTHSTONE_DEFAULT_DESC"] = "Mostra quem no seu grupo de raide usou a Pedra ou Poção da Vida."
 L["STRING_CUSTOM_ICON"] = "Icone:"
@@ -150,14 +148,14 @@ L["STRING_CUSTOM_REPORT"] = "(custom)"
 L["STRING_CUSTOM_SAVE"] = "Salvar Alterações"
 L["STRING_CUSTOM_SAVED"] = "O display foi salvo."
 L["STRING_CUSTOM_SHORTNAME"] = "O nome precisa ter no mínimo 5 letras."
-L["STRING_CUSTOM_SKIN_TEXTURE"] = "Skin Customizado"
+L["STRING_CUSTOM_SKIN_TEXTURE"] = "Arquivo de Aparência Personalizado"
 L["STRING_CUSTOM_SKIN_TEXTURE_DESC"] = [=[Nome do arquivo .tga
 
 Precisa estar dentro da pasta:
 
 |cFFFFFF00WoW/Interface/|r
 
-|cFFFFFF00Importante:|r antes de criar o arquivo, feche o jogo. Após fazer isto, um simples /reload aplica as alterações feitas no arquivo de textura.]=]
+|cFFFFFF00Importante:|r antes de criar o arquivo, feche o jogo. Após isto, um simples /reload aplica as alterações feitas no arquivo de textura.]=]
 L["STRING_CUSTOM_SOURCE"] = "Fonte:"
 L["STRING_CUSTOM_SOURCE_DESC"] = [=[Quem está causando este efeito.
 
@@ -177,62 +175,48 @@ L["STRING_DAMAGE_FROM"] = "Recebeu dano de"
 L["STRING_DAMAGE_TAKEN_FROM"] = "Dano Recebido Vindo De"
 L["STRING_DAMAGE_TAKEN_FROM2"] = "aplicou dano com"
 L["STRING_DEFENSES"] = "Defesas"
-L["STRING_DESCENDING"] = "Decrescente"
+L["STRING_DESCENDING"] = "Decrescente,"
 L["STRING_DETACH_DESC"] = "Desagrupar Janelas"
 L["STRING_DISPELLED"] = "Auras Removidas"
 L["STRING_DODGE"] = "Desvio"
 L["STRING_DOT"] = " (DoT)"
 L["STRING_DPS"] = "Dps"
 L["STRING_EMPTY_SEGMENT"] = "Segmento Vazio"
-L["STRING_ENABLED"] = "Ativado"
-L["STRING_ENVIRONMENTAL_DROWNING"] = "Ambiente (afogar)"
-L["STRING_ENVIRONMENTAL_FALLING"] = "Ambiente (queda)"
-L["STRING_ENVIRONMENTAL_FATIGUE"] = "Ambiente (fadiga)"
-L["STRING_ENVIRONMENTAL_FIRE"] = "Ambiente (fogo)"
-L["STRING_ENVIRONMENTAL_LAVA"] = "Ambiente (lava)"
-L["STRING_ENVIRONMENTAL_SLIME"] = "Ambiente (ácido)"
+L["STRING_ENABLED"] = "Ativado,"
+L["STRING_ENVIRONMENTAL_DROWNING"] = "Ambiente (Afogar)"
+L["STRING_ENVIRONMENTAL_FALLING"] = "Ambiente (Queda)"
+L["STRING_ENVIRONMENTAL_FATIGUE"] = "Ambiente (Fadiga)"
+L["STRING_ENVIRONMENTAL_FIRE"] = "Ambiente (Fogo)"
+L["STRING_ENVIRONMENTAL_LAVA"] = "Ambiente (Lava)"
+L["STRING_ENVIRONMENTAL_SLIME"] = "Ambiente (Ácido)"
 L["STRING_EQUILIZING"] = "Compartilhando dados"
 L["STRING_ERASE"] = "apagar"
 L["STRING_ERASE_DATA"] = "Apagar Todos os Dados"
 L["STRING_ERASE_DATA_OVERALL"] = "Apagar Apenas os Dados Gerais"
 L["STRING_ERASE_IN_COMBAT"] = "Limpeza dos dados será efetuada após o combate."
-L["STRING_EXAMPLE"] = "Exemplo"
+L["STRING_EXAMPLE"] = "Exemplo."
 L["STRING_EXPLOSION"] = "explosão"
 L["STRING_FAIL_ATTACKS"] = "Falhas de Ataque"
-L["STRING_FEEDBACK_CURSE_DESC"] = "Abra um ticket ou deixe uma mensagem na página do Details!."
-L["STRING_FEEDBACK_MMOC_DESC"] = "Poste em nosso tópico no fórum do mmo-champion."
-L["STRING_FEEDBACK_PREFERED_SITE"] = "Escolha sua página preferida:"
-L["STRING_FEEDBACK_SEND_FEEDBACK"] = "Enviar Feedback"
-L["STRING_FEEDBACK_WOWI_DESC"] = "Deixe um comentário na página do Details!."
+L["STRING_FEEDBACK_CURSE_DESC"] = "Abra uma ocorrência ou deixe uma mensagem na página do Details!"
+L["STRING_FEEDBACK_MMOC_DESC"] = "Poste em nosso tópico no fórum do mmo-champion"
+L["STRING_FEEDBACK_PREFERED_SITE"] = "Escolha seu site preferido de comunidade:"
+L["STRING_FEEDBACK_SEND_FEEDBACK"] = "Enviar Comentários"
+L["STRING_FEEDBACK_WOWI_DESC"] = "Deixe um comentário na página do projeto Details!."
 L["STRING_FIGHTNUMBER"] = "Luta #"
---Translation missing 
--- L["STRING_FORGE_BUTTON_ALLSPELLS"] = ""
---Translation missing 
--- L["STRING_FORGE_BUTTON_ALLSPELLS_DESC"] = ""
---Translation missing 
--- L["STRING_FORGE_BUTTON_BWTIMERS"] = ""
---Translation missing 
--- L["STRING_FORGE_BUTTON_BWTIMERS_DESC"] = ""
---Translation missing 
--- L["STRING_FORGE_BUTTON_DBMTIMERS"] = ""
---Translation missing 
--- L["STRING_FORGE_BUTTON_DBMTIMERS_DESC"] = ""
---Translation missing 
--- L["STRING_FORGE_BUTTON_ENCOUNTERSPELLS"] = ""
---Translation missing 
--- L["STRING_FORGE_BUTTON_ENCOUNTERSPELLS_DESC"] = ""
---Translation missing 
--- L["STRING_FORGE_BUTTON_ENEMIES"] = ""
---Translation missing 
--- L["STRING_FORGE_BUTTON_ENEMIES_DESC"] = ""
---Translation missing 
--- L["STRING_FORGE_BUTTON_PETS"] = ""
---Translation missing 
--- L["STRING_FORGE_BUTTON_PETS_DESC"] = ""
---Translation missing 
--- L["STRING_FORGE_BUTTON_PLAYERS"] = ""
---Translation missing 
--- L["STRING_FORGE_BUTTON_PLAYERS_DESC"] = ""
+L["STRING_FORGE_BUTTON_ALLSPELLS"] = "Todas as Habilidades"
+L["STRING_FORGE_BUTTON_ALLSPELLS_DESC"] = "Listar todas as habilidades dos jogadores e NPCs."
+L["STRING_FORGE_BUTTON_BWTIMERS"] = "Temporizadores BigWigs"
+L["STRING_FORGE_BUTTON_BWTIMERS_DESC"] = "Listar contadores do BigWigs"
+L["STRING_FORGE_BUTTON_DBMTIMERS"] = "Contadores DBM"
+L["STRING_FORGE_BUTTON_DBMTIMERS_DESC"] = "Listar contadores do Deadly Boss Mods"
+L["STRING_FORGE_BUTTON_ENCOUNTERSPELLS"] = "Habilidades do Chefe"
+L["STRING_FORGE_BUTTON_ENCOUNTERSPELLS_DESC"] = "Listar apenas habilidades de encontros em masmorras e raids."
+L["STRING_FORGE_BUTTON_ENEMIES"] = "Inimigos"
+L["STRING_FORGE_BUTTON_ENEMIES_DESC"] = "Listar inimigos do combate atual."
+L["STRING_FORGE_BUTTON_PETS"] = "Pets"
+L["STRING_FORGE_BUTTON_PETS_DESC"] = "Listar pets do combate atual."
+L["STRING_FORGE_BUTTON_PLAYERS"] = "Jogadores"
+L["STRING_FORGE_BUTTON_PLAYERS_DESC"] = "Listar jogadores do combate atual."
 --Translation missing 
 -- L["STRING_FORGE_ENABLEPLUGINS"] = ""
 --Translation missing 
@@ -270,6 +254,8 @@ L["STRING_FIGHTNUMBER"] = "Luta #"
 --Translation missing 
 -- L["STRING_FORGE_HEADER_GUID"] = ""
 --Translation missing 
+-- L["STRING_FORGE_HEADER_ICON"] = ""
+--Translation missing 
 -- L["STRING_FORGE_HEADER_ID"] = ""
 --Translation missing 
 -- L["STRING_FORGE_HEADER_INDEX"] = ""
@@ -285,10 +271,46 @@ L["STRING_FIGHTNUMBER"] = "Luta #"
 -- L["STRING_FORGE_HEADER_SPELLID"] = ""
 --Translation missing 
 -- L["STRING_FORGE_HEADER_TIMER"] = ""
+--Translation missing 
+-- L["STRING_FORGE_TUTORIAL_DESC"] = ""
+--Translation missing 
+-- L["STRING_FORGE_TUTORIAL_TITLE"] = ""
+--Translation missing 
+-- L["STRING_FORGE_TUTORIAL_VIDEO"] = ""
 L["STRING_FREEZE"] = "Este segmento não está disponível no momento"
 L["STRING_FROM"] = "Fonte"
 L["STRING_GERAL"] = "Geral"
 L["STRING_GLANCING"] = "Glancing"
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_BOSS"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_DATABASEERROR"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_DIFF"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_GUILD"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_PLAYERBASE"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_PLAYERBASE_INDIVIDUAL"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_PLAYERBASE_PLAYER"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_PLAYERBASE_RAID"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_RAID"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_ROLE"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_SHOWHISTORY"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_SHOWRANK"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_SYNCBUTTONTEXT"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_TUTORIAL_DESC"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_WINDOWALERT"] = ""
 L["STRING_HEAL"] = "Cura"
 L["STRING_HEAL_ABSORBED"] = "Cura absorvida"
 L["STRING_HEAL_CRIT"] = "Cura Critica"
@@ -382,6 +404,8 @@ L["STRING_MIRROR_IMAGE"] = "Imagem Espelhada"
 L["STRING_MISS"] = "Errou"
 L["STRING_MODE_ALL"] = "Modo: Tudo"
 L["STRING_MODE_GROUP"] = "Modo: Padrão"
+--Translation missing 
+-- L["STRING_MODE_OPENFORGE"] = ""
 L["STRING_MODE_PLUGINS"] = "plugins"
 L["STRING_MODE_RAID"] = "Plugins: Raide"
 L["STRING_MODE_SELF"] = "Plugins: Individuais"
@@ -429,6 +453,10 @@ L["STRING_OPTIONS_ADVANCED"] = "Avançado"
 L["STRING_OPTIONS_ALPHAMOD_ANCHOR"] = "Auto Ocultar:"
 L["STRING_OPTIONS_ALWAYS_USE"] = "Usar Em Todos os Personagens"
 L["STRING_OPTIONS_ALWAYS_USE_DESC"] = "O mesmo perfil é usado em todos os personagens. Você pode sobre escrever ele em qualquer personagem apenas escolhendo um perfil na caixa de cima."
+--Translation missing 
+-- L["STRING_OPTIONS_ALWAYSSHOWPLAYERS"] = ""
+--Translation missing 
+-- L["STRING_OPTIONS_ALWAYSSHOWPLAYERS_DESC"] = ""
 L["STRING_OPTIONS_ANCHOR"] = "Lado"
 L["STRING_OPTIONS_ANIMATEBARS"] = "Animar as Barras"
 L["STRING_OPTIONS_ANIMATEBARS_DESC"] = "Ativar animações para todas as barras"
@@ -479,10 +507,10 @@ Há três arquivos de ícones que vem junto ao instalar o addon:
 - |cFFFFFF00classes_small|r
 - |cFFFFFF00classes_small_alpha|r]=]
 L["STRING_OPTIONS_BAR_ICONFILE_DESC2"] = "Selecione o pacote de ícones que deseja usar."
-L["STRING_OPTIONS_BAR_ICONFILE1"] = "Sem Icones"
-L["STRING_OPTIONS_BAR_ICONFILE2"] = "Padrão"
-L["STRING_OPTIONS_BAR_ICONFILE3"] = "Padrão (em preto e branco)"
-L["STRING_OPTIONS_BAR_ICONFILE4"] = "Padrão (transparentes)"
+L["STRING_OPTIONS_BAR_ICONFILE1"] = "Sem Icones."
+L["STRING_OPTIONS_BAR_ICONFILE2"] = "Padrão,"
+L["STRING_OPTIONS_BAR_ICONFILE3"] = "Padrão (Preto e branco)"
+L["STRING_OPTIONS_BAR_ICONFILE4"] = "Padrão (Transparente)"
 L["STRING_OPTIONS_BAR_ICONFILE5"] = "Ícones Circulares"
 L["STRING_OPTIONS_BAR_ICONFILE6"] = "Padrão (transparente preto e branco)"
 L["STRING_OPTIONS_BAR_SPACING"] = "Espaçamento"
@@ -490,7 +518,7 @@ L["STRING_OPTIONS_BAR_SPACING_DESC"] = "Aumenta ou diminui a dimensão de tamanh
 L["STRING_OPTIONS_BAR_TEXTURE_DESC"] = "Esta opção altera a textura superior das barras."
 L["STRING_OPTIONS_BARLEFTTEXTCUSTOM"] = "Texto Customizado Ativado"
 L["STRING_OPTIONS_BARLEFTTEXTCUSTOM_DESC"] = "Quando ativado, o texto da esquerda é formatado seguindo o modelo posto no campo de texto abaixo."
-L["STRING_OPTIONS_BARLEFTTEXTCUSTOM2"] = "não usou"
+L["STRING_OPTIONS_BARLEFTTEXTCUSTOM2"] = "\""
 L["STRING_OPTIONS_BARLEFTTEXTCUSTOM2_DESC"] = [=[|cFFFFFF00{data1}|r: simboliza o número da colocação do jogador.
 
 |cFFFFFF00{data2}|r: simboliza o nome do jogador.
@@ -677,6 +705,10 @@ L["STRING_OPTIONS_DEATHLIMIT"] = "Quantidade de Eventos de Morte"
 L["STRING_OPTIONS_DEATHLIMIT_DESC"] = [=[Ajusta a quantidade de eventos para mostrar no display de mortes.
 
 |cFFFFFF00Importante|r: apenas aplica-se as novas mortes após o ajuste.]=]
+--Translation missing 
+-- L["STRING_OPTIONS_DEATHLOG_MINHEALING"] = ""
+--Translation missing 
+-- L["STRING_OPTIONS_DEATHLOG_MINHEALING_DESC"] = ""
 L["STRING_OPTIONS_DESATURATE_MENU"] = "Menu de Dessaturação"
 L["STRING_OPTIONS_DESATURATE_MENU_DESC"] = "Habilitando essa opção fará com que os ícones do menu da barra de ferramentas se tornem brancos e pretos."
 L["STRING_OPTIONS_DISABLE_ALLDISPLAYSWINDOW"] = "Desativar Janela 'Todos Displays'"
@@ -854,15 +886,15 @@ L["STRING_OPTIONS_OPEN_TEXT_EDITOR"] = "Abrir o Editor de Texto"
 L["STRING_OPTIONS_OVERALL_ALL"] = "Todos os segmentos"
 L["STRING_OPTIONS_OVERALL_ALL_DESC"] = "Todos os segmentos são adicionados aos dados globais."
 L["STRING_OPTIONS_OVERALL_ANCHOR"] = "Dados Globais:"
-L["STRING_OPTIONS_OVERALL_CHALLENGE"] = "Limpar em Modo desafio"
-L["STRING_OPTIONS_OVERALL_CHALLENGE_DESC"] = "Quando habilitado, os dados globais são limpos automaticamente quando um nova nova tentativa no modo desafio começa."
 L["STRING_OPTIONS_OVERALL_DUNGEONBOSS"] = "Chefes de Masmorras"
 L["STRING_OPTIONS_OVERALL_DUNGEONBOSS_DESC"] = "Segmentos com chefes de masmorras são adicionados aos dados globais."
 L["STRING_OPTIONS_OVERALL_DUNGEONCLEAN"] = "'Trash' de Masmorra"
 L["STRING_OPTIONS_OVERALL_DUNGEONCLEAN_DESC"] = "Segmentos de limpeza de 'trash mobs' em masmorras são adicionados aos dados globais."
 L["STRING_OPTIONS_OVERALL_LOGOFF"] = "Limpar ao Deslogar"
 L["STRING_OPTIONS_OVERALL_LOGOFF_DESC"] = "Quando ativado, os dados gerais de combate são automaticamente apagados quando seu personagem efetua logoff."
-L["STRING_OPTIONS_OVERALL_NEWBOSS"] = "Limpar em um novo chefe"
+L["STRING_OPTIONS_OVERALL_MYTHICPLUS"] = "Limpar ao Iniciar Dungeon Mítica+"
+L["STRING_OPTIONS_OVERALL_MYTHICPLUS_DESC"] = "Limpa os dados do overall quando iniciar uma dungeon mítica+."
+L["STRING_OPTIONS_OVERALL_NEWBOSS"] = "Limpar em um novo chefe de raide"
 L["STRING_OPTIONS_OVERALL_NEWBOSS_DESC"] = "Quando habilitado, os dados gerais são limpos automaticamente quando enfrentando um novo chefe."
 L["STRING_OPTIONS_OVERALL_RAIDBOSS"] = "Chefes de raide"
 L["STRING_OPTIONS_OVERALL_RAIDBOSS_DESC"] = "Segmentos com encontros de raide são adicionados aos dados globais."
@@ -1439,7 +1471,7 @@ L["STRING_PLUGINOPTIONS_TEXTSIZE"] = "Tamanho"
 L["STRING_PLUGINOPTIONS_TEXTSTYLE"] = "Estilo do Texto"
 L["STRING_QUERY_INSPECT"] = "re-inspecionar."
 L["STRING_QUERY_INSPECT_FAIL1"] = "não há como inspecionar durante o combate."
-L["STRING_QUERY_INSPECT_TALENTS"] = "clique para buscar"
+L["STRING_QUERY_INSPECT_REFRESH"] = "precisa atualizar"
 L["STRING_RAID_WIDE"] = "[*] cooldown de raide"
 L["STRING_RAIDCHECK_PLUGIN_DESC"] = "Enquanto estiver dentro de uma raide, é mostrado um ícone na barra de título mostrando o uso de comida, frascos e poções."
 L["STRING_RAIDCHECK_PLUGIN_NAME"] = "Raid Check"
@@ -1501,9 +1533,14 @@ L["STRING_SEGMENT_ENEMY"] = "Contra"
 L["STRING_SEGMENT_LOWER"] = "segmento"
 L["STRING_SEGMENT_OVERALL"] = "Dados Gerais"
 L["STRING_SEGMENT_START"] = "Inicio"
-L["STRING_SEGMENT_TIME"] = "Tempo"
 L["STRING_SEGMENT_TRASH"] = "Limpeza de Trash"
 L["STRING_SEGMENTS"] = "Segmentos"
+L["STRING_SEGMENTS_LIST_BOSS"] = "chefe"
+L["STRING_SEGMENTS_LIST_COMBATTIME"] = "Tempo do Combate"
+L["STRING_SEGMENTS_LIST_OVERALL"] = "tudo"
+L["STRING_SEGMENTS_LIST_TIMEINCOMBAT"] = "Tempo em Combate"
+L["STRING_SEGMENTS_LIST_TOTALTIME"] = "Tempo Total"
+L["STRING_SEGMENTS_LIST_TRASH"] = "trash"
 L["STRING_SHIELD_HEAL"] = "Prevenido"
 L["STRING_SHIELD_OVERHEAL"] = "Desperdiçado"
 L["STRING_SHORTCUT_RIGHTCLICK"] = "Menu de Atalho (botão direito para fechar)"
@@ -1538,6 +1575,8 @@ L["STRING_SLASH_WIPECONFIG_DESC"] = "faz a reinstalação do addon limpando toda
 L["STRING_SLASH_WORLDBOSS"] = "worldboss"
 L["STRING_SLASH_WORLDBOSS_DESC"] = "executa uma macro mostrando quais 'world boss' você matou esta semana."
 L["STRING_SPELL_INTERRUPTED"] = "Magias Interrompidas"
+--Translation missing 
+-- L["STRING_SPELLLIST"] = ""
 L["STRING_SPELLS"] = "Habilidades"
 L["STRING_SPIRIT_LINK_TOTEM"] = "Troca de Vida"
 L["STRING_SPIRIT_LINK_TOTEM_DESC"] = [=[Quantidade de vida trocada entre
@@ -1545,6 +1584,8 @@ jogadores dentro do círculo do totem.
 
 Esta cura não é adicionada ao
 total curado do jogador.]=]
+--Translation missing 
+-- L["STRING_STATISTICS"] = ""
 L["STRING_STATUSBAR_NOOPTIONS"] = "Não há opcoes para esta ferramenta."
 L["STRING_SWITCH_CLICKME"] = "clique-me"
 L["STRING_SWITCH_SELECTMSG"] = "Selecione o display para o atalho #%d."
@@ -1562,8 +1603,7 @@ L["STRING_TOTAL"] = "Total"
 L["STRING_TRANSLATE_LANGUAGE"] = "Ajude a traduzir o Details!"
 L["STRING_TUTORIAL_FULLY_DELETE_WINDOW"] = [=[Você fechou uma janela e pode reabri-la quando quiser.
 Para deleta-la por completo, vá nas opções -> Janela: Geral -> Deletar.]=]
---Translation missing 
--- L["STRING_TUTORIAL_OVERALL1"] = ""
+L["STRING_TUTORIAL_OVERALL1"] = "ajuste o overall no painel de opções > PvE/PvP."
 L["STRING_UNKNOW"] = "Desconhecido"
 L["STRING_UNKNOWSPELL"] = "Magia Desconhecida"
 L["STRING_UNLOCK"] = [=[Separe as janelas

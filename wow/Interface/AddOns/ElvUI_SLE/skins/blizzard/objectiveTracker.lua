@@ -43,7 +43,7 @@ local function skinObjectiveBar(self, block, line)
 	local flare = progressBar.FullBarFlare1
 
 
-	if not progressBar.styled then
+	if not progressBar.sle_skinned then
 		local label = bar.Label
 
 		bar.BarBG:Hide()
@@ -73,7 +73,7 @@ local function skinObjectiveBar(self, block, line)
 		SLE:GetModule("Media").BonusObjectiveBarText = label
 
 		BonusObjectiveTrackerProgressBar_PlayFlareAnim = dummy
-		progressBar.styled = true
+		progressBar.sle_skinned = true
 	end
 
 	bar.IconBG:Hide()
@@ -186,6 +186,7 @@ local function ObjectiveReskin()
 		hooksecurefunc(_G["BONUS_OBJECTIVE_TRACKER_MODULE"], "AddProgressBar", skinObjectiveBar) 
 		-- World Quests can be bonus objective type
 		hooksecurefunc(_G["WORLD_QUEST_TRACKER_MODULE"], "AddProgressBar", skinObjectiveBar)
+
 		-- ProgressBar in the ObjectiveTacker
 		hooksecurefunc(DEFAULT_OBJECTIVE_TRACKER_MODULE, "AddProgressBar", function(self, block, line, questID)
 			local progressBar = self.usedProgressBars[block] and self.usedProgressBars[block][line];

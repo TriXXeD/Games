@@ -1,4 +1,4 @@
-local versionMajor, versionRev, L, ADDON, T, ORI = 3, 89, newproxy(true), ...
+local versionMajor, versionRev, L, ADDON, T, ORI = 3, 90, newproxy(true), ...
 local api, OR_Rings, OR_ModifierLockState, TL, EV, OR_LoadedState = {ext={ActionBook=T.ActionBook},lang=L}, {}, nil, T.L, T.Evie, 1
 local defaultConfig = {ClickActivation=false, IndicationOffsetX=0, IndicationOffsetY=0, RingAtMouse=false, RingScale=1, ClickPriority=true, CenterAction=false, MouseBucket=1, NoClose=false, NoCloseOnSlice=false, SliceBinding=false, SliceBindingString="1 2 3 4 5 6 7 8 9 0", SelectedSliceBind="", PrimaryButton="BUTTON4", SecondaryButton="BUTTON5", OpenNestedRingButton="BUTTON3", ScrollNestedRingUpButton="", ScrollNestedRingDownButton="", UseDefaultBindings=true}
 local configRoot, configInstance, activeProfile, PersistentStorageInfo, optionValidators, optionsMeta = {}, nil, nil, {}, {}, {__index=defaultConfig}
@@ -757,7 +757,8 @@ function api:GetRingBinding(ringName)
 	assert(OR_Rings[ringName], 'Ring %q is not defined', 2, ringName)
 	local binding, isUser, iid = configInstance.Bindings[ringName], true, OR_Rings[ringName].internalID
 	if binding == nil then binding, isUser = OR_Rings[ringName].hotkey, false end
-	local curKey = OR_SecEnv.ORL_RingData[iid].bind
+	local secRingData = OR_SecEnv.ORL_RingData[iid]
+	local curKey = secRingData and secRingData.bind
 	local curAct = curKey and GetBindingAction(curKey, 1)
 	curAct = (curKey == nil) or (curAct == ("CLICK ORL_RProxy" .. iid .. ":r" .. iid)) or curAct
 	return binding, curKey, isUser, curKey ~= nil, curAct

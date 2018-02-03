@@ -1,15 +1,14 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0208,
+	["LastVersion"] = 2.0217,
 	["LastPlayerFullName"] = "Daemonikos-Draenor",
 	["AutoSelectScales"] = false,
 	["UpgradeTracking"] = false,
-	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128943] = {
 			["Relics"] = {
 				{
-					["ItemLevel"] = 62,
+					["ItemLevel"] = 70,
 					["Type"] = "Shadow",
 				}, -- [1]
 				{
@@ -17,7 +16,7 @@ PawnOptions = {
 					["Type"] = "Fire",
 				}, -- [2]
 				{
-					["ItemLevel"] = 56,
+					["ItemLevel"] = 61,
 					["Type"] = "Fel",
 				}, -- [3]
 			},
@@ -26,7 +25,7 @@ PawnOptions = {
 		[128941] = {
 			["Relics"] = {
 				{
-					["ItemLevel"] = 53,
+					["ItemLevel"] = 56,
 					["Type"] = "Fel",
 				}, -- [1]
 				{
@@ -43,21 +42,22 @@ PawnOptions = {
 		[128942] = {
 			["Relics"] = {
 				{
-					["ItemLevel"] = 59,
+					["ItemLevel"] = 74,
 					["Type"] = "Shadow",
 				}, -- [1]
 				{
-					["ItemLevel"] = 61,
+					["ItemLevel"] = 77,
 					["Type"] = "Blood",
 				}, -- [2]
 				{
-					["ItemLevel"] = 61,
+					["ItemLevel"] = 80,
 					["Type"] = "Shadow",
 				}, -- [3]
 			},
 			["Name"] = "Ulthalesh, the Deadwind Harvester",
 		},
 	},
+	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "WARLOCK",

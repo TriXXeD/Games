@@ -90,6 +90,8 @@ L["STRING_CLOSEALL"] = "Toutes les fenêtres de Details sont fermées. Tapez «/
 L["STRING_COLOR"] = "Couleur"
 L["STRING_COMMAND_LIST"] = "liste de commandes"
 L["STRING_COOLTIP_NOOPTIONS"] = "aucune option"
+--Translation missing 
+-- L["STRING_CREATEAURA"] = ""
 L["STRING_CRITICAL_HITS"] = "Coups Critiques"
 L["STRING_CRITICAL_ONLY"] = "critique"
 L["STRING_CURRENT"] = "Actuel"
@@ -304,6 +306,8 @@ L["STRING_DAMAGE_TAKEN_FROM"] = "Dégâts pris de"
 --Translation missing 
 -- L["STRING_FORGE_HEADER_GUID"] = ""
 --Translation missing 
+-- L["STRING_FORGE_HEADER_ICON"] = ""
+--Translation missing 
 -- L["STRING_FORGE_HEADER_ID"] = ""
 --Translation missing 
 -- L["STRING_FORGE_HEADER_INDEX"] = ""
@@ -320,6 +324,12 @@ L["STRING_DAMAGE_TAKEN_FROM"] = "Dégâts pris de"
 --Translation missing 
 -- L["STRING_FORGE_HEADER_TIMER"] = ""
 --Translation missing 
+-- L["STRING_FORGE_TUTORIAL_DESC"] = ""
+--Translation missing 
+-- L["STRING_FORGE_TUTORIAL_TITLE"] = ""
+--Translation missing 
+-- L["STRING_FORGE_TUTORIAL_VIDEO"] = ""
+--Translation missing 
 -- L["STRING_FREEZE"] = ""
 --Translation missing 
 -- L["STRING_FROM"] = ""
@@ -327,6 +337,36 @@ L["STRING_DAMAGE_TAKEN_FROM"] = "Dégâts pris de"
 -- L["STRING_GERAL"] = ""
 --Translation missing 
 -- L["STRING_GLANCING"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_BOSS"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_DATABASEERROR"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_DIFF"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_GUILD"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_PLAYERBASE"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_PLAYERBASE_INDIVIDUAL"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_PLAYERBASE_PLAYER"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_PLAYERBASE_RAID"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_RAID"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_ROLE"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_SHOWHISTORY"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_SHOWRANK"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_SYNCBUTTONTEXT"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_TUTORIAL_DESC"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_WINDOWALERT"] = ""
 --Translation missing 
 -- L["STRING_HEAL"] = ""
 --Translation missing 
@@ -485,6 +525,8 @@ L["STRING_MINITUTORIAL_OPTIONS_PANEL6"] = "Sélectionnez ici quelle fenêtre vou
 --Translation missing 
 -- L["STRING_MODE_GROUP"] = ""
 --Translation missing 
+-- L["STRING_MODE_OPENFORGE"] = ""
+--Translation missing 
 -- L["STRING_MODE_PLUGINS"] = ""
 --Translation missing 
 -- L["STRING_MODE_RAID"] = ""
@@ -562,6 +604,10 @@ L["STRING_MINITUTORIAL_OPTIONS_PANEL6"] = "Sélectionnez ici quelle fenêtre vou
 -- L["STRING_OPTIONS_ALWAYS_USE"] = ""
 --Translation missing 
 -- L["STRING_OPTIONS_ALWAYS_USE_DESC"] = ""
+--Translation missing 
+-- L["STRING_OPTIONS_ALWAYSSHOWPLAYERS"] = ""
+--Translation missing 
+-- L["STRING_OPTIONS_ALWAYSSHOWPLAYERS_DESC"] = ""
 --Translation missing 
 -- L["STRING_OPTIONS_ANCHOR"] = ""
 --Translation missing 
@@ -869,6 +915,10 @@ L["STRING_MINITUTORIAL_OPTIONS_PANEL6"] = "Sélectionnez ici quelle fenêtre vou
 --Translation missing 
 -- L["STRING_OPTIONS_DEATHLIMIT_DESC"] = ""
 --Translation missing 
+-- L["STRING_OPTIONS_DEATHLOG_MINHEALING"] = ""
+--Translation missing 
+-- L["STRING_OPTIONS_DEATHLOG_MINHEALING_DESC"] = ""
+--Translation missing 
 -- L["STRING_OPTIONS_DESATURATE_MENU"] = ""
 --Translation missing 
 -- L["STRING_OPTIONS_DESATURATE_MENU_DESC"] = ""
@@ -1161,10 +1211,6 @@ L["STRING_MINITUTORIAL_OPTIONS_PANEL6"] = "Sélectionnez ici quelle fenêtre vou
 --Translation missing 
 -- L["STRING_OPTIONS_OVERALL_ANCHOR"] = ""
 --Translation missing 
--- L["STRING_OPTIONS_OVERALL_CHALLENGE"] = ""
---Translation missing 
--- L["STRING_OPTIONS_OVERALL_CHALLENGE_DESC"] = ""
---Translation missing 
 -- L["STRING_OPTIONS_OVERALL_DUNGEONBOSS"] = ""
 --Translation missing 
 -- L["STRING_OPTIONS_OVERALL_DUNGEONBOSS_DESC"] = ""
@@ -1176,6 +1222,10 @@ L["STRING_MINITUTORIAL_OPTIONS_PANEL6"] = "Sélectionnez ici quelle fenêtre vou
 -- L["STRING_OPTIONS_OVERALL_LOGOFF"] = ""
 --Translation missing 
 -- L["STRING_OPTIONS_OVERALL_LOGOFF_DESC"] = ""
+--Translation missing 
+-- L["STRING_OPTIONS_OVERALL_MYTHICPLUS"] = ""
+--Translation missing 
+-- L["STRING_OPTIONS_OVERALL_MYTHICPLUS_DESC"] = ""
 --Translation missing 
 -- L["STRING_OPTIONS_OVERALL_NEWBOSS"] = ""
 --Translation missing 
@@ -2087,7 +2137,7 @@ L["STRING_MINITUTORIAL_OPTIONS_PANEL6"] = "Sélectionnez ici quelle fenêtre vou
 --Translation missing 
 -- L["STRING_QUERY_INSPECT_FAIL1"] = ""
 --Translation missing 
--- L["STRING_QUERY_INSPECT_TALENTS"] = ""
+-- L["STRING_QUERY_INSPECT_REFRESH"] = ""
 --Translation missing 
 -- L["STRING_RAID_WIDE"] = ""
 --Translation missing 
@@ -2201,11 +2251,21 @@ L["STRING_MINITUTORIAL_OPTIONS_PANEL6"] = "Sélectionnez ici quelle fenêtre vou
 --Translation missing 
 -- L["STRING_SEGMENT_START"] = ""
 --Translation missing 
--- L["STRING_SEGMENT_TIME"] = ""
---Translation missing 
 -- L["STRING_SEGMENT_TRASH"] = ""
 --Translation missing 
 -- L["STRING_SEGMENTS"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_BOSS"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_COMBATTIME"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_OVERALL"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_TIMEINCOMBAT"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_TOTALTIME"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_TRASH"] = ""
 --Translation missing 
 -- L["STRING_SHIELD_HEAL"] = ""
 --Translation missing 
@@ -2275,11 +2335,15 @@ L["STRING_MINITUTORIAL_OPTIONS_PANEL6"] = "Sélectionnez ici quelle fenêtre vou
 --Translation missing 
 -- L["STRING_SPELL_INTERRUPTED"] = ""
 --Translation missing 
+-- L["STRING_SPELLLIST"] = ""
+--Translation missing 
 -- L["STRING_SPELLS"] = ""
 --Translation missing 
 -- L["STRING_SPIRIT_LINK_TOTEM"] = ""
 --Translation missing 
 -- L["STRING_SPIRIT_LINK_TOTEM_DESC"] = ""
+--Translation missing 
+-- L["STRING_STATISTICS"] = ""
 --Translation missing 
 -- L["STRING_STATUSBAR_NOOPTIONS"] = ""
 --Translation missing 

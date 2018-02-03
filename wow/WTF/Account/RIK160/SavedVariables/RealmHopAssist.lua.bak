@@ -1,0 +1,35 @@
+
+RealmHopAssistDB = {
+	["profileKeys"] = {
+		["Molokh - Ravencrest"] = "Molokh - Ravencrest",
+		["Eruditus - Ravencrest"] = "Eruditus - Ravencrest",
+		["Chrysante - Ravencrest"] = "Chrysante - Ravencrest",
+		["Achilina - Draenor"] = "Achilina - Draenor",
+		["Daemonikos - Draenor"] = "Daemonikos - Draenor",
+		["Quelith - Draenor"] = "Quelith - Draenor",
+		["Achilina - Ravencrest"] = "Achilina - Ravencrest",
+		["Trïxxed - Ravencrest"] = "Trïxxed - Ravencrest",
+		["Trìxxed - Ravencrest"] = "Trìxxed - Ravencrest",
+		["Petergrippin - Draenor"] = "Petergrippin - Draenor",
+		["Trîxxed - Ravencrest"] = "Trîxxed - Ravencrest",
+		["Fausta - Ravencrest"] = "Fausta - Ravencrest",
+		["Trixxedbank - Draenor"] = "Trixxedbank - Draenor",
+		["Lupalia - Ravencrest"] = "Lupalia - Ravencrest",
+	},
+	["global"] = {
+		["highlightList"] = {
+		},
+		["quickJoin"] = {
+			true, -- [1]
+			[6] = true,
+		},
+		["widgetPos"] = {
+			["y"] = -141.911102294922,
+			["x"] = 1.42246639728546,
+			["to"] = "TOP",
+		},
+		["minimap"] = {
+			["minimapPos"] = 217.916676281274,
+		},
+	},
+}

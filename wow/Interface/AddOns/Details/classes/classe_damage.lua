@@ -1553,11 +1553,19 @@
 
 
 function atributo_damage:RefreshWindow (instancia, tabela_do_combate, forcar, exportar, refresh_needed)
-	
+		
 	local showing = tabela_do_combate [class_type] --> o que esta sendo mostrado -> [1] - dano [2] - cura --> pega o container com ._NameIndexTable ._ActorTable
 
 	--> n�o h� barras para mostrar -- not have something to show
 	if (#showing._ActorTable < 1) then 
+		if (_detalhes.debug) then
+			_detalhes.showing_ActorTable_Timer = _detalhes.showing_ActorTable_Timer or 0
+			if (time() > _detalhes.showing_ActorTable_Timer) then
+				_detalhes:Msg ("(debug) nothing to show -> #showing._ActorTable < 1")
+				_detalhes.showing_ActorTable_Timer = time()+5
+			end
+		end
+		
 		--> colocado isso recentemente para fazer as barras de dano sumirem na troca de atributo
 		return _detalhes:EsconderBarrasNaoUsadas (instancia, showing), "", 0, 0
 	end
@@ -2002,6 +2010,14 @@ function atributo_damage:RefreshWindow (instancia, tabela_do_combate, forcar, ex
 				end
 			
 				if (#conteudo < 1) then
+					if (_detalhes.debug) then
+						_detalhes.showing_ActorTable_Timer2 = _detalhes.showing_ActorTable_Timer2 or 0
+						if (time() > _detalhes.showing_ActorTable_Timer2) then
+							_detalhes:Msg ("(debug) nothing to show -> #conteudo < 1 (using cache)")
+							_detalhes.showing_ActorTable_Timer2 = time()+5
+						end
+					end
+		
 					return _detalhes:EsconderBarrasNaoUsadas (instancia, showing), "", 0, 0
 				end
 			
@@ -2065,6 +2081,15 @@ function atributo_damage:RefreshWindow (instancia, tabela_do_combate, forcar, ex
 			end
 		end
 		instancia:EsconderScrollBar() --> precisaria esconder a scroll bar
+		
+		if (_detalhes.debug) then
+			_detalhes.showing_ActorTable_Timer2 = _detalhes.showing_ActorTable_Timer2 or 0
+			if (time() > _detalhes.showing_ActorTable_Timer2) then
+				_detalhes:Msg ("(debug) nothing to show -> amount < 1")
+				_detalhes.showing_ActorTable_Timer2 = time()+5
+			end
+		end
+		
 		return _detalhes:EndRefresh (instancia, total, tabela_do_combate, showing) --> retorna a tabela que precisa ganhar o refresh
 	end
 
@@ -2277,6 +2302,8 @@ function atributo_damage:RefreshWindow (instancia, tabela_do_combate, forcar, ex
 			end
 		end
 	end
+	
+	_detalhes.LastFullDamageUpdate = _detalhes._tempo
 	
 	return _detalhes:EndRefresh (instancia, total, tabela_do_combate, showing) --> retorna a tabela que precisa ganhar o refresh
 	
@@ -2714,19 +2741,23 @@ end
 	elseif (classe == "UNGROUPPLAYER") then
 		if (self.enemy) then
 			if (_detalhes.faction_against == "Horde") then
-				texture:SetTexture ("Interface\\ICONS\\Achievement_Character_Orc_Male")
-				texture:SetTexCoord (0, 1, 0, 1)
+				--texture:SetTexture ("Interface\\ICONS\\Achievement_Character_Orc_Male")
+				texture:SetTexture ("Interface\\ICONS\\PVPCurrency-Honor-Horde.blp")
+				texture:SetTexCoord (0.05, 0.95, 0.05, 0.95)
 			else
-				texture:SetTexture ("Interface\\ICONS\\Achievement_Character_Human_Male")
-				texture:SetTexCoord (0, 1, 0, 1)
+				--texture:SetTexture ("Interface\\ICONS\\Achievement_Character_Human_Male")
+				texture:SetTexture ("Interface\\ICONS\\PVPCurrency-Honor-Alliance.blp")
+				texture:SetTexCoord (0.05, 0.95, 0.05, 0.95)
 			end
 		else
 			if (_detalhes.faction_against == "Horde") then
-				texture:SetTexture ("Interface\\ICONS\\Achievement_Character_Human_Male")
-				texture:SetTexCoord (0, 1, 0, 1)
+				--texture:SetTexture ("Interface\\ICONS\\Achievement_Character_Human_Male")
+				texture:SetTexture ("Interface\\ICONS\\PVPCurrency-Honor-Alliance.blp")
+				texture:SetTexCoord (0.05, 0.95, 0.05, 0.95)
 			else
-				texture:SetTexture ("Interface\\ICONS\\Achievement_Character_Orc_Male")
-				texture:SetTexCoord (0, 1, 0, 1)
+				--texture:SetTexture ("Interface\\ICONS\\Achievement_Character_Orc_Male")
+				texture:SetTexture ("Interface\\ICONS\\PVPCurrency-Honor-Horde.blp")
+				texture:SetTexCoord (0.05, 0.95, 0.05, 0.95)
 			end
 		end
 		texture:SetVertexColor (1, 1, 1)
@@ -3319,19 +3350,40 @@ function atributo_damage:ToolTip_DamageTaken (instancia, numero, barra, keydown)
 			end
 		end
 	else
-		for nome, _ in _pairs (agressores) do --> lista de nomes
+		
+		--> aggressors
+		for nome, _ in _pairs (agressores) do --who damaged the player
+			--get the aggressor
 			local este_agressor = showing._ActorTable [showing._NameIndexTable [nome]]
 			if (este_agressor) then --> checagem por causa do total e do garbage collector que n�o limpa os nomes que deram dano
 				local name = nome
+				local table_added
 				local damage_amount = este_agressor.targets [self.nome]
 				
 				if (damage_amount) then
 					if (este_agressor:IsPlayer() or este_agressor:IsNeutralOrEnemy()) then
-						meus_agressores [#meus_agressores+1] = {name, damage_amount, este_agressor.classe, este_agressor}
+						table_added = {name, damage_amount, este_agressor.classe, este_agressor}
+						meus_agressores [#meus_agressores+1] = table_added
+					end
+				end
+				
+				--special cases - Monk stagger
+				if (nome == self.nome and self.classe == "MONK") then
+					local ff = este_agressor.friendlyfire [nome]
+					if (ff and ff.total > 0) then
+						local staggerDamage = ff.spells [124255] or 0
+						if (staggerDamage > 0) then
+							if (table_added) then
+								table_added [2] = table_added [2] + staggerDamage
+							else
+								meus_agressores [#meus_agressores+1] = {name, staggerDamage, "MONK", este_agressor}
+							end
+						end
 					end
 				end
 			end
 		end
+
 	end
 
 	_table_sort (meus_agressores, _detalhes.Sort2)
@@ -3374,9 +3426,14 @@ function atributo_damage:ToolTip_DamageTaken (instancia, numero, barra, keydown)
 	local icon_border = _detalhes.tooltip.icon_border_texcoord
 	
 	for i = 1, max do
-	
+
 		local aggressor = meus_agressores[i][4]
-		if (aggressor:IsNeutralOrEnemy()) then
+		
+		--only shows damage from enemies or from the player it self
+		--the player it self can only be placed on the list by the iteration above
+		--the iteration doesnt check friendly fire for all actors, only a few cases like Monk Stagger
+		
+		if (aggressor:IsNeutralOrEnemy() or aggressor.nome == self.nome) then
 		
 			local all_spells = {}
 		
@@ -3384,6 +3441,14 @@ function atributo_damage:ToolTip_DamageTaken (instancia, numero, barra, keydown)
 				local on_target = spell.targets [self.nome]
 				if (on_target) then
 					tinsert (all_spells, {spellid, on_target, aggressor.nome})
+				end
+			end
+			
+			--friendly fire
+			local friendlyFire = aggressor.friendlyfire [self.nome]
+			if (friendlyFire) then
+				for spellid, amount in _pairs (friendlyFire.spells) do
+					tinsert (all_spells, {spellid, amount, aggressor.nome})
 				end
 			end
 			
@@ -3560,18 +3625,18 @@ function atributo_damage:MontaInfo()
 end
 
 ---------> DETALHES bloco da direita BIFURCA��O
-function atributo_damage:MontaDetalhes (spellid, barra)
+function atributo_damage:MontaDetalhes (spellid, barra, instancia)
 	if (info.sub_atributo == 1 or info.sub_atributo == 2) then
-		return self:MontaDetalhesDamageDone (spellid, barra)
+		return self:MontaDetalhesDamageDone (spellid, barra, instancia)
 	elseif (info.sub_atributo == 3) then
-		return self:MontaDetalhesDamageTaken (spellid, barra)
+		return self:MontaDetalhesDamageTaken (spellid, barra, instancia)
 	elseif (info.sub_atributo == 4) then
-		return self:MontaDetalhesFriendlyFire (spellid, barra)
+		return self:MontaDetalhesFriendlyFire (spellid, barra, instancia)
 	elseif (info.sub_atributo == 6) then
 		if (_bit_band (self.flag_original, 0x00000400) ~= 0) then --� um jogador
-			return self:MontaDetalhesDamageDone (spellid, barra)
+			return self:MontaDetalhesDamageDone (spellid, barra, instancia)
 		end
-		return self:MontaDetalhesEnemy (spellid, barra)
+		return self:MontaDetalhesEnemy (spellid, barra, instancia)
 		--return self:MontaDetalhesDamageDone (spellid, barra)
 	end
 end
@@ -3671,7 +3736,7 @@ function atributo_damage:MontaInfoFriendlyFire()
 		barra:Show()
 
 		if (self.detalhes and self.detalhes == barra.show) then
-			self:MontaDetalhes (self.detalhes, barra)
+			self:MontaDetalhes (self.detalhes, barra, instancia)
 		end
 	end
 
@@ -3781,10 +3846,17 @@ end
 		row.textura:SetValue (value/max*100)
 	end
 	
-	row.texto_esquerdo:SetText (index .. ". " .. name)
+	if (type (index) == "number") then
+		row.texto_esquerdo:SetText (index .. ". " .. name)
+	else
+		row.texto_esquerdo:SetText (name)
+	end
+	
 	row.texto_esquerdo.text = row.texto_esquerdo:GetText()
 	
-	row.texto_direita:SetText (value_formated .. " (" .. _cstr ("%.1f", percent) .."%)")
+	if (value_formated) then
+		row.texto_direita:SetText (value_formated .. " (" .. _cstr ("%.1f", percent) .."%)")
+	end
 	
 	row.texto_esquerdo:SetSize (row:GetWidth() - row.texto_direita:GetStringWidth() - 40, 15)
 
@@ -3862,7 +3934,7 @@ end
 
 ------ Damage Done & Dps
 function atributo_damage:MontaInfoDamageDone()
-
+	
 	local barras = info.barras1
 	local instancia = info.instancia
 	local total = self.total_without_pet --> total de dano aplicado por este jogador 
@@ -3883,6 +3955,36 @@ function atributo_damage:MontaInfoDamageDone()
 		local nome, _, icone = _GetSpellInfo (_spellid)
 		_table_insert (ActorSkillsSortTable, {_spellid, _skill.total, _skill.total/ActorTotalDamage*100, nome, icone, nil, _skill.spellschool})
 	end
+	
+	--damage rank
+	--este_gump:SetTopRightTexts (text1, text2, size, color, font)	
+	local combat = instancia:GetShowingCombat()
+	local diff = combat:GetDifficulty()
+	local attribute, subattribute = instancia:GetDisplay()
+	
+	--> check if is a raid encounter and if is heroic or mythic
+	if (diff and (diff == 15 or diff == 16)) then
+		local db = _detalhes.OpenStorage()
+		if (db) then
+			local bestRank, encounterTable = _detalhes.storage:GetBestFromPlayer (diff, combat:GetBossInfo().id, "damage", self.nome, true)
+			if (bestRank) then
+				--> discover which are the player position in the guild rank
+				local playerTable, onEncounter, rankPosition = _detalhes.storage:GetPlayerGuildRank (diff, combat:GetBossInfo().id, "damage", self.nome, true)
+				
+				local text1 = self.nome .. " on " .. combat:GetBossInfo().name .. ":"
+				local text2 = "Guild Rank: " .. (rankPosition or "x") .. " Best Dps: " .. _detalhes:ToK2 ((bestRank[1] or 0) / encounterTable.elapsed) .. " (" .. encounterTable.date:gsub (".*%s", "") .. ")"
+				
+				info:SetTopRightTexts (text1, text2, 9, "gray", font)
+			else
+				info:SetTopRightTexts()
+			end
+		else
+			info:SetTopRightTexts()
+		end
+	else
+		info:SetTopRightTexts()
+	end
+	
 
 	--> add pets
 	local ActorPets = self.pets
@@ -3903,12 +4005,27 @@ function atributo_damage:MontaInfoDamageDone()
 	
 	_table_sort (ActorSkillsSortTable, _detalhes.Sort2)
 
-	gump:JI_AtualizaContainerBarras (#ActorSkillsSortTable)
+	gump:JI_AtualizaContainerBarras (#ActorSkillsSortTable + 1)
 
 	local max_ = ActorSkillsSortTable[1] and ActorSkillsSortTable[1][2] or 0 --> dano que a primeiro magia vez
 
 	local barra
+	
+	--aura bar
+	if (false) then --> disabled for now
+		barra = barras [1]
+		if (not barra) then
+			barra = gump:CriaNovaBarraInfo1 (instancia, 1)
+		end
+		self:UpdadeInfoBar (barra, "", -51, "Auras", max_, false, max_, 100, [[Interface\BUTTONS\UI-GroupLoot-DE-Up]], true, nil, nil)
+		barra.textura:SetStatusBarColor (_detalhes.gump:ParseColors ("purple"))
+	end
+	
+	--spell bars
 	for index, tabela in _ipairs (ActorSkillsSortTable) do
+		
+		--index = index + 1 --with the aura bar
+		index = index
 		barra = barras [index]
 		if (not barra) then
 			barra = gump:CriaNovaBarraInfo1 (instancia, index)
@@ -3927,7 +4044,6 @@ function atributo_damage:MontaInfoDamageDone()
 		end
 		
 		self:FocusLock (barra, tabela[1])
-
 	end
 	
 	--> TOP INIMIGOS
@@ -4340,6 +4456,56 @@ local critical_table = {c = {1, 1, 1, 0.5}, p = 0}
 local data_table = {}
 local t1, t2, t3, t4 = {}, {}, {}, {}
 
+local function FormatSpellString(str)
+	return (string.gsub(str, "%d+", function(spellID)
+				local name, _, icon = GetSpellInfo (spellID);
+				return string.format("|T%s:16|t", icon);
+			end));
+end
+
+
+local MontaDetalhesBuffProcs = function (actor, row, instance)
+	
+	instance = instance or info.instancia
+	
+	local spec = actor.spec
+	if (spec) then
+		local mainAuras = _detalhes.important_auras [spec]
+		if (mainAuras) then
+			local miscActor = instance:GetShowingCombat():GetActor (4, actor:name())
+			if (miscActor and miscActor.buff_uptime_spells) then
+				--> get the auras
+				local added = 0
+				for i = 1, #mainAuras do
+					local spellID = mainAuras [i]
+					local spellObject = miscActor.buff_uptime_spells._ActorTable [spellID]
+					if (spellObject) then
+						local spellName, spellIcon = GetSpellInfo (spellID)
+						local spellUptime = spellObject.uptime
+						local spellApplies = spellObject.appliedamt
+						local spellRefreshes = spellObject.refreshamt
+						
+						gump:SetaDetalheInfoTexto (i, 100, FormatSpellString ("" .. spellID .. " " .. spellName), "Activations: " .. spellApplies, " ", "Refreshes: " .. spellRefreshes, " ", "Uptime: " .. spellUptime .. "s")
+						added = added + 1
+					end
+				end
+				
+				for i = added + 1, 5 do
+					gump:HidaDetalheInfo (i)
+				end
+				
+				return
+			end
+		end
+	end
+	
+	for i = 1, 5 do
+		gump:HidaDetalheInfo (i)
+	end
+end
+
+
+
 function atributo_damage:MontaDetalhesDamageDone (spellid, barra, instancia)
 
 	local esta_magia
@@ -4349,6 +4515,10 @@ function atributo_damage:MontaDetalhesDamageDone (spellid, barra, instancia)
 		esta_magia = self.spells._ActorTable [spellid]
 	end
 
+	if (spellid == -51) then
+		return MontaDetalhesBuffProcs (self, barra, instancia)
+	end
+	
 	if (not esta_magia) then
 		return
 	end
@@ -4817,10 +4987,12 @@ end
 			return shadow
 		end
 		
-		function atributo_damage:r_connect_shadow (actor, no_refresh)
+		function atributo_damage:r_connect_shadow (actor, no_refresh, combat_object)
 	
+			local host_combat = combat_object or _detalhes.tabela_overall
+			
 			--> criar uma shadow desse ator se ainda n�o tiver uma
-				local overall_dano = _detalhes.tabela_overall [1]
+				local overall_dano = host_combat [1]
 				local shadow = overall_dano._ActorTable [overall_dano._NameIndexTable [actor.nome]]
 				
 				if (not shadow) then 
@@ -4864,9 +5036,9 @@ end
 				shadow.friendlyfire_total = shadow.friendlyfire_total + actor.friendlyfire_total
 
 			--> total no combate overall (captura de dados)
-				_detalhes.tabela_overall.totals[1] = _detalhes.tabela_overall.totals[1] + actor.total
+				host_combat.totals[1] = host_combat.totals[1] + actor.total
 				if (actor.grupo) then
-					_detalhes.tabela_overall.totals_grupo[1] = _detalhes.tabela_overall.totals_grupo[1] + actor.total
+					host_combat.totals_grupo[1] = host_combat.totals_grupo[1] + actor.total
 				end
 				
 			--> copia o damage_from (captura de dados)

@@ -1,7 +1,7 @@
 local _, T = ...
 if T.SkipLocalActionBook then return end
 local AB, mark = assert(T.ActionBook:compatible(2, 14), "A compatible version of ActionBook is required"), {}
-local RW = assert(T.ActionBook:compatible("Rewire", 1,4), "A compatible version of Rewire is required")
+local RW = assert(T.ActionBook:compatible("Rewire", 1, 10), "A compatible version of Rewire is required")
 local EV = T.Evie
 
 do -- spellbook
@@ -128,8 +128,10 @@ AB:AugmentCategory("Mounts", function(_, add)
 	for i=1, #idm do
 		local mid = idm[i]
 		local name, sid, _3, _4, _5, _6, _7, factionLocked, factionId, hide, have = C_MountJournal.GetMountInfoByID(mid)
-		local sname = GetSpellInfo(sid)
-		if have and not hide and (not factionLocked or factionId == myFactionId) and (GetSpellInfo(sname) ~= nil or (T.ABdodgyMounts and T.ABdodgyMounts[mid])) then
+		if have and not hide
+		   and (not factionLocked or factionId == myFactionId)
+		   and RW:IsSpellCastable(sid)
+		   then
 			i2[#i2+1], i2n[sid] = sid, name
 		end
 	end

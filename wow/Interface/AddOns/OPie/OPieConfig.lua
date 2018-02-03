@@ -7,8 +7,14 @@ function config.createFrame(name, parent)
 	frame.title = frame:CreateFontString(nil, "OVERLAY", "GameFontNormalLargeLeftTop")
 		frame.title:SetPoint("TOPLEFT", 16, -16)
 		frame.title:SetText(name)
-	frame.version = frame:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmallRight")
+	frame.version = CreateFrame("BUTTON", nil, frame)
+		frame.version:SetText(" ")
+		frame.version:SetNormalFontObject(GameFontHighlightSmallRight)
+		frame.version:GetFontString():ClearAllPoints()
+		frame.version:GetFontString():SetPoint("TOPRIGHT")
 		frame.version:SetPoint("TOPRIGHT", -16, -16)
+		frame.version:SetPushedTextOffset(0,0)
+		frame.version:SetSize(48, 12)
 	frame.desc = frame:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmallLeftTop")
 		frame.desc:SetPoint("TOPLEFT", frame.title, "BOTTOMLEFT", 0, -8)
 		frame.desc:SetWidth(590)
@@ -199,7 +205,7 @@ do -- ext.config.bind
 		end
 	end
 	local function OnClick(self, button)
-		PlaySound("UChatScrollButton")
+		PlaySound(SOUNDKIT.U_CHAT_SCROLL_BUTTON)
 		if activeCaptureButton then
 			local deactivated, mappedButton = Deactivate(activeCaptureButton), MapMouseButton(button);
 			if deactivated == self and (mappedButton or button == "RightButton") then SetBind(self, mappedButton); end
@@ -224,7 +230,7 @@ do -- ext.config.bind
 		if activeCaptureButton and unbindMap[activeCaptureButton:GetParent()] == self then
 			local p, button = activeCaptureButton:GetParent(), activeCaptureButton;
 			if p and type(p.SetBinding) == "function" then p.SetBinding(activeCaptureButton, false); end
-			PlaySound("UChatScrollButton")
+			PlaySound(SOUNDKIT.U_CHAT_SCROLL_BUTTON)
 			Deactivate(button)
 		end
 	end
@@ -330,7 +336,7 @@ do -- ext.config.overlay
 		close:SetScript("OnClick", function() container:Hide() end)
 		container:SetBackdrop({edgeFile="Interface\\DialogFrame\\UI-DialogBox-Border", edgeSize=32, bgFile="Interface\\FrameGeneral\\UI-Background-Rock", tile=true, tileSize=256, insets={left=10,right=10,top=10,bottom=10}})
 		container:SetBackdropColor(0.3, 0.4, 0.5)
-		watcher:SetScript("OnHide", function() if occupant then container:Hide() PlaySound("igMainMenuClose") occupant:Hide() occupant=nil end end)
+		watcher:SetScript("OnHide", function() if occupant then container:Hide() PlaySound(SOUNDKIT.IG_MAINMENU_CLOSE) occupant:Hide() occupant=nil end end)
 	end
 	function config.overlay(self, overlayFrame)
 		if occupant and occupant ~= overlayFrame then occupant:Hide() end
@@ -354,7 +360,7 @@ do -- ext.config.overlay
 		watcher:SetParent(overlayFrame)
 		watcher:Show()
 		CloseDropDownMenus()
-		if not isRefresh then PlaySound("igMainMenuOpen") end
+		if not isRefresh then PlaySound(SOUNDKIT.IG_MAINMENU_OPEN) end
 		occupant = overlayFrame
 	end
 	
@@ -470,6 +476,10 @@ local OPC_OptionSets = {
 
 local frame = config.createFrame("OPie")
 	frame.version:SetFormattedText("%s (%d.%d)", OneRingLib:GetVersion())
+	frame.version:SetScript("OnClick", function(self)
+		local c = ITEM_QUALITY_COLORS[math.max(1,math.floor(6*0.75^math.random(12)))]
+		self:GetFontString():SetTextColor(c.r, c.g, c.b)
+	end)
 local OPC_Profile = CreateFrame("Frame", "OPC_Profile", frame, "UIDropDownMenuTemplate");
 	OPC_Profile:SetPoint("TOPLEFT", frame, 0, -85); UIDropDownMenu_SetWidth(OPC_Profile, 200);
 local OPC_OptionDomain = CreateFrame("Frame", "OPC_OptionDomain", frame, "UIDropDownMenuTemplate");

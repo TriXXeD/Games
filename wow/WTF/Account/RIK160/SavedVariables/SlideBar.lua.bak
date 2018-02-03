@@ -1,7 +1,7 @@
 
 SlideBarConfig = {
 	["enabled"] = true,
-	["position"] = -9.99999983236194,
+	["position"] = -16,
 	["locked"] = false,
 	["visibility"] = false,
 	["anchor"] = "top",

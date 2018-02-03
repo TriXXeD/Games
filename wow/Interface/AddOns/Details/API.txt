@@ -194,7 +194,23 @@ DETAILS_TOTALS_ONLYGROUP = true
 total = combat:GetTotal ( attribute, subAttribute [, onlyGroup] )
 returns the total of the requested attribute.
 
+mythictInfo = combat:GetMythicDungeonInfo()
+returns a table with information about the mythic dungeon encounter.
 
+mythicTrashInfo = combat:GetMythicDungeonTrashInfo()
+returns a table with information about the trash cleanup for this combat.
+
+isMythicDungeonSegment = combat:IsMythicDungeon()
+returns if the segment is from a mythic dungeon.
+
+isMythicDungeonOverallSegment = combat:IsMythicDungeonOverall()
+returns if the segment is an overall mythic dungeon segment.
+
+combatType = combat:GetCombatType()
+returns the combat identification (see segment types).
+
+alternatePowerTable = combat:GetAlteranatePower()
+returns a table containing information about alternate power gains from players.
 
 --------------------------------------------------------------------
 
@@ -219,6 +235,9 @@ Details:UnpackDeathTable (deathTable)
 break a death table returning the data from it:
 playername, playerclass, deathtime, deathcombattime, deathtimestring, playermaxhealth, deathevents, lastcooldown = Details:UnpackDeathTable (deathTable)
 
+
+isMythicOverallSegment, segmentID, mythicLevel, EJID, mapID, zoneName, encounterID, encounterName, startedAt, endedAt, runID = Details:UnpackMythicDungeonInfo (combat:GetMythicDungeonInfo())
+extract information from the mythic dungeon table for the combat.
 
 Container Object:
 =======================================

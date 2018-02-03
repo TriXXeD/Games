@@ -110,6 +110,7 @@ function ABM:UpdatePlayer(frame, db)
 	auraBars:SetAnchors()
 
 	frame:UpdateAllElements("AurabarsMovers_UpdateAllElements")
+	if auraBars.bars[1] and auraBars.bars[1]:GetWidth() ~= E.db.abm.playerw then auraBars.bars[1]:SetWidth(E.db.abm.playerw - auraBars.bars[1].statusBar.icon:GetWidth()) end
 end
 
 function ABM:UpdateTarget(frame, db)
@@ -136,11 +137,13 @@ function ABM:UpdateTarget(frame, db)
 	auraBars:ClearAllPoints()
 
 	if not E.db.abm.target then
-		local attachTo
+		local attachTo = frame
 		if db.aurabar.attachTo == 'BUFFS' then
 			attachTo = frame.Buffs
 		elseif db.aurabar.attachTo == 'DEBUFFS' then
 			attachTo = frame.Debuffs
+		elseif db.aurabar.attachTo == "PLAYER_AURABARS" and ElvUF_Player then
+			attachTo = ElvUF_Player.AuraBars
 		end
 
 		local yOffset = 0;

@@ -117,11 +117,11 @@ do
 		[171746] = 103, -- Claws of Shirvallah
 		[22570] = 103, -- Maim
 		[16974] = 103, -- Predatory Swiftness
-		[106785] = 103, -- Swipe
-		[1079] = 103, -- Rip
+		--[106785] = 103, -- Swipe
+		--[1079] = 103, -- Rip
 		[52610] = 103, -- Savage Roar
 		[5217] = 103, -- Tiger's Fury
-		[1822] = 103, -- Rake
+		--[1822] = 103, -- Rake
 		
 		-- Guardian Druid:
 		[155835] = 104, -- Bristling Fur
@@ -135,14 +135,14 @@ do
 		
 		-- Restoration Druid:
 
-		[145518] = 105, -- Genesis
+		[145518] = 105, -- Genesis --no exists
 		[145205] = 105, -- Wild Mushroom
 		[48438] = 105, -- Wild Growth
 		[740] = 105, -- Tranquility
 		[102342] = 105, -- Ironbark
 		[33763] = 105, -- Lifebloom
 		[88423] = 105, -- Nature's Cure
-		[8936] = 105, -- Regrowth
+		--[8936] = 105, -- Regrowth -overlap
 		[18562] = 105, -- Swiftmend
 		
 		-- Beast Mastery Hunter:
@@ -228,14 +228,14 @@ do
 		
 		-- Holy Paladin:
 		[156910] = 65, -- Beacon of Faith
-		[157007] = 65, -- Beacon of Insight
+		[157007] = 65, -- Beacon of Insight --nao existe mais
 		[85222] = 65, -- Light of Dawn
 		[31821] = 65, -- Devotion Aura
 		[82326] = 65, -- Holy Light
-		[148039] = 65, -- Sacred Shield
+		[148039] = 65, -- Sacred Shield --nao existe mais
 		[53563] = 65, -- Beacon of Light
-		[82327] = 65, -- Holy Radiance
-		[2812] = 65, -- Denounce
+		[82327] = 65, -- Holy Radiance --nao existe mais
+		[2812] = 65, -- Denounce --nao existe mais
 		[20473] = 65, -- Holy Shock
 		
 		-- Protection Paladin:
@@ -500,6 +500,56 @@ do
 		[71] = 73, -- Defensive Stance
 		[157494] = 73, -- Improved Defensive Stance
 
+	}
+	
+	_detalhes.SpecIDToClass = {
+		[577] = "DEMONHUNTER", -- Havoc Demon Hunter
+		[581] = "DEMONHUNTER", -- Vengeance Demon Hunter
+
+		[252] = "DEATHKNIGHT", -- Unholy Death Knight
+		[251] = "DEATHKNIGHT", -- Frost Death Knight
+		[250] = "DEATHKNIGHT", -- Blood Death Knight
+		
+		[102] = "DRUID", -- Balance Druid
+		[103] = "DRUID", -- Feral Druid
+		[104] = "DRUID", -- Guardian Druid
+		[105] = "DRUID", -- Restoration Druid
+		
+		[253] = "HUNTER", -- Beast Mastery Hunter
+		[254] = "HUNTER", -- Marksmanship Hunter
+		[255] = "HUNTER", -- Survival Hunter
+		
+		[62] = "MAGE", -- Arcane Mage
+		[63] = "MAGE", -- Fire Mage
+		[64] = "MAGE", -- Frost Mage
+
+		[268] = "MONK", -- Brewmaster Monk
+		[269] = "MONK", -- Windwalker Monk
+		[270] = "MONK", -- Mistweaver Monk
+		
+		[65] = "PALADIN", -- Holy Paladin
+		[66] = "PALADIN", -- Protection Paladin
+		[70] = "PALADIN", -- Retribution Paladin
+		
+		[256] = "PRIEST", -- Discipline Priest
+		[257] = "PRIEST", -- Holy Priest
+		[258] = "PRIEST", -- Shadow Priest
+		
+		[259] = "ROGUE", -- Assassination Rogue
+		[260] = "ROGUE", -- Outlaw Rogue
+		[261] = "ROGUE", -- Subtlety Rogue
+		
+		[262] = "SHAMAN", -- Elemental Shaman
+		[263] = "SHAMAN", -- Enhancement Shaman
+		[264] = "SHAMAN", -- Restoration Shaman
+		
+		[265] = "WARLOCK", -- Affliction Warlock
+		[266] = "WARLOCK", -- Demonology Warlock
+		[267] = "WARLOCK", -- Destruction Warlock
+		
+		[71] = "WARRIOR", -- Arms Warrior
+		[72] = "WARRIOR", -- Fury Warrior
+		[73] = "WARRIOR", -- Protection Warrior
 	}
 	
 	_detalhes.ClassSpellList = {
@@ -1520,6 +1570,34 @@ do
 			[109128]	=	"WARRIOR", --charge
 			[12880]	=	"WARRIOR", --enrage
 			--[29842]	=	"WARRIOR", --undribled wrath
+	}
+	
+	_detalhes.HardCrowdControlSpells = {
+		--> death knight
+		
+		--> deamon hunter
+		
+		--> druid
+		[33786] 	= true, -- Cyclone
+		
+		--> hunter
+		
+		--> mage
+		
+		--> monk
+		
+		--> paladin
+		
+		--> priest
+		
+		--> rogue
+		
+		--> shaman
+		
+		--> warlock
+		
+		--> warrior
+		
 	}
 	
 	-- updated on 25/04/2015 (@Tonyleila - WoWInterface)

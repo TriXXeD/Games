@@ -1,36 +1,30 @@
-tag 8e92826dc985cf86bd312161f23c01e85b6569a4 1.40
+tag e5d889a8c460c4711b2af574068951e6add37f6a 1.41
 Author:	Hendrik Leppkes <h.leppkes@gmail.com>
-Date:	Tue Mar 28 19:17:11 2017 +0200
+Date:	Wed Aug 30 12:35:09 2017 +0200
 
-Tag as 1.40
+Tag as 1.41
 
-commit 23f9b06114bf937c563633fc944a08b4a2453585
+commit 583fe97c096af018e6d335b32d8f7a7751a5006e
 Author: Hendrik Leppkes <h.leppkes@gmail.com>
-Date:   Tue Mar 28 19:16:57 2017 +0200
+Date:   Wed Aug 30 12:34:40 2017 +0200
 
-    Update TOC for 7.2
+    Fel-Encrusted Herb (Cluster) capitalization was changed everywhere
 
-commit 026c675beabb24a713acf24aa29087388d83d5b1
+commit 9eeffa196d21be7378c4b57afa3bdd4f9d289ff3
 Author: Hendrik Leppkes <h.leppkes@gmail.com>
-Date:   Tue Mar 28 09:39:00 2017 +0200
+Date:   Tue Aug 29 17:51:23 2017 +0200
 
-    Add a new icon for Fel-encrusted Herb (Cluster)
+    Add an icon for empyrium
 
-commit 26ba8b3a1681378f689c6dc83fd3703da4af424c
+commit 2992a618ae4aaa9475f80389258cfa7ba1b8c296
 Author: Hendrik Leppkes <h.leppkes@gmail.com>
-Date:   Thu Mar 23 11:27:54 2017 +0100
+Date:   Tue Aug 29 17:40:56 2017 +0200
 
-    Add Fel-encrusted Herb Cluster node from 7.2 Broken Shore
+    Update TOC for 7.3
 
-commit 3ae15e9785c2eb45d4a92c255252639692105695
+commit 516cbf80fd8d6035845b8e8cc5bb9822b526b6c9
 Author: Hendrik Leppkes <h.leppkes@gmail.com>
-Date:   Sun Mar 12 18:14:47 2017 +0100
+Date:   Mon Aug 28 10:37:40 2017 +0200
 
-    Add Fel-encrusted Herb from the 7.2 Broken Shore zone
-
-commit 118835549241eed50b5c14be8d72f388f7f28aab
-Author: Hendrik Leppkes <h.leppkes@gmail.com>
-Date:   Sun Feb 19 07:52:36 2017 +0100
-
-    Support 7.2 landmark API for digsites
+    Add new herbs and ore deposits for Argus
 

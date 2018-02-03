@@ -1,6 +1,8 @@
 local _, Simulationcraft = ...
 
 Simulationcraft = LibStub("AceAddon-3.0"):NewAddon(Simulationcraft, "Simulationcraft", "AceConsole-3.0", "AceEvent-3.0")
+ItemUpgradeInfo = LibStub("LibItemUpgradeInfo-1.0")
+LibRealmInfo = LibStub("LibRealmInfo")
 
 local OFFSET_ITEM_ID = 1
 local OFFSET_ENCHANT_ID = 2
@@ -8,6 +10,7 @@ local OFFSET_GEM_ID_1 = 3
 local OFFSET_GEM_ID_2 = 4
 local OFFSET_GEM_ID_3 = 5
 local OFFSET_GEM_ID_4 = 6
+local OFFSET_GEM_BASE = OFFSET_GEM_ID_1
 local OFFSET_SUFFIX_ID = 7
 local OFFSET_FLAGS = 11
 local OFFSET_BONUS_ID = 13
@@ -34,7 +37,7 @@ local artifactTable = Simulationcraft.ArtifactTable
 -- coding mistakes regarding objects and namespaces.
 
 function Simulationcraft:OnInitialize()
-  Simulationcraft:RegisterChatCommand('simc', 'PrintSimcProfile')
+  Simulationcraft:RegisterChatCommand('simc', 'HandleChatCommand')
 end
 
 function Simulationcraft:OnEnable()
@@ -43,6 +46,54 @@ end
 
 function Simulationcraft:OnDisable()
 
+end
+
+function Simulationcraft:HandleChatCommand(input)
+  local args = {strsplit(' ', input)}
+
+  local debugOutput = false
+  local noBags = false
+
+  for _, arg in ipairs(args) do
+    if arg == 'debug' then
+      debugOutput = true
+    elseif arg == 'nobag' or arg == 'nobags' or arg == 'nb' then
+      noBags = true
+    end
+  end
+
+  self:PrintSimcProfile(debugOutput, noBags)
+end
+
+local function GetItemSplit(itemLink)
+  local itemString = string.match(itemLink, "item:([%-?%d:]+)")
+  local itemSplit = {}
+
+  -- Split data into a table
+  for _, v in ipairs({strsplit(":", itemString)}) do
+    if v == "" then
+      itemSplit[#itemSplit + 1] = 0
+    else
+      itemSplit[#itemSplit + 1] = tonumber(v)
+    end
+  end
+
+  return itemSplit
+end
+
+-- char size for utf8 strings
+local function chsize(char)
+  if not char then
+      return 0
+  elseif char > 240 then
+      return 4
+  elseif char > 225 then
+      return 3
+  elseif char > 192 then
+      return 2
+  else
+      return 1
+  end
 end
 
 -- SimC tokenize function
@@ -55,15 +106,21 @@ local function tokenize(str)
   -- keep stuff we want, dumpster everything else
   local s = ""
   for i=1,str:len() do
+    local b = str:byte(i)
     -- keep digits 0-9
-    if str:byte(i) >= 48 and str:byte(i) <= 57 then
+    if b >= 48 and b <= 57 then
       s = s .. str:sub(i,i)
       -- keep lowercase letters
-    elseif str:byte(i) >= 97 and str:byte(i) <= 122 then
+    elseif b >= 97 and b <= 122 then
       s = s .. str:sub(i,i)
       -- keep %, +, ., _
-    elseif str:byte(i)==37 or str:byte(i)==43 or str:byte(i)==46 or str:byte(i)==95 then
+    elseif b == 37 or b == 43 or b == 46 or b == 95 then
       s = s .. str:sub(i,i)
+      -- save all multibyte chars
+    elseif chsize(b) > 1 then
+      local offset = chsize(b) - 1
+      s = s .. str:sub(i, i + offset)
+      i = i + offset
     end
   end
   -- strip trailing spaces
@@ -124,11 +181,22 @@ local function IsArtifactFrameOpen()
   return ArtifactFrame and ArtifactFrame:IsShown() or false
 end
 
-function Simulationcraft:GetArtifactString()
-  local ArtifactFrame = _G.ArtifactFrame
+local function GetPowerData(powerId)
+  if not powerId then
+    return 0, 0
+  end
 
+  local powerInfo = ArtifactUI.GetPowerInfo(powerId)
+  if powerInfo == nil then
+    return powerId, 0
+  end
+
+  return powerId, powerInfo.currentRank - powerInfo.bonusRanks
+end
+
+function Simulationcraft:OpenArtifact()
   if not HasArtifactEquipped() then
-    return nil
+    return false, false, 0
   end
 
   local artifactFrameOpen = IsArtifactFrameOpen()
@@ -136,20 +204,22 @@ function Simulationcraft:GetArtifactString()
     SocketInventoryItem(INVSLOT_MAINHAND)
   end
 
+  local ArtifactFrame = _G.ArtifactFrame
+
   local itemId = select(1, ArtifactUI.GetArtifactInfo())
   if itemId == nil or itemId == 0 then
     if not artifactFrameOpen then
       HideUIPanel(ArtifactFrame)
     end
-    return nil
+    return false, false, 0
   end
 
-  if not select(1, IsUsableItem(itemId)) then
-    if not artifactFrameOpen then
-      HideUIPanel(ArtifactFrame)
-    end
-    return nil
-  end
+  -- if not select(1, IsUsableItem(itemId)) then
+  --   if not artifactFrameOpen then
+  --     HideUIPanel(ArtifactFrame)
+  --   end
+  --   return false, false, 0
+  -- end
 
   local mhId = select(1, GetInventoryItemID("player", GetInventorySlotInfo("MainHandSlot")))
   local ohId = select(1, GetInventoryItemID("player", GetInventorySlotInfo("SecondaryHandSlot")))
@@ -163,65 +233,173 @@ function Simulationcraft:GetArtifactString()
     itemId = select(1, ArtifactUI.GetArtifactInfo())
   end
 
+  return artifactFrameOpen, correctArtifactOpen, itemId
+end
+
+function Simulationcraft:CloseArtifactFrame(wasOpen, correctOpen)
+  local ArtifactFrame = _G.ArtifactFrame
+
+  if ArtifactFrame and (not wasOpen or not correctOpen) then
+    HideUIPanel(ArtifactFrame)
+  end
+end
+
+function Simulationcraft:GetCrucibleString()
+  local artifactFrameOpen, correctArtifactOpen, itemId = self:OpenArtifact()
+
+  if not itemId then
+    self:CloseArtifactFrame(artifactFrameOpen, correctArtifactOpen)
+    return nil
+  end
+
   local artifactId = artifactTable[itemId]
   if artifactId == nil then
+    self:CloseArtifactFrame(artifactFrameOpen, correctArtifactOpen)
+    return nil
+  end
+
+  local crucibleData = {}
+  for ridx = 1, ArtifactUI.GetNumRelicSlots() do
+    local link = select(4, ArtifactUI.GetRelicInfo(ridx))
+    if link ~= nil then
+      local relicSplit     = GetItemSplit(link)
+      local baseLink       = select(2, GetItemInfo(relicSplit[1]))
+      local basePowers     = { ArtifactUI.GetPowersAffectedByRelicItemLink(baseLink) }
+      local relicPowers    = { ArtifactUI.GetPowersAffectedByRelic(ridx) }
+      local cruciblePowers = {}
+
+      for rpidx = 1, #relicPowers do
+        local found = false
+        for bpidx = 1, #basePowers do
+          if relicPowers[rpidx] == basePowers[bpidx] then
+            found = true
+            break
+          end
+        end
+
+        if not found then
+          cruciblePowers[#cruciblePowers + 1] = relicPowers[rpidx]
+        end
+      end
+
+      if #cruciblePowers == 0 then
+        crucibleData[ridx] = { 0 }
+      else
+        crucibleData[ridx] = cruciblePowers
+      end
+    else
+      crucibleData[ridx] = { 0 }
+    end
+  end
+
+  local crucibleStrings = {}
+  for ridx = 1, #crucibleData do
+    crucibleStrings[ridx] = table.concat(crucibleData[ridx], ':')
+  end
+
+  self:CloseArtifactFrame(artifactFrameOpen, correctArtifactOpen)
+
+  return 'crucible=' .. table.concat(crucibleStrings, '/')
+end
+
+function Simulationcraft:GetArtifactString()
+  local artifactFrameOpen, correctArtifactOpen, itemId = self:OpenArtifact()
+
+  if not itemId then
+    self:CloseArtifactFrame(artifactFrameOpen, correctArtifactOpen)
+    return nil
+  end
+
+  local artifactId = artifactTable[itemId]
+  if artifactId == nil then
+    self:CloseArtifactFrame(artifactFrameOpen, correctArtifactOpen)
     return nil
   end
 
   -- Note, relics are handled by the item string
   local str = 'artifact=' .. artifactId .. ':0:0:0:0'
 
+  local baseRanks = {}
+  local crucibleRanks = {}
+
   local powers = ArtifactUI.GetPowers()
   for i = 1, #powers do
-    local powerId = powers[i]
-    local powerInfo = ArtifactUI.GetPowerInfo(powerId)
-    if powerInfo ~= nil and powerInfo.currentRank > 0 and powerInfo.currentRank - powerInfo.bonusRanks > 0 then
-      str = str .. ':' .. powerId .. ':' .. (powerInfo.currentRank - powerInfo.bonusRanks)
+    local powerId, powerRank = GetPowerData(powers[i])
+
+    if powerRank > 0 then
+      baseRanks[#baseRanks + 1] = powerId
+      baseRanks[#baseRanks + 1] = powerRank
     end
   end
 
-  if not artifactFrameOpen or not correctArtifactOpen then
-    HideUIPanel(ArtifactFrame)
+  if #baseRanks > 0 then
+    str = str .. ':' .. table.concat(baseRanks, ':')
   end
+
+  self:CloseArtifactFrame(artifactFrameOpen, correctArtifactOpen)
 
   return str
 end
 
 -- =================== Item Information =========================
-
-local function GetItemStringFromItemLink(slotNum, itemLink)
-  local itemString = string.match(itemLink, "item:([%-?%d:]+)")
-  local itemSplit = {}
-  local simcItemOptions = {}
-
-  -- Split data into a table
-  for v in string.gmatch(itemString, "(%d*:?)") do
-    if v == ":" then
-      itemSplit[#itemSplit + 1] = 0
-    else
-      itemSplit[#itemSplit + 1] = string.gsub(v, ':', '')
+local function GetGemItemID(itemLink, index)
+  local _, gemLink = GetItemGem(itemLink, index)
+  if gemLink ~= nil then
+    local itemIdStr = string.match(gemLink, "item:(%d+)")
+    if itemIdStr ~= nil then
+      return tonumber(itemIdStr)
     end
   end
+
+  return 0
+end
+
+local function GetItemStringFromItemLink(slotNum, itemLink, debugOutput)
+  local itemSplit = GetItemSplit(itemLink)
+  local simcItemOptions = {}
+  local gems = {}
 
   -- Item id
   local itemId = itemSplit[OFFSET_ITEM_ID]
   simcItemOptions[#simcItemOptions + 1] = ',id=' .. itemId
 
   -- Enchant
-  if tonumber(itemSplit[OFFSET_ENCHANT_ID]) > 0 then
+  if itemSplit[OFFSET_ENCHANT_ID] > 0 then
     simcItemOptions[#simcItemOptions + 1] = 'enchant_id=' .. itemSplit[OFFSET_ENCHANT_ID]
   end
 
+  -- Gems
+  for gemOffset = OFFSET_GEM_ID_1, OFFSET_GEM_ID_4 do
+    local gemIndex = (gemOffset - OFFSET_GEM_BASE) + 1
+    if itemSplit[gemOffset] > 0 then
+      local gemId = GetGemItemID(itemLink, gemIndex)
+      if gemId > 0 then
+        gems[gemIndex] = gemId
+      end
+    else
+      gems[gemIndex] = 0
+    end
+  end
+
+  -- Remove any trailing zeros from the gems array
+  while #gems > 0 and gems[#gems] == 0 do
+    table.remove(gems, #gems)
+  end
+
+  if #gems > 0 then
+    simcItemOptions[#simcItemOptions + 1] = 'gem_id=' .. table.concat(gems, '/')
+  end
+
   -- New style item suffix, old suffix style not supported
-  if tonumber(itemSplit[OFFSET_SUFFIX_ID]) ~= 0 then
+  if itemSplit[OFFSET_SUFFIX_ID] ~= 0 then
     simcItemOptions[#simcItemOptions + 1] = 'suffix=' .. itemSplit[OFFSET_SUFFIX_ID]
   end
 
-  local flags = tonumber(itemSplit[OFFSET_FLAGS])
+  local flags = itemSplit[OFFSET_FLAGS]
 
   local bonuses = {}
 
-  for index=1, tonumber(itemSplit[OFFSET_BONUS_ID]) do
+  for index=1, itemSplit[OFFSET_BONUS_ID] do
     bonuses[#bonuses + 1] = itemSplit[OFFSET_BONUS_ID + index]
   end
 
@@ -229,76 +407,74 @@ local function GetItemStringFromItemLink(slotNum, itemLink)
     simcItemOptions[#simcItemOptions + 1] = 'bonus_id=' .. table.concat(bonuses, '/')
   end
 
-  local rest_offset = OFFSET_BONUS_ID + #bonuses + 1
+  local linkOffset = OFFSET_BONUS_ID + #bonuses + 1
 
   -- Upgrade level
   if bit.band(flags, 0x4) == 0x4 then
-    local upgrade_id = tonumber(itemSplit[rest_offset])
-    if upgradeTable and upgradeTable[upgrade_id] ~= nil and upgradeTable[upgrade_id] > 0 then
-      simcItemOptions[#simcItemOptions + 1] = 'upgrade=' .. upgradeTable[upgrade_id]
+    local upgradeId = itemSplit[linkOffset]
+    if upgradeTable and upgradeTable[upgradeId] ~= nil and upgradeTable[upgradeId] > 0 then
+      simcItemOptions[#simcItemOptions + 1] = 'upgrade=' .. upgradeTable[upgradeId]
     end
-    rest_offset = rest_offset + 1
+    linkOffset = linkOffset + 1
   end
 
   -- Artifacts use this
   if bit.band(flags, 0x100) == 0x100 then
-    rest_offset = rest_offset + 1 -- An unknown field
+    linkOffset = linkOffset + 1 -- An unknown field
     -- 7.2 added a new field to the item string if additional trait ranks are attained
     -- for the artifact.
     if bit.band(flags, 0x1000000) == 0x1000000 then
-      rest_offset = rest_offset + 1
+      linkOffset = linkOffset + 1
     end
-    local relic_str = ''
-    while rest_offset < #itemSplit do
-      local n_bonus_ids = tonumber(itemSplit[rest_offset])
-      rest_offset = rest_offset + 1
 
-      if n_bonus_ids == 0 then
-        relic_str = relic_str .. 0
+    -- Relic bonus ids, relic item ids handled by gems
+    local relicStrs = {}
+    local relicIndex = 1
+    while linkOffset < #itemSplit do
+      local nBonusIds = itemSplit[linkOffset]
+      linkOffset = linkOffset + 1
+
+      if nBonusIds == 0 then
+        relicStrs[relicIndex] = "0"
       else
-        for rbid = 1, n_bonus_ids do
-          relic_str = relic_str .. itemSplit[rest_offset]
-          if rbid < n_bonus_ids then
-            relic_str = relic_str .. ':'
-          end
-          rest_offset = rest_offset + 1
+        local relicBonusIds = {}
+        for rbid = 1, nBonusIds do
+          relicBonusIds[#relicBonusIds + 1] = itemSplit[linkOffset]
+          linkOffset = linkOffset + 1
         end
+
+        relicStrs[relicIndex] = table.concat(relicBonusIds, ':')
       end
 
-      if rest_offset < #itemSplit then
-        relic_str = relic_str .. '/'
-      end
+      relicIndex = relicIndex + 1
     end
 
-    if relic_str ~= '' then
-      simcItemOptions[#simcItemOptions + 1] = 'relic_id=' .. relic_str
+    -- Remove any trailing zeros from the relic ids array
+    while #relicStrs > 0 and relicStrs[#relicStrs] == "0" do
+      table.remove(relicStrs, #relicStrs)
+    end
+
+    if #relicStrs > 0 then
+      simcItemOptions[#simcItemOptions + 1] = 'relic_id=' .. table.concat(relicStrs, '/')
     end
   end
 
   -- Some leveling quest items seem to use this, it'll include the drop level of the item
   if bit.band(flags, 0x200) == 0x200 then
-    simcItemOptions[#simcItemOptions + 1] = 'drop_level=' .. itemSplit[rest_offset]
-    rest_offset = rest_offset + 1
+    simcItemOptions[#simcItemOptions + 1] = 'drop_level=' .. itemSplit[linkOffset]
+    linkOffset = linkOffset + 1
   end
 
-  -- Gems
-  local gems = {}
-  for i=1, 4 do -- hardcoded here to just grab all 4 sockets
-    local _,gemLink = GetItemGem(itemLink, i)
-    if gemLink then
-      local gemDetail = string.match(gemLink, "item[%-?%d:]+")
-      gems[#gems + 1] = string.match(gemDetail, "item:(%d+):" )
-    elseif bit.band(flags, 0x100) == 0x100 then
-      gems[#gems + 1] = "0"
-    end
+  local itemStr = ''
+  if debugOutput then
+    itemStr = itemStr .. '# ' .. itemString .. '\n'
   end
-  if #gems > 0 then
-    simcItemOptions[#simcItemOptions + 1] = 'gem_id=' .. table.concat(gems, '/')
-  end
-  return simcSlotNames[slotNum] .. "=" .. table.concat(simcItemOptions, ',')
+  itemStr = itemStr .. simcSlotNames[slotNum] .. "=" .. table.concat(simcItemOptions, ',')
+
+  return itemStr
 end
 
-function Simulationcraft:GetItemStrings()
+function Simulationcraft:GetItemStrings(debugOutput)
   local items = {}
   for slotNum=1, #slotNames do
     local slotId = GetInventorySlotInfo(slotNames[slotNum])
@@ -306,7 +482,7 @@ function Simulationcraft:GetItemStrings()
 
     -- if we don't have an item link, we don't care
     if itemLink then
-      items[slotNum] = GetItemStringFromItemLink(slotNum, itemLink)
+      items[slotNum] = GetItemStringFromItemLink(slotNum, itemLink, debugOutput)
     end
   end
 
@@ -325,15 +501,32 @@ function Simulationcraft:GetBagItemStrings()
       GetInventoryItemsForSlot(slotId, slotItems)
       for locationBitstring, itemID in pairs(slotItems) do
         local player, bank, bags, voidstorage, slot, bag = EquipmentManager_UnpackLocation(locationBitstring)
-        if bags then
-          _, _, _, _, _, _, itemLink, _, _, itemId = GetContainerItemInfo(bag, slot)
+        if bags or bank then
+          local container
+          if bags then
+            container = bag
+          elseif bank then
+            -- Default bank slots (the innate ones, not ones from bags-in-the-bank) are weird
+            -- slot starts at 39, I believe that is based on some older location values
+            -- GetContainerItemInfo uses a 0-based slot index
+            -- So take the slot from the unpack and subtract 39 to get the right index for GetContainerItemInfo.
+            -- 2018/01/17 - Change magic number to 47 to account for new backpack slots. Not sure why it went up by 8
+            -- instead of 4, possible blizz is leaving the door open to more expansion in the future?
+            container = BANK_CONTAINER
+            slot = slot - 47
+          end
+          _, _, _, _, _, _, itemLink, _, _, itemId = GetContainerItemInfo(container, slot)
           if itemLink then
             local name, link, quality, iLevel, reqLevel, class, subclass, maxStack, equipSlot, texture, vendorPrice = GetItemInfo(itemLink)
+
+            -- get correct level for scaling gear
+            local level = ItemUpgradeInfo:GetUpgradedItemLevel(link) or 0
+
             -- find all equippable, non-artifact items
             if IsEquippableItem(itemLink) and quality ~= 6 then
               bagItems[#bagItems + 1] = {
-                string = GetItemStringFromItemLink(slotNum, itemLink),
-                name = name .. ' (' .. iLevel .. ')'
+                string = GetItemStringFromItemLink(slotNum, itemLink, false),
+                name = name .. ' (' .. level .. ')'
               }
             end
           end
@@ -346,13 +539,24 @@ function Simulationcraft:GetBagItemStrings()
 end
 
 -- This is the workhorse function that constructs the profile
-function Simulationcraft:PrintSimcProfile()
+function Simulationcraft:PrintSimcProfile(debugOutput, noBags)
+  -- addon metadata
+  local versionComment = '# SimC Addon ' .. GetAddOnMetadata('Simulationcraft', 'Version')
+
   -- Basic player info
+  local _, realmName, _, _, _, _, region, _, _, realmLatinName, _ = LibRealmInfo:GetRealmInfoByUnit('player')
+
   local playerName = UnitName('player')
   local _, playerClass = UnitClass('player')
   local playerLevel = UnitLevel('player')
-  local playerRealm = GetRealmName()
-  local playerRegion = regionString[GetCurrentRegion()]
+
+  -- Try Latin name for Russian servers first, then realm name from LibRealmInfo, then Realm Name from the game
+  -- Latin name for Russian servers as most APIs use the latin name, not the cyrillic name
+  local playerRealm = realmLatinName or realmName or GetRealmName()
+
+  -- Try region from LibRealmInfo first, then use default API
+  -- Default API can be wrong for region-switching players
+  local playerRegion = region or regionString[GetCurrentRegion()]
 
   -- Race info
   local _, playerRace = UnitRace('player')
@@ -411,9 +615,12 @@ function Simulationcraft:PrintSimcProfile()
   -- Talents are more involved - method to handle them
   local playerTalents = CreateSimcTalentString()
   local playerArtifact = self:GetArtifactString()
+  local playerCrucible = self:GetCrucibleString()
 
   -- Build the output string for the player (not including gear)
-  local simulationcraftProfile = player .. '\n'
+  local simulationcraftProfile = versionComment .. '\n'
+  simulationcraftProfile = simulationcraftProfile .. '\n'
+  simulationcraftProfile = simulationcraftProfile .. player .. '\n'
   simulationcraftProfile = simulationcraftProfile .. playerLevel .. '\n'
   simulationcraftProfile = simulationcraftProfile .. playerRace .. '\n'
   simulationcraftProfile = simulationcraftProfile .. playerRegion .. '\n'
@@ -425,10 +632,13 @@ function Simulationcraft:PrintSimcProfile()
   if playerArtifact ~= nil then
     simulationcraftProfile = simulationcraftProfile .. playerArtifact .. '\n'
   end
+  if playerCrucible ~= nil then
+    simulationcraftProfile = simulationcraftProfile .. playerCrucible .. '\n'
+  end
   simulationcraftProfile = simulationcraftProfile .. '\n'
 
   -- Method that gets gear information
-  local items = Simulationcraft:GetItemStrings()
+  local items = Simulationcraft:GetItemStrings(debugOutput)
 
   -- output gear
   for slotNum=1, #slotNames do
@@ -440,14 +650,16 @@ function Simulationcraft:PrintSimcProfile()
   simulationcraftProfile = simulationcraftProfile .. '\n'
 
   -- output gear from bags
-  local bagItems = Simulationcraft:GetBagItemStrings()
+  if noBags == false then
+    local bagItems = Simulationcraft:GetBagItemStrings()
 
-  simulationcraftProfile = simulationcraftProfile .. '### Gear from Bags\n'
-  simulationcraftProfile = simulationcraftProfile .. '#\n'
-  for i=1, #bagItems do
-    simulationcraftProfile = simulationcraftProfile .. '# ' .. bagItems[i].name .. '\n'
-    simulationcraftProfile = simulationcraftProfile .. '# ' .. bagItems[i].string .. '\n'
+    simulationcraftProfile = simulationcraftProfile .. '### Gear from Bags\n'
     simulationcraftProfile = simulationcraftProfile .. '#\n'
+    for i=1, #bagItems do
+      simulationcraftProfile = simulationcraftProfile .. '# ' .. bagItems[i].name .. '\n'
+      simulationcraftProfile = simulationcraftProfile .. '# ' .. bagItems[i].string .. '\n'
+      simulationcraftProfile = simulationcraftProfile .. '#\n'
+    end
   end
 
   -- sanity checks - if there's anything that makes the output completely invalid, punt!
@@ -461,4 +673,7 @@ function Simulationcraft:PrintSimcProfile()
   SimcCopyFrameScrollText:Show()
   SimcCopyFrameScrollText:SetText(simulationcraftProfile)
   SimcCopyFrameScrollText:HighlightText()
+  SimcCopyFrameScrollText:SetScript("OnEscapePressed", function(self)
+    SimcCopyFrame:Hide()
+  end)
 end

@@ -82,7 +82,7 @@ L.Warn_FontType				= "Choisir une police"
 L.Warn_FontStyle			= "Contours de la police"
 L.Warn_FontShadow			= "Ombre"
 L.Warn_FontSize				= "Taille de la police: %d"
-L.Warn_Duration				= "Durée de l'alerte: %d sec"
+L.Warn_Duration				= "Durée de l'alerte: %0.1f sec"
 L.None						= "Aucun"
 L.Outline					= "Simple"
 L.ThickOutline				= "Epais"
@@ -184,21 +184,6 @@ L.SpecialWarnSound3			= "Son des alertes spéciales TRES IMPORTANTES"
 L.SpecialWarnSound4			= "Son des alertes spéciales de fuite"
 L.SpecialWarnSound5			= "Son des alertes spéciales avec des notes contenant votre nom"
 
--- Tab: Heads Up Display Frame
-L.Panel_HUD					= "Affichages tête haute(HUD)"
-L.Area_HUDOptions			= "Options du HUD"
-L.HUDColorOverride			= "Outrepasser les paramètres de couleurs du mod pour le HUD"
-L.HUDSizeOverride			= "Outrepasser les paramètres de tailles du mod pour le HUD"
-L.HUDAlphaOverride			= "Outrepasser les paramètres de transparence du mod pour le HUD"
-L.HUDTextureOverride		= "Outrepasser les paramètres de textures du mod pour le HUD (ne s'applique pas aux icônes)"
-L.HUDColorSelect			= "Couleur du HUD %d"
-L.HUDTextureSelect1			= "Texture du 1er HUD"
-L.HUDTextureSelect2			= "Texture du 2e HUD"
-L.HUDTextureSelect3			= "Texture du 3e HUD"
-L.HUDTextureSelect4			= "Texture de l'HUD 'courir vers'"
-L.HUDSizeSlider				= "Rayon du cercle: %0.1f"
-L.HUDAlphaSlider			= "Transparence: %0.1f"
-
 -- Tab: Spoken Alerts Frame
 L.Panel_SpokenAlerts		= "Alertes Vocales"
 L.Area_VoiceSelection		= "Sélection des voix"
@@ -215,14 +200,6 @@ L.SWFAll					= "quand les alertes spéciales jouent n'importe quel son"
 L.SpecWarn_AlwaysVoice		= "Toujours jouer toutes les alertes vocales (Outrepasse les options par boss. Utile pour les RL)"
 --TODO, maybe add URLS right to GUI panel on where to acquire 3rd party voice packs?
 
--- Tab: HealthFrame
-L.Panel_HPFrame				= "Cadre des vies"
-L.Area_HPFrame				= "Options du cadre des vies"
-L.HP_Enabled				= "Toujours afficher le cadre (Outrepasse l'option par boss)"
-L.HP_GrowUpwards			= "Décaler vers le haut"
-L.HP_ShowDemo				= "Aff. le cadre"
-L.BarWidth					= "Longueur des barres : %d"
-
 -- Tab: Global Filter
 L.Panel_SpamFilter			= "Filtres globaux et de spam"
 L.Area_SpamFilter_Outgoing	= "Options des filtres globaux"
@@ -234,7 +211,6 @@ L.SpamBlockNoSetIcon		= "Ne pas placer d'icônes sur les cibles"
 L.SpamBlockNoRangeFrame		= "Ne pas afficher le cadre des portées"
 L.SpamBlockNoInfoFrame		= "Ne pas afficher le cadre d'information"
 L.SpamBlockNoHudMap			= "Do not show HudMap"
-L.SpamBlockNoHealthFrame	= "Ne pas afficher le cadre des vies"
 L.SpamBlockNoCountdowns		= "Ne pas jouer le son du compte à rebours"
 L.SpamBlockNoYells			= "Ne pas envoyer de cris dans le chat"
 L.SpamBlockNoNoteSync		= "Ne pas accepter les notes partagées"
@@ -247,7 +223,6 @@ L.SpamBlockNoRangeRestore	= "Ne pas restaurer le radar de portée quand les addo
 L.Area_SpamFilter			= "Options des filtres de spam"
 L.DontShowFarWarnings		= "Ne pas afficher les annonces/timers pour les événements distants"
 L.StripServerName			= "Ne pas afficher le royaume sur les alertes et les timers"
-L.SpamBlockBossWhispers		= "Filtrer les chuchotements d'alerte &lt;DBM&gt; pendant les rencontres"
 L.BlockVersionUpdateNotice	= "Désactiver le popup de notification de mise à jour"
 
 L.Area_SpecFilter			= "Options du filtre de Spécialisation"
@@ -273,7 +248,6 @@ L.HideGarrisonUpdates		= "Masque les notifications de fief pendant les combats d
 L.HideGuildChallengeUpdates	= "Masque les notifications de défis de guilde pendant les combats de boss"
 L.HideTooltips				= "Masquer le cadre d'information pendant les combats contre un boss"
 L.DisableSFX				= "Désactive le canal des effets sonores pendant les boss" --was missing
-L.SpamBlockSayYell			= "Masquer les annonces des onglets de chat de la fenêtre de discussion pendant les combats contre un boss"
 L.DisableCinematics			= "Désactiver les cinématiques en jeu"
 L.AfterFirst				= "Après que la cinématique ait été jouée une fois"
 L.Always					= "Toujours"
@@ -294,7 +268,6 @@ L.AutoReplySound			= "Jouer un son d'alerte lorsque vous recevez une réponse au
 --
 L.TimerGeneral 				= "Options des timers"
 L.SKT_Enabled				= "Afficher le timer du record pour lecombat actuel s'il est disponible"
-L.CRT_Enabled				= "Afficher le timer de la prochaine charge de resurrection en combat"
 L.ShowRespawn				= "Afficher le timer de la réapparition du boss après un wipe"
 L.ShowQueuePop				= "Afficher le timer du temps restant pour accepter l'invitation (LFG,BG,etc)"
 L.ChallengeTimerOptions		= "Réglage du timer du meilleur temps en challenge mode"

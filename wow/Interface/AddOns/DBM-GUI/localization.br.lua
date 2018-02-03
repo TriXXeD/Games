@@ -59,7 +59,6 @@ L.Latency_Text				= "Definir latência máxima de sincronização: %d"
 -- Tab: General Timer Options
 L.TimerGeneral 				= "Opções gerais do temporizador do DBM"
 L.SKT_Enabled				= "Sempre mostrar um temporizador de sua vitória recorde (Sobrepõe a opção do chefe específico)"
-L.CRT_Enabled				= "Mostrar um temporizador para a próxima carga de ressureição em combate(apenas nas dificuldades 6.x)"
 L.ChallengeTimerOptions		= "Colocar opção para temporizador de melhor tempo em modo desafio"
 L.ChallengeTimerPersonal	= "Pessoal"
 L.ChallengeTimerRealm		= "Reino"
@@ -96,7 +95,7 @@ L.Warn_FontType				= "Escolha fonte"
 L.Warn_FontStyle			= "Bandeira de fonte (flags)"
 L.Warn_FontShadow			= "Sombra da fonte"
 L.Warn_FontSize				= "Tamanho da fonte: %d"
-L.Warn_Duration				= "duração do aviso: %d seg"
+L.Warn_Duration				= "duração do aviso: %0.1f seg"
 L.None						= "nada"
 L.Outline					= "Contorno"
 L.ThickOutline				= "Espessura do contorno"
@@ -198,15 +197,6 @@ L.SpecWarn_AlwaysVoice		= "Sempre tocar todos os avisos falados (Substitui opç�
 --TODO, maybe add URLS right to GUI panel on where to acquire 3rd party voice packs? talvez ...
 
 
--- Tab: HealthFrame
-L.Panel_HPFrame				= "Quadro de Vida"
-L.Area_HPFrame				= "Opções do Quadro de Vida"
-L.HP_Enabled				= "Sempre exibir quadro de vida (Sobrepõe opção específica por chefe)"
-L.HP_GrowUpwards			= "Expandir quadro de vida para cima"
-L.HP_ShowDemo				= "Exibir quadro de vida"
-L.BarWidth					= "Largura da barra: %d"
-
-
 -- Tab: Global Filter
 L.Panel_SpamFilter			= "DBM Desligamentos globais & filtros"
 L.Area_SpamFilter_Outgoing	= "DBM opções de desligamentos globais & filtros"
@@ -215,7 +205,6 @@ L.SpamBlockNoSetIcon		= "Não marcar jogadores com ícones"
 L.SpamBlockNoRangeFrame		= "Não exibir quadro de distancia"
 L.SpamBlockNoInfoFrame		= "Não exibir quadro de informação"
 L.SpamBlockNoHudMap			= "Não mostrar mapas HudMap (heads up display Map)"
-L.SpamBlockNoHealthFrame	= "Não exibir quadros de vida"
 L.SpamBlockNoCountdowns		= "Não tocar sons de contagem regressiva"
 L.SpamBlockNoIconRestore	= "Não guardar estado dos ícones e restaura-los ao fim do combate"
 L.SpamBlockNoRangeRestore	= "Não restaurar o quadro de distancia para o estado anterior ( show/hide ) quando a mod pedir hide'"
@@ -226,7 +215,6 @@ L.Panel_SpamFilter			= "Filtros Global e de Spam"
 L.Area_SpamFilter			= "Opções do filtro Global"
 L.DontShowFarWarnings		= "Não exibir anúncios/temporizadores para eventos que estão longe"
 L.StripServerName			= "Tira com nome do reino em avisos e temporizadores"
-L.SpamBlockBossWhispers		= "Filtra &lt;DBM&gt; avisos de sussurro enquanto estiver lutando"
 L.BlockVersionUpdateNotice	= "Desabilitar popup de notificação de atualização (Não recomendado)"
 
 
@@ -254,7 +242,6 @@ L.HideGuildChallengeUpdates	= "Esconde o quadro de desafio de guilda durante a l
 L.HideTooltips				= "Esconder as dicas durante as lutas contra os chefes"
 
 L.DisableSFX				= "Desativa o canal de efeitos sonoros durante lutas contra chefes"
-L.SpamBlockSayYell			= "Esconder os anúncios de balões de chat do quadro de chat"
 L.DisableCinematics			= "Esconder as cinematics in-game"
 L.AfterFirst				= "Depois que o vídeo for assistido uma vez"
 

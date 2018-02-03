@@ -38,16 +38,14 @@ L["STRING_ATTRIBUTE_DAMAGE_FRAGS"] = "Todesstöße"
 L["STRING_ATTRIBUTE_DAMAGE_FRIENDLYFIRE"] = "Eigenbeschuss"
 L["STRING_ATTRIBUTE_DAMAGE_TAKEN"] = "Erlittener Schaden"
 L["STRING_ATTRIBUTE_ENERGY"] = "Ressourcen"
---Translation missing 
--- L["STRING_ATTRIBUTE_ENERGY_ALTERNATEPOWER"] = ""
+L["STRING_ATTRIBUTE_ENERGY_ALTERNATEPOWER"] = "Alternative Energie"
 L["STRING_ATTRIBUTE_ENERGY_ENERGY"] = "Erzeugte Energie"
 L["STRING_ATTRIBUTE_ENERGY_MANA"] = "Wiederhergestelltes Mana"
 L["STRING_ATTRIBUTE_ENERGY_RAGE"] = "Erzeugte Wut"
 L["STRING_ATTRIBUTE_ENERGY_RESOURCES"] = "Andere Ressourcen"
 L["STRING_ATTRIBUTE_ENERGY_RUNEPOWER"] = "Erzeugte Runenmacht"
 L["STRING_ATTRIBUTE_HEAL"] = "Heilung"
---Translation missing 
--- L["STRING_ATTRIBUTE_HEAL_ABSORBED"] = ""
+L["STRING_ATTRIBUTE_HEAL_ABSORBED"] = "Absorbierte Heilung"
 L["STRING_ATTRIBUTE_HEAL_DONE"] = "Gewirkte Heilung"
 L["STRING_ATTRIBUTE_HEAL_ENEMY"] = "Gegnerische Gewirkte Heilung"
 L["STRING_ATTRIBUTE_HEAL_HPS"] = "HPS"
@@ -87,6 +85,7 @@ L["STRING_CLOSEALL"] = "Alle Details!-Fenster sind geschlossen, schreibe '/detai
 L["STRING_COLOR"] = "Farbe"
 L["STRING_COMMAND_LIST"] = "Befehlsliste"
 L["STRING_COOLTIP_NOOPTIONS"] = "Keine Optionen"
+L["STRING_CREATEAURA"] = "Aura erstellen"
 L["STRING_CRITICAL_HITS"] = "Kritische Treffer"
 L["STRING_CRITICAL_ONLY"] = "kritisch"
 L["STRING_CURRENT"] = "Aktuell"
@@ -109,8 +108,7 @@ L["STRING_CUSTOM_CREATE"] = "Erstellen"
 L["STRING_CUSTOM_CREATED"] = "Die neue Anzeige wurde erstellt."
 L["STRING_CUSTOM_DAMAGEONANYMARKEDTARGET"] = "Schaden auf anderweitig markierte Ziele"
 L["STRING_CUSTOM_DAMAGEONANYMARKEDTARGET_DESC"] = "Zeigt den Schaden, der anderweitig markierten Zielen zugefügt wurde."
---Translation missing 
--- L["STRING_CUSTOM_DAMAGEONSHIELDS"] = ""
+L["STRING_CUSTOM_DAMAGEONSHIELDS"] = "Schaden auf Schilde"
 L["STRING_CUSTOM_DAMAGEONSKULL"] = "Schaden auf mit dem Totenschädel markierte Ziele"
 L["STRING_CUSTOM_DAMAGEONSKULL_DESC"] = "Zeigt den Schaden, der mit Totenkopf markierten Zielen zugefügt wurde"
 L["STRING_CUSTOM_DESCRIPTION"] = "Beschreibung:"
@@ -118,8 +116,7 @@ L["STRING_CUSTOM_DESCRIPTION_DESC"] = "Beschreibung, was diese Anzeige macht."
 L["STRING_CUSTOM_DONE"] = "Fertig"
 L["STRING_CUSTOM_DTBS"] = "Erlittener Schaden von Zauber"
 L["STRING_CUSTOM_DTBS_DESC"] = "Zeigt den Schaden von feindlichen Zaubern gegen deine Gruppe. "
---Translation missing 
--- L["STRING_CUSTOM_DYNAMICOVERAL"] = ""
+L["STRING_CUSTOM_DYNAMICOVERAL"] = "Dynamischer Gesamtschaden"
 L["STRING_CUSTOM_EDIT"] = "Bearbeiten"
 L["STRING_CUSTOM_EDIT_SEARCH_CODE"] = "Suchcode bearbeiten"
 L["STRING_CUSTOM_EDIT_TOOLTIP_CODE"] = "Tooltip-Code bearbeiten"
@@ -205,90 +202,71 @@ L["STRING_FEEDBACK_PREFERED_SITE"] = "Wähle deine bevorzugte Community-Seite:"
 L["STRING_FEEDBACK_SEND_FEEDBACK"] = "Sende eine Rückmeldung"
 L["STRING_FEEDBACK_WOWI_DESC"] = "Schreibe ein Kommentar auf der Details!-Projektseite."
 L["STRING_FIGHTNUMBER"] = "Kampf #"
+L["STRING_FORGE_BUTTON_ALLSPELLS"] = "Alle Zauber"
+L["STRING_FORGE_BUTTON_ALLSPELLS_DESC"] = "Listet alle Zauber von Spielern und NSCs."
+L["STRING_FORGE_BUTTON_BWTIMERS"] = "BigWigs-Timer"
+L["STRING_FORGE_BUTTON_BWTIMERS_DESC"] = "Listet Timer von BigWigs auf"
+L["STRING_FORGE_BUTTON_DBMTIMERS"] = "DBM-Timer"
+L["STRING_FORGE_BUTTON_DBMTIMERS_DESC"] = "Listet Timer von Deadly Boss Mods auf"
+L["STRING_FORGE_BUTTON_ENCOUNTERSPELLS"] = "Bosszauber"
+L["STRING_FORGE_BUTTON_ENCOUNTERSPELLS_DESC"] = "Listet nur Zauber von Schlachtzugs- und Dungeon-Kämpfen auf."
+L["STRING_FORGE_BUTTON_ENEMIES"] = "Gegner"
+L["STRING_FORGE_BUTTON_ENEMIES_DESC"] = "Listet Gegner des aktuellen Kampfes auf."
+L["STRING_FORGE_BUTTON_PETS"] = "Begleiter"
+L["STRING_FORGE_BUTTON_PETS_DESC"] = "Listet Begleiter des aktuellen Kampfes auf."
+L["STRING_FORGE_BUTTON_PLAYERS"] = "Spieler"
+L["STRING_FORGE_BUTTON_PLAYERS_DESC"] = "Listet Spieler des aktuellen Kampfes auf."
+L["STRING_FORGE_ENABLEPLUGINS"] = "\"Bitte aktiviere die Details!-Module mit Schlachtzugsnamen im Escape-Menü > AddOns, z.B. Details: Tomb of Sargeras.\""
+L["STRING_FORGE_FILTER_BARTEXT"] = "Leistenname"
+L["STRING_FORGE_FILTER_CASTERNAME"] = "Zauberwirker-Name"
+L["STRING_FORGE_FILTER_ENCOUNTERNAME"] = "Begegnungsname"
+L["STRING_FORGE_FILTER_ENEMYNAME"] = "Gegnername"
+L["STRING_FORGE_FILTER_OWNERNAME"] = "Besitzername"
+L["STRING_FORGE_FILTER_PETNAME"] = "Begleitername"
+L["STRING_FORGE_FILTER_PLAYERNAME"] = "Spielername"
+L["STRING_FORGE_FILTER_SPELLNAME"] = "Zaubername"
+L["STRING_FORGE_HEADER_BARTEXT"] = "Leistentext"
+L["STRING_FORGE_HEADER_CASTER"] = "Zauberwirker"
+L["STRING_FORGE_HEADER_CLASS"] = "Klasse"
+L["STRING_FORGE_HEADER_CREATEAURA"] = "Aura erstellen"
+L["STRING_FORGE_HEADER_ENCOUNTERID"] = "Begegnungs-ID"
+L["STRING_FORGE_HEADER_ENCOUNTERNAME"] = "Begegnungsname"
+L["STRING_FORGE_HEADER_EVENT"] = "Ereignis"
+L["STRING_FORGE_HEADER_FLAG"] = "Flag"
+L["STRING_FORGE_HEADER_GUID"] = "GUID"
+L["STRING_FORGE_HEADER_ICON"] = "Symbol"
+L["STRING_FORGE_HEADER_ID"] = "ID"
+L["STRING_FORGE_HEADER_INDEX"] = "Index"
+L["STRING_FORGE_HEADER_NAME"] = "Name"
+L["STRING_FORGE_HEADER_NPCID"] = "NSC-ID"
+L["STRING_FORGE_HEADER_OWNER"] = "Besitzer"
+L["STRING_FORGE_HEADER_SCHOOL"] = "Kategorie"
+L["STRING_FORGE_HEADER_SPELLID"] = "Zauber-ID"
+L["STRING_FORGE_HEADER_TIMER"] = "Timer"
 --Translation missing 
--- L["STRING_FORGE_BUTTON_ALLSPELLS"] = ""
---Translation missing 
--- L["STRING_FORGE_BUTTON_ALLSPELLS_DESC"] = ""
---Translation missing 
--- L["STRING_FORGE_BUTTON_BWTIMERS"] = ""
---Translation missing 
--- L["STRING_FORGE_BUTTON_BWTIMERS_DESC"] = ""
---Translation missing 
--- L["STRING_FORGE_BUTTON_DBMTIMERS"] = ""
---Translation missing 
--- L["STRING_FORGE_BUTTON_DBMTIMERS_DESC"] = ""
---Translation missing 
--- L["STRING_FORGE_BUTTON_ENCOUNTERSPELLS"] = ""
---Translation missing 
--- L["STRING_FORGE_BUTTON_ENCOUNTERSPELLS_DESC"] = ""
---Translation missing 
--- L["STRING_FORGE_BUTTON_ENEMIES"] = ""
---Translation missing 
--- L["STRING_FORGE_BUTTON_ENEMIES_DESC"] = ""
---Translation missing 
--- L["STRING_FORGE_BUTTON_PETS"] = ""
---Translation missing 
--- L["STRING_FORGE_BUTTON_PETS_DESC"] = ""
---Translation missing 
--- L["STRING_FORGE_BUTTON_PLAYERS"] = ""
---Translation missing 
--- L["STRING_FORGE_BUTTON_PLAYERS_DESC"] = ""
---Translation missing 
--- L["STRING_FORGE_ENABLEPLUGINS"] = ""
---Translation missing 
--- L["STRING_FORGE_FILTER_BARTEXT"] = ""
---Translation missing 
--- L["STRING_FORGE_FILTER_CASTERNAME"] = ""
---Translation missing 
--- L["STRING_FORGE_FILTER_ENCOUNTERNAME"] = ""
---Translation missing 
--- L["STRING_FORGE_FILTER_ENEMYNAME"] = ""
---Translation missing 
--- L["STRING_FORGE_FILTER_OWNERNAME"] = ""
---Translation missing 
--- L["STRING_FORGE_FILTER_PETNAME"] = ""
---Translation missing 
--- L["STRING_FORGE_FILTER_PLAYERNAME"] = ""
---Translation missing 
--- L["STRING_FORGE_FILTER_SPELLNAME"] = ""
---Translation missing 
--- L["STRING_FORGE_HEADER_BARTEXT"] = ""
---Translation missing 
--- L["STRING_FORGE_HEADER_CASTER"] = ""
---Translation missing 
--- L["STRING_FORGE_HEADER_CLASS"] = ""
---Translation missing 
--- L["STRING_FORGE_HEADER_CREATEAURA"] = ""
---Translation missing 
--- L["STRING_FORGE_HEADER_ENCOUNTERID"] = ""
---Translation missing 
--- L["STRING_FORGE_HEADER_ENCOUNTERNAME"] = ""
---Translation missing 
--- L["STRING_FORGE_HEADER_EVENT"] = ""
---Translation missing 
--- L["STRING_FORGE_HEADER_FLAG"] = ""
---Translation missing 
--- L["STRING_FORGE_HEADER_GUID"] = ""
---Translation missing 
--- L["STRING_FORGE_HEADER_ID"] = ""
---Translation missing 
--- L["STRING_FORGE_HEADER_INDEX"] = ""
---Translation missing 
--- L["STRING_FORGE_HEADER_NAME"] = ""
---Translation missing 
--- L["STRING_FORGE_HEADER_NPCID"] = ""
---Translation missing 
--- L["STRING_FORGE_HEADER_OWNER"] = ""
---Translation missing 
--- L["STRING_FORGE_HEADER_SCHOOL"] = ""
---Translation missing 
--- L["STRING_FORGE_HEADER_SPELLID"] = ""
---Translation missing 
--- L["STRING_FORGE_HEADER_TIMER"] = ""
+-- L["STRING_FORGE_TUTORIAL_DESC"] = ""
+L["STRING_FORGE_TUTORIAL_TITLE"] = "Willkommen bei Details! Forge"
+L["STRING_FORGE_TUTORIAL_VIDEO"] = "Beispiel einer Aura bei Verwendung von Bossmod-Timern:"
 L["STRING_FREEZE"] = "Dieses Segment ist im Moment nicht verfügbar "
 L["STRING_FROM"] = "Von"
 L["STRING_GERAL"] = "Allgemein"
 L["STRING_GLANCING"] = "nur gestreift"
+L["STRING_GUILDDAMAGERANK_BOSS"] = "Boss"
+L["STRING_GUILDDAMAGERANK_DATABASEERROR"] = "'|cFFFFFF00Details! Storage|r' konnte nicht geöffnet werden, ist das Addon deaktiviert?"
+L["STRING_GUILDDAMAGERANK_DIFF"] = "Schwierigkeit"
+L["STRING_GUILDDAMAGERANK_GUILD"] = "Gilde"
+L["STRING_GUILDDAMAGERANK_PLAYERBASE"] = "Spielerbasis"
+L["STRING_GUILDDAMAGERANK_PLAYERBASE_INDIVIDUAL"] = "Einzelspieler"
+L["STRING_GUILDDAMAGERANK_PLAYERBASE_PLAYER"] = "Spieler"
+L["STRING_GUILDDAMAGERANK_PLAYERBASE_RAID"] = "Alle Spieler"
+L["STRING_GUILDDAMAGERANK_RAID"] = "Schlachtzug"
+L["STRING_GUILDDAMAGERANK_ROLE"] = "Rolle"
+L["STRING_GUILDDAMAGERANK_SHOWHISTORY"] = "Verlauf zeigen"
+L["STRING_GUILDDAMAGERANK_SHOWRANK"] = "Gildenbank zeigen"
+L["STRING_GUILDDAMAGERANK_SYNCBUTTONTEXT"] = "Mit Gilde synchronisieren"
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_TUTORIAL_DESC"] = ""
+L["STRING_GUILDDAMAGERANK_WINDOWALERT"] = "Boss besiegt! Rangliste zeigen"
 L["STRING_HEAL"] = "Heilung"
 L["STRING_HEAL_ABSORBED"] = "Absorbierte Heilung"
 L["STRING_HEAL_CRIT"] = "Kritische Heilung"
@@ -381,6 +359,7 @@ L["STRING_MIRROR_IMAGE"] = "Bilder spiegeln"
 L["STRING_MISS"] = "Verfehlen"
 L["STRING_MODE_ALL"] = "Alles"
 L["STRING_MODE_GROUP"] = "Standard"
+L["STRING_MODE_OPENFORGE"] = "Aura Formen"
 L["STRING_MODE_PLUGINS"] = "Zusatzmodule"
 L["STRING_MODE_RAID"] = "Zusatzmodule: Schlachtzug"
 L["STRING_MODE_SELF"] = "Zusatzmodule: Solospiel"
@@ -428,6 +407,8 @@ L["STRING_OPTIONS_ADVANCED"] = "Erweitert"
 L["STRING_OPTIONS_ALPHAMOD_ANCHOR"] = "Automatisch Verbergen:"
 L["STRING_OPTIONS_ALWAYS_USE"] = "Bei allen Charakteren benutzen"
 L["STRING_OPTIONS_ALWAYS_USE_DESC"] = "Wenn aktiviert, nutzen alle Charaktere das ausgewählte Profil. Andernfalls erscheint eine Anzeige, in der nach einem zu benutzenden Profil gefragt wird."
+L["STRING_OPTIONS_ALWAYSSHOWPLAYERS"] = "Alle Spieler anzeigen"
+L["STRING_OPTIONS_ALWAYSSHOWPLAYERS_DESC"] = "Wenn du den standardmäßigen Standardmodus verwendest, zeigt er Spieler Charaktere an, auch wenn sie nicht in einer Gruppen mit dir sind. "
 L["STRING_OPTIONS_ANCHOR"] = "Seite"
 L["STRING_OPTIONS_ANIMATEBARS"] = "Balken animieren"
 L["STRING_OPTIONS_ANIMATEBARS_DESC"] = "Aktiviert Animationen für alle Balken."
@@ -670,6 +651,9 @@ L["STRING_OPTIONS_DEATHLIMIT"] = "Todesereignisanzahl"
 L["STRING_OPTIONS_DEATHLIMIT_DESC"] = [=[Stelle die Anzahl an Ereignissen für die Todesanzeige ein.
 
 |cFFFFFF00Wichtig|r: Wird nach der Änderung nur auf neue Tode angewendet.]=]
+L["STRING_OPTIONS_DEATHLOG_MINHEALING"] = "Todes Protokoll Mindest Heilung"
+--Translation missing 
+-- L["STRING_OPTIONS_DEATHLOG_MINHEALING_DESC"] = ""
 L["STRING_OPTIONS_DESATURATE_MENU"] = "Entfärbt"
 L["STRING_OPTIONS_DESATURATE_MENU_DESC"] = "Aktiviert: Alle Symbole der Werkzeugleiste werden schwarz-weiß."
 L["STRING_OPTIONS_DISABLE_ALLDISPLAYSWINDOW"] = "Das Menü 'Alle Anzeigen' deaktivieren"
@@ -853,14 +837,15 @@ L["STRING_OPTIONS_OPEN_TEXT_EDITOR"] = "Texteditor öffnen"
 L["STRING_OPTIONS_OVERALL_ALL"] = "Alle Segmente"
 L["STRING_OPTIONS_OVERALL_ALL_DESC"] = "Alle Segmente werden den Gesamtdaten hinzugefügt."
 L["STRING_OPTIONS_OVERALL_ANCHOR"] = "Gesamtdaten:"
-L["STRING_OPTIONS_OVERALL_CHALLENGE"] = "Im Herausforderungsmodus löschen"
-L["STRING_OPTIONS_OVERALL_CHALLENGE_DESC"] = "Aktiviert: Die Gesamtdaten werden automatisch bei Beginn eines Dungeons im Herausforderungsmodus gelöscht."
 L["STRING_OPTIONS_OVERALL_DUNGEONBOSS"] = "Dungeonbosse"
 L["STRING_OPTIONS_OVERALL_DUNGEONBOSS_DESC"] = "Segmente mit Dungeonbossen werden den Gesamtdaten hinzugefügt."
 L["STRING_OPTIONS_OVERALL_DUNGEONCLEAN"] = "Dungeon-Trash"
 L["STRING_OPTIONS_OVERALL_DUNGEONCLEAN_DESC"] = "Segmente mit abgräumtem Dungeon-Trash werden den Gesamtdaten zugefügt."
 L["STRING_OPTIONS_OVERALL_LOGOFF"] = "Beim Ausloggen löschen"
 L["STRING_OPTIONS_OVERALL_LOGOFF_DESC"] = "Aktiviert: Die Gesamtdaten werden automatisch beim Ausloggen des Charakters gelöscht."
+L["STRING_OPTIONS_OVERALL_MYTHICPLUS"] = "Beim Start einer Mythic+ löschen"
+--Translation missing 
+-- L["STRING_OPTIONS_OVERALL_MYTHICPLUS_DESC"] = ""
 L["STRING_OPTIONS_OVERALL_NEWBOSS"] = "Bei neuem Boss löschen"
 L["STRING_OPTIONS_OVERALL_NEWBOSS_DESC"] = "Aktiviert: Die Gesamtdaten werden automatisch bei einem neuen Boss gelöscht."
 L["STRING_OPTIONS_OVERALL_RAIDBOSS"] = "Schlachtzugsbosse"
@@ -1440,7 +1425,7 @@ L["STRING_PLUGINOPTIONS_TEXTSIZE"] = "Schriftgröße"
 L["STRING_PLUGINOPTIONS_TEXTSTYLE"] = "Schriftart"
 L["STRING_QUERY_INSPECT"] = "Talente und Gegenstandsstufe abfragen."
 L["STRING_QUERY_INSPECT_FAIL1"] = "keine Abfrage im Kampf möglich."
-L["STRING_QUERY_INSPECT_TALENTS"] = "klicke für Abfrage"
+L["STRING_QUERY_INSPECT_REFRESH"] = "Aktualisierung benötigt"
 L["STRING_RAID_WIDE"] = "[*] Schlachtzugsweite Abklingzeiten"
 L["STRING_RAIDCHECK_PLUGIN_DESC"] = "Zeigt innerhalb von Schlachtzugsinstanzen ein Symbol auf der Details!-Titelleiste, das Fläschchen-, Essen- und Voraustrank-Nutzung anzeigt."
 L["STRING_RAIDCHECK_PLUGIN_NAME"] = "Raid-Nachprüfung"
@@ -1500,9 +1485,14 @@ L["STRING_SEGMENT_ENEMY"] = "Gegner"
 L["STRING_SEGMENT_LOWER"] = "Segment"
 L["STRING_SEGMENT_OVERALL"] = "Gesamtdaten"
 L["STRING_SEGMENT_START"] = "Start"
-L["STRING_SEGMENT_TIME"] = "Dauer"
 L["STRING_SEGMENT_TRASH"] = "Trash abgräumt"
 L["STRING_SEGMENTS"] = "Segmente"
+L["STRING_SEGMENTS_LIST_BOSS"] = "Boss Kampf"
+L["STRING_SEGMENTS_LIST_COMBATTIME"] = "Kampf Zeit"
+L["STRING_SEGMENTS_LIST_OVERALL"] = "Insgesamt"
+L["STRING_SEGMENTS_LIST_TIMEINCOMBAT"] = "Zeit im Kampf"
+L["STRING_SEGMENTS_LIST_TOTALTIME"] = "Ins gesamte Zeit"
+L["STRING_SEGMENTS_LIST_TRASH"] = "Trash"
 L["STRING_SHIELD_HEAL"] = "verhindert"
 L["STRING_SHIELD_OVERHEAL"] = "Vergeudet"
 L["STRING_SHORTCUT_RIGHTCLICK"] = "Rechtsklick, um zu schließen"
@@ -1537,6 +1527,7 @@ L["STRING_SLASH_WIPECONFIG_DESC"] = "setzt alle Einstellungen auf Standard. Nutz
 L["STRING_SLASH_WORLDBOSS"] = "Weltboss"
 L["STRING_SLASH_WORLDBOSS_DESC"] = "startet ein Makro, das dir anzeigt, welche Bosse du in dieser Woche getötet hast."
 L["STRING_SPELL_INTERRUPTED"] = "Zauber unterbrochen"
+L["STRING_SPELLLIST"] = "Zauber Liste"
 L["STRING_SPELLS"] = "Zauber"
 L["STRING_SPIRIT_LINK_TOTEM"] = "Lebenspunkte-Austausch"
 L["STRING_SPIRIT_LINK_TOTEM_DESC"] = [=[Anzahl an ausgetauschten Lebenspunkten zwischen
@@ -1544,6 +1535,7 @@ Spielern in Totemreichweite.
 
 Diese Heilung wird nicht zur 
 verursachten Heilung eines Spielers gezählt.]=]
+L["STRING_STATISTICS"] = "Statistik"
 L["STRING_STATUSBAR_NOOPTIONS"] = "Dieses Widget hat keine Optionen"
 L["STRING_SWITCH_CLICKME"] = "Lesezeichen hinzufügen"
 L["STRING_SWITCH_SELECTMSG"] = "Wähle die Anzeige für Lesezeichen #%d"

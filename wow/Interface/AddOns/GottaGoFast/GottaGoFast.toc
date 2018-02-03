@@ -1,5 +1,5 @@
-## Interface: 70200
-## Version: 26500
+## Interface: 70300
+## Version: 26600
 ## Title: GottaGoFast
 ## Notes: Mythic+ (CMs) Timer & Objective Tracker W/ Timewalking Capabilities, Ace3 Edition
 ## SavedVariables: GottaGoFastDB

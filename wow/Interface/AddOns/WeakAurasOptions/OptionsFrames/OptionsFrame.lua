@@ -13,6 +13,12 @@ local AceConfigDialog = LibStub("AceConfigDialog-3.0")
 
 local WeakAuras = WeakAuras
 local L = WeakAuras.L
+local addonVersion = GetAddOnMetadata("WeakAuras", "version")
+--[===[@debug@
+if addonVersion == "2.5.4" then
+  addonVersion = "Dev"
+end
+--@end-debug@]===]
 
 local displayButtons = WeakAuras.displayButtons
 local displayOptions = WeakAuras.displayOptions
@@ -173,17 +179,17 @@ function WeakAuras.CreateFrame()
 
   importbutton:SetScript("PostClick", function(self)
     if self:GetChecked() then
-      PlaySound("igMainMenuOptionCheckBoxOn")
+      PlaySound(856)
       db.import_disabled = true
     else
-      PlaySound("igMainMenuOptionCheckBoxOff")
+      PlaySound(857)
       db.import_disabled = nil
     end
   end)
   importbutton:SetScript("OnEnter", function(self)
     GameTooltip:SetOwner(self, "ANCHOR_CURSOR")
-    GameTooltip:SetText("Disable Import")
-    GameTooltip:AddLine("If this option is enabled, you are no longer able to import auras.", 1, 1, 1)
+    GameTooltip:SetText(L["Disable Import"])
+    GameTooltip:AddLine(L["If this option is enabled, you are no longer able to import auras."], 1, 1, 1)
     GameTooltip:Show()
   end)
   importbutton:SetScript("OnLeave", GameTooltip_Hide)
@@ -228,7 +234,7 @@ function WeakAuras.CreateFrame()
 
   local titletext = title:CreateFontString(nil, "OVERLAY", "GameFontNormal")
   titletext:SetPoint("TOP", titlebg, "TOP", 0, -14)
-  titletext:SetText(L["WeakAurasOptions"]);
+  titletext:SetText("WeakAuras " .. addonVersion);
 
   frame.sizer = CreateFrameSizer(frame, commitWindowChanges);
 
@@ -266,7 +272,7 @@ function WeakAuras.CreateFrame()
         frame.texteditor.frame:Show();
       elseif(frame.window == "codereview") then
         frame.codereview.frame:Show();
-      elseif(frame.window == "newview") then
+      elseif(frame.window == "newView") then
         frame.newView.frame:Show();
       end
       minimizebutton:SetNormalTexture("Interface\\BUTTONS\\UI-Panel-CollapseButton-Up.blp");
@@ -576,6 +582,22 @@ function WeakAuras.CreateFrame()
     AceConfig:RegisterOptionsTable("WeakAuras", optionTable);
     AceConfigDialog:Open("WeakAuras", container);
     container:SetTitle("");
+  end
+
+  frame.ClearPick = function(self, id)
+    local index = nil;
+    for i, childId in pairs(tempGroup.controlledChildren) do
+      if (childId == id) then
+        index = i;
+        break;
+      end
+    end
+
+    tremove(tempGroup.controlledChildren, index);
+    displayButtons[id]:ClearPick();
+
+    WeakAuras.ReloadTriggerOptions(tempGroup);
+    self:FillOptions(displayOptions[tempGroup.id]);
   end
 
   frame.ClearPicks = function(self, except)

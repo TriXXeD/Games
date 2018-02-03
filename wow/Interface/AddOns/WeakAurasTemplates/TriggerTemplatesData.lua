@@ -1250,6 +1250,7 @@ templates.class.PRIEST = {
         { spell = 198069, type = "buff", unit = "player" }, -- Power of the Dark Side
         { spell = 198076, type = "buff", unit = "player" }, -- Sins of the Many
         { spell = 216135, type = "buff", unit = "player" }, -- Vestments of Discipline
+        { spell = 123254, type = "buff", unit = "player", talent = 1 }, -- Twist of Fate
       },
       icon = 458720
     },
@@ -1292,6 +1293,7 @@ templates.class.PRIEST = {
         { spell = 204263, type = "ability", talent = 7}, -- Shining Force
         { spell = 207946, type = "ability"}, -- Light's Wrath
         { spell = 214621, type = "ability", talent = 3}, -- Schism
+        { spell = 246287, type = "ability", talent = 21}, -- Evangelism
       },
       icon = 253400
     },
@@ -1334,7 +1336,6 @@ templates.class.PRIEST = {
         { spell = 111759, type = "buff", unit = "player" }, -- Levitate
         { spell = 114255, type = "buff", unit = "player", talent = 13 }, -- Surge of Light
         { spell = 121557, type = "buff", unit = "player", talent = 4 }, -- Angelic Feather
-        { spell = 123254, type = "buff", unit = "player", talent = 1 }, -- Twist of Fate
         { spell = 196490, type = "buff", unit = "player" }, -- Power of the Naaru
         { spell = 196644, type = "buff", unit = "player" }, -- Blessing of T'uure
         { spell = 197030, type = "buff", unit = "player" }, -- Divinity
@@ -1380,7 +1381,6 @@ templates.class.PRIEST = {
         { spell = 204883, type = "ability", talent = 21}, -- Circle of Healing
         { spell = 208065, type = "ability"}, -- Light of T'uure
         { spell = 214121, type = "ability", talent = 5}, -- Body and Mind
-        { spell = 246287, type = "ability", talent = 21}, -- Evangelism
       },
       icon = 135937
     },
@@ -1525,7 +1525,7 @@ templates.class.SHAMAN = {
         { spell = 210652, type = "buff", unit = "player", talent = 1 }, -- Storm Totem
         { spell = 210658, type = "buff", unit = "player", talent = 1 }, -- Ember Totem
         { spell = 210659, type = "buff", unit = "player", talent = 1 }, -- Tailwind Totem
-        { spell = 210714, type = "buff", unit = "player", talent = 15 }, -- Icefury
+        { spell = 210714, type = "buff", unit = "player", talent = 21 }, -- Icefury
       },
       icon = 451169
     },
@@ -1656,6 +1656,7 @@ templates.class.SHAMAN = {
         { spell = 188089, type = "ability", talent = 21}, -- Earthen Spike
         { spell = 192058, type = "ability", talent = 7}, -- Lightning Surge Totem
         { spell = 192077, type = "ability", talent = 6}, -- Wind Rush Totem
+        { spell = 193786, type = "ability"}, -- Rock Biter
         { spell = 193796, type = "ability"}, -- Flametongue
         { spell = 196884, type = "ability", talent = 5}, -- Feral Lunge
         { spell = 196932, type = "ability", talent = 9}, -- Voodoo Totem
@@ -2459,6 +2460,7 @@ templates.class.MONK = {
         { spell = 107428, type = "ability"}, -- Rising Sun Kick
         { spell = 115008, type = "ability", talent = 4}, -- Chi Torpedo
         { spell = 115078, type = "ability"}, -- Paralysis
+        { spell = 115098, type = "ability", talent = 3}, -- Chi Wave
         { spell = 115151, type = "ability"}, -- Renewing Mist
         { spell = 115310, type = "ability"}, -- Revival
         { spell = 115313, type = "ability", talent = 18}, -- Summon Jade Serpent Statue
@@ -2475,6 +2477,7 @@ templates.class.MONK = {
         { spell = 122783, type = "ability", talent = 14}, -- Diffuse Magic
         { spell = 123986, type = "ability", talent = 1}, -- Chi Burst
         { spell = 124081, type = "ability", talent = 2}, -- Zen Pulse
+        { spell = 191837, type = "ability"}, -- Essence Font
         { spell = 196725, type = "ability", talent = 16}, -- Refreshing Jade Wind
         { spell = 197908, type = "ability", talent = 19}, -- Mana Tea
         { spell = 197945, type = "ability", talent = 3}, -- Mistwalk
@@ -2717,7 +2720,7 @@ templates.class.DRUID = {
         { spell = 5217, type = "buff", unit = "player" }, -- Tiger's Fury
         { spell = 8936, type = "buff", unit = "player"}, -- Regrowth
         { spell = 22842, type = "buff", unit = "player", talent = 8 }, -- Frenzied Regeneration
-        { spell = 52610, type = "buff", unit = "player", talent = 15 }, -- Savage Roar
+        { spell = 52610, type = "buff", unit = "player", talent = 18 }, -- Savage Roar
         { spell = 61336, type = "buff", unit = "player" }, -- Survival Instincts
         { spell = 69369, type = "buff", unit = "player" }, -- Predatory Swiftness
         { spell = 102543, type = "buff", unit = "player", talent = 14 }, -- Incarnation: King of the Jungle

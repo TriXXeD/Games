@@ -1,0 +1,5 @@
+VER 3 0100000000000001 "KILL!" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Nemesis
+/cast Chaos Blades
+END

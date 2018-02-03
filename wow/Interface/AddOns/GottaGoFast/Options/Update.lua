@@ -30,6 +30,10 @@ function ggf.Changelog()
 end
 
 local changes = {};
+table.insert(changes, "# v2.6.6");
+table.insert(changes, "- Addon: Update To 7.3");
+table.insert(changes, "- Mythic+: Add SOT Mob Count Data");
+table.insert(changes, "");
 table.insert(changes, "# v2.6.5");
 table.insert(changes, "- Addon: Change Addon Lifecycle");
 table.insert(changes, "- Mythic+: Only Create CM Once");

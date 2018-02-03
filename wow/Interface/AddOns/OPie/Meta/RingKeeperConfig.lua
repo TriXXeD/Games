@@ -172,7 +172,7 @@ newRing = CreateFrame("FRAME") do
 		elseif not self:GetChecked() then
 			self:SetChecked(1)
 		else
-			PlaySound("UChatScrollButton")
+			PlaySound(SOUNDKIT.U_CHAT_SCROLL_BUTTON)
 			self.other:SetChecked(nil)
 			newRing:SetSize(400, self == toggle1 and 110 or 135)
 			snap:SetShown(self ~= toggle1)
@@ -272,16 +272,16 @@ ringContainer = CreateFrame("FRAME", nil, panel) do
 	end
 	ringContainer.slices = {} do
 		local function onClick(self)
-			PlaySound("UChatScrollButton")
+			PlaySound(SOUNDKIT.U_CHAT_SCROLL_BUTTON)
 			api.selectSlice(self:GetID(), self:GetChecked())
 		end
 		local function dragStart(self)
-			PlaySound("igSpellBookSpellIconPickup")
+			PlaySound(832)
 			self.source = api.resolveSliceOffset(self:GetID())
 			SetCursor(self.tex:GetTexture())
 		end
 		local function dragStop(self)
-			PlaySound("igSpellBookSpellIconDrop")
+			PlaySound(833)
 			SetCursor(nil)
 			local x, y = GetCursorPosition()
 			local scale, l, b, w, h = self:GetEffectiveScale(), self:GetRect()
@@ -319,7 +319,7 @@ ringContainer = CreateFrame("FRAME", nil, panel) do
 			end
 			ringDetail:SetShown(shown)
 			newSlice:SetShown(not shown)
-			PlaySound("UChatScrollButton")
+			PlaySound(SOUNDKIT.U_CHAT_SCROLL_BUTTON)
 		end)
 		b:SetScript("OnEnter", function(self)
 			GameTooltip:SetOwner(self, "ANCHOR_NONE")
@@ -333,6 +333,12 @@ ringContainer = CreateFrame("FRAME", nil, panel) do
 end
 ringDetail = CreateFrame("Frame", nil, ringContainer) do
 	ringDetail:SetAllPoints()
+	ringDetail:SetScript("OnKeyDown", function(self, key)
+		self:SetPropagateKeyboardInput(key ~= "ESCAPE")
+		if key == "ESCAPE" then
+			api.deselectRing()
+		end
+	end)
 	ringDetail.name = CreateFrame("EditBox", nil, ringDetail)
 	ringDetail.name:SetHeight(20) ringDetail.name:SetPoint("TOPLEFT", 7, -7) ringDetail.name:SetPoint("TOPRIGHT", -7, -7) ringDetail.name:SetFontObject(GameFontNormalLarge) ringDetail.name:SetAutoFocus(false)
 	prepEditBox(ringDetail.name, function(self) api.setRingProperty("name", self:GetText()) end)
@@ -379,7 +385,7 @@ ringDetail = CreateFrame("Frame", nil, ringContainer) do
 	ringDetail.shareLabel2:SetWidth(275)
 	ringDetail.export = CreateButton(ringDetail)
 	ringDetail.export:SetPoint("TOP", ringDetail.shareLabel2, "BOTTOM", 0, -2)
-	ringDetail.export:SetScript("OnClick", function() PlaySound("UChatScrollButton") api.exportRing() end)
+	ringDetail.export:SetScript("OnClick", function() PlaySound(SOUNDKIT.U_CHAT_SCROLL_BUTTON) api.exportRing() end)
 	
 	local exportBg, scroll = CreateFrame("Frame", nil, ringDetail)
 	exportBg:SetBackdrop({edgeFile="Interface/Tooltips/UI-Tooltip-Border", bgFile="Interface/DialogFrame/UI-DialogBox-Background-Dark", tile=true, edgeSize=16, tileSize=16, insets={left=4,right=4,bottom=4,top=4}})
@@ -404,11 +410,11 @@ ringDetail = CreateFrame("Frame", nil, ringContainer) do
 	
 	ringDetail.remove = CreateButton(ringDetail)
 	ringDetail.remove:SetPoint("BOTTOMRIGHT", -10, 10)
-	ringDetail.remove:SetScript("OnClick", function() PlaySound("UChatScrollButton") api.deleteRing() end)
+	ringDetail.remove:SetScript("OnClick", function() PlaySound(SOUNDKIT.U_CHAT_SCROLL_BUTTON) api.deleteRing() end)
 	
 	ringDetail.restore = CreateButton(ringDetail)
 	ringDetail.restore:SetPoint("RIGHT", ringDetail.remove, "LEFT", -10, 0)
-	ringDetail.restore:SetScript("OnClick", function() PlaySound("UChatScrollButton") api.restoreDefault() end)
+	ringDetail.restore:SetScript("OnClick", function() PlaySound(SOUNDKIT.U_CHAT_SCROLL_BUTTON) api.restoreDefault() end)
 
 	ringDetail:Hide()
 end
@@ -416,6 +422,12 @@ sliceDetail = CreateFrame("Frame", nil, ringContainer) do
 	sliceDetail:SetAllPoints()
 	sliceDetail.desc = sliceDetail:CreateFontString(nil, "OVERLAY", "GameFontNormalLarge")
 	sliceDetail.desc:SetPoint("TOPLEFT", 7, -9) sliceDetail.desc:SetPoint("TOPRIGHT", -7, -7) sliceDetail.desc:SetJustifyH("LEFT")
+	sliceDetail:SetScript("OnKeyDown", function(self, key)
+		self:SetPropagateKeyboardInput(key ~= "ESCAPE")
+		if key == "ESCAPE" then
+			api.selectSlice()
+		end
+	end)
 	local oy = 37
 	sliceDetail.skipSpecs = CreateFrame("Frame", "RKC_SkipSpecDropdown", sliceDetail, "UIDropDownMenuTemplate") do
 		local s = sliceDetail.skipSpecs
@@ -517,14 +529,48 @@ sliceDetail = CreateFrame("Frame", nil, ringContainer) do
 		
 		local frame = CreateFrame("Frame", nil, f)
 		frame:SetBackdrop({bgFile = "Interface/ChatFrame/ChatFrameBackground", edgeFile = "Interface/DialogFrame/UI-DialogBox-Border", tile = true, tileSize = 32, edgeSize = 32, insets = { left = 11, right = 11, top = 12, bottom = 10 }})
-		frame:SetWidth(554) frame:SetHeight(19+34*6) frame:SetPoint("TOPLEFT", f, "TOPLEFT", -265, -18) frame:SetFrameStrata("DIALOG")
+		frame:SetSize(554, 19+34*6) frame:SetPoint("TOPLEFT", f, "TOPLEFT", -265, -18) frame:SetFrameStrata("DIALOG")
 		frame:SetBackdropColor(0,0,0, 0.85) frame:EnableMouse(1) frame:SetToplevel(1) frame:Hide()
-		f:SetScript("OnClick", function() frame:SetShown(not frame:IsShown()) PlaySound("UChatScrollButton") end)
+		f:SetScript("OnClick", function() frame:SetShown(not frame:IsShown()) PlaySound(SOUNDKIT.U_CHAT_SCROLL_BUTTON) end)
 		frame:SetScript("OnHide", frame.Hide)
+		do
+			local ed = conf.ui.lineInput(frame, false, 280)
+			local hint = ed:CreateFontString(nil, "OVERLAY", "GameFontHighlight")
+			hint:SetPoint("CENTER")
+			hint:SetText("|cffa0a0a0" .. L"(enter an icon name or path here)")
+			local bg = ed:CreateTexture(nil, "BACKGROUND", nil, -8)
+			bg:SetColorTexture(0,0,0,0.95)
+			bg:SetPoint("TOPLEFT", -3, 3)
+			bg:SetPoint("BOTTOMRIGHT", 3, -3)
+			ed:SetPoint("BOTTOM", 0, 8)
+			ed:SetFrameLevel(ed:GetFrameLevel()+5)
+			ed:SetScript("OnEditFocusGained", function() hint:Hide() end)
+			ed:SetScript("OnEditFocusLost", function(self) hint:SetShown(not self:GetText():match("%S")) end)
+			ed:SetScript("OnEnterPressed", function(self)
+				local text = self:GetText()
+				if text:match("%S") then
+					local path = GetFileIDFromPath(text)
+					path = path or GetFileIDFromPath("Interface\\Icons\\" .. text)
+					api.setSliceProperty("icon", path or text)
+				end
+				self:SetText("")
+				self:ClearFocus()
+			end)
+			ed:SetScript("OnEscapePressed", function(self) self:SetText("") self:ClearFocus() end)
+			frame.textInput, frame.textInputHint = ed, hint
+			frame:SetScript("OnKeyDown", function(self, key)
+				self:SetPropagateKeyboardInput(key ~= "TAB" and key ~= "ESCAPE")
+				if key == "TAB" then
+					ed:SetFocus()
+				elseif key == "ESCAPE" then
+					frame:Hide()
+				end
+			end)
+		end
 		local icons, selectedIcon = {}
 		local function onClick(self)
 			if selectedIcon then selectedIcon:SetChecked(nil) end
-			PlaySound("UChatScrollButton")
+			PlaySound(SOUNDKIT.U_CHAT_SCROLL_BUTTON)
 			api.setSliceProperty("icon", self:GetChecked() and self.tex:GetTexture() or nil)
 			selectedIcon = self:GetChecked() and self or nil
 		end
@@ -534,7 +580,7 @@ sliceDetail = CreateFrame("Frame", nil, ringContainer) do
 			j:SetScript("OnClick", onClick)
 			icons[i] = j
 		end
-		local icontex = {}
+		local icontex, initTexture = {}, nil
 		local slider = CreateFrame("Slider", "RKC_IconSelectionSlider", frame, "UIPanelScrollBarTrimTemplate")
 			slider:SetPoint("TOPRIGHT",-11, -26) slider:SetPoint("BOTTOMRIGHT", -11, 25)
 			slider:SetValueStep(15) slider:SetObeyStepOnDrag(true) slider.scrollStep = 45
@@ -543,11 +589,14 @@ sliceDetail = CreateFrame("Frame", nil, ringContainer) do
 				self.Up:SetEnabled(value > 1)
 				self.Down:SetEnabled(icontex[value + #icons + 1] ~= nil)
 				for i=0,#icons do
-					local ico = icons[i].tex
-					ico:SetTexture(icontex[i+value])
-					local tex = ico:GetTexture()
-					icons[i]:SetChecked(f.selection == tex)
-					selectedIcon = f.selection == tex and icons[i] or selectedIcon
+					local ico, tex = icons[i].tex, i == 0 and value == 1 and (initTexture or "Interface/Icons/INV_Misc_QuestionMark") or icontex[i+value-1]
+					ico:SetShown(not not tex)
+					if tex then
+						ico:SetTexture(tex)
+						local tex = ico:GetTexture()
+						icons[i]:SetChecked(f.selection == tex)
+						selectedIcon = f.selection == tex and icons[i] or selectedIcon
+					end
 				end
 			end)
 		frame:SetScript("OnShow", function(self)
@@ -555,14 +604,19 @@ sliceDetail = CreateFrame("Frame", nil, ringContainer) do
 			self:SetFrameLevel(sliceDetail.icon:GetFrameLevel()+10)
 			icontex = GetMacroIcons()
 			GetMacroItemIcons(icontex)
-			slider:SetMinMaxValues(1, #icontex-#icons)
-			slider:SetValue(1)
+			slider:SetMinMaxValues(1, #icontex-#icons+16)
+			if slider:GetValue() == 1 then
+				slider:GetScript("OnValueChanged")(slider, slider:GetValue())
+			else
+				slider:SetValue(1)
+			end
 		end)
 		frame:SetScript("OnMouseWheel", function(_, delta)
 			slider:SetValue(slider:GetValue()-delta*15)
 		end)
 		function f:SetIcon(ico, forced, ext, slice)
 			setIcon(self.icon, forced or ico, ext, slice)
+			initTexture = self.icon:GetTexture()
 			self.selection = forced
 			self:SetText(forced and L"Customized icon" or L"Based on slice action")
 			if frame:IsShown() then slider:GetScript("OnValueChanged")(slider, slider:GetValue()) end
@@ -684,7 +738,7 @@ newSlice = CreateFrame("Frame", nil, ringContainer) do
 	local catbg = newSlice:CreateTexture(nil, "BACKGROUND")
 	catbg:SetPoint("TOPLEFT", 2, -2) catbg:SetPoint("RIGHT", newSlice, "RIGHT", -2, 0) catbg:SetPoint("BOTTOM", 0, 2)
 	catbg:SetColorTexture(0,0,0, 0.65)
-	local function onClick(self) PlaySound("UChatScrollButton") selectCategory(self:GetID()) end
+	local function onClick(self) PlaySound(SOUNDKIT.U_CHAT_SCROLL_BUTTON) selectCategory(self:GetID()) end
 	for i=1,22 do
 		local b = CreateFrame("Button", nil, newSlice)
 		b:SetSize(159, 20)
@@ -735,15 +789,15 @@ newSlice = CreateFrame("Frame", nil, ringContainer) do
 	end
 
 	local function onClick(self)
-		PlaySound("UChatScrollButton")
+		PlaySound(SOUNDKIT.U_CHAT_SCROLL_BUTTON)
 		api.addSlice(nil, selectedCategory(self:GetID()))
 	end
 	local function onDragStart(self)
-		PlaySound("igSpellBookSpellIconPickup")
+		PlaySound(832)
 		SetCursor(self.ico:GetTexture())
 	end
 	local function onDragStop(self)
-		PlaySound("igSpellBookSpellIconDrop")
+		PlaySound(833)
 		SetCursor(nil)
 		local e, x, y = ringContainer.slices[1], GetCursorPosition()
 		if not e:GetLeft() then e = ringContainer.prev end
@@ -1186,9 +1240,13 @@ function api.deleteRing()
 		ringContainer:Hide()
 		conf.undo.saveProfile()
 		api.saveRing(currentRingName, false)
-		currentRing, currentRingName, ringNames = nil
-		UIDropDownMenu_SetText(ringDropDown, L"Select a ring to modify")
+		api.deselectRing()
 	end
+end
+function api.deselectRing()
+	ringContainer:Hide()
+	currentRing, currentRingName, ringNames = nil
+	UIDropDownMenu_SetText(ringDropDown, L"Select a ring to modify")
 end
 function api.restoreDefault()
 	if currentRingName then

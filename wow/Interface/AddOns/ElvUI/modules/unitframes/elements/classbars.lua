@@ -1,4 +1,4 @@
-local E, L, V, P, G = unpack(select(2, ...)); --Inport: Engine, Locales, PrivateDB, ProfileDB, GlobalDB
+local E, L, V, P, G = unpack(select(2, ...)); --Import: Engine, Locales, PrivateDB, ProfileDB, GlobalDB
 local UF = E:GetModule('UnitFrames');
 
 --Cache global variables
@@ -130,7 +130,7 @@ function UF:Configure_ClassBar(frame, cur)
 			if i <= frame.MAX_CLASS_BAR then
 				bars[i].backdrop.ignoreUpdates = true
 				bars[i].backdrop.backdropTexture:SetVertexColor(color.r, color.g, color.b)
-				
+
 				color = E.db.unitframe.colors.borderColor
 				bars[i].backdrop:SetBackdropBorderColor(color.r, color.g, color.b)
 
@@ -311,8 +311,8 @@ function UF:Construct_ClassBar(frame)
 	end
 
 	bars.PostUpdate = UF.UpdateClassBar
-	bars.UpdateColor = function() return end --We handle colors on our own in Configure_ClassBar
-	bars.UpdateTexture = function() return end --We don't use textures but statusbars, so prevent errors
+	bars.UpdateColor = E.noop --We handle colors on our own in Configure_ClassBar
+	bars.UpdateTexture = E.noop --We don't use textures but statusbars, so prevent errors
 
 	bars:SetScript("OnShow", ToggleResourceBar)
 	bars:SetScript("OnHide", ToggleResourceBar)
@@ -320,7 +320,7 @@ function UF:Construct_ClassBar(frame)
 	return bars
 end
 
-function UF:UpdateClassBar(cur, max, hasMaxChanged, powerType)
+function UF:UpdateClassBar(cur, max, hasMaxChanged)
 	local frame = self.origParent or self:GetParent()
 	local db = frame.db
 	if not db then return; end
@@ -382,7 +382,7 @@ function UF:Construct_DeathKnightResourceBar(frame)
 	end
 
 	runes.PostUpdateVisibility = UF.PostVisibilityRunes
-	runes.UpdateColor = function() return end --We handle colors on our own in Configure_ClassBar
+	runes.UpdateColor = E.noop --We handle colors on our own in Configure_ClassBar
 	runes:SetScript("OnShow", ToggleResourceBar)
 	runes:SetScript("OnHide", ToggleResourceBar)
 
@@ -436,7 +436,7 @@ function UF:Construct_AdditionalPowerBar(frame)
 	return additionalPower
 end
 
-function UF:PostUpdateAdditionalPower(unit, min, max, event)
+function UF:PostUpdateAdditionalPower(_, min, max, event)
 	local frame = self.origParent or self:GetParent()
 	local db = frame.db
 
@@ -532,7 +532,7 @@ function UF:Construct_Stagger(frame)
 	return stagger
 end
 
-function UF:PostUpdateStagger(maxHealth, stagger)
+function UF:PostUpdateStagger(_, stagger)
 	local frame = self.origParent or self:GetParent()
 	local db = frame.db
 
@@ -543,7 +543,7 @@ function UF:PostUpdateStagger(maxHealth, stagger)
 	end
 end
 
-function UF:PostUpdateVisibilityStagger(event, unit, isShown, stateChanged)
+function UF:PostUpdateVisibilityStagger(_, _, isShown, stateChanged)
 	local frame = self
 
 	if(isShown) then

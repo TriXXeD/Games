@@ -369,7 +369,7 @@ DF.TextEntryCounter = DF.TextEntryCounter or 1
 	local OnEnterPressed = function (textentry, byScript)
 		local capsule = textentry.MyObject
 	
-		local kill = capsule:RunHooksForWidget ("OnEnterPressed", textentry, capsule)
+		local kill = capsule:RunHooksForWidget ("OnEnterPressed", textentry, capsule, capsule.text)
 		if (kill) then
 			return
 		end
@@ -398,7 +398,7 @@ DF.TextEntryCounter = DF.TextEntryCounter or 1
 	local OnEscapePressed = function (textentry)
 		local capsule = textentry.MyObject
 	
-		local kill = capsule:RunHooksForWidget ("OnEscapePressed", textentry, capsule)
+		local kill = capsule:RunHooksForWidget ("OnEscapePressed", textentry, capsule, capsule.text)
 		if (kill) then
 			return
 		end	
@@ -422,7 +422,7 @@ DF.TextEntryCounter = DF.TextEntryCounter or 1
 	
 		if (textentry:IsShown()) then
 		
-			local kill = capsule:RunHooksForWidget ("OnEditFocusLost", textentry, capsule)
+			local kill = capsule:RunHooksForWidget ("OnEditFocusLost", textentry, capsule, capsule.text)
 			if (kill) then
 				return
 			end
@@ -721,13 +721,13 @@ function DF:NewSpecialLuaEditorEntry (parent, w, h, member, name, nointent)
 	
 	local borderframe = CreateFrame ("Frame", name, parent)
 	borderframe:SetSize (w, h)
-
+	
 	if (member) then
 		parent [member] = borderframe
 	end
 	
 	local scrollframe = CreateFrame ("ScrollFrame", name, borderframe, "DetailsFrameworkEditBoxMultiLineTemplate")
-
+	
 	scrollframe:SetScript ("OnSizeChanged", function (self)
 		scrollframe.editbox:SetSize (self:GetSize())
 	end)

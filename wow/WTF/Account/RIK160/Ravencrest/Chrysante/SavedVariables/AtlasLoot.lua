@@ -9,6 +9,19 @@ AtlasLootCharDB = {
 			-38.7999992370606, -- [5]
 		},
 	},
+	["GUI"] = {
+		["classFilter"] = true,
+		["selected"] = {
+			[5] = 0,
+			[2] = "TheEmeraldNightmare",
+			[4] = 1,
+		},
+		["point"] = {
+			[3] = "CENTER",
+			[4] = -178.99983215332,
+			[5] = 33.9998931884766,
+		},
+	},
 	["QuickLootFrame"] = {
 		["point"] = {
 			"LEFT", -- [1]
@@ -19,21 +32,6 @@ AtlasLootCharDB = {
 		},
 	},
 	["__addonrevision"] = 4325,
-	["GUI"] = {
-		["classFilter"] = true,
-		["selected"] = {
-			nil, -- [1]
-			"TheEmeraldNightmare", -- [2]
-			8, -- [3]
-			1, -- [4]
-			0, -- [5]
-		},
-		["point"] = {
-			[3] = "CENTER",
-			[4] = -178.99983215332,
-			[5] = 33.9998931884766,
-		},
-	},
 	["minimap"] = {
 		["minimapPos"] = 183.772149848264,
 	},

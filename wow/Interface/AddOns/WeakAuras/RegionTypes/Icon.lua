@@ -36,6 +36,7 @@ local default = {
   text2FontSize = 24,
   stickyDuration = false,
   zoom = 0,
+  keepAspectRatio = false,
   frameStrata = 1,
   customTextUpdate = "update",
   glow = false,
@@ -111,29 +112,31 @@ local properties = {
 
 WeakAuras.regionPrototype.AddProperties(properties);
 
-local function GetTexCoord(region, texWidth)
-  local texCoord
+local function GetProperties(data)
+  return properties;
+end
+
+local function GetTexCoord(region, texWidth, aspectRatio)
+  local currentCoord
 
   if region.MSQGroup then
     region.MSQGroup:ReSkin();
 
     local db = region.MSQGroup.db
     if db and not db.Disabled then
-      local currentCoord = {region.icon:GetTexCoord()}
-
-      texCoord = {}
-      for i, coord in pairs(currentCoord) do
-        if coord > 0.5 then
-          texCoord[i] = coord - coord * texWidth
-        else
-          texCoord[i] = coord + (1 - coord) * texWidth
-        end
-      end
+      currentCoord = {region.icon:GetTexCoord()}
     end
   end
+  if (not currentCoord) then
+    currentCoord = {0, 0, 0, 1, 1, 0, 1, 1};
+  end
 
-  if not texCoord then
-    texCoord = {texWidth, texWidth, texWidth, 1 - texWidth, 1 - texWidth, texWidth, 1 - texWidth, 1 - texWidth}
+  local xRatio = aspectRatio < 1 and aspectRatio or 1;
+  local yRatio = aspectRatio > 1 and 1 / aspectRatio or 1;
+  local texCoord = {}
+  for i, coord in pairs(currentCoord) do
+    local aspectRatio = (i % 2 == 1) and xRatio or yRatio;
+    texCoord[i] = (coord - 0.5) * texWidth * aspectRatio + 0.5;
   end
 
   return unpack(texCoord)
@@ -252,6 +255,7 @@ local function configureText(fontString, icon, enabled, point, width, height, co
 end
 
 local function modify(parent, region, data)
+  WeakAuras.regionPrototype.modify(parent, region, data);
   local button, icon, cooldown, stacks, text2 = region.button, region.icon, region.cooldown, region.stacks, region.text2;
 
   region.useAuto = data.auto and WeakAuras.CanHaveAuto(data);
@@ -278,18 +282,16 @@ local function modify(parent, region, data)
   region.height = data.height;
   region.scalex = 1;
   region.scaley = 1;
+  region.keepAspectRatio = data.keepAspectRatio;
   icon:SetAllPoints();
-
-  region:ClearAllPoints();
-
-  WeakAuras.AnchorFrame(data, region, parent);
 
   configureText(stacks, icon, data.text1Enabled, data.text1Point, data.width, data.height, data.text1Containment, data.text1Font, data.text1FontSize, data.text1FontFlags, data.text1Color);
   configureText(text2, icon, data.text2Enabled, data.text2Point, data.width, data.height, data.text2Containment, data.text2Font, data.text2FontSize, data.text2FontFlags, data.text2Color);
 
-  local texWidth = 0.25 * data.zoom;
+  local texWidth = 1 - data.zoom * 0.5;
+  local aspectRatio = region.keepAspectRatio and region.width / region.height or 1;
 
-  icon:SetTexCoord(GetTexCoord(region, texWidth))
+  icon:SetTexCoord(GetTexCoord(region, texWidth, aspectRatio))
   icon:SetDesaturated(data.desaturate);
 
   local tooltipType = WeakAuras.CanHaveTooltip(data);
@@ -311,9 +313,26 @@ local function modify(parent, region, data)
     region.color_g = g;
     region.color_b = b;
     region.color_a = a;
-    icon:SetVertexColor(r, g, b, a);
+    if (r or g or b) then
+      a = a or 1;
+    end
+    icon:SetVertexColor(region.color_anim_r or r, region.color_anim_r or g, region.color_anim_r or b, region.color_anim_r or a);
+    if region.button then
+      region.button:SetAlpha(region.color_anim_r or a or 1);
+    end
+  end
+
+  function region:ColorAnim(r, g, b, a)
+    region.color_anim_r = r;
+    region.color_anim_g = g;
+    region.color_anim_b = b;
+    region.color_anim_a = a;
+    if (r or g or b) then
+      a = a or 1;
+    end
+    icon:SetVertexColor(r or region.color_r, g or region.color_g, b or region.color_b, a or region.color_a);
     if MSQ then
-      button:SetAlpha(a or 1);
+      region.button:SetAlpha(a or region.color_a or 1);
     end
   end
 
@@ -333,7 +352,7 @@ local function modify(parent, region, data)
 
         if(stacks.text ~= textStr) then
           if stacks:GetFont() then
-            stacks:SetText(textStr);
+            WeakAuras.regionPrototype.SetTextOnText(stacks, textStr);
             stacks.text = textStr;
           end
         end
@@ -345,7 +364,7 @@ local function modify(parent, region, data)
 
         if(text2.text ~= textStr) then
           if text2:GetFont() then
-            text2:SetText(textStr);
+            WeakAuras.regionPrototype.SetTextOnText(text2, textStr);
             text2.text = textStr;
           end
         end
@@ -353,12 +372,12 @@ local function modify(parent, region, data)
     end
   else
     if (data.text1Enabled) then
-      stacks:SetText(data.text1);
+      WeakAuras.regionPrototype.SetTextOnText(stacks, data.text1);
       stacks.text = data.text1;
     end
 
     if (data.text2Enabled) then
-      text2:SetText(data.text2);
+      WeakAuras.regionPrototype.SetTextOnText(text2, data.text2);
       text2.text = data.text2;
     end
 
@@ -444,9 +463,10 @@ local function modify(parent, region, data)
     end
     icon:SetAllPoints();
 
-    local texWidth = 0.25 * data.zoom;
+    local texWidth = 1 - 0.5 * data.zoom;
+    local aspectRatio = region.keepAspectRatio and width / height or 1;
 
-    local ulx, uly, llx, lly, urx, ury, lrx, lry = GetTexCoord(region, texWidth)
+    local ulx, uly, llx, lly, urx, ury, lrx, lry = GetTexCoord(region, texWidth, aspectRatio)
 
     if(mirror_h) then
       if(mirror_v) then
@@ -563,4 +583,4 @@ local function modify(parent, region, data)
   end
 end
 
-WeakAuras.RegisterRegionType("icon", create, modify, default, properties);
+WeakAuras.RegisterRegionType("icon", create, modify, default, GetProperties);

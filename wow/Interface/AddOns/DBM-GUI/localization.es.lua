@@ -81,7 +81,7 @@ L.Warn_FontType				= "Fuente"
 L.Warn_FontStyle			= "Contorno"
 L.Warn_FontShadow			= "Sombra"
 L.Warn_FontSize				= "Tamaño: %d"
-L.Warn_Duration				= "Duración: %d s"
+L.Warn_Duration				= "Duración: %0.1f s"
 L.None						= "Ninguno"
 L.Outline					= "Contorno"
 L.ThickOutline				= "Contorno grueso"
@@ -97,12 +97,14 @@ L.ShowAllVersions	 		= "Mostrar versión de DBM de cada miembro del grupo en el 
 L.CombatMessages			= "Opciones de mensajes de combate"
 L.ShowEngageMessage 		= "Mostrar mensajes de inicio de encuentro en el chat"
 L.ShowDefeatMessage 		= "Mostrar mensajes de victoria y derrota en el chat"
-L.ShowGuildMessages 		= "Mostrar mensajes de inicio de encuentro, victoria y derrota de hermandad en el chat"
+L.ShowGuildMessages 		= "Mostrar mensajes de inicio de encuentro, victoria y derrota de banda de hermandad en el chat"
+L.ShowGuildMessagesPlus		= "Mostrar también mensajes de inicio, victoria y derrota de Mítica+ de grupos de hermandad (requiere que la opción anterior esté activada)"
 L.WhisperMessages			= "Opciones de susurros"
 L.AutoRespond 				= "Responder automáticamente a susurros en encuentro"
 L.EnableStatus 				= "Responder automáticamente a susurros de 'estado'"
 L.WhisperStats 				= "Incluir estadísticas de victoria y derrota en las respuestas automáticas a susurros"
-L.DisableStatusWhisper 		= "Desactivar susurros automáticos de estado para todo el grupo (requiere ser el líder). Solo se aplica a bandas en dificultad normal, heroica y mítica, y a mazmorras en dificultad mítica y desafío."
+L.DisableStatusWhisper 		= "Desactivar susurros automáticos de estado de encuentro del grupo o banda para todos los jugadores (requiere ser el líder). Solo se aplica a bandas en dificultad normal, heroica y mítica, y a mazmorras de piedra angular."
+L.DisableGuildStatus 		= "Desactivar mensajes de hermandad de estado de encuentro del grupo o banda para todos los jugadores (requiere ser el líder)."
 
 -- Tab: Barsetup
 L.BarSetup					= "Configuración de barras"
@@ -189,21 +191,6 @@ L.SpecialWarnSound3			= "Sonido por defecto para avisos especiales MUY important
 L.SpecialWarnSound4			= "Sonido por defecto para avisos especiales de movimiento"
 L.SpecialWarnSound5			= "Sonido por defecto para avisos especiales con notas que te mencionen"
 
--- Tab: Heads Up Display Frame
-L.Panel_HUD					= "Indicadores"
-L.Area_HUDOptions			= "Opciones de indicadores"
-L.HUDColorOverride			= "Ignorar colores del módulo"
-L.HUDSizeOverride			= "Ignorar tamaños del módulo"
-L.HUDAlphaOverride			= "Ignorar transparencias del módulo"
-L.HUDTextureOverride		= "Ignorar texturas del módulo (no se aplica a las opciones de textura de iconos)"
-L.HUDColorSelect			= "Indicador %d"
-L.HUDTextureSelect1			= "Textura del indicador principal"
-L.HUDTextureSelect2			= "Textura del indicador secundario"
-L.HUDTextureSelect3			= "Textura del indicador terciario"
-L.HUDTextureSelect4			= "Textura del indicador de ubicación objetivo"
-L.HUDSizeSlider				= "Radio: %0.1f"
-L.HUDAlphaSlider			= "Transparencia: %0.1f"
-
 -- Tab: Spoken Alerts Frame
 L.Panel_SpokenAlerts		= "Alertas de voz"
 L.Area_VoiceSelection		= "Selección de voces"
@@ -220,14 +207,6 @@ L.SWFAll					= "Cuando los avisos especiales usen cualquier sonido"
 L.SpecWarn_AlwaysVoice		= "Reproducir siempre todas las alertas de voz (ignora las opciones de jefe; útil para líderes de banda)"
 --TODO, maybe add URLS right to GUI panel on where to acquire 3rd party voice packs?
 
--- Tab: HealthFrame
-L.Panel_HPFrame				= "Barras de vida"
-L.Area_HPFrame				= "Opciones de barras de vida"
-L.HP_Enabled				= "Mostrar siempre las barras de vida (ignora las opciones de jefe)"
-L.HP_GrowUpwards			= "Expandir barras de vida hacia arriba"
-L.HP_ShowDemo				= "Mostrar barras de vida"
-L.BarWidth					= "Ancho: %d"
-
 -- Tab: Global Filter
 L.Panel_SpamFilter			= "Filtros globales"
 L.Area_SpamFilter_Outgoing	= "Opciones de filtros globales"
@@ -240,10 +219,10 @@ L.SpamBlockNoRangeFrame		= "Ocultar marcos de distancia"
 L.SpamBlockNoInfoFrame		= "Ocultar marcos de información"
 L.SpamBlockNoHudMap			= "Ocultar indicadores"
 L.SpamBlockNoNameplate		= "Ocultar auras de placas de nombres"
-L.SpamBlockNoHealthFrame	= "Ocultar barras de vida"
 L.SpamBlockNoCountdowns		= "Desactivar sonidos de cuenta atrás"
 L.SpamBlockNoYells			= "Desactivar envío automático de mensajes en el chat"
 L.SpamBlockNoNoteSync		= "Rechazar automáticamente notas compartidas"
+L.SpamBlockNoReminders		= "Ocultar mensajes de carga, recomendaciones y actualizaciones (no recomendado)"
 
 L.Area_Restore				= "Opciones de restauración"
 L.SpamBlockNoIconRestore	= "Restaurar iconos al acabar el encuentro"
@@ -254,7 +233,6 @@ L.Panel_SpamFilter			= "Filtros de avisos"
 L.Area_SpamFilter			= "Opciones de filtros de avisos"
 L.DontShowFarWarnings		= "Ocultar anuncios y temporizadores de eventos que estén demasiado lejos"
 L.StripServerName			= "Omitir nombre del reino en avisos y temporizadores"
-L.SpamBlockBossWhispers		= "Bloquear susurros automáticos de estado de encuentro"
 L.BlockVersionUpdateNotice	= "Mostrar notificaciones de actualización en el chat en lugar de en ventana emergente"
 
 L.Area_SpecFilter			= "Opciones de filtros de rol"
@@ -282,7 +260,6 @@ L.HideGuildChallengeUpdates	= "Ocultar botón de desafíos de hermandad en jefes
 L.HideQuestTooltips			= "Ocultar objetivos de misión en en descripciones emergentes durante Hide quest objectives from tooltips during boss fights"
 L.HideTooltips				= "Ocultar por completo las descripciones emergentes en encuentros"
 L.DisableSFX				= "Desactivar el canal de efectos de sonido en encuentros"
-L.SpamBlockSayYell			= "Ocultar bocadillos de chat"
 L.DisableCinematics			= "Saltar cinemáticas automáticamente"
 L.AfterFirst				= "Tras ver la cinemática por primera vez"
 L.Always					= ALWAYS
@@ -306,7 +283,6 @@ L.AutoReplySound			= "Reproducir sonido de alerta e iluminar el icono del juego 
 --
 L.TimerGeneral 				= "Opciones de temporizadores"
 L.SKT_Enabled				= "Mostrar temporizador para batir el récord de victoria del encuentro actual"
-L.CRT_Enabled				= "Mostrar temporizador para la siguiente resurrección en combate"
 L.ShowRespawn				= "Mostrar temporizador para la reaparición de jefe tras cada derrota"
 L.ShowQueuePop				= "Mostrar temporizador para eltiempo restante para aceptar avisos del buscador"
 --

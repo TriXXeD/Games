@@ -22,15 +22,7 @@ TradeSkillMaster_VendoringDB = {
 			"Quelith - Draenor", -- [17]
 			"Trixxedbank - Draenor", -- [18]
 			"Daemonikos - Draenor", -- [19]
-		},
-		["factionrealm"] = {
-			"Alliance - Ravencrest", -- [1]
-			"Horde - Draenor", -- [2]
-			"Horde - Laughing Skull", -- [3]
-			"Horde - Thunderhorn", -- [4]
-		},
-		["profile"] = {
-			"Default", -- [1]
+			"Petergrippin - Draenor", -- [20]
 		},
 		["realm"] = {
 			"Ravencrest", -- [1]
@@ -38,11 +30,20 @@ TradeSkillMaster_VendoringDB = {
 			"Laughing Skull", -- [3]
 			"Thunderhorn", -- [4]
 		},
+		["profile"] = {
+			"Default", -- [1]
+		},
+		["factionrealm"] = {
+			"Alliance - Ravencrest", -- [1]
+			"Horde - Draenor", -- [2]
+			"Horde - Laughing Skull", -- [3]
+			"Horde - Thunderhorn", -- [4]
+		},
 	},
 	["g@ @helpPlatesShown"] = {
-		["buy"] = true,
-		["groups"] = true,
 		["buyback"] = true,
+		["groups"] = true,
+		["buy"] = true,
 	},
 	["_hash"] = 7791016,
 	["g@ @qsHideGrouped"] = true,
@@ -54,29 +55,30 @@ TradeSkillMaster_VendoringDB = {
 		["Daemonikos - Ravencrest"] = "Default",
 		["Trixxedbank - Draenor"] = "Default",
 		["Lupalia - Ravencrest"] = "Default",
+		["Fausta - Ravencrest"] = "Default",
 		["Trîxxed - Ravencrest"] = "Default",
-		["Daemonikos - Draenor"] = "Default",
 		["Marcellinus - Ravencrest"] = "Default",
+		["Daemonikos - Draenor"] = "Default",
 		["Quelith - Draenor"] = "Default",
 		["Odeysseus - Thunderhorn"] = "Default",
 		["Trïxxed - Ravencrest"] = "Default",
-		["Achilina - Draenor"] = "Default",
-		["Fausta - Ravencrest"] = "Default",
+		["Eruditus - Ravencrest"] = "Default",
+		["Petergrippin - Draenor"] = "Default",
 		["Chrysante - Ravencrest"] = "Default",
 		["Lichservent - Thunderhorn"] = "Default",
-		["Eruditus - Ravencrest"] = "Default",
+		["Achilina - Draenor"] = "Default",
 		["Molokh - Ravencrest"] = "Default",
 	},
 	["g@ @qsHideSoulbound"] = true,
 	["g@ @defaultPage"] = 1,
 	["g@ @qsBatchSize"] = 12,
 	["g@ @displayMoneyCollected"] = false,
-	["g@ @qsMarketValue"] = "dbmarket",
-	["g@ @autoSellTrash"] = false,
-	["g@ @defaultMerchantTab"] = false,
-	["g@ @qsMaxDestroyValue"] = "100g",
-	["g@ @qsMaxMarketValue"] = "100g",
-	["_version"] = 1,
 	["g@ @ignore"] = {
 	},
+	["g@ @defaultMerchantTab"] = false,
+	["g@ @autoSellTrash"] = false,
+	["g@ @qsMaxMarketValue"] = "100g",
+	["g@ @qsMaxDestroyValue"] = "100g",
+	["_version"] = 1,
+	["g@ @qsMarketValue"] = "dbmarket",
 }

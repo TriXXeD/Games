@@ -90,6 +90,10 @@ SMB.AddButtonsToBar = {
 local function SkinButton(Button)
 	if not Button.isSkinned then
 		local Name = Button:GetName()
+		if TomTom and not Name and (Button.icon and (Button.icon:GetTexture() == "Interface\\AddOns\\TomTom\\Images\\GoldGreenDot" or Button.icon:GetTexture() == "Interface\\AddOns\\TomTom\\Images\\MinimapArrow-Green") ) then
+			Button.isSkinned = true
+			return
+		end
 
 		if Button:IsObjectType('Button') then
 			local ValidIcon = false
@@ -346,7 +350,7 @@ function SMB:Initialize()
 	SMB.bar:SetScript('OnLeave', OnLeave)
 	RegisterStateDriver(SMB.bar, 'visibility', '[petbattle] hide; show')
 	self:SkinMinimapButtons()
-	self:RegisterEvent('PLAYER_ENTERING_WORLD', 'Update')
+	self:RegisterEvent('LOADING_SCREEN_DISABLED', 'Update')
 	self:RegisterEvent('ACTIVE_TALENT_GROUP_CHANGED', 'Update')
 	self:RegisterEvent('ADDON_LOADED', "SkinMinimapButtons")
 	E:Delay(5, function()
