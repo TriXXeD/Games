@@ -5,14 +5,14 @@ tComboConfig = {
 		"CENTER", -- [1]
 		nil, -- [2]
 		"CENTER", -- [3]
-		1.00033571295851, -- [4]
-		-204.000470230659, -- [5]
+		3.00054757662636, -- [4]
+		-65.0004845235916, -- [5]
 	},
 	["ComboBarWidth"] = 190,
-	["ComboHideOOC"] = false,
-	["EnergyBarEnable"] = true,
-	["EnergyFadeTime"] = 0.5,
-	["EnergyBarHeight"] = 10,
-	["ComboMinAlpha"] = 0.2,
 	["EnergyFontSize"] = 12,
+	["ComboMinAlpha"] = 0.3,
+	["EnergyBarEnable"] = true,
+	["EnergyBarHeight"] = 25,
+	["EnergyFadeTime"] = 0.5,
+	["ComboHideOOC"] = false,
 }

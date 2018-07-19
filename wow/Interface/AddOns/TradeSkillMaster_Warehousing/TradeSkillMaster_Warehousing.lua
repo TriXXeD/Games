@@ -42,9 +42,8 @@ local operationDefaults = {
 -- Called once the player has loaded into the game
 -- Anything that needs to be done in order to initialize the addon should go here
 function TSM:OnEnable()
-	if TradeSkillMasterModulesDB then
-		TradeSkillMasterModulesDB.Warehousing = TradeSkillMaster_WarehousingDB
-	end
+	-- store our settings in TSM's saved variables
+	TradeSkillMasterModulesDB.Warehousing = TradeSkillMaster_WarehousingDB
 
 	-- load settings
 	TSM.db = TSMAPI.Settings:Init("TradeSkillMaster_WarehousingDB", settingsInfo)
@@ -208,3 +207,4 @@ function TSM:PutItem(args)
 		TSM:Print(L["Invalid criteria entered."])
 	end
 end
+

@@ -41,9 +41,8 @@ local operationDefaults = {
 }
 
 function TSM:OnInitialize()
-	if TradeSkillMasterModulesDB then
-		TradeSkillMasterModulesDB.Shopping = TradeSkillMaster_ShoppingDB
-	end
+	-- store our settings in TSM's saved variables
+	TradeSkillMasterModulesDB.Shopping = TradeSkillMaster_ShoppingDB
 
 	-- load settings
 	TSM.db = TSMAPI.Settings:Init("TradeSkillMaster_ShoppingDB", settingsInfo)
@@ -61,12 +60,6 @@ function TSM:OnInitialize()
 			operation.restockQuantity = operation.restockQuantity or operationDefaults.restockQuantity
 			operation.restockSources = operation.restockSources or operationDefaults.restockSources
 		end
-	end
-	
-	-- fix patch 7.3 sound changes
-	local sounds = TSMAPI:GetSounds()
-	if not sounds[TSM.db.global.sniperSound] then
-		TSM.db.global.sniperSound = TSM.NO_SOUND_KEY
 	end
 end
 
@@ -144,3 +137,4 @@ function TSM:StartSearchAuctioning(itemString, database, callback, filterFunc)
 	local searchInfo = { item = itemString, searchMode = "normal", extraInfo = { searchType = "apiAuctioning", database = database, filterFunc = filterFunc, buyCallback = callback }, searchBoxText = "~"..L["auctioning"].."~" }
 	return TSM.AuctionTab:StartSearch(searchInfo)
 end
+

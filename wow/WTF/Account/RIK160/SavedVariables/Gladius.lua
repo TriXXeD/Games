@@ -2,28 +2,35 @@
 Gladius2DB = {
 	["profileKeys"] = {
 		["Eruditus - Ravencrest"] = "Eruditus - Ravencrest",
+		["Monkshood - Draenor"] = "Monkshood - Draenor",
+		["Achilina - Draenor"] = "Achilina - Draenor",
+		["Trixxed - Ravencrest"] = "Trixxed - Ravencrest",
+		["Anneshank - Draenor"] = "Anneshank - Draenor",
 		["Tríxxed - Laughing Skull"] = "Achilina - Ravencrest",
+		["Achillina - Thunderhorn"] = "Achillina - Thunderhorn",
+		["Trixbankxed - Shadowsong"] = "Trixbankxed - Shadowsong",
 		["Achilina - Ravencrest"] = "Achilina - Ravencrest",
 		["Trìxxed - Ravencrest"] = "Trìxxed - Ravencrest",
-		["Achillina - Thunderhorn"] = "Achillina - Thunderhorn",
-		["Fausta - Ravencrest"] = "Fausta - Ravencrest",
-		["Trixxedbank - Draenor"] = "Trixxedbank - Draenor",
-		["Teukronar - Argent Dawn"] = "Teukronar - Argent Dawn",
-		["Lupalia - Ravencrest"] = "Lupalia - Ravencrest",
 		["Daemonikos - Ravencrest"] = "Daemonikos - Ravencrest",
-		["Achilina - Draenor"] = "Achilina - Draenor",
-		["Shadefighter - Thunderhorn"] = "Shadefighter - Thunderhorn",
-		["Trîxxed - Ravencrest"] = "Trîxxed - Ravencrest",
-		["Daemonikos - Draenor"] = "Daemonikos - Draenor",
+		["Grippiboi - Kazzak"] = "Grippiboi - Kazzak",
+		["Teukronar - Argent Dawn"] = "Teukronar - Argent Dawn",
+		["Trixxedbank - Draenor"] = "Trixxedbank - Draenor",
+		["Lupalia - Ravencrest"] = "Lupalia - Ravencrest",
 		["Marcellinus - Ravencrest"] = "Marcellinus - Ravencrest",
+		["Tríxxed - The Maelstrom"] = "Tríxxed - The Maelstrom",
+		["Lycotonum - Tarren Mill"] = "Lycotonum - Tarren Mill",
+		["Shadefighter - Thunderhorn"] = "Shadefighter - Thunderhorn",
+		["Chrysante - Ravencrest"] = "Chrysante - Ravencrest",
+		["Trixxedz - Thunderhorn"] = "Trixxedz - Thunderhorn",
+		["Daemonikos - Draenor"] = "Daemonikos - Draenor",
 		["Quelith - Draenor"] = "Quelith - Draenor",
 		["Odeysseus - Thunderhorn"] = "Odeysseus - Thunderhorn",
 		["Trïxxed - Ravencrest"] = "Trïxxed - Ravencrest",
-		["Chrysante - Ravencrest"] = "Chrysante - Ravencrest",
+		["Trîxxed - Ravencrest"] = "Trîxxed - Ravencrest",
 		["Petergrippin - Draenor"] = "Petergrippin - Draenor",
 		["Kazzía - Thunderhorn"] = "Kazzía - Thunderhorn",
 		["Lichservent - Thunderhorn"] = "Lichservent - Thunderhorn",
-		["Trixxed - Ravencrest"] = "Trixxed - Ravencrest",
+		["Fausta - Ravencrest"] = "Fausta - Ravencrest",
 		["Molokh - Ravencrest"] = "Molokh - Ravencrest",
 	},
 	["profiles"] = {
@@ -37,6 +44,46 @@ Gladius2DB = {
 				["arena1"] = 505.600046235812,
 			},
 		},
+		["Monkshood - Draenor"] = {
+			["auraVersion"] = 1,
+			["tagsVersion"] = 4,
+			["y"] = {
+				["arena1"] = 425.955609272587,
+			},
+			["x"] = {
+				["arena1"] = 1070.93353287644,
+			},
+		},
+		["Achilina - Draenor"] = {
+			["auraVersion"] = 1,
+			["tagsVersion"] = 4,
+			["y"] = {
+				["arena1"] = 384.711163829434,
+			},
+			["x"] = {
+				["arena1"] = 921.600543149325,
+			},
+		},
+		["Trixxed - Ravencrest"] = {
+			["auraVersion"] = 1,
+			["tagsVersion"] = 4,
+			["y"] = {
+				["arena1"] = 539.733286246188,
+			},
+			["x"] = {
+				["arena1"] = 1044.62196706255,
+			},
+		},
+		["Anneshank - Draenor"] = {
+			["auraVersion"] = 1,
+			["tagsVersion"] = 4,
+			["x"] = {
+				["arena1"] = 1148.44455905888,
+			},
+			["y"] = {
+				["arena1"] = 562.488902509213,
+			},
+		},
 		["Tríxxed - Laughing Skull"] = {
 			["y"] = {
 				["arena1"] = 553.955612372029,
@@ -47,6 +94,26 @@ Gladius2DB = {
 			["locked"] = true,
 			["tagsVersion"] = 4,
 			["auraVersion"] = 1,
+		},
+		["Achillina - Thunderhorn"] = {
+			["auraVersion"] = 1,
+			["tagsVersion"] = 4,
+			["y"] = {
+				["arena1"] = 479.288887753273,
+			},
+			["x"] = {
+				["arena1"] = 1129.24472252947,
+			},
+		},
+		["Trixbankxed - Shadowsong"] = {
+			["auraVersion"] = 1,
+			["tagsVersion"] = 4,
+			["x"] = {
+				["arena1"] = 952.888911962509,
+			},
+			["y"] = {
+				["arena1"] = 394.666632820499,
+			},
 		},
 		["Achilina - Ravencrest"] = {
 			["y"] = {
@@ -143,25 +210,29 @@ Gladius2DB = {
 				["arena1"] = 1107.91172763712,
 			},
 		},
-		["Achillina - Thunderhorn"] = {
+		["Daemonikos - Ravencrest"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["y"] = {
-				["arena1"] = 479.288887753273,
-			},
 			["x"] = {
-				["arena1"] = 1129.24472252947,
+				["arena1"] = 1063.11119341146,
+			},
+			["y"] = {
+				["arena1"] = 507.022179497876,
 			},
 		},
-		["Fausta - Ravencrest"] = {
+		["Grippiboi - Kazzak"] = {
+			["y"] = {
+				["arena1"] = 457.955696853005,
+			},
+			["tagsVersion"] = 4,
+			["auraVersion"] = 1,
+			["x"] = {
+				["arena1"] = 1111.46678038571,
+			},
+		},
+		["Teukronar - Argent Dawn"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["y"] = {
-				["arena1"] = 482.133502863886,
-			},
-			["x"] = {
-				["arena1"] = 1112.88904466014,
-			},
 		},
 		["Trixxedbank - Draenor"] = {
 			["auraVersion"] = 1,
@@ -172,10 +243,6 @@ Gladius2DB = {
 			["x"] = {
 				["arena1"] = 951.466776511406,
 			},
-		},
-		["Teukronar - Argent Dawn"] = {
-			["auraVersion"] = 1,
-			["tagsVersion"] = 4,
 		},
 		["Lupalia - Ravencrest"] = {
 			["targetBarWidth"] = 199,
@@ -265,50 +332,6 @@ Gladius2DB = {
 			["tagsVersion"] = 4,
 			["targetBarOffsetX"] = 51,
 		},
-		["Daemonikos - Ravencrest"] = {
-			["auraVersion"] = 1,
-			["tagsVersion"] = 4,
-			["x"] = {
-				["arena1"] = 1063.11119341146,
-			},
-			["y"] = {
-				["arena1"] = 507.022179497876,
-			},
-		},
-		["Achilina - Draenor"] = {
-			["auraVersion"] = 1,
-			["tagsVersion"] = 4,
-			["x"] = {
-				["arena1"] = 921.600543149325,
-			},
-			["y"] = {
-				["arena1"] = 384.711163829434,
-			},
-		},
-		["Shadefighter - Thunderhorn"] = {
-			["auraVersion"] = 1,
-			["tagsVersion"] = 4,
-		},
-		["Trîxxed - Ravencrest"] = {
-			["auraVersion"] = 1,
-			["tagsVersion"] = 4,
-			["y"] = {
-				["arena1"] = 374.044453015392,
-			},
-			["x"] = {
-				["arena1"] = 797.866358894904,
-			},
-		},
-		["Daemonikos - Draenor"] = {
-			["auraVersion"] = 1,
-			["tagsVersion"] = 4,
-			["y"] = {
-				["arena1"] = 400.35556524992,
-			},
-			["x"] = {
-				["arena1"] = 1108.62303031685,
-			},
-		},
 		["Marcellinus - Ravencrest"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
@@ -319,14 +342,50 @@ Gladius2DB = {
 				["arena1"] = 1128.53350650423,
 			},
 		},
+		["Tríxxed - The Maelstrom"] = {
+			["auraVersion"] = 1,
+			["tagsVersion"] = 4,
+		},
+		["Lycotonum - Tarren Mill"] = {
+			["auraVersion"] = 1,
+			["tagsVersion"] = 4,
+		},
+		["Shadefighter - Thunderhorn"] = {
+			["auraVersion"] = 1,
+			["tagsVersion"] = 4,
+		},
+		["Chrysante - Ravencrest"] = {
+			["auraVersion"] = 1,
+			["tagsVersion"] = 4,
+			["x"] = {
+				["arena1"] = 1082.31113780492,
+			},
+			["y"] = {
+				["arena1"] = 499.200097970039,
+			},
+		},
+		["Trixxedz - Thunderhorn"] = {
+			["auraVersion"] = 1,
+			["tagsVersion"] = 4,
+		},
+		["Daemonikos - Draenor"] = {
+			["auraVersion"] = 1,
+			["tagsVersion"] = 4,
+			["x"] = {
+				["arena1"] = 1108.62303031685,
+			},
+			["y"] = {
+				["arena1"] = 400.35556524992,
+			},
+		},
 		["Quelith - Draenor"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["y"] = {
-				["arena1"] = 486.400055180657,
-			},
 			["x"] = {
 				["arena1"] = 1152.71122582886,
+			},
+			["y"] = {
+				["arena1"] = 486.400055180657,
 			},
 		},
 		["Odeysseus - Thunderhorn"] = {
@@ -349,14 +408,14 @@ Gladius2DB = {
 				["arena1"] = 1108.62244568167,
 			},
 		},
-		["Chrysante - Ravencrest"] = {
+		["Trîxxed - Ravencrest"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["x"] = {
-				["arena1"] = 1082.31113780492,
-			},
 			["y"] = {
-				["arena1"] = 499.200097970039,
+				["arena1"] = 374.044453015392,
+			},
+			["x"] = {
+				["arena1"] = 797.866358894904,
 			},
 		},
 		["Petergrippin - Draenor"] = {
@@ -383,14 +442,14 @@ Gladius2DB = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
 		},
-		["Trixxed - Ravencrest"] = {
+		["Fausta - Ravencrest"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
 			["y"] = {
-				["arena1"] = 539.733286246188,
+				["arena1"] = 482.133502863886,
 			},
 			["x"] = {
-				["arena1"] = 1044.62196706255,
+				["arena1"] = 1112.88904466014,
 			},
 		},
 		["Molokh - Ravencrest"] = {

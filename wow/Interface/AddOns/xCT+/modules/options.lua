@@ -9,7 +9,7 @@
  [=====================================]
  [  Author: Dandraffbal-Stormreaver US ]
  [  xCT+ Version 4.x.x                 ]
- [  ©2015. All Rights Reserved.        ]
+ [  ©2018. All Rights Reserved.        ]
  [====================================]]
 
 local build = select(4, GetBuildInfo())
@@ -1267,7 +1267,7 @@ addon.options.args["Credits"] = {
       type = 'description',
       order = 2,
       fontSize = "medium",
-      name = "  |cffAA0000Tukz|r, |cffAA0000Elv|r, |cffFFFF00Affli|r, |cffFF8000BuG|r, |cff8080FFShestak|r, Nidra, gnangnan, NitZo, Naughtia, Derap, sortokk, ckaotik, Cecile.",
+      name = "  |cffAA0000Tukz|r, |cffAA0000Elv|r, |cffFFFF00Affli|r, |cffFF8000BuG|r, |cff8080FFShestak|r, |cffAAAAFFToludin|r, Nidra, gnangnan, NitZo, Naughtia, Derap, sortokk, ckaotik, Cecile.",
     },
     testerTitleSpace1 = {
       type = 'description',
@@ -1339,7 +1339,21 @@ addon.options.args["Credits"] = {
       type = 'description',
       order = 35,
       fontSize = "medium",
-      name = " |cffAAAAFF Azazu|r,|cff8080EE Broni|r,|cffAAAAFF CursedBunny|r,|cff8080EE Daemios|r,|cffAAAAFF Dajova|r,|cff8080EE Delerionn|r,|cffAAAAFF dunger|r,|cff8080EE feetss|r,|cffAAAAFF gesuntight|r,|cff8080EE Homaxz|r,|cffAAAAFF karamei|r,|cff8080EE Merathilis|r,|cffAAAAFF re1jo|r,|cff8080EE sammael666|r,|cffAAAAFF scathee|r,|cff8080EE Tonyleila|r,|cffAAAAFF Torch|r,|cff8080EE WetU|r,|cffAAAAFF Znuff|r,|cff8080EE Zylos|r",
+      name = " |cffAAAAFF Azazu|r,|cff8080EE Broni|r,|cffAAAAFF CursedBunny|r,|cff8080EE Daemios|r,|cffAAAAFF Dajova|r,|cff8080EE Delerionn|r,|cffAAAAFF dunger|r,|cff8080EE feetss|r,|cffAAAAFF gesuntight|r,|cff8080EE Homaxz|r,|cffAAAAFF karamei|r,|cff8080EE Merathilis|r,|cffAAAAFF re1jo|r,|cff8080EE sammael666|r,|cffAAAAFF scathee|r,|cff8080EE Tonyleila|r,|cffAAAAFF Torch|r,|cff8080EE WetU|r,|cffAAAAFF Znuff|r,|cff8080EE Zylos|r\n",
+    },
+
+    tukuiTitleBfA = {
+      type = 'description',
+      order = 36,
+      name = "|cffFFFF00Beta Testers - Version 4.4.0+ (Battle for Azeroth)|r",
+      fontSize = "large",
+    },
+
+    userName3BfA = {
+      type = 'description',
+      order = 37,
+      fontSize = "medium",
+      name = " |cffAAAAFF Toludin|r",
     },
 
     testerTitleSpace4 = {
@@ -1358,7 +1372,7 @@ addon.options.args["Credits"] = {
       type = 'description',
       order = 42,
       fontSize = "medium",
-      name = " |cff22FF80 Tonyleila|r,|cff1AAD59 ckaotik|r,|cff22FF80 Stanzilla|r,|cff1AAD59 Torch (behub)|r,|cff22FF80 vforge|r",
+      name = " |cff22FF80 Tonyleila|r,|cff1AAD59 ckaotik|r,|cff22FF80 Stanzilla|r,|cff1AAD59 Torch (behub)|r,|cff22FF80 vforge|r,|cff1AAD59 Toludin (BfA Update!)|r",
     },
 
     testerTitleSpace5 = {
@@ -2924,7 +2938,7 @@ addon.options.args["Frames"] = {
                   type = 'select',
                   order = 30,
                   name = "Display Player Name",
-                  desc = "",
+                  desc = "|cff798BDDNone|r - Disabled\n\n|cff798BDDPlayer Name|r - The name of the player that is affected by the event\n\n|cff798BDDSpell Name|r - The name of the spell that is affecting the player",
                   width = 'double',
                   style = 'radio',
                   values = {
@@ -3007,7 +3021,7 @@ addon.options.args["Frames"] = {
                   type = 'select',
                   order = 21,
                   name = "Display NPC Name",
-                  desc = "",
+                  desc = "|cff798BDDNone|r - Disabled\n\n|cff798BDDNPC's Name|r - The name of the target that is affected by the event\n\n|cff798BDDSpell Name|r - The name of the spell that is affecting the target",
                   width = 'double',
                   style = 'radio',
                   values = {
@@ -3037,7 +3051,7 @@ addon.options.args["Frames"] = {
               fontSize = 'large',
             },
             enableOutDmg = {
-              order = 1,
+              order = 10,
               type = 'toggle',
               name = "Show Outgoing Damage",
               desc = "Show damage you do.",
@@ -3045,15 +3059,23 @@ addon.options.args["Frames"] = {
               set = set2,
             },
             enableOutHeal = {
-              order = 2,
+              order = 11,
               type = 'toggle',
               name = "Show Outgoing Healing",
               desc = "Show healing you do.",
               get = get2,
               set = set2,
             },
+            enableOutAbsorbs = {
+              order = 12,
+              type = 'toggle',
+              name = "Show Outgoing Absorbs",
+              desc = "Show absorbs that you apply.",
+              get = get2,
+              set = set2,
+            },
             enablePetDmg = {
-              order = 3,
+              order = 20,
               type = 'toggle',
               name = "Show Pet Damage",
               desc = "Show your pet's damage. Beast Mastery hunters should also look at vehicle damage.",
@@ -3061,7 +3083,7 @@ addon.options.args["Frames"] = {
               set = set2,
             },
             enableVehicleDmg = {
-              order = 4,
+              order = 21,
               type = 'toggle',
               name = "Show Vehicle Damage",
               desc = "Show damage that your vehicle does. This can be anything from a vehicle you are controlling to Hati, the beast mastery pet.",
@@ -3069,7 +3091,7 @@ addon.options.args["Frames"] = {
               set = set2,
             },
             enableAutoAttack = {
-              order = 5,
+              order = 30,
               type = 'toggle',
               name = "Show Auto Attack",
               desc = "Show your auto attack damage.",
@@ -3077,7 +3099,7 @@ addon.options.args["Frames"] = {
               set = set2,
             },
             enableDotDmg = {
-              order = 6,
+              order = 40,
               type = 'toggle',
               name = "Show DoTs",
               desc = "Show your Damage-Over-Time (DOT) damage. (|cffFF0000Requires:|r Outgoing Damage)",
@@ -3085,15 +3107,25 @@ addon.options.args["Frames"] = {
               set = set2,
             },
             enableHots = {
-              order = 7,
+              order = 41,
               type = 'toggle',
               name = "Show HoTs",
               desc = "Show your Heal-Over-Time (HOT) healing. (|cffFF0000Requires:|r Outgoing Healing)",
               get = get2,
               set = set2,
             },
+
+
+
+            missTypeSettings = {
+              type = 'description',
+              order = 50,
+              name = "\n|cff798BDDMiss Type Settings|r:",
+              fontSize = 'large',
+            },
+
             enableImmunes = {
-              order = 9,
+              order = 51,
               type = 'toggle',
               name = "Show Immunes",
               desc = "Display 'Immune' when your target cannot take damage.",
@@ -3101,13 +3133,97 @@ addon.options.args["Frames"] = {
               set = set2,
             },
             enableMisses = {
-              order = 10,
+              order = 52,
               type = 'toggle',
               name = "Show Miss Types",
               desc = "Display 'Miss', 'Dodge', 'Parry' when you miss your target.",
               get = get2,
               set = set2,
             },
+            enablePartialMisses = {
+              order = 53,
+              type = 'toggle',
+              name = "Show Miss Types (Partials)",
+              desc = "Show when your target takes only a percentage of your damage because it was partially absorbed, resisted, or blocked.\n\n|cffFF0000PLEASE NOTE:|r Only works if the spell is not merged. Turn off the Spell Merger to see all spells.",
+              get = get2,
+              set = set2,
+            },
+            showHighestPartialMiss = {
+              order = 54,
+              type = 'toggle',
+              name = "Show the Highest Partial Miss",
+              desc = "Only show the highest partial miss, instead of all the misses. (Rare, but less spammy)\n\n|cffFF0000PLEASE NOTE:|r Only works if the spell is not merged. Turn off the Spell Merger to see all spells.",
+              get = get2,
+              set = set2,
+            },
+
+
+            healingSettings = {
+              type = 'description',
+              order = 60,
+              name = "\n|cff798BDDHealing Settings|r:",
+              fontSize = 'large',
+            },
+
+            enableOverhealing = {
+              order = 61,
+              type = 'toggle',
+              name = "Show Overhealing",
+              desc = "Displays overhealing.",
+              get = get2,
+              set = set2,
+              disabled = isFrameItemDisabled,
+            },
+
+            enableOverhealingFormat = {
+              order = 62,
+              type = 'toggle',
+              name = "Format Overhealing",
+              desc = "Splits overhealing into its own section. Example: +43,000 (O: 12,000)",
+              get = get2,
+              set = set2,
+              disabled = function(info)
+                return not x.db.profile.frames.outgoing.enabledFrame or
+                  not x.db.profile.frames.outgoing.enableOverhealing
+              end,
+            },
+
+            healingSettings_Spacer = {
+              type = 'description',
+              order = 63,
+              name = "",
+              fontSize = 'small',
+              width = 'full',
+            },
+
+            overhealingPrefix = {
+              order = 65,
+              type = 'input',
+              name = "Overhealing Prefix",
+              desc = "Prefix this value to the beginning when displaying an overheal amount.\n\n|cffFF0000Requires:|r |cff798BDDFormat Overhealing|r",
+              get = getTextIn2,
+              set = setTextIn2,
+              disabled = function(info)
+                return not x.db.profile.frames.outgoing.enabledFrame or
+                  not x.db.profile.frames.outgoing.enableOverhealing or
+                  not x.db.profile.frames.outgoing.enableOverhealingFormat
+              end,
+            },
+
+            overhealingPostfix = {
+              order = 66,
+              type = 'input',
+              name = "Overhealing Postfix",
+              desc = "Prefix this value to the endind when displaying an overheal amount.\n\n|cffFF0000Requires:|r |cff798BDDFormat Overhealing|r",
+              get = getTextIn2,
+              set = setTextIn2,
+              disabled = function(info)
+                return not x.db.profile.frames.outgoing.enabledFrame or
+                  not x.db.profile.frames.outgoing.enableOverhealing or
+                  not x.db.profile.frames.outgoing.enableOverhealingFormat
+              end,
+            },
+
           },
         },
 
@@ -5719,6 +5835,15 @@ addon.options.args["Frames"] = {
               order = 113,
               type = 'toggle',
               name = "Disable |cff798BDD"..PAIN,
+              get = get2,
+              set = set2,
+              width = "normal",
+            },
+			
+			disableResource_MAELSTROM = { -- Add in Maelstrom to resources
+              order = 113,
+              type = 'toggle',
+              name = "Disable |cff798BDD"..MAELSTROM,
               get = get2,
               set = set2,
               width = "normal",

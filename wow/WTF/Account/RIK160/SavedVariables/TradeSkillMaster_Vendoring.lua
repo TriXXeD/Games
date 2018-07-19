@@ -23,62 +23,92 @@ TradeSkillMaster_VendoringDB = {
 			"Trixxedbank - Draenor", -- [18]
 			"Daemonikos - Draenor", -- [19]
 			"Petergrippin - Draenor", -- [20]
-		},
-		["realm"] = {
-			"Ravencrest", -- [1]
-			"Draenor", -- [2]
-			"Laughing Skull", -- [3]
-			"Thunderhorn", -- [4]
-		},
-		["profile"] = {
-			"Default", -- [1]
+			"Drfeargood - Ravencrest", -- [21]
+			"Palladium - Ravencrest", -- [22]
+			"Anneshank - Draenor", -- [23]
+			"Monkshood - Draenor", -- [24]
+			"Trixxedz - Thunderhorn", -- [25]
+			"Tríxxed - The Maelstrom", -- [26]
+			"Trixbankxed - Shadowsong", -- [27]
+			"Lycotonum - Tarren Mill", -- [28]
+			"Grippiboi - Kazzak", -- [29]
+			"Xbenedict - Kazzak", -- [30]
+			"Trixxed - Kazzak", -- [31]
 		},
 		["factionrealm"] = {
 			"Alliance - Ravencrest", -- [1]
 			"Horde - Draenor", -- [2]
 			"Horde - Laughing Skull", -- [3]
 			"Horde - Thunderhorn", -- [4]
+			"Alliance - The Maelstrom", -- [5]
+			"Alliance - Shadowsong", -- [6]
+			"Horde - Tarren Mill", -- [7]
+			"Horde - Kazzak", -- [8]
+		},
+		["profile"] = {
+			"Default", -- [1]
+		},
+		["realm"] = {
+			"Ravencrest", -- [1]
+			"Draenor", -- [2]
+			"Laughing Skull", -- [3]
+			"Thunderhorn", -- [4]
+			"The Maelstrom", -- [5]
+			"Shadowsong", -- [6]
+			"Tarren Mill", -- [7]
+			"Kazzak", -- [8]
 		},
 	},
 	["g@ @helpPlatesShown"] = {
-		["buyback"] = true,
-		["groups"] = true,
 		["buy"] = true,
+		["groups"] = true,
+		["buyback"] = true,
 	},
 	["_hash"] = 7791016,
 	["g@ @qsHideGrouped"] = true,
 	["_currentProfile"] = {
+		["Achilina - Draenor"] = "Default",
+		["Monkshood - Draenor"] = "Default",
 		["Trixxed - Ravencrest"] = "Default",
+		["Fausta - Ravencrest"] = "Default",
+		["Palladium - Ravencrest"] = "Default",
 		["Tríxxed - Laughing Skull"] = "Default",
+		["Drfeargood - Ravencrest"] = "Default",
+		["Trixxed - Kazzak"] = "Default",
 		["Achilina - Ravencrest"] = "Default",
 		["Trìxxed - Ravencrest"] = "Default",
 		["Daemonikos - Ravencrest"] = "Default",
+		["Grippiboi - Kazzak"] = "Default",
+		["Petergrippin - Draenor"] = "Default",
 		["Trixxedbank - Draenor"] = "Default",
 		["Lupalia - Ravencrest"] = "Default",
-		["Fausta - Ravencrest"] = "Default",
-		["Trîxxed - Ravencrest"] = "Default",
-		["Marcellinus - Ravencrest"] = "Default",
-		["Daemonikos - Draenor"] = "Default",
-		["Quelith - Draenor"] = "Default",
-		["Odeysseus - Thunderhorn"] = "Default",
-		["Trïxxed - Ravencrest"] = "Default",
 		["Eruditus - Ravencrest"] = "Default",
-		["Petergrippin - Draenor"] = "Default",
+		["Tríxxed - The Maelstrom"] = "Default",
+		["Quelith - Draenor"] = "Default",
+		["Xbenedict - Kazzak"] = "Default",
 		["Chrysante - Ravencrest"] = "Default",
+		["Odeysseus - Thunderhorn"] = "Default",
+		["Daemonikos - Draenor"] = "Default",
+		["Trixxedz - Thunderhorn"] = "Default",
+		["Lycotonum - Tarren Mill"] = "Default",
+		["Trïxxed - Ravencrest"] = "Default",
+		["Marcellinus - Ravencrest"] = "Default",
+		["Trixbankxed - Shadowsong"] = "Default",
+		["Trîxxed - Ravencrest"] = "Default",
+		["Anneshank - Draenor"] = "Default",
 		["Lichservent - Thunderhorn"] = "Default",
-		["Achilina - Draenor"] = "Default",
 		["Molokh - Ravencrest"] = "Default",
 	},
 	["g@ @qsHideSoulbound"] = true,
 	["g@ @defaultPage"] = 1,
 	["g@ @qsBatchSize"] = 12,
 	["g@ @displayMoneyCollected"] = false,
+	["g@ @qsMarketValue"] = "dbmarket",
+	["g@ @autoSellTrash"] = false,
+	["g@ @defaultMerchantTab"] = false,
+	["g@ @qsMaxDestroyValue"] = "100g",
+	["g@ @qsMaxMarketValue"] = "100g",
+	["_version"] = 1,
 	["g@ @ignore"] = {
 	},
-	["g@ @defaultMerchantTab"] = false,
-	["g@ @autoSellTrash"] = false,
-	["g@ @qsMaxMarketValue"] = "100g",
-	["g@ @qsMaxDestroyValue"] = "100g",
-	["_version"] = 1,
-	["g@ @qsMarketValue"] = "dbmarket",
 }

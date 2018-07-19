@@ -10,7 +10,7 @@ DetailsDataStorage = {
 				["time"] = 1515699339,
 				["guild"] = "Provoke",
 				["servertime"] = 1515699337,
-				["date"] = "20:35 11/01/18",
+				["elapsed"] = 280.994000000006,
 				["healing"] = {
 					["Razerraggarn"] = {
 						47754592, -- [1]
@@ -33,7 +33,7 @@ DetailsDataStorage = {
 						2, -- [3]
 					},
 				},
-				["elapsed"] = 280.994000000006,
+				["date"] = "20:35 11/01/18",
 				["damage"] = {
 					["Ariko"] = {
 						546716123, -- [1]
@@ -116,7 +116,7 @@ DetailsDataStorage = {
 				["time"] = 1517514882,
 				["guild"] = "Provoke",
 				["servertime"] = 1517514881,
-				["elapsed"] = 286.289999999804,
+				["date"] = "20:54 01/02/18",
 				["healing"] = {
 					["Cpcow"] = {
 						299885122, -- [1]
@@ -129,7 +129,7 @@ DetailsDataStorage = {
 						2, -- [3]
 					},
 				},
-				["date"] = "20:54 01/02/18",
+				["elapsed"] = 286.289999999804,
 				["damage"] = {
 					["Pimmiboi"] = {
 						156681494, -- [1]
@@ -189,7 +189,7 @@ DetailsDataStorage = {
 				["time"] = 1515700822,
 				["guild"] = "Provoke",
 				["servertime"] = 1515700820,
-				["date"] = "21:00 11/01/18",
+				["elapsed"] = 278.233000000007,
 				["healing"] = {
 					["Razerraggarn"] = {
 						33282978, -- [1]
@@ -212,7 +212,7 @@ DetailsDataStorage = {
 						2, -- [3]
 					},
 				},
-				["elapsed"] = 278.233000000007,
+				["date"] = "21:00 11/01/18",
 				["damage"] = {
 					["Tøxicpläyer"] = {
 						539534859, -- [1]
@@ -305,7 +305,7 @@ DetailsDataStorage = {
 				["time"] = 1517516430,
 				["guild"] = "Provoke",
 				["servertime"] = 1517516429,
-				["elapsed"] = 307.526000000071,
+				["date"] = "21:20 01/02/18",
 				["healing"] = {
 					["Cpcow"] = {
 						257165691, -- [1]
@@ -318,7 +318,7 @@ DetailsDataStorage = {
 						2, -- [3]
 					},
 				},
-				["date"] = "21:20 01/02/18",
+				["elapsed"] = 307.526000000071,
 				["damage"] = {
 					["Pimmiboi"] = {
 						176444225, -- [1]
@@ -378,7 +378,7 @@ DetailsDataStorage = {
 				["time"] = 1515697900,
 				["guild"] = "Provoke",
 				["servertime"] = 1515697898,
-				["date"] = "20:11 11/01/18",
+				["elapsed"] = 178.709999999992,
 				["healing"] = {
 					["Razerraggarn"] = {
 						37599684, -- [1]
@@ -401,7 +401,7 @@ DetailsDataStorage = {
 						2, -- [3]
 					},
 				},
-				["elapsed"] = 178.709999999992,
+				["date"] = "20:11 11/01/18",
 				["damage"] = {
 					["Ariko"] = {
 						369922850, -- [1]
@@ -484,7 +484,7 @@ DetailsDataStorage = {
 				["time"] = 1517513630,
 				["guild"] = "Provoke",
 				["servertime"] = 1517513629,
-				["elapsed"] = 182.696999999927,
+				["date"] = "20:33 01/02/18",
 				["healing"] = {
 					["Cpcow"] = {
 						149925597, -- [1]
@@ -497,7 +497,7 @@ DetailsDataStorage = {
 						5, -- [3]
 					},
 				},
-				["date"] = "20:33 01/02/18",
+				["elapsed"] = 182.696999999927,
 				["damage"] = {
 					["Pimmiboi"] = {
 						129259689, -- [1]
@@ -562,7 +562,7 @@ DetailsDataStorage = {
 				["time"] = 1515700280,
 				["guild"] = "Provoke",
 				["servertime"] = 1515700278,
-				["date"] = "20:51 11/01/18",
+				["elapsed"] = 264.856,
 				["healing"] = {
 					["Razerraggarn"] = {
 						68108997, -- [1]
@@ -585,7 +585,7 @@ DetailsDataStorage = {
 						2, -- [3]
 					},
 				},
-				["elapsed"] = 264.856,
+				["date"] = "20:51 11/01/18",
 				["damage"] = {
 					["Ariko"] = {
 						212937414, -- [1]
@@ -668,7 +668,7 @@ DetailsDataStorage = {
 				["time"] = 1517515858,
 				["guild"] = "Provoke",
 				["servertime"] = 1517515857,
-				["elapsed"] = 276.568999999901,
+				["date"] = "21:10 01/02/18",
 				["healing"] = {
 					["Cpcow"] = {
 						380752233, -- [1]
@@ -681,7 +681,7 @@ DetailsDataStorage = {
 						2, -- [3]
 					},
 				},
-				["date"] = "21:10 01/02/18",
+				["elapsed"] = 276.568999999901,
 				["damage"] = {
 					["Pimmiboi"] = {
 						118711719, -- [1]
@@ -741,7 +741,7 @@ DetailsDataStorage = {
 				["time"] = 1515699828,
 				["guild"] = "Provoke",
 				["servertime"] = 1515699826,
-				["date"] = "20:43 11/01/18",
+				["elapsed"] = 370.966000000015,
 				["healing"] = {
 					["Razerraggarn"] = {
 						95342379, -- [1]
@@ -764,7 +764,7 @@ DetailsDataStorage = {
 						2, -- [3]
 					},
 				},
-				["elapsed"] = 370.966000000015,
+				["date"] = "20:43 11/01/18",
 				["damage"] = {
 					["Ariko"] = {
 						356309535, -- [1]
@@ -847,7 +847,7 @@ DetailsDataStorage = {
 				["time"] = 1517515364,
 				["guild"] = "Provoke",
 				["servertime"] = 1517515363,
-				["elapsed"] = 346.547999999952,
+				["date"] = "21:02 01/02/18",
 				["healing"] = {
 					["Cpcow"] = {
 						219781051, -- [1]
@@ -860,7 +860,7 @@ DetailsDataStorage = {
 						2, -- [3]
 					},
 				},
-				["date"] = "21:02 01/02/18",
+				["elapsed"] = 346.547999999952,
 				["damage"] = {
 					["Pimmiboi"] = {
 						74002369, -- [1]
@@ -920,7 +920,7 @@ DetailsDataStorage = {
 				["time"] = 1515697491,
 				["guild"] = "Provoke",
 				["servertime"] = 1515697490,
-				["date"] = "20:04 11/01/18",
+				["elapsed"] = 208.97099999999,
 				["healing"] = {
 					["Razerraggarn"] = {
 						32354870, -- [1]
@@ -943,7 +943,7 @@ DetailsDataStorage = {
 						2, -- [3]
 					},
 				},
-				["elapsed"] = 208.97099999999,
+				["date"] = "20:04 11/01/18",
 				["damage"] = {
 					["Ariko"] = {
 						383935310, -- [1]
@@ -1021,7 +1021,7 @@ DetailsDataStorage = {
 				["time"] = 1517512997,
 				["guild"] = "Provoke",
 				["servertime"] = 1517512996,
-				["elapsed"] = 194.78199999989,
+				["date"] = "20:23 01/02/18",
 				["healing"] = {
 					["Cpcow"] = {
 						162758825, -- [1]
@@ -1034,7 +1034,7 @@ DetailsDataStorage = {
 						5, -- [3]
 					},
 				},
-				["date"] = "20:23 01/02/18",
+				["elapsed"] = 194.78199999989,
 				["damage"] = {
 					["Pimmiboi"] = {
 						101520856, -- [1]
@@ -1099,7 +1099,7 @@ DetailsDataStorage = {
 				["time"] = 1515701543,
 				["guild"] = "Provoke",
 				["servertime"] = 1515701541,
-				["date"] = "21:12 11/01/18",
+				["elapsed"] = 198.989000000001,
 				["healing"] = {
 					["Razerraggarn"] = {
 						26447908, -- [1]
@@ -1122,7 +1122,7 @@ DetailsDataStorage = {
 						2, -- [3]
 					},
 				},
-				["elapsed"] = 198.989000000001,
+				["date"] = "21:12 11/01/18",
 				["damage"] = {
 					["Tøxicpläyer"] = {
 						398927254, -- [1]
@@ -1215,7 +1215,7 @@ DetailsDataStorage = {
 				["time"] = 1517517125,
 				["guild"] = "Provoke",
 				["servertime"] = 1517517124,
-				["elapsed"] = 234.25,
+				["date"] = "21:32 01/02/18",
 				["healing"] = {
 					["Cpcow"] = {
 						329114329, -- [1]
@@ -1228,7 +1228,7 @@ DetailsDataStorage = {
 						2, -- [3]
 					},
 				},
-				["date"] = "21:32 01/02/18",
+				["elapsed"] = 234.25,
 				["damage"] = {
 					["Pimmiboi"] = {
 						132202798, -- [1]
@@ -1288,7 +1288,7 @@ DetailsDataStorage = {
 				["time"] = 1515704854,
 				["guild"] = "Provoke",
 				["servertime"] = 1515704852,
-				["date"] = "22:07 11/01/18",
+				["elapsed"] = 500.809999999998,
 				["healing"] = {
 					["Razerraggarn"] = {
 						583626909, -- [1]
@@ -1311,7 +1311,7 @@ DetailsDataStorage = {
 						2, -- [3]
 					},
 				},
-				["elapsed"] = 500.809999999998,
+				["date"] = "22:07 11/01/18",
 				["damage"] = {
 					["Tøxicpläyer"] = {
 						899848018, -- [1]
@@ -1419,7 +1419,7 @@ DetailsDataStorage = {
 				["time"] = 1517519777,
 				["guild"] = "Provoke",
 				["servertime"] = 1517519776,
-				["elapsed"] = 596.339000000153,
+				["date"] = "22:16 01/02/18",
 				["healing"] = {
 					["Cpcow"] = {
 						412639560, -- [1]
@@ -1437,7 +1437,7 @@ DetailsDataStorage = {
 						2, -- [3]
 					},
 				},
-				["date"] = "22:16 01/02/18",
+				["elapsed"] = 596.339000000153,
 				["damage"] = {
 					["Pimmiboi"] = {
 						240193037, -- [1]
@@ -1449,9 +1449,9 @@ DetailsDataStorage = {
 						955.066666666667, -- [2]
 						9, -- [3]
 					},
-					["Aesthir"] = {
-						741932860, -- [1]
-						955.666666666667, -- [2]
+					["Daemonikos"] = {
+						1110869916, -- [1]
+						957.733333333333, -- [2]
 						9, -- [3]
 					},
 					["Slenterkip"] = {
@@ -1459,9 +1459,9 @@ DetailsDataStorage = {
 						952.733333333333, -- [2]
 						8, -- [3]
 					},
-					["Daemonikos"] = {
-						1110869916, -- [1]
-						957.733333333333, -- [2]
+					["Aesthir"] = {
+						741932860, -- [1]
+						955.666666666667, -- [2]
 						9, -- [3]
 					},
 					["Saroik"] = {
@@ -1487,7 +1487,7 @@ DetailsDataStorage = {
 				["time"] = 1515698633,
 				["guild"] = "Provoke",
 				["servertime"] = 1515698631,
-				["date"] = "20:23 11/01/18",
+				["elapsed"] = 311.54800000001,
 				["healing"] = {
 					["Razerraggarn"] = {
 						69275569, -- [1]
@@ -1510,7 +1510,7 @@ DetailsDataStorage = {
 						2, -- [3]
 					},
 				},
-				["elapsed"] = 311.54800000001,
+				["date"] = "20:23 11/01/18",
 				["damage"] = {
 					["Ariko"] = {
 						686613514, -- [1]
@@ -1593,7 +1593,7 @@ DetailsDataStorage = {
 				["time"] = 1517514270,
 				["guild"] = "Provoke",
 				["servertime"] = 1517514269,
-				["elapsed"] = 311.103000000119,
+				["date"] = "20:44 01/02/18",
 				["healing"] = {
 					["Cpcow"] = {
 						305469272, -- [1]
@@ -1606,7 +1606,7 @@ DetailsDataStorage = {
 						2, -- [3]
 					},
 				},
-				["date"] = "20:44 01/02/18",
+				["elapsed"] = 311.103000000119,
 				["damage"] = {
 					["Pimmiboi"] = {
 						228777501, -- [1]
@@ -1666,7 +1666,7 @@ DetailsDataStorage = {
 				["time"] = 1515704125,
 				["guild"] = "Provoke",
 				["servertime"] = 1515704123,
-				["date"] = "21:55 11/01/18",
+				["elapsed"] = 378.344000000012,
 				["healing"] = {
 					["Razerraggarn"] = {
 						538797435, -- [1]
@@ -1689,7 +1689,7 @@ DetailsDataStorage = {
 						2, -- [3]
 					},
 				},
-				["elapsed"] = 378.344000000012,
+				["date"] = "21:55 11/01/18",
 				["damage"] = {
 					["Tøxicpläyer"] = {
 						587855890, -- [1]
@@ -1792,7 +1792,7 @@ DetailsDataStorage = {
 				["time"] = 1517518889,
 				["guild"] = "Provoke",
 				["servertime"] = 1517518888,
-				["elapsed"] = 375.067000000039,
+				["date"] = "22:01 01/02/18",
 				["healing"] = {
 					["Cpcow"] = {
 						295920095, -- [1]
@@ -1810,7 +1810,7 @@ DetailsDataStorage = {
 						2, -- [3]
 					},
 				},
-				["date"] = "22:01 01/02/18",
+				["elapsed"] = 375.067000000039,
 				["damage"] = {
 					["Smorcblast"] = {
 						521097886, -- [1]
@@ -1822,20 +1822,20 @@ DetailsDataStorage = {
 						951.933333333333, -- [2]
 						6, -- [3]
 					},
-					["Aesthir"] = {
-						436199230, -- [1]
-						955.666666666667, -- [2]
-						9, -- [3]
+					["Saroik"] = {
+						643008201, -- [1]
+						958.5, -- [2]
+						4, -- [3]
 					},
 					["Slenterkip"] = {
 						504465046, -- [1]
 						952.733333333333, -- [2]
 						8, -- [3]
 					},
-					["Saroik"] = {
-						643008201, -- [1]
-						958.5, -- [2]
-						4, -- [3]
+					["Aesthir"] = {
+						436199230, -- [1]
+						955.666666666667, -- [2]
+						9, -- [3]
 					},
 					["Daemonikos"] = {
 						537731828, -- [1]
@@ -1860,7 +1860,7 @@ DetailsDataStorage = {
 				["time"] = 1515702079,
 				["guild"] = "Provoke",
 				["servertime"] = 1515702077,
-				["date"] = "21:21 11/01/18",
+				["elapsed"] = 296.027999999991,
 				["healing"] = {
 					["Razerraggarn"] = {
 						59963740, -- [1]
@@ -1883,7 +1883,7 @@ DetailsDataStorage = {
 						2, -- [3]
 					},
 				},
-				["elapsed"] = 296.027999999991,
+				["date"] = "21:21 11/01/18",
 				["damage"] = {
 					["Tøxicpläyer"] = {
 						731287623, -- [1]
@@ -1976,7 +1976,7 @@ DetailsDataStorage = {
 				["time"] = 1517517704,
 				["guild"] = "Provoke",
 				["servertime"] = 1517517703,
-				["elapsed"] = 346.25,
+				["date"] = "21:41 01/02/18",
 				["healing"] = {
 					["Cpcow"] = {
 						278416148, -- [1]
@@ -1989,7 +1989,7 @@ DetailsDataStorage = {
 						2, -- [3]
 					},
 				},
-				["date"] = "21:41 01/02/18",
+				["elapsed"] = 346.25,
 				["damage"] = {
 					["Pimmiboi"] = {
 						195051894, -- [1]

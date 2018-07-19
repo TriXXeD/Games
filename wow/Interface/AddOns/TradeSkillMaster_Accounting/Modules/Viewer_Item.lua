@@ -507,3 +507,4 @@ function private:ProcessItemActivity(itemString, resultTbl, key, activityType)
 		resultTbl[key].hasData = true
 	end
 end
+

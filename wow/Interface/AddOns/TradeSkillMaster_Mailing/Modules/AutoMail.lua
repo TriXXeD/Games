@@ -332,3 +332,4 @@ function private:DoneSending()
 	private.sendThreadId = nil
 	private.callback()
 end
+

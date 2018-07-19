@@ -1,7 +1,7 @@
 --[[
 	Auctioneer - Scan Finish module
-	Version: 7.5.5724 (TasmanianThylacine)
-	Revision: $Id: ScanFinish.lua 5720 2017-08-01 19:08:19Z brykrys $
+	Version: 7.7.6000 (SwimmingSeadragon)
+	Revision: $Id: ScanFinish.lua 6000 2018-07-17 14:09:34Z none $
 	URL: http://auctioneeraddon.com/
 
 	This is an Auctioneer module that adds a few event functionalities
@@ -76,7 +76,7 @@ lib.Processors = {
 }
 
 function lib.OnLoad()
-	aucPrint("Auctioneer: {{"..libType..":"..libName.."}} loaded!")
+	--aucPrint("Auctioneer: {{"..libType..":"..libName.."}} loaded!")
 	default("util.scanfinish.activated", true)
 	default("util.scanfinish.shutdown", false)
 	default("util.scanfinish.logout", false)
@@ -277,4 +277,4 @@ function private.ConfigChanged(fullsetting, value, setting, module, base)
 	end
 end
 
-AucAdvanced.RegisterRevision("$URL: http://svn.norganna.org/auctioneer/branches/7.5/Auc-Util-ScanFinish/ScanFinish.lua $", "$Rev: 5720 $")
+AucAdvanced.RegisterRevision("$URL: /ScanFinish.lua $", "$Rev: 6000 $")

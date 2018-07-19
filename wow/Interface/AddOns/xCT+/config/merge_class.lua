@@ -9,7 +9,7 @@
  [=====================================]
  [  Author: Dandraffbal-Stormreaver US ]
  [  xCT+ Version 4.x.x                 ]
- [  ©2015. All Rights Reserved.        ]
+ [  ©2018. All Rights Reserved.        ]
  [====================================]]
 
 local ADDON_NAME, addon = ...
@@ -39,6 +39,7 @@ end
 -- ---------------------------
 
 -- All Specs
+addon.merges[185311]    = CreateMergeSpellEntry("ROGUE", 2.5, 0)            -- Crimson Vial
 addon.merges[152150]    = CreateMergeSpellEntry("ROGUE", 0.5, 0)            -- Death from Above
 addon.merges[209043]    = CreateMergeSpellEntry("ROGUE", 0.5, 0)            -- Insignia of Ravenholdt (Legendary Ring - All Specs)
 
@@ -52,17 +53,26 @@ addon.merge2h[192380]   = 113780                                            -- A
 addon.merge2h[27576]    = 5374                                              -- Mutilate (OH)
 
 -- Outlaw (ID: 260)
+addon.merges[202895]    = CreateMergeSpellEntry("ROGUE", 0.5, 260)          -- Blunderbuss
+addon.merges[199804]    = CreateMergeSpellEntry("ROGUE", 2.0, 260)          -- Between the Eyes
+addon.merges[193315]    = CreateMergeSpellEntry("ROGUE", 0.5, 260)          -- Saber Slash
+addon.merges[86392]     = CreateMergeSpellEntry("ROGUE", 1.0, 260)          -- Main Gauche
 addon.merges[22482]     = CreateMergeSpellEntry("ROGUE", 1.5, 260)          -- Blade Flurry
 addon.merges[57841]     = CreateMergeSpellEntry("ROGUE", 3.5, 260)          -- Killing Spree
 addon.merges[185779]    = CreateMergeSpellEntry("ROGUE", 2.0, 260)          -- Talent: Cannonball Barrage
-addon.merges[202822]    = CreateMergeSpellEntry("ROGUE", 0.5, 260)          -- Artifact: Greed
-addon.merges[193315]    = CreateMergeSpellEntry("ROGUE", 0.5, 260)          -- Saber Slash
+addon.merges[202822]    = CreateMergeSpellEntry("ROGUE", 1.0, 260)          -- Artifact: Greed
 addon.merge2h[202823]   = 202822                                            -- [MH/OH Merger] Artifact: Greed
 addon.merge2h[197834]   = 193315                                            -- [Proc Merger] Saber Slash
 
 -- Sublety (ID: 261)
+addon.merges[121473]    = CreateMergeSpellEntry("ROGUE", 1.5, 261)          -- Shadowblades
+addon.merges[185438]    = CreateMergeSpellEntry("ROGUE", 1.5, 261)          -- Shadowstrike
 addon.merges[197835]    = CreateMergeSpellEntry("ROGUE", 0.5, 261)          -- Shuriken Storm
 addon.merges[197800]    = CreateMergeSpellEntry("ROGUE", 0.5, 261)          -- Shadow Nova
+addon.merges[195452]    = CreateMergeSpellEntry("ROGUE", 2.5, 261)          -- Nightblade (DoT)
+addon.merges[158188]    = CreateMergeSpellEntry("ROGUE", 2.5, 261)          -- Talent: Soothing Darkness
+addon.merges[220893]    = CreateMergeSpellEntry("ROGUE", 2.5, 261)          -- Artifact: Akaari's Soul
+addon.merge2h[121474]   = 121473                                            -- [MH/OH Merger] Artifact: Greed
 
 
 
@@ -87,18 +97,20 @@ addon.merges[199658]    = CreateMergeSpellEntry("WARRIOR", 1.5, 71)         -- W
 addon.merge2h[199850]   = 199658                                            -- [Spell Merger] Whirlwind
 
 -- Fury (ID: 72)
+addon.merges[5308]      = CreateMergeSpellEntry("WARRIOR", 1.0, 72)         -- Execute
 addon.merges[184367]    = CreateMergeSpellEntry("WARRIOR", 2.5, 72)         -- Rampage (Red Face Icon)
-addon.merges[96103]     = CreateMergeSpellEntry("WARRIOR", 0.5, 72)         -- Raging Blow
+addon.merges[96103]     = CreateMergeSpellEntry("WARRIOR", 1.0, 72)         -- Raging Blow
 addon.merges[199667]    = CreateMergeSpellEntry("WARRIOR", 1.5, 72)         -- Whirlwind
 addon.merges[23881]     = CreateMergeSpellEntry("WARRIOR", 0.5, 72)         -- Bloodthirst (Whirlwind: Meat Cleaver)
 addon.merges[113344]    = CreateMergeSpellEntry("WARRIOR", 2.5, 72)         -- Talent: Bloodbath
 addon.merges[118000]    = CreateMergeSpellEntry("WARRIOR", 0.5, 72)         -- Talent: Dragon Roar
 addon.merges[50622]     = CreateMergeSpellEntry("WARRIOR", 2.5, 72)         -- Talent: Bladestorm
 addon.merges[205546]    = CreateMergeSpellEntry("WARRIOR", 3.0, 72)         -- Artifact: Odyn's Fury (DoT)
-addon.merge2h[205547]   = 205546                                            -- Artifact: Odyn's Fury (Hit)
+addon.merge2h[163558]   = 5308                                              -- [MH/OH] Execute OH
 addon.merge2h[85384]    = 96103                                             -- [MH/OH] Raging Blow
 addon.merge2h[44949]    = 199667                                            -- [MH/OH] Whirlwind
 addon.merge2h[95738]    = 50622                                             -- [MH/OH] Bladestorm
+addon.merge2h[205547]   = 205546                                            -- Artifact: Odyn's Fury (Hit)
 addon.merge2h[218617]   = 184367                                            -- Rampage (1st Hit)
 addon.merge2h[184707]   = 184367                                            -- Rampage (2nd Hit)
 addon.merge2h[184709]   = 184367                                            -- Rampage (3rd Hit)
@@ -124,6 +136,7 @@ addon.merges[122128]    = CreateMergeSpellEntry("PRIEST", 2.5, 0)           -- T
 addon.merges[110745]    = CreateMergeSpellEntry("PRIEST", 2.5, 0)           -- Talent: Divine Star (Heal)
 addon.merges[120696]    = CreateMergeSpellEntry("PRIEST", 2.0, 0)           -- Talent: Halo (Damage)
 addon.merges[120692]    = CreateMergeSpellEntry("PRIEST", 2.0, 0)           -- Talent: Halo (Heal)
+
 -- Discipline (ID: 256)
 addon.merges[81751]     = CreateMergeSpellEntry("PRIEST", 2.5, 256)         -- Atonement
 addon.merges[47666]     = CreateMergeSpellEntry("PRIEST", 2.5, 256)         -- Penance (Heal)
@@ -134,28 +147,36 @@ addon.merges[204213]    = CreateMergeSpellEntry("PRIEST", 2.5, 256)         -- T
 addon.merge2h[204197]   = 204213                                            -- Talent: Purge the Wicked (Instant)
 
 -- Holy (ID: 257)
-addon.merges[139]       = CreateMergeSpellEntry("PRIEST", 3.5, 257)         -- Renew
+addon.merges[585]       = CreateMergeSpellEntry("PRIEST", 1.0, 257)         -- Smite + Artifact: Invoke the Naaru
+addon.merges[139]       = CreateMergeSpellEntry("PRIEST", 3.0, 257)         -- Renew
 addon.merges[14914]     = CreateMergeSpellEntry("PRIEST", 2.5, 257)         -- Holy Fire
-addon.merges[132157]    = CreateMergeSpellEntry("PRIEST", 0.5, 257)         -- Holy Nova
+addon.merges[132157]    = CreateMergeSpellEntry("PRIEST", 1.0, 257)         -- Holy Nova
 addon.merges[34861]     = CreateMergeSpellEntry("PRIEST", 0.5, 257)         -- Holy Word: Sanctify
 addon.merges[596]       = CreateMergeSpellEntry("PRIEST", 0.5, 257)         -- Prayer of Healing
+addon.merges[64844]     = CreateMergeSpellEntry("PRIEST", 2.5, 257)         -- Divine Hymn
 addon.merges[77489]     = CreateMergeSpellEntry("PRIEST", 3.5, 257)         -- Mastery: Echo of Light
 addon.merges[2061]      = CreateMergeSpellEntry("PRIEST", 0.5, 257)         -- Talent: Trail of Light (Flash Heal)
 addon.merges[32546]     = CreateMergeSpellEntry("PRIEST", 0.5, 257)         -- Talent: Binding Heal
 addon.merges[204883]    = CreateMergeSpellEntry("PRIEST", 0.5, 257)         -- Talent: Circle of Healing
+addon.merges[196810]    = CreateMergeSpellEntry("PRIEST", 1.0, 257)         -- Artifact: Invoke the Naaru (Prayer of Healing & Sanctify)
+addon.merges[196809]    = CreateMergeSpellEntry("PRIEST", 1.0, 257)         -- Artifact: Invoke the Naaru (Heal, Flash Heal & Serenity)
+addon.merges[196813]    = CreateMergeSpellEntry("PRIEST", 1.0, 257)         -- Artifact: Invoke the Naaru (Divine Hymn & Prayer of Mending)
+addon.merge2h[196816]   = 139                                               -- Artifact: Invoke the Naaru (Renew)
+addon.merge2h[196811]   = 585                                               -- Artifact: Invoke the Naaru (Smite, Holy Fire & Chastise)
+addon.merge2h[196812]   = 132157                                            -- Artifact: Invoke the Naaru (Holy Nova)
 
 -- Shadow (ID: 258)
-addon.merges[49821]     = CreateMergeSpellEntry("PRIEST", 1.5, 258)         -- Mind Sear
+addon.merges[228360]    = CreateMergeSpellEntry("PRIEST", 1.0, 258)         -- Void Eruption
 addon.merges[34914]     = CreateMergeSpellEntry("PRIEST", 2.5, 258)         -- Vampiric Touch
 addon.merges[148859]    = CreateMergeSpellEntry("PRIEST", 2.5, 258)         -- Shadowy Apparition
 addon.merges[15407]     = CreateMergeSpellEntry("PRIEST", 2.0, 258)         -- Mind Flay
 addon.merges[205386]    = CreateMergeSpellEntry("PRIEST", 0.5, 258)         -- Talent: Shadow Crash
-addon.merges[217676]    = CreateMergeSpellEntry("PRIEST", 0.5, 258)         -- Talent: Mind Spike
 addon.merges[193473]    = CreateMergeSpellEntry("PRIEST", 2.0, 258)         -- Artifact: Void Tendril (Mind Flay)
 addon.merges[205065]    = CreateMergeSpellEntry("PRIEST", 2.0, 258)         -- Artifact: Void Torrent
 addon.merges[194238]    = CreateMergeSpellEntry("PRIEST", 2.5, 258)         -- Artifact: Sphere of Insanity
 addon.merges[204778]    = CreateMergeSpellEntry("PRIEST", 2.5, 258)         -- Honor Talent: Void Shield
-
+addon.merge2h[237388]   = 15407                                             -- [Cleave Merger] Mind Flay AoE Component (7.1.5)
+addon.merge2h[228361]   = 228360                                            -- Void Eruption Merger
 
 -- ---------------------------
 -- Paladin                  --
@@ -180,23 +201,27 @@ addon.merges[200654]    = CreateMergeSpellEntry("PALADIN", 2.5, 65)         -- A
 addon.merges[31935]     = CreateMergeSpellEntry("PALADIN", 1.5, 66)         -- Avenger's Shield
 addon.merges[88263]     = CreateMergeSpellEntry("PALADIN", 0.5, 66)         -- Hammer of the Righteous
 addon.merges[204301]    = CreateMergeSpellEntry("PALADIN", 2.5, 66)         -- Blessed Hammer
+addon.merges[204241]    = CreateMergeSpellEntry("PALADIN", 2.0, 66)         -- Talent: Consecrated Ground
 addon.merges[209478]    = CreateMergeSpellEntry("PALADIN", 1.5, 66)         -- Artifact: Tyr's Enforcer
 addon.merges[209202]    = CreateMergeSpellEntry("PALADIN", 0.5, 66)         -- Artifact: Eye of Tyr
 
 -- Retribution (ID: 70)
-addon.merges[224266]    = CreateMergeSpellEntry("PALADIN", 1.0, 70)         -- Templar's Verdict (Echo of the Highlord) *Delay on second hit
-addon.merges[205729]    = CreateMergeSpellEntry("PALADIN", 1.0, 70)         -- Greater Blessing of Might
+addon.merges[20271]     = CreateMergeSpellEntry("PALADIN", 0.5, 70)         -- Judgment
 addon.merges[217020]    = CreateMergeSpellEntry("PALADIN", 0.5, 70)         -- Zeal
 addon.merges[203539]    = CreateMergeSpellEntry("PALADIN", 5.5, 70)         -- Greater Blessings of Wisdom
 addon.merges[184689]    = CreateMergeSpellEntry("PALADIN", 0.5, 70)         -- Shield of Vengeance
 addon.merges[20271]     = CreateMergeSpellEntry("PALADIN", 1.5, 70)         -- Talent: Greater Judgment
 addon.merges[198137]    = CreateMergeSpellEntry("PALADIN", 2.5, 70)         -- Talent: Divine Hammer
 addon.merges[210220]    = CreateMergeSpellEntry("PALADIN", 0.5, 70)         -- Talent: Holy Wrath
+addon.merges[202202]    = CreateMergeSpellEntry("PALADIN", 0.5, 70)         -- Talent: Eye for an Eye
+addon.merges[199435]    = CreateMergeSpellEntry("PALADIN", 1.0, 70)         -- Talent (PvP): Luminescence
+addon.merges[224239]    = CreateMergeSpellEntry("PALADIN", 1.5, 70)         -- Artifact: Echo of the Highlord (Divine Storm)
+addon.merges[224266]    = CreateMergeSpellEntry("PALADIN", 1.25, 70)        -- Artifact: Echo of the Highlord (Templar's Verdict)
 addon.merges[205273]    = CreateMergeSpellEntry("PALADIN", 2.0, 70)         -- Artifact: Wake of Ashes
 addon.merges[224239]    = CreateMergeSpellEntry("PALADIN", 1.5, 70)         -- Artifact: Divine Tempest (Divine Storm)
-addon.merges[20271]     = CreateMergeSpellEntry("PALADIN", 0.5, 70)         -- Judgment
+addon.merges[215257]    = CreateMergeSpellEntry("PALADIN", 1.75, 70)        -- Artifact: Healing Storm
 addon.merge2h[228288]   = 20271                                             -- [Bounce Merger] Judgment
-addon.merge2h[216527]   = 20271                                             -- [PvP Talent] Lawbringer
+addon.merge2h[216527]   = 20271                                             -- [Pvp Talent - Bounce Merger]: Lawbringer
 
 
 -- ---------------------------
@@ -204,10 +229,12 @@ addon.merge2h[216527]   = 20271                                             -- [
 -- ---------------------------
 
 -- All Specs
+addon.merges[136]       = CreateMergeSpellEntry("HUNTER", 2.5, 0)           -- Mend Pet
 addon.merges[2643]      = CreateMergeSpellEntry("HUNTER", 0.5, 0)           -- Multi-Shot
 addon.merges[131900]    = CreateMergeSpellEntry("HUNTER", 2.5, 0)           -- Talent: A Murder of Crows
 addon.merges[194392]    = CreateMergeSpellEntry("HUNTER", 0.5, 0)           -- Talent: Volley
 addon.merges[120361]    = CreateMergeSpellEntry("HUNTER", 1.5, 0)           -- Talent: Barrage
+addon.merge2h[214303]   = 136                                               -- Mend Pet
 
 -- Beast Mastery (ID: 253)
 addon.merges[118459]    = CreateMergeSpellEntry("HUNTER", 2.5, 253)         -- Pet: Beast Cleave
@@ -216,6 +243,7 @@ addon.merges[217207]    = CreateMergeSpellEntry("HUNTER", 0.5, 253)         -- T
 addon.merges[171454]    = CreateMergeSpellEntry("HUNTER", 0.5, 253)         -- Talent: Chimaera Shot
 addon.merges[197465]    = CreateMergeSpellEntry("HUNTER", 0.5, 253)         -- Artifact: Surge of the Stormgod
 addon.merges[207097]    = CreateMergeSpellEntry("HUNTER", 1.5, 253)         -- Artifact: Titan's Thunder
+addon.merges[197205]    = CreateMergeSpellEntry("HUNTER", 0.5, 253)         -- Artifact: Spirit Bond
 addon.merge2h[171457]   = 171454                                            -- [Cleave Merger] Chimaera Shot
 
 -- Marksmanship (ID: 254)
@@ -228,15 +256,20 @@ addon.merges[198670]    = CreateMergeSpellEntry("HUNTER", 0.5, 254)         -- T
 addon.merges[191070]    = CreateMergeSpellEntry("HUNTER", 0.5, 254)         -- Artifact: Call of the Hunter
 addon.merge2h[191043]   = 19434                                             -- Windburst
 
--- Survival (ID: 255)
+-- Survival (ID: 255) 204081
+addon.merges[185855]    = CreateMergeSpellEntry("HUNTER", 2.5, 255)         -- Lacerate
 addon.merges[187708]    = CreateMergeSpellEntry("HUNTER", 0.5, 255)         -- Carve
 addon.merges[13812]     = CreateMergeSpellEntry("HUNTER", 2.5, 255)         -- Explosive Trap
+addon.merges[164857]    = CreateMergeSpellEntry("HUNTER", 4.5, 255)         -- Survivalist (HoT)
 addon.merges[194279]    = CreateMergeSpellEntry("HUNTER", 2.5, 255)         -- Talent: Caltrops
 addon.merges[212436]    = CreateMergeSpellEntry("HUNTER", 0.5, 255)         -- Talent: Butchery
-addon.merges[203413]    = CreateMergeSpellEntry("HUNTER", 2.5, 255)         -- Artifact: Fury of the Eagle
-addon.merges[194859]    = CreateMergeSpellEntry("HUNTER", 2.5, 255)         -- Artifact: Dragonsfire Conflagration
-addon.merges[194858]    = CreateMergeSpellEntry("HUNTER", 2.5, 255)         -- Artifact: Dragonsfire Grenade
-addon.merges[164857]    = CreateMergeSpellEntry("HUNTER", 5.0, 255)         -- Passive: Survivalist
+addon.merges[194859]    = CreateMergeSpellEntry("HUNTER", 2.5, 255)         -- Talent: Dragonsfire Grenade
+addon.merges[203563]    = CreateMergeSpellEntry("HUNTER", 0.5, 255)         -- Artifact: Talen Strike (Bugged Icon Fix)
+addon.merges[203415]    = CreateMergeSpellEntry("HUNTER", 2.5, 255)         -- Artifact: Fury of the Eagle (Bugged Icon Fix)
+addon.merges[204081]    = CreateMergeSpellEntry("HUNTER", 2.5, 255)         -- Artifact: On the Trail
+addon.merge2h[203525]   = 203563                                            -- Talen Strike (2x Hits)
+addon.merge2h[194858]   = 194859                                            -- Talent: Dragonsfire Grenade (DoT)
+addon.merge2h[203413]   = 203415                                            -- Artifact: Fury of the Eagle (Bugged Icon Fix)
 
 
 -- ---------------------------
@@ -244,18 +277,22 @@ addon.merges[164857]    = CreateMergeSpellEntry("HUNTER", 5.0, 255)         -- P
 -- ---------------------------
 
 -- Elemental (ID: 262)
+addon.merges[117014]    = CreateMergeSpellEntry("SHAMAN", 1.0, 262)         -- Elemental Blast
 addon.merges[51505]     = CreateMergeSpellEntry("SHAMAN", 1.0, 262)         -- Lavaburst (Elemental)
 addon.merges[188196]    = CreateMergeSpellEntry("SHAMAN", 1.0, 262)         -- Lightning Bolt (Elemental)
 addon.merges[188443]    = CreateMergeSpellEntry("SHAMAN", 1.5, 262)         -- Chain Lightning (Elemental)
 addon.merges[77478]     = CreateMergeSpellEntry("SHAMAN", 1.5, 262)         -- Earthquake
-addon.merges[191732]    = CreateMergeSpellEntry("SHAMAN", 1.5, 262)         -- Artifact Greater Lightning Elemental
-addon.merges[205533]    = CreateMergeSpellEntry("SHAMAN", 1.5, 262)         -- Artifact Greater Lightning Elemental
 addon.merges[188389]    = CreateMergeSpellEntry("SHAMAN", 2.5, 262)         -- Flame Shock
 addon.merges[51490]     = CreateMergeSpellEntry("SHAMAN", 0.5, 262)         -- Thunderstorm
 addon.merges[192231]    = CreateMergeSpellEntry("SHAMAN", 2.5, 262)         -- Talent: Liquid Magma Totem
+addon.merges[210714]    = CreateMergeSpellEntry("SHAMAN", 1.0, 262)         -- Talent: Ice Fury
 addon.merges[170379]    = CreateMergeSpellEntry("SHAMAN", 2.0, 262)         -- Talent: Earthn Rage
 addon.merges[197568]    = CreateMergeSpellEntry("SHAMAN", 0.5, 262)         -- Talent: Lightning Rod
 addon.merges[117588]    = CreateMergeSpellEntry("SHAMAN", 0.5, 262)         -- Talent: Primal Elementalist [Fire]
+addon.merges[191732]    = CreateMergeSpellEntry("SHAMAN", 1.5, 262)         -- Artifact: Lightning Elemental (Chain Lightning)
+addon.merges[205533]    = CreateMergeSpellEntry("SHAMAN", 1.5, 262)         -- Artifact: Volcanic Inferno
+addon.merge2h[120588]   = 117014                                            -- [Mastery Merger] Elemental Blast Overload
+addon.merge2h[219271]   = 210714                                            -- [Mastery Merger] Ice Fury Overload
 addon.merge2h[77451]    = 51505                                             -- [Mastery Merger] Lavaburst Overload
 addon.merge2h[45297]    = 188443                                            -- [Mastery Merger] Chain Lightning Overload
 addon.merge2h[45284]    = 188196                                            -- [Mastery Merger] Lightning Bolt Overload
@@ -318,6 +355,7 @@ addon.merge2h[114954]   = 114923                                            -- [
 addon.merge2h[211076]   = 211088                                            -- [DD/Splash Merger] Arcane Rebound
 
 -- Fire (ID: 63)
+addon.merges[235314]    = CreateMergeSpellEntry("MAGE", 1.5, 63)            -- Blazing Barrier (DMG)
 addon.merges[31661]     = CreateMergeSpellEntry("MAGE", 0.5, 63)            -- Dragon's Breath
 addon.merges[2120]      = CreateMergeSpellEntry("MAGE", 1.5, 63)            -- Flamestrike (Longer for talent)
 addon.merges[12654]     = CreateMergeSpellEntry("MAGE", 2.5, 63)            -- Ignite (DoT)
@@ -339,14 +377,15 @@ addon.merge2h[205472]   = 2120                                              -- [
 
 -- Frost (ID: 64)
 addon.merges[84721]     = CreateMergeSpellEntry("MAGE", 1.5, 64)            -- Frozen Orb
+addon.merges[228354]    = CreateMergeSpellEntry("MAGE", 1.0, 64)            -- Flurry
+addon.merges[148022]    = CreateMergeSpellEntry("MAGE", 1.5, 64)            -- Icicle
+addon.merges[190357]    = CreateMergeSpellEntry("MAGE", 2.5, 64)            -- Blizzard
+addon.merges[153596]    = CreateMergeSpellEntry("MAGE", 2.5, 64)            -- Talent: Comet Storm
 addon.merges[59638]     = CreateMergeSpellEntry("MAGE", 2.0, 64)            -- Talent: Mirror Images
 addon.merges[157997]    = CreateMergeSpellEntry("MAGE", 0.5, 64)            -- Talent: Ice Nova
-addon.merges[30455]     = CreateMergeSpellEntry("MAGE", 1.0, 64)            -- Talent: Spliting Ice
+addon.merges[228598]    = CreateMergeSpellEntry("MAGE", 1.0, 64)            -- Talent: Spliting Ice
 addon.merges[113092]    = CreateMergeSpellEntry("MAGE", 1.0, 64)            -- Talent: Frost Bomb
 addon.merges[157978]    = CreateMergeSpellEntry("MAGE", 0.5, 64)            -- Talent: Unstable Magic
-addon.merges[148022]    = CreateMergeSpellEntry("MAGE", 2.5, 64)            -- Icicles
-addon.merges[190357]    = CreateMergeSpellEntry("MAGE", 2.5, 64)            -- Blizzard
-addon.merges[153596]    = CreateMergeSpellEntry("MAGE", 2.5, 64)            -- Comet Storm
 
 
 -- ---------------------------
@@ -354,18 +393,21 @@ addon.merges[153596]    = CreateMergeSpellEntry("MAGE", 2.5, 64)            -- C
 -- ---------------------------
 
 -- All Specs
-addon.merges[689]       = CreateMergeSpellEntry("WARLOCK", 1.5, 0)          -- Drain Life
+addon.merges[217979]    = CreateMergeSpellEntry("WARLOCK", 2.0, 0)          -- Heath Funnel (You)
+addon.merges[85692]     = CreateMergeSpellEntry("WARLOCK", 2.0, 0)          -- Doomguard (Doom Bolt)
 
 -- Affliction (ID: 265)
+addon.merges[198590]    = CreateMergeSpellEntry("WARLOCK", 1.5, 265)        -- Drain Soul
 addon.merges[980]       = CreateMergeSpellEntry("WARLOCK", 2.5, 265)        -- Agony
 addon.merges[146739]    = CreateMergeSpellEntry("WARLOCK", 2.5, 265)        -- Corruption
 addon.merges[233490]    = CreateMergeSpellEntry("WARLOCK", 1.5, 265)        -- Unstable Affliction
 addon.merges[27285]     = CreateMergeSpellEntry("WARLOCK", 0.5, 265)        -- Seed of Corruption
 addon.merges[22703]     = CreateMergeSpellEntry("WARLOCK", 0.5, 265)        -- Infernal: Awakening
 addon.merges[20153]     = CreateMergeSpellEntry("WARLOCK", 1.5, 265)        -- Infernal: Immolation
-addon.merges[198590]    = CreateMergeSpellEntry("WARLOCK", 1.5, 265)        -- Talent: Drain Soul
+addon.merges[63106]     = CreateMergeSpellEntry("WARLOCK", 3.0, 265)        -- Talent: Siphon Life (Heal / Damage has same ID)
 addon.merges[205246]    = CreateMergeSpellEntry("WARLOCK", 1.5, 265)        -- Talent: Phantom Singularity
 addon.merges[196100]    = CreateMergeSpellEntry("WARLOCK", 0.5, 265)        -- Talent: Grimoire of Sacrifice
+addon.merges[205260]    = CreateMergeSpellEntry("WARLOCK", 2.5, 265)        -- Talent: Soul Effigy
 addon.merges[218615]    = CreateMergeSpellEntry("WARLOCK", 0.5, 265)        -- Artifact: Harvester of Souls
 addon.merges[199581]    = CreateMergeSpellEntry("WARLOCK", 0.5, 265)        -- Artifact: Soul Flame
 addon.merge2h[233496]   = 233490                                            -- Unstable Affliction (Multiple Applications)
@@ -380,10 +422,12 @@ addon.merges[89753]     = CreateMergeSpellEntry("WARLOCK", 2.5, 266)        -- F
 addon.merges[104318]    = CreateMergeSpellEntry("WARLOCK", 1.5, 266)        -- Wild Imp: Fel Firebolt
 addon.merges[193439]    = CreateMergeSpellEntry("WARLOCK", 1.5, 266)        -- Demonwrath
 addon.merges[86040]     = CreateMergeSpellEntry("WARLOCK", 0.5, 266)        -- Hand of Gul'dan
+addon.merges[205196]    = CreateMergeSpellEntry("WARLOCK", 0.5, 266)        -- Dreadstalkers (Dreadbite)
 addon.merges[196278]    = CreateMergeSpellEntry("WARLOCK", 0.5, 266)        -- Talent: Implosion
 addon.merges[205231]    = CreateMergeSpellEntry("WARLOCK", 0.5, 266)        -- Talent: Summon Darkglare
-addon.merges[211727]    = CreateMergeSpellEntry("WARLOCK", 0.5, 266)        -- Artifact: Thal'kiel's Discord
+addon.merges[211720]    = CreateMergeSpellEntry("WARLOCK", 2.5, 266)        -- Artifact: Thal'kiel's Discord
 addon.merges[211714]    = CreateMergeSpellEntry("WARLOCK", 0.5, 266)        -- Artifact: Thal'kiel's Consumption (Demon Life Tap)
+addon.merge2h[211727]   = 211720                                            -- Artifact: Thal'kiel's Discord
 
 -- Destruction (ID: 267)
 addon.merges[157736]    = CreateMergeSpellEntry("WARLOCK", 3.5, 267)        -- Immolate

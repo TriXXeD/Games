@@ -1,7 +1,7 @@
 ﻿--[[
 	Enchantrix Addon for World of Warcraft(tm).
-	Version: 7.5.5724 (TasmanianThylacine)
-	Revision: $Id: EnxUtil.lua 5644 2016-08-06 21:39:02Z ccox $
+	Version: 7.7.6000 (SwimmingSeadragon)
+	Revision: $Id: EnxUtil.lua 6000 2018-07-17 14:09:34Z none $
 	URL: http://enchantrix.org/
 
 	General utility functions
@@ -28,7 +28,7 @@
 		since that is its designated purpose as per:
 		http://www.fsf.org/licensing/licenses/gpl-faq.html#InterpreterIncompat
 ]]
-Enchantrix_RegisterRevision("$URL: http://svn.norganna.org/auctioneer/branches/7.5/Enchantrix/EnxUtil.lua $", "$Rev: 5644 $")
+Enchantrix_RegisterRevision("$URL: /EnxUtil.lua $", "$Rev: 6000 $")
 
 -- Global functions
 --local getItems
@@ -402,20 +402,6 @@ function getReagentPrice(reagentID, extra)
 end
 
 
---[[
--- Return item level (rounded up to nearest 5 levels), quality and type as string,
--- e.g. "20:2:Armor" for uncommon level 20 armor
--- ccox - only used in old code
-function getItemType(id)
-	if (id) then
-		local _, _, quality, ilevel, _, _, _, _, equip = GetItemInfo(id)
-		if (quality and quality >= 2 and Enchantrix.Constants.InventoryTypes[equip]) then
-			return ("%d:%d:%s"):format(Enchantrix.Util.RoundUp(ilevel, 5), quality, Enchantrix.Constants.InventoryTypes[equip])
-		end
-	end
-end
---]]
-
 -- Return item id as integer
 function getItemIdFromSig(sig)
 	if type(sig) == "string" then
@@ -431,36 +417,6 @@ function getItemIdFromLink(link)
 		return itemId
 	end
 end
-
---[[
--- ccox - this appears to be unused!
-function getIType(link)
-	assert(type(link) == "string")
-	local iId = getItemIdFromLink(link)
-	local itemName, itemLink, itemRarity, itemLevel, itemMinLevel, itemType, itemSubType, itemStackCount, itemEquipLoc, invTexture = GetItemInfo(link)
-	if ((itemRarity < 2) or (itemRarity > 4)) then
-		--Enchantrix.DebugPrint("GetIType", ENX_INFO, "Quality too low", "The quality for " .. link .. " is not disenchantable (" .. iQual .. ")")
-		return
-	end
-
-	-- Legion (Wow 7.0) currently has artifact relics disenchantable, but they don't follow normal equipment rules, and are a subtype of Gem
-	-- convert this to a type we can handle
-	if (itemType == "Gem" and  itemSubType == "Artifact Relic") then
-		itemEquipLoc = "INVTYPE_TRINKET"
-	end
-	
-	if not itemEquipLoc then
-		--Enchantrix.DebugPrint("GetIType", ENX_INFO, "Item not equippable", "The item " .. link .. " is not equippable")
-		return
-	end
-	local class = Enchantrix.Constants.InventoryTypes[itemEquipLoc] or 0
-	if not class then
-		Enchantrix.DebugPrint("GetIType", ENX_INFO, "Unrecognized equip slot", "The item " .. link .. " has an equip slot (" .. itemEquipLoc .. ") that is not recognized")
-		return
-	end
-	return ("%d:%d:%d:%d"):format(itemLevel, itemRarity, class, iId)
-end
---]]
 
 
 -- itemId:enchantId:jewelId1:jewelId2:jewelId3:jewelId4:suffixId:uniqueId:linkLevel:reforgeId
@@ -484,24 +440,6 @@ function getSigFromLink(link)
 		Enchantrix.Util.DebugPrint("getSigFromLink", ENX_INFO, "failed to get sig from link", "could not get sig for: " .. trimmed .. ", ".. id ..", ".. rand.. ", ".. link)
 	end
 end
-
-
---[[
--- ccox - this is wrong, but where is it used?
--- ccox - unused as far as I can tell!
--- itemId:enchantId:jewelId1:jewelId2:jewelId3:jewelId4:suffixId:uniqueId:linkLevel:reforgeId
-function getItems(str)
-	if (not str) then return end
-	local itemList = {};
-	local itemKey;
-
-	for itemID, randomProp, enchant, uniqID in str:gmatch("|Hitem:(%d+):(%d+):(%d+):(%d+)|h") do
-		itemKey = itemID..":"..randomProp..":"..enchant;
-		table.insert(itemList, itemKey)
-	end
-	return itemList;
-end
---]]
 
 
 -----------------------------------
@@ -729,7 +667,7 @@ function createProfiler(name)
 end
 
 Enchantrix.Util = {
-	Revision			= "$Revision: 5644 $",
+	Revision			= "$Rev: 6000 $",
 
 --	GetItems			= getItems,
 --	GetItemType			= getItemType,
@@ -760,13 +698,13 @@ Enchantrix.Util = {
 
 function Enchantrix.Util.GetIType(link)
 	if not link then return end
-	--Enchantrix.Util.DebugPrintQuick("GetIType type: ", type(link), " link: ", link )	-- DEBUGGING
+	--Enchantrix.Util.DebugPrintQuick("GetIType type: ", type(link), " link: ", link, tooltip:DecodeLink(link) )	-- DEBUGGING
 	
 	local const = Enchantrix.Constants
 	local itemName, itemLink, itemRarity, itemLevel, itemMinLevel, itemType, itemSubType, itemStackCount, itemEquipLoc, invTexture = GetItemInfo(link)
 
 	if not (itemName and itemEquipLoc and itemRarity and itemLevel) then
-		Enchantrix.Util.DebugPrint("GetIType", ENX_INFO, "GetItemInfo failed, bad link", "could not get item info for: " .. link)
+		-- Enchantrix.Util.DebugPrintQuick("GetIType could not get item info for: ", link, itemName , itemEquipLoc , itemRarity , itemLevel, tooltip:DecodeLink(link) )
 		return
 	end
 
@@ -801,6 +739,9 @@ function Enchantrix.Util.DisenchantSkillRequiredForItemLevel(level, quality)
 		return 0;
 	end
 
+
+--[[
+-- low level requirements appear to have been removed in 7.3.5
 
 	-- WoD items all require skill level 1
 	-- Legion continues this
@@ -888,6 +829,7 @@ function Enchantrix.Util.DisenchantSkillRequiredForItemLevel(level, quality)
 		end
 		return temp;
 	end
+--]]
 
 	if (quality > 2) then
 		return 25;
@@ -909,6 +851,7 @@ function Enchantrix.Util.InscriptionSkillRequiredForItem(link)
 	end
 	local resultBracket = Enchantrix.Constants.MillableItems[item];
 	if (not resultBracket) then
+		--Enchantrix.Util.DebugPrintQuick( "no mill result bracket from link", link )
 		return 0
 	end
 	return Enchantrix.Constants.MillingSkillRequired[resultBracket];
@@ -999,14 +942,11 @@ local function balanceEssencePrices(scanReagentTable, style)
 	-- lesser_itemid = greater_itemid
 	local essenceTable = {
 		[10938] = 10939,	-- magic
-		[10998] = 11082,	-- astral
-		[11134] = 11135,	-- mystic
-		[11174] = 11175,  	-- nether
 		[16202] = 16203,  	-- eternal
+		[16204] = 156930,	-- illusion dust
 		[22447] = 22446,	-- planar
 		[34056] = 34055,	-- cosmic
 		[52718] = 52719,	-- celestial
---		[74250] = 74251,	-- Mysterious	-- greater doesn't seem to be used
 	};
 
 	for lesser, greater in pairs(essenceTable) do

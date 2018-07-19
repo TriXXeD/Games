@@ -1,14 +1,10 @@
-﻿## Interface: 70300
+﻿## Interface: 70100
 ## Title: |cff00ff00TradeSkillMaster_Crafting|r
 ## Notes: Provides a rich profession interface complete with a powerful crafting queue.
 ## Author: Sapu94, Bart39
-## Version: v3.2.5
+## Version: 17b5f58
 ## SavedVariables: TradeSkillMaster_CraftingDB
 ## Dependency: TradeSkillMaster
-## X-Curse-Packaged-Version: v3.2.5
-## X-Curse-Project-Name: TradeSkillMaster_Crafting
-## X-Curse-Project-ID: tradeskillmaster_crafting
-## X-Curse-Repository-ID: wow/tradeskillmaster_crafting/mainline
 
 Locale\enUS.lua
 Locale\deDE.lua
@@ -34,3 +30,6 @@ Modules\Options.lua
 Modules\EnchantingInfo.lua
 Modules\Gather.lua
 Modules\TradeSkillScanner.lua
+
+
+## X-TSM: 262122

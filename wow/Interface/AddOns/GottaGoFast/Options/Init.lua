@@ -122,8 +122,8 @@ function GottaGoFast.InitOptions()
           MobPoints = {
             order = 9,
             type = "toggle",
-            name = "Total Mob Value",
-            desc = "Show Exact Number Of Points Used To Calculate Enemy Forces Percentage",
+            name = "Mob Points",
+            desc = "Show Exact Number Of Points Used To Calculate Enemy Forces Percentage, Appears Per Mob In Tooltip With IndividualMobValue",
             get = GottaGoFast.GetMobPoints,
             set = GottaGoFast.SetMobPoints,
           },

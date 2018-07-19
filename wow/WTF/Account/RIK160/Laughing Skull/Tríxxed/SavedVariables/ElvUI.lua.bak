@@ -1,10 +1,17 @@
 
 ElvCharacterDB = {
+	["ChatEditHistory"] = {
+		"/target roardan", -- [1]
+		"/tar raivik", -- [2]
+		"/tar rai", -- [3]
+		"/target ravika", -- [4]
+		"/elvui", -- [5]
+	},
 	["BodyGuard"] = {
-		["Active"] = false,
-		["Health"] = 0,
-		["MaxHealth"] = 0,
 		["IsInValidZone"] = false,
+		["MaxHealth"] = 0,
+		["Health"] = 0,
+		["Active"] = false,
 	},
 	["ChatLog"] = {
 		["1471535014.498"] = {
@@ -197,27 +204,27 @@ ElvCharacterDB = {
 			nil, -- [19]
 			"CHAT_MSG_GUILD", -- [20]
 		},
-		["1471537123.536"] = {
-			" Eynes Eynes Eynes VRUM KO ME NOVAEDI LU NUD VA NOTH WIRSH VELD VRUM ADOR VRUM Eynes Eynes Eynes ", -- [1]
-			"Hencheke-Ravencrest", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Hencheke-Ravencrest", -- [5]
+		["1471536081.801"] = {
+			"|cffffff00Tarren Mill is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Hillsbrad Foothills", -- [4]
+			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Hillsbrad Foothills", -- [9]
 			0, -- [10]
-			1909, -- [11]
-			"Player-1329-05AD158A", -- [12]
+			1836, -- [11]
+			false, -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
+			true, -- [17]
 			nil, -- [18]
 			nil, -- [19]
-			"CHAT_MSG_YELL", -- [20]
+			"CHAT_MSG_CHANNEL", -- [20]
 		},
 		["1417369674.938"] = {
 			"|cffffff00Reaver's Fall is under attack!|r", -- [1]
@@ -307,24 +314,24 @@ ElvCharacterDB = {
 			nil, -- [19]
 			"CHAT_MSG_GUILD", -- [20]
 		},
-		["1471536088.286"] = {
-			"|cffffff00Tarren Mill is under attack!|r", -- [1]
+		["1417369672.885"] = {
+			"|cffffff00Reaver's Fall is under attack!|r", -- [1]
 			"", -- [2]
 			"", -- [3]
-			"3. LocalDefense - Hillsbrad Foothills", -- [4]
+			"3. LocalDefense - Hellfire Peninsula", -- [4]
 			"", -- [5]
 			"", -- [6]
 			22, -- [7]
 			3, -- [8]
-			"LocalDefense - Hillsbrad Foothills", -- [9]
+			"LocalDefense - Hellfire Peninsula", -- [9]
 			0, -- [10]
-			1838, -- [11]
+			10805, -- [11]
 			false, -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
+			nil, -- [17]
 			nil, -- [18]
 			nil, -- [19]
 			"CHAT_MSG_CHANNEL", -- [20]
@@ -369,7 +376,7 @@ ElvCharacterDB = {
 			false, -- [15]
 			[20] = "CHAT_MSG_CHANNEL",
 		},
-		["1471536082.223"] = {
+		["1471536134.18"] = {
 			"|cffffff00Tarren Mill is under attack!|r", -- [1]
 			"", -- [2]
 			"", -- [3]
@@ -380,7 +387,7 @@ ElvCharacterDB = {
 			3, -- [8]
 			"LocalDefense - Hillsbrad Foothills", -- [9]
 			0, -- [10]
-			1837, -- [11]
+			1844, -- [11]
 			false, -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -457,7 +464,7 @@ ElvCharacterDB = {
 			nil, -- [19]
 			"CHAT_MSG_CHANNEL", -- [20]
 		},
-		["1471536134.18"] = {
+		["1471536082.223"] = {
 			"|cffffff00Tarren Mill is under attack!|r", -- [1]
 			"", -- [2]
 			"", -- [3]
@@ -468,7 +475,7 @@ ElvCharacterDB = {
 			3, -- [8]
 			"LocalDefense - Hillsbrad Foothills", -- [9]
 			0, -- [10]
-			1844, -- [11]
+			1837, -- [11]
 			false, -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -501,29 +508,7 @@ ElvCharacterDB = {
 			nil, -- [19]
 			"CHAT_MSG_CHANNEL", -- [20]
 		},
-		["1417369672.885"] = {
-			"|cffffff00Reaver's Fall is under attack!|r", -- [1]
-			"", -- [2]
-			"", -- [3]
-			"3. LocalDefense - Hellfire Peninsula", -- [4]
-			"", -- [5]
-			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Hellfire Peninsula", -- [9]
-			0, -- [10]
-			10805, -- [11]
-			false, -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			nil, -- [17]
-			nil, -- [18]
-			nil, -- [19]
-			"CHAT_MSG_CHANNEL", -- [20]
-		},
-		["1471536081.801"] = {
+		["1471536088.286"] = {
 			"|cffffff00Tarren Mill is under attack!|r", -- [1]
 			"", -- [2]
 			"", -- [3]
@@ -534,7 +519,7 @@ ElvCharacterDB = {
 			3, -- [8]
 			"LocalDefense - Hillsbrad Foothills", -- [9]
 			0, -- [10]
-			1836, -- [11]
+			1838, -- [11]
 			false, -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -545,12 +530,27 @@ ElvCharacterDB = {
 			nil, -- [19]
 			"CHAT_MSG_CHANNEL", -- [20]
 		},
-	},
-	["ChatEditHistory"] = {
-		"/target roardan", -- [1]
-		"/tar raivik", -- [2]
-		"/tar rai", -- [3]
-		"/target ravika", -- [4]
-		"/elvui", -- [5]
+		["1471537123.536"] = {
+			" Eynes Eynes Eynes VRUM KO ME NOVAEDI LU NUD VA NOTH WIRSH VELD VRUM ADOR VRUM Eynes Eynes Eynes ", -- [1]
+			"Hencheke-Ravencrest", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Hencheke-Ravencrest", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1909, -- [11]
+			"Player-1329-05AD158A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			nil, -- [18]
+			nil, -- [19]
+			"CHAT_MSG_YELL", -- [20]
+		},
 	},
 }

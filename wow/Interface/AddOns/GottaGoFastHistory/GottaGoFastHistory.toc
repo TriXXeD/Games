@@ -1,5 +1,5 @@
-## Interface: 70300
-## Version: 26600
+## Interface: 80000
+## Version: 30000
 ## Title: GottaGoFastHistory
 ## Notes: Saves History For GottaGoFast
 ## SavedVariables: GottaGoFastHistoryDB

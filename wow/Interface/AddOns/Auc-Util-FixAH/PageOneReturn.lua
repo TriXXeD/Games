@@ -1,7 +1,7 @@
 --[[
 	Auctioneer - Fix for searches not returning to page one in Blizzard code.
-	Version: 7.5.5724 (TasmanianThylacine)
-	Revision: $Id: PageOneReturn.lua 5171 2011-05-31 11:29:35Z brykrys $
+	Version: 7.7.6000 (SwimmingSeadragon)
+	Revision: $Id: PageOneReturn.lua 6000 2018-07-17 14:09:34Z none $
 	URL: http://auctioneeraddon.com/
 
 	This is an Auctioneer module that temporarily patches known errors and issues
@@ -85,7 +85,7 @@ end
 function lib.OnLoad()
 	--This function is called when your variables have been loaded.
 	--You should also set your Configator defaults here
-	print("AucAdvanced: {{"..libType..":"..libName.."}} loaded!")
+	--print("AucAdvanced: {{"..libType..":"..libName.."}} loaded!")
 	AucAdvanced.Settings.SetDefault("util.fixah.pageonereturn", true)
 end
 
@@ -111,4 +111,4 @@ function private.SearchButtonClick(...)
 	private.RealSearchButtonClick(...)
 end
 
-AucAdvanced.RegisterRevision("$URL: http://svn.norganna.org/auctioneer/branches/7.5/Auc-Util-FixAH/PageOneReturn.lua $", "$Rev: 5171 $")
+AucAdvanced.RegisterRevision("$URL: /PageOneReturn.lua $", "$Rev: 6000 $")

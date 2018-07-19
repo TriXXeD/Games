@@ -2,9 +2,11 @@ local WeakAuras = WeakAuras;
 local L = WeakAuras.L;
 
 local LSM = LibStub("LibSharedMedia-3.0");
-local LBR = LibStub("LibBabble-Race-3.0"):GetLookupTable()
+local LibBabbleRace = LibStub("LibBabble-Race-3.0");
+local LBR_Locale = LibBabbleRace:GetUnstrictLookupTable()
+local LBR_Base = LibBabbleRace:GetBaseLookupTable();
 
--- luacheck: globals MANA RAGE FOCUS ENERGY COMBO_POINTS RUNIC_POWER SOUL_SHARDS LUNAR_POWER HOLY_POWER MAELSTROM CHI INSANITY ARCANE_CHARGES FURY PAIN
+-- luacheck: globals POWER_TYPE_MANA POWER_TYPE_RED_POWER POWER_TYPE_FOCUS POWER_TYPE_ENERGY POWER_TYPE_COMBO_POINTS POWER_TYPE_RUNIC_POWER SOUL_SHARDS_POWER POWER_TYPE_LUNAR_POWER POWER_TYPE_HOLY_POWER POWER_TYPE_MAELSTROM POWER_TYPE_CHI POWER_TYPE_INSANITY POWER_TYPE_ARCANE_CHARGES POWER_TYPE_FURY_DEMONHUNTER POWER_TYPE_PAIN STAT_STAGGER
 
 local wipe, tinsert = wipe, tinsert
 local GetNumShapeshiftForms, GetShapeshiftFormInfo = GetNumShapeshiftForms, GetShapeshiftFormInfo
@@ -109,6 +111,12 @@ WeakAuras.debuff_types = {
   HARMFUL = L["Debuff"]
 }
 
+WeakAuras.tooltip_count = {
+  [1] = L["First"],
+  [2] = L["Second"],
+  [3] = L["Third"]
+}
+
 WeakAuras.aura_types = {
   BUFF = L["Buff"],
   DEBUFF = L["Debuff"]
@@ -173,20 +181,31 @@ do
   end
 end
 
+local function LBR(key)
+  return LBR_Locale[key] or LBR_Base[key];
+end
+
 WeakAuras.race_types = {
-  Pandaren = LBR["Pandaren"],
-  Worgen = LBR["Worgen"],
-  Draenei = LBR["Draenei"],
-  Dwarf = LBR["Dwarf"],
-  Gnome = LBR["Gnome"],
-  Human = LBR["Human"],
-  NightElf = LBR["Night Elf"],
-  Goblin = LBR["Goblin"],
-  BloodElf = LBR["Blood Elf"],
-  Orc = LBR["Orc"],
-  Tauren = LBR["Tauren"],
-  Troll = LBR["Troll"],
-  Scourge = LBR["Undead"]
+  Pandaren = LBR("Pandaren"),
+  Worgen = LBR("Worgen"),
+  Draenei = LBR("Draenei"),
+  Dwarf = LBR("Dwarf"),
+  Gnome = LBR("Gnome"),
+  Human = LBR("Human"),
+  NightElf = LBR("Night Elf"),
+  Goblin = LBR("Goblin"),
+  BloodElf = LBR("Blood Elf"),
+  Orc = LBR("Orc"),
+  Tauren = LBR("Tauren"),
+  Troll = LBR("Troll"),
+  Scourge = LBR("Undead"),
+  LightforgedDraenei = LBR("Lightforged Draenei"),
+  VoidElf = LBR("Void Elf"),
+  HighmountainTauren = LBR("Highmountain Tauren"),
+  Nightborne = LBR("Nightborne"),
+  DarkIronDwarf = LBR("Dark Iron Dwarf"),
+  ZandalariTroll = LBR("Zandalari Troll"),
+  MagharOrc = LBR("Mag'har Orc"),
 }
 
 WeakAuras.faction_group = {
@@ -200,9 +219,12 @@ local function update_forms()
   wipe(WeakAuras.form_types);
   WeakAuras.form_types[0] = "0 - "..L["Humanoid"]
   for i = 1, GetNumShapeshiftForms() do
-    local _, name = GetShapeshiftFormInfo(i);
-    if(name) then
-      WeakAuras.form_types[i] = i.." - "..name
+    local _, _, _, id = GetShapeshiftFormInfo(i);
+    if(id) then
+      local name = GetSpellInfo(id);
+      if(name) then
+        WeakAuras.form_types[i] = i.." - "..name
+      end
     end
   end
 end
@@ -220,6 +242,11 @@ WeakAuras.texture_wrap_types = {
   CLAMP = L["Clamp"],
   MIRROR = L["Mirror"],
   REPEAT = L["Repeat"]
+}
+
+WeakAuras.slant_mode = {
+  INSIDE = L["Keep Inside"],
+  EXTEND = L["Extend Outside"]
 }
 
 WeakAuras.text_check_types = {
@@ -368,40 +395,40 @@ WeakAuras.subevent_suffix_types = {
 }
 
 WeakAuras.power_types = {
-  [0] = MANA,
-  [1] = RAGE,
-  [2] = FOCUS,
-  [3] = ENERGY,
+  [0] = POWER_TYPE_MANA,
+  [1] = POWER_TYPE_RED_POWER,
+  [2] = POWER_TYPE_FOCUS,
+  [3] = POWER_TYPE_ENERGY,
   [4] = COMBO_POINTS,
   [6] = RUNIC_POWER,
-  [7] = SOUL_SHARDS,
-  [8] = LUNAR_POWER,
+  [7] = SOUL_SHARDS_POWER,
+  [8] = POWER_TYPE_LUNAR_POWER,
   [9] = HOLY_POWER,
-  [11] = MAELSTROM,
+  [11] = POWER_TYPE_MAELSTROM,
   [12] = CHI,
-  [13] = INSANITY,
-  [16] = ARCANE_CHARGES,
-  [17] = FURY,
-  [18] = PAIN
+  [13] = POWER_TYPE_INSANITY,
+  [16] = POWER_TYPE_ARCANE_CHARGES,
+  [17] = POWER_TYPE_FURY_DEMONHUNTER,
+  [18] = POWER_TYPE_PAIN
 }
 
 WeakAuras.power_types_with_stagger = {
-  [0] = MANA,
-  [1] = RAGE,
-  [2] = FOCUS,
-  [3] = ENERGY,
+  [0] = POWER_TYPE_MANA,
+  [1] = POWER_TYPE_RED_POWER,
+  [2] = POWER_TYPE_FOCUS,
+  [3] = POWER_TYPE_ENERGY,
   [4] = COMBO_POINTS,
   [6] = RUNIC_POWER,
-  [7] = SOUL_SHARDS,
-  [8] = LUNAR_POWER,
+  [7] = SOUL_SHARDS_POWER,
+  [8] = POWER_TYPE_LUNAR_POWER,
   [9] = HOLY_POWER,
-  [11] = MAELSTROM,
+  [11] = POWER_TYPE_MAELSTROM,
   [12] = CHI,
-  [13] = INSANITY,
-  [16] = ARCANE_CHARGES,
-  [17] = FURY,
-  [18] = PAIN,
-  [99] = L["Stagger"]
+  [13] = POWER_TYPE_INSANITY,
+  [16] = POWER_TYPE_ARCANE_CHARGES,
+  [17] = POWER_TYPE_FURY_DEMONHUNTER,
+  [18] = POWER_TYPE_PAIN,
+  [99] = STAT_STAGGER
 }
 
 WeakAuras.miss_types = {
@@ -513,22 +540,15 @@ do
   end
 end
 
-WeakAuras.pvp_talent_types = {};
-do
-  local numTalents, numTiers, numColumns =  MAX_PVP_TALENT_TIERS * MAX_PVP_TALENT_COLUMNS, MAX_PVP_TALENT_TIERS, MAX_PVP_TALENT_COLUMNS
-  local talentId, tier, column = 1, 1, 1
-  while talentId <= numTalents do
-    while tier <= numTiers do
-      while column <= numColumns do
-        WeakAuras.pvp_talent_types[talentId] = L["Tier "]..tier.." - "..column
-        column = column + 1
-        talentId = talentId + 1
-      end
-      column = 1
-      tier = tier + 1
-    end
-    tier = 1
-  end
+WeakAuras.pvp_talent_types = {
+  select(2, GetPvpTalentInfoByID(3589)),
+  select(2, GetPvpTalentInfoByID(3588)),
+  select(2, GetPvpTalentInfoByID(3587)),
+  nil
+};
+
+for i = 1,10 do
+  tinsert(WeakAuras.pvp_talent_types, string.format(L["PvP Talent %i"], i));
 end
 
 -- GetTotemInfo() only works for the first 5 totems
@@ -833,7 +853,15 @@ WeakAuras.texture_types = {
     ["Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_White_Border"] = "Square with Border"
   },
   ["Sparks"] = {
-    ["Interface\\CastingBar\\UI-CastingBar-Spark"] = "Blizzard Spark"
+    ["Interface\\CastingBar\\UI-CastingBar-Spark"] = "Blizzard Spark",
+    ["Insanity-Spark"] = "Blizzard Insanity Spark",
+    ["XPBarAnim-OrangeSpark"] = "Blizzard XPBar Spark",
+    ["GarrMission_EncounterBar-Spark"] = "Blizzard Garrison Mission Encounter Spark",
+    ["Legionfall_BarSpark"]= "Blizzard Legionfall Spark",
+    ["honorsystem-bar-spark"] = "Blizzard Honor System Spark",
+    ["bonusobjectives-bar-spark"] = "Bonus Objectives Spark",
+    ["worldstate-capturebar-spark-green"] = "Capture Bar Green Spark",
+    ["worldstate-capturebar-spark-yellow"] = "Capture Bar Yellow Spark"
   }
 }
 
@@ -1009,6 +1037,11 @@ WeakAuras.equality_operator_types = {
   ["~="] = L["!="]
 }
 
+WeakAuras.operator_types_without_equal = {
+  [">="] = L[">="],
+  ["<="] = L["<="]
+}
+
 WeakAuras.string_operator_types = {
   ["=="] = L["Is Exactly"],
   ["find('%s')"] = L["Contains"],
@@ -1135,8 +1168,10 @@ WeakAuras.anim_rotate_types = {
 }
 
 WeakAuras.anim_color_types = {
-  straightColor = L["Gradient"],
-  pulseColor = L["Gradient Pulse"],
+  straightColor = L["Legacy RGB Gradient"],
+  straightHSV = L["Gradient"],
+  pulseColor = L["Legacy RGB Gradient Pulse"],
+  pulseHSV = L["Gradient Pulse"],
   custom = L["Custom Function"]
 }
 

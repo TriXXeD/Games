@@ -52,9 +52,8 @@ local operationDefaults = {
 }
 
 function TSM:OnEnable()
-	if TradeSkillMasterModulesDB then
-		TradeSkillMasterModulesDB.Mailing = TradeSkillMaster_MailingDB
-	end
+	-- store our settings in TSM's saved variables
+	TradeSkillMasterModulesDB.Mailing = TradeSkillMaster_MailingDB
 
 	-- load settings
 	TSM.db = TSMAPI.Settings:Init("TradeSkillMaster_MailingDB", settingsInfo)
@@ -74,12 +73,6 @@ function TSM:OnEnable()
 				operation.restockGBank = nil
 			end
 		end
-	end
-	
-	-- fix patch 7.3 sound changes
-	local sounds = TSMAPI:GetSounds()
-	if not sounds[TSM.db.global.openMailSound] then
-		TSM.db.global.openMailSound = TSM.NO_SOUND_KEY
 	end
 end
 
@@ -106,3 +99,4 @@ function TSM:GetOperationInfo(operationName)
 		return format(L["Mailing all to %s."], operation.target)
 	end
 end
+

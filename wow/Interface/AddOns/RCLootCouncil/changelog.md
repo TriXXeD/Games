@@ -1,3 +1,38 @@
+### v2.7.11
+---
+###### Bugfixes
+* *Fixed an issue with out of instance checks (#340).*
+* *Fixed an issue sometimes happening on login due to version checks (#341).*
+
+### v2.7.10
+---
+* Added "Pass" button to right click menu -> Change Response.
+* Loot Frame notes no longer requires an "enter" press to save the note.
+
+* **Out of Instance**
+* A message is added to a response if people has left the instance (i.e. impossible to give loot).
+* Various error messages have been updated to better reflect what's going on.
+
+###### Bugfixes
+* *Trying to sync/receiving sync in LFG/Battlegrounds could give "Not in Raid" spam (#338).*
+* *Wrong roles on candidates shouldn't happen anymore.*
+* *Missing/wrong guild ranks should happen less frequently (will be fully fixed in another update).*
+
+
+### v2.7.9
+---
+###### Bugfixes
+* *Group members that haven't been awarded anything is now shown in the loot history (Git#151).*
+* *Some times guild rank could disappear from candidates (#335).*
+
+
+### v2.7.8
+---
+###### Bugfixes
+* *Changing role could temporarily remove a candidate from future sessions (#328, #332, #333).*
+* *Fixed an odd potential error related to the voting frame (#330).*
+
+
 ### v2.7.7
 ---
 ###### Bugfixes
@@ -12,8 +47,8 @@
 
 
 * **Item bonuses**
-* Item bonuses are now displayed in the Voting-, Loot- and Session frame.
-* The bonuses registered are Sockets, Leech, Avoidance, Speed and Indestructible.
+ * Item bonuses are now displayed in the Voting-, Loot- and Session frame.
+ * The bonuses registered are Sockets, Leech, Avoidance, Speed and Indestructible.
 
 
 ###### Bugfixes

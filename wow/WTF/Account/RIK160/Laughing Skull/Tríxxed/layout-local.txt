@@ -13,3 +13,10 @@ X: -142
 Y: -116
 W: 32
 H: 32
+Frame: BagnonFramebank
+FrameLevel: 1
+Anchor: CENTER
+X: 22
+Y: 150
+W: 482
+H: 408

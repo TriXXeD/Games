@@ -1,3 +1,22 @@
+v3.6.45
+*Fixed an error some users were getting.
+
+v3.6.44
+*Updated TOC version for patch 8.0.
+
+v3.6.43
+*Fixed error caused by bug introduced by Blizzard with Jun 12th (US) maintenance
+
+v3.6.42
+*Added new bonus ids from 7.3.5.
+
+v3.6.41
+*Added new bonus ids from 7.3.5.
+*Fixed issue with posting of some old armor/weapons.
+
+v3.6.40
+*Added new bonus ids from 7.3.5.
+
 v3.6.39
 *Added new bonus ids for Mythic and LFR Antorus Raid BoEs.
 

@@ -1,7 +1,7 @@
 --[[
 	Enchantrix Addon for World of Warcraft(tm).
-	Version: 7.5.5724 (TasmanianThylacine)
-	Revision: $Id: EnxMiniIcon.lua 5317 2012-08-03 05:11:38Z ccox $
+	Version: 7.7.6000 (SwimmingSeadragon)
+	Revision: $Id: EnxMiniIcon.lua 6000 2018-07-17 14:09:34Z none $
 	URL: http://enchantrix.org/
 
 	Minimap Icon
@@ -28,7 +28,7 @@
 		since that is its designated purpose as per:
 		http://www.fsf.org/licensing/licenses/gpl-faq.html#InterpreterIncompat
 ]]
-Enchantrix_RegisterRevision("$URL: http://svn.norganna.org/auctioneer/branches/7.5/Enchantrix/EnxMiniIcon.lua $", "$Rev: 5317 $")
+Enchantrix_RegisterRevision("$URL: /EnxMiniIcon.lua $", "$Rev: 6000 $")
 
 local settings = Enchantrix.Settings
 

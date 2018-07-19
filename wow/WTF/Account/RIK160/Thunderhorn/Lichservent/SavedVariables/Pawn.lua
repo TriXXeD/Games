@@ -1,12 +1,12 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0007,
+	["LastVersion"] = 2.0218,
 	["LastPlayerFullName"] = "Lichservent-Thunderhorn",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,
 	["LastKeybindingsSet"] = 1,
 }
-PawnWowheadScaleProviderOptions = {
+PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "WARLOCK",
-	["LastAdded"] = 5,
+	["LastAdded"] = 1,
 }

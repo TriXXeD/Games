@@ -9,7 +9,7 @@
  [=====================================]
  [  Author: Dandraffbal-Stormreaver US ]
  [  xCT+ Version 4.x.x                 ]
- [  ©2016. All Rights Reserved.        ]
+ [  ©2018. All Rights Reserved.        ]
  [====================================]]
 
 -- Dont do anything for Legion
@@ -56,6 +56,10 @@ local function RefreshConfig()
   x:UpdateSpamSpells()
   x:UpdateItemTypes()
 
+  -- Will this fix the profile issue?
+  x.GenerateSpellSchoolColors()
+  x.GenerateColorOptions()
+
   -- Update combat text engine CVars
   x.cvar_update( true )
 
@@ -93,6 +97,9 @@ function x:OnInitialize()
 
   -- Generate Dynamic Merge Entries
   addon.GenerateDefaultSpamSpells()
+
+  -- Clean Up Colors in the DB
+  addon.LoadDefaultColors()
 
   -- Load the Data Base
   self.db = LibStub('AceDB-3.0'):New('xCTSavedDB', addon.defaults)
@@ -253,6 +260,10 @@ function x:CompatibilityLogic( existing )
     local currentVersion = VersionToTable(addonVersionString)
     local previousVersion = VersionToTable(self.db.profile.dbVersion or "4.3.0 Beta 2")
 
+    if not currentVersion.devBuild and UnitName("player") == "Dandraffbal" then
+      currentVersion.devBuild = 1
+    end
+
     if existing then
       -- Pre-Legion Requires Complete Reset
       if CompareVersions( VersionToTable("4.2.9"), previousVersion) > 0 then
@@ -301,6 +312,24 @@ function x:CompatibilityLogic( existing )
           end
         end
       end
+
+      -- Clean up colors names in the database
+      if CompareVersions( VersionToTable("4.3.3 Beta 1"), previousVersion) > 0 then
+        if currentVersion.devBuild then --currentVersion.devBuild then
+          x.MigratePrint("|cff798BDDCustom Colors|r (|cffFFFF00From: Config Tool->Frames-> All Frames ->Colors|r) Removing old options.")
+        end
+        for name, settings in pairs(x.db.profile.frames) do
+          if settings.colors then
+            for exists in pairs(settings.colors) do
+              if not addon.defaults.profile.frames[name].colors[exists] then
+                settings.colors[exists] = nil
+              end
+            end
+          end
+        end
+      end
+
+
     else
       -- Created New: Dont need to do anything right now
     end
@@ -444,6 +473,26 @@ local CLASS_NAMES = {
 function x.GenerateDefaultSpamSpells()
   local defaults = addon.defaults.spells.merge
 
+end
+
+
+local function cleanColors(colorTable)
+  for index, color in pairs(colorTable) do
+    if color.colors then
+      cleanColors(color.colors)
+    else
+      color.color = { color.default[1], color.default[2], color.default[3] }
+    end
+  end
+end
+
+function addon.LoadDefaultColors()
+  for name, settings in pairs(addon.defaults.profile.frames) do
+    if settings.colors then
+      cleanColors(settings.colors)
+    end
+  end
+  cleanColors(addon.defaults.profile.SpellColors)
 end
 
 -- Gets spammy spells from the database and creates options
@@ -1203,9 +1252,14 @@ function x.RemoveFilteredSpell(name, category)
 end
 
 local colorNameDB = { }
+
+-- Returns the color and if it was enabled
 function x.LookupColorByName(name)
   if colorNameDB[name] then
-    return colorNameDB[name].color or colorNameDB[name].default
+    if colorNameDB[name].enabled then
+      return colorNameDB[name].color or colorNameDB[name].default, true
+    end
+    return colorNameDB[name].default, false
   else
     return
   end
@@ -1469,14 +1523,17 @@ do
     [126] = "126", [127] = "127"
   }
 
-  function x.GetSpellSchoolColor(spellSchool, critical)
-    local index = cache[spellSchool or 1] or "1"
-    if critical and x.db.profile.frames.critical.colors.genericDamageCritical.enabled then
-      return x.db.profile.frames.critical.colors.genericDamageCritical.color or x.db.profile.frames.critical.colors.genericDamageCritical.default
-    else
-      local entry = x.db.profile.SpellColors[index]
-      return entry.enabled and entry.color or entry.default
+  function x.GetSpellSchoolColor(spellSchool, override)
+    -- See if the override name is enabled
+    if override then
+      local newColor, enabled = x.LookupColorByName(override)
+      if enabled then return newColor end
     end
+
+    -- Fast String lookup (faster than tostring)
+    local stringIndex = cache[spellSchool or 1] or "1"
+    local entry = x.db.profile.SpellColors[stringIndex]
+    return entry.enabled and entry.color or entry.default
   end
 end
 

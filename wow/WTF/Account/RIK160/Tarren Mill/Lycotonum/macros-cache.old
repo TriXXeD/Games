@@ -1,0 +1,7 @@
+VER 3 0100000000000002 "convert" "ACHIEVEMENT_GUILDPERK_QUICK AND DEAD"
+/use Lovely Charm
+/run BuyMerchantItem(1)
+END
+VER 3 0100000000000001 "farm" "PANDARENRACIAL_INNERPEACE"
+/castsequence [@Player] Summon Black Ox Statue, Rushing Jade Wind, Rushing Jade Wind, Rushing Jade Wind, Breath of Fire, Rushing Jade Wind, Rushing Jade Wind, Rushing Jade Wind, Healing Elixir
+END

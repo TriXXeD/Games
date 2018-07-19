@@ -264,3 +264,4 @@ function private.OnButtonClick(self)
 		private.frame.content.quickSendTab:Show()
 	end
 end
+

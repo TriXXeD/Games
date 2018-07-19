@@ -37,9 +37,8 @@ local settingsInfo = {
 
 -- Called once the player has loaded WOW.
 function TSM:OnInitialize()
-	if TradeSkillMasterModulesDB then
-		TradeSkillMasterModulesDB.Destroying = TradeSkillMaster_DestroyingDB
-	end
+	-- store our settings in TSM's saved variables
+	TradeSkillMasterModulesDB.Destroying = TradeSkillMaster_DestroyingDB
 
 	-- load settings
 	TSM.db = TSMAPI.Settings:Init("TradeSkillMaster_DestroyingDB", settingsInfo)
@@ -148,3 +147,4 @@ function TSM:HasDraenicEnchanting()
 		end
 	end
 end
+

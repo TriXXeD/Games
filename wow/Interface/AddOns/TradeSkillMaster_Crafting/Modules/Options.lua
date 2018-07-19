@@ -1330,3 +1330,4 @@ function Options:LoadCooldownPage(container)
 	TSMAPI.GUI:BuildOptions(container, page)
 	Options:UpdateCooldownST()
 end
+

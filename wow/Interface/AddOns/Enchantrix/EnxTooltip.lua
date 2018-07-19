@@ -1,7 +1,7 @@
 --[[
 	Enchantrix Addon for World of Warcraft(tm).
-	Version: 7.5.5724 (TasmanianThylacine)
-	Revision: $Id: EnxTooltip.lua 5662 2016-08-15 18:50:37Z ccox $
+	Version: 7.7.6000 (SwimmingSeadragon)
+	Revision: $Id: EnxTooltip.lua 6000 2018-07-17 14:09:34Z none $
 	URL: http://enchantrix.org/
 
 	Tooltip functions.
@@ -28,7 +28,7 @@
 		since that is its designated purpose as per:
 		http://www.fsf.org/licensing/licenses/gpl-faq.html#InterpreterIncompat
 ]]
-Enchantrix_RegisterRevision("$URL: http://svn.norganna.org/auctioneer/branches/7.5/Enchantrix/EnxTooltip.lua $", "$Rev: 5662 $")
+Enchantrix_RegisterRevision("$URL: /EnxTooltip.lua $", "$Rev: 6000 $")
 
 -- Global functions
 local addonLoaded	-- Enchantrix.Tooltip.AddonLoaded()
@@ -771,7 +771,7 @@ function callbackAltChatLinkTooltip(link, text, button, chatFrame)
 end
 
 Enchantrix.Tooltip = {
-	Revision		= "$Revision: 5662 $",
+	Revision		= "$Rev: 6000 $",
 
 	AddonLoaded		= addonLoaded,
 	Format			= tooltipFormat,

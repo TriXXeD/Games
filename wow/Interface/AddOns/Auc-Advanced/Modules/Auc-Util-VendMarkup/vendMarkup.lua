@@ -1,7 +1,7 @@
 --[[
 	Auctioneer - VendMarkup
-	Version: 7.5.5724 (TasmanianThylacine)
-	Revision: $Id: vendMarkup.lua 4828 2010-07-21 22:20:18Z Prowell $
+	Version: 7.7.6000 (SwimmingSeadragon)
+	Revision: $Id: vendMarkup.lua 6000 2018-07-17 14:09:34Z none $
 	URL: http://auctioneeraddon.com/
 
 	This is an addon for World of Warcraft that provides a vendor mark-up
@@ -97,4 +97,4 @@ function private.SetupConfigGui(gui)
 
 end
 
-AucAdvanced.RegisterRevision("$URL: http://svn.norganna.org/auctioneer/branches/7.5/Auc-Util-VendMarkup/vendMarkup.lua $", "$Rev: 4828 $")
+AucAdvanced.RegisterRevision("$URL: /vendMarkup.lua $", "$Rev: 6000 $")

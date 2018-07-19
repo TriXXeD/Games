@@ -1,3 +1,4 @@
+local ggf = GottaGoFast;
 local Utility = {};
 
 function Utility.ExplodeStr(div,str)
@@ -21,8 +22,8 @@ function Utility.TrimStr(str)
 end
 
 function Utility.DebugPrint(str)
-  if (GottaGoFast.db.profile.DebugMode) then
-    GottaGoFast:Print(str);
+  if (ggf.GetDebugMode(nil)) then
+    ggf:Print(str);
   end
 end
 
@@ -34,4 +35,4 @@ function Utility.ShortenStr(str, by)
   end
 end
 
-GottaGoFast.Utility = Utility;
+ggf.Utility = Utility;

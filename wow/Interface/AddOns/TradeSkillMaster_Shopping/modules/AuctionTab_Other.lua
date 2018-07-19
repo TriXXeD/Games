@@ -570,3 +570,4 @@ function AuctionTabOther:GetFrameInfo()
 	}
 	return frameInfo
 end
+

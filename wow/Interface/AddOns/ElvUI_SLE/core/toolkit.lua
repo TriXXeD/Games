@@ -156,10 +156,10 @@ T.GetInspectHonorData = GetInspectHonorData
 T.GetZoneText = GetZoneText
 T.GetRealZoneText = GetRealZoneText
 T.GetMinimapZoneText = GetMinimapZoneText
-T.GetMapNameByID = GetMapNameByID
-T.GetCurrentMapAreaID = GetCurrentMapAreaID
+T.GetMapNameByID = C_Map.GetMapInfo
+T.GetCurrentMapAreaID = C_Map.GetCurrentMapAreaID
 T.GetSubZoneText = GetSubZoneText
-T.GetPlayerMapPosition = GetPlayerMapPosition
+T.GetPlayerMapPosition = C_Map.GetPlayerMapPosition
 T.GetZonePVPInfo = GetZonePVPInfo
 --Currency
 T.GetCurrencyListSize = GetCurrencyListSize
@@ -376,6 +376,15 @@ function SLE:Reset(group)
 	E:UpdateAll()
 end
 
+function SLE:GetMapInfo(id, arg)
+	if not arg then return end
+	local MapInfo = C_Map.GetMapInfo(id)
+	if not MapInfo then return UNKNOWN end
+	-- for k,v in pairs(MapInfo) do print(k,v) end
+	if arg == "all" then return MapInfo["name"], MapInfo["mapID"], MapInfo["parentMapID"], MapInfo["mapType"] end
+	return MapInfo[arg]
+end
+
 --When we need to get mutiple modules in a file
 function SLE:GetElvModules(...)
 	local returns = {}
@@ -410,9 +419,7 @@ end
 --Trying to determine the region player is in, not entirely reliable cause based on a client not an actual region id
 function SLE:GetRegion()
 	local lib = LibStub("LibRealmInfo")
-	-- local guid = UnitGUID("player")
 	if not GetPlayerInfoByGUID(E.myguid) then return end
-	-- local rid, _, _, _, _, _, region = lib:GetRealmInfoByUnit("player")
 	local rid, _, _, _, _, _, region = lib:GetRealmInfoByGUID(E.myguid)
 	SLE.region = region
 	if not SLE.region then
@@ -483,9 +490,12 @@ end
 
 --New API
 local function LevelUpBG(frame, topcolor, bottomcolor)
+	if not frame then return end
 	frame.bg = frame:CreateTexture(nil, 'BACKGROUND')
 	frame.bg:SetTexture([[Interface\LevelUp\LevelUpTex]])
 	frame.bg:SetPoint('CENTER')
+	local w, h = frame:GetSize()
+	frame.bg:SetSize(w,h)
 	frame.bg:SetTexCoord(0.00195313, 0.63867188, 0.03710938, 0.23828125)
 	frame.bg:SetVertexColor(1, 1, 1, 0.7)
 
@@ -563,4 +573,50 @@ while object do
 	end
 
 	object = EnumerateFrames(object)
+end
+
+--AF stuff
+function SLE:IsFoolsDay()
+	if T.find(date(), '04/01/') and not E.global.aprilFoolsSLE and not T.IsAddOnLoaded("ElvUI_SLE_Dev") then
+		return true;
+	else
+		return false;
+	end
+end
+
+function SLE:CreateSplashScreen()
+	local f = CreateFrame('Frame', 'SLE_SplashScreen', E.UIParent)
+	f:Size(400, 200)
+	f:SetPoint('CENTER')
+	f:SetFrameStrata('TOOLTIP')
+	f:LevelUpBG()
+	f:SetAlpha(0)
+
+	f.logo = f:CreateTexture(nil, 'OVERLAY')
+	f.logo:Size(240, 120)
+	f.logo:SetTexture([[Interface\AddOns\ElvUI_SLE\media\textures\SLE_Banner]])
+	f.logo:Point('TOP', f, 'TOP', 0. -60)
+
+	f.version = f:CreateFontString(nil, 'OVERLAY')
+	f.version:FontTemplate(nil, 14, nil)
+	f.version:Point('TOP', f.logo, 'BOTTOM')
+	f.version:SetText(L["SLE_BENIK_AF"])
+end
+
+local function HideSplashScreen()
+	SLE_SplashScreen:Hide()
+	E:Delay(0.5, function() assert(false, L["SLE_ERRORS_AF"][random(#L["SLE_ERRORS_AF"])]) end)
+	E.global.aprilFoolsSLE = true
+end
+
+local function FadeSplashScreen()
+	E:Delay(10, function()
+		E:UIFrameFadeOut(SLE_SplashScreen, 1, 1, 0)
+		SLE_SplashScreen.fadeInfo.finishedFunc = HideSplashScreen
+	end)
+end
+
+function SLE:ShowSplashScreen()
+	E:UIFrameFadeIn(SLE_SplashScreen, 2, 0, 1)
+	SLE_SplashScreen.fadeInfo.finishedFunc = FadeSplashScreen
 end

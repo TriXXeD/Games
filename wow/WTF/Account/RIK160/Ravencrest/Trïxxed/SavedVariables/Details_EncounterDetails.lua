@@ -3347,13 +3347,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Timeless Wraith",
 		},
-		[3600] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
+		[193827] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Earthbind Totem",
+			["source"] = "God-King Skovald",
 		},
 		[196512] = {
 			["school"] = 1,
@@ -3384,12 +3383,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Imonar the Soulhunter",
 		},
-		[193827] = {
-			["school"] = 4,
+		[3600] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "God-King Skovald",
+			["source"] = "Earthbind Totem",
 		},
 		[211927] = {
 			["school"] = 64,
@@ -3499,13 +3499,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Imonar the Soulhunter",
 		},
-		[245746] = {
+		[155722] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Void Discharge",
+			["source"] = "Galvoth-Ragnaros",
 		},
 		[230084] = {
 			["school"] = 4,
@@ -3616,14 +3615,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Trilliax",
 		},
-		[253037] = {
+		[225416] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Felblade Shocktrooper",
+			["source"] = "Felguard Annihilator",
 		},
 		[191401] = {
 			["school"] = 1,
@@ -3643,14 +3642,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Void Discharge",
 		},
-		[225416] = {
+		[253037] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Felguard Annihilator",
+			["source"] = "Felblade Shocktrooper",
 		},
 		[246505] = {
 			["school"] = 4,
@@ -3741,6 +3740,28 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Zuraal the Ascended",
 		},
+		[201633] = {
+			["school"] = 2,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Earthen Shield Totem",
+		},
+		[217234] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Ularogg Cragshaper",
+		},
+		[214804] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Shadowmoon Warlock",
+		},
 		[197541] = {
 			["school"] = 4,
 			["type"] = "DEBUFF",
@@ -3750,30 +3771,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Cordana Felsong",
 		},
-		[198820] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Latosius",
-		},
-		[214804] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Shadowmoon Warlock",
-		},
-		[201633] = {
-			["school"] = 2,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Earthen Shield Totem",
-		},
 		[197429] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -3782,12 +3779,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Illysanna Ravencrest",
 		},
-		[217234] = {
-			["school"] = 1,
+		[197797] = {
+			["school"] = 64,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ularogg Cragshaper",
+			["source"] = "Risen Arcanist",
 		},
 		[227592] = {
 			["school"] = 16,
@@ -3800,12 +3801,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Shade of Medivh",
 		},
-		[247157] = {
+		[246134] = {
 			["school"] = 32,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Saprish",
+			["source"] = "Zuraal the Ascended",
 		},
 		[218587] = {
 			["school"] = 8,
@@ -3830,12 +3832,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dresaron",
 		},
-		[246646] = {
-			["school"] = 4,
+		[206749] = {
+			["school"] = 64,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Kin'garoth",
+			["source"] = "Trilliax",
+		},
+		[210074] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Skorpyron",
 		},
 		[227465] = {
 			["school"] = 64,
@@ -3847,22 +3856,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "The Curator",
 		},
-		[210074] = {
-			["school"] = 8,
+		[257644] = {
+			["school"] = 32,
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Skorpyron",
-		},
-		[204448] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Skorpyron",
+			["source"] = "Varimathras",
 		},
 		[207261] = {
 			["school"] = 64,
@@ -3879,13 +3879,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Hyrja",
 		},
-		[257644] = {
-			["school"] = 32,
+		[204448] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Varimathras",
+			["source"] = "Skorpyron",
 		},
 		[196392] = {
 			["school"] = 64,
@@ -4094,13 +4096,17 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Illysanna Ravencrest",
 		},
-		[245627] = {
-			["school"] = 4,
+		[197546] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Noura, Mother of Flames",
+			["source"] = "Illysanna Ravencrest",
 		},
 		[245671] = {
 			["school"] = 4,
@@ -4111,6 +4117,13 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Torment of Khaz'goroth",
+		},
+		[246139] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Zuraal the Ascended",
 		},
 		[198058] = {
 			["school"] = 2,
@@ -4125,13 +4138,6 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Garothi Worldbreaker",
-		},
-		[246139] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Zuraal the Ascended",
 		},
 		[192048] = {
 			["school"] = 2,
@@ -4216,13 +4222,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Command Ship",
 		},
-		[245629] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Noura, Mother of Flames",
-		},
 		[202663] = {
 			["school"] = 4,
 			["token"] = {
@@ -4230,6 +4229,13 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Fel Scorcher",
+		},
+		[245629] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Noura, Mother of Flames",
 		},
 		[207906] = {
 			["school"] = 4,
@@ -4271,16 +4277,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Corstilax",
 		},
-		[192307] = {
-			["school"] = 2,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Hyrja",
-		},
 		[191284] = {
 			["school"] = 1,
 			["token"] = {
@@ -4289,6 +4285,16 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Hymdall",
+		},
+		[197422] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Cordana Felsong",
 		},
 		[244607] = {
 			["school"] = 4,
@@ -4340,15 +4346,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Advisor Vandros",
 		},
-		[197422] = {
-			["school"] = 1,
+		[192307] = {
+			["school"] = 2,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Cordana Felsong",
+			["source"] = "Hyrja",
 		},
 		[199340] = {
 			["school"] = 1,
@@ -4408,14 +4414,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Soul Harvester",
 		},
-		[13338] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[191413] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Shadowmoon Warlock",
+			["source"] = "Andragor",
 		},
 		[199341] = {
 			["school"] = 1,
@@ -4434,12 +4438,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fel Bat",
 		},
-		[191413] = {
-			["school"] = 1,
+		[245632] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Andragor",
+			["source"] = "Flame of Taeshalach",
 		},
 		[55078] = {
 			["school"] = 32,
@@ -4527,12 +4531,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Rune Weapon",
 		},
-		[245632] = {
-			["school"] = 4,
+		[13338] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Flame of Taeshalach",
+			["source"] = "Shadowmoon Warlock",
 		},
 		[200238] = {
 			["school"] = 32,
@@ -4651,17 +4657,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Latosius",
 		},
-		[197546] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[245627] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Illysanna Ravencrest",
+			["source"] = "Noura, Mother of Flames",
 		},
 		[228738] = {
 			["school"] = 64,
@@ -4803,12 +4805,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Trilliax",
 		},
-		[206749] = {
-			["school"] = 64,
+		[246646] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Trilliax",
+			["source"] = "Kin'garoth",
 		},
 		[193209] = {
 			["school"] = 1,
@@ -4827,24 +4829,21 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 		},
-		[246134] = {
+		[247157] = {
 			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Zuraal the Ascended",
+			["source"] = "Saprish",
 		},
-		[197797] = {
-			["school"] = 64,
-			["type"] = "BUFF",
+		[198820] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Risen Arcanist",
+			["source"] = "Latosius",
 		},
 		[215204] = {
 			["school"] = 64,
@@ -4933,12 +4932,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Aggramar",
 		},
-		[155722] = {
+		[245746] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Galvoth-Ragnaros",
+			["source"] = "Void Discharge",
 		},
 		[243050] = {
 			["school"] = 4,
@@ -5356,6 +5356,33 @@ EncounterDetailsDB = {
 	["emotes"] = {
 		{
 			{
+				68.1899999999441, -- [1]
+				"|TInterface\\Icons\\SPELL_NATURE_ABOLISHMAGIC.BLP:20|tEonar unleashes her |cFFFF0000|Hspell:250048|h[Life Force]|h|r !", -- [2]
+				"Essence of Eonar", -- [3]
+				1, -- [4]
+			}, -- [1]
+			{
+				68.1899999999441, -- [1]
+				"Begone, intruders! Back to your master!", -- [2]
+				"Essence of Eonar", -- [3]
+				7, -- [4]
+			}, -- [2]
+			{
+				159.461999999941, -- [1]
+				"Feel the potency of life! Fear its power!", -- [2]
+				"Essence of Eonar", -- [3]
+				7, -- [4]
+			}, -- [3]
+			{
+				294.523999999976, -- [1]
+				"Minions of darkness! You will know the might of a titan!", -- [2]
+				"Essence of Eonar", -- [3]
+				7, -- [4]
+			}, -- [4]
+			["boss"] = "The Defense of Eonar",
+		}, -- [1]
+		{
+			{
 				1.50499999988824, -- [1]
 				"You cannot escape the shadows.", -- [2]
 				"Asara, Mother of Night", -- [3]
@@ -5566,7 +5593,7 @@ EncounterDetailsDB = {
 				7, -- [4]
 			}, -- [35]
 			["boss"] = "The Coven of Shivarra",
-		}, -- [1]
+		}, -- [2]
 		{
 			{
 				4.29399999999441, -- [1]
@@ -5581,129 +5608,6 @@ EncounterDetailsDB = {
 				7, -- [4]
 			}, -- [2]
 			["boss"] = "The Coven of Shivarra",
-		}, -- [2]
-		{
-			{
-				5.2609999999404, -- [1]
-				"Look! The wretch struggles against the mortal intruders.", -- [2]
-				"Diima, Mother of Gloom", -- [3]
-				7, -- [4]
-			}, -- [1]
-			{
-				12.6449999997858, -- [1]
-				"Pathetic! Let them all burn!", -- [2]
-				"Noura, Mother of Flames", -- [3]
-				7, -- [4]
-			}, -- [2]
-			{
-				17.339999999851, -- [1]
-				"Grah! Damnable witches!", -- [2]
-				"Varimathras", -- [3]
-				7, -- [4]
-			}, -- [3]
-			{
-				25.3859999999404, -- [1]
-				"Back, cur!", -- [2]
-				"Varimathras", -- [3]
-				7, -- [4]
-			}, -- [4]
-			{
-				50.4429999999702, -- [1]
-				"Ah, the agony of shadows!", -- [2]
-				"Varimathras", -- [3]
-				7, -- [4]
-			}, -- [5]
-			{
-				55.8459999999031, -- [1]
-				"Back, cur!", -- [2]
-				"Varimathras", -- [3]
-				7, -- [4]
-			}, -- [6]
-			{
-				83.3859999999404, -- [1]
-				"Ah, the agony of shadows!", -- [2]
-				"Varimathras", -- [3]
-				7, -- [4]
-			}, -- [7]
-			{
-				88.6419999999926, -- [1]
-				"Back, cur!", -- [2]
-				"Varimathras", -- [3]
-				7, -- [4]
-			}, -- [8]
-			{
-				116.163999999873, -- [1]
-				"Pain awaits in the darkness!", -- [2]
-				"Varimathras", -- [3]
-				7, -- [4]
-			}, -- [9]
-			{
-				121.478999999817, -- [1]
-				"Away!", -- [2]
-				"Varimathras", -- [3]
-				7, -- [4]
-			}, -- [10]
-			{
-				148.972999999998, -- [1]
-				"Ah, the agony of shadows!", -- [2]
-				"Varimathras", -- [3]
-				7, -- [4]
-			}, -- [11]
-			{
-				154.251999999862, -- [1]
-				"Away!", -- [2]
-				"Varimathras", -- [3]
-				7, -- [4]
-			}, -- [12]
-			{
-				181.837999999989, -- [1]
-				"Ah, the agony of shadows!", -- [2]
-				"Varimathras", -- [3]
-				7, -- [4]
-			}, -- [13]
-			{
-				187.179999999935, -- [1]
-				"Away!", -- [2]
-				"Varimathras", -- [3]
-				7, -- [4]
-			}, -- [14]
-			{
-				214.625, -- [1]
-				"Ah, the agony of shadows!", -- [2]
-				"Varimathras", -- [3]
-				7, -- [4]
-			}, -- [15]
-			{
-				219.919999999926, -- [1]
-				"Away!", -- [2]
-				"Varimathras", -- [3]
-				7, -- [4]
-			}, -- [16]
-			{
-				247.542999999831, -- [1]
-				"Ah, the agony of shadows!", -- [2]
-				"Varimathras", -- [3]
-				7, -- [4]
-			}, -- [17]
-			{
-				252.839999999851, -- [1]
-				"Back, cur!", -- [2]
-				"Varimathras", -- [3]
-				7, -- [4]
-			}, -- [18]
-			{
-				280.319999999832, -- [1]
-				"Ah, the agony of shadows!", -- [2]
-				"Varimathras", -- [3]
-				7, -- [4]
-			}, -- [19]
-			{
-				285.594999999972, -- [1]
-				"Back, cur!", -- [2]
-				"Varimathras", -- [3]
-				7, -- [4]
-			}, -- [20]
-			["boss"] = "Varimathras",
 		}, -- [3]
 	},
 }

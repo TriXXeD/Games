@@ -9,7 +9,7 @@
  [=====================================]
  [  Author: Dandraffbal-Stormreaver US ]
  [  xCT+ Version 4.x.x                 ]
- [  ©2016. All Rights Reserved.        ]
+ [  ©2018. All Rights Reserved.        ]
  [====================================]]
 
 -- This file is a static default profile.  After your first profile is created, editing this file will do nothing.
@@ -278,15 +278,17 @@ addon.defaults = {
 
         -- font colors
         colors = {
-          ['genericDamage']         = { enabled = false, desc = "Generic Damage",   default = { 1.00, 0.82, 0.00 } },
-          ['misstypesOut']          = { enabled = false, desc = "Missed",           default = { 0.50, 0.50, 0.50 } },
-          ['healingSpells'] = {
-            enabled = false, desc = "Healing Colors",
+          ['melee']         = { enabled = false, desc = "Auto Attack Damage", default = { 1.00, 1.00, 1.00 } },
+          ['misstypesOut']  = { enabled = false, desc = "Missed Attacks",     default = { 0.50, 0.50, 0.50 } },
+          ['shieldOut']     = { enabled = false, desc = "Absorbs",            default = { 0.60, 0.65, 1.00 } },
+
+          ['healing'] = {
+            enabled = false, desc = "Healing Color Overrides",
             colors = {
-              ['shieldOut']             = { enabled = false, desc = "Shields",          default = { 0.60, 0.65, 1.00 } },
-              ['healingOut']            = { enabled = false, desc = "Healing",          default = { 0.10, 0.75, 0.10 } },
-              ['healingOutPeriodic']    = { enabled = false, desc = "Healing Periodic", default = { 0.10, 0.50, 0.10 } },
-            },
+              ['healingOut']         = { enabled = false, desc = "Healing",            default = { 0.10, 0.75, 0.10 } },
+              ['healingOutCritical'] = { enabled = false, desc = "Healing (Critical)", default = { 0.10, 1.00, 0.10 } },
+              ['healingOutPeriodic'] = { enabled = false, desc = "Healing (Periodic)", default = { 0.10, 0.50, 0.10 } },
+            }
           },
         },
 
@@ -360,6 +362,7 @@ addon.defaults = {
         -- special tweaks
         ["enableOutDmg"] = true,
         ["enableOutHeal"] = true,
+        ["enableOutAbsorbs"] = true,
         ["enablePetDmg"] = true,
         ["enableVehicleDmg"] = true,
         ["enableAutoAttack"] = true,
@@ -367,6 +370,13 @@ addon.defaults = {
         ["enableHots"] = true,
         ["enableImmunes"] = true,
         ["enableMisses"] = true,
+        ["enablePartialMisses"] = false,
+        ["showHighestPartialMiss"] = false,
+
+        ["enableOverhealing"] = true,
+        ["enableOverhealingFormat"] = true,
+        ["overhealingPrefix"] = " |cffFFFFFF(O: ",
+        ["overhealingPostfix"] = ")|r",
       },
 
       critical = {
@@ -396,14 +406,7 @@ addon.defaults = {
 
         -- font colors
         colors = {
-          ['genericDamageCritical']  = { enabled = false, desc = "Critical Generic Damage", default = { 1.00, 1.00, 0.00 } },
-
-          ['healingSpells'] = {
-            enabled = false, desc = "Healing Colors",
-            colors = {
-              ['healingOutCritical'] = { enabled = false, desc = "Critical Healing", default = { 0.10, 1.00, 0.10 } },
-            },
-          },
+          ['meleeCrit']  = { enabled = false, desc = "Auto Attack Damage (Critical)", default = { 1.00, 1.00, 0.00 } },
         },
 
         -- name formatting

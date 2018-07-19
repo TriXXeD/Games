@@ -9,7 +9,7 @@
  [=====================================]
  [  Author: Dandraffbal-Stormreaver US ]
  [  xCT+ Version 4.x.x                 ]
- [  ©2015. All Rights Reserved.        ]
+ [  ©2018. All Rights Reserved.        ]
  [====================================]]
 
 local ADDON_NAME, addon = ...
@@ -69,6 +69,10 @@ addon.merges[221720]      = CreateMergeSpellEntry(Leg_BG, 1.5, "Arator the Redee
 -- Monk
 addon.merges[212141]      = CreateMergeSpellEntry(Leg_BG, 1.5, "The Monkey King (Spinning Crane Kick)")
 
+-- Mage
+addon.merges[228672]      = CreateMergeSpellEntry(Leg_BG, 1.0, "Archmage Modera (Flurry)")
+addon.merges[220128]      = CreateMergeSpellEntry(Leg_BG, 0.5, "Archmage Modera (Frost Nova)")
+
 -- ---------------------------
 -- Consumables              --
 -- ---------------------------
@@ -87,21 +91,33 @@ addon.merges[214052]      = CreateMergeSpellEntry(Leg_Items, 0.5, "Trinket: Eye 
 addon.merges[215047]      = CreateMergeSpellEntry(Leg_Items, 3.0, "Trinket: Terrorbound Nexus")
 addon.merges[222168]      = CreateMergeSpellEntry(Leg_Items, 1.5, "Trinket: Spontaneous Appendages")
 addon.merges[214169]      = CreateMergeSpellEntry(Leg_Items, 1.5, "Trinket: Spiked Counterweight")
-addon.merges[215047]      = CreateMergeSpellEntry(Leg_Items, 3.0, "Trinket: Terrorbound Nexus")
 addon.merge2h[228780]     = 214169 -- Brutal Haymaker (Spiked Counterweight)
-
+addon.merges[215047]      = CreateMergeSpellEntry(Leg_Items, 3.0, "Trinket: Terrorbound Nexus")
 addon.merges[213786]      = CreateMergeSpellEntry(Leg_Items, 1.5, "Trinket: Corrupted Starlight")
-addon.merge2h[213782]     = 213786 -- Nightfall
-addon.merge2h[213833]     = 213786 -- Nightfall
-addon.merge2h[213784]     = 213786 -- Nightfall
-addon.merge2h[213785]     = 213786 -- Nightfall
-
+addon.merge2h[213782]     = 213786 -- Trinket: Corrupted Starlight
+addon.merge2h[213833]     = 213786 -- Trinket: Corrupted Starlight
+addon.merge2h[213784]     = 213786 -- Trinket: Corrupted Starlight
+addon.merge2h[213785]     = 213786 -- Trinket: Corrupted Starlight
 addon.merges[221845]      = CreateMergeSpellEntry(Leg_Items, 1.5, "Trinket: Twisting Wind")
-addon.merge2h[221865]     = 221845
+addon.merge2h[221865]     = 221845 -- Trinket: Twisting Wind
+addon.merges[221804]      = CreateMergeSpellEntry(Leg_Items, 0.5, "Trinket: Ravaged Seed Pod")
+addon.merges[222197]      = CreateMergeSpellEntry(Leg_Items, 0.5, "Trinket: Unstable Horrorslime")
+addon.merges[214350]      = CreateMergeSpellEntry(Leg_Items, 1.5, "Trinket: Oakheart's Gnarled Root")
 
-addon.merges[221804]      = CreateMergeSpellEntry(Leg_Items,   5, "Trinket: Ravaged Seed Pod")
+-- Trinkets: Nighthold
+addon.merges[229700]      = CreateMergeSpellEntry(Leg_Items, 0.5, "Trinket: Pharamere's Forbidden Grimoire")
+addon.merges[225777]      = CreateMergeSpellEntry(Leg_Items, 3.5, "Trinket: Draught of Souls")
+addon.merges[225731]      = CreateMergeSpellEntry(Leg_Items, 3.0, "Trinket: Icon of Rot")
+addon.merges[225764]      = CreateMergeSpellEntry(Leg_Items, 1.5, "Trinket: Star Gate")
+addon.merges[225716]      = CreateMergeSpellEntry(Leg_Items, 0.5, "Trinket: Claw of the Crystalline Scorpid")
+addon.merges[225721]      = CreateMergeSpellEntry(Leg_Items, 0.5, "Trinket: Arcanogolem Digit")
 
-addon.merges[222197]      = CreateMergeSpellEntry(Leg_Items,  .5, "Trinket: Unstable Horrorslime")
+-- Legendaries
+addon.merges[207694]      = CreateMergeSpellEntry(Leg_Items, 3.0, "Legendary: Cinidaria, the Symbiote")
+addon.merges[210999]      = CreateMergeSpellEntry(Leg_Items, 2.5, "Legendary: Obsidian Stone Spaulders")
+
+-- Class Hall Items
+addon.merges[223667]      = CreateMergeSpellEntry(Leg_Items, 1.5, "Druid: Thornstalk Barbs")
 
 -- ---------------------------
 -- World Zone               --
@@ -161,5 +177,6 @@ addon.merges[202891]      = CreateMergeSpellEntry(Leg_QuestItems, 2.5, "Trinket:
 -- ---------------------------
 -- Raids                    --
 -- ---------------------------
-addon.merges[215300]      = CreateMergeSpellEntry(Leg_Raid, 2.0, "Elerethe Renferal: Web of Pain [Tanks]") -- Should maybe be ignored by default
-addon.merges[215307]      = CreateMergeSpellEntry(Leg_Raid, 2.0, "Elerethe Renferal: Web of Pain [Other]") -- Should maybe be ignored by default
+addon.merges[215300]      = CreateMergeSpellEntry(Leg_Raid, 2.0, "Elerethe Renferal: Web of Pain [Tanks]")
+addon.merges[215307]      = CreateMergeSpellEntry(Leg_Raid, 2.0, "Elerethe Renferal: Web of Pain [Other]")
+addon.merges[223699]      = CreateMergeSpellEntry(Leg_Raid, 1.0, "Dragons of Nightmare: Volatile Infection")

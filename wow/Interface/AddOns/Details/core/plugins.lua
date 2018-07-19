@@ -5,25 +5,6 @@
 	local _detalhes = _G._detalhes
 	DETAILSPLUGIN_ALWAYSENABLED = 0x1
 	
-	
-	--> templates
-		_detalhes.gump:InstallTemplate ("button", "DETAILS_PLUGINPANEL_BUTTON_TEMPLATE", 
-			{
-				backdrop = {edgeFile = [[Interface\Buttons\WHITE8X8]], edgeSize = 1, bgFile = [[Interface\Tooltips\UI-Tooltip-Background]], tileSize = 64, tile = true},
-				backdropcolor = {0, 0, 0, .5},
-				backdropbordercolor = {0, 0, 0, .5},
-				onentercolor = {0.3, 0.3, 0.3, .5},
-			}
-		)
-		_detalhes.gump:InstallTemplate ("button", "DETAILS_PLUGINPANEL_BUTTONSELECTED_TEMPLATE", 
-			{
-				backdrop = {edgeFile = [[Interface\Buttons\WHITE8X8]], edgeSize = 1, bgFile = [[Interface\Tooltips\UI-Tooltip-Background]], tileSize = 64, tile = true},
-				backdropcolor = {0, 0, 0, .5},
-				backdropbordercolor = {1, 1, 0, 1},
-				onentercolor = {0.3, 0.3, 0.3, .5},
-			}
-		)
-	
 	--> consts
 		local CONST_PLUGINWINDOW_MENU_WIDTH = 150
 		local CONST_PLUGINWINDOW_MENU_HEIGHT = 22
@@ -502,7 +483,8 @@
 			bigdogRow:SetHeight (20)
 			bigdogRow:SetColorTexture (.5, .5, .5, .1)
 			bigdogRow:Hide()
-
+			
+			--
 		--> plugins menu title bar
 			local titlebar_plugins = CreateFrame ("frame", nil, menuBackground)
 			titlebar_plugins:SetPoint ("topleft", menuBackground, "topleft", 2, -3)
@@ -529,7 +511,16 @@
 		
 		--> scripts
 			f:SetScript ("OnShow", function()
-				
+				--check if the window isn't out of screen
+				C_Timer.After (1, function()
+					local right = f:GetRight()
+					if (right and right > GetScreenWidth() + 500) then
+						f:ClearAllPoints()
+						f:SetPoint ("center", UIParent, "center", 0, 0)
+						LibWindow.SavePosition (f)
+						_detalhes:Msg ("detected options panel out of screen, position has reset")
+					end
+				end)
 			end)
 			
 			f:SetScript ("OnHide", function()
@@ -720,6 +711,50 @@
 			end
 			--> hide the main frame
 			f:Hide()
+		end
+		
+		--[=[
+			Function to be used on macros to open a plugin, signature:
+			Details:OpenPlugin (PLUGIN_ABSOLUTE_NAME)
+			Details:OpenPlugin (PluginObject)
+			Details:OpenPlugin ("Plugin Name")
+			
+			Example: /run Details:OpenPlugin ("Time Line")
+		--]=]
+		
+		function _detalhes:OpenPlugin (wildcard)
+			if (type (wildcard) == "string") then
+			
+				--> check if passed a plugin absolute name
+				local pluginObject = _detalhes:GetPlugin (wildcard)
+				if (pluginObject) then
+					f.OpenPlugin (pluginObject)
+					return true
+				end
+				
+				--> check if passed a plugin name, remove spaces and make it lower case
+				wildcard = string.lower (wildcard)
+				wildcard = wildcard:gsub ("%s", "")
+				
+				for index, pluginInfoTable in ipairs (_detalhes.ToolBar.Menu) do
+					local pluginName = pluginInfoTable [1]
+					pluginName = string.lower (pluginName)
+					pluginName = pluginName:gsub ("%s", "")
+					
+					if (pluginName ==  wildcard) then
+						local pluginObject = pluginInfoTable [3]
+						f.OpenPlugin (pluginObject)
+						return true
+					end
+				end
+			
+			--> check if passed a plugin object
+			elseif (type (wildcard) == "table") then
+				if (wildcard.__name) then
+					f.OpenPlugin (wildcard)
+					return true
+				end
+			end
 		end
 		
 		

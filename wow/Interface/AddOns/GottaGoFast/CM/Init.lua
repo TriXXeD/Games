@@ -7,7 +7,7 @@ function GottaGoFast.SetupCM(currentZoneID)
   local cmLevel, affixes, empowered = C_ChallengeMode.GetActiveKeystoneInfo();
   local cmID = C_ChallengeMode.GetActiveChallengeMapID();
   GottaGoFast.CurrentCM = {};
-  GottaGoFast.CurrentCM["Name"], GottaGoFast.CurrentCM["CmID"], GottaGoFast.CurrentCM["GoldTimer"] = C_ChallengeMode.GetMapInfo(cmID);
+  GottaGoFast.CurrentCM["Name"], GottaGoFast.CurrentCM["CmID"], GottaGoFast.CurrentCM["GoldTimer"] = C_ChallengeMode.GetMapUIInfo(cmID);
   GottaGoFast.CurrentCM["StartTime"] = nil;
   GottaGoFast.CurrentCM["Time"] = nil;
   GottaGoFast.CurrentCM["CurrentTime"] = nil;
@@ -49,7 +49,7 @@ function GottaGoFast.SetupCM(currentZoneID)
     local name, _, status, curValue, finalValue, _, _, mobPoints = C_Scenario.GetCriteriaInfo(i);
     GottaGoFast.CurrentCM["CurrentValues"][i] = curValue;
     GottaGoFast.CurrentCM["FinalValues"][i] = finalValue;
-    GottaGoFast.CurrentCM["Bosses"][i] = string.gsub(name, "Defeat ", "")
+    GottaGoFast.CurrentCM["Bosses"][i] = string.gsub(name, " defeated", "")
     if (i == steps) then
       GottaGoFast.CurrentCM["CurrentValues"][i] = GottaGoFast.MobPointsToInteger(mobPoints);
     end
@@ -74,7 +74,7 @@ function GottaGoFast.SetupFakeCM()
   GottaGoFast.CurrentCM["Time"] = nil;
   GottaGoFast.CurrentCM["CurrentTime"] = nil;
   GottaGoFast.CurrentCM["String"] = nil;
-  GottaGoFast.CurrentCM["Name"], GottaGoFast.CurrentCM["CmID"], GottaGoFast.CurrentCM["GoldTimer"] = C_ChallengeMode.GetMapInfo(206);
+  GottaGoFast.CurrentCM["Name"], GottaGoFast.CurrentCM["CmID"], GottaGoFast.CurrentCM["GoldTimer"] = C_ChallengeMode.GetMapUIInfo(206);
   GottaGoFast.CurrentCM["ZoneID"] = 1492;
   GottaGoFast.CurrentCM["Deaths"] = 4;
   GottaGoFast.CurrentCM["Steps"] = 5;

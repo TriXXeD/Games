@@ -201,3 +201,4 @@ function Data:InsertMoneyExpenseRecord(key, copper, destination, timeStamp)
 	if key ~= "Postage" and key ~= "Repair" and key ~= "Transfer" then return end
 	private:InsertMoneyRecord("expense", {key=key, copper=copper, otherPlayer=destination, time=timeStamp})
 end
+

@@ -16,30 +16,38 @@ Postal3DB = {
 		["Sftyhsfey - Aerie Peak"] = "Sftyhsfey - Aerie Peak",
 		["Lichservent - Thunderhorn"] = "Lichservent - Thunderhorn",
 		["Molokh - Ravencrest"] = "Molokh - Ravencrest",
+		["Anneshank - Draenor"] = "Anneshank - Draenor",
+		["Tríxxed - Laughing Skull"] = "Tríxxed - Laughing Skull",
+		["Monkshood - Draenor"] = "Monkshood - Draenor",
 		["Wonderwonder - Draenor"] = "Wonderwonder - Draenor",
 		["Zaou - Thunderhorn"] = "Zaou - Thunderhorn",
+		["Trixxed - Kazzak"] = "Trixxed - Kazzak",
 		["Trïxxed - Shadowsong"] = "Trïxxed - Shadowsong",
+		["Shallu - The Maelstrom"] = "Shallu - The Maelstrom",
 		["Tríxxed - Thunderhorn"] = "Tríxxed - Thunderhorn",
 		["Earthina - Argent Dawn"] = "Earthina - Argent Dawn",
 		["Trìxxed - Ravencrest"] = "Trìxxed - Ravencrest",
 		["Daemonikos - Ravencrest"] = "Daemonikos - Ravencrest",
-		["Shallu - The Maelstrom"] = "Shallu - The Maelstrom",
+		["Grippiboi - Kazzak"] = "Grippiboi - Kazzak",
+		["Petergrippin - Draenor"] = "Petergrippin - Draenor",
 		["Trixxedbank - Draenor"] = "Trixxedbank - Draenor",
 		["Teukronar - Argent Dawn"] = "Teukronar - Argent Dawn",
 		["Eventimeless - Ravencrest"] = "Eventimeless - Ravencrest",
-		["Shadefighter - Thunderhorn"] = "Shadefighter - Thunderhorn",
+		["Asgfdfgdf - Silvermoon"] = "Asgfdfgdf - Silvermoon",
+		["Trixxed - Ravencrest"] = "Trixxed - Ravencrest",
+		["Xbenedict - Kazzak"] = "Xbenedict - Kazzak",
 		["Chrysante - Ravencrest"] = "Chrysante - Ravencrest",
-		["Tríxxed - Laughing Skull"] = "Tríxxed - Laughing Skull",
-		["Daemonikos - Draenor"] = "Daemonikos - Draenor",
-		["Quelith - Draenor"] = "Quelith - Draenor",
 		["Odeysseus - Thunderhorn"] = "Odeysseus - Thunderhorn",
 		["Eruditus - Ravencrest"] = "Eruditus - Ravencrest",
-		["Trixxed - Ravencrest"] = "Trixxed - Ravencrest",
-		["Petergrippin - Draenor"] = "Petergrippin - Draenor",
+		["Quelith - Draenor"] = "Quelith - Draenor",
+		["Lycotonum - Tarren Mill"] = "Lycotonum - Tarren Mill",
+		["Shadefighter - Thunderhorn"] = "Shadefighter - Thunderhorn",
+		["Daemonikos - Draenor"] = "Daemonikos - Draenor",
+		["Trixbankxed - Shadowsong"] = "Trixbankxed - Shadowsong",
 		["Kazzía - Thunderhorn"] = "Kazzía - Thunderhorn",
-		["Asgfdfgdf - Silvermoon"] = "Asgfdfgdf - Silvermoon",
 		["Trixxed - Shadowsong"] = "Trixxed - Shadowsong",
 		["Achilina - Draenor"] = "Achilina - Draenor",
+		["Shankspeare - Kazzak"] = "Shankspeare - Kazzak",
 	},
 	["global"] = {
 		["BlackBook"] = {
@@ -47,42 +55,50 @@ Postal3DB = {
 				"Achilina|Draenor|Horde|110|WARRIOR", -- [1]
 				"Achilina|Ravencrest|Alliance|100|PALADIN", -- [2]
 				"Achillina|Thunderhorn|Horde|87|PALADIN", -- [3]
-				"Asgfdfgdf|Silvermoon|Alliance|55|DEATHKNIGHT", -- [4]
-				"Chrysante|Ravencrest|Alliance|100|DRUID", -- [5]
-				"Daemonikos|Draenor|Horde|110|WARLOCK", -- [6]
-				"Daemonikos|Ravencrest|Alliance|100|WARLOCK", -- [7]
-				"Dístúrbed|Thunderhorn|Horde|30|WARRIOR", -- [8]
-				"Earthina|Argent Dawn|Alliance|31|DRUID", -- [9]
-				"Eruditus|Ravencrest|Alliance|100|MAGE", -- [10]
-				"Eventimeless|Ravencrest|Alliance|1|PRIEST", -- [11]
-				"Fausta|Ravencrest|Alliance|100|PRIEST", -- [12]
-				"Kazzía|Thunderhorn|Horde|89|PRIEST", -- [13]
-				"Lichservent|Thunderhorn|Horde|75|WARLOCK", -- [14]
-				"Lupalia|Ravencrest|Alliance|100|ROGUE", -- [15]
-				"Marcellinus|Ravencrest|Alliance|100|MONK", -- [16]
-				"Molokh|Ravencrest|Alliance|100|DEMONHUNTER", -- [17]
-				"Odeysseus|Thunderhorn|Horde|83|DEATHKNIGHT", -- [18]
-				"Petergrippin|Draenor|Horde|55|DEATHKNIGHT", -- [19]
-				"Quelith|Draenor|Horde|110|DEMONHUNTER", -- [20]
-				"Razoi|Thunderhorn|Horde|90|ROGUE", -- [21]
-				"Sftyhsfey|Aerie Peak|Alliance|1|HUNTER", -- [22]
-				"Shadefighter|Thunderhorn|Horde|82|SHAMAN", -- [23]
-				"Shallu|The Maelstrom|Alliance|1|PRIEST", -- [24]
-				"Teukronar|Argent Dawn|Alliance|13|HUNTER", -- [25]
-				"Trixxedbank|Draenor|Horde|1|MAGE", -- [26]
-				"Trixxedz|Thunderhorn|Horde|20|MAGE", -- [27]
-				"Trixxed|Ravencrest|Alliance|100|WARRIOR", -- [28]
-				"Trixxed|Shadowsong|Alliance|27|PRIEST", -- [29]
-				"Trìxxed|Ravencrest|Alliance|100|HUNTER", -- [30]
-				"Tríxxed|Darksorrow|Horde|85|WARLOCK", -- [31]
-				"Tríxxed|Laughing Skull|Horde|100|WARLOCK", -- [32]
-				"Tríxxed|The Maelstrom|Alliance|65|MAGE", -- [33]
-				"Tríxxed|Thunderhorn|Horde|2|DRUID", -- [34]
-				"Trîxxed|Ravencrest|Alliance|100|SHAMAN", -- [35]
-				"Trïxxed|Ravencrest|Alliance|100|DEATHKNIGHT", -- [36]
-				"Trïxxed|Shadowsong|Alliance|59|DEATHKNIGHT", -- [37]
-				"Wonderwonder|Draenor|Horde|100|ROGUE", -- [38]
-				"Zaou|Thunderhorn|Horde|57|HUNTER", -- [39]
+				"Anneshank|Draenor|Horde|24|ROGUE", -- [4]
+				"Asgfdfgdf|Silvermoon|Alliance|55|DEATHKNIGHT", -- [5]
+				"Chrysante|Ravencrest|Alliance|100|DRUID", -- [6]
+				"Daemonikos|Draenor|Horde|110|WARLOCK", -- [7]
+				"Daemonikos|Ravencrest|Alliance|100|WARLOCK", -- [8]
+				"Dístúrbed|Thunderhorn|Horde|30|WARRIOR", -- [9]
+				"Earthina|Argent Dawn|Alliance|31|DRUID", -- [10]
+				"Eruditus|Ravencrest|Alliance|100|MAGE", -- [11]
+				"Eventimeless|Ravencrest|Alliance|1|PRIEST", -- [12]
+				"Fausta|Ravencrest|Alliance|100|PRIEST", -- [13]
+				"Grippiboi|Kazzak|Horde|55|DEATHKNIGHT", -- [14]
+				"Kazzía|Thunderhorn|Horde|89|PRIEST", -- [15]
+				"Lichservent|Thunderhorn|Horde|75|WARLOCK", -- [16]
+				"Lupalia|Ravencrest|Alliance|100|ROGUE", -- [17]
+				"Lycotonum|Tarren Mill|Horde|20|MONK", -- [18]
+				"Marcellinus|Ravencrest|Alliance|100|MONK", -- [19]
+				"Molokh|Ravencrest|Alliance|100|DEMONHUNTER", -- [20]
+				"Monkshood|Draenor|Horde|20|MONK", -- [21]
+				"Odeysseus|Thunderhorn|Horde|83|DEATHKNIGHT", -- [22]
+				"Petergrippin|Draenor|Horde|55|DEATHKNIGHT", -- [23]
+				"Quelith|Draenor|Horde|110|DEMONHUNTER", -- [24]
+				"Razoi|Thunderhorn|Horde|90|ROGUE", -- [25]
+				"Sftyhsfey|Aerie Peak|Alliance|1|HUNTER", -- [26]
+				"Shadefighter|Thunderhorn|Horde|82|SHAMAN", -- [27]
+				"Shallu|The Maelstrom|Alliance|1|PRIEST", -- [28]
+				"Shankspeare|Kazzak|Horde|20|ROGUE", -- [29]
+				"Teukronar|Argent Dawn|Alliance|13|HUNTER", -- [30]
+				"Trixbankxed|Shadowsong|Alliance|1|MAGE", -- [31]
+				"Trixxedbank|Draenor|Horde|1|MAGE", -- [32]
+				"Trixxedz|Thunderhorn|Horde|20|MAGE", -- [33]
+				"Trixxed|Kazzak|Horde|110|WARLOCK", -- [34]
+				"Trixxed|Ravencrest|Alliance|100|WARRIOR", -- [35]
+				"Trixxed|Shadowsong|Alliance|27|PRIEST", -- [36]
+				"Trìxxed|Ravencrest|Alliance|100|HUNTER", -- [37]
+				"Tríxxed|Darksorrow|Horde|85|WARLOCK", -- [38]
+				"Tríxxed|Laughing Skull|Horde|100|WARLOCK", -- [39]
+				"Tríxxed|The Maelstrom|Alliance|65|MAGE", -- [40]
+				"Tríxxed|Thunderhorn|Horde|2|DRUID", -- [41]
+				"Trîxxed|Ravencrest|Alliance|100|SHAMAN", -- [42]
+				"Trïxxed|Ravencrest|Alliance|100|DEATHKNIGHT", -- [43]
+				"Trïxxed|Shadowsong|Alliance|59|DEATHKNIGHT", -- [44]
+				"Wonderwonder|Draenor|Horde|100|ROGUE", -- [45]
+				"Xbenedict|Kazzak|Horde|20|PRIEST", -- [46]
+				"Zaou|Thunderhorn|Horde|57|HUNTER", -- [47]
 			},
 		},
 	},
@@ -107,7 +123,8 @@ Postal3DB = {
 		["Dístúrbed - Thunderhorn"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"Razoi|Thunderhorn|Horde", -- [1]
+					"Odeysseus|Thunderhorn|Horde", -- [1]
+					"Razoi|Thunderhorn|Horde", -- [2]
 				},
 			},
 		},
@@ -162,14 +179,15 @@ Postal3DB = {
 		["Achillina - Thunderhorn"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"Marcellinus-Ravencrest|Thunderhorn|Horde", -- [1]
-					"Lupalia-Ravencrest|Thunderhorn|Horde", -- [2]
-					"Razoi|Thunderhorn|Horde", -- [3]
-					"Eventimeless-Ravencrest|Thunderhorn|Horde", -- [4]
-					"Achilina-Ravencrest|Thunderhorn|Horde", -- [5]
-					"Lichservent|Thunderhorn|Horde", -- [6]
-					"Zaou|Thunderhorn|Horde", -- [7]
-					"Odeysseus|Thunderhorn|Horde", -- [8]
+					"Odeysseus|Thunderhorn|Horde", -- [1]
+					"Trixxedbank-Draenor|Thunderhorn|Horde", -- [2]
+					"Marcellinus-Ravencrest|Thunderhorn|Horde", -- [3]
+					"Lupalia-Ravencrest|Thunderhorn|Horde", -- [4]
+					"Razoi|Thunderhorn|Horde", -- [5]
+					"Eventimeless-Ravencrest|Thunderhorn|Horde", -- [6]
+					"Achilina-Ravencrest|Thunderhorn|Horde", -- [7]
+					"Lichservent|Thunderhorn|Horde", -- [8]
+					"Zaou|Thunderhorn|Horde", -- [9]
 				},
 			},
 		},
@@ -246,7 +264,8 @@ Postal3DB = {
 		["Trixxedz - Thunderhorn"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"Razoi|Thunderhorn|Horde", -- [1]
+					"Odeysseus|Thunderhorn|Horde", -- [1]
+					"Razoi|Thunderhorn|Horde", -- [2]
 				},
 			},
 		},
@@ -273,7 +292,8 @@ Postal3DB = {
 		["Lichservent - Thunderhorn"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"Razoi|Thunderhorn|Horde", -- [1]
+					"Odeysseus|Thunderhorn|Horde", -- [1]
+					"Razoi|Thunderhorn|Horde", -- [2]
 				},
 			},
 		},
@@ -285,17 +305,43 @@ Postal3DB = {
 				},
 			},
 		},
+		["Anneshank - Draenor"] = {
+		},
+		["Tríxxed - Laughing Skull"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Marcellinus-Ravencrest|Laughing Skull|Horde", -- [1]
+					"Daemonikos-Ravencrest|Laughing Skull|Horde", -- [2]
+					"Eventimeless-ravencrest|Laughing Skull|Horde", -- [3]
+					"Matnog|Laughing Skull|Horde", -- [4]
+					"Achilina-Ravencrest|Laughing Skull|Horde", -- [5]
+				},
+			},
+		},
+		["Monkshood - Draenor"] = {
+		},
 		["Wonderwonder - Draenor"] = {
 		},
 		["Zaou - Thunderhorn"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"Razoi|Thunderhorn|Horde", -- [1]
-					"eventimeless-Ravencrest|Thunderhorn|Horde", -- [2]
+					"Odeysseus|Thunderhorn|Horde", -- [1]
+					"Razoi|Thunderhorn|Horde", -- [2]
+					"eventimeless-Ravencrest|Thunderhorn|Horde", -- [3]
+				},
+			},
+		},
+		["Trixxed - Kazzak"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Fausta-Ravencrest|Kazzak|Horde", -- [1]
+					"Trixxedbank-Draenor|Kazzak|Horde", -- [2]
 				},
 			},
 		},
 		["Trïxxed - Shadowsong"] = {
+		},
+		["Shallu - The Maelstrom"] = {
 		},
 		["Tríxxed - Thunderhorn"] = {
 		},
@@ -346,13 +392,16 @@ Postal3DB = {
 			},
 			["OpenSpeed"] = 0.3,
 		},
-		["Shallu - The Maelstrom"] = {
+		["Grippiboi - Kazzak"] = {
+		},
+		["Petergrippin - Draenor"] = {
 		},
 		["Trixxedbank - Draenor"] = {
 			["BlackBook"] = {
 				["recent"] = {
 					"Daemonikos|Draenor|Horde", -- [1]
-					"Achilina|Draenor|Horde", -- [2]
+					"Trîxxed-Ravencrest|Draenor|Horde", -- [2]
+					"Achilina|Draenor|Horde", -- [3]
 				},
 			},
 		},
@@ -371,13 +420,28 @@ Postal3DB = {
 				},
 			},
 		},
-		["Shadefighter - Thunderhorn"] = {
+		["Asgfdfgdf - Silvermoon"] = {
+		},
+		["Trixxed - Ravencrest"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"Razoi|Thunderhorn|Horde", -- [1]
-					"Eventimeless-Ravencrest|Thunderhorn|Horde", -- [2]
+					"Lupalia|Ravencrest|Alliance", -- [1]
+					"Trìxxed|Ravencrest|Alliance", -- [2]
+					"Achilina|Ravencrest|Alliance", -- [3]
+					"Fausta|Ravencrest|Alliance", -- [4]
+					"Daemonikos|Ravencrest|Alliance", -- [5]
+					"Trïxxed|Ravencrest|Alliance", -- [6]
+					"Chrysante|Ravencrest|Alliance", -- [7]
+					"Molokh|Ravencrest|Alliance", -- [8]
+					"Marcellinus|Ravencrest|Alliance", -- [9]
+					"Trîxxed|Ravencrest|Alliance", -- [10]
+					"Eruditus|Ravencrest|Alliance", -- [11]
+					"Achillina-Thunderhorn|Ravencrest|Alliance", -- [12]
+					"Eventimeless|Ravencrest|Alliance", -- [13]
 				},
 			},
+		},
+		["Xbenedict - Kazzak"] = {
 		},
 		["Chrysante - Ravencrest"] = {
 			["BlackBook"] = {
@@ -394,50 +458,6 @@ Postal3DB = {
 					"Dogehouse-Ravencrest|Ravencrest|Alliance", -- [10]
 					"Fausta|Ravencrest|Alliance", -- [11]
 					"Achillina-Thunderhorn|Ravencrest|Alliance", -- [12]
-				},
-			},
-		},
-		["Tríxxed - Laughing Skull"] = {
-			["BlackBook"] = {
-				["recent"] = {
-					"Marcellinus-Ravencrest|Laughing Skull|Horde", -- [1]
-					"Daemonikos-Ravencrest|Laughing Skull|Horde", -- [2]
-					"Eventimeless-ravencrest|Laughing Skull|Horde", -- [3]
-					"Matnog|Laughing Skull|Horde", -- [4]
-					"Achilina-Ravencrest|Laughing Skull|Horde", -- [5]
-				},
-			},
-		},
-		["Daemonikos - Draenor"] = {
-			["BlackBook"] = {
-				["recent"] = {
-					"Lupalia-Ravencrest|Draenor|Horde", -- [1]
-					"Trìxxed-Ravencrest|Draenor|Horde", -- [2]
-					"Achilina-ravencrest|Draenor|Horde", -- [3]
-					"Trïxxed-Ravencrest|Draenor|Horde", -- [4]
-					"Eruditus-Ravencrest|Draenor|Horde", -- [5]
-					"Achilina-Draenor|Draenor|Horde", -- [6]
-					"Fausta-Ravencrest|Draenor|Horde", -- [7]
-					"Trîxxed-Ravencrest|Draenor|Horde", -- [8]
-					"Quelith|Draenor|Horde", -- [9]
-					"Trixxedbank|Draenor|Horde", -- [10]
-					"Achilina|Draenor|Horde", -- [11]
-					"Chrysante-Ravencrest|Draenor|Horde", -- [12]
-					"Kedodda|Draenor|Horde", -- [13]
-				},
-			},
-		},
-		["Quelith - Draenor"] = {
-			["BlackBook"] = {
-				["recent"] = {
-					"Daemonikos|Draenor|Horde", -- [1]
-					"Lupalia-Ravencrest|Draenor|Horde", -- [2]
-					"Fausta-Ravencrest|Draenor|Horde", -- [3]
-					"Trìxxed-Ravencrest|Draenor|Horde", -- [4]
-					"Achilina-ravencrest|Draenor|Horde", -- [5]
-					"Trîxxed-Ravencrest|Draenor|Horde", -- [6]
-					"Trïxxed-Ravencrest|Draenor|Horde", -- [7]
-					"Achilina|Draenor|Horde", -- [8]
 				},
 			},
 		},
@@ -467,36 +487,60 @@ Postal3DB = {
 				},
 			},
 		},
-		["Trixxed - Ravencrest"] = {
+		["Quelith - Draenor"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"Lupalia|Ravencrest|Alliance", -- [1]
-					"Trìxxed|Ravencrest|Alliance", -- [2]
-					"Achilina|Ravencrest|Alliance", -- [3]
-					"Fausta|Ravencrest|Alliance", -- [4]
-					"Daemonikos|Ravencrest|Alliance", -- [5]
-					"Trïxxed|Ravencrest|Alliance", -- [6]
-					"Chrysante|Ravencrest|Alliance", -- [7]
-					"Molokh|Ravencrest|Alliance", -- [8]
-					"Marcellinus|Ravencrest|Alliance", -- [9]
-					"Trîxxed|Ravencrest|Alliance", -- [10]
-					"Eruditus|Ravencrest|Alliance", -- [11]
-					"Achillina-Thunderhorn|Ravencrest|Alliance", -- [12]
-					"Eventimeless|Ravencrest|Alliance", -- [13]
+					"Daemonikos|Draenor|Horde", -- [1]
+					"Lupalia-Ravencrest|Draenor|Horde", -- [2]
+					"Fausta-Ravencrest|Draenor|Horde", -- [3]
+					"Trìxxed-Ravencrest|Draenor|Horde", -- [4]
+					"Achilina-ravencrest|Draenor|Horde", -- [5]
+					"Trîxxed-Ravencrest|Draenor|Horde", -- [6]
+					"Trïxxed-Ravencrest|Draenor|Horde", -- [7]
+					"Achilina|Draenor|Horde", -- [8]
 				},
 			},
 		},
-		["Petergrippin - Draenor"] = {
+		["Lycotonum - Tarren Mill"] = {
+		},
+		["Shadefighter - Thunderhorn"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Odeysseus|Thunderhorn|Horde", -- [1]
+					"Razoi|Thunderhorn|Horde", -- [2]
+					"Eventimeless-Ravencrest|Thunderhorn|Horde", -- [3]
+				},
+			},
+		},
+		["Daemonikos - Draenor"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Trixxedbank|Draenor|Horde", -- [1]
+					"Achilina|Draenor|Horde", -- [2]
+					"Lupalia-Ravencrest|Draenor|Horde", -- [3]
+					"Trìxxed-Ravencrest|Draenor|Horde", -- [4]
+					"Achilina-ravencrest|Draenor|Horde", -- [5]
+					"Trïxxed-Ravencrest|Draenor|Horde", -- [6]
+					"Eruditus-Ravencrest|Draenor|Horde", -- [7]
+					"Achilina-Draenor|Draenor|Horde", -- [8]
+					"Fausta-Ravencrest|Draenor|Horde", -- [9]
+					"Trîxxed-Ravencrest|Draenor|Horde", -- [10]
+					"Quelith|Draenor|Horde", -- [11]
+					"Chrysante-Ravencrest|Draenor|Horde", -- [12]
+					"Kedodda|Draenor|Horde", -- [13]
+				},
+			},
+		},
+		["Trixbankxed - Shadowsong"] = {
 		},
 		["Kazzía - Thunderhorn"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"Razoi|Thunderhorn|Horde", -- [1]
-					"Achilina-Ravencrest|Thunderhorn|Horde", -- [2]
+					"Odeysseus|Thunderhorn|Horde", -- [1]
+					"Razoi|Thunderhorn|Horde", -- [2]
+					"Achilina-Ravencrest|Thunderhorn|Horde", -- [3]
 				},
 			},
-		},
-		["Asgfdfgdf - Silvermoon"] = {
 		},
 		["Trixxed - Shadowsong"] = {
 		},
@@ -504,12 +548,15 @@ Postal3DB = {
 			["BlackBook"] = {
 				["recent"] = {
 					"Daemonikos|Draenor|Horde", -- [1]
-					"Trîxxed-Ravencrest|Draenor|Horde", -- [2]
-					"Achilina-ravencrest|Draenor|Horde", -- [3]
-					"Eruditus-Ravencrest|Draenor|Horde", -- [4]
-					"Trixxedbank|Draenor|Horde", -- [5]
+					"Trixxedbank|Draenor|Horde", -- [2]
+					"Trìxxed-Ravencrest|Draenor|Horde", -- [3]
+					"Trîxxed-Ravencrest|Draenor|Horde", -- [4]
+					"Achilina-ravencrest|Draenor|Horde", -- [5]
+					"Eruditus-Ravencrest|Draenor|Horde", -- [6]
 				},
 			},
+		},
+		["Shankspeare - Kazzak"] = {
 		},
 	},
 }

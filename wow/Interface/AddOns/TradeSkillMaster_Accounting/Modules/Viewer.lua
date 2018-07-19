@@ -350,3 +350,4 @@ function Viewer:GetMoneyFiltersInfo(container, dataType, types, dataFunc, stCols
 	TSMAPI.GUI:BuildOptions(container, page)
 	TSMAPI.GUI:UpdateTSMScrollingTableData("TSM_ACCOUNTING_ST_"..dataType, dataFunc(filters))
 end
+

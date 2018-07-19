@@ -404,3 +404,4 @@ function Queue:Update()
 	private.frame.queue.matST:SetData(stData)
 	TSM.TradeSkill.Gather:QueueUpdate()
 end
+

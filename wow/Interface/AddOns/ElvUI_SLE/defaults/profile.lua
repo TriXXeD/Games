@@ -75,14 +75,12 @@ P["sle"] = {
 	},
 	--Bags
 	["bags"] = {
-		["lootflash"] = true,
-		["artifactPower"] = {
+		["petLevel"] = {
 			["enable"] = false,
 			["color"] = {r = 230, g = 204, b = 128},
-			["short"] = false,
 			["fonts"] = {
 				["font"] = "PT Sans Narrow",
-				["size"] = 12,
+				["size"] = 14,
 				["outline"] = "OUTLINE",
 			},
 		},
@@ -130,7 +128,7 @@ P["sle"] = {
 			["color"] = {r = 1, g = 1, b = 0},
 		},
 	},
-	--Datbars
+	--Databars
 	["databars"] = {
 		["exp"] = {
 			["longtext"] = false,
@@ -161,7 +159,7 @@ P["sle"] = {
 				["awardStyle"] = "STYLE1",
 			},
 		},
-		["artifact"] = {
+		["azerite"] = {
 			["longtext"] = false,
 			["chatfilter"] = {
 				["enable"] = false,
@@ -337,6 +335,12 @@ P["sle"] = {
 			["quest"] = false,
 			["enable"] = false,
 		},
+		["orderhall"] = {
+			["autoOrder"] = {
+				["enable"] = false,
+				["autoEquip"] = false,
+			},
+		},
 	},
 	--LFR options
 	["lfr"] = {
@@ -491,12 +495,10 @@ P["sle"] = {
 			["iconmouseover"] = false,
 			["iconsize"] = 27,
 			["iconperrow"] = 12,
-			["pethide"] = false,
-			["skindungeon"] = false,
-			["skinmail"] = false,
 			["spacing"] = 4,
 			["growth_hor"] = "Right",
 			["growth_vert"] = "Down",
+			["visibility"] = "[petbattle] hide; show",
 		},
 		["instance"] = {
 			["enable"] = false,
@@ -541,6 +543,11 @@ P["sle"] = {
 				["customWidthValue"] = 200,
 				["justify"] = "LEFT",
 				["cdFormat"] = "DEFAULT",
+				["ignoreMissingInfo"] = false,
+				["showHearthstones"] = true,
+				["showToys"] = true,
+				["showSpells"] = true,
+				["showEngineer"] = true,
 			},
 		},
 	},
@@ -574,12 +581,7 @@ P["sle"] = {
 		["visibleRange"] = 60,
 	},
 	--Order Halls
-	["orderhall"] = {
-		["autoOrder"] = {
-			["enable"] = false,
-			["autoEquip"] = false,
-		},
-	},
+
 	--Quests
 	["quests"] = {
 		["visibility"] = {
@@ -795,6 +797,18 @@ P["sle"] = {
 					},
 				},
 			},
+			["pettarget"] = {
+				["higherPortrait"] = false,
+				["portraitAlpha"] = 0.35,
+				["auras"] = {
+					["buffs"] = {
+						["threshold"] = 4,
+					},
+					["debuffs"] = {
+						["threshold"] = 4,
+					},
+				},
+			},
 			["target"] = {
 				["higherPortrait"] = false,
 				["portraitAlpha"] = 0.35,
@@ -807,7 +821,43 @@ P["sle"] = {
 					},
 				},
 			},
+			["targettarget"] = {
+				["higherPortrait"] = false,
+				["portraitAlpha"] = 0.35,
+				["auras"] = {
+					["buffs"] = {
+						["threshold"] = 4,
+					},
+					["debuffs"] = {
+						["threshold"] = 4,
+					},
+				},
+			},
+			["targettargettarget"] = {
+				["higherPortrait"] = false,
+				["portraitAlpha"] = 0.35,
+				["auras"] = {
+					["buffs"] = {
+						["threshold"] = 4,
+					},
+					["debuffs"] = {
+						["threshold"] = 4,
+					},
+				},
+			},
 			["focus"] = {
+				["higherPortrait"] = false,
+				["portraitAlpha"] = 0.35,
+				["auras"] = {
+					["buffs"] = {
+						["threshold"] = 4,
+					},
+					["debuffs"] = {
+						["threshold"] = 4,
+					},
+				},
+			},
+			["focustarget"] = {
 				["higherPortrait"] = false,
 				["portraitAlpha"] = 0.35,
 				["auras"] = {

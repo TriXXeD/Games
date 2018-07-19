@@ -1,7 +1,7 @@
 ﻿--[[
 	Auctioneer
-	Version: 7.5.5724 (TasmanianThylacine)
-	Revision: $Id: CoreMain.lua 5698 2017-01-10 19:57:32Z brykrys $
+	Version: 7.7.6000 (SwimmingSeadragon)
+	Revision: $Id: CoreMain.lua 6000 2018-07-17 14:09:34Z none $
 	URL: http://auctioneeraddon.com/
 
 	This is an addon for World of Warcraft that adds statistical history to the auction data that is collected
@@ -323,7 +323,6 @@ end
 local function OnEnteringWorld(frame)
 	frame:UnregisterEvent("PLAYER_ENTERING_WORLD") -- we only want the first instance of this event
 	OnEnteringWorld = nil
-	if not AucAdvanced then return end -- Shouldn't happen as CoreManifest creates the basic table first thing
 	AucAdvanced.CoreFileCheckOut() -- calling with no filename to finalize check in/out process
 	if AucAdvanced.ABORTLOAD then
 		-- something's gone wrong - abort loading
@@ -333,6 +332,7 @@ local function OnEnteringWorld(frame)
 		print("Auctioneer load aborted: "..AucAdvanced.ABORTLOAD)
 		return
 	end
+	AucAdvanced.Print(format("Auctioneer loaded (version %s)", AucAdvanced.Version))
 
 	frame:RegisterEvent("ITEM_LOCK_CHANGED")
 	frame:RegisterEvent("BAG_UPDATE")
@@ -420,5 +420,5 @@ do -- ScheduleMessage handler
 end
 
 
-AucAdvanced.RegisterRevision("$URL: http://svn.norganna.org/auctioneer/branches/7.5/Auc-Advanced/CoreMain.lua $", "$Rev: 5698 $")
+AucAdvanced.RegisterRevision("$URL: /CoreMain.lua $", "$Rev: 6000 $")
 AucAdvanced.CoreFileCheckOut("CoreMain")

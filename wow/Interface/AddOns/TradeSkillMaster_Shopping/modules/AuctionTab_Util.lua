@@ -284,3 +284,4 @@ function AuctionTabUtil:GetMatchingFilter(queries, auctionRecord)
 		end
 	end
 end
+

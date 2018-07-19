@@ -1,0 +1,15 @@
+TradeSkillMaster_Destroying: disabled
+Skada: disabled
+zPets: enabled
+DoomShards: disabled
+TradeSkillMaster: enabled
+TradeSkillMaster_AuctionDB: disabled
+tCombo: disabled
+MogIt: disabled
+TradeSkillMaster_Accounting: disabled
+TradeSkillMaster_Auctioning: disabled
+TradeSkillMaster_Crafting: disabled
+TradeSkillMaster_Mailing: disabled
+TradeSkillMaster_Shopping: disabled
+TradeSkillMaster_Vendoring: disabled
+TradeSkillMaster_Warehousing: disabled

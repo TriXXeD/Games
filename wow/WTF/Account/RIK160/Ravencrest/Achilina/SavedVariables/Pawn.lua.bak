@@ -1,10 +1,9 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0217,
+	["LastVersion"] = 2.0218,
 	["LastPlayerFullName"] = "Achilina-Ravencrest",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,
-	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[120978] = {
 			["Relics"] = {
@@ -17,7 +16,7 @@ PawnOptions = {
 					["Type"] = "Fire",
 				}, -- [2]
 				{
-					["ItemLevel"] = 52,
+					["ItemLevel"] = 61,
 					["Type"] = "Holy",
 				}, -- [3]
 			},
@@ -30,7 +29,7 @@ PawnOptions = {
 					["Type"] = "Holy",
 				}, -- [1]
 				{
-					["ItemLevel"] = 56,
+					["ItemLevel"] = 58,
 					["Type"] = "Iron",
 				}, -- [2]
 				{
@@ -43,19 +42,22 @@ PawnOptions = {
 		[128823] = {
 			["Relics"] = {
 				{
+					["ItemLevel"] = 65,
 					["Type"] = "Holy",
 				}, -- [1]
 				{
-					["ItemLevel"] = 56,
+					["ItemLevel"] = 62,
 					["Type"] = "Life",
 				}, -- [2]
 				{
+					["ItemLevel"] = 61,
 					["Type"] = "Holy",
 				}, -- [3]
 			},
 			["Name"] = "The Silver Hand",
 		},
 	},
+	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "PALADIN",

@@ -14,6 +14,9 @@ VER 3 0100000000000013 "MFD" "INV_MISC_QUESTIONMARK"
 #showtooltip Marked For Death
 /cast [@mouseover,exists,harm] Marked For Death; Marked For Death
 END
+VER 3 010000000000001F "mine" "INV_MISC_QUESTIONMARK"
+/cast [@Mine Rat] Throw
+END
 VER 3 0100000000000017 "NoDaggeToDagger" "INV_MISC_QUESTIONMARK"
 #showtooltip Blade Flurry
 /cast Blade Flurry

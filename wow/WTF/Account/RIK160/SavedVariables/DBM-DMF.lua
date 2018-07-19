@@ -1,37 +1,33 @@
 
 DBMDMF_AllSavedVars = {
-	["Daemonikos-Draenor"] = {
+	["Trixxed-Kazzak"] = {
 		["Gnoll"] = {
 			{
 				["specWarnHoggerSWSound"] = 1,
-				["HealthFrame"] = false,
+				["warnGnoll"] = false,
 				["Timer101612active"] = true,
-				["CountdownFades101612"] = true,
 				["specWarnHogger"] = true,
 				["warnGameOver"] = true,
-				["Timer101612activeTColor"] = 0,
+				["CountdownFades101612"] = true,
 				["Enabled"] = true,
 				["specWarnHoggerSWNote"] = true,
-				["warnGnoll"] = false,
+				["Timer101612activeTColor"] = 6,
 			}, -- [1]
 		},
 		["Rings"] = {
 			{
 				["Enabled"] = true,
 				["Timer170820active"] = true,
-				["Timer170820activeTColor"] = 0,
-				["HealthFrame"] = false,
-				["announce170823count"] = false,
+				["Timer170820activeTColor"] = 5,
 				["CountdownFades170820"] = true,
+				["announce170823count"] = false,
 			}, -- [1]
 		},
 		["Cannon"] = {
 			{
 				["Enabled"] = true,
-				["CountdownFades102116"] = true,
-				["HealthFrame"] = false,
 				["Timer102116fades"] = true,
-				["Timer102116fadesTColor"] = 0,
+				["Timer102116fadesTColor"] = 5,
 			}, -- [1]
 		},
 		["talent1"] = "Affliction",
@@ -39,7 +35,92 @@ DBMDMF_AllSavedVars = {
 			{
 				["Enabled"] = true,
 				["CountdownFades101871"] = true,
-				["HealthFrame"] = false,
+				["Timer101871active"] = true,
+				["Timer101871activeTColor"] = 6,
+				["SetBubbles"] = true,
+			}, -- [1]
+		},
+		["Rabbit"] = {
+			{
+				["Enabled"] = true,
+				["Yell114078"] = true,
+				["announceother114078target"] = true,
+			}, -- [1]
+		},
+		["Moonfang"] = {
+			{
+				["specWarnMoonfangCurse"] = false,
+				["Timer144702next"] = true,
+				["Yell144546"] = true,
+				["SpecWarn144590you"] = true,
+				["Timer144546cd"] = true,
+				["SpecWarn144702spell"] = true,
+				["specWarnCallPackSWNote"] = true,
+				["SpecWarn144702spellSWSound"] = 2,
+				["Enabled"] = true,
+				["SpecWarn144590youSWNote"] = true,
+				["SpecWarn144546youSWNote"] = true,
+				["specWarnCallPack"] = true,
+				["specWarnMoonfangCurseSWNote"] = true,
+				["specWarnCallPackSWSound"] = 4,
+				["specWarnMoonfangCurseSWSound"] = 4,
+				["SpecWarn144702spellSWNote"] = true,
+				["Timer144546cdTColor"] = 3,
+				["SpecWarn144590youSWSound"] = 1,
+				["announceother144546target"] = true,
+				["SpecWarn144546you"] = true,
+				["Timer144702nextTColor"] = 2,
+				["SpecWarn144546youSWSound"] = 1,
+			}, -- [1]
+		},
+		["Tonks"] = {
+			{
+				["Enabled"] = true,
+				["Timer102178active"] = true,
+				["CountdownFades102178"] = true,
+				["SpecWarn102341run2SWSound"] = 4,
+				["SpecWarn102341run2SWNote"] = true,
+				["Timer102178activeTColor"] = 0,
+				["SpecWarn102341run2"] = true,
+			}, -- [1]
+		},
+	},
+	["Daemonikos-Draenor"] = {
+		["Gnoll"] = {
+			{
+				["specWarnHoggerSWSound"] = 1,
+				["warnGnoll"] = false,
+				["Timer101612active"] = true,
+				["specWarnHogger"] = true,
+				["warnGameOver"] = true,
+				["Timer101612activeTColor"] = 0,
+				["CountdownFades101612"] = true,
+				["specWarnHoggerSWNote"] = true,
+				["Enabled"] = true,
+			}, -- [1]
+		},
+		["Rings"] = {
+			{
+				["Enabled"] = true,
+				["Timer170820active"] = true,
+				["Timer170820activeTColor"] = 0,
+				["CountdownFades170820"] = true,
+				["announce170823count"] = false,
+			}, -- [1]
+		},
+		["Cannon"] = {
+			{
+				["Enabled"] = true,
+				["Timer102116fadesTColor"] = 0,
+				["CountdownFades102116"] = true,
+				["Timer102116fades"] = true,
+			}, -- [1]
+		},
+		["talent1"] = "Affliction",
+		["Shot"] = {
+			{
+				["Enabled"] = true,
+				["CountdownFades101871"] = true,
 				["Timer101871active"] = true,
 				["Timer101871activeTColor"] = 0,
 				["SetBubbles"] = true,
@@ -47,10 +128,9 @@ DBMDMF_AllSavedVars = {
 		},
 		["Rabbit"] = {
 			{
-				["HealthFrame"] = false,
+				["Enabled"] = true,
 				["Yell114078"] = true,
 				["announceother114078target"] = true,
-				["Enabled"] = true,
 			}, -- [1]
 		},
 		["Moonfang"] = {
@@ -68,7 +148,6 @@ DBMDMF_AllSavedVars = {
 				["SpecWarn144546youSWNote"] = true,
 				["specWarnCallPack"] = true,
 				["specWarnMoonfangCurseSWNote"] = true,
-				["HealthFrame"] = false,
 				["specWarnCallPackSWSound"] = 4,
 				["specWarnMoonfangCurseSWSound"] = 4,
 				["Timer144546cdTColor"] = 0,
@@ -83,12 +162,11 @@ DBMDMF_AllSavedVars = {
 		["Tonks"] = {
 			{
 				["Enabled"] = true,
-				["HealthFrame"] = false,
 				["Timer102178active"] = true,
-				["CountdownFades102178"] = true,
 				["Timer102178activeTColor"] = 0,
-				["SpecWarn102341run2SWNote"] = true,
 				["SpecWarn102341run2SWSound"] = 4,
+				["CountdownFades102178"] = true,
+				["SpecWarn102341run2SWNote"] = true,
 				["SpecWarn102341run2"] = true,
 			}, -- [1]
 		},
@@ -104,8 +182,8 @@ DBMDMF_AllSavedVars = {
 				["warnGameOver"] = true,
 				["specWarnHoggerSWNote"] = true,
 				["Enabled"] = true,
-				["CountdownFades101612"] = true,
 				["Timer101612activeTColor"] = 0,
+				["CountdownFades101612"] = true,
 			}, -- [1]
 		},
 		["Rings"] = {
@@ -178,11 +256,11 @@ DBMDMF_AllSavedVars = {
 				["Enabled"] = true,
 				["SpecWarn102341run2"] = true,
 				["Timer102178active"] = true,
-				["SpecWarn102341run2SWSound"] = 4,
 				["HealthFrame"] = false,
-				["CountdownFades102178"] = true,
-				["SpecWarn102341run2SWNote"] = true,
 				["Timer102178activeTColor"] = 0,
+				["SpecWarn102341run2SWNote"] = true,
+				["CountdownFades102178"] = true,
+				["SpecWarn102341run2SWSound"] = 4,
 			}, -- [1]
 		},
 	},
@@ -192,10 +270,10 @@ DBMDMF_AllSavedVars = {
 				["Enabled"] = true,
 				["warnGnoll"] = false,
 				["Timer101612active"] = true,
-				["Timer101612activeTColor"] = 0,
+				["specWarnHoggerSWNote"] = true,
 				["specWarnHogger"] = true,
 				["warnGameOver"] = true,
-				["specWarnHoggerSWNote"] = true,
+				["Timer101612activeTColor"] = 0,
 				["HealthFrame"] = false,
 				["CountdownFades101612"] = true,
 				["specWarnHoggerSWSound"] = 1,
@@ -268,14 +346,186 @@ DBMDMF_AllSavedVars = {
 		["Tonks"] = {
 			[0] = {
 				["SpecWarn102341run2"] = true,
-				["HealthFrame"] = false,
-				["Timer102178active"] = true,
-				["SpecWarn102341run2SWNote"] = true,
 				["SpecWarn102341run2SWSound"] = 4,
+				["Timer102178active"] = true,
 				["CountdownFades102178"] = true,
 				["Timer102178activeTColor"] = 0,
+				["SpecWarn102341run2SWNote"] = true,
+				["HealthFrame"] = false,
 				["Enabled"] = true,
 			},
+		},
+	},
+	["Palladium-Ravencrest"] = {
+		["Gnoll"] = {
+			[3] = {
+				["specWarnHoggerSWSound"] = 1,
+				["warnGnoll"] = false,
+				["Timer101612active"] = true,
+				["specWarnHogger"] = true,
+				["warnGameOver"] = true,
+				["Enabled"] = true,
+				["CountdownFades101612"] = true,
+				["specWarnHoggerSWNote"] = true,
+				["Timer101612activeTColor"] = 0,
+			},
+		},
+		["Rings"] = {
+			[3] = {
+				["Enabled"] = true,
+				["Timer170820active"] = true,
+				["Timer170820activeTColor"] = 0,
+				["CountdownFades170820"] = true,
+				["announce170823count"] = false,
+			},
+		},
+		["Cannon"] = {
+			[3] = {
+				["Enabled"] = true,
+				["CountdownFades102116"] = true,
+				["Timer102116fades"] = true,
+				["Timer102116fadesTColor"] = 0,
+			},
+		},
+		["talent3"] = "Retribution",
+		["Shot"] = {
+			[3] = {
+				["Enabled"] = true,
+				["CountdownFades101871"] = true,
+				["Timer101871active"] = true,
+				["Timer101871activeTColor"] = 0,
+				["SetBubbles"] = true,
+			},
+		},
+		["Rabbit"] = {
+			[3] = {
+				["Enabled"] = true,
+				["Yell114078"] = true,
+				["announceother114078target"] = true,
+			},
+		},
+		["Moonfang"] = {
+			[3] = {
+				["specWarnMoonfangCurse"] = true,
+				["Timer144702next"] = true,
+				["Yell144546"] = true,
+				["SpecWarn144590you"] = true,
+				["Timer144546cd"] = true,
+				["SpecWarn144702spell"] = true,
+				["specWarnCallPackSWNote"] = true,
+				["SpecWarn144702spellSWSound"] = 2,
+				["Enabled"] = true,
+				["SpecWarn144590youSWNote"] = true,
+				["SpecWarn144546youSWNote"] = true,
+				["specWarnCallPack"] = false,
+				["specWarnMoonfangCurseSWNote"] = true,
+				["specWarnCallPackSWSound"] = 4,
+				["specWarnMoonfangCurseSWSound"] = 4,
+				["SpecWarn144702spellSWNote"] = true,
+				["Timer144546cdTColor"] = 0,
+				["SpecWarn144590youSWSound"] = 1,
+				["announceother144546target"] = true,
+				["SpecWarn144546you"] = true,
+				["Timer144702nextTColor"] = 0,
+				["SpecWarn144546youSWSound"] = 1,
+			},
+		},
+		["Tonks"] = {
+			[3] = {
+				["Enabled"] = true,
+				["Timer102178active"] = true,
+				["CountdownFades102178"] = true,
+				["SpecWarn102341run2SWSound"] = 4,
+				["SpecWarn102341run2SWNote"] = true,
+				["Timer102178activeTColor"] = 0,
+				["SpecWarn102341run2"] = true,
+			},
+		},
+	},
+	["Drfeargood-Ravencrest"] = {
+		["Gnoll"] = {
+			{
+				["specWarnHoggerSWSound"] = 1,
+				["warnGnoll"] = false,
+				["Timer101612active"] = true,
+				["specWarnHogger"] = true,
+				["warnGameOver"] = true,
+				["specWarnHoggerSWNote"] = true,
+				["Timer101612activeTColor"] = 0,
+				["CountdownFades101612"] = true,
+				["Enabled"] = true,
+			}, -- [1]
+		},
+		["Rings"] = {
+			{
+				["Enabled"] = true,
+				["Timer170820active"] = true,
+				["Timer170820activeTColor"] = 0,
+				["CountdownFades170820"] = true,
+				["announce170823count"] = false,
+			}, -- [1]
+		},
+		["Cannon"] = {
+			{
+				["Enabled"] = true,
+				["Timer102116fadesTColor"] = 0,
+				["Timer102116fades"] = true,
+				["CountdownFades102116"] = true,
+			}, -- [1]
+		},
+		["talent1"] = "Affliction",
+		["Shot"] = {
+			{
+				["Enabled"] = true,
+				["CountdownFades101871"] = true,
+				["Timer101871active"] = true,
+				["Timer101871activeTColor"] = 0,
+				["SetBubbles"] = true,
+			}, -- [1]
+		},
+		["Rabbit"] = {
+			{
+				["Enabled"] = true,
+				["Yell114078"] = true,
+				["announceother114078target"] = true,
+			}, -- [1]
+		},
+		["Moonfang"] = {
+			{
+				["specWarnMoonfangCurse"] = false,
+				["Timer144702next"] = true,
+				["Yell144546"] = true,
+				["SpecWarn144590you"] = true,
+				["Timer144546cd"] = true,
+				["SpecWarn144702spell"] = true,
+				["specWarnCallPackSWNote"] = true,
+				["SpecWarn144702spellSWSound"] = 2,
+				["Enabled"] = true,
+				["SpecWarn144590youSWNote"] = true,
+				["SpecWarn144546youSWNote"] = true,
+				["specWarnCallPack"] = true,
+				["specWarnMoonfangCurseSWNote"] = true,
+				["specWarnCallPackSWSound"] = 4,
+				["specWarnMoonfangCurseSWSound"] = 4,
+				["SpecWarn144546youSWSound"] = 1,
+				["Timer144546cdTColor"] = 0,
+				["SpecWarn144590youSWSound"] = 1,
+				["announceother144546target"] = true,
+				["SpecWarn144546you"] = true,
+				["Timer144702nextTColor"] = 0,
+				["SpecWarn144702spellSWNote"] = true,
+			}, -- [1]
+		},
+		["Tonks"] = {
+			{
+				["Enabled"] = true,
+				["Timer102178active"] = true,
+				["SpecWarn102341run2"] = true,
+				["SpecWarn102341run2SWSound"] = 4,
+				["SpecWarn102341run2SWNote"] = true,
+				["Timer102178activeTColor"] = 0,
+				["CountdownFades102178"] = true,
+			}, -- [1]
 		},
 	},
 	["Chrysante-Ravencrest"] = {
@@ -300,23 +550,23 @@ DBMDMF_AllSavedVars = {
 		["Tonks"] = {
 			[2] = {
 				["Enabled"] = true,
-				["Timer102178activeTColor"] = 0,
-				["Timer102178active"] = true,
-				["SpecWarn102341run2SWNote"] = true,
 				["SpecWarn102341run2SWSound"] = 4,
+				["Timer102178active"] = true,
 				["CountdownFades102178"] = true,
 				["HealthFrame"] = false,
+				["SpecWarn102341run2SWNote"] = true,
+				["Timer102178activeTColor"] = 0,
 				["SpecWarn102341run2"] = true,
 			},
 			[4] = {
 				["Enabled"] = true,
 				["SpecWarn102341run2"] = true,
 				["Timer102178active"] = true,
-				["Timer102178activeTColor"] = 0,
 				["SpecWarn102341run2SWSound"] = 4,
-				["SpecWarn102341run2SWNote"] = true,
-				["CountdownFades102178"] = true,
 				["HealthFrame"] = false,
+				["CountdownFades102178"] = true,
+				["SpecWarn102341run2SWNote"] = true,
+				["Timer102178activeTColor"] = 0,
 			},
 		},
 		["Gnoll"] = {
@@ -324,10 +574,10 @@ DBMDMF_AllSavedVars = {
 				["specWarnHoggerSWSound"] = 1,
 				["HealthFrame"] = false,
 				["Timer101612active"] = true,
-				["Timer101612activeTColor"] = 0,
+				["CountdownFades101612"] = true,
 				["specWarnHogger"] = true,
 				["warnGameOver"] = true,
-				["CountdownFades101612"] = true,
+				["Timer101612activeTColor"] = 0,
 				["Enabled"] = true,
 				["specWarnHoggerSWNote"] = true,
 				["warnGnoll"] = false,
@@ -341,8 +591,8 @@ DBMDMF_AllSavedVars = {
 				["warnGameOver"] = true,
 				["specWarnHoggerSWNote"] = true,
 				["specWarnHoggerSWSound"] = 1,
-				["Timer101612activeTColor"] = 0,
 				["CountdownFades101612"] = true,
+				["Timer101612activeTColor"] = 0,
 			},
 		},
 		["Rabbit"] = {
@@ -454,10 +704,10 @@ DBMDMF_AllSavedVars = {
 				["specWarnHoggerSWSound"] = 1,
 				["HealthFrame"] = false,
 				["Timer101612active"] = true,
-				["Timer101612activeTColor"] = 0,
+				["CountdownFades101612"] = true,
 				["specWarnHogger"] = true,
 				["warnGameOver"] = true,
-				["CountdownFades101612"] = true,
+				["Timer101612activeTColor"] = 0,
 				["Enabled"] = true,
 				["specWarnHoggerSWNote"] = true,
 				["warnGnoll"] = false,
@@ -530,12 +780,12 @@ DBMDMF_AllSavedVars = {
 		["Tonks"] = {
 			[0] = {
 				["Enabled"] = true,
-				["HealthFrame"] = false,
-				["Timer102178active"] = true,
-				["SpecWarn102341run2SWNote"] = true,
 				["Timer102178activeTColor"] = 0,
+				["Timer102178active"] = true,
 				["CountdownFades102178"] = true,
 				["SpecWarn102341run2SWSound"] = 4,
+				["SpecWarn102341run2SWNote"] = true,
+				["HealthFrame"] = false,
 				["SpecWarn102341run2"] = true,
 			},
 		},

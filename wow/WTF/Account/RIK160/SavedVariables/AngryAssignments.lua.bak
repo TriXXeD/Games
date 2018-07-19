@@ -56,12 +56,12 @@ AngryAssign_Pages = {
 		["UpdateId"] = 1336381559,
 		["Contents"] = "Fire Phase Interupt Order.\n\n{Skull} > Phi/Mojo\n{Square} >  Matthewdemon/Pxxlz/Jimmiebra\n{Moon} > Keith/Aethirz\n{Cross} > Qrve/Kedodda\n{Triangle} >  Pimiko/Torsk\n{Diamond} > Kushkrank/Narlox\n\nFrost Phase > Soakers ( RIGHT SIDE )> Torsk > Kedodda > ( Wingwongdong  )\nFrost Phase > Soakers ( LEFT SIDE ) > Keith > Grydan >  ( Aethirz )\n\nFrost Phase > Barrage > Whirlwind that knocks back players ( Tank goes into door way on stairs )\n\nFire Phase > Add jumps to ranged leaves patch of fire and back to tank.\n\nArcane Phase > Fel lash raid aoe soak/or tank",
 	},
-	[1545292659] = {
-		["Updated"] = 1484509736,
-		["Name"] = "Guarm Mythic",
-		["Id"] = 1545292659,
-		["UpdateId"] = 3950242340,
-		["Contents"] = "Breath\n\n{Triangle}: Lukosta / Sebs / Grydan / Kireth / Pxxl / Zaroh\n{circle}: Melee\n{diamond}:  Aesthi /  Demonikos / Wuft / Atzid / Goldoth\n\nCharge \n\n1: Tranq + Revival\n2: Link + Tide + AM\n3: Tranq + Revival\n\nBreath Dispels\n1) Breath - Dispel Before\n2) Breath - Dispel Before \nCharge \n3) Breath - Dispel AFTER\n4) Breath - Dispel Before\nCharge\n5) Breath - Dispel AFTER\n6) Breath - Dispel Before\nCharge\n7) Breath - Dispel Before\n\nAtzid - {circle}\nGoldoth - {Diamond}\nZaroh - {Square}\nPxl, back up.",
+	[1304536935] = {
+		["Updated"] = 1494439110,
+		["Name"] = "Anomaly",
+		["Id"] = 1304536935,
+		["UpdateId"] = 4142681814,
+		["Contents"] = "Shyzou / Waraddict / Kedodda / Pimpim /  WuFT / Pxxlz",
 	},
 	[2071888252] = {
 		["Updated"] = 1515704161,
@@ -112,21 +112,19 @@ AngryAssign_Pages = {
 		["UpdateId"] = 2313973978,
 		["Contents"] = "Soak Order > Lukosta > Saroik > Goldoth > Sebsy > Lukosta",
 	},
-	[1304536935] = {
-		["Updated"] = 1494439110,
-		["Name"] = "Anomaly",
-		["Id"] = 1304536935,
-		["UpdateId"] = 4142681814,
-		["Contents"] = "Shyzou / Waraddict / Kedodda / Pimpim /  WuFT / Pxxlz",
+	[1545292659] = {
+		["Updated"] = 1484509736,
+		["Name"] = "Guarm Mythic",
+		["Id"] = 1545292659,
+		["UpdateId"] = 3950242340,
+		["Contents"] = "Breath\n\n{Triangle}: Lukosta / Sebs / Grydan / Kireth / Pxxl / Zaroh\n{circle}: Melee\n{diamond}:  Aesthi /  Demonikos / Wuft / Atzid / Goldoth\n\nCharge \n\n1: Tranq + Revival\n2: Link + Tide + AM\n3: Tranq + Revival\n\nBreath Dispels\n1) Breath - Dispel Before\n2) Breath - Dispel Before \nCharge \n3) Breath - Dispel AFTER\n4) Breath - Dispel Before\nCharge\n5) Breath - Dispel AFTER\n6) Breath - Dispel Before\nCharge\n7) Breath - Dispel Before\n\nAtzid - {circle}\nGoldoth - {Diamond}\nZaroh - {Square}\nPxl, back up.",
 	},
 }
 AngryAssign_Categories = {
 }
 AngryAssign_State = {
-	["window"] = {
+	["tree"] = {
 	},
-	["locked"] = true,
-	["directionUp"] = false,
 	["display"] = {
 		["y"] = -25.4998779296875,
 		["x"] = 3.99992418289185,
@@ -135,7 +133,9 @@ AngryAssign_State = {
 		["hidden"] = false,
 		["width"] = 199.999984741211,
 	},
-	["tree"] = {
+	["directionUp"] = false,
+	["locked"] = true,
+	["window"] = {
 	},
 }
 AngryAssign_Config = {

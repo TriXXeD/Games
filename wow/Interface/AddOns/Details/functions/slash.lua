@@ -54,6 +54,39 @@ function SlashCmdList.DETAILS (msg, editbox)
 			_detalhes:ShutDownAllInstances()
 		end
 	
+	elseif (command == "softhide") then
+		for instanceID, instance in _detalhes:ListInstances() do
+			if (instance:IsEnabled()) then
+				if (instance.hide_in_combat_type > 1) then
+					instance:SetWindowAlphaForCombat (true)
+				end
+			end
+		end
+	
+	elseif (command == "softshow") then
+		for instanceID, instance in _detalhes:ListInstances() do
+			if (instance:IsEnabled()) then
+				if (instance.hide_in_combat_type > 1) then
+					instance:SetWindowAlphaForCombat (false)
+				end
+			end
+		end
+	
+	elseif (command == "softtoggle") then
+		for instanceID, instance in _detalhes:ListInstances() do
+			if (instance:IsEnabled()) then
+				if (instance.hide_in_combat_type > 1) then
+					if (instance.baseframe:GetAlpha() > 0.1) then
+						--show
+						instance:SetWindowAlphaForCombat (true)
+					else
+						--hide
+						instance:SetWindowAlphaForCombat (false)
+					end
+				end
+			end
+		end
+	
 	elseif (command == Loc ["STRING_SLASH_SHOW"] or command == Loc ["STRING_SLASH_SHOW_ALIAS1"] or command == "show") then
 	
 		_detalhes.LastShowCommand = GetTime()
@@ -1503,8 +1536,10 @@ Damage Update Status: @INSTANCEDAMAGESTATUS
 			
 			
 		end
-		
-		
+	
+	--BFA BETA
+	elseif (msg == "update") then
+		_detalhes:CopyPaste ([[https://www.wowinterface.com/downloads/info23056-DetailsDamageMeter8.07.3.5.html]])
 	
 	else
 		
@@ -1512,8 +1547,60 @@ Damage Update Status: @INSTANCEDAMAGESTATUS
 		--	_detalhes:CriarInstancia()
 		--end
 		
+		if (command) then
+			--> check if the line passed is a parameters in the default profile
+			if (_detalhes.default_profile [command]) then
+				if (rest and (rest ~= "" and rest ~= " ")) then
+					local whichType = type (_detalhes.default_profile [command])
+					
+					--> attempt to cast the passed value to the same value as the type in the profile
+					if (whichType == "number") then
+						rest = tonumber (rest)
+						if (rest) then
+							_detalhes [command] = rest
+							print (Loc ["STRING_DETAILS1"] .. "config '" .. command .. "' set to " .. rest)
+						else
+							print (Loc ["STRING_DETAILS1"] .. "config '" .. command .. "' expects a number")
+						end
+						
+					elseif (whichType == "string") then
+						rest = tostring (rest)
+						if (rest) then
+							_detalhes [command] = rest
+							print (Loc ["STRING_DETAILS1"] .. "config '" .. command .. "' set to " .. rest)
+						else
+							print (Loc ["STRING_DETAILS1"] .. "config '" .. command .. "' expects a string")
+						end
+						
+					elseif (whichType == "boolean") then
+						if (rest == "true") then
+							_detalhes [command] = true
+							print (Loc ["STRING_DETAILS1"] .. "config '" .. command .. "' set to true")
+							
+						elseif (rest == "false") then
+							_detalhes [command] = false
+							print (Loc ["STRING_DETAILS1"] .. "config '" .. command .. "' set to false")
+							
+						else
+							print (Loc ["STRING_DETAILS1"] .. "config '" .. command .. "' expects true or false")
+						end
+					end
+				
+				else
+					local value = _detalhes [command]
+					if (type (value) == "boolean") then
+						value = value and "true" or "false"
+					end
+					print (Loc ["STRING_DETAILS1"] .. "config '" .. command .. "' current value is: " .. value)
+				end
+				
+				return
+			end
+			
+		end
+		
 		print (" ")
-		print (Loc ["STRING_DETAILS1"] .. "(" .. _detalhes.userversion .. ") " ..  Loc ["STRING_COMMAND_LIST"])
+		print (Loc ["STRING_DETAILS1"] .. "" .. _detalhes.userversion .. " [|cFFFFFF00CORE: " .. _detalhes.realversion .. "|r] " ..  Loc ["STRING_COMMAND_LIST"] .. ":")
 		
 		print ("|cffffaeae/details|r |cffffff33" .. Loc ["STRING_SLASH_NEW"] .. "|r: " .. Loc ["STRING_SLASH_NEW_DESC"])
 		print ("|cffffaeae/details|r |cffffff33" .. Loc ["STRING_SLASH_SHOW"] .. " " .. Loc ["STRING_SLASH_HIDE"] .. " " .. Loc ["STRING_SLASH_TOGGLE"] .. "|r|cfffcffb0 <" .. Loc ["STRING_WINDOW_NUMBER"] .. ">|r: " .. Loc ["STRING_SLASH_SHOWHIDETOGGLE_DESC"])

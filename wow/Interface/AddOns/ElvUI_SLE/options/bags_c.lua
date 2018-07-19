@@ -1,5 +1,5 @@
 local SLE, T, E, L, V, P, G = unpack(select(2, ...))
-local ARTIFACT_POWER = ARTIFACT_POWER
+local ARTIFACT_POWER, AUCTION_CATEGORY_BATTLE_PETS = ARTIFACT_POWER, AUCTION_CATEGORY_BATTLE_PETS
 local B = E:GetModule("Bags")
 
 local function configTable()
@@ -23,21 +23,13 @@ local function configTable()
 				get = function(info) return E.private.sle.bags.transparentSlots end,
 				set = function(info, value)	E.private.sle.bags.transparentSlots = value; E:StaticPopup_Show('PRIVATE_RL') end,
 			},
-			lootflash = {
-				order = 5,
-				type = "toggle",
-				name = L["New Item Flash"],
-				desc = L["Use the Shadow & Light New Item Flash instead of the default ElvUI flash"],
-				get = function(info) return E.db.sle.bags.lootflash end,
-				set = function(info, value)	E.db.sle.bags.lootflash = value end,
-			},
-			artefact = {
-				order = 20,
+			petLevel = {
+				order = 21,
 				type = "group",
 				guiInline = true,
-				name = ARTIFACT_POWER,
-				get = function(info) return E.db.sle.bags.artifactPower[ info[#info] ] end,
-				set = function(info, value) E.db.sle.bags.artifactPower[ info[#info] ] = value; B:Layout() end,
+				name = AUCTION_CATEGORY_BATTLE_PETS,
+				get = function(info) return E.db.sle.bags.petLevel[ info[#info] ] end,
+				set = function(info, value) E.db.sle.bags.petLevel[ info[#info] ] = value; B:Layout() end,
 				args = {
 					enable = {
 						order = 1,
@@ -47,31 +39,26 @@ local function configTable()
 					color = {
 						type = "color",
 						order = 2,
-						name = L["Color"],
+						name = COLOR,
 						hasAlpha = false,
 						get = function(info)
-							local t = E.db.sle.bags.artifactPower[info[#info]]
+							local t = E.db.sle.bags.petLevel[info[#info]]
 							return t.r, t.g, t.b, t.a
 						end,
 						set = function(info, r, g, b)
-							E.db.sle.bags.artifactPower[info[#info]] = {}
-							local t = E.db.sle.bags.artifactPower[info[#info]]
+							E.db.sle.bags.petLevel[info[#info]] = {}
+							local t = E.db.sle.bags.petLevel[info[#info]]
 							t.r, t.g, t.b = r, g, b
 							B:Layout()
 						end,
-					},
-					short = {
-						order = 3,
-						type = "toggle",
-						name = L["Short text"],
 					},
 					fonts = {
 						order = 5,
 						type = "group",
 						guiInline = true,
 						name = L["Fonts"],
-						get = function(info) return E.db.sle.bags.artifactPower.fonts[ info[#info] ] end,
-						set = function(info, value) E.db.sle.bags.artifactPower.fonts[ info[#info] ] = value; B:Layout() end,
+						get = function(info) return E.db.sle.bags.petLevel.fonts[ info[#info] ] end,
+						set = function(info, value) E.db.sle.bags.petLevel.fonts[ info[#info] ] = value; B:Layout() end,
 						args = {
 							font = {
 								type = "select", dialogControl = 'LSM30_Font',

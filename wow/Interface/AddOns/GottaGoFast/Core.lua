@@ -15,14 +15,14 @@ end
 function GottaGoFast:OnEnable()
     -- Called when the addon is enabled
     -- Register Events
-    RegisterAddonMessagePrefix("GottaGoFast");
-    RegisterAddonMessagePrefix("GottaGoFastCM");
-    RegisterAddonMessagePrefix("GottaGoFastTW");
+    C_ChatInfo.RegisterAddonMessagePrefix("GottaGoFast");
+    C_ChatInfo.RegisterAddonMessagePrefix("GottaGoFastCM");
+    C_ChatInfo.RegisterAddonMessagePrefix("GottaGoFastTW");
     self:RegisterEvent("CHALLENGE_MODE_COMPLETED");
     self:RegisterEvent("CHALLENGE_MODE_RESET");
     self:RegisterEvent("CHALLENGE_MODE_START")
     self:RegisterEvent("GOSSIP_SHOW");
-    self:RegisterEvent("PLAYER_LOGIN")
+    self:RegisterEvent("PLAYER_ENTERING_WORLD")
     self:RegisterEvent("SCENARIO_POI_UPDATE");
     self:RegisterEvent("UPDATE_MOUSEOVER_UNIT");
     self:RegisterEvent("WORLD_STATE_TIMER_START");
@@ -66,8 +66,8 @@ function GottaGoFast:CHALLENGE_MODE_START()
   GottaGoFast.HideObjectiveTracker()
 end
 
-function GottaGoFast:PLAYER_LOGIN()
-  GottaGoFast.Utility.DebugPrint("Player Login");
+function GottaGoFast:PLAYER_ENTERING_WORLD()
+  GottaGoFast.Utility.DebugPrint("Player Entering World");
   GottaGoFast.WhereAmI()
 end
 
@@ -101,19 +101,7 @@ end
 
 function GottaGoFast:UPDATE_MOUSEOVER_UNIT()
   if (ggf.inCM == true and ggf.GetIndividualMobValue(nil) == true and ggf.CurrentCM ~= nil and next(ggf.CurrentCM) ~= nil) then
-    local npcID = GottaGoFast.MouseoverUnitID();
-    local mapID = ggf.CurrentCM["ZoneID"];
-    local cmID = ggf.CurrentCM["CmID"]
-    local isTeeming = ggf.HasTeeming(ggf.CurrentCM["Affixes"]);
-    if (npcID ~= nil and mapID ~= nil and isTeeming ~= nil) then
-      -- Upper Karazhan Check Should Be Param 4
-      local upper = cmID == 234
-      local weight = ggf.LOP:GetNPCWeightByMap(mapID, npcID, isTeeming, upper);
-      if (weight ~= nil) then
-        local appendString = string.format(" (%.2f%%)", weight);
-        GameTooltip:AppendText(appendString);
-      end
-    end
+    GottaGoFast.AddMobPointsToTooltip();
   end
 end
 

@@ -265,8 +265,6 @@ L["Hide in Pet Battle"] = true
 L["Show/Hide this frame during Pet Battles."] = true
 
 --Bags
-L["New Item Flash"] = true
-L["Use the Shadow & Light New Item Flash instead of the default ElvUI flash"] = true
 L["Transparent Slots"] = true
 L["Apply transparent template on bag and bank slots."] = true
 
@@ -342,8 +340,8 @@ L["Change the style of experience gain messages."] = true
 L["Experience Style"] = true
 L["Full List"] = true
 L["Show all factions affected by the latest reputation change. When disabled only first (in alphabetical order) affected faction will be shown."] = true
-L["Full value on Artifact Bar"] = true
-L["Changes the way text is shown on artifact bar."] = true
+L["Full value on Azerite Bar"] = true
+L["Changes the way text is shown on azerite bar."] = true
 L["Full value on Honor Bar"] = true
 L["Changes the way text is shown on honor bar."] = true
 L["Chat Filters"] = true
@@ -600,6 +598,8 @@ L["Skin Dungeon"] = true
 L["Skin dungeon icon."] = true
 L["Skin Mail"] = true
 L["Skin mail icon."] = true
+L["Skin garrison"] = true
+L["Skin garrison landing page button."] = true
 L["The size of the minimap buttons when not anchored to the minimap."] = true
 L["Icons Per Row"] = true
 L["Anchor mode for displaying the minimap buttons are skinned."] = true
@@ -635,7 +635,22 @@ L["Show the name on location your Heathstone is bound to."] = true
 L["Only Number"] = true
 L["Horizontal Growth"] = true
 L["Vertical Growth"] = true
-
+L["Info for some items is not available yet. Please try again later"] = true
+L["Update canceled."] = true
+L["Item info is not available. Waiting for it. This can take some time. Menu will be opened automatically when all info becomes available. Calling menu again during the update will cancel it."] = true
+L["Update complete. Opening menu."] = true
+L["Show hearthstones"] = true
+L["Show hearthstone type items in the list."] = true
+L["Show Toys"] = true
+L["Show toys in the list. This option will affect all other display options as well."] = true
+L["Show spells"] = true
+L["Show relocation spells in the list."] = true
+L["Show engineer gadgets"] = true
+L["Show items used only by engineers when the profession is learned."] = true
+L["Ignore missing info"] = true
+L["SLE_LOCPANEL_IGNOREMISSINGINFO"] = [[Due to how client functions some item info may become unavailable for a period of time. This mostly happens to toys info.
+When called the menu will wait for all information being available before showing up. This may resul in menu opening after some concidarable amount of time, depends on how fast the server will answer info requests.
+By enabling this option you'll make the menu ignore items with missing info, resulting in them not showing up in the list.]]
 
 --Miscs
 L["Error Frame"] = true
@@ -689,7 +704,9 @@ L["Ingore Poles"] = true
 L["If enabled will start fishing even if you don't have fishing pole equipped. Will not work if you have fish key set to \"None\"."] = true
 L["Fish Key"] = true
 L["Hold this button while clicking to allow fishing action."] = true
-
+L["SLE_Prof_Relure_Error"] = "Can't use lure due to threshlod. Time left: %.1f seconds."
+L["Re-lure Threshold"] = true
+L["Time after the previous attemp to apply a lure before the next attempt will occure."] = true
 
 --PvP
 L["Functions dedicated to player versus player modes."] = true
@@ -711,6 +728,7 @@ L["Play sound when killing blows popup is shown."] = true
 L["Rested"] = true
 L["Auto Reward"] = true
 L["Automatically selects a reward with highest selling price when quest is completed. Does not really finish the quest."] = true
+L["Quest Log Toggle"] = true
 
 --Raid Marks
 L["Raid Markers"] = true
@@ -783,6 +801,9 @@ L["Quest Glow"] = true
 L["Show glowing border on seeds needed for any quest in your log."] = true
 L["Dock Buttons To"] = true
 L["Change the position from where seed bars will grow."] = true
+L["S&L: Farm Seed Bars"] = true
+L["S&L: Farm Tool Bar"] = true
+L["S&L: Farm Portal Bar"] = true
 --Garrison
 L["Garrison Tools Bar"] = true
 L["Auto Work Orders"] = true
@@ -793,6 +814,8 @@ L["Auto Work Orders for Trading Post"] = true
 L["Automatically queue maximum number of work orders available for Trading Post."] = true
 L["Auto Work Orders for Shipyard"] = true
 L["Automatically queue maximum number of work orders available for Shipyard."] = true
+L["Toolbar"] = true
+L["S&L: Garrison Tools Bar"] = true
 --Class Hall
 L["Class Hall"] = true
 L["Auto Work Orders for equipment"] = true
@@ -940,6 +963,7 @@ Benik, The Slacker
 Blazeflack
 Boradan
 Camealion
+Merathilis, The Confused
 Nils Ruesch
 Omega1970
 Pvtschlag
@@ -949,7 +973,34 @@ Sinaris
 Sortokk
 Swordyy
 ]=]
+L["ELVUI_SLE_DONORS_TITLE"] = "Thanks to these awesome people for supporting our work via donations:"
+L["ELVUI_SLE_DONORS"] = [[Andre Edwards
+Chun Kim
+Cyntia McCarthy
+Jonathan Sweet
+Nicholas Caldecutt
+Richard Gardner]]
 L["ELVUI_SLE_MISC"] = [=[BuG - for always hilariously breaking stuff
 TheSamaKutra
 The rest of TukUI community
 ]=]
+
+L["SLE_BENIK_AF"] = [[Due to a high amount of stuff IRL, |cff9482c9Shadow & Light|r team took a vacation.
+
+While we are away |cfffe7b2cBenik|r was so kind to take care of our work and provide support for |cff9482c9S&L|r!
+If you encounter any problems or errors with |cff9482c9S&L|r please post on tukui.org in BenikUI section.
+And remember: if anything breaks it's all Benik's fault! Use hashtag |cfffe7b2c#IBlameBenik|r when posting about errors!]]
+L["SLE_ERRORS_AF"] = {
+	"Apparently Merathilis drank too much and managed to moonfire spam our power conduit! You need to fix it immediately!",
+	"We are happy to announce that our #IBlameBenik campaign is getting more successful each minute! Don't forget to blame Benik as well!",
+	"WARNING! Darth stole a nuke button and now demands the ransom of 500 million gold and several draenei maids. Hide in the closest bomb shelter and prepare to play Fallout IRL!",
+	"There is something wrong with your interface. Standby, we are attempting to fix this! We don't take any responsibility in case the things get even worse.",
+	"The Holy Order of Imperial Inquisition found heretical materials on your PC! Thus your house and the planet will be subjected to Exterminatus in The Name Of The Emperor!",
+	"BEARS! The heck are bears doing in your UI?!",
+	"Benik changed the locales around a little bit. We hope you can speak Turkish!",
+	"The ice stone has melted! Our servers are flooded, sorry for the inconvenience",
+	"YOU ARE NOT PREPARED!!!",
+	"ElvUI encountered an expected amount of unreasonable responses from Blizzard servers and will be closed soon. Please contact your closest goblin engineer for additional info.",
+	"You no take candle! Or we’ll tell Benik!",
+	"1 error, 1 prayer, help raise funds for drunk coding",
+}

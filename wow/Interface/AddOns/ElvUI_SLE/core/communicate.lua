@@ -31,7 +31,6 @@ local function SendRecieve(self, event, prefix, message, channel, sender)
 					elseif message == 'slesay' then
 						message = "SLEinfo"..ID
 					end
-					-- BNSendGameData(presenceID, 'SLE_DEV_INFO', message)
 					BNSendGameData(toonID, 'SLE_DEV_INFO', message)
 				end
 			end
@@ -39,7 +38,7 @@ local function SendRecieve(self, event, prefix, message, channel, sender)
 	end
 end
 
-RegisterAddonMessagePrefix('SLE_USER_INFO')
+C_ChatInfo.RegisterAddonMessagePrefix('SLE_USER_INFO')
 
 local f = CreateFrame('Frame', "SLE_Comm_Frame")
 f:RegisterEvent("GROUP_ROSTER_UPDATE")

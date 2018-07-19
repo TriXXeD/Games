@@ -24,7 +24,7 @@ BugSack: disabled
 Enchantrix-Barker: disabled
 Enchantrix: disabled
 Bagnon_GuildBank: disabled
-TradeSkillMaster_Mailing: enabled
+TradeSkillMaster_Mailing: disabled
 TradeSkillMaster_Warehousing: disabled
 Postal: disabled
 BattlegroundTargets: enabled
@@ -44,3 +44,9 @@ TradeSkillMaster_Destroying: disabled
 xCT+: enabled
 EnemyGrid: disabled
 Skada: disabled
+TradeSkillMaster_Accounting: disabled
+TradeSkillMaster_AuctionDB: disabled
+TradeSkillMaster_Auctioning: disabled
+TradeSkillMaster_Crafting: disabled
+TradeSkillMaster_Shopping: disabled
+TradeSkillMaster_Vendoring: disabled

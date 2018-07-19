@@ -4,8 +4,8 @@
 	http://localizer.norganna.org/
 
 	AddOn: Enchantrix
-	Revision: $Id: EnxStrings.lua 5419 2013-06-12 04:01:17Z LocalizerAutoCommit $
-	Version: 7.5.5724 (TasmanianThylacine)
+	Revision: $Id: EnxStrings.lua 6000 2018-07-17 14:09:34Z none $
+	Version: 7.7.6000 (SwimmingSeadragon)
 
 	License:
 		This program is free software; you can redistribute it and/or

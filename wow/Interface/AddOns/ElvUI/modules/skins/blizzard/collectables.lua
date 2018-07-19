@@ -199,21 +199,23 @@ local function LoadSkin()
 	PetJournalPetCardPetInfo.backdrop:SetOutside(PetJournalPetCardPetInfoIcon)
 	PetJournalPetCardPetInfoIcon:SetParent(PetJournalPetCardPetInfo.backdrop)
 
-	local tt = PetJournalPrimaryAbilityTooltip
-	tt.Background:SetTexture(nil)
-	if tt.Delimiter1 then
-		tt.Delimiter1:SetTexture(nil)
-		tt.Delimiter2:SetTexture(nil)
+	if E.private.skins.blizzard.tooltip then
+		local tt = PetJournalPrimaryAbilityTooltip
+		tt.Background:SetTexture(nil)
+		if tt.Delimiter1 then
+			tt.Delimiter1:SetTexture(nil)
+			tt.Delimiter2:SetTexture(nil)
+		end
+		tt.BorderTop:SetTexture(nil)
+		tt.BorderTopLeft:SetTexture(nil)
+		tt.BorderTopRight:SetTexture(nil)
+		tt.BorderLeft:SetTexture(nil)
+		tt.BorderRight:SetTexture(nil)
+		tt.BorderBottom:SetTexture(nil)
+		tt.BorderBottomRight:SetTexture(nil)
+		tt.BorderBottomLeft:SetTexture(nil)
+		tt:SetTemplate("Transparent")
 	end
-	tt.BorderTop:SetTexture(nil)
-	tt.BorderTopLeft:SetTexture(nil)
-	tt.BorderTopRight:SetTexture(nil)
-	tt.BorderLeft:SetTexture(nil)
-	tt.BorderRight:SetTexture(nil)
-	tt.BorderBottom:SetTexture(nil)
-	tt.BorderBottomRight:SetTexture(nil)
-	tt.BorderBottomLeft:SetTexture(nil)
-	tt:SetTemplate("Transparent")
 
 	for i=1, 6 do
 		local frame = _G['PetJournalPetCardSpell'..i]
@@ -243,6 +245,7 @@ local function LoadSkin()
 	S:HandleNextPrevButton(ToyBox.PagingFrame.PrevPageButton)
 	SquareButton_SetIcon(ToyBox.PagingFrame.PrevPageButton, 'LEFT')
 	ToyBox.progressBar:StripTextures()
+	S:HandleCloseButton(ToyBox.favoriteHelpBox.CloseButton)
 
 	local function TextColorModified(self, r, g, b)
 		if(r == 0.33 and g == 0.27 and b == 0.2) then
@@ -366,6 +369,7 @@ local function LoadSkin()
 	S:HandleButton(WardrobeCollectionFrame.SetsCollectionFrame.DetailsFrame.VariantSetsButton)
 	S:HandleScrollBar(WardrobeCollectionFrame.SetsCollectionFrame.ScrollFrame.scrollBar)
 	S:HandleCloseButton(WardrobeCollectionFrame.SetsTabHelpBox.CloseButton)
+	S:HandleCloseButton(WardrobeCollectionFrame.ItemsCollectionFrame.HelpBox.CloseButton)
 
 	--Skin set buttons
 	for i = 1, #WardrobeCollectionFrame.SetsCollectionFrame.ScrollFrame.buttons do

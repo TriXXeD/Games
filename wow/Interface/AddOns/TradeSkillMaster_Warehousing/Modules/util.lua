@@ -106,3 +106,4 @@ function util:setDestBagFunctions(bagType)
 		util.getContainerNumFreeSlotsDest = function(bag) return GetContainerNumFreeSlots(bag) end
 	end
 end
+

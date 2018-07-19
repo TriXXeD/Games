@@ -536,3 +536,4 @@ function private:ValidateSpellEvent(unit, spell, context)
 	end
 	return false
 end
+

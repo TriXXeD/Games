@@ -1,0 +1,9 @@
+TradeSkillMaster: enabled
+TradeSkillMaster_AuctionDB: disabled
+TradeSkillMaster_Accounting: disabled
+TradeSkillMaster_Auctioning: disabled
+TradeSkillMaster_Crafting: disabled
+TradeSkillMaster_Mailing: disabled
+TradeSkillMaster_Shopping: disabled
+TradeSkillMaster_Vendoring: disabled
+TradeSkillMaster_Warehousing: disabled

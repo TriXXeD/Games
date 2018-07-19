@@ -2,8 +2,8 @@ Version: 1
 Frame: wFlaresMain
 FrameLevel: 1
 Anchor: CENTER
-X: 0
-Y: 50
+X: -29
+Y: 8
 W: 190
 H: 30
 Frame: ColorPickerFrame
@@ -20,10 +20,3 @@ X: -151
 Y: -149
 W: 32
 H: 32
-Frame: _NPCScanButton
-FrameLevel: 1
-Anchor: BOTTOM
-X: 0
-Y: 128
-W: 150
-H: 42

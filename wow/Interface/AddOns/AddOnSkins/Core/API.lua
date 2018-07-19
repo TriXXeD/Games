@@ -343,6 +343,10 @@ function AS:SkinEditBox(EditBox, Width, Height)
 
 	AS:CreateBackdrop(EditBox)
 
+	if EditBox.SetTextInsets then
+		EditBox:SetTextInsets(1, 1, 3, 3)
+	end
+
 	if AS:CheckAddOn('ElvUI') and AS:CheckOption('ElvUISkinModule') then
 		AS:SetTemplate(EditBox.Backdrop, 'Default')
 	end
@@ -624,16 +628,10 @@ function AS:SkinRotateButton(Button)
 end
 
 function AS:SkinDropDownBox(Frame, Width)
-	local Button, Text
 	local FrameName = Frame:GetName()
 
-	if FrameName then
-		Button = _G[Frame:GetName().."Button"]
-		Text = _G[Frame:GetName().."Text"]
-	else
-		Button = Frame.Button
-		Text = Frame.Text
-	end
+	local Button = FrameName and _G[FrameName.."Button"] or Frame.Button
+	local Text = FrameName and _G[FrameName.."Text"] or Frame.Text
 
 	if Button and Text then
 		AS:StripTextures(Frame)

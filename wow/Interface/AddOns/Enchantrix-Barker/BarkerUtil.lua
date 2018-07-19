@@ -1,7 +1,7 @@
 --[[
 	Enchantrix:Barker Addon for World of Warcraft(tm).
-	Version: 7.5.5724 (TasmanianThylacine)
-	Revision: $Id: BarkerUtil.lua 4937 2010-10-14 14:40:51Z kandoko $
+	Version: 7.7.6000 (SwimmingSeadragon)
+	Revision: $Id: BarkerUtil.lua 6000 2018-07-17 14:09:34Z none $
 	URL: http://enchantrix.org/
 
 	General utility functions
@@ -28,7 +28,7 @@
 		since that is its designated purpose as per:
 		http://www.fsf.org/licensing/licenses/gpl-faq.html#InterpreterIncompat
 ]]
-EnchantrixBarker_RegisterRevision("$URL: http://svn.norganna.org/auctioneer/branches/7.5/Enchantrix-Barker/BarkerUtil.lua $", "$Rev: 4937 $")
+EnchantrixBarker_RegisterRevision("$URL: /BarkerUtil.lua $", "$Rev: 6000 $")
 
 -- Global functions
 
@@ -147,7 +147,7 @@ end
 
 
 Barker.Util = {
-	Revision			= "$Revision: 4937 $",
+	Revision			= "$Rev: 6000 $",
 
 	Split				= split,
 	ChatPrint			= chatPrint,

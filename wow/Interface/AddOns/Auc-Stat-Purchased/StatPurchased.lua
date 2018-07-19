@@ -1,7 +1,7 @@
 --[[
 	Auctioneer - StatPurchased
-	Version: 7.5.5724 (TasmanianThylacine)
-	Revision: $Id: StatPurchased.lua 5555 2015-04-14 14:00:00Z brykrys $
+	Version: 7.7.6000 (SwimmingSeadragon)
+	Revision: $Id: StatPurchased.lua 6000 2018-07-17 14:09:34Z none $
 	URL: http://auctioneeraddon.com/
 
 	This is an addon for World of Warcraft that adds statistical history to the auction data that is collected
@@ -734,4 +734,4 @@ function lib.ChangeServerKey(oldKey, newKey)
 	end
 end
 
-AucAdvanced.RegisterRevision("$URL: http://svn.norganna.org/auctioneer/branches/7.5/Auc-Stat-Purchased/StatPurchased.lua $", "$Rev: 5555 $")
+AucAdvanced.RegisterRevision("$URL: /StatPurchased.lua $", "$Rev: 6000 $")

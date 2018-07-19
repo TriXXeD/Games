@@ -21,6 +21,8 @@ local Toolkit = {}
 SLE.elvV = tonumber(E.version)
 SLE.elvR = tonumber(GetAddOnMetadata("ElvUI_SLE", "X-ElvVersion"))
 
+SLE.myfaction = UnitFactionGroup('player')
+
 --Setting up table to unpack. Why? no idea
 Engine[1] = SLE
 Engine[2] = Toolkit
@@ -54,10 +56,8 @@ function SLE:ConfigCats() --Additional mover groups
 	E.ConfigModeLocalizedStrings["S&L"] = L["S&L: All"]
 	Toolkit.tinsert(E.ConfigModeLayouts, #(E.ConfigModeLayouts)+1, "S&L DT");
 	E.ConfigModeLocalizedStrings["S&L DT"] = L["S&L: Datatexts"]
-	-- if E.private.sle.backgrounds then
 	Toolkit.tinsert(E.ConfigModeLayouts, #(E.ConfigModeLayouts)+1, "S&L BG");
 	E.ConfigModeLocalizedStrings["S&L BG"] = L["S&L: Backgrounds"]
-	-- end
 	Toolkit.tinsert(E.ConfigModeLayouts, #(E.ConfigModeLayouts)+1, "S&L MISC");
 	E.ConfigModeLocalizedStrings["S&L MISC"] = L["S&L: Misc"]
 end
@@ -74,7 +74,7 @@ function SLE:IncompatibleAddOn(addon, module, optiontable, value)
 end
 
 function SLE:CheckIncompatible()
-	if SLE._Compatibility["ElvUI_Enhanced"] and not E.global.ignoreEnhancedIncompatible then
+	if SLE._Compatibility["ElvUI_Enhanced"] then
 		E:StaticPopup_Show('ENHANCED_SLE_INCOMPATIBLE')
 		return true
 	end
@@ -106,6 +106,7 @@ local _CompList = {
 	"ElvUI_NenaUI",
 	"TradeSkillMaster",
 	"WorldQuestTracker",
+	"ElvUI_PagedLootHistory",
 }
 for i = 1, #_CompList do
 	if GetAddOnEnableState(E.myname, _CompList[i]) == 0 then SLE._Compatibility[_CompList[i]] = nil else SLE._Compatibility[_CompList[i]] = true end
@@ -124,6 +125,8 @@ function SLE:Initialize()
 	self.initialized = true
 	self:InitializeModules(); --Load Modules
 
+	SLE:CreateSplashScreen()
+
 	hooksecurefunc(E, "UpdateAll", SLE.UpdateAll)
 	--Here goes installation script
 
@@ -141,4 +144,14 @@ function SLE:Initialize()
 	if not E.private.sle.characterGoldsSorting[E.myrealm] then E.private.sle.characterGoldsSorting[E.myrealm] = {} end
 
 	LibStub("LibElvUIPlugin-1.0"):RegisterPlugin(AddOnName, GetOptions) --Registering as plugin
+	
+	if SLE:IsFoolsDay() then
+		if Toolkit.IsAddOnLoaded('ElvUI_BenikUI') and E.db.benikui.general.splashScreen then
+			_G["BenikUISplashScreen"]:HookScript("OnHide", function() SLE:ShowSplashScreen() end)
+		elseif Toolkit.IsAddOnLoaded('ElvUI_BenikUI') and not E.db.benikui.general.splashScreen then
+			SLE:ShowSplashScreen()
+		else
+			SLE:ShowSplashScreen()
+		end
+	end
 end

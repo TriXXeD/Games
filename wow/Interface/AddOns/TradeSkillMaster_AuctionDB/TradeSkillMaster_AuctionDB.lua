@@ -60,9 +60,8 @@ local tooltipDefaults = {
 
 -- Called once the player has loaded WOW.
 function TSM:OnInitialize()
-	if TradeSkillMasterModulesDB then
-		TradeSkillMasterModulesDB.AuctionDB = TradeSkillMaster_AuctionDBDB
-	end
+	-- store our settings in TSM's saved variables
+	TradeSkillMasterModulesDB.AuctionDB = TradeSkillMaster_AuctionDBDB
 
 	-- load settings
 	TSM.db = TSMAPI.Settings:Init("TradeSkillMaster_AuctionDBDB", settingsInfo)
@@ -97,8 +96,12 @@ function TSM:RegisterModule()
 		TSM.auctionTab = { callbackShow = "GUI:Show", callbackHide = "GUI:Hide" }
 	end
 	TSM.moduleAPIs = {
-		{ key = "lastCompleteScan", callback = TSM.GetLastCompleteScan },
-		{ key = "lastCompleteScanTime", callback = TSM.GetLastCompleteScanTime },
+		{ key = "lastCompleteScan", callback = "GetLastCompleteScan" },
+		{ key = "lastCompleteScanTime", callback = "GetLastCompleteScanTime" },
+		{ key = "itemsWithAuctionsIterator", callback = "ItemsWithAuctionsIterator" },
+		{ key = "getNumAuctions", callback = "GetNumAuctions" },
+		{ key = "getRegionSalePercent", callback = "GetRegionSalePercent" },
+		{ key = "getRegionSoldPerDay", callback = "GetRegionSoldPerDay"},
 	}
 	TSM.tooltip = {callbackLoad="LoadTooltip", callbackOptions="Config:LoadTooltipOptions", defaults=tooltipDefaults}
 	TSMAPI:NewModule(TSM)
@@ -354,6 +357,25 @@ function TSM:GetLastCompleteScanTime()
 	return TSM.db.realm.lastCompleteScan
 end
 
+function TSM:ItemsWithAuctionsIterator()
+	return private.ItemsWithAuctionsIterator
+end
+
+function TSM:GetNumAuctions(itemString)
+	return itemString and TSM.realmData[itemString] and TSM.realmData[itemString].numAuctions or 0
+end
+
+function private.ItemsWithAuctionsIterator(_, itemString)
+	while true do
+		local data = nil
+		itemString, data = next(TSM.realmData, itemString)
+		if not itemString then return end
+		if data.lastScan >= TSM.db.realm.lastCompleteScan and data.minBuyout and data.minBuyout > 0 then
+			return itemString
+		end
+	end
+end
+
 function private.GetItemDataHelper(tbl, key, itemString)
 	if not itemString or not tbl then return end
 	local value = nil
@@ -370,6 +392,16 @@ function private.GetItemDataHelper(tbl, key, itemString)
 	end
 	if not value or value <= 0 then return end
 	return value
+end
+
+function TSM:GetRegionSalePercent(itemString)
+	if not itemString then return end
+	return TSM:GetRegionItemData(itemString, "regionSalePercent")
+end
+
+function TSM:GetRegionSoldPerDay(itemString)
+	if not itemString then return end
+	return TSM:GetRegionItemData(itemString, "regionSoldPerDay")
 end
 
 function TSM:GetRealmItemData(itemString, key)
@@ -407,3 +439,4 @@ function TSM:GetGlobalItemData(itemString, key)
 		return
 	end
 end
+

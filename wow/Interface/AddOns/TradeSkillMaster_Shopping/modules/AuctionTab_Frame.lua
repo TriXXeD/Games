@@ -1140,3 +1140,4 @@ function frameFunctions:UpdateScanStatus(statusType, ...)
 	private.frame.content.result.statusBar:SetStatusText(format(L["Scanning %d / %d (Page %d / %d)"], scanStatus[1], scanStatus[2], min(pageStatus[1]+1, pageStatus[2]), pageStatus[2]))
 	private.frame.content.result.statusBar:UpdateStatus(100*(scanStatus[1]-1)/scanStatus[2], 100*pageStatus[1]/pageStatus[2])
 end
+

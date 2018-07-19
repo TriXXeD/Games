@@ -188,3 +188,4 @@ function private:UpdateBuybackST()
 
 	private.frame.buybackST:SetData(stData)
 end
+

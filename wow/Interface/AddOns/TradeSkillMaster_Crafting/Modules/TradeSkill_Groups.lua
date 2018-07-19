@@ -132,3 +132,4 @@ function Groups:OnButtonClicked(frame)
 	private.frame = private.frame or frame
 	private.frame.groupsTab:Show()
 end
+

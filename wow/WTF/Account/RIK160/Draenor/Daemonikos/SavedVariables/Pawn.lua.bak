@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0217,
+	["LastVersion"] = 2.0218,
 	["LastPlayerFullName"] = "Daemonikos-Draenor",
 	["AutoSelectScales"] = false,
 	["UpgradeTracking"] = false,
@@ -43,7 +43,7 @@ PawnOptions = {
 		[128942] = {
 			["Relics"] = {
 				{
-					["ItemLevel"] = 74,
+					["ItemLevel"] = 77,
 					["Type"] = "Shadow",
 				}, -- [1]
 				{

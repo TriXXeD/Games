@@ -1,7 +1,7 @@
 ﻿--[[
 	Enchantrix:Barker Addon for World of Warcraft(tm).
-	Version: 7.5.5724 (TasmanianThylacine)
-	Revision: $Id: EnchantrixBarker.lua 5641 2016-08-04 02:23:06Z ccox $
+	Version: 7.7.6000 (SwimmingSeadragon)
+	Revision: $Id: EnchantrixBarker.lua 6000 2018-07-17 14:09:34Z none $
 	URL: http://enchantrix.org/
 
 	This is an addon for World of Warcraft that adds the ability to advertise
@@ -30,7 +30,7 @@
 		http://www.fsf.org/licensing/licenses/gpl-faq.html#InterpreterIncompat
 
 ]]
-EnchantrixBarker_RegisterRevision("$URL: http://svn.norganna.org/auctioneer/branches/7.5/Enchantrix-Barker/EnchantrixBarker.lua $", "$Rev: 5641 $")
+EnchantrixBarker_RegisterRevision("$URL: /EnchantrixBarker.lua $", "$Rev: 6000 $")
 
 local priorityList = {};
 
@@ -182,7 +182,7 @@ function EnchantrixBarker_OnEvent(event,...)
 	local tradeSkillID, craftName, _rank, _maxRank, skillLineModifier = _G.C_TradeSkillUI.GetTradeSkillLine();
 
 	if craftName and craftName == _BARKLOC('Enchanting') then
-		if( event == "CRAFT_SHOW" or event == "TRADE_SKILL_SHOW") then
+		if event == "TRADE_SKILL_SHOW" then
 			if( Barker.Settings.GetSetting('barker') ) then
 				Enchantrix_BarkerOptions_TradeTab:Show();
 				Enchantrix_BarkerOptions_TradeTab.tooltipText = _BARKLOC('OpenBarkerWindow');
@@ -190,7 +190,7 @@ function EnchantrixBarker_OnEvent(event,...)
 				Enchantrix_BarkerOptions_TradeTab:Hide();
 			end
 		end
-	elseif (event == "TRADE_SKILL_SHOW" or event == "TRADE_SKILL_CLOSE" or event == "CRAFT_CLOSE" ) then
+	elseif (event == "TRADE_SKILL_SHOW" or event == "TRADE_SKILL_CLOSE") then
 		-- we are closing, or it's a different craft/trade, hide the button and frame
 		Enchantrix_BarkerOptions_TradeTab:Hide();
 	end

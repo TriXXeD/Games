@@ -791,3 +791,4 @@ function private.LinkedProfessionScanThread(self)
 		self:Sleep(2)
 	end
 end
+

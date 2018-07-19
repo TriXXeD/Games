@@ -1024,3 +1024,4 @@ function Professions:SetSelectedTradeSkill(spellId, forceUpdate)
 		end
 	end
 end
+

@@ -1,7 +1,7 @@
-MACRO 16777218 "A VEIN!" Ability_BullRush
+VER 3 0100000000000002 "A VEIN!" "Ability_BullRush"
 /y A VEIN, CHARGE CHARGE AND KILL!!! ITS MINE!
 END
-MACRO 16777217 "chicken" INV_Misc_QuestionMark
+VER 3 0100000000000001 "chicken" "INV_Misc_QuestionMark"
 /chicken
 /chicken
 /chicken

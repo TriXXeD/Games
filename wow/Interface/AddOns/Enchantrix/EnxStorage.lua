@@ -1,7 +1,7 @@
 ﻿--[[
 	Enchantrix Addon for World of Warcraft(tm).
-	Version: 7.5.5724 (TasmanianThylacine)
-	Revision: $Id: EnxStorage.lua 5644 2016-08-06 21:39:02Z ccox $
+	Version: 7.7.6000 (SwimmingSeadragon)
+	Revision: $Id: EnxStorage.lua 6000 2018-07-17 14:09:34Z none $
 	URL: http://enchantrix.org/
 
 	Database functions and saved variables.
@@ -28,7 +28,7 @@
 		since that is its designated purpose as per:
 		http://www.fsf.org/licensing/licenses/gpl-faq.html#InterpreterIncompat
 ]]
-Enchantrix_RegisterRevision("$URL: http://svn.norganna.org/auctioneer/branches/7.5/Enchantrix/EnxStorage.lua $", "$Rev: 5644 $")
+Enchantrix_RegisterRevision("$URL: /EnxStorage.lua $", "$Rev: 6000 $")
 
 --[[
 Usages:
@@ -245,8 +245,9 @@ end
 
 
 function getItemDisenchants(link)
+	local sig
 	local iType = Enchantrix.Util.GetIType(link)
-		
+	
 	if (not iType) then
 		-- NOTE - ccox - GetIType can return nil for items that are not disenchantable
 		-- a nil result does not mean that we could not find the IType

@@ -52,3 +52,4 @@ function private:ScanAuctionItems()
 		end
 	end
 end
+

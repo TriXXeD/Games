@@ -17,6 +17,13 @@ VER 3 0100000000000001 "Cleardebuff" "INV_MISC_QUESTIONMARK"
 /cancelaura divine shield
 /cancelaura Hand of Protection
 END
+VER 3 0100000000000016 "Cursader Strike" "INV_MISC_QUESTIONMARK"
+#showtooltip Crusader Strike
+/cast [target=target,exists,harm,nodead] Crusader Strike;
+/targetenemy [nodead]
+/cast Crusader Strike;
+/targetlasttarget
+END
 VER 3 010000000000000A "Eternal Flame" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [target=mouseover,exists] Eternal Flame; Eternal Flame
@@ -44,17 +51,9 @@ VER 3 0100000000000010 "Holy Prism Heal" "INV_MISC_QUESTIONMARK"
 /targetenemy
 /cast Holy Prism;
 END
-VER 3 010000000000000C "Holy Radiance" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [target=mouseover,exists] Holy Radiance; Holy Radiance
-END
 VER 3 0100000000000009 "Holy Shock" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [target=mouseover,exists] Holy Shock; Holy Shock
-END
-VER 3 0100000000000011 "Holy Tank Prism" "INV_MISC_QUESTIONMARK"
-#showtooltip Holy Prism
-/cast Holy Prism [@Achilina]
 END
 VER 3 0100000000000008 "HoP" "INV_MISC_QUESTIONMARK"
 #showtooltip
@@ -68,6 +67,10 @@ END
 VER 3 010000000000000F "LoH" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [target=mouseover,exists] Lay on Hands; Lay on Hands
+END
+VER 3 0100000000000015 "Martyr" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,exists] Light of the Martyr; Light of the Martyr
 END
 VER 3 0100000000000014 "Sacred Shield" "INV_MISC_QUESTIONMARK"
 #showtooltip

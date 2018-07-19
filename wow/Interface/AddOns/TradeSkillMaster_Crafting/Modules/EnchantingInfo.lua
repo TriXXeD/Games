@@ -448,3 +448,4 @@ TSM.enchantingItemIDs = {
 	[235704] = "i:144305",  -- Enchant Neck - Mark of the Versatile Rank 2
 	[235700] = "i:144305",  -- Enchant Neck - Mark of the Versatile Rank 3	
 }
+

@@ -470,3 +470,4 @@ function TradeSkillScanner:CreatePresetGroups()
 	TSM:Printf(L["Created profession group for %s."], professionName)
 	TSMAPI.Groups:CreatePreset(groupInfo)
 end
+

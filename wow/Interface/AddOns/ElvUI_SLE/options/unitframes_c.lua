@@ -77,6 +77,7 @@ local function configTable()
 						["SKULL1"] = [[|TInterface\AddOns\ElvUI_SLE\media\textures\SKULL:14|t]],
 						["SKULL2"] = [[|TInterface\AddOns\ElvUI_SLE\media\textures\SKULL1:14|t]],
 						["SKULL3"] = [[|TInterface\AddOns\ElvUI_SLE\media\textures\SKULL2:14|t]],
+						["SKULL4"] = [[|TInterface\AddOns\ElvUI_SLE\media\textures\SKULL3:14|t]],
 						["CUSTOM"] = CUSTOM,
 					},
 				},
@@ -227,8 +228,17 @@ local function configTable()
 					auras = CreateAurasConfig("pet"),
 				},
 			},
-			target = {
+			pettarget = {
 				order = 12,
+				type = "group",
+				name = L["PetTarget Frame"],
+				args = {
+					portrait = CreatePortraitConfig("pettarget"),
+					auras = CreateAurasConfig("pettarget"),
+				},
+			},
+			target = {
+				order = 13,
 				type = "group",
 				name = L["Target Frame"],
 				args = {
@@ -236,13 +246,40 @@ local function configTable()
 					auras = CreateAurasConfig("target"),
 				},
 			},
+			targettarget = {
+				order = 14,
+				type = "group",
+				name = L["TargetTarget Frame"],
+				args = {
+					portrait = CreatePortraitConfig("targettarget"),
+					auras = CreateAurasConfig("targettarget"),
+				},
+			},
+			targettargettarget = {
+				order = 15,
+				type = "group",
+				name = L["TargetTargetTarget Frame"],
+				args = {
+					portrait = CreatePortraitConfig("targettargettarget"),
+					auras = CreateAurasConfig("targettargettarget"),
+				},
+			},
 			focus = {
-				order = 13,
+				order = 16,
 				type = "group",
 				name = L["Focus Frame"],
 				args = {
 					portrait = CreatePortraitConfig("focus"),
 					auras = CreateAurasConfig("focus"),
+				},
+			},
+			focustarget = {
+				order = 17,
+				type = "group",
+				name = L["FocusTarget Frame"],
+				args = {
+					portrait = CreatePortraitConfig("focustarget"),
+					auras = CreateAurasConfig("focustarget"),
 				},
 			},
 			party = {

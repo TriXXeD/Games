@@ -130,3 +130,4 @@ function private:DoInsert()
 		TSM.Data:InsertItemBuyRecord(private.insertInfo.itemString, "Trade", private.insertInfo.count, private.insertInfo.price, private.tradeInfo.target.name)
 	end
 end
+

@@ -378,3 +378,4 @@ function BankUI:ToggleHelpPlate(frame, info, btn, isUser)
 	end
 end
 
+

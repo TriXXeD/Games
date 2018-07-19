@@ -1,7 +1,7 @@
 --[[
 	Auctioneer - Search UI - Searcher Disenchant
-	Version: 7.5.5724 (TasmanianThylacine)
-	Revision: $Id: SearcherDisenchant.lua 5671 2016-09-10 05:25:34Z ccox $
+	Version: 7.7.6000 (SwimmingSeadragon)
+	Revision: $Id: SearcherDisenchant.lua 6000 2018-07-17 14:09:34Z none $
 	URL: http://auctioneeraddon.com/
 
 	This is a plugin module for the SearchUI that assists in searching by refined paramaters
@@ -190,4 +190,4 @@ function lib.Search(item)
 	return false, "Not enough profit"
 end
 
-AucAdvanced.RegisterRevision("$URL: http://svn.norganna.org/auctioneer/branches/7.5/Auc-Util-SearchUI/SearcherDisenchant.lua $", "$Rev: 5671 $")
+AucAdvanced.RegisterRevision("$URL: /SearcherDisenchant.lua $", "$Rev: 6000 $")

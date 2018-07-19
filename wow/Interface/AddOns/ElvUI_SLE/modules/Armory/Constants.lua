@@ -25,6 +25,35 @@ local ITEM_BIND_ON_PICKUP = ITEM_BIND_ON_PICKUP
 local ITEM_BIND_TO_ACCOUNT = ITEM_BIND_TO_ACCOUNT
 local ITEM_BIND_TO_BNETACCOUNT = ITEM_BIND_TO_BNETACCOUNT
 
+Info.BackgroundsTextures = {
+	Keys = {
+		["0"] = 'HIDE',
+		["1"] = 'CUSTOM',
+		["2"] = 'Space',
+		["3"] = 'TheEmpire',
+		["4"] = 'Castle',
+		["5"] = 'Alliance-text',
+		["6"] = 'Horde-text',
+		["7"] = 'Alliance-bliz',
+		["8"] = 'Horde-bliz',
+		["9"] = 'Arena-bliz',
+		["10"] = 'CLASS',
+	},
+	Config = {
+		["0"] = HIDE,
+		["1"] = CUSTOM,
+		["2"] = "Space",
+		["3"] = "The Empire",
+		["4"] = "Castle",
+		["5"] = FACTION_ALLIANCE,
+		["6"] = FACTION_HORDE,
+		["7"] = FACTION_ALLIANCE..' 2',
+		["8"] = FACTION_HORDE..' 2',
+		["9"] = ARENA,
+		["10"] = CLASS,
+	},
+}
+
 Info.Armory_Constants = {
 	ItemLevelKey = ITEM_LEVEL:gsub('%%d', '(.+)'),
 	ItemLevelKey_Alt = ITEM_LEVEL_ALT:gsub('%%d', '.+'):gsub('%(.+%)', '%%((.+)%%)'),
@@ -32,6 +61,7 @@ Info.Armory_Constants = {
 	ItemSetBonusKey = ITEM_SET_BONUS:gsub('%%s', '(.+)'),
 	ItemUpgradeKey = ITEM_UPGRADE_TOOLTIP_FORMAT:gsub('%%d', '(.+)'),
 	HonorLevel = HONOR_LEVEL_LABEL:gsub('%%d', '%%s'),
+	HonorKills = INSPECT_HONORABLE_KILLS:gsub('%%d', '%%s'):gsub("|cffffd200", ""),
 	--TransmogrifiedKey = TRANSMOGRIFIED:gsub('%%s', '(.+)'),
 	
 	GearList = {
@@ -40,7 +70,7 @@ Info.Armory_Constants = {
 	},
 
 	EnchantableSlots = {
-		NeckSlot = true, BackSlot = true, Finger0Slot = true, Finger1Slot = true,-- MainHandSlot = true, SecondaryHandSlot = true,
+		Finger0Slot = true, Finger1Slot = true, MainHandSlot = true, SecondaryHandSlot = true,
 	},
 
 	--Most Likely removing this block of code, will remove when effected functions are updated
@@ -77,68 +107,6 @@ Info.Armory_Constants = {
 		LIFE =   { .07, .74,   0 },
 		SHADOW = {  .7, .48, .88 },
 		WIND =  { .67, .84,   1 }
-	},
-	
-	ArtifactType = {
-		-- Warriors
-		[128910] = { 'IRON', 'BLOOD', 'SHADOW' },	--Arms
-		[128908] = { 'FIRE', 'WIND', 'IRON' },		--Fury
-		[128289] = { 'IRON', 'BLOOD', 'FIRE' },		--Protection
-		
-		-- Hunter
-		[128861] = { 'WIND', 'ARCANE', 'IRON' },	--Beast Mastery
-		[128826] = { 'WIND', 'BLOOD', 'LIFE' },	--Markmanship
-		[128808] = { 'WIND', 'IRON', 'BLOOD' },	--Survival
-		
-		-- Shaman
-		[128935] = { 'WIND', 'FROST', 'WIND' },	--Elemental
-		[128819] = { 'FIRE', 'IRON', 'WIND' },		--Enhancement
-		[128911] = { 'LIFE', 'FROST', 'LIFE' },		--Restoration
-		
-		-- Monk
-		[128938] = { 'LIFE', 'WIND', 'IRON' },		--Brewmaster
-		[128937] = { 'FROST', 'LIFE', 'WIND' },	--Mistweaver
-		[128940] = { 'WIND', 'IRON', 'WIND' },	--Windwalker
-		
-		-- Rogue
-		[128870] = { 'SHADOW', 'IRON', 'BLOOD' },	--Assasination
-		[128872] = { 'BLOOD', 'IRON', 'WIND' },	--Outlaw
-		[128476] = { 'FEL', 'SHADOW', 'FEL' },		--Subtlety
-		
-		-- Death Knight
-		[128402] = { 'BLOOD', 'SHADOW', 'IRON' },	--Blood
-		[128292] = { 'FROST', 'SHADOW', 'FROST' },	--Frost
-		[128403] = { 'FIRE', 'SHADOW', 'BLOOD' },	--Unholy
-		
-		-- Mage
-		[127857] = { 'ARCANE', 'FROST', 'ARCANE' },	--Arcane
-		[128820] = { 'FIRE', 'ARCANE', 'FIRE' },	--Fire
-		[128862] = { 'FROST', 'ARCANE', 'FROST' },	--Frost
-		
-		-- Druid
-		[128858] = { 'ARCANE', 'LIFE', 'ARCANE' },	--Balance
-		[128860] = { 'FROST', 'BLOOD', 'LIFE' },	--Feral
-		[128821] = { 'FIRE', 'BLOOD', 'LIFE' },		--Guardian
-		[128306] = { 'LIFE', 'FROST', 'LIFE' },		--Restoration
-		
-		-- Paladin
-		[128823] = { 'HOLY', 'LIFE', 'HOLY' },		--Holy
-		[128866] = { 'HOLY', 'IRON', 'ARCANE' },	--Protection
-		[120978] = { 'HOLY', 'FIRE', 'HOLY' },		--Retribution
-		
-		-- Priest
-		[128868] = { 'HOLY', 'SHADOW', 'HOLY' },	--Discipline
-		[128825] = { 'HOLY', 'LIFE', 'HOLY' },		--Holy
-		[128827] = { 'SHADOW', 'BLOOD', 'SHADOW' },	--Shadow
-		
-		-- Warlock
-		[128942] = { 'SHADOW', 'BLOOD', 'SHADOW' },	--Affliction
-		[128943] = { 'SHADOW', 'FIRE', 'FEL' },		--Demonology
-		[128941] = { 'FEL', 'FIRE', 'FEL' },		--Destruction
-		
-		-- Demon Hunter
-		[127829] = { 'FEL', 'SHADOW', 'FEL' },		--Havoc
-		[128832] = { 'IRON', 'ARCANE', 'FEL' }		--Vengeance
 	},
 	
 	EmptySocketString = {

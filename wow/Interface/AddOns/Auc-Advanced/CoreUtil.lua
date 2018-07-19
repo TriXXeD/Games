@@ -1,7 +1,7 @@
 --[[
 	Auctioneer
-	Version: 7.5.5724 (TasmanianThylacine)
-	Revision: $Id: CoreUtil.lua 5670 2016-09-03 11:59:41Z brykrys $
+	Version: 7.7.6000 (SwimmingSeadragon)
+	Revision: $Id: CoreUtil.lua 6000 2018-07-17 14:09:34Z none $
 	URL: http://auctioneeraddon.com/
 
 	This is an addon for World of Warcraft that adds statistical history to the auction data that is collected
@@ -281,6 +281,17 @@ function lib.DecodeLink(...) return tooltip:DecodeLink(...) end
 function lib.GetLinkQuality(...) return tooltip:GetLinkQuality(...) end
 function lib.ShowItemLink(...) return tooltip:ShowItemLink(...) end
 function lib.ShowPetLink(...) return tooltip:ShowPetLink(...) end
+
+-- Caching for GetItemInfo, provided by LibAucItemCache (via TipHelper)
+-- returns = lib.GetItemInfoCache(item, select)
+	-- item is the parameter to be used in GetItemInfo
+	-- select specifies the first return value, like the lua select function (i.e. if select = 11, only return values 11 - 17 will be returned)
+lib.GetItemInfoCache = tooltip.GetItemInfoCache
+
+-- Tools for splitting BonusIDs (from LibAucSplitBonus)
+-- BONUSIDPATTERNS : lookup table containg match templates
+-- ParseToBonusIDString(BonusIDCount, Tail) : function
+lib.GetBonusIDStringTools = function() return tooltip.BONUSIDPATTERNS, tooltip.ParseToBonusIDString end
 
 do -- Faction related functions
 	local lookupfaction = {
@@ -618,7 +629,7 @@ do -- Module Functions
 			end
 			local lowerName = libName:lower()
 			if moduleNameLower[lowerName] then
-				error("Module name "..lowerName.." already in use by NewModule", 2)
+				error("Module name '"..lowerName.."' already in use by NewModule", 2)
 			end
 			if moduleTypeLookup[lowerName] then
 				-- block using one of the libTypes as a name (may add more reserved names in future)
@@ -949,5 +960,5 @@ function lib.CreateMoney(height)
 	return (tooltip:CreateMoney(height))
 end
 
-lib.RegisterRevision("$URL: http://svn.norganna.org/auctioneer/branches/7.5/Auc-Advanced/CoreUtil.lua $", "$Rev: 5670 $")
+lib.RegisterRevision("$URL: /CoreUtil.lua $", "$Rev: 6000 $")
 lib.CoreFileCheckOut("CoreUtil")

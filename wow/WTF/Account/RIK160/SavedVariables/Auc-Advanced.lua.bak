@@ -35,7 +35,7 @@ AucAdvancedConfig = {
 				["uierrormsg"] = 1,
 			},
 			["ahwindowcontrol"] = {
-				["ahframeanchors"] = "TOPLEFT:TOPLEFT:42.0:-152.0",
+				["ahframeanchors"] = "TOPLEFT:TOPLEFT:16.0:-116.0",
 			},
 		},
 		["configator.top"] = 815.769246135318,
@@ -76,6 +76,20 @@ AucAdvancedServers = {
 			"Thunderhorn", -- [1]
 			"Wildhammer", -- [2]
 		},
+		["#Shadowsong"] = {
+			"Aszune", -- [1]
+			"Shadowsong", -- [2]
+		},
+		["#TheMaelstrom"] = {
+			"Deathwing", -- [1]
+			"Karazhan", -- [2]
+			"Lightning'sBlade", -- [3]
+			"TheMaelstrom", -- [4]
+		},
+		["#TarrenMill"] = {
+			"Dentarg", -- [1]
+			"TarrenMill", -- [2]
+		},
 		["#LaughingSkull"] = {
 			"Ahn'Qiraj", -- [1]
 			"Balnazzar", -- [2]
@@ -90,23 +104,33 @@ AucAdvancedServers = {
 		},
 	},
 	["KnownServerKeys"] = {
-		["#Thunderhorn"] = 1479682349,
-		["Ravencrest"] = 1468975097,
-		["Draenor"] = 1517668602,
-		["#LaughingSkull"] = 1468186687,
+		["#Shadowsong"] = 1528478748,
+		["#Thunderhorn"] = 1528477271,
+		["#TheMaelstrom"] = 1528478606,
 		["ArgentDawn"] = 1458341929,
+		["Ravencrest"] = 1468975097,
+		["Draenor"] = 1531909635,
+		["#TarrenMill"] = 1528661227,
+		["Kazzak"] = 1531905979,
+		["#LaughingSkull"] = 1468186687,
 	},
 	["Version"] = 1,
 	["Timestamp"] = 1440582986,
 	["KnownRealms"] = {
 		["LaughingSkull"] = "#LaughingSkull",
+		["TheMaelstrom"] = "#TheMaelstrom",
+		["Thunderhorn"] = "#Thunderhorn",
+		["Shadowsong"] = "#Shadowsong",
 		["Ravencrest"] = "Ravencrest",
 		["Draenor"] = "Draenor",
+		["TarrenMill"] = "#TarrenMill",
+		["Kazzak"] = "Kazzak",
 		["ArgentDawn"] = "ArgentDawn",
-		["Thunderhorn"] = "#Thunderhorn",
 	},
 	["ExpandedNames"] = {
-		["LaughingSkull"] = "Laughing Skull",
+		["TheMaelstrom"] = "The Maelstrom",
 		["ArgentDawn"] = "Argent Dawn",
+		["LaughingSkull"] = "Laughing Skull",
+		["TarrenMill"] = "Tarren Mill",
 	},
 }

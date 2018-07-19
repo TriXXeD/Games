@@ -9,7 +9,7 @@
  [=====================================]
  [  Author: Dandraffbal-Stormreaver US ]
  [  xCT+ Version 4.x.x                 ]
- [  ©2015. All Rights Reserved.        ]
+ [  ©2018. All Rights Reserved.        ]
  [====================================]]
 
 local build = select(4, GetBuildInfo())
@@ -205,7 +205,7 @@ function x:UpdateFrames(specificFrame)
 						x:EnableFrameScrolling( framename )
 					end
 				else
-					f:SetMaxLines(mfloor(settings.Height / settings.fontSize) - 1)
+					f:SetMaxLines(math.max(1, mfloor(settings.Height / settings.fontSize) - 1)) --- shhhhhhhhhhhhhhhhhhhh
 					x:DisableFrameScrolling( framename )
 				end
 			end
@@ -262,7 +262,9 @@ function x:Clear(specificFrame)
 	if not specificFrame then
 		for framename, settings in pairs(x.db.profile.frames) do
 			local frame = x.frames[framename]
-			frame:Clear()
+			if frame then -- attempt to fix login 'attempt to index nil value frame' error
+				frame:Clear()
+			end
 		end
 	else
 		local frame = x.frames[specificFrame]
@@ -348,8 +350,9 @@ function x:AddMessage(framename, message, colorname)
 		if type(colorname) == "table" then
 			r, g, b = unpack(colorname)
 		else
-			if x.LookupColorByName(colorname) then
-				r, g, b = unpack( x.LookupColorByName(colorname) )
+			local color = x.LookupColorByName(colorname)
+			if color then
+				r, g, b = unpack(color)
 			else
 				print("FRAME:", framename,"  xct+ says there is no color named:", colorname)
 				error("missing color")
@@ -578,8 +581,9 @@ do
 				                                  true, -- Merge Override = true
 				                                  #item.entries )
 			else
+				-- This is not needed anymore (was used for healing)
 				if #item.entries > 1 then
-					message = sformat("%s |cff%sx%s|r", message, strColor, #item.entries)
+					message = sformat(" |T"..x.BLANK_ICON..":%d:%d:0:0:64:64:5:59:5:59|t %s |cff%sx%s|r", settings.iconsSize, settings.iconsSize, message, strColor, #item.entries)
 				end
 			end
 

@@ -1,3 +1,7 @@
+VER 3 0100000000000011 "Clarity of WIll" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists] Clarity of Will; Clarity of Will
+END
 VER 3 0100000000000005 "CoH" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@mouseover,exists] Circle of Healing; Circle of Healing
@@ -30,6 +34,14 @@ VER 3 0100000000000009 "LoF" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@mouseover,exists] Leap of Faith; Leap of Faith
 END
+VER 3 0100000000000010 "Penance" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists] Penance; Penance
+END
+VER 3 010000000000000E "plea" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists] Plea; Plea
+END
 VER 3 0100000000000003 "PoM" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@mouseover,exists] Prayer of Mending; Prayer of Mending
@@ -42,7 +54,15 @@ VER 3 0100000000000006 "Purify" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@mouseover,exists] Purify; Purify
 END
+VER 3 010000000000000F "Raidance" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists] Power Word: Radiance; Power Word: Radiance
+END
 VER 3 010000000000000B "Renew" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@mouseover,exists] Renew; Renew
+END
+VER 3 010000000000000D "shield" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists] Power Word: Shield; Power Word: Shield
 END

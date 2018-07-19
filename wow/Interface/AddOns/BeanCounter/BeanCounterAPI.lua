@@ -1,7 +1,7 @@
 --[[
 	Auctioneer Addon for World of Warcraft(tm).
-	Version: 7.5.5724 (TasmanianThylacine)
-	Revision: $Id: BeanCounterAPI.lua 5652 2016-08-08 08:10:24Z ccox $
+	Version: 7.7.6000 (SwimmingSeadragon)
+	Revision: $Id: BeanCounterAPI.lua 6000 2018-07-17 14:09:34Z none $
 
 	BeanCounterAPI - Functions for other addons to get BeanCounter Data
 	URL: http://auctioneeraddon.com/
@@ -28,7 +28,7 @@
 		since that is it's designated purpose as per:
 		http://www.fsf.org/licensing/licenses/gpl-faq.html#InterpreterIncompat
 ]]
-LibStub("LibRevision"):Set("$URL: http://svn.norganna.org/auctioneer/branches/7.5/BeanCounter/BeanCounterAPI.lua $","$Rev: 5652 $","5.1.DEV.", 'auctioneer', 'libs')
+LibStub("LibRevision"):Set("$URL: /BeanCounterAPI.lua $","$Rev: 6000 $","5.1.DEV.", 'auctioneer', 'libs')
 
 local lib = BeanCounter
 lib.API = {}
@@ -357,7 +357,7 @@ function lib.API.createItemLinkFromArray(itemKey, uniqueID)
 		if not uniqueID then uniqueID = 0 end
 		local itemID, suffix = strsplit(":", itemKey)
 		local color, name = strsplit(";", BeanCounterDBNames[itemKey])
-		return strjoin("", "|", color, "|Hitem:", itemID,":0:0:0:0:0:", suffix, ":", uniqueID, ":80:0:0:0|h[", name, "]|h|r")
+		return strjoin("", "|", color, "|Hitem:", itemID,":0:0:0:0:0:", suffix, ":", uniqueID, ":80:0:0:0:0:0|h[", name, "]|h|r")
 	end
 	return
 end
@@ -378,13 +378,13 @@ function lib.API.getItemString(itemLink)
 	if not itemLink or not type(itemLink) == "string" then return end
 	local itemString, itemName = itemLink:match("H(item:.-)|h%[(.-)%]")
 	if not itemString then return end
-	
+
 	--DebugPrintQuick("Itemstring input ", itemString, itemName)
 	-- WARNING - this must survive multiple iterations on the same link/string without changing it more than once
 	--itemString = itemString:gsub("(item:[^:]+:[^:]+:[^:]+:[^:]+:[^:]+:[^:]+:[^:]+:[^:]+):%d+:%d+", "%1:80:0")	-- OLD, FAILING
 	itemString = itemString:gsub("(item:%d+:[^:]*:[^:]*:[^:]*:[^:]*:[^:]*:[^:]*:[^:]*):%d+:%d*:(.*)", "%1:100::%2")
 	--DebugPrintQuick("Itemstring output ", itemString, itemName)
-	
+
 	return itemString, itemName
 end
 
@@ -423,7 +423,7 @@ function lib.API.getBidReason(itemLink, quantity)
 			end
 		end
 	end
-	
+
 	--not found on the current player lets see if we bought it on another player
 	for player in pairs(private.serverData) do
 		if private.serverData[player]["completedBidsBuyouts"][itemID] and private.serverData[player]["completedBidsBuyouts"][itemID][itemString] then

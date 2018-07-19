@@ -1,7 +1,7 @@
 --[[
 	Enchantrix Addon for World of Warcraft(tm).
-	Version: 7.5.5724 (TasmanianThylacine)
-	Revision: $Id: EnxLocale.lua 3576 2008-10-10 03:07:13Z aesir $
+	Version: 7.7.6000 (SwimmingSeadragon)
+	Revision: $Id: EnxLocale.lua 6000 2018-07-17 14:09:34Z none $
 	URL: http://enchantrix.org/
 
 	Localization routines
@@ -28,7 +28,7 @@
 		since that is its designated purpose as per:
 		http://www.fsf.org/licensing/licenses/gpl-faq.html#InterpreterIncompat
 ]]
-Enchantrix_RegisterRevision("$URL: http://svn.norganna.org/auctioneer/branches/7.5/Enchantrix/EnxLocale.lua $", "$Rev: 3576 $")
+Enchantrix_RegisterRevision("$URL: /EnxLocale.lua $", "$Rev: 6000 $")
 
 local Babylonian = LibStub("Babylonian")
 assert(Babylonian, "Babylonian is not installed")
@@ -159,7 +159,7 @@ function localizeCommand(cmd)
 end
 
 Enchantrix.Locale = {
-	Revision = "$Revision: 3576 $",
+	Revision = "$Rev: 6000 $",
 
 	AddonLoaded				= addonLoaded,
 

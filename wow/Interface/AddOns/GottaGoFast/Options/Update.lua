@@ -30,6 +30,12 @@ function ggf.Changelog()
 end
 
 local changes = {};
+table.insert(changes, "# v3.0.0");
+table.insert(changes, "- BFA Support");
+table.insert(changes, "");
+table.insert(changes, "# v2.7.0");
+table.insert(changes, "- Mythic+: Tooltip Shows Individual Mob Points When TotalMobPoints Is Enabled (Note Requires Individual Mob Values To Be Enabled)");
+table.insert(changes, "");
 table.insert(changes, "# v2.6.6");
 table.insert(changes, "- Addon: Update To 7.3");
 table.insert(changes, "- Mythic+: Add SOT Mob Count Data");

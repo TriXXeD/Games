@@ -25,6 +25,9 @@ V["sle"] = {
 			["enable"] = false,
 			["barenable"] = false,
 			["template"] = "Transparent",
+			["skindungeon"] = false,
+			["skinmail"] = false,
+			["skingarrison"] = false,
 		},
 	},
 
@@ -58,6 +61,7 @@ V["sle"] = {
 			["UseLures"] = true,
 			["IgnorePole"] = false,
 			["CastButton"] = "Shift",
+			["relureThreshold"] = 8,
 		},
 	},
 

@@ -2,8 +2,8 @@
 ## Interface: 40300
 ## Dependancies: Auc-Advanced
 ##
-## Version: 7.5.5724 (TasmanianThylacine)
-## Revision: $Id: Auc-Util-Example.toc 5234 2011-11-24 04:54:19Z Nechckn $
+## Version: 7.7.6000 (SwimmingSeadragon)
+## Revision: $Id: Auc-Util-Example.toc 6000 2018-07-17 14:09:34Z none $
 ## URL: http://auctioneeraddon.com/
 ## Author: Norganna's AddOns
 ## X-Part-Of: Auctioneer

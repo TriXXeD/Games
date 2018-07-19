@@ -479,3 +479,4 @@ function private.AutoSellTrash(self,args)
 			end
 	end
 end
+

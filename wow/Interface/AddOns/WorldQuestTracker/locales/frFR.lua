@@ -2,7 +2,6 @@ local L = LibStub("AceLocale-3.0"):NewLocale("WorldQuestTrackerAddon", "frFR")
 if not L then return end 
 
 L["S_APOWER_AVAILABLE"] = "Disponible"
-L["S_APOWER_DOWNVALUE"] = "Les quêtes avec %s ont plus de temps que votre recherche actuelle."
 L["S_APOWER_NEXTLEVEL"] = "Niveau suivant"
 L["S_ENABLED"] = "Activé"
 L["S_ERROR_NOTIMELEFT"] = "Cette quête n'a pas de temps restant."
@@ -126,8 +125,8 @@ L["S_RAREFINDER_TOOLTIP_REMOVE"] = [=[Supprimer
 ]=]
 L["S_RAREFINDER_TOOLTIP_SEACHREALM"] = "Chercher sur d'autres royaumes"
 L["S_RAREFINDER_TOOLTIP_SPOTTEDBY"] = "Repéré par"
---Translation missing 
--- L["S_RAREFINDER_TOOLTIP_TIMEAGO"] = ""
+--[[Translation missing --]]
+--[[ L["S_RAREFINDER_TOOLTIP_TIMEAGO"] = ""--]] 
 L["S_SHAREPANEL_THANKS"] = [=[Merci de partager World Quest Tracker !
 Envoyez notre lien à vos amis sur Facebook, Twitter, à l'Élysée...]=]
 L["S_SHAREPANEL_TITLE"] = "For All Those About to Rock!"

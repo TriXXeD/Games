@@ -379,3 +379,4 @@ function private:GetItemDisplayLink(itemString)
 	if not itemString then return L["none"] end
 	return TSMAPI.Item:GetLink(itemString) or (TSM.items[itemString] and TSM.items[itemString].name) or L["none"]
 end
+

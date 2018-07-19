@@ -70,9 +70,8 @@ local operationDefaults = {
 
 -- Addon loaded
 function TSM:OnInitialize()
-	if TradeSkillMasterModulesDB then
-		TradeSkillMasterModulesDB.Auctioning = TradeSkillMaster_AuctioningDB
-	end
+	-- store our settings in TSM's saved variables
+	TradeSkillMasterModulesDB.Auctioning = TradeSkillMaster_AuctioningDB
 
 	-- load settings
 	TSM.db = TSMAPI.Settings:Init("TradeSkillMaster_AuctioningDB", settingsInfo)
@@ -96,15 +95,6 @@ function TSM:OnInitialize()
 			operation.maxExpires = operation.maxExpires or operationDefaults.maxExpires
 			operation.blacklist = operation.blacklist or ""
 		end
-	end
-	
-	-- fix patch 7.3 sound changes
-	local sounds = TSMAPI:GetSounds()
-	if not sounds[TSM.db.global.scanCompleteSound] then
-		TSM.db.global.scanCompleteSound = TSM.NO_SOUND_KEY
-	end
-	if not sounds[TSM.db.global.confirmCompleteSound] then
-		TSM.db.global.confirmCompleteSound = TSM.NO_SOUND_KEY
 	end
 end
 

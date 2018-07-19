@@ -4,8 +4,8 @@
 	http://localizer.norganna.org/
 
 	AddOn: Informant
-	Revision: $Id: InfStrings.lua 5456 2014-06-05 11:59:54Z brykrys $
-	Version: 7.5.5724 (TasmanianThylacine)
+	Revision: $Id: InfStrings.lua 6000 2018-07-17 14:09:34Z none $
+	Version: 7.7.6000 (SwimmingSeadragon)
 
 	License:
 		This program is free software; you can redistribute it and/or

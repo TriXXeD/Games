@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0217,
+	["LastVersion"] = 2.0218,
 	["LastPlayerFullName"] = "Eruditus-Ravencrest",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,
@@ -12,7 +12,7 @@ PawnOptions = {
 					["Type"] = "Arcane",
 				}, -- [1]
 				{
-					["ItemLevel"] = 56,
+					["ItemLevel"] = 61,
 					["Type"] = "Frost",
 				}, -- [2]
 				{
@@ -25,7 +25,7 @@ PawnOptions = {
 		[128862] = {
 			["Relics"] = {
 				{
-					["ItemLevel"] = 55,
+					["ItemLevel"] = 61,
 					["Type"] = "Frost",
 				}, -- [1]
 				{
@@ -33,7 +33,7 @@ PawnOptions = {
 					["Type"] = "Arcane",
 				}, -- [2]
 				{
-					["ItemLevel"] = 55,
+					["ItemLevel"] = 65,
 					["Type"] = "Frost",
 				}, -- [3]
 			},
@@ -50,7 +50,7 @@ PawnOptions = {
 					["Type"] = "Arcane",
 				}, -- [2]
 				{
-					["ItemLevel"] = 55,
+					["ItemLevel"] = 62,
 					["Type"] = "Fire",
 				}, -- [3]
 			},

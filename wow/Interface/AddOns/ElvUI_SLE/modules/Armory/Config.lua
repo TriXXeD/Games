@@ -199,33 +199,6 @@ local function LoadArmoryConfigTable()
 		}
 	}
 
-
-	local BackdropKeyTable = {
-		["0"] = 'HIDE',
-		["1"] = 'CUSTOM',
-		["2"] = 'Space',
-		["3"] = 'TheEmpire',
-		["4"] = 'Castle',
-		["5"] = 'Alliance-text',
-		["6"] = 'Horde-text',
-		["7"] = 'Alliance-bliz',
-		["8"] = 'Horde-bliz',
-		["9"] = 'Arena-bliz'
-	}
-
-	local BackgroundList = {
-		["0"] = HIDE,
-		["1"] = CUSTOM,
-		["2"] = "Space",
-		["3"] = "The Empire",
-		["4"] = "Castle",
-		["5"] = FACTION_ALLIANCE,
-		["6"] = FACTION_HORDE,
-		["7"] = FACTION_ALLIANCE..' 2',
-		["8"] = FACTION_HORDE..' 2',
-		["9"] = ARENA
-	}
-
 	local DisplayMethodList = {
 		Always = L["Always Display"],
 		MouseoverOnly = L["Mouseover"],
@@ -385,15 +358,15 @@ local function LoadArmoryConfigTable()
 							name = L["Select Image"],
 							order = 1,
 							get = function()
-								for Index, Key in T.pairs(BackdropKeyTable) do
+								for Index, Key in T.pairs(Info.BackgroundsTextures.Keys) do
 									if Key == E.db.sle.Armory.Character.Backdrop.SelectedBG then
 										return Index
 									end
 								end
 								return '1'
 							end,
-							set = function(_, value) E.db.sle.Armory.Character.Backdrop.SelectedBG = BackdropKeyTable[value]; _G["CharacterArmory"]:UpdateSettings("bg") end,
-							values = function() return BackgroundList end,
+							set = function(_, value) E.db.sle.Armory.Character.Backdrop.SelectedBG = Info.BackgroundsTextures.Keys[value]; _G["CharacterArmory"]:UpdateSettings("bg") end,
+							values = function() return Info.BackgroundsTextures.Config end,
 							disabled = function() return E.db.sle.Armory.Character.Enable == false end
 						},
 						CustomAddress = {
@@ -642,52 +615,9 @@ local function LoadArmoryConfigTable()
 							min = 6,max = 50,step = 1,
 							disabled = function() return E.db.sle.Armory.Character.Enable == false end
 						},
-					}
-				},
-				Artifact = {
-					type = 'group',
-					order = 14,
-					name = ITEM_QUALITY6_DESC,
-					get = function(info) return E.db.sle.Armory.Character[(info[#info - 1])][(info[#info])] end,
-					set = function(info, value) E.db.sle.Armory.Character[(info[#info - 1])][(info[#info])] = value; _G["CharacterArmory"]:UpdateSettings("art") end,
-					args = {
-						Enable = {
-							type = "toggle",
-							order = 1,
-							name = L["Enable"],
-							get = function(info) return E.private.sle.Armory.UseArtMonitor end,
-							set = function(info, value) E.private.sle.Armory.UseArtMonitor = value; E:StaticPopup_Show("PRIVATE_RL") end,
-						},
-						Font = {
-							type = 'select', dialogControl = 'LSM30_Font',
-							name = L["Font"],
-							order = 2,
-							values = function() return AceGUIWidgetLSMlists and AceGUIWidgetLSMlists.font or {} end,
-							disabled = function() return E.db.sle.Armory.Character.Enable == false or E.private.sle.Armory.UseArtMonitor == false end,
-						},
-						FontSize = {
-							type = 'range',
-							name = L["Font Size"],
-							order = 3,
-							min = 6, max = 22, step = 1,
-							disabled = function() return E.db.sle.Armory.Character.Enable == false or E.private.sle.Armory.UseArtMonitor == false end,
-						},
-						FontStyle = {
-							type = 'select',
-							name = L["Font Outline"],
-							order = 4,
-							values = FontStyleList,
-							disabled = function() return E.db.sle.Armory.Character.Enable == false or E.private.sle.Armory.UseArtMonitor == false end,
-						},
-						ShortValues = {
-							order = 5,
-							type = "toggle",
-							name = L["Short text"],
-							disabled = function() return E.db.sle.Armory.Character.Enable == false or E.private.sle.Armory.UseArtMonitor == false end,
-						},
 					},
 				},
-			}
+			},
 		}
 	end
 
@@ -793,7 +723,7 @@ local function LoadArmoryConfigTable()
 							name = L["Select Image"],
 							order = 1,
 							get = function()
-								for Index, Key in T.pairs(BackdropKeyTable) do
+								for Index, Key in T.pairs(Info.BackgroundsTextures.Keys) do
 									if Key == E.db.sle.Armory.Inspect.Backdrop.SelectedBG then
 										return Index
 									end
@@ -801,11 +731,11 @@ local function LoadArmoryConfigTable()
 								return '1'
 							end,
 							set = function(_, value)
-								E.db.sle.Armory.Inspect.Backdrop.SelectedBG = BackdropKeyTable[value]
+								E.db.sle.Armory.Inspect.Backdrop.SelectedBG = Info.BackgroundsTextures.Keys[value]
 								
 								_G["InspectArmory"]:Update_BG()
 							end,
-							values = function() return BackgroundList end,
+							values = function() return Info.BackgroundsTextures.Config end,
 							disabled = function() return E.db.sle.Armory.Inspect.Enable == false end
 						},
 						CustomAddress = {

@@ -503,7 +503,7 @@ function private.PostAuctionsThread(self, auctionInfo)
 			local numStacksPosted = unpack(args)
 			local bid = floor(max(postInfo.buyout * TSM.db.global.postBidPercent, 1))
 			local timeLeft = postInfo.duration == 1 and 3 or 4
-			local record = auctionRecord(postInfo.itemLink, auctionRecord.texture, postInfo.stackSize, bid, 0, postInfo.buyout, 0, UnitName("player"), timeLeft, false, postInfo.rawItemLink)
+			local record = TSMAPI_FOUR.Auction.NewRecord(postInfo.itemLink, auctionRecord.texture, postInfo.stackSize, bid, 0, postInfo.buyout, 0, UnitName("player"), timeLeft, false, postInfo.rawItemLink)
 			if auctionRecord.isFake then
 				-- remove the fake row
 				private.frame.content.result.rt:RemoveSelectedRecord(1)
@@ -739,7 +739,7 @@ function private:SetMaxQuantity(auctionRecord, value)
 		if type(private.extraInfo.maxQuantity) == "number" then
 			-- global max quantity
 			private.extraInfo.maxQuantity = value
-		elseif type(private.extraInfo.maxQuantity) == "table" and private.extraInfo.maxQuantity[auctionRecord.itemString] then
+		elseif type(private.extraInfo.maxQuantity) == "table" and private.extraInfo.maxQuantity[itemString] then
 			-- per-item max quantity
 			private.extraInfo.maxQuantity[auctionRecord.itemString] = value
 		end
@@ -1158,3 +1158,4 @@ function private.AuctionTabThread(self)
 		end
 	end
 end
+

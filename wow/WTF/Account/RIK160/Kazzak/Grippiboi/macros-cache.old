@@ -1,0 +1,4 @@
+VER 3 0100000000000032 "ZGVMacro2" "Ability_Priest_HeavanlyVoice"
+/target Bernie Heisten
+/run ZGV:MagicRaidMarker()
+END

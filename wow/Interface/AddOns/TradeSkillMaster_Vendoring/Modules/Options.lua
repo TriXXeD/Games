@@ -393,3 +393,4 @@ function private.DrawOperationGeneral(container, operationName)
 	}
 	TSMAPI.GUI:BuildOptions(container, page)
 end
+

@@ -198,17 +198,16 @@ local function CreatePluginFrames (data)
 	
 		local instance = ThreatMeter:GetPluginInstance()
 		
-		row.textsize = instance.row_info.font_size
-		
-		local font = SharedMedia:Fetch ("font", instance.row_info.font_face, true) or instance.row_info.font_face
-		
-		--print (font, instance.row_info.font_face)
-		
-		row.textfont = font
-		row.texture = instance.row_info.texture
-		row.shadow = instance.row_info.textL_outline
-		
-		row.width = instance.baseframe:GetWidth()-5
+		if (instance) then
+			local font = SharedMedia:Fetch ("font", instance.row_info.font_face, true) or instance.row_info.font_face
+			
+			row.textsize = instance.row_info.font_size
+			row.textfont = font
+			row.texture = instance.row_info.texture
+			row.shadow = instance.row_info.textL_outline
+			
+			row.width = instance.baseframe:GetWidth()-5
+		end
 	end
 	
 	function ThreatMeter:RefreshRows()
@@ -377,7 +376,7 @@ local function CreatePluginFrames (data)
 				local aggro = topThreat [6] * (CheckInteractDistance ("target", 3) and 1.1 or 1.3)
 				
 				pullRow:SetLeftText ("Pull Aggro At")
-				local realPercent = _math_floor (aggro / topThreat [6] * 100)
+				local realPercent = _math_floor (aggro / max (topThreat [6], 0.01) * 100)
 				pullRow:SetRightText ("+" .. ThreatMeter:ToK2 (aggro - myThreat) .. " (" .. _math_floor (_math_abs ((myThreat / aggro * 100) - realPercent)) .. "%)") --
 				pullRow:SetValue (100)
 				

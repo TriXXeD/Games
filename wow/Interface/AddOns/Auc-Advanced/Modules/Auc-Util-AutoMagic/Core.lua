@@ -1,7 +1,7 @@
 --[[
 	Auctioneer - AutoMagic Utility module
-	Version: 7.5.5724 (TasmanianThylacine)
-	Revision: $Id: Core.lua 5676 2016-09-21 16:09:45Z brykrys $
+	Version: 7.7.6000 (SwimmingSeadragon)
+	Revision: $Id: Core.lua 6000 2018-07-17 14:09:34Z none $
 	URL: http://auctioneeraddon.com/
 
 	AutoMagic is an Auctioneer module which automates mundane tasks for you.
@@ -145,6 +145,13 @@ local isGem =
 	[130181] = true,--Pandemonite
 	[130182] = true,--MaelstromSapphire
 	[130183] = true,--ShadowRuby
+	--Legion Argus
+	[151721] = true,--Hesselian
+	[151579] = true,--Labradorite
+	[151719] = true,--Lightsphene
+	[151720] = true,--Chemirine
+	[151718] = true,--Argulite
+	[151722] = true,--FloridMalachite
 	--Legion Other
 	[129100] = true,--GemChip
 }
@@ -336,6 +343,7 @@ local isHerb =
 	[124105] = true,--StarlightRose
 	[124106] = true,--Felwort
 	[128304] = true,--YserallineSeed
+	[151565] = true,--AstralGlory
 	}
 
 --Inv slot types, used to help define what gear is usable via tooltip parse
@@ -657,4 +665,4 @@ end
 
 
 
-AucAdvanced.RegisterRevision("$URL: http://svn.norganna.org/auctioneer/branches/7.5/Auc-Util-AutoMagic/Core.lua $", "$Rev: 5676 $")
+AucAdvanced.RegisterRevision("$URL: /Core.lua $", "$Rev: 6000 $")

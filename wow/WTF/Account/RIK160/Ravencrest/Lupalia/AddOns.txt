@@ -90,7 +90,7 @@ BugSack: disabled
 Enchantrix-Barker: disabled
 Enchantrix: disabled
 Bagnon_GuildBank: disabled
-TradeSkillMaster_Mailing: enabled
+TradeSkillMaster_Mailing: disabled
 TradeSkillMaster_Warehousing: disabled
 BattlegroundTargets: enabled
 zPets: disabled
@@ -105,3 +105,9 @@ MyRareFinder: disabled
 TradeSkillMaster_Destroying: disabled
 xCT+: enabled
 EnemyGrid: disabled
+TradeSkillMaster_Accounting: disabled
+TradeSkillMaster_AuctionDB: disabled
+TradeSkillMaster_Auctioning: disabled
+TradeSkillMaster_Crafting: disabled
+TradeSkillMaster_Shopping: disabled
+TradeSkillMaster_Vendoring: disabled

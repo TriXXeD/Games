@@ -243,8 +243,8 @@ L["STRING_FORGE_HEADER_OWNER"] = "Besitzer"
 L["STRING_FORGE_HEADER_SCHOOL"] = "Kategorie"
 L["STRING_FORGE_HEADER_SPELLID"] = "Zauber-ID"
 L["STRING_FORGE_HEADER_TIMER"] = "Timer"
---Translation missing 
--- L["STRING_FORGE_TUTORIAL_DESC"] = ""
+L["STRING_FORGE_TUTORIAL_DESC"] = [=[
+Durchsuche Zauber- und Boss-Mods-Timer, um Auren durch Klicken auf '|cFFFFFF00Aura Erstellen|r' zu erstellen.]=]
 L["STRING_FORGE_TUTORIAL_TITLE"] = "Willkommen bei Details! Forge"
 L["STRING_FORGE_TUTORIAL_VIDEO"] = "Beispiel einer Aura bei Verwendung von Bossmod-Timern:"
 L["STRING_FREEZE"] = "Dieses Segment ist im Moment nicht verfügbar "
@@ -264,8 +264,8 @@ L["STRING_GUILDDAMAGERANK_ROLE"] = "Rolle"
 L["STRING_GUILDDAMAGERANK_SHOWHISTORY"] = "Verlauf zeigen"
 L["STRING_GUILDDAMAGERANK_SHOWRANK"] = "Gildenbank zeigen"
 L["STRING_GUILDDAMAGERANK_SYNCBUTTONTEXT"] = "Mit Gilde synchronisieren"
---Translation missing 
--- L["STRING_GUILDDAMAGERANK_TUTORIAL_DESC"] = ""
+--[[Translation missing --]]
+--[[ L["STRING_GUILDDAMAGERANK_TUTORIAL_DESC"] = ""--]] 
 L["STRING_GUILDDAMAGERANK_WINDOWALERT"] = "Boss besiegt! Rangliste zeigen"
 L["STRING_HEAL"] = "Heilung"
 L["STRING_HEAL_ABSORBED"] = "Absorbierte Heilung"
@@ -359,7 +359,7 @@ L["STRING_MIRROR_IMAGE"] = "Bilder spiegeln"
 L["STRING_MISS"] = "Verfehlen"
 L["STRING_MODE_ALL"] = "Alles"
 L["STRING_MODE_GROUP"] = "Standard"
-L["STRING_MODE_OPENFORGE"] = "Aura Formen"
+L["STRING_MODE_OPENFORGE"] = "Zauberliste"
 L["STRING_MODE_PLUGINS"] = "Zusatzmodule"
 L["STRING_MODE_RAID"] = "Zusatzmodule: Schlachtzug"
 L["STRING_MODE_SELF"] = "Zusatzmodule: Solospiel"
@@ -395,20 +395,20 @@ L["STRING_OPTIONS_3D_LALPHA_DESC"] = [=[Wähle einen Wert für die Transparenz.
 |cFFFFFF00Achtung|r: Einige Modelle ignorieren den Transparenzwert.]=]
 L["STRING_OPTIONS_3D_LANCHOR"] = "Unteres 3D-Modell:"
 L["STRING_OPTIONS_3D_LENABLED_DESC"] = "Aktiviert oder deaktiviert die Nutzung eines 3D-Modells unter den Balken."
-L["STRING_OPTIONS_3D_LSELECT_DESC"] = "Wähle das zu benutzende 3D-Modell für Balken."
+L["STRING_OPTIONS_3D_LSELECT_DESC"] = "Wähle das zu benutzende 3D-Modell für die Balken."
 L["STRING_OPTIONS_3D_SELECT"] = "Modell wählen"
 L["STRING_OPTIONS_3D_UALPHA_DESC"] = [=[Wähle einen Wert für die Transparenz des oberen Modells.
 
 |cFFFFFF00Achtung|r: Einige Modelle ignorieren den Transparenzwert.]=]
 L["STRING_OPTIONS_3D_UANCHOR"] = "Oberes 3D-Modell:"
 L["STRING_OPTIONS_3D_UENABLED_DESC"] = "Aktiviert oder deaktiviert die Nutzung eines 3D-Modells über den Balken."
-L["STRING_OPTIONS_3D_USELECT_DESC"] = "Wähle das zu benutzende 3D-Modell für Balken."
+L["STRING_OPTIONS_3D_USELECT_DESC"] = "Wähle das zu benutzende 3D-Modell für die Balken."
 L["STRING_OPTIONS_ADVANCED"] = "Erweitert"
 L["STRING_OPTIONS_ALPHAMOD_ANCHOR"] = "Automatisch Verbergen:"
 L["STRING_OPTIONS_ALWAYS_USE"] = "Bei allen Charakteren benutzen"
 L["STRING_OPTIONS_ALWAYS_USE_DESC"] = "Wenn aktiviert, nutzen alle Charaktere das ausgewählte Profil. Andernfalls erscheint eine Anzeige, in der nach einem zu benutzenden Profil gefragt wird."
 L["STRING_OPTIONS_ALWAYSSHOWPLAYERS"] = "Alle Spieler anzeigen"
-L["STRING_OPTIONS_ALWAYSSHOWPLAYERS_DESC"] = "Wenn du den standardmäßigen Standardmodus verwendest, zeigt er Spieler Charaktere an, auch wenn sie nicht in einer Gruppen mit dir sind. "
+L["STRING_OPTIONS_ALWAYSSHOWPLAYERS_DESC"] = "Wenn du den standardmäßigen Standardmodus verwendest, zeigt er Spielercharaktere an, auch wenn sie nicht in einer Gruppen mit dir sind. "
 L["STRING_OPTIONS_ANCHOR"] = "Seite"
 L["STRING_OPTIONS_ANIMATEBARS"] = "Balken animieren"
 L["STRING_OPTIONS_ANIMATEBARS_DESC"] = "Aktiviert Animationen für alle Balken."
@@ -535,6 +535,8 @@ L["STRING_OPTIONS_CENERGY_DESC"] = [=[Aktiviert die Erfassung von:
 - |cFFFFFF00Erzeugte Runenmacht|r]=]
 L["STRING_OPTIONS_CHANGE_CLASSCOLORS"] = "Klassenfarben ändern"
 L["STRING_OPTIONS_CHANGE_CLASSCOLORS_DESC"] = "Wähle neue Klassenfarben aus."
+--[[Translation missing --]]
+--[[ L["STRING_OPTIONS_CHANGECOLOR"] = ""--]] 
 L["STRING_OPTIONS_CHANGELOG"] = "Versionshinweise"
 L["STRING_OPTIONS_CHART_ADD"] = "Daten hinzufügen"
 L["STRING_OPTIONS_CHART_ADD2"] = "Hinzufügen"
@@ -651,9 +653,8 @@ L["STRING_OPTIONS_DEATHLIMIT"] = "Todesereignisanzahl"
 L["STRING_OPTIONS_DEATHLIMIT_DESC"] = [=[Stelle die Anzahl an Ereignissen für die Todesanzeige ein.
 
 |cFFFFFF00Wichtig|r: Wird nach der Änderung nur auf neue Tode angewendet.]=]
-L["STRING_OPTIONS_DEATHLOG_MINHEALING"] = "Todes Protokoll Mindest Heilung"
---Translation missing 
--- L["STRING_OPTIONS_DEATHLOG_MINHEALING_DESC"] = ""
+L["STRING_OPTIONS_DEATHLOG_MINHEALING"] = "Mindestheilung für Todesprotokoll"
+L["STRING_OPTIONS_DEATHLOG_MINHEALING_DESC"] = "|cFFFFFF00Tip|r: Rechtsklicken um einen manuellen Wert einzugeben."
 L["STRING_OPTIONS_DESATURATE_MENU"] = "Entfärbt"
 L["STRING_OPTIONS_DESATURATE_MENU_DESC"] = "Aktiviert: Alle Symbole der Werkzeugleiste werden schwarz-weiß."
 L["STRING_OPTIONS_DISABLE_ALLDISPLAYSWINDOW"] = "Das Menü 'Alle Anzeigen' deaktivieren"
@@ -763,7 +764,7 @@ L["STRING_OPTIONS_MENU_ALPHA"] = "Mausinteraktion:"
 L["STRING_OPTIONS_MENU_ALPHAENABLED_DESC"] = [=[Aktiviert: Die Transparenz ändert sich automatisch, wenn der Cursor über dem Fenster schwebt und es wieder verlässt.
 
 |cFFFFFF00Wichtig|r: Diese Einstellung überschreibt die in den Fensteroptionen gewählte Fensterfarbe.]=]
-L["STRING_OPTIONS_MENU_ALPHAENTER"] = "Beim darüberschweben"
+L["STRING_OPTIONS_MENU_ALPHAENTER"] = "Beim Darüberschweben"
 L["STRING_OPTIONS_MENU_ALPHAENTER_DESC"] = "Wenn der Cursor über dem Fenster schwebt, ändert sich die Transparenz auf diesen Wert."
 L["STRING_OPTIONS_MENU_ALPHALEAVE"] = "Keine Interaktion"
 L["STRING_OPTIONS_MENU_ALPHALEAVE_DESC"] = "Wenn der Cursor nicht über dem Fenster schwebt, ändert sich die Transparenz auf diesen Wert."
@@ -844,8 +845,7 @@ L["STRING_OPTIONS_OVERALL_DUNGEONCLEAN_DESC"] = "Segmente mit abgräumtem Dungeo
 L["STRING_OPTIONS_OVERALL_LOGOFF"] = "Beim Ausloggen löschen"
 L["STRING_OPTIONS_OVERALL_LOGOFF_DESC"] = "Aktiviert: Die Gesamtdaten werden automatisch beim Ausloggen des Charakters gelöscht."
 L["STRING_OPTIONS_OVERALL_MYTHICPLUS"] = "Beim Start einer Mythic+ löschen"
---Translation missing 
--- L["STRING_OPTIONS_OVERALL_MYTHICPLUS_DESC"] = ""
+L["STRING_OPTIONS_OVERALL_MYTHICPLUS_DESC"] = "Wenn aktiviert, werden sämtliche Daten automatisch gelöscht, wenn ein neue Mythisch+ Durchlauf gestartet wird."
 L["STRING_OPTIONS_OVERALL_NEWBOSS"] = "Bei neuem Boss löschen"
 L["STRING_OPTIONS_OVERALL_NEWBOSS_DESC"] = "Aktiviert: Die Gesamtdaten werden automatisch bei einem neuen Boss gelöscht."
 L["STRING_OPTIONS_OVERALL_RAIDBOSS"] = "Schlachtzugsbosse"
@@ -1487,11 +1487,11 @@ L["STRING_SEGMENT_OVERALL"] = "Gesamtdaten"
 L["STRING_SEGMENT_START"] = "Start"
 L["STRING_SEGMENT_TRASH"] = "Trash abgräumt"
 L["STRING_SEGMENTS"] = "Segmente"
-L["STRING_SEGMENTS_LIST_BOSS"] = "Boss Kampf"
-L["STRING_SEGMENTS_LIST_COMBATTIME"] = "Kampf Zeit"
+L["STRING_SEGMENTS_LIST_BOSS"] = "Bosskampf"
+L["STRING_SEGMENTS_LIST_COMBATTIME"] = "Kampfzeit"
 L["STRING_SEGMENTS_LIST_OVERALL"] = "Insgesamt"
 L["STRING_SEGMENTS_LIST_TIMEINCOMBAT"] = "Zeit im Kampf"
-L["STRING_SEGMENTS_LIST_TOTALTIME"] = "Ins gesamte Zeit"
+L["STRING_SEGMENTS_LIST_TOTALTIME"] = "Insgesamte Zeit"
 L["STRING_SEGMENTS_LIST_TRASH"] = "Trash"
 L["STRING_SHIELD_HEAL"] = "verhindert"
 L["STRING_SHIELD_OVERHEAL"] = "Vergeudet"
@@ -1527,7 +1527,7 @@ L["STRING_SLASH_WIPECONFIG_DESC"] = "setzt alle Einstellungen auf Standard. Nutz
 L["STRING_SLASH_WORLDBOSS"] = "Weltboss"
 L["STRING_SLASH_WORLDBOSS_DESC"] = "startet ein Makro, das dir anzeigt, welche Bosse du in dieser Woche getötet hast."
 L["STRING_SPELL_INTERRUPTED"] = "Zauber unterbrochen"
-L["STRING_SPELLLIST"] = "Zauber Liste"
+L["STRING_SPELLLIST"] = "Zauberliste"
 L["STRING_SPELLS"] = "Zauber"
 L["STRING_SPIRIT_LINK_TOTEM"] = "Lebenspunkte-Austausch"
 L["STRING_SPIRIT_LINK_TOTEM_DESC"] = [=[Anzahl an ausgetauschten Lebenspunkten zwischen
@@ -1553,7 +1553,7 @@ L["STRING_TOTAL"] = "Gesamt"
 L["STRING_TRANSLATE_LANGUAGE"] = "Hilf mit bei der Details!-Übersetzung"
 L["STRING_TUTORIAL_FULLY_DELETE_WINDOW"] = [=[Du hast ein Fenster geschlossen, du kannst es jederzeit erneut öffnen.
 Um ein Fenster komplett zu löschen, gehe zu den Optionen  -> Fenster: Allgemein -> Löschen.]=]
-L["STRING_TUTORIAL_OVERALL1"] = "Anpassen der Gesamteinstellungen auf dem Options Feld. > PvE/PvP"
+L["STRING_TUTORIAL_OVERALL1"] = "Anpassen der Gesamteinstellungen auf dem Optionsmenü > PvE/PvP"
 L["STRING_UNKNOW"] = "Unbekannt"
 L["STRING_UNKNOWSPELL"] = "Unbekannter Zauber"
 L["STRING_UNLOCK"] = [=[Fenstergruppe auflösen

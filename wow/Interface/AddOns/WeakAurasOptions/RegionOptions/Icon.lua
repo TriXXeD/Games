@@ -291,7 +291,7 @@ local function createOptions(id, data)
     },
     keepAspectRatio = {
       type = "toggle",
-      name = "Keep Aspect Ratio",
+      name = L["Keep Aspect Ratio"],
       order = 49.1
     },
     stickyDuration = {
@@ -306,11 +306,6 @@ local function createOptions(id, data)
       hidden = function() return not WeakAuras.CanHaveTooltip(data) end,
       order = 49.5
     },
-    spacer = {
-      type = "header",
-      name = "",
-      order = 50
-    }
   };
 
   local function hideCustomTextEditor()
@@ -320,9 +315,10 @@ local function createOptions(id, data)
 
   WeakAuras.AddCodeOption(options, data, L["Custom Function"], "customText", 43.2,  hideCustomTextEditor, {"customText"}, false);
 
-  options = WeakAuras.AddPositionOptions(options, id, data);
-
-  return options;
+  return {
+    icon = options,
+    position = WeakAuras.PositionOptions(id, data),
+  };
 end
 
 local function createThumbnail(parent)

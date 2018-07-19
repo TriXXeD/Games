@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0217,
+	["LastVersion"] = 2.0218,
 	["LastPlayerFullName"] = "Trìxxed-Ravencrest",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,
@@ -25,14 +25,15 @@ PawnOptions = {
 		[128861] = {
 			["Relics"] = {
 				{
+					["ItemLevel"] = 56,
 					["Type"] = "Wind",
 				}, -- [1]
 				{
-					["ItemLevel"] = 49,
+					["ItemLevel"] = 64,
 					["Type"] = "Arcane",
 				}, -- [2]
 				{
-					["ItemLevel"] = 49,
+					["ItemLevel"] = 55,
 					["Type"] = "Iron",
 				}, -- [3]
 			},

@@ -56,14 +56,20 @@
 	local CONST_BUTTON_TEMPLATE = gump:GetTemplate ("button", "OPTIONS_BUTTON_TEMPLATE")
 	local CONST_TEXTENTRY_TEMPLATE = gump:GetTemplate ("button", "OPTIONS_BUTTON_TEMPLATE")
 	
-	gump:InstallTemplate ("button", "DETAILS_CUSTOMDISPLAY_CODE_BUTTONS", {
-		backdrop = {edgeFile = [[Interface\Buttons\WHITE8X8]], edgeSize = 1, bgFile = [[Interface\Tooltips\UI-Tooltip-Background]], tileSize = 64, tile = true},
-		backdropcolor = {1, 1, 1, .5},
-		backdropbordercolor = {0, 0, 0, 1},
-		textcolor = "white",
-		textsize = 10,
-		icon = {texture = [[Interface\BUTTONS\UI-GuildButton-PublicNote-Up]]},
-	})
+	gump:InstallTemplate ("button", "DETAILS_CUSTOMDISPLAY_CODE_BUTTONS", 
+		{
+			icon = {texture = [[Interface\BUTTONS\UI-GuildButton-PublicNote-Up]]},
+			width = 160,
+		}, 
+		"DETAILS_PLUGIN_BUTTON_TEMPLATE"
+	)
+	
+	gump:InstallTemplate ("button", "DETAILS_CUSTOMDISPLAY_REGULAR_BUTTON", 
+		{
+			width = 130,
+		}, 
+		"DETAILS_PLUGIN_BUTTON_TEMPLATE"
+	)
 	
 	gump:InstallTemplate ("button", "DETAILS_CUSTOMDISPLAY_CODE_BOX", {
 		backdrop = {edgeFile = [[Interface\Buttons\WHITE8X8]], edgeSize = 1, bgFile = [[Interface\Tooltips\UI-Tooltip-Background]], tileSize = 64, tile = true},
@@ -87,6 +93,7 @@
 	local CONST_CODETEXTENTRYEXPANDED_TEMPLATE = gump:GetTemplate ("button", "DETAILS_CUSTOMDISPLAY_CODE_BOX_EXPANDED")
 	local CONST_CODETEXTENTRYBUTTON_TEMPLATE = gump:GetTemplate ("button", "DETAILS_CUSTOMDISPLAY_CODE_BOX_BUTTON")
 	local CONST_CODETEXTENTRY_OPENCODEBUTTONS_TEMPLATE = gump:GetTemplate ("button", "DETAILS_CUSTOMDISPLAY_CODE_BUTTONS")
+	local CONST_REGULAR_BUTTON_TEMPLATE = gump:GetTemplate ("button", "DETAILS_CUSTOMDISPLAY_REGULAR_BUTTON")
 	
 	local atributos = _detalhes.atributos
 	local sub_atributos = _detalhes.sub_atributos
@@ -247,8 +254,8 @@
 							--loop end
 							
 							--if not managed inside the loop, get the values of total, top and amount
-							total, top = Container:GetTotalAndHighestValue()
-							amount = Container:GetNumActors()
+							total, top = CustomContainer:GetTotalAndHighestValue()
+							amount = CustomContainer:GetNumActors()
 							
 							--return the values
 							return total, top, amount
@@ -744,7 +751,9 @@
 				local button = gump:NewButton (self, nil, "$parent" .. name, nil, CONST_MENU_WIDTH, CONST_MENU_HEIGHT, clickfunc, param1, param2, nil, label)
 				button:SetPoint ("topleft", self, "topleft", CONST_MENU_X_POSITION, CONST_MENU_Y_POSITION + ((index-1)*-23))
 				
-				button:SetTemplate (CONST_BUTTON_TEMPLATE)
+				--button:SetTemplate (CONST_BUTTON_TEMPLATE)
+				button:SetTemplate (gump:GetTemplate ("button", "DETAILS_PLUGIN_BUTTON_TEMPLATE"))
+				button:SetWidth (160)
 				button:SetIcon (icon, CONST_MENU_HEIGHT-4, CONST_MENU_HEIGHT-4, "overlay", {.1, .9, .1, .9}, nil, 4)
 				
 				button:SetHook ("OnEnter", onenter)
@@ -1070,12 +1079,12 @@
 				local cancel_button = gump:NewButton (box0, nil, "$parentCancelButton", "cancelbutton", 130, 20, DetailsCustomPanel.CancelFunc, nil, nil, nil, Loc ["STRING_CUSTOM_CANCEL"])
 				--cancel_button:SetPoint ("bottomleft", attribute_box, "bottomleft", 2, 0)
 				cancel_button:SetPoint ("topleft", icon_label, "bottomleft", 0, -10)
-				cancel_button:SetTemplate (CONST_BUTTON_TEMPLATE)
+				cancel_button:SetTemplate (CONST_REGULAR_BUTTON_TEMPLATE)
 				
 			--accept
 				local accept_button = gump:NewButton (box0, nil, "$parentAcceptButton", "acceptbutton", 130, 20, DetailsCustomPanel.AcceptFunc, nil, nil, nil, Loc ["STRING_CUSTOM_CREATE"])
 				accept_button:SetPoint ("left", cancel_button, "right", 2, 0)
-				accept_button:SetTemplate (CONST_BUTTON_TEMPLATE)
+				accept_button:SetTemplate (CONST_REGULAR_BUTTON_TEMPLATE)
 				
 				cancel_button:SetFrameLevel (500)
 				accept_button:SetFrameLevel (500)
@@ -1717,6 +1726,21 @@
 				code_editor:SetPoint ("topleft", custom_window, "topleft", CONST_MENU_X_POSITION, CONST_EDITBOX_Y_POSITION)
 				code_editor:SetFrameLevel (custom_window:GetFrameLevel()+4)
 				code_editor:SetBackdrop (nil)
+				code_editor:HookScript ("OnUpdate", function()
+					local script = code_editor:GetText()
+					local func, errortext = loadstring (script)
+					if (not func) then
+						local firstLine = strsplit ("\n", script, 2)
+						errortext = errortext:gsub (firstLine, "")
+						errortext = errortext:gsub ("%[string \"", "")
+						errortext = errortext:gsub ("...\"]:", "")
+						errortext = "Line " .. errortext
+						DetailsCustomPanel.ErrorString.text = errortext
+					else
+						DetailsCustomPanel.ErrorString.text = ""
+					end
+					--
+				end)
 				
 				--> create a background area where the code editor is
 				local codeEditorBackground = gump:NewButton (custom_window, nil, nil, nil, 1, 1, function()end)
@@ -1824,6 +1848,11 @@
 				local open_API = gump:NewButton (supportFrame, nil, "$parentOpenAPI", "openAPIbutton", CONST_EDITBOX_BUTTON_WIDTH, CONST_EDITBOX_BUTTON_HEIGHT, _detalhes.OpenAPI, nil, nil, nil, "API")
 				open_API:SetPoint ("left", apply1, "right", 2, 0)
 				open_API:SetTemplate (CONST_CODETEXTENTRYBUTTON_TEMPLATE)
+				
+				local errorString = gump:CreateLabel (supportFrame)
+				errorString:SetPoint ("left", open_API, "right", 10, 0)
+				errorString.color = "red"
+				DetailsCustomPanel.ErrorString = errorString
 				
 				code_editor:SetScript ("OnShow", function()
 					expand:Show()

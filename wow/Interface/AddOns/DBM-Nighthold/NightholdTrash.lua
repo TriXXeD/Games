@@ -1,7 +1,7 @@
 local mod	= DBM:NewMod("NightholdTrash", "DBM-Nighthold")
 local L		= mod:GetLocalizedStrings()
 
-mod:SetRevision(("$Revision: 17204 $"):sub(12, -3))
+mod:SetRevision(("$Revision: 17522 $"):sub(12, -3))
 --mod:SetModelID(47785)
 mod:SetZone()
 mod.isTrashMod = true
@@ -65,7 +65,7 @@ function mod:SPELL_CAST_START(args)
 	elseif spellId == 231005 then
 		specWarnArcaneEmanations:Show()
 		specWarnArcaneEmanations:Play("shockwave")
-	elseif spellId == 143807 and self:CheckInterruptFilter(args.sourceGUID) then
+	elseif spellId == 143807 and self:CheckInterruptFilter(args.sourceGUID, false, true) then
 		specWarnArcaneBlast:Show(args.sourceName)
 		specWarnArcaneBlast:Play("kickcast")
 	elseif spellId == 231737 and self:AntiSpam(4, 4) then
@@ -174,7 +174,7 @@ function mod:SPELL_AURA_APPLIED(args)
 						specWarnSearingWounds:Play("stackhigh")
 					end
 				else
-					if not UnitDebuff("player", args.spellName) and not UnitIsDeadOrGhost("player") then
+					if not DBM:UnitDebuff("player", args.spellName) and not UnitIsDeadOrGhost("player") then
 						specWarnSearingWoundsOther:Show(args.destName)
 						specWarnSearingWoundsOther:Play("changemt")
 					end

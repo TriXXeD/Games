@@ -1,7 +1,7 @@
 --[[
 	Auctioneer - Price Level Utility module
-	Version: 7.5.5724 (TasmanianThylacine)
-	Revision: $Id: ScanProgress.lua 4979 2010-10-31 10:59:55Z Prowell $
+	Version: 7.7.6000 (SwimmingSeadragon)
+	Revision: $Id: ScanProgress.lua 6000 2018-07-17 14:09:34Z none $
 	URL: http://auctioneeraddon.com/
 
 	This is an Auctioneer module that adds a textual scan progress
@@ -241,4 +241,4 @@ function private.ConfigChanged()
 	end
 end
 
-AucAdvanced.RegisterRevision("$URL: http://svn.norganna.org/auctioneer/branches/7.5/Auc-Util-ScanProgress/ScanProgress.lua $", "$Rev: 4979 $")
+AucAdvanced.RegisterRevision("$URL: /ScanProgress.lua $", "$Rev: 6000 $")

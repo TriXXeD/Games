@@ -127,7 +127,7 @@
 		if (_detalhes.host_by) then
 			return
 		end
-	
+		
 		if (realm ~= _GetRealmName()) then
 			player = player .."-"..realm
 		end
@@ -296,7 +296,7 @@
 			
 			local IDs = _detalhes.storage:GetIDsToGuildSync()
 			
-			if (IDs [1]) then
+			if (IDs and IDs [1]) then
 				local from = UnitName ("player")
 				local realm = GetRealmName()
 				_detalhes:SendCommMessage (CONST_DETAILS_PREFIX, _detalhes:Serialize (CONST_GUILD_SYNC, from, realm, _detalhes.realversion, "L", IDs), "WHISPER", chr_name)
@@ -308,7 +308,7 @@
 		elseif (type == "L") then --RoC - the player received the IDs list and send back which IDs he doesn't have
 			local MissingIDs = _detalhes.storage:CheckMissingIDsToGuildSync (data)
 			
-			if (MissingIDs [1]) then
+			if (MissingIDs and MissingIDs [1]) then
 				local from = UnitName ("player")
 				local realm = GetRealmName()
 				_detalhes:SendCommMessage (CONST_DETAILS_PREFIX, _detalhes:Serialize (CONST_GUILD_SYNC, from, realm, _detalhes.realversion, "G", MissingIDs), "WHISPER", chr_name)
@@ -318,7 +318,7 @@
 		elseif (type == "G") then --RoS - the 'server' send the encounter dps table to the player which requested
 			local EncounterData = _detalhes.storage:BuildEncounterDataToGuildSync (data)
 			
-			if (EncounterData [1]) then
+			if (EncounterData and EncounterData [1]) then
 				local task = C_Timer.NewTicker (4, function (task)
 					task.TickID = task.TickID + 1
 					local data = task.EncounterData [task.TickID]
@@ -403,15 +403,20 @@
 			_detalhes:Msg ("(debug) network received:", prefix, "length:",string.len (data))
 		end
 		
+		--event
+		_detalhes:SendEvent ("COMM_EVENT_RECEIVED", nil, string.len (data), prefix, player, realm, dversion, arg6, arg7, arg8, arg9)
+		
 		--print ("comm received", prefix, _detalhes.network.functions [prefix])
 		
 		local func = _detalhes.network.functions [prefix]
 		if (func) then
+			--todo: this call should be safe
 			func (player, realm, dversion, arg6, arg7, arg8, arg9)
 		else
 			func = plugins_registred [prefix]
 			--print ("plugin comm?", func, player, realm, dversion, arg6, arg7, arg8, arg9)
 			if (func) then
+				--todo: this call should be safe
 				func (player, realm, dversion, arg6, arg7, arg8, arg9)
 			else
 				if (_detalhes.debug) then
@@ -420,8 +425,17 @@
 			end
 		end
 	end
-
+	
 	_detalhes:RegisterComm ("DTLS", "CommReceived")
+	
+	--> hook the send comm message so we can trigger events when sending data
+	--> this adds overhead, but easily catches all outgoing comm messages
+	hooksecurefunc (Details, "SendCommMessage", function (context, addonPrefix, serializedData, channel)
+		--unpack data
+		local prefix, player, realm, dversion, arg6, arg7, arg8, arg9 =  _select (2, _detalhes:Deserialize (serializedData))
+		--send the event
+		_detalhes:SendEvent ("COMM_EVENT_SENT", nil, string.len (serializedData), prefix, player, realm, dversion, arg6, arg7, arg8, arg9)
+	end)
 	
 	function _detalhes:RegisterPluginComm (prefix, func)
 		assert (type (prefix) == "string" and string.len (prefix) >= 2 and string.len (prefix) <= 4, "RegisterPluginComm expects a string with 2-4 characters on #1 argument.")
@@ -669,13 +683,19 @@
 	}
 
 	function _detalhes:IsInCity()
-		SetMapToCurrentZone()
-		local mapFileName, _, _, _, microDungeonMapName = GetMapInfo()
-		
-		if (city_zones [mapFileName]) then
-			return true
-		elseif (microDungeonMapName and type (microDungeonMapName) == "string" and sub_zones [microDungeonMapName]) then
-			return true
+		if (SetMapToCurrentZone and SetMapToCurrentZone()) then
+			local mapID = C_Map.GetBestMapForUnit ("player")
+			if (not mapID) then
+				--print ("Details! exeption handled: zone has no map")
+				return
+			end
+			local mapFileName, _, _, _, microDungeonMapName = C_Map.GetMapInfo (mapID)
+			
+			if (city_zones [mapFileName]) then
+				return true
+			elseif (microDungeonMapName and type (microDungeonMapName) == "string" and sub_zones [microDungeonMapName]) then
+				return true
+			end
 		end
 	end
 

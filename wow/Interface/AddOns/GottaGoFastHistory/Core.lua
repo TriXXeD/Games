@@ -13,7 +13,7 @@ function GottaGoFastHistory:OnEnable()
     -- Called when the addon is enabled
 
     -- Register Events
-    RegisterAddonMessagePrefix("GGFHistory");
+    C_ChatInfo.RegisterAddonMessagePrefix("GGFHistory");
     self:RegisterChatCommand("ggfh", "ChatCommand");
     self:RegisterChatCommand("GottaGoFastHistory", "ChatCommand");
     self:RegisterComm("GGFHistory", "ChatComm");

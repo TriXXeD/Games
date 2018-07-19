@@ -9,7 +9,6 @@ local SS
 local Name, Level, GuildName, GuildRank, month, week, AnimTime, testM
 local Class, ClassToken = T.UnitClass("player")
 local Race, RaceToken = T.UnitRace("player")
-local FactionToken, Faction = T.UnitFactionGroup("player")
 local Color = RAID_CLASS_COLORS[ClassToken]
 local CrestPath = [[Interface\AddOns\ElvUI_SLE\media\textures\crests\]]
 local TipsElapsed, TipNum, TipThrottle, OldTip, degree = 0, 1, 15, 0, 0
@@ -73,7 +72,6 @@ function S:Setup()
 	SS.ScrollFrame:SetMaxLines(1)
 	SS.ScrollFrame:SetSpacing(2)
 	SS.ScrollFrame:SetWidth(SS.Bottom:GetWidth()/2)
-	-- SS.ScrollFrame:CreateBackdrop()
 	SS.ScrollFrame:LevelUpBG() --Creating neat stuff for teh tips
 
 	--Crests, emblems and stuff
@@ -83,7 +81,7 @@ function S:Setup()
 	SS.ExPack.texture:SetAllPoints(SS.ExPack)
 	SS.ExPack.texture:SetTexture([[Interface\Glues\Common\LegionLogo.blp]])
 	SS.ExPack.texture:SetTexCoord(0, 1, 0, 0.25)
-	SS.FactCrest:SetTexture(CrestPath..FactionToken)
+	SS.FactCrest:SetTexture(CrestPath..SLE.myfaction)
 	SS.RaceCrest = SS:CreateTexture(nil, 'ARTWORK')
 	SS.RaceCrest:SetTexture(CrestPath..RaceToken)
 	SS.sle = SS:CreateTexture(nil, 'OVERLAY')
@@ -111,17 +109,12 @@ function S:Setup()
 	SS.timePassed:ClearAllPoints()
 	SS.timePassed:Point("LEFT", SS.AFKtitle, "RIGHT", 4, -1)
 	SS.ExPack:Point("CENTER", SS.Top, "BOTTOM", 0, 0)
-	-- SS.FactCrest:ClearAllPoints()
-	-- SS.FactCrest:Point("CENTER", SS.Top, "BOTTOM", -(T.GetScreenWidth()/6), 0)
-	-- SS.RaceCrest:Point("CENTER", SS.Top, "BOTTOM", (T.GetScreenWidth()/6), 0)
-	-- SS.Date:Point("RIGHT", SS.Top, "RIGHT", -40, 10)
 	SS.Time:Point("TOP", SS.Date, "BOTTOM", 0, -2)
 	SS.Elv:SetPoint("CENTER", SS.Bottom, "TOP", -(T.GetScreenWidth()/10), 0)
 	SS.sle:SetPoint("CENTER", SS.Bottom, "TOP", (T.GetScreenWidth()/10), 0)
 	SS.PlayerName:ClearAllPoints()
 	SS.Guild:ClearAllPoints()
 	SS.GuildRank:ClearAllPoints()
-	-- SS.PlayerInfo:Point("RIGHT", SS.Date, "LEFT", -100, 0)
 	SS.PlayerName:Point("BOTTOM", SS.PlayerInfo, "TOP", 0, 2)
 	SS.Guild:SetPoint("TOP", SS.PlayerInfo, "BOTTOM", 0, -2)
 	SS.GuildRank:SetPoint("TOP", SS.Guild, "BOTTOM", 0, -2)
@@ -473,11 +466,6 @@ function S:Initialize()
 	S:ModelHolderPos()
 	
 	function S:ForUpdateAll()
-		-- if not E.private.sle.module.screensaver then return end
-		if type(E.db.sle.screensaver.crest) == "number" then
-			E.db.sle.screensaver.crest = nil
-			E.db.sle.screensaver.crest = P.sle.screensaver.crest
-		end
 		S.db = E.db.sle.screensaver
 		S:SetupAnimations()
 		S:Hide()

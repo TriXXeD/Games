@@ -1,16 +1,48 @@
+VER 3 0100000000000005 "CoH" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists] Circle of Healing; Circle of Healing
+END
+VER 3 0100000000000007 "Dispel Magic" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists] Dispel Magic; Dispel Magic
+END
 VER 3 0100000000000001 "Flash Heal" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [@mouseover] Flash Heal;Flash Heal
+/cast [@mouseover,exists] Flash Heal;Flash Heal
+END
+VER 3 010000000000000A "Guardian Spirit" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists] Guardian Spirit; Guardian Spirit
 END
 VER 3 0100000000000002 "Heal" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [@target] Heal; Heal
+/cast [@mouseover,exists] Heal; Heal
+END
+VER 3 0100000000000008 "HW: Serenity" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists] Holy Word: Serenity; Holy Word: Serenity
+END
+VER 3 010000000000000C "Light of T'uure" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists] Light of T'uure; Light of T'uure
+END
+VER 3 0100000000000009 "LoF" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists] Leap of Faith; Leap of Faith
 END
 VER 3 0100000000000003 "PoM" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [@target] Prayer of Mending; Prayer of Mending
+/cast [@mouseover,exists] Prayer of Mending; Prayer of Mending
 END
 VER 3 0100000000000004 "Prayer of Healin" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [@target] Prayer of Healing; Prayer of Healing
+/cast [@mouseover,exists] Prayer of Healing; Prayer of Healing
+END
+VER 3 0100000000000006 "Purify" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists] Purify; Purify
+END
+VER 3 010000000000000B "Renew" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists] Renew; Renew
 END

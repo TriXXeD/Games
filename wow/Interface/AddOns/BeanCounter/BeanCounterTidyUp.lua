@@ -1,7 +1,7 @@
 --[[
 	Auctioneer Addon for World of Warcraft(tm).
-	Version: 7.5.5724 (TasmanianThylacine)
-	Revision: $Id: BeanCounterTidyUp.lua 5658 2016-08-13 14:25:12Z brykrys $
+	Version: 7.7.6000 (SwimmingSeadragon)
+	Revision: $Id: BeanCounterTidyUp.lua 6000 2018-07-17 14:09:34Z none $
 	URL: http://auctioneeraddon.com/
 
 	BeanCounterTidyUp - Database clean up and maintenance functions
@@ -28,7 +28,7 @@
 		since that is it's designated purpose as per:
 		http://www.fsf.org/licensing/licenses/gpl-faq.html#InterpreterIncompat
 ]]
-LibStub("LibRevision"):Set("$URL: http://svn.norganna.org/auctioneer/branches/7.5/BeanCounter/BeanCounterTidyUp.lua $","$Rev: 5658 $","5.1.DEV.", 'auctioneer', 'libs')
+LibStub("LibRevision"):Set("$URL: /BeanCounterTidyUp.lua $","$Rev: 6000 $","5.1.DEV.", 'auctioneer', 'libs')
 
 local lib = BeanCounter
 local private = lib.Private

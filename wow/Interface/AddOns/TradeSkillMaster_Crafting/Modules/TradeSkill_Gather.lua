@@ -840,7 +840,7 @@ function Gather:Update(firstRun)
 		TSM.db.factionrealm.gathering.neededMats = neededMats
 		TSM.db.factionrealm.gathering.shortItems = shortItems
 	end
-
+	
 	local stData = {}
 	for itemString, quantity in pairs(neededMats) do
 		local need = max(quantity - TSMAPI.Inventory:GetTotalQuantity(itemString), 0)
@@ -1163,7 +1163,7 @@ function Gather:Update(firstRun)
 	end
 
 	private.gatheringFrame.interFrame.interSelST:SetData(stData3)
-
+	
 	-- populate intermediate crafts craftable frame
 	local stData4 = {}
 	local headerText, rowText
@@ -1180,7 +1180,6 @@ function Gather:Update(firstRun)
 				for itemString, quantity in pairs(craft.mats) do
 					numCanCraft = max(min(numCanCraft, floor((bagTotals[itemString] or 0) / quantity)), 0)
 				end
-				numCanCraft = min(spellQuantity, floor(numCanCraft / craft.numResult))
 				if numCanCraft > 0 and TSM.db.factionrealm.gathering.selectedSourceStatus[spellID] then
 					if not headerAdded then
 						headerText = format(" %s|r", profession)
@@ -1336,3 +1335,4 @@ function private.SortSources(a, b)
 
 	return a.name < b.name
 end
+

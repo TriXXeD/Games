@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0217,
+	["LastVersion"] = 2.0218,
 	["LastPlayerFullName"] = "Achilina-Draenor",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,
@@ -34,7 +34,7 @@ PawnOptions = {
 					["Type"] = "Wind",
 				}, -- [2]
 				{
-					["ItemLevel"] = 49,
+					["ItemLevel"] = 61,
 					["Type"] = "Iron",
 				}, -- [3]
 			},
@@ -47,7 +47,7 @@ PawnOptions = {
 					["Type"] = "Iron",
 				}, -- [1]
 				{
-					["ItemLevel"] = 52,
+					["ItemLevel"] = 56,
 					["Type"] = "Blood",
 				}, -- [2]
 				{

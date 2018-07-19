@@ -91,7 +91,7 @@ WeakAurasTemplates: disabled
 BugSack: disabled
 Enchantrix-Barker: disabled
 Enchantrix: disabled
-TradeSkillMaster_Mailing: enabled
+TradeSkillMaster_Mailing: disabled
 TradeSkillMaster_Warehousing: disabled
 TradeSkillMaster_Additions: disabled
 TradeSkillMaster_ItemTracker: disabled
@@ -109,3 +109,9 @@ MyRareFinder: disabled
 TradeSkillMaster_Destroying: disabled
 xCT+: enabled
 EnemyGrid: disabled
+TradeSkillMaster_Accounting: disabled
+TradeSkillMaster_AuctionDB: disabled
+TradeSkillMaster_Auctioning: disabled
+TradeSkillMaster_Crafting: disabled
+TradeSkillMaster_Shopping: disabled
+TradeSkillMaster_Vendoring: disabled

@@ -1,7 +1,7 @@
 ﻿--[[
 	Enchantrix Addon for World of Warcraft(tm).
-	Version: 7.5.5724 (TasmanianThylacine)
-	Revision: $Id: EnxMain.lua 5644 2016-08-06 21:39:02Z ccox $
+	Version: 7.7.6000 (SwimmingSeadragon)
+	Revision: $Id: EnxMain.lua 6000 2018-07-17 14:09:34Z none $
 	URL: http://enchantrix.org/
 
 	This is an addon for World of Warcraft that add a list of what an item
@@ -30,7 +30,7 @@
 		http://www.fsf.org/licensing/licenses/gpl-faq.html#InterpreterIncompat
 
 ]]
-Enchantrix_RegisterRevision("$URL: http://svn.norganna.org/auctioneer/branches/7.5/Enchantrix/EnxMain.lua $", "$Rev: 5644 $")
+Enchantrix_RegisterRevision("$URL: /EnxMain.lua $", "$Rev: 6000 $")
 
 -- Local functions
 local addonLoaded
@@ -41,7 +41,7 @@ local spellTargetItemHook
 local useItemByNameHook
 local onEvent
 
-Enchantrix.Version = "7.5.5724"
+Enchantrix.Version = "7.7.6000"
 if (Enchantrix.Version == "<".."%version%>") then
 	Enchantrix.Version = "4.0.DEV"
 end
@@ -87,7 +87,7 @@ function addonLoaded(hookArgs, event, addOnName)
 	Enchantrix.AutoDisenchant.AddonLoaded()
 	Enchantrix.MiniIcon.Reposition()
 
-	Enchantrix.Revision = Enchantrix.Util.GetRevision("$Revision: 5644 $")
+	Enchantrix.Revision = Enchantrix.Util.GetRevision("$Rev: 6000 $")
 	for name, obj in pairs(Enchantrix) do
 		if type(obj) == "table" then
 			Enchantrix.Revision = math.max(Enchantrix.Revision, Enchantrix.Util.GetRevision(obj.Revision))
@@ -409,11 +409,8 @@ function onEvent(funcVars, event, player, spell, rank, target)
 					if reagentID then
 						-- for prospecting and milling, we need to save the whole list
 						reagentList[ reagentID ] = (reagentList[ reagentID ] or 0) + quantity
-						if (isDisenchant and i == 1) then
-							-- disenchant only yields one item, so we can pass it in one at a time
-							-- also, we want to ignore bonus materials, so only take the first one
-							Enchantrix.Storage.SaveDisenchant(sig, reagentID, quantity, itemLink)
-						end
+-- disenchanting in 7.3.5 will result in more than one item, sometimes 3! (epic level 66 is great example)
+						Enchantrix.Storage.SaveDisenchant(sig, reagentID, quantity, itemLink)
 					end
 				end
 			end

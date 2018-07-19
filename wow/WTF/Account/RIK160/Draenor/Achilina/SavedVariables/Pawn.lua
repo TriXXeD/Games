@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0217,
+	["LastVersion"] = 2.0219,
 	["LastPlayerFullName"] = "Achilina-Draenor",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,
@@ -8,53 +8,19 @@ PawnOptions = {
 		[128289] = {
 			["Relics"] = {
 				{
-					["ItemLevel"] = 56,
+					["ItemLevel"] = 21,
 					["Type"] = "Iron",
 				}, -- [1]
 				{
-					["ItemLevel"] = 58,
+					["ItemLevel"] = 23,
 					["Type"] = "Blood",
 				}, -- [2]
 				{
-					["ItemLevel"] = 62,
+					["ItemLevel"] = 18,
 					["Type"] = "Fire",
 				}, -- [3]
 			},
 			["Name"] = "Scale of the Earth-Warder",
-		},
-		[128908] = {
-			["Relics"] = {
-				{
-					["ItemLevel"] = 62,
-					["Type"] = "Fire",
-				}, -- [1]
-				{
-					["ItemLevel"] = 58,
-					["Type"] = "Wind",
-				}, -- [2]
-				{
-					["ItemLevel"] = 49,
-					["Type"] = "Iron",
-				}, -- [3]
-			},
-			["Name"] = "Warswords of the Valarjar",
-		},
-		[128910] = {
-			["Relics"] = {
-				{
-					["ItemLevel"] = 58,
-					["Type"] = "Iron",
-				}, -- [1]
-				{
-					["ItemLevel"] = 52,
-					["Type"] = "Blood",
-				}, -- [2]
-				{
-					["ItemLevel"] = 56,
-					["Type"] = "Shadow",
-				}, -- [3]
-			},
-			["Name"] = "Strom'kar, the Warbreaker",
 		},
 	},
 	["LastKeybindingsSet"] = 1,

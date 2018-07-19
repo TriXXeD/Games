@@ -67,17 +67,23 @@ E.Options.args.general = {
 					order = 6,
 					name = L["Vendor Grays"],
 					desc = L["Automatically vendor gray items when visiting a vendor."],
-					type = 'toggle',
+					type = "toggle",
+				},
+				vendorGraysDetails = {
+					order = 7,
+					name = L["Vendor Gray Detailed Report"],
+					desc = L["Displays a detailed report of every item sold when enabled."],
+					type = "toggle",
 				},
 				autoRoll = {
-					order = 7,
+					order = 8,
 					name = L["Auto Greed/DE"],
 					desc = L["Automatically select greed or disenchant (when available) on green quality items. This will only work if you are the max level."],
 					type = 'toggle',
 					disabled = function() return not E.private.general.lootRoll end
 				},
 				loot = {
-					order = 8,
+					order = 9,
 					type = "toggle",
 					name = L["Loot"],
 					desc = L["Enable/Disable the loot frame."],
@@ -85,7 +91,7 @@ E.Options.args.general = {
 					set = function(info, value) E.private.general.loot = value; E:StaticPopup_Show("PRIVATE_RL") end
 				},
 				lootRoll = {
-					order = 9,
+					order = 10,
 					type = "toggle",
 					name = L["Loot Roll"],
 					desc = L["Enable/Disable the loot roll frame."],
@@ -135,7 +141,6 @@ E.Options.args.general = {
 					desc = L["When you go AFK display the AFK screen."],
 					get = function(info) return E.db.general.afk end,
 					set = function(info, value) E.db.general.afk = value; E:GetModule('AFK'):Toggle() end
-
 				},
 				enhancedPvpMessages = {
 					order = 17,
@@ -482,80 +487,8 @@ E.Options.args.general = {
 				},
 			},
 		},
-		cooldown = {
-			type = "group",
-			order = 7,
-			name = L["Cooldown Text"],
-			get = function(info)
-				local t = E.db.cooldown[ info[#info] ]
-				local d = P.cooldown[info[#info]]
-				return t.r, t.g, t.b, t.a, d.r, d.g, d.b
-			end,
-			set = function(info, r, g, b)
-				local t = E.db.cooldown[ info[#info] ]
-				t.r, t.g, t.b = r, g, b
-				E:UpdateCooldownSettings();
-			end,
-			args = {
-				header = {
-					order = 1,
-					type = "header",
-					name = L["Cooldown Text"],
-				},
-				enable = {
-					type = "toggle",
-					order = 2,
-					name = L["Enable"],
-					desc = L["Display cooldown text on anything with the cooldown spiral."],
-					get = function(info) return E.private.cooldown[ info[#info] ] end,
-					set = function(info, value) E.private.cooldown[ info[#info] ] = value; E:StaticPopup_Show("PRIVATE_RL") end
-				},
-				threshold = {
-					type = 'range',
-					order = 3,
-					name = L["Low Threshold"],
-					desc = L["Threshold before text turns red and is in decimal form. Set to -1 for it to never turn red"],
-					min = -1, max = 20, step = 1,
-					get = function(info) return E.db.cooldown[ info[#info] ] end,
-					set = function(info, value)
-						E.db.cooldown[ info[#info] ] = value
-						E:UpdateCooldownSettings();
-					end,
-				},
-				expiringColor = {
-					type = 'color',
-					order = 4,
-					name = L["Expiring"],
-					desc = L["Color when the text is about to expire"],
-				},
-				secondsColor = {
-					type = 'color',
-					order = 5,
-					name = L["Seconds"],
-					desc = L["Color when the text is in the seconds format."],
-				},
-				minutesColor = {
-					type = 'color',
-					order = 6,
-					name = L["Minutes"],
-					desc = L["Color when the text is in the minutes format."],
-				},
-				hoursColor = {
-					type = 'color',
-					order = 7,
-					name = L["Hours"],
-					desc = L["Color when the text is in the hours format."],
-				},
-				daysColor = {
-					type = 'color',
-					order = 8,
-					name = L["Days"],
-					desc = L["Color when the text is in the days format."],
-				},
-			},
-		},
 		chatBubbles = {
-			order = 8,
+			order = 7,
 			type = "group",
 			name = L["Chat Bubbles"],
 			args = {
@@ -608,10 +541,18 @@ E.Options.args.general = {
 						["THICKOUTLINE"] = "THICKOUTLINE",
 					},
 				},
+				name = {
+					order = 6,
+					type = "toggle",
+					name = L["Chat Bubble Names"],
+					desc = L["Display the name of the unit on the chat bubble. This will not work if backdrop is disabled or when you are in an instance."],
+					get = function(info) return E.private.general.chatBubbleName end,
+					set = function(info, value) E.private.general.chatBubbleName = value; E:StaticPopup_Show("PRIVATE_RL") end,
+				},
 			},
 		},
 		objectiveFrameGroup = {
-			order = 9,
+			order = 8,
 			type = "group",
 			name = L["Objective Frame"],
 			args = {
@@ -645,7 +586,7 @@ E.Options.args.general = {
 			},
 		},
 		threatGroup = {
-			order = 10,
+			order = 9,
 			type = "group",
 			name = L["Threat"],
 			args = {

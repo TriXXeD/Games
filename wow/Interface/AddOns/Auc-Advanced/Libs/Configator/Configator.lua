@@ -1,7 +1,7 @@
 --[[
 	Configator - A library to help you create a gui config
-	Version: 7.5.5724 (TasmanianThylacine)
-	Revision: $Id: Configator.lua 406 2016-07-31 13:26:09Z brykrys $
+	Version: 7.7.6000 (SwimmingSeadragon)
+	Revision: $Id: Configator.lua 6000 2018-07-17 14:09:34Z none $
 	URL: http://auctioneeraddon.com/dl/
 
 	License:
@@ -54,11 +54,11 @@ USAGE:
 ]]
 
 local LIBRARY_VERSION_MAJOR = "Configator"
-local LIBRARY_VERSION_MINOR = 32
+local LIBRARY_VERSION_MINOR = 33
 local lib = LibStub:NewLibrary(LIBRARY_VERSION_MAJOR, LIBRARY_VERSION_MINOR)
 if not lib then return end
 
-LibStub("LibRevision"):Set("$URL: http://svn.norganna.org/libs/trunk/Configator/Configator.lua $","$Rev: 406 $","5.1.DEV.", 'auctioneer', 'libs')
+LibStub("LibRevision"):Set("$URL: /Configator.lua $","$Rev: 6000 $","5.1.DEV.", 'auctioneer', 'libs')
 
 local kit = {}
 

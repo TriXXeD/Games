@@ -1,9 +1,10 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0217,
+	["LastVersion"] = 2.0218,
 	["LastPlayerFullName"] = "Trîxxed-Ravencrest",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128911] = {
 			["Relics"] = {
@@ -16,7 +17,7 @@ PawnOptions = {
 					["Type"] = "Frost",
 				}, -- [2]
 				{
-					["ItemLevel"] = 55,
+					["ItemLevel"] = 62,
 					["Type"] = "Life",
 				}, -- [3]
 			},
@@ -29,11 +30,11 @@ PawnOptions = {
 					["Type"] = "Fire",
 				}, -- [1]
 				{
-					["ItemLevel"] = 53,
+					["ItemLevel"] = 61,
 					["Type"] = "Iron",
 				}, -- [2]
 				{
-					["ItemLevel"] = 55,
+					["ItemLevel"] = 62,
 					["Type"] = "Wind",
 				}, -- [3]
 			},
@@ -42,7 +43,7 @@ PawnOptions = {
 		[128935] = {
 			["Relics"] = {
 				{
-					["ItemLevel"] = 31,
+					["ItemLevel"] = 61,
 					["Type"] = "Wind",
 				}, -- [1]
 				{
@@ -50,14 +51,13 @@ PawnOptions = {
 					["Type"] = "Frost",
 				}, -- [2]
 				{
-					["ItemLevel"] = 36,
+					["ItemLevel"] = 61,
 					["Type"] = "Wind",
 				}, -- [3]
 			},
 			["Name"] = "The Fist of Ra-den",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "SHAMAN",

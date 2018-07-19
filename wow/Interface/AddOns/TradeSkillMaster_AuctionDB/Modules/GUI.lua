@@ -278,3 +278,4 @@ function private:UpdateGetAllStatus()
 		private.frame.content.buttonFrame.getAllStatusText:SetText("|cff009900"..L["Ready"])
 	end
 end
+

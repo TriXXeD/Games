@@ -1,15 +1,73 @@
 
 OneRing_Config = {
 	["CharProfiles"] = {
+		["Draenor-Daemonikos"] = "default",
 	},
-	["_GameVersion"] = "7.3.5",
-	["_OPieVersion"] = "Vanilla 1 (3.90)",
+	["_GameVersion"] = "8.0.1",
+	["_OPieVersion"] = "Vanilla 5 (3.93)",
 	["ProfileStorage"] = {
 		["default"] = {
+			["RingAtMouse"] = true,
 		},
 	},
 	["PersistentStorage"] = {
 		["RingKeeper"] = {
+			["WarlockLTS"] = {
+				{
+					"equipmentset", -- [1]
+					"AoE No Seed", -- [2]
+					["sliceToken"] = "ABueslY80x9",
+				}, -- [1]
+				{
+					"equipmentset", -- [1]
+					"Seed Spamm", -- [2]
+					["sliceToken"] = "ABueslY80xA",
+				}, -- [2]
+				{
+					"equipmentset", -- [1]
+					"Multi", -- [2]
+					["sliceToken"] = "ABueslY80xP",
+				}, -- [3]
+				{
+					"equipmentset", -- [1]
+					"Slow ring", -- [2]
+					["sliceToken"] = "ABueslY80xO",
+				}, -- [4]
+				{
+					"equipmentset", -- [1]
+					"Pants", -- [2]
+					["sliceToken"] = "ABueslY80xI",
+				}, -- [5]
+				{
+					"equipmentset", -- [1]
+					"Prydaz", -- [2]
+					["sliceToken"] = "ABueslY80x8",
+				}, -- [6]
+				{
+					"equipmentset", -- [1]
+					"Belt", -- [2]
+					["sliceToken"] = "ABueslY80xU",
+				}, -- [7]
+				{
+					"equipmentset", -- [1]
+					"Execute", -- [2]
+					["sliceToken"] = "ABueszPGdIe",
+				}, -- [8]
+				{
+					"equipmentset", -- [1]
+					"Sephuz+Hood", -- [2]
+					["sliceToken"] = "ABuesbaqBft",
+				}, -- [9]
+				{
+					"equipmentset", -- [1]
+					"Pryd/Seph", -- [2]
+					["sliceToken"] = "ABuesbaqBf1",
+				}, -- [10]
+				["name"] = "Warlock General",
+				["save"] = true,
+				["hotkey"] = "BUTTON4",
+				["limit"] = "WARLOCK",
+			},
 			["OPieFlagStore"] = {
 				["FlushedDefaultColors"] = true,
 			},

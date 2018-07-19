@@ -1193,7 +1193,11 @@ _detalhes.EncounterDetailsTempWindow = function (EncounterDetails)
 		end
 		
 		for _, button in ipairs (BossFrame.AllButtons) do
-			button:SetTemplate (PhaseButtonTemplate)
+			button:SetTemplate (DetailsFrameWork:GetTemplate ("button", "DETAILS_PLUGIN_BUTTON_TEMPLATE"))
+		end
+		
+		if (not BossFrame:IsShown()) then
+			Details:OpenPlugin ("DETAILS_PLUGIN_ENCOUNTER_DETAILS")
 		end
 		
 		BossFrame.DBMBars:Hide()
@@ -1217,7 +1221,7 @@ _detalhes.EncounterDetailsTempWindow = function (EncounterDetails)
 			BossFrame.ShowType = "main"
 			BossFrame.segmentosDropdown:Enable()
 			
-			BossFrame.buttonSwitchNormal:SetTemplate (PhaseButtonTemplateSelected)
+			BossFrame.buttonSwitchNormal:SetTemplate (DetailsFrameWork:GetTemplate ("button", "DETAILS_PLUGIN_BUTTONSELECTED_TEMPLATE"))
 		
 		elseif (to == "spellsauras") then 
 		
@@ -1253,7 +1257,7 @@ _detalhes.EncounterDetailsTempWindow = function (EncounterDetails)
 			BossFrame.DBMBars:Refresh()
 			BossFrame.BigWigsBars:Refresh()
 			
-			BossFrame.buttonSwitchSpellsAuras:SetTemplate (PhaseButtonTemplateSelected)
+			BossFrame.buttonSwitchSpellsAuras:SetTemplate (DetailsFrameWork:GetTemplate ("button", "DETAILS_PLUGIN_BUTTONSELECTED_TEMPLATE"))
 		
 		elseif (to == "emotes") then 
 
@@ -1292,7 +1296,7 @@ _detalhes.EncounterDetailsTempWindow = function (EncounterDetails)
 			
 			BossFrame.segmentosDropdown:Disable()
 			
-			BossFrame.buttonSwitchBossEmotes:SetTemplate (PhaseButtonTemplateSelected)
+			BossFrame.buttonSwitchBossEmotes:SetTemplate (DetailsFrameWork:GetTemplate ("button", "DETAILS_PLUGIN_BUTTONSELECTED_TEMPLATE"))
 		
 		elseif (to == "phases") then 
 		
@@ -1305,7 +1309,7 @@ _detalhes.EncounterDetailsTempWindow = function (EncounterDetails)
 			
 			EncounterDetailsPhaseFrame:Show()
 			
-			BossFrame.buttonSwitchPhases:SetTemplate (PhaseButtonTemplateSelected)
+			BossFrame.buttonSwitchPhases:SetTemplate (DetailsFrameWork:GetTemplate ("button", "DETAILS_PLUGIN_BUTTONSELECTED_TEMPLATE"))
 		
 		elseif (to == "graph") then 
 			
@@ -1343,10 +1347,10 @@ _detalhes.EncounterDetailsTempWindow = function (EncounterDetails)
 			
 			BossFrame.segmentosDropdown:Enable()
 			
-			BossFrame.buttonSwitchGraphic:SetTemplate (PhaseButtonTemplateSelected)
+			BossFrame.buttonSwitchGraphic:SetTemplate (DetailsFrameWork:GetTemplate ("button", "DETAILS_PLUGIN_BUTTONSELECTED_TEMPLATE"))
 		end
 	end
-
+	
 	-- ~button ~menu
 	
 	local BUTTON_WIDTH = 120
@@ -1359,31 +1363,37 @@ _detalhes.EncounterDetailsTempWindow = function (EncounterDetails)
 	BossFrame.buttonSwitchNormal = _detalhes.gump:CreateButton (BossFrame, BossFrame.switch, BUTTON_WIDTH, BUTTON_HEIGHT, "Summary", "main")
 	BossFrame.buttonSwitchNormal:SetPoint ("TOPLEFT", BossFrame, "TOPLEFT", HEADER_MENUBUTTONS_X, HEADER_MENUBUTTONS_Y)
 	BossFrame.buttonSwitchNormal:SetIcon ("Interface\\AddOns\\Details_EncounterDetails\\images\\boss_frame_buttons", 18, 18, "overlay", {0, 0.1015625, 0, 0.505625})
-	BossFrame.buttonSwitchNormal:SetTemplate (PhaseButtonTemplateSelected)
+	BossFrame.buttonSwitchNormal:SetTemplate (DetailsFrameWork:GetTemplate ("button", "DETAILS_PLUGIN_BUTTONSELECTED_TEMPLATE"))
+	BossFrame.buttonSwitchNormal:SetWidth (BUTTON_WIDTH)
 	
 	--chart
 	BossFrame.buttonSwitchGraphic = _detalhes.gump:CreateButton (BossFrame, BossFrame.switch, BUTTON_WIDTH, BUTTON_HEIGHT, "Charts", "graph")
 	BossFrame.buttonSwitchGraphic:SetPoint ("left", BossFrame.buttonSwitchNormal, "right", HEADER_MENUBUTTONS_SPACEMENT, 0)
 	BossFrame.buttonSwitchGraphic:SetIcon ("Interface\\AddOns\\Details_EncounterDetails\\images\\boss_frame_buttons", 18, 18, "overlay", {0.1271875, 0.21875, 0, 0.505625})
-	BossFrame.buttonSwitchGraphic:SetTemplate (PhaseButtonTemplate)
+	BossFrame.buttonSwitchGraphic:SetTemplate (DetailsFrameWork:GetTemplate ("button", "DETAILS_PLUGIN_BUTTON_TEMPLATE"))
+	BossFrame.buttonSwitchGraphic:SetWidth (BUTTON_WIDTH)
 	
 	--emotes
 	BossFrame.buttonSwitchBossEmotes = _detalhes.gump:CreateButton (BossFrame, BossFrame.switch, BUTTON_WIDTH, BUTTON_HEIGHT, "Emotes", "emotes")
 	BossFrame.buttonSwitchBossEmotes:SetPoint ("left", BossFrame.buttonSwitchGraphic, "right", HEADER_MENUBUTTONS_SPACEMENT, 0)
 	BossFrame.buttonSwitchBossEmotes:SetIcon ("Interface\\AddOns\\Details_EncounterDetails\\images\\boss_frame_buttons", 18, 18, "overlay", {91/256, 116/256, 0, 0.505625})
-	BossFrame.buttonSwitchBossEmotes:SetTemplate (PhaseButtonTemplate)
+	BossFrame.buttonSwitchBossEmotes:SetTemplate (DetailsFrameWork:GetTemplate ("button", "DETAILS_PLUGIN_BUTTON_TEMPLATE"))
+	BossFrame.buttonSwitchBossEmotes:SetWidth (BUTTON_WIDTH)
 	
 	--spells e auras
 	BossFrame.buttonSwitchSpellsAuras = _detalhes.gump:CreateButton (BossFrame, BossFrame.switch, BUTTON_WIDTH, BUTTON_HEIGHT, "WeakAuras", "spellsauras")
 	BossFrame.buttonSwitchSpellsAuras:SetPoint ("left", BossFrame.buttonSwitchBossEmotes, "right", HEADER_MENUBUTTONS_SPACEMENT, 0)
 	BossFrame.buttonSwitchSpellsAuras:SetIcon ("Interface\\AddOns\\Details_EncounterDetails\\images\\boss_frame_buttons", 18, 18, "overlay", {121/256, 146/256, 0, 0.505625})
-	BossFrame.buttonSwitchSpellsAuras:SetTemplate (PhaseButtonTemplate)
+	BossFrame.buttonSwitchSpellsAuras:SetTemplate (DetailsFrameWork:GetTemplate ("button", "DETAILS_PLUGIN_BUTTON_TEMPLATE"))
+	BossFrame.buttonSwitchSpellsAuras:SetWidth (BUTTON_WIDTH)
 	
 	--phases
 	BossFrame.buttonSwitchPhases = _detalhes.gump:CreateButton (BossFrame, BossFrame.switch, BUTTON_WIDTH, BUTTON_HEIGHT, "Phases", "phases")
 	BossFrame.buttonSwitchPhases:SetPoint ("left", BossFrame.buttonSwitchSpellsAuras, "right", HEADER_MENUBUTTONS_SPACEMENT, 0)
 	BossFrame.buttonSwitchPhases:SetIcon ("Interface\\AddOns\\Details_EncounterDetails\\images\\boss_frame_buttons", 18, 18, "overlay", {151/256, 176/256, 0, 0.505625})
-	BossFrame.buttonSwitchPhases:SetTemplate (PhaseButtonTemplate)
+	BossFrame.buttonSwitchPhases:SetTemplate (DetailsFrameWork:GetTemplate ("button", "DETAILS_PLUGIN_BUTTON_TEMPLATE"))
+	BossFrame.buttonSwitchPhases:SetWidth (BUTTON_WIDTH)
+	
 
 	BossFrame.AllButtons = {BossFrame.buttonSwitchNormal, BossFrame.buttonSwitchGraphic, BossFrame.buttonSwitchBossEmotes, BossFrame.buttonSwitchSpellsAuras, BossFrame.buttonSwitchPhases}
 	
@@ -2021,10 +2031,11 @@ _detalhes.EncounterDetailsTempWindow = function (EncounterDetails)
 	npc_id2:Hide()
 	
 	--
-	local label_dbm_bars = DetailsFrameWork:CreateLabel (BossFrame, "DBM Bars:", 11, nil, "GameFontHighlightSmall")
-	label_dbm_bars:SetPoint ("topleft", BossFrame, "topleft", 10, -160)
-	local label_bw_bars = DetailsFrameWork:CreateLabel (BossFrame, "Big Wigs Bars:", 11, nil, "GameFontHighlightSmall")
-	label_bw_bars:SetPoint ("topleft", BossFrame, "topleft", 10, -205)
+	local label_dbm_bars = DetailsFrameWork:CreateLabel (BossFrame, "Create Big Timer Announcer (DBM):", 11, nil, "GameFontHighlightSmall")
+	label_dbm_bars:SetPoint ("topleft", BossFrame, "topleft", 10, -200)
+	
+	local label_bw_bars = DetailsFrameWork:CreateLabel (BossFrame, "Create Big Timer Announcer (BW):", 11, nil, "GameFontHighlightSmall")
+	label_bw_bars:SetPoint ("topleft", BossFrame, "topleft", 10, -250)
 	
 	BossFrame.label_dbm_bars = label_dbm_bars
 	BossFrame.label_bw_bars = label_bw_bars
@@ -2106,9 +2117,15 @@ _detalhes.EncounterDetailsTempWindow = function (EncounterDetails)
 
 	local dropdown_dbm_bars = DetailsFrameWork:NewDropDown (BossFrame, _, "$parentDBMBarsDropdown", "DBMBars", 160, 20, build_dbm_bars, 1)
 	dropdown_dbm_bars:SetPoint ("topleft", label_dbm_bars, "bottomleft", -1, -2)
+	dropdown_dbm_bars:SetTemplate (DetailsFrameWork:GetTemplate ("dropdown", "OPTIONS_DROPDOWN_TEMPLATE"))
+	dropdown_dbm_bars:SetWidth (200)
+	dropdown_dbm_bars.tooltip = "Create a weakaura to show a big countdown when a boss ability is coming"
 	
 	local dropdown_bw_bars = DetailsFrameWork:NewDropDown (BossFrame, _, "$parentBigWigsBarsDropdown", "BigWigsBars", 160, 20, build_bigwigs_bars, 1)
 	dropdown_bw_bars:SetPoint ("topleft", label_bw_bars, "bottomleft", -1, -2)
+	dropdown_bw_bars:SetTemplate (DetailsFrameWork:GetTemplate ("dropdown", "OPTIONS_DROPDOWN_TEMPLATE"))
+	dropdown_bw_bars:SetWidth (200)
+	dropdown_bw_bars.tooltip = "Create a weakaura to show a big countdown when a boss ability is coming"
 	
 	dropdown_dbm_bars:Hide()
 	dropdown_bw_bars:Hide()
@@ -2587,9 +2604,8 @@ end
 		--> options button
 		local options = DetailsFrameWork:NewButton (frame, nil, "$parentOptionsButton", "OptionsButton", 120, 20, EncounterDetails.OpenOptionsPanel, nil, nil, nil, "Options")
 		options:SetPoint ("left", segmentos, "right", 10, 0)
-		options:SetTextColor (1, 0.93, 0.74)
+		options:SetTemplate (DetailsFrameWork:GetTemplate ("button", "DETAILS_PLUGIN_BUTTON_TEMPLATE"))
 		options:SetIcon ([[Interface\Buttons\UI-OptionsButton]], 14, 14, nil, {0, 1, 0, 1}, nil, 3)
-		options:SetTemplate (DetailsFrameWork:GetTemplate ("dropdown", "OPTIONS_DROPDOWN_TEMPLATE"))
 	
 	--> Caixa do Dano total tomado pela Raid
 	

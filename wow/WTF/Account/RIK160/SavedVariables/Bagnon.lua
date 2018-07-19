@@ -51,8 +51,8 @@ Bagnon_Sets = {
 			},
 			["hiddenRules"] = {
 			},
-			["y"] = -133.988159179688,
-			["x"] = -373.999633789063,
+			["y"] = -21.9808349609375,
+			["x"] = -380.000244140625,
 			["borderColor"] = {
 			},
 			["showBags"] = true,
@@ -92,6 +92,7 @@ Bagnon_Sets = {
 			},
 		},
 		["guild"] = {
+			["y"] = -355.499877929688,
 			["rules"] = {
 				"all", -- [1]
 				"all/all", -- [2]
@@ -115,11 +116,16 @@ Bagnon_Sets = {
 				"trade/recipe", -- [20]
 				"quest", -- [21]
 				"misc", -- [22]
+				"quest/all", -- [23]
+				"contain/all", -- [24]
+				"misc/all", -- [25]
 			},
+			["point"] = "TOPRIGHT",
 			["borderColor"] = {
 			},
 			["color"] = {
 			},
+			["x"] = -680,
 			["hiddenRules"] = {
 			},
 			["hiddenBags"] = {
@@ -153,7 +159,7 @@ Bagnon_Sets = {
 				"contain/all", -- [24]
 				"misc/all", -- [25]
 			},
-			["point"] = "BOTTOMLEFT",
+			["point"] = "TOPLEFT",
 			["hiddenBags"] = {
 				[11] = true,
 				[10] = false,
@@ -162,8 +168,8 @@ Bagnon_Sets = {
 			},
 			["hiddenRules"] = {
 			},
-			["y"] = -30.0000267028809,
-			["x"] = 547.99951171875,
+			["y"] = -248.999816894531,
+			["x"] = 670.99951171875,
 			["borderColor"] = {
 			},
 			["showBags"] = true,
@@ -178,7 +184,15 @@ Bagnon_Sets = {
 	["reagentColor"] = {
 	},
 	["players"] = {
+		["The Maelstrom"] = {
+		},
+		["Tarren Mill"] = {
+		},
+		["Thunderhorn"] = {
+		},
 		["Laughing Skull"] = {
+		},
+		["Shadowsong"] = {
 		},
 		["Ravencrest"] = {
 			["Lupalia"] = {
@@ -703,8 +717,8 @@ Bagnon_Sets = {
 					},
 					["hiddenRules"] = {
 					},
-					["y"] = -93.9998168945313,
-					["x"] = -152.999877929688,
+					["y"] = -69.9996337890625,
+					["x"] = -418.000244140625,
 					["showBags"] = true,
 					["borderColor"] = {
 					},
@@ -767,6 +781,9 @@ Bagnon_Sets = {
 						"trade/recipe", -- [20]
 						"quest", -- [21]
 						"misc", -- [22]
+						"quest/all", -- [23]
+						"contain/all", -- [24]
+						"misc/all", -- [25]
 					},
 					["point"] = "TOPLEFT",
 					["hiddenBags"] = {
@@ -851,8 +868,8 @@ Bagnon_Sets = {
 					["color"] = {
 					},
 					["alpha"] = 1,
-					["y"] = -48.9986572265625,
-					["x"] = -351.999633789063,
+					["y"] = -37.998291015625,
+					["x"] = -293.999633789063,
 					["showBags"] = true,
 					["hiddenRules"] = {
 					},
@@ -1007,8 +1024,8 @@ Bagnon_Sets = {
 					},
 					["hiddenRules"] = {
 					},
-					["y"] = -75.9996948242188,
-					["x"] = -38.99951171875,
+					["y"] = -101.998779296875,
+					["x"] = -69.9993896484375,
 					["borderColor"] = {
 					},
 					["showBags"] = true,
@@ -1610,7 +1627,7 @@ Bagnon_Sets = {
 					},
 				},
 				["inventory"] = {
-					["y"] = -93.9989624023438,
+					["y"] = -84.997802734375,
 					["rules"] = {
 						"all", -- [1]
 						"all/all", -- [2]
@@ -1643,7 +1660,7 @@ Bagnon_Sets = {
 					},
 					["color"] = {
 					},
-					["x"] = -231.999755859375,
+					["x"] = -57.999267578125,
 					["hiddenRules"] = {
 					},
 					["borderColor"] = {
@@ -1719,7 +1736,7 @@ Bagnon_Sets = {
 					["hiddenRules"] = {
 					},
 					["y"] = 4.99990606307983,
-					["x"] = 537,
+					["x"] = 538,
 					["showBags"] = true,
 					["borderColor"] = {
 					},
@@ -1870,7 +1887,7 @@ Bagnon_Sets = {
 					},
 					["hiddenRules"] = {
 					},
-					["y"] = -18.999755859375,
+					["y"] = -18.99951171875,
 					["x"] = 431.999969482422,
 					["borderColor"] = {
 					},
@@ -1880,9 +1897,9 @@ Bagnon_Sets = {
 		},
 		["Draenor"] = {
 		},
-		["Argent Dawn"] = {
+		["Kazzak"] = {
 		},
-		["Thunderhorn"] = {
+		["Argent Dawn"] = {
 		},
 	},
 }

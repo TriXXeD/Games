@@ -18,7 +18,6 @@ B.Frames = {
 	"BonusRollMoneyWonFrame",
 	"CharacterFrame",
 	"ChatConfigFrame",
-	"CinematicFrame",
 	"DressUpFrame",
 	"FriendsFrame",
 	"FriendsFriendsFrame",
@@ -68,7 +67,6 @@ B.Frames = {
 B.AddonsList = {
 	["Blizzard_AchievementUI"] = { "AchievementFrame" },
 	["Blizzard_ArchaeologyUI"] = { "ArchaeologyFrame" },
-	["Blizzard_ArtifactUI"] = { "ArtifactRelicForgeFrame" },
 	["Blizzard_AuctionUI"] = { "AuctionFrame" },
 	["Blizzard_BarberShopUI"] = { "BarberShopFrame" },
 	["Blizzard_BindingUI"] = { "KeyBindingFrame" },
@@ -118,7 +116,11 @@ local function OnDragStop(self)
 	local Name = self:GetName()
 	if E.private.sle.module.blizzmove.remember then
 		local a, b, c, d, e = self:GetPoint()
-		b = self:GetParent():GetName() or UIParent
+		if self:GetParent() then 
+			b = self:GetParent():GetName() or UIParent
+		else
+			b = UIParent
+		end
 		if Name == "QuestFrame" or Name == "GossipFrame" then
 			E.private.sle.module.blizzmove.points["GossipFrame"] = {a, b, c, d, e}
 			E.private.sle.module.blizzmove.points["QuestFrame"] = {a, b, c, d, e}
@@ -177,8 +179,14 @@ end
 
 function B:VehicleScale()
 	local frame = _G["VehicleSeatIndicator"]
-	frame:SetScale(B.db.vehicleSeatScale)
-	frame.mover:SetSize(B.db.vehicleSeatScale * frame:GetWidth(), B.db.vehicleSeatScale * frame:GetHeight())
+	local uiScale = UIParent:GetScale()
+	local frameScale = uiScale * B.db.vehicleSeatScale
+	frame:SetScale(frameScale)
+	if frame.mover then
+		frame.mover:SetSize(frameScale * frame:GetWidth(), frameScale * frame:GetHeight())
+	else
+		E:Delay(1, B.VehicleScale)
+	end
 end
 
 function B:ErrorFrameSize()
@@ -190,6 +198,9 @@ function B:Initialize()
 	if not SLE.initialized then return end
 	B.addonCount = 0
 	if E.private.sle.module.blizzmove and T.type(E.private.sle.module.blizzmove) == "boolean" then E.private.sle.module.blizzmove = V.sle.module.blizzmove end --Old setting conversions
+	E.global.sle.pvpreadydialogreset = nil
+	if not E.private.sle.pvpreadydialogreset then E.private.sle.module.blizzmove.points["PVPReadyDialog"] = nil; E.private.sle.pvpreadydialogreset = true end
+	PVPReadyDialog:Hide()
 	if E.private.sle.module.blizzmove.enable then
 		for i = 1, #B.Frames do
 			B:MakeMovable(B.Frames[i])

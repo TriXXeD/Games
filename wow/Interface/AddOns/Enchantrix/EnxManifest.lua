@@ -1,7 +1,7 @@
 --[[
 	Enchantrix Addon for World of Warcraft(tm).
-	Version: 7.5.5724 (TasmanianThylacine)
-	Revision: $Id: EnxManifest.lua 5403 2013-04-03 16:50:32Z brykrys $
+	Version: 7.7.6000 (SwimmingSeadragon)
+	Revision: $Id: EnxManifest.lua 6000 2018-07-17 14:09:34Z none $
 	URL: http://enchantrix.org/
 
 	Enchantrix Manifest
@@ -101,4 +101,4 @@ function manifest.Validate()
 	return true
 end
 
-Enchantrix_RegisterRevision("$URL: http://svn.norganna.org/auctioneer/branches/7.5/Enchantrix/EnxManifest.lua $", "$Rev: 5403 $")
+Enchantrix_RegisterRevision("$URL: /EnxManifest.lua $", "$Rev: 6000 $")

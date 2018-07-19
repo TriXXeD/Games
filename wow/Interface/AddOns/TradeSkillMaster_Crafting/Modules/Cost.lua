@@ -121,3 +121,4 @@ function private:GetCraftValue(itemString)
 	end
 	return TSMAPI:GetCustomPriceValue(priceMethod, itemString)
 end
+

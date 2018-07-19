@@ -74,9 +74,8 @@ TSM.operationDefaults = operationDefaults
 
 -- Called once the player has loaded WOW.
 function TSM:OnInitialize()
-	if TradeSkillMasterModulesDB then
-		TradeSkillMasterModulesDB.Crafting = TradeSkillMaster_CraftingDB
-	end
+	-- store our settings in TSM's saved variables
+	TradeSkillMasterModulesDB.Crafting = TradeSkillMaster_CraftingDB
 
 	-- load settings
 	TSM.db = TSMAPI.Settings:Init("TradeSkillMaster_CraftingDB", settingsInfo)
@@ -364,3 +363,4 @@ function TSM:GetInventoryTotals()
 	ignoreCharacters[UnitName("player")] = nil
 	return TSMAPI.Inventory:GetCraftingTotals(ignoreCharacters, { [TSM.VELLUM_ITEM_STRING] = true })
 end
+

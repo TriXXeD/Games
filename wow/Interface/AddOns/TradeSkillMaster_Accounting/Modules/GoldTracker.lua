@@ -104,3 +104,4 @@ function private:LogGuildGold()
 	lastGuildTrackCopper = currentCopper
 	private:LogGold(TSM.goldLog[private.guildName], currentCopper, currentMinute)
 end
+

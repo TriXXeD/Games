@@ -121,6 +121,14 @@ function DF:CreateCoolTip()
 			["SelectedRightAnchorMod"] = true,
 		}
 		
+		CoolTip.AliasList = {
+			["VerticalOffset"] = "ButtonsYMod",
+			["VerticalPadding"] = "YSpacingMod",
+			["LineHeightSizeOffset"] = "ButtonHeightMod",
+			["FrameHeightSizeOffset"] = "HeighMod",
+			
+		}
+		
 		CoolTip.OptionsTable = {}
 	
 		--cprops
@@ -1623,7 +1631,7 @@ function DF:CreateCoolTip()
 			end
 
 		end
-
+		
 		if (CoolTip.OptionsTable.FixedHeight) then
 			frame1:SetHeight (CoolTip.OptionsTable.FixedHeight)
 		else
@@ -1683,6 +1691,7 @@ function DF:CreateCoolTip()
 		frame1:ClearAllPoints()
 		
 		local anchor = CoolTip.OptionsTable.Anchor or CoolTip.Host
+		
 		frame1:SetPoint (CoolTip.OptionsTable.MyAnchor, anchor, CoolTip.OptionsTable.RelativeAnchor, 0 + moveX + CoolTip.OptionsTable.WidthAnchorMod, 10 + CoolTip.OptionsTable.HeightAnchorMod + moveY)
 		
 		if (not x_mod) then
@@ -1823,14 +1832,18 @@ function DF:CreateCoolTip()
 			CoolTip:SetOption ("HeightAnchorMod", 0)
 		end
 		
-		function CoolTip:SetOption (option, value)
+		function CoolTip:SetOption (optionName, value)
+		
+			--> check for name alias
+			optionName = CoolTip.AliasList [optionName] or optionName
+		
 			--> check if this options exists
-			if (not CoolTip.OptionsList [option]) then
+			if (not CoolTip.OptionsList [optionName]) then
 				return --> error
 			end
-			
+		
 			--> set options
-			CoolTip.OptionsTable [option] = value
+			CoolTip.OptionsTable [optionName] = value
 		end
 
 ----------------------------------------------------------------------
@@ -1850,12 +1863,12 @@ function DF:CreateCoolTip()
 		function CoolTip:SetHost (frame, myPoint, hisPoint, x, y)
 			--> check data integrity
 			if (type (frame) ~= "table" or not frame.GetObjectType) then
-				print ("host need to be a frame")
+				print ("host needs to be a frame")
 				return --> error
 			end
 			
 			CoolTip.Host = frame
-
+			
 			CoolTip.frame1:SetFrameLevel (frame:GetFrameLevel()+1)
 			
 			--> defaults
@@ -2964,6 +2977,11 @@ function DF:CreateCoolTip()
 		CoolTip:SetColor ("main", host.CoolTip.MainColor or "transparent")
 		CoolTip:SetColor ("sec", host.CoolTip.SubColor or "transparent")
 		
+		local okay, errortext = pcall (host.CoolTip.BuildFunc, host, host.CoolTip and host.CoolTip.FixedValue) --resetting anchors
+		if (not okay) then
+			print ("Cooltip Injected Fucntion Error:", errortext)
+		end		
+
 		CoolTip:SetOwner (host, host.CoolTip.MyAnchor, host.CoolTip.HisAnchor, host.CoolTip.X, host.CoolTip.Y)
 		
 		local options = host.CoolTip.Options
@@ -2976,15 +2994,13 @@ function DF:CreateCoolTip()
 			end
 		end
 		
-		host.CoolTip.BuildFunc()
-		
 		if (CoolTip.Indexes == 0) then
 			if (host.CoolTip.Default) then
 				CoolTip:SetType ("tooltip")
 				CoolTip:AddLine (host.CoolTip.Default, nil, 1, "white")
 			end
 		end
-		
+
 		CoolTip:ShowCooltip()
 		
 		if (fromClick) then

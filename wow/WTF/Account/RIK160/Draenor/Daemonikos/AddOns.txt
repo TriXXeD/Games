@@ -2,3 +2,5 @@ TradeSkillMaster_Destroying: disabled
 Skada: disabled
 zPets: enabled
 DoomShards: disabled
+TradeSkillMaster: enabled
+TradeSkillMaster_AuctionDB: enabled

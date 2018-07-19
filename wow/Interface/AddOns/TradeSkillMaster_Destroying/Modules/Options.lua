@@ -404,3 +404,4 @@ function Options:LoadOptions(container)
 
 	TSMAPI.GUI:BuildOptions(container, page)
 end
+

@@ -85,6 +85,7 @@ SMB.AddButtonsToBar = {
 	'QueueStatusMinimapButton',
 	'MiniMapMailFrame',
 	"ItemRackMinimapFrame",
+	"GarrisonLandingPageMinimapButton",
 }
 
 local function SkinButton(Button)
@@ -120,6 +121,7 @@ local function SkinButton(Button)
 			Button:SetPushedTexture(nil)
 			Button:SetHighlightTexture(nil)
 			Button:SetDisabledTexture(nil)
+			if Name == "GarrisonLandingPageMinimapButton" then Button:SetScale(1) end
 		end
 
 		for i = 1, Button:GetNumRegions() do
@@ -182,14 +184,14 @@ local function SkinButton(Button)
 				end
 			end)
 			SMB.bar:HookScript('OnUpdate', function()
-				if E.db.sle.minimap.mapicons.skindungeon then
+				if E.private.sle.minimap.mapicons.skindungeon then
 					Frame:Show()
 				else
 					Frame:Hide()
 				end
 			end)
 			_G["QueueStatusMinimapButton"]:HookScript('OnShow', function()
-				if E.db.sle.minimap.mapicons.skindungeon then
+				if E.private.sle.minimap.mapicons.skindungeon then
 					Frame:Show()
 				else
 					Frame:Hide()
@@ -219,7 +221,7 @@ local function SkinButton(Button)
 			Frame:SetScript('OnEnter', OnEnter)
 			Frame:SetScript('OnLeave', OnLeave)
 			Frame:SetScript('OnUpdate', function(self)
-				if E.db.sle.minimap.mapicons.skinmail then
+				if E.private.sle.minimap.mapicons.skinmail then
 					Frame:Show()
 					Frame:SetPoint(_G["MiniMapMailFrame"]:GetPoint())
 				else
@@ -227,7 +229,7 @@ local function SkinButton(Button)
 				end
 			end)
 			_G["MiniMapMailFrame"]:HookScript('OnShow', function(self)
-				if E.db.sle.minimap.mapicons.skinmail then
+				if E.private.sle.minimap.mapicons.skinmail then
 					_G["MiniMapMailIcon"]:SetVertexColor(0, 1, 0)
 				end
 			end)
@@ -256,6 +258,38 @@ function SMB:SkinMinimapButtons()
 				end
 			end
 		end
+	end
+	if _G["OutfitterMinimapButton"] and not _G["OutfitterMinimapButton"].isSkinned then
+		for i = 1, _G["OutfitterMinimapButton"]:GetNumRegions() do
+			local Region = T.select(i, _G["OutfitterMinimapButton"]:GetRegions())
+			if Region:GetObjectType() == 'Texture' then
+				local Texture = Region:GetTexture()
+				if Texture and T.find(Texture, 'Outfitter') then Region:SetTexture(nil) end
+				break
+			end
+		end
+		SkinButton(OutfitterMinimapButton)
+	end
+	if E.private.sle.minimap.mapicons.skingarrison then
+		function GarrisonLandingPageMinimapButton_UpdateIcon(self)
+			local garrisonType = C_Garrison.GetLandingPageGarrisonType();
+			if (garrisonType == LE_GARRISON_TYPE_6_0) then
+				self.faction = SLE.myfaction
+				if ( self.faction == "Horde" ) then
+					self:GetNormalTexture():SetAtlas("GarrLanding-MinimapIcon-Horde-Up", true)
+				else
+					self:GetNormalTexture():SetAtlas("GarrLanding-MinimapIcon-Alliance-Up", true)
+				end
+				self.title = GARRISON_LANDING_PAGE_TITLE;
+				self.description = MINIMAP_GARRISON_LANDING_PAGE_TOOLTIP;
+			elseif (garrisonType == LE_GARRISON_TYPE_7_0) then
+				local _, className = UnitClass("player");
+				self:GetNormalTexture():SetAtlas("legionmission-landingbutton-"..className.."-up", true);
+				self.title = ORDER_HALL_LANDING_PAGE_TITLE;
+				self.description = MINIMAP_ORDER_HALL_LANDING_PAGE_TOOLTIP;
+			end
+		end
+		SkinButton(GarrisonLandingPageMinimapButton)
 	end
 end
 
@@ -286,14 +320,14 @@ function SMB:Update()
 				elseif Name == "ItemRackMinimapFrame" then
 					ItemRack.MoveMinimap = function() end
 				end
-				if not E.db.sle.minimap.mapicons.skindungeon and Name == 'QueueStatusMinimapButton' then
+				if not E.private.sle.minimap.mapicons.skindungeon and Name == 'QueueStatusMinimapButton' then
 					Exception = false
 					local pos = E.db.general.minimap.icons.lfgEye.position or "BOTTOMRIGHT"
 					local scale = E.db.general.minimap.icons.lfgEye.scale or 1
 					_G["QueueStatusMinimapButton"]:ClearAllPoints()
 					_G["QueueStatusMinimapButton"]:Point(pos, _G["Minimap"], pos, E.db.general.minimap.icons.lfgEye.xOffset or 3, E.db.general.minimap.icons.lfgEye.yOffset or 0)
 				end
-				if (not E.db.sle.minimap.mapicons.skinmail and Name == 'MiniMapMailFrame') then
+				if (not E.private.sle.minimap.mapicons.skinmail and Name == 'MiniMapMailFrame') then
 					Exception = false
 				end
 			end
@@ -316,7 +350,7 @@ function SMB:Update()
 			Frame:ClearAllPoints()
 			Frame:Point('TOPLEFT', SMB.bar, 'TOPLEFT', xOffset, yOffset)
 			Frame:SetSize(E.db.sle.minimap.mapicons.iconsize, E.db.sle.minimap.mapicons.iconsize)
-			Frame:SetFrameStrata('LOW')
+			Frame:SetFrameStrata('MEDIUM')
 			Frame:SetFrameLevel(3)
 			Frame:SetScript('OnDragStart', function() end)
 			Frame:SetScript('OnDragStop', function() end)
@@ -334,21 +368,28 @@ function SMB:Update()
 	SMB.bar:Show()
 end
 
+function SMB:UpdateVisibility()
+	RegisterStateDriver(SMB.bar, 'visibility', E.db.sle.minimap.mapicons.visibility)
+end
+
 function SMB:Initialize()
 	if not SLE.initialized or not E.private.general.minimap.enable then return end
+
+	E.db.sle.minimap.mapicons.skinmail = nil
+	E.db.sle.minimap.mapicons.skindungeon = nil
 
 	_G["QueueStatusMinimapButton"]:SetParent(_G["Minimap"])
 
 	SMB.bar = CreateFrame('Frame', 'SLE_SquareMinimapButtonBar', E.UIParent)
 	SMB.bar:Hide()
 	SMB.bar:SetTemplate(E.private.sle.minimap.mapicons.template)
-	SMB.bar:SetFrameStrata('LOW')
+	SMB.bar:SetFrameStrata('MEDIUM')
 	SMB.bar:SetFrameLevel(1)
 	SMB.bar:SetClampedToScreen(true)
 	SMB.bar:SetPoint('RIGHT', UIParent, 'RIGHT', -45, 0)
 	SMB.bar:SetScript('OnEnter', OnEnter)
 	SMB.bar:SetScript('OnLeave', OnLeave)
-	RegisterStateDriver(SMB.bar, 'visibility', '[petbattle] hide; show')
+	SMB:UpdateVisibility()
 	self:SkinMinimapButtons()
 	self:RegisterEvent('LOADING_SCREEN_DISABLED', 'Update')
 	self:RegisterEvent('ACTIVE_TALENT_GROUP_CHANGED', 'Update')

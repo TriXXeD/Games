@@ -130,3 +130,4 @@ function ViewerUtil:GetFormattedTime(rTime)
 		return date("%y/%m/%d %H:%M", rTime)
 	end
 end
+

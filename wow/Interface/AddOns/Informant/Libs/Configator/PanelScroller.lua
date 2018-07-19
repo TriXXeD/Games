@@ -1,7 +1,7 @@
 --[[
 	PanelScroller
-	Version: 7.5.5724 (TasmanianThylacine)
-	Revision: $Id: PanelScroller.lua 312 2011-06-14 07:33:25Z brykrys $
+	Version: 7.7.6000 (SwimmingSeadragon)
+	Revision: $Id: PanelScroller.lua 6000 2018-07-17 14:09:34Z none $
 	URL: http://auctioneeraddon.com/dl/
 
 	License:
@@ -30,7 +30,7 @@ local LIBRARY_VERSION_MINOR = 3
 local lib = LibStub:NewLibrary(LIBRARY_VERSION_MAJOR, LIBRARY_VERSION_MINOR)
 if not lib then return end
 
-LibStub("LibRevision"):Set("$URL: http://svn.norganna.org/libs/trunk/Configator/PanelScroller.lua $","$Rev: 312 $","5.1.DEV.", 'auctioneer', 'libs')
+LibStub("LibRevision"):Set("$URL: /PanelScroller.lua $","$Rev: 6000 $","5.1.DEV.", 'auctioneer', 'libs')
 
 local kit = {
 	hPos = 0, hSize = 0, hWin = 0, hType = "AUTO",

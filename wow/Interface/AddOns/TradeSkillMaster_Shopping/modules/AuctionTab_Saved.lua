@@ -392,3 +392,4 @@ function AuctionTabSaved:GetFrameInfo()
 	}
 	return frameInfo
 end
+

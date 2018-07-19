@@ -286,3 +286,4 @@ function private:GetFirstInboxItemLink(index)
 	TSMAccountingMailTooltip:Hide()
 	return link
 end
+

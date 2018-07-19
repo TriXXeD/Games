@@ -13,12 +13,6 @@ local AceConfigDialog = LibStub("AceConfigDialog-3.0")
 
 local WeakAuras = WeakAuras
 local L = WeakAuras.L
-local addonVersion = GetAddOnMetadata("WeakAuras", "version")
---[===[@debug@
-if addonVersion == "2.5.4" then
-  addonVersion = "Dev"
-end
---@end-debug@]===]
 
 local displayButtons = WeakAuras.displayButtons
 local displayOptions = WeakAuras.displayOptions
@@ -72,15 +66,34 @@ local function CreateDecorationWide(frame)
   return deco1
 end
 
-local function CreateFrameSizer(frame, callback)
+local function CreateFrameSizer(frame, callback, position)
   callback = callback or (function() end)
 
+  local left, right, top, bottom, xOffset1, yOffset1, xOffset2, yOffset2;
+  if (position == "BOTTOMLEFT") then
+    left, right, top, bottom = 1, 0, 0, 1
+    xOffset1, yOffset1 = 6, 6
+    xOffset2, yOffset2 = 0, 0
+  elseif (position == "BOTTOMRIGHT") then
+    left, right, top, bottom = 0, 1, 0, 1
+    xOffset1, yOffset1 = 0, 6
+    xOffset2, yOffset2 = -6, 0
+  elseif (position == "TOPLEFT") then
+    left, right, top, bottom = 1, 0, 1, 0
+    xOffset1, yOffset1 = 6, 0
+    xOffset2, yOffset2 = 0, -6
+  elseif (position == "TOPRIGHT") then
+    left, right, top, bottom = 0, 1, 1, 0
+    xOffset1, yOffset1 = 0, 0
+    xOffset2, yOffset2 = -6, -6
+  end
+
   local handle = CreateFrame("BUTTON", nil, frame)
-  handle:SetPoint("BOTTOMLEFT", frame)
+  handle:SetPoint(position, frame)
   handle:SetSize(25, 25)
   handle:EnableMouse()
 
-  handle:SetScript("OnMouseDown", function() frame:StartSizing("BOTTOMLEFT") end)
+  handle:SetScript("OnMouseDown", function() frame:StartSizing(position) end)
   handle:SetScript("OnMouseUp", function()
     frame:StopMovingOrSizing()
     callback()
@@ -88,23 +101,23 @@ local function CreateFrameSizer(frame, callback)
 
   local normal = handle:CreateTexture(nil, "OVERLAY")
   normal:SetTexture("Interface\\ChatFrame\\UI-ChatIM-SizeGrabber-Up")
-  normal:SetTexCoord(1, 0, 0, 1)
-  normal:SetPoint("BOTTOMLEFT", handle, 6, 6)
-  normal:SetPoint("TOPRIGHT", handle)
+  normal:SetTexCoord(left, right, top, bottom)
+  normal:SetPoint("BOTTOMLEFT", handle, xOffset1, yOffset1)
+  normal:SetPoint("TOPRIGHT", handle, xOffset2, yOffset2)
   handle:SetNormalTexture(normal)
 
   local pushed = handle:CreateTexture(nil, "OVERLAY")
   pushed:SetTexture("Interface\\ChatFrame\\UI-ChatIM-SizeGrabber-Down")
-  pushed:SetTexCoord(1, 0, 0, 1)
-  pushed:SetPoint("BOTTOMLEFT", handle, 6, 6)
-  pushed:SetPoint("TOPRIGHT", handle)
+  pushed:SetTexCoord(left, right, top, bottom)
+  pushed:SetPoint("BOTTOMLEFT", handle, xOffset1, yOffset1)
+  pushed:SetPoint("TOPRIGHT", handle, xOffset2, yOffset2)
   handle:SetPushedTexture(pushed)
 
   local highlight = handle:CreateTexture(nil, "OVERLAY")
   highlight:SetTexture("Interface\\ChatFrame\\UI-ChatIM-SizeGrabber-Highlight")
-  highlight:SetTexCoord(1, 0, 0, 1)
-  highlight:SetPoint("BOTTOMLEFT", handle, 6, 6)
-  highlight:SetPoint("TOPRIGHT", handle)
+  highlight:SetTexCoord(left, right, top, bottom)
+  highlight:SetPoint("BOTTOMLEFT", handle, xOffset1, yOffset1)
+  highlight:SetPoint("TOPRIGHT", handle, xOffset2, yOffset2)
   handle:SetHighlightTexture(highlight)
 
   return handle
@@ -116,7 +129,8 @@ function WeakAuras.CreateFrame()
   local db = savedVars.db;
   local odb = savedVars.odb;
   -------- Mostly Copied from AceGUIContainer-Frame--------
-  frame = CreateFrame("FRAME", nil, UIParent);
+  frame = CreateFrame("FRAME", "WeakAurasOptions", UIParent);
+  tinsert(UISpecialFrames, frame:GetName());
   frame:SetBackdrop({
     bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background",
     edgeFile = "Interface\\DialogFrame\\UI-DialogBox-Border",
@@ -143,6 +157,34 @@ function WeakAuras.CreateFrame()
   end
   frame:SetPoint("TOPRIGHT", UIParent, "TOPRIGHT", xOffset, yOffset);
   frame:Hide();
+
+  frame:SetScript("OnHide", function()
+    WeakAuras.UnlockUpdateInfo();
+    WeakAuras.SetDragging()
+
+    local tutFrame = WeakAuras.TutorialsFrame and WeakAuras.TutorialsFrame();
+    if(tutFrame and tutFrame:IsVisible()) then
+      tutFrame:Hide();
+    end
+
+    WeakAuras.PauseAllDynamicGroups();
+
+    for id, data in pairs(WeakAuras.regions) do
+      data.region:Collapse();
+    end
+
+    WeakAuras.ResumeAllDynamicGroups();
+
+    WeakAuras.ReloadAll();
+    WeakAuras.Resume();
+
+    if (WeakAuras.mouseFrame) then
+      WeakAuras.mouseFrame:OptionsClosed();
+    end
+    if (WeakAuras.personalRessourceDisplayFrame) then
+      WeakAuras.personalRessourceDisplayFrame:OptionsClosed();
+    end
+  end);
 
   local width, height;
   if(db.frame) then
@@ -234,9 +276,10 @@ function WeakAuras.CreateFrame()
 
   local titletext = title:CreateFontString(nil, "OVERLAY", "GameFontNormal")
   titletext:SetPoint("TOP", titlebg, "TOP", 0, -14)
-  titletext:SetText("WeakAuras " .. addonVersion);
+  titletext:SetText("WeakAuras " .. WeakAuras.versionString);
 
-  frame.sizer = CreateFrameSizer(frame, commitWindowChanges);
+  CreateFrameSizer(frame, commitWindowChanges, "BOTTOMLEFT");
+  CreateFrameSizer(frame, commitWindowChanges, "BOTTOMRIGHT");
 
   local minimize = CreateDecoration(frame)
   minimize:SetPoint("TOPRIGHT", -65, 12)
@@ -318,7 +361,8 @@ function WeakAuras.CreateFrame()
       if not(IsAddOnLoaded("WeakAurasTutorials")) then
         local loaded, reason = LoadAddOn("WeakAurasTutorials");
         if not(loaded) then
-          print("|cff9900FF".."WeakAurasTutorials"..FONT_COLOR_CODE_CLOSE.." could not be loaded: "..RED_FONT_COLOR_CODE.._G["ADDON_"..reason]);
+          reason = string.lower("|cffff2020" .. _G["ADDON_" .. reason] .. "|r.")
+          print(WeakAuras.printPrefix .. "Tutorials could not be loaded, the addon is " .. reason);
           return;
         end
       end

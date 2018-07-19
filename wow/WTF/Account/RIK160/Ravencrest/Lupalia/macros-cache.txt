@@ -1,10 +1,10 @@
+VER 3 0100000000000021 "Cycle PP" "INV_MISC_QUESTIONMARK"
+/targetenemy
+/cast pick pocket
+END
 VER 3 010000000000000F "FocBlind" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [target=focus] Blind
-END
-VER 3 0100000000000012 "FocGouge" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [target=focus] Gouge; Gouge
 END
 VER 3 010000000000001B "kick" "INV_MISC_QUESTIONMARK"
 #showtooltip kick
@@ -14,16 +14,14 @@ VER 3 0100000000000013 "MFD" "INV_MISC_QUESTIONMARK"
 #showtooltip Marked For Death
 /cast [@mouseover,exists,harm] Marked For Death; Marked For Death
 END
-VER 3 010000000000001F "mine" "INV_MISC_QUESTIONMARK"
-/cast [@Mine Rat] Throw
+VER 3 0100000000000020 "Mousover PP" "INV_MISC_QUESTIONMARK"
+/cast [@mouseover] Pick Pocket; Pick Pocket
+/tm [@mouseover] 1
 END
-VER 3 0100000000000017 "NoDaggeToDagger" "INV_MISC_QUESTIONMARK"
-#showtooltip Blade Flurry
-/cast Blade Flurry
-/cancelaura Blade Flurry
-END
-VER 3 010000000000001A "QleaveMH" "INV_MISC_QUESTIONMARK"
-/equipslot 16 Ko'ragh's Boot Knife
+VER 3 0100000000000022 "Nearest PP" "INV_MISC_QUESTIONMARK"
+/cleartarget
+/targetenemy
+/cast pick pocket
 END
 VER 3 0100000000000001 "Sap" "INV_MISC_QUESTIONMARK"
 #showtooltip sap
@@ -36,18 +34,6 @@ VER 3 010000000000001C "Shadow DAnce" "INV_MISC_QUESTIONMARK"
 /cast Shadow Dance
 /cast Shadow Reflection
 /use 13
-END
-VER 3 0100000000000019 "SlowMH" "INV_MISC_QUESTIONMARK"
-/equipslot 16 Hans'gar's Forgehammer
-END
-VER 3 010000000000001D "SOUL CAP" "INV_MISC_QUESTIONMARK"
-#showtooltip Soul Capacitor
-/cancelaura Spirit Shift
-END
-VER 3 0100000000000016 "SR-Stun" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast Shadow Reflection
-/cast Kidney Shot
 END
 VER 3 010000000000000A "Stealth" "INV_MISC_QUESTIONMARK"
 #showtooltip

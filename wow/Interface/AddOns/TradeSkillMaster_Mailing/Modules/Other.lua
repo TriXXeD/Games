@@ -265,3 +265,4 @@ function private:UpdateSendGoldButton()
 		btn:SetText(format(L["Send Excess Gold to %s"], TSM.db.char.goldMailTarget))
 	end
 end
+

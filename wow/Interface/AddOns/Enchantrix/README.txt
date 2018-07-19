@@ -1,4 +1,4 @@
-Enchantrix v7.5.5724
+Enchantrix v<%version%>
 -------------------------------
 FROM: http://enchantrix.org
 
