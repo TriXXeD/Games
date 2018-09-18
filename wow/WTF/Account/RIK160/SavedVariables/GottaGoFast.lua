@@ -1,9 +1,11 @@
 
 GottaGoFastDB = {
 	["profileKeys"] = {
+		["Trixxedbank - Kazzak"] = "Default",
 		["Trixxed - Ravencrest"] = "Default",
 		["Achilina - Ravencrest"] = "Default",
 		["Lupalia - Ravencrest"] = "Default",
+		["Molech - Kazzak"] = "Default",
 		["Tríxxed - The Maelstrom"] = "Default",
 		["Trîxxed - Ravencrest"] = "Default",
 		["Marcellinus - Ravencrest"] = "Default",
@@ -24,9 +26,9 @@ GottaGoFastDB = {
 		["Xbenedict - Kazzak"] = "Default",
 		["Chrysante - Ravencrest"] = "Default",
 		["Grippiboi - Kazzak"] = "Default",
-		["Odeysseus - Thunderhorn"] = "Default",
-		["Quelith - Draenor"] = "Default",
 		["Lycotonum - Tarren Mill"] = "Default",
+		["Quelith - Draenor"] = "Default",
+		["Odeysseus - Thunderhorn"] = "Default",
 		["Petergrippin - Draenor"] = "Default",
 		["Anneshank - Draenor"] = "Default",
 		["Trixbankxed - Shadowsong"] = "Default",
@@ -41,7 +43,7 @@ GottaGoFastDB = {
 			["DeathInObjectives"] = true,
 			["FrameAnchor"] = "TOPLEFT",
 			["FrameY"] = -36.0000076293945,
-			["Version"] = 30000,
+			["Version"] = 30100,
 		},
 	},
 }

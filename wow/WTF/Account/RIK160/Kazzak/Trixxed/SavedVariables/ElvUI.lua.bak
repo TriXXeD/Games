@@ -1,492 +1,470 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/cw Pengabingen inv", -- [1]
-		"/cw Själknyckarn-TarrenMill no", -- [2]
-		"/cw Själknyckarn-TarrenMill Such a leech Raiq", -- [3]
-		"/pawn", -- [4]
-		"/played", -- [5]
-		"/p orb right", -- [6]
-		"/who nehelani", -- [7]
-		"/who superbia", -- [8]
-		"/cw Alduin Kan du invite mig til guilden? - ny social, Daemonikos ", -- [9]
-		"/elvui", -- [10]
-		"/g Takker", -- [11]
-		"/wa", -- [12]
-		"/mogit", -- [13]
-		"/g Det var da også en rimelig fortjeneste", -- [14]
-		"/g hvad leder du efter?", -- [15]
-		"/g Du skal bare logge ind på en char så får du dem", -- [16]
-		"/g De skal jo være brugbare på en char, du har vel class/faction specific", -- [17]
-		"/g Jeg er ved at redo bars, talents og macros :P", -- [18]
-		"/g havde håbet på questline var startet idag tho", -- [19]
-		"/g Honor lvl 150 wat", -- [20]
+		"/g Nogle som er friske på |cffa335ee|Hkeystone:158923:247:9:9:11:2:0|h[Keystone: The MOTHERLODE!! (9)]|h|r ?", -- [1]
+		"/cw Cyclex-Kazzak du er heal right?", -- [2]
+		"/cw Cyclex-Kazzak k", -- [3]
+		"/cw Mìdníght-Nemesis Considering your grammar is off that's definitely not you", -- [4]
+		"/g Mangler 1 dps, 1 tank og 1 heal til |cffa335ee|Hkeystone:158923:247:9:9:11:2:0|h[Keystone: The MOTHERLODE!! (9)]|h|r", -- [5]
+		"/p Kender du nogle til M+ inden jeg begynder at inv pugs?", -- [6]
+		"/p Hi", -- [7]
+		"/readycheck", -- [8]
+		"/xct", -- [9]
+		"/wa", -- [10]
+		"/p ye", -- [11]
+		"/p got drums", -- [12]
+		"/RELOADUI", -- [13]
+		"/s mana", -- [14]
+		"/p need ring?", -- [15]
+		"/cw Cyclex-Kazzak Spillede hele den dung uden WA's", -- [16]
+		"/cw Cyclex-Kazzak kan ikke engang jeg har nogle", -- [17]
+		"/cw Cyclex-Kazzak skal lige have fikset det", -- [18]
+		"/cw Cyclex-Kazzak Det ikke abre at de ikke er loaded :P", -- [19]
+		"/cw Cyclex-Kazzak de er non-existing", -- [20]
 	},
 	["ChatHistoryLog"] = {
 		{
-			"LF NEED LOCK FOR 2v2 my exp 2.2 !!!", -- [1]
-			"Áshlie-Kazzak", -- [2]
+			"< Blackstand > NEW Semi-hardcore Raid Progession Guild. Raiding Thursday 18:00-23:00 and Sunday. We're looking to fill all roles :-) Clearing 8/8hc next week. Active socials are welcome. /w for more info. 18+", -- [1]
+			"Dimmers-Kazzak", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Áshlie", -- [5]
+			"Dimmers", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			450, -- [11]
-			"Player-1305-06EAB5D2", -- [12]
+			205, -- [11]
+			"Player-1305-09EEFF14", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffffffffÁshlie|r",
-			[51] = 1531906781,
+			[52] = "|cfff48cbaDimmers|r",
+			[51] = 1537279300,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [1]
 		{
-			"yep", -- [1]
-			"Executiè-Kazzak", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Executiè", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			458, -- [11]
-			"Player-1305-07CD3E06", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dExecutiè|r",
-			[51] = 1531906789,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [2]
-		{
-			"Wts Argus Heroic G|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r Going Now Gp +250 Personal Loot w/me For info Going Now:<<<<", -- [1]
-			"Holÿmaster-Kazzak", -- [2]
+			"WTS |cffa335ee|Hitem:65891::::::::120:105::::::|h[Vial of the Sands]|h|r", -- [1]
+			"Ghostftw-Kazzak", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Holÿmaster", -- [5]
+			"Ghostftw", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			460, -- [11]
-			"Player-1305-09964658", -- [12]
+			208, -- [11]
+			"Player-1305-0852D215", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfff48cbaHolÿmaster|r",
-			[51] = 1531906791,
+			[52] = "|cffff7c0aGhostftw|r",
+			[51] = 1537279305,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [2]
+		{
+			"<<<WTS (Mythic+) Dungeons for gold, Clean runs by experienced 355+ boosters Guild Group. Get easy 345-375 loot also you wil get mythic weekly chest 355-400  ..you can pick lvl 2-10 ..... /w FOr More Info>>>", -- [1]
+			"Insomnîa-Kazzak", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Insomnîa", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			209, -- [11]
+			"Player-1305-0794B388", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3fc6eaInsomnîa|r",
+			[51] = 1537279306,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [3]
 		{
-			"|cff71d5ff|Htalent:22144|h[Nature's Guardian]|h|r|cff71d5ff|Htalent:21963|h[Earth Shield]|h|r", -- [1]
-			"Xhanon-Kazzak", -- [2]
+			"Hi", -- [1]
+			"Trixxed-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Xhanon", -- [5]
+			"Trixxed", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			466, -- [11]
-			"Player-1305-0413A750", -- [12]
+			210, -- [11]
+			"Player-1305-09CE1263", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff0070ddXhanon|r",
-			[51] = 1531906805,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff8787edTrixxed|r",
+			[51] = 1537279309,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [4]
 		{
-			"godlike", -- [1]
-			"Xhanon-Kazzak", -- [2]
+			"WTB only Kings Rest + 7 or higher Boost /w me price", -- [1]
+			"Xèrus-Kazzak", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Xèrus", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			211, -- [11]
+			"Player-1305-091556CF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc69b6dXèrus|r",
+			[51] = 1537279309,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [5]
+		{
+			"hey heal and tank 355", -- [1]
+			"Zirkoo-Hyjal", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Xhanon", -- [5]
+			"Zirkoo-Hyjal", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			468, -- [11]
-			"Player-1305-0413A750", -- [12]
+			212, -- [11]
+			"Player-1390-098CB939", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff0070ddXhanon|r",
-			[51] = 1531906808,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [5]
-		{
-			"Wts Argus Heroic G|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r Going Now Gp +250 Personal Loot w/me For info Going Now:<<<<", -- [1]
-			"Holÿmaster-Kazzak", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Holÿmaster", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			470, -- [11]
-			"Player-1305-09964658", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff48cbaHolÿmaster|r",
-			[51] = 1531906812,
-			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffff7c0aZirkoo-Hyjal|r",
+			[51] = 1537279309,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [6]
 		{
-			"Wts Argus Heroic G|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r Going Now Gp +250 Personal Loot w/me For info Going Now:<<<<", -- [1]
-			"Holÿmaster-Kazzak", -- [2]
+			"WTB only Kings Rest + 7 or higher Boost /w me price", -- [1]
+			"Xèrus-Kazzak", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Holÿmaster", -- [5]
+			"Xèrus", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			479, -- [11]
-			"Player-1305-09964658", -- [12]
+			214, -- [11]
+			"Player-1305-091556CF", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfff48cbaHolÿmaster|r",
-			[51] = 1531906829,
+			[52] = "|cffc69b6dXèrus|r",
+			[51] = 1537279309,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [7]
 		{
-			"WTS |cff66bbff|Hjournal:1:2031:14|h[Argus the Unmaker]|h|r Heroic Lead 10/11 mythic you can simply AFK /w me for reserve a spot.", -- [1]
-			"Slojas-Kazzak", -- [2]
+			" <Eastern Tyrants> is a group of casual high-end raiders who are recruiting Tanks and DPS for Uldir HC progression (6/8) and soon Mythic. Raiding days: Thurs/Sun 20:00ST-23:00ST  /w for more info. Socials are always welcome.", -- [1]
+			"Lorialle-Kazzak", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Slojas", -- [5]
+			"Lorialle", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			484, -- [11]
-			"Player-1305-08EA240F", -- [12]
+			216, -- [11]
+			"Player-1305-09A50D78", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffffffffSlojas|r",
-			[51] = 1531906836,
+			[52] = "|cfffff468Lorialle|r",
+			[51] = 1537279310,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [8]
 		{
-			"Wts Argus Heroic G|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r Going Now Gp +250 Personal Loot w/me For info Going Now:<<<<", -- [1]
-			"Holÿmaster-Kazzak", -- [2]
+			"hi", -- [1]
+			"Дриси-Ревущийфьорд", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Holÿmaster", -- [5]
+			"", -- [4]
+			"Дриси-Ревущийфьорд", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			487, -- [11]
-			"Player-1305-09964658", -- [12]
+			218, -- [11]
+			"Player-1615-07357C05", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff48cbaHolÿmaster|r",
-			[51] = 1531906850,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffffffffДриси-Ревущийфьорд|r",
+			[51] = 1537279312,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [9]
 		{
-			"WTS|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r HC Personal Loot +980 11/11 Mythic Exp Group ~ You Can Still AFK . Ready To Summon  Last Spot & OneShot Going Every 15 Min . /W For Reserve A Spot", -- [1]
-			"Mziper-Kazzak", -- [2]
+			"yo", -- [1]
+			"Скульптор-Ревущийфьорд", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Mziper", -- [5]
+			"", -- [4]
+			"Скульптор-Ревущийфьорд", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			489, -- [11]
-			"Player-1305-09951650", -- [12]
+			220, -- [11]
+			"Player-1615-08D0C821", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc41e3aMziper|r",
-			[51] = 1531906853,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffc41e3aСкульптор-Ревущийфьорд|r",
+			[51] = 1537279316,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [10]
 		{
-			"WTS Alani |cffa335ee|Hitem:90655::::::::110:72::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r  w/ for info - 3 spots left. 100% drop.", -- [1]
-			"Riceboix-Kazzak", -- [2]
+			"[WTS] Uldir Heroic TONIGHT No requirements! Get 370+ ilvl items ! /w me for info", -- [1]
+			"Gomythicplus-Kazzak", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Riceboix", -- [5]
-			"", -- [6]
+			"Gomythicplus", -- [5]
+			"DND", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			491, -- [11]
-			"Player-1305-09CABD2F", -- [12]
+			221, -- [11]
+			"Player-1305-0A0894C6", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffff7c0aRiceboix|r",
-			[51] = 1531906863,
+			[52] = "|cffc69b6dGomythicplus|r",
+			[51] = 1537279316,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [11]
 		{
-			"Wts Argus Heroic G|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r Going Now Gp +250 Personal Loot w/me For info Going Now:<<<<", -- [1]
-			"Holÿmaster-Kazzak", -- [2]
+			"[Selling] Mythic +10 Weekly chest! Selfplay, fast runs! Get 380/385 azerite ilvl item! /w me for info", -- [1]
+			"Gomythicplus-Kazzak", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Holÿmaster", -- [5]
-			"", -- [6]
+			"Gomythicplus", -- [5]
+			"DND", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			493, -- [11]
-			"Player-1305-09964658", -- [12]
+			222, -- [11]
+			"Player-1305-0A0894C6", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfff48cbaHolÿmaster|r",
-			[51] = 1531906872,
+			[52] = "|cffc69b6dGomythicplus|r",
+			[51] = 1537279316,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [12]
 		{
-			"Wts Argus Heroic G|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r Going Now Gp +250 Personal Loot w/me For info Going Now:<<<<", -- [1]
-			"Holÿmaster-Kazzak", -- [2]
+			"WTS |cffa335ee|Hitem:161074::::::::120:65::5:3:4799:1507:4784:::|h[Crushproof Vambraces]|h|r ", -- [1]
+			"Evildor-Kazzak", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Holÿmaster", -- [5]
+			"Evildor", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			496, -- [11]
-			"Player-1305-09964658", -- [12]
+			224, -- [11]
+			"Player-1305-09E63C07", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfff48cbaHolÿmaster|r",
-			[51] = 1531906887,
+			[52] = "|cfff48cbaEvildor|r",
+			[51] = 1537279317,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [13]
 		{
-			"WTS Alani |cffa335ee|Hitem:90655::::::::110:72::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r  w/ for info - 3 spots left. 100% drop.", -- [1]
-			"Riceboix-Kazzak", -- [2]
+			"WTB |cffffffff|Hitem:152576::::::::110:259::::::|h[Tidespray Linen]|h|r 15g each/ |cffa335ee|Hitem:152877::::::::110:259::::::|h[Veiled Crystal]|h|r 600g  each/ Boe greens(BFA) 140g each/ COD me all you have", -- [1]
+			"Artfelkara-Kazzak", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Riceboix", -- [5]
-			"", -- [6]
+			"Artfelkara", -- [5]
+			"DND", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			497, -- [11]
-			"Player-1305-09CABD2F", -- [12]
+			226, -- [11]
+			"Player-1305-09F2FE20", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffff7c0aRiceboix|r",
-			[51] = 1531906889,
+			[52] = "|cfffff468Artfelkara|r",
+			[51] = 1537279321,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [14]
 		{
-			"Wts Argus Heroic G|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r Going Now Gp +250 Personal Loot w/me For info Going Now:<<<<", -- [1]
-			"Holÿmaster-Kazzak", -- [2]
+			"WTS +10 WEEKLY CHEST BOOST- ALL REALM - Get your 370+ilvl from dungeon / 385+ from weekly chest / we are 360+ group ", -- [1]
+			"Demirk-Kazzak", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Holÿmaster", -- [5]
+			"Demirk", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			501, -- [11]
-			"Player-1305-09964658", -- [12]
+			227, -- [11]
+			"Player-1305-0979A6BB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfff48cbaHolÿmaster|r",
-			[51] = 1531906907,
+			[52] = "|cfffff468Demirk|r",
+			[51] = 1537279323,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [15]
 		{
-			"WTS Alani |cffa335ee|Hitem:90655::::::::110:72::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r  w/ for info - 3 spots left. 100% drop.", -- [1]
-			"Riceboix-Kazzak", -- [2]
+			"WTS |cffa335ee|Hitem:65891::::::::120:105::::::|h[Vial of the Sands]|h|r", -- [1]
+			"Ghostftw-Kazzak", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Riceboix", -- [5]
+			"Ghostftw", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			508, -- [11]
-			"Player-1305-09CABD2F", -- [12]
+			228, -- [11]
+			"Player-1305-0852D215", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffff7c0aRiceboix|r",
-			[51] = 1531906918,
+			[52] = "|cffff7c0aGhostftw|r",
+			[51] = 1537279325,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [16]
 		{
-			"det nice at ens fishing er gået ned i lvl 1", -- [1]
-			"Executiè-Kazzak", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Executiè", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			510, -- [11]
-			"Player-1305-07CD3E06", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dExecutiè|r",
-			[51] = 1531906921,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [17]
-		{
-			"fra 700 noget", -- [1]
-			"Executiè-Kazzak", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Executiè", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			512, -- [11]
-			"Player-1305-07CD3E06", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dExecutiè|r",
-			[51] = 1531906925,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [18]
-		{
-			"WTS|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r Heroic Loot is personal Group + 970 you get mount + Curve 100% and chance drop item +955 .", -- [1]
-			"Holytemplar-Kazzak", -- [2]
+			"<Fellas> 7/8H 1/8M looking for a mistweaver for our roster. Raid times Tues and Wed 20:00-00:00 server time. /w for more  info", -- [1]
+			"Sphinnx-Kazzak", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Holytemplar", -- [5]
+			"Sphinnx", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			513, -- [11]
-			"Player-1305-08E23195", -- [12]
+			230, -- [11]
+			"Player-1305-09D448C1", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfff48cbaHolytemplar|r",
-			[51] = 1531906925,
+			[52] = "|cffaad372Sphinnx|r",
+			[51] = 1537279332,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [17]
+		{
+			"WTS |cffa335ee|Hkeystone:158923:247:10:9:11:2:16|h[Keystone: The MOTHERLODE!! (10)]|h|r Group rdy to go now", -- [1]
+			"Baesson-Kazzak", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Baesson", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			233, -- [11]
+			"Player-1305-08989A19", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa330c9Baesson|r",
+			[51] = 1537279339,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [18]
+		{
+			"< Blackstand > NEW Semi-hardcore Raid Progession Guild. Raiding Thursday 18:00-23:00 and Sunday. We're looking to fill all roles :-) Clearing 8/8hc next week. Active socials are welcome. /w for more info. 18+", -- [1]
+			"Dimmers-Kazzak", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Dimmers", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			234, -- [11]
+			"Player-1305-09EEFF14", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff48cbaDimmers|r",
+			[51] = 1537279340,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [19]
 		{
-			"Wts Argus Heroic G|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r Going Now Gp +250 Personal Loot w/me For info Going Now:<<<<", -- [1]
-			"Holÿmaster-Kazzak", -- [2]
+			"WTS |cffa335ee|Hitem:161074::::::::120:65::5:3:4799:1507:4784:::|h[Crushproof Vambraces]|h|r ", -- [1]
+			"Evildor-Kazzak", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Holÿmaster", -- [5]
+			"Evildor", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			514, -- [11]
-			"Player-1305-09964658", -- [12]
+			235, -- [11]
+			"Player-1305-09E63C07", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfff48cbaHolÿmaster|r",
-			[51] = 1531906925,
+			[52] = "|cfff48cbaEvildor|r",
+			[51] = 1537279341,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [20]
 		{
-			"i like it", -- [1]
-			"Executiè-Kazzak", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Executiè", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			515, -- [11]
-			"Player-1305-07CD3E06", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dExecutiè|r",
-			[51] = 1531906929,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [21]
-		{
-			"WTS |cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r HC PERSONAL LOOT, VERY CHEAP PRICE, /w me for more info", -- [1]
+			"WTS |cff66bbff|Hjournal:0:1031:15|h[Uldir]|h|r|cff66bbff|Hjournal:0:1031:15|h[Uldir]|h|r|cff66bbff|Hjournal:0:1031:15|h[Uldir]|h|r Normal Fresh +345  group, Get your+ 355 items, CHEAP price, /w me for more info", -- [1]
 			"Thirdrechard-Kazzak", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
@@ -496,7 +474,7 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			516, -- [11]
+			236, -- [11]
 			"Player-1305-08E1753F", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -504,2317 +482,2339 @@ ElvCharacterDB = {
 			false, -- [16]
 			true, -- [17]
 			[52] = "|cffa330c9Thirdrechard|r",
-			[51] = 1531906930,
+			[51] = 1537279341,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [21]
+		{
+			"< Blackstand > NEW Semi-hardcore Raid Progession Guild. Raiding Thursday 18:00-23:00 and Sunday. We're looking to fill all roles :-) Clearing 8/8hc next week. Active socials are welcome. /w for more info. 18+", -- [1]
+			"Dimmers-Kazzak", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Dimmers", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			237, -- [11]
+			"Player-1305-09EEFF14", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff48cbaDimmers|r",
+			[51] = 1537279341,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [22]
 		{
-			"WTS Alani |cffa335ee|Hitem:90655::::::::110:72::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r  w/ for info - 3 spots left. 100% drop.", -- [1]
-			"Riceboix-Kazzak", -- [2]
+			"WTS Mythic+ Services! Get your items really fast and prepare for Uldir! Whisp me for info.", -- [1]
+			"Cematheslaye-Kazzak", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Riceboix", -- [5]
-			"", -- [6]
+			"Cematheslaye", -- [5]
+			"DND", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			521, -- [11]
-			"Player-1305-09CABD2F", -- [12]
+			238, -- [11]
+			"Player-1305-0A080BDC", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffff7c0aRiceboix|r",
-			[51] = 1531906947,
+			[52] = "|cff0070ddCematheslaye|r",
+			[51] = 1537279345,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [23]
 		{
-			"Wts Argus Heroic G|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r Going Now Gp +250 Personal Loot w/me For info Going Now:<<<<", -- [1]
-			"Holÿmaster-Kazzak", -- [2]
+			"WTB |cffffffff|Hitem:152576::::::::110:259::::::|h[Tidespray Linen]|h|r 15g each/ |cffa335ee|Hitem:152877::::::::110:259::::::|h[Veiled Crystal]|h|r 600g  each/ Boe greens(BFA) 140g each/ COD me all you have", -- [1]
+			"Artfelkara-Kazzak", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Holÿmaster", -- [5]
-			"", -- [6]
+			"Artfelkara", -- [5]
+			"DND", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			524, -- [11]
-			"Player-1305-09964658", -- [12]
+			239, -- [11]
+			"Player-1305-09F2FE20", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfff48cbaHolÿmaster|r",
-			[51] = 1531906951,
+			[52] = "|cfffff468Artfelkara|r",
+			[51] = 1537279346,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [24]
 		{
-			"WTS |cff66bbff|Hjournal:1:2031:14|h[Argus the Unmaker]|h|r Heroic Lead 10/11 mythic you can simply AFK /w me for reserve a spot.", -- [1]
-			"Slojas-Kazzak", -- [2]
+			"WTB only Kings Rest + 7 or higher Boost /w me price", -- [1]
+			"Xèrus-Kazzak", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Slojas", -- [5]
+			"Xèrus", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			527, -- [11]
-			"Player-1305-08EA240F", -- [12]
+			241, -- [11]
+			"Player-1305-091556CF", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffffffffSlojas|r",
-			[51] = 1531906956,
+			[52] = "|cffc69b6dXèrus|r",
+			[51] = 1537279351,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [25]
 		{
-			"wts|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|rhc Going now  10/11 Lead +250Gp /w For info", -- [1]
-			"Lightonê-Kazzak", -- [2]
+			"WTS |cffa335ee|Hitem:65891::::::::120:105::::::|h[Vial of the Sands]|h|r", -- [1]
+			"Ghostftw-Kazzak", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Lightonê", -- [5]
+			"Ghostftw", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			529, -- [11]
-			"Player-1305-08DE96C0", -- [12]
+			242, -- [11]
+			"Player-1305-0852D215", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffffffffLightonê|r",
-			[51] = 1531906961,
+			[52] = "|cffff7c0aGhostftw|r",
+			[51] = 1537279355,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [26]
 		{
-			"WTS |cff0070dd|Hitem:41611::::::::110:577::::::|h[Eternal Belt Buckle]|h|r get Your belt socket and own in world PvP!", -- [1]
-			"Denari-Kazzak", -- [2]
+			"<Exemplars> currently 8/8 N 4/8 HC Looking for Ranged DPS and healers for our roster. Main Goal for the guild is to achieve cutting edge.  Raid times are 9-12 ST Wednesday Thursday Monday. /w me for a chat! :)", -- [1]
+			"Acedk-Kazzak", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Denari", -- [5]
+			"Acedk", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			530, -- [11]
-			"Player-1305-08893E64", -- [12]
+			243, -- [11]
+			"Player-1305-09CE396F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffa330c9Denari|r",
-			[51] = 1531906968,
+			[52] = "|cffc41e3aAcedk|r",
+			[51] = 1537279356,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [27]
 		{
-			"WTS Alani |cffa335ee|Hitem:90655::::::::110:72::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r  w/ for info - 3 spots left. 100% drop.", -- [1]
-			"Riceboix-Kazzak", -- [2]
+			"WTS Mythic Dungeons Carry by Pro team. Also booking Uldir Normal and Heroic Runs  /w for info", -- [1]
+			"Enamalme-Kazzak", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Riceboix", -- [5]
+			"Enamalme", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			534, -- [11]
-			"Player-1305-09CABD2F", -- [12]
+			244, -- [11]
+			"Player-1305-0A0817CB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffff7c0aRiceboix|r",
-			[51] = 1531906974,
+			[52] = "|cffc69b6dEnamalme|r",
+			[51] = 1537279356,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [28]
 		{
-			"Wts Argus Heroic G|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r Going Now Gp +250 Personal Loot w/me For info Going Now:<<<<", -- [1]
-			"Holÿmaster-Kazzak", -- [2]
+			"WTS |cffa335ee|Hitem:161077::::::::120:71::3:3:4798:1502:4784:::|h[Fluid-Resistant Specimen Handlers]|h|r 400k", -- [1]
+			"Zangoz-Kazzak", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Holÿmaster", -- [5]
+			"Zangoz", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			535, -- [11]
-			"Player-1305-09964658", -- [12]
+			245, -- [11]
+			"Player-1305-077CEF79", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfff48cbaHolÿmaster|r",
-			[51] = 1531906987,
+			[52] = "|cffc69b6dZangoz|r",
+			[51] = 1537279359,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [29]
 		{
-			"wts|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|rhc Going now  10/11 Lead +250Gp /w For info", -- [1]
-			"Lightonê-Kazzak", -- [2]
+			"WTS |cff66bbff|Hjournal:0:1031:15|h[Uldir]|h|r|cff66bbff|Hjournal:0:1031:15|h[Uldir]|h|r|cff66bbff|Hjournal:0:1031:15|h[Uldir]|h|r Normal Fresh +345  group, Get your+ 355 items, CHEAP price, /w me for more info", -- [1]
+			"Thirdrechard-Kazzak", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Lightonê", -- [5]
+			"Thirdrechard", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			536, -- [11]
-			"Player-1305-08DE96C0", -- [12]
+			246, -- [11]
+			"Player-1305-08E1753F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffffffffLightonê|r",
-			[51] = 1531906991,
+			[52] = "|cffa330c9Thirdrechard|r",
+			[51] = 1537279360,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [30]
 		{
-			"WTS Alani |cffa335ee|Hitem:90655::::::::110:72::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r  w/ for info - 3 spots left. 100% drop.", -- [1]
-			"Riceboix-Kazzak", -- [2]
+			"gi", -- [1]
+			"Asâfà-Ysondre", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Riceboix", -- [5]
+			"", -- [4]
+			"Asâfà-Ysondre", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			538, -- [11]
-			"Player-1305-09CABD2F", -- [12]
+			248, -- [11]
+			"Player-1335-064DB8A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aRiceboix|r",
-			[51] = 1531906996,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffaad372Asâfà-Ysondre|r",
+			[51] = 1537279361,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [31]
 		{
-			"Wts Argus Heroic G|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r Going Now Gp +250 Personal Loot w/me For info Going Now:<<<<", -- [1]
-			"Holÿmaster-Kazzak", -- [2]
+			"hi*", -- [1]
+			"Asâfà-Ysondre", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Holÿmaster", -- [5]
+			"", -- [4]
+			"Asâfà-Ysondre", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			540, -- [11]
-			"Player-1305-09964658", -- [12]
+			249, -- [11]
+			"Player-1335-064DB8A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff48cbaHolÿmaster|r",
-			[51] = 1531907004,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffaad372Asâfà-Ysondre|r",
+			[51] = 1537279364,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [32]
 		{
-			"Wts Argus Heroic G|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r Going Now Gp +250 Personal Loot w/me For info Going Now:<<<<", -- [1]
-			"Holÿmaster-Kazzak", -- [2]
+			"brb 2 min guys", -- [1]
+			"Cyclex-Kazzak", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Holÿmaster", -- [5]
+			"", -- [4]
+			"Cyclex", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			549, -- [11]
-			"Player-1305-09964658", -- [12]
+			256, -- [11]
+			"Player-1305-0A056234", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff48cbaHolÿmaster|r",
-			[51] = 1531907017,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffff7c0aCyclex|r",
+			[51] = 1537279429,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [33]
 		{
-			"wts|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|rhc Going now  10/11 Lead +250Gp /w For info", -- [1]
-			"Lightonê-Kazzak", -- [2]
+			"coffee", -- [1]
+			"Cyclex-Kazzak", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lightonê", -- [5]
+			"", -- [4]
+			"Cyclex", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			550, -- [11]
-			"Player-1305-08DE96C0", -- [12]
+			257, -- [11]
+			"Player-1305-0A056234", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffffffffLightonê|r",
-			[51] = 1531907021,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffff7c0aCyclex|r",
+			[51] = 1537279433,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [34]
 		{
-			"ah", -- [1]
-			"Xhanon-Kazzak", -- [2]
+			"1 moment, brb 1min", -- [1]
+			"Скульптор-Ревущийфьорд", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Xhanon", -- [5]
+			"Скульптор-Ревущийфьорд", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			551, -- [11]
-			"Player-1305-0413A750", -- [12]
+			263, -- [11]
+			"Player-1615-08D0C821", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff0070ddXhanon|r",
-			[51] = 1531907021,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc41e3aСкульптор-Ревущийфьорд|r",
+			[51] = 1537279533,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [35]
 		{
-			"WTS Alani |cffa335ee|Hitem:90655::::::::110:72::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r  w/ for info - 3 spots left. 100% drop.", -- [1]
-			"Riceboix-Kazzak", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:12505:Player-1305-089449D5:1:9:18:18:4294967295:4294967295:4294967295:4294967295|h[Heroic: The Temple of Sethraliss]|h|r!", -- [1]
+			"Xtoto-Kazzak", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Riceboix", -- [5]
+			"", -- [4]
+			"Xtoto", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			555, -- [11]
-			"Player-1305-09CABD2F", -- [12]
+			268, -- [11]
+			"Player-1305-089449D5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aRiceboix|r",
-			[51] = 1531907028,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8787edXtoto|r",
+			[51] = 1537279690,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [36]
 		{
-			"WTS|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r HC Personal Loot +980 11/11 Mythic Exp Group ~ You Can Still AFK . Ready To Summon  Last Spot & OneShot Going Every 15 Min . /W For Reserve A Spot", -- [1]
-			"Mziper-Kazzak", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Mziper", -- [5]
+			"POUR LE ROHAN !", -- [1]
+			"Asâfà-Ysondre", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Asâfà-Ysondre", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			557, -- [11]
-			"Player-1305-09951650", -- [12]
+			277, -- [11]
+			"Player-1335-064DB8A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc41e3aMziper|r",
-			[51] = 1531907033,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffaad372Asâfà-Ysondre|r",
+			[51] = 1537279881,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [37]
 		{
-			"så man fik faktisk ingenting i sin chest", -- [1]
-			"Xhanon-Kazzak", -- [2]
-			"", -- [3]
+			"POUR LE ROHAN !", -- [1]
+			"Asâfà-Ysondre", -- [2]
+			"Orcish", -- [3]
 			"", -- [4]
-			"Xhanon", -- [5]
+			"Asâfà-Ysondre", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			558, -- [11]
-			"Player-1305-0413A750", -- [12]
+			283, -- [11]
+			"Player-1335-064DB8A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff0070ddXhanon|r",
-			[51] = 1531907036,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffaad372Asâfà-Ysondre|r",
+			[51] = 1537279922,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [38]
 		{
-			"WTS |cff0070dd|Hitem:41611::::::::110:577::::::|h[Eternal Belt Buckle]|h|r get Your belt socket and own in world PvP!", -- [1]
-			"Denari-Kazzak", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Denari", -- [5]
+			"POUR LE ROHAN !", -- [1]
+			"Asâfà-Ysondre", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Asâfà-Ysondre", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			559, -- [11]
-			"Player-1305-08893E64", -- [12]
+			284, -- [11]
+			"Player-1335-064DB8A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa330c9Denari|r",
-			[51] = 1531907040,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffaad372Asâfà-Ysondre|r",
+			[51] = 1537279922,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [39]
 		{
-			"Wts Argus Heroic G|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r Going Now Gp +250 Personal Loot w/me For info Going Now:<<<<", -- [1]
-			"Holÿmaster-Kazzak", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Holÿmaster", -- [5]
+			"POUR LE ROHAN !", -- [1]
+			"Asâfà-Ysondre", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Asâfà-Ysondre", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			562, -- [11]
-			"Player-1305-09964658", -- [12]
+			287, -- [11]
+			"Player-1335-064DB8A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff48cbaHolÿmaster|r",
-			[51] = 1531907043,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffaad372Asâfà-Ysondre|r",
+			[51] = 1537279958,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [40]
 		{
-			"Wts Argus Heroic G|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r Going Now Gp +250 Personal Loot w/me For info Going Now:<<<<", -- [1]
-			"Holÿmaster-Kazzak", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Holÿmaster", -- [5]
+			"POUR LE ROHAN !", -- [1]
+			"Asâfà-Ysondre", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Asâfà-Ysondre", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			564, -- [11]
-			"Player-1305-09964658", -- [12]
+			288, -- [11]
+			"Player-1335-064DB8A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff48cbaHolÿmaster|r",
-			[51] = 1531907050,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffaad372Asâfà-Ysondre|r",
+			[51] = 1537279958,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [41]
 		{
-			"WTS Alani |cffa335ee|Hitem:90655::::::::110:72::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r  w/ for info - 3 spots left. 100% drop.", -- [1]
-			"Riceboix-Kazzak", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Riceboix", -- [5]
+			"POUR LE ROHAN !", -- [1]
+			"Asâfà-Ysondre", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Asâfà-Ysondre", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			565, -- [11]
-			"Player-1305-09CABD2F", -- [12]
+			290, -- [11]
+			"Player-1335-064DB8A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aRiceboix|r",
-			[51] = 1531907057,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffaad372Asâfà-Ysondre|r",
+			[51] = 1537279992,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [42]
 		{
-			"ye bare 1k", -- [1]
-			"Executiè-Kazzak", -- [2]
-			"", -- [3]
+			"Interrupted Refreshment Vendor's |cff71d5ff|Hspell:280604:0|h[Iced Spritzer]|h|r!", -- [1]
+			"Trixxed-Kazzak", -- [2]
+			"Orcish", -- [3]
 			"", -- [4]
-			"Executiè", -- [5]
+			"Trixxed", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			566, -- [11]
-			"Player-1305-07CD3E06", -- [12]
+			292, -- [11]
+			"Player-1305-09CE1263", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dExecutiè|r",
-			[51] = 1531907058,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff8787edTrixxed|r",
+			[51] = 1537280022,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [43]
 		{
-			"WTS |cff66bbff|Hjournal:1:2031:14|h[Argus the Unmaker]|h|r Heroic Lead 10/11 mythic you can simply AFK /w me for reserve a spot.", -- [1]
-			"Slojas-Kazzak", -- [2]
+			"Got B?", -- [1]
+			"Cyclex-Kazzak", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Slojas", -- [5]
+			"", -- [4]
+			"Cyclex", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			569, -- [11]
-			"Player-1305-08EA240F", -- [12]
+			294, -- [11]
+			"Player-1305-0A056234", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffffffffSlojas|r",
-			[51] = 1531907076,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffff7c0aCyclex|r",
+			[51] = 1537280056,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [44]
 		{
-			"også på chars der ikke engang har lavet m+ i sidste uge, right?", -- [1]
-			"Damagedog-Kazzak", -- [2]
+			"BL", -- [1]
+			"Cyclex-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Damagedog", -- [5]
+			"Cyclex", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			570, -- [11]
-			"Player-1305-09D1CE6F", -- [12]
+			295, -- [11]
+			"Player-1305-0A056234", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aDamagedog|r",
-			[51] = 1531907079,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffff7c0aCyclex|r",
+			[51] = 1537280058,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [45]
 		{
-			"jeg kan købe min første shaman leggo", -- [1]
-			"Executiè-Kazzak", -- [2]
+			"ye", -- [1]
+			"Trixxed-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Executiè", -- [5]
+			"Trixxed", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			571, -- [11]
-			"Player-1305-07CD3E06", -- [12]
+			296, -- [11]
+			"Player-1305-09CE1263", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dExecutiè|r",
-			[51] = 1531907085,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff8787edTrixxed|r",
+			[51] = 1537280060,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [46]
 		{
-			"ja", -- [1]
-			"Xhanon-Kazzak", -- [2]
+			"no", -- [1]
+			"Asâfà-Ysondre", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Xhanon", -- [5]
+			"Asâfà-Ysondre", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			572, -- [11]
-			"Player-1305-0413A750", -- [12]
+			297, -- [11]
+			"Player-1335-064DB8A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff0070ddXhanon|r",
-			[51] = 1531907086,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffaad372Asâfà-Ysondre|r",
+			[51] = 1537280060,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [47]
 		{
-			"Pog", -- [1]
-			"Executiè-Kazzak", -- [2]
+			"got drums", -- [1]
+			"Trixxed-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Executiè", -- [5]
+			"Trixxed", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			573, -- [11]
-			"Player-1305-07CD3E06", -- [12]
+			298, -- [11]
+			"Player-1305-09CE1263", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dExecutiè|r",
-			[51] = 1531907086,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff8787edTrixxed|r",
+			[51] = 1537280062,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [48]
 		{
-			"Wts Argus Heroic G|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r Going Now Gp +250 Personal Loot w/me For info Going Now:<<<<", -- [1]
-			"Holÿmaster-Kazzak", -- [2]
+			"second boss", -- [1]
+			"Asâfà-Ysondre", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Holÿmaster", -- [5]
+			"", -- [4]
+			"Asâfà-Ysondre", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			574, -- [11]
-			"Player-1305-09964658", -- [12]
+			299, -- [11]
+			"Player-1335-064DB8A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff48cbaHolÿmaster|r",
-			[51] = 1531907086,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffaad372Asâfà-Ysondre|r",
+			[51] = 1537280062,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [49]
 		{
-			"WTS Alani |cffa335ee|Hitem:90655::::::::110:72::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r  w/ for info - 3 spots left. 100% drop.", -- [1]
-			"Riceboix-Kazzak", -- [2]
+			"Yeah ", -- [1]
+			"Cyclex-Kazzak", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Riceboix", -- [5]
+			"", -- [4]
+			"Cyclex", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			576, -- [11]
-			"Player-1305-09CABD2F", -- [12]
+			301, -- [11]
+			"Player-1305-0A056234", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aRiceboix|r",
-			[51] = 1531907089,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffff7c0aCyclex|r",
+			[51] = 1537280068,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [50]
 		{
-			"wts|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|rhc Going now  10/11 Lead +250Gp /w For info", -- [1]
-			"Lightonê-Kazzak", -- [2]
+			"boss debuff bomb", -- [1]
+			"Asâfà-Ysondre", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lightonê", -- [5]
+			"", -- [4]
+			"Asâfà-Ysondre", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			579, -- [11]
-			"Player-1305-08DE96C0", -- [12]
+			302, -- [11]
+			"Player-1335-064DB8A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffffffffLightonê|r",
-			[51] = 1531907105,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffaad372Asâfà-Ysondre|r",
+			[51] = 1537280070,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [51]
 		{
-			"WTS |cff0070dd|Hitem:41611::::::::110:577::::::|h[Eternal Belt Buckle]|h|r get Your belt socket and own in world PvP!", -- [1]
-			"Denari-Kazzak", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Denari", -- [5]
+			"POUR LE ROHAN !", -- [1]
+			"Asâfà-Ysondre", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Asâfà-Ysondre", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			580, -- [11]
-			"Player-1305-08893E64", -- [12]
+			303, -- [11]
+			"Player-1335-064DB8A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa330c9Denari|r",
-			[51] = 1531907114,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffaad372Asâfà-Ysondre|r",
+			[51] = 1537280070,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [52]
 		{
-			"Wts Argus Heroic G|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r Going Now Gp +250 Personal Loot w/me For info Going Now:<<<<", -- [1]
-			"Holÿmaster-Kazzak", -- [2]
+			"cba", -- [1]
+			"Cyclex-Kazzak", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Holÿmaster", -- [5]
+			"", -- [4]
+			"Cyclex", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			581, -- [11]
-			"Player-1305-09964658", -- [12]
+			308, -- [11]
+			"Player-1305-0A056234", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff48cbaHolÿmaster|r",
-			[51] = 1531907117,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffff7c0aCyclex|r",
+			[51] = 1537280090,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [53]
 		{
-			"er det endelig tid til at fjerne bartender ? ", -- [1]
-			"Xhanon-Kazzak", -- [2]
+			"ress", -- [1]
+			"Cyclex-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Xhanon", -- [5]
+			"Cyclex", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			582, -- [11]
-			"Player-1305-0413A750", -- [12]
+			309, -- [11]
+			"Player-1305-0A056234", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff0070ddXhanon|r",
-			[51] = 1531907123,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffff7c0aCyclex|r",
+			[51] = 1537280090,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [54]
 		{
-			"WTS Alani |cffa335ee|Hitem:90655::::::::110:72::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r  w/ for info - 3 spots left. 100% drop.", -- [1]
-			"Riceboix-Kazzak", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Riceboix", -- [5]
+			"POUR LE ROHAN !", -- [1]
+			"Asâfà-Ysondre", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Asâfà-Ysondre", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			584, -- [11]
-			"Player-1305-09CABD2F", -- [12]
+			311, -- [11]
+			"Player-1335-064DB8A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aRiceboix|r",
-			[51] = 1531907125,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffaad372Asâfà-Ysondre|r",
+			[51] = 1537280100,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [55]
 		{
-			"wts|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|rhc Going now  10/11 Lead +250Gp /w For info", -- [1]
-			"Lightonê-Kazzak", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lightonê", -- [5]
+			"POUR LE ROHAN !", -- [1]
+			"Asâfà-Ysondre", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Asâfà-Ysondre", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			586, -- [11]
-			"Player-1305-08DE96C0", -- [12]
+			316, -- [11]
+			"Player-1335-064DB8A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffffffffLightonê|r",
-			[51] = 1531907135,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffaad372Asâfà-Ysondre|r",
+			[51] = 1537280126,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [56]
 		{
-			"Wts Argus Heroic G|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r Going Now Gp +250 Personal Loot w/me For info Going Now:<<<<", -- [1]
-			"Holÿmaster-Kazzak", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Holÿmaster", -- [5]
+			"POUR LE ROHAN !", -- [1]
+			"Asâfà-Ysondre", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Asâfà-Ysondre", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			587, -- [11]
-			"Player-1305-09964658", -- [12]
+			317, -- [11]
+			"Player-1335-064DB8A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff48cbaHolÿmaster|r",
-			[51] = 1531907137,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffaad372Asâfà-Ysondre|r",
+			[51] = 1537280126,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [57]
 		{
-			"Wts Argus Heroic G|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r Going Now Gp +250 Personal Loot w/me For info Going Now:<<<<", -- [1]
-			"Holÿmaster-Kazzak", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Holÿmaster", -- [5]
+			"POUR LE ROHAN !", -- [1]
+			"Asâfà-Ysondre", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Asâfà-Ysondre", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			590, -- [11]
-			"Player-1305-09964658", -- [12]
+			318, -- [11]
+			"Player-1335-064DB8A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff48cbaHolÿmaster|r",
-			[51] = 1531907155,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffaad372Asâfà-Ysondre|r",
+			[51] = 1537280126,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [58]
 		{
-			"wts|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|rhc Going now  10/11 Lead +250Gp /w For info", -- [1]
-			"Lightonê-Kazzak", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lightonê", -- [5]
+			"POUR LE ROHAN !", -- [1]
+			"Asâfà-Ysondre", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Asâfà-Ysondre", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			592, -- [11]
-			"Player-1305-08DE96C0", -- [12]
+			322, -- [11]
+			"Player-1335-064DB8A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffffffffLightonê|r",
-			[51] = 1531907165,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffaad372Asâfà-Ysondre|r",
+			[51] = 1537280149,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [59]
 		{
-			"WTS |cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r Heroic Loot is personal Before End legion u must get spellwing mount Whisper me for reserve spot.", -- [1]
-			"Holytemplar-Kazzak", -- [2]
+			"well..", -- [1]
+			"Asâfà-Ysondre", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Holytemplar", -- [5]
+			"", -- [4]
+			"Asâfà-Ysondre", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			593, -- [11]
-			"Player-1305-08E23195", -- [12]
+			340, -- [11]
+			"Player-1335-064DB8A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff48cbaHolytemplar|r",
-			[51] = 1531907166,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffaad372Asâfà-Ysondre|r",
+			[51] = 1537280253,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [60]
 		{
-			"Wts Argus Heroic G|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r Going Now Gp +250 Personal Loot w/me For info Going Now:<<<<", -- [1]
-			"Holÿmaster-Kazzak", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Holÿmaster", -- [5]
+			"Interrupted Venture Co. Earthshaper's |cff71d5ff|Hspell:268709:0|h[Earth Shield]|h|r!", -- [1]
+			"Trixxed-Kazzak", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Trixxed", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			597, -- [11]
-			"Player-1305-09964658", -- [12]
+			343, -- [11]
+			"Player-1305-09CE1263", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff48cbaHolÿmaster|r",
-			[51] = 1531907170,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8787edTrixxed|r",
+			[51] = 1537280286,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [61]
 		{
-			"WTS Alani |cffa335ee|Hitem:90655::::::::110:72::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r  w/ for info - 3 spots left. 100% drop.", -- [1]
-			"Riceboix-Kazzak", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Riceboix", -- [5]
+			"Interrupted Venture Co. Earthshaper's |cff71d5ff|Hspell:268709:0|h[Earth Shield]|h|r!", -- [1]
+			"Trixxed-Kazzak", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Trixxed", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			599, -- [11]
-			"Player-1305-09CABD2F", -- [12]
+			346, -- [11]
+			"Player-1305-09CE1263", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aRiceboix|r",
-			[51] = 1531907177,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8787edTrixxed|r",
+			[51] = 1537280337,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [62]
 		{
-			"wts|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|rhc Going now  10/11 Lead +250Gp /w For info", -- [1]
-			"Lightonê-Kazzak", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lightonê", -- [5]
+			"POUR LE ROHAN !", -- [1]
+			"Asâfà-Ysondre", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Asâfà-Ysondre", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			602, -- [11]
-			"Player-1305-08DE96C0", -- [12]
+			352, -- [11]
+			"Player-1335-064DB8A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffffffffLightonê|r",
-			[51] = 1531907195,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffaad372Asâfà-Ysondre|r",
+			[51] = 1537280417,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [63]
 		{
-			"WTS |cff66bbff|Hjournal:1:2031:14|h[Argus the Unmaker]|h|r Heroic Lead 10/11 mythic you can simply AFK /w me for reserve a spot.", -- [1]
-			"Slojas-Kazzak", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Slojas", -- [5]
+			"Interrupted Stonefury's |cff71d5ff|Hspell:263215:0|h[Tectonic Barrier]|h|r!", -- [1]
+			"Trixxed-Kazzak", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Trixxed", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			603, -- [11]
-			"Player-1305-08EA240F", -- [12]
+			354, -- [11]
+			"Player-1305-09CE1263", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffffffffSlojas|r",
-			[51] = 1531907196,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8787edTrixxed|r",
+			[51] = 1537280447,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [64]
 		{
-			"WTS|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r HC Personal Loot +980 11/11 Mythic Exp Group ~ You Can Still AFK . Ready To Summon  Last Spot & OneShot Going Every 15 Min . /W For Reserve A Spot", -- [1]
-			"Mziper-Kazzak", -- [2]
+			"??", -- [1]
+			"Asâfà-Ysondre", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Mziper", -- [5]
+			"", -- [4]
+			"Asâfà-Ysondre", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			606, -- [11]
-			"Player-1305-09951650", -- [12]
+			358, -- [11]
+			"Player-1335-064DB8A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc41e3aMziper|r",
-			[51] = 1531907213,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffaad372Asâfà-Ysondre|r",
+			[51] = 1537280500,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [65]
 		{
-			"WTS Alani |cffa335ee|Hitem:90655::::::::110:72::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r  w/ for info - 3 spots left. 100% drop.", -- [1]
-			"Riceboix-Kazzak", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Riceboix", -- [5]
+			"POUR LE ROHAN !", -- [1]
+			"Asâfà-Ysondre", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Asâfà-Ysondre", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			607, -- [11]
-			"Player-1305-09CABD2F", -- [12]
+			359, -- [11]
+			"Player-1335-064DB8A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aRiceboix|r",
-			[51] = 1531907222,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffaad372Asâfà-Ysondre|r",
+			[51] = 1537280504,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [66]
 		{
-			"wts|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|rhc Going now  10/11 Lead +250Gp /w For info", -- [1]
-			"Lightonê-Kazzak", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lightonê", -- [5]
+			"POUR LE ROHAN !", -- [1]
+			"Asâfà-Ysondre", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Asâfà-Ysondre", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			608, -- [11]
-			"Player-1305-08DE96C0", -- [12]
+			360, -- [11]
+			"Player-1335-064DB8A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffffffffLightonê|r",
-			[51] = 1531907225,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffaad372Asâfà-Ysondre|r",
+			[51] = 1537280504,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [67]
 		{
-			"WTS Alani |cffa335ee|Hitem:90655::::::::110:72::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r  w/ for info - 3 spots left. 100% drop.", -- [1]
-			"Riceboix-Kazzak", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Riceboix", -- [5]
+			"mana", -- [1]
+			"Trixxed-Kazzak", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Trixxed", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			615, -- [11]
-			"Player-1305-09CABD2F", -- [12]
+			361, -- [11]
+			"Player-1305-09CE1263", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aRiceboix|r",
-			[51] = 1531907249,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8787edTrixxed|r",
+			[51] = 1537280504,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [68]
 		{
-			"wts|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|rhc Going now  10/11 Lead +250Gp /w For info", -- [1]
-			"Lightonê-Kazzak", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lightonê", -- [5]
+			"Interrupted Venture Co. Earthshaper's |cff71d5ff|Hspell:268709:0|h[Earth Shield]|h|r!", -- [1]
+			"Trixxed-Kazzak", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Trixxed", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			618, -- [11]
-			"Player-1305-08DE96C0", -- [12]
+			364, -- [11]
+			"Player-1305-09CE1263", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffffffffLightonê|r",
-			[51] = 1531907255,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8787edTrixxed|r",
+			[51] = 1537280543,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [69]
 		{
-			"wts|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|rhc Going now  10/11 Lead +250Gp /w For info", -- [1]
-			"Lightonê-Kazzak", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lightonê", -- [5]
+			"POUR LE ROHAN !", -- [1]
+			"Asâfà-Ysondre", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Asâfà-Ysondre", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			623, -- [11]
-			"Player-1305-08DE96C0", -- [12]
+			367, -- [11]
+			"Player-1335-064DB8A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffffffffLightonê|r",
-			[51] = 1531907285,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffaad372Asâfà-Ysondre|r",
+			[51] = 1537280549,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [70]
 		{
-			"WTS |cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r Heroic Loot is personal Before End legion u must get spellwing mount Whisper me for reserve spot.", -- [1]
-			"Holytemplar-Kazzak", -- [2]
+			"Would love an internet that doesn't give me insane lag-spikes..", -- [1]
+			"Cyclex-Kazzak", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Holytemplar", -- [5]
+			"", -- [4]
+			"Cyclex", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			624, -- [11]
-			"Player-1305-08E23195", -- [12]
+			369, -- [11]
+			"Player-1305-0A056234", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff48cbaHolytemplar|r",
-			[51] = 1531907286,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffff7c0aCyclex|r",
+			[51] = 1537280570,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [71]
 		{
-			"WTS Alani |cffa335ee|Hitem:90655::::::::110:72::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r  w/ for info - 3 spots left. 100% drop.", -- [1]
-			"Riceboix-Kazzak", -- [2]
+			"BL", -- [1]
+			"Asâfà-Ysondre", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Riceboix", -- [5]
+			"", -- [4]
+			"Asâfà-Ysondre", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			628, -- [11]
-			"Player-1305-09CABD2F", -- [12]
+			372, -- [11]
+			"Player-1335-064DB8A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aRiceboix|r",
-			[51] = 1531907296,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffaad372Asâfà-Ysondre|r",
+			[51] = 1537280573,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [72]
 		{
-			"WTS |cff66bbff|Hjournal:1:2031:14|h[Argus the Unmaker]|h|r Heroic Lead 10/11 mythic you can simply AFK /w me for reserve a spot.", -- [1]
-			"Slojas-Kazzak", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Slojas", -- [5]
+			"POUR LE ROHAN !", -- [1]
+			"Asâfà-Ysondre", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Asâfà-Ysondre", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			633, -- [11]
-			"Player-1305-08EA240F", -- [12]
+			374, -- [11]
+			"Player-1335-064DB8A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffffffffSlojas|r",
-			[51] = 1531907317,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffaad372Asâfà-Ysondre|r",
+			[51] = 1537280582,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [73]
 		{
-			"wts|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|rhc Going now  10/11 Lead +250Gp /w For info", -- [1]
-			"Lightonê-Kazzak", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lightonê", -- [5]
+			"Raging Gaze on Trixxed", -- [1]
+			"Trixxed-Kazzak", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Trixxed", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			636, -- [11]
-			"Player-1305-08DE96C0", -- [12]
+			379, -- [11]
+			"Player-1305-09CE1263", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffffffffLightonê|r",
-			[51] = 1531907333,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8787edTrixxed|r",
+			[51] = 1537280605,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [74]
 		{
-			"WTS Alani |cffa335ee|Hitem:90655::::::::110:72::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r  w/ for info - 3 spots left. 100% drop.", -- [1]
-			"Riceboix-Kazzak", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Riceboix", -- [5]
+			"Raging Gaze on Trixxed", -- [1]
+			"Trixxed-Kazzak", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Trixxed", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			639, -- [11]
-			"Player-1305-09CABD2F", -- [12]
+			381, -- [11]
+			"Player-1305-09CE1263", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aRiceboix|r",
-			[51] = 1531907348,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8787edTrixxed|r",
+			[51] = 1537280622,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [75]
 		{
-			"<The Zandalari Empire> We´re currently recruiting active rbg and arena players for BFA!  Our rbg team reached 2k+ in legion fairly easy before disbanding due to irl issues. We´re now regrouping on bfa release to push even higher", -- [1]
-			"Elyoz-Kazzak", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Elyoz", -- [5]
+			"Raging Gaze on Trixxed", -- [1]
+			"Trixxed-Kazzak", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Trixxed", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			644, -- [11]
-			"Player-1305-09D4DD24", -- [12]
+			385, -- [11]
+			"Player-1305-09CE1263", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc69b6dElyoz|r",
-			[51] = 1531907357,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8787edTrixxed|r",
+			[51] = 1537280635,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [76]
 		{
-			"wts|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|rhc Going now  10/11 Lead +250Gp /w For info", -- [1]
-			"Lightonê-Kazzak", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lightonê", -- [5]
+			"Raging Gaze on Trixxed", -- [1]
+			"Trixxed-Kazzak", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Trixxed", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			649, -- [11]
-			"Player-1305-08DE96C0", -- [12]
+			388, -- [11]
+			"Player-1305-09CE1263", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffffffffLightonê|r",
-			[51] = 1531907363,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8787edTrixxed|r",
+			[51] = 1537280646,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [77]
 		{
-			"WTS Alani |cffa335ee|Hitem:90655::::::::110:72::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r  w/ for info - 3 spots left. 100% drop.", -- [1]
-			"Riceboix-Kazzak", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Riceboix", -- [5]
+			"Raging Gaze on Trixxed", -- [1]
+			"Trixxed-Kazzak", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Trixxed", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			653, -- [11]
-			"Player-1305-09CABD2F", -- [12]
+			396, -- [11]
+			"Player-1305-09CE1263", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aRiceboix|r",
-			[51] = 1531907385,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8787edTrixxed|r",
+			[51] = 1537280706,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [78]
 		{
-			"WTS|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r HC Personal Loot +980 11/11 Mythic Exp Group ~ You Can Still AFK . Ready To Summon  Last Spot & OneShot Going Every 15 Min . /W For Reserve A Spot", -- [1]
-			"Mziper-Kazzak", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Mziper", -- [5]
+			"Interrupted Venture Co. Alchemist's |cff71d5ff|Hspell:262268:0|h[Caustic Compound]|h|r!", -- [1]
+			"Trixxed-Kazzak", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Trixxed", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			657, -- [11]
-			"Player-1305-09951650", -- [12]
+			399, -- [11]
+			"Player-1305-09CE1263", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc41e3aMziper|r",
-			[51] = 1531907393,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8787edTrixxed|r",
+			[51] = 1537280770,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [79]
 		{
-			"wts|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|rhc Going now  10/11 Lead +250Gp /w For info", -- [1]
-			"Lightonê-Kazzak", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lightonê", -- [5]
+			"POUR LE ROHAN !", -- [1]
+			"Asâfà-Ysondre", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Asâfà-Ysondre", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			662, -- [11]
-			"Player-1305-08DE96C0", -- [12]
+			405, -- [11]
+			"Player-1335-064DB8A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffffffffLightonê|r",
-			[51] = 1531907400,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffaad372Asâfà-Ysondre|r",
+			[51] = 1537280887,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [80]
 		{
-			"WTS Alani |cffa335ee|Hitem:90655::::::::110:72::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r  w/ for info - 3 spots left. 100% drop.", -- [1]
-			"Riceboix-Kazzak", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Riceboix", -- [5]
+			"POUR LE ROHAN !", -- [1]
+			"Asâfà-Ysondre", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Asâfà-Ysondre", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			665, -- [11]
-			"Player-1305-09CABD2F", -- [12]
+			410, -- [11]
+			"Player-1335-064DB8A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aRiceboix|r",
-			[51] = 1531907413,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffaad372Asâfà-Ysondre|r",
+			[51] = 1537280931,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [81]
 		{
-			"fuggen DX12 support", -- [1]
-			"Taboo-Kazzak", -- [2]
-			"", -- [3]
+			"POUR LE ROHAN !", -- [1]
+			"Asâfà-Ysondre", -- [2]
+			"Orcish", -- [3]
 			"", -- [4]
-			"Taboo", -- [5]
+			"Asâfà-Ysondre", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			666, -- [11]
-			"Player-1305-07E56672", -- [12]
+			414, -- [11]
+			"Player-1335-064DB8A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc6eaTaboo|r",
-			[51] = 1531907414,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffaad372Asâfà-Ysondre|r",
+			[51] = 1537281011,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [82]
 		{
-			"gg", -- [1]
-			"Taboo-Kazzak", -- [2]
+			"sry", -- [1]
+			"Дриси-Ревущийфьорд", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Taboo", -- [5]
+			"Дриси-Ревущийфьорд", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			667, -- [11]
-			"Player-1305-07E56672", -- [12]
+			434, -- [11]
+			"Player-1615-07357C05", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc6eaTaboo|r",
-			[51] = 1531907414,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffffffffДриси-Ревущийфьорд|r",
+			[51] = 1537281170,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [83]
 		{
-			"<The Zandalari Empire> We´re currently recruiting active rbg and arena players for BFA!  Our rbg team reached 2k+ in legion fairly easy before disbanding due to irl issues. We´re now regrouping on bfa release to push even higher", -- [1]
-			"Elyoz-Kazzak", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Elyoz", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			670, -- [11]
-			"Player-1305-09D4DD24", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc69b6dElyoz|r",
-			[51] = 1531907417,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [84]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:12900:Player-1305-0976CE05:1:7:18:18:4294967295:4294967295:4294967295:4294967295|h[Honor Level 20]|h|r!", -- [1]
-			"Sillyfoot-Kazzak", -- [2]
-			"", -- [3]
+			"POUR LE ROHAN !", -- [1]
+			"Asâfà-Ysondre", -- [2]
+			"Orcish", -- [3]
 			"", -- [4]
-			"Sillyfoot", -- [5]
+			"Asâfà-Ysondre", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			675, -- [11]
-			"Player-1305-0976CE05", -- [12]
+			436, -- [11]
+			"Player-1335-064DB8A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff48cbaSillyfoot|r",
-			[51] = 1531907428,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffaad372Asâfà-Ysondre|r",
+			[51] = 1537281180,
+			[50] = "CHAT_MSG_YELL",
+		}, -- [84]
+		{
+			"POUR LE ROHAN !", -- [1]
+			"Asâfà-Ysondre", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Asâfà-Ysondre", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			440, -- [11]
+			"Player-1335-064DB8A8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Asâfà-Ysondre|r",
+			[51] = 1537281291,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [85]
 		{
-			"wts|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|rhc Going now  10/11 Lead +250Gp /w For info", -- [1]
-			"Lightonê-Kazzak", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lightonê", -- [5]
+			"POUR LE ROHAN !", -- [1]
+			"Asâfà-Ysondre", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Asâfà-Ysondre", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			676, -- [11]
-			"Player-1305-08DE96C0", -- [12]
+			442, -- [11]
+			"Player-1335-064DB8A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffffffffLightonê|r",
-			[51] = 1531907430,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffaad372Asâfà-Ysondre|r",
+			[51] = 1537281373,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [86]
 		{
-			"WTS Alani |cffa335ee|Hitem:90655::::::::110:72::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r  w/ for info - 3 spots left. 100% drop.", -- [1]
-			"Riceboix-Kazzak", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Riceboix", -- [5]
+			"POUR LE ROHAN !", -- [1]
+			"Asâfà-Ysondre", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Asâfà-Ysondre", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			679, -- [11]
-			"Player-1305-09CABD2F", -- [12]
+			443, -- [11]
+			"Player-1335-064DB8A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aRiceboix|r",
-			[51] = 1531907436,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffaad372Asâfà-Ysondre|r",
+			[51] = 1537281419,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [87]
 		{
-			"Wts Argus Heroic G|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r Going Now Gp +250 Personal Loot w/me For info Going Now:<<<<", -- [1]
-			"Holÿmaster-Kazzak", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Holÿmaster", -- [5]
+			"POUR LE ROHAN !", -- [1]
+			"Asâfà-Ysondre", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Asâfà-Ysondre", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			680, -- [11]
-			"Player-1305-09964658", -- [12]
+			446, -- [11]
+			"Player-1335-064DB8A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff48cbaHolÿmaster|r",
-			[51] = 1531907437,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffaad372Asâfà-Ysondre|r",
+			[51] = 1537281467,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [88]
 		{
-			"WTS Alani |cffa335ee|Hitem:90655::::::::110:72::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r  w/ for info - 3 spots left. 100% drop.", -- [1]
-			"Riceboix-Kazzak", -- [2]
+			"stone", -- [1]
+			"Скульптор-Ревущийфьорд", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Riceboix", -- [5]
+			"", -- [4]
+			"Скульптор-Ревущийфьорд", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			683, -- [11]
-			"Player-1305-09CABD2F", -- [12]
+			452, -- [11]
+			"Player-1615-08D0C821", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aRiceboix|r",
-			[51] = 1531907452,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffc41e3aСкульптор-Ревущийфьорд|r",
+			[51] = 1537281536,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [89]
 		{
-			"wts|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|rhc Going now  10/11 Lead +250Gp /w For info", -- [1]
-			"Lightonê-Kazzak", -- [2]
+			"thx", -- [1]
+			"Скульптор-Ревущийфьорд", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lightonê", -- [5]
+			"", -- [4]
+			"Скульптор-Ревущийфьорд", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			685, -- [11]
-			"Player-1305-08DE96C0", -- [12]
+			455, -- [11]
+			"Player-1615-08D0C821", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffffffffLightonê|r",
-			[51] = 1531907460,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffc41e3aСкульптор-Ревущийфьорд|r",
+			[51] = 1537281539,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [90]
 		{
-			"<The Zandalari Empire> We´re currently recruiting active rbg and arena players for BFA!  Our rbg team reached 2k+ in legion fairly easy before disbanding due to irl issues. We´re now regrouping on bfa release to push even higher", -- [1]
-			"Elyoz-Kazzak", -- [2]
+			"care bombar", -- [1]
+			"Asâfà-Ysondre", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Elyoz", -- [5]
+			"", -- [4]
+			"Asâfà-Ysondre", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			691, -- [11]
-			"Player-1305-09D4DD24", -- [12]
+			456, -- [11]
+			"Player-1335-064DB8A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc69b6dElyoz|r",
-			[51] = 1531907477,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffaad372Asâfà-Ysondre|r",
+			[51] = 1537281543,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [91]
 		{
-			"WTS Alani |cffa335ee|Hitem:90655::::::::110:72::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r  w/ for info - 3 spots left. 100% drop.", -- [1]
-			"Riceboix-Kazzak", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Riceboix", -- [5]
+			"POUR LE ROHAN !", -- [1]
+			"Asâfà-Ysondre", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Asâfà-Ysondre", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			694, -- [11]
-			"Player-1305-09CABD2F", -- [12]
+			457, -- [11]
+			"Player-1335-064DB8A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aRiceboix|r",
-			[51] = 1531907479,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffaad372Asâfà-Ysondre|r",
+			[51] = 1537281550,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [92]
 		{
-			"wts|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|rhc Going now  10/11 Lead +250Gp /w For info", -- [1]
-			"Lightonê-Kazzak", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lightonê", -- [5]
+			"Homing Missile on Trixxed", -- [1]
+			"Trixxed-Kazzak", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Trixxed", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			697, -- [11]
-			"Player-1305-08DE96C0", -- [12]
+			463, -- [11]
+			"Player-1305-09CE1263", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffffffffLightonê|r",
-			[51] = 1531907490,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8787edTrixxed|r",
+			[51] = 1537281578,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [93]
 		{
-			"WTS Alani |cffa335ee|Hitem:90655::::::::110:72::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r  w/ for info - 3 spots left. 100% drop.", -- [1]
-			"Riceboix-Kazzak", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Riceboix", -- [5]
+			"Drill Smash on Trixxed", -- [1]
+			"Trixxed-Kazzak", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Trixxed", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			705, -- [11]
-			"Player-1305-09CABD2F", -- [12]
+			464, -- [11]
+			"Player-1305-09CE1263", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aRiceboix|r",
-			[51] = 1531907501,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8787edTrixxed|r",
+			[51] = 1537281578,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [94]
 		{
-			"wts|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|rhc Going now  10/11 Lead +250Gp /w For info", -- [1]
-			"Lightonê-Kazzak", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lightonê", -- [5]
+			"UNE TORTUE A ATTEINT L'OCEAAANNN", -- [1]
+			"Asâfà-Ysondre", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Asâfà-Ysondre", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			716, -- [11]
-			"Player-1305-08DE96C0", -- [12]
+			466, -- [11]
+			"Player-1335-064DB8A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffffffffLightonê|r",
-			[51] = 1531907520,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffaad372Asâfà-Ysondre|r",
+			[51] = 1537281592,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [95]
 		{
-			"<The Zandalari Empire> We´re currently recruiting active rbg and arena players for BFA!  Our rbg team reached 2k+ in legion fairly easy before disbanding due to irl issues. We´re now regrouping on bfa release to push even higher", -- [1]
-			"Elyoz-Kazzak", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Elyoz", -- [5]
+			"UNE TORTUE A ATTEINT L'OCEAAANNN", -- [1]
+			"Asâfà-Ysondre", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Asâfà-Ysondre", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			717, -- [11]
-			"Player-1305-09D4DD24", -- [12]
+			467, -- [11]
+			"Player-1335-064DB8A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc69b6dElyoz|r",
-			[51] = 1531907520,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffaad372Asâfà-Ysondre|r",
+			[51] = 1537281593,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [96]
 		{
-			"WTS Alani |cffa335ee|Hitem:90655::::::::110:72::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r  w/ for info - 3 spots left. 100% drop.", -- [1]
-			"Riceboix-Kazzak", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Riceboix", -- [5]
+			"Homing Missile on Trixxed", -- [1]
+			"Trixxed-Kazzak", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Trixxed", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			730, -- [11]
-			"Player-1305-09CABD2F", -- [12]
+			470, -- [11]
+			"Player-1305-09CE1263", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aRiceboix|r",
-			[51] = 1531907533,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8787edTrixxed|r",
+			[51] = 1537281602,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [97]
 		{
-			"wts|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|rhc Going now  10/11 Lead +250Gp /w For info", -- [1]
-			"Lightonê-Kazzak", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lightonê", -- [5]
+			"Drill Smash on Trixxed", -- [1]
+			"Trixxed-Kazzak", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Trixxed", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			735, -- [11]
-			"Player-1305-08DE96C0", -- [12]
+			471, -- [11]
+			"Player-1305-09CE1263", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffffffffLightonê|r",
-			[51] = 1531907550,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8787edTrixxed|r",
+			[51] = 1537281602,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [98]
 		{
-			"WTS Alani |cffa335ee|Hitem:90655::::::::110:72::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r  w/ for info - 3 spots left. 100% drop.", -- [1]
-			"Riceboix-Kazzak", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Riceboix", -- [5]
+			"UNE TORTUE A ATTEINT L'OCEAAANNN", -- [1]
+			"Asâfà-Ysondre", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Asâfà-Ysondre", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			738, -- [11]
-			"Player-1305-09CABD2F", -- [12]
+			475, -- [11]
+			"Player-1335-064DB8A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aRiceboix|r",
-			[51] = 1531907556,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffaad372Asâfà-Ysondre|r",
+			[51] = 1537281625,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [99]
 		{
-			"WTS|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r HC Personal Loot +980 11/11 Mythic Exp Group ~ You Can Still AFK . Ready To Summon  Last Spot & OneShot Going Every 15 Min . /W For Reserve A Spot", -- [1]
-			"Mziper-Kazzak", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Mziper", -- [5]
+			"POUR LE ROHAN !", -- [1]
+			"Asâfà-Ysondre", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Asâfà-Ysondre", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			745, -- [11]
-			"Player-1305-09951650", -- [12]
+			479, -- [11]
+			"Player-1335-064DB8A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc41e3aMziper|r",
-			[51] = 1531907573,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffaad372Asâfà-Ysondre|r",
+			[51] = 1537281653,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [100]
 		{
-			"Wts |cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r Heroic %100 One Shot %100 Dp Violet Mount |cff71d5ff|Hspell:253639:0|h[Violet Spellwing]|h|r Gp +250 Personal Loot W/me Right Now:<<<<", -- [1]
-			"Holÿmaster-Kazzak", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Holÿmaster", -- [5]
+			"Drill Smash on Trixxed", -- [1]
+			"Trixxed-Kazzak", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Trixxed", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			746, -- [11]
-			"Player-1305-09964658", -- [12]
+			482, -- [11]
+			"Player-1305-09CE1263", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff48cbaHolÿmaster|r",
-			[51] = 1531907574,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8787edTrixxed|r",
+			[51] = 1537281662,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [101]
 		{
-			"wts|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|rhc Going now  10/11 Lead +250Gp /w For info", -- [1]
-			"Lightonê-Kazzak", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lightonê", -- [5]
+			"UNE TORTUE A ATTEINT L'OCEAAANNN", -- [1]
+			"Asâfà-Ysondre", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Asâfà-Ysondre", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			749, -- [11]
-			"Player-1305-08DE96C0", -- [12]
+			488, -- [11]
+			"Player-1335-064DB8A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffffffffLightonê|r",
-			[51] = 1531907580,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffaad372Asâfà-Ysondre|r",
+			[51] = 1537281677,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [102]
 		{
-			"<The Zandalari Empire> We´re currently recruiting active rbg and arena players for BFA!  Our rbg team reached 2k+ in legion fairly easy before disbanding due to irl issues. We´re now regrouping on bfa release to push even higher", -- [1]
-			"Elyoz-Kazzak", -- [2]
+			"Drums afterwards", -- [1]
+			"Cyclex-Kazzak", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Elyoz", -- [5]
+			"", -- [4]
+			"Cyclex", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			750, -- [11]
-			"Player-1305-09D4DD24", -- [12]
+			494, -- [11]
+			"Player-1305-0A056234", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc69b6dElyoz|r",
-			[51] = 1531907580,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffff7c0aCyclex|r",
+			[51] = 1537281694,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [103]
 		{
-			"WTS |cff66bbff|Hjournal:1:2031:14|h[Argus the Unmaker]|h|r Heroic Lead 10/11 mythic you can simply AFK /w me for reserve a spot.", -- [1]
-			"Slojas-Kazzak", -- [2]
+			"BL", -- [1]
+			"Asâfà-Ysondre", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Slojas", -- [5]
+			"", -- [4]
+			"Asâfà-Ysondre", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			752, -- [11]
-			"Player-1305-08EA240F", -- [12]
+			495, -- [11]
+			"Player-1335-064DB8A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffffffffSlojas|r",
-			[51] = 1531907583,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffaad372Asâfà-Ysondre|r",
+			[51] = 1537281695,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [104]
 		{
-			"WTS Alani |cffa335ee|Hitem:90655::::::::110:72::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r  w/ for info - 3 spots left. 100% drop.", -- [1]
-			"Riceboix-Kazzak", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Riceboix", -- [5]
+			"Homing Missile on Trixxed", -- [1]
+			"Trixxed-Kazzak", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Trixxed", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			755, -- [11]
-			"Player-1305-09CABD2F", -- [12]
+			500, -- [11]
+			"Player-1305-09CE1263", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aRiceboix|r",
-			[51] = 1531907590,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8787edTrixxed|r",
+			[51] = 1537281723,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [105]
 		{
-			"wts|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|rhc Going now  10/11 Lead +250Gp /w For info", -- [1]
-			"Lightonê-Kazzak", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lightonê", -- [5]
+			"Drill Smash on Trixxed", -- [1]
+			"Trixxed-Kazzak", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Trixxed", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			760, -- [11]
-			"Player-1305-08DE96C0", -- [12]
+			501, -- [11]
+			"Player-1305-09CE1263", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffffffffLightonê|r",
-			[51] = 1531907610,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8787edTrixxed|r",
+			[51] = 1537281724,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [106]
 		{
-			"Wts |cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r Heroic %100 One Shot %100 Dp Violet Mount |cff71d5ff|Hspell:253639:0|h[Violet Spellwing]|h|r Gp +250 Personal Loot W/me Right Now:<<<<", -- [1]
-			"Holÿmaster-Kazzak", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Holÿmaster", -- [5]
+			"Homing Missile on Trixxed", -- [1]
+			"Trixxed-Kazzak", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Trixxed", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			766, -- [11]
-			"Player-1305-09964658", -- [12]
+			505, -- [11]
+			"Player-1305-09CE1263", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff48cbaHolÿmaster|r",
-			[51] = 1531907623,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8787edTrixxed|r",
+			[51] = 1537281744,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [107]
 		{
-			"WTS Alani |cffa335ee|Hitem:90655::::::::110:72::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r  w/ for info - 3 spots left. 100% drop.", -- [1]
-			"Riceboix-Kazzak", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Riceboix", -- [5]
+			"Drill Smash on Trixxed", -- [1]
+			"Trixxed-Kazzak", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Trixxed", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			767, -- [11]
-			"Player-1305-09CABD2F", -- [12]
+			506, -- [11]
+			"Player-1305-09CE1263", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aRiceboix|r",
-			[51] = 1531907626,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8787edTrixxed|r",
+			[51] = 1537281745,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [108]
 		{
-			"<The Zandalari Empire> We´re currently recruiting active rbg and arena players for BFA!  Our rbg team reached 2k+ in legion fairly easy before disbanding due to irl issues. We´re now regrouping on bfa release to push even higher", -- [1]
-			"Elyoz-Kazzak", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:11184:Player-1305-0A056234:1:9:18:18:4294967295:4294967295:4294967295:4294967295|h[Keystone Challenger]|h|r!", -- [1]
+			"Cyclex-Kazzak", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Elyoz", -- [5]
+			"", -- [4]
+			"Cyclex", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			771, -- [11]
-			"Player-1305-09D4DD24", -- [12]
+			509, -- [11]
+			"Player-1305-0A056234", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc69b6dElyoz|r",
-			[51] = 1531907640,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffff7c0aCyclex|r",
+			[51] = 1537281773,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [109]
 		{
-			"WTS Alani |cffa335ee|Hitem:90655::::::::110:72::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r  w/ for info - 3 spots left. 100% drop.", -- [1]
-			"Riceboix-Kazzak", -- [2]
+			"Astral Keys: New key Keystone: Atal'dazar + 10", -- [1]
+			"Trixxed-Kazzak", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Riceboix", -- [5]
+			"", -- [4]
+			"Trixxed", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			773, -- [11]
-			"Player-1305-09CABD2F", -- [12]
+			510, -- [11]
+			"Player-1305-09CE1263", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aRiceboix|r",
-			[51] = 1531907646,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8787edTrixxed|r",
+			[51] = 1537281776,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [110]
 		{
-			"WTS Alani |cffa335ee|Hitem:90655::::::::110:72::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r  w/ for info - 3 spots left. 100% drop.", -- [1]
-			"Riceboix-Kazzak", -- [2]
+			"Ja tak", -- [1]
+			"Cyclex-Kazzak", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Riceboix", -- [5]
+			"", -- [4]
+			"Cyclex", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			785, -- [11]
-			"Player-1305-09CABD2F", -- [12]
+			512, -- [11]
+			"Player-1305-0A056234", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aRiceboix|r",
-			[51] = 1531907688,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffff7c0aCyclex|r",
+			[51] = 1537281783,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [111]
 		{
-			"<The Zandalari Empire> We´re currently recruiting active rbg and arena players for BFA!  Our rbg team reached 2k+ in legion fairly easy before disbanding due to irl issues. We´re now regrouping on bfa release to push even higher", -- [1]
-			"Elyoz-Kazzak", -- [2]
+			"nem key", -- [1]
+			"Cyclex-Kazzak", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Elyoz", -- [5]
+			"", -- [4]
+			"Cyclex", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			790, -- [11]
-			"Player-1305-09D4DD24", -- [12]
+			518, -- [11]
+			"Player-1305-0A056234", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc69b6dElyoz|r",
-			[51] = 1531907700,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffff7c0aCyclex|r",
+			[51] = 1537281785,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [112]
 		{
-			"WTS Alani |cffa335ee|Hitem:90655::::::::110:72::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r  w/ for info - 3 spots left. 100% drop.", -- [1]
-			"Riceboix-Kazzak", -- [2]
+			"need ring?", -- [1]
+			"Trixxed-Kazzak", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Riceboix", -- [5]
+			"", -- [4]
+			"Trixxed", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			792, -- [11]
-			"Player-1305-09CABD2F", -- [12]
+			520, -- [11]
+			"Player-1305-09CE1263", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aRiceboix|r",
-			[51] = 1531907709,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8787edTrixxed|r",
+			[51] = 1537281797,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [113]
 		{
-			"WTS|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r HC Personal Loot +980 11/11 Mythic Exp Group ~ You Can Still AFK . Ready To Summon  Last Spot & OneShot Going Every 15 Min . /W For Reserve A Spot", -- [1]
-			"Mziper-Kazzak", -- [2]
+			"+", -- [1]
+			"Скульптор-Ревущийфьорд", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Mziper", -- [5]
+			"", -- [4]
+			"Скульптор-Ревущийфьорд", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			809, -- [11]
-			"Player-1305-09951650", -- [12]
+			522, -- [11]
+			"Player-1615-08D0C821", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc41e3aMziper|r",
-			[51] = 1531907753,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffc41e3aСкульптор-Ревущийфьорд|r",
+			[51] = 1537281806,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [114]
 		{
-			"<The Zandalari Empire> We´re currently recruiting active rbg and arena players for BFA!  Our rbg team reached 2k+ in legion fairly easy before disbanding due to irl issues. We´re now regrouping on bfa release to push even higher", -- [1]
-			"Elyoz-Kazzak", -- [2]
+			"Skal vi køre den", -- [1]
+			"Cyclex-Kazzak", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Elyoz", -- [5]
+			"", -- [4]
+			"Cyclex", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			814, -- [11]
-			"Player-1305-09D4DD24", -- [12]
+			529, -- [11]
+			"Player-1305-0A056234", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc69b6dElyoz|r",
-			[51] = 1531907760,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffff7c0aCyclex|r",
+			[51] = 1537281862,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [115]
 		{
-			"WTS Alani |cffa335ee|Hitem:90655::::::::110:72::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r  w/ for info - 3 spots left. 100% drop.", -- [1]
-			"Riceboix-Kazzak", -- [2]
+			"har fikset mit net nu, så kan lave bedre dps", -- [1]
+			"Cyclex-Kazzak", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Riceboix", -- [5]
+			"", -- [4]
+			"Cyclex", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			817, -- [11]
-			"Player-1305-09CABD2F", -- [12]
+			534, -- [11]
+			"Player-1305-0A056234", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aRiceboix|r",
-			[51] = 1531907764,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffff7c0aCyclex|r",
+			[51] = 1537281867,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [116]
 		{
-			"WTS Alani |cffa335ee|Hitem:90655::::::::110:72::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r  w/ for info - 3 spots left. 100% drop.", -- [1]
-			"Riceboix-Kazzak", -- [2]
+			"lelele", -- [1]
+			"Cyclex-Kazzak", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Riceboix", -- [5]
+			"", -- [4]
+			"Cyclex", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			825, -- [11]
-			"Player-1305-09CABD2F", -- [12]
+			535, -- [11]
+			"Player-1305-0A056234", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aRiceboix|r",
-			[51] = 1531907789,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffff7c0aCyclex|r",
+			[51] = 1537281868,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [117]
 		{
-			"Wts |cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r Heroic %100 One Shot %100 Dp Violet Mount |cff71d5ff|Hspell:253639:0|h[Violet Spellwing]|h|r Gp +250 Personal Loot W/me Right Now:<<<<", -- [1]
-			"Holÿmaster-Kazzak", -- [2]
+			"Spillede hele den dung uden WA's", -- [1]
+			"Cyclex-Kazzak", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Holÿmaster", -- [5]
+			"", -- [4]
+			"Cyclex", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			829, -- [11]
-			"Player-1305-09964658", -- [12]
+			538, -- [11]
+			"Player-1305-0A056234", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff48cbaHolÿmaster|r",
-			[51] = 1531907793,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffff7c0aCyclex|r",
+			[51] = 1537281873,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [118]
 		{
-			"WTS Alani |cffa335ee|Hitem:90655::::::::110:72::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r  w/ for info - 3 spots left. 100% drop.", -- [1]
-			"Riceboix-Kazzak", -- [2]
+			"kan ikke engang jeg har nogle", -- [1]
+			"Cyclex-Kazzak", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Riceboix", -- [5]
+			"", -- [4]
+			"Cyclex", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			833, -- [11]
-			"Player-1305-09CABD2F", -- [12]
+			541, -- [11]
+			"Player-1305-0A056234", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aRiceboix|r",
-			[51] = 1531907812,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffff7c0aCyclex|r",
+			[51] = 1537281879,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [119]
 		{
-			"<The Zandalari Empire> We´re currently recruiting active rbg and arena players for BFA!  Our rbg team reached 2k+ in legion fairly easy before disbanding due to irl issues. We´re now regrouping on bfa release to push even higher", -- [1]
-			"Elyoz-Kazzak", -- [2]
+			"av av", -- [1]
+			"Cyclex-Kazzak", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Elyoz", -- [5]
+			"", -- [4]
+			"Cyclex", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			836, -- [11]
-			"Player-1305-09D4DD24", -- [12]
+			542, -- [11]
+			"Player-1305-0A056234", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc69b6dElyoz|r",
-			[51] = 1531907820,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffff7c0aCyclex|r",
+			[51] = 1537281879,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [120]
 		{
-			"Wts |cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r Heroic %100 One Shot %100 Dp Violet Mount |cff71d5ff|Hspell:253639:0|h[Violet Spellwing]|h|r Gp +250 Personal Loot W/me Right Now:<<<<", -- [1]
-			"Holÿmaster-Kazzak", -- [2]
+			"skal lige have fikset det", -- [1]
+			"Cyclex-Kazzak", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Holÿmaster", -- [5]
+			"", -- [4]
+			"Cyclex", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			839, -- [11]
-			"Player-1305-09964658", -- [12]
+			545, -- [11]
+			"Player-1305-0A056234", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff48cbaHolÿmaster|r",
-			[51] = 1531907829,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffff7c0aCyclex|r",
+			[51] = 1537281882,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [121]
 		{
-			"WTS Alani |cffa335ee|Hitem:90655::::::::110:72::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r  w/ for info - 3 spots left. 100% drop.", -- [1]
-			"Riceboix-Kazzak", -- [2]
+			"Sure bud", -- [1]
+			"Cyclex-Kazzak", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Riceboix", -- [5]
+			"", -- [4]
+			"Cyclex", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			840, -- [11]
-			"Player-1305-09CABD2F", -- [12]
+			548, -- [11]
+			"Player-1305-0A056234", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aRiceboix|r",
-			[51] = 1531907836,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffff7c0aCyclex|r",
+			[51] = 1537281886,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [122]
 		{
-			"Wts |cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r Heroic %100 One Shot %100 Dp Violet Mount |cff71d5ff|Hspell:253639:0|h[Violet Spellwing]|h|r Gp +250 Personal Loot W/me Right Now:<<<<", -- [1]
-			"Holÿmaster-Kazzak", -- [2]
+			"Det ikke abre at de ikke er loaded :P", -- [1]
+			"Cyclex-Kazzak", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Holÿmaster", -- [5]
+			"", -- [4]
+			"Cyclex", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			842, -- [11]
-			"Player-1305-09964658", -- [12]
+			549, -- [11]
+			"Player-1305-0A056234", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff48cbaHolÿmaster|r",
-			[51] = 1531907856,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffff7c0aCyclex|r",
+			[51] = 1537281890,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [123]
 		{
-			"Wts |cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r Heroic %100 One Shot %100 Dp Violet Mount |cff71d5ff|Hspell:253639:0|h[Violet Spellwing]|h|r Gp +250 Personal Loot W/me Right Now:<<<<", -- [1]
-			"Holÿmaster-Kazzak", -- [2]
+			"de er non-existing", -- [1]
+			"Cyclex-Kazzak", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Holÿmaster", -- [5]
+			"", -- [4]
+			"Cyclex", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			846, -- [11]
-			"Player-1305-09964658", -- [12]
+			554, -- [11]
+			"Player-1305-0A056234", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff48cbaHolÿmaster|r",
-			[51] = 1531907874,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffff7c0aCyclex|r",
+			[51] = 1537281892,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [124]
 		{
-			"WTS Alani |cffa335ee|Hitem:90655::::::::110:72::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r  w/ for info - 3 spots left. 100% drop.", -- [1]
-			"Riceboix-Kazzak", -- [2]
+			"|cff66bbff|Hjournal:1:2147:14|h[G'huun]|h|r nm BOost last chance wis me mythic leader one shot", -- [1]
+			"Yàsera-Kazzak", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Riceboix", -- [5]
+			"Yàsera", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			847, -- [11]
-			"Player-1305-09CABD2F", -- [12]
+			33, -- [11]
+			"Player-1305-092979B3", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffff7c0aRiceboix|r",
-			[51] = 1531907875,
+			[52] = "|cffffffffYàsera|r",
+			[51] = 1537282050,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [125]
 		{
-			"<The Zandalari Empire> We´re currently recruiting active rbg and arena players for BFA!  Our rbg team reached 2k+ in legion fairly easy before disbanding due to irl issues. We´re now regrouping on bfa release to push even higher", -- [1]
-			"Elyoz-Kazzak", -- [2]
+			"|cff66bbff|Hjournal:1:2147:14|h[G'huun]|h|r nm BOost last chance wis me mythic leader one shot", -- [1]
+			"Yàsera-Kazzak", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Elyoz", -- [5]
+			"Yàsera", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			851, -- [11]
-			"Player-1305-09D4DD24", -- [12]
+			34, -- [11]
+			"Player-1305-092979B3", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffc69b6dElyoz|r",
-			[51] = 1531907880,
+			[52] = "|cffffffffYàsera|r",
+			[51] = 1537282050,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [126]
 		{
-			"WTS|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|rHeroic(LastBoss),With +250ilvl Group i Have Over x420(Real)Argus HC Kills, Cheap Price Right Now,", -- [1]
-			"Daniewl-Kazzak", -- [2]
+			"WTB |cffffffff|Hitem:152576::::::::110:259::::::|h[Tidespray Linen]|h|r 15g each/ |cffa335ee|Hitem:152877::::::::110:259::::::|h[Veiled Crystal]|h|r 600g  each/ Boe greens(BFA) 140g each/ COD me all you have", -- [1]
+			"Artfelkara-Kazzak", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Daniewl", -- [5]
-			"", -- [6]
+			"Artfelkara", -- [5]
+			"DND", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			853, -- [11]
-			"Player-1305-09D5129F", -- [12]
+			35, -- [11]
+			"Player-1305-09F2FE20", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff0070ddDaniewl|r",
-			[51] = 1531907889,
+			[52] = "|cfffff468Artfelkara|r",
+			[51] = 1537282052,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [127]
 	},

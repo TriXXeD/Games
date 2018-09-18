@@ -24,7 +24,7 @@ EasyObliterate_Data = {
 			},
 		},
 	},
-	["addonVersion"] = 30,
+	["addonVersion"] = 31,
 	["addonSettings"] = {
 		["ignoreWardrobeItems"] = false,
 		["showTooltip"] = true,

@@ -2,556 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"WTS|cff71d5ff|Hspell:132036:0|h[Thundering Ruby Cloud Serpent]|h|rAlani  LAST SPOT", -- [1]
-			"Haczekk-Ravencrest", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Haczekk", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			361, -- [11]
-			"Player-1329-06569A54", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffaad372Haczekk|r",
-			[51] = 1528544211,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
-			"WTS +15 Mythic boost,get your [Keystone Master],+960 weekly loot.Our Key.You can be afk.Price is 100K", -- [1]
-			"Cthraxxi-Ravencrest", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Cthraxxi", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			366, -- [11]
-			"Player-1329-0614E49D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa330c9Cthraxxi|r",
-			[51] = 1528544216,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
-			"WTS +15 Mythic boost,get your [Keystone Master],+960 weekly loot.Our Key.You can be afk.Price is 100K", -- [1]
-			"Cthraxxi-Ravencrest", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Cthraxxi", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			397, -- [11]
-			"Player-1329-0614E49D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa330c9Cthraxxi|r",
-			[51] = 1528544247,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
-		{
-			"WTS|cff71d5ff|Hspell:132036:0|h[Thundering Ruby Cloud Serpent]|h|rAlani  LAST SPOT", -- [1]
-			"Haczekk-Ravencrest", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Haczekk", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			422, -- [11]
-			"Player-1329-06569A54", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffaad372Haczekk|r",
-			[51] = 1528544271,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
-		{
-			"WTS Only |cff66bbff|Hjournal:1:2031:14|h[Argus the Unmaker]|h|r Hc **One Shot** Group (970) ((198 TIme SucessFull)) Cheap Price -- 2 Last Spot /w for price", -- [1]
-			"Zofia-Ravencrest", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Zofia", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			445, -- [11]
-			"Player-1329-05FEF351", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8787edZofia|r",
-			[51] = 1528544293,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [5]
-		{
-			"WTS +15 Mythic boost,get your [Keystone Master],+960 weekly loot.Our Key.You can be afk.Price is 100K", -- [1]
-			"Cthraxxi-Ravencrest", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Cthraxxi", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			449, -- [11]
-			"Player-1329-0614E49D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa330c9Cthraxxi|r",
-			[51] = 1528544296,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
-		{
-			"WTS|cff71d5ff|Hspell:132036:0|h[Thundering Ruby Cloud Serpent]|h|rAlani  LAST SPOT", -- [1]
-			"Haczekk-Ravencrest", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Haczekk", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			487, -- [11]
-			"Player-1329-06569A54", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffaad372Haczekk|r",
-			[51] = 1528544333,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [7]
-		{
-			"WTS +15 Mythic boost,get your [Keystone Master],+960 weekly loot.Our Key.You can be afk.Price is 100K", -- [1]
-			"Cthraxxi-Ravencrest", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Cthraxxi", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			498, -- [11]
-			"Player-1329-0614E49D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa330c9Cthraxxi|r",
-			[51] = 1528544344,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
-		{
-			"Selling +15 Boosts. Get boosted by an elite and experienced group of 11/11M 980+ ilvl boosters that have completed more than 500 boost runs and grab your 960+ item next week along with 940+ drops! Ready to go!", -- [1]
-			"Thorliboostn-Ravencrest", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Thorliboostn", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			518, -- [11]
-			"Player-1329-061E63C8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffaad372Thorliboostn|r",
-			[51] = 1528544362,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [9]
-		{
-			"|cffffff00The Canals is under attack!|r", -- [1]
-			"", -- [2]
-			"", -- [3]
-			"3. LocalDefense - Stormwind City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Stormwind City", -- [9]
-			0, -- [10]
-			528, -- [11]
-			false, -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1528544371,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [10]
-		{
-			"WTS Fjarnskaggl and Aethril!!!", -- [1]
-			"Farmerjedan-Ravencrest", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Farmerjedan", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			146, -- [11]
-			"Player-1329-0619CE89", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffffffffFarmerjedan|r",
-			[51] = 1528745314,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [11]
-		{
-			"WTS Fjarnskaggl and Aethril!!!", -- [1]
-			"Farmerjedan-Ravencrest", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Farmerjedan", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			147, -- [11]
-			"Player-1329-0619CE89", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffffffffFarmerjedan|r",
-			[51] = 1528745314,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [12]
-		{
-			"WTS |cff0070dd|Hitem:1973::::::::110:263::::::|h[Orb of Deception]|h|r", -- [1]
-			"Sremac-Ravencrest", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Sremac", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			155, -- [11]
-			"Player-1329-040C12B4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff0070ddSremac|r",
-			[51] = 1528745323,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [13]
-		{
-			"WTS Fjarnskaggl and Aethril!!!", -- [1]
-			"Farmerjedan-Ravencrest", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Farmerjedan", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			164, -- [11]
-			"Player-1329-0619CE89", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffffffffFarmerjedan|r",
-			[51] = 1528745345,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
-		{
-			"WTS Fjarnskaggl and Aethril!!!", -- [1]
-			"Farmerjedan-Ravencrest", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Farmerjedan", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			165, -- [11]
-			"Player-1329-0619CE89", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffffffffFarmerjedan|r",
-			[51] = 1528745345,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [15]
-		{
-			"WTS ARGUS HC 11/11 Mythic Raiders boosting Get your mount and a chance to get |cffff8000|Hitem:154172::::::::110:253:::1:3571:::|h[Aman'Thul's Vision]|h|r  Also Ahead of the Curve achiev! Whisper for info LAST spots ready to summon", -- [1]
-			"Darkwine-Ravencrest", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Darkwine", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			182, -- [11]
-			"Player-1329-05968BB5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffaad372Darkwine|r",
-			[51] = 1528745370,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [16]
-		{
-			"WTS |cffffffff|Hitem:58488::::::::20:70::::::|h[Potion of Treasure Finding]|h|r 900g each ", -- [1]
-			"Kakaobank-Ravencrest", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Kakaobank", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			184, -- [11]
-			"Player-1329-04195A0A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff48cbaKakaobank|r",
-			[51] = 1528745371,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [17]
-		{
-			"WTS HC-Antorus 11/11.SUNDAY 8pm. Full 975+ 11/11M Guild boost, No Pugs, No Saves. Personal loot, rolled out by an officer. Last check to get Ahead of the Curve and get a full gear run on an alt. Quality boosting experience gaurenteed. 500k Gold. /w me", -- [1]
-			"Littletiny", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Littletiny", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			686, -- [11]
-			"Player-1329-0636ED8E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffffffffLittletiny|r",
-			[51] = 1531428115,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [18]
-		{
-			"New guild \"Random Encounters\" is looking for people for BFA mythic raiding. We're looking for a good progress without hardcore raiding. Raid time is 8pm-11pm 2 days per week. We're in need of decent healers and dps.", -- [1]
-			"Nartalie-Ravencrest", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Nartalie", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			693, -- [11]
-			"Player-1329-064A0643", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff48cbaNartalie|r",
-			[51] = 1531428139,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [19]
-		{
-			"New guild \"Random Encounters\" is looking for people for BFA mythic raiding. We're looking for a good progress without hardcore raiding. Raid time is 8pm-11pm 2 days per week. We're in need of decent healers and dps.", -- [1]
-			"Nartalie-Ravencrest", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Nartalie", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			703, -- [11]
-			"Player-1329-064A0643", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff48cbaNartalie|r",
-			[51] = 1531428212,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [20]
-		{
-			"WTS |cffa335ee|Hkeystone:198:20:7:2:10|h[Keystone: Darkheart Thicket (20)]|h|r  Come get your |cffffff00|Hachievement:11162:Player-1329-05A71E0A:1:2:6:18:4294967295:4294967295:4294967295:4294967295|h[Keystone Master]|h|r and M+ Score. You will receive all the gear dropped! /w to discuss price", -- [1]
-			"Blacktigrex-Ravencrest", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Blacktigrex", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			706, -- [11]
-			"Player-1329-05A71E0A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa330c9Blacktigrex|r",
-			[51] = 1531428233,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [21]
-		{
-			"New guild \"Random Encounters\" is looking for people for BFA mythic raiding. We're looking for a good progress without hardcore raiding. Raid time is 8pm-11pm 2 days per week. We're in need of decent healers and dps.", -- [1]
-			"Nartalie-Ravencrest", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Nartalie", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			707, -- [11]
-			"Player-1329-064A0643", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff48cbaNartalie|r",
-			[51] = 1531428248,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [22]
-		{
-			"<TERA Gaming> 2K PVP Guild Is Recruiting! Looking for active PVPers for the upcoming BFA expansion and our RBG Teams. Rebuilding our PVP community on Ravencrest! Please throw me a whisper if interested!", -- [1]
-			"Rataz-Ravencrest", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Rataz", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			709, -- [11]
-			"Player-1329-05A2F94D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3fc6eaRataz|r",
-			[51] = 1531428292,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [23]
-		{
-			"WTS |cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r HC PL! Get your |cffffff00|Hachievement:12110:Player-1329-05DF0B98:1:12:3:17:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Argus the Unmaker]|h|r FoS before it's gone, the fantastic |cff71d5ff|Hspell:253639:0|h[Violet Spellwing]|h|r and potentially 955+ loot alongside the pantheon trinkets! /w for details :)", -- [1]
-			"Incandesce-Ravencrest", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Incandesce", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			710, -- [11]
-			"Player-1329-05DF0B98", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa330c9Incandesce|r",
-			[51] = 1531428300,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
-		{
-			"WTS |cffa335ee|Hkeystone:198:20:7:2:10|h[Keystone: Darkheart Thicket (20)]|h|r  Come get your |cffffff00|Hachievement:11162:Player-1329-05A71E0A:1:2:6:18:4294967295:4294967295:4294967295:4294967295|h[Keystone Master]|h|r and M+ Score. You will receive all the gear dropped! /w to discuss price", -- [1]
-			"Blacktigrex-Ravencrest", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Blacktigrex", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			711, -- [11]
-			"Player-1329-05A71E0A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa330c9Blacktigrex|r",
-			[51] = 1531428310,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [25]
-		{
 			"WTS |cffa335ee|Hkeystone:198:20:7:2:10|h[Keystone: Darkheart Thicket (20)]|h|r  Come get your |cffffff00|Hachievement:11162:Player-1329-05A71E0A:1:2:6:18:4294967295:4294967295:4294967295:4294967295|h[Keystone Master]|h|r and M+ Score. You will receive all the gear dropped! /w to discuss price", -- [1]
 			"Blacktigrex-Ravencrest", -- [2]
 			"", -- [3]
@@ -572,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Blacktigrex|r",
 			[51] = 1531428350,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
+		}, -- [1]
 		{
 			"WTS |cffa335ee|Hkeystone:198:20:7:2:10|h[Keystone: Darkheart Thicket (20)]|h|r  Come get your |cffffff00|Hachievement:11162:Player-1329-05A71E0A:1:2:6:18:4294967295:4294967295:4294967295:4294967295|h[Keystone Master]|h|r and M+ Score. You will receive all the gear dropped! /w to discuss price", -- [1]
 			"Blacktigrex-Ravencrest", -- [2]
@@ -594,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Blacktigrex|r",
 			[51] = 1531428391,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [27]
+		}, -- [2]
 		{
 			"WTS HC-Antorus 11/11.SUNDAY 8pm. Full 975+ 11/11M Guild boost, No Pugs, No Saves. Personal loot, rolled out by an officer. Last check to get Ahead of the Curve and get a full gear run on an alt. Quality boosting experience gaurenteed. 500k Gold. /w me", -- [1]
 			"Littletiny-Ravencrest", -- [2]
@@ -616,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffLittletiny|r",
 			[51] = 1531428394,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [28]
+		}, -- [3]
 		{
 			"<TERA Gaming> 2K PVP Guild Is Recruiting! Looking for active PVPers for the upcoming BFA expansion and our RBG Teams. Rebuilding our PVP community on Ravencrest! Please throw me a whisper if interested!", -- [1]
 			"Rataz-Ravencrest", -- [2]
@@ -638,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaRataz|r",
 			[51] = 1531428401,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [29]
+		}, -- [4]
 		{
 			"New guild \"Random Encounters\" is looking for people for BFA mythic raiding. We're looking for a good progress without hardcore raiding. Raid time is 8pm-11pm Tuesday-Thursday. We're in need of decent healers and dps.", -- [1]
 			"Nartalie-Ravencrest", -- [2]
@@ -660,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaNartalie|r",
 			[51] = 1531428439,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [30]
+		}, -- [5]
 		{
 			"WTS |cffa335ee|Hkeystone:198:20:7:2:10|h[Keystone: Darkheart Thicket (20)]|h|r  Come get your |cffffff00|Hachievement:11162:Player-1329-05A71E0A:1:2:6:18:4294967295:4294967295:4294967295:4294967295|h[Keystone Master]|h|r and M+ Score. You will receive all the gear dropped! /w to discuss price", -- [1]
 			"Blacktigrex-Ravencrest", -- [2]
@@ -682,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Blacktigrex|r",
 			[51] = 1531428440,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [31]
+		}, -- [6]
 		{
 			"Any mythic raiding guild looking for a replacement? w/me for more", -- [1]
 			"Icarryyou-Ravencrest", -- [2]
@@ -704,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIcarryyou|r",
 			[51] = 1531428443,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [32]
+		}, -- [7]
 		{
 			"WTS |cffa335ee|Hkeystone:198:20:7:2:10|h[Keystone: Darkheart Thicket (20)]|h|r  Come get your |cffffff00|Hachievement:11162:Player-1329-05A71E0A:1:2:6:18:4294967295:4294967295:4294967295:4294967295|h[Keystone Master]|h|r and M+ Score. You will receive all the gear dropped! /w to discuss price", -- [1]
 			"Blacktigrex-Ravencrest", -- [2]
@@ -726,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Blacktigrex|r",
 			[51] = 1531428492,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [33]
+		}, -- [8]
 		{
 			"WTB +15 boost with leather grp", -- [1]
 			"Krönk-Ravencrest", -- [2]
@@ -748,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aKrönk|r",
 			[51] = 1531428494,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [34]
+		}, -- [9]
 		{
 			"Any mythic raiding guild looking for a replacement? w/me for more", -- [1]
 			"Icarryyou-Ravencrest", -- [2]
@@ -770,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIcarryyou|r",
 			[51] = 1531428517,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [35]
+		}, -- [10]
 		{
 			"WTB +15 boost with leather grp", -- [1]
 			"Krönk-Ravencrest", -- [2]
@@ -792,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aKrönk|r",
 			[51] = 1531428519,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [36]
+		}, -- [11]
 		{
 			"WTS |cffa335ee|Hkeystone:198:20:7:2:10|h[Keystone: Darkheart Thicket (20)]|h|r  Come get your |cffffff00|Hachievement:11162:Player-1329-05A71E0A:1:2:6:18:4294967295:4294967295:4294967295:4294967295|h[Keystone Master]|h|r and M+ Score. You will receive all the gear dropped! /w to discuss price", -- [1]
 			"Blacktigrex-Ravencrest", -- [2]
@@ -814,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Blacktigrex|r",
 			[51] = 1531428537,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [37]
+		}, -- [12]
 		{
 			"New guild \"Random Encounters\" is looking for people for BFA mythic raiding. We're looking for a good progress without hardcore raiding. Raid time is 8pm-11pm Tuesday-Thursday. We're in need of decent healers and dps.", -- [1]
 			"Nartalie-Ravencrest", -- [2]
@@ -836,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaNartalie|r",
 			[51] = 1531428539,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [38]
+		}, -- [13]
 		{
 			"osht", -- [1]
 			"Rwbyz-Sylvanas", -- [2]
@@ -858,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Rwbyz-Sylvanas|r",
 			[51] = 1531428757,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [39]
+		}, -- [14]
 		{
 			"wrong dungeon", -- [1]
 			"Rwbyz-Sylvanas", -- [2]
@@ -880,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Rwbyz-Sylvanas|r",
 			[51] = 1531428759,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [40]
+		}, -- [15]
 		{
 			"wanted tw", -- [1]
 			"Rwbyz-Sylvanas", -- [2]
@@ -902,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Rwbyz-Sylvanas|r",
 			[51] = 1531428761,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [41]
+		}, -- [16]
 		{
 			"holy", -- [1]
 			"Marellea-Quel'Thalas", -- [2]
@@ -924,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Marellea-Quel'Thalas|r",
 			[51] = 1531428886,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [42]
+		}, -- [17]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:1858:Player-1329-04193D02:1:7:12:18:4294967295:4294967295:4294967295:4294967295|h[Arachnophobia (10 player)]|h|r!", -- [1]
 			"Lupalia-Ravencrest", -- [2]
@@ -946,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "Lupalia",
 			[51] = 1531429614,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [43]
+		}, -- [18]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:2180:Player-1329-04193D02:1:7:12:18:4294967295:4294967295:4294967295:4294967295|h[Subtraction (10 player)]|h|r!", -- [1]
 			"Lupalia-Ravencrest", -- [2]
@@ -968,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "Lupalia",
 			[51] = 1531429805,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [44]
+		}, -- [19]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:2178:Player-1329-04193D02:1:7:12:18:4294967295:4294967295:4294967295:4294967295|h[Shocking! (10 player)]|h|r!", -- [1]
 			"Lupalia-Ravencrest", -- [2]
@@ -990,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "Lupalia",
 			[51] = 1531429805,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [45]
+		}, -- [20]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:1996:Player-1329-04193D02:1:7:12:18:4294967295:4294967295:4294967295:4294967295|h[The Safety Dance (10 player)]|h|r!", -- [1]
 			"Lupalia-Ravencrest", -- [2]
@@ -1012,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "Lupalia",
 			[51] = 1531429897,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [46]
+		}, -- [21]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:2182:Player-1329-04193D02:1:7:12:18:4294967295:4294967295:4294967295:4294967295|h[Spore Loser (10 player)]|h|r!", -- [1]
 			"Lupalia-Ravencrest", -- [2]
@@ -1034,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "Lupalia",
 			[51] = 1531429947,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [47]
+		}, -- [22]
 		{
 			"hi", -- [1]
 			"Zhishka-Bronzebeard", -- [2]
@@ -1056,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaZhishka-Bronzebeard|r",
 			[51] = 1531430209,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [48]
+		}, -- [23]
 		{
 			"can you help me with the alch quest here", -- [1]
 			"Zhishka-Bronzebeard", -- [2]
@@ -1078,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaZhishka-Bronzebeard|r",
 			[51] = 1531430224,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [49]
+		}, -- [24]
 		{
 			"Interrupted Felsworn Infester's |cff71d5ff|Hspell:191595:0|h[Corrupt]|h|r!", -- [1]
 			"Lupalia-Ravencrest", -- [2]
@@ -1100,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Lupalia|r",
 			[51] = 1531430296,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [50]
+		}, -- [25]
 		{
 			"Interrupted Inquisitor Tormentorum's |cff71d5ff|Hspell:200905:0|h[Sap Soul]|h|r!", -- [1]
 			"Lupalia-Ravencrest", -- [2]
@@ -1122,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Lupalia|r",
 			[51] = 1531430440,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [51]
+		}, -- [26]
 		{
 			"Interrupted Inquisitor Tormentorum's |cff71d5ff|Hspell:200905:0|h[Sap Soul]|h|r!", -- [1]
 			"Lupalia-Ravencrest", -- [2]
@@ -1144,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Lupalia|r",
 			[51] = 1531430462,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [52]
+		}, -- [27]
 		{
 			"Interrupted Inquisitor Tormentorum's |cff71d5ff|Hspell:200905:0|h[Sap Soul]|h|r!", -- [1]
 			"Lupalia-Ravencrest", -- [2]
@@ -1166,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Lupalia|r",
 			[51] = 1531430484,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [53]
+		}, -- [28]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12073:Player-1329-06527B6F:1:7:12:18:4294967295:4294967295:4294967295:4294967295|h[Locked and Loaded]|h|r!", -- [1]
 			"Sengaijalol-Ravencrest", -- [2]
@@ -1188,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "Sengaijalol",
 			[51] = 1531430781,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [54]
+		}, -- [29]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:2176:Player-1329-04193D02:1:7:12:18:4294967295:4294967295:4294967295:4294967295|h[And They Would All Go Down Together (10 player)]|h|r!", -- [1]
 			"Lupalia-Ravencrest", -- [2]
@@ -1210,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "Lupalia",
 			[51] = 1531431115,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [55]
+		}, -- [30]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:578:Player-1329-04193D02:1:7:12:18:4294967295:4294967295:4294967295:4294967295|h[The Dedicated Few (10 player)]|h|r!", -- [1]
 			"Lupalia-Ravencrest", -- [2]
@@ -1232,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "Lupalia",
 			[51] = 1531431446,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [56]
+		}, -- [31]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:9828:Player-1329-04193D02:1:7:12:18:4294967295:4294967295:4294967295:4294967295|h[Ten Hit Tunes]|h|r!", -- [1]
 			"Lupalia-Ravencrest", -- [2]
@@ -1254,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "Lupalia",
 			[51] = 1531431458,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [57]
+		}, -- [32]
 		{
 			"WTB |cffff8000|Hitem:146666::::::::101:63:::2:1811:3630:::|h[Celumbra, the Night's Dichotomy]|h|r", -- [1]
 			"Darthmagi-Ravencrest", -- [2]
@@ -1276,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaDarthmagi|r",
 			[51] = 1531431600,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [58]
+		}, -- [33]
 		{
 			"11/11M WTS HEROIC ARGUS ONLY Personal Loot 970+ experienced group GET YOUR|cff71d5ff|Hspell:253639:0|h[Violet Spellwing]|h|r .   . GOING SOON /W me if interested", -- [1]
 			"Kreon-Ravencrest", -- [2]
@@ -1298,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaKreon|r",
 			[51] = 1531431633,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
+		}, -- [34]
 		{
 			"ops", -- [1]
 			"Melisandreh-Pozzodell'Eternità", -- [2]
@@ -1320,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Melisandreh-Pozzodell'Eternità|r",
 			[51] = 1531431773,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [60]
+		}, -- [35]
 		{
 			"WTS HC-Antorus 11/11.SUNDAY 8pm. Full 975+ 11/11M Guild boost, No Pugs, No Saves. Personal loot, rolled out by an officer. Last check to get Ahead of the Curve and get a full gear run on an alt. Quality boosting experience gaurenteed. 500k Gold. /w me", -- [1]
 			"Littletiny-Ravencrest", -- [2]
@@ -1342,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffLittletiny|r",
 			[51] = 1531432129,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [61]
+		}, -- [36]
 		{
 			"11/11M WTS HEROIC ARGUS ONLY Personal Loot 970+ experienced group GET YOUR|cff71d5ff|Hspell:253639:0|h[Violet Spellwing]|h|r .   . GOING SOON /W me if interested", -- [1]
 			"Kreon-Ravencrest", -- [2]
@@ -1364,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaKreon|r",
 			[51] = 1531432132,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [62]
+		}, -- [37]
 		{
 			"11/11M WTS HEROIC ARGUS ONLY Personal Loot 970+ experienced group GET YOUR|cff71d5ff|Hspell:253639:0|h[Violet Spellwing]|h|r .   . GOING SOON /W me if interested", -- [1]
 			"Kreon-Ravencrest", -- [2]
@@ -1386,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaKreon|r",
 			[51] = 1531432233,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [63]
+		}, -- [38]
 		{
 			"WTS HC-Antorus 11/11.SUNDAY 8pm. Full 975+ 11/11M Guild boost, No Pugs, No Saves. Personal loot, rolled out by an officer. Last check to get Ahead of the Curve and get a full gear run on an alt. Quality boosting experience gaurenteed. 500k Gold. /w me", -- [1]
 			"Littletiny-Ravencrest", -- [2]
@@ -1408,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffLittletiny|r",
 			[51] = 1531432244,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [64]
+		}, -- [39]
 		{
 			"WTS HC-Antorus 11/11.SUNDAY 8pm. Full 975+ 11/11M Guild boost, No Pugs, No Saves. Personal loot, rolled out by an officer. Last check to get Ahead of the Curve and get a full gear run on an alt. Quality boosting experience gaurenteed. 500k Gold. /w me", -- [1]
 			"Littletiny-Ravencrest", -- [2]
@@ -1430,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffLittletiny|r",
 			[51] = 1531432283,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [65]
+		}, -- [40]
 		{
 			"WTS +15-20 boosts. Got a vareity of keys and armor types - all to fit ur needs.  /w to hear what we have currently.", -- [1]
 			"Johnpuft-Ravencrest", -- [2]
@@ -1452,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddJohnpuft|r",
 			[51] = 1531432292,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [66]
+		}, -- [41]
 		{
 			"11/11M WTS HEROIC ARGUS ONLY Personal Loot 970+ experienced group GET YOUR|cff71d5ff|Hspell:253639:0|h[Violet Spellwing]|h|r .   . GOING SOON /W me if interested", -- [1]
 			"Kreon-Ravencrest", -- [2]
@@ -1474,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaKreon|r",
 			[51] = 1531432333,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [67]
+		}, -- [42]
 		{
 			"WTS HC-Antorus 11/11. Full 975+ 11/11M Guild boost, No Pugs, No Saves. Personal loot, rolled out by an officer. Last check to get Ahead of the Curve and get a full gear run on an alt. Quality boosting experience gaurenteed. 500k Gold. /w me", -- [1]
 			"Kiritochwan-Ravencrest", -- [2]
@@ -1496,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Kiritochwan|r",
 			[51] = 1531432350,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [68]
+		}, -- [43]
 		{
 			"WTS +15-20 boosts. Got a vareity of keys and armor types - all to fit ur needs.  /w to hear what we have currently.", -- [1]
 			"Johnpuft-Ravencrest", -- [2]
@@ -1518,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddJohnpuft|r",
 			[51] = 1531432376,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [69]
+		}, -- [44]
 		{
 			"WTS +15-20 boosts. Got a vareity of keys and armor types - all to fit ur needs.  /w to hear what we have currently.", -- [1]
 			"Johnpuft-Ravencrest", -- [2]
@@ -1540,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddJohnpuft|r",
 			[51] = 1531432403,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [70]
+		}, -- [45]
 		{
 			"WTS HC-Antorus 11/11.SUNDAY 8pm. Full 975+ 11/11M Guild boost, No Pugs, No Saves. Personal loot, rolled out by an officer. Last check to get Ahead of the Curve and get a full gear run on an alt. Quality boosting experience gaurenteed. 500k Gold. /w me", -- [1]
 			"Littletiny-Ravencrest", -- [2]
@@ -1562,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffLittletiny|r",
 			[51] = 1531432429,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [71]
+		}, -- [46]
 		{
 			"11/11M WTS HEROIC ARGUS ONLY Personal Loot 970+ experienced group GET YOUR|cff71d5ff|Hspell:253639:0|h[Violet Spellwing]|h|r .   . GOING SOON /W me if interested", -- [1]
 			"Kreon-Ravencrest", -- [2]
@@ -1584,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaKreon|r",
 			[51] = 1531432433,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [72]
+		}, -- [47]
 		{
 			"11/11M WTS HEROIC ARGUS ONLY Personal Loot 970+ experienced group GET YOUR|cff71d5ff|Hspell:253639:0|h[Violet Spellwing]|h|r .   . GOING SOON /W me if interested", -- [1]
 			"Kreon-Ravencrest", -- [2]
@@ -1606,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaKreon|r",
 			[51] = 1531432533,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [73]
+		}, -- [48]
 		{
 			"WTS HC-Antorus 11/11. Full 975+ 11/11M Guild boost, No Pugs, No Saves. Personal loot, rolled out by an officer. Last check to get Ahead of the Curve and get a full gear run on an alt. Quality boosting experience gaurenteed. 500k Gold. /w me", -- [1]
 			"Kiritochwan-Ravencrest", -- [2]
@@ -1628,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Kiritochwan|r",
 			[51] = 1531432579,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [74]
+		}, -- [49]
 		{
 			"WTS |cffa335ee|Hitem:116644::::::::110:253:4:13:3:218:549:559:529:::|h[Steelforged Dagger of the Aurora]|h|r|cffa335ee|Hitem:116647::::::::110:253:4:13:3:218:548:559:529:::|h[Steelforged Shield of the Aurora]|h|r|cffa335ee|Hitem:109168::::::::110:253:4:13:3:38:532:559:529:::|h[Shrediron's Shredder of the Fireflash]|h|r cool mogs cheaper than AH!", -- [1]
 			"Arakne-Ravencrest", -- [2]
@@ -1650,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Arakne|r",
 			[51] = 1531432765,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [50]
 		{
 			"WTS |cffa335ee|Hitem:116454::::::::110:253:4:13:3:123:548:559:529:::|h[Steelforged Saber of the Feverflare]|h|r|cffa335ee|Hitem:120259::::::::110:253:4:13:3:150:549:559:529:::|h[Steelforged Axe of the Aurora]|h|r|cffa335ee|Hitem:116453::::::::110:253:4:13:3:36:549:559:529:::|h[Steelforged Greataxe of the Fireflash]|h|r cool mogs cheaper than AH!", -- [1]
 			"Arakne-Ravencrest", -- [2]
@@ -1672,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Arakne|r",
 			[51] = 1531432768,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [76]
+		}, -- [51]
 		{
 			"LFM fast Attumen mount run - need tank", -- [1]
 			"Seneq-Ravencrest", -- [2]
@@ -1694,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaSeneq|r",
 			[51] = 1531432979,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [77]
+		}, -- [52]
 		{
 			"WTS |cffa335ee|Hitem:116644::::::::110:253:4:13:3:218:549:559:529:::|h[Steelforged Dagger of the Aurora]|h|r|cffa335ee|Hitem:116647::::::::110:253:4:13:3:218:548:559:529:::|h[Steelforged Shield of the Aurora]|h|r|cffa335ee|Hitem:109168::::::::110:253:4:13:3:38:532:559:529:::|h[Shrediron's Shredder of the Fireflash]|h|r cool mogs cheaper than AH!", -- [1]
 			"Arakne-Ravencrest", -- [2]
@@ -1716,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Arakne|r",
 			[51] = 1531433014,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [78]
+		}, -- [53]
 		{
 			"WTS |cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r HC PL! Get your |cffffff00|Hachievement:12110:Player-1329-05DF0B98:1:12:3:17:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Argus the Unmaker]|h|r FoS before it's removed, the fantastic |cff71d5ff|Hspell:253639:0|h[Violet Spellwing]|h|r mount and potentially 955+ loot! Going soon! /w for details :)", -- [1]
 			"Incandesce-Ravencrest", -- [2]
@@ -1738,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Incandesce|r",
 			[51] = 1531433018,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [54]
 		{
 			"Get your 2K Arena Rating Achievement for the Transmog before the season ends for Gold.Whisper me.", -- [1]
 			"Avenaeu-Ravencrest", -- [2]
@@ -1760,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Avenaeu|r",
 			[51] = 1531433019,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [80]
+		}, -- [55]
 		{
 			"WTS |cffa335ee|Hitem:116454::::::::110:253:4:13:3:123:548:559:529:::|h[Steelforged Saber of the Feverflare]|h|r|cffa335ee|Hitem:120259::::::::110:253:4:13:3:150:549:559:529:::|h[Steelforged Axe of the Aurora]|h|r|cffa335ee|Hitem:116453::::::::110:253:4:13:3:36:549:559:529:::|h[Steelforged Greataxe of the Fireflash]|h|r cool mogs cheaper than AH!", -- [1]
 			"Arakne-Ravencrest", -- [2]
@@ -1782,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Arakne|r",
 			[51] = 1531433021,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
+		}, -- [56]
 		{
 			"WTS |cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r HC PL! Get your |cffffff00|Hachievement:12110:Player-1329-05DF0B98:1:12:3:17:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Argus the Unmaker]|h|r FoS before it's removed, the fantastic |cff71d5ff|Hspell:253639:0|h[Violet Spellwing]|h|r mount and potentially 955+ loot! Going soon! /w for details :)", -- [1]
 			"Incandesce-Ravencrest", -- [2]
@@ -1804,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Incandesce|r",
 			[51] = 1531433079,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [82]
+		}, -- [57]
 		{
 			"WTS HC-Antorus 11/11. Full 975+ 11/11M Guild boost, No Pugs, No Saves. Personal loot, rolled out by an officer. Last check to get Ahead of the Curve and get a full gear run on an alt. Quality boosting experience gaurenteed. 500k Gold. /w me", -- [1]
 			"Kiritochwan-Ravencrest", -- [2]
@@ -1826,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Kiritochwan|r",
 			[51] = 1531433124,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [83]
+		}, -- [58]
 		{
 			"LFM fast Attumen mount run - need tank", -- [1]
 			"Seneq-Ravencrest", -- [2]
@@ -1848,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaSeneq|r",
 			[51] = 1531433126,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [84]
+		}, -- [59]
 		{
 			"Interrupted Felsworn Infester's |cff71d5ff|Hspell:191595:0|h[Corrupt]|h|r!", -- [1]
 			"Lupalia-Ravencrest", -- [2]
@@ -1870,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Lupalia|r",
 			[51] = 1531433276,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [85]
+		}, -- [60]
 		{
 			"thx", -- [1]
 			"Cirass-Sylvanas", -- [2]
@@ -1892,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaCirass-Sylvanas|r",
 			[51] = 1531433362,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [86]
+		}, -- [61]
 		{
 			"Interrupted Inquisitor Tormentorum's |cff71d5ff|Hspell:200905:0|h[Sap Soul]|h|r!", -- [1]
 			"Lupalia-Ravencrest", -- [2]
@@ -1914,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Lupalia|r",
 			[51] = 1531433429,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [87]
+		}, -- [62]
 		{
 			"Interrupted Inquisitor Tormentorum's |cff71d5ff|Hspell:200905:0|h[Sap Soul]|h|r!", -- [1]
 			"Lupalia-Ravencrest", -- [2]
@@ -1936,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Lupalia|r",
 			[51] = 1531433450,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [88]
+		}, -- [63]
 		{
 			"WTS |cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r HC PL! Get your |cffffff00|Hachievement:12110:Player-1329-05DF0B98:1:12:3:17:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Argus the Unmaker]|h|r FoS before it's removed, the fantastic |cff71d5ff|Hspell:253639:0|h[Violet Spellwing]|h|r mount and potentially 955+ loot! Going soon! /w for details :)", -- [1]
 			"Incandesce-Ravencrest", -- [2]
@@ -1958,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Incandesce|r",
 			[51] = 1531433557,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [89]
+		}, -- [64]
 		{
 			"WTS HC-Antorus 11/11.SUNDAY 8pm. Full 975+ 11/11M Guild boost, No Pugs, No Saves. Personal loot, rolled out by an officer. Last check to get Ahead of the Curve and get a full gear run on an alt. Quality boosting experience gaurenteed. 500k Gold. /w me", -- [1]
 			"Littletiny-Ravencrest", -- [2]
@@ -1980,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffLittletiny|r",
 			[51] = 1531433614,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [65]
 		{
 			"wtb|cffffffff|Hitem:109137::::::::110:577::::::|h[Crescent Saberfish Flesh]|h|r 3g each i buy all u have", -- [1]
 			"Sanitizing-Ravencrest", -- [2]
@@ -2002,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Sanitizing|r",
 			[51] = 1531433619,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [91]
+		}, -- [66]
 		{
 			"WTS |cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r Heroic PL (Sold +250times) ((Cheap Price)) Going >Now<<", -- [1]
 			"Felmagic-Ravencrest", -- [2]
@@ -2024,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edFelmagic|r",
 			[51] = 1531433630,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [67]
 		{
 			"LFM 1 tank, 1 healer 1 dps for Heroic Antorus Morning Rush! 960+", -- [1]
 			"Dunbrendan-Ravencrest", -- [2]
@@ -2046,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffDunbrendan|r",
 			[51] = 1531465730,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [93]
+		}, -- [68]
 		{
 			"LFM 1 tank, 1 healer 1 dps for Heroic Antorus Morning Rush! 960+", -- [1]
 			"Dunbrendan-Ravencrest", -- [2]
@@ -2068,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffDunbrendan|r",
 			[51] = 1531467415,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [69]
 		{
 			"WTS |cffa335ee|Hitem:116792::::::::110:265::::::|h[Sunhide Gronnling]|h|rWTS|cffa335ee|Hitem:116792::::::::110:265::::::|h[Sunhide Gronnling]|h|rWTS", -- [1]
 			"Tyfannyty-Ravencrest", -- [2]
@@ -2090,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edTyfannyty|r",
 			[51] = 1531467426,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [70]
 		{
 			"Nightmares on Lupalia", -- [1]
 			"Lupalia-Ravencrest", -- [2]
@@ -2112,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Lupalia|r",
 			[51] = 1531467588,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [96]
+		}, -- [71]
 		{
 			"Interrupted Inquisitor Tormentorum's |cff71d5ff|Hspell:200905:0|h[Sap Soul]|h|r!", -- [1]
 			"Lupalia-Ravencrest", -- [2]
@@ -2134,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Lupalia|r",
 			[51] = 1531467738,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [97]
+		}, -- [72]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12101:Player-1329-0652F97E:1:7:13:18:4294967295:4294967295:4294967295:4294967295|h[We Came Here For Two Reasons]|h|r!", -- [1]
 			"Hiliklol-Ravencrest", -- [2]
@@ -2156,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "Hiliklol",
 			[51] = 1531468394,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [98]
+		}, -- [73]
 		{
 			"WTS |cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r Heroic PL (Sold +250times) ((Get Curve+MOUNT before it Remove This week)) Going >>NOW<<", -- [1]
 			"Felmagic-Ravencrest", -- [2]
@@ -2178,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edFelmagic|r",
 			[51] = 1531470737,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [99]
+		}, -- [74]
 		{
 			"WTS|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|rHC PL Boost with Decent price!get achive+mount+loot and also chance for the best trinket in game.going soon and we have summon ready at Boss+also you can afk during fight no ilvl req to join!whisper me for more info", -- [1]
 			"Hôlyknight-Ravencrest", -- [2]
@@ -2200,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaHôlyknight|r",
 			[51] = 1531470841,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [100]
+		}, -- [75]
 		{
 			"WTS |cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r Heroic PL (Sold +250times) ((Get Curve+MOUNT before it Remove This week)) Going >>NOW<<", -- [1]
 			"Felmagic-Ravencrest", -- [2]
@@ -2222,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edFelmagic|r",
 			[51] = 1531470970,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [101]
+		}, -- [76]
 		{
 			"WTS |cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r Heroic PL (Sold +250times) ((Get Curve+MOUNT before it Remove This week)) Going >>NOW<<", -- [1]
 			"Felmagic-Ravencrest", -- [2]
@@ -2244,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edFelmagic|r",
 			[51] = 1531471146,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [102]
+		}, -- [77]
 		{
 			"WTS |cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r Heroic PL (Sold +250times) ((Get Curve+MOUNT before it Remove This week)) Going >>NOW<<", -- [1]
 			"Felmagic-Ravencrest", -- [2]
@@ -2266,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edFelmagic|r",
 			[51] = 1531471339,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [103]
+		}, -- [78]
 		{
 			"WTS HC-Antorus 11/11.SUNDAY 8pm. Full 975+ 11/11M Guild boost, No Pugs, No Saves. Personal loot, rolled out by an officer. Last check to get Ahead of the Curve and get a full gear run on an alt. Quality boosting experience gaurenteed. 500k Gold. /w me", -- [1]
 			"Littletiny-Ravencrest", -- [2]
@@ -2288,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffLittletiny|r",
 			[51] = 1531471399,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [104]
+		}, -- [79]
 		{
 			"WTS |cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r Heroic PL (Sold +250times) ((Get Curve+MOUNT before it Remove This week)) Going >>Right now<<", -- [1]
 			"Felmagic-Ravencrest", -- [2]
@@ -2310,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edFelmagic|r",
 			[51] = 1531471479,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [105]
+		}, -- [80]
 		{
 			"WTS |cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r Heroic PL (Sold +250times) ((Get Curve+MOUNT before it Remove This week)) Going >>Right now<<", -- [1]
 			"Felmagic-Ravencrest", -- [2]
@@ -2332,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edFelmagic|r",
 			[51] = 1531471634,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [106]
+		}, -- [81]
 		{
 			"WTS |cffffffff|Hitem:129287::::::::1:64::::::|h[Fjarnskaggl Seed]|h|r|cffffffff|Hitem:129288::::::::1:64::::::|h[Starlight Rose Seed]|h|r CHEAP", -- [1]
 			"Mercux-Ravencrest", -- [2]
@@ -2354,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaMercux|r",
 			[51] = 1531565234,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [107]
+		}, -- [82]
 		{
 			"WTB|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r only", -- [1]
 			"Dkmosashi-Ravencrest", -- [2]
@@ -2376,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aDkmosashi|r",
 			[51] = 1531565276,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [108]
+		}, -- [83]
 		{
 			"hello guys i need to do this|cffffff00|Hquest:39341:110:110:255|h[Vault of the Wardens: Demon's Bile]|h|r it wil take 1 min of ur time ok..?", -- [1]
 			"Sequoià-Shadowsong", -- [2]
@@ -2398,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aSequoià-Shadowsong|r",
 			[51] = 1531565316,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [109]
+		}, -- [84]
 		{
 			"Interrupted Felsworn Infester's |cff71d5ff|Hspell:193069:0|h[Nightmares]|h|r!", -- [1]
 			"Lupalia-Ravencrest", -- [2]
@@ -2420,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Lupalia|r",
 			[51] = 1531565331,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [110]
+		}, -- [85]
 		{
 			"Interrupted Felsworn Infester's |cff71d5ff|Hspell:191595:0|h[Corrupt]|h|r!", -- [1]
 			"Lupalia-Ravencrest", -- [2]
@@ -2442,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Lupalia|r",
 			[51] = 1531565393,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [111]
+		}, -- [86]
 		{
 			"would u guys help me whit |cffffff00|Hquest:39341:110:110:255|h[Vault of the Wardens: Demon's Bile]|h|r", -- [1]
 			"Sequoià-Shadowsong", -- [2]
@@ -2464,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aSequoià-Shadowsong|r",
 			[51] = 1531565493,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [112]
+		}, -- [87]
 		{
 			"Interrupted Inquisitor Tormentorum's |cff71d5ff|Hspell:200905:0|h[Sap Soul]|h|r!", -- [1]
 			"Lupalia-Ravencrest", -- [2]
@@ -2486,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Lupalia|r",
 			[51] = 1531565516,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [113]
+		}, -- [88]
 		{
 			"Interrupted Inquisitor Tormentorum's |cff71d5ff|Hspell:200905:0|h[Sap Soul]|h|r!", -- [1]
 			"Lupalia-Ravencrest", -- [2]
@@ -2508,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Lupalia|r",
 			[51] = 1531565537,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [114]
+		}, -- [89]
 		{
 			"<The Warlords> er en guild, som søger nye mennesker til både vores raid, pvp og mythic+ team! Vi kan bruge lidt af alt. Socials er også meget velkommen. Du kan altid /w for info", -- [1]
 			"Hallapala", -- [2]
@@ -2530,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaHallapala|r",
 			[51] = 1531565706,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [115]
+		}, -- [90]
 		{
 			"<Oathsworn> have moved here from a low pop server and are recruiting for BFA. Mythic Antorus 4/11 but stopped raiding due to attendace issues. We raid Mon/Wed 20:00 - 23:00 ST. /w for an invite!", -- [1]
 			"Pazy-Ravencrest", -- [2]
@@ -2552,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaPazy|r",
 			[51] = 1531565737,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [116]
+		}, -- [91]
 		{
 			"WTS |cffffffff|Hitem:129287::::::::1:64::::::|h[Fjarnskaggl Seed]|h|r|cffffffff|Hitem:129288::::::::1:64::::::|h[Starlight Rose Seed]|h|r CHEAP", -- [1]
 			"Mercux-Ravencrest", -- [2]
@@ -2574,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaMercux|r",
 			[51] = 1531565784,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [117]
+		}, -- [92]
 		{
 			"<Oathsworn> have moved here from a low pop server and are recruiting for BFA. Mythic Antorus 4/11 but stopped raiding due to attendace issues. We raid Mon/Wed 20:00 - 23:00 ST. /w for an invite!", -- [1]
 			"Pazy-Ravencrest", -- [2]
@@ -2596,7 +2046,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaPazy|r",
 			[51] = 1531566219,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [118]
+		}, -- [93]
 		{
 			"Looking for a new home for BFA? Want to raid HC? Or attempt Mythic in a friendly social environment? Deverry Cycle wants you then! Raiding Wed/Thurs 8:15pm SVT - 10:15pm or later. Give me a whisper :)", -- [1]
 			"Brangwen-Ravencrest", -- [2]
@@ -2618,7 +2068,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Brangwen|r",
 			[51] = 1531566267,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [119]
+		}, -- [94]
 		{
 			"WTS Alani Mount! |cff71d5ff|Hspell:132036:0|h[Thundering Ruby Cloud Serpent]|h|r 60k. 100% droprate personal loot! 2 spots left :) /w me pls", -- [1]
 			"Darmin-Ravencrest", -- [2]
@@ -2640,7 +2090,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aDarmin|r",
 			[51] = 1531566285,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [120]
+		}, -- [95]
 		{
 			"Looking for a new home for BFA? Want to raid HC? Or attempt Mythic in a friendly social environment? Deverry Cycle wants you then! Raiding Wed/Thurs 8:15pm SVT - 10:15pm or later. Give me a whisper :)", -- [1]
 			"Brangwen-Ravencrest", -- [2]
@@ -2662,7 +2112,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Brangwen|r",
 			[51] = 1531566427,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [121]
+		}, -- [96]
 		{
 			"<Oathsworn> have moved here from a low pop server and are recruiting for BFA. Mythic Antorus 4/11 but stopped raiding due to attendace issues. We raid Mon/Wed 20:00 - 23:00 ST. /w for an invite!", -- [1]
 			"Pazy-Ravencrest", -- [2]
@@ -2684,7 +2134,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaPazy|r",
 			[51] = 1531566460,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [122]
+		}, -- [97]
 		{
 			"<Oathsworn> have moved here from a low pop server and are recruiting for BFA. Mythic Antorus 4/11 but stopped raiding due to attendace issues. We raid Mon/Wed 20:00 - 23:00 ST. /w for an invite!", -- [1]
 			"Pazy-Ravencrest", -- [2]
@@ -2706,7 +2156,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaPazy|r",
 			[51] = 1531566701,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [123]
+		}, -- [98]
 		{
 			"WTS Alani Mount |cff71d5ff|Hspell:132036:0|h[Thundering Ruby Cloud Serpent]|h|r] 60k. 100% droprate personal loot! 1 spot left :) /w me pls ", -- [1]
 			"Darmin-Ravencrest", -- [2]
@@ -2728,7 +2178,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aDarmin|r",
 			[51] = 1531566794,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [124]
+		}, -- [99]
 		{
 			"WTS Keystone boost 15-17! come and get boosted by elite, friendly, exprienced Gp! all loot is yours. you can go AFK!", -- [1]
 			"Dorsa-Ravencrest", -- [2]
@@ -2750,7 +2200,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aDorsa|r",
 			[51] = 1531566852,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [125]
+		}, -- [100]
 		{
 			"<The Warlords> er en guild, som søger nye mennesker til både vores raid, pvp og mythic+ team! Vi kan bruge lidt af alt. Socials er også meget velkommen. Du kan altid /w for info", -- [1]
 			"Hallapala-Ravencrest", -- [2]
@@ -2772,7 +2222,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaHallapala|r",
 			[51] = 1531566906,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [126]
+		}, -- [101]
 		{
 			"<Oathsworn> have moved here from a low pop server and are recruiting for BFA. Mythic Antorus 4/11 but stopped raiding due to attendace issues. We raid Mon/Wed 20:00 - 23:00 ST. /w for an invite!", -- [1]
 			"Pazy-Ravencrest", -- [2]
@@ -2793,6 +2243,556 @@ ElvCharacterDB = {
 			true, -- [17]
 			[52] = "|cff3fc6eaPazy|r",
 			[51] = 1531566942,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [102]
+		{
+			"WTS|cff0070dd|Hbattlepet:169:1:3:152:10:13:0000000000000000|h[Dragon Kite]|h|r&|cffa335ee|Hitem:32756::::::::1:259::::::|h[Gyro-Balanced Khorium Destroyer]|h|r&|cff0070dd|Hbattlepet:333:1:3:155:11:12:0000000000000000|h[Gregarious Grell]|h|r&|cffa335ee|Hitem:118874::::::::1:259:512:29:1:3980:110:::|h[Blackrock Bulwark]|h|r w/ me! Significantly Cheaper than AH", -- [1]
+			"Dreamshiv-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Dreamshiv", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			435, -- [11]
+			"Player-1329-0615C298", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Dreamshiv|r",
+			[51] = 1532193740,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [103]
+		{
+			"WTS |cff0070dd|Hbattlepet:311:1:3:158:11:10:0000000000000000|h[Guardian Cub]|h|r! Cheap compared to AH! /W ME ", -- [1]
+			"Sharlicious-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Sharlicious", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			437, -- [11]
+			"Player-1329-0419A088", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3fc6eaSharlicious|r",
+			[51] = 1532193759,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [104]
+		{
+			"WTS |cff0070dd|Hbattlepet:311:1:3:158:11:10:0000000000000000|h[Guardian Cub]|h|r! Cheap compared to AH! /W ME ", -- [1]
+			"Sharlicious-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Sharlicious", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			438, -- [11]
+			"Player-1329-0419A088", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3fc6eaSharlicious|r",
+			[51] = 1532193759,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [105]
+		{
+			"WTS|cff0070dd|Hbattlepet:169:1:3:152:10:13:0000000000000000|h[Dragon Kite]|h|r&|cffa335ee|Hitem:32756::::::::1:259::::::|h[Gyro-Balanced Khorium Destroyer]|h|r&|cff0070dd|Hbattlepet:333:1:3:155:11:12:0000000000000000|h[Gregarious Grell]|h|r&|cffa335ee|Hitem:118874::::::::1:259:512:29:1:3980:110:::|h[Blackrock Bulwark]|h|r w/ me! Significantly Cheaper than AH", -- [1]
+			"Dreamshiv-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Dreamshiv", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			441, -- [11]
+			"Player-1329-0615C298", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Dreamshiv|r",
+			[51] = 1532193781,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [106]
+		{
+			"WTS|cff0070dd|Hbattlepet:169:1:3:152:10:13:0000000000000000|h[Dragon Kite]|h|r&|cffa335ee|Hitem:32756::::::::1:259::::::|h[Gyro-Balanced Khorium Destroyer]|h|r&|cff0070dd|Hbattlepet:333:1:3:155:11:12:0000000000000000|h[Gregarious Grell]|h|r&|cffa335ee|Hitem:118874::::::::1:259:512:29:1:3980:110:::|h[Blackrock Bulwark]|h|r w/ me! Significantly Cheaper than AH", -- [1]
+			"Dreamshiv-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Dreamshiv", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			447, -- [11]
+			"Player-1329-0615C298", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Dreamshiv|r",
+			[51] = 1532193803,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [107]
+		{
+			"WTS|cff0070dd|Hbattlepet:169:1:3:152:10:13:0000000000000000|h[Dragon Kite]|h|r&|cffa335ee|Hitem:32756::::::::1:259::::::|h[Gyro-Balanced Khorium Destroyer]|h|r&|cff0070dd|Hbattlepet:333:1:3:155:11:12:0000000000000000|h[Gregarious Grell]|h|r&|cffa335ee|Hitem:118874::::::::1:259:512:29:1:3980:110:::|h[Blackrock Bulwark]|h|r w/ me! Significantly Cheaper than AH", -- [1]
+			"Dreamshiv-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Dreamshiv", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			450, -- [11]
+			"Player-1329-0615C298", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Dreamshiv|r",
+			[51] = 1532193838,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [108]
+		{
+			"WTS 2nd for today Alani |cffa335ee|Hitem:90655::::::::110:102::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r Got 10 |cffa335ee|Hitem:86547::::::::110:269::::::|h[Skyshard]|h|r! 100% drop chance Personal loot Price: 50k /w me 2 spots left", -- [1]
+			"Sunrazor-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Sunrazor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			465, -- [11]
+			"Player-1329-064C915D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffff7c0aSunrazor|r",
+			[51] = 1532193921,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [109]
+		{
+			"WTS 13x |cffa335ee|Hitem:124442::::::::110:258::::::|h[Chaos Crystal]|h|r 300g fast", -- [1]
+			"Zvyozdochka-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Zvyozdochka", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			466, -- [11]
+			"Player-1329-05187595", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffffffffZvyozdochka|r",
+			[51] = 1532193922,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [110]
+		{
+			"WTS 2nd for today Alani |cffa335ee|Hitem:90655::::::::110:102::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r Got 10 |cffa335ee|Hitem:86547::::::::110:269::::::|h[Skyshard]|h|r! 100% drop chance Personal loot Price: 50k /w me 2 spots left", -- [1]
+			"Sunrazor-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Sunrazor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			468, -- [11]
+			"Player-1329-064C915D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffff7c0aSunrazor|r",
+			[51] = 1532193930,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [111]
+		{
+			"WTS|cffa335ee|Hitem:18168::::::::6:253::::::|h[Force Reactive Disk]|h|r 30k", -- [1]
+			"Slippendbank-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Slippendbank", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			469, -- [11]
+			"Player-1329-05F2C093", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Slippendbank|r",
+			[51] = 1532193942,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [112]
+		{
+			"WTS 13x |cffa335ee|Hitem:124442::::::::110:258::::::|h[Chaos Crystal]|h|r 300g fast", -- [1]
+			"Zvyozdochka-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Zvyozdochka", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			472, -- [11]
+			"Player-1329-05187595", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffffffffZvyozdochka|r",
+			[51] = 1532193956,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [113]
+		{
+			"WTS|cff0070dd|Hbattlepet:169:1:3:152:10:13:0000000000000000|h[Dragon Kite]|h|r&|cffa335ee|Hitem:32756::::::::1:259::::::|h[Gyro-Balanced Khorium Destroyer]|h|r&|cffa335ee|Hitem:118874::::::::1:259:512:29:1:3980:110:::|h[Blackrock Bulwark]|h|r&|cff0070dd|Hbattlepet:333:1:3:155:11:12:0000000000000000|h[Gregarious Grell]|h|r w/ me Significantly Cheaper than AH", -- [1]
+			"Dreamshiv-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Dreamshiv", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			473, -- [11]
+			"Player-1329-0615C298", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Dreamshiv|r",
+			[51] = 1532193967,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [114]
+		{
+			"WTS 2nd for today Alani |cffa335ee|Hitem:90655::::::::110:102::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r Got 10 |cffa335ee|Hitem:86547::::::::110:269::::::|h[Skyshard]|h|r! 100% drop chance Personal loot Price: 50k /w me 2 spots left", -- [1]
+			"Sunrazor-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Sunrazor", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			474, -- [11]
+			"Player-1329-064C915D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffff7c0aSunrazor|r",
+			[51] = 1532193972,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [115]
+		{
+			"WTS |cff0070dd|Hbattlepet:311:1:3:158:11:10:0000000000000000|h[Guardian Cub]|h|r! Cheap compared to AH! /W ME ", -- [1]
+			"Sharlicious-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Sharlicious", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			486, -- [11]
+			"Player-1329-0419A088", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3fc6eaSharlicious|r",
+			[51] = 1532194038,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [116]
+		{
+			"WTS |cff0070dd|Hbattlepet:311:1:3:158:11:10:0000000000000000|h[Guardian Cub]|h|r! Cheap compared to AH! /W ME ", -- [1]
+			"Sharlicious-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Sharlicious", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			487, -- [11]
+			"Player-1329-0419A088", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3fc6eaSharlicious|r",
+			[51] = 1532194038,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [117]
+		{
+			"WTS|cff0070dd|Hbattlepet:169:1:3:152:10:13:0000000000000000|h[Dragon Kite]|h|r&|cffa335ee|Hitem:32756::::::::1:259::::::|h[Gyro-Balanced Khorium Destroyer]|h|r&|cffa335ee|Hitem:118874::::::::1:259:512:29:1:3980:110:::|h[Blackrock Bulwark]|h|r&|cff0070dd|Hbattlepet:333:1:3:155:11:12:0000000000000000|h[Gregarious Grell]|h|r w/ me Significantly Cheaper than AH", -- [1]
+			"Dreamshiv-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Dreamshiv", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			489, -- [11]
+			"Player-1329-0615C298", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Dreamshiv|r",
+			[51] = 1532194049,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [118]
+		{
+			"LF Someone who needs |cffffff00|Hachievement:156:Player-1329-05174918:0:0:0:-1:0:0:0:0|h[Territorial Dominance]|h|r", -- [1]
+			"Shredbull-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Shredbull", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			509, -- [11]
+			"Player-1329-05174918", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Shredbull|r",
+			[51] = 1532194108,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [119]
+		{
+			"Illuminati - LATE NIGHT RAIDING GUILD - Currently Building a Core Raid Team for BFA - Recruiting Ranged DPS, Melee DPS, Tanks and Healers. Heroic Raiding with Mythic Progression  (ST: 23:00 - 1:00)", -- [1]
+			"Moorhen-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Moorhen", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1154, -- [11]
+			"Player-1329-06677B9D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Moorhen|r",
+			[51] = 1533064512,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [120]
+		{
+			"Illuminati - LATE NIGHT RAIDING GUILD - Currently Building a Core Raid Team for BFA - Recruiting Ranged DPS, Melee DPS, Tanks and Healers. Heroic Raiding with Mythic Progression  (ST: 23:00 - 1:00)", -- [1]
+			"Moorhen-Ravencrest", -- [2]
+			"", -- [3]
+			"1. General - Dalaran", -- [4]
+			"Moorhen", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Dalaran", -- [9]
+			0, -- [10]
+			1160, -- [11]
+			"Player-1329-06677B9D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Moorhen|r",
+			[51] = 1533064550,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [121]
+		{
+			"Illuminati - LATE NIGHT RAIDING GUILD - Currently Building a Core Raid Team for BFA - Recruiting Ranged DPS, Melee DPS, Tanks and Healers. Heroic Raiding with Mythic Progression  (ST: 23:00 - 1:00)", -- [1]
+			"Moorhen-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Moorhen", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1161, -- [11]
+			"Player-1329-06677B9D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Moorhen|r",
+			[51] = 1533064550,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [122]
+		{
+			"WTS|cff0070dd|Hbattlepet:242:25:3:1319:305:289:0000000000000000|h[Spectral Tiger Cub]|h|r&|cff0070dd|Hbattlepet:169:1:3:152:10:13:0000000000000000|h[Dragon Kite]|h|r&|cff0070dd|Hitem:142370::::::::110:103::1::::|h[Plans: Arcanite Champion]|h|r w/ me! :)", -- [1]
+			"Eithyia-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Eithyia", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1166, -- [11]
+			"Player-1329-0610579B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffff7c0aEithyia|r",
+			[51] = 1533064649,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [123]
+		{
+			"WTS|cff0070dd|Hbattlepet:328:1:3:152:13:10:0000000000000000|h[Purple Puffer]|h|r", -- [1]
+			"Curdemaimuta-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Curdemaimuta", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1167, -- [11]
+			"Player-1329-062B9C5A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff48cbaCurdemaimuta|r",
+			[51] = 1533064660,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [124]
+		{
+			"WTS|cff0070dd|Hbattlepet:242:25:3:1319:305:289:0000000000000000|h[Spectral Tiger Cub]|h|r&|cff0070dd|Hbattlepet:169:1:3:152:10:13:0000000000000000|h[Dragon Kite]|h|r&|cff0070dd|Hitem:142370::::::::110:103::1::::|h[Plans: Arcanite Champion]|h|r w/ me! :)", -- [1]
+			"Eithyia-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Eithyia", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1171, -- [11]
+			"Player-1329-0610579B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffff7c0aEithyia|r",
+			[51] = 1533064685,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [125]
+		{
+			"Illuminati - LATE NIGHT RAIDING GUILD - Currently Building a Core Raid Team for BFA - Recruiting Ranged DPS, Melee DPS, Tanks and Healers. Heroic Raiding with Mythic Progression  (ST: 23:00 - 1:00)", -- [1]
+			"Moorhen-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Moorhen", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1173, -- [11]
+			"Player-1329-06677B9D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Moorhen|r",
+			[51] = 1533064721,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [126]
+		{
+			"Illuminati - LATE NIGHT RAIDING GUILD - Currently Building a Core Raid Team for BFA - Recruiting Ranged DPS, Melee DPS, Tanks and Healers. Heroic Raiding with Mythic Progression  (ST: 23:00 - 1:00)", -- [1]
+			"Moorhen-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Moorhen", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1184, -- [11]
+			"Player-1329-06677B9D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Moorhen|r",
+			[51] = 1533064768,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [127]
 	},
@@ -2819,9 +2819,9 @@ ElvCharacterDB = {
 		"/roll", -- [20]
 	},
 	["BodyGuard"] = {
-		["IsInValidZone"] = true,
-		["MaxHealth"] = 97854,
-		["Health"] = 97854,
 		["Active"] = false,
+		["Health"] = 97854,
+		["MaxHealth"] = 97854,
+		["IsInValidZone"] = true,
 	},
 }

@@ -2,116 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"<Raptus Tempus> leder efter flere mennesker til at joine vores ranks, vi søger mainly range dps.  Progess er 2/11 på mythic. Vi kører også high m+ keys hvis det har interesse for nogle mennesker. Socials er også mere end velkomne.", -- [1]
-			"Darkpalland-Ravencrest", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Darkpalland", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			271, -- [11]
-			"Player-1329-0415324F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffaad372Darkpalland|r",
-			[51] = 1518810000,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
-			"[WTS] Mythic +15 fast run! You will get ilvl 960+ gear, tons of Artifact Power and [Keystone Master] achievement. Please visit WowVendor.com for more info!", -- [1]
-			"Bitecafor-Ravencrest", -- [2]
-			"", -- [3]
-			"4. LookingForGroup", -- [4]
-			"Bitecafor", -- [5]
-			"", -- [6]
-			26, -- [7]
-			4, -- [8]
-			"LookingForGroup", -- [9]
-			0, -- [10]
-			273, -- [11]
-			"Player-1329-063723B4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc41e3aBitecafor|r",
-			[51] = 1518810004,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
-			"WTS |cff71d5ff|Hspell:138640:0|h[Bone-White Primal Raptor]|h|r", -- [1]
-			"Vexié-Ravencrest", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Vexié", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			274, -- [11]
-			"Player-1329-05DE9314", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3fc6eaVexié|r",
-			[51] = 1518810006,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
-		{
-			"WTS ARGUS HC! Mythic players boosting You will get a mount and a chance to get Aman'Thul's Vision As well as Ahead of the Curve achiev! Whisper for info Last 2 spot ready to summon", -- [1]
-			"Darkwine-Ravencrest", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Darkwine", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			276, -- [11]
-			"Player-1329-05968BB5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffaad372Darkwine|r",
-			[51] = 1518810017,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
-		{
-			">>>Amicis<<< New PVE Guild, LF all classes and specs to make a raiding team. Everyone is welcome. /w ", -- [1]
-			"Flislisa-Ravencrest", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Flislisa", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			278, -- [11]
-			"Player-1329-0597C3B5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffffffffFlislisa|r",
-			[51] = 1518810040,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [5]
-		{
 			"WTS ANTORUS N/H/M, MYTHIC +15, PM ME FOR INFO.", -- [1]
 			"Bogaritto-Ravencrest", -- [2]
 			"", -- [3]
@@ -132,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffBogaritto|r",
 			[51] = 1518810047,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
+		}, -- [1]
 		{
 			"[WTS] Mage Tower Challenge scenario! Get an amazing Challenging Artifact Appearence for your spec now! Please visit WowVendor.com for more info!", -- [1]
 			"Bitecafor-Ravencrest", -- [2]
@@ -154,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aBitecafor|r",
 			[51] = 1518810064,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [7]
+		}, -- [2]
 		{
 			"[WTS] 100-110 quick and smooth lvling by top players. Get 110 in less than 12 hours. Account safety is guaranteed. Please visit WowVendor.com for more info!", -- [1]
 			"Bitecafor-Ravencrest", -- [2]
@@ -176,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aBitecafor|r",
 			[51] = 1518810124,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
+		}, -- [3]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:892:Player-1329-062E796D:1:2:16:18:4294967295:4294967295:4294967295:4294967295|h[The Right Stuff]|h|r!", -- [1]
 			"Alcorx-Ravencrest", -- [2]
@@ -198,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "Alcorx",
 			[51] = 1518810158,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [9]
+		}, -- [4]
 		{
 			"[WTS] Antorus Normal & Heroic Boost! Get ilvl 945-955+ Gear and Curve achieve TONIGHT. Fast PL/ML guildruns. Over 1700 reviews at Trustpilot. Please visit WowVendor.com for more info!", -- [1]
 			"Bitecafor-Ravencrest", -- [2]
@@ -220,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aBitecafor|r",
 			[51] = 1518810184,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [10]
+		}, -- [5]
 		{
 			"[WTS] Mythic +15 fast run! You will get ilvl 960+ gear, tons of Artifact Power and [Keystone Master] achievement. Please visit WowVendor.com for more info!", -- [1]
 			"Bitecafor-Ravencrest", -- [2]
@@ -242,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aBitecafor|r",
 			[51] = 1518810244,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [11]
+		}, -- [6]
 		{
 			"[WTS] Mage Tower Challenge scenario! Get an amazing Challenging Artifact Appearence for your spec now! Please visit WowVendor.com for more info!", -- [1]
 			"Bitecafor-Ravencrest", -- [2]
@@ -264,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aBitecafor|r",
 			[51] = 1518810304,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [12]
+		}, -- [7]
 		{
 			"Lavinish was awarded with |cffa335ee|Hitem:152520::::::::110:577::5:1:570:::|h[Chest of the Antoran Protector]|h|r for BiS!", -- [1]
 			"Cirylli-Ravencrest", -- [2]
@@ -286,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Cirylli|r",
 			[51] = 1518810329,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [13]
+		}, -- [8]
 		{
 			"[WTS] 100-110 quick and smooth lvling by top players. Get 110 in less than 12 hours. Account safety is guaranteed. Please visit WowVendor.com for more info!", -- [1]
 			"Bitecafor-Ravencrest", -- [2]
@@ -308,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aBitecafor|r",
 			[51] = 1518810364,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
+		}, -- [9]
 		{
 			"Crankzt was awarded with |cffa335ee|Hitem:152054::::::::110:577::5:3:3611:1492:3336:::|h[Unwavering Soul Essence]|h|r for BiS!", -- [1]
 			"Cirylli-Ravencrest", -- [2]
@@ -330,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Cirylli|r",
 			[51] = 1518810391,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [15]
+		}, -- [10]
 		{
 			"Aúran was awarded with |cffa335ee|Hitem:152054::::::::110:577::5:3:3611:1487:3528:::|h[Unwavering Soul Essence]|h|r for BiS!", -- [1]
 			"Cirylli-Ravencrest", -- [2]
@@ -352,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Cirylli|r",
 			[51] = 1518810394,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [16]
+		}, -- [11]
 		{
 			"[WTS] Antorus Normal & Heroic Boost! Get ilvl 945-955+ Gear and Curve achieve TONIGHT. Fast PL/ML guildruns. Over 1700 reviews at Trustpilot. Please visit WowVendor.com for more info!", -- [1]
 			"Bitecafor-Ravencrest", -- [2]
@@ -374,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aBitecafor|r",
 			[51] = 1518810424,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [17]
+		}, -- [12]
 		{
 			"Lurelei was awarded with |cffa335ee|Hitem:152518::::::::110:577::5:1:570:::|h[Chest of the Antoran Vanquisher]|h|r for BiS!", -- [1]
 			"Cirylli-Ravencrest", -- [2]
@@ -396,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Cirylli|r",
 			[51] = 1518810426,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [18]
+		}, -- [13]
 		{
 			"[WTS] Mythic +15 fast run! You will get ilvl 960+ gear, tons of Artifact Power and [Keystone Master] achievement. Please visit WowVendor.com for more info!", -- [1]
 			"Bitecafor-Ravencrest", -- [2]
@@ -418,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aBitecafor|r",
 			[51] = 1518810484,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [19]
+		}, -- [14]
 		{
 			"[WTS] Mage Tower Challenge scenario! Get an amazing Challenging Artifact Appearence for your spec now! Please visit WowVendor.com for more info!", -- [1]
 			"Bitecafor-Ravencrest", -- [2]
@@ -440,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aBitecafor|r",
 			[51] = 1518810544,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [20]
+		}, -- [15]
 		{
 			"[WTS] 100-110 quick and smooth lvling by top players. Get 110 in less than 12 hours. Account safety is guaranteed. Please visit WowVendor.com for more info!", -- [1]
 			"Bitecafor-Ravencrest", -- [2]
@@ -462,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aBitecafor|r",
 			[51] = 1518810604,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [21]
+		}, -- [16]
 		{
 			"Lavinish was awarded with |cffa335ee|Hitem:152280::::::::110:577::5:3:3611:1492:3336:::|h[Scalding Shatterguards]|h|r for Greed!", -- [1]
 			"Cirylli-Ravencrest", -- [2]
@@ -484,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Cirylli|r",
 			[51] = 1518811265,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [22]
+		}, -- [17]
 		{
 			"Combust was awarded with |cffa335ee|Hitem:152521::::::::110:577::5:1:570:::|h[Gauntlets of the Antoran Vanquisher]|h|r for BiS!", -- [1]
 			"Cirylli-Ravencrest", -- [2]
@@ -506,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Cirylli|r",
 			[51] = 1518811272,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [23]
+		}, -- [18]
 		{
 			"Lurelei was awarded with |cffa335ee|Hitem:152521::::::::110:577::5:1:570:::|h[Gauntlets of the Antoran Vanquisher]|h|r for BiS!", -- [1]
 			"Cirylli-Ravencrest", -- [2]
@@ -528,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Cirylli|r",
 			[51] = 1518811283,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [24]
+		}, -- [19]
 		{
 			"Crankzt was awarded with |cffa335ee|Hitem:152034::::::::110:577::5:3:3611:1487:3528:::|h[Obliterator Propellant]|h|r for Offspec!", -- [1]
 			"Cirylli-Ravencrest", -- [2]
@@ -550,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Cirylli|r",
 			[51] = 1518811286,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [25]
+		}, -- [20]
 		{
 			"watch black panther yesterday", -- [1]
 			"|Kf25|k00000000000|k", -- [2]
@@ -572,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffabd473Wrighthero|r",
 			[51] = 1518811421,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [26]
+		}, -- [21]
 		{
 			"Interrupted Agatha's |cff71d5ff|Hspell:243114:0|h[Dark Fury]|h|r!", -- [1]
 			"Trïxxed-Ravencrest", -- [2]
@@ -594,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTrïxxed|r",
 			[51] = 1518811502,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [27]
+		}, -- [22]
 		{
 			"Interrupted Agatha's |cff71d5ff|Hspell:243114:0|h[Dark Fury]|h|r!", -- [1]
 			"Trïxxed-Ravencrest", -- [2]
@@ -616,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTrïxxed|r",
 			[51] = 1518811548,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [28]
+		}, -- [23]
 		{
 			"Interrupted Agatha's |cff71d5ff|Hspell:243114:0|h[Dark Fury]|h|r!", -- [1]
 			"Trïxxed-Ravencrest", -- [2]
@@ -638,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTrïxxed|r",
 			[51] = 1518811597,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [29]
+		}, -- [24]
 		{
 			"me2", -- [1]
 			"|Kf25|k00000000000|k", -- [2]
@@ -660,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cffabd473Wrighthero|r",
 			[51] = 1518811672,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [30]
+		}, -- [25]
 		{
 			"what did you think", -- [1]
 			"|Kf25|k00000000000|k", -- [2]
@@ -682,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cffabd473Wrighthero|r",
 			[51] = 1518811677,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [31]
+		}, -- [26]
 		{
 			"Dabo was awarded with |cffa335ee|Hitem:152060::::::::110:577::5:3:3611:1487:3528:::|h[Neuroshock Electrode]|h|r for Major!", -- [1]
 			"Cirylli-Ravencrest", -- [2]
@@ -704,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Cirylli|r",
 			[51] = 1518811704,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [32]
+		}, -- [27]
 		{
 			"Aúran was awarded with |cffa335ee|Hitem:151966::::::::110:577::5:3:3611:1487:3528:::|h[Riveted Choker of Delirium]|h|r for BiS!", -- [1]
 			"Cirylli-Ravencrest", -- [2]
@@ -726,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Cirylli|r",
 			[51] = 1518811712,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [33]
+		}, -- [28]
 		{
 			"Lurelei was awarded with |cffa335ee|Hitem:152281::::::::110:577::5:3:3611:1512:3337:::|h[Varimathras' Shattered Manacles]|h|r for BiS!", -- [1]
 			"Cirylli-Ravencrest", -- [2]
@@ -748,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Cirylli|r",
 			[51] = 1518811714,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [34]
+		}, -- [29]
 		{
 			"Well deserved!", -- [1]
 			"Dogehouse-Ravencrest", -- [2]
@@ -770,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddDogehouse|r",
 			[51] = 1518811764,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [35]
+		}, -- [30]
 		{
 			"Interrupted Agatha's |cff71d5ff|Hspell:243114:0|h[Dark Fury]|h|r!", -- [1]
 			"Trïxxed-Ravencrest", -- [2]
@@ -792,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTrïxxed|r",
 			[51] = 1518811769,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [36]
+		}, -- [31]
 		{
 			"pretty meh", -- [1]
 			"Phacesmack-Ravencrest", -- [2]
@@ -814,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Phacesmack|r",
 			[51] = 1518811771,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [37]
+		}, -- [32]
 		{
 			"Interrupted Agatha's |cff71d5ff|Hspell:243114:0|h[Dark Fury]|h|r!", -- [1]
 			"Trïxxed-Ravencrest", -- [2]
@@ -836,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTrïxxed|r",
 			[51] = 1518811832,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [38]
+		}, -- [33]
 		{
 			"It was alright, didn't really feel like it contributed that much to the universe, mbe we'll see something in infinity war tho", -- [1]
 			"|Kf25|k00000000000|k", -- [2]
@@ -858,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cffabd473Wrighthero|r",
 			[51] = 1518811901,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [39]
+		}, -- [34]
 		{
 			"its because the last Gem is there", -- [1]
 			"|Kf25|k00000000000|k", -- [2]
@@ -880,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cffabd473Wrighthero|r",
 			[51] = 1518811930,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [40]
+		}, -- [35]
 		{
 			"infinite stone", -- [1]
 			"|Kf25|k00000000000|k", -- [2]
@@ -902,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cffabd473Wrighthero|r",
 			[51] = 1518811935,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [41]
+		}, -- [36]
 		{
 			"you not leveling an allied race?", -- [1]
 			"|Kf25|k00000000000|k", -- [2]
@@ -924,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cffabd473Wrighthero|r",
 			[51] = 1518812005,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [42]
+		}, -- [37]
 		{
 			"<Raptus Tempus> søger flere mennesker til at joine vores raidteam, vi søger mainly range dps.  Progess er 11/11 på HC og 2/11 på mythic. Raiddage er onsdag og søndag fra 19 til 22.Vi kører også high m+ keys. Socials er også velkomne.", -- [1]
 			"Darkpalland-Ravencrest", -- [2]
@@ -946,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Darkpalland|r",
 			[51] = 1518812016,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [43]
+		}, -- [38]
 		{
 			"WTS ARGUS HC! Mythic players boosting You will get a mount and a chance to get Aman'Thul's Vision As well as Ahead of the Curve achiev! Whisper for info LAST 1 spot ready to summon", -- [1]
 			"Darkwine-Ravencrest", -- [2]
@@ -968,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Darkwine|r",
 			[51] = 1518812031,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [44]
+		}, -- [39]
 		{
 			"not yet", -- [1]
 			"|Kf25|k00000000000|k", -- [2]
@@ -990,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cffabd473Wrighthero|r",
 			[51] = 1518812038,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [45]
+		}, -- [40]
 		{
 			"doing mage towes", -- [1]
 			"|Kf25|k00000000000|k", -- [2]
@@ -1012,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cffabd473Wrighthero|r",
 			[51] = 1518812042,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [46]
+		}, -- [41]
 		{
 			"[WTS] Mage Tower Challenge scenario! Get an amazing Challenging Artifact Appearence for your spec now! Please visit WowVendor.com for more info!", -- [1]
 			"Togocozak-Ravencrest", -- [2]
@@ -1034,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTogocozak|r",
 			[51] = 1518812046,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [47]
+		}, -- [42]
 		{
 			"I have everything at 110, so lvling a char feels kinda pointless", -- [1]
 			"|Kf25|k00000000000|k", -- [2]
@@ -1056,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cffabd473Wrighthero|r",
 			[51] = 1518812056,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [48]
+		}, -- [43]
 		{
 			"on RC at least so alliance races", -- [1]
 			"|Kf25|k00000000000|k", -- [2]
@@ -1078,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cffabd473Wrighthero|r",
 			[51] = 1518812061,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [49]
+		}, -- [44]
 		{
 			"i thought your horde anyway ", -- [1]
 			"|Kf25|k00000000000|k", -- [2]
@@ -1100,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cffabd473Wrighthero|r",
 			[51] = 1518812078,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [50]
+		}, -- [45]
 		{
 			"I'll prolly lvl a lock since my lock is horde tho", -- [1]
 			"|Kf25|k00000000000|k", -- [2]
@@ -1122,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cffabd473Wrighthero|r",
 			[51] = 1518812080,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [51]
+		}, -- [46]
 		{
 			"Ye but I still have vast majority as alliance", -- [1]
 			"|Kf25|k00000000000|k", -- [2]
@@ -1144,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cffabd473Wrighthero|r",
 			[51] = 1518812087,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [52]
+		}, -- [47]
 		{
 			"not gonna pay to move'em all", -- [1]
 			"|Kf25|k00000000000|k", -- [2]
@@ -1166,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cffabd473Wrighthero|r",
 			[51] = 1518812092,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [53]
+		}, -- [48]
 		{
 			"WTS ARGUS HC! Mythic players boosting You will get a mount and a chance to get Aman'Thul's Vision As well as Ahead of the Curve achiev! Whisper for info LAST 1 spot ready to summon", -- [1]
 			"Darkwine-Ravencrest", -- [2]
@@ -1188,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Darkwine|r",
 			[51] = 1518812095,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [54]
+		}, -- [49]
 		{
 			"<Raptus Tempus> søger flere mennesker til at joine vores raidteam, vi søger mainly range dps.  Progess er 11/11 på HC og 2/11 på mythic. Raiddage er onsdag og søndag fra 19 til 22.Vi kører også high m+ keys. Socials er også velkomne.", -- [1]
 			"Darkpalland-Ravencrest", -- [2]
@@ -1210,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Darkpalland|r",
 			[51] = 1518812098,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [55]
+		}, -- [50]
 		{
 			"nightborne warlock", -- [1]
 			"|Kf25|k00000000000|k", -- [2]
@@ -1232,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cffabd473Wrighthero|r",
 			[51] = 1518812102,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [56]
+		}, -- [51]
 		{
 			"or void elf", -- [1]
 			"|Kf25|k00000000000|k", -- [2]
@@ -1254,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cffabd473Wrighthero|r",
 			[51] = 1518812106,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [57]
+		}, -- [52]
 		{
 			"[WTS] 100-110 quick and smooth lvling by top players. Get 110 in less than 12 hours. Account safety is guaranteed. Please visit WowVendor.com for more info!", -- [1]
 			"Togocozak-Ravencrest", -- [2]
@@ -1276,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTogocozak|r",
 			[51] = 1518812106,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [58]
+		}, -- [53]
 		{
 			"Ye I'll lvl a void elf lock as alliance", -- [1]
 			"|Kf25|k00000000000|k", -- [2]
@@ -1298,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cffabd473Wrighthero|r",
 			[51] = 1518812116,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [59]
+		}, -- [54]
 		{
 			"and make my lock nb on horde", -- [1]
 			"|Kf25|k00000000000|k", -- [2]
@@ -1320,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cffabd473Wrighthero|r",
 			[51] = 1518812125,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [60]
+		}, -- [55]
 		{
 			"<Raptus Tempus> søger flere mennesker til at joine vores raidteam, vi søger mainly range dps.  Progess er 11/11 på HC og 2/11 på mythic. Raiddage er onsdag og søndag fra 19 til 22.Vi kører også high m+ keys. Socials er også velkomne.", -- [1]
 			"Darkpalland-Ravencrest", -- [2]
@@ -1342,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Darkpalland|r",
 			[51] = 1518812158,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [61]
+		}, -- [56]
 		{
 			"[WTS] Antorus Normal & Heroic Boost! Get ilvl 945-955+ Gear and Curve achieve TONIGHT. Fast PL/ML guildruns. Over 1700 reviews at Trustpilot. Please visit WowVendor.com for more info!", -- [1]
 			"Togocozak-Ravencrest", -- [2]
@@ -1364,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTogocozak|r",
 			[51] = 1518812166,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [62]
+		}, -- [57]
 		{
 			"But dno which server or faction I will play next expansion, horde guild isn't gonna survive", -- [1]
 			"|Kf25|k00000000000|k", -- [2]
@@ -1386,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cffabd473Wrighthero|r",
 			[51] = 1518812169,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [63]
+		}, -- [58]
 		{
 			"So I'll just boost one race once i know that", -- [1]
 			"|Kf25|k00000000000|k", -- [2]
@@ -1408,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cffabd473Wrighthero|r",
 			[51] = 1518812186,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [64]
+		}, -- [59]
 		{
 			"got time to level to 110", -- [1]
 			"|Kf25|k00000000000|k", -- [2]
@@ -1430,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cffabd473Wrighthero|r",
 			[51] = 1518812197,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [65]
+		}, -- [60]
 		{
 			"for armor tho", -- [1]
 			"|Kf25|k00000000000|k", -- [2]
@@ -1452,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cffabd473Wrighthero|r",
 			[51] = 1518812199,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [66]
+		}, -- [61]
 		{
 			"5k raider.io / 3.2k progress, 10/11M  Group selling +15-20 Boost. 960 Guaranteed and chance for 940-985 at the end of the dungeon.  (Trading all loot to you). Key is Maw of Souls", -- [1]
 			"Mythera-Ravencrest", -- [2]
@@ -1474,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aMythera|r",
 			[51] = 1518812200,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [67]
+		}, -- [62]
 		{
 			"booooooring", -- [1]
 			"|Kf25|k00000000000|k", -- [2]
@@ -1496,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cffabd473Wrighthero|r",
 			[51] = 1518812211,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [68]
+		}, -- [63]
 		{
 			"[WTS] Mythic +15 fast run! You will get ilvl 960+ gear, tons of Artifact Power and [Keystone Master] achievement. Please visit WowVendor.com for more info!", -- [1]
 			"Togocozak-Ravencrest", -- [2]
@@ -1518,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTogocozak|r",
 			[51] = 1518812226,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [69]
+		}, -- [64]
 		{
 			"[WTS] +15 Key boost 100K Gold! 970+ 3.5k+ R.io Score group selling +15 key boost! Get ur weekly 960+ item secured, chance for 940+ loot & achievement right now, you can AFK entire dungeon if you want too!", -- [1]
 			"Liniela-Ravencrest", -- [2]
@@ -1540,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Liniela|r",
 			[51] = 1518812229,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [70]
+		}, -- [65]
 		{
 			"im doing void because i want a decent elf hunter haha", -- [1]
 			"|Kf25|k00000000000|k", -- [2]
@@ -1562,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cffabd473Wrighthero|r",
 			[51] = 1518812231,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [71]
+		}, -- [66]
 		{
 			"WTS ARGUS HC! Mythic players boosting You will get a mount and a chance to get Aman'Thul's Vision As well as Ahead of the Curve achiev! Whisper for info LAST 1 spot ready to summon", -- [1]
 			"Darkwine-Ravencrest", -- [2]
@@ -1584,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Darkwine|r",
 			[51] = 1518812246,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [72]
+		}, -- [67]
 		{
 			"5k raider.io / 3.2k progress, 10/11M  Group selling +15-20 Boost. 960 Guaranteed and chance for 940-985 at the end of the dungeon.  (Trading all loot to you). Key is Maw of Souls", -- [1]
 			"Mythera-Ravencrest", -- [2]
@@ -1606,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aMythera|r",
 			[51] = 1518812258,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [73]
+		}, -- [68]
 		{
 			"LF 101 twink to boost be through dungeons, 2k per run. /w", -- [1]
 			"Ðarrî-Ravencrest", -- [2]
@@ -1628,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaÐarrî|r",
 			[51] = 1518901660,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [74]
+		}, -- [69]
 		{
 			"wts |cff1eff00|Hitem:151772::::::::80:256::::::|h[Festival Suit]|h|r", -- [1]
 			"Flexo-Ravencrest", -- [2]
@@ -1650,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffFlexo|r",
 			[51] = 1518901662,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [70]
 		{
 			"wts |cff1eff00|Hitem:151772::::::::80:256::::::|h[Festival Suit]|h|r", -- [1]
 			"Flexo-Ravencrest", -- [2]
@@ -1672,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffFlexo|r",
 			[51] = 1518901756,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [76]
+		}, -- [71]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10994:Player-1329-0628FBA7:1:2:17:18:4294967295:4294967295:4294967295:4294967295|h[A Glorious Campaign]|h|r!", -- [1]
 			"Holydelroth-Ravencrest", -- [2]
@@ -1694,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "Holydelroth",
 			[51] = 1518901809,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [77]
+		}, -- [72]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:11135:Player-1329-0628FBA7:1:2:17:18:4294967295:4294967295:4294967295:4294967295|h[A Heroic Campaign]|h|r!", -- [1]
 			"Holydelroth-Ravencrest", -- [2]
@@ -1716,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "Holydelroth",
 			[51] = 1518901809,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [78]
+		}, -- [73]
 		{
 			"WTS lots of [Leylight Shard]", -- [1]
 			"Kongmeldhede-Ravencrest", -- [2]
@@ -1738,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaKongmeldhede|r",
 			[51] = 1518901818,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [74]
 		{
 			"WTS lots of [Leylight Shard]", -- [1]
 			"Kongmeldhede-Ravencrest", -- [2]
@@ -1760,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaKongmeldhede|r",
 			[51] = 1518901818,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [80]
+		}, -- [75]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:11220:Player-1329-0628FBA7:1:2:17:18:4294967295:4294967295:4294967295:4294967295|h[Roster of Champions]|h|r!", -- [1]
 			"Holydelroth-Ravencrest", -- [2]
@@ -1782,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "Holydelroth",
 			[51] = 1518901821,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [81]
+		}, -- [76]
 		{
 			"[WTS] 100-110 quick and smooth lvling by top players. Get 110 in less than 12 hours. Account safety is guaranteed. Please visit WowVendor.com for more info!", -- [1]
 			"Locikodax-Ravencrest", -- [2]
@@ -1804,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aLocikodax|r",
 			[51] = 1518901836,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [82]
+		}, -- [77]
 		{
 			"kys", -- [1]
 			"Dogehouse-Ravencrest", -- [2]
@@ -1826,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddDogehouse|r",
 			[51] = 1519238316,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [83]
+		}, -- [78]
 		{
 			"wow", -- [1]
 			"Dabo", -- [2]
@@ -1848,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Dabo|r",
 			[51] = 1519238317,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [84]
+		}, -- [79]
 		{
 			"thats not how guildies treat eachother", -- [1]
 			"Dabo-Ravencrest", -- [2]
@@ -1870,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Dabo|r",
 			[51] = 1519238319,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [85]
+		}, -- [80]
 		{
 			"yeah atmoez! wtf!!", -- [1]
 			"Dogehouse-Ravencrest", -- [2]
@@ -1892,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddDogehouse|r",
 			[51] = 1519238329,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [86]
+		}, -- [81]
 		{
 			":<", -- [1]
 			"Atomez-Ravencrest", -- [2]
@@ -1914,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAtomez|r",
 			[51] = 1519238332,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [87]
+		}, -- [82]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10988:Player-1329-040E4918:1:2:21:18:4294967295:4294967295:4294967295:4294967295|h[Top Honors]|h|r!", -- [1]
 			"Trïxxed-Ravencrest", -- [2]
@@ -1936,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "Trïxxed",
 			[51] = 1519238335,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [88]
+		}, -- [83]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10991:Player-1329-040E4918:1:2:21:18:4294967295:4294967295:4294967295:4294967295|h[First Step into a Larger World]|h|r!", -- [1]
 			"Trïxxed-Ravencrest", -- [2]
@@ -1958,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "Trïxxed",
 			[51] = 1519238335,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [89]
+		}, -- [84]
 		{
 			"first chest in like 7 weeks that I actually will use", -- [1]
 			"Atomez-Ravencrest", -- [2]
@@ -1980,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAtomez|r",
 			[51] = 1519238353,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [90]
+		}, -- [85]
 		{
 			"I dont even care about it anymore, the chance of actually getting an upgrade is low", -- [1]
 			"Dabo-Ravencrest", -- [2]
@@ -2002,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Dabo|r",
 			[51] = 1519238394,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [91]
+		}, -- [86]
 		{
 			"almost everything I have is 965+", -- [1]
 			"Dabo-Ravencrest", -- [2]
@@ -2024,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Dabo|r",
 			[51] = 1519238405,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [92]
+		}, -- [87]
 		{
 			"show off", -- [1]
 			"Fluffmeup-Ravencrest", -- [2]
@@ -2046,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddFluffmeup|r",
 			[51] = 1519238415,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [93]
+		}, -- [88]
 		{
 			"wow", -- [1]
 			"Dabo-Ravencrest", -- [2]
@@ -2068,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Dabo|r",
 			[51] = 1519238418,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [94]
+		}, -- [89]
 		{
 			"fun for you (Y9", -- [1]
 			"Grizzlyhunte-Ravencrest", -- [2]
@@ -2090,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Grizzlyhunte|r",
 			[51] = 1519238420,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [95]
+		}, -- [90]
 		{
 			"and with 7 spots filled anyways", -- [1]
 			"Davidari-Ravencrest", -- [2]
@@ -2112,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Davidari|r",
 			[51] = 1519238423,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [96]
+		}, -- [91]
 		{
 			"whats the point", -- [1]
 			"Davidari-Ravencrest", -- [2]
@@ -2134,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Davidari|r",
 			[51] = 1519238425,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [97]
+		}, -- [92]
 		{
 			"exactly", -- [1]
 			"Dabo-Ravencrest", -- [2]
@@ -2156,7 +2046,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Dabo|r",
 			[51] = 1519238431,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [98]
+		}, -- [93]
 		{
 			"huh?", -- [1]
 			"Dogehouse-Ravencrest", -- [2]
@@ -2178,7 +2068,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddDogehouse|r",
 			[51] = 1519238432,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [99]
+		}, -- [94]
 		{
 			"4-set 2 legendaries and trinket", -- [1]
 			"Dabo-Ravencrest", -- [2]
@@ -2200,7 +2090,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Dabo|r",
 			[51] = 1519238446,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [100]
+		}, -- [95]
 		{
 			"^^", -- [1]
 			"Davidari-Ravencrest", -- [2]
@@ -2222,7 +2112,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Davidari|r",
 			[51] = 1519238449,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [101]
+		}, -- [96]
 		{
 			"anyone got a good m+ key? 20+", -- [1]
 			"Delroth-Ravencrest", -- [2]
@@ -2244,7 +2134,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dDelroth|r",
 			[51] = 1519328083,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [102]
+		}, -- [97]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8466:Player-1329-05A5E979:1:2:24:18:4294967295:4294967295:4294967295:4294967295|h[Mythic: Norushen]|h|r!", -- [1]
 			"Alqorz-Ravencrest", -- [2]
@@ -2266,7 +2156,7 @@ ElvCharacterDB = {
 			[52] = "Alqorz",
 			[51] = 1519468744,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [103]
+		}, -- [98]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8532:Player-1329-05A5E979:1:2:24:18:4294967295:4294967295:4294967295:4294967295|h[None Shall Pass]|h|r!", -- [1]
 			"Alqorz-Ravencrest", -- [2]
@@ -2288,7 +2178,7 @@ ElvCharacterDB = {
 			[52] = "Alqorz",
 			[51] = 1519468744,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [104]
+		}, -- [99]
 		{
 			"why do people gank darkshire?", -- [1]
 			"Cordies-Ravencrest", -- [2]
@@ -2310,7 +2200,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Cordies|r",
 			[51] = 1520267561,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [105]
+		}, -- [100]
 		{
 			"[WTS] Antorus Heroic Boost Tonight! Get ilvl 945-955+ Gear, Mount and a Curve achieve. Fast PL/ML guildruns. Over 2000 reviews at Trustpilot. Please visit WowVendor.net for more info!", -- [1]
 			"Oganiwoci-Ravencrest", -- [2]
@@ -2332,7 +2222,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffOganiwoci|r",
 			[51] = 1521474486,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [106]
+		}, -- [101]
 		{
 			"men danny kommer säga att det är ett healing issue", -- [1]
 			"Skuggdimman", -- [2]
@@ -2354,7 +2244,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffSkuggdimman|r",
 			[51] = 1522749402,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [107]
+		}, -- [102]
 		{
 			"då kan man ju undra varför dom inte gjort en vettig healing rotation", -- [1]
 			"Skuggdimman-Ravencrest", -- [2]
@@ -2376,7 +2266,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffSkuggdimman|r",
 			[51] = 1522749403,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [108]
+		}, -- [103]
 		{
 			"blir trött....", -- [1]
 			"Skuggdimman-Ravencrest", -- [2]
@@ -2398,7 +2288,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffSkuggdimman|r",
 			[51] = 1522749403,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [109]
+		}, -- [104]
 		{
 			"du va med på healingrotationen liksom, samma som förra veckan :)", -- [1]
 			"Skuggdimman-Ravencrest", -- [2]
@@ -2420,7 +2310,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffSkuggdimman|r",
 			[51] = 1522749408,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [110]
+		}, -- [105]
 		{
 			"nej han antar att vi ska göra den", -- [1]
 			"Miraden-Ravencrest", -- [2]
@@ -2442,7 +2332,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Miraden|r",
 			[51] = 1522749419,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [111]
+		}, -- [106]
 		{
 			"<SéVéN> 7/11M is now recruiting a Shadow Priest, Balance Druid, Frost DK and a Warlock to strengthten our roster. Our goals are to clear current content and enter BFA with a solid team. Raid times are thu/tue 19.45-23.00. Whisper for more info.", -- [1]
 			"Nélia-Ravencrest", -- [2]
@@ -2464,7 +2354,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Nélia|r",
 			[51] = 1524242072,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [112]
+		}, -- [107]
 		{
 			"<SéVéN> 7/11M is now recruiting a Shadow Priest, Balance Druid, Frost DK and a Warlock to strengthten our roster. Our goals are to clear current content and enter BFA with a solid team. Raid times are thu/tue 19.45-23.00. Whisper for more info.", -- [1]
 			"Nélia-Ravencrest", -- [2]
@@ -2486,7 +2376,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Nélia|r",
 			[51] = 1524242115,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [113]
+		}, -- [108]
 		{
 			"Perceptive 11/11M guild Selling Antorus Heroic Personal Loot going TONIGHT at 20.00 Server Time! /w for more info or to book a spot (Boosters are unsaved, and unwanted gear will be rolled out).", -- [1]
 			"Pureasvodka-Ravencrest", -- [2]
@@ -2508,7 +2398,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aPureasvodka|r",
 			[51] = 1524242137,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [114]
+		}, -- [109]
 		{
 			"Wts +17 Cos for gold. Whisper for details.", -- [1]
 			"Dyldogen-Ravencrest", -- [2]
@@ -2530,7 +2420,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dDyldogen|r",
 			[51] = 1524242238,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [115]
+		}, -- [110]
 		{
 			"[WTS] Mythic +15 fast run! You will get ilvl 960+ gear, tons of AP and [Keystone Master] achieve. Over 2000 reviews at Trustpilot. Please visit WowVendor.net for more info!", -- [1]
 			"Ahopigige-Ravencrest", -- [2]
@@ -2552,7 +2442,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aAhopigige|r",
 			[51] = 1524242302,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [116]
+		}, -- [111]
 		{
 			"Wts +17 Cos for gold. Whisper for details.", -- [1]
 			"Dyldogen-Ravencrest", -- [2]
@@ -2574,7 +2464,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dDyldogen|r",
 			[51] = 1524242316,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [117]
+		}, -- [112]
 		{
 			"Wts +17 Cos for gold. Whisper for details.", -- [1]
 			"Dyldogen-Ravencrest", -- [2]
@@ -2596,7 +2486,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dDyldogen|r",
 			[51] = 1524242317,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [118]
+		}, -- [113]
 		{
 			"[WTS] Mage Tower Challenge scenario! Get an amazing Challenging Artifact Appearence for your spec now! Please visit WowVendor.net for more info!", -- [1]
 			"Ahopigige-Ravencrest", -- [2]
@@ -2618,7 +2508,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aAhopigige|r",
 			[51] = 1524242362,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [119]
+		}, -- [114]
 		{
 			"Wts +17 Cos for gold. Whisper for details.", -- [1]
 			"Dyldogen-Ravencrest", -- [2]
@@ -2640,7 +2530,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dDyldogen|r",
 			[51] = 1524242384,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [120]
+		}, -- [115]
 		{
 			"Wts +17 Cos for gold. Whisper for details.", -- [1]
 			"Dyldogen-Ravencrest", -- [2]
@@ -2662,7 +2552,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dDyldogen|r",
 			[51] = 1524242384,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [121]
+		}, -- [116]
 		{
 			"Anthrophobia 11/11HC, now recruiting for our 2ND raid team for BFA. If U are looking for a social mature 2 day raiding guild that focuses on community while doing HC content /w me for info.", -- [1]
 			"Fangstorm-Ravencrest", -- [2]
@@ -2684,7 +2574,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddFangstorm|r",
 			[51] = 1524242397,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [122]
+		}, -- [117]
 		{
 			"WTS  |cffa335ee|Hitem:86546::::::::100:102::::::|h[Sky Crystal]|h|r for Alani Mount  |cffa335ee|Hitem:90655::::::::100:102::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r ! ,3 spots for when Alani is up/w me for price", -- [1]
 			"Florastoria-Ravencrest", -- [2]
@@ -2706,7 +2596,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aFlorastoria|r",
 			[51] = 1528052115,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [123]
+		}, -- [118]
 		{
 			"<Endgame Prolific> is recruiting for BfA and is aimed at mythic progression.  2days Wed+Mon 19.30-23.00. for more detail please visit www.endgameprolific.com or /w ", -- [1]
 			"Tristhar-Ravencrest", -- [2]
@@ -2728,7 +2618,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaTristhar|r",
 			[51] = 1528052406,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [124]
+		}, -- [119]
 		{
 			"WTS  |cffa335ee|Hitem:86546::::::::100:102::::::|h[Sky Crystal]|h|r for Alani Mount  |cffa335ee|Hitem:90655::::::::100:102::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r ! ,3 spots for when Alani is up/w me for price", -- [1]
 			"Florastoria-Ravencrest", -- [2]
@@ -2750,7 +2640,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aFlorastoria|r",
 			[51] = 1528052419,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [125]
+		}, -- [120]
 		{
 			"WTS |cff71d5ff|Hspell:138640:0|h[Bone-White Primal Raptor]|h|r       ", -- [1]
 			"Bynx-Ravencrest", -- [2]
@@ -2772,7 +2662,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aBynx|r",
 			[51] = 1528052504,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [126]
+		}, -- [121]
 		{
 			"[WTS] Mythic +15-22 Boost by Outlands / Ravencrest / Silvermoon best M+ players - 100% AFK - You get 3 940+ items and [Keystone Master] Achievement. We also sell Antoruc HC/Normal.", -- [1]
 			"Luciférian-Ravencrest", -- [2]
@@ -2794,29 +2684,139 @@ ElvCharacterDB = {
 			[52] = "|cff8787edLuciférian|r",
 			[51] = 1528052552,
 			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [122]
+		{
+			"WTS|cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r  Heroic personal loot boost ForGolds. Going Soon. Last days for mount! Last spot!", -- [1]
+			"Hôlyknight-Ravencrest", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Hôlyknight", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			291, -- [11]
+			"Player-1329-0634A6DE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaHôlyknight|r",
+			[51] = 1533111921,
+			[50] = "CHAT_MSG_YELL",
+		}, -- [123]
+		{
+			"Greymane for king", -- [1]
+			"Trïxxed-Ravencrest", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Trïxxed", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			323, -- [11]
+			"Player-1329-040E4918", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc41e3aTrïxxed|r",
+			[51] = 1533112019,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [124]
+		{
+			"imagine if Jaina was still a pacifist, Alliance would fall", -- [1]
+			"Trïxxed-Ravencrest", -- [2]
+			"", -- [3]
+			"1. General - Ruins of Lordaeron", -- [4]
+			"Trïxxed", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Ruins of Lordaeron", -- [9]
+			0, -- [10]
+			361, -- [11]
+			"Player-1329-040E4918", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc41e3aTrïxxed|r",
+			[51] = 1533724081,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [125]
+		{
+			"Jaina is a dreadlord, how else could she be this powerful", -- [1]
+			"Trïxxed-Ravencrest", -- [2]
+			"", -- [3]
+			"1. General - Ruins of Lordaeron", -- [4]
+			"Trïxxed", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Ruins of Lordaeron", -- [9]
+			0, -- [10]
+			371, -- [11]
+			"Player-1329-040E4918", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc41e3aTrïxxed|r",
+			[51] = 1533724130,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [126]
+		{
+			"Khadgar", -- [1]
+			"Trïxxed-Ravencrest", -- [2]
+			"", -- [3]
+			"1. General - Ruins of Lordaeron", -- [4]
+			"Trïxxed", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Ruins of Lordaeron", -- [9]
+			0, -- [10]
+			374, -- [11]
+			"Player-1329-040E4918", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc41e3aTrïxxed|r",
+			[51] = 1533724156,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [127]
 	},
 	["ChatEditHistory"] = {
-		"/i and visuals", -- [1]
-		"/i also show", -- [2]
-		"/i how much exp is this event at 20?", -- [3]
-		"/i seeing loads of 20's", -- [4]
-		"/WA", -- [5]
-		"/wa", -- [6]
-		" me2", -- [7]
-		" It was alright, didn't really feel like it contributed that much to the universe, mbe we'll see something in infinity war tho", -- [8]
-		" not yet", -- [9]
-		" doing mage towes", -- [10]
-		" I have everything at 110, so lvling a char feels kinda pointless", -- [11]
-		" on RC at least so alliance races", -- [12]
-		" I'll prolly lvl a lock since my lock is horde tho", -- [13]
-		" Ye but I still have vast majority as alliance", -- [14]
-		" not gonna pay to move'em all", -- [15]
-		" Ye I'll lvl a void elf lock as alliance", -- [16]
-		" and make my lock nb on horde", -- [17]
-		" But dno which server or faction I will play next expansion, horde guild isn't gonna survive", -- [18]
-		" So I'll just boost one race once i know that", -- [19]
-		" booooooring", -- [20]
+		"/WA", -- [1]
+		"/wa", -- [2]
+		" me2", -- [3]
+		" It was alright, didn't really feel like it contributed that much to the universe, mbe we'll see something in infinity war tho", -- [4]
+		" not yet", -- [5]
+		" doing mage towes", -- [6]
+		" I have everything at 110, so lvling a char feels kinda pointless", -- [7]
+		" on RC at least so alliance races", -- [8]
+		" I'll prolly lvl a lock since my lock is horde tho", -- [9]
+		" Ye but I still have vast majority as alliance", -- [10]
+		" not gonna pay to move'em all", -- [11]
+		" Ye I'll lvl a void elf lock as alliance", -- [12]
+		" and make my lock nb on horde", -- [13]
+		" But dno which server or faction I will play next expansion, horde guild isn't gonna survive", -- [14]
+		" So I'll just boost one race once i know that", -- [15]
+		" booooooring", -- [16]
+		"/s Greymane for king", -- [17]
+		"/1 imagine if Jaina was still a pacifist, Alliance would fall", -- [18]
+		"/1 Jaina is a dreadlord, how else could she be this powerful", -- [19]
+		"/1 Khadgar", -- [20]
 	},
 	["BodyGuard"] = {
 		["Active"] = false,

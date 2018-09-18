@@ -1,7 +1,0 @@
-changeset:   28:701886b6c7ed
-tag:         tip
-user:        Caleb Atherton <atcaleb@twitch.tv>
-date:        Mon Jun 25 20:22:11 2018 -0400
-summary:     Added Mythic+ Data for all Patch 8.0.1 dungeons. Updated function to support 'isAlternate' instead of 'isUpperKarazhan'.
-
-

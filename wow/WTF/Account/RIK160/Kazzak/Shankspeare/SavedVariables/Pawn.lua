@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0218,
+	["LastVersion"] = 2.0226,
 	["LastPlayerFullName"] = "Shankspeare-Kazzak",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,

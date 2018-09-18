@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0218,
+	["LastVersion"] = 2.0228,
 	["LastPlayerFullName"] = "Lycotonum-Tarren Mill",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,

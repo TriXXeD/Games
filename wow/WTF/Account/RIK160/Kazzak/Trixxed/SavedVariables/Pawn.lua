@@ -1,10 +1,9 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0219,
+	["LastVersion"] = 2.0228,
 	["LastPlayerFullName"] = "Trixxed-Kazzak",
 	["AutoSelectScales"] = false,
 	["UpgradeTracking"] = false,
-	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128943] = {
 			["Relics"] = {
@@ -58,6 +57,7 @@ PawnOptions = {
 			["Name"] = "Ulthalesh, the Deadwind Harvester",
 		},
 	},
+	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "WARLOCK",

@@ -6,17 +6,3 @@ X: 0
 Y: 0
 W: 365
 H: 240
-Frame: SpellBookFrame
-FrameLevel: 1
-Anchor: TOP
-X: -74
-Y: -116
-W: 550
-H: 525
-Frame: DBMMinimapButton
-FrameLevel: 5
-Anchor: TOPRIGHT
-X: -142
-Y: -116
-W: 32
-H: 32

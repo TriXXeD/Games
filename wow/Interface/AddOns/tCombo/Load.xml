@@ -1,6 +1,0 @@
-﻿<Ui xmlns="http://www.blizzard.com/wow/ui/">	
-	<Script file="Config\Config.lua"/>
-	<Script file="Config\Module.lua"/>
-	<Script file="Elements\Mover.lua"/>
-	<Script file="Elements\Core.lua"/>
-</Ui>

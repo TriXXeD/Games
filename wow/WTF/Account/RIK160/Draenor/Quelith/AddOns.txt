@@ -19,3 +19,4 @@ TradeSkillMaster_Vendoring: disabled
 TradeSkillMaster_Warehousing: disabled
 tCombo: disabled
 Skada: disabled
+ElvUI_EverySecondCounts: disabled

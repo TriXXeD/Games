@@ -24,974 +24,6 @@ ElvCharacterDB = {
 	},
 	["ChatHistoryLog"] = {
 		{
-			"WTS 80k Argus the Unmaker HC Kill for 80k JUST FOR TODAY. 980+ 11/11 Mythic exp group ~ You can simply AFK. Ready to Summon. Going ever 20min, /w to reserve a spot", -- [1]
-			"Boosterduchl-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Boosterduchl", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1473, -- [11]
-			"Player-1403-06F8AB59", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Boosterduchl",
-			[51] = 1530796329,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
-			"<No Quarter> is recruiting raiders for BFA. Having taken a couple of tiers off we are planning our return with the aim to progress through Mythic raids in the new expansion, We have cutting edge experience. /w me for more info.", -- [1]
-			"Efy-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Efy", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1474, -- [11]
-			"Player-1403-063DCF4C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Efy",
-			[51] = 1530796331,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
-			"WTS Glory boosting runs, TOT SOO Hellfire and many more whisper for more info ", -- [1]
-			"Holyfirez-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Holyfirez", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1477, -- [11]
-			"Player-1403-054D9AD6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Holyfirez",
-			[51] = 1530796346,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
-		{
-			"Selling |cff71d5ff|Hspell:138640:0|h[Bone-White Primal Raptor]|h|r 50k", -- [1]
-			"Gravityzero-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Gravityzero", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1490, -- [11]
-			"Player-1403-06903FA1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Gravityzero",
-			[51] = 1530796355,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
-		{
-			"<No Quarter> is recruiting raiders for BFA. Having taken a couple of tiers off we are planning our return with the aim to progress through Mythic raids in the new expansion, We have cutting edge experience. /w me for more info.", -- [1]
-			"Efy-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Efy", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1491, -- [11]
-			"Player-1403-063DCF4C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Efy",
-			[51] = 1530796355,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [5]
-		{
-			"Selling |cff71d5ff|Hspell:138640:0|h[Bone-White Primal Raptor]|h|r 50k", -- [1]
-			"Gravityzero-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Gravityzero", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1492, -- [11]
-			"Player-1403-06903FA1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Gravityzero",
-			[51] = 1530796355,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
-		{
-			"<Deep in the Neck> is a fresh hc raiding guild created by a core of 7/11m raiders. During BFA we will be aiming for curve in each tier, and push m+. Raid days are wed/sun 8-11 server. We are recruting healers and dps. /w for more info.", -- [1]
-			"Tankyy-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Tankyy", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1495, -- [11]
-			"Player-1403-068227B3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Tankyy",
-			[51] = 1530796359,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [7]
-		{
-			" >>Forbidden Intent<< Is a freshly made guild looking for members for the new xpansion BFA! We're aiming to be a social, casual HC guild in BfA and enjoying each other with m+, boosts and lots of laughter. Low levels are welcome aswell! /w for more info", -- [1]
-			"Seneah-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Seneah", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1497, -- [11]
-			"Player-1403-06FADE5E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Seneah",
-			[51] = 1530796367,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
-		{
-			"WTS |cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r HC + personal loot!!!!!OneShot!!!!!970 Team booster !!  Mount  Violet Spellwing ! Last spot ReadY For Summon", -- [1]
-			"Sadsee-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Sadsee", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1498, -- [11]
-			"Player-1403-06E062D4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Sadsee",
-			[51] = 1530796371,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [9]
-		{
-			"WTB|cffa335ee|Hitem:124442::::::::1:259::::::|h[Chaos Crystal]|h|r25G each cod pls. and |cffffffff|Hitem:124113::::::::1:259::::::|h[Stonehide Leather]|h|r440g stack  ", -- [1]
-			"Supin-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Supin", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1499, -- [11]
-			"Player-1403-06F8DC42", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Supin",
-			[51] = 1530796379,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [10]
-		{
-			"WTS 80k Argus the Unmaker HC Kill for 80k JUST FOR TODAY. 980+ 11/11 Mythic exp group ~ You can simply AFK. Ready to Summon. Going ever 20min, /w to reserve a spot", -- [1]
-			"Boosterduchl-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Boosterduchl", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1501, -- [11]
-			"Player-1403-06F8AB59", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Boosterduchl",
-			[51] = 1530796389,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [11]
-		{
-			"EliteBenchwarmers is a newly formed guild with members from various other guilds which have cleared multiple raid tiers at high end with the purpose of stable and ongoing mythic progression during BFA . Recruitment is open for all dps classes. ", -- [1]
-			"Shokadina-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Shokadina", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1502, -- [11]
-			"Player-1403-06DF7CD2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Shokadina",
-			[51] = 1530796392,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [12]
-		{
-			"<Element> HC 11/11 Are looking to recruit for our Mythic raiding roster for BFA! We are in need of experienced RDPS and a resto Shammy! Send a PM my way for more information", -- [1]
-			"Tyalannah-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Tyalannah", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1505, -- [11]
-			"Player-1403-06E1FBE4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Tyalannah",
-			[51] = 1530796410,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [13]
-		{
-			"WTS Glory boosting runs, TOT SOO Hellfire and many more whisper for more info ", -- [1]
-			"Holyfirez-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Holyfirez", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1506, -- [11]
-			"Player-1403-054D9AD6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Holyfirez",
-			[51] = 1530796412,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
-		{
-			"LF enchanter with black magic! ", -- [1]
-			"Tarromin-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Tarromin", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1507, -- [11]
-			"Player-1403-06FD84CF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Tarromin",
-			[51] = 1530796413,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [15]
-		{
-			"LF enchanter with black magic! ", -- [1]
-			"Tarromin-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Tarromin", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1510, -- [11]
-			"Player-1403-06FD84CF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Tarromin",
-			[51] = 1530796432,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [16]
-		{
-			"WTS Boost |cff66bbff|Hjournal:0:946:15|h[Antorus, the Burning Throne]|h|r HC personal loot / Master loot leader 11/11 mythic ", -- [1]
-			"Angryfriends-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Angryfriends", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1511, -- [11]
-			"Player-1403-06FEF092", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Angryfriends",
-			[51] = 1530796444,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [17]
-		{
-			"WTS 80k Argus the Unmaker HC Kill for 80k JUST FOR TODAY. 980+ 11/11 Mythic exp group ~ You can simply AFK. Ready to Summon. Going ever 20min, /w to reserve a spot", -- [1]
-			"Boosterduchl-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Boosterduchl", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1513, -- [11]
-			"Player-1403-06F8AB59", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Boosterduchl",
-			[51] = 1530796449,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [18]
-		{
-			" >>Forbidden Intent<< Is a freshly made guild looking for members for the new xpansion BFA! We're aiming to be a social, casual HC guild in BfA and enjoying each other with m+, boosts and lots of laughter. Low levels are welcome aswell! /w for more info", -- [1]
-			"Seneah-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Seneah", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1515, -- [11]
-			"Player-1403-06FADE5E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Seneah",
-			[51] = 1530796461,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [19]
-		{
-			"<Deep in the Neck> is a fresh hc raiding guild created by a core of 7/11m raiders. During BFA we will be aiming for curve in each tier, and push m+. Raid days are wed/sun 8-11 server. We are recruting healers and dps. /w for more info.", -- [1]
-			"Tankyy-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Tankyy", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1516, -- [11]
-			"Player-1403-068227B3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Tankyy",
-			[51] = 1530796466,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [20]
-		{
-			"Selling |cff71d5ff|Hspell:138640:0|h[Bone-White Primal Raptor]|h|r 50k", -- [1]
-			"Gravityzero-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Gravityzero", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1518, -- [11]
-			"Player-1403-06903FA1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Gravityzero",
-			[51] = 1530796478,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [21]
-		{
-			"Selling |cff71d5ff|Hspell:138640:0|h[Bone-White Primal Raptor]|h|r 50k", -- [1]
-			"Gravityzero-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Gravityzero", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1519, -- [11]
-			"Player-1403-06903FA1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Gravityzero",
-			[51] = 1530796478,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [22]
-		{
-			"WTS |cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r HC + personal loot!!!!!OneShot!!!!!970 Team booster !!  Mount  Violet Spellwing ! Last spot ReadY For Summon", -- [1]
-			"Sadsee-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Sadsee", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1521, -- [11]
-			"Player-1403-06E062D4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Sadsee",
-			[51] = 1530796491,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [23]
-		{
-			"WTB|cffa335ee|Hitem:124442::::::::1:259::::::|h[Chaos Crystal]|h|r25G each cod pls. and |cffffffff|Hitem:124113::::::::1:259::::::|h[Stonehide Leather]|h|r440g stack  ", -- [1]
-			"Supin-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Supin", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1522, -- [11]
-			"Player-1403-06F8DC42", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Supin",
-			[51] = 1530796494,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
-		{
-			"EliteBenchwarmers is a newly formed guild with members from various other guilds which have cleared multiple raid tiers at high end with the purpose of stable and ongoing mythic progression during BFA . Recruitment is open for all dps classes. ", -- [1]
-			"Iuki-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Iuki", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1523, -- [11]
-			"Player-1403-06B03951", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Iuki",
-			[51] = 1530796494,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [25]
-		{
-			"<Deep in the Neck> is a fresh hc raiding guild created by a core of 7/11m raiders. During BFA we will be aiming for curve in each tier, and push m+. Raid days are wed/sun 8-11 server. We are recruting healers and dps. /w for more info.", -- [1]
-			"Tankyy-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Tankyy", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1524, -- [11]
-			"Player-1403-068227B3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Tankyy",
-			[51] = 1530796497,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
-		{
-			"WTS 80k Argus the Unmaker HC Kill for 80k JUST FOR TODAY. 980+ 11/11 Mythic exp group ~ You can simply AFK. Ready to Summon. Going ever 20min, /w to reserve a spot", -- [1]
-			"Boosterduchl-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Boosterduchl", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1525, -- [11]
-			"Player-1403-06F8AB59", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Boosterduchl",
-			[51] = 1530796509,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [27]
-		{
-			"<No Quarter> is recruiting raiders for BFA. Having taken a couple of tiers off we are planning our return with the aim to progress through Mythic raids in the new expansion, We have cutting edge experience. /w me for more info.", -- [1]
-			"Efy-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Efy", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1528, -- [11]
-			"Player-1403-063DCF4C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Efy",
-			[51] = 1530796534,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [28]
-		{
-			"WTS |cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r HC + personal loot!!!!!OneShot!!!!!970 Team booster !!  Mount  Violet Spellwing ! Last spot ReadY For Summon", -- [1]
-			"Sadsee-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Sadsee", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1546, -- [11]
-			"Player-1403-06E062D4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Sadsee",
-			[51] = 1530796611,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [29]
-		{
-			"<No Quarter> is recruiting raiders for BFA. Having taken a couple of tiers off we are planning our return with the aim to progress through Mythic raids in the new expansion, We have cutting edge experience. /w me for more info.", -- [1]
-			"Efy-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Efy", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1552, -- [11]
-			"Player-1403-063DCF4C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Efy",
-			[51] = 1530796623,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [30]
-		{
-			"WTB|cffa335ee|Hitem:124442::::::::1:259::::::|h[Chaos Crystal]|h|r25G each cod pls. and |cffffffff|Hitem:124113::::::::1:259::::::|h[Stonehide Leather]|h|r440g stack  ", -- [1]
-			"Supin-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Supin", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1553, -- [11]
-			"Player-1403-06F8DC42", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Supin",
-			[51] = 1530796629,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [31]
-		{
-			"WTS 80k Argus the Unmaker HC Kill for 80k JUST FOR TODAY. 980+ 11/11 Mythic exp group ~ You can simply AFK. Ready to Summon. Going ever 20min, /w to reserve a spot", -- [1]
-			"Boosterduchl-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Boosterduchl", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1554, -- [11]
-			"Player-1403-06F8AB59", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Boosterduchl",
-			[51] = 1530796629,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [32]
-		{
-			"Selling |cff71d5ff|Hspell:138640:0|h[Bone-White Primal Raptor]|h|r 50k", -- [1]
-			"Gravityzero-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Gravityzero", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1556, -- [11]
-			"Player-1403-06903FA1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Gravityzero",
-			[51] = 1530796643,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [33]
-		{
-			"Selling |cff71d5ff|Hspell:138640:0|h[Bone-White Primal Raptor]|h|r 50k", -- [1]
-			"Gravityzero-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Gravityzero", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1557, -- [11]
-			"Player-1403-06903FA1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Gravityzero",
-			[51] = 1530796643,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [34]
-		{
-			"<Deep in the Neck> is a fresh hc raiding guild created by a core of 7/11m raiders. During BFA we will be aiming for curve in each tier, and push m+. Raid days are wed/sun 8-11 server. We are recruting healers and dps. /w for more info.", -- [1]
-			"Tankyy-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Tankyy", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1558, -- [11]
-			"Player-1403-068227B3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Tankyy",
-			[51] = 1530796644,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [35]
-		{
-			"Invalid Target-Ragnaros 11/11 (M) guild is selling Antorus, the Burning Throne HC with Personal loot Today at 20:00! For more information /w me!", -- [1]
-			"Antoruss-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Antoruss", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			428, -- [11]
-			"Player-1403-06F001A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Antoruss",
-			[51] = 1530886388,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [36]
-		{
-			"WTS Argus HC oneshot, we're going now.. doing runs each 20 minutes..fast, clean oneshot.. really cheap(gold).. /w me for more info..get ur curve before prepatch, items and mount../w ", -- [1]
-			"Leesinx-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Leesinx", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			429, -- [11]
-			"Player-1403-06F16692", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Leesinx",
-			[51] = 1530886397,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [37]
-		{
-			"WTB|cffa335ee|Hitem:124442::::::::1:259::::::|h[Chaos Crystal]|h|r25G each cod pls. and |cffffffff|Hitem:124113::::::::1:259::::::|h[Stonehide Leather]|h|r440g stack  ", -- [1]
-			"Supin-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Supin", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			430, -- [11]
-			"Player-1403-06F8DC42", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Supin",
-			[51] = 1530886398,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [38]
-		{
-			"Wts M+15-22 keys gp 980 get your 940-985 gear from  dungoen and 960-985 from weekly chest if u dont have a key we can provide 1 going right now all item reserve for you/w me for more info", -- [1]
-			"Remiind-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Remiind", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			437, -- [11]
-			"Player-1403-067C431C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Remiind",
-			[51] = 1530886413,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [39]
-		{
-			"Invalid Target-Ragnaros 11/11 (M) guild is selling Antorus, the Burning Throne HC with Personal loot Today at 20:00! For more information /w me!", -- [1]
-			"Antoruss-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Antoruss", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			440, -- [11]
-			"Player-1403-06F001A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Antoruss",
-			[51] = 1530886418,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [40]
-		{
-			"WTS Argus HC oneshot, we're going now.. doing runs each 20 minutes..fast, clean oneshot.. really cheap(gold).. /w me for more info..get ur curve before prepatch, items and mount../w ", -- [1]
-			"Leesinx-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Leesinx", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			443, -- [11]
-			"Player-1403-06F16692", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Leesinx",
-			[51] = 1530886424,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [41]
-		{
-			"Wts M+15-22 keys gp 980 get your 940-985 gear from  dungoen and 960-985 from weekly chest if u dont have a key we can provide 1 going right now all item reserve for you/w me for more info", -- [1]
-			"Remiind-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Remiind", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			444, -- [11]
-			"Player-1403-067C431C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Remiind",
-			[51] = 1530886425,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [42]
-		{
-			"WTS Argus the Unmaker HC Kill for 80k. 980+ 11/11 Mythic exp group ~ You can simply AFK. Ready to Summon. Going every 15min, /w to reserve a spot for 80k", -- [1]
-			"Kopperyo-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Kopperyo", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			445, -- [11]
-			"Player-1403-06F984B3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Kopperyo",
-			[51] = 1530886430,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [43]
-		{
-			"wts boost 100-110lv 2k per run, u can stay afk 3-7min run (851ilv) u can join discord https://discord.gg/hpSkAZ  acept gold from kazzak and stormscale, draenor, stormreaver other realms 2.5k", -- [1]
-			"Kazare", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Kazare", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			18, -- [11]
-			"Player-1403-06933F8B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Kazare",
-			[51] = 1531001650,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [44]
-		{
 			"|cffffff00Cove of Nashal is under attack!|r", -- [1]
 			"", -- [2]
 			"", -- [3]
@@ -1012,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1531043094,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [45]
+		}, -- [1]
 		{
 			"|cffffff00Whisperwind's Citadel is under attack!|r", -- [1]
 			"", -- [2]
@@ -1034,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1531043642,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [46]
+		}, -- [2]
 		{
 			"|cffffff00Whisperwind's Citadel is under attack!|r", -- [1]
 			"", -- [2]
@@ -1056,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1531043702,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [47]
+		}, -- [3]
 		{
 			"  >>>>  WTS FISHING LEVELING KIT  1-800 -price  76k /  ARTIFACT FISHING ROD KIT- price 55k  / Artifact POWER for Traits  ( done in 5 mins)  ( Get your  Artifact Rod  and numerous fishing Perks ) Over 100 sold !! <<<< ", -- [1]
 			"Cezzarus-Draenor", -- [2]
@@ -1078,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "Cezzarus",
 			[51] = 1531044235,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [48]
+		}, -- [4]
 		{
 			"Interrupted Valarjar Purifier's |cff71d5ff|Hspell:192563:0|h[Cleansing Flames]|h|r!", -- [1]
 			"Achilina-Draenor", -- [2]
@@ -1100,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "Achilina",
 			[51] = 1531044444,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [49]
+		}, -- [5]
 		{
 			"Interrupted Olmyr the Enlightened's |cff71d5ff|Hspell:192288:0|h[Searing Light]|h|r!", -- [1]
 			"Achilina-Draenor", -- [2]
@@ -1122,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "Achilina",
 			[51] = 1531044464,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [50]
+		}, -- [6]
 		{
 			"Interrupted Valarjar Purifier's |cff71d5ff|Hspell:192563:0|h[Cleansing Flames]|h|r!", -- [1]
 			"Achilina-Draenor", -- [2]
@@ -1144,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "Achilina",
 			[51] = 1531044479,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [51]
+		}, -- [7]
 		{
 			"Crackle on Achilina", -- [1]
 			"Achilina-Draenor", -- [2]
@@ -1166,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "Achilina",
 			[51] = 1531044567,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [52]
+		}, -- [8]
 		{
 			"Crackle on Achilina", -- [1]
 			"Achilina-Draenor", -- [2]
@@ -1188,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "Achilina",
 			[51] = 1531044578,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [53]
+		}, -- [9]
 		{
 			"Crackle on Achilina", -- [1]
 			"Achilina-Draenor", -- [2]
@@ -1210,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "Achilina",
 			[51] = 1531044591,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [54]
+		}, -- [10]
 		{
 			"Fatality: Ziborgg > 1.11M Nature |cff71d5ff|Hspell:198888:0|h[Lightning Breath]|h|r (O: 3.5k) [Storm Drake]", -- [1]
 			"Achilina-Draenor", -- [2]
@@ -1232,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dAchilina|r",
 			[51] = 1531044688,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [55]
+		}, -- [11]
 		{
 			"Fatality: Siif > 735k Physical |cff71d5ff|Hspell:199177:0|h[Ferocious Bite]|h|r (O: 334k) [Ebonclaw Worg]", -- [1]
 			"Achilina-Draenor", -- [2]
@@ -1254,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dAchilina|r",
 			[51] = 1531044763,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [56]
+		}, -- [12]
 		{
 			"Fatality: Ziborgg > 346k Melee (O: 105k) [Ebonclaw Worg]", -- [1]
 			"Achilina-Draenor", -- [2]
@@ -1276,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dAchilina|r",
 			[51] = 1531044765,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [57]
+		}, -- [13]
 		{
 			"Fatality: Ameson > 739k Physical |cff71d5ff|Hspell:199182:0|h[Leap for the Throat]|h|r (O: 244k) [Ebonclaw Worg]", -- [1]
 			"Achilina-Draenor", -- [2]
@@ -1298,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dAchilina|r",
 			[51] = 1531044770,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [58]
+		}, -- [14]
 		{
 			"why tho", -- [1]
 			"Achilina-Draenor", -- [2]
@@ -1320,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dAchilina|r",
 			[51] = 1531044783,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [59]
+		}, -- [15]
 		{
 			"Crackle on Achilina", -- [1]
 			"Achilina-Draenor", -- [2]
@@ -1342,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "Achilina",
 			[51] = 1531044847,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [60]
+		}, -- [16]
 		{
 			"Crackle on Achilina", -- [1]
 			"Achilina-Draenor", -- [2]
@@ -1364,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "Achilina",
 			[51] = 1531044883,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [61]
+		}, -- [17]
 		{
 			"Crackle on Achilina", -- [1]
 			"Achilina-Draenor", -- [2]
@@ -1386,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "Achilina",
 			[51] = 1531044884,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [62]
+		}, -- [18]
 		{
 			"Interrupted King Ranulf's |cff71d5ff|Hspell:199726:0|h[Unruly Yell]|h|r!", -- [1]
 			"Achilina-Draenor", -- [2]
@@ -1408,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "Achilina",
 			[51] = 1531044890,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [63]
+		}, -- [19]
 		{
 			"Interrupted King Ranulf's |cff71d5ff|Hspell:199726:0|h[Unruly Yell]|h|r!", -- [1]
 			"Achilina-Draenor", -- [2]
@@ -1430,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "Achilina",
 			[51] = 1531044909,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [64]
+		}, -- [20]
 		{
 			"Crackle on Achilina", -- [1]
 			"Achilina-Draenor", -- [2]
@@ -1452,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "Achilina",
 			[51] = 1531044915,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [65]
+		}, -- [21]
 		{
 			"Crackle on Achilina", -- [1]
 			"Achilina-Draenor", -- [2]
@@ -1474,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "Achilina",
 			[51] = 1531044917,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [66]
+		}, -- [22]
 		{
 			"Interrupted King Haldor's |cff71d5ff|Hspell:199726:0|h[Unruly Yell]|h|r!", -- [1]
 			"Achilina-Draenor", -- [2]
@@ -1496,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "Achilina",
 			[51] = 1531044941,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [67]
+		}, -- [23]
 		{
 			"Interrupted King Tor's |cff71d5ff|Hspell:199726:0|h[Unruly Yell]|h|r!", -- [1]
 			"Achilina-Draenor", -- [2]
@@ -1518,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "Achilina",
 			[51] = 1531044971,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [68]
+		}, -- [24]
 		{
 			"Interrupted Stormforged Obliterator's |cff71d5ff|Hspell:198750:0|h[Surge]|h|r!", -- [1]
 			"Achilina-Draenor", -- [2]
@@ -1540,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "Achilina",
 			[51] = 1531045169,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [69]
+		}, -- [25]
 		{
 			"  >>>>  WTS FISHING LEVELING KIT  1-800 -price  76k /  ARTIFACT FISHING ROD KIT- price 55k  / Artifact POWER for Traits  ( done in 5 mins)  ( Get your  Artifact Rod  and numerous fishing Perks ) Over 100 sold !! <<<< ", -- [1]
 			"Cezzarus-Draenor", -- [2]
@@ -1562,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "Cezzarus",
 			[51] = 1531045495,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [70]
+		}, -- [26]
 		{
 			"[WQGF] Colossal Infernal: World Quest Complete! :)", -- [1]
 			"Dardevil-BurningLegion", -- [2]
@@ -1584,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaDardevil-BurningLegion|r",
 			[51] = 1531084759,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [71]
+		}, -- [27]
 		{
 			"[WQGF] Geronnene Verderbnis: Weltquest abgeschlossen! :)", -- [1]
 			"Zarasha-KultderVerdammten", -- [2]
@@ -1606,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Zarasha-KultderVerdammten|r",
 			[51] = 1531085226,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [72]
+		}, -- [28]
 		{
 			"Interrupted Eredar Soul-Summoner's |cff71d5ff|Hspell:235951:0|h[Chaos Bolt]|h|r!", -- [1]
 			"Achilina-Draenor", -- [2]
@@ -1628,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "Achilina",
 			[51] = 1531085870,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [73]
+		}, -- [29]
 		{
 			"Interrupted Eredar Soul-Summoner's |cff71d5ff|Hspell:235951:0|h[Chaos Bolt]|h|r!", -- [1]
 			"Achilina-Draenor", -- [2]
@@ -1650,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "Achilina",
 			[51] = 1531085898,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [74]
+		}, -- [30]
 		{
 			"Fatality: Vvitcher > |cff71d5ff|Hspell:41220:0|h[Death]|h|r", -- [1]
 			"Achilina-Draenor", -- [2]
@@ -1672,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dAchilina|r",
 			[51] = 1531087050,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [75]
+		}, -- [31]
 		{
 			"Interrupted Kvaldir Reefcaller's |cff71d5ff|Hspell:228373:0|h[Brackish Bolt]|h|r!", -- [1]
 			"Achilina-Draenor", -- [2]
@@ -1694,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "Achilina",
 			[51] = 1531087327,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [76]
+		}, -- [32]
 		{
 			"Fatality: Xanvial > 1.37M Drowning", -- [1]
 			"Achilina-Draenor", -- [2]
@@ -1716,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dAchilina|r",
 			[51] = 1531087339,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [77]
+		}, -- [33]
 		{
 			"Interrupted Kvaldir Reefcaller's |cff71d5ff|Hspell:228373:0|h[Brackish Bolt]|h|r!", -- [1]
 			"Achilina-Draenor", -- [2]
@@ -1738,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "Achilina",
 			[51] = 1531087380,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [78]
+		}, -- [34]
 		{
 			"Fatality: Beardok > 76.8k Shadowfrost |cff71d5ff|Hspell:227720:0|h[Mixed Elements]|h|r (O: 11.5M) [Guarm]", -- [1]
 			"Achilina-Draenor", -- [2]
@@ -1760,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dAchilina|r",
 			[51] = 1531087428,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [79]
+		}, -- [35]
 		{
 			"Fatality: Vvitcher > 241k Shadow |cff71d5ff|Hspell:230197:0|h[Dark Waters]|h|r (O: 32.6k) [Unknown]", -- [1]
 			"Achilina-Draenor", -- [2]
@@ -1782,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dAchilina|r",
 			[51] = 1531087592,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [80]
+		}, -- [36]
 		{
 			"Fatality: Tiam > 723k Shadow |cff71d5ff|Hspell:230197:0|h[Dark Waters]|h|r (O: 104k) [Unknown]", -- [1]
 			"Achilina-Draenor", -- [2]
@@ -1804,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dAchilina|r",
 			[51] = 1531087667,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [81]
+		}, -- [37]
 		{
 			"roll |cffa335ee|Hitem:142518::::::::110:253::4:3:3505:1467:3528:::|h[Fury of the Sea]|h|r", -- [1]
 			"Ddccormier-GrimBatol", -- [2]
@@ -1826,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ddccormier-GrimBatol|r",
 			[51] = 1531087669,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [82]
+		}, -- [38]
 		{
 			"|cffffff00Blackhawk's Bulwark is under attack!|r", -- [1]
 			"", -- [2]
@@ -1848,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1531143434,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [83]
+		}, -- [39]
 		{
 			"|cffffff00Blackhawk's Bulwark is under attack!|r", -- [1]
 			"", -- [2]
@@ -1870,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1531143514,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [84]
+		}, -- [40]
 		{
 			"[WQGF] Scourge of the Skies: World Quest Complete! :)", -- [1]
 			"Truemountain-ArgentDawn", -- [2]
@@ -1892,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dTruemountain-ArgentDawn|r",
 			[51] = 1531143540,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [85]
+		}, -- [41]
 		{
 			"|cffffff00Blackhawk's Bulwark is under attack!|r", -- [1]
 			"", -- [2]
@@ -1914,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1531143574,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [42]
 		{
 			"Hello Achilina, Strike is recruiting for Mythic+ players , Strike is active and runs mythic+, we push keys high and low, if you would like to be part of the community w/me for more info.", -- [1]
 			"Reppo", -- [2]
@@ -1936,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaReppo|r",
 			[51] = 1531143822,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [87]
+		}, -- [43]
 		{
 			"<Deadly Boss Mods> Achilina is busy fighting against Heroic - Hymdall (89%, 5/5 people alive)", -- [1]
 			"Reppo-Draenor", -- [2]
@@ -1958,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaReppo|r",
 			[51] = 1531143823,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [88]
+		}, -- [44]
 		{
 			"<DBM> Achilina has defeated Heroic - Hymdall!", -- [1]
 			"Reppo-Draenor", -- [2]
@@ -1980,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaReppo|r",
 			[51] = 1531143840,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [89]
+		}, -- [45]
 		{
 			"Crackle on Achilina", -- [1]
 			"Achilina-Draenor", -- [2]
@@ -2002,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "Achilina",
 			[51] = 1531143907,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [90]
+		}, -- [46]
 		{
 			"Interrupted Valarjar Purifier's |cff71d5ff|Hspell:192563:0|h[Cleansing Flames]|h|r!", -- [1]
 			"Achilina-Draenor", -- [2]
@@ -2024,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "Achilina",
 			[51] = 1531143924,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [91]
+		}, -- [47]
 		{
 			"Interrupted Olmyr the Enlightened's |cff71d5ff|Hspell:192288:0|h[Searing Light]|h|r!", -- [1]
 			"Phanax-Draenor", -- [2]
@@ -2046,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Phanax|r",
 			[51] = 1531143942,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [92]
+		}, -- [48]
 		{
 			"Crackle on Achilina", -- [1]
 			"Achilina-Draenor", -- [2]
@@ -2068,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "Achilina",
 			[51] = 1531144164,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [93]
+		}, -- [49]
 		{
 			"Interrupted King Tor's |cff71d5ff|Hspell:199726:0|h[Unruly Yell]|h|r!", -- [1]
 			"Achilina-Draenor", -- [2]
@@ -2090,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "Achilina",
 			[51] = 1531144233,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [94]
+		}, -- [50]
 		{
 			"Invalid Target-Ragnaros 11/11 (M) guild is selling Antorus, the Burning Throne full HC with Personal loot Today at 18:00 and 21:00! For more information /w me!", -- [1]
 			"Nerazon", -- [2]
@@ -2112,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "Nerazon",
 			[51] = 1531570046,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [51]
 		{
 			"<BLOOM> Is selling several Antorus the Burning Throne Mythic boosts, still spots for Shackled Ur'zul! Next boost is done on wednesday 18/7 20:00 ST, whisper for more info and other dates  :)", -- [1]
 			"Timpaladin-Draenor", -- [2]
@@ -2134,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "Timpaladin",
 			[51] = 1531570049,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [52]
 		{
 			"Invalid Target-Ragnaros 11/11 (M) guild is selling Antorus, the Burning Throne full HC with Personal loot Today at 18:00 and 21:00! For more information /w me!", -- [1]
 			"Nerazon-Draenor", -- [2]
@@ -2156,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "Nerazon",
 			[51] = 1531570071,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [53]
 		{
 			"WTS |cffa335ee|Hitem:90655::::::::1:262::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r (ALANI ) || 100% Drop || 80k /w me", -- [1]
 			"Hmuy-Draenor", -- [2]
@@ -2178,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "Hmuy",
 			[51] = 1531570078,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [54]
 		{
 			"Invalid Target-Ragnaros 11/11 (M) guild is selling Antorus, the Burning Throne full HC with Personal loot Today at 18:00 and 21:00! For more information /w me!", -- [1]
 			"Nerazon-Draenor", -- [2]
@@ -2200,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "Nerazon",
 			[51] = 1531570101,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [99]
+		}, -- [55]
 		{
 			"WTS |cffa335ee|Hitem:90655::::::::1:262::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r (ALANI ) || 100% Drop || 80k /w me", -- [1]
 			"Hmuy-Draenor", -- [2]
@@ -2222,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "Hmuy",
 			[51] = 1531570125,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [100]
+		}, -- [56]
 		{
 			"Invalid Target-Ragnaros 11/11 (M) guild is selling Antorus, the Burning Throne full HC with Personal loot Today at 18:00 and 21:00! For more information /w me!", -- [1]
 			"Nerazon-Draenor", -- [2]
@@ -2244,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "Nerazon",
 			[51] = 1531570131,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [101]
+		}, -- [57]
 		{
 			"<BLOOM> Is selling several Antorus the Burning Throne Mythic boosts, still spots for Shackled Ur'zul! Next boost is done on wednesday 18/7 20:00 ST, whisper for more info and other dates  :)", -- [1]
 			"Timpaladin-Draenor", -- [2]
@@ -2266,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "Timpaladin",
 			[51] = 1531570154,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [102]
+		}, -- [58]
 		{
 			"Invalid Target-Ragnaros 11/11 (M) guild is selling Antorus, the Burning Throne full HC with Personal loot Today at 18:00 and 21:00! For more information /w me!", -- [1]
 			"Nerazon-Draenor", -- [2]
@@ -2288,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "Nerazon",
 			[51] = 1531570161,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [103]
+		}, -- [59]
 		{
 			"WTS |cffa335ee|Hitem:90655::::::::1:262::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r (ALANI ) || 100% Drop || 80k /w me", -- [1]
 			"Hmuy-Draenor", -- [2]
@@ -2310,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "Hmuy",
 			[51] = 1531570172,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [104]
+		}, -- [60]
 		{
 			"Invalid Target-Ragnaros 11/11 (M) guild is selling Antorus, the Burning Throne full HC with Personal loot Today at 18:00 and 21:00! For more information /w me!", -- [1]
 			"Nerazon-Draenor", -- [2]
@@ -2332,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "Nerazon",
 			[51] = 1531570191,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [105]
+		}, -- [61]
 		{
 			"WTS |cffa335ee|Hitem:90655::::::::1:262::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r (ALANI ) || 100% Drop || 80k /w me", -- [1]
 			"Hmuy-Draenor", -- [2]
@@ -2354,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "Hmuy",
 			[51] = 1531570219,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [106]
+		}, -- [62]
 		{
 			"Invalid Target-Ragnaros 11/11 (M) guild is selling Antorus, the Burning Throne full HC with Personal loot Today at 18:00 and 21:00! For more information /w me!", -- [1]
 			"Nerazon-Draenor", -- [2]
@@ -2376,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "Nerazon",
 			[51] = 1531570221,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [107]
+		}, -- [63]
 		{
 			"<BLOOM> Is selling several Antorus the Burning Throne Mythic boosts, still spots for Shackled Ur'zul! Next boost is done on wednesday 18/7 20:00 ST, whisper for more info and other dates  :)", -- [1]
 			"Timpaladin-Draenor", -- [2]
@@ -2398,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "Timpaladin",
 			[51] = 1531570229,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [108]
+		}, -- [64]
 		{
 			"Invalid Target-Ragnaros 11/11 (M) guild is selling Antorus, the Burning Throne full HC with Personal loot Today at 18:00 and 21:00! For more information /w me!", -- [1]
 			"Nerazon-Draenor", -- [2]
@@ -2420,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "Nerazon",
 			[51] = 1531570251,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [109]
+		}, -- [65]
 		{
 			"WTS |cffa335ee|Hitem:90655::::::::1:262::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r (ALANI ) || 100% Drop || 80k /w me", -- [1]
 			"Hmuy-Draenor", -- [2]
@@ -2442,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "Hmuy",
 			[51] = 1531570266,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [110]
+		}, -- [66]
 		{
 			"Invalid Target-Ragnaros 11/11 (M) guild is selling Antorus, the Burning Throne full HC with Personal loot Today at 18:00 and 21:00! For more information /w me!", -- [1]
 			"Nerazon-Draenor", -- [2]
@@ -2464,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "Nerazon",
 			[51] = 1531570281,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [111]
+		}, -- [67]
 		{
 			"WTS ID|cff66bbff|Hjournal:0:758:6|h[Icecrown Citadel]|h|r only |cff66bbff|Hjournal:1:1636:6|h[The Lich King]|h|r left!! try to get your |cffa335ee|Hitem:50818::::::::110:102:::1:3524:::|h[Invincible's Reins]|h|r!!", -- [1]
 			"Tylleironka-Draenor", -- [2]
@@ -2486,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "Tylleironka",
 			[51] = 1531570284,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [112]
+		}, -- [68]
 		{
 			"Invalid Target-Ragnaros 11/11 (M) guild is selling Antorus, the Burning Throne full HC with Personal loot Today at 18:00 and 21:00! For more information /w me!", -- [1]
 			"Nerazon-Draenor", -- [2]
@@ -2508,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "Nerazon",
 			[51] = 1531570311,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [113]
+		}, -- [69]
 		{
 			"WTS |cffa335ee|Hitem:90655::::::::1:262::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r (ALANI ) || 100% Drop || 80k /w me", -- [1]
 			"Hmuy-Draenor", -- [2]
@@ -2530,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "Hmuy",
 			[51] = 1531570313,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [114]
+		}, -- [70]
 		{
 			"WTS ID|cff66bbff|Hjournal:0:758:6|h[Icecrown Citadel]|h|r only |cff66bbff|Hjournal:1:1636:6|h[The Lich King]|h|r left!! try to get your |cffa335ee|Hitem:50818::::::::110:102:::1:3524:::|h[Invincible's Reins]|h|r!!", -- [1]
 			"Tylleironka-Draenor", -- [2]
@@ -2552,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "Tylleironka",
 			[51] = 1531570338,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [115]
+		}, -- [71]
 		{
 			"Invalid Target-Ragnaros 11/11 (M) guild is selling Antorus, the Burning Throne full HC with Personal loot Today at 18:00 and 21:00! For more information /w me!", -- [1]
 			"Nerazon-Draenor", -- [2]
@@ -2574,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "Nerazon",
 			[51] = 1531570341,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [116]
+		}, -- [72]
 		{
 			"WTS |cffa335ee|Hitem:90655::::::::1:262::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r (ALANI ) || 100% Drop || 80k /w me", -- [1]
 			"Hmuy-Draenor", -- [2]
@@ -2596,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "Hmuy",
 			[51] = 1531570360,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [117]
+		}, -- [73]
 		{
 			"Invalid Target-Ragnaros 11/11 (M) guild is selling Antorus, the Burning Throne full HC with Personal loot Today at 18:00 and 21:00! For more information /w me!", -- [1]
 			"Nerazon-Draenor", -- [2]
@@ -2618,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "Nerazon",
 			[51] = 1531570371,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [118]
+		}, -- [74]
 		{
 			"WTS 80k Argus the Unmaker HC Kill for 80k JUST FOR TODAY. 980+ 11/11 Mythic exp group ~ You can simply AFK. Ready to Summon. Going every 20min, /w to reserve a spot", -- [1]
 			"Boosterduchj-Draenor", -- [2]
@@ -2640,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "Boosterduchj",
 			[51] = 1531570380,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [119]
+		}, -- [75]
 		{
 			"WTS |cffa335ee|Hitem:90655::::::::1:262::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r (ALANI ) || 100% Drop || 80k /w me", -- [1]
 			"Hmuy-Draenor", -- [2]
@@ -2662,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "Hmuy",
 			[51] = 1531570381,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [120]
+		}, -- [76]
 		{
 			"WTS ID|cff66bbff|Hjournal:0:758:6|h[Icecrown Citadel]|h|r only |cff66bbff|Hjournal:1:1636:6|h[The Lich King]|h|r left!! try to get your |cffa335ee|Hitem:50818::::::::110:102:::1:3524:::|h[Invincible's Reins]|h|r!!", -- [1]
 			"Tylleironka-Draenor", -- [2]
@@ -2684,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "Tylleironka",
 			[51] = 1531570383,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [121]
+		}, -- [77]
 		{
 			"Invalid Target-Ragnaros 11/11 (M) guild is selling Antorus, the Burning Throne full HC with Personal loot Today at 18:00 and 21:00! For more information /w me!", -- [1]
 			"Nerazon-Draenor", -- [2]
@@ -2706,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "Nerazon",
 			[51] = 1531570401,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [122]
+		}, -- [78]
 		{
 			"<BLOOM> Is selling several Antorus the Burning Throne Mythic boosts, still spots for Shackled Ur'zul! Next boost is done on wednesday 18/7 20:00 ST, whisper for more info and other dates  :)", -- [1]
 			"Timpaladin-Draenor", -- [2]
@@ -2728,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "Timpaladin",
 			[51] = 1531570409,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [123]
+		}, -- [79]
 		{
 			"WTS ID|cff66bbff|Hjournal:0:758:6|h[Icecrown Citadel]|h|r only |cff66bbff|Hjournal:1:1636:6|h[The Lich King]|h|r left!! try to get your |cffa335ee|Hitem:50818::::::::110:102:::1:3524:::|h[Invincible's Reins]|h|r!!", -- [1]
 			"Tylleironka-Draenor", -- [2]
@@ -2750,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "Tylleironka",
 			[51] = 1531570412,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [124]
+		}, -- [80]
 		{
 			"<Echo Of Eternity> est 2007 [11/11 Hc] 2 raid days *(tbc):Recruiting commited Raiders and new friends for BFA :: Socials especialy welcome to help build the community:To us you are family /w", -- [1]
 			"Stár-Draenor", -- [2]
@@ -2772,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "Stár",
 			[51] = 1531909484,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [125]
+		}, -- [81]
 		{
 			"<Echo Of Eternity> est 2007 [11/11 Hc] 2 raid days *(tbc):Recruiting commited Raiders and new friends for BFA :: Socials especialy welcome to help build the community:To us you are family /w", -- [1]
 			"Stár-Draenor", -- [2]
@@ -2794,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "Stár",
 			[51] = 1531909513,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [126]
+		}, -- [82]
 		{
 			"<Echo Of Eternity> est 2007 [11/11 Hc] 2 raid days *(tbc):Recruiting commited Raiders and new friends for BFA :: Socials especialy welcome to help build the community:To us you are family /w", -- [1]
 			"Stár-Draenor", -- [2]
@@ -2815,6 +1847,974 @@ ElvCharacterDB = {
 			true, -- [17]
 			[52] = "Stár",
 			[51] = 1531909548,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [83]
+		{
+			"<Vexius> biggest PvP guild on Draenor, looking for more active members. Plenty of events, and currently in the process of making a +2k RBG team! Place for people with a competitive mindset, but also the casual players who appreciate an active environment", -- [1]
+			"Daruik-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Daruik", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			636, -- [11]
+			"Player-1403-06A6772B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "Daruik",
+			[51] = 1532194888,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [84]
+		{
+			"<Echo Of Eternity> est 2007 [11/11 Hc] 2 raid days *(tbc):Recruiting commited Raiders and new friends for BFA :: Socials especialy welcome to help build the community:To us you are family /w", -- [1]
+			"Stár-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Stár", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			638, -- [11]
+			"Player-1403-053718F6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "Stár",
+			[51] = 1532194896,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [85]
+		{
+			"<Echo Of Eternity> est 2007 [11/11 Hc] 2 raid days *(tbc):Recruiting commited Raiders and new friends for BFA :: Socials especialy welcome to help build the community:To us you are family /w", -- [1]
+			"Stár-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Stár", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			646, -- [11]
+			"Player-1403-053718F6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "Stár",
+			[51] = 1532194925,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [86]
+		{
+			"<Vexius PvP> Huge and social PvP environment. Find people with the same mindset as you, doesn't matter if you are casual, hardcore or inbetween! Plenty of casual events, and a platform for more experienced players to evolve on! |cffffd100|HclubTicket:WqG59JSoXp|h[Join: Vexius PvP]|h|r", -- [1]
+			"Daruik-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Daruik", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			650, -- [11]
+			"Player-1403-06A6772B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "Daruik",
+			[51] = 1532194937,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [87]
+		{
+			"<Echo Of Eternity> est 2007 [11/11 Hc] 2 raid days *(tbc):Recruiting commited Raiders and new friends for BFA :: Socials especialy welcome to help build the community:To us you are family /w", -- [1]
+			"Stár-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Stár", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			662, -- [11]
+			"Player-1403-053718F6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "Stár",
+			[51] = 1532194971,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [88]
+		{
+			"<Vexius PvP> Huge and social PvP environment. Find people with the same mindset as you, doesn't matter if you are casual, hardcore or inbetween! Plenty of casual events, and a platform for more experienced players to evolve on! |cffffd100|HclubTicket:WqG59JSoXp|h[Join: Vexius PvP]|h|r", -- [1]
+			"Daruik-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Daruik", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			665, -- [11]
+			"Player-1403-06A6772B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "Daruik",
+			[51] = 1532194976,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [89]
+		{
+			"|cffffd100|HclubTicket:z933zMiNoa|h[Join: CHEBS]|h|r BIG TIME PVP COMMUNITY FOR ABSOLUTE UNITS. Setting up RBG teams now! wPvP and Arena also. Come join us", -- [1]
+			"Ogmard-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ogmard", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			671, -- [11]
+			"Player-1403-06E6389C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "Ogmard",
+			[51] = 1532194985,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [90]
+		{
+			"<Vexius> biggest PvP guild on Draenor, looking for more active members. Plenty of events, and currently in the process of making a +2k RBG team! Place for people with a competitive mindset, but also the casual players who appreciate an active environment", -- [1]
+			"Daruik-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Daruik", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			673, -- [11]
+			"Player-1403-06A6772B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "Daruik",
+			[51] = 1532194987,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [91]
+		{
+			"<Vexius> biggest PvP guild on Draenor, looking for more active members. Plenty of events, and currently in the process of making a +2k RBG team! Place for people with a competitive mindset, but also the casual players who appreciate an active environment", -- [1]
+			"Daruik-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Daruik", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			685, -- [11]
+			"Player-1403-06A6772B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "Daruik",
+			[51] = 1532195030,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [92]
+		{
+			"<Anarchy> 3 yıldır aktif olarak raid yapan guildimize BfA heroic ve mythic progress için oyuncu alımı yapıyoruz. Yeni veya geri dönen oyunculara kapımız açık. İlgilenen arkadaşlar whisper atabilir.", -- [1]
+			"Karank-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Karank", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			687, -- [11]
+			"Player-1403-06EC7864", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "Karank",
+			[51] = 1532195033,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [93]
+		{
+			"<Vexius PvP> Huge and social PvP environment. Find people with the same mindset as you, doesn't matter if you are casual, hardcore or inbetween! Plenty of casual events, and a platform for more experienced players to evolve on! |cffffd100|HclubTicket:WqG59JSoXp|h[Join: Vexius PvP]|h|r", -- [1]
+			"Daruik-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Daruik", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			689, -- [11]
+			"Player-1403-06A6772B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "Daruik",
+			[51] = 1532195038,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [94]
+		{
+			"|cffffd100|HclubTicket:z933zMiNoa|h[Join: CHEBS]|h|r BIG TIME PVP COMMUNITY FOR ABSOLUTE UNITS. Setting up RBG teams now! wPvP and Arena also. Come join us", -- [1]
+			"Ogmard-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ogmard", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			692, -- [11]
+			"Player-1403-06E6389C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "Ogmard",
+			[51] = 1532195042,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [95]
+		{
+			"<Anarchy> 3 yıldır aktif olarak raid yapan guildimize BfA heroic ve mythic progress için oyuncu alımı yapıyoruz. Yeni veya geri dönen oyunculara kapımız açık. İlgilenen arkadaşlar whisper atabilir.", -- [1]
+			"Karank-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Karank", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			694, -- [11]
+			"Player-1403-06EC7864", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "Karank",
+			[51] = 1532195053,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [96]
+		{
+			"<Vexius> biggest PvP guild on Draenor, looking for more active members. Plenty of events, and currently in the process of making a +2k RBG team! Place for people with a competitive mindset, but also the casual players who appreciate an active environment", -- [1]
+			"Daruik-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Daruik", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			697, -- [11]
+			"Player-1403-06A6772B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "Daruik",
+			[51] = 1532195061,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [97]
+		{
+			"<Anarchy> 3 yıldır aktif olarak raid yapan guildimize BfA heroic ve mythic progress için oyuncu alımı yapıyoruz. Yeni veya geri dönen oyunculara kapımız açık. İlgilenen arkadaşlar whisper atabilir.", -- [1]
+			"Karank-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Karank", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			700, -- [11]
+			"Player-1403-06EC7864", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "Karank",
+			[51] = 1532195075,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"|cffffd100|HclubTicket:ZPbpRXUKYO|h[Join: Make love not warcraft]|h|r Are you tired of fighting alone? Are you tired of waking up next to a rotting corpse in the morning? Do you seek that special other to share your loot with? Well look no further.MLNW is the only  dating community in WoW!", -- [1]
+			"Orgahl-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Orgahl", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			703, -- [11]
+			"Player-1403-06F639BA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "Orgahl",
+			[51] = 1532195084,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [99]
+		{
+			"WTS |cffa335ee|Hitem:90655::::::::1:262::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r (ALANI ) || 100% Drop || 80k /w me", -- [1]
+			"Hmuy-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Hmuy", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			25, -- [11]
+			"Player-1403-07021D18", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "Hmuy",
+			[51] = 1532281173,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [100]
+		{
+			"WTS |cffa335ee|Hitem:90655::::::::1:262::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r (ALANI ) || 100% Drop || 80k /w me", -- [1]
+			"Hmuy-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Hmuy", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			32, -- [11]
+			"Player-1403-07021D18", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "Hmuy",
+			[51] = 1532281215,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [101]
+		{
+			"<Echo Of Eternity> est 2007 [11/11 Hc] 2 raid days *(tbc):Recruiting commited Raiders and new friends for BFA :: Socials especialy welcome to help build the community:To us you are family /w", -- [1]
+			"Stár-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Stár", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			33, -- [11]
+			"Player-1403-053718F6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "Stár",
+			[51] = 1532281216,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [102]
+		{
+			"WTS |cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r HC Loot is Personal (One thing to do before the end of Legion kill argus heroic you get 100% |cff71d5ff|Hspell:253639:0|h[Violet Spellwing]|h|r) Lead 10/11 mythic More than 500Kill argus For reserve spot whisper me.", -- [1]
+			"Zhinos-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Zhinos", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			38, -- [11]
+			"Player-1403-06FA4C0B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "Zhinos",
+			[51] = 1532281235,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [103]
+		{
+			"WTS |cffa335ee|Hitem:90655::::::::1:262::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r (ALANI ) || 100% Drop || 80k /w me", -- [1]
+			"Hmuy-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Hmuy", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			45, -- [11]
+			"Player-1403-07021D18", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "Hmuy",
+			[51] = 1532281257,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [104]
+		{
+			"|cffffd100|HclubTicket:ZPbpRXUKYO|h[Join: Make love not warcraft]|h|r Are you tired of fighting alone? Are you tired of waking up next to a rotting corpse in the morning? Do you seek that special other to share your loot with? Well look no further. MLNW is the only dating community in WoW!", -- [1]
+			"Orgahl-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Orgahl", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			47, -- [11]
+			"Player-1403-06F639BA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "Orgahl",
+			[51] = 1532281267,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [105]
+		{
+			"Sanity 11/11M is boosting [Kil'Jaeden, the Betrayer] HC! Get your Artifact Weapon appearance before BFA. You can be afk / naked or w/e. Guild Group - 70k Gold.", -- [1]
+			"Ðall-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ðall", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			49, -- [11]
+			"Player-1403-06E0DF26", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "Ðall",
+			[51] = 1532281275,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [106]
+		{
+			"WTS |cffa335ee|Hitem:90655::::::::1:262::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r (ALANI ) || 100% Drop || 80k /w me", -- [1]
+			"Hmuy-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Hmuy", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			54, -- [11]
+			"Player-1403-07021D18", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "Hmuy",
+			[51] = 1532281299,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [107]
+		{
+			"WTS |cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r HC Loot is Personal (One thing to do before the end of Legion kill argus heroic you get 100% |cff71d5ff|Hspell:253639:0|h[Violet Spellwing]|h|r) Lead 10/11 mythic More than 500Kill argus For reserve spot whisper me.", -- [1]
+			"Zhinos-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Zhinos", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			57, -- [11]
+			"Player-1403-06FA4C0B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "Zhinos",
+			[51] = 1532281315,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [108]
+		{
+			"LF people to sign my Guild Charter, paying 500g ez money! thanks in advance. /w me", -- [1]
+			"Rabobankje-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Rabobankje", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			60, -- [11]
+			"Player-1403-0706FA2E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "Rabobankje",
+			[51] = 1532281329,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [109]
+		{
+			"Sanity 11/11M is boosting [Kil'Jaeden, the Betrayer] HC! Get your Artifact Weapon appearance before BFA. You can be afk / naked or w/e. Guild Group - 70k Gold.", -- [1]
+			"Ðall-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ðall", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			62, -- [11]
+			"Player-1403-06E0DF26", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "Ðall",
+			[51] = 1532281340,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [110]
+		{
+			"WTS |cffa335ee|Hitem:90655::::::::1:262::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r (ALANI ) || 100% Drop || 80k /w me", -- [1]
+			"Hmuy-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Hmuy", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			63, -- [11]
+			"Player-1403-07021D18", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "Hmuy",
+			[51] = 1532281341,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [111]
+		{
+			"<WTS> with |cff66bbff|Hjournal:1:2031:16|h[Argus the Unmaker]|h|r Mythic Kill + Mount |cffa335ee|Hitem:152789::::::::1:71::6:1:3524:::|h[Shackled Ur'zul]|h|r This Monday 20:00! Also Helping with |cff66bbff|Hjournal:1:1737:16|h[Gul'dan]|h|r Mythic kill + Mount |cffa335ee|Hitem:137575::::::::1:71::6:1:3524:::|h[Fiendish Hellfire Core]|h|r! Hurry up and get those Exclusive mounts before BFA release! PM", -- [1]
+			"Mikolaas-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Mikolaas", -- [5]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			23, -- [11]
+			"Player-1403-070CA410", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc69b6dMikolaas|r",
+			[51] = 1533589182,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [112]
+		{
+			"<WTS>  |cff66bbff|Hjournal:0:946:16|h[Antorus, the Burning Throne]|h|r Heroic & Mythic and Argus Kill! We Guarantee 10+ items for You! Gear up and prepare yourself to BFA! WTS Mythic +15 -25 level + loot trading! PM me!", -- [1]
+			"Mikolaas-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Mikolaas", -- [5]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			24, -- [11]
+			"Player-1403-070CA410", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc69b6dMikolaas|r",
+			[51] = 1533589182,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [113]
+		{
+			"<WTS> with |cff66bbff|Hjournal:1:2031:16|h[Argus the Unmaker]|h|r Mythic Kill + Mount |cffa335ee|Hitem:152789::::::::1:71::6:1:3524:::|h[Shackled Ur'zul]|h|r This Monday 20:00! Also Helping with |cff66bbff|Hjournal:1:1737:16|h[Gul'dan]|h|r Mythic kill + Mount |cffa335ee|Hitem:137575::::::::1:71::6:1:3524:::|h[Fiendish Hellfire Core]|h|r! Hurry up and get those Exclusive mounts before BFA release! PM", -- [1]
+			"Mikolaas-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Mikolaas", -- [5]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			33, -- [11]
+			"Player-1403-070CA410", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc69b6dMikolaas|r",
+			[51] = 1533589257,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [114]
+		{
+			"<WTS>  |cff66bbff|Hjournal:0:946:16|h[Antorus, the Burning Throne]|h|r Heroic & Mythic and Argus Kill! We Guarantee 10+ items for You! Gear up and prepare yourself to BFA! WTS Mythic +15 -25 level + loot trading! PM me!", -- [1]
+			"Mikolaas-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Mikolaas", -- [5]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			34, -- [11]
+			"Player-1403-070CA410", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc69b6dMikolaas|r",
+			[51] = 1533589257,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [115]
+		{
+			"WTS |cffa335ee|Hitem:95416::::::::110:263::::::|h[Sky Golem]|h|r", -- [1]
+			"Thundrà-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Thundrà", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			35, -- [11]
+			"Player-1403-054D7484", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff0070ddThundrà|r",
+			[51] = 1533589260,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [116]
+		{
+			"WTS |cff0070dd|Hbattlepet:1803:25:3:1546:260:289:0000000000000000|h[Thistleleaf Adventurer]|h|r 70k", -- [1]
+			"Qtshifty-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Qtshifty", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			36, -- [11]
+			"Player-1403-070398ED", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Qtshifty|r",
+			[51] = 1533589264,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [117]
+		{
+			"WTB Anchor weed 375g ea + all other bfa herbs 75g ea! COD only", -- [1]
+			"Bestnameever-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Bestnameever", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			8520, -- [11]
+			"Player-1403-053D0B12", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc41e3aBestnameever|r",
+			[51] = 1534802688,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [118]
+		{
+			"WTB Anchor weed 375g ea + all other bfa herbs 75g ea! COD only", -- [1]
+			"Bestnameever-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Bestnameever", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			8522, -- [11]
+			"Player-1403-053D0B12", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc41e3aBestnameever|r",
+			[51] = 1534802690,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [119]
+		{
+			"[WTS] Expedition Run For Weekly Quest Tonight! Get your Azerite Weekly quest done fast and pain-free! /w for info", -- [1]
+			"Rainaa-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Rainaa", -- [5]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			8540, -- [11]
+			"Player-1403-0714DB1E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc69b6dRainaa|r",
+			[51] = 1534802708,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [120]
+		{
+			"WTS |cffa335ee|Hitem:159940::::::::120:256::13:2:1689:4928:::|h[Honorable Combatant's Etched Vessel of the Peerless]|h|r /w offer", -- [1]
+			"Starfail-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Starfail", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			8547, -- [11]
+			"Player-1403-06FC95A7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffffffffStarfail|r",
+			[51] = 1534802718,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [121]
+		{
+			"WTB - |cff1eff00|Hitem:152510::::::::10:64::::::|h[Anchor Weed]|h|r 250g/each & |cffffffff|Hitem:152512::::::::10:64::::::|h[Monelite Ore]|h|r 25g/each & BFA Greens 100g/each & BFA Blues 150g/each. You can send them via CoD. Thanks!", -- [1]
+			"Nilovski-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Nilovski", -- [5]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			8548, -- [11]
+			"Player-1403-0700DCBA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3fc6eaNilovski|r",
+			[51] = 1534802720,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [122]
+		{
+			"WTS GREEN & BLUE ITEM !!!!!", -- [1]
+			"Jakora-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Jakora", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			8549, -- [11]
+			"Player-1403-07156DBD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffff7c0aJakora|r",
+			[51] = 1534802721,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [123]
+		{
+			"WTS |cffa335ee|Hitem:159940::::::::120:256::13:2:1689:4928:::|h[Honorable Combatant's Etched Vessel of the Peerless]|h|r /w offer", -- [1]
+			"Starfail-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Starfail", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			8562, -- [11]
+			"Player-1403-06FC95A7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffffffffStarfail|r",
+			[51] = 1534802737,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [124]
+		{
+			"WTB ALL YOUR |cff1eff00|Hitem:152510::::::::120:261::::::|h[Anchor Weed]|h|r 275g EACH / COD PLEASE", -- [1]
+			"Wranguth-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Wranguth", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			8565, -- [11]
+			"Player-1403-062312BE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Wranguth|r",
+			[51] = 1534802743,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [125]
+		{
+			"((Registered Fish Defenders)) recruiting new active people for our raid team for BFA. We looking for healer(priest/pala) and dps (NO mage). We raiding wed and mon /w me for more info", -- [1]
+			"Minidra-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Minidra", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			8570, -- [11]
+			"Player-1403-067DEC9A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3fc6eaMinidra|r",
+			[51] = 1534802749,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [126]
+		{
+			"WTB - |cff1eff00|Hitem:152510::::::::10:64::::::|h[Anchor Weed]|h|r 250g/each & |cffffffff|Hitem:152512::::::::10:64::::::|h[Monelite Ore]|h|r 25g/each & BFA Greens 100g/each & BFA Blues 150g/each. You can send them via CoD. Thanks!", -- [1]
+			"Nilovski-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Nilovski", -- [5]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			8573, -- [11]
+			"Player-1403-0700DCBA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3fc6eaNilovski|r",
+			[51] = 1534802750,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [127]
 	},

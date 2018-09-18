@@ -7,7 +7,7 @@ _detalhes_database = {
 		["tabelas"] = {
 		},
 	},
-	["combat_counter"] = 761,
+	["combat_counter"] = 767,
 	["SoloTablesSaved"] = {
 		["Mode"] = 1,
 	},
@@ -84,7 +84,7 @@ _detalhes_database = {
 		}, -- [2]
 	},
 	["nick_tag_cache"] = {
-		["nextreset"] = 1533204598,
+		["nextreset"] = 1536005435,
 		["last_version"] = 10,
 	},
 	["last_instance_id"] = 1712,
@@ -101,13 +101,13 @@ _detalhes_database = {
 		["reverse"] = false,
 	},
 	["active_profile"] = "Daemonikos-Ravencrest",
-	["last_day"] = "18",
+	["last_day"] = "19",
 	["ignore_nicktag"] = false,
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
-			["showamount"] = false,
 			["animate"] = false,
+			["showamount"] = false,
 			["useplayercolor"] = false,
 			["useclasscolors"] = false,
 			["author"] = "Details! Team",
@@ -140,8 +140,8 @@ _detalhes_database = {
 			["annouce"] = true,
 			["dpshistory"] = {
 			},
-			["author"] = "Details! Team",
 			["dps"] = 0,
+			["author"] = "Details! Team",
 			["level"] = 1,
 			["enabled"] = true,
 		},
@@ -218,12 +218,7 @@ _detalhes_database = {
 			["point"] = "CENTER",
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
+			["main_frame_strata"] = "LOW",
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -231,13 +226,9 @@ _detalhes_database = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["main_frame_strata"] = "LOW",
+			["author"] = "Details! Team",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["use_spark"] = true,
 			["y"] = 4.577636718750e-005,
-			["x"] = 0,
-			["font_face"] = "Friz Quadrata TT",
-			["font_size"] = 10,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -249,12 +240,20 @@ _detalhes_database = {
 				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
 			},
-			["author"] = "Details! Team",
+			["x"] = 0,
+			["font_face"] = "Friz Quadrata TT",
+			["use_spark"] = true,
+			["font_size"] = 10,
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["main_frame_locked"] = false,
 			["arrow_anchor_y"] = 0,
 		},
 	},
-	["last_encounter"] = "Argus the Unmaker",
 	["mythic_dungeon_currentsaved"] = {
 		["dungeon_name"] = "",
 		["started"] = false,
@@ -270,8 +269,9 @@ _detalhes_database = {
 		["frame"] = {
 		},
 	},
-	["last_realversion"] = 131,
-	["last_version"] = "v8.0.1.5985",
+	["last_encounter"] = "Argus the Unmaker",
+	["last_realversion"] = 132,
+	["last_version"] = "v8.0.1.6131",
 	["combat_id"] = 498,
 	["savedStyles"] = {
 	},
@@ -318,7 +318,7 @@ _detalhes_database = {
 		},
 		["alternate_power"] = {
 		},
-		["combat_counter"] = 759,
+		["combat_counter"] = 765,
 		["totals"] = {
 			0, -- [1]
 			0, -- [2]
@@ -348,7 +348,7 @@ _detalhes_database = {
 		["__call"] = {
 		},
 		["data_inicio"] = 0,
-		["end_time"] = 3427.796,
+		["end_time"] = 25447.596,
 		["frags"] = {
 		},
 		["data_fim"] = 0,
@@ -375,7 +375,7 @@ _detalhes_database = {
 				["dead"] = 0,
 			}, -- [4]
 		},
-		["start_time"] = 3427.796,
+		["start_time"] = 25447.596,
 		["TimeData"] = {
 		},
 		["PhaseData"] = {
@@ -395,7 +395,7 @@ _detalhes_database = {
 	},
 	["force_font_outline"] = "",
 	["character_data"] = {
-		["logons"] = 103,
+		["logons"] = 105,
 	},
 	["cached_talents"] = {
 	},
@@ -415,6 +415,6 @@ _detalhes_database = {
 		["channel"] = "SELF",
 	},
 	["cached_specs"] = {
-		["Player-1329-0419982E"] = 65,
+		["Player-1329-0419982E"] = 70,
 	},
 }

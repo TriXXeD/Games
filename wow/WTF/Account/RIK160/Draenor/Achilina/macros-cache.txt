@@ -8,6 +8,7 @@ VER 3 0100000000000002 "L15" "INV_MISC_QUESTIONMARK"
 /cast [talent:1/1] Shockwave; [talent:1/2] Storm Bolt; [talent:1/3] Warbringer
 END
 VER 3 0100000000000004 "Prot Test" "INV_MISC_QUESTIONMARK"
+/run print(IsQuestFlaggedCompleted(44311))
 END
 VER 3 0100000000000003 "Rage/Furious" "INV_MISC_QUESTIONMARK"
 #showtooltip

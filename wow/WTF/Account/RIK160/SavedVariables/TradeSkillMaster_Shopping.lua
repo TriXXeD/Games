@@ -1,44 +1,8 @@
 
 TradeSkillMaster_ShoppingDB = {
-	["_currentProfile"] = {
-		["Trixxed - Ravencrest"] = "Default",
-		["Achilina - Ravencrest"] = "Default",
-		["Achillina - Thunderhorn"] = "Default",
-		["Lupalia - Ravencrest"] = "Default",
-		["Tríxxed - The Maelstrom"] = "Default",
-		["Trîxxed - Ravencrest"] = "Default",
-		["Marcellinus - Ravencrest"] = "Default",
-		["Trixxedz - Thunderhorn"] = "Default",
-		["Trïxxed - Ravencrest"] = "Default",
-		["Anneshank - Draenor"] = "Default",
-		["Molokh - Ravencrest"] = "Default",
-		["Monkshood - Draenor"] = "Default",
-		["Tríxxed - Laughing Skull"] = "Default",
-		["Trixxed - Kazzak"] = "Default",
-		["Trìxxed - Ravencrest"] = "Default",
-		["Daemonikos - Ravencrest"] = "Default",
-		["Drfeargood - Ravencrest"] = "Default",
-		["Trixxedbank - Draenor"] = "Default",
-		["Teukronar - Argent Dawn"] = "Default",
-		["Grippiboi - Kazzak"] = "Default",
-		["Fausta - Ravencrest"] = "Default",
-		["Shadefighter - Thunderhorn"] = "Default",
-		["Xbenedict - Kazzak"] = "Default",
-		["Chrysante - Ravencrest"] = "Default",
-		["Eruditus - Ravencrest"] = "Default",
-		["Petergrippin - Draenor"] = "Default",
-		["Quelith - Draenor"] = "Default",
-		["Lycotonum - Tarren Mill"] = "Default",
-		["Odeysseus - Thunderhorn"] = "Default",
-		["Palladium - Ravencrest"] = "Default",
-		["Trixbankxed - Shadowsong"] = "Default",
-		["Kazzía - Thunderhorn"] = "Default",
-		["Achilina - Draenor"] = "Default",
-		["Daemonikos - Draenor"] = "Default",
-		["Lichservent - Thunderhorn"] = "Default",
-	},
-	["_version"] = 3,
-	["g@ @sniperVendorPrice"] = true,
+	["g@ @sniperCustomPrice"] = "0c",
+	["g@ @maxDeSearchPercent"] = 1,
+	["g@ @postUndercut"] = "1c",
 	["g@ @postBidPercent"] = 0.95,
 	["_scopeKeys"] = {
 		["char"] = {
@@ -78,20 +42,6 @@ TradeSkillMaster_ShoppingDB = {
 			"Xbenedict - Kazzak", -- [34]
 			"Trixxed - Kazzak", -- [35]
 		},
-		["factionrealm"] = {
-			"Alliance - Argent Dawn", -- [1]
-			"Horde - Laughing Skull", -- [2]
-			"Horde - Thunderhorn", -- [3]
-			"Alliance - Ravencrest", -- [4]
-			"Horde - Draenor", -- [5]
-			"Alliance - The Maelstrom", -- [6]
-			"Alliance - Shadowsong", -- [7]
-			"Horde - Tarren Mill", -- [8]
-			"Horde - Kazzak", -- [9]
-		},
-		["profile"] = {
-			"Default", -- [1]
-		},
 		["realm"] = {
 			"Argent Dawn", -- [1]
 			"Laughing Skull", -- [2]
@@ -103,15 +53,26 @@ TradeSkillMaster_ShoppingDB = {
 			"Tarren Mill", -- [8]
 			"Kazzak", -- [9]
 		},
+		["profile"] = {
+			"Default", -- [1]
+		},
+		["factionrealm"] = {
+			"Alliance - Argent Dawn", -- [1]
+			"Horde - Laughing Skull", -- [2]
+			"Horde - Thunderhorn", -- [3]
+			"Alliance - Ravencrest", -- [4]
+			"Horde - Draenor", -- [5]
+			"Alliance - The Maelstrom", -- [6]
+			"Alliance - Shadowsong", -- [7]
+			"Horde - Tarren Mill", -- [8]
+			"Horde - Kazzak", -- [9]
+		},
 	},
 	["g@ @helpPlatesShown"] = {
 		["auction"] = true,
 	},
-	["g@ @postUndercut"] = "1c",
-	["g@ @minDeSearchLvl"] = 1,
-	["g@ @maxDeSearchLvl"] = 735,
-	["_hash"] = 1861581,
-	["g@ @marketValueSource"] = "dbmarket",
+	["g@ @sniperVendorPrice"] = true,
+	["g@ @sniperSound"] = "TSM_NO_SOUND",
 	["g@ @savedSearches"] = {
 		{
 			["searchMode"] = "normal",
@@ -714,8 +675,47 @@ TradeSkillMaster_ShoppingDB = {
 			["filter"] = "Vantus Rune: Chronomatic Anomaly/exact",
 		}, -- [100]
 	},
-	["g@ @sniperSound"] = "TSM_NO_SOUND",
+	["_hash"] = 1861581,
+	["g@ @marketValueSource"] = "dbmarket",
+	["g@ @maxDeSearchLvl"] = 735,
+	["g@ @minDeSearchLvl"] = 1,
 	["g@ @normalPostPrice"] = "150% dbmarket",
-	["g@ @maxDeSearchPercent"] = 1,
-	["g@ @sniperCustomPrice"] = "0c",
+	["_version"] = 3,
+	["_currentProfile"] = {
+		["Trixxed - Ravencrest"] = "Default",
+		["Achilina - Ravencrest"] = "Default",
+		["Achillina - Thunderhorn"] = "Default",
+		["Lupalia - Ravencrest"] = "Default",
+		["Tríxxed - The Maelstrom"] = "Default",
+		["Trîxxed - Ravencrest"] = "Default",
+		["Marcellinus - Ravencrest"] = "Default",
+		["Trixxedz - Thunderhorn"] = "Default",
+		["Trïxxed - Ravencrest"] = "Default",
+		["Anneshank - Draenor"] = "Default",
+		["Molokh - Ravencrest"] = "Default",
+		["Monkshood - Draenor"] = "Default",
+		["Tríxxed - Laughing Skull"] = "Default",
+		["Trixxed - Kazzak"] = "Default",
+		["Trìxxed - Ravencrest"] = "Default",
+		["Daemonikos - Ravencrest"] = "Default",
+		["Drfeargood - Ravencrest"] = "Default",
+		["Trixxedbank - Draenor"] = "Default",
+		["Teukronar - Argent Dawn"] = "Default",
+		["Lichservent - Thunderhorn"] = "Default",
+		["Daemonikos - Draenor"] = "Default",
+		["Achilina - Draenor"] = "Default",
+		["Shadefighter - Thunderhorn"] = "Default",
+		["Chrysante - Ravencrest"] = "Default",
+		["Eruditus - Ravencrest"] = "Default",
+		["Trixbankxed - Shadowsong"] = "Default",
+		["Quelith - Draenor"] = "Default",
+		["Lycotonum - Tarren Mill"] = "Default",
+		["Palladium - Ravencrest"] = "Default",
+		["Odeysseus - Thunderhorn"] = "Default",
+		["Petergrippin - Draenor"] = "Default",
+		["Kazzía - Thunderhorn"] = "Default",
+		["Xbenedict - Kazzak"] = "Default",
+		["Fausta - Ravencrest"] = "Default",
+		["Grippiboi - Kazzak"] = "Default",
+	},
 }

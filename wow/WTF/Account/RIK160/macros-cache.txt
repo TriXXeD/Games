@@ -1,5 +1,9 @@
+VER 3 0000000000000040 "AAP_MACRO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Scroll of Combustion
+END
 VER 3 000000000000003A "Buy Item" "ACHIEVEMENT_GUILDPERK_MOBILEBANKING"
-/run BuyMerchantItem(1) 
+/run BuyMerchantItem(4) 
 /click StaticPopup1Button1
 END
 VER 3 0000000000000037 "CastTalentOutlin" "INV_MISC_QUESTIONMARK"
@@ -10,6 +14,10 @@ VER 3 0000000000000035 "Cloak" "INV_MISC_QUESTIONMARK"
 #show 15
 /use 15
 END
+VER 3 000000000000003F "de" "INV_MISC_QUESTIONMARK"
+/cast disenchant
+/use item:154692
+END
 VER 3 0000000000000031 "EAB" "SPELL_MISC_PETHEAL"
 #showtooltip
 /click ExtraActionButton1
@@ -18,6 +26,10 @@ END
 VER 3 000000000000003C "focus+retarget" "ABILITY_DRUID_RAKE"
 /focus
 /targetlasttarget
+END
+VER 3 0000000000000041 "H-Priest: Sanct" "INV_MISC_QUESTIONMARK"
+/cast [@cursor] Holy Word: Sanctify
+/stopspelltarget
 END
 VER 3 0000000000000038 "MouseOverOutline" "INV_MISC_QUESTIONMARK"
 #showtooltip

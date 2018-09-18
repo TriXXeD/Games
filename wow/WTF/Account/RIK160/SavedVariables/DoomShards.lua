@@ -21,11 +21,7 @@ DoomShardsDB = {
 				},
 				["gainFlash"] = false,
 				["fontName"] = "PT Sans Narrow",
-				["color2"] = {
-					["r"] = 0.576470588235294,
-					["g"] = 0.788235294117647,
-					["b"] = 0.509803921568627,
-				},
+				["statusbarYOffset"] = 0,
 				["visibilityConditionals"] = "[combat]show;show",
 				["height"] = 23,
 				["fontSize"] = 16,
@@ -35,12 +31,12 @@ DoomShardsDB = {
 					["g"] = 0,
 					["b"] = 0,
 				},
-				["fontColorHoGPrediction"] = {
+				["resourceCappedColor"] = {
 					["r"] = 0.63921568627451,
 					["g"] = 0.215686274509804,
 					["b"] = 0.831372549019608,
 				},
-				["useTexture"] = true,
+				["stringYOffset"] = -21,
 				["color4"] = {
 					["r"] = 0.576470588235294,
 					["g"] = 0.788235294117647,
@@ -55,25 +51,29 @@ DoomShardsDB = {
 				},
 				["statusbarCount"] = 1,
 				["posY"] = -245,
-				["resourceCappedColor"] = {
+				["fontColorHoGPrediction"] = {
 					["r"] = 0.63921568627451,
 					["g"] = 0.215686274509804,
 					["b"] = 0.831372549019608,
 				},
 				["textureHandle"] = "ElvUI Norm",
-				["stringYOffset"] = -21,
-				["width"] = 43,
-				["statusbarYOffset"] = 0,
-				["color3"] = {
-					["r"] = 0.576470588235294,
-					["g"] = 0.788235294117647,
-					["b"] = 0.509803921568627,
-				},
+				["useTexture"] = true,
 				["color1"] = {
 					["r"] = 0.576470588235294,
 					["g"] = 0.788235294117647,
 					["b"] = 0.509803921568627,
 				},
+				["color2"] = {
+					["r"] = 0.576470588235294,
+					["g"] = 0.788235294117647,
+					["b"] = 0.509803921568627,
+				},
+				["color3"] = {
+					["r"] = 0.576470588235294,
+					["g"] = 0.788235294117647,
+					["b"] = 0.509803921568627,
+				},
+				["width"] = 43,
 				["resourceSpendColor"] = {
 					["r"] = 0.235294117647059,
 					["g"] = 0.384313725490196,

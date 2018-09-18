@@ -50,3 +50,10 @@ TradeSkillMaster_Auctioning: disabled
 TradeSkillMaster_Crafting: disabled
 TradeSkillMaster_Shopping: disabled
 TradeSkillMaster_Vendoring: disabled
+ElvUI_EverySecondCounts: disabled
+RaiderIO_DB_US_H: disabled
+RaiderIO_DB_US_A: disabled
+RaiderIO_DB_TW_H: disabled
+RaiderIO_DB_TW_A: disabled
+RaiderIO_DB_KR_H: disabled
+RaiderIO_DB_KR_A: disabled

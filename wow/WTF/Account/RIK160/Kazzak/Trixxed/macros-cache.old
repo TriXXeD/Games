@@ -1,3 +1,11 @@
+VER 3 010000000000001D "Demo T 1" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:1/1] Dreadlash; [talent:1/2] Demonic Strength; [talent:1/3] Bilescourge Bombers
+END
+VER 3 010000000000001E "Demo T4" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:4/1] From the Shadows; [talent:4/2] Soul Strike; [talent:4/3] Summon Vilefiend
+END
 VER 3 010000000000001B "Drain Life" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [nochanneling:Drain Life] Drain Life
@@ -21,10 +29,6 @@ END
 VER 3 0100000000000003 "Havoc" "INV_MISC_QUESTIONMARK"
 #showtooltip Havoc
 /cast [target=mouseover,exists] Havoc;[target= focus, exists] Havoc; Havoc
-END
-VER 3 010000000000001A "MCfoc" "607853"
-#showtooltip
-/cast [target=Sigryn,help] Mortal Coil; Mortal Coil
 END
 VER 3 0100000000000014 "SE Agony" "INV_MISC_QUESTIONMARK"
 #showtooltip
@@ -56,4 +60,9 @@ VER 3 0100000000000017 "Tier 3" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cancelaura Burning Rush
 /cast [talent:3/1] Demon Skin; [talent:3/2] Burning Rush; [talent:3/3] Dark Pact
+END
+VER 3 010000000000001C "Tier 7 Destro" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cancelaura Burning Rush
+/cast [talent:7/1] Soul Conduit; [talent:7/2] Channel Demonfire; [talent:7/3] Dark Soul: Instability
 END

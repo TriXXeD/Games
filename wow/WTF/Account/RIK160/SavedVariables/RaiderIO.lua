@@ -1,0 +1,31 @@
+
+RaiderIO_Config = {
+	["enableKeystoneTooltips"] = true,
+	["disableScoreColors"] = false,
+	["profilePoint"] = {
+		["y"] = -174.000350952148,
+		["x"] = 197.559844970703,
+		["point"] = "LEFT",
+	},
+	["showRaiderIOProfile"] = true,
+	["enableWhoTooltips"] = true,
+	["enableLFGDropdown"] = true,
+	["enableGuildTooltips"] = true,
+	["enableUnitTooltips"] = true,
+	["showSimpleScoreColors"] = false,
+	["enableWhoMessages"] = true,
+	["alwaysExtendTooltip"] = false,
+	["showMainsScore"] = true,
+	["enableFriendsTooltips"] = true,
+	["enableLFGTooltips"] = true,
+	["showDropDownCopyURL"] = true,
+	["showAverageScore"] = true,
+	["enableProfileModifier"] = true,
+	["enableClientEnhancements"] = true,
+	["positionProfileAuto"] = false,
+	["lockProfile"] = false,
+	["showScoreInCombat"] = false,
+	["inverseProfileModifier"] = false,
+	["showClientGuildBest"] = true,
+}
+RaiderIO_LastCharacter = "eu-Trixxedbank-kazzak"

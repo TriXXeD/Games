@@ -1,0 +1,2 @@
+
+zCombatSettings = nil

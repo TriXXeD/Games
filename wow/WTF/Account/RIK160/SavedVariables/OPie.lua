@@ -2,12 +2,17 @@
 OneRing_Config = {
 	["CharProfiles"] = {
 		["Draenor-Daemonikos"] = "default",
+		["Kazzak-Trixxed"] = "default",
 	},
 	["_GameVersion"] = "8.0.1",
-	["_OPieVersion"] = "Vanilla 5 (3.93)",
+	["_OPieVersion"] = "Vanilla 7 (3.93)",
 	["ProfileStorage"] = {
 		["default"] = {
 			["RingAtMouse"] = true,
+			["Bindings"] = {
+				["WarlockLTS"] = false,
+				["WarlockCombat"] = false,
+			},
 		},
 	},
 	["PersistentStorage"] = {

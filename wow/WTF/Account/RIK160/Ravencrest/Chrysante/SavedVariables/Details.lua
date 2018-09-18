@@ -7,7 +7,7 @@ _detalhes_database = {
 		["tabelas"] = {
 		},
 	},
-	["last_version"] = "v8.0.1.5985",
+	["last_version"] = "v8.0.1.6131",
 	["force_font_outline"] = "",
 	["tabela_instancias"] = {
 	},
@@ -82,7 +82,7 @@ _detalhes_database = {
 		}, -- [2]
 	},
 	["nick_tag_cache"] = {
-		["nextreset"] = 1533205024,
+		["nextreset"] = 1536005085,
 		["last_version"] = 10,
 	},
 	["last_instance_id"] = 1466,
@@ -95,7 +95,7 @@ _detalhes_database = {
 	},
 	["last_instance_time"] = 1531383457,
 	["active_profile"] = "Daemonikos-Ravencrest",
-	["last_day"] = "18",
+	["last_day"] = "19",
 	["benchmark_db"] = {
 		["frame"] = {
 		},
@@ -104,7 +104,7 @@ _detalhes_database = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
 			["enabled"] = true,
-			["showamount"] = false,
+			["animate"] = false,
 			["useplayercolor"] = false,
 			["author"] = "Details! Team",
 			["useclasscolors"] = false,
@@ -113,7 +113,7 @@ _detalhes_database = {
 				1, -- [2]
 				1, -- [3]
 			},
-			["animate"] = false,
+			["showamount"] = false,
 		},
 		["DETAILS_PLUGIN_DAMAGE_RANK"] = {
 			["lasttry"] = {
@@ -122,9 +122,9 @@ _detalhes_database = {
 			["dpshistory"] = {
 			},
 			["enabled"] = true,
-			["author"] = "Details! Team",
-			["level"] = 1,
 			["dps"] = 0,
+			["level"] = 1,
+			["author"] = "Details! Team",
 		},
 		["DETAILS_PLUGIN_TIME_ATTACK"] = {
 			["enabled"] = true,
@@ -212,15 +212,10 @@ _detalhes_database = {
 			["row_texture"] = "Details Serenity",
 			["arrow_anchor_y"] = 0,
 			["main_frame_locked"] = false,
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
+			["main_frame_strata"] = "LOW",
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["use_spark"] = true,
+			["y"] = 4.577636718750e-005,
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -228,9 +223,8 @@ _detalhes_database = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["main_frame_strata"] = "LOW",
+			["author"] = "Details! Team",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["y"] = 4.577636718750e-005,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -242,15 +236,23 @@ _detalhes_database = {
 				["update_speed"] = 0.05,
 				["size"] = 32,
 			},
+			["font_size"] = 10,
 			["x"] = 0,
 			["font_face"] = "Friz Quadrata TT",
-			["font_size"] = 10,
-			["author"] = "Details! Team",
+			["use_spark"] = true,
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["point"] = "CENTER",
 			["row_height"] = 20,
 			["scale"] = 1,
 		},
 	},
+	["ignore_nicktag"] = false,
+	["last_encounter"] = "Aggramar",
 	["mythic_dungeon_currentsaved"] = {
 		["dungeon_name"] = "Return to Karazhan",
 		["started"] = false,
@@ -262,13 +264,11 @@ _detalhes_database = {
 		["dungeon_zone_id"] = 1651,
 		["previous_boss_killed_at"] = 1517348021,
 	},
-	["ignore_nicktag"] = false,
-	["last_encounter"] = "Aggramar",
 	["announce_firsthit"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
-	["combat_counter"] = 880,
+	["combat_counter"] = 886,
 	["combat_id"] = 557,
 	["savedStyles"] = {
 	},
@@ -317,7 +317,7 @@ _detalhes_database = {
 		},
 		["alternate_power"] = {
 		},
-		["combat_counter"] = 878,
+		["combat_counter"] = 884,
 		["totals"] = {
 			0, -- [1]
 			0, -- [2]
@@ -347,7 +347,7 @@ _detalhes_database = {
 		["__call"] = {
 		},
 		["data_inicio"] = 0,
-		["end_time"] = 3862.344,
+		["end_time"] = 25097.495,
 		["frags"] = {
 		},
 		["data_fim"] = 0,
@@ -374,7 +374,7 @@ _detalhes_database = {
 				["dead"] = 0,
 			}, -- [4]
 		},
-		["start_time"] = 3862.344,
+		["start_time"] = 25097.495,
 		["TimeData"] = {
 		},
 		["PhaseData"] = {
@@ -393,12 +393,12 @@ _detalhes_database = {
 		},
 	},
 	["character_data"] = {
-		["logons"] = 76,
+		["logons"] = 78,
 	},
 	["SoloTablesSaved"] = {
 		["Mode"] = 1,
 	},
-	["last_realversion"] = 131,
+	["last_realversion"] = 132,
 	["announce_cooldowns"] = {
 		["ignored_cooldowns"] = {
 		},
@@ -415,6 +415,6 @@ _detalhes_database = {
 		["channel"] = "SELF",
 	},
 	["cached_specs"] = {
-		["Player-1329-04166116"] = 102,
+		["Player-1329-04166116"] = 105,
 	},
 }

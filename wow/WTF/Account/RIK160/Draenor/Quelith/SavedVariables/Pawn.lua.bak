@@ -1,46 +1,46 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0218,
+	["LastVersion"] = 2.0227,
 	["LastPlayerFullName"] = "Quelith-Draenor",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,
-	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
-		[128832] = {
-			["Relics"] = {
-				{
-					["ItemLevel"] = 56,
-					["Type"] = "Iron",
-				}, -- [1]
-				{
-					["ItemLevel"] = 62,
-					["Type"] = "Arcane",
-				}, -- [2]
-				{
-					["ItemLevel"] = 53,
-					["Type"] = "Fel",
-				}, -- [3]
-			},
-			["Name"] = "The Aldrachi Warblades",
-		},
 		[127829] = {
 			["Relics"] = {
 				{
-					["ItemLevel"] = 56,
+					["ItemLevel"] = 21,
 					["Type"] = "Fel",
 				}, -- [1]
 				{
-					["ItemLevel"] = 53,
+					["ItemLevel"] = 19,
 					["Type"] = "Shadow",
 				}, -- [2]
 				{
-					["ItemLevel"] = 52,
+					["ItemLevel"] = 17,
 					["Type"] = "Fel",
 				}, -- [3]
 			},
 			["Name"] = "Twinblades of the Deceiver",
 		},
+		[128832] = {
+			["Relics"] = {
+				{
+					["ItemLevel"] = 21,
+					["Type"] = "Iron",
+				}, -- [1]
+				{
+					["ItemLevel"] = 18,
+					["Type"] = "Arcane",
+				}, -- [2]
+				{
+					["ItemLevel"] = 14,
+					["Type"] = "Fel",
+				}, -- [3]
+			},
+			["Name"] = "The Aldrachi Warblades",
+		},
 	},
+	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "DEMONHUNTER",

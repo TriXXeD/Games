@@ -1,45 +1,9 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0218,
+	["LastVersion"] = 2.0219,
 	["LastPlayerFullName"] = "Trìxxed-Ravencrest",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,
-	["Artifacts"] = {
-		[128826] = {
-			["Relics"] = {
-				{
-					["ItemLevel"] = 52,
-					["Type"] = "Wind",
-				}, -- [1]
-				{
-					["ItemLevel"] = 67,
-					["Type"] = "Blood",
-				}, -- [2]
-				{
-					["ItemLevel"] = 64,
-					["Type"] = "Life",
-				}, -- [3]
-			},
-			["Name"] = "Thas'dorah, Legacy of the Windrunners",
-		},
-		[128861] = {
-			["Relics"] = {
-				{
-					["ItemLevel"] = 56,
-					["Type"] = "Wind",
-				}, -- [1]
-				{
-					["ItemLevel"] = 64,
-					["Type"] = "Arcane",
-				}, -- [2]
-				{
-					["ItemLevel"] = 55,
-					["Type"] = "Iron",
-				}, -- [3]
-			},
-			["Name"] = "Titanstrike",
-		},
-	},
 	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
