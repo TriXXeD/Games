@@ -1,0 +1,60 @@
+VER 3 0100000000000021 "Cycle PP" "INV_MISC_QUESTIONMARK"
+/targetenemy
+/cast pick pocket
+END
+VER 3 010000000000000F "FocBlind" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=focus] Blind
+END
+VER 3 010000000000001B "kick" "INV_MISC_QUESTIONMARK"
+#showtooltip kick
+/cast [target=focus,exists] Kick; Kick
+END
+VER 3 0100000000000013 "MFD" "INV_MISC_QUESTIONMARK"
+#showtooltip Marked For Death
+/cast [@mouseover,exists,harm] Marked For Death; Marked For Death
+END
+VER 3 0100000000000020 "Mousover PP" "INV_MISC_QUESTIONMARK"
+/cast [@mouseover] Pick Pocket; Pick Pocket
+/tm [@mouseover] 1
+END
+VER 3 0100000000000022 "Nearest PP" "INV_MISC_QUESTIONMARK"
+/cleartarget
+/targetenemy
+/cast pick pocket
+END
+VER 3 0100000000000001 "Sap" "INV_MISC_QUESTIONMARK"
+#showtooltip sap
+/cleartarget
+/targetenemyplayer 
+/cast Sap
+END
+VER 3 010000000000001C "Shadow DAnce" "INV_MISC_QUESTIONMARK"
+#showtooltip Shadow Dance
+/cast Shadow Dance
+/cast Shadow Reflection
+/use 13
+END
+VER 3 010000000000000A "Stealth" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast !Stealth
+/stopattack
+END
+VER 3 0100000000000015 "Tier4" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:4/1] Cloak and Dagger; [talent:4/2] Shadowstep; [talent:4/3] Burst of Speed
+END
+VER 3 010000000000001E "Tier7" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:7/1] Venom Rush; [talent:7/2] Shadow Reflection; [talent:7/3] Death from Above
+END
+VER 3 0100000000000002 "ToTT" "INV_MISC_QUESTIONMARK"
+#showtooltip Tricks of the Trade
+/cast [@mouseover,exists] Tricks of the Trade; [target=Emmilia,exists] Tricks of the Trade;  Tricks of the Trade
+END
+VER 3 0100000000000008 "Vanish" "INV_MISC_QUESTIONMARK"
+#showtooltip vanish
+/stopattack
+/cast vanish
+/cast sap
+END

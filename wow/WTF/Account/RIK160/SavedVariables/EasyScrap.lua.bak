@@ -1,0 +1,21 @@
+
+EasyScrap_SaveData = {
+	["addonSettings"] = {
+		["defaultFilter"] = 1,
+		["canScrapTooltip"] = false,
+	},
+	["addonVersion"] = 22,
+	["customFilters"] = {
+		{
+			["name"] = "Tailor Tides",
+			["rules"] = {
+				{
+					["data"] = {
+						"Tidespray Linen", -- [1]
+					},
+					["filterType"] = "itemName",
+				}, -- [1]
+			},
+		}, -- [1]
+	},
+}

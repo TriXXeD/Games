@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0228,
+	["LastVersion"] = 2.0239,
 	["LastPlayerFullName"] = "Trixxedbank-Draenor",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,

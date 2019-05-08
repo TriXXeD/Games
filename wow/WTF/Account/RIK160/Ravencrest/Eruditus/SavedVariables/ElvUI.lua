@@ -2819,9 +2819,9 @@ ElvCharacterDB = {
 		"/wave", -- [20]
 	},
 	["BodyGuard"] = {
-		["IsInValidZone"] = false,
-		["MaxHealth"] = 0,
-		["Health"] = 0,
 		["Active"] = false,
+		["Health"] = 0,
+		["MaxHealth"] = 0,
+		["IsInValidZone"] = false,
 	},
 }

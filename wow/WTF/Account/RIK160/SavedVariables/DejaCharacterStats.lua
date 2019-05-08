@@ -53,8 +53,8 @@ DejaCharacterStatsDB = {
 			["ItemLevelEQ_AV_SetChecked"] = true,
 			["ItemLevelSetChecked"] = true,
 			["ItemLevelTwoDecimalsSetChecked"] = true,
-			["ItemLevelClassColorSetChecked"] = true,
 			["ItemLevelDecimalsSetChecked"] = false,
+			["ItemLevelClassColorSetChecked"] = true,
 		},
 		["dejacharacterstatsScrollbarChecked"] = {
 			["ScrollbarSetChecked"] = false,
@@ -804,6 +804,196 @@ DCS_ClassSpecDB = {
 			["hidden"] = true,
 		}, -- [49]
 		["uniqueKey"] = "Chrysante:Ravencrest:1",
+	},
+	["Shanonymous:Tarren Mill:2"] = {
+		{
+			["statKey"] = "ItemLevelFrame",
+		}, -- [1]
+		{
+			["statKey"] = "GeneralCategory",
+		}, -- [2]
+		{
+			["statKey"] = "HEALTH",
+		}, -- [3]
+		{
+			["statKey"] = "DCS_POWER",
+		}, -- [4]
+		{
+			["statKey"] = "DCS_ALTERNATEMANA",
+		}, -- [5]
+		{
+			["statKey"] = "ITEMLEVEL",
+			["hidden"] = true,
+		}, -- [6]
+		{
+			["statKey"] = "MOVESPEED",
+		}, -- [7]
+		{
+			["statKey"] = "DURABILITY_STAT",
+		}, -- [8]
+		{
+			["statKey"] = "REPAIR_COST",
+		}, -- [9]
+		{
+			["statKey"] = "AttributesCategory",
+		}, -- [10]
+		{
+			["statKey"] = "STRENGTH",
+			["hidden"] = true,
+		}, -- [11]
+		{
+			["statKey"] = "AGILITY",
+		}, -- [12]
+		{
+			["statKey"] = "INTELLECT",
+			["hidden"] = true,
+		}, -- [13]
+		{
+			["statKey"] = "STAMINA",
+		}, -- [14]
+		{
+			["statKey"] = "ARMOR",
+		}, -- [15]
+		{
+			["statKey"] = "OffenseCategory",
+		}, -- [16]
+		{
+			["statKey"] = "ATTACK_DAMAGE",
+		}, -- [17]
+		{
+			["statKey"] = "ATTACK_AP",
+		}, -- [18]
+		{
+			["statKey"] = "DCS_ATTACK_ATTACKSPEED",
+		}, -- [19]
+		{
+			["statKey"] = "WEAPON_DPS",
+		}, -- [20]
+		{
+			["statKey"] = "SPELLPOWER",
+			["hidden"] = true,
+		}, -- [21]
+		{
+			["statKey"] = "MANAREGEN",
+			["hidden"] = true,
+		}, -- [22]
+		{
+			["statKey"] = "ENERGY_REGEN",
+		}, -- [23]
+		{
+			["statKey"] = "DCS_RUNEREGEN",
+			["hidden"] = true,
+		}, -- [24]
+		{
+			["statKey"] = "FOCUS_REGEN",
+		}, -- [25]
+		{
+			["statKey"] = "GCD",
+		}, -- [26]
+		{
+			["statKey"] = "EnhancementsCategory",
+		}, -- [27]
+		{
+			["statKey"] = "CRITCHANCE",
+			["hideAt"] = 0,
+		}, -- [28]
+		{
+			["statKey"] = "HASTE",
+			["hideAt"] = 0,
+		}, -- [29]
+		{
+			["statKey"] = "VERSATILITY",
+			["hideAt"] = 0,
+		}, -- [30]
+		{
+			["statKey"] = "MASTERY",
+			["hideAt"] = 0,
+		}, -- [31]
+		{
+			["statKey"] = "LIFESTEAL",
+			["hideAt"] = 0,
+		}, -- [32]
+		{
+			["statKey"] = "AVOIDANCE",
+			["hideAt"] = 0,
+		}, -- [33]
+		{
+			["statKey"] = "DefenseCategory",
+			["hidden"] = true,
+		}, -- [34]
+		{
+			["statKey"] = "DODGE",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [35]
+		{
+			["statKey"] = "PARRY",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [36]
+		{
+			["statKey"] = "BLOCK",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [37]
+		{
+			["statKey"] = "RatingCategory",
+			["hidden"] = true,
+		}, -- [38]
+		{
+			["statKey"] = "CRITCHANCE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [39]
+		{
+			["statKey"] = "HASTE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [40]
+		{
+			["statKey"] = "VERSATILITY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [41]
+		{
+			["statKey"] = "MASTERY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [42]
+		{
+			["statKey"] = "LIFESTEAL_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [43]
+		{
+			["statKey"] = "AVOIDANCE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [44]
+		{
+			["statKey"] = "DODGE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [45]
+		{
+			["statKey"] = "PARRY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [46]
+		{
+			["statKey"] = "SPEED_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [47]
+		{
+			["statKey"] = "SPEED",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [48]
+		{
+			["statKey"] = "STAGGER",
+		}, -- [49]
+		["uniqueKey"] = "Shanonymous:Tarren Mill:2",
 	},
 	["Achilina:Ravencrest:1"] = {
 		{
@@ -3917,6 +4107,198 @@ DCS_ClassSpecDB = {
 		}, -- [47]
 		["uniqueKey"] = "Shankspeare:Kazzak:1",
 	},
+	["Shanonymous:Tarren Mill:3"] = {
+		{
+			["statKey"] = "ItemLevelFrame",
+		}, -- [1]
+		{
+			["statKey"] = "GeneralCategory",
+		}, -- [2]
+		{
+			["statKey"] = "HEALTH",
+		}, -- [3]
+		{
+			["statKey"] = "DCS_POWER",
+		}, -- [4]
+		{
+			["statKey"] = "DCS_ALTERNATEMANA",
+		}, -- [5]
+		{
+			["statKey"] = "ITEMLEVEL",
+			["hidden"] = true,
+		}, -- [6]
+		{
+			["statKey"] = "MOVESPEED",
+		}, -- [7]
+		{
+			["statKey"] = "DURABILITY_STAT",
+		}, -- [8]
+		{
+			["statKey"] = "REPAIR_COST",
+		}, -- [9]
+		{
+			["statKey"] = "AttributesCategory",
+		}, -- [10]
+		{
+			["statKey"] = "STRENGTH",
+			["hidden"] = true,
+		}, -- [11]
+		{
+			["statKey"] = "AGILITY",
+			["hidden"] = true,
+		}, -- [12]
+		{
+			["statKey"] = "INTELLECT",
+		}, -- [13]
+		{
+			["statKey"] = "STAMINA",
+		}, -- [14]
+		{
+			["statKey"] = "ARMOR",
+		}, -- [15]
+		{
+			["statKey"] = "OffenseCategory",
+		}, -- [16]
+		{
+			["statKey"] = "ATTACK_DAMAGE",
+			["hidden"] = true,
+		}, -- [17]
+		{
+			["statKey"] = "ATTACK_AP",
+			["hidden"] = true,
+		}, -- [18]
+		{
+			["statKey"] = "DCS_ATTACK_ATTACKSPEED",
+			["hidden"] = true,
+		}, -- [19]
+		{
+			["statKey"] = "WEAPON_DPS",
+			["hidden"] = true,
+		}, -- [20]
+		{
+			["statKey"] = "SPELLPOWER",
+		}, -- [21]
+		{
+			["statKey"] = "MANAREGEN",
+		}, -- [22]
+		{
+			["statKey"] = "ENERGY_REGEN",
+		}, -- [23]
+		{
+			["statKey"] = "DCS_RUNEREGEN",
+			["hidden"] = true,
+		}, -- [24]
+		{
+			["statKey"] = "FOCUS_REGEN",
+		}, -- [25]
+		{
+			["statKey"] = "GCD",
+		}, -- [26]
+		{
+			["statKey"] = "EnhancementsCategory",
+		}, -- [27]
+		{
+			["statKey"] = "CRITCHANCE",
+			["hideAt"] = 0,
+		}, -- [28]
+		{
+			["statKey"] = "HASTE",
+			["hideAt"] = 0,
+		}, -- [29]
+		{
+			["statKey"] = "VERSATILITY",
+			["hideAt"] = 0,
+		}, -- [30]
+		{
+			["statKey"] = "MASTERY",
+			["hideAt"] = 0,
+		}, -- [31]
+		{
+			["statKey"] = "LIFESTEAL",
+			["hideAt"] = 0,
+		}, -- [32]
+		{
+			["statKey"] = "AVOIDANCE",
+			["hideAt"] = 0,
+		}, -- [33]
+		{
+			["statKey"] = "DefenseCategory",
+			["hidden"] = true,
+		}, -- [34]
+		{
+			["statKey"] = "DODGE",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [35]
+		{
+			["statKey"] = "PARRY",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [36]
+		{
+			["statKey"] = "BLOCK",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [37]
+		{
+			["statKey"] = "RatingCategory",
+			["hidden"] = true,
+		}, -- [38]
+		{
+			["statKey"] = "CRITCHANCE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [39]
+		{
+			["statKey"] = "HASTE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [40]
+		{
+			["statKey"] = "VERSATILITY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [41]
+		{
+			["statKey"] = "MASTERY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [42]
+		{
+			["statKey"] = "LIFESTEAL_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [43]
+		{
+			["statKey"] = "AVOIDANCE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [44]
+		{
+			["statKey"] = "DODGE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [45]
+		{
+			["statKey"] = "PARRY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [46]
+		{
+			["statKey"] = "SPEED_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [47]
+		{
+			["statKey"] = "SPEED",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [48]
+		{
+			["statKey"] = "STAGGER",
+		}, -- [49]
+		["uniqueKey"] = "Shanonymous:Tarren Mill:3",
+	},
 	["Chrysante:Ravencrest:4"] = {
 		{
 			["statKey"] = "ItemLevelFrame",
@@ -6121,6 +6503,390 @@ DCS_ClassSpecDB = {
 		}, -- [49]
 		["uniqueKey"] = "Trîxxed:Ravencrest:1",
 	},
+	["Trixxedbank:Tarren Mill:3"] = {
+		{
+			["statKey"] = "ItemLevelFrame",
+		}, -- [1]
+		{
+			["statKey"] = "GeneralCategory",
+		}, -- [2]
+		{
+			["statKey"] = "HEALTH",
+		}, -- [3]
+		{
+			["statKey"] = "DCS_POWER",
+		}, -- [4]
+		{
+			["statKey"] = "DCS_ALTERNATEMANA",
+		}, -- [5]
+		{
+			["statKey"] = "ITEMLEVEL",
+			["hidden"] = true,
+		}, -- [6]
+		{
+			["statKey"] = "MOVESPEED",
+		}, -- [7]
+		{
+			["statKey"] = "DURABILITY_STAT",
+		}, -- [8]
+		{
+			["statKey"] = "REPAIR_COST",
+		}, -- [9]
+		{
+			["statKey"] = "AttributesCategory",
+		}, -- [10]
+		{
+			["statKey"] = "STRENGTH",
+			["hidden"] = true,
+		}, -- [11]
+		{
+			["statKey"] = "AGILITY",
+			["hidden"] = true,
+		}, -- [12]
+		{
+			["statKey"] = "INTELLECT",
+		}, -- [13]
+		{
+			["statKey"] = "STAMINA",
+		}, -- [14]
+		{
+			["statKey"] = "ARMOR",
+		}, -- [15]
+		{
+			["statKey"] = "OffenseCategory",
+		}, -- [16]
+		{
+			["statKey"] = "ATTACK_DAMAGE",
+			["hidden"] = true,
+		}, -- [17]
+		{
+			["statKey"] = "ATTACK_AP",
+			["hidden"] = true,
+		}, -- [18]
+		{
+			["statKey"] = "DCS_ATTACK_ATTACKSPEED",
+			["hidden"] = true,
+		}, -- [19]
+		{
+			["statKey"] = "WEAPON_DPS",
+			["hidden"] = true,
+		}, -- [20]
+		{
+			["statKey"] = "SPELLPOWER",
+		}, -- [21]
+		{
+			["statKey"] = "MANAREGEN",
+		}, -- [22]
+		{
+			["statKey"] = "ENERGY_REGEN",
+		}, -- [23]
+		{
+			["statKey"] = "DCS_RUNEREGEN",
+			["hidden"] = true,
+		}, -- [24]
+		{
+			["statKey"] = "FOCUS_REGEN",
+		}, -- [25]
+		{
+			["statKey"] = "GCD",
+		}, -- [26]
+		{
+			["statKey"] = "EnhancementsCategory",
+		}, -- [27]
+		{
+			["statKey"] = "CRITCHANCE",
+			["hideAt"] = 0,
+		}, -- [28]
+		{
+			["statKey"] = "HASTE",
+			["hideAt"] = 0,
+		}, -- [29]
+		{
+			["statKey"] = "VERSATILITY",
+			["hideAt"] = 0,
+		}, -- [30]
+		{
+			["statKey"] = "MASTERY",
+			["hideAt"] = 0,
+		}, -- [31]
+		{
+			["statKey"] = "LIFESTEAL",
+			["hideAt"] = 0,
+		}, -- [32]
+		{
+			["statKey"] = "AVOIDANCE",
+			["hideAt"] = 0,
+		}, -- [33]
+		{
+			["statKey"] = "DefenseCategory",
+			["hidden"] = true,
+		}, -- [34]
+		{
+			["statKey"] = "DODGE",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [35]
+		{
+			["statKey"] = "PARRY",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [36]
+		{
+			["statKey"] = "BLOCK",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [37]
+		{
+			["statKey"] = "RatingCategory",
+			["hidden"] = true,
+		}, -- [38]
+		{
+			["statKey"] = "CRITCHANCE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [39]
+		{
+			["statKey"] = "HASTE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [40]
+		{
+			["statKey"] = "VERSATILITY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [41]
+		{
+			["statKey"] = "MASTERY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [42]
+		{
+			["statKey"] = "LIFESTEAL_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [43]
+		{
+			["statKey"] = "AVOIDANCE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [44]
+		{
+			["statKey"] = "DODGE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [45]
+		{
+			["statKey"] = "PARRY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [46]
+		{
+			["statKey"] = "SPEED_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [47]
+		{
+			["statKey"] = "SPEED",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [48]
+		{
+			["statKey"] = "STAGGER",
+		}, -- [49]
+		["uniqueKey"] = "Trixxedbank:Tarren Mill:3",
+	},
+	["Trixxedosaur:Tarren Mill:1"] = {
+		{
+			["statKey"] = "ItemLevelFrame",
+		}, -- [1]
+		{
+			["statKey"] = "GeneralCategory",
+		}, -- [2]
+		{
+			["statKey"] = "HEALTH",
+		}, -- [3]
+		{
+			["statKey"] = "DCS_POWER",
+		}, -- [4]
+		{
+			["statKey"] = "DCS_ALTERNATEMANA",
+		}, -- [5]
+		{
+			["statKey"] = "ITEMLEVEL",
+			["hidden"] = true,
+		}, -- [6]
+		{
+			["statKey"] = "MOVESPEED",
+		}, -- [7]
+		{
+			["statKey"] = "DURABILITY_STAT",
+		}, -- [8]
+		{
+			["statKey"] = "REPAIR_COST",
+		}, -- [9]
+		{
+			["statKey"] = "AttributesCategory",
+		}, -- [10]
+		{
+			["statKey"] = "STRENGTH",
+			["hidden"] = true,
+		}, -- [11]
+		{
+			["statKey"] = "AGILITY",
+			["hidden"] = true,
+		}, -- [12]
+		{
+			["statKey"] = "INTELLECT",
+		}, -- [13]
+		{
+			["statKey"] = "STAMINA",
+		}, -- [14]
+		{
+			["statKey"] = "ARMOR",
+		}, -- [15]
+		{
+			["statKey"] = "OffenseCategory",
+		}, -- [16]
+		{
+			["statKey"] = "ATTACK_DAMAGE",
+			["hidden"] = true,
+		}, -- [17]
+		{
+			["statKey"] = "ATTACK_AP",
+			["hidden"] = true,
+		}, -- [18]
+		{
+			["statKey"] = "DCS_ATTACK_ATTACKSPEED",
+			["hidden"] = true,
+		}, -- [19]
+		{
+			["statKey"] = "WEAPON_DPS",
+			["hidden"] = true,
+		}, -- [20]
+		{
+			["statKey"] = "SPELLPOWER",
+		}, -- [21]
+		{
+			["statKey"] = "MANAREGEN",
+		}, -- [22]
+		{
+			["statKey"] = "ENERGY_REGEN",
+		}, -- [23]
+		{
+			["statKey"] = "DCS_RUNEREGEN",
+			["hidden"] = true,
+		}, -- [24]
+		{
+			["statKey"] = "FOCUS_REGEN",
+		}, -- [25]
+		{
+			["statKey"] = "GCD",
+		}, -- [26]
+		{
+			["statKey"] = "EnhancementsCategory",
+		}, -- [27]
+		{
+			["statKey"] = "CRITCHANCE",
+			["hideAt"] = 0,
+		}, -- [28]
+		{
+			["statKey"] = "HASTE",
+			["hideAt"] = 0,
+		}, -- [29]
+		{
+			["statKey"] = "VERSATILITY",
+			["hideAt"] = 0,
+		}, -- [30]
+		{
+			["statKey"] = "MASTERY",
+			["hideAt"] = 0,
+		}, -- [31]
+		{
+			["statKey"] = "LIFESTEAL",
+			["hideAt"] = 0,
+		}, -- [32]
+		{
+			["statKey"] = "AVOIDANCE",
+			["hideAt"] = 0,
+		}, -- [33]
+		{
+			["statKey"] = "DefenseCategory",
+			["hidden"] = true,
+		}, -- [34]
+		{
+			["statKey"] = "DODGE",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [35]
+		{
+			["statKey"] = "PARRY",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [36]
+		{
+			["statKey"] = "BLOCK",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [37]
+		{
+			["statKey"] = "RatingCategory",
+			["hidden"] = true,
+		}, -- [38]
+		{
+			["statKey"] = "CRITCHANCE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [39]
+		{
+			["statKey"] = "HASTE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [40]
+		{
+			["statKey"] = "VERSATILITY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [41]
+		{
+			["statKey"] = "MASTERY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [42]
+		{
+			["statKey"] = "LIFESTEAL_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [43]
+		{
+			["statKey"] = "AVOIDANCE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [44]
+		{
+			["statKey"] = "DODGE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [45]
+		{
+			["statKey"] = "PARRY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [46]
+		{
+			["statKey"] = "SPEED_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [47]
+		{
+			["statKey"] = "SPEED",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [48]
+		{
+			["statKey"] = "STAGGER",
+		}, -- [49]
+		["uniqueKey"] = "Trixxedosaur:Tarren Mill:1",
+	},
 	["Lycotonum:Tarren Mill:3"] = {
 		{
 			["statKey"] = "ItemLevelFrame",
@@ -6872,6 +7638,198 @@ DCS_ClassSpecDB = {
 		}, -- [49]
 		["uniqueKey"] = "Trixxedbank:Draenor:3",
 	},
+	["Trixxedosaur:Tarren Mill:4"] = {
+		{
+			["statKey"] = "ItemLevelFrame",
+		}, -- [1]
+		{
+			["statKey"] = "GeneralCategory",
+		}, -- [2]
+		{
+			["statKey"] = "HEALTH",
+		}, -- [3]
+		{
+			["statKey"] = "DCS_POWER",
+		}, -- [4]
+		{
+			["statKey"] = "DCS_ALTERNATEMANA",
+		}, -- [5]
+		{
+			["statKey"] = "ITEMLEVEL",
+			["hidden"] = true,
+		}, -- [6]
+		{
+			["statKey"] = "MOVESPEED",
+		}, -- [7]
+		{
+			["statKey"] = "DURABILITY_STAT",
+		}, -- [8]
+		{
+			["statKey"] = "REPAIR_COST",
+		}, -- [9]
+		{
+			["statKey"] = "AttributesCategory",
+		}, -- [10]
+		{
+			["statKey"] = "STRENGTH",
+			["hidden"] = true,
+		}, -- [11]
+		{
+			["statKey"] = "AGILITY",
+			["hidden"] = true,
+		}, -- [12]
+		{
+			["statKey"] = "INTELLECT",
+		}, -- [13]
+		{
+			["statKey"] = "STAMINA",
+		}, -- [14]
+		{
+			["statKey"] = "ARMOR",
+		}, -- [15]
+		{
+			["statKey"] = "OffenseCategory",
+		}, -- [16]
+		{
+			["statKey"] = "ATTACK_DAMAGE",
+			["hidden"] = true,
+		}, -- [17]
+		{
+			["statKey"] = "ATTACK_AP",
+			["hidden"] = true,
+		}, -- [18]
+		{
+			["statKey"] = "DCS_ATTACK_ATTACKSPEED",
+			["hidden"] = true,
+		}, -- [19]
+		{
+			["statKey"] = "WEAPON_DPS",
+			["hidden"] = true,
+		}, -- [20]
+		{
+			["statKey"] = "SPELLPOWER",
+		}, -- [21]
+		{
+			["statKey"] = "MANAREGEN",
+		}, -- [22]
+		{
+			["statKey"] = "ENERGY_REGEN",
+		}, -- [23]
+		{
+			["statKey"] = "DCS_RUNEREGEN",
+			["hidden"] = true,
+		}, -- [24]
+		{
+			["statKey"] = "FOCUS_REGEN",
+		}, -- [25]
+		{
+			["statKey"] = "GCD",
+		}, -- [26]
+		{
+			["statKey"] = "EnhancementsCategory",
+		}, -- [27]
+		{
+			["statKey"] = "CRITCHANCE",
+			["hideAt"] = 0,
+		}, -- [28]
+		{
+			["statKey"] = "HASTE",
+			["hideAt"] = 0,
+		}, -- [29]
+		{
+			["statKey"] = "VERSATILITY",
+			["hideAt"] = 0,
+		}, -- [30]
+		{
+			["statKey"] = "MASTERY",
+			["hideAt"] = 0,
+		}, -- [31]
+		{
+			["statKey"] = "LIFESTEAL",
+			["hideAt"] = 0,
+		}, -- [32]
+		{
+			["statKey"] = "AVOIDANCE",
+			["hideAt"] = 0,
+		}, -- [33]
+		{
+			["statKey"] = "DefenseCategory",
+			["hidden"] = true,
+		}, -- [34]
+		{
+			["statKey"] = "DODGE",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [35]
+		{
+			["statKey"] = "PARRY",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [36]
+		{
+			["statKey"] = "BLOCK",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [37]
+		{
+			["statKey"] = "RatingCategory",
+			["hidden"] = true,
+		}, -- [38]
+		{
+			["statKey"] = "CRITCHANCE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [39]
+		{
+			["statKey"] = "HASTE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [40]
+		{
+			["statKey"] = "VERSATILITY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [41]
+		{
+			["statKey"] = "MASTERY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [42]
+		{
+			["statKey"] = "LIFESTEAL_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [43]
+		{
+			["statKey"] = "AVOIDANCE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [44]
+		{
+			["statKey"] = "DODGE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [45]
+		{
+			["statKey"] = "PARRY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [46]
+		{
+			["statKey"] = "SPEED_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [47]
+		{
+			["statKey"] = "SPEED",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [48]
+		{
+			["statKey"] = "STAGGER",
+		}, -- [49]
+		["uniqueKey"] = "Trixxedosaur:Tarren Mill:4",
+	},
 	["Daemonikos:Ravencrest:1"] = {
 		{
 			["statKey"] = "ItemLevelFrame",
@@ -7370,7 +8328,199 @@ DCS_ClassSpecDB = {
 		}, -- [42]
 		["uniqueKey"] = "Trixxedbank:Draenor:1",
 	},
-	["Quelith:Draenor:1"] = {
+	["Xbenedict:Kazzak:3"] = {
+		{
+			["statKey"] = "ItemLevelFrame",
+		}, -- [1]
+		{
+			["statKey"] = "GeneralCategory",
+		}, -- [2]
+		{
+			["statKey"] = "HEALTH",
+		}, -- [3]
+		{
+			["statKey"] = "DCS_POWER",
+		}, -- [4]
+		{
+			["statKey"] = "DCS_ALTERNATEMANA",
+		}, -- [5]
+		{
+			["statKey"] = "ITEMLEVEL",
+			["hidden"] = true,
+		}, -- [6]
+		{
+			["statKey"] = "MOVESPEED",
+		}, -- [7]
+		{
+			["statKey"] = "DURABILITY_STAT",
+		}, -- [8]
+		{
+			["statKey"] = "REPAIR_COST",
+		}, -- [9]
+		{
+			["statKey"] = "AttributesCategory",
+		}, -- [10]
+		{
+			["statKey"] = "STRENGTH",
+			["hidden"] = true,
+		}, -- [11]
+		{
+			["statKey"] = "AGILITY",
+			["hidden"] = true,
+		}, -- [12]
+		{
+			["statKey"] = "INTELLECT",
+		}, -- [13]
+		{
+			["statKey"] = "STAMINA",
+		}, -- [14]
+		{
+			["statKey"] = "ARMOR",
+		}, -- [15]
+		{
+			["statKey"] = "OffenseCategory",
+		}, -- [16]
+		{
+			["statKey"] = "ATTACK_DAMAGE",
+			["hidden"] = true,
+		}, -- [17]
+		{
+			["statKey"] = "ATTACK_AP",
+			["hidden"] = true,
+		}, -- [18]
+		{
+			["statKey"] = "DCS_ATTACK_ATTACKSPEED",
+			["hidden"] = true,
+		}, -- [19]
+		{
+			["statKey"] = "WEAPON_DPS",
+			["hidden"] = true,
+		}, -- [20]
+		{
+			["statKey"] = "SPELLPOWER",
+		}, -- [21]
+		{
+			["statKey"] = "MANAREGEN",
+		}, -- [22]
+		{
+			["statKey"] = "ENERGY_REGEN",
+		}, -- [23]
+		{
+			["statKey"] = "DCS_RUNEREGEN",
+			["hidden"] = true,
+		}, -- [24]
+		{
+			["statKey"] = "FOCUS_REGEN",
+		}, -- [25]
+		{
+			["statKey"] = "GCD",
+		}, -- [26]
+		{
+			["statKey"] = "EnhancementsCategory",
+		}, -- [27]
+		{
+			["statKey"] = "CRITCHANCE",
+			["hideAt"] = 0,
+		}, -- [28]
+		{
+			["statKey"] = "HASTE",
+			["hideAt"] = 0,
+		}, -- [29]
+		{
+			["statKey"] = "VERSATILITY",
+			["hideAt"] = 0,
+		}, -- [30]
+		{
+			["statKey"] = "MASTERY",
+			["hideAt"] = 0,
+		}, -- [31]
+		{
+			["statKey"] = "LIFESTEAL",
+			["hideAt"] = 0,
+		}, -- [32]
+		{
+			["statKey"] = "AVOIDANCE",
+			["hideAt"] = 0,
+		}, -- [33]
+		{
+			["statKey"] = "DefenseCategory",
+			["hidden"] = true,
+		}, -- [34]
+		{
+			["statKey"] = "DODGE",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [35]
+		{
+			["statKey"] = "PARRY",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [36]
+		{
+			["statKey"] = "BLOCK",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [37]
+		{
+			["statKey"] = "RatingCategory",
+			["hidden"] = true,
+		}, -- [38]
+		{
+			["statKey"] = "CRITCHANCE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [39]
+		{
+			["statKey"] = "HASTE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [40]
+		{
+			["statKey"] = "VERSATILITY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [41]
+		{
+			["statKey"] = "MASTERY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [42]
+		{
+			["statKey"] = "LIFESTEAL_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [43]
+		{
+			["statKey"] = "AVOIDANCE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [44]
+		{
+			["statKey"] = "DODGE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [45]
+		{
+			["statKey"] = "PARRY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [46]
+		{
+			["statKey"] = "SPEED_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [47]
+		{
+			["statKey"] = "SPEED",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [48]
+		{
+			["statKey"] = "STAGGER",
+		}, -- [49]
+		["uniqueKey"] = "Xbenedict:Kazzak:3",
+	},
+	["Shankspeare:Tarren Mill:2"] = {
 		{
 			["statKey"] = "ItemLevelFrame",
 		}, -- [1]
@@ -7546,19 +8696,19 @@ DCS_ClassSpecDB = {
 			["hidden"] = true,
 		}, -- [46]
 		{
-			["statKey"] = "SPEED",
+			["statKey"] = "SPEED_RATING",
 			["hideAt"] = 0,
 			["hidden"] = true,
 		}, -- [47]
 		{
-			["statKey"] = "STAGGER",
-		}, -- [48]
-		{
-			["statKey"] = "SPEED_RATING",
+			["statKey"] = "SPEED",
 			["hideAt"] = 0,
 			["hidden"] = true,
+		}, -- [48]
+		{
+			["statKey"] = "STAGGER",
 		}, -- [49]
-		["uniqueKey"] = "Quelith:Draenor:1",
+		["uniqueKey"] = "Shankspeare:Tarren Mill:2",
 	},
 	["Trixxed:Ravencrest:1"] = {
 		{
@@ -8288,7 +9438,7 @@ DCS_ClassSpecDB = {
 		}, -- [49]
 		["uniqueKey"] = "Trixxedbank:Kazzak:3",
 	},
-	["Xbenedict:Kazzak:3"] = {
+	["Trixxed:Kazzak:3"] = {
 		{
 			["statKey"] = "ItemLevelFrame",
 		}, -- [1]
@@ -8478,7 +9628,7 @@ DCS_ClassSpecDB = {
 		{
 			["statKey"] = "STAGGER",
 		}, -- [49]
-		["uniqueKey"] = "Xbenedict:Kazzak:3",
+		["uniqueKey"] = "Trixxed:Kazzak:3",
 	},
 	["Trìxxed:Ravencrest:1"] = {
 		{
@@ -8660,196 +9810,6 @@ DCS_ClassSpecDB = {
 		}, -- [47]
 		["uniqueKey"] = "Trìxxed:Ravencrest:1",
 	},
-	["Fausta:Ravencrest:1"] = {
-		{
-			["statKey"] = "ItemLevelFrame",
-		}, -- [1]
-		{
-			["statKey"] = "AttributesCategory",
-		}, -- [2]
-		{
-			["statKey"] = "HEALTH",
-		}, -- [3]
-		{
-			["statKey"] = "DCS_POWER",
-		}, -- [4]
-		{
-			["statKey"] = "DCS_ALTERNATEMANA",
-		}, -- [5]
-		{
-			["statKey"] = "ARMOR",
-		}, -- [6]
-		{
-			["statKey"] = "STRENGTH",
-			["hidden"] = true,
-		}, -- [7]
-		{
-			["statKey"] = "AGILITY",
-			["hidden"] = true,
-		}, -- [8]
-		{
-			["statKey"] = "INTELLECT",
-		}, -- [9]
-		{
-			["statKey"] = "STAMINA",
-		}, -- [10]
-		{
-			["statKey"] = "ATTACK_DAMAGE",
-			["hidden"] = true,
-		}, -- [11]
-		{
-			["statKey"] = "ATTACK_AP",
-			["hidden"] = true,
-		}, -- [12]
-		{
-			["statKey"] = "DCS_ATTACK_ATTACKSPEED",
-			["hidden"] = true,
-		}, -- [13]
-		{
-			["statKey"] = "WEAPON_DPS",
-			["hidden"] = true,
-		}, -- [14]
-		{
-			["statKey"] = "SPELLPOWER",
-		}, -- [15]
-		{
-			["statKey"] = "MANAREGEN",
-		}, -- [16]
-		{
-			["statKey"] = "ENERGY_REGEN",
-		}, -- [17]
-		{
-			["statKey"] = "DCS_RUNEREGEN",
-			["hidden"] = true,
-		}, -- [18]
-		{
-			["statKey"] = "FOCUS_REGEN",
-		}, -- [19]
-		{
-			["statKey"] = "MOVESPEED",
-		}, -- [20]
-		{
-			["statKey"] = "GCD",
-		}, -- [21]
-		{
-			["statKey"] = "DURABILITY_STAT",
-		}, -- [22]
-		{
-			["statKey"] = "REPAIR_COST",
-		}, -- [23]
-		{
-			["statKey"] = "EnhancementsCategory",
-		}, -- [24]
-		{
-			["statKey"] = "CRITCHANCE",
-			["hideAt"] = 0,
-		}, -- [25]
-		{
-			["statKey"] = "HASTE",
-			["hideAt"] = 0,
-		}, -- [26]
-		{
-			["statKey"] = "VERSATILITY",
-			["hideAt"] = 0,
-		}, -- [27]
-		{
-			["statKey"] = "MASTERY",
-			["hideAt"] = 0,
-		}, -- [28]
-		{
-			["statKey"] = "LIFESTEAL",
-			["hideAt"] = 0,
-		}, -- [29]
-		{
-			["statKey"] = "AVOIDANCE",
-			["hideAt"] = 0,
-		}, -- [30]
-		{
-			["statKey"] = "DODGE",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [31]
-		{
-			["statKey"] = "PARRY",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [32]
-		{
-			["statKey"] = "BLOCK",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [33]
-		{
-			["statKey"] = "CRITCHANCE_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [34]
-		{
-			["statKey"] = "HASTE_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [35]
-		{
-			["statKey"] = "VERSATILITY_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [36]
-		{
-			["statKey"] = "MASTERY_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [37]
-		{
-			["statKey"] = "LIFESTEAL_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [38]
-		{
-			["statKey"] = "AVOIDANCE_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [39]
-		{
-			["statKey"] = "DODGE_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [40]
-		{
-			["statKey"] = "PARRY_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [41]
-		{
-			["statKey"] = "ITEMLEVEL",
-			["hidden"] = true,
-		}, -- [42]
-		{
-			["statKey"] = "RatingCategory",
-		}, -- [43]
-		{
-			["statKey"] = "OffenseCategory",
-		}, -- [44]
-		{
-			["statKey"] = "GeneralCategory",
-		}, -- [45]
-		{
-			["statKey"] = "DefenseCategory",
-		}, -- [46]
-		{
-			["statKey"] = "SPEED",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [47]
-		{
-			["statKey"] = "STAGGER",
-		}, -- [48]
-		{
-			["statKey"] = "SPEED_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [49]
-		["uniqueKey"] = "Fausta:Ravencrest:1",
-	},
 	["Daemonikos:Ravencrest:2"] = {
 		{
 			["statKey"] = "ItemLevelFrame",
@@ -9004,6 +9964,557 @@ DCS_ClassSpecDB = {
 			["statKey"] = "AVOIDANCE_RATING",
 		}, -- [42]
 		["uniqueKey"] = "Daemonikos:Ravencrest:2",
+	},
+	["Eruditus:Ravencrest:3"] = {
+		{
+			["statKey"] = "ItemLevelFrame",
+		}, -- [1]
+		{
+			["statKey"] = "GeneralCategory",
+		}, -- [2]
+		{
+			["statKey"] = "HEALTH",
+		}, -- [3]
+		{
+			["statKey"] = "DCS_POWER",
+		}, -- [4]
+		{
+			["statKey"] = "DCS_ALTERNATEMANA",
+		}, -- [5]
+		{
+			["statKey"] = "ITEMLEVEL",
+			["hidden"] = true,
+		}, -- [6]
+		{
+			["statKey"] = "MOVESPEED",
+		}, -- [7]
+		{
+			["statKey"] = "DURABILITY_STAT",
+		}, -- [8]
+		{
+			["statKey"] = "REPAIR_COST",
+		}, -- [9]
+		{
+			["statKey"] = "AttributesCategory",
+		}, -- [10]
+		{
+			["statKey"] = "STRENGTH",
+			["hidden"] = true,
+		}, -- [11]
+		{
+			["statKey"] = "AGILITY",
+			["hidden"] = true,
+		}, -- [12]
+		{
+			["statKey"] = "INTELLECT",
+		}, -- [13]
+		{
+			["statKey"] = "STAMINA",
+		}, -- [14]
+		{
+			["statKey"] = "ARMOR",
+		}, -- [15]
+		{
+			["statKey"] = "OffenseCategory",
+		}, -- [16]
+		{
+			["statKey"] = "ATTACK_DAMAGE",
+			["hidden"] = true,
+		}, -- [17]
+		{
+			["statKey"] = "ATTACK_AP",
+			["hidden"] = true,
+		}, -- [18]
+		{
+			["statKey"] = "DCS_ATTACK_ATTACKSPEED",
+			["hidden"] = true,
+		}, -- [19]
+		{
+			["statKey"] = "WEAPON_DPS",
+			["hidden"] = true,
+		}, -- [20]
+		{
+			["statKey"] = "SPELLPOWER",
+		}, -- [21]
+		{
+			["statKey"] = "MANAREGEN",
+		}, -- [22]
+		{
+			["statKey"] = "ENERGY_REGEN",
+		}, -- [23]
+		{
+			["statKey"] = "DCS_RUNEREGEN",
+			["hidden"] = true,
+		}, -- [24]
+		{
+			["statKey"] = "FOCUS_REGEN",
+		}, -- [25]
+		{
+			["statKey"] = "GCD",
+		}, -- [26]
+		{
+			["statKey"] = "EnhancementsCategory",
+		}, -- [27]
+		{
+			["statKey"] = "CRITCHANCE",
+			["hideAt"] = 0,
+		}, -- [28]
+		{
+			["statKey"] = "HASTE",
+			["hideAt"] = 0,
+		}, -- [29]
+		{
+			["statKey"] = "VERSATILITY",
+			["hideAt"] = 0,
+		}, -- [30]
+		{
+			["statKey"] = "MASTERY",
+			["hideAt"] = 0,
+		}, -- [31]
+		{
+			["statKey"] = "LIFESTEAL",
+			["hideAt"] = 0,
+		}, -- [32]
+		{
+			["statKey"] = "AVOIDANCE",
+			["hideAt"] = 0,
+		}, -- [33]
+		{
+			["statKey"] = "DefenseCategory",
+			["hidden"] = true,
+		}, -- [34]
+		{
+			["statKey"] = "DODGE",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [35]
+		{
+			["statKey"] = "PARRY",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [36]
+		{
+			["statKey"] = "BLOCK",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [37]
+		{
+			["statKey"] = "RatingCategory",
+			["hidden"] = true,
+		}, -- [38]
+		{
+			["statKey"] = "CRITCHANCE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [39]
+		{
+			["statKey"] = "HASTE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [40]
+		{
+			["statKey"] = "VERSATILITY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [41]
+		{
+			["statKey"] = "MASTERY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [42]
+		{
+			["statKey"] = "LIFESTEAL_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [43]
+		{
+			["statKey"] = "AVOIDANCE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [44]
+		{
+			["statKey"] = "DODGE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [45]
+		{
+			["statKey"] = "PARRY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [46]
+		{
+			["statKey"] = "SPEED",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [47]
+		{
+			["statKey"] = "STAGGER",
+		}, -- [48]
+		{
+			["statKey"] = "SPEED_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [49]
+		["uniqueKey"] = "Eruditus:Ravencrest:3",
+	},
+	["Trïxxed:Ravencrest:1"] = {
+		{
+			["statKey"] = "ItemLevelFrame",
+		}, -- [1]
+		{
+			["statKey"] = "AttributesCategory",
+		}, -- [2]
+		{
+			["statKey"] = "HEALTH",
+		}, -- [3]
+		{
+			["statKey"] = "ARMOR",
+		}, -- [4]
+		{
+			["statKey"] = "STRENGTH",
+		}, -- [5]
+		{
+			["statKey"] = "AGILITY",
+			["hidden"] = true,
+		}, -- [6]
+		{
+			["statKey"] = "INTELLECT",
+			["hidden"] = true,
+		}, -- [7]
+		{
+			["statKey"] = "STAMINA",
+		}, -- [8]
+		{
+			["statKey"] = "ATTACK_DAMAGE",
+		}, -- [9]
+		{
+			["statKey"] = "ATTACK_AP",
+		}, -- [10]
+		{
+			["statKey"] = "DCS_ATTACK_ATTACKSPEED",
+		}, -- [11]
+		{
+			["statKey"] = "WEAPON_DPS",
+		}, -- [12]
+		{
+			["statKey"] = "SPELLPOWER",
+			["hidden"] = true,
+		}, -- [13]
+		{
+			["statKey"] = "MANAREGEN",
+			["hidden"] = true,
+		}, -- [14]
+		{
+			["statKey"] = "ENERGY_REGEN",
+			["hidden"] = true,
+		}, -- [15]
+		{
+			["statKey"] = "DCS_RUNEREGEN",
+		}, -- [16]
+		{
+			["statKey"] = "FOCUS_REGEN",
+		}, -- [17]
+		{
+			["statKey"] = "MOVESPEED",
+		}, -- [18]
+		{
+			["statKey"] = "GCD",
+		}, -- [19]
+		{
+			["statKey"] = "DURABILITY_STAT",
+		}, -- [20]
+		{
+			["statKey"] = "REPAIR_COST",
+		}, -- [21]
+		{
+			["statKey"] = "EnhancementsCategory",
+		}, -- [22]
+		{
+			["statKey"] = "CRITCHANCE",
+			["hideAt"] = 0,
+		}, -- [23]
+		{
+			["statKey"] = "HASTE",
+			["hideAt"] = 0,
+		}, -- [24]
+		{
+			["statKey"] = "VERSATILITY",
+			["hideAt"] = 0,
+		}, -- [25]
+		{
+			["statKey"] = "MASTERY",
+			["hideAt"] = 0,
+		}, -- [26]
+		{
+			["statKey"] = "LIFESTEAL",
+			["hideAt"] = 0,
+		}, -- [27]
+		{
+			["statKey"] = "AVOIDANCE",
+			["hideAt"] = 0,
+		}, -- [28]
+		{
+			["statKey"] = "DODGE",
+			["hideAt"] = 0,
+		}, -- [29]
+		{
+			["statKey"] = "PARRY",
+			["hideAt"] = 0,
+		}, -- [30]
+		{
+			["statKey"] = "BLOCK",
+			["hideAt"] = 0,
+		}, -- [31]
+		{
+			["statKey"] = "ITEMLEVEL",
+			["hidden"] = true,
+		}, -- [32]
+		{
+			["statKey"] = "DCS_POWER",
+		}, -- [33]
+		{
+			["statKey"] = "PARRY_RATING",
+			["hideAt"] = 0,
+		}, -- [34]
+		{
+			["statKey"] = "DODGE_RATING",
+			["hideAt"] = 0,
+		}, -- [35]
+		{
+			["statKey"] = "HASTE_RATING",
+			["hideAt"] = 0,
+		}, -- [36]
+		{
+			["statKey"] = "VERSATILITY_RATING",
+			["hideAt"] = 0,
+		}, -- [37]
+		{
+			["statKey"] = "MASTERY_RATING",
+			["hideAt"] = 0,
+		}, -- [38]
+		{
+			["statKey"] = "CRITCHANCE_RATING",
+			["hideAt"] = 0,
+		}, -- [39]
+		{
+			["statKey"] = "DCS_ALTERNATEMANA",
+		}, -- [40]
+		{
+			["statKey"] = "LIFESTEAL_RATING",
+			["hideAt"] = 0,
+		}, -- [41]
+		{
+			["statKey"] = "AVOIDANCE_RATING",
+			["hideAt"] = 0,
+		}, -- [42]
+		{
+			["statKey"] = "RatingCategory",
+		}, -- [43]
+		{
+			["statKey"] = "OffenseCategory",
+		}, -- [44]
+		{
+			["statKey"] = "GeneralCategory",
+		}, -- [45]
+		{
+			["statKey"] = "DefenseCategory",
+		}, -- [46]
+		{
+			["statKey"] = "SPEED",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [47]
+		{
+			["statKey"] = "STAGGER",
+		}, -- [48]
+		{
+			["statKey"] = "SPEED_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [49]
+		["uniqueKey"] = "Trïxxed:Ravencrest:1",
+	},
+	["Trixbankxed:Shadowsong:3"] = {
+		{
+			["statKey"] = "ItemLevelFrame",
+		}, -- [1]
+		{
+			["statKey"] = "GeneralCategory",
+		}, -- [2]
+		{
+			["statKey"] = "HEALTH",
+		}, -- [3]
+		{
+			["statKey"] = "DCS_POWER",
+		}, -- [4]
+		{
+			["statKey"] = "DCS_ALTERNATEMANA",
+		}, -- [5]
+		{
+			["statKey"] = "ITEMLEVEL",
+			["hidden"] = true,
+		}, -- [6]
+		{
+			["statKey"] = "MOVESPEED",
+		}, -- [7]
+		{
+			["statKey"] = "DURABILITY_STAT",
+		}, -- [8]
+		{
+			["statKey"] = "REPAIR_COST",
+		}, -- [9]
+		{
+			["statKey"] = "AttributesCategory",
+		}, -- [10]
+		{
+			["statKey"] = "STRENGTH",
+			["hidden"] = true,
+		}, -- [11]
+		{
+			["statKey"] = "AGILITY",
+			["hidden"] = true,
+		}, -- [12]
+		{
+			["statKey"] = "INTELLECT",
+		}, -- [13]
+		{
+			["statKey"] = "STAMINA",
+		}, -- [14]
+		{
+			["statKey"] = "ARMOR",
+		}, -- [15]
+		{
+			["statKey"] = "OffenseCategory",
+		}, -- [16]
+		{
+			["statKey"] = "ATTACK_DAMAGE",
+			["hidden"] = true,
+		}, -- [17]
+		{
+			["statKey"] = "ATTACK_AP",
+			["hidden"] = true,
+		}, -- [18]
+		{
+			["statKey"] = "DCS_ATTACK_ATTACKSPEED",
+			["hidden"] = true,
+		}, -- [19]
+		{
+			["statKey"] = "WEAPON_DPS",
+			["hidden"] = true,
+		}, -- [20]
+		{
+			["statKey"] = "SPELLPOWER",
+		}, -- [21]
+		{
+			["statKey"] = "MANAREGEN",
+		}, -- [22]
+		{
+			["statKey"] = "ENERGY_REGEN",
+		}, -- [23]
+		{
+			["statKey"] = "DCS_RUNEREGEN",
+			["hidden"] = true,
+		}, -- [24]
+		{
+			["statKey"] = "FOCUS_REGEN",
+		}, -- [25]
+		{
+			["statKey"] = "GCD",
+		}, -- [26]
+		{
+			["statKey"] = "EnhancementsCategory",
+		}, -- [27]
+		{
+			["statKey"] = "CRITCHANCE",
+			["hideAt"] = 0,
+		}, -- [28]
+		{
+			["statKey"] = "HASTE",
+			["hideAt"] = 0,
+		}, -- [29]
+		{
+			["statKey"] = "VERSATILITY",
+			["hideAt"] = 0,
+		}, -- [30]
+		{
+			["statKey"] = "MASTERY",
+			["hideAt"] = 0,
+		}, -- [31]
+		{
+			["statKey"] = "LIFESTEAL",
+			["hideAt"] = 0,
+		}, -- [32]
+		{
+			["statKey"] = "AVOIDANCE",
+			["hideAt"] = 0,
+		}, -- [33]
+		{
+			["statKey"] = "DefenseCategory",
+			["hidden"] = true,
+		}, -- [34]
+		{
+			["statKey"] = "DODGE",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [35]
+		{
+			["statKey"] = "PARRY",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [36]
+		{
+			["statKey"] = "BLOCK",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [37]
+		{
+			["statKey"] = "RatingCategory",
+			["hidden"] = true,
+		}, -- [38]
+		{
+			["statKey"] = "CRITCHANCE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [39]
+		{
+			["statKey"] = "HASTE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [40]
+		{
+			["statKey"] = "VERSATILITY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [41]
+		{
+			["statKey"] = "MASTERY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [42]
+		{
+			["statKey"] = "LIFESTEAL_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [43]
+		{
+			["statKey"] = "AVOIDANCE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [44]
+		{
+			["statKey"] = "DODGE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [45]
+		{
+			["statKey"] = "PARRY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [46]
+		{
+			["statKey"] = "SPEED",
+		}, -- [47]
+		["uniqueKey"] = "Trixbankxed:Shadowsong:3",
 	},
 	["Monkshood:Draenor:3"] = {
 		{
@@ -9185,369 +10696,376 @@ DCS_ClassSpecDB = {
 		}, -- [47]
 		["uniqueKey"] = "Monkshood:Draenor:3",
 	},
-	["Trîxxed:Ravencrest:2"] = {
+	["Palladium:Ravencrest:3"] = {
 		{
 			["statKey"] = "ItemLevelFrame",
 		}, -- [1]
 		{
-			["statKey"] = "AttributesCategory",
+			["statKey"] = "GeneralCategory",
 		}, -- [2]
 		{
 			["statKey"] = "HEALTH",
 		}, -- [3]
 		{
-			["statKey"] = "ARMOR",
+			["statKey"] = "DCS_POWER",
 		}, -- [4]
 		{
-			["statKey"] = "STRENGTH",
-			["hidden"] = true,
+			["statKey"] = "DCS_ALTERNATEMANA",
 		}, -- [5]
 		{
-			["statKey"] = "AGILITY",
+			["statKey"] = "ITEMLEVEL",
 			["hidden"] = true,
 		}, -- [6]
 		{
-			["statKey"] = "INTELLECT",
-			["hidden"] = true,
+			["statKey"] = "MOVESPEED",
 		}, -- [7]
 		{
-			["statKey"] = "STAMINA",
+			["statKey"] = "DURABILITY_STAT",
 		}, -- [8]
 		{
-			["statKey"] = "ATTACK_DAMAGE",
+			["statKey"] = "REPAIR_COST",
 		}, -- [9]
 		{
-			["statKey"] = "ATTACK_AP",
+			["statKey"] = "AttributesCategory",
 		}, -- [10]
 		{
-			["statKey"] = "DCS_ATTACK_ATTACKSPEED",
+			["statKey"] = "STRENGTH",
 		}, -- [11]
 		{
-			["statKey"] = "WEAPON_DPS",
+			["statKey"] = "AGILITY",
+			["hidden"] = true,
 		}, -- [12]
 		{
-			["statKey"] = "SPELLPOWER",
+			["statKey"] = "INTELLECT",
 			["hidden"] = true,
 		}, -- [13]
 		{
-			["statKey"] = "MANAREGEN",
-			["hidden"] = true,
+			["statKey"] = "STAMINA",
 		}, -- [14]
 		{
-			["statKey"] = "ENERGY_REGEN",
-			["hidden"] = true,
+			["statKey"] = "ARMOR",
 		}, -- [15]
 		{
-			["statKey"] = "DCS_RUNEREGEN",
-			["hidden"] = true,
+			["statKey"] = "OffenseCategory",
 		}, -- [16]
 		{
-			["statKey"] = "FOCUS_REGEN",
+			["statKey"] = "ATTACK_DAMAGE",
 		}, -- [17]
 		{
-			["statKey"] = "MOVESPEED",
+			["statKey"] = "ATTACK_AP",
 		}, -- [18]
 		{
-			["statKey"] = "GCD",
+			["statKey"] = "DCS_ATTACK_ATTACKSPEED",
 		}, -- [19]
 		{
-			["statKey"] = "DURABILITY_STAT",
+			["statKey"] = "WEAPON_DPS",
 		}, -- [20]
 		{
-			["statKey"] = "REPAIR_COST",
+			["statKey"] = "SPELLPOWER",
+			["hidden"] = true,
 		}, -- [21]
 		{
-			["statKey"] = "EnhancementsCategory",
+			["statKey"] = "MANAREGEN",
+			["hidden"] = true,
 		}, -- [22]
+		{
+			["statKey"] = "ENERGY_REGEN",
+		}, -- [23]
+		{
+			["statKey"] = "DCS_RUNEREGEN",
+		}, -- [24]
+		{
+			["statKey"] = "FOCUS_REGEN",
+		}, -- [25]
+		{
+			["statKey"] = "GCD",
+		}, -- [26]
+		{
+			["statKey"] = "EnhancementsCategory",
+		}, -- [27]
 		{
 			["statKey"] = "CRITCHANCE",
 			["hideAt"] = 0,
-		}, -- [23]
+		}, -- [28]
 		{
 			["statKey"] = "HASTE",
 			["hideAt"] = 0,
-		}, -- [24]
+		}, -- [29]
 		{
 			["statKey"] = "VERSATILITY",
 			["hideAt"] = 0,
-		}, -- [25]
+		}, -- [30]
 		{
 			["statKey"] = "MASTERY",
 			["hideAt"] = 0,
-		}, -- [26]
+		}, -- [31]
 		{
 			["statKey"] = "LIFESTEAL",
 			["hideAt"] = 0,
-		}, -- [27]
+		}, -- [32]
 		{
 			["statKey"] = "AVOIDANCE",
 			["hideAt"] = 0,
-		}, -- [28]
+		}, -- [33]
+		{
+			["statKey"] = "DefenseCategory",
+			["hidden"] = true,
+		}, -- [34]
 		{
 			["statKey"] = "DODGE",
 			["hideAt"] = 0,
 			["hidden"] = true,
-		}, -- [29]
+		}, -- [35]
 		{
 			["statKey"] = "PARRY",
 			["hideAt"] = 0,
 			["hidden"] = true,
-		}, -- [30]
+		}, -- [36]
 		{
 			["statKey"] = "BLOCK",
 			["hideAt"] = 0,
 			["hidden"] = true,
-		}, -- [31]
-		{
-			["statKey"] = "ITEMLEVEL",
-			["hidden"] = true,
-		}, -- [32]
-		{
-			["statKey"] = "DCS_POWER",
-		}, -- [33]
-		{
-			["statKey"] = "PARRY_RATING",
-			["hideAt"] = 0,
-		}, -- [34]
-		{
-			["statKey"] = "DODGE_RATING",
-			["hideAt"] = 0,
-		}, -- [35]
-		{
-			["statKey"] = "HASTE_RATING",
-			["hideAt"] = 0,
-		}, -- [36]
-		{
-			["statKey"] = "VERSATILITY_RATING",
-			["hideAt"] = 0,
 		}, -- [37]
 		{
-			["statKey"] = "MASTERY_RATING",
-			["hideAt"] = 0,
+			["statKey"] = "RatingCategory",
+			["hidden"] = true,
 		}, -- [38]
 		{
 			["statKey"] = "CRITCHANCE_RATING",
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [39]
 		{
-			["statKey"] = "DCS_ALTERNATEMANA",
+			["statKey"] = "HASTE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [40]
+		{
+			["statKey"] = "VERSATILITY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [41]
+		{
+			["statKey"] = "MASTERY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [42]
 		{
 			["statKey"] = "LIFESTEAL_RATING",
 			["hideAt"] = 0,
-		}, -- [41]
+			["hidden"] = true,
+		}, -- [43]
 		{
 			["statKey"] = "AVOIDANCE_RATING",
 			["hideAt"] = 0,
-		}, -- [42]
-		{
-			["statKey"] = "RatingCategory",
-		}, -- [43]
-		{
-			["statKey"] = "OffenseCategory",
+			["hidden"] = true,
 		}, -- [44]
 		{
-			["statKey"] = "GeneralCategory",
+			["statKey"] = "DODGE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [45]
 		{
-			["statKey"] = "DefenseCategory",
+			["statKey"] = "PARRY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [46]
 		{
 			["statKey"] = "SPEED",
-			["hideAt"] = 0,
-			["hidden"] = true,
 		}, -- [47]
-		{
-			["statKey"] = "STAGGER",
-		}, -- [48]
-		{
-			["statKey"] = "SPEED_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [49]
-		["uniqueKey"] = "Trîxxed:Ravencrest:2",
+		["uniqueKey"] = "Palladium:Ravencrest:3",
 	},
-	["Eruditus:Ravencrest:2"] = {
+	["Lycotonum:Tarren Mill:2"] = {
 		{
 			["statKey"] = "ItemLevelFrame",
 		}, -- [1]
 		{
-			["statKey"] = "AttributesCategory",
+			["statKey"] = "GeneralCategory",
 		}, -- [2]
 		{
 			["statKey"] = "HEALTH",
 		}, -- [3]
 		{
-			["statKey"] = "ARMOR",
+			["statKey"] = "DCS_POWER",
 		}, -- [4]
 		{
-			["statKey"] = "STRENGTH",
-			["hidden"] = true,
+			["statKey"] = "DCS_ALTERNATEMANA",
 		}, -- [5]
 		{
-			["statKey"] = "AGILITY",
+			["statKey"] = "ITEMLEVEL",
 			["hidden"] = true,
 		}, -- [6]
 		{
-			["statKey"] = "INTELLECT",
-			["hidden"] = true,
+			["statKey"] = "MOVESPEED",
 		}, -- [7]
 		{
-			["statKey"] = "STAMINA",
+			["statKey"] = "DURABILITY_STAT",
 		}, -- [8]
 		{
-			["statKey"] = "ATTACK_DAMAGE",
+			["statKey"] = "REPAIR_COST",
 		}, -- [9]
 		{
-			["statKey"] = "ATTACK_AP",
+			["statKey"] = "AttributesCategory",
 		}, -- [10]
 		{
-			["statKey"] = "DCS_ATTACK_ATTACKSPEED",
+			["statKey"] = "STRENGTH",
+			["hidden"] = true,
 		}, -- [11]
 		{
-			["statKey"] = "WEAPON_DPS",
+			["statKey"] = "AGILITY",
+			["hidden"] = true,
 		}, -- [12]
 		{
-			["statKey"] = "SPELLPOWER",
-			["hidden"] = true,
+			["statKey"] = "INTELLECT",
 		}, -- [13]
 		{
-			["statKey"] = "MANAREGEN",
-			["hidden"] = true,
+			["statKey"] = "STAMINA",
 		}, -- [14]
 		{
-			["statKey"] = "ENERGY_REGEN",
-			["hidden"] = true,
+			["statKey"] = "ARMOR",
 		}, -- [15]
+		{
+			["statKey"] = "OffenseCategory",
+		}, -- [16]
+		{
+			["statKey"] = "ATTACK_DAMAGE",
+			["hidden"] = true,
+		}, -- [17]
+		{
+			["statKey"] = "ATTACK_AP",
+			["hidden"] = true,
+		}, -- [18]
+		{
+			["statKey"] = "DCS_ATTACK_ATTACKSPEED",
+			["hidden"] = true,
+		}, -- [19]
+		{
+			["statKey"] = "WEAPON_DPS",
+			["hidden"] = true,
+		}, -- [20]
+		{
+			["statKey"] = "SPELLPOWER",
+		}, -- [21]
+		{
+			["statKey"] = "MANAREGEN",
+		}, -- [22]
+		{
+			["statKey"] = "ENERGY_REGEN",
+		}, -- [23]
 		{
 			["statKey"] = "DCS_RUNEREGEN",
 			["hidden"] = true,
-		}, -- [16]
+		}, -- [24]
 		{
 			["statKey"] = "FOCUS_REGEN",
-		}, -- [17]
-		{
-			["statKey"] = "MOVESPEED",
-		}, -- [18]
+		}, -- [25]
 		{
 			["statKey"] = "GCD",
-		}, -- [19]
-		{
-			["statKey"] = "DURABILITY_STAT",
-		}, -- [20]
-		{
-			["statKey"] = "REPAIR_COST",
-		}, -- [21]
+		}, -- [26]
 		{
 			["statKey"] = "EnhancementsCategory",
-		}, -- [22]
+		}, -- [27]
 		{
 			["statKey"] = "CRITCHANCE",
 			["hideAt"] = 0,
-		}, -- [23]
+		}, -- [28]
 		{
 			["statKey"] = "HASTE",
 			["hideAt"] = 0,
-		}, -- [24]
+		}, -- [29]
 		{
 			["statKey"] = "VERSATILITY",
 			["hideAt"] = 0,
-		}, -- [25]
+		}, -- [30]
 		{
 			["statKey"] = "MASTERY",
 			["hideAt"] = 0,
-		}, -- [26]
+		}, -- [31]
 		{
 			["statKey"] = "LIFESTEAL",
 			["hideAt"] = 0,
-		}, -- [27]
+		}, -- [32]
 		{
 			["statKey"] = "AVOIDANCE",
 			["hideAt"] = 0,
-		}, -- [28]
+		}, -- [33]
+		{
+			["statKey"] = "DefenseCategory",
+			["hidden"] = true,
+		}, -- [34]
 		{
 			["statKey"] = "DODGE",
 			["hideAt"] = 0,
 			["hidden"] = true,
-		}, -- [29]
+		}, -- [35]
 		{
 			["statKey"] = "PARRY",
 			["hideAt"] = 0,
 			["hidden"] = true,
-		}, -- [30]
+		}, -- [36]
 		{
 			["statKey"] = "BLOCK",
 			["hideAt"] = 0,
 			["hidden"] = true,
-		}, -- [31]
-		{
-			["statKey"] = "ITEMLEVEL",
-			["hidden"] = true,
-		}, -- [32]
-		{
-			["statKey"] = "DCS_POWER",
-		}, -- [33]
-		{
-			["statKey"] = "PARRY_RATING",
-			["hideAt"] = 0,
-		}, -- [34]
-		{
-			["statKey"] = "DODGE_RATING",
-			["hideAt"] = 0,
-		}, -- [35]
-		{
-			["statKey"] = "HASTE_RATING",
-			["hideAt"] = 0,
-		}, -- [36]
-		{
-			["statKey"] = "VERSATILITY_RATING",
-			["hideAt"] = 0,
 		}, -- [37]
 		{
-			["statKey"] = "MASTERY_RATING",
-			["hideAt"] = 0,
+			["statKey"] = "RatingCategory",
+			["hidden"] = true,
 		}, -- [38]
 		{
 			["statKey"] = "CRITCHANCE_RATING",
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [39]
 		{
-			["statKey"] = "DCS_ALTERNATEMANA",
+			["statKey"] = "HASTE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [40]
+		{
+			["statKey"] = "VERSATILITY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [41]
+		{
+			["statKey"] = "MASTERY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [42]
 		{
 			["statKey"] = "LIFESTEAL_RATING",
 			["hideAt"] = 0,
-		}, -- [41]
+			["hidden"] = true,
+		}, -- [43]
 		{
 			["statKey"] = "AVOIDANCE_RATING",
 			["hideAt"] = 0,
-		}, -- [42]
-		{
-			["statKey"] = "RatingCategory",
-		}, -- [43]
-		{
-			["statKey"] = "OffenseCategory",
+			["hidden"] = true,
 		}, -- [44]
 		{
-			["statKey"] = "GeneralCategory",
-		}, -- [45]
-		{
-			["statKey"] = "DefenseCategory",
-		}, -- [46]
-		{
-			["statKey"] = "SPEED",
+			["statKey"] = "DODGE_RATING",
 			["hideAt"] = 0,
 			["hidden"] = true,
-		}, -- [47]
+		}, -- [45]
 		{
-			["statKey"] = "STAGGER",
-		}, -- [48]
+			["statKey"] = "PARRY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [46]
 		{
 			["statKey"] = "SPEED_RATING",
 			["hideAt"] = 0,
 			["hidden"] = true,
+		}, -- [47]
+		{
+			["statKey"] = "SPEED",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [48]
+		{
+			["statKey"] = "STAGGER",
 		}, -- [49]
-		["uniqueKey"] = "Eruditus:Ravencrest:2",
+		["uniqueKey"] = "Lycotonum:Tarren Mill:2",
 	},
 	["Chrysante:Ravencrest:2"] = {
 		{
@@ -9737,12 +11255,12 @@ DCS_ClassSpecDB = {
 		}, -- [49]
 		["uniqueKey"] = "Chrysante:Ravencrest:2",
 	},
-	["Earthina:Argent Dawn:2"] = {
+	["Achilina:Ravencrest:3"] = {
 		{
 			["statKey"] = "ItemLevelFrame",
 		}, -- [1]
 		{
-			["statKey"] = "GeneralCategory",
+			["statKey"] = "AttributesCategory",
 		}, -- [2]
 		{
 			["statKey"] = "HEALTH",
@@ -9754,168 +11272,175 @@ DCS_ClassSpecDB = {
 			["statKey"] = "DCS_ALTERNATEMANA",
 		}, -- [5]
 		{
-			["statKey"] = "ITEMLEVEL",
-			["hidden"] = true,
+			["statKey"] = "ARMOR",
 		}, -- [6]
 		{
-			["statKey"] = "MOVESPEED",
+			["statKey"] = "STRENGTH",
 		}, -- [7]
 		{
-			["statKey"] = "DURABILITY_STAT",
-		}, -- [8]
-		{
-			["statKey"] = "REPAIR_COST",
-		}, -- [9]
-		{
-			["statKey"] = "AttributesCategory",
-		}, -- [10]
-		{
-			["statKey"] = "STRENGTH",
-			["hidden"] = true,
-		}, -- [11]
-		{
 			["statKey"] = "AGILITY",
-		}, -- [12]
+			["hidden"] = true,
+		}, -- [8]
 		{
 			["statKey"] = "INTELLECT",
 			["hidden"] = true,
-		}, -- [13]
+		}, -- [9]
 		{
 			["statKey"] = "STAMINA",
-		}, -- [14]
-		{
-			["statKey"] = "ARMOR",
-		}, -- [15]
-		{
-			["statKey"] = "OffenseCategory",
-		}, -- [16]
+		}, -- [10]
 		{
 			["statKey"] = "ATTACK_DAMAGE",
-		}, -- [17]
+		}, -- [11]
 		{
 			["statKey"] = "ATTACK_AP",
-		}, -- [18]
+		}, -- [12]
 		{
 			["statKey"] = "DCS_ATTACK_ATTACKSPEED",
-		}, -- [19]
+		}, -- [13]
 		{
 			["statKey"] = "WEAPON_DPS",
-		}, -- [20]
+		}, -- [14]
 		{
 			["statKey"] = "SPELLPOWER",
 			["hidden"] = true,
-		}, -- [21]
+		}, -- [15]
 		{
 			["statKey"] = "MANAREGEN",
 			["hidden"] = true,
-		}, -- [22]
+		}, -- [16]
 		{
 			["statKey"] = "ENERGY_REGEN",
-		}, -- [23]
+		}, -- [17]
 		{
 			["statKey"] = "DCS_RUNEREGEN",
-			["hidden"] = true,
-		}, -- [24]
+		}, -- [18]
 		{
 			["statKey"] = "FOCUS_REGEN",
-		}, -- [25]
+		}, -- [19]
+		{
+			["statKey"] = "MOVESPEED",
+		}, -- [20]
 		{
 			["statKey"] = "GCD",
-		}, -- [26]
+		}, -- [21]
+		{
+			["statKey"] = "DURABILITY_STAT",
+		}, -- [22]
+		{
+			["statKey"] = "REPAIR_COST",
+		}, -- [23]
 		{
 			["statKey"] = "EnhancementsCategory",
-		}, -- [27]
+		}, -- [24]
 		{
 			["statKey"] = "CRITCHANCE",
 			["hideAt"] = 0,
-		}, -- [28]
+		}, -- [25]
 		{
 			["statKey"] = "HASTE",
 			["hideAt"] = 0,
-		}, -- [29]
+		}, -- [26]
 		{
 			["statKey"] = "VERSATILITY",
 			["hideAt"] = 0,
-		}, -- [30]
+		}, -- [27]
 		{
 			["statKey"] = "MASTERY",
 			["hideAt"] = 0,
-		}, -- [31]
+		}, -- [28]
 		{
 			["statKey"] = "LIFESTEAL",
 			["hideAt"] = 0,
-		}, -- [32]
+		}, -- [29]
 		{
 			["statKey"] = "AVOIDANCE",
 			["hideAt"] = 0,
-		}, -- [33]
-		{
-			["statKey"] = "DefenseCategory",
-			["hidden"] = true,
-		}, -- [34]
+		}, -- [30]
 		{
 			["statKey"] = "DODGE",
 			["hideAt"] = 0,
 			["hidden"] = true,
-		}, -- [35]
+		}, -- [31]
 		{
 			["statKey"] = "PARRY",
 			["hideAt"] = 0,
 			["hidden"] = true,
-		}, -- [36]
+		}, -- [32]
 		{
 			["statKey"] = "BLOCK",
 			["hideAt"] = 0,
 			["hidden"] = true,
-		}, -- [37]
-		{
-			["statKey"] = "RatingCategory",
-			["hidden"] = true,
-		}, -- [38]
+		}, -- [33]
 		{
 			["statKey"] = "CRITCHANCE_RATING",
 			["hideAt"] = 0,
 			["hidden"] = true,
-		}, -- [39]
+		}, -- [34]
 		{
 			["statKey"] = "HASTE_RATING",
 			["hideAt"] = 0,
 			["hidden"] = true,
-		}, -- [40]
+		}, -- [35]
 		{
 			["statKey"] = "VERSATILITY_RATING",
 			["hideAt"] = 0,
 			["hidden"] = true,
-		}, -- [41]
+		}, -- [36]
 		{
 			["statKey"] = "MASTERY_RATING",
 			["hideAt"] = 0,
 			["hidden"] = true,
-		}, -- [42]
+		}, -- [37]
 		{
 			["statKey"] = "LIFESTEAL_RATING",
 			["hideAt"] = 0,
 			["hidden"] = true,
-		}, -- [43]
+		}, -- [38]
 		{
 			["statKey"] = "AVOIDANCE_RATING",
 			["hideAt"] = 0,
 			["hidden"] = true,
-		}, -- [44]
+		}, -- [39]
 		{
 			["statKey"] = "DODGE_RATING",
 			["hideAt"] = 0,
 			["hidden"] = true,
-		}, -- [45]
+		}, -- [40]
 		{
 			["statKey"] = "PARRY_RATING",
 			["hideAt"] = 0,
 			["hidden"] = true,
-		}, -- [46]
+		}, -- [41]
+		{
+			["statKey"] = "ITEMLEVEL",
+			["hidden"] = true,
+		}, -- [42]
+		{
+			["statKey"] = "RatingCategory",
+		}, -- [43]
 		{
 			["statKey"] = "SPEED",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [44]
+		{
+			["statKey"] = "OffenseCategory",
+		}, -- [45]
+		{
+			["statKey"] = "GeneralCategory",
+		}, -- [46]
+		{
+			["statKey"] = "DefenseCategory",
 		}, -- [47]
-		["uniqueKey"] = "Earthina:Argent Dawn:2",
+		{
+			["statKey"] = "STAGGER",
+		}, -- [48]
+		{
+			["statKey"] = "SPEED_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [49]
+		["uniqueKey"] = "Achilina:Ravencrest:3",
 	},
 	["Achilina:Draenor:2"] = {
 		{
@@ -10476,194 +12001,7 @@ DCS_ClassSpecDB = {
 		}, -- [49]
 		["uniqueKey"] = "Shankspeare:Kazzak:2",
 	},
-	["Achilina:Ravencrest:3"] = {
-		{
-			["statKey"] = "ItemLevelFrame",
-		}, -- [1]
-		{
-			["statKey"] = "AttributesCategory",
-		}, -- [2]
-		{
-			["statKey"] = "HEALTH",
-		}, -- [3]
-		{
-			["statKey"] = "DCS_POWER",
-		}, -- [4]
-		{
-			["statKey"] = "DCS_ALTERNATEMANA",
-		}, -- [5]
-		{
-			["statKey"] = "ARMOR",
-		}, -- [6]
-		{
-			["statKey"] = "STRENGTH",
-		}, -- [7]
-		{
-			["statKey"] = "AGILITY",
-			["hidden"] = true,
-		}, -- [8]
-		{
-			["statKey"] = "INTELLECT",
-			["hidden"] = true,
-		}, -- [9]
-		{
-			["statKey"] = "STAMINA",
-		}, -- [10]
-		{
-			["statKey"] = "ATTACK_DAMAGE",
-		}, -- [11]
-		{
-			["statKey"] = "ATTACK_AP",
-		}, -- [12]
-		{
-			["statKey"] = "DCS_ATTACK_ATTACKSPEED",
-		}, -- [13]
-		{
-			["statKey"] = "WEAPON_DPS",
-		}, -- [14]
-		{
-			["statKey"] = "SPELLPOWER",
-			["hidden"] = true,
-		}, -- [15]
-		{
-			["statKey"] = "MANAREGEN",
-			["hidden"] = true,
-		}, -- [16]
-		{
-			["statKey"] = "ENERGY_REGEN",
-		}, -- [17]
-		{
-			["statKey"] = "DCS_RUNEREGEN",
-		}, -- [18]
-		{
-			["statKey"] = "FOCUS_REGEN",
-		}, -- [19]
-		{
-			["statKey"] = "MOVESPEED",
-		}, -- [20]
-		{
-			["statKey"] = "GCD",
-		}, -- [21]
-		{
-			["statKey"] = "DURABILITY_STAT",
-		}, -- [22]
-		{
-			["statKey"] = "REPAIR_COST",
-		}, -- [23]
-		{
-			["statKey"] = "EnhancementsCategory",
-		}, -- [24]
-		{
-			["statKey"] = "CRITCHANCE",
-			["hideAt"] = 0,
-		}, -- [25]
-		{
-			["statKey"] = "HASTE",
-			["hideAt"] = 0,
-		}, -- [26]
-		{
-			["statKey"] = "VERSATILITY",
-			["hideAt"] = 0,
-		}, -- [27]
-		{
-			["statKey"] = "MASTERY",
-			["hideAt"] = 0,
-		}, -- [28]
-		{
-			["statKey"] = "LIFESTEAL",
-			["hideAt"] = 0,
-		}, -- [29]
-		{
-			["statKey"] = "AVOIDANCE",
-			["hideAt"] = 0,
-		}, -- [30]
-		{
-			["statKey"] = "DODGE",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [31]
-		{
-			["statKey"] = "PARRY",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [32]
-		{
-			["statKey"] = "BLOCK",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [33]
-		{
-			["statKey"] = "CRITCHANCE_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [34]
-		{
-			["statKey"] = "HASTE_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [35]
-		{
-			["statKey"] = "VERSATILITY_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [36]
-		{
-			["statKey"] = "MASTERY_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [37]
-		{
-			["statKey"] = "LIFESTEAL_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [38]
-		{
-			["statKey"] = "AVOIDANCE_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [39]
-		{
-			["statKey"] = "DODGE_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [40]
-		{
-			["statKey"] = "PARRY_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [41]
-		{
-			["statKey"] = "ITEMLEVEL",
-			["hidden"] = true,
-		}, -- [42]
-		{
-			["statKey"] = "RatingCategory",
-		}, -- [43]
-		{
-			["statKey"] = "SPEED",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [44]
-		{
-			["statKey"] = "OffenseCategory",
-		}, -- [45]
-		{
-			["statKey"] = "GeneralCategory",
-		}, -- [46]
-		{
-			["statKey"] = "DefenseCategory",
-		}, -- [47]
-		{
-			["statKey"] = "STAGGER",
-		}, -- [48]
-		{
-			["statKey"] = "SPEED_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [49]
-		["uniqueKey"] = "Achilina:Ravencrest:3",
-	},
-	["Palladium:Ravencrest:3"] = {
+	["Earthina:Argent Dawn:2"] = {
 		{
 			["statKey"] = "ItemLevelFrame",
 		}, -- [1]
@@ -10697,10 +12035,10 @@ DCS_ClassSpecDB = {
 		}, -- [10]
 		{
 			["statKey"] = "STRENGTH",
+			["hidden"] = true,
 		}, -- [11]
 		{
 			["statKey"] = "AGILITY",
-			["hidden"] = true,
 		}, -- [12]
 		{
 			["statKey"] = "INTELLECT",
@@ -10740,6 +12078,7 @@ DCS_ClassSpecDB = {
 		}, -- [23]
 		{
 			["statKey"] = "DCS_RUNEREGEN",
+			["hidden"] = true,
 		}, -- [24]
 		{
 			["statKey"] = "FOCUS_REGEN",
@@ -10840,9 +12179,9 @@ DCS_ClassSpecDB = {
 		{
 			["statKey"] = "SPEED",
 		}, -- [47]
-		["uniqueKey"] = "Palladium:Ravencrest:3",
+		["uniqueKey"] = "Earthina:Argent Dawn:2",
 	},
-	["Lycotonum:Tarren Mill:2"] = {
+	["Shankspeare:Tarren Mill:1"] = {
 		{
 			["statKey"] = "ItemLevelFrame",
 		}, -- [1]
@@ -10880,10 +12219,10 @@ DCS_ClassSpecDB = {
 		}, -- [11]
 		{
 			["statKey"] = "AGILITY",
-			["hidden"] = true,
 		}, -- [12]
 		{
 			["statKey"] = "INTELLECT",
+			["hidden"] = true,
 		}, -- [13]
 		{
 			["statKey"] = "STAMINA",
@@ -10896,25 +12235,23 @@ DCS_ClassSpecDB = {
 		}, -- [16]
 		{
 			["statKey"] = "ATTACK_DAMAGE",
-			["hidden"] = true,
 		}, -- [17]
 		{
 			["statKey"] = "ATTACK_AP",
-			["hidden"] = true,
 		}, -- [18]
 		{
 			["statKey"] = "DCS_ATTACK_ATTACKSPEED",
-			["hidden"] = true,
 		}, -- [19]
 		{
 			["statKey"] = "WEAPON_DPS",
-			["hidden"] = true,
 		}, -- [20]
 		{
 			["statKey"] = "SPELLPOWER",
+			["hidden"] = true,
 		}, -- [21]
 		{
 			["statKey"] = "MANAREGEN",
+			["hidden"] = true,
 		}, -- [22]
 		{
 			["statKey"] = "ENERGY_REGEN",
@@ -11032,383 +12369,9 @@ DCS_ClassSpecDB = {
 		{
 			["statKey"] = "STAGGER",
 		}, -- [49]
-		["uniqueKey"] = "Lycotonum:Tarren Mill:2",
+		["uniqueKey"] = "Shankspeare:Tarren Mill:1",
 	},
-	["Trixbankxed:Shadowsong:3"] = {
-		{
-			["statKey"] = "ItemLevelFrame",
-		}, -- [1]
-		{
-			["statKey"] = "GeneralCategory",
-		}, -- [2]
-		{
-			["statKey"] = "HEALTH",
-		}, -- [3]
-		{
-			["statKey"] = "DCS_POWER",
-		}, -- [4]
-		{
-			["statKey"] = "DCS_ALTERNATEMANA",
-		}, -- [5]
-		{
-			["statKey"] = "ITEMLEVEL",
-			["hidden"] = true,
-		}, -- [6]
-		{
-			["statKey"] = "MOVESPEED",
-		}, -- [7]
-		{
-			["statKey"] = "DURABILITY_STAT",
-		}, -- [8]
-		{
-			["statKey"] = "REPAIR_COST",
-		}, -- [9]
-		{
-			["statKey"] = "AttributesCategory",
-		}, -- [10]
-		{
-			["statKey"] = "STRENGTH",
-			["hidden"] = true,
-		}, -- [11]
-		{
-			["statKey"] = "AGILITY",
-			["hidden"] = true,
-		}, -- [12]
-		{
-			["statKey"] = "INTELLECT",
-		}, -- [13]
-		{
-			["statKey"] = "STAMINA",
-		}, -- [14]
-		{
-			["statKey"] = "ARMOR",
-		}, -- [15]
-		{
-			["statKey"] = "OffenseCategory",
-		}, -- [16]
-		{
-			["statKey"] = "ATTACK_DAMAGE",
-			["hidden"] = true,
-		}, -- [17]
-		{
-			["statKey"] = "ATTACK_AP",
-			["hidden"] = true,
-		}, -- [18]
-		{
-			["statKey"] = "DCS_ATTACK_ATTACKSPEED",
-			["hidden"] = true,
-		}, -- [19]
-		{
-			["statKey"] = "WEAPON_DPS",
-			["hidden"] = true,
-		}, -- [20]
-		{
-			["statKey"] = "SPELLPOWER",
-		}, -- [21]
-		{
-			["statKey"] = "MANAREGEN",
-		}, -- [22]
-		{
-			["statKey"] = "ENERGY_REGEN",
-		}, -- [23]
-		{
-			["statKey"] = "DCS_RUNEREGEN",
-			["hidden"] = true,
-		}, -- [24]
-		{
-			["statKey"] = "FOCUS_REGEN",
-		}, -- [25]
-		{
-			["statKey"] = "GCD",
-		}, -- [26]
-		{
-			["statKey"] = "EnhancementsCategory",
-		}, -- [27]
-		{
-			["statKey"] = "CRITCHANCE",
-			["hideAt"] = 0,
-		}, -- [28]
-		{
-			["statKey"] = "HASTE",
-			["hideAt"] = 0,
-		}, -- [29]
-		{
-			["statKey"] = "VERSATILITY",
-			["hideAt"] = 0,
-		}, -- [30]
-		{
-			["statKey"] = "MASTERY",
-			["hideAt"] = 0,
-		}, -- [31]
-		{
-			["statKey"] = "LIFESTEAL",
-			["hideAt"] = 0,
-		}, -- [32]
-		{
-			["statKey"] = "AVOIDANCE",
-			["hideAt"] = 0,
-		}, -- [33]
-		{
-			["statKey"] = "DefenseCategory",
-			["hidden"] = true,
-		}, -- [34]
-		{
-			["statKey"] = "DODGE",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [35]
-		{
-			["statKey"] = "PARRY",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [36]
-		{
-			["statKey"] = "BLOCK",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [37]
-		{
-			["statKey"] = "RatingCategory",
-			["hidden"] = true,
-		}, -- [38]
-		{
-			["statKey"] = "CRITCHANCE_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [39]
-		{
-			["statKey"] = "HASTE_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [40]
-		{
-			["statKey"] = "VERSATILITY_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [41]
-		{
-			["statKey"] = "MASTERY_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [42]
-		{
-			["statKey"] = "LIFESTEAL_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [43]
-		{
-			["statKey"] = "AVOIDANCE_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [44]
-		{
-			["statKey"] = "DODGE_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [45]
-		{
-			["statKey"] = "PARRY_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [46]
-		{
-			["statKey"] = "SPEED",
-		}, -- [47]
-		["uniqueKey"] = "Trixbankxed:Shadowsong:3",
-	},
-	["Eruditus:Ravencrest:3"] = {
-		{
-			["statKey"] = "ItemLevelFrame",
-		}, -- [1]
-		{
-			["statKey"] = "GeneralCategory",
-		}, -- [2]
-		{
-			["statKey"] = "HEALTH",
-		}, -- [3]
-		{
-			["statKey"] = "DCS_POWER",
-		}, -- [4]
-		{
-			["statKey"] = "DCS_ALTERNATEMANA",
-		}, -- [5]
-		{
-			["statKey"] = "ITEMLEVEL",
-			["hidden"] = true,
-		}, -- [6]
-		{
-			["statKey"] = "MOVESPEED",
-		}, -- [7]
-		{
-			["statKey"] = "DURABILITY_STAT",
-		}, -- [8]
-		{
-			["statKey"] = "REPAIR_COST",
-		}, -- [9]
-		{
-			["statKey"] = "AttributesCategory",
-		}, -- [10]
-		{
-			["statKey"] = "STRENGTH",
-			["hidden"] = true,
-		}, -- [11]
-		{
-			["statKey"] = "AGILITY",
-			["hidden"] = true,
-		}, -- [12]
-		{
-			["statKey"] = "INTELLECT",
-		}, -- [13]
-		{
-			["statKey"] = "STAMINA",
-		}, -- [14]
-		{
-			["statKey"] = "ARMOR",
-		}, -- [15]
-		{
-			["statKey"] = "OffenseCategory",
-		}, -- [16]
-		{
-			["statKey"] = "ATTACK_DAMAGE",
-			["hidden"] = true,
-		}, -- [17]
-		{
-			["statKey"] = "ATTACK_AP",
-			["hidden"] = true,
-		}, -- [18]
-		{
-			["statKey"] = "DCS_ATTACK_ATTACKSPEED",
-			["hidden"] = true,
-		}, -- [19]
-		{
-			["statKey"] = "WEAPON_DPS",
-			["hidden"] = true,
-		}, -- [20]
-		{
-			["statKey"] = "SPELLPOWER",
-		}, -- [21]
-		{
-			["statKey"] = "MANAREGEN",
-		}, -- [22]
-		{
-			["statKey"] = "ENERGY_REGEN",
-		}, -- [23]
-		{
-			["statKey"] = "DCS_RUNEREGEN",
-			["hidden"] = true,
-		}, -- [24]
-		{
-			["statKey"] = "FOCUS_REGEN",
-		}, -- [25]
-		{
-			["statKey"] = "GCD",
-		}, -- [26]
-		{
-			["statKey"] = "EnhancementsCategory",
-		}, -- [27]
-		{
-			["statKey"] = "CRITCHANCE",
-			["hideAt"] = 0,
-		}, -- [28]
-		{
-			["statKey"] = "HASTE",
-			["hideAt"] = 0,
-		}, -- [29]
-		{
-			["statKey"] = "VERSATILITY",
-			["hideAt"] = 0,
-		}, -- [30]
-		{
-			["statKey"] = "MASTERY",
-			["hideAt"] = 0,
-		}, -- [31]
-		{
-			["statKey"] = "LIFESTEAL",
-			["hideAt"] = 0,
-		}, -- [32]
-		{
-			["statKey"] = "AVOIDANCE",
-			["hideAt"] = 0,
-		}, -- [33]
-		{
-			["statKey"] = "DefenseCategory",
-			["hidden"] = true,
-		}, -- [34]
-		{
-			["statKey"] = "DODGE",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [35]
-		{
-			["statKey"] = "PARRY",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [36]
-		{
-			["statKey"] = "BLOCK",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [37]
-		{
-			["statKey"] = "RatingCategory",
-			["hidden"] = true,
-		}, -- [38]
-		{
-			["statKey"] = "CRITCHANCE_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [39]
-		{
-			["statKey"] = "HASTE_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [40]
-		{
-			["statKey"] = "VERSATILITY_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [41]
-		{
-			["statKey"] = "MASTERY_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [42]
-		{
-			["statKey"] = "LIFESTEAL_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [43]
-		{
-			["statKey"] = "AVOIDANCE_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [44]
-		{
-			["statKey"] = "DODGE_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [45]
-		{
-			["statKey"] = "PARRY_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [46]
-		{
-			["statKey"] = "SPEED",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [47]
-		{
-			["statKey"] = "STAGGER",
-		}, -- [48]
-		{
-			["statKey"] = "SPEED_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [49]
-		["uniqueKey"] = "Eruditus:Ravencrest:3",
-	},
-	["Trïxxed:Ravencrest:1"] = {
+	["Trîxxed:Ravencrest:2"] = {
 		{
 			["statKey"] = "ItemLevelFrame",
 		}, -- [1]
@@ -11423,6 +12386,7 @@ DCS_ClassSpecDB = {
 		}, -- [4]
 		{
 			["statKey"] = "STRENGTH",
+			["hidden"] = true,
 		}, -- [5]
 		{
 			["statKey"] = "AGILITY",
@@ -11461,6 +12425,7 @@ DCS_ClassSpecDB = {
 		}, -- [15]
 		{
 			["statKey"] = "DCS_RUNEREGEN",
+			["hidden"] = true,
 		}, -- [16]
 		{
 			["statKey"] = "FOCUS_REGEN",
@@ -11507,14 +12472,17 @@ DCS_ClassSpecDB = {
 		{
 			["statKey"] = "DODGE",
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [29]
 		{
 			["statKey"] = "PARRY",
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [30]
 		{
 			["statKey"] = "BLOCK",
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [31]
 		{
 			["statKey"] = "ITEMLEVEL",
@@ -11583,7 +12551,559 @@ DCS_ClassSpecDB = {
 			["hideAt"] = 0,
 			["hidden"] = true,
 		}, -- [49]
-		["uniqueKey"] = "Trïxxed:Ravencrest:1",
+		["uniqueKey"] = "Trîxxed:Ravencrest:2",
+	},
+	["Anneshank:Draenor:2"] = {
+		{
+			["statKey"] = "ItemLevelFrame",
+		}, -- [1]
+		{
+			["statKey"] = "GeneralCategory",
+		}, -- [2]
+		{
+			["statKey"] = "HEALTH",
+		}, -- [3]
+		{
+			["statKey"] = "DCS_POWER",
+		}, -- [4]
+		{
+			["statKey"] = "DCS_ALTERNATEMANA",
+		}, -- [5]
+		{
+			["statKey"] = "ITEMLEVEL",
+			["hidden"] = true,
+		}, -- [6]
+		{
+			["statKey"] = "MOVESPEED",
+		}, -- [7]
+		{
+			["statKey"] = "DURABILITY_STAT",
+		}, -- [8]
+		{
+			["statKey"] = "REPAIR_COST",
+		}, -- [9]
+		{
+			["statKey"] = "AttributesCategory",
+		}, -- [10]
+		{
+			["statKey"] = "STRENGTH",
+			["hidden"] = true,
+		}, -- [11]
+		{
+			["statKey"] = "AGILITY",
+		}, -- [12]
+		{
+			["statKey"] = "INTELLECT",
+			["hidden"] = true,
+		}, -- [13]
+		{
+			["statKey"] = "STAMINA",
+		}, -- [14]
+		{
+			["statKey"] = "ARMOR",
+		}, -- [15]
+		{
+			["statKey"] = "OffenseCategory",
+		}, -- [16]
+		{
+			["statKey"] = "ATTACK_DAMAGE",
+		}, -- [17]
+		{
+			["statKey"] = "ATTACK_AP",
+		}, -- [18]
+		{
+			["statKey"] = "DCS_ATTACK_ATTACKSPEED",
+		}, -- [19]
+		{
+			["statKey"] = "WEAPON_DPS",
+		}, -- [20]
+		{
+			["statKey"] = "SPELLPOWER",
+			["hidden"] = true,
+		}, -- [21]
+		{
+			["statKey"] = "MANAREGEN",
+			["hidden"] = true,
+		}, -- [22]
+		{
+			["statKey"] = "ENERGY_REGEN",
+		}, -- [23]
+		{
+			["statKey"] = "DCS_RUNEREGEN",
+			["hidden"] = true,
+		}, -- [24]
+		{
+			["statKey"] = "FOCUS_REGEN",
+		}, -- [25]
+		{
+			["statKey"] = "GCD",
+		}, -- [26]
+		{
+			["statKey"] = "EnhancementsCategory",
+		}, -- [27]
+		{
+			["statKey"] = "CRITCHANCE",
+			["hideAt"] = 0,
+		}, -- [28]
+		{
+			["statKey"] = "HASTE",
+			["hideAt"] = 0,
+		}, -- [29]
+		{
+			["statKey"] = "VERSATILITY",
+			["hideAt"] = 0,
+		}, -- [30]
+		{
+			["statKey"] = "MASTERY",
+			["hideAt"] = 0,
+		}, -- [31]
+		{
+			["statKey"] = "LIFESTEAL",
+			["hideAt"] = 0,
+		}, -- [32]
+		{
+			["statKey"] = "AVOIDANCE",
+			["hideAt"] = 0,
+		}, -- [33]
+		{
+			["statKey"] = "DefenseCategory",
+			["hidden"] = true,
+		}, -- [34]
+		{
+			["statKey"] = "DODGE",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [35]
+		{
+			["statKey"] = "PARRY",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [36]
+		{
+			["statKey"] = "BLOCK",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [37]
+		{
+			["statKey"] = "RatingCategory",
+			["hidden"] = true,
+		}, -- [38]
+		{
+			["statKey"] = "CRITCHANCE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [39]
+		{
+			["statKey"] = "HASTE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [40]
+		{
+			["statKey"] = "VERSATILITY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [41]
+		{
+			["statKey"] = "MASTERY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [42]
+		{
+			["statKey"] = "LIFESTEAL_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [43]
+		{
+			["statKey"] = "AVOIDANCE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [44]
+		{
+			["statKey"] = "DODGE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [45]
+		{
+			["statKey"] = "PARRY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [46]
+		{
+			["statKey"] = "SPEED",
+		}, -- [47]
+		["uniqueKey"] = "Anneshank:Draenor:2",
+	},
+	["Eruditus:Ravencrest:2"] = {
+		{
+			["statKey"] = "ItemLevelFrame",
+		}, -- [1]
+		{
+			["statKey"] = "AttributesCategory",
+		}, -- [2]
+		{
+			["statKey"] = "HEALTH",
+		}, -- [3]
+		{
+			["statKey"] = "ARMOR",
+		}, -- [4]
+		{
+			["statKey"] = "STRENGTH",
+			["hidden"] = true,
+		}, -- [5]
+		{
+			["statKey"] = "AGILITY",
+			["hidden"] = true,
+		}, -- [6]
+		{
+			["statKey"] = "INTELLECT",
+			["hidden"] = true,
+		}, -- [7]
+		{
+			["statKey"] = "STAMINA",
+		}, -- [8]
+		{
+			["statKey"] = "ATTACK_DAMAGE",
+		}, -- [9]
+		{
+			["statKey"] = "ATTACK_AP",
+		}, -- [10]
+		{
+			["statKey"] = "DCS_ATTACK_ATTACKSPEED",
+		}, -- [11]
+		{
+			["statKey"] = "WEAPON_DPS",
+		}, -- [12]
+		{
+			["statKey"] = "SPELLPOWER",
+			["hidden"] = true,
+		}, -- [13]
+		{
+			["statKey"] = "MANAREGEN",
+			["hidden"] = true,
+		}, -- [14]
+		{
+			["statKey"] = "ENERGY_REGEN",
+			["hidden"] = true,
+		}, -- [15]
+		{
+			["statKey"] = "DCS_RUNEREGEN",
+			["hidden"] = true,
+		}, -- [16]
+		{
+			["statKey"] = "FOCUS_REGEN",
+		}, -- [17]
+		{
+			["statKey"] = "MOVESPEED",
+		}, -- [18]
+		{
+			["statKey"] = "GCD",
+		}, -- [19]
+		{
+			["statKey"] = "DURABILITY_STAT",
+		}, -- [20]
+		{
+			["statKey"] = "REPAIR_COST",
+		}, -- [21]
+		{
+			["statKey"] = "EnhancementsCategory",
+		}, -- [22]
+		{
+			["statKey"] = "CRITCHANCE",
+			["hideAt"] = 0,
+		}, -- [23]
+		{
+			["statKey"] = "HASTE",
+			["hideAt"] = 0,
+		}, -- [24]
+		{
+			["statKey"] = "VERSATILITY",
+			["hideAt"] = 0,
+		}, -- [25]
+		{
+			["statKey"] = "MASTERY",
+			["hideAt"] = 0,
+		}, -- [26]
+		{
+			["statKey"] = "LIFESTEAL",
+			["hideAt"] = 0,
+		}, -- [27]
+		{
+			["statKey"] = "AVOIDANCE",
+			["hideAt"] = 0,
+		}, -- [28]
+		{
+			["statKey"] = "DODGE",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [29]
+		{
+			["statKey"] = "PARRY",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [30]
+		{
+			["statKey"] = "BLOCK",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [31]
+		{
+			["statKey"] = "ITEMLEVEL",
+			["hidden"] = true,
+		}, -- [32]
+		{
+			["statKey"] = "DCS_POWER",
+		}, -- [33]
+		{
+			["statKey"] = "PARRY_RATING",
+			["hideAt"] = 0,
+		}, -- [34]
+		{
+			["statKey"] = "DODGE_RATING",
+			["hideAt"] = 0,
+		}, -- [35]
+		{
+			["statKey"] = "HASTE_RATING",
+			["hideAt"] = 0,
+		}, -- [36]
+		{
+			["statKey"] = "VERSATILITY_RATING",
+			["hideAt"] = 0,
+		}, -- [37]
+		{
+			["statKey"] = "MASTERY_RATING",
+			["hideAt"] = 0,
+		}, -- [38]
+		{
+			["statKey"] = "CRITCHANCE_RATING",
+			["hideAt"] = 0,
+		}, -- [39]
+		{
+			["statKey"] = "DCS_ALTERNATEMANA",
+		}, -- [40]
+		{
+			["statKey"] = "LIFESTEAL_RATING",
+			["hideAt"] = 0,
+		}, -- [41]
+		{
+			["statKey"] = "AVOIDANCE_RATING",
+			["hideAt"] = 0,
+		}, -- [42]
+		{
+			["statKey"] = "RatingCategory",
+		}, -- [43]
+		{
+			["statKey"] = "OffenseCategory",
+		}, -- [44]
+		{
+			["statKey"] = "GeneralCategory",
+		}, -- [45]
+		{
+			["statKey"] = "DefenseCategory",
+		}, -- [46]
+		{
+			["statKey"] = "SPEED",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [47]
+		{
+			["statKey"] = "STAGGER",
+		}, -- [48]
+		{
+			["statKey"] = "SPEED_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [49]
+		["uniqueKey"] = "Eruditus:Ravencrest:2",
+	},
+	["Fausta:Ravencrest:1"] = {
+		{
+			["statKey"] = "ItemLevelFrame",
+		}, -- [1]
+		{
+			["statKey"] = "AttributesCategory",
+		}, -- [2]
+		{
+			["statKey"] = "HEALTH",
+		}, -- [3]
+		{
+			["statKey"] = "DCS_POWER",
+		}, -- [4]
+		{
+			["statKey"] = "DCS_ALTERNATEMANA",
+		}, -- [5]
+		{
+			["statKey"] = "ARMOR",
+		}, -- [6]
+		{
+			["statKey"] = "STRENGTH",
+			["hidden"] = true,
+		}, -- [7]
+		{
+			["statKey"] = "AGILITY",
+			["hidden"] = true,
+		}, -- [8]
+		{
+			["statKey"] = "INTELLECT",
+		}, -- [9]
+		{
+			["statKey"] = "STAMINA",
+		}, -- [10]
+		{
+			["statKey"] = "ATTACK_DAMAGE",
+			["hidden"] = true,
+		}, -- [11]
+		{
+			["statKey"] = "ATTACK_AP",
+			["hidden"] = true,
+		}, -- [12]
+		{
+			["statKey"] = "DCS_ATTACK_ATTACKSPEED",
+			["hidden"] = true,
+		}, -- [13]
+		{
+			["statKey"] = "WEAPON_DPS",
+			["hidden"] = true,
+		}, -- [14]
+		{
+			["statKey"] = "SPELLPOWER",
+		}, -- [15]
+		{
+			["statKey"] = "MANAREGEN",
+		}, -- [16]
+		{
+			["statKey"] = "ENERGY_REGEN",
+		}, -- [17]
+		{
+			["statKey"] = "DCS_RUNEREGEN",
+			["hidden"] = true,
+		}, -- [18]
+		{
+			["statKey"] = "FOCUS_REGEN",
+		}, -- [19]
+		{
+			["statKey"] = "MOVESPEED",
+		}, -- [20]
+		{
+			["statKey"] = "GCD",
+		}, -- [21]
+		{
+			["statKey"] = "DURABILITY_STAT",
+		}, -- [22]
+		{
+			["statKey"] = "REPAIR_COST",
+		}, -- [23]
+		{
+			["statKey"] = "EnhancementsCategory",
+		}, -- [24]
+		{
+			["statKey"] = "CRITCHANCE",
+			["hideAt"] = 0,
+		}, -- [25]
+		{
+			["statKey"] = "HASTE",
+			["hideAt"] = 0,
+		}, -- [26]
+		{
+			["statKey"] = "VERSATILITY",
+			["hideAt"] = 0,
+		}, -- [27]
+		{
+			["statKey"] = "MASTERY",
+			["hideAt"] = 0,
+		}, -- [28]
+		{
+			["statKey"] = "LIFESTEAL",
+			["hideAt"] = 0,
+		}, -- [29]
+		{
+			["statKey"] = "AVOIDANCE",
+			["hideAt"] = 0,
+		}, -- [30]
+		{
+			["statKey"] = "DODGE",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [31]
+		{
+			["statKey"] = "PARRY",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [32]
+		{
+			["statKey"] = "BLOCK",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [33]
+		{
+			["statKey"] = "CRITCHANCE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [34]
+		{
+			["statKey"] = "HASTE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [35]
+		{
+			["statKey"] = "VERSATILITY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [36]
+		{
+			["statKey"] = "MASTERY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [37]
+		{
+			["statKey"] = "LIFESTEAL_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [38]
+		{
+			["statKey"] = "AVOIDANCE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [39]
+		{
+			["statKey"] = "DODGE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [40]
+		{
+			["statKey"] = "PARRY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [41]
+		{
+			["statKey"] = "ITEMLEVEL",
+			["hidden"] = true,
+		}, -- [42]
+		{
+			["statKey"] = "RatingCategory",
+		}, -- [43]
+		{
+			["statKey"] = "OffenseCategory",
+		}, -- [44]
+		{
+			["statKey"] = "GeneralCategory",
+		}, -- [45]
+		{
+			["statKey"] = "DefenseCategory",
+		}, -- [46]
+		{
+			["statKey"] = "SPEED",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [47]
+		{
+			["statKey"] = "STAGGER",
+		}, -- [48]
+		{
+			["statKey"] = "SPEED_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [49]
+		["uniqueKey"] = "Fausta:Ravencrest:1",
 	},
 	["Trixxedz:Thunderhorn:1"] = {
 		{
@@ -11767,187 +13287,7 @@ DCS_ClassSpecDB = {
 		}, -- [47]
 		["uniqueKey"] = "Trixxedz:Thunderhorn:1",
 	},
-	["Anneshank:Draenor:2"] = {
-		{
-			["statKey"] = "ItemLevelFrame",
-		}, -- [1]
-		{
-			["statKey"] = "GeneralCategory",
-		}, -- [2]
-		{
-			["statKey"] = "HEALTH",
-		}, -- [3]
-		{
-			["statKey"] = "DCS_POWER",
-		}, -- [4]
-		{
-			["statKey"] = "DCS_ALTERNATEMANA",
-		}, -- [5]
-		{
-			["statKey"] = "ITEMLEVEL",
-			["hidden"] = true,
-		}, -- [6]
-		{
-			["statKey"] = "MOVESPEED",
-		}, -- [7]
-		{
-			["statKey"] = "DURABILITY_STAT",
-		}, -- [8]
-		{
-			["statKey"] = "REPAIR_COST",
-		}, -- [9]
-		{
-			["statKey"] = "AttributesCategory",
-		}, -- [10]
-		{
-			["statKey"] = "STRENGTH",
-			["hidden"] = true,
-		}, -- [11]
-		{
-			["statKey"] = "AGILITY",
-		}, -- [12]
-		{
-			["statKey"] = "INTELLECT",
-			["hidden"] = true,
-		}, -- [13]
-		{
-			["statKey"] = "STAMINA",
-		}, -- [14]
-		{
-			["statKey"] = "ARMOR",
-		}, -- [15]
-		{
-			["statKey"] = "OffenseCategory",
-		}, -- [16]
-		{
-			["statKey"] = "ATTACK_DAMAGE",
-		}, -- [17]
-		{
-			["statKey"] = "ATTACK_AP",
-		}, -- [18]
-		{
-			["statKey"] = "DCS_ATTACK_ATTACKSPEED",
-		}, -- [19]
-		{
-			["statKey"] = "WEAPON_DPS",
-		}, -- [20]
-		{
-			["statKey"] = "SPELLPOWER",
-			["hidden"] = true,
-		}, -- [21]
-		{
-			["statKey"] = "MANAREGEN",
-			["hidden"] = true,
-		}, -- [22]
-		{
-			["statKey"] = "ENERGY_REGEN",
-		}, -- [23]
-		{
-			["statKey"] = "DCS_RUNEREGEN",
-			["hidden"] = true,
-		}, -- [24]
-		{
-			["statKey"] = "FOCUS_REGEN",
-		}, -- [25]
-		{
-			["statKey"] = "GCD",
-		}, -- [26]
-		{
-			["statKey"] = "EnhancementsCategory",
-		}, -- [27]
-		{
-			["statKey"] = "CRITCHANCE",
-			["hideAt"] = 0,
-		}, -- [28]
-		{
-			["statKey"] = "HASTE",
-			["hideAt"] = 0,
-		}, -- [29]
-		{
-			["statKey"] = "VERSATILITY",
-			["hideAt"] = 0,
-		}, -- [30]
-		{
-			["statKey"] = "MASTERY",
-			["hideAt"] = 0,
-		}, -- [31]
-		{
-			["statKey"] = "LIFESTEAL",
-			["hideAt"] = 0,
-		}, -- [32]
-		{
-			["statKey"] = "AVOIDANCE",
-			["hideAt"] = 0,
-		}, -- [33]
-		{
-			["statKey"] = "DefenseCategory",
-			["hidden"] = true,
-		}, -- [34]
-		{
-			["statKey"] = "DODGE",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [35]
-		{
-			["statKey"] = "PARRY",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [36]
-		{
-			["statKey"] = "BLOCK",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [37]
-		{
-			["statKey"] = "RatingCategory",
-			["hidden"] = true,
-		}, -- [38]
-		{
-			["statKey"] = "CRITCHANCE_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [39]
-		{
-			["statKey"] = "HASTE_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [40]
-		{
-			["statKey"] = "VERSATILITY_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [41]
-		{
-			["statKey"] = "MASTERY_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [42]
-		{
-			["statKey"] = "LIFESTEAL_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [43]
-		{
-			["statKey"] = "AVOIDANCE_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [44]
-		{
-			["statKey"] = "DODGE_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [45]
-		{
-			["statKey"] = "PARRY_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [46]
-		{
-			["statKey"] = "SPEED",
-		}, -- [47]
-		["uniqueKey"] = "Anneshank:Draenor:2",
-	},
-	["Trixxed:Kazzak:3"] = {
+	["Shanonymous:Tarren Mill:1"] = {
 		{
 			["statKey"] = "ItemLevelFrame",
 		}, -- [1]
@@ -12137,7 +13477,197 @@ DCS_ClassSpecDB = {
 		{
 			["statKey"] = "STAGGER",
 		}, -- [49]
-		["uniqueKey"] = "Trixxed:Kazzak:3",
+		["uniqueKey"] = "Shanonymous:Tarren Mill:1",
+	},
+	["Quelith:Draenor:1"] = {
+		{
+			["statKey"] = "ItemLevelFrame",
+		}, -- [1]
+		{
+			["statKey"] = "GeneralCategory",
+		}, -- [2]
+		{
+			["statKey"] = "HEALTH",
+		}, -- [3]
+		{
+			["statKey"] = "DCS_POWER",
+		}, -- [4]
+		{
+			["statKey"] = "DCS_ALTERNATEMANA",
+		}, -- [5]
+		{
+			["statKey"] = "ITEMLEVEL",
+			["hidden"] = true,
+		}, -- [6]
+		{
+			["statKey"] = "MOVESPEED",
+		}, -- [7]
+		{
+			["statKey"] = "DURABILITY_STAT",
+		}, -- [8]
+		{
+			["statKey"] = "REPAIR_COST",
+		}, -- [9]
+		{
+			["statKey"] = "AttributesCategory",
+		}, -- [10]
+		{
+			["statKey"] = "STRENGTH",
+			["hidden"] = true,
+		}, -- [11]
+		{
+			["statKey"] = "AGILITY",
+		}, -- [12]
+		{
+			["statKey"] = "INTELLECT",
+			["hidden"] = true,
+		}, -- [13]
+		{
+			["statKey"] = "STAMINA",
+		}, -- [14]
+		{
+			["statKey"] = "ARMOR",
+		}, -- [15]
+		{
+			["statKey"] = "OffenseCategory",
+		}, -- [16]
+		{
+			["statKey"] = "ATTACK_DAMAGE",
+		}, -- [17]
+		{
+			["statKey"] = "ATTACK_AP",
+		}, -- [18]
+		{
+			["statKey"] = "DCS_ATTACK_ATTACKSPEED",
+		}, -- [19]
+		{
+			["statKey"] = "WEAPON_DPS",
+		}, -- [20]
+		{
+			["statKey"] = "SPELLPOWER",
+			["hidden"] = true,
+		}, -- [21]
+		{
+			["statKey"] = "MANAREGEN",
+			["hidden"] = true,
+		}, -- [22]
+		{
+			["statKey"] = "ENERGY_REGEN",
+		}, -- [23]
+		{
+			["statKey"] = "DCS_RUNEREGEN",
+			["hidden"] = true,
+		}, -- [24]
+		{
+			["statKey"] = "FOCUS_REGEN",
+		}, -- [25]
+		{
+			["statKey"] = "GCD",
+		}, -- [26]
+		{
+			["statKey"] = "EnhancementsCategory",
+		}, -- [27]
+		{
+			["statKey"] = "CRITCHANCE",
+			["hideAt"] = 0,
+		}, -- [28]
+		{
+			["statKey"] = "HASTE",
+			["hideAt"] = 0,
+		}, -- [29]
+		{
+			["statKey"] = "VERSATILITY",
+			["hideAt"] = 0,
+		}, -- [30]
+		{
+			["statKey"] = "MASTERY",
+			["hideAt"] = 0,
+		}, -- [31]
+		{
+			["statKey"] = "LIFESTEAL",
+			["hideAt"] = 0,
+		}, -- [32]
+		{
+			["statKey"] = "AVOIDANCE",
+			["hideAt"] = 0,
+		}, -- [33]
+		{
+			["statKey"] = "DefenseCategory",
+			["hidden"] = true,
+		}, -- [34]
+		{
+			["statKey"] = "DODGE",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [35]
+		{
+			["statKey"] = "PARRY",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [36]
+		{
+			["statKey"] = "BLOCK",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [37]
+		{
+			["statKey"] = "RatingCategory",
+			["hidden"] = true,
+		}, -- [38]
+		{
+			["statKey"] = "CRITCHANCE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [39]
+		{
+			["statKey"] = "HASTE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [40]
+		{
+			["statKey"] = "VERSATILITY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [41]
+		{
+			["statKey"] = "MASTERY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [42]
+		{
+			["statKey"] = "LIFESTEAL_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [43]
+		{
+			["statKey"] = "AVOIDANCE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [44]
+		{
+			["statKey"] = "DODGE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [45]
+		{
+			["statKey"] = "PARRY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [46]
+		{
+			["statKey"] = "SPEED",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [47]
+		{
+			["statKey"] = "STAGGER",
+		}, -- [48]
+		{
+			["statKey"] = "SPEED_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [49]
+		["uniqueKey"] = "Quelith:Draenor:1",
 	},
 	["Daemonikos:Ravencrest:3"] = {
 		{

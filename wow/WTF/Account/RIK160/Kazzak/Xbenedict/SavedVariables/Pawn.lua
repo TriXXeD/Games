@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0228,
+	["LastVersion"] = 2.024,
 	["LastPlayerFullName"] = "Xbenedict-Kazzak",
 	["AutoSelectScales"] = false,
 	["UpgradeTracking"] = false,

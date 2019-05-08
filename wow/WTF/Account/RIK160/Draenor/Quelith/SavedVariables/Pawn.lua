@@ -1,10 +1,9 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0227,
+	["LastVersion"] = 2.0239,
 	["LastPlayerFullName"] = "Quelith-Draenor",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,
-	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[127829] = {
 			["Relics"] = {
@@ -41,6 +40,7 @@ PawnOptions = {
 			["Name"] = "The Aldrachi Warblades",
 		},
 	},
+	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "DEMONHUNTER",

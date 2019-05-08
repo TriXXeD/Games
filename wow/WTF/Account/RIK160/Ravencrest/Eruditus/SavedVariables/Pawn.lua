@@ -1,9 +1,10 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0228,
+	["LastVersion"] = 2.0231,
 	["LastPlayerFullName"] = "Eruditus-Ravencrest",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128862] = {
 			["Relics"] = {
@@ -22,23 +23,6 @@ PawnOptions = {
 			},
 			["Name"] = "Ebonchill, Greatstaff of Alodi",
 		},
-		[128820] = {
-			["Relics"] = {
-				{
-					["ItemLevel"] = 18,
-					["Type"] = "Fire",
-				}, -- [1]
-				{
-					["ItemLevel"] = 21,
-					["Type"] = "Arcane",
-				}, -- [2]
-				{
-					["ItemLevel"] = 19,
-					["Type"] = "Fire",
-				}, -- [3]
-			},
-			["Name"] = "Felo'melorn",
-		},
 		[127857] = {
 			["Relics"] = {
 				{
@@ -56,8 +40,24 @@ PawnOptions = {
 			},
 			["Name"] = "Aluneth, Greatstaff of the Magna",
 		},
+		[128820] = {
+			["Relics"] = {
+				{
+					["ItemLevel"] = 18,
+					["Type"] = "Fire",
+				}, -- [1]
+				{
+					["ItemLevel"] = 21,
+					["Type"] = "Arcane",
+				}, -- [2]
+				{
+					["ItemLevel"] = 19,
+					["Type"] = "Fire",
+				}, -- [3]
+			},
+			["Name"] = "Felo'melorn",
+		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "MAGE",

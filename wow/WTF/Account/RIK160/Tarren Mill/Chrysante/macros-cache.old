@@ -1,0 +1,56 @@
+VER 3 010000000000000E "Cenarion Ward" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists] Cenarion Ward; [@target,exists] Cenarion Ward; Cenarion Ward
+END
+VER 3 0100000000000007 "CloneA1" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=arena1,exists] Cyclone; Cyclone
+END
+VER 3 0100000000000008 "CloneA2" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=arena2,exists] Cyclone; Cyclone
+END
+VER 3 0100000000000009 "CloneA3" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=arena3,exists] Cyclone; Cyclone
+END
+VER 3 010000000000000B "Entangling Roots" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists] Entangling Roots; [@target,exists] Entangling Roots; Entangling Roots
+END
+VER 3 0100000000000006 "Healing Touch" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists] Healing Touch; [@target,exists] Healing Touch; Healing Touch
+END
+VER 3 010000000000000C "Ironbark" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists] Ironbark; [@target,exists] Ironbark; Ironbark
+END
+VER 3 0100000000000003 "Lifebloom" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists] Lifebloom; [@target,exists] Lifebloom; Lifebloom
+END
+VER 3 010000000000000D "Nature's Cure" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists] Nature's Cure; [@target,exists] Nature's Cure; Nature's Cure
+END
+VER 3 0100000000000001 "Prowl" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast !prowl
+END
+VER 3 0100000000000004 "Regrowth" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists] Regrowth; [@target,exists] Regrowth; Regrowth
+END
+VER 3 0100000000000002 "Rejuvination" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists] Rejuvenation; [@target,exists] Rejuvenation; Rejuvenation
+END
+VER 3 0100000000000005 "Swiftmend" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,exists] Swiftmend; [@target,exists] Swiftmend; Swiftmend
+END
+VER 3 010000000000000A "Wild Growth" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists] Wild Growth; [@target,exists] Wild Growth; Wild Growth
+END

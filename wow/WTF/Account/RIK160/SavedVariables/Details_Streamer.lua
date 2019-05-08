@@ -4,12 +4,14 @@ Details_StreamerDB = {
 		["Trixxedbank - Kazzak"] = "Daemonikos - Ravencrest",
 		["Fausta - Ravencrest"] = "Daemonikos - Ravencrest",
 		["Achilina - Ravencrest"] = "Daemonikos - Ravencrest",
+		["Trixxedbank - Tarren Mill"] = "Daemonikos - Ravencrest",
 		["Lupalia - Ravencrest"] = "Daemonikos - Ravencrest",
 		["Molech - Kazzak"] = "Daemonikos - Ravencrest",
 		["Tríxxed - The Maelstrom"] = "Daemonikos - Ravencrest",
 		["Trîxxed - Ravencrest"] = "Daemonikos - Ravencrest",
 		["Daemonikos - Draenor"] = "Daemonikos - Ravencrest",
 		["Trixxedz - Thunderhorn"] = "Daemonikos - Ravencrest",
+		["Shanonymous - Tarren Mill"] = "Daemonikos - Ravencrest",
 		["Trïxxed - Ravencrest"] = "Daemonikos - Ravencrest",
 		["Anneshank - Draenor"] = "Daemonikos - Ravencrest",
 		["Molokh - Ravencrest"] = "Daemonikos - Ravencrest",
@@ -21,20 +23,22 @@ Details_StreamerDB = {
 		["Daemonikos - Ravencrest"] = "Daemonikos - Ravencrest",
 		["Grippiboi - Kazzak"] = "Daemonikos - Ravencrest",
 		["Trixxedbank - Draenor"] = "Daemonikos - Ravencrest",
+		["Marcellinus - Ravencrest"] = "Daemonikos - Ravencrest",
+		["Shankspeare - Kazzak"] = "Daemonikos - Ravencrest",
 		["Trixxed - Ravencrest"] = "Daemonikos - Ravencrest",
 		["Xbenedict - Kazzak"] = "Daemonikos - Ravencrest",
 		["Chrysante - Ravencrest"] = "Daemonikos - Ravencrest",
-		["Palladium - Ravencrest"] = "Daemonikos - Ravencrest",
-		["Eruditus - Ravencrest"] = "Daemonikos - Ravencrest",
+		["Drfeargood - Ravencrest"] = "Daemonikos - Ravencrest",
+		["Petergrippin - Draenor"] = "Daemonikos - Ravencrest",
 		["Quelith - Draenor"] = "Daemonikos - Ravencrest",
 		["Lycotonum - Tarren Mill"] = "Daemonikos - Ravencrest",
 		["Lichservent - Thunderhorn"] = "Daemonikos - Ravencrest",
+		["Eruditus - Ravencrest"] = "Daemonikos - Ravencrest",
 		["Trixbankxed - Shadowsong"] = "Daemonikos - Ravencrest",
-		["Petergrippin - Draenor"] = "Daemonikos - Ravencrest",
-		["Drfeargood - Ravencrest"] = "Daemonikos - Ravencrest",
+		["Palladium - Ravencrest"] = "Daemonikos - Ravencrest",
+		["Shankspeare - Tarren Mill"] = "Daemonikos - Ravencrest",
+		["Trixxedosaur - Tarren Mill"] = "Daemonikos - Ravencrest",
 		["Achilina - Draenor"] = "Daemonikos - Ravencrest",
-		["Shankspeare - Kazzak"] = "Daemonikos - Ravencrest",
-		["Marcellinus - Ravencrest"] = "Daemonikos - Ravencrest",
 	},
 	["profiles"] = {
 		["Daemonikos - Ravencrest"] = {
@@ -56,7 +60,7 @@ Details_StreamerDB = {
 				500.000030517578, -- [2]
 			},
 			["minimap"] = {
-				["minimapPos"] = 210.068532122517,
+				["minimapPos"] = 205.484101632598,
 				["radius"] = 160,
 				["hide"] = false,
 			},
@@ -67,7 +71,12 @@ Details_StreamerDB = {
 			["point"] = "CENTER",
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["author"] = "Details! Team",
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -75,15 +84,10 @@ Details_StreamerDB = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
+			["main_frame_strata"] = "LOW",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
 			["use_spark"] = true,
-			["y"] = 4.577636718750e-005,
+			["y"] = 4.577636718750e-05,
 			["x"] = 0,
 			["font_face"] = "Friz Quadrata TT",
 			["font_size"] = 10,
@@ -92,13 +96,13 @@ Details_StreamerDB = {
 				["point"] = "CENTER",
 				["scale"] = 1,
 				["font_shadow"] = true,
-				["y"] = 3.05175781250e-005,
-				["x"] = 3.05175781250e-005,
+				["y"] = 3.05175781250e-05,
+				["x"] = 3.05175781250e-05,
 				["size"] = 32,
 				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
 			},
-			["main_frame_strata"] = "LOW",
+			["author"] = "Details! Team",
 			["main_frame_locked"] = false,
 			["arrow_anchor_y"] = 0,
 		},

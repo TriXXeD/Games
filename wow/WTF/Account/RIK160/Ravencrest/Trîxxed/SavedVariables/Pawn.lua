@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0219,
+	["LastVersion"] = 2.0231,
 	["LastPlayerFullName"] = "Trîxxed-Ravencrest",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,

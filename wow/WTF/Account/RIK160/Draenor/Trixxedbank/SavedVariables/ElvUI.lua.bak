@@ -1,519 +1,17 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/elvui", -- [1]
-		"/ec", -- [2]
-		" Kan du lave mig en gul'dan rune eller skal jeg købe en ?", -- [3]
-		" dank", -- [4]
-		" |cff0070dd|Hitem:140587::::::::1:64::::::|h[Defiled Augment Rune]|h|r er 760g atm lul", -- [5]
+		" Kan du lave mig en gul'dan rune eller skal jeg købe en ?", -- [1]
+		" dank", -- [2]
+		" |cff0070dd|Hitem:140587::::::::1:64::::::|h[Defiled Augment Rune]|h|r er 760g atm lul", -- [3]
+		"/gladius hide", -- [4]
+		"Kan du lave mig en gul'dan rune eller skal jeg købe en ?", -- [5]
+		"|cff0070dd|Hitem:140587::::::::1:64::::::|h[Defiled Augment Rune]|h|r er 760g atm lul", -- [6]
+		"/ec", -- [7]
+		"/elvui", -- [8]
+		"dank", -- [9]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"Boosting Antorus HC (11/11 bosses)PL for 400k gold,Today at 19:30-22:00. You will be boosted by Banished EU 11/11M. 970+itmlvl guild group. Get your mount,gear+the chance of winning free HC runs.", -- [1]
-			"Praeturiann-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Praeturiann", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			131, -- [11]
-			"Player-1403-06E7460D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Praeturiann",
-			[51] = 1528475846,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
-			"<Deal With It> (11/11M, World Rank: 160) is selling Antorus, the Burning Throne (Heroic) Personal Loot with unsaved booster ALL LOOT ROLLABLE TODAY 19:00 realm time /w me for more info.", -- [1]
-			"Emreuck-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Emreuck", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			132, -- [11]
-			"Player-1403-05BB8AFA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Emreuck",
-			[51] = 1528475847,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
-			"<Deal With It> (11/11M, World Rank: 158) is selling Antorus, the Burning Throne (Heroic) Personal Loot with unsaved booster ALL LOOT ROLLABLE WE ARE GOING at 19:00 realm time /w me for more info", -- [1]
-			"Hînata-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Hînata", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			133, -- [11]
-			"Player-1403-05DD5DB5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Hînata",
-			[51] = 1528475848,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
-		{
-			"WTS mythic +15-20 boosts. We have keys. 11/11M leader. 4,1k raider.io score. Get your weekly loot. /w me to book a spot this week", -- [1]
-			"Fotmmilk-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Fotmmilk", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			134, -- [11]
-			"Player-1403-06E9E043", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Fotmmilk",
-			[51] = 1528475848,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
-		{
-			"wts achevment glory |cffffff00|Hachievement:10149:Player-1403-06EA72E8:1:4:20:18:4294967295:4294967295:4294967295:4294967295|h[Glory of the Hellfire Raider]|h|r come get your mount |cff71d5ff|Hspell:186305:0|h[Infernal Direwolf]|h|r raid start soon || get spot", -- [1]
-			"Ashidens-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ashidens", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			138, -- [11]
-			"Player-1403-06EA72E8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Ashidens",
-			[51] = 1528475862,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [5]
-		{
-			"WTB|cffa335ee|Hitem:124442::::::::1:262::::::|h[Chaos Crystal]|h|r40G each any amount C.O.D only. and |cffffffff|Hitem:124113::::::::1:262::::::|h[Stonehide Leather]|h|r400g stack C.O.D,|cff0070dd|Hitem:124441::::::::1:262::::::|h[Leylight Shard]|h|r14G each C.O.D me pls ", -- [1]
-			"Etoeis-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Etoeis", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			139, -- [11]
-			"Player-1403-06EA2092", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Etoeis",
-			[51] = 1528475864,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
-		{
-			"WTS mythic +15-20 boosts. We have keys. 11/11M leader. 4,1k raider.io score. Get your weekly loot. /w me to book a spot this week", -- [1]
-			"Fotmmilk-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Fotmmilk", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			143, -- [11]
-			"Player-1403-06E9E043", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Fotmmilk",
-			[51] = 1528475872,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [7]
-		{
-			"<High Council> 4/11M Currently recruiting raiders for BfA. We are a social raiding guild looking for members to join us for raiding and m+ and social alike our raid days are tue-thur 20:30-23:00/w for a chat ", -- [1]
-			"Malavazi-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Malavazi", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			145, -- [11]
-			"Player-1403-06A829B6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Malavazi",
-			[51] = 1528475875,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
-		{
-			"wts 98-110 twink boost 842 dh 1.5k/run 2 spots left", -- [1]
-			"Twinkié-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Twinkié", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			146, -- [11]
-			"Player-1403-06C03638", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Twinkié",
-			[51] = 1528475876,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [9]
-		{
-			"WTS FULL Heroic Antorus 11/11 for GOLD, today at 20:00 guild run! No saved team! Get your curve, mount and chance for one of the pantheon trinkets! For more info /w", -- [1]
-			"Xbankja-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Xbankja", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			147, -- [11]
-			"Player-1403-0694A9AC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Xbankja",
-			[51] = 1528475878,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [10]
-		{
-			"<Remake> is selling M+15-20 Dungeon Boost.(15=100k, 20=400k) GOING NOW. Get your 960+ itemlevel from weekly chest. BOOST your RAIDER.IO score. All loot will be yours. 4k+ experienced boosters. 100+ succesfull runs. /w me", -- [1]
-			"Allán-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Allán", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			150, -- [11]
-			"Player-1403-06D78C23", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Allán",
-			[51] = 1528475884,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [11]
-		{
-			"<Deal With It> (11/11M, World Rank: 160) is selling Antorus, the Burning Throne (Heroic) Personal Loot with unsaved booster ALL LOOT ROLLABLE TODAY 19:00 realm time /w me for more info.", -- [1]
-			"Emreuck-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Emreuck", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			152, -- [11]
-			"Player-1403-05BB8AFA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Emreuck",
-			[51] = 1528475887,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [12]
-		{
-			"wts achevment glory |cffffff00|Hachievement:10149:Player-1403-06EA72E8:1:4:20:18:4294967295:4294967295:4294967295:4294967295|h[Glory of the Hellfire Raider]|h|r come get your mount |cff71d5ff|Hspell:186305:0|h[Infernal Direwolf]|h|r raid start soon || get spot", -- [1]
-			"Ashidens-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ashidens", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			154, -- [11]
-			"Player-1403-06EA72E8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Ashidens",
-			[51] = 1528475892,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [13]
-		{
-			"WTS mythic +15-20 boosts. We have keys. 11/11M leader. 4,1k raider.io score. Get your weekly loot. /w me to book a spot this week", -- [1]
-			"Fotmmilk-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Fotmmilk", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			163, -- [11]
-			"Player-1403-06E9E043", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Fotmmilk",
-			[51] = 1528475907,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
-		{
-			"wts 98-110 twink boost 842 dh 1.5k/run 2 spots left", -- [1]
-			"Twinkié-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Twinkié", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			165, -- [11]
-			"Player-1403-06C03638", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Twinkié",
-			[51] = 1528475911,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [15]
-		{
-			"Boosting Antorus HC (11/11 bosses)PL for 400k gold,Today at 19:30-22:00. You will be boosted by Banished EU 11/11M. 970+itmlvl guild group. Get your mount,gear+the chance of winning free HC runs.", -- [1]
-			"Praeturiann-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Praeturiann", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			167, -- [11]
-			"Player-1403-06E7460D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Praeturiann",
-			[51] = 1528475916,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [16]
-		{
-			"wts achevment glory |cffffff00|Hachievement:10149:Player-1403-06EA72E8:1:4:20:18:4294967295:4294967295:4294967295:4294967295|h[Glory of the Hellfire Raider]|h|r come get your mount |cff71d5ff|Hspell:186305:0|h[Infernal Direwolf]|h|r raid start soon || get spot", -- [1]
-			"Ashidens-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ashidens", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			169, -- [11]
-			"Player-1403-06EA72E8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Ashidens",
-			[51] = 1528475922,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [17]
-		{
-			"<Deal With It> (11/11M, World Rank: 160) is selling Antorus, the Burning Throne (Heroic) Personal Loot with unsaved booster ALL LOOT ROLLABLE TODAY 19:00 realm time /w me for more info.", -- [1]
-			"Emreuck-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Emreuck", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			170, -- [11]
-			"Player-1403-05BB8AFA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Emreuck",
-			[51] = 1528475927,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [18]
-		{
-			"<Possession > 10/11M is selling Antorus HC Boosts - Full clear (11/11 bosses-We do MASTER LOOT) for GOLD - TONIGHT at 20.00 server time. Raiders are unsaved, trading away all loot that we don't need!   w/ me for more info.(Vanquisher token open)", -- [1]
-			"Mattea-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Mattea", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			171, -- [11]
-			"Player-1403-06F022D4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Mattea",
-			[51] = 1528475930,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [19]
-		{
-			"WTS 98-110 leveling boost / 1.4k per run / 10 runs / run takes about 7.5 min / for more info /w me", -- [1]
-			"Nobodyhere-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Nobodyhere", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			177, -- [11]
-			"Player-1403-06F6C26E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Nobodyhere",
-			[51] = 1528475950,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [20]
-		{
-			"wts achevment glory |cffffff00|Hachievement:10149:Player-1403-06EA72E8:1:4:20:18:4294967295:4294967295:4294967295:4294967295|h[Glory of the Hellfire Raider]|h|r come get your mount |cff71d5ff|Hspell:186305:0|h[Infernal Direwolf]|h|r raid start soon || get spot", -- [1]
-			"Ashidens-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ashidens", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			178, -- [11]
-			"Player-1403-06EA72E8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Ashidens",
-			[51] = 1528475952,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [21]
-		{
-			"WTB|cffa335ee|Hitem:124442::::::::1:262::::::|h[Chaos Crystal]|h|r40G each any amount C.O.D only. and |cffffffff|Hitem:124113::::::::1:262::::::|h[Stonehide Leather]|h|r400g stack C.O.D,|cff0070dd|Hitem:124441::::::::1:262::::::|h[Leylight Shard]|h|r14G each C.O.D me pls ", -- [1]
-			"Etoeis-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Etoeis", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			179, -- [11]
-			"Player-1403-06EA2092", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Etoeis",
-			[51] = 1528475960,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [22]
-		{
-			"<Remake> is selling M+15-20 Dungeon Boost.(15=100k, 20=400k) GOING NOW. Get your 960+ itemlevel from weekly chest. BOOST your RAIDER.IO score. All loot will be yours. 4k+ experienced boosters. 100+ succesfull runs. /w me", -- [1]
-			"Allán-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Allán", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			180, -- [11]
-			"Player-1403-06D78C23", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "Allán",
-			[51] = 1528475960,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [23]
 		{
 			"<Deal With It> (11/11M, World Rank: 160) is selling Antorus, the Burning Throne (Heroic) Personal Loot with unsaved booster ALL LOOT ROLLABLE TODAY 19:00 realm time /w me for more info.", -- [1]
 			"Emreuck-Draenor", -- [2]
@@ -535,7 +33,7 @@ ElvCharacterDB = {
 			[52] = "Emreuck",
 			[51] = 1528475967,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
+		}, -- [1]
 		{
 			"WTS FULL Heroic Antorus 11/11 for GOLD, today at 20:00 guild run! No saved team! Get your curve, mount and chance for one of the pantheon trinkets! For more info /w", -- [1]
 			"Xbankja-Draenor", -- [2]
@@ -557,7 +55,7 @@ ElvCharacterDB = {
 			[52] = "Xbankja",
 			[51] = 1528475968,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [25]
+		}, -- [2]
 		{
 			"{The Gallywix Community} is doing a FULL Antorus Heroic Personal Loot run TONIGHT @20:00 Server Time (unsaved 11/11 Mythic players rolling out loot they don't need). Also doing The Chosen, Gul'Dan Mount /w me", -- [1]
 			"Flufyhunterx-Draenor", -- [2]
@@ -579,7 +77,7 @@ ElvCharacterDB = {
 			[52] = "Flufyhunterx",
 			[51] = 1528475970,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
+		}, -- [3]
 		{
 			"WTS 98-110 leveling boost / 1.4k per run / 10 runs / run takes about 7.5 min / for more info /w me", -- [1]
 			"Nobodyhere-Draenor", -- [2]
@@ -601,7 +99,7 @@ ElvCharacterDB = {
 			[52] = "Nobodyhere",
 			[51] = 1528475971,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [27]
+		}, -- [4]
 		{
 			"wts achevment glory |cffffff00|Hachievement:10149:Player-1403-06EA72E8:1:4:20:18:4294967295:4294967295:4294967295:4294967295|h[Glory of the Hellfire Raider]|h|r come get your mount |cff71d5ff|Hspell:186305:0|h[Infernal Direwolf]|h|r raid start soon || get spot", -- [1]
 			"Ashidens-Draenor", -- [2]
@@ -623,7 +121,7 @@ ElvCharacterDB = {
 			[52] = "Ashidens",
 			[51] = 1528475982,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [28]
+		}, -- [5]
 		{
 			"Boosting Antorus HC (11/11 bosses)PL for 400k gold,Today at 19:30-22:00. You will be boosted by Banished EU 11/11M. 970+itmlvl guild group. Get your mount,gear+the chance of winning free HC runs.", -- [1]
 			"Praeturiann-Draenor", -- [2]
@@ -645,7 +143,7 @@ ElvCharacterDB = {
 			[52] = "Praeturiann",
 			[51] = 1528475986,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [29]
+		}, -- [6]
 		{
 			"<Deal With It> (11/11M, World Rank: 160) is selling Antorus, the Burning Throne (Heroic) Personal Loot with unsaved booster ALL LOOT ROLLABLE TODAY 19:00 realm time /w me for more info.", -- [1]
 			"Emreuck-Draenor", -- [2]
@@ -667,7 +165,7 @@ ElvCharacterDB = {
 			[52] = "Emreuck",
 			[51] = 1528476007,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [30]
+		}, -- [7]
 		{
 			"<Possession > 10/11M is selling Antorus HC Boosts - Full clear (11/11 bosses-We do MASTER LOOT) for GOLD - TONIGHT at 20.00 server time. Raiders are unsaved, trading away all loot that we don't need!   w/ me for more info.(Vanquisher token open)", -- [1]
 			"Mattea-Draenor", -- [2]
@@ -689,7 +187,7 @@ ElvCharacterDB = {
 			[52] = "Mattea",
 			[51] = 1528476009,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [31]
+		}, -- [8]
 		{
 			"wts achevment glory |cffffff00|Hachievement:10149:Player-1403-06EA72E8:1:4:20:18:4294967295:4294967295:4294967295:4294967295|h[Glory of the Hellfire Raider]|h|r come get your mount |cff71d5ff|Hspell:186305:0|h[Infernal Direwolf]|h|r raid start soon || get spot", -- [1]
 			"Ashidens-Draenor", -- [2]
@@ -711,7 +209,7 @@ ElvCharacterDB = {
 			[52] = "Ashidens",
 			[51] = 1528476013,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [32]
+		}, -- [9]
 		{
 			"WTS 98-110 leveling boost / 1.4k per run / 10 runs / run takes about 7.5 min / for more info /w me", -- [1]
 			"Nobodyhere-Draenor", -- [2]
@@ -733,7 +231,7 @@ ElvCharacterDB = {
 			[52] = "Nobodyhere",
 			[51] = 1528476018,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [33]
+		}, -- [10]
 		{
 			"[WTS] +15 key boost for gold, get your 960+ ivl items right now! All tradeable item is yours , 500+ satisfied customer. Also selling m15-20 your key/our key /w", -- [1]
 			"Goldincc-Draenor", -- [2]
@@ -755,7 +253,7 @@ ElvCharacterDB = {
 			[52] = "Goldincc",
 			[51] = 1528544921,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [34]
+		}, -- [11]
 		{
 			"WTS Full Antorus heroic PL ||||Today 16:00 servertime & 21:00 server time |||| PRO TEAM |||| Rolling out gear |||| Get curve before they remove it! |||| /W for booking or questions", -- [1]
 			"Messaboost-Draenor", -- [2]
@@ -777,7 +275,7 @@ ElvCharacterDB = {
 			[52] = "Messaboost",
 			[51] = 1528544928,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [35]
+		}, -- [12]
 		{
 			"WTS Full Normal Antorus, the Burning Throne run with Personal Loot. Done by full guild run. /w me for more info.", -- [1]
 			"Chárgêr-Draenor", -- [2]
@@ -799,7 +297,7 @@ ElvCharacterDB = {
 			[52] = "Chárgêr",
 			[51] = 1528544961,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [36]
+		}, -- [13]
 		{
 			"<Remake> is selling M+15-20 Dungeon Boost.(15=100k, 20=400k). BOOK YOUR SPOT FOR TODAY. Get your 960+ itemlevel from weekly chest. BOOST your RAIDER.IO score. All loot will be yours. 4k+ experienced boosters. 100+ succesfull runs. /w me", -- [1]
 			"Remaketrade-Draenor", -- [2]
@@ -821,7 +319,7 @@ ElvCharacterDB = {
 			[52] = "Remaketrade",
 			[51] = 1528544962,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [37]
+		}, -- [14]
 		{
 			"WTS FULL Heroic Antorus 11/11 for gold today at 15:00 18:00 21:00 and monday 20:00. Guild run! Get your curve, mount and chance for one of the pantheon trinkets! For more info /w", -- [1]
 			"Xbankja-Draenor", -- [2]
@@ -843,7 +341,7 @@ ElvCharacterDB = {
 			[52] = "Xbankja",
 			[51] = 1528544983,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [38]
+		}, -- [15]
 		{
 			"WTS Full Antorus heroic PL ||||Today 16:00 servertime & 21:00 server time |||| PRO TEAM |||| Rolling out gear |||| Get curve before they remove it! |||| /W for booking or questions", -- [1]
 			"Messaboost-Draenor", -- [2]
@@ -865,7 +363,7 @@ ElvCharacterDB = {
 			[52] = "Messaboost",
 			[51] = 1528544986,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [39]
+		}, -- [16]
 		{
 			"[WTS] +15 key boost for gold, get your 960+ ivl items right now! All tradeable item is yours , 500+ satisfied customer. Also selling m15-20 your key/our key /w", -- [1]
 			"Goldincc-Draenor", -- [2]
@@ -887,7 +385,7 @@ ElvCharacterDB = {
 			[52] = "Goldincc",
 			[51] = 1528544996,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [40]
+		}, -- [17]
 		{
 			"WTB|cffa335ee|Hitem:124442::::::::1:262::::::|h[Chaos Crystal]|h|r40G each any amount C.O.D only. and |cffffffff|Hitem:124113::::::::1:262::::::|h[Stonehide Leather]|h|r400g stack C.O.D,|cff0070dd|Hitem:124441::::::::1:262::::::|h[Leylight Shard]|h|r14G each C.O.D me pls ", -- [1]
 			"Sikos-Draenor", -- [2]
@@ -909,7 +407,7 @@ ElvCharacterDB = {
 			[52] = "Sikos",
 			[51] = 1528545011,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [41]
+		}, -- [18]
 		{
 			"<Oblivion> is a boosting community of 11/11M experienced players boosting Antorus Heroic Personal Loot all days except wednesday @20:30 server time. We are also boosting Antorus Master Loot, The Chosen, Gul'dan Mount, CoF, Glory runs.", -- [1]
 			"Malevoidelf-Draenor", -- [2]
@@ -931,7 +429,7 @@ ElvCharacterDB = {
 			[52] = "Malevoidelf",
 			[51] = 1528545058,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [42]
+		}, -- [19]
 		{
 			"WTS Full Normal Antorus, the Burning Throne run with Personal Loot. Done by full guild run. /w me for more info.", -- [1]
 			"Chárgêr-Draenor", -- [2]
@@ -953,7 +451,7 @@ ElvCharacterDB = {
 			[52] = "Chárgêr",
 			[51] = 1528545059,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [43]
+		}, -- [20]
 		{
 			"MessaBoosting selling heroic Antorus PL {TODAY @21:00 servertime} Done by unsaved mythic raiders! Rolling out all gear. Get your mount & achievement before they remove it! /w for booking or questions", -- [1]
 			"Messaboost-Draenor", -- [2]
@@ -975,7 +473,7 @@ ElvCharacterDB = {
 			[52] = "Messaboost",
 			[51] = 1528628481,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [44]
+		}, -- [21]
 		{
 			"WTS TOV Mythic Transmog Cache", -- [1]
 			"Randri-Draenor", -- [2]
@@ -997,7 +495,7 @@ ElvCharacterDB = {
 			[52] = "Randri",
 			[51] = 1528628525,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [45]
+		}, -- [22]
 		{
 			"WTS TOV Mythic Transmog Cache", -- [1]
 			"Randri-Draenor", -- [2]
@@ -1019,7 +517,7 @@ ElvCharacterDB = {
 			[52] = "Randri",
 			[51] = 1528628526,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [46]
+		}, -- [23]
 		{
 			"MessaBoosting selling heroic Antorus PL {TODAY @21:00 servertime} Done by unsaved mythic raiders! Rolling out all gear. Get your mount & achievement before they remove it! /w for booking or questions", -- [1]
 			"Messaboost-Draenor", -- [2]
@@ -1041,7 +539,7 @@ ElvCharacterDB = {
 			[52] = "Messaboost",
 			[51] = 1528628551,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [47]
+		}, -- [24]
 		{
 			"WTS TOV Mythic Transmog Cache", -- [1]
 			"Randri-Draenor", -- [2]
@@ -1063,7 +561,7 @@ ElvCharacterDB = {
 			[52] = "Randri",
 			[51] = 1528628577,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [48]
+		}, -- [25]
 		{
 			"WTS TOV Mythic Transmog Cache", -- [1]
 			"Randri-Draenor", -- [2]
@@ -1085,7 +583,7 @@ ElvCharacterDB = {
 			[52] = "Randri",
 			[51] = 1528628577,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [49]
+		}, -- [26]
 		{
 			"WTB|cffa335ee|Hitem:124442::::::::1:262::::::|h[Chaos Crystal]|h|r45G each any amount C.O.D only. and |cffffffff|Hitem:124113::::::::1:262::::::|h[Stonehide Leather]|h|r400g stack C.O.D,|cff0070dd|Hitem:124441::::::::1:262::::::|h[Leylight Shard]|h|r14G each C.O.D me pls ", -- [1]
 			"Etoeis-Draenor", -- [2]
@@ -1107,7 +605,7 @@ ElvCharacterDB = {
 			[52] = "Etoeis",
 			[51] = 1528628585,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [50]
+		}, -- [27]
 		{
 			"WTS TOV Mythic Transmog Cache", -- [1]
 			"Randri-Draenor", -- [2]
@@ -1129,7 +627,7 @@ ElvCharacterDB = {
 			[52] = "Randri",
 			[51] = 1528628639,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [51]
+		}, -- [28]
 		{
 			"WTS TOV Mythic Transmog Cache", -- [1]
 			"Randri-Draenor", -- [2]
@@ -1151,7 +649,7 @@ ElvCharacterDB = {
 			[52] = "Randri",
 			[51] = 1528628639,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [52]
+		}, -- [29]
 		{
 			"MessaBoosting selling heroic Antorus PL {TODAY @21:00 servertime} Done by unsaved mythic raiders! Rolling out all gear. Get your mount & achievement before they remove it! /w for booking or questions", -- [1]
 			"Messaboost-Draenor", -- [2]
@@ -1173,7 +671,7 @@ ElvCharacterDB = {
 			[52] = "Messaboost",
 			[51] = 1528628647,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [53]
+		}, -- [30]
 		{
 			"WTS |cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r Heroic Loot is Personal For Gold ! +970 Group + 400 Kill argus u get 100% |cff71d5ff|Hspell:253639:0|h[Violet Spellwing]|h|r + Curve You can sit AFK . /w me for info.", -- [1]
 			"Darkhof-Draenor", -- [2]
@@ -1195,7 +693,7 @@ ElvCharacterDB = {
 			[52] = "Darkhof",
 			[51] = 1528628649,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [54]
+		}, -- [31]
 		{
 			"WTS |cffff8000|Hinstancelock:Player-1403-053BBE49:631:4:2039|h[Icecrown Citadel]|h|r, Get ur chances at  that Mount today! (: With portal from dala to old dal", -- [1]
 			"Ziphlol-Draenor", -- [2]
@@ -1217,7 +715,7 @@ ElvCharacterDB = {
 			[52] = "Ziphlol",
 			[51] = 1528920392,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [55]
+		}, -- [32]
 		{
 			"WTS Argus last boss Heroic boost for gold! Starting now! Get your curve & mount now! summon ready! 11/11 mythic ldr. 75k", -- [1]
 			"Sweeténrico-Draenor", -- [2]
@@ -1239,7 +737,7 @@ ElvCharacterDB = {
 			[52] = "Sweeténrico",
 			[51] = 1528920415,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [56]
+		}, -- [33]
 		{
 			"wts achevment glory |cffffff00|Hachievement:10149:Player-1403-06EA72E8:1:4:20:18:4294967295:4294967295:4294967295:4294967295|h[Glory of the Hellfire Raider]|h|r come get your mount |cff71d5ff|Hspell:186305:0|h[Infernal Direwolf]|h|r raid start Soon /count spot", -- [1]
 			"Ashidens-Draenor", -- [2]
@@ -1261,7 +759,7 @@ ElvCharacterDB = {
 			[52] = "Ashidens",
 			[51] = 1528920415,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [57]
+		}, -- [34]
 		{
 			"WTS Argus last boss Heroic boost for gold! Starting now! Get your curve & mount now! summon ready! 11/11 mythic ldr. 75k", -- [1]
 			"Sweeténrico-Draenor", -- [2]
@@ -1283,7 +781,7 @@ ElvCharacterDB = {
 			[52] = "Sweeténrico",
 			[51] = 1528920427,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [58]
+		}, -- [35]
 		{
 			"WTS |cffff8000|Hinstancelock:Player-1403-053BBE49:631:4:2039|h[Icecrown Citadel]|h|r, Get ur chances at  that Mount today! (: With portal from dala to old dal", -- [1]
 			"Ziphlol-Draenor", -- [2]
@@ -1305,7 +803,7 @@ ElvCharacterDB = {
 			[52] = "Ziphlol",
 			[51] = 1528920431,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
+		}, -- [36]
 		{
 			"wts achevment glory |cffffff00|Hachievement:10149:Player-1403-06EA72E8:1:4:20:18:4294967295:4294967295:4294967295:4294967295|h[Glory of the Hellfire Raider]|h|r come get your mount |cff71d5ff|Hspell:186305:0|h[Infernal Direwolf]|h|r raid start Soon /count spot", -- [1]
 			"Ashidens-Draenor", -- [2]
@@ -1327,7 +825,7 @@ ElvCharacterDB = {
 			[52] = "Ashidens",
 			[51] = 1528920450,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [60]
+		}, -- [37]
 		{
 			"WTS |cffff8000|Hinstancelock:Player-1403-053BBE49:631:4:2039|h[Icecrown Citadel]|h|r, Get ur chances at  that Mount today! (: With portal from dala to old dal", -- [1]
 			"Ziphlol-Draenor", -- [2]
@@ -1349,7 +847,7 @@ ElvCharacterDB = {
 			[52] = "Ziphlol",
 			[51] = 1528920457,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [61]
+		}, -- [38]
 		{
 			"WTB|cffa335ee|Hitem:124442::::::::1:71::::::|h[Chaos Crystal]|h|r40G each cod pls. and |cffffffff|Hitem:124113::::::::1:71::::::|h[Stonehide Leather]|h|r440g stack  ", -- [1]
 			"Nihaol-Draenor", -- [2]
@@ -1371,7 +869,7 @@ ElvCharacterDB = {
 			[52] = "Nihaol",
 			[51] = 1528920481,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [62]
+		}, -- [39]
 		{
 			"wts achevment glory |cffffff00|Hachievement:10149:Player-1403-06EA72E8:1:4:20:18:4294967295:4294967295:4294967295:4294967295|h[Glory of the Hellfire Raider]|h|r come get your mount |cff71d5ff|Hspell:186305:0|h[Infernal Direwolf]|h|r raid start Soon /count spot", -- [1]
 			"Ashidens-Draenor", -- [2]
@@ -1393,7 +891,7 @@ ElvCharacterDB = {
 			[52] = "Ashidens",
 			[51] = 1528920485,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [63]
+		}, -- [40]
 		{
 			"WTS |cffff8000|Hinstancelock:Player-1403-053BBE49:631:4:2039|h[Icecrown Citadel]|h|r, Get ur chances at  that Mount today! (: With portal from dala to old dal", -- [1]
 			"Ziphlol-Draenor", -- [2]
@@ -1415,7 +913,7 @@ ElvCharacterDB = {
 			[52] = "Ziphlol",
 			[51] = 1528920490,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [64]
+		}, -- [41]
 		{
 			"WTS Argus last boss Heroic boost for gold! Starting now! Get your curve & mount now! summon ready! 70k", -- [1]
 			"Sweeténrico-Draenor", -- [2]
@@ -1437,7 +935,7 @@ ElvCharacterDB = {
 			[52] = "Sweeténrico",
 			[51] = 1528920499,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [65]
+		}, -- [42]
 		{
 			"{Gallywix} - a community of the best PvE/PvP players in EU offering services for gold such as: The Chosen, AntorusHC/M, Guldan mount, 0-2k in arena and more! pm for info", -- [1]
 			"Bastsix-Draenor", -- [2]
@@ -1459,7 +957,7 @@ ElvCharacterDB = {
 			[52] = "Bastsix",
 			[51] = 1528920505,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [66]
+		}, -- [43]
 		{
 			"WTS Argus last boss Heroic boost for gold! Starting now! Get your curve & mount now! summon ready! 70k", -- [1]
 			"Sweeténrico-Draenor", -- [2]
@@ -1481,7 +979,7 @@ ElvCharacterDB = {
 			[52] = "Sweeténrico",
 			[51] = 1528920517,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [67]
+		}, -- [44]
 		{
 			"wts achevment glory |cffffff00|Hachievement:10149:Player-1403-06EA72E8:1:4:20:18:4294967295:4294967295:4294967295:4294967295|h[Glory of the Hellfire Raider]|h|r come get your mount |cff71d5ff|Hspell:186305:0|h[Infernal Direwolf]|h|r raid start Soon /count spot", -- [1]
 			"Ashidens-Draenor", -- [2]
@@ -1503,7 +1001,7 @@ ElvCharacterDB = {
 			[52] = "Ashidens",
 			[51] = 1528920520,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [68]
+		}, -- [45]
 		{
 			"WTB|cffa335ee|Hitem:124442::::::::1:71::::::|h[Chaos Crystal]|h|r45G each cod pls. and |cffffffff|Hitem:124113::::::::1:71::::::|h[Stonehide Leather]|h|r440g stack  ", -- [1]
 			"Nihaol-Draenor", -- [2]
@@ -1525,7 +1023,7 @@ ElvCharacterDB = {
 			[52] = "Nihaol",
 			[51] = 1529071719,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [69]
+		}, -- [46]
 		{
 			"WTS |cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r HC Personal Loot - Get your Curve > Mount |cff71d5ff|Hspell:253639:0|h[Violet Spellwing]|h|r > Legendary Ring  |cffff8000|Hitem:152626::::::::110:254::::::|h[Insignia of the Grand Army]|h|r - chance on 2 Trinkets - +970 boosters - you can be AFK - naked or whatever /w me GOING EVERY 15MINS! Price: 80k", -- [1]
 			"Exahunt-Draenor", -- [2]
@@ -1547,7 +1045,7 @@ ElvCharacterDB = {
 			[52] = "Exahunt",
 			[51] = 1529071720,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [70]
+		}, -- [47]
 		{
 			"WTS |cffffffff|Hitem:16885::::::::110:265::::::|h[Heavy Junkbox]|h|r", -- [1]
 			"Snoozey-Draenor", -- [2]
@@ -1569,7 +1067,7 @@ ElvCharacterDB = {
 			[52] = "Snoozey",
 			[51] = 1529865887,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [71]
+		}, -- [48]
 		{
 			"WTS |cffffffff|Hitem:16885::::::::110:265::::::|h[Heavy Junkbox]|h|r", -- [1]
 			"Snoozey-Draenor", -- [2]
@@ -1591,7 +1089,7 @@ ElvCharacterDB = {
 			[52] = "Snoozey",
 			[51] = 1529865887,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [72]
+		}, -- [49]
 		{
 			"WTS |cffffffff|Hitem:16885::::::::110:265::::::|h[Heavy Junkbox]|h|r", -- [1]
 			"Snoozey-Draenor", -- [2]
@@ -1613,7 +1111,7 @@ ElvCharacterDB = {
 			[52] = "Snoozey",
 			[51] = 1529865921,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [73]
+		}, -- [50]
 		{
 			"WTS |cffffffff|Hitem:16885::::::::110:265::::::|h[Heavy Junkbox]|h|r", -- [1]
 			"Snoozey-Draenor", -- [2]
@@ -1635,7 +1133,7 @@ ElvCharacterDB = {
 			[52] = "Snoozey",
 			[51] = 1529865921,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [74]
+		}, -- [51]
 		{
 			"WTS |cffffffff|Hitem:16885::::::::110:265::::::|h[Heavy Junkbox]|h|r", -- [1]
 			"Snoozey-Draenor", -- [2]
@@ -1657,7 +1155,7 @@ ElvCharacterDB = {
 			[52] = "Snoozey",
 			[51] = 1529865967,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [52]
 		{
 			"WTS |cffffffff|Hitem:16885::::::::110:265::::::|h[Heavy Junkbox]|h|r", -- [1]
 			"Snoozey-Draenor", -- [2]
@@ -1679,7 +1177,7 @@ ElvCharacterDB = {
 			[52] = "Snoozey",
 			[51] = 1529865967,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [76]
+		}, -- [53]
 		{
 			"wts achvment glory |cffffff00|Hachievement:10149:Player-1403-06EA72E8:1:4:20:18:4294967295:4294967295:4294967295:4294967295|h[Glory of the Hellfire Raider]|h|r come get your mount |cff71d5ff|Hspell:186305:0|h[Infernal Direwolf]|h|r Righ Now", -- [1]
 			"Ashidens-Draenor", -- [2]
@@ -1701,7 +1199,7 @@ ElvCharacterDB = {
 			[52] = "Ashidens",
 			[51] = 1529865982,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [77]
+		}, -- [54]
 		{
 			"[WTS] |cffffff00|Hachievement:11387:Player-1301-09CCC697:0:0:0:-1:0:0:0:0|h[The Chosen]|h|r title! [WTS] 2000/2200/2400 Arena Rating, get Your Legion Elite PvP Set before BFA release! /w me for info", -- [1]
 			"Nordig-Draenor", -- [2]
@@ -1723,7 +1221,7 @@ ElvCharacterDB = {
 			[52] = "Nordig",
 			[51] = 1529865999,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [78]
+		}, -- [55]
 		{
 			"[WTS] |cff66bbff|Hjournal:1:1737:16|h[Gul'dan]|h|r Mythic Mount - |cffa335ee|Hitem:137575::::::::1:71::6:1:3524:::|h[Fiendish Hellfire Core]|h|r, |cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r Mythic Kill + mount |cffa335ee|Hitem:152789::::::::1:71::6:1:3524:::|h[Shackled Ur'zul]|h|r. [WTS] Glory of the Legion/Tomb/Argus raider.  /w me for info", -- [1]
 			"Nordig-Draenor", -- [2]
@@ -1745,7 +1243,7 @@ ElvCharacterDB = {
 			[52] = "Nordig",
 			[51] = 1529865999,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [56]
 		{
 			"WTS |cffffffff|Hitem:16885::::::::110:265::::::|h[Heavy Junkbox]|h|r", -- [1]
 			"Snoozey-Draenor", -- [2]
@@ -1767,7 +1265,7 @@ ElvCharacterDB = {
 			[52] = "Snoozey",
 			[51] = 1529866009,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [80]
+		}, -- [57]
 		{
 			"WTS |cffffffff|Hitem:16885::::::::110:265::::::|h[Heavy Junkbox]|h|r", -- [1]
 			"Snoozey-Draenor", -- [2]
@@ -1789,7 +1287,7 @@ ElvCharacterDB = {
 			[52] = "Snoozey",
 			[51] = 1529866009,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
+		}, -- [58]
 		{
 			"wts achvment glory |cffffff00|Hachievement:10149:Player-1403-06EA72E8:1:4:20:18:4294967295:4294967295:4294967295:4294967295|h[Glory of the Hellfire Raider]|h|r come get your mount |cff71d5ff|Hspell:186305:0|h[Infernal Direwolf]|h|r Righ Now", -- [1]
 			"Ashidens-Draenor", -- [2]
@@ -1811,7 +1309,7 @@ ElvCharacterDB = {
 			[52] = "Ashidens",
 			[51] = 1529866017,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [82]
+		}, -- [59]
 		{
 			"WTS |cffffffff|Hitem:16885::::::::110:265::::::|h[Heavy Junkbox]|h|r", -- [1]
 			"Snoozey-Draenor", -- [2]
@@ -1833,7 +1331,7 @@ ElvCharacterDB = {
 			[52] = "Snoozey",
 			[51] = 1529866049,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [83]
+		}, -- [60]
 		{
 			"WTS |cffffffff|Hitem:16885::::::::110:265::::::|h[Heavy Junkbox]|h|r", -- [1]
 			"Snoozey-Draenor", -- [2]
@@ -1855,7 +1353,7 @@ ElvCharacterDB = {
 			[52] = "Snoozey",
 			[51] = 1529866049,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [84]
+		}, -- [61]
 		{
 			"wts achvment glory |cffffff00|Hachievement:10149:Player-1403-06EA72E8:1:4:20:18:4294967295:4294967295:4294967295:4294967295|h[Glory of the Hellfire Raider]|h|r come get your mount |cff71d5ff|Hspell:186305:0|h[Infernal Direwolf]|h|r Righ Now", -- [1]
 			"Ashidens-Draenor", -- [2]
@@ -1877,7 +1375,7 @@ ElvCharacterDB = {
 			[52] = "Ashidens",
 			[51] = 1529866052,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [85]
+		}, -- [62]
 		{
 			"[WTS] |cffffff00|Hachievement:11387:Player-1301-09CCC697:0:0:0:-1:0:0:0:0|h[The Chosen]|h|r title! [WTS] 2000/2200/2400 Arena Rating, get Your Legion Elite PvP Set before BFA release! /w me for info", -- [1]
 			"Nordig-Draenor", -- [2]
@@ -1899,7 +1397,7 @@ ElvCharacterDB = {
 			[52] = "Nordig",
 			[51] = 1529866059,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [63]
 		{
 			"[WTS] |cff66bbff|Hjournal:1:1737:16|h[Gul'dan]|h|r Mythic Mount - |cffa335ee|Hitem:137575::::::::1:71::6:1:3524:::|h[Fiendish Hellfire Core]|h|r, |cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r Mythic Kill + mount |cffa335ee|Hitem:152789::::::::1:71::6:1:3524:::|h[Shackled Ur'zul]|h|r. [WTS] Glory of the Legion/Tomb/Argus raider.  /w me for info", -- [1]
 			"Nordig-Draenor", -- [2]
@@ -1921,7 +1419,7 @@ ElvCharacterDB = {
 			[52] = "Nordig",
 			[51] = 1529866059,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [87]
+		}, -- [64]
 		{
 			"970ilvl+ 11/11M Grp Double Boosting Mythic+15 keys for your weekly,  960+ weekly item, giving away any and all tradable gear over. 100k per run! You can afk, our key, going soon!", -- [1]
 			"Humminbrd-Draenor", -- [2]
@@ -1943,7 +1441,7 @@ ElvCharacterDB = {
 			[52] = "Humminbrd",
 			[51] = 1529866075,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [88]
+		}, -- [65]
 		{
 			"WTS |cffffffff|Hitem:16885::::::::110:265::::::|h[Heavy Junkbox]|h|r", -- [1]
 			"Snoozey-Draenor", -- [2]
@@ -1965,7 +1463,7 @@ ElvCharacterDB = {
 			[52] = "Snoozey",
 			[51] = 1529866086,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [89]
+		}, -- [66]
 		{
 			"WTS |cffffffff|Hitem:16885::::::::110:265::::::|h[Heavy Junkbox]|h|r", -- [1]
 			"Snoozey-Draenor", -- [2]
@@ -1987,7 +1485,7 @@ ElvCharacterDB = {
 			[52] = "Snoozey",
 			[51] = 1529866086,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [67]
 		{
 			"wts achvment glory |cffffff00|Hachievement:10149:Player-1403-06EA72E8:1:4:20:18:4294967295:4294967295:4294967295:4294967295|h[Glory of the Hellfire Raider]|h|r come get your mount |cff71d5ff|Hspell:186305:0|h[Infernal Direwolf]|h|r Righ Now", -- [1]
 			"Ashidens-Draenor", -- [2]
@@ -2009,7 +1507,7 @@ ElvCharacterDB = {
 			[52] = "Ashidens",
 			[51] = 1529866087,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [91]
+		}, -- [68]
 		{
 			"[WTS] |cffffff00|Hachievement:11387:Player-1301-09CCC697:0:0:0:-1:0:0:0:0|h[The Chosen]|h|r title! [WTS] 2000/2200/2400 Arena Rating, get Your Legion Elite PvP Set before BFA release! /w me for info", -- [1]
 			"Nordig-Draenor", -- [2]
@@ -2031,7 +1529,7 @@ ElvCharacterDB = {
 			[52] = "Nordig",
 			[51] = 1529866119,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [69]
 		{
 			"[WTS] |cff66bbff|Hjournal:1:1737:16|h[Gul'dan]|h|r Mythic Mount - |cffa335ee|Hitem:137575::::::::1:71::6:1:3524:::|h[Fiendish Hellfire Core]|h|r, |cff66bbff|Hjournal:1:2031:15|h[Argus the Unmaker]|h|r Mythic Kill + mount |cffa335ee|Hitem:152789::::::::1:71::6:1:3524:::|h[Shackled Ur'zul]|h|r. [WTS] Glory of the Legion/Tomb/Argus raider.  /w me for info", -- [1]
 			"Nordig-Draenor", -- [2]
@@ -2053,7 +1551,7 @@ ElvCharacterDB = {
 			[52] = "Nordig",
 			[51] = 1529866119,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [93]
+		}, -- [70]
 		{
 			"WTS |cffffffff|Hitem:16885::::::::110:265::::::|h[Heavy Junkbox]|h|r", -- [1]
 			"Snoozey-Draenor", -- [2]
@@ -2075,7 +1573,7 @@ ElvCharacterDB = {
 			[52] = "Snoozey",
 			[51] = 1529866122,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [71]
 		{
 			"wts achvment glory |cffffff00|Hachievement:10149:Player-1403-06EA72E8:1:4:20:18:4294967295:4294967295:4294967295:4294967295|h[Glory of the Hellfire Raider]|h|r come get your mount |cff71d5ff|Hspell:186305:0|h[Infernal Direwolf]|h|r Righ Now", -- [1]
 			"Ashidens-Draenor", -- [2]
@@ -2097,7 +1595,7 @@ ElvCharacterDB = {
 			[52] = "Ashidens",
 			[51] = 1529866122,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [72]
 		{
 			"WTS |cffffffff|Hitem:16885::::::::110:265::::::|h[Heavy Junkbox]|h|r", -- [1]
 			"Snoozey-Draenor", -- [2]
@@ -2119,7 +1617,7 @@ ElvCharacterDB = {
 			[52] = "Snoozey",
 			[51] = 1529866122,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [73]
 		{
 			"wts achvment glory |cffffff00|Hachievement:10149:Player-1403-06EA72E8:1:4:20:18:4294967295:4294967295:4294967295:4294967295|h[Glory of the Hellfire Raider]|h|r come get your mount |cff71d5ff|Hspell:186305:0|h[Infernal Direwolf]|h|r Righ Now", -- [1]
 			"Ashidens-Draenor", -- [2]
@@ -2141,7 +1639,7 @@ ElvCharacterDB = {
 			[52] = "Ashidens",
 			[51] = 1529866157,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [74]
 		{
 			"WTS |cffffffff|Hitem:16885::::::::110:265::::::|h[Heavy Junkbox]|h|r", -- [1]
 			"Snoozey-Draenor", -- [2]
@@ -2163,7 +1661,7 @@ ElvCharacterDB = {
 			[52] = "Snoozey",
 			[51] = 1529866551,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [75]
 		{
 			"WTS |cffffffff|Hitem:16885::::::::110:265::::::|h[Heavy Junkbox]|h|r", -- [1]
 			"Snoozey-Draenor", -- [2]
@@ -2185,7 +1683,7 @@ ElvCharacterDB = {
 			[52] = "Snoozey",
 			[51] = 1529866551,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [99]
+		}, -- [76]
 		{
 			"WTS |cffa335ee|Hitem:163967::::::::120:260::54:2:1472:4786:::|h[Shtuf's Ruler]|h|r /W OFFER", -- [1]
 			"Zeroaf-Draenor", -- [2]
@@ -2207,7 +1705,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Zeroaf|r",
 			[51] = 1534802883,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [100]
+		}, -- [77]
 		{
 			"WTS |cffa335ee|Hitem:159940::::::::120:256::13:2:1689:4928:::|h[Honorable Combatant's Etched Vessel of the Peerless]|h|r /w offer", -- [1]
 			"Starfail-Draenor", -- [2]
@@ -2229,7 +1727,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffStarfail|r",
 			[51] = 1534802884,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [101]
+		}, -- [78]
 		{
 			"[WTS] Expedition Run For Weekly Quest Tonight! Get your Azerite Weekly quest done fast and pain-free! /w for info", -- [1]
 			"Rainaa-Draenor", -- [2]
@@ -2251,7 +1749,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dRainaa|r",
 			[51] = 1534802889,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [102]
+		}, -- [79]
 		{
 			"WTB |cffffffff|Hitem:152631::::::::120:104::::::|h[Briny Flesh]|h|r 3g each C.O.D. or /w me to Trade!", -- [1]
 			"Yappa-Draenor", -- [2]
@@ -2273,7 +1771,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aYappa|r",
 			[51] = 1534802902,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [103]
+		}, -- [80]
 		{
 			"WTB Sky Golem /w me", -- [1]
 			"Gabrielish-Draenor", -- [2]
@@ -2295,7 +1793,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Gabrielish|r",
 			[51] = 1534802907,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [104]
+		}, -- [81]
 		{
 			"WTS |cffa335ee|Hitem:159940::::::::120:256::13:2:1689:4928:::|h[Honorable Combatant's Etched Vessel of the Peerless]|h|r /w offer", -- [1]
 			"Starfail-Draenor", -- [2]
@@ -2317,7 +1815,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffStarfail|r",
 			[51] = 1534802908,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [105]
+		}, -- [82]
 		{
 			"WTB Anchor weed 375g ea + all other bfa herbs 75g ea! COD only", -- [1]
 			"Bestnameever-Draenor", -- [2]
@@ -2339,7 +1837,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aBestnameever|r",
 			[51] = 1534802911,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [106]
+		}, -- [83]
 		{
 			"WTB Anchor weed 375g ea + all other bfa herbs 75g ea! COD only", -- [1]
 			"Bestnameever-Draenor", -- [2]
@@ -2361,7 +1859,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aBestnameever|r",
 			[51] = 1534802911,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [107]
+		}, -- [84]
 		{
 			"WTB ALL your |cffffffff|Hitem:154164::::::::120:261::::::|h[Blood-Stained Bone]|h|r  for 15g and your |cffffffff|Hitem:153050::::::::120:261::::::|h[Shimmerscale]|h|r  for 1.1g each!!! COD ME OR WHISPER FOR TRADE", -- [1]
 			"Zintex-Draenor", -- [2]
@@ -2383,7 +1881,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Zintex|r",
 			[51] = 1534802913,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [108]
+		}, -- [85]
 		{
 			"WTB Sky Golem /w me", -- [1]
 			"Gabrielish-Draenor", -- [2]
@@ -2405,7 +1903,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Gabrielish|r",
 			[51] = 1534802927,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [109]
+		}, -- [86]
 		{
 			"WTB - |cff1eff00|Hitem:152510::::::::10:64::::::|h[Anchor Weed]|h|r 250g/each & |cffffffff|Hitem:152512::::::::10:64::::::|h[Monelite Ore]|h|r 25g/each & BFA Greens 100g/each & BFA Blues 150g/each. You can send them via CoD. Thanks!", -- [1]
 			"Nilovski-Draenor", -- [2]
@@ -2427,7 +1925,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaNilovski|r",
 			[51] = 1534802930,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [110]
+		}, -- [87]
 		{
 			"WTS |cffa335ee|Hitem:163967::::::::120:260::54:2:1472:4786:::|h[Shtuf's Ruler]|h|r /W OFFER", -- [1]
 			"Zeroaf-Draenor", -- [2]
@@ -2449,7 +1947,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Zeroaf|r",
 			[51] = 1534802933,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [111]
+		}, -- [88]
 		{
 			"WTB [Monelite Ore] 40G EACH ", -- [1]
 			"Mëepi-Draenor", -- [2]
@@ -2471,7 +1969,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaMëepi|r",
 			[51] = 1534802934,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [112]
+		}, -- [89]
 		{
 			"WTB [Anchor Weed] 300G EACH TRADE OR COD ME ", -- [1]
 			"Knackz-Draenor", -- [2]
@@ -2493,7 +1991,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dKnackz|r",
 			[51] = 1534802934,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [113]
+		}, -- [90]
 		{
 			"WTS |cffa335ee|Hitem:163958::::::::120:268::54:2:1472:4786:::|h[Freezie's Bubble Popper]|h|r|cffa335ee|Hitem:163958::::::::120:268::54:2:1472:4786:::|h[Freezie's Bubble Popper]|h|r|cffa335ee|Hitem:163958::::::::120:268::54:2:1472:4786:::|h[Freezie's Bubble Popper]|h|r|cffa335ee|Hitem:163958::::::::120:268::54:2:1472:4786:::|h[Freezie's Bubble Popper]|h|r", -- [1]
 			"Ibrewmyload-Draenor", -- [2]
@@ -2515,7 +2013,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Ibrewmyload|r",
 			[51] = 1534802937,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [114]
+		}, -- [91]
 		{
 			"WTS |cffa335ee|Hitem:163965::::::::120:263::54:4:40:4802:1472:4786:::|h[Glave's Angular Glaive]|h|r /w me - SOCKET + Avoidance. CHEAP /w ME!", -- [1]
 			"Eldrak-Draenor", -- [2]
@@ -2537,7 +2035,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddEldrak|r",
 			[51] = 1534802939,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [115]
+		}, -- [92]
 		{
 			"WTB [Anchor Weed] 300G EACH TRADE OR COD ME ", -- [1]
 			"Knackz-Draenor", -- [2]
@@ -2559,7 +2057,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dKnackz|r",
 			[51] = 1534802943,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [116]
+		}, -- [93]
 		{
 			"WTS |cffa335ee|Hitem:159940::::::::120:256::13:2:1689:4928:::|h[Honorable Combatant's Etched Vessel of the Peerless]|h|r /w offer", -- [1]
 			"Starfail-Draenor", -- [2]
@@ -2581,7 +2079,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffStarfail|r",
 			[51] = 1534802945,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [117]
+		}, -- [94]
 		{
 			"WTB Sky Golem /w me", -- [1]
 			"Gabrielish-Draenor", -- [2]
@@ -2603,7 +2101,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Gabrielish|r",
 			[51] = 1534802947,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [118]
+		}, -- [95]
 		{
 			"Heroic & Mythic Dungeons Runs Tonight! Get your 325-340+ ilvl items ! Don't waste your time with pugs - play with professionals! /w for info", -- [1]
 			"Rainaa-Draenor", -- [2]
@@ -2625,7 +2123,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dRainaa|r",
 			[51] = 1534802949,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [119]
+		}, -- [96]
 		{
 			"[WTS] Expedition Run For Weekly Quest Tonight! Get your Azerite Weekly quest done fast and pain-free! /w for info", -- [1]
 			"Rainaa-Draenor", -- [2]
@@ -2647,7 +2145,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dRainaa|r",
 			[51] = 1534802949,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [120]
+		}, -- [97]
 		{
 			"WTB - |cff1eff00|Hitem:152510::::::::10:64::::::|h[Anchor Weed]|h|r 250g/each & |cffffffff|Hitem:152512::::::::10:64::::::|h[Monelite Ore]|h|r 25g/each & BFA Greens 100g/each & BFA Blues 150g/each. You can send them via CoD. Thanks!", -- [1]
 			"Nilovski-Draenor", -- [2]
@@ -2669,7 +2167,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaNilovski|r",
 			[51] = 1534802960,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [121]
+		}, -- [98]
 		{
 			"WTS |cffa335ee|Hitem:163958::::::::120:268::54:2:1472:4786:::|h[Freezie's Bubble Popper]|h|r|cffa335ee|Hitem:163958::::::::120:268::54:2:1472:4786:::|h[Freezie's Bubble Popper]|h|r|cffa335ee|Hitem:163958::::::::120:268::54:2:1472:4786:::|h[Freezie's Bubble Popper]|h|r|cffa335ee|Hitem:163958::::::::120:268::54:2:1472:4786:::|h[Freezie's Bubble Popper]|h|r", -- [1]
 			"Ibrewmyload-Draenor", -- [2]
@@ -2691,7 +2189,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Ibrewmyload|r",
 			[51] = 1534802960,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [122]
+		}, -- [99]
 		{
 			"WTB Sky Golem /w me", -- [1]
 			"Gabrielish-Draenor", -- [2]
@@ -2713,7 +2211,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Gabrielish|r",
 			[51] = 1534802967,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [123]
+		}, -- [100]
 		{
 			"WTB ALL your |cffffffff|Hitem:154164::::::::120:261::::::|h[Blood-Stained Bone]|h|r  for 15g and your |cffffffff|Hitem:153050::::::::120:261::::::|h[Shimmerscale]|h|r  for 1.1g each!!! COD ME OR WHISPER FOR TRADE", -- [1]
 			"Zintex-Draenor", -- [2]
@@ -2735,7 +2233,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Zintex|r",
 			[51] = 1534802970,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [124]
+		}, -- [101]
 		{
 			"WTB Anchor weed 375g ea + all other bfa herbs 75g ea! COD only", -- [1]
 			"Bestnameever-Draenor", -- [2]
@@ -2757,7 +2255,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aBestnameever|r",
 			[51] = 1534802970,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [125]
+		}, -- [102]
 		{
 			"WTB Anchor weed 375g ea + all other bfa herbs 75g ea! COD only", -- [1]
 			"Bestnameever-Draenor", -- [2]
@@ -2779,7 +2277,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aBestnameever|r",
 			[51] = 1534802970,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [126]
+		}, -- [103]
 		{
 			"WTS |cffa335ee|Hitem:163967::::::::120:260::54:2:1472:4786:::|h[Shtuf's Ruler]|h|r /W OFFER", -- [1]
 			"Zeroaf-Draenor", -- [2]
@@ -2800,6 +2298,512 @@ ElvCharacterDB = {
 			true, -- [17]
 			[52] = "|cfffff468Zeroaf|r",
 			[51] = 1534802974,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [104]
+		{
+			"Buying unlimited amount of |cffffffff|Hitem:152576::::::::120:70::::::|h[Tidespray Linen]|h|r 15g ea - COD or trade!", -- [1]
+			"Trebobs-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Trebobs", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			94, -- [11]
+			"Player-1403-070A6585", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff48cbaTrebobs|r",
+			[51] = 1536872624,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [105]
+		{
+			"WTS |cffa335ee|Hitem:161071::::::::120:256::5:3:4799:1512:4784:::|h[Bloody Experimenter's Wraps]|h|r 390ilv 900k, cheaper than AH!", -- [1]
+			"Sacredtal-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Sacredtal", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			96, -- [11]
+			"Player-1403-06FCA7CC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffffffffSacredtal|r",
+			[51] = 1536872626,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [106]
+		{
+			"WTS |cffa335ee|Hitem:161072::::::::120:268::5:3:4799:1507:4784:::|h[Splatterguards]|h|r 385 LEATHER WRIST /w me", -- [1]
+			"Haalbrew-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Haalbrew", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			99, -- [11]
+			"Player-1403-06FA3469", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00ff96Haalbrew|r",
+			[51] = 1536872626,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [107]
+		{
+			"WTB ALL YOUR |cff1eff00|Hitem:152510::::::::120:261::::::|h[Anchor Weed]|h|r 450g, |cffffffff|Hitem:152509::::::::120:261::::::|h[Siren's Pollen]|h|r 42g, |cffffffff|Hitem:152505::::::::120:261::::::|h[Riverbud]|h|r 32g EACH!!  /W ME OR C.O.D ANY AMOUNTS!!", -- [1]
+			"Waleera-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Waleera", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			106, -- [11]
+			"Player-1403-06816A15", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Waleera|r",
+			[51] = 1536872631,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [108]
+		{
+			"WTS 300x |cff1eff00|Hitem:152510::::::::120:268::::::|h[Anchor Weed]|h|r 3800x|cff1eff00|Hitem:152513::::::::120:268::::::|h[Platinum Ore]|h|r", -- [1]
+			"Nemanjamg-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Nemanjamg", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			116, -- [11]
+			"Player-1403-06F636D5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00ff96Nemanjamg|r",
+			[51] = 1536872640,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [109]
+		{
+			"WTS |cffa335ee|Hitem:161072::::::::120:268::5:3:4799:1507:4784:::|h[Splatterguards]|h|r 385 LEATHER WRIST /w me", -- [1]
+			"Haalbrew-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Haalbrew", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			119, -- [11]
+			"Player-1403-06FA3469", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00ff96Haalbrew|r",
+			[51] = 1536872643,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [110]
+		{
+			"WTB - |cff1eff00|Hitem:162515::::::::10:64::::::|h[Midnight Salmon]|h|r 125g/ea & |cffffffff|Hitem:152549::::::::10:64::::::|h[Redtail Loach]|h|r 35g/ea & |cffffffff|Hitem:152545::::::::10:64::::::|h[Frenzied Fangtooth]|h|r 35g/ea & BFA Herbs 25g/ea & |cffffffff|Hitem:152512::::::::10:64::::::|h[Monelite Ore]|h|r 20g/ea & BFA Greens 75g/ea & |cffffffff|Hitem:152576::::::::10:64::::::|h[Tidespray Linen]|h|r 7g/ea. Send via CoD pls. Thanks!", -- [1]
+			"Nilovski-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Nilovski", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			120, -- [11]
+			"Player-1403-0700DCBA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3fc6eaNilovski|r",
+			[51] = 1536872643,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [111]
+		{
+			"WTS |cffa335ee|Hitem:161071::::::::120:256::5:3:4799:1512:4784:::|h[Bloody Experimenter's Wraps]|h|r 390ilv 900k, cheaper than AH!", -- [1]
+			"Sacredtal-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Sacredtal", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			121, -- [11]
+			"Player-1403-06FCA7CC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffffffffSacredtal|r",
+			[51] = 1536872644,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [112]
+		{
+			"WTB ALL YOUR |cff1eff00|Hitem:152510::::::::120:261::::::|h[Anchor Weed]|h|r 450g, |cffffffff|Hitem:152509::::::::120:261::::::|h[Siren's Pollen]|h|r 42g, |cffffffff|Hitem:152505::::::::120:261::::::|h[Riverbud]|h|r 32g EACH!!  /W ME OR C.O.D ANY AMOUNTS!!", -- [1]
+			"Waleera-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Waleera", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			123, -- [11]
+			"Player-1403-06816A15", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Waleera|r",
+			[51] = 1536872646,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [113]
+		{
+			"364 Rogue 6/8hc 786+ Score lf \"Mythic Plus\" Team for spam pushing HIGH KEYS", -- [1]
+			"Alacarda-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Alacarda", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			125, -- [11]
+			"Player-1403-06DFEB0A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Alacarda|r",
+			[51] = 1536872646,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [114]
+		{
+			"364 Rogue 6/8hc 786+ Score lf \"Mythic Plus\" Team for spam pushing HIGH KEYS", -- [1]
+			"Alacarda-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Alacarda", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			127, -- [11]
+			"Player-1403-06DFEB0A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Alacarda|r",
+			[51] = 1536872646,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [115]
+		{
+			"Buying unlimited amount of |cffffffff|Hitem:152576::::::::120:70::::::|h[Tidespray Linen]|h|r 15g ea - COD or trade!", -- [1]
+			"Trebobs-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Trebobs", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			130, -- [11]
+			"Player-1403-070A6585", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff48cbaTrebobs|r",
+			[51] = 1536872654,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [116]
+		{
+			"WTS |cffa335ee|Hitem:161072::::::::120:268::5:3:4799:1507:4784:::|h[Splatterguards]|h|r 385 LEATHER WRIST /w me", -- [1]
+			"Haalbrew-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Haalbrew", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			132, -- [11]
+			"Player-1403-06FA3469", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00ff96Haalbrew|r",
+			[51] = 1536872657,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [117]
+		{
+			"WTS |cffa335ee|Hitem:161071::::::::120:256::5:3:4799:1512:4784:::|h[Bloody Experimenter's Wraps]|h|r 390ilv 900k, cheaper than AH!", -- [1]
+			"Sacredtal-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Sacredtal", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			134, -- [11]
+			"Player-1403-06FCA7CC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffffffffSacredtal|r",
+			[51] = 1536872658,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [118]
+		{
+			"WTB ALL YOUR |cff1eff00|Hitem:152510::::::::120:261::::::|h[Anchor Weed]|h|r 450g, |cffffffff|Hitem:152509::::::::120:261::::::|h[Siren's Pollen]|h|r 42g, |cffffffff|Hitem:152505::::::::120:261::::::|h[Riverbud]|h|r 32g EACH!!  /W ME OR C.O.D ANY AMOUNTS!!", -- [1]
+			"Waleera-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Waleera", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			136, -- [11]
+			"Player-1403-06816A15", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Waleera|r",
+			[51] = 1536872661,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [119]
+		{
+			"<The Cowmunity> is recruiting. casual pve guild (thur/mon raiddays). A 'family-style', cozy, social, helpful guild. We want to be a home away from home. Only want players with that mindset. Have discord and guildrep.", -- [1]
+			"Lÿnko-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Lÿnko", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			137, -- [11]
+			"Player-1403-05A9A9C9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff0070ddLÿnko|r",
+			[51] = 1536872661,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [120]
+		{
+			"WTS 300x |cff1eff00|Hitem:152510::::::::120:268::::::|h[Anchor Weed]|h|r 3800x|cff1eff00|Hitem:152513::::::::120:268::::::|h[Platinum Ore]|h|r", -- [1]
+			"Nemanjamg-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Nemanjamg", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			138, -- [11]
+			"Player-1403-06F636D5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00ff96Nemanjamg|r",
+			[51] = 1536872666,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [121]
+		{
+			"WTB ALL BFA BOE GREENS 120G EA /INV ME!", -- [1]
+			"Fleshwalker-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Fleshwalker", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			140, -- [11]
+			"Player-1403-053B35B8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc69b6dFleshwalker|r",
+			[51] = 1536872669,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [122]
+		{
+			"WTB ALL BFA BOE GREENS 120G EA /INV ME!", -- [1]
+			"Fleshwalker-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Fleshwalker", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			142, -- [11]
+			"Player-1403-053B35B8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc69b6dFleshwalker|r",
+			[51] = 1536872669,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [123]
+		{
+			"WTS |cffa335ee|Hitem:161072::::::::120:268::5:3:4799:1507:4784:::|h[Splatterguards]|h|r 385 LEATHER WRIST /w me", -- [1]
+			"Haalbrew-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Haalbrew", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			145, -- [11]
+			"Player-1403-06FA3469", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00ff96Haalbrew|r",
+			[51] = 1536872673,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [124]
+		{
+			"WTB - |cff1eff00|Hitem:162515::::::::10:64::::::|h[Midnight Salmon]|h|r 125g/ea & |cffffffff|Hitem:152549::::::::10:64::::::|h[Redtail Loach]|h|r 35g/ea & |cffffffff|Hitem:152545::::::::10:64::::::|h[Frenzied Fangtooth]|h|r 35g/ea & BFA Herbs 25g/ea & |cffffffff|Hitem:152512::::::::10:64::::::|h[Monelite Ore]|h|r 20g/ea & BFA Greens 75g/ea & |cffffffff|Hitem:152576::::::::10:64::::::|h[Tidespray Linen]|h|r 7g/ea. Send via CoD pls. Thanks!", -- [1]
+			"Nilovski-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Nilovski", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			146, -- [11]
+			"Player-1403-0700DCBA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3fc6eaNilovski|r",
+			[51] = 1536872673,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [125]
+		{
+			"WTS |cffa335ee|Hitem:161071::::::::120:256::5:3:4799:1512:4784:::|h[Bloody Experimenter's Wraps]|h|r 390ilv 900k, cheaper than AH!", -- [1]
+			"Sacredtal-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Sacredtal", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			148, -- [11]
+			"Player-1403-06FCA7CC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffffffffSacredtal|r",
+			[51] = 1536872674,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [126]
+		{
+			"WTB ALL YOUR |cff1eff00|Hitem:152510::::::::120:261::::::|h[Anchor Weed]|h|r 450g, |cffffffff|Hitem:152509::::::::120:261::::::|h[Siren's Pollen]|h|r 42g, |cffffffff|Hitem:152505::::::::120:261::::::|h[Riverbud]|h|r 32g EACH!!  /W ME OR C.O.D ANY AMOUNTS!!", -- [1]
+			"Waleera-Draenor", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Waleera", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			151, -- [11]
+			"Player-1403-06816A15", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Waleera|r",
+			[51] = 1536872676,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [127]
 	},

@@ -1,6 +1,10 @@
 VER 3 0000000000000040 "AAP_MACRO" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/use Scroll of Combustion
+/use Poisoned Mojo Flask
+END
+VER 3 0000000000000043 "bi" "135883"
+#showtooltip
+/cast [@mouseover] Binding Heal; Binding Heal
 END
 VER 3 000000000000003A "Buy Item" "ACHIEVEMENT_GUILDPERK_MOBILEBANKING"
 /run BuyMerchantItem(4) 
@@ -40,6 +44,10 @@ VER 3 000000000000002D "PetAttack" "Ability_GhoulFrenzy"
 END
 VER 3 0000000000000027 "Pull" "SPELL_SHADOW_CHARM"
 /dbM pull 10
+END
+VER 3 0000000000000042 "SP T75" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:5/1] Auspicious Spirits; [talent:5/2] Shadow Word: Death; [talent:5/3] Shadow Crash
 END
 VER 3 000000000000003D "Trink13" "INV_MISC_QUESTIONMARK"
 #showtooltip 13

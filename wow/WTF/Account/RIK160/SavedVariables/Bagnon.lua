@@ -16,6 +16,14 @@ Bagnon_Sets = {
 	},
 	["inscribeColor"] = {
 	},
+	["reagentColor"] = {
+	},
+	["gemColor"] = {
+	},
+	["normalColor"] = {
+	},
+	["herbColor"] = {
+	},
 	["global"] = {
 		["inventory"] = {
 			["rules"] = {
@@ -45,18 +53,23 @@ Bagnon_Sets = {
 				"contain/all", -- [24]
 				"misc/all", -- [25]
 			},
-			["point"] = "TOPRIGHT",
+			["point"] = "BOTTOMRIGHT",
 			["hiddenBags"] = {
 				[2] = false,
+				[3] = false,
 			},
 			["color"] = {
 			},
 			["hiddenRules"] = {
 			},
-			["y"] = -62.970703125,
-			["x"] = -275.997802734375,
+			["y"] = 68.0405044555664,
+			["x"] = -346.010498046875,
+			["brokerObject"] = "SimulationCraft",
 			["borderColor"] = {
 			},
+			["itemScale"] = 1,
+			["scale"] = 1,
+			["alpha"] = 1,
 			["showBags"] = true,
 		},
 		["vault"] = {
@@ -127,11 +140,11 @@ Bagnon_Sets = {
 			},
 			["color"] = {
 			},
-			["x"] = 679.999938964844,
-			["hiddenRules"] = {
-			},
 			["hiddenBags"] = {
 			},
+			["hiddenRules"] = {
+			},
+			["x"] = 679.999938964844,
 		},
 		["bank"] = {
 			["rules"] = {
@@ -165,24 +178,18 @@ Bagnon_Sets = {
 			["hiddenBags"] = {
 				[11] = false,
 				[10] = false,
+				[7] = false,
+				[5] = false,
 			},
 			["color"] = {
 			},
 			["hiddenRules"] = {
 			},
 			["y"] = 0,
-			["x"] = 405.999359130859,
+			["x"] = 286.022155761719,
 			["borderColor"] = {
 			},
 			["showBags"] = true,
 		},
-	},
-	["herbColor"] = {
-	},
-	["normalColor"] = {
-	},
-	["gemColor"] = {
-	},
-	["reagentColor"] = {
 	},
 }

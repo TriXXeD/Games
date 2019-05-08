@@ -1,18 +1,17 @@
 
 MogItDB = {
-	["global"] = {
-		["version"] = "3.8.11",
-	},
 	["profileKeys"] = {
 		["Trixxedbank - Kazzak"] = "Default",
 		["Eruditus - Ravencrest"] = "Default",
 		["Achilina - Ravencrest"] = "Default",
+		["Trixxedbank - Tarren Mill"] = "Default",
 		["Lupalia - Ravencrest"] = "Default",
 		["Molech - Kazzak"] = "Default",
 		["Tríxxed - The Maelstrom"] = "Default",
 		["Trîxxed - Ravencrest"] = "Default",
 		["Daemonikos - Draenor"] = "Default",
 		["Trixxedz - Thunderhorn"] = "Default",
+		["Shanonymous - Tarren Mill"] = "Default",
 		["Trïxxed - Ravencrest"] = "Default",
 		["Palladium - Ravencrest"] = "Default",
 		["Molokh - Ravencrest"] = "Default",
@@ -24,21 +23,26 @@ MogItDB = {
 		["Daemonikos - Ravencrest"] = "Default",
 		["Drfeargood - Ravencrest"] = "Default",
 		["Trixxedbank - Draenor"] = "Default",
-		["Shankspeare - Kazzak"] = "Default",
-		["Fausta - Ravencrest"] = "Default",
+		["Achilina - Draenor"] = "Default",
+		["Trixxedosaur - Tarren Mill"] = "Default",
+		["Trixxed - Ravencrest"] = "Default",
+		["Marcellinus - Ravencrest"] = "Default",
 		["Xbenedict - Kazzak"] = "Default",
 		["Chrysante - Ravencrest"] = "Default",
-		["Achilina - Draenor"] = "Default",
-		["Anneshank - Draenor"] = "Default",
+		["Trixbankxed - Shadowsong"] = "Default",
+		["Lichservent - Thunderhorn"] = "Default",
 		["Quelith - Draenor"] = "Default",
 		["Lycotonum - Tarren Mill"] = "Default",
-		["Petergrippin - Draenor"] = "Default",
-		["Grippiboi - Kazzak"] = "Default",
-		["Trixbankxed - Shadowsong"] = "Default",
 		["Odeysseus - Thunderhorn"] = "Default",
-		["Lichservent - Thunderhorn"] = "Default",
-		["Marcellinus - Ravencrest"] = "Default",
-		["Trixxed - Ravencrest"] = "Default",
+		["Grippiboi - Kazzak"] = "Default",
+		["Petergrippin - Draenor"] = "Default",
+		["Anneshank - Draenor"] = "Default",
+		["Shankspeare - Tarren Mill"] = "Default",
+		["Fausta - Ravencrest"] = "Default",
+		["Shankspeare - Kazzak"] = "Default",
+	},
+	["global"] = {
+		["version"] = "3.9.0",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -52,58 +56,63 @@ MogItDB = {
 				}, -- [1]
 			},
 			["gridHeight"] = 938.000366210938,
-			["x"] = 84.0004501342773,
+			["x"] = 189.010543823242,
 			["slotLabels"] = {
 				["Waist"] = "Waist",
 				["Fist"] = "Fist Weapons",
 				["Tabard"] = "Tabard",
 				["Legs"] = "Legs",
 				["Back"] = "Back",
-				["Warglaives"] = "Warglaives",
-				["ArtifactLegion"] = "Legion Artifacts",
+				["2H-axe"] = "Two-Handed Axes",
+				["2H-mace"] = "Two-Handed Maces",
 				["Shirt"] = "Shirt",
 				["Dagger"] = "Daggers",
 				["Hands"] = "Hands",
 				["Gun"] = "Guns",
 				["Polearm"] = "Polearms",
 				["2H-sword"] = "Two-Handed Swords",
-				["2H-axe"] = "Two-Handed Axes",
-				["2H-mace"] = "Two-Handed Maces",
+				["Warglaives"] = "Warglaives",
+				["ArtifactLegion"] = "Legion Artifacts",
 				["1H-mace"] = "One-Handed Maces",
 				["Head"] = "Head",
 				["Holdable"] = "Held In Off-hand",
-				["Shield"] = "Shields",
-				["Feet"] = "Feet",
-				["Staff"] = "Staves",
-				["Chest"] = "Chest",
-				["Wrist"] = "Wrist",
-				["Crossbow"] = "Crossbows",
-				["1H-axe"] = "One-Handed Axes",
-				["Bow"] = "Bows",
 				["1H-sword"] = "One-Handed Swords",
+				["Bow"] = "Bows",
+				["Feet"] = "Feet",
+				["Chest"] = "Chest",
+				["1H-axe"] = "One-Handed Axes",
+				["Crossbow"] = "Crossbows",
+				["Wrist"] = "Wrist",
+				["Staff"] = "Staves",
+				["Shield"] = "Shields",
 				["Shoulder"] = "Shoulder",
 				["Wand"] = "Wands",
 			},
 			["minimap"] = {
-				["minimapPos"] = 172.303838626055,
+				["minimapPos"] = 206.791505858516,
 			},
 			["gridWidth"] = 1074,
-			["point"] = "TOP",
-			["y"] = -30.9999656677246,
+			["point"] = "TOPLEFT",
+			["y"] = -34,
 		},
 	},
 }
 MogItWishlist = {
+	["global"] = {
+		["version"] = 80100,
+	},
 	["profileKeys"] = {
 		["Trixxedbank - Kazzak"] = "Trixxedbank - Kazzak",
 		["Eruditus - Ravencrest"] = "Eruditus - Ravencrest",
 		["Achilina - Ravencrest"] = "Achilina - Ravencrest",
+		["Trixxedbank - Tarren Mill"] = "Trixxedbank - Tarren Mill",
 		["Lupalia - Ravencrest"] = "Lupalia - Ravencrest",
 		["Molech - Kazzak"] = "Molech - Kazzak",
 		["Tríxxed - The Maelstrom"] = "Tríxxed - The Maelstrom",
 		["Trîxxed - Ravencrest"] = "Trîxxed - Ravencrest",
 		["Daemonikos - Draenor"] = "Daemonikos - Draenor",
 		["Trixxedz - Thunderhorn"] = "Trixxedz - Thunderhorn",
+		["Shanonymous - Tarren Mill"] = "Shanonymous - Tarren Mill",
 		["Trïxxed - Ravencrest"] = "Trïxxed - Ravencrest",
 		["Palladium - Ravencrest"] = "Palladium - Ravencrest",
 		["Molokh - Ravencrest"] = "Molokh - Ravencrest",
@@ -115,24 +124,23 @@ MogItWishlist = {
 		["Daemonikos - Ravencrest"] = "Daemonikos - Ravencrest",
 		["Drfeargood - Ravencrest"] = "Drfeargood - Ravencrest",
 		["Trixxedbank - Draenor"] = "Trixxedbank - Draenor",
-		["Shankspeare - Kazzak"] = "Shankspeare - Kazzak",
-		["Fausta - Ravencrest"] = "Fausta - Ravencrest",
+		["Achilina - Draenor"] = "Achilina - Draenor",
+		["Trixxedosaur - Tarren Mill"] = "Trixxedosaur - Tarren Mill",
+		["Trixxed - Ravencrest"] = "Trixxed - Ravencrest",
+		["Marcellinus - Ravencrest"] = "Marcellinus - Ravencrest",
 		["Xbenedict - Kazzak"] = "Xbenedict - Kazzak",
 		["Chrysante - Ravencrest"] = "Chrysante - Ravencrest",
-		["Achilina - Draenor"] = "Achilina - Draenor",
-		["Anneshank - Draenor"] = "Anneshank - Draenor",
+		["Trixbankxed - Shadowsong"] = "Trixbankxed - Shadowsong",
+		["Lichservent - Thunderhorn"] = "Lichservent - Thunderhorn",
 		["Quelith - Draenor"] = "Quelith - Draenor",
 		["Lycotonum - Tarren Mill"] = "Lycotonum - Tarren Mill",
-		["Petergrippin - Draenor"] = "Petergrippin - Draenor",
-		["Grippiboi - Kazzak"] = "Grippiboi - Kazzak",
-		["Trixbankxed - Shadowsong"] = "Trixbankxed - Shadowsong",
 		["Odeysseus - Thunderhorn"] = "Odeysseus - Thunderhorn",
-		["Lichservent - Thunderhorn"] = "Lichservent - Thunderhorn",
-		["Marcellinus - Ravencrest"] = "Marcellinus - Ravencrest",
-		["Trixxed - Ravencrest"] = "Trixxed - Ravencrest",
-	},
-	["global"] = {
-		["version"] = 80000,
+		["Grippiboi - Kazzak"] = "Grippiboi - Kazzak",
+		["Petergrippin - Draenor"] = "Petergrippin - Draenor",
+		["Anneshank - Draenor"] = "Anneshank - Draenor",
+		["Shankspeare - Tarren Mill"] = "Shankspeare - Tarren Mill",
+		["Fausta - Ravencrest"] = "Fausta - Ravencrest",
+		["Shankspeare - Kazzak"] = "Shankspeare - Kazzak",
 	},
 	["profiles"] = {
 		["Trixxedbank - Kazzak"] = {
@@ -140,6 +148,8 @@ MogItWishlist = {
 		["Eruditus - Ravencrest"] = {
 		},
 		["Achilina - Ravencrest"] = {
+		},
+		["Trixxedbank - Tarren Mill"] = {
 		},
 		["Lupalia - Ravencrest"] = {
 		},
@@ -152,6 +162,8 @@ MogItWishlist = {
 		["Daemonikos - Draenor"] = {
 		},
 		["Trixxedz - Thunderhorn"] = {
+		},
+		["Shanonymous - Tarren Mill"] = {
 		},
 		["Trïxxed - Ravencrest"] = {
 		},
@@ -178,14 +190,6 @@ MogItWishlist = {
 		},
 		["Trixxedbank - Draenor"] = {
 		},
-		["Shankspeare - Kazzak"] = {
-		},
-		["Fausta - Ravencrest"] = {
-		},
-		["Xbenedict - Kazzak"] = {
-		},
-		["Chrysante - Ravencrest"] = {
-		},
 		["Achilina - Draenor"] = {
 			["sets"] = {
 				{
@@ -195,11 +199,11 @@ MogItWishlist = {
 						["BackSlot"] = "item:50764:0",
 						["MainHandSlot"] = "item:61346:0",
 						["FeetSlot"] = "item:50772:0",
-						["HeadSlot"] = "item:134110:0",
-						["ShoulderSlot"] = "item:48374:0",
-						["WaistSlot"] = "item:37670:0",
-						["HandsSlot"] = "item:41975:0",
 						["LegsSlot"] = "item:33731:0",
+						["HandsSlot"] = "item:41975:0",
+						["WaistSlot"] = "item:37670:0",
+						["ShoulderSlot"] = "item:48374:0",
+						["HeadSlot"] = "item:134110:0",
 					},
 					["name"] = "Golden Blue 2h",
 					["alternateItems"] = {
@@ -207,23 +211,7 @@ MogItWishlist = {
 				}, -- [1]
 			},
 		},
-		["Anneshank - Draenor"] = {
-		},
-		["Quelith - Draenor"] = {
-		},
-		["Lycotonum - Tarren Mill"] = {
-		},
-		["Petergrippin - Draenor"] = {
-		},
-		["Grippiboi - Kazzak"] = {
-		},
-		["Trixbankxed - Shadowsong"] = {
-		},
-		["Odeysseus - Thunderhorn"] = {
-		},
-		["Lichservent - Thunderhorn"] = {
-		},
-		["Marcellinus - Ravencrest"] = {
+		["Trixxedosaur - Tarren Mill"] = {
 		},
 		["Trixxed - Ravencrest"] = {
 			["sets"] = {
@@ -234,17 +222,45 @@ MogItWishlist = {
 						["BackSlot"] = "item:50764:0",
 						["MainHandSlot"] = "item:61346:0",
 						["FeetSlot"] = "item:50772:0",
-						["LegsSlot"] = "item:33731:0",
-						["HandsSlot"] = "item:41975:0",
-						["WaistSlot"] = "item:37670:0",
-						["ShoulderSlot"] = "item:48374:0",
 						["HeadSlot"] = "item:134110:0",
+						["ShoulderSlot"] = "item:48374:0",
+						["LegsSlot"] = "item:33731:0",
+						["WaistSlot"] = "item:37670:0",
+						["HandsSlot"] = "item:41975:0",
 					},
 					["name"] = "Golden Blue 2h",
 					["alternateItems"] = {
 					},
 				}, -- [1]
 			},
+		},
+		["Marcellinus - Ravencrest"] = {
+		},
+		["Xbenedict - Kazzak"] = {
+		},
+		["Chrysante - Ravencrest"] = {
+		},
+		["Trixbankxed - Shadowsong"] = {
+		},
+		["Lichservent - Thunderhorn"] = {
+		},
+		["Quelith - Draenor"] = {
+		},
+		["Lycotonum - Tarren Mill"] = {
+		},
+		["Odeysseus - Thunderhorn"] = {
+		},
+		["Grippiboi - Kazzak"] = {
+		},
+		["Petergrippin - Draenor"] = {
+		},
+		["Anneshank - Draenor"] = {
+		},
+		["Shankspeare - Tarren Mill"] = {
+		},
+		["Fausta - Ravencrest"] = {
+		},
+		["Shankspeare - Kazzak"] = {
 		},
 	},
 }

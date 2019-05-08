@@ -20,3 +20,5 @@ TradeSkillMaster_Warehousing: disabled
 tCombo: disabled
 Skada: disabled
 ElvUI_EverySecondCounts: disabled
+BagBrother: enabled
+Azeroth Auto Pilot: enabled

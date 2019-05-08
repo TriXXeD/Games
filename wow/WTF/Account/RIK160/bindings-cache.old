@@ -16,7 +16,7 @@ bind 7 NONE
 bind 8 NONE
 bind 9 NONE
 bind 0 NONE
-bind - NONE
+bind - TOGGLECHATTAB
 bind = NONE
 bind CTRL-F1 NONE
 bind CTRL-F2 NONE

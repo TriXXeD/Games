@@ -1,3 +1,7 @@
+VER 3 0100000000000008 "cancel lust" "132724"
+/cancelaura Bloodlust
+/cancelaura Time Warp
+END
 VER 3 0100000000000001 "Detox" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [target=mouseover,exists] Detox; Detox

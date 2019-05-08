@@ -1,0 +1,2005 @@
+
+_detalhes_database = {
+	["savedbuffs"] = {
+	},
+	["mythic_dungeon_id"] = 0,
+	["tabela_historico"] = {
+		["tabelas"] = {
+			{
+				{
+					["combatId"] = 2,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.007872,
+							["damage_from"] = {
+								["Runaway Shredder"] = true,
+							},
+							["targets"] = {
+								["Runaway Shredder"] = 334,
+							},
+							["total"] = 334.007872,
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["classe"] = "ROGUE",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 334.007872,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1555790624,
+							["friendlyfire_total"] = 0,
+							["spec"] = 260,
+							["nome"] = "Shankspeare",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 41,
+										["g_amt"] = 0,
+										["n_max"] = 39,
+										["targets"] = {
+											["Runaway Shredder"] = 100,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 59,
+										["n_min"] = 20,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 100,
+										["c_max"] = 41,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 41,
+									}, -- [1]
+									[2098] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 73,
+										["targets"] = {
+											["Runaway Shredder"] = 73,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 73,
+										["n_min"] = 73,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 73,
+										["c_max"] = 0,
+										["id"] = 2098,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[185763] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 70,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Runaway Shredder"] = 70,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 70,
+										["c_max"] = 70,
+										["id"] = 185763,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 70,
+									},
+									[197834] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 91,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Runaway Shredder"] = 91,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 91,
+										["c_max"] = 91,
+										["id"] = 197834,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 91,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-1084-08F45BC7",
+							["last_dps"] = 70.39154309634,
+							["custom"] = 0,
+							["last_event"] = 1555790623,
+							["damage_taken"] = 49.007872,
+							["start_time"] = 1555790620,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.007095,
+							["monster"] = true,
+							["damage_from"] = {
+								["Shankspeare"] = true,
+							},
+							["targets"] = {
+								["Shankspeare"] = 49,
+							},
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 49.007095,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["total"] = 49.007095,
+							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-3771-1-2389-35111-00033B7AD0",
+							["nome"] = "Runaway Shredder",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 29,
+										["targets"] = {
+											["Shankspeare"] = 29,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 29,
+										["n_min"] = 29,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 29,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									}, -- [1]
+									[32735] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 20,
+										["targets"] = {
+											["Shankspeare"] = 20,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 20,
+										["n_min"] = 20,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 20,
+										["c_max"] = 0,
+										["id"] = 32735,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 1,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1555790624,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 334.007095,
+							["start_time"] = 1555790621,
+							["delay"] = 0,
+							["last_event"] = 1555790622,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 2,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["combatId"] = 2,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 1.002028,
+							["resource"] = 0.002028,
+							["targets"] = {
+								["Shankspeare"] = 1,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "ROGUE",
+							["total"] = 1.002028,
+							["nome"] = "Shankspeare",
+							["spec"] = 260,
+							["grupo"] = true,
+							["flag_original"] = 1297,
+							["last_event"] = 1555790621,
+							["alternatepower"] = 0.002028,
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[193315] = {
+										["id"] = 193315,
+										["total"] = 1,
+										["targets"] = {
+											["Shankspeare"] = 1,
+										},
+										["counter"] = 1,
+									},
+								},
+							},
+							["serial"] = "Player-1084-08F45BC7",
+							["tipo"] = 3,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 2,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[185763] = {
+										["activedamt"] = 0,
+										["id"] = 185763,
+										["targets"] = {
+										},
+										["uptime"] = 4,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 4,
+							["classe"] = "ROGUE",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[269083] = {
+										["activedamt"] = 1,
+										["id"] = 269083,
+										["targets"] = {
+										},
+										["uptime"] = 4,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[185763] = {
+										["activedamt"] = 0,
+										["id"] = 185763,
+										["targets"] = {
+										},
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["debuff_uptime"] = 4,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 260,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[193315] = 1,
+								[2098] = 1,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1555790624,
+							["nome"] = "Shankspeare",
+							["pets"] = {
+							},
+							["serial"] = "Player-1084-08F45BC7",
+							["tipo"] = 4,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["nome"] = "Runaway Shredder",
+							["tipo"] = 4,
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["spell_cast"] = {
+								[32735] = 1,
+							},
+							["last_event"] = 0,
+							["monster"] = true,
+							["serial"] = "Creature-0-3771-1-2389-35111-00033B7AD0",
+							["classe"] = "UNKNOW",
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 2,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Shankspeare"] = true,
+				},
+				["CombatStartedAt"] = 789805.906,
+				["tempo_start"] = 1555790620,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 17,
+				["playing_solo"] = true,
+				["totals"] = {
+					383, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 1,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					334, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 1,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = false,
+				["instance_type"] = "none",
+				["data_fim"] = "22:03:45",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Runaway Shredder",
+				["TotalElapsedCombatTime"] = 4.74500000011176,
+				["CombatEndedAt"] = 789810.651,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Shankspeare"] = 334.007872,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 789810.651,
+				["combat_id"] = 2,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
+				["player_last_events"] = {
+				},
+				["data_inicio"] = "22:03:40",
+				["CombatSkillCache"] = {
+				},
+				["frags"] = {
+				},
+				["start_time"] = 789805.906,
+				["TimeData"] = {
+				},
+				["contra"] = "Runaway Shredder",
+			}, -- [1]
+			{
+				{
+					["combatId"] = 1,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.007244,
+							["total"] = 496.007244,
+							["damage_from"] = {
+								["Weakened Mosshoof Stag"] = true,
+							},
+							["targets"] = {
+								["Weakened Mosshoof Stag"] = 496,
+							},
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+							},
+							["colocacao"] = 1,
+							["classe"] = "ROGUE",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 496.007244,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1555790607,
+							["on_hold"] = false,
+							["spec"] = 260,
+							["nome"] = "Shankspeare",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 43,
+										["g_amt"] = 0,
+										["n_max"] = 40,
+										["targets"] = {
+											["Weakened Mosshoof Stag"] = 83,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 40,
+										["n_min"] = 40,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 83,
+										["c_max"] = 43,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 43,
+									}, -- [1]
+									[2098] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 189,
+										["targets"] = {
+											["Weakened Mosshoof Stag"] = 189,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 189,
+										["n_min"] = 189,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 189,
+										["c_max"] = 0,
+										["id"] = 2098,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[185763] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 94,
+										["targets"] = {
+											["Weakened Mosshoof Stag"] = 130,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 130,
+										["n_min"] = 36,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 130,
+										["c_max"] = 0,
+										["id"] = 185763,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[197834] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 47,
+										["targets"] = {
+											["Weakened Mosshoof Stag"] = 94,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 94,
+										["n_min"] = 47,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 94,
+										["c_max"] = 0,
+										["id"] = 197834,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-1084-08F45BC7",
+							["last_dps"] = 152.66458725985,
+							["custom"] = 0,
+							["last_event"] = 1555790606,
+							["damage_taken"] = 29.007244,
+							["start_time"] = 1555790603,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 68136,
+							["totalabsorbed"] = 0.004266,
+							["damage_from"] = {
+								["Shankspeare"] = true,
+							},
+							["targets"] = {
+								["Shankspeare"] = 29,
+							},
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 29.004266,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["total"] = 29.004266,
+							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-3771-1-2389-35096-0004BB7ADA",
+							["nome"] = "Weakened Mosshoof Stag",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 29,
+										["targets"] = {
+											["Shankspeare"] = 29,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 29,
+										["n_min"] = 29,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 29,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									}, -- [1]
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1555790607,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 496.004266,
+							["start_time"] = 1555790605,
+							["delay"] = 0,
+							["last_event"] = 1555790605,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 1,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["healing_from"] = {
+								["Shankspeare"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "ROGUE",
+							["totalover"] = 28.003268,
+							["total_without_pet"] = 29.003268,
+							["total"] = 29.003268,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-1084-08F45BC7",
+							["totalabsorb"] = 0.003268,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Shankspeare"] = 29,
+							},
+							["totalover_without_pet"] = 0.003268,
+							["healing_taken"] = 29.003268,
+							["fight_component"] = true,
+							["end_time"] = 1555790607,
+							["targets_overheal"] = {
+								["Shankspeare"] = 28,
+							},
+							["nome"] = "Shankspeare",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[59913] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Shankspeare"] = 28,
+										},
+										["n_max"] = 29,
+										["targets"] = {
+											["Shankspeare"] = 29,
+										},
+										["n_min"] = 0,
+										["counter"] = 2,
+										["overheal"] = 28,
+										["total"] = 29,
+										["c_max"] = 0,
+										["id"] = 59913,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 29,
+										["n_amt"] = 2,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
+							["start_time"] = 1555790606,
+							["custom"] = 0,
+							["last_event"] = 1555790606,
+							["spec"] = 260,
+							["totaldenied"] = 0.003268,
+							["delay"] = 0,
+							["tipo"] = 2,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 1,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 4.007638,
+							["resource"] = 0.007638,
+							["targets"] = {
+								["Shankspeare"] = 4,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "ROGUE",
+							["fight_component"] = true,
+							["total"] = 4.007638,
+							["nome"] = "Shankspeare",
+							["spec"] = 260,
+							["grupo"] = true,
+							["flag_original"] = 1297,
+							["last_event"] = 1555790620,
+							["alternatepower"] = 0.007638,
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[193315] = {
+										["id"] = 193315,
+										["total"] = 1,
+										["targets"] = {
+											["Shankspeare"] = 1,
+										},
+										["counter"] = 1,
+									},
+									[185763] = {
+										["id"] = 185763,
+										["total"] = 3,
+										["targets"] = {
+											["Shankspeare"] = 3,
+										},
+										["counter"] = 2,
+									},
+								},
+							},
+							["serial"] = "Player-1084-08F45BC7",
+							["tipo"] = 3,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 1,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[185763] = {
+										["activedamt"] = 0,
+										["id"] = 185763,
+										["targets"] = {
+										},
+										["uptime"] = 3,
+										["appliedamt"] = 1,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 6,
+							["classe"] = "ROGUE",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[269083] = {
+										["activedamt"] = 1,
+										["id"] = 269083,
+										["targets"] = {
+										},
+										["uptime"] = 4,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[185763] = {
+										["activedamt"] = 1,
+										["id"] = 185763,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[195627] = {
+										["activedamt"] = 1,
+										["id"] = 195627,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 3,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 260,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[193315] = 1,
+								[185763] = 1,
+								[2098] = 1,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1555790607,
+							["nome"] = "Shankspeare",
+							["pets"] = {
+							},
+							["serial"] = "Player-1084-08F45BC7",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 1,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Shankspeare"] = true,
+				},
+				["CombatStartedAt"] = 789789.317,
+				["tempo_start"] = 1555790603,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 16,
+				["playing_solo"] = true,
+				["totals"] = {
+					525, -- [1]
+					29, -- [2]
+					{
+						0, -- [1]
+						[0] = 4,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					496, -- [1]
+					29, -- [2]
+					{
+						0, -- [1]
+						[0] = 4,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["data_fim"] = "22:03:27",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Weakened Mosshoof Stag",
+				["TotalElapsedCombatTime"] = 3.5339999999851,
+				["CombatEndedAt"] = 789792.851,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Shankspeare"] = 29.003268,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Shankspeare"] = 496.007244,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 789792.851,
+				["combat_id"] = 1,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["spells_cast_timeline"] = {
+				},
+				["overall_added"] = true,
+				["player_last_events"] = {
+				},
+				["CombatSkillCache"] = {
+				},
+				["data_inicio"] = "22:03:23",
+				["start_time"] = 789789.317,
+				["TimeData"] = {
+				},
+				["frags"] = {
+					["Weakened Mosshoof Stag"] = 1,
+				},
+			}, -- [2]
+		},
+	},
+	["last_version"] = "v8.1.5.7099",
+	["SoloTablesSaved"] = {
+		["Mode"] = 1,
+	},
+	["tabela_instancias"] = {
+	},
+	["on_death_menu"] = true,
+	["nick_tag_cache"] = {
+		["nextreset"] = 1557083999,
+		["last_version"] = 11,
+	},
+	["last_instance_id"] = 0,
+	["announce_interrupts"] = {
+		["enabled"] = false,
+		["whisper"] = "",
+		["channel"] = "SAY",
+		["custom"] = "",
+		["next"] = "",
+	},
+	["last_instance_time"] = 0,
+	["active_profile"] = "Daemonikos-Ravencrest",
+	["mythic_dungeon_currentsaved"] = {
+		["dungeon_name"] = "",
+		["started"] = false,
+		["segment_id"] = 0,
+		["ej_id"] = 0,
+		["started_at"] = 0,
+		["run_id"] = 0,
+		["level"] = 0,
+		["dungeon_zone_id"] = 0,
+		["previous_boss_killed_at"] = 0,
+	},
+	["ignore_nicktag"] = false,
+	["plugin_database"] = {
+		["DETAILS_PLUGIN_TINY_THREAT"] = {
+			["updatespeed"] = 1,
+			["showamount"] = false,
+			["animate"] = false,
+			["useplayercolor"] = false,
+			["useclasscolors"] = false,
+			["author"] = "Details! Team",
+			["playercolor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			},
+			["enabled"] = true,
+		},
+		["DETAILS_PLUGIN_RAIDCHECK"] = {
+			["enabled"] = true,
+			["food_tier1"] = true,
+			["mythic_1_4"] = true,
+			["food_tier2"] = true,
+			["author"] = "Details! Team",
+			["use_report_panel"] = true,
+			["pre_pot_healers"] = false,
+			["pre_pot_tanks"] = false,
+			["food_tier3"] = true,
+		},
+		["DETAILS_PLUGIN_VANGUARD"] = {
+			["enabled"] = true,
+			["tank_block_texture"] = "Details Serenity",
+			["tank_block_color"] = {
+				0.24705882, -- [1]
+				0.0039215, -- [2]
+				0, -- [3]
+				0.8, -- [4]
+			},
+			["show_inc_bars"] = false,
+			["author"] = "Details! Team",
+			["first_run"] = false,
+			["tank_block_size"] = 150,
+		},
+		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
+			["enabled"] = true,
+			["encounter_timers_bw"] = {
+			},
+			["max_emote_segments"] = 3,
+			["author"] = "Details! Team",
+			["window_scale"] = 1,
+			["hide_on_combat"] = false,
+			["show_icon"] = 5,
+			["opened"] = 0,
+			["encounter_timers_dbm"] = {
+			},
+		},
+		["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
+			["font_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["is_first_run"] = false,
+			["arrow_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.5, -- [4]
+			},
+			["main_frame_size"] = {
+				300, -- [1]
+				500.000030517578, -- [2]
+			},
+			["minimap"] = {
+				["minimapPos"] = 205.484101632598,
+				["radius"] = 160,
+				["hide"] = false,
+			},
+			["arrow_anchor_x"] = 0,
+			["row_texture"] = "Details Serenity",
+			["scale"] = 1,
+			["row_height"] = 20,
+			["point"] = "CENTER",
+			["enabled"] = false,
+			["arrow_size"] = 10,
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["main_frame_strata"] = "LOW",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["use_spark"] = true,
+			["y"] = 4.577636718750e-05,
+			["x"] = 0,
+			["font_face"] = "Friz Quadrata TT",
+			["font_size"] = 10,
+			["per_second"] = {
+				["enabled"] = false,
+				["point"] = "CENTER",
+				["scale"] = 1,
+				["font_shadow"] = true,
+				["y"] = 3.05175781250e-05,
+				["x"] = 3.05175781250e-05,
+				["size"] = 32,
+				["update_speed"] = 0.05,
+				["attribute_type"] = 1,
+			},
+			["author"] = "Details! Team",
+			["main_frame_locked"] = false,
+			["arrow_anchor_y"] = 0,
+		},
+	},
+	["cached_talents"] = {
+		["Player-1084-08F45BC7"] = {
+			22119, -- [1]
+		},
+		["Player-1084-088D89C0"] = {
+		},
+	},
+	["announce_prepots"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+		["reverse"] = false,
+	},
+	["last_day"] = "20",
+	["benchmark_db"] = {
+		["frame"] = {
+		},
+	},
+	["last_realversion"] = 139,
+	["combat_id"] = 2,
+	["savedStyles"] = {
+	},
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["combat_counter"] = 17,
+	["announce_deaths"] = {
+		["enabled"] = false,
+		["last_hits"] = 1,
+		["only_first"] = 5,
+		["where"] = 1,
+	},
+	["tabela_overall"] = {
+		{
+			["tipo"] = 2,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1297,
+					["totalabsorbed"] = 0.017112,
+					["spec"] = 260,
+					["damage_from"] = {
+						["Weakened Mosshoof Stag"] = true,
+						["Runaway Shredder"] = true,
+					},
+					["targets"] = {
+						["Weakened Mosshoof Stag"] = 496,
+						["Runaway Shredder"] = 334,
+					},
+					["pets"] = {
+					},
+					["last_event"] = 0,
+					["classe"] = "ROGUE",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 830.017112,
+					["friendlyfire"] = {
+					},
+					["dps_started"] = false,
+					["end_time"] = 1555790607,
+					["friendlyfire_total"] = 0,
+					["on_hold"] = false,
+					["nome"] = "Shankspeare",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 2,
+								["b_amt"] = 0,
+								["c_dmg"] = 84,
+								["g_amt"] = 0,
+								["n_max"] = 40,
+								["targets"] = {
+									["Weakened Mosshoof Stag"] = 83,
+									["Runaway Shredder"] = 100,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 99,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 5,
+								["total"] = 183,
+								["c_max"] = 43,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 3,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							}, -- [1]
+							[2098] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 189,
+								["targets"] = {
+									["Weakened Mosshoof Stag"] = 189,
+									["Runaway Shredder"] = 73,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 262,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 2,
+								["total"] = 262,
+								["c_max"] = 0,
+								["id"] = 2098,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 2,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[185763] = {
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["c_dmg"] = 70,
+								["g_amt"] = 0,
+								["n_max"] = 94,
+								["targets"] = {
+									["Weakened Mosshoof Stag"] = 130,
+									["Runaway Shredder"] = 70,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 130,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 3,
+								["total"] = 200,
+								["c_max"] = 70,
+								["id"] = 185763,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 2,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[197834] = {
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["c_dmg"] = 91,
+								["g_amt"] = 0,
+								["n_max"] = 47,
+								["targets"] = {
+									["Weakened Mosshoof Stag"] = 94,
+									["Runaway Shredder"] = 91,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 94,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 3,
+								["total"] = 185,
+								["c_max"] = 91,
+								["id"] = 197834,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 2,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+						},
+					},
+					["grupo"] = true,
+					["total"] = 830.017112,
+					["serial"] = "Player-1084-08F45BC7",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 78.017112,
+					["start_time"] = 1555790596,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [1]
+				{
+					["flag_original"] = 68136,
+					["totalabsorbed"] = 0.009703,
+					["damage_from"] = {
+						["Shankspeare"] = true,
+					},
+					["targets"] = {
+						["Shankspeare"] = 29,
+					},
+					["pets"] = {
+					},
+					["on_hold"] = false,
+					["classe"] = "UNKNOW",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 29.009703,
+					["fight_component"] = true,
+					["dps_started"] = false,
+					["end_time"] = 1555790607,
+					["friendlyfire"] = {
+					},
+					["last_event"] = 0,
+					["nome"] = "Weakened Mosshoof Stag",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 29,
+								["targets"] = {
+									["Shankspeare"] = 29,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 29,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 29,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 1,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							}, -- [1]
+						},
+					},
+					["friendlyfire_total"] = 0,
+					["total"] = 29.009703,
+					["serial"] = "Creature-0-3771-1-2389-35096-0004BB7ADA",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 496.009703,
+					["start_time"] = 1555790602,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [2]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 0.012325,
+					["on_hold"] = false,
+					["damage_from"] = {
+						["Shankspeare"] = true,
+					},
+					["targets"] = {
+						["Shankspeare"] = 49,
+					},
+					["pets"] = {
+					},
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 49.012325,
+					["last_event"] = 0,
+					["dps_started"] = false,
+					["end_time"] = 1555790625,
+					["friendlyfire"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["nome"] = "Runaway Shredder",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 29,
+								["targets"] = {
+									["Shankspeare"] = 29,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 29,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 29,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 1,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							}, -- [1]
+							[32735] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 20,
+								["targets"] = {
+									["Shankspeare"] = 20,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 20,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 20,
+								["c_max"] = 0,
+								["id"] = 32735,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 1,
+								["b_dmg"] = 0,
+								["n_amt"] = 1,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+						},
+					},
+					["monster"] = true,
+					["total"] = 49.012325,
+					["serial"] = "Creature-0-3771-1-2389-35111-00033B7AD0",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 334.012325,
+					["start_time"] = 1555790619,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [3]
+			},
+		}, -- [1]
+		{
+			["tipo"] = 3,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1297,
+					["targets_overheal"] = {
+						["Shankspeare"] = 28,
+					},
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["heal_enemy_amt"] = 0,
+					["totalover"] = 28.00837,
+					["total_without_pet"] = 29.00837,
+					["total"] = 29.00837,
+					["targets_absorbs"] = {
+					},
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["serial"] = "Player-1084-08F45BC7",
+					["totalabsorb"] = 0.00837,
+					["last_hps"] = 0,
+					["targets"] = {
+						["Shankspeare"] = 29,
+					},
+					["totalover_without_pet"] = 0.00837,
+					["healing_taken"] = 29.00837,
+					["fight_component"] = true,
+					["end_time"] = 1555790607,
+					["healing_from"] = {
+						["Shankspeare"] = true,
+					},
+					["nome"] = "Shankspeare",
+					["spells"] = {
+						["tipo"] = 3,
+						["_ActorTable"] = {
+							[59913] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Shankspeare"] = 28,
+								},
+								["n_max"] = 29,
+								["targets"] = {
+									["Shankspeare"] = 29,
+								},
+								["n_min"] = 0,
+								["counter"] = 2,
+								["overheal"] = 28,
+								["total"] = 29,
+								["c_max"] = 0,
+								["id"] = 59913,
+								["targets_absorbs"] = {
+								},
+								["c_curado"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
+								["m_amt"] = 0,
+								["n_curado"] = 29,
+								["n_amt"] = 2,
+								["totaldenied"] = 0,
+								["m_healed"] = 0,
+								["absorbed"] = 0,
+							},
+						},
+					},
+					["grupo"] = true,
+					["start_time"] = 1555790603,
+					["classe"] = "ROGUE",
+					["custom"] = 0,
+					["tipo"] = 2,
+					["spec"] = 260,
+					["totaldenied"] = 0.00837,
+					["delay"] = 0,
+					["last_event"] = 0,
+				}, -- [1]
+			},
+		}, -- [2]
+		{
+			["tipo"] = 7,
+			["_ActorTable"] = {
+				{
+					["received"] = 4.016241,
+					["resource"] = 0.016241,
+					["targets"] = {
+						["Shankspeare"] = 4,
+					},
+					["pets"] = {
+					},
+					["powertype"] = 0,
+					["classe"] = "ROGUE",
+					["fight_component"] = true,
+					["total"] = 4.016241,
+					["nome"] = "Shankspeare",
+					["spec"] = 260,
+					["grupo"] = true,
+					["spells"] = {
+						["tipo"] = 7,
+						["_ActorTable"] = {
+							[193315] = {
+								["id"] = 193315,
+								["total"] = 2,
+								["targets"] = {
+									["Shankspeare"] = 2,
+								},
+								["counter"] = 2,
+							},
+							[185763] = {
+								["id"] = 185763,
+								["total"] = 2,
+								["targets"] = {
+									["Shankspeare"] = 2,
+								},
+								["counter"] = 1,
+							},
+						},
+					},
+					["tipo"] = 3,
+					["flag_original"] = 1297,
+					["last_event"] = 0,
+					["alternatepower"] = 0.016241,
+					["serial"] = "Player-1084-08F45BC7",
+				}, -- [1]
+			},
+		}, -- [3]
+		{
+			["tipo"] = 9,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1047,
+					["debuff_uptime_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[185763] = {
+								["refreshamt"] = 1,
+								["activedamt"] = 0,
+								["appliedamt"] = 2,
+								["id"] = 185763,
+								["uptime"] = 7,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+					},
+					["buff_uptime"] = 10,
+					["classe"] = "ROGUE",
+					["buff_uptime_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[269083] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 269083,
+								["uptime"] = 8,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[185763] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 185763,
+								["uptime"] = 1,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[195627] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 195627,
+								["uptime"] = 1,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+					},
+					["fight_component"] = true,
+					["debuff_uptime"] = 7,
+					["nome"] = "Shankspeare",
+					["spec"] = 260,
+					["grupo"] = true,
+					["spell_cast"] = {
+						[193315] = 2,
+						[185763] = 1,
+						[2098] = 2,
+					},
+					["debuff_uptime_targets"] = {
+					},
+					["tipo"] = 4,
+					["buff_uptime_targets"] = {
+					},
+					["pets"] = {
+					},
+					["serial"] = "Player-1084-08F45BC7",
+					["last_event"] = 0,
+				}, -- [1]
+				{
+					["monster"] = true,
+					["tipo"] = 4,
+					["nome"] = "Runaway Shredder",
+					["pets"] = {
+					},
+					["spell_cast"] = {
+						[32735] = 1,
+					},
+					["flag_original"] = 68168,
+					["last_event"] = 0,
+					["fight_component"] = true,
+					["serial"] = "Creature-0-3771-1-2389-35111-00033B7AD0",
+					["classe"] = "UNKNOW",
+				}, -- [2]
+			},
+		}, -- [4]
+		{
+			["tipo"] = 2,
+			["_ActorTable"] = {
+			},
+		}, -- [5]
+		["raid_roster"] = {
+		},
+		["tempo_start"] = 1555790603,
+		["last_events_tables"] = {
+		},
+		["alternate_power"] = {
+		},
+		["combat_counter"] = 15,
+		["totals"] = {
+			908.026477, -- [1]
+			29.003268, -- [2]
+			{
+				0, -- [1]
+				[0] = 4.009666,
+				["alternatepower"] = 0,
+				[3] = 0,
+				[6] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["debuff_uptime"] = 0,
+				["cooldowns_defensive"] = 0,
+				["interrupt"] = 0,
+				["dispell"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+			["frags_total"] = 0,
+			["voidzone_damage"] = 0,
+		},
+		["player_last_events"] = {
+		},
+		["spells_cast_timeline"] = {
+		},
+		["frags_need_refresh"] = false,
+		["aura_timeline"] = {
+		},
+		["__call"] = {
+		},
+		["data_inicio"] = "22:03:23",
+		["end_time"] = 789810.651,
+		["cleu_events"] = {
+			["n"] = 1,
+		},
+		["segments_added"] = {
+			{
+				["elapsed"] = 4.74500000011176,
+				["type"] = 0,
+				["name"] = "Runaway Shredder",
+				["clock"] = "22:03:40",
+			}, -- [1]
+			{
+				["elapsed"] = 3.5339999999851,
+				["type"] = 0,
+				["name"] = "Weakened Mosshoof Stag",
+				["clock"] = "22:03:23",
+			}, -- [2]
+		},
+		["totals_grupo"] = {
+			830.015116, -- [1]
+			29.003268, -- [2]
+			{
+				0, -- [1]
+				[0] = 4.009666,
+				["alternatepower"] = 0,
+				[3] = 0,
+				[6] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["debuff_uptime"] = 0,
+				["cooldowns_defensive"] = 0,
+				["interrupt"] = 0,
+				["dispell"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+		},
+		["frags"] = {
+		},
+		["data_fim"] = "22:03:45",
+		["overall_enemy_name"] = "-- x -- x --",
+		["CombatSkillCache"] = {
+		},
+		["cleu_timeline"] = {
+		},
+		["start_time"] = 789802.372,
+		["TimeData"] = {
+			["Raid Damage Done"] = {
+			},
+		},
+		["PhaseData"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+			}, -- [1]
+			["heal_section"] = {
+			},
+			["heal"] = {
+			},
+			["damage_section"] = {
+			},
+			["damage"] = {
+			},
+		},
+	},
+	["force_font_outline"] = "",
+	["local_instances_config"] = {
+		{
+			["segment"] = 0,
+			["sub_attribute"] = 1,
+			["horizontalSnap"] = false,
+			["verticalSnap"] = false,
+			["is_open"] = true,
+			["isLocked"] = true,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["snap"] = {
+				[3] = 2,
+			},
+			["mode"] = 2,
+			["attribute"] = 1,
+			["pos"] = {
+				["normal"] = {
+					["y"] = -430.006927490234,
+					["x"] = 674.509033203125,
+					["w"] = 221,
+					["h"] = 130.002365112305,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [1]
+		{
+			["segment"] = 0,
+			["sub_attribute"] = 1,
+			["horizontalSnap"] = false,
+			["verticalSnap"] = false,
+			["is_open"] = true,
+			["isLocked"] = true,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["snap"] = {
+				1, -- [1]
+			},
+			["mode"] = 2,
+			["attribute"] = 1,
+			["pos"] = {
+				["normal"] = {
+					["y"] = -430.006927490234,
+					["x"] = 871.012084960938,
+					["w"] = 172.006072998047,
+					["h"] = 130.002365112305,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [2]
+	},
+	["character_data"] = {
+		["logons"] = 7,
+	},
+	["announce_cooldowns"] = {
+		["enabled"] = false,
+		["ignored_cooldowns"] = {
+		},
+		["custom"] = "",
+		["channel"] = "RAID",
+	},
+	["rank_window"] = {
+		["last_difficulty"] = 15,
+		["last_raid"] = "",
+	},
+	["announce_damagerecord"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["cached_specs"] = {
+		["Player-1084-084BB1B6"] = 581,
+		["Player-1084-08F45CA8"] = 73,
+		["Player-1084-088D89C0"] = 253,
+		["Player-1084-08F45BC7"] = 260,
+		["Player-1084-08EEE548"] = 72,
+	},
+}

@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0222,
+	["LastVersion"] = 2.0239,
 	["LastPlayerFullName"] = "Tríxxed-Laughing Skull",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,

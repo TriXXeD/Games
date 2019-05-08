@@ -72,7 +72,7 @@ TradeSkillMaster_ShoppingDB = {
 		["auction"] = true,
 	},
 	["g@ @sniperVendorPrice"] = true,
-	["g@ @sniperSound"] = "TSM_NO_SOUND",
+	["_hash"] = 1861581,
 	["g@ @savedSearches"] = {
 		{
 			["searchMode"] = "normal",
@@ -675,7 +675,7 @@ TradeSkillMaster_ShoppingDB = {
 			["filter"] = "Vantus Rune: Chronomatic Anomaly/exact",
 		}, -- [100]
 	},
-	["_hash"] = 1861581,
+	["g@ @sniperSound"] = "TSM_NO_SOUND",
 	["g@ @marketValueSource"] = "dbmarket",
 	["g@ @maxDeSearchLvl"] = 735,
 	["g@ @minDeSearchLvl"] = 1,
@@ -704,7 +704,7 @@ TradeSkillMaster_ShoppingDB = {
 		["Lichservent - Thunderhorn"] = "Default",
 		["Daemonikos - Draenor"] = "Default",
 		["Achilina - Draenor"] = "Default",
-		["Shadefighter - Thunderhorn"] = "Default",
+		["Xbenedict - Kazzak"] = "Default",
 		["Chrysante - Ravencrest"] = "Default",
 		["Eruditus - Ravencrest"] = "Default",
 		["Trixbankxed - Shadowsong"] = "Default",
@@ -714,7 +714,7 @@ TradeSkillMaster_ShoppingDB = {
 		["Odeysseus - Thunderhorn"] = "Default",
 		["Petergrippin - Draenor"] = "Default",
 		["Kazzía - Thunderhorn"] = "Default",
-		["Xbenedict - Kazzak"] = "Default",
+		["Shadefighter - Thunderhorn"] = "Default",
 		["Fausta - Ravencrest"] = "Default",
 		["Grippiboi - Kazzak"] = "Default",
 	},

@@ -2797,10 +2797,10 @@ ElvCharacterDB = {
 		}, -- [127]
 	},
 	["BodyGuard"] = {
-		["Active"] = false,
-		["Health"] = 0,
-		["MaxHealth"] = 0,
 		["IsInValidZone"] = false,
+		["MaxHealth"] = 0,
+		["Health"] = 0,
+		["Active"] = false,
 	},
 	["ChatEditHistory"] = {
 		"/s Take the buffs", -- [1]

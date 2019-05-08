@@ -1,0 +1,55 @@
+
+SimulationCraftDB = {
+	["profileKeys"] = {
+		["Trixxedbank - Kazzak"] = "Trixxedbank - Kazzak",
+		["Xbenedict - Kazzak"] = "Xbenedict - Kazzak",
+		["Fausta - Ravencrest"] = "Fausta - Ravencrest",
+		["Tríxxed - Laughing Skull"] = "Tríxxed - Laughing Skull",
+		["Quelith - Draenor"] = "Quelith - Draenor",
+		["Trixxed - Kazzak"] = "Trixxed - Kazzak",
+		["Trixxedbank - Draenor"] = "Trixxedbank - Draenor",
+		["Shanonymous - Tarren Mill"] = "Shanonymous - Tarren Mill",
+		["Trixxedosaur - Tarren Mill"] = "Trixxedosaur - Tarren Mill",
+		["Achilina - Draenor"] = "Achilina - Draenor",
+		["Shankspeare - Tarren Mill"] = "Shankspeare - Tarren Mill",
+		["Trixxedbank - Tarren Mill"] = "Trixxedbank - Tarren Mill",
+		["Lycotonum - Tarren Mill"] = "Lycotonum - Tarren Mill",
+	},
+	["profiles"] = {
+		["Trixxedbank - Kazzak"] = {
+		},
+		["Xbenedict - Kazzak"] = {
+		},
+		["Fausta - Ravencrest"] = {
+		},
+		["Tríxxed - Laughing Skull"] = {
+		},
+		["Quelith - Draenor"] = {
+		},
+		["Trixxed - Kazzak"] = {
+			["minimap"] = {
+				["minimapPos"] = 208.482220565079,
+			},
+		},
+		["Trixxedbank - Draenor"] = {
+		},
+		["Shanonymous - Tarren Mill"] = {
+		},
+		["Trixxedosaur - Tarren Mill"] = {
+		},
+		["Achilina - Draenor"] = {
+		},
+		["Shankspeare - Tarren Mill"] = {
+			["minimap"] = {
+				["minimapPos"] = 208.044657239354,
+			},
+		},
+		["Trixxedbank - Tarren Mill"] = {
+		},
+		["Lycotonum - Tarren Mill"] = {
+			["minimap"] = {
+				["minimapPos"] = 205.074424026328,
+			},
+		},
+	},
+}

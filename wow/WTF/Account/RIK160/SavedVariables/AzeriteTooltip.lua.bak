@@ -1,0 +1,27 @@
+
+AzeriteTooltipDB = {
+	["OnlySpec"] = false,
+	["profileKeys"] = {
+		["Trixxedbank - Kazzak"] = "Default",
+		["Achilina - Draenor"] = "Default",
+		["Fausta - Ravencrest"] = "Default",
+		["Tríxxed - Laughing Skull"] = "Default",
+		["Quelith - Draenor"] = "Default",
+		["Lycotonum - Tarren Mill"] = "Default",
+		["Trixxedbank - Draenor"] = "Default",
+		["Shanonymous - Tarren Mill"] = "Default",
+		["Trixxedosaur - Tarren Mill"] = "Default",
+		["Trixxed - Kazzak"] = "Default",
+		["Shankspeare - Tarren Mill"] = "Default",
+		["Trixxedbank - Tarren Mill"] = "Default",
+		["Xbenedict - Kazzak"] = "Default",
+	},
+	["Compact"] = false,
+	["RemoveBlizzard"] = true,
+	["Bags"] = true,
+	["Flyout"] = true,
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

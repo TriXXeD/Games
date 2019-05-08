@@ -1,10 +1,26 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0227,
+	["LastVersion"] = 2.024,
 	["LastPlayerFullName"] = "Lycotonum-Tarren Mill",
-	["AutoSelectScales"] = true,
+	["AutoSelectScales"] = false,
 	["UpgradeTracking"] = false,
 	["LastKeybindingsSet"] = 1,
+	["Artifacts"] = {
+		[128937] = {
+			["Relics"] = {
+				{
+					["Type"] = "Frost",
+				}, -- [1]
+				{
+					["Type"] = "Life",
+				}, -- [2]
+				{
+					["Type"] = "Wind",
+				}, -- [3]
+			},
+			["Name"] = "Sheilun, Staff of the Mists",
+		},
+	},
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "MONK",

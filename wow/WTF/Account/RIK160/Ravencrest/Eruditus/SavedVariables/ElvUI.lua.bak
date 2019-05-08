@@ -2,1656 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"Boosting m+ 15 for gold, get your 960+ ilvl in your weekly chest! 4k+ mscore 970il group. Experienced boosting team, you can afk if you want. Our key or yours", -- [1]
-			"Krítikal-Ravencrest", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Krítikal", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			183, -- [11]
-			"Player-1329-062A62CC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc69b6dKrítikal|r",
-			[51] = 1522179896,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
-			"[WTS] Antorus Heroic Boost Tonight! Get ilvl 945-955+ Gear, Mount and a Curve achieve. Fast PL/ML guildruns. Over 2000 reviews at Trustpilot. Please visit WowVendor.net for more info!", -- [1]
-			"Apahiwica-Ravencrest", -- [2]
-			"", -- [3]
-			"4. LookingForGroup", -- [4]
-			"Apahiwica", -- [5]
-			"", -- [6]
-			26, -- [7]
-			4, -- [8]
-			"LookingForGroup", -- [9]
-			0, -- [10]
-			164, -- [11]
-			"Player-1329-06491757", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc41e3aApahiwica|r",
-			[51] = 1522410249,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
-			"WTS HEROIC Antorus full run Personal Loot tonight at 17:30 server time for 450k gold.", -- [1]
-			"Stormlady-Ravencrest", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Stormlady", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			166, -- [11]
-			"Player-1329-06477434", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffffffffStormlady|r",
-			[51] = 1522410260,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
-		{
-			"[WTS] Mythic +15 fast run! You will get ilvl 960+ gear, tons of AP and [Keystone Master] achieve. Over 2000 reviews at Trustpilot. Please visit WowVendor.net for more info!", -- [1]
-			"Apahiwica-Ravencrest", -- [2]
-			"", -- [3]
-			"4. LookingForGroup", -- [4]
-			"Apahiwica", -- [5]
-			"", -- [6]
-			26, -- [7]
-			4, -- [8]
-			"LookingForGroup", -- [9]
-			0, -- [10]
-			168, -- [11]
-			"Player-1329-06491757", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc41e3aApahiwica|r",
-			[51] = 1522410309,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
-		{
-			"[WTS] Mage Tower Challenge scenario! Get an amazing Challenging Artifact Appearence for your spec now! Please visit WowVendor.net for more info!", -- [1]
-			"Apahiwica-Ravencrest", -- [2]
-			"", -- [3]
-			"4. LookingForGroup", -- [4]
-			"Apahiwica", -- [5]
-			"", -- [6]
-			26, -- [7]
-			4, -- [8]
-			"LookingForGroup", -- [9]
-			0, -- [10]
-			178, -- [11]
-			"Player-1329-06491757", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc41e3aApahiwica|r",
-			[51] = 1522410369,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [5]
-		{
-			"WTS HEROIC Antorus full run Personal Loot tonight at 17:30 server time for 450k gold.", -- [1]
-			"Stormlady-Ravencrest", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Stormlady", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			186, -- [11]
-			"Player-1329-06477434", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffffffffStormlady|r",
-			[51] = 1522410410,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
-		{
-			"[WTS] Fast leveling: get 110 in few days. Allied races unlock, reputation farm and heritage armor unlocking. Account safety is guaranteed. Please visit WowVendor.net for more info!", -- [1]
-			"Apahiwica-Ravencrest", -- [2]
-			"", -- [3]
-			"4. LookingForGroup", -- [4]
-			"Apahiwica", -- [5]
-			"", -- [6]
-			26, -- [7]
-			4, -- [8]
-			"LookingForGroup", -- [9]
-			0, -- [10]
-			189, -- [11]
-			"Player-1329-06491757", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc41e3aApahiwica|r",
-			[51] = 1522410429,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [7]
-		{
-			"i might move out of sac thou on these normal runs", -- [1]
-			"Líghtbórn-Ravencrest", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Líghtbórn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1, -- [11]
-			"Player-1329-064656E5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaLíghtbórn|r",
-			[51] = 1522413307,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [8]
-		{
-			"we just dont take taht much dmg", -- [1]
-			"Líghtbórn-Ravencrest", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Líghtbórn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2, -- [11]
-			"Player-1329-064656E5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaLíghtbórn|r",
-			[51] = 1522413311,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [9]
-		{
-			"nah :P", -- [1]
-			"Skuggdimman-Ravencrest", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Skuggdimman", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			7, -- [11]
-			"Player-1329-05D595AA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffffffffSkuggdimman|r",
-			[51] = 1522413320,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [10]
-		{
-			"you need to do like atomez does", -- [1]
-			"Skuggdimman-Ravencrest", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Skuggdimman", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			13, -- [11]
-			"Player-1329-05D595AA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffffffffSkuggdimman|r",
-			[51] = 1522413336,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [11]
-		{
-			"make sure the raid takes alot of extra damage and then do CDs", -- [1]
-			"Skuggdimman-Ravencrest", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Skuggdimman", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			14, -- [11]
-			"Player-1329-05D595AA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffffffffSkuggdimman|r",
-			[51] = 1522413344,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [12]
-		{
-			"well", -- [1]
-			"Líghtbórn-Ravencrest", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Líghtbórn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			15, -- [11]
-			"Player-1329-064656E5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaLíghtbórn|r",
-			[51] = 1522413350,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [13]
-		{
-			"like pop 7-8 mines on high command with bubble then use aura mastery", -- [1]
-			"Skuggdimman-Ravencrest", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Skuggdimman", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			16, -- [11]
-			"Player-1329-05D595AA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffffffffSkuggdimman|r",
-			[51] = 1522413358,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [14]
-		{
-			"on my disc and druid i force the raid to have less healers", -- [1]
-			"Líghtbórn-Ravencrest", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Líghtbórn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			17, -- [11]
-			"Player-1329-064656E5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaLíghtbórn|r",
-			[51] = 1522413365,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [15]
-		{
-			"hehe", -- [1]
-			"Líghtbórn-Ravencrest", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Líghtbórn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			18, -- [11]
-			"Player-1329-064656E5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaLíghtbórn|r",
-			[51] = 1522413369,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [16]
-		{
-			"WTS [Antorus, the Burning Throne] AGGRA + Argus , (fair price) , Going Right now Summon is Ready ! (HC) ", -- [1]
-			"Cocobuttah-Ravencrest", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Cocobuttah", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			21, -- [11]
-			"Player-1329-05DC1EE1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3fc6eaCocobuttah|r",
-			[51] = 1522413376,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [17]
-		{
-			"in ToS i would force max 2 healers on heroic :P", -- [1]
-			"Líghtbórn-Ravencrest", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Líghtbórn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			22, -- [11]
-			"Player-1329-064656E5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaLíghtbórn|r",
-			[51] = 1522413377,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [18]
-		{
-			"yea it's more fun to heal with less healers", -- [1]
-			"Skuggdimman-Ravencrest", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Skuggdimman", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			34, -- [11]
-			"Player-1329-05D595AA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffffffffSkuggdimman|r",
-			[51] = 1522413408,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [19]
-		{
-			"ye loads", -- [1]
-			"Líghtbórn-Ravencrest", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Líghtbórn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			36, -- [11]
-			"Player-1329-064656E5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaLíghtbórn|r",
-			[51] = 1522413414,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [20]
-		{
-			"WTS [Antorus, the Burning Throne] AGGRA + Argus , (fair price) , Going Right now Summon is Ready ! (HC) ", -- [1]
-			"Cocobuttah-Ravencrest", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Cocobuttah", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			37, -- [11]
-			"Player-1329-05DC1EE1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3fc6eaCocobuttah|r",
-			[51] = 1522413416,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [21]
-		{
-			"its like m+ but more healz :D", -- [1]
-			"Líghtbórn-Ravencrest", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Líghtbórn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			38, -- [11]
-			"Player-1329-064656E5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaLíghtbórn|r",
-			[51] = 1522413420,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [22]
-		{
-			"WTS Argus HC Only/ Come get your curve and mount and a chance on Amanthul/ +970grp  Going Now /w me", -- [1]
-			"Miranå-Ravencrest", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Miranå", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			19, -- [11]
-			"Player-1329-05397D82", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aMiranå|r",
-			[51] = 1522592057,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [23]
-		{
-			"WTS Argus HC Only/ Come get your curve and mount and a chance on Amanthul/ +970grp  Going Now /w me", -- [1]
-			"Miranå-Ravencrest", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Miranå", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			29, -- [11]
-			"Player-1329-05397D82", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aMiranå|r",
-			[51] = 1522592075,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
-		{
-			"Antorus Heroic ML/PL loot runs |cffffff00|Hachievement:12110:Player-1305-09886D8F:1:10:29:17:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Argus the Unmaker]|h|r, Heroic full gear, Argus kill. Visit raidtoday.info for more info!", -- [1]
-			"Esws-Ravencrest", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Esws", -- [5]
-			"DND", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			31, -- [11]
-			"Player-1329-0648B44A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffffffffEsws|r",
-			[51] = 1522592089,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [25]
-		{
-			"Antorus Heroic ML/PL loot runs |cffffff00|Hachievement:12110:Player-1305-09886D8F:1:10:29:17:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Argus the Unmaker]|h|r, Heroic full gear, Argus kill. Visit raidtoday.info for more info!", -- [1]
-			"Esws-Ravencrest", -- [2]
-			"", -- [3]
-			"4. LookingForGroup", -- [4]
-			"Esws", -- [5]
-			"DND", -- [6]
-			26, -- [7]
-			4, -- [8]
-			"LookingForGroup", -- [9]
-			0, -- [10]
-			32, -- [11]
-			"Player-1329-0648B44A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffffffffEsws|r",
-			[51] = 1522592089,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
-		{
-			"Battle for Azeroth is coming! Prepare yourself: Leveling your Alts/Allied Races, unique Artifact Appearances, Mythic+, Raids and fast gearing up! Visit raidtoday.info!", -- [1]
-			"Esws-Ravencrest", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Esws", -- [5]
-			"DND", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			33, -- [11]
-			"Player-1329-0648B44A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffffffffEsws|r",
-			[51] = 1522592090,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [27]
-		{
-			"Battle for Azeroth is coming! Prepare yourself: Leveling your Alts/Allied Races, unique Artifact Appearances, Mythic+, Raids and fast gearing up! Visit raidtoday.info!", -- [1]
-			"Esws-Ravencrest", -- [2]
-			"", -- [3]
-			"4. LookingForGroup", -- [4]
-			"Esws", -- [5]
-			"DND", -- [6]
-			26, -- [7]
-			4, -- [8]
-			"LookingForGroup", -- [9]
-			0, -- [10]
-			34, -- [11]
-			"Player-1329-0648B44A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffffffffEsws|r",
-			[51] = 1522592090,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [28]
-		{
-			"WTS Argus HC Only/ Come get your curve and mount and a chance on Amanthul/ +970grp  Going Now /w me", -- [1]
-			"Miranå-Ravencrest", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Miranå", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			35, -- [11]
-			"Player-1329-05397D82", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aMiranå|r",
-			[51] = 1522592101,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [29]
-		{
-			"meh vi får se, du borde heala den fighten, funka inte med han den nya", -- [1]
-			"Skuggdimman", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Skuggdimman", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			16, -- [11]
-			"Player-1329-05D595AA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffffffffSkuggdimman|r",
-			[51] = 1522749534,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [30]
-		{
-			"ne okej ja han dog mkt såg jag", -- [1]
-			"Miraden", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Miraden", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			17, -- [11]
-			"Player-1329-0419189B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00ff96Miraden|r",
-			[51] = 1522749534,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [31]
-		{
-			"han dog inte så mycket för han hade backen, men han knäckte ju spirit of redemption varje pull i death fog :D", -- [1]
-			"Skuggdimman-Ravencrest", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Skuggdimman", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			19, -- [11]
-			"Player-1329-05D595AA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffffffffSkuggdimman|r",
-			[51] = 1522749552,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [32]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:11387:Player-1329-0607101A:1:4:5:18:4294967295:4294967295:4294967295:4294967295|h[The Chosen]|h|r!", -- [1]
-			"Delroth-Ravencrest", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Delroth", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			175, -- [11]
-			"Player-1329-0607101A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "Delroth",
-			[51] = 1522954675,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [33]
-		{
-			"fuck yes", -- [1]
-			"Delroth-Ravencrest", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Delroth", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			176, -- [11]
-			"Player-1329-0607101A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dDelroth|r",
-			[51] = 1522954679,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [34]
-		{
-			"WTS weekly 15 key, experienced grp[11/11m grp 3-4,5k raider io score] , (Our key) Ready to go /w me for price", -- [1]
-			"Aisthimas-Ravencrest", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Aisthimas", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			8, -- [11]
-			"Player-1329-061145F8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc41e3aAisthimas|r",
-			[51] = 1523219461,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [35]
-		{
-			"WTS weekly 15 key, experienced grp[11/11m grp 3-4,5k raider io score] , (Our key) Ready to go /w me for price", -- [1]
-			"Aisthimas-Ravencrest", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Aisthimas", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			13, -- [11]
-			"Player-1329-061145F8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc41e3aAisthimas|r",
-			[51] = 1523219499,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [36]
-		{
-			"WTS weekly 15 key, experienced grp[11/11m grp 3-4,5k raider io score] , (Our key) Ready to go /w me for price", -- [1]
-			"Aisthimas-Ravencrest", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Aisthimas", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			14, -- [11]
-			"Player-1329-061145F8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc41e3aAisthimas|r",
-			[51] = 1523219515,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [37]
-		{
-			"WTS Heroic |cff66bbff|Hjournal:1:2031:14|h[Argus the Unmaker]|h|r kill. Going in 2mins! 10/11m guild run. Whisper if interested :)", -- [1]
-			"Gamah-Ravencrest", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Gamah", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			15, -- [11]
-			"Player-1329-0569FF67", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3fc6eaGamah|r",
-			[51] = 1523219518,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [38]
-		{
-			"WTB |cffa335ee|Hitem:72145::::::::110:105::::::|h[Swift Springstrider]|h|r", -- [1]
-			"Furstenhoff-Ravencrest", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Furstenhoff", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			26, -- [11]
-			"Player-1329-05D0928D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aFurstenhoff|r",
-			[51] = 1523219597,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [39]
-		{
-			"WTS weekly 15 key, experienced grp[11/11m grp 3-4,5k raider io score] , (Our key) Ready to go /w me for price", -- [1]
-			"Aisthimas-Ravencrest", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Aisthimas", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			29, -- [11]
-			"Player-1329-061145F8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc41e3aAisthimas|r",
-			[51] = 1523219624,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [40]
-		{
-			"WTS weekly 15 key, experienced grp[11/11m grp 3-4,5k raider io score] , (Our key) Ready to go /w me for price", -- [1]
-			"Aisthimas-Ravencrest", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Aisthimas", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			32, -- [11]
-			"Player-1329-061145F8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc41e3aAisthimas|r",
-			[51] = 1523219650,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [41]
-		{
-			"WTS weekly 15 key, experienced grp[11/11m grp 3-4,5k raider io score] , (Our key) Ready to go /w me for price", -- [1]
-			"Aisthimas-Ravencrest", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Aisthimas", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			33, -- [11]
-			"Player-1329-061145F8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc41e3aAisthimas|r",
-			[51] = 1523219655,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [42]
-		{
-			"WTS weekly 15 key, experienced grp[11/11m grp 3-4,5k raider io score] , (Our key) Ready to go /w me for price", -- [1]
-			"Aisthimas-Ravencrest", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Aisthimas", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			36, -- [11]
-			"Player-1329-061145F8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc41e3aAisthimas|r",
-			[51] = 1523219694,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [43]
-		{
-			"WTS weekly 15 key, experienced grp[11/11m grp 3-4,5k raider io score] , (Our key) Ready to go /w me for price", -- [1]
-			"Aisthimas-Ravencrest", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Aisthimas", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			37, -- [11]
-			"Player-1329-061145F8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc41e3aAisthimas|r",
-			[51] = 1523219742,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [44]
-		{
-			"grats", -- [1]
-			"Morfiene-Ravencrest", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Morfiene", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			8, -- [11]
-			"Player-1329-04FDF562", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Morfiene|r",
-			[51] = 1523550149,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [45]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:8940:Player-1329-05C4DD34:1:4:12:18:4294967295:4294967295:4294967295:4294967295|h[Explore Talador]|h|r!", -- [1]
-			"Garageporten-Ravencrest", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Garageporten", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			12, -- [11]
-			"Player-1329-05C4DD34", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "Garageporten",
-			[51] = 1523550160,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [46]
-		{
-			"WTS Fire-Watcher TITLE and  |cffa335ee|Hitem:103638::::::::100:253::::::|h[Reins of the Ashhide Mushan Beast]|h|r Boost !! Mount - 15min / Title 60min Gold on Couple Servers", -- [1]
-			"Disqualified-Ravencrest", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Disqualified", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			305, -- [11]
-			"Player-1329-054F306F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aDisqualified|r",
-			[51] = 1528053372,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [47]
-		{
-			"WTS Fire-Watcher TITLE and  |cffa335ee|Hitem:103638::::::::100:253::::::|h[Reins of the Ashhide Mushan Beast]|h|r Boost !! Mount - 15min / Title 60min Gold on Couple Servers", -- [1]
-			"Disqualified-Ravencrest", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Disqualified", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			307, -- [11]
-			"Player-1329-054F306F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aDisqualified|r",
-			[51] = 1528053405,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [48]
-		{
-			"it stopped being cool day 1", -- [1]
-			"Eruditus-Ravencrest", -- [2]
-			"", -- [3]
-			"1. General - Silithus", -- [4]
-			"Eruditus", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Silithus", -- [9]
-			0, -- [10]
-			197, -- [11]
-			"Player-1329-0418D442", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3fc6eaEruditus|r",
-			[51] = 1530105036,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [49]
-		{
-			"dont need high weapon to do that", -- [1]
-			"Eruditus-Ravencrest", -- [2]
-			"", -- [3]
-			"1. General - Silithus", -- [4]
-			"Eruditus", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Silithus", -- [9]
-			0, -- [10]
-			226, -- [11]
-			"Player-1329-0418D442", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3fc6eaEruditus|r",
-			[51] = 1530105110,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [50]
-		{
-			"No, but BFA has its own shitty intro scenario u have to do on every char", -- [1]
-			"Eruditus-Ravencrest", -- [2]
-			"", -- [3]
-			"1. General - Silithus", -- [4]
-			"Eruditus", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Silithus", -- [9]
-			0, -- [10]
-			234, -- [11]
-			"Player-1329-0418D442", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3fc6eaEruditus|r",
-			[51] = 1530105149,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [51]
-		{
-			"Sure as hell cant on beta", -- [1]
-			"Eruditus-Ravencrest", -- [2]
-			"", -- [3]
-			"1. General - Silithus", -- [4]
-			"Eruditus", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Silithus", -- [9]
-			0, -- [10]
-			239, -- [11]
-			"Player-1329-0418D442", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3fc6eaEruditus|r",
-			[51] = 1530105167,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [52]
-		{
-			"The few mage towers that were hard were made ez with ToS ilvl", -- [1]
-			"Eruditus-Ravencrest", -- [2]
-			"", -- [3]
-			"1. General - Silithus", -- [4]
-			"Eruditus", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Silithus", -- [9]
-			0, -- [10]
-			323, -- [11]
-			"Player-1329-0418D442", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3fc6eaEruditus|r",
-			[51] = 1530105489,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [53]
-		{
-			"Removed in pre-patch", -- [1]
-			"Eruditus-Ravencrest", -- [2]
-			"", -- [3]
-			"1. General - Silithus", -- [4]
-			"Eruditus", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Silithus", -- [9]
-			0, -- [10]
-			353, -- [11]
-			"Player-1329-0418D442", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3fc6eaEruditus|r",
-			[51] = 1530105562,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [54]
-		{
-			"No", -- [1]
-			"Eruditus-Ravencrest", -- [2]
-			"", -- [3]
-			"1. General - Silithus", -- [4]
-			"Eruditus", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Silithus", -- [9]
-			0, -- [10]
-			384, -- [11]
-			"Player-1329-0418D442", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3fc6eaEruditus|r",
-			[51] = 1530105692,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [55]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:12071:Player-1329-0418D442:1:6:27:18:4294967295:4294967295:4294967295:4294967295|h[Crucible's Promise]|h|r!", -- [1]
-			"Eruditus-Ravencrest", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Eruditus", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			398, -- [11]
-			"Player-1329-0418D442", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "Eruditus",
-			[51] = 1530105770,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [56]
-		{
-			"Interrupted Runeseer Faljar's |cff71d5ff|Hspell:237952:0|h[Ancestral Knowledge]|h|r!", -- [1]
-			"Eruditus-Ravencrest", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Eruditus", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			24, -- [11]
-			"Player-1329-0418D442", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc6eaEruditus|r",
-			[51] = 1530174690,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [57]
-		{
-			"Interrupted Runeseer Faljar's |cff71d5ff|Hspell:237952:0|h[Ancestral Knowledge]|h|r!", -- [1]
-			"Eruditus-Ravencrest", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Eruditus", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			38, -- [11]
-			"Player-1329-0418D442", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc6eaEruditus|r",
-			[51] = 1530174765,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [58]
-		{
-			"|cffffff00Deliverance Point is under attack!|r", -- [1]
-			"", -- [2]
-			"", -- [3]
-			"3. LocalDefense - Broken Shore", -- [4]
-			"", -- [5]
-			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Broken Shore", -- [9]
-			0, -- [10]
-			56, -- [11]
-			false, -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1530174845,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
-		{
-			"Interrupted Runeseer Faljar's |cff71d5ff|Hspell:237952:0|h[Ancestral Knowledge]|h|r!", -- [1]
-			"Eruditus-Ravencrest", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Eruditus", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			79, -- [11]
-			"Player-1329-0418D442", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc6eaEruditus|r",
-			[51] = 1530175023,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [60]
-		{
-			"Interrupted Runeseer Faljar's |cff71d5ff|Hspell:237952:0|h[Ancestral Knowledge]|h|r!", -- [1]
-			"Eruditus-Ravencrest", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Eruditus", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			92, -- [11]
-			"Player-1329-0418D442", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc6eaEruditus|r",
-			[51] = 1530175095,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [61]
-		{
-			"Interrupted Runeseer Faljar's |cff71d5ff|Hspell:237890:0|h[Shadowbolt]|h|r!", -- [1]
-			"Eruditus-Ravencrest", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Eruditus", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			107, -- [11]
-			"Player-1329-0418D442", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc6eaEruditus|r",
-			[51] = 1530175152,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [62]
-		{
-			"Interrupted Runeseer Faljar's |cff71d5ff|Hspell:237952:0|h[Ancestral Knowledge]|h|r!", -- [1]
-			"Eruditus-Ravencrest", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Eruditus", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			115, -- [11]
-			"Player-1329-0418D442", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc6eaEruditus|r",
-			[51] = 1530175208,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [63]
-		{
-			"|cffffff00Blackhawk's Bulwark is under attack!|r", -- [1]
-			"", -- [2]
-			"", -- [3]
-			"3. LocalDefense - Stormheim", -- [4]
-			"", -- [5]
-			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Stormheim", -- [9]
-			0, -- [10]
-			136, -- [11]
-			false, -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1530175339,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [64]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:11611:Player-1329-0418D442:1:6:28:18:4294967295:4294967295:4294967295:4294967295|h[A Challenging Look]|h|r!", -- [1]
-			"Eruditus-Ravencrest", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Eruditus", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			156, -- [11]
-			"Player-1329-0418D442", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "Eruditus",
-			[51] = 1530175456,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [65]
-		{
-			" <Omnicide> 11/11 Mythic guild is selling Mythic Gul'dan mount |cff71d5ff|Hspell:171827:0|h[Hellfire Infernal]|h|rThursday, Sunday and Monday /me for more info and to book your spot ", -- [1]
-			"Ajantïs-Ravencrest", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ajantïs", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			298, -- [11]
-			"Player-1329-04F569B7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aAjantïs|r",
-			[51] = 1530175642,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [66]
-		{
-			"Interrupted Agatha's |cff71d5ff|Hspell:243114:0|h[Dark Fury]|h|r!", -- [1]
-			"Eruditus-Ravencrest", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Eruditus", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			329, -- [11]
-			"Player-1329-0418D442", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc6eaEruditus|r",
-			[51] = 1530175924,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [67]
-		{
-			"|cffffff00The Hijacked Portal is under attack!|r", -- [1]
-			"", -- [2]
-			"", -- [3]
-			"3. LocalDefense - Broken Shore", -- [4]
-			"", -- [5]
-			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Broken Shore", -- [9]
-			0, -- [10]
-			353, -- [11]
-			false, -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1530176208,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [68]
-		{
-			"Interrupted Hand from Beyond's |cff71d5ff|Hspell:235578:0|h[Grasp from Beyond]|h|r!", -- [1]
-			"Eruditus-Ravencrest", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Eruditus", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			373, -- [11]
-			"Player-1329-0418D442", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc6eaEruditus|r",
-			[51] = 1530176479,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [69]
-		{
-			"Interrupted Hand from Beyond's |cff71d5ff|Hspell:235578:0|h[Grasp from Beyond]|h|r!", -- [1]
-			"Eruditus-Ravencrest", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Eruditus", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			377, -- [11]
-			"Player-1329-0418D442", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc6eaEruditus|r",
-			[51] = 1530176513,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [70]
-		{
-			"Interrupted Hand from Beyond's |cff71d5ff|Hspell:235578:0|h[Grasp from Beyond]|h|r!", -- [1]
-			"Eruditus-Ravencrest", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Eruditus", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			380, -- [11]
-			"Player-1329-0418D442", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc6eaEruditus|r",
-			[51] = 1530176541,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [71]
-		{
-			"Interrupted Hand from Beyond's |cff71d5ff|Hspell:235578:0|h[Grasp from Beyond]|h|r!", -- [1]
-			"Eruditus-Ravencrest", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Eruditus", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			420, -- [11]
-			"Player-1329-0418D442", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc6eaEruditus|r",
-			[51] = 1530176959,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [72]
-		{
-			"Interrupted Hand from Beyond's |cff71d5ff|Hspell:235578:0|h[Grasp from Beyond]|h|r!", -- [1]
-			"Eruditus-Ravencrest", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Eruditus", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			430, -- [11]
-			"Player-1329-0418D442", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc6eaEruditus|r",
-			[51] = 1530177065,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [73]
-		{
-			"Interrupted Hand from Beyond's |cff71d5ff|Hspell:235578:0|h[Grasp from Beyond]|h|r!", -- [1]
-			"Eruditus-Ravencrest", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Eruditus", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			433, -- [11]
-			"Player-1329-0418D442", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc6eaEruditus|r",
-			[51] = 1530177093,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [74]
-		{
-			"Interrupted Hand from Beyond's |cff71d5ff|Hspell:235578:0|h[Grasp from Beyond]|h|r!", -- [1]
-			"Eruditus-Ravencrest", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Eruditus", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			437, -- [11]
-			"Player-1329-0418D442", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc6eaEruditus|r",
-			[51] = 1530177119,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [75]
-		{
 			"Interrupted Hand from Beyond's |cff71d5ff|Hspell:235578:0|h[Grasp from Beyond]|h|r!", -- [1]
 			"Eruditus-Ravencrest", -- [2]
 			"Common", -- [3]
@@ -1672,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaEruditus|r",
 			[51] = 1530177149,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [76]
+		}, -- [1]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:11612:Player-1329-0418D442:1:6:28:18:4294967295:4294967295:4294967295:4294967295|h[Fighting with Style: Challenging]|h|r!", -- [1]
 			"Eruditus-Ravencrest", -- [2]
@@ -1694,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "Eruditus",
 			[51] = 1530177281,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [77]
+		}, -- [2]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10988:Player-1329-0418D442:1:7:5:18:4294967295:4294967295:4294967295:4294967295|h[Top Honors]|h|r!", -- [1]
 			"Eruditus-Ravencrest", -- [2]
@@ -1716,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "Eruditus",
 			[51] = 1530796961,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [78]
+		}, -- [3]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10991:Player-1329-0418D442:1:7:5:18:4294967295:4294967295:4294967295:4294967295|h[First Step into a Larger World]|h|r!", -- [1]
 			"Eruditus-Ravencrest", -- [2]
@@ -1738,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "Eruditus",
 			[51] = 1530796961,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [79]
+		}, -- [4]
 		{
 			"WTS +15 Got a variety of keys and armor types /w for price or more info", -- [1]
 			"Casperino-Ravencrest", -- [2]
@@ -1760,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aCasperino|r",
 			[51] = 1531144635,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [80]
+		}, -- [5]
 		{
 			"WTB |cff66bbff|Hjournal:0:759:14|h[Ulduar]|h|r Lockout", -- [1]
 			"Clú-Ravencrest", -- [2]
@@ -1782,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaClú|r",
 			[51] = 1531144659,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
+		}, -- [6]
 		{
 			"[WTS] Mythic +15-22 Boost by insanely good 5k or higher M+ players - You get three 940+ items, your weekly 960+ item and [Keystone Master] Achievment! We have ALL armor types.", -- [1]
 			"Boostmaestro-Ravencrest", -- [2]
@@ -1804,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Boostmaestro|r",
 			[51] = 1531144664,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [82]
+		}, -- [7]
 		{
 			"WTS +15 Got a variety of keys and armor types /w for price or more info", -- [1]
 			"Casperino-Ravencrest", -- [2]
@@ -1826,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aCasperino|r",
 			[51] = 1531144678,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [83]
+		}, -- [8]
 		{
 			"[WTS] Mythic +15-22 Boost by insanely good 5k or higher M+ players - You get three 940+ items, your weekly 960+ item and [Keystone Master] Achievment! We have ALL armor types.", -- [1]
 			"Boostmaestro-Ravencrest", -- [2]
@@ -1848,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Boostmaestro|r",
 			[51] = 1531144724,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [84]
+		}, -- [9]
 		{
 			"WTS +15 Got a variety of keys and armor types /w for price or more info", -- [1]
 			"Casperino-Ravencrest", -- [2]
@@ -1870,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aCasperino|r",
 			[51] = 1531144755,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [85]
+		}, -- [10]
 		{
 			"[Member Berries] - [11/11M] selling 11/11 heroic Monday 19:30 & Fiendish Hellfire Core [Mythic Guldan Mount] for in-game gold, with personal loot. Whisper me to reserve a spot.", -- [1]
 			"Balomohr-Ravencrest", -- [2]
@@ -1892,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Balomohr|r",
 			[51] = 1531144763,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [11]
 		{
 			"LF mage port to storm sheild, i havnt done the questline xD", -- [1]
 			"Keltios-Ravencrest", -- [2]
@@ -1914,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Keltios|r",
 			[51] = 1531574546,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [87]
+		}, -- [12]
 		{
 			"WTS HC-Antorus 11/11.SUNDAY 8pm. Full 975+ 11/11M Guild boost, No Pugs, No Saves. Personal loot, rolled out by an officer. Last check to get Ahead of the Curve and get a full gear run on an alt. Quality boosting experience gaurenteed. 500k Gold. /w me", -- [1]
 			"Kiritochwan-Ravencrest", -- [2]
@@ -1936,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Kiritochwan|r",
 			[51] = 1531574583,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [88]
+		}, -- [13]
 		{
 			"WTS HC-Antorus 11/11.SUNDAY 8pm. Full 975+ 11/11M Guild boost, No Pugs, No Saves. Personal loot, rolled out by an officer. Last check to get Ahead of the Curve and get a full gear run on an alt. Quality boosting experience gaurenteed. 500k Gold. /w me", -- [1]
 			"Kiritochwan-Ravencrest", -- [2]
@@ -1958,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Kiritochwan|r",
 			[51] = 1531574669,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [89]
+		}, -- [14]
 		{
 			"LF Players for Portal keeper mythic! Weekly run Continuing from last raid. 965 ilvl required. And discord is a must! ", -- [1]
 			"Starksnow-Ravencrest", -- [2]
@@ -1980,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Starksnow|r",
 			[51] = 1531574673,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [15]
 		{
 			" WTS HC-Antorus 11/11. Full 975+ 11/11M Guild boost, No Pugs, No Saves. Personal loot, rolled out by an officer. Last check to get Ahead of the Curve and get a full gear run on an alt. Quality boosting experience gaurenteed. 500k Gold. /w me", -- [1]
 			"Nèémo-Ravencrest", -- [2]
@@ -2002,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaNèémo|r",
 			[51] = 1531574741,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [91]
+		}, -- [16]
 		{
 			"WTS HC-Antorus 11/11.SUNDAY 8pm. Full 975+ 11/11M Guild boost, No Pugs, No Saves. Personal loot, rolled out by an officer. Last check to get Ahead of the Curve and get a full gear run on an alt. Quality boosting experience gaurenteed. 500k Gold. /w me", -- [1]
 			"Kiritochwan-Ravencrest", -- [2]
@@ -2024,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Kiritochwan|r",
 			[51] = 1531574839,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [17]
 		{
 			"\"Random Encounters\" is looking for people for BFA mythic raids. We're looking for a good progress without hardcore schedule. Raid time is 8pm-11pm Tuesday/Thursday. We're in need of decent healers and dps.", -- [1]
 			"Maxyomka-Ravencrest", -- [2]
@@ -2046,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaMaxyomka|r",
 			[51] = 1531574844,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [93]
+		}, -- [18]
 		{
 			"<pls no> Is a newly formed guild that is looking to build a strong core team to push Cutting Edge in a focused but fun enviroment. We're currently looking for a Resto shaman & DK. /w for specifics and with any questions ", -- [1]
 			"Xervier-Ravencrest", -- [2]
@@ -2068,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Xervier|r",
 			[51] = 1532177052,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [19]
 		{
 			"WTS Alani mount |cffa335ee|Hitem:90655::::::::110:102::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r Personal loot! I have 10 |cffa335ee|Hitem:86547::::::::110:269::::::|h[Skyshard]|h|r! Price: 60k 100% drop chance /w me 2 more spots left", -- [1]
 			"Sunrazor-Ravencrest", -- [2]
@@ -2090,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aSunrazor|r",
 			[51] = 1532177052,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [20]
 		{
 			"WTS Alani mount |cffa335ee|Hitem:90655::::::::110:102::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r Personal loot! I have 10 |cffa335ee|Hitem:86547::::::::110:269::::::|h[Skyshard]|h|r! Price: 60k 100% drop chance /w me 1 more spot left", -- [1]
 			"Sunrazor-Ravencrest", -- [2]
@@ -2112,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aSunrazor|r",
 			[51] = 1532177137,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [21]
 		{
 			"WTS Alani mount |cffa335ee|Hitem:90655::::::::110:102::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r Personal loot! I have 10 |cffa335ee|Hitem:86547::::::::110:269::::::|h[Skyshard]|h|r! Price: 60k 100% drop chance /w me 1 more spot left", -- [1]
 			"Sunrazor-Ravencrest", -- [2]
@@ -2134,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aSunrazor|r",
 			[51] = 1532177213,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [22]
 		{
 			"<pls no> Is a newly formed guild that is looking to build a strong core team to push Cutting Edge in a focused but fun enviroment. We're currently looking for a Resto shaman & DK. /w for specifics and with any questions ", -- [1]
 			"Xervier-Ravencrest", -- [2]
@@ -2156,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Xervier|r",
 			[51] = 1532177274,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [23]
 		{
 			"Looking for an active guild (80+ ONLINE) to level in through BFA? Want to chat and have a laugh while you do it? <MEME TEAM> is for you! ", -- [1]
 			"Vek-Ravencrest", -- [2]
@@ -2178,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aVek|r",
 			[51] = 1532177339,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [99]
+		}, -- [24]
 		{
 			"Looking for an active guild (80+ ONLINE) to level in through BFA? Want to chat and have a laugh while you do it? <MEME TEAM> is for you! ", -- [1]
 			"Vek-Ravencrest", -- [2]
@@ -2200,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aVek|r",
 			[51] = 1532177430,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [100]
+		}, -- [25]
 		{
 			"<pls no> Is a newly formed guild that is looking to build a strong core team to push Cutting Edge in a focused but fun enviroment. We're currently looking for a Resto shaman & DK. /w for specifics and with any questions ", -- [1]
 			"Xervier-Ravencrest", -- [2]
@@ -2222,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Xervier|r",
 			[51] = 1532177430,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [101]
+		}, -- [26]
 		{
 			"WTS TCG Pet |cff0070dd|Hbattlepet:183:25:3:1481:276:276:0000000000000000|h[Ethereal Soul-Trader]|h|r|cff0070dd|Hbattlepet:303:1:3:145:11:14:0000000000000000|h[Nightsaber Cub]|h|r     /w offer", -- [1]
 			"Florastoria-Ravencrest", -- [2]
@@ -2244,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aFlorastoria|r",
 			[51] = 1532177521,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [102]
+		}, -- [27]
 		{
 			"WTS TCG Pets |cff0070dd|Hbattlepet:302:1:3:161:12:9:0000000000000000|h[Landro's Lichling]|h|r|cff0070dd|Hbattlepet:333:25:3:1465:273:289:0000000000000000|h[Gregarious Grell]|h|r     /w offer", -- [1]
 			"Florastoria-Ravencrest", -- [2]
@@ -2266,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aFlorastoria|r",
 			[51] = 1532177522,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [103]
+		}, -- [28]
 		{
 			"WTS Alani mount |cffa335ee|Hitem:90655::::::::110:102::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r Personal loot! I have 10 |cffa335ee|Hitem:86547::::::::110:269::::::|h[Skyshard]|h|r! Price: 60k 100% drop chance /w me 1 more spot left ", -- [1]
 			"Sunrazor-Ravencrest", -- [2]
@@ -2288,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aSunrazor|r",
 			[51] = 1532177535,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [104]
+		}, -- [29]
 		{
 			"WTS Alani |cffa335ee|Hitem:90655::::::::110:102::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r. Ready to go Sky Crystal 40k a spot", -- [1]
 			"Freezewilly-Ravencrest", -- [2]
@@ -2310,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaFreezewilly|r",
 			[51] = 1532177543,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [105]
+		}, -- [30]
 		{
 			"<pls no> Is a newly formed guild that is looking to build a strong core team to push Cutting Edge in a focused but fun enviroment. We're currently looking for a Resto shaman & DK. /w for specifics and with any questions ", -- [1]
 			"Xervier-Ravencrest", -- [2]
@@ -2332,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Xervier|r",
 			[51] = 1532177563,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [106]
+		}, -- [31]
 		{
 			"WTS|cff66bbff|Hjournal:0:946:14|h[Antorus, the Burning Throne]|h|rHC PL Boost Full run.Going right now+Last spot.Best price in town for golds.Summon ready.", -- [1]
 			"Tankboy-Ravencrest", -- [2]
@@ -2354,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTankboy|r",
 			[51] = 1532177568,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [107]
+		}, -- [32]
 		{
 			"WTS Alani |cffa335ee|Hitem:90655::::::::110:102::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r. Ready to go Sky Crystal 40k a spot", -- [1]
 			"Freezewilly-Ravencrest", -- [2]
@@ -2376,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaFreezewilly|r",
 			[51] = 1532177595,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [108]
+		}, -- [33]
 		{
 			"WTS |cff0070dd|Hbattlepet:311:1:3:158:11:10:0000000000000000|h[Guardian Cub]|h|r! /W ME CHEAPER THAN AH! ", -- [1]
 			"Sharlicious-Ravencrest", -- [2]
@@ -2398,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaSharlicious|r",
 			[51] = 1532177675,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [109]
+		}, -- [34]
 		{
 			"WTS |cff0070dd|Hbattlepet:311:1:3:158:11:10:0000000000000000|h[Guardian Cub]|h|r! /W ME CHEAPER THAN AH! ", -- [1]
 			"Sharlicious-Ravencrest", -- [2]
@@ -2420,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaSharlicious|r",
 			[51] = 1532177675,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [110]
+		}, -- [35]
 		{
 			"WTS 2nd for today Alani |cffa335ee|Hitem:90655::::::::110:102::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r Got 10 |cffa335ee|Hitem:86547::::::::110:269::::::|h[Skyshard]|h|r! 100% drop chance Personal loot Price: 50k /w me 2 spots left", -- [1]
 			"Sunrazor-Ravencrest", -- [2]
@@ -2442,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aSunrazor|r",
 			[51] = 1532192277,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [111]
+		}, -- [36]
 		{
 			"WTS 2nd for today Alani |cffa335ee|Hitem:90655::::::::110:102::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r Got 10 |cffa335ee|Hitem:86547::::::::110:269::::::|h[Skyshard]|h|r! 100% drop chance Personal loot Price: 50k /w me 2 spots left", -- [1]
 			"Sunrazor-Ravencrest", -- [2]
@@ -2464,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aSunrazor|r",
 			[51] = 1532192328,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [112]
+		}, -- [37]
 		{
 			"WTS 2nd for today Alani |cffa335ee|Hitem:90655::::::::110:102::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r Got 10 |cffa335ee|Hitem:86547::::::::110:269::::::|h[Skyshard]|h|r! 100% drop chance Personal loot Price: 50k /w me 2 spots left", -- [1]
 			"Sunrazor-Ravencrest", -- [2]
@@ -2486,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aSunrazor|r",
 			[51] = 1532192411,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [113]
+		}, -- [38]
 		{
 			"LF Someone that needs |cffffff00|Hachievement:156:Player-1329-05174918:0:0:0:-1:0:0:0:0|h[Territorial Dominance]|h|r", -- [1]
 			"Shredbull-Ravencrest", -- [2]
@@ -2508,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Shredbull|r",
 			[51] = 1532192436,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [114]
+		}, -- [39]
 		{
 			"WTS 2nd for today Alani |cffa335ee|Hitem:90655::::::::110:102::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r Got 10 |cffa335ee|Hitem:86547::::::::110:269::::::|h[Skyshard]|h|r! 100% drop chance Personal loot Price: 50k /w me 2 spots left", -- [1]
 			"Sunrazor-Ravencrest", -- [2]
@@ -2530,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aSunrazor|r",
 			[51] = 1532192455,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [115]
+		}, -- [40]
 		{
 			"WTS |cff0070dd|Hbattlepet:311:1:3:158:11:10:0000000000000000|h[Guardian Cub]|h|r! Cheap compared to AH! /W ME ", -- [1]
 			"Sharlicious-Ravencrest", -- [2]
@@ -2552,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaSharlicious|r",
 			[51] = 1532192488,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [116]
+		}, -- [41]
 		{
 			"WTS |cff0070dd|Hbattlepet:311:1:3:158:11:10:0000000000000000|h[Guardian Cub]|h|r! Cheap compared to AH! /W ME ", -- [1]
 			"Sharlicious-Ravencrest", -- [2]
@@ -2574,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaSharlicious|r",
 			[51] = 1532192488,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [117]
+		}, -- [42]
 		{
 			"LF Someone that needs |cffffff00|Hachievement:156:Player-1329-05174918:0:0:0:-1:0:0:0:0|h[Territorial Dominance]|h|r", -- [1]
 			"Shredbull-Ravencrest", -- [2]
@@ -2596,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Shredbull|r",
 			[51] = 1532192495,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [118]
+		}, -- [43]
 		{
 			"LF Someone that needs |cffffff00|Hachievement:156:Player-1329-05174918:0:0:0:-1:0:0:0:0|h[Territorial Dominance]|h|r", -- [1]
 			"Shredbull-Ravencrest", -- [2]
@@ -2618,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Shredbull|r",
 			[51] = 1532192530,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [119]
+		}, -- [44]
 		{
 			"WTS |cffa335ee|Hitem:159125::::::::120:70::13::::|h[Darkmoon Deck: Fathoms]|h|r|cffa335ee|Hitem:159126::::::::120:70::13::::|h[Darkmoon Deck: Squalls]|h|r|cffa335ee|Hitem:159128::::::::120:70::13::::|h[Darkmoon Deck: Blockades]|h|r|cffa335ee|Hitem:159127::::::::120:70::13::::|h[Darkmoon Deck: Tides]|h|r CHEAP", -- [1]
 			"Burkhard-Ravencrest", -- [2]
@@ -2640,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaBurkhard|r",
 			[51] = 1534709362,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [120]
+		}, -- [45]
 		{
 			"|cffa335ee|Hitem:159127::::::::120:250::13::::|h[Darkmoon Deck: Tides]|h|r45k |cffa335ee|Hitem:159128::::::::120:250::13::::|h[Darkmoon Deck: Blockades]|h|r35k! /w me!", -- [1]
 			"Drizly-Ravencrest", -- [2]
@@ -2662,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aDrizly|r",
 			[51] = 1534709370,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [121]
+		}, -- [46]
 		{
 			"WTS |cffa335ee|Hitem:159125::::::::120:70::13::::|h[Darkmoon Deck: Fathoms]|h|r|cffa335ee|Hitem:159126::::::::120:70::13::::|h[Darkmoon Deck: Squalls]|h|r|cffa335ee|Hitem:159128::::::::120:70::13::::|h[Darkmoon Deck: Blockades]|h|r|cffa335ee|Hitem:159127::::::::120:70::13::::|h[Darkmoon Deck: Tides]|h|r CHEAP", -- [1]
 			"Burkhard-Ravencrest", -- [2]
@@ -2684,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaBurkhard|r",
 			[51] = 1534709392,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [122]
+		}, -- [47]
 		{
 			"|cffa335ee|Hitem:159127::::::::120:250::13::::|h[Darkmoon Deck: Tides]|h|r45k |cffa335ee|Hitem:159128::::::::120:250::13::::|h[Darkmoon Deck: Blockades]|h|r35k! /w me!", -- [1]
 			"Drizly-Ravencrest", -- [2]
@@ -2706,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aDrizly|r",
 			[51] = 1534709400,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [123]
+		}, -- [48]
 		{
 			"WTB ALL BFA herbs 45g ea, |cff1eff00|Hitem:152510::::::::100:64::::::|h[Anchor Weed]|h|r 250g, |cffffffff|Hitem:152576::::::::100:64::::::|h[Tidespray Linen]|h|r 10g ea and |cffffffff|Hitem:152579::::::::100:64::::::|h[Storm Silver Ore]|h|r 50g ea! Trade if 2.5k+ else COD ALL! No COD returns in the past 36 hours!", -- [1]
 			"Motixtwo-Ravencrest", -- [2]
@@ -2728,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaMotixtwo|r",
 			[51] = 1534709411,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [124]
+		}, -- [49]
 		{
 			"WTS Heroic/Mythic Dungeon Services! Get your items really fast and prepare for Uldir! Whisp me for info.", -- [1]
 			"Zhuedipov-Ravencrest", -- [2]
@@ -2750,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffZhuedipov|r",
 			[51] = 1534709413,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [125]
+		}, -- [50]
 		{
 			"WTS |cffa335ee|Hitem:163956::::::::120:103::54:2:1472:4786:::|h[Treiya's Shining Pillar]|h|r 350 iLvL INT + CRIT/HASTE STAFF ", -- [1]
 			"Melwynn-Ravencrest", -- [2]
@@ -2772,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aMelwynn|r",
 			[51] = 1534709420,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [126]
+		}, -- [51]
 		{
 			"WTS |cffa335ee|Hitem:159125::::::::120:70::13::::|h[Darkmoon Deck: Fathoms]|h|r|cffa335ee|Hitem:159126::::::::120:70::13::::|h[Darkmoon Deck: Squalls]|h|r|cffa335ee|Hitem:159128::::::::120:70::13::::|h[Darkmoon Deck: Blockades]|h|r|cffa335ee|Hitem:159127::::::::120:70::13::::|h[Darkmoon Deck: Tides]|h|r CHEAP", -- [1]
 			"Burkhard-Ravencrest", -- [2]
@@ -2793,6 +1143,1656 @@ ElvCharacterDB = {
 			true, -- [17]
 			[52] = "|cfff48cbaBurkhard|r",
 			[51] = 1534709422,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [52]
+		{
+			"WTB |cffffffff|Hitem:152576::::::::120:250::::::|h[Tidespray Linen]|h|r@15G/each || BFA BOE Greens @ 150G/each || BFA Herbs @ 25G/each - <C.O.D.> me all u got!", -- [1]
+			"Drizly-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Drizly", -- [5]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			907, -- [11]
+			"Player-1329-05FFBE3A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc41e3aDrizly|r",
+			[51] = 1537180555,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [53]
+		{
+			"WTB |cffffffff|Hitem:152576::::::::120:577::::::|h[Tidespray Linen]|h|r 15 gold/each; BFA GREENS 150 gold/each; ALL YOUR BFA HERBS 25 gold/each! Only COD! SEND ME ALL YOU HAVE!", -- [1]
+			"Vorkillani-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vorkillani", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			910, -- [11]
+			"Player-1329-0620415D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa330c9Vorkillani|r",
+			[51] = 1537180565,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [54]
+		{
+			"WTB ALL BFA herbs 20g ea, |cffffffff|Hitem:152576::::::::110:269::::::|h[Tidespray Linen]|h|r 15g ea, BFA-dropped greens 150g ea, |cffffffff|Hitem:152579::::::::110:269::::::|h[Storm Silver Ore]|h|r 30g ea and |cff1eff00|Hitem:152577::::::::110:269::::::|h[Deep Sea Satin]|h|r 15g ea! COD only! All COD's past 24 hours have been accepted!", -- [1]
+			"Motixfive-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Motixfive", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			917, -- [11]
+			"Player-1329-06501A83", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00ff96Motixfive|r",
+			[51] = 1537180599,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [55]
+		{
+			"WTB |cffffffff|Hitem:152576::::::::120:577::::::|h[Tidespray Linen]|h|r 15 gold/each; BFA GREENS 150 gold/each; ALL YOUR BFA HERBS 25 gold/each! Only COD! SEND ME ALL YOU HAVE!", -- [1]
+			"Vorkillani-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vorkillani", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			919, -- [11]
+			"Player-1329-0620415D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa330c9Vorkillani|r",
+			[51] = 1537180615,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [56]
+		{
+			"WTS |cff0070dd|Hitem:8190::::::::120:102::11::::|h[Hanzo Sword]|h|r, great one-handed XMOG!! /w me.", -- [1]
+			"Dawnclaw-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Dawnclaw", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			920, -- [11]
+			"Player-1329-051CC070", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffff7c0aDawnclaw|r",
+			[51] = 1537180616,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [57]
+		{
+			"WTS rare mount |cffa335ee|Hitem:161134::::::::120:72::13::::|h[Mecha-Mogul Mk2]|h|r@2M GOLD, |cffa335ee|Hitem:163957::::::::120:72::54:2:1472:4786:::|h[Carmodius Crystalline Stylus]|h|r@150k!", -- [1]
+			"Coren-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Coren", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			922, -- [11]
+			"Player-1329-0674926D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc69b6dCoren|r",
+			[51] = 1537180625,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [58]
+		{
+			"WTB |cffffffff|Hitem:152576::::::::120:250::::::|h[Tidespray Linen]|h|r@15G/each || BFA BOE Greens @ 150G/each || BFA Herbs @ 25G/each - <C.O.D.> me all u got!", -- [1]
+			"Drizly-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Drizly", -- [5]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			923, -- [11]
+			"Player-1329-05FFBE3A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc41e3aDrizly|r",
+			[51] = 1537180630,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [59]
+		{
+			"WTS |cffa335ee|Hitem:95416::::::::95:253::::::|h[Sky Golem]|h|r 150K .... its 160+ on AH", -- [1]
+			"Zzgunner-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Zzgunner", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			924, -- [11]
+			"Player-1329-05D7A794", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Zzgunner|r",
+			[51] = 1537180634,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [60]
+		{
+			"WTB ALL BFA herbs 20g ea, |cffffffff|Hitem:152576::::::::110:269::::::|h[Tidespray Linen]|h|r 15g ea, BFA-dropped greens 150g ea, |cffffffff|Hitem:152579::::::::110:269::::::|h[Storm Silver Ore]|h|r 30g ea and |cff1eff00|Hitem:152577::::::::110:269::::::|h[Deep Sea Satin]|h|r 15g ea! COD only! All COD's past 24 hours have been accepted!", -- [1]
+			"Motixfive-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Motixfive", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			925, -- [11]
+			"Player-1329-06501A83", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00ff96Motixfive|r",
+			[51] = 1537180644,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [61]
+		{
+			"WTB ALL BFA GREENS! 150g pr Piece! (Crafted 100g)!! /W ME OR COD!", -- [1]
+			"Traimar-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Traimar", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			928, -- [11]
+			"Player-1329-0675A839", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc69b6dTraimar|r",
+			[51] = 1537180664,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [62]
+		{
+			"WTB |cffffffff|Hitem:152576::::::::120:577::::::|h[Tidespray Linen]|h|r 15 gold/each; BFA GREENS 150 gold/each; ALL YOUR BFA HERBS 25 gold/each! Only COD! SEND ME ALL YOU HAVE!", -- [1]
+			"Vorkillani-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vorkillani", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			929, -- [11]
+			"Player-1329-0620415D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa330c9Vorkillani|r",
+			[51] = 1537180665,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [63]
+		{
+			"WTS |cffa335ee|Hitem:95416::::::::95:253::::::|h[Sky Golem]|h|r 150K .... its 160+ on AH", -- [1]
+			"Zzgunner-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Zzgunner", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			931, -- [11]
+			"Player-1329-05D7A794", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Zzgunner|r",
+			[51] = 1537180670,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [64]
+		{
+			"WTS rare mount |cffa335ee|Hitem:161134::::::::120:72::13::::|h[Mecha-Mogul Mk2]|h|r@2M GOLD, |cffa335ee|Hitem:163957::::::::120:72::54:2:1472:4786:::|h[Carmodius Crystalline Stylus]|h|r@150k!", -- [1]
+			"Coren-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Coren", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			932, -- [11]
+			"Player-1329-0674926D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc69b6dCoren|r",
+			[51] = 1537180670,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [65]
+		{
+			"WTS |cff0070dd|Hitem:8190::::::::120:102::11::::|h[Hanzo Sword]|h|r, great one-handed XMOG!! /w me.", -- [1]
+			"Dawnclaw-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Dawnclaw", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			934, -- [11]
+			"Player-1329-051CC070", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffff7c0aDawnclaw|r",
+			[51] = 1537180676,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [66]
+		{
+			"WTB ALL BFA herbs 20g ea, |cffffffff|Hitem:152576::::::::110:269::::::|h[Tidespray Linen]|h|r 15g ea, BFA-dropped greens 150g ea, |cffffffff|Hitem:152579::::::::110:269::::::|h[Storm Silver Ore]|h|r 30g ea and |cff1eff00|Hitem:152577::::::::110:269::::::|h[Deep Sea Satin]|h|r 15g ea! COD only! All COD's past 24 hours have been accepted!", -- [1]
+			"Motixfive-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Motixfive", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			935, -- [11]
+			"Player-1329-06501A83", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00ff96Motixfive|r",
+			[51] = 1537180689,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [67]
+		{
+			"WTB |cffffffff|Hitem:152576::::::::120:250::::::|h[Tidespray Linen]|h|r@15G/each || BFA BOE Greens @ 150G/each || BFA Herbs @ 25G/each - <C.O.D.> me all u got!", -- [1]
+			"Drizly-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Drizly", -- [5]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			938, -- [11]
+			"Player-1329-05FFBE3A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc41e3aDrizly|r",
+			[51] = 1537180705,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [68]
+		{
+			"WTS |cffffffff|Hitem:152512::::::::120:268::::::|h[Monelite Ore]|h|r X60 4K STOOD BY TURNIN ", -- [1]
+			"Mozkii-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Mozkii", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			940, -- [11]
+			"Player-1329-05A46D88", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00ff96Mozkii|r",
+			[51] = 1537180713,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [69]
+		{
+			"WTS |cffa335ee|Hitem:95416::::::::95:253::::::|h[Sky Golem]|h|r 150K .... its 160+ on AH", -- [1]
+			"Zzgunner-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Zzgunner", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			941, -- [11]
+			"Player-1329-05D7A794", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Zzgunner|r",
+			[51] = 1537180715,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [70]
+		{
+			"WTS rare mount |cffa335ee|Hitem:161134::::::::120:72::13::::|h[Mecha-Mogul Mk2]|h|r@2M GOLD, |cffa335ee|Hitem:163957::::::::120:72::54:2:1472:4786:::|h[Carmodius Crystalline Stylus]|h|r@150k!", -- [1]
+			"Coren-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Coren", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			942, -- [11]
+			"Player-1329-0674926D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc69b6dCoren|r",
+			[51] = 1537180715,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [71]
+		{
+			"WTB |cffffffff|Hitem:152576::::::::120:577::::::|h[Tidespray Linen]|h|r 15 gold/each; BFA GREENS 150 gold/each; ALL YOUR BFA HERBS 25 gold/each! Only COD! SEND ME ALL YOU HAVE!", -- [1]
+			"Vorkillani-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vorkillani", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			943, -- [11]
+			"Player-1329-0620415D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa330c9Vorkillani|r",
+			[51] = 1537180715,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [72]
+		{
+			"WTB ALL BFA herbs 20g ea, |cffffffff|Hitem:152576::::::::110:269::::::|h[Tidespray Linen]|h|r 15g ea, BFA-dropped greens 150g ea, |cffffffff|Hitem:152579::::::::110:269::::::|h[Storm Silver Ore]|h|r 30g ea and |cff1eff00|Hitem:152577::::::::110:269::::::|h[Deep Sea Satin]|h|r 15g ea! COD only! All COD's past 24 hours have been accepted!", -- [1]
+			"Motixfive-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Motixfive", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			945, -- [11]
+			"Player-1329-06501A83", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00ff96Motixfive|r",
+			[51] = 1537180734,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [73]
+		{
+			"WTS |cff0070dd|Hitem:8190::::::::120:102::11::::|h[Hanzo Sword]|h|r, great one-handed XMOG!! /w me.", -- [1]
+			"Dawnclaw-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Dawnclaw", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			946, -- [11]
+			"Player-1329-051CC070", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffff7c0aDawnclaw|r",
+			[51] = 1537180736,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [74]
+		{
+			"WTS |cffa335ee|Hitem:95416::::::::95:253::::::|h[Sky Golem]|h|r 150K .... its 160+ on AH", -- [1]
+			"Zzgunner-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Zzgunner", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			947, -- [11]
+			"Player-1329-05D7A794", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Zzgunner|r",
+			[51] = 1537180738,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [75]
+		{
+			"WTB ALL BFA GREENS! 150g pr Piece! (Crafted 100g)!! /W ME OR COD!", -- [1]
+			"Traimar-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Traimar", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			948, -- [11]
+			"Player-1329-0675A839", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc69b6dTraimar|r",
+			[51] = 1537180742,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [76]
+		{
+			"WTS |cffffffff|Hitem:152512::::::::120:268::::::|h[Monelite Ore]|h|r X60 4K STOOD BY TURNIN ", -- [1]
+			"Mozkii-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Mozkii", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			951, -- [11]
+			"Player-1329-05A46D88", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00ff96Mozkii|r",
+			[51] = 1537180759,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [77]
+		{
+			"WTS |cffffffff|Hitem:152512::::::::120:268::::::|h[Monelite Ore]|h|r X60 4K STOOD BY TURNIN ", -- [1]
+			"Mozkii-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Mozkii", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			952, -- [11]
+			"Player-1329-05A46D88", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00ff96Mozkii|r",
+			[51] = 1537180760,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [78]
+		{
+			"WTS rare mount |cffa335ee|Hitem:161134::::::::120:72::13::::|h[Mecha-Mogul Mk2]|h|r@2M GOLD, |cffa335ee|Hitem:163957::::::::120:72::54:2:1472:4786:::|h[Carmodius Crystalline Stylus]|h|r@150k!", -- [1]
+			"Coren-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Coren", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			953, -- [11]
+			"Player-1329-0674926D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc69b6dCoren|r",
+			[51] = 1537180760,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [79]
+		{
+			"BUYING ALL HERBS 20G EACH, |cffffffff|Hitem:152507::::::::120:250::::::|h[Akunda's Bite]|h|r30G, |cffffffff|Hitem:152509::::::::120:250::::::|h[Siren's Pollen]|h|r55G, |cff1eff00|Hitem:152510::::::::120:250::::::|h[Anchor Weed]|h|r400G SEND COD!", -- [1]
+			"Thorli-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Thorli", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			955, -- [11]
+			"Player-1329-060246C6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc41e3aThorli|r",
+			[51] = 1537180764,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [80]
+		{
+			"WTB |cffffffff|Hitem:152576::::::::120:577::::::|h[Tidespray Linen]|h|r 15 gold/each; BFA GREENS 150 gold/each; ALL YOUR BFA HERBS 25 gold/each! Only COD! SEND ME ALL YOU HAVE!", -- [1]
+			"Vorkillani-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vorkillani", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			956, -- [11]
+			"Player-1329-0620415D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa330c9Vorkillani|r",
+			[51] = 1537180765,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [81]
+		{
+			"WTB ALL BFA GREENS! 150g pr Piece! (Crafted 100g)!! /W ME OR COD!", -- [1]
+			"Traimar-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Traimar", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			957, -- [11]
+			"Player-1329-0675A839", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc69b6dTraimar|r",
+			[51] = 1537180777,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [82]
+		{
+			"WTB ALL BFA herbs 20g ea, |cffffffff|Hitem:152576::::::::110:269::::::|h[Tidespray Linen]|h|r 15g ea, BFA-dropped greens 150g ea, |cffffffff|Hitem:152579::::::::110:269::::::|h[Storm Silver Ore]|h|r 30g ea and |cff1eff00|Hitem:152577::::::::110:269::::::|h[Deep Sea Satin]|h|r 15g ea! COD only! All COD's past 24 hours have been accepted!", -- [1]
+			"Motixfive-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Motixfive", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			958, -- [11]
+			"Player-1329-06501A83", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00ff96Motixfive|r",
+			[51] = 1537180779,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [83]
+		{
+			"WTB |cffffffff|Hitem:152576::::::::120:250::::::|h[Tidespray Linen]|h|r@15G/each || BFA BOE Greens @ 150G/each || BFA Herbs @ 25G/each - <C.O.D.> me all u got!", -- [1]
+			"Drizly-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Drizly", -- [5]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			959, -- [11]
+			"Player-1329-05FFBE3A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc41e3aDrizly|r",
+			[51] = 1537180780,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [84]
+		{
+			"WTS |cffa335ee|Hitem:95416::::::::95:253::::::|h[Sky Golem]|h|r 150K .... its 160+ on AH", -- [1]
+			"Zzgunner-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Zzgunner", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			960, -- [11]
+			"Player-1329-05D7A794", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Zzgunner|r",
+			[51] = 1537180783,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [85]
+		{
+			"WTS |cff0070dd|Hitem:8190::::::::120:102::11::::|h[Hanzo Sword]|h|r, great one-handed XMOG!! /w me.", -- [1]
+			"Dawnclaw-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Dawnclaw", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			962, -- [11]
+			"Player-1329-051CC070", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffff7c0aDawnclaw|r",
+			[51] = 1537180796,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [86]
+		{
+			"WTS rare mount |cffa335ee|Hitem:161134::::::::120:72::13::::|h[Mecha-Mogul Mk2]|h|r@2M GOLD, |cffa335ee|Hitem:163957::::::::120:72::54:2:1472:4786:::|h[Carmodius Crystalline Stylus]|h|r@150k!", -- [1]
+			"Coren-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Coren", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			963, -- [11]
+			"Player-1329-0674926D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc69b6dCoren|r",
+			[51] = 1537180805,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [87]
+		{
+			"WTB |cffffffff|Hitem:152576::::::::120:577::::::|h[Tidespray Linen]|h|r 15 gold/each; BFA GREENS 150 gold/each; ALL YOUR BFA HERBS 25 gold/each! Only COD! SEND ME ALL YOU HAVE!", -- [1]
+			"Vorkillani-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vorkillani", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			964, -- [11]
+			"Player-1329-0620415D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa330c9Vorkillani|r",
+			[51] = 1537180816,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [88]
+		{
+			"WTS |cffffffff|Hitem:152512::::::::120:268::::::|h[Monelite Ore]|h|r X60 4K STOOD BY TURNIN ", -- [1]
+			"Mozkii-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Mozkii", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			965, -- [11]
+			"Player-1329-05A46D88", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00ff96Mozkii|r",
+			[51] = 1537180818,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [89]
+		{
+			"WTS |cffffffff|Hitem:152512::::::::120:268::::::|h[Monelite Ore]|h|r X60 4K STOOD BY TURNIN ", -- [1]
+			"Mozkii-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Mozkii", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			966, -- [11]
+			"Player-1329-05A46D88", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00ff96Mozkii|r",
+			[51] = 1537180819,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [90]
+		{
+			"WTB ALL BFA herbs 20g ea, |cffffffff|Hitem:152576::::::::110:269::::::|h[Tidespray Linen]|h|r 15g ea, BFA-dropped greens 150g ea, |cffffffff|Hitem:152579::::::::110:269::::::|h[Storm Silver Ore]|h|r 30g ea and |cff1eff00|Hitem:152577::::::::110:269::::::|h[Deep Sea Satin]|h|r 15g ea! COD only! All COD's past 24 hours have been accepted!", -- [1]
+			"Motixfive-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Motixfive", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			967, -- [11]
+			"Player-1329-06501A83", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00ff96Motixfive|r",
+			[51] = 1537180824,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [91]
+		{
+			"WTS |cffa335ee|Hitem:95416::::::::95:253::::::|h[Sky Golem]|h|r 150K .... its 160+ on AH", -- [1]
+			"Zzgunner-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Zzgunner", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			969, -- [11]
+			"Player-1329-05D7A794", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Zzgunner|r",
+			[51] = 1537180837,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [92]
+		{
+			"LF UK BASED GUILD WHO ARE FUN AND A GOOD LAUGH. LOOKING TO JUST BE CASUAL AND HELP WHERE AND WHEN I CAN", -- [1]
+			"Felstrikker-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Felstrikker", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			970, -- [11]
+			"Player-1329-05C1F8FB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa330c9Felstrikker|r",
+			[51] = 1537180847,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [93]
+		{
+			"WTS rare mount |cffa335ee|Hitem:161134::::::::120:72::13::::|h[Mecha-Mogul Mk2]|h|r@2M GOLD, |cffa335ee|Hitem:163957::::::::120:72::54:2:1472:4786:::|h[Carmodius Crystalline Stylus]|h|r@150k!", -- [1]
+			"Coren-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Coren", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			972, -- [11]
+			"Player-1329-0674926D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc69b6dCoren|r",
+			[51] = 1537180850,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [94]
+		{
+			"WTB |cffffffff|Hitem:152576::::::::120:250::::::|h[Tidespray Linen]|h|r@15G/each || BFA BOE Greens @ 150G/each || BFA Herbs @ 25G/each - <C.O.D.> me all u got!", -- [1]
+			"Drizly-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Drizly", -- [5]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			973, -- [11]
+			"Player-1329-05FFBE3A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc41e3aDrizly|r",
+			[51] = 1537180851,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [95]
+		{
+			"WTB ALL BFA GREENS! 150g pr Piece! (Crafted 100g)!! /W ME OR COD!", -- [1]
+			"Traimar-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Traimar", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			974, -- [11]
+			"Player-1329-0675A839", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc69b6dTraimar|r",
+			[51] = 1537180852,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [96]
+		{
+			"WTS |cff0070dd|Hitem:8190::::::::120:102::11::::|h[Hanzo Sword]|h|r, great one-handed XMOG!! /w me.", -- [1]
+			"Dawnclaw-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Dawnclaw", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			975, -- [11]
+			"Player-1329-051CC070", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffff7c0aDawnclaw|r",
+			[51] = 1537180856,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [97]
+		{
+			"WTB |cffffffff|Hitem:152576::::::::120:577::::::|h[Tidespray Linen]|h|r 15 gold/each; BFA GREENS 150 gold/each; ALL YOUR BFA HERBS 25 gold/each! Only COD! SEND ME ALL YOU HAVE!", -- [1]
+			"Vorkillani-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vorkillani", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			976, -- [11]
+			"Player-1329-0620415D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa330c9Vorkillani|r",
+			[51] = 1537180865,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"WTB ALL BFA herbs 20g ea, |cffffffff|Hitem:152576::::::::110:269::::::|h[Tidespray Linen]|h|r 15g ea, BFA-dropped greens 150g ea, |cffffffff|Hitem:152579::::::::110:269::::::|h[Storm Silver Ore]|h|r 30g ea and |cff1eff00|Hitem:152577::::::::110:269::::::|h[Deep Sea Satin]|h|r 15g ea! COD only! All COD's past 24 hours have been accepted!", -- [1]
+			"Motixfive-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Motixfive", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			977, -- [11]
+			"Player-1329-06501A83", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00ff96Motixfive|r",
+			[51] = 1537180869,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [99]
+		{
+			"LF UK BASED GUILD WHO ARE FUN AND A GOOD LAUGH. LOOKING TO JUST BE CASUAL AND HELP WHERE AND WHEN I CAN", -- [1]
+			"Felstrikker-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Felstrikker", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			978, -- [11]
+			"Player-1329-05C1F8FB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa330c9Felstrikker|r",
+			[51] = 1537180872,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [100]
+		{
+			"WTB ALL BFA GREENS! 150g pr Piece! (Crafted 100g)!! /W ME OR COD!", -- [1]
+			"Traimar-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Traimar", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			979, -- [11]
+			"Player-1329-0675A839", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc69b6dTraimar|r",
+			[51] = 1537180876,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [101]
+		{
+			"WTB |cffffffff|Hitem:152576::::::::120:250::::::|h[Tidespray Linen]|h|r@15G/each || BFA BOE Greens @ 150G/each || BFA Herbs @ 25G/each - <C.O.D.> me all u got!", -- [1]
+			"Drizly-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Drizly", -- [5]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			980, -- [11]
+			"Player-1329-05FFBE3A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc41e3aDrizly|r",
+			[51] = 1537180881,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [102]
+		{
+			"WTB ALL BFA GREENS! 150g pr Piece! (Crafted 100g)!! /W ME OR COD!", -- [1]
+			"Traimar-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Traimar", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			981, -- [11]
+			"Player-1329-0675A839", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc69b6dTraimar|r",
+			[51] = 1537180882,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [103]
+		{
+			"WTS rare mount |cffa335ee|Hitem:161134::::::::120:72::13::::|h[Mecha-Mogul Mk2]|h|r@2M GOLD, |cffa335ee|Hitem:163957::::::::120:72::54:2:1472:4786:::|h[Carmodius Crystalline Stylus]|h|r@150k!", -- [1]
+			"Coren-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Coren", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			982, -- [11]
+			"Player-1329-0674926D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc69b6dCoren|r",
+			[51] = 1537180895,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [104]
+		{
+			"WTB |cffffffff|Hitem:152576::::::::120:250::::::|h[Tidespray Linen]|h|r@15G/each || BFA BOE Greens @ 150G/each || BFA Herbs @ 25G/each - <C.O.D.> me all u got!", -- [1]
+			"Drizly-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Drizly", -- [5]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			984, -- [11]
+			"Player-1329-05FFBE3A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc41e3aDrizly|r",
+			[51] = 1537180911,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [105]
+		{
+			"BUYING ALL HERBS 20G EACH, |cffffffff|Hitem:152507::::::::120:250::::::|h[Akunda's Bite]|h|r30G, |cffffffff|Hitem:152509::::::::120:250::::::|h[Siren's Pollen]|h|r55G, |cff1eff00|Hitem:152510::::::::120:250::::::|h[Anchor Weed]|h|r400G SEND COD!", -- [1]
+			"Thorli-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Thorli", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			985, -- [11]
+			"Player-1329-060246C6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc41e3aThorli|r",
+			[51] = 1537180914,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [106]
+		{
+			"WTB ALL BFA herbs 20g ea, |cffffffff|Hitem:152576::::::::110:269::::::|h[Tidespray Linen]|h|r 15g ea, BFA-dropped greens 150g ea, |cffffffff|Hitem:152579::::::::110:269::::::|h[Storm Silver Ore]|h|r 30g ea and |cff1eff00|Hitem:152577::::::::110:269::::::|h[Deep Sea Satin]|h|r 15g ea! COD only! All COD's past 24 hours have been accepted!", -- [1]
+			"Motixfive-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Motixfive", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			986, -- [11]
+			"Player-1329-06501A83", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00ff96Motixfive|r",
+			[51] = 1537180914,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [107]
+		{
+			"WTS |cffa335ee|Hitem:95416::::::::95:253::::::|h[Sky Golem]|h|r 150K .... its 160+ on AH", -- [1]
+			"Zzgunner-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Zzgunner", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			987, -- [11]
+			"Player-1329-05D7A794", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Zzgunner|r",
+			[51] = 1537180916,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [108]
+		{
+			"WTS |cff0070dd|Hitem:8190::::::::120:102::11::::|h[Hanzo Sword]|h|r, great one-handed XMOG!! /w me.", -- [1]
+			"Dawnclaw-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Dawnclaw", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			988, -- [11]
+			"Player-1329-051CC070", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffff7c0aDawnclaw|r",
+			[51] = 1537180916,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [109]
+		{
+			"WTB |cffffffff|Hitem:152576::::::::120:577::::::|h[Tidespray Linen]|h|r 15 gold/each; BFA GREENS 150 gold/each; ALL YOUR BFA HERBS 25 gold/each! Only COD! SEND ME ALL YOU HAVE!", -- [1]
+			"Vorkillani-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vorkillani", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			989, -- [11]
+			"Player-1329-0620415D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa330c9Vorkillani|r",
+			[51] = 1537180920,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [110]
+		{
+			"WTS |cffffffff|Hitem:152512::::::::120:268::::::|h[Monelite Ore]|h|r X60 4K STOOD BY TURNIN ", -- [1]
+			"Mozkii-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Mozkii", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			990, -- [11]
+			"Player-1329-05A46D88", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00ff96Mozkii|r",
+			[51] = 1537180920,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [111]
+		{
+			"WTS |cffffffff|Hitem:152512::::::::120:268::::::|h[Monelite Ore]|h|r X60 4K STOOD BY TURNIN ", -- [1]
+			"Mozkii-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Mozkii", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			991, -- [11]
+			"Player-1329-05A46D88", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00ff96Mozkii|r",
+			[51] = 1537180923,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [112]
+		{
+			"WTS |cffa335ee|Hitem:160612::::::::100:251::5:3:4799:1502:4783:::|h[Spellbound Specimen Handlers]|h|r 400K |cffa335ee|Hitem:161071::::::::100:251::5:3:4799:1507:4784:::|h[Bloody Experimenter's Wraps]|h|r 750K", -- [1]
+			"Kebabmold-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Kebabmold", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			993, -- [11]
+			"Player-1329-055C5022", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc41e3aKebabmold|r",
+			[51] = 1537180931,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [113]
+		{
+			"WTS rare mount |cffa335ee|Hitem:161134::::::::120:72::13::::|h[Mecha-Mogul Mk2]|h|r@2M GOLD, |cffa335ee|Hitem:163957::::::::120:72::54:2:1472:4786:::|h[Carmodius Crystalline Stylus]|h|r@150k!", -- [1]
+			"Coren-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Coren", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			994, -- [11]
+			"Player-1329-0674926D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc69b6dCoren|r",
+			[51] = 1537180940,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [114]
+		{
+			"WTB |cffffffff|Hitem:152576::::::::120:250::::::|h[Tidespray Linen]|h|r@15G/each || BFA BOE Greens @ 150G/each || BFA Herbs @ 25G/each - <C.O.D.> me all u got!", -- [1]
+			"Drizly-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Drizly", -- [5]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			995, -- [11]
+			"Player-1329-05FFBE3A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc41e3aDrizly|r",
+			[51] = 1537180941,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [115]
+		{
+			"WTB ALL BFA herbs 20g ea, |cffffffff|Hitem:152576::::::::110:269::::::|h[Tidespray Linen]|h|r 15g ea, BFA-dropped greens 150g ea, |cffffffff|Hitem:152579::::::::110:269::::::|h[Storm Silver Ore]|h|r 30g ea and |cff1eff00|Hitem:152577::::::::110:269::::::|h[Deep Sea Satin]|h|r 15g ea! COD only! All COD's past 24 hours have been accepted!", -- [1]
+			"Motixfive-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Motixfive", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			997, -- [11]
+			"Player-1329-06501A83", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00ff96Motixfive|r",
+			[51] = 1537180959,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [116]
+		{
+			"WTS |cffa335ee|Hitem:95416::::::::95:253::::::|h[Sky Golem]|h|r 150K .... its 160+ on AH", -- [1]
+			"Zzgunner-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Zzgunner", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			998, -- [11]
+			"Player-1329-05D7A794", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Zzgunner|r",
+			[51] = 1537180962,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [117]
+		{
+			"WTB |cffffffff|Hitem:152576::::::::120:577::::::|h[Tidespray Linen]|h|r 15 gold/each; BFA GREENS 150 gold/each; ALL YOUR BFA HERBS 25 gold/each! Only COD! SEND ME ALL YOU HAVE!", -- [1]
+			"Vorkillani-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vorkillani", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1000, -- [11]
+			"Player-1329-0620415D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa330c9Vorkillani|r",
+			[51] = 1537180966,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [118]
+		{
+			"WTB |cffffffff|Hitem:152576::::::::120:250::::::|h[Tidespray Linen]|h|r@15G/each || BFA BOE Greens @ 150G/each || BFA Herbs @ 25G/each - <C.O.D.> me all u got!", -- [1]
+			"Drizly-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Drizly", -- [5]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1001, -- [11]
+			"Player-1329-05FFBE3A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc41e3aDrizly|r",
+			[51] = 1537180971,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [119]
+		{
+			"WTS |cff0070dd|Hitem:8190::::::::120:102::11::::|h[Hanzo Sword]|h|r, great one-handed XMOG!! /w me.", -- [1]
+			"Dawnclaw-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Dawnclaw", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1002, -- [11]
+			"Player-1329-051CC070", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffff7c0aDawnclaw|r",
+			[51] = 1537180976,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [120]
+		{
+			"WTS rare mount |cffa335ee|Hitem:161134::::::::120:72::13::::|h[Mecha-Mogul Mk2]|h|r@2M GOLD, |cffa335ee|Hitem:163957::::::::120:72::54:2:1472:4786:::|h[Carmodius Crystalline Stylus]|h|r@150k!", -- [1]
+			"Coren-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Coren", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1003, -- [11]
+			"Player-1329-0674926D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc69b6dCoren|r",
+			[51] = 1537180985,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [121]
+		{
+			"WTB ALL BFA GREENS! 150g pr Piece! (Crafted 100g)!! /W ME OR COD!", -- [1]
+			"Traimar-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Traimar", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1004, -- [11]
+			"Player-1329-0675A839", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc69b6dTraimar|r",
+			[51] = 1537180988,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [122]
+		{
+			"WTB |cffffffff|Hitem:152576::::::::120:250::::::|h[Tidespray Linen]|h|r@15G/each || BFA BOE Greens @ 150G/each || BFA Herbs @ 25G/each - <C.O.D.> me all u got!", -- [1]
+			"Drizly-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Drizly", -- [5]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1005, -- [11]
+			"Player-1329-05FFBE3A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc41e3aDrizly|r",
+			[51] = 1537181001,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [123]
+		{
+			"WTB ALL BFA herbs 20g ea, |cffffffff|Hitem:152576::::::::110:269::::::|h[Tidespray Linen]|h|r 15g ea, BFA-dropped greens 150g ea, |cffffffff|Hitem:152579::::::::110:269::::::|h[Storm Silver Ore]|h|r 30g ea and |cff1eff00|Hitem:152577::::::::110:269::::::|h[Deep Sea Satin]|h|r 15g ea! COD only! All COD's past 24 hours have been accepted!", -- [1]
+			"Motixfive-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Motixfive", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1006, -- [11]
+			"Player-1329-06501A83", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00ff96Motixfive|r",
+			[51] = 1537181004,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [124]
+		{
+			"WTB |cffffffff|Hitem:152576::::::::120:577::::::|h[Tidespray Linen]|h|r 15 gold/each; BFA GREENS 150 gold/each; ALL YOUR BFA HERBS 25 gold/each! Only COD! SEND ME ALL YOU HAVE!", -- [1]
+			"Vorkillani-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vorkillani", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1007, -- [11]
+			"Player-1329-0620415D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa330c9Vorkillani|r",
+			[51] = 1537181015,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [125]
+		{
+			"WTS rare mount |cffa335ee|Hitem:161134::::::::120:72::13::::|h[Mecha-Mogul Mk2]|h|r@2M GOLD, |cffa335ee|Hitem:163957::::::::120:72::54:2:1472:4786:::|h[Carmodius Crystalline Stylus]|h|r@150k!", -- [1]
+			"Coren-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Coren", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1011, -- [11]
+			"Player-1329-0674926D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc69b6dCoren|r",
+			[51] = 1537181030,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [126]
+		{
+			"WTB |cffffffff|Hitem:152576::::::::120:250::::::|h[Tidespray Linen]|h|r@15G/each || BFA BOE Greens @ 150G/each || BFA Herbs @ 25G/each - <C.O.D.> me all u got!", -- [1]
+			"Drizly-Ravencrest", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Drizly", -- [5]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1012, -- [11]
+			"Player-1329-05FFBE3A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc41e3aDrizly|r",
+			[51] = 1537181031,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [127]
 	},
@@ -2819,9 +2819,9 @@ ElvCharacterDB = {
 		"/wave", -- [20]
 	},
 	["BodyGuard"] = {
-		["Active"] = false,
-		["Health"] = 0,
-		["MaxHealth"] = 0,
 		["IsInValidZone"] = false,
+		["MaxHealth"] = 0,
+		["Health"] = 0,
+		["Active"] = false,
 	},
 }

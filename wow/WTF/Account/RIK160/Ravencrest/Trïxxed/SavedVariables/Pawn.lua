@@ -1,9 +1,10 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0227,
+	["LastVersion"] = 2.0231,
 	["LastPlayerFullName"] = "Trïxxed-Ravencrest",
 	["AutoSelectScales"] = false,
 	["UpgradeTracking"] = false,
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128403] = {
 			["Relics"] = {
@@ -57,7 +58,6 @@ PawnOptions = {
 			["Name"] = "Blades of the Fallen Prince",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "DEATHKNIGHT",

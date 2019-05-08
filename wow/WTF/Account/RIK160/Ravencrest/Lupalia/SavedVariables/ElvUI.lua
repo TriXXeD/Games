@@ -2819,9 +2819,9 @@ ElvCharacterDB = {
 		"/roll", -- [20]
 	},
 	["BodyGuard"] = {
-		["Active"] = false,
-		["Health"] = 97854,
-		["MaxHealth"] = 97854,
 		["IsInValidZone"] = true,
+		["MaxHealth"] = 97854,
+		["Health"] = 97854,
+		["Active"] = false,
 	},
 }

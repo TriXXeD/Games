@@ -1,0 +1,29 @@
+
+DraenorTreasuresDB = {
+	["profileKeys"] = {
+		["Trixxedbank - Kazzak"] = "Default",
+		["Eruditus - Ravencrest"] = "Default",
+		["Tríxxed - Laughing Skull"] = "Default",
+		["Trixxed - Kazzak"] = "Default",
+		["Achilina - Ravencrest"] = "Default",
+		["Trìxxed - Ravencrest"] = "Default",
+		["Trixxedbank - Draenor"] = "Default",
+		["Lupalia - Ravencrest"] = "Default",
+		["Xbenedict - Kazzak"] = "Default",
+		["Trîxxed - Ravencrest"] = "Default",
+		["Achilina - Draenor"] = "Default",
+		["Quelith - Draenor"] = "Default",
+		["Shanonymous - Tarren Mill"] = "Default",
+		["Trïxxed - Ravencrest"] = "Default",
+		["Lycotonum - Tarren Mill"] = "Default",
+		["Fausta - Ravencrest"] = "Default",
+		["Chrysante - Ravencrest"] = "Default",
+		["Shankspeare - Tarren Mill"] = "Default",
+		["Trixxedbank - Tarren Mill"] = "Default",
+		["Trixxedosaur - Tarren Mill"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

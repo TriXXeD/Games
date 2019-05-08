@@ -1598,13 +1598,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Torment of Aman'Thul",
 		},
-		[202408] = {
-			["school"] = 4,
+		[247376] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Runecarver Slave",
+			["source"] = "Imonar the Soulhunter",
 		},
 		[15284] = {
 			["school"] = 1,
@@ -1662,13 +1662,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "God-King Skovald",
 		},
-		[247376] = {
-			["school"] = 1,
+		[226936] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Imonar the Soulhunter",
+			["source"] = "Flail of Il'gynoth",
 		},
 		[205196] = {
 			["school"] = 32,
@@ -3156,13 +3156,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Felguard",
 		},
-		[226936] = {
-			["school"] = 32,
+		[202408] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Flail of Il'gynoth",
+			["source"] = "Runecarver Slave",
 		},
 		[253061] = {
 			["school"] = 64,

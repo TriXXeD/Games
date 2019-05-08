@@ -7,3 +7,5 @@ TradeSkillMaster_Mailing: disabled
 TradeSkillMaster_Shopping: disabled
 TradeSkillMaster_Vendoring: disabled
 TradeSkillMaster_Warehousing: disabled
+BagBrother: enabled
+Azeroth Auto Pilot: enabled

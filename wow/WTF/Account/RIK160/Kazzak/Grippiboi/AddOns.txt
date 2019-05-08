@@ -9,7 +9,7 @@ TradeSkillMaster_Mailing: disabled
 TradeSkillMaster_Shopping: disabled
 TradeSkillMaster_Vendoring: disabled
 TradeSkillMaster_Warehousing: disabled
-TradeSkillMaster: disabled
+TradeSkillMaster: enabled
 zPets: disabled
 TradeSkillMaster_Destroying: disabled
 DBM-Uldir: enabled
@@ -90,3 +90,6 @@ AtlasLoot_Classic: enabled
 AngryAssignments: enabled
 AtlasLoot: disabled
 Azeroth Auto Pilot: disabled
+RaiderIO_DB_EU_A: disabled
+OmniBar: disabled
+AAP-Core: disabled

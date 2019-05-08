@@ -1,0 +1,143 @@
+
+ElvCharacterDB = {
+	["ChatEditHistory"] = {
+		" rogue", -- [1]
+		"rogue", -- [2]
+		"/elvui", -- [3]
+	},
+	["ChatHistoryLog"] = {
+		{
+			"rogue", -- [1]
+			"|Kq72|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2, -- [11]
+			false, -- [12]
+			73, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cApPaxxY|r",
+			[51] = 1555789442,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "ApPaxxY",
+		}, -- [1]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:640:Player-1084-08F21347:1:4:20:19:4294967295:4294967295:4294967295:4294967295|h[Maraudon]|h|r!", -- [1]
+			"Greywurm-TarrenMill", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Greywurm-TarrenMill", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			6, -- [11]
+			"Player-1084-08F21347", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Greywurm|r",
+			[51] = 1555789463,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [2]
+		{
+			"welcome", -- [1]
+			"Greywurm-TarrenMill", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			7, -- [11]
+			"Player-1084-08F21347", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Greywurm|r",
+			[51] = 1555789467,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [3]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:892:Player-1084-08ECAFF9:1:4:20:19:4294967295:4294967295:4294967295:4294967295|h[The Right Stuff]|h|r!", -- [1]
+			"Angryduude-TarrenMill", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Angryduude-TarrenMill", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			39, -- [11]
+			"Player-1084-08ECAFF9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cAngryduude|r",
+			[51] = 1555789649,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [4]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:1271:Player-1084-08ECAFF9:1:4:20:19:4294967295:4294967295:4294967295:4294967295|h[To Hellfire and Back]|h|r!", -- [1]
+			"Angryduude-TarrenMill", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Angryduude-TarrenMill", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			268, -- [11]
+			"Player-1084-08ECAFF9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cAngryduude|r",
+			[51] = 1555790434,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [5]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:10561:Player-1084-08F45BC7:1:4:20:19:4294967295:4294967295:4294967295:4294967295|h[Honorable Medallion]|h|r!", -- [1]
+			"Shankspeare-TarrenMill", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Shankspeare-TarrenMill", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			274, -- [11]
+			"Player-1084-08F45BC7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Shankspeare|r",
+			[51] = 1555790454,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [6]
+	},
+}

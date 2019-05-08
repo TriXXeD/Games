@@ -4,8 +4,8 @@ OneRing_Config = {
 		["Draenor-Daemonikos"] = "default",
 		["Kazzak-Trixxed"] = "default",
 	},
-	["_GameVersion"] = "8.0.1",
-	["_OPieVersion"] = "Vanilla 7 (3.93)",
+	["_GameVersion"] = "8.1.5",
+	["_OPieVersion"] = "Walnut 2 (3.99)",
 	["ProfileStorage"] = {
 		["default"] = {
 			["RingAtMouse"] = true,
@@ -74,7 +74,7 @@ OneRing_Config = {
 				["limit"] = "WARLOCK",
 			},
 			["OPieFlagStore"] = {
-				["FlushedDefaultColors"] = true,
+				["StoreVersion"] = 2,
 			},
 		},
 	},

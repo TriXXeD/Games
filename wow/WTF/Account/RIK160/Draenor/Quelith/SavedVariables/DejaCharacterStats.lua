@@ -19,38 +19,38 @@ DejaCharacterStatsDBPC = {
 		["dejacharacterstatsShowDecimalsChecked"] = {
 			["SetChecked"] = true,
 		},
-		["dejacharacterstatsExpandButtonChecked"] = {
-			["ExpandButtonSetChecked"] = true,
+		["dejacharacterstatsScrollbarChecked"] = {
+			["ScrollbarSetChecked"] = false,
 		},
 		["dejacharacterstatsSelectedStats"] = {
 			["DODGE"] = false,
 			["DURABILITY"] = true,
 			["SPELLPOWER"] = false,
-			["MASTERY"] = true,
-			["LIFESTEAL"] = true,
+			["FOCUS_REGEN"] = false,
+			["MANAREGEN"] = false,
 			["MOVESPEED"] = true,
 			["ATTACK_ATTACKSPEED"] = false,
 			["VERSATILITY"] = true,
-			["ENERGY_REGEN"] = false,
-			["AVOIDANCE"] = true,
-			["CRITCHANCE"] = true,
-			["ATTACK_AP"] = false,
-			["BLOCK"] = false,
-			["HEALTH"] = true,
-			["RUNE_REGEN"] = false,
+			["POWER"] = true,
+			["INTELLECT"] = true,
 			["ALTERNATEMANA"] = false,
+			["ATTACK_AP"] = false,
+			["ARMOR"] = true,
+			["HEALTH"] = true,
 			["STAMINA"] = true,
-			["AGILITY"] = true,
+			["CRITCHANCE"] = true,
+			["RUNE_REGEN"] = false,
 			["STRENGTH"] = true,
+			["AGILITY"] = true,
 			["ATTACK_DAMAGE"] = false,
 			["REPAIRTOTAL"] = true,
 			["PARRY"] = false,
-			["MANAREGEN"] = false,
+			["BLOCK"] = false,
 			["HASTE"] = true,
-			["INTELLECT"] = true,
-			["POWER"] = true,
-			["ARMOR"] = true,
-			["FOCUS_REGEN"] = false,
+			["AVOIDANCE"] = true,
+			["ENERGY_REGEN"] = false,
+			["LIFESTEAL"] = true,
+			["MASTERY"] = true,
 		},
 		["dejacharacterstatsShowDuraTextureChecked"] = {
 			["ShowDuraTextureSetChecked"] = false,
@@ -58,11 +58,11 @@ DejaCharacterStatsDBPC = {
 		["dejacharacterstatsShowDuraChecked"] = {
 			["ShowDuraSetChecked"] = false,
 		},
-		["dejacharacterstatsScrollbarMax"] = {
-			["DCS_ScrollbarMax"] = 34,
-		},
 		["dejacharacterstatsSelectStatsChecked"] = {
 			["SelectStatsSetChecked"] = false,
+		},
+		["dejacharacterstatsScrollbarMax"] = {
+			["DCS_ScrollbarMax"] = 34,
 		},
 		["dejacharacterstatsExpandChecked"] = {
 			["ExpandSetChecked"] = true,
@@ -70,8 +70,8 @@ DejaCharacterStatsDBPC = {
 		["dejacharacterstatsRepairTotalStatChecked"] = {
 			["RepairTotalStatSetChecked"] = true,
 		},
-		["dejacharacterstatsScrollbarChecked"] = {
-			["ScrollbarSetChecked"] = false,
+		["dejacharacterstatsExpandButtonChecked"] = {
+			["ExpandButtonSetChecked"] = true,
 		},
 	},
 }

@@ -7,13 +7,12 @@ TradeSkillMaster_WarehousingDB = {
 	["f@Horde - Tarren Mill@BagState"] = {
 	},
 	["_version"] = 1,
-	["_hash"] = 185553,
-	["f@Alliance - Shadowsong@BagState"] = {
-	},
 	["f@Alliance - The Maelstrom@BagState"] = {
 	},
-	["f@Horde - Draenor@BagState"] = {
+	["f@Alliance - Shadowsong@BagState"] = {
 	},
+	["_hash"] = 185553,
+	["g@ @ShowLogData"] = false,
 	["f@Alliance - Argent Dawn@BagState"] = {
 	},
 	["_scopeKeys"] = {
@@ -64,7 +63,8 @@ TradeSkillMaster_WarehousingDB = {
 			"Horde - Kazzak", -- [8]
 		},
 	},
-	["g@ @ShowLogData"] = false,
+	["f@Horde - Draenor@BagState"] = {
+	},
 	["f@Horde - Laughing Skull@BagState"] = {
 	},
 	["_currentProfile"] = {
@@ -78,13 +78,13 @@ TradeSkillMaster_WarehousingDB = {
 		["Teukronar - Argent Dawn"] = "Default",
 		["Tríxxed - The Maelstrom"] = "Default",
 		["Shadefighter - Thunderhorn"] = "Default",
-		["Odeysseus - Thunderhorn"] = "Default",
+		["Lycotonum - Tarren Mill"] = "Default",
 		["Daemonikos - Draenor"] = "Default",
 		["Quelith - Draenor"] = "Default",
-		["Lycotonum - Tarren Mill"] = "Default",
-		["Trixbankxed - Shadowsong"] = "Default",
-		["Anneshank - Draenor"] = "Default",
+		["Odeysseus - Thunderhorn"] = "Default",
 		["Petergrippin - Draenor"] = "Default",
+		["Anneshank - Draenor"] = "Default",
+		["Trixbankxed - Shadowsong"] = "Default",
 		["Kazzía - Thunderhorn"] = "Default",
 		["Lichservent - Thunderhorn"] = "Default",
 		["Trixxedz - Thunderhorn"] = "Default",

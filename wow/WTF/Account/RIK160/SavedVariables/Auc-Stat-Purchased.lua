@@ -11,7 +11,7 @@ AucAdvancedStatPurchasedData = {
 				[6527] = "0:1;1;180000.0;180000.0;180000.0",
 			},
 			["daily"] = {
-				["created"] = 1537260901,
+				["created"] = 1556736578,
 			},
 		},
 		["Ravencrest"] = {
@@ -185,7 +185,7 @@ AucAdvancedStatPurchasedData = {
 				[122344] = "0:1;5;191399.4;191399.4;191399.4",
 			},
 			["daily"] = {
-				["created"] = 1537260901,
+				["created"] = 1556736578,
 			},
 		},
 	},

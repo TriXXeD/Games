@@ -1,4 +1,11 @@
 Version: 1
+Frame: ObjectiveTrackerFrame
+FrameLevel: 1
+Anchor: RIGHT
+X: -79
+Y: 95
+W: 235
+H: 480
 Frame: ColorPickerFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -6,3 +13,10 @@ X: 0
 Y: 0
 W: 365
 H: 240
+Frame: AAP_GreetingsFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 0
+Y: 0
+W: 330
+H: 175

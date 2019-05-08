@@ -37,20 +37,6 @@ TradeSkillMaster_DestroyingDB = {
 			"Xbenedict - Kazzak", -- [29]
 			"Trixxed - Kazzak", -- [30]
 		},
-		["realm"] = {
-			"Argent Dawn", -- [1]
-			"Laughing Skull", -- [2]
-			"Thunderhorn", -- [3]
-			"Ravencrest", -- [4]
-			"Draenor", -- [5]
-			"The Maelstrom", -- [6]
-			"Shadowsong", -- [7]
-			"Tarren Mill", -- [8]
-			"Kazzak", -- [9]
-		},
-		["profile"] = {
-			"Default", -- [1]
-		},
 		["factionrealm"] = {
 			"Alliance - Argent Dawn", -- [1]
 			"Horde - Laughing Skull", -- [2]
@@ -62,328 +48,342 @@ TradeSkillMaster_DestroyingDB = {
 			"Horde - Tarren Mill", -- [8]
 			"Horde - Kazzak", -- [9]
 		},
+		["profile"] = {
+			"Default", -- [1]
+		},
+		["realm"] = {
+			"Argent Dawn", -- [1]
+			"Laughing Skull", -- [2]
+			"Thunderhorn", -- [3]
+			"Ravencrest", -- [4]
+			"Draenor", -- [5]
+			"The Maelstrom", -- [6]
+			"Shadowsong", -- [7]
+			"Tarren Mill", -- [8]
+			"Kazzak", -- [9]
+		},
 	},
 	["g@ @autoShow"] = true,
 	["g@ @autoStack"] = true,
-	["g@ @logDays"] = 14,
-	["g@ @deAbovePrice"] = "0c",
+	["_currentProfile"] = {
+		["Eruditus - Ravencrest"] = "Default",
+		["Trixxed - Ravencrest"] = "Default",
+		["Fausta - Ravencrest"] = "Default",
+		["Achillina - Thunderhorn"] = "Default",
+		["Tríxxed - Laughing Skull"] = "Default",
+		["Teukronar - Argent Dawn"] = "Default",
+		["Trixxed - Kazzak"] = "Default",
+		["Achilina - Ravencrest"] = "Default",
+		["Trìxxed - Ravencrest"] = "Default",
+		["Daemonikos - Ravencrest"] = "Default",
+		["Grippiboi - Kazzak"] = "Default",
+		["Shadefighter - Thunderhorn"] = "Default",
+		["Trixxedbank - Draenor"] = "Default",
+		["Lupalia - Ravencrest"] = "Default",
+		["Daemonikos - Draenor"] = "Default",
+		["Tríxxed - The Maelstrom"] = "Default",
+		["Quelith - Draenor"] = "Default",
+		["Xbenedict - Kazzak"] = "Default",
+		["Chrysante - Ravencrest"] = "Default",
+		["Lycotonum - Tarren Mill"] = "Default",
+		["Marcellinus - Ravencrest"] = "Default",
+		["Trixxedz - Thunderhorn"] = "Default",
+		["Odeysseus - Thunderhorn"] = "Default",
+		["Trïxxed - Ravencrest"] = "Default",
+		["Trîxxed - Ravencrest"] = "Default",
+		["Trixbankxed - Shadowsong"] = "Default",
+		["Kazzía - Thunderhorn"] = "Default",
+		["Lichservent - Thunderhorn"] = "Default",
+		["Achilina - Draenor"] = "Default",
+		["Molokh - Ravencrest"] = "Default",
+	},
+	["_version"] = 1,
 	["g@ @history"] = {
 		["Prospecting"] = {
 		},
 		["Disenchant"] = {
 			{
+				["item"] = "i:121041::2:45:1812:1000110",
 				["time"] = 1473403511,
 				["result"] = {
 					["i:124440"] = 4,
 				},
-				["item"] = "i:121041::2:45:1812:1000110",
 			}, -- [1]
 			{
+				["item"] = "i:121213::2:196:1812:1000110",
 				["time"] = 1473403514,
 				["result"] = {
 					["i:124440"] = 3,
 				},
-				["item"] = "i:121213::2:196:1812:1000110",
 			}, -- [2]
 			{
+				["item"] = "i:121044::2:196:1812:1000110",
 				["time"] = 1473403516,
 				["result"] = {
 					["i:124440"] = 4,
 				},
-				["item"] = "i:121044::2:196:1812:1000110",
 			}, -- [3]
 			{
+				["item"] = "i:121074::2:19:1812:1000110",
 				["time"] = 1473403519,
 				["result"] = {
 					["i:124440"] = 2,
 				},
-				["item"] = "i:121074::2:19:1812:1000110",
 			}, -- [4]
 			{
+				["item"] = "i:121027::2:196:1812:1000110",
 				["time"] = 1473403522,
 				["result"] = {
 					["i:124440"] = 4,
 				},
-				["item"] = "i:121027::2:196:1812:1000110",
 			}, -- [5]
 			{
+				["item"] = "i:121260::2:19:1812:1000110",
 				["time"] = 1473403527,
 				["result"] = {
 					["i:124440"] = 2,
 				},
-				["item"] = "i:121260::2:19:1812:1000110",
 			}, -- [6]
 			{
+				["item"] = "i:121223::2:19:1812:1000110",
 				["time"] = 1473403529,
 				["result"] = {
 					["i:124440"] = 4,
 				},
-				["item"] = "i:121223::2:19:1812:1000110",
 			}, -- [7]
 			{
+				["item"] = "i:121016::1:1812:1000110",
 				["time"] = 1473403532,
 				["result"] = {
 					["i:124440"] = 3,
 				},
-				["item"] = "i:121016::1:1812:1000110",
 			}, -- [8]
 			{
+				["item"] = "i:121137::2:196:1812:1000110",
 				["time"] = 1473403554,
 				["result"] = {
 					["i:124440"] = 4,
 				},
-				["item"] = "i:121137::2:196:1812:1000110",
 			}, -- [9]
 			{
+				["item"] = "i:121069::1:1812:1000110",
 				["time"] = 1473403557,
 				["result"] = {
 					["i:124440"] = 3,
 				},
-				["item"] = "i:121069::1:1812:1000110",
 			}, -- [10]
 			{
+				["result"] = {
+					["i:124440"] = 1,
+				},
 				["item"] = "i:121059::2:87:1812:1000110",
 				["time"] = 1473521804,
-				["result"] = {
-					["i:124440"] = 1,
-				},
 			}, -- [11]
 			{
-				["item"] = "i:121193::2:87:1812:1000110",
-				["time"] = 1473523853,
 				["result"] = {
 					["i:124440"] = 1,
 				},
+				["item"] = "i:121193::2:87:1812:1000110",
+				["time"] = 1473523853,
 			}, -- [12]
 			{
+				["item"] = "i:121226::2:150:1812:1000110",
 				["time"] = 1473794183,
 				["result"] = {
 					["i:124440"] = 1,
 				},
-				["item"] = "i:121226::2:150:1812:1000110",
 			}, -- [13]
 			{
+				["item"] = "i:121109::2:150:1812:1000110",
 				["time"] = 1473794186,
 				["result"] = {
 					["i:124440"] = 1,
 				},
-				["item"] = "i:121109::2:150:1812:1000110",
 			}, -- [14]
 			{
+				["item"] = "i:121054::2:19:1812:1000110",
 				["time"] = 1473794193,
 				["result"] = {
 					["i:124440"] = 2,
 				},
-				["item"] = "i:121054::2:19:1812:1000110",
 			}, -- [15]
 			{
+				["item"] = "i:121023::2:150:1812:1000110",
 				["time"] = 1473794206,
 				["result"] = {
 					["i:124440"] = 1,
 				},
-				["item"] = "i:121023::2:150:1812:1000110",
 			}, -- [16]
 			{
+				["item"] = "i:121242::2:108:1812:1000110",
 				["time"] = 1473794208,
 				["result"] = {
 					["i:124440"] = 2,
 				},
-				["item"] = "i:121242::2:108:1812:1000110",
 			}, -- [17]
 			{
+				["item"] = "i:121067::2:196:1812:1000110",
 				["time"] = 1473794211,
 				["result"] = {
 					["i:124440"] = 2,
 				},
-				["item"] = "i:121067::2:196:1812:1000110",
 			}, -- [18]
 			{
+				["time"] = 1473865833,
 				["result"] = {
 					["i:124440"] = 2,
 				},
 				["item"] = "i:121243::2:196:1812:1000110",
-				["time"] = 1473865833,
 			}, -- [19]
 			{
+				["item"] = "i:121083::2:19:1812:1000110",
 				["time"] = 1473975109,
 				["result"] = {
 					["i:124440"] = 2,
 				},
-				["item"] = "i:121083::2:19:1812:1000110",
 			}, -- [20]
 			{
+				["result"] = {
+					["i:124440"] = 1,
+				},
 				["item"] = "i:121218::2:150:1812:1000103",
 				["time"] = 1474118913,
-				["result"] = {
-					["i:124440"] = 1,
-				},
 			}, -- [21]
 			{
+				["result"] = {
+					["i:124440"] = 2,
+				},
 				["item"] = "i:121067::2:196:1812:1000101",
 				["time"] = 1474118915,
-				["result"] = {
-					["i:124440"] = 2,
-				},
 			}, -- [22]
 			{
+				["result"] = {
+					["i:124440"] = 2,
+				},
 				["item"] = "i:121168::2:108:1812:1000103",
 				["time"] = 1474118918,
-				["result"] = {
-					["i:124440"] = 2,
-				},
 			}, -- [23]
 			{
-				["item"] = "i:121079::2:196:1812:1000103",
-				["time"] = 1474118921,
 				["result"] = {
 					["i:124440"] = 2,
 				},
+				["item"] = "i:121079::2:196:1812:1000103",
+				["time"] = 1474118921,
 			}, -- [24]
 			{
-				["item"] = "i:121181::1:1812:1000103",
-				["time"] = 1474118923,
 				["result"] = {
 					["i:124440"] = 1,
 				},
+				["item"] = "i:121181::1:1812:1000103",
+				["time"] = 1474118923,
 			}, -- [25]
 			{
+				["item"] = "i:121224::2:19:1812:1000110",
 				["time"] = 1474119179,
 				["result"] = {
 					["i:124440"] = 2,
 				},
-				["item"] = "i:121224::2:19:1812:1000110",
 			}, -- [26]
 			{
+				["item"] = "i:121097::2:19:1812:1000110",
 				["time"] = 1474119183,
 				["result"] = {
 					["i:124440"] = 3,
 				},
-				["item"] = "i:121097::2:19:1812:1000110",
 			}, -- [27]
 			{
+				["item"] = "i:121020::2:150:1812:1000110",
 				["time"] = 1474119186,
 				["result"] = {
 					["i:124440"] = 2,
 				},
-				["item"] = "i:121020::2:150:1812:1000110",
 			}, -- [28]
 			{
+				["item"] = "i:121241::2:45:1812:1000110",
 				["time"] = 1474220484,
 				["result"] = {
 					["i:124440"] = 1,
 				},
-				["item"] = "i:121241::2:45:1812:1000110",
 			}, -- [29]
 			{
+				["time"] = 1474739823,
 				["result"] = {
 					["i:124440"] = 2,
 				},
 				["item"] = "i:121096::2:150:1812:1000110",
-				["time"] = 1474739823,
 			}, -- [30]
 			{
+				["time"] = 1474739828,
 				["result"] = {
 					["i:124442"] = 1,
 				},
 				["item"] = "i:134424::4:565:1497:1813:3411",
-				["time"] = 1474739828,
 			}, -- [31]
 			{
+				["time"] = 1474739840,
 				["result"] = {
 					["i:124440"] = 1,
 				},
 				["item"] = "i:121020::2:150:1812:1000110",
-				["time"] = 1474739840,
 			}, -- [32]
 			{
+				["item"] = "i:121051::2:19:1812:1000110",
 				["time"] = 1474890117,
 				["result"] = {
 					["i:124440"] = 2,
 				},
-				["item"] = "i:121051::2:19:1812:1000110",
 			}, -- [33]
 			{
+				["item"] = "i:121005::2:108:1812:1000110",
 				["time"] = 1474890559,
 				["result"] = {
 					["i:124440"] = 1,
 				},
-				["item"] = "i:121005::2:108:1812:1000110",
 			}, -- [34]
 			{
+				["item"] = "i:121240::2:108:1812:1000110",
 				["time"] = 1475074525,
 				["result"] = {
 					["i:124440"] = 2,
 				},
-				["item"] = "i:121240::2:108:1812:1000110",
 			}, -- [35]
 			{
+				["item"] = "i:121325::3:1507:1727:3336",
 				["time"] = 1475074528,
 				["result"] = {
 					["i:124124"] = 1,
 					["i:124442"] = 1,
 				},
-				["item"] = "i:121325::3:1507:1727:3336",
 			}, -- [36]
 			{
+				["item"] = "i:121240::2:150:1812:1000110",
 				["time"] = 1475074532,
 				["result"] = {
 					["i:124440"] = 1,
 				},
-				["item"] = "i:121240::2:150:1812:1000110",
 			}, -- [37]
 			{
+				["item"] = "i:121267::2:196:1812:1000110",
 				["time"] = 1475074536,
 				["result"] = {
 					["i:124440"] = 1,
 				},
-				["item"] = "i:121267::2:196:1812:1000110",
 			}, -- [38]
 			{
+				["item"] = "i:121127::2:45:1812:1000110",
 				["time"] = 1475074542,
 				["result"] = {
 					["i:124440"] = 2,
 				},
-				["item"] = "i:121127::2:45:1812:1000110",
 			}, -- [39]
 		},
 	},
 	["g@ @helpPlatesShown"] = {
 		["destroyingFrame"] = true,
 	},
-	["_hash"] = 14107345,
 	["g@ @includeSoulbound"] = false,
+	["_hash"] = 14107345,
 	["g@ @deMaxQuality"] = 3,
-	["_version"] = 1,
-	["_currentProfile"] = {
-		["Trixxed - Ravencrest"] = "Default",
-		["Eruditus - Ravencrest"] = "Default",
-		["Achilina - Draenor"] = "Default",
-		["Daemonikos - Ravencrest"] = "Default",
-		["Tríxxed - Laughing Skull"] = "Default",
-		["Lupalia - Ravencrest"] = "Default",
-		["Trixxed - Kazzak"] = "Default",
-		["Achilina - Ravencrest"] = "Default",
-		["Trìxxed - Ravencrest"] = "Default",
-		["Achillina - Thunderhorn"] = "Default",
-		["Grippiboi - Kazzak"] = "Default",
-		["Xbenedict - Kazzak"] = "Default",
-		["Trixxedbank - Draenor"] = "Default",
-		["Teukronar - Argent Dawn"] = "Default",
-		["Chrysante - Ravencrest"] = "Default",
-		["Tríxxed - The Maelstrom"] = "Default",
-		["Trixxedz - Thunderhorn"] = "Default",
-		["Shadefighter - Thunderhorn"] = "Default",
-		["Trîxxed - Ravencrest"] = "Default",
-		["Odeysseus - Thunderhorn"] = "Default",
-		["Marcellinus - Ravencrest"] = "Default",
-		["Quelith - Draenor"] = "Default",
-		["Lycotonum - Tarren Mill"] = "Default",
-		["Trïxxed - Ravencrest"] = "Default",
-		["Daemonikos - Draenor"] = "Default",
-		["Trixbankxed - Shadowsong"] = "Default",
-		["Kazzía - Thunderhorn"] = "Default",
-		["Lichservent - Thunderhorn"] = "Default",
-		["Fausta - Ravencrest"] = "Default",
-		["Molokh - Ravencrest"] = "Default",
-	},
+	["g@ @deAbovePrice"] = "0c",
+	["g@ @logDays"] = 14,
 }

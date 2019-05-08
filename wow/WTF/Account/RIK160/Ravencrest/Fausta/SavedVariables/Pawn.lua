@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0227,
+	["LastVersion"] = 2.024,
 	["LastPlayerFullName"] = "Fausta-Ravencrest",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,
