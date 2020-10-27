@@ -112,3 +112,4 @@ TradeSkillMaster_Auctioning: disabled
 TradeSkillMaster_Crafting: disabled
 TradeSkillMaster_Shopping: disabled
 TradeSkillMaster_Vendoring: disabled
+OPie_Classic: disabled

@@ -2,51 +2,447 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"GJ", -- [1]
-			"Крутаягорка-СвежевательДуш", -- [2]
+			"poor lich king", -- [1]
+			"Gõrth-TwistingNether", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Крутаягорка-СвежевательДуш", -- [5]
+			"Gõrth-TwistingNether", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			545, -- [11]
-			"Player-1604-0AADE5DF", -- [12]
+			193, -- [11]
+			"Player-3674-099D9FD7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Крутаягорка-СвежевательДуш|r",
-			[51] = 1556442244,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cff00fe95Gõrth-TwistingNether|r",
+			[51] = 1577656589,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [1]
 		{
-			"and GL", -- [1]
-			"Крутаягорка-СвежевательДуш", -- [2]
+			"lust", -- [1]
+			"Damien-ChamberofAspects", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Крутаягорка-СвежевательДуш", -- [5]
+			"Damien-ChamberofAspects", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			546, -- [11]
-			"Player-1604-0AADE5DF", -- [12]
+			197, -- [11]
+			"Player-1307-050A92C5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Крутаягорка-СвежевательДуш|r",
-			[51] = 1556442245,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffc31d39Damien-ChamberofAspects|r",
+			[51] = 1577656606,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [2]
 		{
-			"Yep too little priority dps", -- [1]
+			"TIMEWARP ANYTHING", -- [1]
+			"Damien-ChamberofAspects", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Damien-ChamberofAspects", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			198, -- [11]
+			"Player-1307-050A92C5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Damien-ChamberofAspects|r",
+			[51] = 1577656613,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [3]
+		{
+			"Defile CD  0:03", -- [1]
+			"Damien-ChamberofAspects", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Damien-ChamberofAspects", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			199, -- [11]
+			"Player-1307-050A92C5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Damien-ChamberofAspects|r",
+			[51] = 1577656625,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [4]
+		{
+			"Defile CD  0:03", -- [1]
+			"Damien-ChamberofAspects", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Damien-ChamberofAspects", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			200, -- [11]
+			"Player-1307-050A92C5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Damien-ChamberofAspects|r",
+			[51] = 1577656625,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [5]
+		{
+			"Defile CD  0:03", -- [1]
+			"Damien-ChamberofAspects", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Damien-ChamberofAspects", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			201, -- [11]
+			"Player-1307-050A92C5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Damien-ChamberofAspects|r",
+			[51] = 1577656625,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [6]
+		{
+			"Defile CD  0:03", -- [1]
+			"Damien-ChamberofAspects", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Damien-ChamberofAspects", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			202, -- [11]
+			"Player-1307-050A92C5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Damien-ChamberofAspects|r",
+			[51] = 1577656625,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [7]
+		{
+			"Defile CD  0:02", -- [1]
+			"Damien-ChamberofAspects", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Damien-ChamberofAspects", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			203, -- [11]
+			"Player-1307-050A92C5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Damien-ChamberofAspects|r",
+			[51] = 1577656625,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [8]
+		{
+			"phew", -- [1]
+			"Azinah-Crushridge", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Azinah-Crushridge", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			209, -- [11]
+			"Player-1091-08FDC981", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Azinah-Crushridge|r",
+			[51] = 1577656667,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [9]
+		{
+			"when should we bl?", -- [1]
+			"Horsedog-ShatteredHand", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Horsedog-ShatteredHand", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			324, -- [11]
+			"Player-633-093E84F3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec5e9Horsedog-ShatteredHand|r",
+			[51] = 1577657240,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [10]
+		{
+			"at start :p", -- [1]
+			"Sayena-Draenor", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Sayena-Draenor", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			327, -- [11]
+			"Player-1403-061AC88F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeSayena-Draenor|r",
+			[51] = 1577657256,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [11]
+		{
+			"wait for adds now", -- [1]
+			"Sayena-Draenor", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Sayena-Draenor", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			330, -- [11]
+			"Player-1403-061AC88F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeSayena-Draenor|r",
+			[51] = 1577657264,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [12]
+		{
+			"make it happen champs", -- [1]
+			"Sayena-Draenor", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Sayena-Draenor", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			340, -- [11]
+			"Player-1403-061AC88F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeSayena-Draenor|r",
+			[51] = 1577657343,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [13]
+		{
+			"ress dps if you can", -- [1]
+			"Sayena-Draenor", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Sayena-Draenor", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			342, -- [11]
+			"Player-1403-061AC88F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeSayena-Draenor|r",
+			[51] = 1577657347,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [14]
+		{
+			"cr me", -- [1]
+			"Locotje-Karazhan", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Locotje-Karazhan", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			345, -- [11]
+			"Player-1596-0A88DE92", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8686ecLocotje-Karazhan|r",
+			[51] = 1577657356,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [15]
+		{
+			"i can cr some1 else", -- [1]
+			"Locotje-Karazhan", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Locotje-Karazhan", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			346, -- [11]
+			"Player-1596-0A88DE92", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8686ecLocotje-Karazhan|r",
+			[51] = 1577657359,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [16]
+		{
+			"me", -- [1]
+			"Toghunt-Bloodfeather", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Toghunt-Bloodfeather", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			347, -- [11]
+			"Player-633-0985E636", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Toghunt-Bloodfeather|r",
+			[51] = 1577657364,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [17]
+		{
+			"so nice weather were having", -- [1]
+			"Soulshatter-Skullcrusher", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Soulshatter-Skullcrusher", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			350, -- [11]
+			"Player-639-0680C40C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Soulshatter-Skullcrusher|r",
+			[51] = 1577657380,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [18]
+		{
+			"gj", -- [1]
+			"Sayena-Draenor", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Sayena-Draenor", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			358, -- [11]
+			"Player-1403-061AC88F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeSayena-Draenor|r",
+			[51] = 1577657422,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [19]
+		{
+			"gj!", -- [1]
+			"Mearah-Genjuros", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mearah-Genjuros", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			371, -- [11]
+			"Player-3660-060E9BA3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec5e9Mearah-Genjuros|r",
+			[51] = 1577657430,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [20]
+		{
+			"Archimonde!", -- [1]
 			"Xbenedict-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -56,7 +452,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			548, -- [11]
+			424, -- [11]
 			"Player-1305-09E89A02", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -64,2697 +460,2279 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfffefefeXbenedict|r",
-			[51] = 1556442251,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [3]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:661:Player-1305-083FBD45:1:4:28:19:4294967295:4294967295:4294967295:4294967295|h[Magister's Terrace]|h|r!", -- [1]
-			"Teerror-Kazzak", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Teerror-Kazzak", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			556, -- [11]
-			"Player-1305-083FBD45", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeTeerror|r",
-			[51] = 1556442402,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [4]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:682:Player-1305-083FBD45:1:4:28:19:4294967295:4294967295:4294967295:4294967295|h[Heroic: Magister's Terrace]|h|r!", -- [1]
-			"Teerror-Kazzak", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Teerror-Kazzak", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			557, -- [11]
-			"Player-1305-083FBD45", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeTeerror|r",
-			[51] = 1556442402,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [5]
-		{
-			"|cffffff00|Hachievement:13418:Player-1305-09E89A02:1:4:19:19:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Uu'nat, Harbinger of the Void]|h|r'", -- [1]
-			"Ægroto-Doomhammer", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Ægroto-Doomhammer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6, -- [11]
-			"Player-1402-070705D7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe95Ægroto-Doomhammer|r",
-			[51] = 1556479195,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [6]
-		{
-			"|cffffff00|Hachievement:13418:Player-1305-09E89A02:1:4:19:19:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Uu'nat, Harbinger of the Void]|h|r", -- [1]
-			"Hacchi-BurningLegion", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Hacchi-BurningLegion", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			7, -- [11]
-			"Player-3713-095A91CD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Hacchi-BurningLegion|r",
-			[51] = 1556479224,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [7]
-		{
-			"|cffffff00|Hachievement:13418:Player-1305-09E89A02:1:4:19:19:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Uu'nat, Harbinger of the Void]|h|r", -- [1]
-			"Beetzhunt-Draenor", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Beetzhunt-Draenor", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			8, -- [11]
-			"Player-1403-07549142", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Beetzhunt-Draenor|r",
-			[51] = 1556479232,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [8]
-		{
-			"u know use stone?", -- [1]
-			"Hacchi-BurningLegion", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Hacchi-BurningLegion", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			9, -- [11]
-			"Player-3713-095A91CD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Hacchi-BurningLegion|r",
-			[51] = 1556479237,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [9]
-		{
-			"Well depends on the strat I guess, first intermission after add kill or not at all is usaully what I do", -- [1]
-			"Hacchi-BurningLegion", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Hacchi-BurningLegion", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			10, -- [11]
-			"Player-3713-095A91CD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Hacchi-BurningLegion|r",
-			[51] = 1556479261,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [10]
-		{
-			"|cffffff00|Hachievement:13418:Player-1305-09E89A02:1:4:19:19:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Uu'nat, Harbinger of the Void]|h|r", -- [1]
-			"Yttap-TwistingNether", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Yttap-TwistingNether", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			11, -- [11]
-			"Player-3674-08A73C4D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecYttap-TwistingNether|r",
-			[51] = 1556479289,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [11]
-		{
-			"<Deadly Boss Mods> Yttap is busy fighting against Heroic - The Restless Cabal (unknown (0/2 Bosses Defeated), 18/19 people alive)", -- [1]
-			"Yttap-TwistingNether", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Yttap-TwistingNether", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			12, -- [11]
-			"Player-3674-08A73C4D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecYttap-TwistingNether|r",
-			[51] = 1556479289,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [12]
-		{
-			"<DBM> Yttap has defeated Heroic - The Restless Cabal!", -- [1]
-			"Yttap-TwistingNether", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Yttap-TwistingNether", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			13, -- [11]
-			"Player-3674-08A73C4D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecYttap-TwistingNether|r",
-			[51] = 1556479321,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [13]
-		{
-			"|cffffff00|Hachievement:13418:Player-1305-09E89A02:1:4:19:19:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Uu'nat, Harbinger of the Void]|h|r", -- [1]
-			"Bulmaa-Thrall", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Bulmaa-Thrall", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			14, -- [11]
-			"Player-604-07F40907", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Bulmaa-Thrall|r",
-			[51] = 1556479341,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [14]
-		{
-			"|cffffff00|Hachievement:13418:Player-1305-09E89A02:1:4:19:19:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Uu'nat, Harbinger of the Void]|h|r", -- [1]
-			"Belzarias-TwistingNether", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Belzarias-TwistingNether", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			15, -- [11]
-			"Player-3674-07135397", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Belzarias-TwistingNether|r",
-			[51] = 1556479420,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [15]
-		{
-			"hi", -- [1]
-			"Olympèa-Hyjal", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Olympèa-Hyjal", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			25, -- [11]
-			"Player-1390-08EC1A28", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec5e9Olympèa-Hyjal|r",
-			[51] = 1556479487,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [16]
-		{
-			"Hey", -- [1]
-			"Belzarias-TwistingNether", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Belzarias-TwistingNether", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			26, -- [11]
-			"Player-3674-07135397", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Belzarias-TwistingNether|r",
-			[51] = 1556479497,
-			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [17]
-		{
-			"https://discord.gg/RED2fj", -- [1]
-			"Belzarias-TwistingNether", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Belzarias-TwistingNether", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			29, -- [11]
-			"Player-3674-07135397", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Belzarias-TwistingNether|r",
-			[51] = 1556479520,
-			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [18]
-		{
-			"https://discord.gg/RED2fj", -- [1]
-			"Belzarias-TwistingNether", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Belzarias-TwistingNether", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			30, -- [11]
-			"Player-3674-07135397", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Belzarias-TwistingNether|r",
-			[51] = 1556479522,
-			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [19]
-		{
-			"i heard more spoilers for end game", -- [1]
-			"Gatessalyer-TwistingNether", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Gatessalyer-TwistingNether", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			31, -- [11]
-			"Player-3674-076D09C2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Gatessalyer-TwistingNether|r",
-			[51] = 1556479525,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [20]
-		{
-			"Everyone in please", -- [1]
-			"Belzarias-TwistingNether", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Belzarias-TwistingNether", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			32, -- [11]
-			"Player-3674-07135397", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Belzarias-TwistingNether|r",
-			[51] = 1556479525,
-			[50] = "CHAT_MSG_RAID_LEADER",
+			[51] = 1577657883,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [21]
 		{
-			"on the phone, will join after this one k?", -- [1]
-			"Charizard-Teldrassil", -- [2]
+			"well why move him out of fire", -- [1]
+			"Kagoi-TwistingNether", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Charizard-Teldrassil", -- [5]
+			"Kagoi-TwistingNether", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			33, -- [11]
-			"Player-1407-036303A7", -- [12]
+			469, -- [11]
+			"Player-3674-076C9158", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec5e9Charizard-Teldrassil|r",
-			[51] = 1556479549,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffa22fc8Kagoi-TwistingNether|r",
+			[51] = 1577658357,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [22]
 		{
-			"Alright", -- [1]
-			"Belzarias-TwistingNether", -- [2]
+			"this fight was made with old tremor totem in mind", -- [1]
+			"Moreviri-Sunstrider", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Belzarias-TwistingNether", -- [5]
+			"Moreviri-Sunstrider", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			34, -- [11]
-			"Player-3674-07135397", -- [12]
+			472, -- [11]
+			"Player-1598-06F123A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Belzarias-TwistingNether|r",
-			[51] = 1556479607,
-			[50] = "CHAT_MSG_RAID_LEADER",
+			[52] = "|cffa9d271Moreviri-Sunstrider|r",
+			[51] = 1577658381,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [23]
 		{
-			"Can people get into discord please? There are a couple more missing other than Charizard", -- [1]
-			"Belzarias-TwistingNether", -- [2]
+			"for sure", -- [1]
+			"Moreviri-Sunstrider", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Belzarias-TwistingNether", -- [5]
+			"Moreviri-Sunstrider", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			38, -- [11]
-			"Player-3674-07135397", -- [12]
+			473, -- [11]
+			"Player-1598-06F123A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Belzarias-TwistingNether|r",
-			[51] = 1556479681,
-			[50] = "CHAT_MSG_RAID_LEADER",
+			[52] = "|cffa9d271Moreviri-Sunstrider|r",
+			[51] = 1577658385,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [24]
 		{
-			"2 sec", -- [1]
-			"Olympèa-Hyjal", -- [2]
+			"New one doesn't work for sure", -- [1]
+			"Barbosil-Draenor", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Olympèa-Hyjal", -- [5]
+			"Barbosil-Draenor", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			39, -- [11]
-			"Player-1390-08EC1A28", -- [12]
+			477, -- [11]
+			"Player-1403-0703F8D9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec5e9Olympèa-Hyjal|r",
-			[51] = 1556479739,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffc31d39Barbosil-Draenor|r",
+			[51] = 1577658408,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [25]
 		{
-			"Stand around the edges at all times ", -- [1]
-			"Belzarias-TwistingNether", -- [2]
+			"how long till he is defeated ?", -- [1]
+			"Ramirezz-TwistingNether", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Belzarias-TwistingNether", -- [5]
+			"Ramirezz-TwistingNether", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			42, -- [11]
-			"Player-3674-07135397", -- [12]
+			490, -- [11]
+			"Player-3674-063A01A7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Belzarias-TwistingNether|r",
-			[51] = 1556479949,
-			[50] = "CHAT_MSG_RAID_LEADER",
+			[52] = "|cff006fdcRamirezz-TwistingNether|r",
+			[51] = 1577658470,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [26]
 		{
-			"be edgy", -- [1]
-			"Gatessalyer-TwistingNether", -- [2]
+			"20% ?", -- [1]
+			"Ramirezz-TwistingNether", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Gatessalyer-TwistingNether", -- [5]
+			"Ramirezz-TwistingNether", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			45, -- [11]
-			"Player-3674-076D09C2", -- [12]
+			491, -- [11]
+			"Player-3674-063A01A7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Gatessalyer-TwistingNether|r",
-			[51] = 1556479981,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cff006fdcRamirezz-TwistingNether|r",
+			[51] = 1577658477,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [27]
 		{
-			"b", -- [1]
-			"Iryzia-TwistingNether", -- [2]
+			"Too long", -- [1]
+			"Ej-Dragonblight", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Iryzia-TwistingNether", -- [5]
+			"Ej-Dragonblight", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			50, -- [11]
-			"Player-3674-06D42391", -- [12]
+			493, -- [11]
+			"Player-1588-0BADDBC2", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeIryzia-TwistingNether|r",
-			[51] = 1556480150,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cff00fe95Ej-Dragonblight|r",
+			[51] = 1577658481,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [28]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:13314:Player-1305-06AC9816:1:4:28:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Lady Jaina Proudmoore]|h|r!", -- [1]
-			"Shamzula-Kazzak", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:13931:Player-1305-09E89A02:1:12:29:19:4294967295:4294967295:4294967295:4294967295|h[Memories of Fel, Frost and Fire]|h|r!", -- [1]
+			"Xbenedict-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Shamzula-Kazzak", -- [5]
+			"Xbenedict-Kazzak", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			68, -- [11]
-			"Player-1305-06AC9816", -- [12]
+			497, -- [11]
+			"Player-1305-09E89A02", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff006fdcShamzula|r",
-			[51] = 1556480321,
+			[52] = "|cfffefefeXbenedict|r",
+			[51] = 1577658487,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [29]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:13322:Player-1305-06AC9816:1:4:28:19:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Lady Jaina Proudmoore]|h|r!", -- [1]
-			"Shamzula-Kazzak", -- [2]
+			"gg :D", -- [1]
+			"Ramirezz-TwistingNether", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Shamzula-Kazzak", -- [5]
+			"Ramirezz-TwistingNether", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			69, -- [11]
-			"Player-1305-06AC9816", -- [12]
+			501, -- [11]
+			"Player-3674-063A01A7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff006fdcShamzula|r",
-			[51] = 1556480321,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff006fdcRamirezz-TwistingNether|r",
+			[51] = 1577658490,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [30]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:13323:Player-1305-06AC9816:1:4:28:19:4294967295:4294967295:4294967295:4294967295|h[Cutting Edge: Lady Jaina Proudmoore]|h|r!", -- [1]
-			"Shamzula-Kazzak", -- [2]
+			"niiice", -- [1]
+			"Mìlleer-TarrenMill", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Shamzula-Kazzak", -- [5]
+			"Mìlleer-TarrenMill", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			70, -- [11]
-			"Player-1305-06AC9816", -- [12]
+			505, -- [11]
+			"Player-1084-08E333A5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff006fdcShamzula|r",
-			[51] = 1556480321,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffa22fc8Mìlleer-TarrenMill|r",
+			[51] = 1577658493,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [31]
 		{
-			"stop", -- [1]
-			"Billyborc-TwistingNether", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:13041:Player-1305-0A8B1B15:1:12:30:19:4294967295:4294967295:4294967295:4294967295|h[Hungry, Hungry Ranishu]|h|r!", -- [1]
+			"Minje-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Billyborc-TwistingNether", -- [5]
+			"Minje-Kazzak", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			115, -- [11]
-			"Player-3674-0888A253", -- [12]
+			967, -- [11]
+			"Player-1305-0A8B1B15", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cBillyborc-TwistingNether|r",
-			[51] = 1556480644,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cff8686ecMinje|r",
+			[51] = 1577709653,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [32]
 		{
-			"taking", -- [1]
-			"Billyborc-TwistingNether", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:516:Player-1305-0984D7A8:1:12:30:19:4294967295:4294967295:4294967295:4294967295|h[1000 Honorable Kills]|h|r!", -- [1]
+			"Alduh-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Billyborc-TwistingNether", -- [5]
+			"Alduh-Kazzak", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			116, -- [11]
-			"Player-3674-0888A253", -- [12]
+			1116, -- [11]
+			"Player-1305-0984D7A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cBillyborc-TwistingNether|r",
-			[51] = 1556480645,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffc59a6cAlduh|r",
+			[51] = 1577710072,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [33]
 		{
-			"tears", -- [1]
-			"Billyborc-TwistingNether", -- [2]
+			"|cffa335ee|Hitem:173946::::::::120:65::5:1:3524:::|h[Writhing Segment of Drest'agath]|h|r", -- [1]
+			"Pózza-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Billyborc-TwistingNether", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			117, -- [11]
-			"Player-3674-0888A253", -- [12]
+			1090, -- [11]
+			"Player-1305-042F0B54", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cBillyborc-TwistingNether|r",
-			[51] = 1556480646,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cfff38bb9Pózza|r",
+			[51] = 1579469589,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [34]
 		{
-			"and", -- [1]
-			"Billyborc-TwistingNether", -- [2]
+			"|cffa335ee|Hitem:173943::::::::120:250::6:1:3524:::|h[Torment in a Jar]|h|r", -- [1]
+			"Blackcugo-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Billyborc-TwistingNether", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			118, -- [11]
-			"Player-3674-0888A253", -- [12]
+			1093, -- [11]
+			"Player-1305-0991CB8E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cBillyborc-TwistingNether|r",
-			[51] = 1556480646,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffc31d39Blackcugo|r",
+			[51] = 1579469606,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [35]
 		{
-			"healing", -- [1]
-			"Billyborc-TwistingNether", -- [2]
+			"|cffa335ee|Hitem:173944::::::::120:65::5:1:3524:::|h[Forbidden Obsidian Claw]|h|r", -- [1]
+			"Pózza-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Billyborc-TwistingNether", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			119, -- [11]
-			"Player-3674-0888A253", -- [12]
+			1094, -- [11]
+			"Player-1305-042F0B54", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cBillyborc-TwistingNether|r",
-			[51] = 1556480647,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cfff38bb9Pózza|r",
+			[51] = 1579469638,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [36]
 		{
-			"him", -- [1]
-			"Billyborc-TwistingNether", -- [2]
+			"|cffa335ee|Hitem:173940::::::::120:250::6:1:3524:::|h[Sigil of Warding]|h|r", -- [1]
+			"Blackcugo-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Billyborc-TwistingNether", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			120, -- [11]
-			"Player-3674-0888A253", -- [12]
+			1096, -- [11]
+			"Player-1305-0991CB8E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cBillyborc-TwistingNether|r",
-			[51] = 1556480648,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffc31d39Blackcugo|r",
+			[51] = 1579469651,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [37]
 		{
-			"and for the love of god", -- [1]
-			"Billyborc-TwistingNether", -- [2]
+			"1 dps eller 1 heal til 21 shrine", -- [1]
+			"Blackcugo-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Billyborc-TwistingNether", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			128, -- [11]
-			"Player-3674-0888A253", -- [12]
+			1176, -- [11]
+			"Player-1305-0991CB8E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cBillyborc-TwistingNether|r",
-			[51] = 1556480790,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffc31d39Blackcugo|r",
+			[51] = 1579470288,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [38]
 		{
-			"stack with hunge", -- [1]
-			"Billyborc-TwistingNether", -- [2]
+			"|cffa335ee|Hazessence:3:3|h[Sphere of Suppression]|h|r", -- [1]
+			"Blackcugo-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Billyborc-TwistingNether", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			130, -- [11]
-			"Player-3674-0888A253", -- [12]
+			1200, -- [11]
+			"Player-1305-0991CB8E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cBillyborc-TwistingNether|r",
-			[51] = 1556480794,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffc31d39Blackcugo|r",
+			[51] = 1579470493,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [39]
 		{
-			"get into melee", -- [1]
-			"Billyborc-TwistingNether", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:13572:Player-1305-0AD7921E:1:1:19:20:4294967295:4294967295:4294967295:4294967295|h[The Heart Forge]|h|r!", -- [1]
+			"Vuljean-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Billyborc-TwistingNether", -- [5]
+			"Vuljean-Kazzak", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			131, -- [11]
-			"Player-3674-0888A253", -- [12]
+			1222, -- [11]
+			"Player-1305-0AD7921E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cBillyborc-TwistingNether|r",
-			[51] = 1556480799,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cff3ec5e9Vuljean|r",
+			[51] = 1579471061,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [40]
 		{
-			"Naggwa'fssh Sk'woth'gl  Shandai Shg'fhn ", -- [1]
-			"Xbenedict-Kazzak", -- [2]
-			"Shath'Yar", -- [3]
-			"", -- [4]
-			"Xbenedict-Kazzak", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			155, -- [11]
-			"Player-1305-09E89A02", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeXbenedict|r",
-			[51] = 1556481034,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [41]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:12502:Player-1305-03D2D743:1:4:28:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Underrot]|h|r!", -- [1]
-			"Rhodium-Kazzak", -- [2]
+			"Nogen der mangler visions?", -- [1]
+			"Nêmes-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Rhodium-Kazzak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			163, -- [11]
-			"Player-1305-03D2D743", -- [12]
+			168, -- [11]
+			"Player-1305-08ED39E3", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Rhodium|r",
-			[51] = 1556481095,
+			[52] = "|cffa9d271Nêmes|r",
+			[51] = 1579538117,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [41]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12503:Player-1305-03540A71:1:1:20:20:4294967295:4294967295:4294967295:4294967295|h[Snake Eyes]|h|r!", -- [1]
+			"Zenzo-Kazzak", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Zenzo-Kazzak", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			187, -- [11]
+			"Player-1305-03540A71", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Zenzo|r",
+			[51] = 1579538447,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [42]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:11185:Player-1305-03D2D743:1:4:28:19:4294967295:4294967295:4294967295:4294967295|h[Keystone Conqueror]|h|r!", -- [1]
-			"Rhodium-Kazzak", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:13095:Player-1305-0AA9D61F:1:1:20:20:4294967295:4294967295:4294967295:4294967295|h[Dread Chain]|h|r!", -- [1]
+			"Træstubben-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Rhodium-Kazzak", -- [5]
+			"Træstubben-Kazzak", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			164, -- [11]
-			"Player-1305-03D2D743", -- [12]
+			199, -- [11]
+			"Player-1305-0AA9D61F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Rhodium|r",
-			[51] = 1556481095,
+			[52] = "|cfffe7b09Træstubben|r",
+			[51] = 1579538645,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [43]
 		{
-			"STACK WITH HUNGER ON MELEE MOVE", -- [1]
-			"Billyborc-TwistingNether", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:13096:Player-1305-0AA9D61F:1:1:20:20:4294967295:4294967295:4294967295:4294967295|h[Heroic: Dread Chain]|h|r!", -- [1]
+			"Træstubben-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Billyborc", -- [5]
+			"Træstubben-Kazzak", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			172, -- [11]
-			"Player-3674-0888A253", -- [12]
+			200, -- [11]
+			"Player-1305-0AA9D61F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cBillyborc-TwistingNether|r",
-			[51] = 1556481203,
-			[50] = "CHAT_MSG_RAID_WARNING",
+			[52] = "|cfffe7b09Træstubben|r",
+			[51] = 1579538645,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [44]
 		{
-			"Torment", -- [1]
-			"Nalanee-TwistingNether", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Nalanee-TwistingNether", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			239, -- [11]
-			"Player-3674-06D41FD7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe95Nalanee-TwistingNether|r",
-			[51] = 1556481762,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [45]
-		{
-			"Shg'ullwaq Vwahuhn za Ga'halahs", -- [1]
-			"Xbenedict-Kazzak", -- [2]
-			"Shath'Yar", -- [3]
-			"", -- [4]
-			"Xbenedict-Kazzak", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			242, -- [11]
-			"Player-1305-09E89A02", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeXbenedict|r",
-			[51] = 1556481799,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [46]
-		{
-			"Torment", -- [1]
-			"Billyborc-TwistingNether", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Billyborc-TwistingNether", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			244, -- [11]
-			"Player-3674-0888A253", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cBillyborc-TwistingNether|r",
-			[51] = 1556481837,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [47]
-		{
-			"ok", -- [1]
-			"Nalanee-TwistingNether", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:13097:Player-1305-0AA9D61F:1:1:20:20:4294967295:4294967295:4294967295:4294967295|h[Mythic: Dread Chain]|h|r!", -- [1]
+			"Træstubben-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Nalanee-TwistingNether", -- [5]
+			"Træstubben-Kazzak", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			201, -- [11]
+			"Player-1305-0AA9D61F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Træstubben|r",
+			[51] = 1579538645,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [45]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:13119:Player-1305-0AA9D61F:1:1:20:20:4294967295:4294967295:4294967295:4294967295|h[Whispering Reef]|h|r!", -- [1]
+			"Træstubben-Kazzak", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Træstubben-Kazzak", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			254, -- [11]
+			"Player-1305-0AA9D61F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Træstubben|r",
+			[51] = 1579538950,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [46]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:13118:Player-1305-0AA9D61F:1:1:20:20:4294967295:4294967295:4294967295:4294967295|h[Heroic: Whispering Reef]|h|r!", -- [1]
+			"Træstubben-Kazzak", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Træstubben-Kazzak", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			255, -- [11]
+			"Player-1305-0AA9D61F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Træstubben|r",
+			[51] = 1579538950,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [47]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:13116:Player-1305-0AA9D61F:1:1:20:20:4294967295:4294967295:4294967295:4294967295|h[Mythic: Whispering Reef]|h|r!", -- [1]
+			"Træstubben-Kazzak", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Træstubben-Kazzak", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
 			256, -- [11]
-			"Player-3674-06D41FD7", -- [12]
+			"Player-1305-0AA9D61F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Nalanee-TwistingNether|r",
-			[51] = 1556481872,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cfffe7b09Træstubben|r",
+			[51] = 1579538950,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [48]
 		{
-			"is it hard", -- [1]
-			"Nalanee-TwistingNether", -- [2]
+			"alle difficulties i EP giver 900 ap per boss ikke?", -- [1]
+			"Flówys-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Nalanee-TwistingNether", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			259, -- [11]
-			"Player-3674-06D41FD7", -- [12]
+			260, -- [11]
+			"Player-1305-0A4633BC", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Nalanee-TwistingNether|r",
-			[51] = 1556481875,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cfff38bb9Flówys|r",
+			[51] = 1579539013,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [49]
 		{
-			"avoiding the tears", -- [1]
-			"Nalanee-TwistingNether", -- [2]
+			"yeah", -- [1]
+			"Vicdh-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Nalanee-TwistingNether", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			262, -- [11]
-			"Player-3674-06D41FD7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe95Nalanee-TwistingNether|r",
-			[51] = 1556481879,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [50]
-		{
-			"are you just stupid", -- [1]
-			"Nalanee-TwistingNether", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Nalanee-TwistingNether", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
 			263, -- [11]
-			"Player-3674-06D41FD7", -- [12]
+			"Player-1305-096371C5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Nalanee-TwistingNether|r",
-			[51] = 1556481882,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffa22fc8Vicdh|r",
+			[51] = 1579539022,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [50]
+		{
+			"gracias", -- [1]
+			"Flówys-Kazzak", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			264, -- [11]
+			"Player-1305-0A4633BC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Flówys|r",
+			[51] = 1579539025,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [51]
 		{
-			"bb", -- [1]
-			"Charizard-Teldrassil", -- [2]
+			"men kun en gang", -- [1]
+			"Powwymorph-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Charizard-Teldrassil", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			268, -- [11]
-			"Player-1407-036303A7", -- [12]
+			270, -- [11]
+			"Player-1305-0AD7DFBA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec5e9Charizard-Teldrassil|r",
-			[51] = 1556481905,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cff3ec5e9Powwymorph|r",
+			[51] = 1579539070,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [52]
 		{
-			"|cffffff00|Hachievement:13418:Player-1305-09E89A02:1:4:19:19:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Uu'nat, Harbinger of the Void]|h|r", -- [1]
-			"Skurts-Stormscale", -- [2]
-			"Orcish", -- [3]
+			"right?", -- [1]
+			"Powwymorph-Kazzak", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Skurts-Stormscale", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			5, -- [11]
-			"Player-2073-06A30636", -- [12]
+			271, -- [11]
+			"Player-1305-0AD7DFBA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cSkurts-Stormscale|r",
-			[51] = 1556651258,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cff3ec5e9Powwymorph|r",
+			[51] = 1579539072,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [53]
 		{
-			"|cffffff00|Hachievement:13418:Player-1305-09E89A02:1:4:19:19:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Uu'nat, Harbinger of the Void]|h|r", -- [1]
-			"Haraw-Archimonde", -- [2]
-			"Orcish", -- [3]
+			"y", -- [1]
+			"Vicdh-Kazzak", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Haraw-Archimonde", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			15, -- [11]
-			"Player-1302-0A3B7394", -- [12]
+			272, -- [11]
+			"Player-1305-096371C5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Haraw-Archimonde|r",
-			[51] = 1556651568,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffa22fc8Vicdh|r",
+			[51] = 1579539075,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [54]
 		{
-			"|cffffff00|Hachievement:13418:Player-1305-09E89A02:1:4:19:19:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Uu'nat, Harbinger of the Void]|h|r", -- [1]
-			"Círíllá-TwistingNether", -- [2]
-			"Orcish", -- [3]
+			"aight, laver et normal raid til ap", -- [1]
+			"Flówys-Kazzak", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Círíllá-TwistingNether", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			19, -- [11]
-			"Player-3674-082058E7", -- [12]
+			273, -- [11]
+			"Player-1305-0A4633BC", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Círíllá-TwistingNether|r",
-			[51] = 1556651687,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cfff38bb9Flówys|r",
+			[51] = 1579539088,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [55]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:6757:Player-1305-0A1861E6:1:5:1:19:4294967295:4294967295:4294967295:4294967295|h[Temple of the Jade Serpent]|h|r!", -- [1]
-			"Bèyònce-Kazzak", -- [2]
+			"bare 10 mands", -- [1]
+			"Flówys-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Bèyònce-Kazzak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2, -- [11]
-			"Player-1305-0A1861E6", -- [12]
+			274, -- [11]
+			"Player-1305-0A4633BC", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Bèyònce|r",
-			[51] = 1556732434,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfff38bb9Flówys|r",
+			[51] = 1579539093,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [56]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:6758:Player-1305-0A1861E6:1:5:1:19:4294967295:4294967295:4294967295:4294967295|h[Heroic: Temple of the Jade Serpent]|h|r!", -- [1]
-			"Bèyònce-Kazzak", -- [2]
+			"Pa$$w0rd", -- [1]
+			"Alduin-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Bèyònce-Kazzak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3, -- [11]
-			"Player-1305-0A1861E6", -- [12]
+			306, -- [11]
+			"Player-1305-041FEDCD", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Bèyònce|r",
-			[51] = 1556732434,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffefefeAlduin|r",
+			[51] = 1579539523,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [57]
 		{
-			"|cffffff00|Hachievement:13418:Player-1305-09E89A02:1:4:19:19:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Uu'nat, Harbinger of the Void]|h|r", -- [1]
-			"Desmia-Draenor", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Desmia-Draenor", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4, -- [11]
-			"Player-1403-063EFE89", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecDesmia-Draenor|r",
-			[51] = 1556732476,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [58]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:11559:Player-1305-0A21585C:1:5:1:19:4294967295:4294967295:4294967295:4294967295|h[The First Rule of Brawler's Guild]|h|r!", -- [1]
-			"Holyflex-Kazzak", -- [2]
+			"nogen til normal raid for ap?", -- [1]
+			"Flówys-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Holyflex-Kazzak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			6, -- [11]
-			"Player-1305-0A21585C", -- [12]
+			307, -- [11]
+			"Player-1305-0A4633BC", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeHolyflex|r",
-			[51] = 1556732533,
+			[52] = "|cfff38bb9Flówys|r",
+			[51] = 1579539533,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [58]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:1157:Player-1305-0AD7DFBA:1:1:20:20:4294967295:4294967295:4294967295:4294967295|h[Duel-icious]|h|r!", -- [1]
+			"Powwymorph-Kazzak", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Powwymorph-Kazzak", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			319, -- [11]
+			"Player-1305-0AD7DFBA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec5e9Powwymorph|r",
+			[51] = 1579539703,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [59]
 		{
-			"|cffffff00|Hachievement:13418:Player-1305-09E89A02:1:4:19:19:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Uu'nat, Harbinger of the Void]|h|r", -- [1]
-			"Radulo-Stormscale", -- [2]
-			"Orcish", -- [3]
+			"%s has earned the achievement |cffffff00|Hachievement:12848:Player-1305-03540A71:1:1:20:20:4294967295:4294967295:4294967295:4294967295|h[Kings' Rest]|h|r!", -- [1]
+			"Zenzo-Kazzak", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Radulo-Stormscale", -- [5]
+			"Zenzo-Kazzak", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			8, -- [11]
-			"Player-2073-06687C1F", -- [12]
+			348, -- [11]
+			"Player-1305-03540A71", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecRadulo-Stormscale|r",
-			[51] = 1556732557,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cfffef367Zenzo|r",
+			[51] = 1579540052,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [60]
 		{
-			"link curve", -- [1]
-			"Radulo-Stormscale", -- [2]
+			"hey kevin", -- [1]
+			"Powwymorph-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Radulo-Stormscale", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			9, -- [11]
-			"Player-2073-06687C1F", -- [12]
+			411, -- [11]
+			"Player-1305-0AD7DFBA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecRadulo-Stormscale|r",
-			[51] = 1556732579,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cff3ec5e9Powwymorph|r",
+			[51] = 1579540475,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [61]
 		{
-			"i just did", -- [1]
-			"Radulo-Stormscale", -- [2]
-			"Orcish", -- [3]
+			"skulle spørger fra en ven hvad uwu adddonen hed Xd", -- [1]
+			"Powwymorph-Kazzak", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Radulo-Stormscale", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			10, -- [11]
-			"Player-2073-06687C1F", -- [12]
+			412, -- [11]
+			"Player-1305-0AD7DFBA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecRadulo-Stormscale|r",
-			[51] = 1556732585,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cff3ec5e9Powwymorph|r",
+			[51] = 1579540481,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [62]
 		{
-			"|cffffff00|Hachievement:13418:Player-1305-09E89A02:1:4:19:19:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Uu'nat, Harbinger of the Void]|h|r", -- [1]
-			"Radulo-Stormscale", -- [2]
-			"Orcish", -- [3]
+			"kan ikke huske det", -- [1]
+			"Koldekevin-Kazzak", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Radulo-Stormscale", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			11, -- [11]
-			"Player-2073-06687C1F", -- [12]
+			414, -- [11]
+			"Player-1305-0A0E7062", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecRadulo-Stormscale|r",
-			[51] = 1556732590,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cff3ec5e9Koldekevin|r",
+			[51] = 1579540500,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [63]
 		{
-			"want me heal or dps?", -- [1]
-			"Radulo-Stormscale", -- [2]
-			"Orcish", -- [3]
+			"øv", -- [1]
+			"Powwymorph-Kazzak", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Radulo-Stormscale", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			14, -- [11]
-			"Player-2073-06687C1F", -- [12]
+			415, -- [11]
+			"Player-1305-0AD7DFBA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecRadulo-Stormscale|r",
-			[51] = 1556732604,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cff3ec5e9Powwymorph|r",
+			[51] = 1579540514,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [64]
 		{
-			"heal", -- [1]
-			"Radulo-Stormscale", -- [2]
+			"owospeak", -- [1]
+			"Koldekevin-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Radulo-Stormscale", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			15, -- [11]
-			"Player-2073-06687C1F", -- [12]
+			416, -- [11]
+			"Player-1305-0A0E7062", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecRadulo-Stormscale|r",
-			[51] = 1556732608,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cff3ec5e9Koldekevin|r",
+			[51] = 1579540519,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [65]
 		{
-			"good mage in queue", -- [1]
-			"Sufarstar-Jaedenar", -- [2]
+			"dude", -- [1]
+			"Koldekevin-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Sufarstar-Jaedenar", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			20, -- [11]
-			"Player-1597-097094F1", -- [12]
+			418, -- [11]
+			"Player-1305-0A0E7062", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Sufarstar-Jaedenar|r",
-			[51] = 1556732612,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cff3ec5e9Koldekevin|r",
+			[51] = 1579540530,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [66]
 		{
-			"if u get a tank", -- [1]
-			"Cannìbalus-Kazzak", -- [2]
+			"bare se description", -- [1]
+			"Koldekevin-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Cannìbalus-Kazzak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			21, -- [11]
-			"Player-1305-078BEEE9", -- [12]
+			420, -- [11]
+			"Player-1305-0A0E7062", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Cannìbalus|r",
-			[51] = 1556732613,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cff3ec5e9Koldekevin|r",
+			[51] = 1579540550,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [67]
 		{
-			"dont invite afkland", -- [1]
-			"Ziriiana-Eredar", -- [2]
+			"lmao", -- [1]
+			"Koldekevin-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Ziriiana-Eredar", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			22, -- [11]
-			"Player-3692-045C6E7F", -- [12]
+			421, -- [11]
+			"Player-1305-0A0E7062", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Ziriiana-Eredar|r",
-			[51] = 1556732613,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cff3ec5e9Koldekevin|r",
+			[51] = 1579540550,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [68]
 		{
-			"i go heal", -- [1]
-			"Cannìbalus-Kazzak", -- [2]
+			"uwusocute", -- [1]
+			"Executiè-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Cannìbalus-Kazzak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			23, -- [11]
-			"Player-1305-078BEEE9", -- [12]
+			427, -- [11]
+			"Player-1305-07CD3E06", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Cannìbalus|r",
-			[51] = 1556732616,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffc59a6cExecutiè|r",
+			[51] = 1579540575,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [69]
 		{
-			"2/2 ", -- [1]
-			"Sufarstar-Jaedenar", -- [2]
+			"x3 ", -- [1]
+			"Powwymorph-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Sufarstar-Jaedenar", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			24, -- [11]
-			"Player-1597-097094F1", -- [12]
+			435, -- [11]
+			"Player-1305-0AD7DFBA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Sufarstar-Jaedenar|r",
-			[51] = 1556732616,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cff3ec5e9Powwymorph|r",
+			[51] = 1579540586,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [70]
 		{
-			"kil", -- [1]
-			"Sufarstar-Jaedenar", -- [2]
+			"stop", -- [1]
+			"Vicdh-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Sufarstar-Jaedenar", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			26, -- [11]
-			"Player-1597-097094F1", -- [12]
+			454, -- [11]
+			"Player-1305-096371C5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Sufarstar-Jaedenar|r",
-			[51] = 1556732618,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffa22fc8Vicdh|r",
+			[51] = 1579540676,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [71]
 		{
-			"btw", -- [1]
-			"Cannìbalus-Kazzak", -- [2]
+			"med det der UwU", -- [1]
+			"Vicdh-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Cannìbalus-Kazzak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			27, -- [11]
-			"Player-1305-078BEEE9", -- [12]
+			455, -- [11]
+			"Player-1305-096371C5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Cannìbalus|r",
-			[51] = 1556732618,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffa22fc8Vicdh|r",
+			[51] = 1579540681,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [72]
 		{
-			"brb fast", -- [1]
-			"Cannìbalus-Kazzak", -- [2]
+			"hvad er det?", -- [1]
+			"Dâlis-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Cannìbalus-Kazzak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			28, -- [11]
-			"Player-1305-078BEEE9", -- [12]
+			458, -- [11]
+			"Player-1305-088C5B53", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Cannìbalus|r",
-			[51] = 1556732622,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cfffef367Dâlis|r",
+			[51] = 1579540691,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [73]
 		{
-			"we go like this", -- [1]
-			"Radulo-Stormscale", -- [2]
+			"det er basically weeb sprog", -- [1]
+			"Vicdh-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Radulo-Stormscale", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			36, -- [11]
-			"Player-2073-06687C1F", -- [12]
+			459, -- [11]
+			"Player-1305-096371C5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecRadulo-Stormscale|r",
-			[51] = 1556732707,
-			[50] = "CHAT_MSG_RAID_LEADER",
+			[52] = "|cffa22fc8Vicdh|r",
+			[51] = 1579540699,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [74]
 		{
-			"dont fuck up now please", -- [1]
-			"Radulo-Stormscale", -- [2]
+			"yikes", -- [1]
+			"Dâlis-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Radulo-Stormscale", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			39, -- [11]
-			"Player-2073-06687C1F", -- [12]
+			460, -- [11]
+			"Player-1305-088C5B53", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecRadulo-Stormscale|r",
-			[51] = 1556732714,
-			[50] = "CHAT_MSG_RAID_LEADER",
+			[52] = "|cfffef367Dâlis|r",
+			[51] = 1579540712,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [75]
 		{
-			"crown on first benders", -- [1]
-			"Radulo-Stormscale", -- [2]
+			"det er furry sprog", -- [1]
+			"Powwymorph-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Radulo-Stormscale", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			41, -- [11]
-			"Player-2073-06687C1F", -- [12]
+			461, -- [11]
+			"Player-1305-0AD7DFBA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecRadulo-Stormscale|r",
-			[51] = 1556732719,
-			[50] = "CHAT_MSG_RAID_LEADER",
+			[52] = "|cff3ec5e9Powwymorph|r",
+			[51] = 1579540713,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [76]
 		{
-			"xbenedicct", -- [1]
-			"Radulo-Stormscale", -- [2]
+			"weeb og furry er det samme", -- [1]
+			"Vicdh-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Radulo-Stormscale", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			42, -- [11]
-			"Player-2073-06687C1F", -- [12]
+			462, -- [11]
+			"Player-1305-096371C5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecRadulo-Stormscale|r",
-			[51] = 1556732726,
-			[50] = "CHAT_MSG_RAID_LEADER",
+			[52] = "|cffa22fc8Vicdh|r",
+			[51] = 1579540720,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [77]
 		{
-			"u know how to do voidstone?", -- [1]
-			"Radulo-Stormscale", -- [2]
+			"OwO what this", -- [1]
+			"Koldekevin-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Radulo-Stormscale", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			43, -- [11]
-			"Player-2073-06687C1F", -- [12]
+			466, -- [11]
+			"Player-1305-0A0E7062", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecRadulo-Stormscale|r",
-			[51] = 1556732735,
-			[50] = "CHAT_MSG_RAID_LEADER",
+			[52] = "|cff3ec5e9Koldekevin|r",
+			[51] = 1579540727,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [78]
 		{
-			"Ye", -- [1]
-			"Xbenedict-Kazzak", -- [2]
+			"pepoWeebSmash", -- [1]
+			"Executiè-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Xbenedict-Kazzak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			44, -- [11]
-			"Player-1305-09E89A02", -- [12]
+			468, -- [11]
+			"Player-1305-07CD3E06", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeXbenedict|r",
-			[51] = 1556732740,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffc59a6cExecutiè|r",
+			[51] = 1579540731,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [79]
 		{
-			"u do second one", -- [1]
-			"Radulo-Stormscale", -- [2]
+			"lmao", -- [1]
+			"Koldekevin-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Radulo-Stormscale", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			45, -- [11]
-			"Player-2073-06687C1F", -- [12]
+			472, -- [11]
+			"Player-1305-0A0E7062", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecRadulo-Stormscale|r",
-			[51] = 1556732743,
-			[50] = "CHAT_MSG_RAID_LEADER",
+			[52] = "|cff3ec5e9Koldekevin|r",
+			[51] = 1579540739,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [80]
 		{
-			"no relics in p3 please", -- [1]
-			"Radulo-Stormscale", -- [2]
+			"virker den ingame", -- [1]
+			"Executiè-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Radulo-Stormscale", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			46, -- [11]
-			"Player-2073-06687C1F", -- [12]
+			479, -- [11]
+			"Player-1305-07CD3E06", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecRadulo-Stormscale|r",
-			[51] = 1556732746,
-			[50] = "CHAT_MSG_RAID_LEADER",
+			[52] = "|cffc59a6cExecutiè|r",
+			[51] = 1579540756,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [81]
 		{
-			"dont change voidstone", -- [1]
-			"Ziriiana-Eredar", -- [2]
+			"peepoVW", -- [1]
+			"Vicdh-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Ziriiana-Eredar", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			47, -- [11]
-			"Player-3692-045C6E7F", -- [12]
+			481, -- [11]
+			"Player-1305-096371C5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Ziriiana-Eredar|r",
-			[51] = 1556732747,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffa22fc8Vicdh|r",
+			[51] = 1579540765,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [82]
 		{
-			"dont heal boss and its free kill", -- [1]
-			"Radulo-Stormscale", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:12594:Player-1305-0AA9D61F:1:1:20:20:4294967295:4294967295:4294967295:4294967295|h[Competent Captain]|h|r!", -- [1]
+			"Træstubben-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Radulo-Stormscale", -- [5]
+			"Træstubben-Kazzak", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			48, -- [11]
-			"Player-2073-06687C1F", -- [12]
+			577, -- [11]
+			"Player-1305-0AA9D61F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecRadulo-Stormscale|r",
-			[51] = 1556732750,
-			[50] = "CHAT_MSG_RAID_LEADER",
+			[52] = "|cfffe7b09Træstubben|r",
+			[51] = 1579541389,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [83]
 		{
-			"shish ist still here", -- [1]
-			"Ziriiana-Eredar", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:13718:Player-1305-0A4633BC:1:1:20:20:4294967295:4294967295:4294967295:4294967295|h[The Grand Reception]|h|r!", -- [1]
+			"Flówys-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Ziriiana-Eredar", -- [5]
+			"Flówys-Kazzak", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			49, -- [11]
-			"Player-3692-045C6E7F", -- [12]
+			580, -- [11]
+			"Player-1305-0A4633BC", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Ziriiana-Eredar|r",
-			[51] = 1556732752,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cfff38bb9Flówys|r",
+			[51] = 1579541398,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [84]
 		{
-			"ye im on voice with shish", -- [1]
-			"Radulo-Stormscale", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:12509:Player-1305-098C4ED6:1:1:20:20:4294967295:4294967295:4294967295:4294967295|h[Ready for War]|h|r!", -- [1]
+			"Imppimp-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Radulo-Stormscale", -- [5]
+			"Imppimp-Kazzak", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			50, -- [11]
-			"Player-2073-06687C1F", -- [12]
+			603, -- [11]
+			"Player-1305-098C4ED6", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecRadulo-Stormscale|r",
-			[51] = 1556732762,
-			[50] = "CHAT_MSG_RAID_LEADER",
+			[52] = "|cff8686ecImppimp|r",
+			[51] = 1579541543,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [85]
 		{
-			"dw", -- [1]
-			"Radulo-Stormscale", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:973:Player-1305-0AD7921E:1:1:20:20:4294967295:4294967295:4294967295:4294967295|h[5 Daily Quests Completed]|h|r!", -- [1]
+			"Vuljean-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Radulo-Stormscale", -- [5]
+			"Vuljean-Kazzak", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			51, -- [11]
-			"Player-2073-06687C1F", -- [12]
+			605, -- [11]
+			"Player-1305-0AD7921E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecRadulo-Stormscale|r",
-			[51] = 1556732762,
-			[50] = "CHAT_MSG_RAID_LEADER",
+			[52] = "|cff3ec5e9Vuljean|r",
+			[51] = 1579541561,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [86]
 		{
-			"u want 2nd void @2nd intermission?", -- [1]
-			"Xbenedict-Kazzak", -- [2]
+			"|cff71d5ff|Hspell:288720:0|h[Bloodgorged Hunter]|h|r !!", -- [1]
+			"Koldekevin-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Xbenedict-Kazzak", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			54, -- [11]
-			"Player-1305-09E89A02", -- [12]
+			694, -- [11]
+			"Player-1305-0A0E7062", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeXbenedict|r",
-			[51] = 1556732785,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cff3ec5e9Koldekevin|r",
+			[51] = 1579542305,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [87]
 		{
-			"ye", -- [1]
-			"Radulo-Stormscale", -- [2]
+			"nogen der mangler Islands?", -- [1]
+			"Wessél-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Radulo-Stormscale", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			57, -- [11]
-			"Player-2073-06687C1F", -- [12]
+			113, -- [11]
+			"Player-1305-087D8608", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecRadulo-Stormscale|r",
-			[51] = 1556732801,
-			[50] = "CHAT_MSG_RAID_LEADER",
+			[52] = "|cfffef367Wessél|r",
+			[51] = 1579636906,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [88]
 		{
-			"y", -- [1]
-			"Ziriiana-Eredar", -- [2]
+			"ja", -- [1]
+			"Xhanon-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Ziriiana-Eredar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			58, -- [11]
-			"Player-3692-045C6E7F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe95Ziriiana-Eredar|r",
-			[51] = 1556732801,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [89]
-		{
-			"take 1 beam", -- [1]
-			"Radulo-Stormscale", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Radulo-Stormscale", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			60, -- [11]
-			"Player-2073-06687C1F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecRadulo-Stormscale|r",
-			[51] = 1556732807,
-			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [90]
-		{
-			"and dont heal boss", -- [1]
-			"Radulo-Stormscale", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Radulo-Stormscale", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			62, -- [11]
-			"Player-2073-06687C1F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecRadulo-Stormscale|r",
-			[51] = 1556732809,
-			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [91]
-		{
-			"u fuck up", -- [1]
-			"Radulo-Stormscale", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Radulo-Stormscale", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			63, -- [11]
-			"Player-2073-06687C1F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecRadulo-Stormscale|r",
-			[51] = 1556732810,
-			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [92]
-		{
-			"insta replace", -- [1]
-			"Radulo-Stormscale", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Radulo-Stormscale", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			64, -- [11]
-			"Player-2073-06687C1F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecRadulo-Stormscale|r",
-			[51] = 1556732812,
-			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [93]
-		{
-			"im here for loot not friendship", -- [1]
-			"Radulo-Stormscale", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Radulo-Stormscale", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			65, -- [11]
-			"Player-2073-06687C1F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecRadulo-Stormscale|r",
-			[51] = 1556732816,
-			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [94]
-		{
-			"<3", -- [1]
-			"Cannìbalus-Kazzak", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Cannìbalus-Kazzak", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			66, -- [11]
-			"Player-1305-078BEEE9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Cannìbalus|r",
-			[51] = 1556732823,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [95]
-		{
-			"lets make friends not loot", -- [1]
-			"Marlog-Eredar", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Marlog-Eredar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			69, -- [11]
-			"Player-3692-045B1B52", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cMarlog-Eredar|r",
-			[51] = 1556732835,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [96]
-		{
-			"Pull in 10 sec.", -- [1]
-			"Ziriiana-Eredar", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Ziriiana", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			70, -- [11]
-			"Player-3692-045C6E7F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe95Ziriiana-Eredar|r",
-			[51] = 1556732841,
-			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [97]
-		{
-			"moo", -- [1]
-			"Marlog-Eredar", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Marlog-Eredar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			71, -- [11]
-			"Player-3692-045B1B52", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cMarlog-Eredar|r",
-			[51] = 1556732842,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [98]
-		{
-			"Pull in 7 sec.", -- [1]
-			"Ziriiana-Eredar", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Ziriiana", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			72, -- [11]
-			"Player-3692-045C6E7F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe95Ziriiana-Eredar|r",
-			[51] = 1556732844,
-			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [99]
-		{
-			"Pull in 5 sec.", -- [1]
-			"Ziriiana-Eredar", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Ziriiana", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			73, -- [11]
-			"Player-3692-045C6E7F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe95Ziriiana-Eredar|r",
-			[51] = 1556732846,
-			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [100]
-		{
-			"this ain't tinder yea :D", -- [1]
-			"Cannìbalus-Kazzak", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Cannìbalus-Kazzak", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			74, -- [11]
-			"Player-1305-078BEEE9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Cannìbalus|r",
-			[51] = 1556732846,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [101]
-		{
-			"Pull in 4 sec.", -- [1]
-			"Ziriiana-Eredar", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Ziriiana", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			75, -- [11]
-			"Player-3692-045C6E7F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe95Ziriiana-Eredar|r",
-			[51] = 1556732847,
-			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [102]
-		{
-			"Pull in 3 sec.", -- [1]
-			"Ziriiana-Eredar", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Ziriiana", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			76, -- [11]
-			"Player-3692-045C6E7F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe95Ziriiana-Eredar|r",
-			[51] = 1556732848,
-			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [103]
-		{
-			"Pull in 2 sec.", -- [1]
-			"Ziriiana-Eredar", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Ziriiana", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			77, -- [11]
-			"Player-3692-045C6E7F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe95Ziriiana-Eredar|r",
-			[51] = 1556732849,
-			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [104]
-		{
-			"Pull in 1 sec.", -- [1]
-			"Ziriiana-Eredar", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Ziriiana", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			78, -- [11]
-			"Player-3692-045C6E7F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe95Ziriiana-Eredar|r",
-			[51] = 1556732850,
-			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [105]
-		{
-			">>> Pull <<<", -- [1]
-			"Ziriiana-Eredar", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Ziriiana", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			79, -- [11]
-			"Player-3692-045C6E7F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe95Ziriiana-Eredar|r",
-			[51] = 1556732851,
-			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [106]
-		{
-			"BOSS", -- [1]
-			"Radulo-Stormscale", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Radulo", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			84, -- [11]
-			"Player-2073-06687C1F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecRadulo-Stormscale|r",
-			[51] = 1556732901,
-			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [107]
-		{
-			"DONT SWAP", -- [1]
-			"Radulo-Stormscale", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Radulo", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			85, -- [11]
-			"Player-2073-06687C1F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecRadulo-Stormscale|r",
-			[51] = 1556732903,
-			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [108]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:10010:Player-1305-0A2F98AB:1:5:1:19:4294967295:4294967295:4294967295:4294967295|h[Gate of the Setting Sun]|h|r!", -- [1]
-			"Foxxáh-Kazzak", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Foxxáh-Kazzak", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			89, -- [11]
-			"Player-1305-0A2F98AB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Foxxáh|r",
-			[51] = 1556732940,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [109]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:6759:Player-1305-0A2F98AB:1:5:1:19:4294967295:4294967295:4294967295:4294967295|h[Heroic: Gate of the Setting Sun]|h|r!", -- [1]
-			"Foxxáh-Kazzak", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Foxxáh-Kazzak", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			90, -- [11]
-			"Player-1305-0A2F98AB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Foxxáh|r",
-			[51] = 1556732940,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [110]
-		{
-			"boss", -- [1]
-			"Radulo-Stormscale", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Radulo-Stormscale", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			91, -- [11]
-			"Player-2073-06687C1F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecRadulo-Stormscale|r",
-			[51] = 1556732950,
-			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [111]
-		{
-			"BOSS", -- [1]
-			"Radulo-Stormscale", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Radulo", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			92, -- [11]
-			"Player-2073-06687C1F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecRadulo-Stormscale|r",
-			[51] = 1556732951,
-			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [112]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:12544:Player-1305-0A552131:1:5:1:19:4294967295:4294967295:4294967295:4294967295|h[Level 120]|h|r!", -- [1]
-			"Zeliwar-Kazzak", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Zeliwar-Kazzak", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			103, -- [11]
-			"Player-1305-0A552131", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cZeliwar|r",
-			[51] = 1556733027,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [113]
-		{
-			"use void", -- [1]
-			"Sufarstar-Jaedenar", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Sufarstar-Jaedenar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			105, -- [11]
-			"Player-1597-097094F1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Sufarstar-Jaedenar|r",
-			[51] = 1556733041,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [114]
-		{
-			"use voide", -- [1]
-			"Sufarstar-Jaedenar", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Sufarstar-Jaedenar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			110, -- [11]
-			"Player-1597-097094F1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Sufarstar-Jaedenar|r",
-			[51] = 1556733057,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [115]
-		{
-			"boss", -- [1]
-			"Radulo-Stormscale", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Radulo-Stormscale", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			115, -- [11]
-			"Player-2073-06687C1F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecRadulo-Stormscale|r",
-			[51] = 1556733094,
-			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [116]
-		{
-			"dont ress me", -- [1]
-			"Radulo-Stormscale", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Radulo-Stormscale", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
 			119, -- [11]
-			"Player-2073-06687C1F", -- [12]
+			"Player-1305-0413A750", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecRadulo-Stormscale|r",
-			[51] = 1556733119,
-			[50] = "CHAT_MSG_RAID_LEADER",
+			[52] = "|cff006fdcXhanon|r",
+			[51] = 1579636931,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [89]
+		{
+			"en tank i chatten også?", -- [1]
+			"Wessél-Kazzak", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			120, -- [11]
+			"Player-1305-087D8608", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Wessél|r",
+			[51] = 1579636938,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [90]
+		{
+			"så snart jeg har fundet den fucking alpaca", -- [1]
+			"Xhanon-Kazzak", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			122, -- [11]
+			"Player-1305-0413A750", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcXhanon|r",
+			[51] = 1579636940,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [91]
+		{
+			"skal bare lige turn den ind", -- [1]
+			"Xhanon-Kazzak", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			123, -- [11]
+			"Player-1305-0413A750", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcXhanon|r",
+			[51] = 1579636947,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [92]
+		{
+			"rdy", -- [1]
+			"Xhanon-Kazzak", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			168, -- [11]
+			"Player-1305-0413A750", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcXhanon|r",
+			[51] = 1579637271,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [93]
+		{
+			"1 healer til en +12 underrot", -- [1]
+			"Vicrogue-Kazzak", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			255, -- [11]
+			"Player-1305-0A3AD6C4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Vicrogue|r",
+			[51] = 1579637672,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [94]
+		{
+			"quick run", -- [1]
+			"Vicrogue-Kazzak", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			256, -- [11]
+			"Player-1305-0A3AD6C4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Vicrogue|r",
+			[51] = 1579637674,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [95]
+		{
+			"Tank til islands, endnu hurtigere run", -- [1]
+			"Xhanon-Kazzak", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			258, -- [11]
+			"Player-1305-0413A750", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcXhanon|r",
+			[51] = 1579637683,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [96]
+		{
+			"1 tank til IE", -- [1]
+			"Wessél-Kazzak", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			260, -- [11]
+			"Player-1305-087D8608", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Wessél|r",
+			[51] = 1579637686,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [97]
+		{
+			"MEGET hurtigere runs", -- [1]
+			"Wessél-Kazzak", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			261, -- [11]
+			"Player-1305-087D8608", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Wessél|r",
+			[51] = 1579637691,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [98]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14063:Player-1305-09E89A02:1:1:21:20:4294967295:4294967295:4294967295:4294967295|h[Horrific Vision of Orgimmar]|h|r!", -- [1]
+			"Xbenedict-Kazzak", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Xbenedict-Kazzak", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			275, -- [11]
+			"Player-1305-09E89A02", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeXbenedict|r",
+			[51] = 1579637841,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [99]
+		{
+			"fuck mand", -- [1]
+			"Mutín-Kazzak", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			284, -- [11]
+			"Player-1305-0A624CBC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Mutín|r",
+			[51] = 1579637887,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [100]
+		{
+			"starfall pumper jo", -- [1]
+			"Mutín-Kazzak", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			285, -- [11]
+			"Player-1305-0A624CBC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Mutín|r",
+			[51] = 1579637890,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [101]
+		{
+			"secretly buffed", -- [1]
+			"Mutín-Kazzak", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			286, -- [11]
+			"Player-1305-0A624CBC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Mutín|r",
+			[51] = 1579637897,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [102]
+		{
+			"nede på 7 target nu?", -- [1]
+			"Ravajin-Kazzak", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			292, -- [11]
+			"Player-1305-083F3AA1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Ravajin|r",
+			[51] = 1579637900,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [103]
+		{
+			"ved det ikke", -- [1]
+			"Mutín-Kazzak", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			294, -- [11]
+			"Player-1305-0A624CBC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Mutín|r",
+			[51] = 1579637909,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [104]
+		{
+			"jeg bruger bare når jeg er blevet træt af at tælle", -- [1]
+			"Mutín-Kazzak", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			300, -- [11]
+			"Player-1305-0A624CBC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Mutín|r",
+			[51] = 1579637924,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [105]
+		{
+			"so lidt ala primal wrath", -- [1]
+			"Ravajin-Kazzak", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			303, -- [11]
+			"Player-1305-083F3AA1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Ravajin|r",
+			[51] = 1579637939,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [106]
+		{
+			"3 target", -- [1]
+			"Ravajin-Kazzak", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			305, -- [11]
+			"Player-1305-083F3AA1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Ravajin|r",
+			[51] = 1579637940,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [107]
+		{
+			"lul", -- [1]
+			"Ravajin-Kazzak", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			306, -- [11]
+			"Player-1305-083F3AA1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Ravajin|r",
+			[51] = 1579637941,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [108]
+		{
+			"MUTIN ISLANDS!", -- [1]
+			"Wessél-Kazzak", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			307, -- [11]
+			"Player-1305-087D8608", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Wessél|r",
+			[51] = 1579637942,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [109]
+		{
+			"jeg booster :(", -- [1]
+			"Mutín-Kazzak", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			310, -- [11]
+			"Player-1305-0A624CBC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Mutín|r",
+			[51] = 1579637952,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [110]
+		{
+			"Jeg lover ikke at pulle yetier", -- [1]
+			"Wessél-Kazzak", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			311, -- [11]
+			"Player-1305-087D8608", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Wessél|r",
+			[51] = 1579637953,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [111]
+		{
+			"1 healer til 12 UR", -- [1]
+			"Vicrogue-Kazzak", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			312, -- [11]
+			"Player-1305-0A3AD6C4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Vicrogue|r",
+			[51] = 1579637954,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [112]
+		{
+			"Ishak up, anyone 100% hp", -- [1]
+			"Mortuus-Kazzak", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			317, -- [11]
+			"Player-1305-087AC25E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Mortuus|r",
+			[51] = 1579637996,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [113]
+		{
+			"ja tak <", -- [1]
+			"Ravajin-Kazzak", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			332, -- [11]
+			"Player-1305-083F3AA1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Ravajin|r",
+			[51] = 1579638153,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [114]
+		{
+			"<3", -- [1]
+			"Ravajin-Kazzak", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			333, -- [11]
+			"Player-1305-083F3AA1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Ravajin|r",
+			[51] = 1579638154,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [115]
+		{
+			"gz", -- [1]
+			"Mortuus-Kazzak", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			334, -- [11]
+			"Player-1305-087AC25E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Mortuus|r",
+			[51] = 1579638159,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [116]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:11767:Player-1305-0A364876:1:1:21:20:4294967295:4294967295:4294967295:4294967295|h[Mythic: Goroth]|h|r!", -- [1]
+			"Uniiq-Kazzak", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Uniiq-Kazzak", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			356, -- [11]
+			"Player-1305-0A364876", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Uniiq|r",
+			[51] = 1579638263,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [117]
 		{
-			"boss", -- [1]
-			"Radulo-Stormscale", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:2139:Player-1305-095DA14A:1:1:21:20:4294967295:4294967295:4294967295:4294967295|h[The Safety Dance (25 player)]|h|r!", -- [1]
+			"Dâls-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Radulo-Stormscale", -- [5]
+			"Dâls-Kazzak", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			126, -- [11]
-			"Player-2073-06687C1F", -- [12]
+			366, -- [11]
+			"Player-1305-095DA14A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecRadulo-Stormscale|r",
-			[51] = 1556733197,
-			[50] = "CHAT_MSG_RAID_LEADER",
+			[52] = "|cff3ec5e9Dâls|r",
+			[51] = 1579638341,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [118]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:12831:Player-1305-0A552131:1:5:1:19:4294967295:4294967295:4294967295:4294967295|h[Freehold]|h|r!", -- [1]
-			"Zeliwar-Kazzak", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:567:Player-1305-095DA14A:1:1:21:20:4294967295:4294967295:4294967295:4294967295|h[The Plague Quarter (25 player)]|h|r!", -- [1]
+			"Dâls-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zeliwar-Kazzak", -- [5]
+			"Dâls-Kazzak", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			127, -- [11]
-			"Player-1305-0A552131", -- [12]
+			372, -- [11]
+			"Player-1305-095DA14A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cZeliwar|r",
-			[51] = 1556733201,
+			[52] = "|cff3ec5e9Dâls|r",
+			[51] = 1579638412,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [119]
 		{
-			"TAKE 1 BEAM", -- [1]
-			"Radulo-Stormscale", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:2183:Player-1305-095DA14A:1:1:21:20:4294967295:4294967295:4294967295:4294967295|h[Spore Loser (25 player)]|h|r!", -- [1]
+			"Dâls-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Radulo", -- [5]
+			"Dâls-Kazzak", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			128, -- [11]
-			"Player-2073-06687C1F", -- [12]
+			373, -- [11]
+			"Player-1305-095DA14A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecRadulo-Stormscale|r",
-			[51] = 1556733203,
-			[50] = "CHAT_MSG_RAID_WARNING",
+			[52] = "|cff3ec5e9Dâls|r",
+			[51] = 1579638412,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [120]
 		{
-			"TAKE 1 BEAM", -- [1]
-			"Radulo-Stormscale", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:1857:Player-1305-095DA14A:1:1:21:20:4294967295:4294967295:4294967295:4294967295|h[Make Quick Werk of Him (25 player)]|h|r!", -- [1]
+			"Dâls-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Radulo", -- [5]
+			"Dâls-Kazzak", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			129, -- [11]
-			"Player-2073-06687C1F", -- [12]
+			377, -- [11]
+			"Player-1305-095DA14A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecRadulo-Stormscale|r",
-			[51] = 1556733204,
-			[50] = "CHAT_MSG_RAID_WARNING",
+			[52] = "|cff3ec5e9Dâls|r",
+			[51] = 1579638478,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [121]
 		{
-			"thanks", -- [1]
-			"Cannìbalus-Kazzak", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:13119:Player-1305-090F4816:1:1:21:20:4294967295:4294967295:4294967295:4294967295|h[Whispering Reef]|h|r!", -- [1]
+			"Rathenau-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Cannìbalus-Kazzak", -- [5]
+			"Rathenau-Kazzak", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			152, -- [11]
-			"Player-1305-078BEEE9", -- [12]
+			380, -- [11]
+			"Player-1305-090F4816", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Cannìbalus|r",
-			[51] = 1556733273,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cfffef367Rathenau|r",
+			[51] = 1579638495,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [122]
 		{
-			"ty guys", -- [1]
-			"Sufarstar-Jaedenar", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:13118:Player-1305-090F4816:1:1:21:20:4294967295:4294967295:4294967295:4294967295|h[Heroic: Whispering Reef]|h|r!", -- [1]
+			"Rathenau-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Sufarstar-Jaedenar", -- [5]
+			"Rathenau-Kazzak", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			154, -- [11]
-			"Player-1597-097094F1", -- [12]
+			381, -- [11]
+			"Player-1305-090F4816", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Sufarstar-Jaedenar|r",
-			[51] = 1556733281,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cfffef367Rathenau|r",
+			[51] = 1579638495,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [123]
 		{
-			"425 trinket", -- [1]
-			"Xbenedict-Kazzak", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:13116:Player-1305-090F4816:1:1:21:20:4294967295:4294967295:4294967295:4294967295|h[Mythic: Whispering Reef]|h|r!", -- [1]
+			"Rathenau-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Xbenedict-Kazzak", -- [5]
+			"Rathenau-Kazzak", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			155, -- [11]
-			"Player-1305-09E89A02", -- [12]
+			382, -- [11]
+			"Player-1305-090F4816", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeXbenedict|r",
-			[51] = 1556733285,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cfffef367Rathenau|r",
+			[51] = 1579638495,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [124]
 		{
-			"rip", -- [1]
-			"Radulo-Stormscale", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Radulo-Stormscale", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			156, -- [11]
-			"Player-2073-06687C1F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecRadulo-Stormscale|r",
-			[51] = 1556733286,
-			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [125]
-		{
-			"gg ez", -- [1]
+			"Interrupted Greater Void Elemental's |cff71d5ff|Hspell:297315:0|h[Void Buffet]|h|r!", -- [1]
 			"Xbenedict-Kazzak", -- [2]
-			"", -- [3]
+			"Orcish", -- [3]
 			"", -- [4]
 			"Xbenedict-Kazzak", -- [5]
 			"", -- [6]
@@ -2762,7 +2740,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			157, -- [11]
+			384, -- [11]
 			"Player-1305-09E89A02", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -2770,58 +2748,80 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfffefefeXbenedict|r",
-			[51] = 1556733288,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [126]
+			[51] = 1579638513,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [125]
 		{
-			"gg nno void", -- [1]
-			"Shishatea-TarrenMill", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:13124:Player-1305-09C2949D:1:2:18:20:4294967295:4294967295:4294967295:4294967295|h[Metal Detector]|h|r!", -- [1]
+			"Conjeco-Kazzak", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Shishatea-TarrenMill", -- [5]
+			"Conjeco-Kazzak", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			160, -- [11]
-			"Player-1084-08B9ECFB", -- [12]
+			2855, -- [11]
+			"Player-1305-09C2949D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Shishatea-TarrenMill|r",
-			[51] = 1556733291,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cfffe7b09Conjeco|r",
+			[51] = 1582042014,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [126]
+		{
+			"(:", -- [1]
+			"Koldekevin-Kazzak", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			902, -- [11]
+			"Player-1305-0A0E7062", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec5e9Koldekevin|r",
+			[51] = 1592426558,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [127]
 	},
 	["BodyGuard"] = {
-		["IsInValidZone"] = true,
-		["MaxHealth"] = 0,
-		["Health"] = 0,
 		["Active"] = false,
+		["Health"] = 0,
+		["MaxHealth"] = 0,
+		["IsInValidZone"] = true,
 	},
 	["ChatEditHistory"] = {
-		"/raid tempest hello?", -- [1]
-		"/raid Yep too little priority dps", -- [2]
-		"/cw Ægroto-Doomhammer |cffffff00|Hachievement:13418:Player-1305-09E89A02:1:4:19:19:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Uu'nat, Harbinger of the Void]|h|r'", -- [3]
-		"/cw Hacchi-BurningLegion |cffffff00|Hachievement:13418:Player-1305-09E89A02:1:4:19:19:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Uu'nat, Harbinger of the Void]|h|r", -- [4]
-		"/cw Beetzhunt-Draenor |cffffff00|Hachievement:13418:Player-1305-09E89A02:1:4:19:19:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Uu'nat, Harbinger of the Void]|h|r", -- [5]
-		"/cw Hacchi-BurningLegion Well depends on the strat I guess, first intermission after add kill or not at all is usaully what I do", -- [6]
-		"/cw Yttap-TwistingNether |cffffff00|Hachievement:13418:Player-1305-09E89A02:1:4:19:19:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Uu'nat, Harbinger of the Void]|h|r", -- [7]
-		"/cw Bulmaa-Thrall |cffffff00|Hachievement:13418:Player-1305-09E89A02:1:4:19:19:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Uu'nat, Harbinger of the Void]|h|r", -- [8]
-		"/cw Belzarias-TwistingNether |cffffff00|Hachievement:13418:Player-1305-09E89A02:1:4:19:19:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Uu'nat, Harbinger of the Void]|h|r", -- [9]
-		"/cw Skurts-Stormscale |cffffff00|Hachievement:13418:Player-1305-09E89A02:1:4:19:19:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Uu'nat, Harbinger of the Void]|h|r", -- [10]
-		"/cw Haraw-Archimonde |cffffff00|Hachievement:13418:Player-1305-09E89A02:1:4:19:19:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Uu'nat, Harbinger of the Void]|h|r", -- [11]
-		"/cw Círíllá-TwistingNether |cffffff00|Hachievement:13418:Player-1305-09E89A02:1:4:19:19:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Uu'nat, Harbinger of the Void]|h|r", -- [12]
-		"/cw Desmia-Draenor |cffffff00|Hachievement:13418:Player-1305-09E89A02:1:4:19:19:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Uu'nat, Harbinger of the Void]|h|r", -- [13]
-		"/cw Radulo-Stormscale |cffffff00|Hachievement:13418:Player-1305-09E89A02:1:4:19:19:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Uu'nat, Harbinger of the Void]|h|r", -- [14]
-		"/cw Radulo-Stormscale i just did", -- [15]
-		"/cw Radulo-Stormscale want me heal or dps?", -- [16]
-		"/raid Ye", -- [17]
-		"/raid u want 2nd void @2nd intermission?", -- [18]
-		"/raid 425 trinket", -- [19]
-		"/raid gg ez", -- [20]
+		"/1 they're pretty garbo tho", -- [1]
+		"/1 there's just a lot of them", -- [2]
+		"/1 warcrate inc", -- [3]
+		"/s can anyone dismount him?", -- [4]
+		"/s yes", -- [5]
+		"/s blizzard server quality", -- [6]
+		"/s just blizz server quality", -- [7]
+		"/1 Any groups?", -- [8]
+		"/s inv to grp", -- [9]
+		"/s rip", -- [10]
+		"/p Better be decaf my man", -- [11]
+		"/p or your never gonna sleep", -- [12]
+		"/p Rip ur sleep", -- [13]
+		"/p I just made a coco caramel on mine :P", -- [14]
+		"/cw Ironstein-Sylvanas I don't think mine has levels like you mentioned", -- [15]
+		"/cw Ironstein-Sylvanas I can get some called \"Intenso\" is all", -- [16]
+		"/cw Ironstein-Sylvanas theres them, normal and decaf", -- [17]
+		"/p |cffa335ee|Hitem:165581::154126::::::120:258::3:4:4798:1808:1507:4786:::|h[Crest of Pa'ku]|h|r", -- [18]
+		"/i Ur mid encounter?", -- [19]
+		"/i do we not need to kill them?", -- [20]
 	},
 }

@@ -1,6 +1,52 @@
 
+OmniCCDB = {
+	["global"] = {
+		["addonVersion"] = "9.0.1",
+		["dbVersion"] = 5,
+	},
+	["profileKeys"] = {
+		["Achilina - Draenor"] = "Default",
+		["Xbenedict - Kazzak"] = "Default",
+		["Trixxadin - Tarren Mill"] = "Default",
+		["Achilina - Ravencrest"] = "Default",
+		["Quelith - Draenor"] = "Default",
+		["Shanonymous - Tarren Mill"] = "Default",
+		["Artefoxy - Tarren Mill"] = "Default",
+		["Trixxedosaur - Tarren Mill"] = "Default",
+		["Lycotonum - Tarren Mill"] = "Default",
+		["Trixxed - Kazzak"] = "Default",
+		["Shankspeare - Tarren Mill"] = "Default",
+		["Trixxedbank - Tarren Mill"] = "Default",
+		["Lupalia - Ravencrest"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["themes"] = {
+				["Default"] = {
+					["textStyles"] = {
+						["seconds"] = {
+						},
+						["minutes"] = {
+						},
+						["soon"] = {
+						},
+						["charging"] = {
+							["b"] = 0.4,
+							["scale"] = 0.65,
+							["g"] = 0.98,
+							["r"] = 1,
+						},
+					},
+					["fontFace"] = "Interface\\AddOns\\ClearFont2\\Fonts\\Calibri_v0.9\\Calibri.ttf",
+					["minSize"] = 0.51,
+					["spiralOpacity"] = 1.009999977424741,
+					["minDuration"] = 3,
+				},
+			},
+		},
+	},
+}
 OmniCC4Config = {
-	["version"] = "5.4.3",
 	["groupSettings"] = {
 		["base"] = {
 			["enabled"] = true,
@@ -57,7 +103,8 @@ OmniCC4Config = {
 			["yOff"] = 0,
 		},
 	},
-	["engine"] = "AniUpdater",
+	["version"] = "5.4.3",
 	["groups"] = {
 	},
+	["engine"] = "AniUpdater",
 }

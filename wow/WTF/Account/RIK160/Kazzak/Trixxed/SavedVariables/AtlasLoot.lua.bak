@@ -11,9 +11,11 @@ AtlasLootCharDB = {
 	},
 	["GUI"] = {
 		["selected"] = {
-			[5] = 0,
-			[2] = "EyeOfAzshara",
-			[4] = 1,
+			"AtlasLoot_MistsofPandaria", -- [1]
+			"EyeOfAzshara", -- [2]
+			nil, -- [3]
+			1, -- [4]
+			0, -- [5]
 		},
 	},
 	["__addonrevision"] = 4325,

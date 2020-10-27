@@ -1,0 +1,23 @@
+
+HandyNotes_MechagonAndNazjatarDB = {
+	["profileKeys"] = {
+		["Trixxedbank - Kazzak"] = "Default",
+		["Achilina - Draenor"] = "Default",
+		["Shanonymous - Tarren Mill"] = "Default",
+		["Trixxadin - Tarren Mill"] = "Default",
+		["Artefoxy - Tarren Mill"] = "Default",
+		["Quelith - Draenor"] = "Default",
+		["Trixxedosaur - Tarren Mill"] = "Default",
+		["Achilina - Ravencrest"] = "Default",
+		["Lycotonum - Tarren Mill"] = "Default",
+		["Xbenedict - Kazzak"] = "Default",
+		["Trixxed - Kazzak"] = "Default",
+		["Shankspeare - Tarren Mill"] = "Default",
+		["Trixxedbank - Draenor"] = "Default",
+		["Lupalia - Ravencrest"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

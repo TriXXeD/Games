@@ -2797,10 +2797,10 @@ ElvCharacterDB = {
 		}, -- [127]
 	},
 	["BodyGuard"] = {
-		["IsInValidZone"] = true,
-		["MaxHealth"] = 97854,
-		["Health"] = 97854,
 		["Active"] = false,
+		["Health"] = 97854,
+		["MaxHealth"] = 97854,
+		["IsInValidZone"] = true,
 	},
 	["ChatEditHistory"] = {
 		"/who elithia", -- [1]

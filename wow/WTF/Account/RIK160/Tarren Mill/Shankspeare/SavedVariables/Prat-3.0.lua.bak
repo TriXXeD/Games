@@ -1,0 +1,1508 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["time"] = 1588178513,
+	["scrollback"] = {
+		["ChatFrame5"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 100,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame4"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 100,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 100,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame7"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 100,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame6"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 100,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame8"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 100,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame10"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 100,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame9"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 100,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:39:10]|h|r |cffb2b2b2[22:39]|r Da'kani Highbrow says: By this hand, I will supplant your teeth!",
+					["serverTime"] = 1603571949,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						34, -- [2]
+						35, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 429587.215,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:39:31]|h|r |cffb2b2b2[22:39]|r You receive loot: |cffffffff|Hitem:154898::::::::44:260:::::::|h[Meaty Haunch]|h|rx2.",
+					["serverTime"] = 1603571970,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 429608.199,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:39:31]|h|r |cffb2b2b2[22:39]|r You receive loot: |cff9d9d9d|Hitem:158740::::::::44:260:::::::|h[Pearly Incisor]|h|r.",
+					["serverTime"] = 1603571970,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 429608.199,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:39:31]|h|r |cffb2b2b2[22:39]|r You receive loot: |cff9d9d9d|Hitem:158870::::::::44:260:::::::|h[Wooly Hair]|h|r.",
+					["serverTime"] = 1603571970,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 429608.199,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:40:05]|h|r |cffb2b2b2[22:40]|r You receive loot: |cff9d9d9d|Hitem:158870::::::::44:260:::::::|h[Wooly Hair]|h|rx2.",
+					["serverTime"] = 1603572004,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 429642.335,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:40:21]|h|r |cffb2b2b2[22:40]|r Zayoos says: Feel my power!",
+					["serverTime"] = 1603572020,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						34, -- [2]
+						35, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 429658.403,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:40:57]|h|r |cffb2b2b2[22:40]|r You receive loot: |cff9d9d9d|Hitem:158870::::::::44:260:::::::|h[Wooly Hair]|h|r.",
+					["serverTime"] = 1603572056,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 429693.973,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:40:57]|h|r |cffb2b2b2[22:40]|r You receive loot: |cff0070dd|Hitem:161125::::::::44:260::19:1:4776:2:28:189:9:44:::|h[Kaja-fied Banana]|h|r.",
+					["serverTime"] = 1603572056,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 429693.989,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:41:17]|h|r |cffb2b2b2[22:41]|r Your skill in Zandalari Herbalism has increased to 38.",
+					["serverTime"] = 1603572076,
+					["r"] = 0.3333333432674408,
+					["extraData"] = {
+						27, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 429714.541,
+					["g"] = 0.3333333432674408,
+					["b"] = 1,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:41:17]|h|r |cffb2b2b2[22:41]|r You receive loot: |cffffffff|Hitem:152506::::::::44:260:::::::|h[Star Moss]|h|rx2.",
+					["serverTime"] = 1603572076,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 429714.624,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:41:22]|h|r |cffb2b2b2[22:41]|r |TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq41|k:67:1794:BN_INLINE_TOAST_ALERT:0|h[|Kq41|k]|h has gone offline.",
+					["serverTime"] = 1603572081,
+					["r"] = 0.5098039507865906,
+					["extraData"] = {
+						54, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 429719.925,
+					["g"] = 0.7725490927696228,
+					["b"] = 1,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:41:35]|h|r |cffb2b2b2[22:41]|r You receive loot: |cff9d9d9d|Hitem:158740::::::::44:260:::::::|h[Pearly Incisor]|h|r.",
+					["serverTime"] = 1603572094,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 429732.159,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:41:47]|h|r |cffb2b2b2[22:41]|r You receive loot: |cffffffff|Hitem:154898::::::::44:260:::::::|h[Meaty Haunch]|h|rx2.",
+					["serverTime"] = 1603572106,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 429744.86,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:41:47]|h|r |cffb2b2b2[22:41]|r You receive loot: |cff9d9d9d|Hitem:158870::::::::44:260:::::::|h[Wooly Hair]|h|rx2.",
+					["serverTime"] = 1603572106,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 429744.86,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:41:54]|h|r |cffb2b2b2[22:41]|r Tsunga says: I am not a fighter. I will meet you deeper in the gorge when you have freed my brethren.",
+					["serverTime"] = 1603572113,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						34, -- [2]
+						35, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 429751.027,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:41:54]|h|r |cffb2b2b2[22:41]|r Quest accepted: Gorilla Warfare",
+					["serverTime"] = 1603572113,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 429751.11,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:42:08]|h|r |cffb2b2b2[22:42]|r You receive loot: |cff9d9d9d|Hitem:158781::::::::44:260:::::::|h[Pilfered Curio]|h|r.",
+					["serverTime"] = 1603572127,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 429765.195,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:42:08]|h|r |cffb2b2b2[22:42]|r You receive loot: |cff9d9d9d|Hitem:158870::::::::44:260:::::::|h[Wooly Hair]|h|r.",
+					["serverTime"] = 1603572127,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 429765.195,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:42:12]|h|r |cffb2b2b2[22:42]|r Peace-Loving Gorilla says: Thank you, friend.",
+					["serverTime"] = 1603572131,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						34, -- [2]
+						35, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 429769.129,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:42:22]|h|r |cffb2b2b2[22:42]|r Peace-Loving Gorilla says: Thank you, friend.",
+					["serverTime"] = 1603572141,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						34, -- [2]
+						35, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 429779.146,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:42:22]|h|r |cffb2b2b2[22:42]|r You receive loot: |cff9d9d9d|Hitem:158870::::::::44:260:::::::|h[Wooly Hair]|h|r.",
+					["serverTime"] = 1603572141,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 429779.696,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:42:33]|h|r |cffb2b2b2[22:42]|r Peace-Loving Gorilla says: Thank you, friend.",
+					["serverTime"] = 1603572152,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						34, -- [2]
+						35, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 429790.597,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:42:34]|h|r |cffb2b2b2[22:42]|r You receive loot: |cffffffff|Hitem:154898::::::::44:260:::::::|h[Meaty Haunch]|h|r.",
+					["serverTime"] = 1603572153,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 429791.014,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:42:34]|h|r |cffb2b2b2[22:42]|r You receive loot: |cff9d9d9d|Hitem:158870::::::::44:260:::::::|h[Wooly Hair]|h|r.",
+					["serverTime"] = 1603572153,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 429791.014,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:42:48]|h|r |cffb2b2b2[22:42]|r Your skill in Zandalari Herbalism has increased to 39.",
+					["serverTime"] = 1603572167,
+					["r"] = 0.3333333432674408,
+					["extraData"] = {
+						27, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 429805.632,
+					["g"] = 0.3333333432674408,
+					["b"] = 1,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:42:48]|h|r |cffb2b2b2[22:42]|r You receive loot: |cffffffff|Hitem:152509::::::::44:260:::::::|h[Siren's Pollen]|h|rx2.",
+					["serverTime"] = 1603572167,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 429805.698,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:42:49]|h|r |cffb2b2b2[22:42]|r You receive loot: |cffffffff|Hitem:154898::::::::44:260:::::::|h[Meaty Haunch]|h|rx5.",
+					["serverTime"] = 1603572168,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 429806.481,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:42:49]|h|r |cffb2b2b2[22:42]|r You receive loot: |cff9d9d9d|Hitem:158870::::::::44:260:::::::|h[Wooly Hair]|h|rx2.",
+					["serverTime"] = 1603572168,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 429806.481,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:42:51]|h|r |cffb2b2b2[22:42]|r Peace-Loving Gorilla says: Thank you, friend.",
+					["serverTime"] = 1603572170,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						34, -- [2]
+						35, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 429808.565,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:43:03]|h|r |cffb2b2b2[22:43]|r Reputation with Zandalari Empire increased by 150.",
+					["serverTime"] = 1603572182,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 429820.899,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:43:03]|h|r |cffb2b2b2[22:43]|r Experience gained: 13200.",
+					["serverTime"] = 1603572182,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 429820.899,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:43:03]|h|r |cffb2b2b2[22:43]|r Received 39 Gold, 14 Silver, 40 Copper.",
+					["serverTime"] = 1603572182,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 429820.899,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:43:05]|h|r |cffb2b2b2[22:43]|r Peace-Loving Gorilla says: Thank you, friend.",
+					["serverTime"] = 1603572184,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						34, -- [2]
+						35, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 429822.366,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:43:06]|h|r |cffb2b2b2[22:43]|r You receive loot: |cff9d9d9d|Hitem:158740::::::::44:260:::::::|h[Pearly Incisor]|h|r.",
+					["serverTime"] = 1603572185,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 429823.099,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:43:19]|h|r |cffb2b2b2[22:43]|r Peace-Loving Gorilla says: Thank you, friend.",
+					["serverTime"] = 1603572198,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						34, -- [2]
+						35, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 429836.934,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:43:20]|h|r |cffb2b2b2[22:43]|r You receive loot: |cff9d9d9d|Hitem:158870::::::::44:260:::::::|h[Wooly Hair]|h|rx2.",
+					["serverTime"] = 1603572199,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 429837.534,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:43:29]|h|r |cffb2b2b2[22:43]|r Reputation with Zandalari Empire increased by 150.",
+					["serverTime"] = 1603572208,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 429846.418,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:43:29]|h|r |cffb2b2b2[22:43]|r Gorilla Warfare completed.",
+					["serverTime"] = 1603572208,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 429846.418,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:43:29]|h|r |cffb2b2b2[22:43]|r Experience gained: 6600.",
+					["serverTime"] = 1603572208,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 429846.418,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:43:29]|h|r |cffb2b2b2[22:43]|r Received 19 Gold, 57 Silver, 20 Copper.",
+					["serverTime"] = 1603572208,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 429846.418,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:43:29]|h|r |cffb2b2b2[22:43]|r Tsunga says: With my brethren freed, I will seek out the Zandalari in the village. There is nothing left for us here.",
+					["serverTime"] = 1603572208,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						34, -- [2]
+						35, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 429846.585,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:43:50]|h|r |cffb2b2b2[22:43]|r Da'kani Highbrow says: You are a fool and coward!",
+					["serverTime"] = 1603572229,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						34, -- [2]
+						35, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 429867.87,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:44:04]|h|r |cffb2b2b2[22:44]|r You receive loot: |cff9d9d9d|Hitem:158870::::::::44:260:::::::|h[Wooly Hair]|h|r.",
+					["serverTime"] = 1603572243,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 429881.437,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:44:04]|h|r |cffb2b2b2[22:44]|r You receive loot: |cff9d9d9d|Hitem:158740::::::::44:260:::::::|h[Pearly Incisor]|h|r.",
+					["serverTime"] = 1603572243,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 429881.437,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:44:08]|h|r |cffb2b2b2[22:44]|r Your skill in Zandalari Herbalism has increased to 40.",
+					["serverTime"] = 1603572247,
+					["r"] = 0.3333333432674408,
+					["extraData"] = {
+						27, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 429885.071,
+					["g"] = 0.3333333432674408,
+					["b"] = 1,
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:44:08]|h|r |cffb2b2b2[22:44]|r You receive loot: |cffffffff|Hitem:152509::::::::44:260:::::::|h[Siren's Pollen]|h|r.",
+					["serverTime"] = 1603572247,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 429885.204,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:44:24]|h|r |cffb2b2b2[22:44]|r Reputation with Zandalari Empire increased by 150.",
+					["serverTime"] = 1603572263,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 429901.439,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:44:24]|h|r |cffb2b2b2[22:44]|r Kaja'mite Ore Bust completed.",
+					["serverTime"] = 1603572263,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 429901.439,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:44:24]|h|r |cffb2b2b2[22:44]|r Experience gained: 6600.",
+					["serverTime"] = 1603572263,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 429901.439,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:44:24]|h|r |cffb2b2b2[22:44]|r Received 19 Gold, 57 Silver, 20 Copper.",
+					["serverTime"] = 1603572263,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 429901.439,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:44:24]|h|r |cffb2b2b2[22:44]|r Bently Greaseflare says: This could mean big things for us. Big! Now if only there were some friendly gorillas to help us out with that kaja'mite...",
+					["serverTime"] = 1603572263,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						34, -- [2]
+						35, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 429901.756,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [51]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:44:24]|h|r |cffb2b2b2[22:44]|r Reputation with Zandalari Empire increased by 300.",
+					["serverTime"] = 1603572263,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 429901.856,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [52]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:44:24]|h|r |cffb2b2b2[22:44]|r You have earned the title 'Shankspeare the Dreamer'.",
+					["serverTime"] = 1603572263,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 429901.856,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [53]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:44:24]|h|r |cffb2b2b2[22:44]|r You have earned the title 'Shankspeare, Vengeance Incarnate'.",
+					["serverTime"] = 1603572263,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 429901.856,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:44:24]|h|r |cffb2b2b2[22:44]|r You have earned the title 'Titanslayer Shankspeare'.",
+					["serverTime"] = 1603572263,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 429901.856,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [55]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:44:24]|h|r |cffb2b2b2[22:44]|r Congratulations, you have reached |cffFF4E00|Hlevelup:45:LEVEL_UP_TYPE_CHARACTER|h[Level 45]|h|r!",
+					["serverTime"] = 1603572263,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 429901.889,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [56]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:44:25]|h|r |cffb2b2b2[22:44]|r King Da'ka completed.",
+					["serverTime"] = 1603572264,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 429901.889,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [57]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:44:25]|h|r |cffb2b2b2[22:44]|r Experience gained: 8250.",
+					["serverTime"] = 1603572264,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 429901.889,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [58]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:44:25]|h|r |cffb2b2b2[22:44]|r Received 39 Gold, 14 Silver, 40 Copper.",
+					["serverTime"] = 1603572264,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 429901.889,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [59]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:44:31]|h|r |cffb2b2b2[22:44]|r Tsunga says: My friend, my comrades and I are not warlike. We will not assist with your foolish endeavor.",
+					["serverTime"] = 1603572270,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						34, -- [2]
+						35, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 429908.773,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [60]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:44:48]|h|r |cffb2b2b2[22:44]|r You have learned a new passive effect: |cff71d5ff|Hspell:256170:0|h[Loaded Dice]|h|r.",
+					["serverTime"] = 1603572287,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 429925.591,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [61]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:44:52]|h|r |cffb2b2b2[22:44]|r Changed Channel: |Hchannel:CHANNEL:1|h[1. General - Dazar'alor]|h",
+					["serverTime"] = 1603572291,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						38, -- [2]
+						39, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 429929.191,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [62]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:44:52]|h|r |cffb2b2b2[22:44]|r Changed Channel: |Hchannel:CHANNEL:2|h[2. Trade - City]|h",
+					["serverTime"] = 1603572291,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						50, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 429929.191,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [63]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:44:52]|h|r |cffb2b2b2[22:44]|r Changed Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Dazar'alor]|h",
+					["serverTime"] = 1603572291,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						40, -- [2]
+						41, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 429929.191,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [64]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:44:52]|h|r |cffb2b2b2[22:44]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sylvtaren-TarrenMill:1869:2|h[|cffa9d271Sylvtaren|r]|h: FREE ARMOR STACK *** M+15 100k in Time *** <SYLVANAS>(BIG DISCOUNT FOR 5 OR 4 OR 3 RUN}>M+20 400k all loot is yours>>((3x15 280k))*((5x15 410k))*((KEYSTONE MASTER)) |cff66bbff|Hjournal:0:1180:14|h[Ny'alotha, the Waking City]|h|r VIP TRADER (JAINA)/W ME",
+					["serverTime"] = 1603572291,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						17, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 429929.775,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [65]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:44:52]|h|r |cffb2b2b2[22:44]|r |Hchannel:channel:2|h[2]|h |Hplayer:Novabôost-TarrenMill:1870:2|h[|cff006fdcNovabôost|r]|h: <<NOVA>>M+15(90k) 2xM+15(171k)Free Armor Stack 4xM+15(333K) [Ny'alotht City]12/12 Hc140k PER Trader 60k||12/12 Mythic  3000k+3xFree Trader||Vision 5 Mask 70k||Jaina Mount 350k||Mecha Mount (130K) Hivemind Mount(160k)||Lvl Up 10-50 (300k)",
+					["serverTime"] = 1603572291,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						20, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 429929.775,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [66]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:44:56]|h|r |cffb2b2b2[22:44]|r |Hchannel:channel:2|h[2]|h |Hplayer:Asdwsd-TarrenMill:1871:2|h[|cffc59a6cAsdwsd|r]|h: WTS |cff71d5ff|Hspell:261395:0|h[The Hivemind]|h|r|cff71d5ff|Hspell:148392:0|h[Spawn of Galakras]|h|r|cff71d5ff|Hspell:253087:0|h[Antoran Gloomhound]|h|r|cff71d5ff|Hspell:290718:0|h[Aerial Unit R-21/X]|h|r  /w me for info ( ONLY GOLD )",
+					["serverTime"] = 1603572295,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						73, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 429933.858,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [67]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:44:57]|h|r |cffb2b2b2[22:44]|r |Hchannel:channel:2|h[2]|h |Hplayer:Koftisdh-TarrenMill:1872:2|h[|cffa22fc8Koftisdh|r]|h: <OBLIVION Community> SELLING JAINA MOUNT  |cffa335ee|Hitem:166705::::::::50:577:::::::|h[Glacial Tidestorm]|h|r for only 330K! Also N'zoth MYTHIC mount |cffa335ee|Hitem:174872::::::::50:265:::::::|h[Ny'alotha Allseer]|h|r / MANY services/M+/HC / PVP /",
+					["serverTime"] = 1603572296,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						74, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 429934.058,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [68]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:44:57]|h|r |cffb2b2b2[22:44]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sylvaboostt-TarrenMill:1873:2|h[|cfff38bb9Sylvaboostt|r]|h: Sylvanas Community||^ FREE ARMOR STACK ^ ||^M+15 JUST FOR 100k ^|| M+16 JUST 140k || 3x run +15 285k  ||  5x run +15 420k || Horrific Visions ||  Ny'alotha HC  / Mythic / Nzoth MOUNT  TONGIHT  || Jaina MounT 300k NOW || PVP Boost || LVL UP BOOST",
+					["serverTime"] = 1603572296,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						75, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 429934.525,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [69]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:44:58]|h|r |cffb2b2b2[22:44]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sallenøva-TarrenMill:1874:2|h[|cff00fe97Sallenøva|r]|h: <<NOVA>> Is OFFERING ||M+15=90k|| ||2x15=171k|| ||4x15=333k||||Nya Full HeroiC=140k, Trader=60k|| ||Nya Full MythiC + 3 Trader=3000k|| ||Nzoth MythiC + Mount=2000k||||Jaina Mount=350k|| ||5 Mask=70k|| ||Leveling Boost 10-50||",
+					["serverTime"] = 1603572297,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						22, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 429934.992,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [70]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:44:58]|h|r |cffb2b2b2[22:44]|r |Hchannel:channel:2|h[2]|h |Hplayer:Peymanpj-TarrenMill:1875:2|h[|cfffe7b09Peymanpj|r]|h: WTS level up boost  10-50 |cff66bbff|Hjournal:0:1001:1|h[Freehold]|h|r",
+					["serverTime"] = 1603572297,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						44, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 429935.242,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [71]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:45:00]|h|r |cffb2b2b2[22:45]|r |Hchannel:channel:2|h[2]|h |Hplayer:Novaboostqtt-TarrenMill:1876:2|h[|cff8687edNovaboostqtt|r]|h: < NOVA > is OFFERING [M+15=90k] --[2x M+15=171k] -- [4x M+15=333k] --/Nyalotha Heroic 140k- VIP trader only 60k!-/Nyalotha Mythic 12/12+3VIP trader for 3000k-/Jaina mount 350k--/5mask=70k -/Level Up boost lvl 10-50 --/Mythic N'Zoth + Mount=2MIL",
+					["serverTime"] = 1603572299,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						5, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 429937.325,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [72]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:45:03]|h|r |cffb2b2b2[22:45]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sylvnasboost-TarrenMill:1877:2|h[|cffc59a6cSylvnasboost|r]|h: FREE ARMOR STACK (Sylvanas Boost Community )  +14 [100K]/+15 [100k] / x5 M+ 15 [ 420k] /+16 [140k] / +17 [200k]  / 18 [250k]/ Nylotha HC  / JAINA MOUNT ( BEAST DEAL ON MYTHIC NYLOTHA 12/12 MYTHIC  LIMITED SPOTS ! )",
+					["serverTime"] = 1603572302,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						3, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 429940.525,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [73]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:45:03]|h|r |cffb2b2b2[22:45]|r |Hchannel:channel:2|h[2]|h |Hplayer:Crazybone-TarrenMill:1878:2|h[|cfffef367Crazybone|r]|h: WTS |cff66bbff|Hjournal:0:1001:1|h[Freehold]|h|r LVL UP10-50 BOOST FAST SMOOTH RUNS AND FAIR PRICE |cff66bbff|Hjournal:0:1001:1|h[Freehold]|h|r. WISP ME FOR INFO ",
+					["serverTime"] = 1603572302,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						46, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 429940.842,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [74]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:45:08]|h|r |cffb2b2b2[22:45]|r |Hchannel:channel:2|h[2]|h |Hplayer:Narionen-TarrenMill:1879:2|h[|cffc59a6cNarionen|r]|h: WTS freehold boosts! fast and easy, level range 10-50, pm for details!",
+					["serverTime"] = 1603572307,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						76, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 429945.026,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [75]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:45:08]|h|r |cffb2b2b2[22:45]|r |Hchannel:channel:2|h[2]|h |Hplayer:Peymanpj-TarrenMill:1880:2|h[|cfffe7b09Peymanpj|r]|h: WTS level up boost  10-50 |cff66bbff|Hjournal:0:1001:1|h[Freehold]|h|r",
+					["serverTime"] = 1603572307,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						44, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 429945.592,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [76]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:45:08]|h|r |cffb2b2b2[22:45]|r |Hchannel:channel:2|h[2]|h |Hplayer:Novabôost-TarrenMill:1881:2|h[|cff006fdcNovabôost|r]|h: <<NOVA>>M+15(90k) 2xM+15(171k)Free Armor Stack 4xM+15(333K) [Ny'alotht City]12/12 Hc140k PER Trader 60k||12/12 Mythic  3000k+3xFree Trader||Vision 5 Mask 70k||Jaina Mount 350k||Mecha Mount (130K) Hivemind Mount(160k)||Lvl Up 10-50 (300k)",
+					["serverTime"] = 1603572307,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						20, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 429945.592,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [77]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:45:17]|h|r |cffb2b2b2[22:45]|r You feel rested.",
+					["serverTime"] = 1603572316,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 429954.66,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [78]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:45:18]|h|r |cffb2b2b2[22:45]|r |Hchannel:channel:2|h[2]|h |Hplayer:Hydraboostcm-TarrenMill:1883:2|h[|cffc59a6cHydraboostcm|r]|h: <Hydra> WTS |cffffff00|Hachievement:8721:Player-3674-0A5663DF:1:6:14:20:4294967295:4294967295:4294967295:4294967295|h[Fire-Watcher]|h|r Get your Fire-Watcher Title+|cff71d5ff|Hspell:148428:0|h[Ashhide Mushan Beast]|h|r+Pet 120K || Only Mount 50K /w me",
+					["serverTime"] = 1603572317,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						12, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 429955.527,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [79]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:45:19]|h|r |cffb2b2b2[22:45]|r |Hchannel:channel:2|h[2]|h |Hplayer:Helperteam-TarrenMill:1884:2|h[|cfffef367Helperteam|r]|h: <Premade and Friends>  +10/+16 Boosting Team is ready and more High keys Available.. Discount for multiple runs! Armor stack and specific key options..Mechagon Mount Run. FH leveling Boost (NEW SYSTEM)../w for more info.",
+					["serverTime"] = 1603572318,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						49, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 429956.043,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [80]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:45:20]|h|r |cffb2b2b2[22:45]|r |Hchannel:channel:2|h[2]|h |Hplayer:Crazybone-TarrenMill:1885:2|h[|cfffef367Crazybone|r]|h: WTS |cff66bbff|Hjournal:0:1001:1|h[Freehold]|h|r LVL UP10-50 BOOST FAST SMOOTH RUNS AND FAIR PRICE |cff66bbff|Hjournal:0:1001:1|h[Freehold]|h|r. WISP ME FOR INFO ",
+					["serverTime"] = 1603572319,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						46, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 429957.893,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [81]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:45:21]|h|r |cffb2b2b2[22:45]|r |Hchannel:channel:2|h[2]|h |Hplayer:Rethead-TarrenMill:1886:2|h[|cfff38bb9Rethead|r]|h: WTS |cffa335ee|Hitem:21025::::::::50:70:::::::|h[Recipe: Dirge's Kickin' Chimaerok Chops]|h|r|cffa335ee|Hitem:21025::::::::50:70:::::::|h[Recipe: Dirge's Kickin' Chimaerok Chops]|h|r|cffa335ee|Hitem:21025::::::::50:70:::::::|h[Recipe: Dirge's Kickin' Chimaerok Chops]|h|r|cffa335ee|Hitem:21025::::::::50:70:::::::|h[Recipe: Dirge's Kickin' Chimaerok Chops]|h|r|cffa335ee|Hitem:21025::::::::50:70:::::::|h[Recipe: Dirge's Kickin' Chimaerok Chops]|h|r",
+					["serverTime"] = 1603572320,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						77, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 429958.127,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [82]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:45:24]|h|r |cffb2b2b2[22:45]|r |Hchannel:channel:2|h[2]|h [|cffE7E716DND|r] |Hplayer:Dríp-TarrenMill:1887:2|h[|cff3ec6eaDríp|r]|h: <Maw Community> |cFFFFFFFF[|Hurl:https://discord.gg/UsFUqUf|hhttps://discord.gg/UsFUqUf|h]|r Join our discord and apply as a booster/advertiser!",
+					["serverTime"] = 1603572323,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						54, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 429961.694,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [83]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:45:25]|h|r |cffb2b2b2[22:45]|r |Hchannel:channel:2|h[2]|h |Hplayer:Vegitoadvb-TarrenMill:1888:2|h[|cff00fe97Vegitoadvb|r]|h: Dawn Community || WTS >>MYTHIC+<< (10-25) GUARANTEED in time. Armor Stacks & Specific I Ny'alotha 12/12 Mythic || NZOTH MOUNT M || JAINA MOUNT || 10-50 Leveling || Gold only || Whisper for more info! 30 MILLION GIVEAWAY: |cFFFFFFFF[|Hurl:https://discord.gg/Bf7TDAb|hhttps://discord.gg/Bf7TDAb|h]|r ",
+					["serverTime"] = 1603572324,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						2, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 429962.944,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [84]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:45:26]|h|r |cffb2b2b2[22:45]|r AAP: Equipment has been repaired for 31|TInterface\\MoneyFrame\\UI-CopperIcon:14:14:2:0|t",
+					["timestamp"] = 429962.994,
+					["extraData"] = {
+						["n"] = 3,
+					},
+					["serverTime"] = 1603572325,
+				}, -- [85]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:45:26]|h|r |cffb2b2b2[22:45]|r AAP: Items were sold for 95|TInterface\\MoneyFrame\\UI-GoldIcon:14:14:2:0|t 27|TInterface\\MoneyFrame\\UI-SilverIcon:14:14:2:0|t 30|TInterface\\MoneyFrame\\UI-CopperIcon:14:14:2:0|t",
+					["timestamp"] = 429962.994,
+					["extraData"] = {
+						["n"] = 3,
+					},
+					["serverTime"] = 1603572325,
+				}, -- [86]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:45:26]|h|r |cffb2b2b2[22:45]|r |Hchannel:channel:2|h[2]|h |Hplayer:Soltoun-TarrenMill:1889:2|h[|cffa22fc8Soltoun|r]|h: WTS|cffa335ee|Hitem:156798::::::::50:577::2:::::|h[The Hivemind]|h|rIf you want, I will take you in the middle of work",
+					["serverTime"] = 1603572325,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						51, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 429963.327,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [87]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:45:26]|h|r |cffb2b2b2[22:45]|r |cfffef367ElvUI:|r Your items have been repaired using guild bank funds for: 31|cffeda55fc|r",
+					["timestamp"] = 429963.494,
+					["extraData"] = {
+						["n"] = 3,
+					},
+					["serverTime"] = 1603572325,
+				}, -- [88]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:45:27]|h|r |cffb2b2b2[22:45]|r |cfffef367ElvUI:|r Vendored gray items for: 25|cffffd700g|r 11|cffc7c7cfs|r 66|cffeda55fc|r",
+					["timestamp"] = 429964.494,
+					["extraData"] = {
+						["n"] = 3,
+					},
+					["serverTime"] = 1603572326,
+				}, -- [89]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:45:29]|h|r |cffb2b2b2[22:45]|r |Hchannel:channel:2|h[2]|h |Hplayer:Soltoun-TarrenMill:1890:2|h[|cffa22fc8Soltoun|r]|h: WTS|cffa335ee|Hitem:156798::::::::50:577::2:::::|h[The Hivemind]|h|rIf you want, I will take you in the middle of work",
+					["serverTime"] = 1603572328,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						51, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 429966.611,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [90]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:45:35]|h|r |cffb2b2b2[22:45]|r |Hchannel:channel:2|h[2]|h |Hplayer:Iccevil-TarrenMill:1892:2|h[|cffa9d271Iccevil|r]|h: <Icecrown> WTS  |cff71d5ff|Hspell:58983:0|h[Big Blizzard Bear]|h|r - Limited edition mount for the 2008 Blizzcon event! /w Me for more info!",
+					["serverTime"] = 1603572334,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						78, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 429972.011,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [91]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:45:36]|h|r |cffb2b2b2[22:45]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sylvnasboost-TarrenMill:1893:2|h[|cffc59a6cSylvnasboost|r]|h: FREE ARMOR STACK (Sylvanas Boost Community )  +14 [100K]/+15 [100k] / x5 M+ 15 [ 420k] /+16 [140k] / +17 [200k]  / 18 [250k]/ Nylotha HC  / JAINA MOUNT ( BEAST DEAL ON MYTHIC NYLOTHA 12/12 MYTHIC  LIMITED SPOTS ! )",
+					["serverTime"] = 1603572335,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						3, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 429973.528,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [92]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:45:38]|h|r |cffb2b2b2[22:45]|r |Hchannel:channel:2|h[2]|h |Hplayer:Hydraboostcm-TarrenMill:1894:2|h[|cffc59a6cHydraboostcm|r]|h: <Hydra> WTS |cffffff00|Hachievement:8721:Player-3674-0A5663DF:1:6:14:20:4294967295:4294967295:4294967295:4294967295|h[Fire-Watcher]|h|r Get your Fire-Watcher Title+|cff71d5ff|Hspell:148428:0|h[Ashhide Mushan Beast]|h|r+Pet 120K || Only Mount 50K /w me",
+					["serverTime"] = 1603572337,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						12, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 429975.545,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [93]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:45:45]|h|r |cffb2b2b2[22:45]|r |Hchannel:channel:2|h[2]|h |Hplayer:Androiid-TarrenMill:1897:2|h[|cfffe7b09Androiid|r]|h: WTS: M+ keys 11-23 (free armor stack) || Glory Achievements + mounts || Hardmode Mechagon || Freehold 110-120 and ofc the HOT DEAL: |cff71d5ff|Hspell:289555:0|h[Glacial Tidestorm]|h|r /w me for more info!",
+					["serverTime"] = 1603572344,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						79, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 429982.395,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [94]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:45:46]|h|r |cffb2b2b2[22:45]|r Mystic Birdhat says: I am yak rider. And this is my yak.",
+					["serverTime"] = 1603572345,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						34, -- [2]
+						35, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 429983.579,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [95]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:45:47]|h|r |cffb2b2b2[22:45]|r |Hchannel:channel:2|h[2]|h |Hplayer:Lunaxiao-TarrenMill:1900:2|h[|cff00fe97Lunaxiao|r]|h: <Twin Theory> A brand new social guild is recruiting social players to bolster our ranks. We're looking to keep a fun and interactive guild chat and a friendly environment for new players and veterans alike. We may do casual raiding in SL. /w for info",
+					["serverTime"] = 1603572346,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						80, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 429984.795,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [96]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:45:54]|h|r |cffb2b2b2[22:45]|r |Hchannel:channel:2|h[2]|h |Hplayer:Novabôost-TarrenMill:1901:2|h[|cff006fdcNovabôost|r]|h: <<NOVA>>M+15(90k) 2xM+15(171k)Free Armor Stack 4xM+15(333K) [Ny'alotht City]12/12 Hc140k PER Trader 60k||12/12 Mythic  3000k+3xFree Trader||Vision 5 Mask 70k||Jaina Mount 350k||Mecha Mount (130K) Hivemind Mount(160k)||Lvl Up 10-50 (300k)",
+					["serverTime"] = 1603572353,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						20, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 429991.329,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [97]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:45:54]|h|r |cffb2b2b2[22:45]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sylvtaren-TarrenMill:1902:2|h[|cffa9d271Sylvtaren|r]|h: FREE ARMOR STACK *** M+15 100k in Time *** <SYLVANAS>(BIG DISCOUNT FOR 5 OR 4 OR 3 RUN}>M+20 400k all loot is yours>>((3x15 280k))*((5x15 410k))*((KEYSTONE MASTER)) |cff66bbff|Hjournal:0:1180:14|h[Ny'alotha, the Waking City]|h|r VIP TRADER (JAINA)/W ME",
+					["serverTime"] = 1603572353,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						17, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 429991.879,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [98]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:45:57]|h|r |cffb2b2b2[22:45]|r |Hchannel:channel:2|h[2]|h |Hplayer:Rethead-TarrenMill:1903:2|h[|cfff38bb9Rethead|r]|h: WTS |cffa335ee|Hitem:21025::::::::50:70:::::::|h[Recipe: Dirge's Kickin' Chimaerok Chops]|h|r|cffa335ee|Hitem:21025::::::::50:70:::::::|h[Recipe: Dirge's Kickin' Chimaerok Chops]|h|r|cffa335ee|Hitem:21025::::::::50:70:::::::|h[Recipe: Dirge's Kickin' Chimaerok Chops]|h|r|cffa335ee|Hitem:21025::::::::50:70:::::::|h[Recipe: Dirge's Kickin' Chimaerok Chops]|h|r|cffa335ee|Hitem:21025::::::::50:70:::::::|h[Recipe: Dirge's Kickin' Chimaerok Chops]|h|r",
+					["serverTime"] = 1603572356,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						77, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 429994.079,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [99]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:46:04]|h|r |cffb2b2b2[22:46]|r |Hchannel:channel:2|h[2]|h |Hplayer:Helperteam-TarrenMill:1907:2|h[|cfffef367Helperteam|r]|h: <Premade and Friends>  +10/+16 Boosting Team is ready and more High keys Available.. Discount for multiple runs! Armor stack and specific key options..Mechagon Mount Run. FH leveling Boost (NEW SYSTEM)../w for more info.",
+					["serverTime"] = 1603572363,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						49, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 430001.913,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [100]
+			},
+			["maxElements"] = 100,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+	},
+}

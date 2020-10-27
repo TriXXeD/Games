@@ -1,9 +1,98 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0239,
+	["LastVersion"] = 2.0324,
 	["LastPlayerFullName"] = "Quelith-Draenor",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,
+	["ItemLevels"] = {
+		{
+			["ID"] = 170532,
+			["Level"] = 385,
+			["Link"] = "|cffa335ee|Hitem:170532::::::::120:577::11:3:1577:4786:5414:::|h[Honorbound Outrider's Headpiece]|h|r",
+		}, -- [1]
+		{
+			["ID"] = 158075,
+			["Level"] = 407,
+			["Link"] = "|cffe6cc80|Hitem:158075::::::::120:577::11:4:4932:4933:6316:1544:::|h[Heart of Azeroth]|h|r",
+		}, -- [2]
+		{
+			["ID"] = 167764,
+			["Level"] = 385,
+			["Link"] = "|cffa335ee|Hitem:167764::::::::120:577:::5:6296:6300:1472:4786:5415:::|h[Fathomstalker Shoulderpads]|h|r",
+		}, -- [3]
+		nil, -- [4]
+		{
+			["ID"] = 167759,
+			["Level"] = 385,
+			["Link"] = "|cffa335ee|Hitem:167759::::::::120:577:::5:6296:6300:1472:4786:5413:::|h[Fathomstalker Wraps]|h|r",
+		}, -- [5]
+		{
+			["ID"] = 173512,
+			["Level"] = 410,
+			["Link"] = "|cff0070dd|Hitem:173512::::::::120:577::14:4:6412:6513:1467:4785:::|h[Grasp of the Insatiable Maw]|h|r",
+		}, -- [6]
+		{
+			["ID"] = 167763,
+			["Level"] = 385,
+			["Link"] = "|cffa335ee|Hitem:167763::::::::120:577:::2:6288:6300:::|h[Fathomstalker Legwraps]|h|r",
+		}, -- [7]
+		{
+			["ID"] = 169893,
+			["Level"] = 385,
+			["Link"] = "|cffa335ee|Hitem:169893::::::::120:577:::2:6288:6300:::|h[Fathomstalker Boots]|h|r",
+		}, -- [8]
+		{
+			["ID"] = 169813,
+			["Level"] = 385,
+			["Link"] = "|cffa335ee|Hitem:169813::::::::120:577:::2:6288:6300:::|h[Fathomstalker Armbands]|h|r",
+		}, -- [9]
+		{
+			["ID"] = 173440,
+			["Level"] = 410,
+			["Link"] = "|cff0070dd|Hitem:173440::::::::120:577::14:4:6412:6513:1467:4785:::|h[Grips of the Insatiable Maw]|h|r",
+		}, -- [10]
+		{
+			["ID"] = 158151,
+			["Level"] = 375,
+			["AlsoFitsIn"] = 12,
+			["Link"] = "|cff0070dd|Hitem:158151::::::::120:577::26:3:4803:1567:4785:::|h[Zandalari Band]|h|r",
+		}, -- [11]
+		{
+			["ID"] = 152626,
+			["Level"] = 265,
+			["AlsoFitsIn"] = 11,
+			["Link"] = "|cffff8000|Hitem:152626:5423:130215::::::113:577::11:2:1811:3630:::|h[Insignia of the Grand Army]|h|r",
+		}, -- [12]
+		{
+			["ID"] = 169318,
+			["Level"] = 415,
+			["AlsoFitsIn"] = 14,
+			["Link"] = "|cffa335ee|Hitem:169318::::::::120:577::3:3:4798:1487:4786:::|h[Shockbiter's Fang]|h|r",
+		}, -- [13]
+		{
+			["ID"] = 158216,
+			["Level"] = 400,
+			["AlsoFitsIn"] = 13,
+			["Link"] = "|cffa335ee|Hitem:158216::::::::120:577::27:4:4803:1582:5855:4783:::|h[Living Oil Canister]|h|r",
+		}, -- [14]
+		{
+			["ID"] = 169489,
+			["Level"] = 385,
+			["Link"] = "|cffa335ee|Hitem:169489::::::::120:577:::2:6288:6300:::|h[Azsh'ari Stormsurger Cape]|h|r",
+		}, -- [15]
+		{
+			["ID"] = 163866,
+			["Level"] = 370,
+			["AlsoFitsIn"] = 17,
+			["Link"] = "|cffa335ee|Hitem:163866::::::::120:577::30:2:1562:4786:::|h[Honorbound Skullcleaver]|h|r",
+		}, -- [16]
+		{
+			["ID"] = 161192,
+			["Level"] = 254,
+			["AlsoFitsIn"] = 16,
+			["Link"] = "|cff1eff00|Hitem:161192::::::::118:577:512:11:1:4787:116:::|h[Sethrak Warbringer's Scimitar]|h|r",
+		}, -- [17]
+	},
 	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[127829] = {
@@ -46,3 +135,4 @@ PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "DEMONHUNTER",
 	["LastAdded"] = 1,
 }
+PawnClassicScaleProviderOptions = nil

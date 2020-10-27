@@ -1,0 +1,16 @@
+VER 3 0100000000000002 "Chain Heal" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,exists] Chain Heal; Chain Heal
+END
+VER 3 0100000000000001 "Healing Surge" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,exists] Healing Surge; Healing Surge
+END
+VER 3 0100000000000003 "Riptide" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,exists] Riptide; Riptide
+END
+VER 3 0100000000000004 "Wind Shear" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,exists] Wind Shear; Wind Shear
+END

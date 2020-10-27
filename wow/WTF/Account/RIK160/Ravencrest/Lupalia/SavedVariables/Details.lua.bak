@@ -7,7 +7,7 @@ _detalhes_database = {
 		["tabelas"] = {
 		},
 	},
-	["last_version"] = "v8.0.1.6131",
+	["last_version"] = "v8.2.0.7150",
 	["SoloTablesSaved"] = {
 		["Mode"] = 1,
 	},
@@ -35,10 +35,10 @@ _detalhes_database = {
 			["attribute"] = 1,
 			["pos"] = {
 				["normal"] = {
-					["y"] = -440.999954223633,
-					["x"] = 662.500366210938,
-					["w"] = 199.000045776367,
-					["h"] = 156.000045776367,
+					["y"] = -430.0069274902344,
+					["x"] = 663.5091552734375,
+					["w"] = 199.0000152587891,
+					["h"] = 130.0023651123047,
 				},
 				["solo"] = {
 					["y"] = 2,
@@ -69,10 +69,10 @@ _detalhes_database = {
 			["attribute"] = 2,
 			["pos"] = {
 				["normal"] = {
-					["y"] = -440.999954223633,
-					["x"] = 859.500244140625,
-					["w"] = 195.000015258789,
-					["h"] = 156.000045776367,
+					["y"] = -430.0069274902344,
+					["x"] = 860.011962890625,
+					["w"] = 194.0060729980469,
+					["h"] = 130.0023651123047,
 				},
 				["solo"] = {
 					["y"] = 2,
@@ -97,7 +97,7 @@ _detalhes_database = {
 	},
 	["last_instance_time"] = 1531565283,
 	["active_profile"] = "Daemonikos-Ravencrest",
-	["last_day"] = "19",
+	["last_day"] = "17",
 	["benchmark_db"] = {
 		["frame"] = {
 		},
@@ -206,7 +206,7 @@ _detalhes_database = {
 				500.000030517578, -- [2]
 			},
 			["minimap"] = {
-				["minimapPos"] = 176.332225814297,
+				["minimapPos"] = 205.484101632598,
 				["radius"] = 160,
 				["hide"] = false,
 			},
@@ -217,7 +217,12 @@ _detalhes_database = {
 			["point"] = "CENTER",
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["main_frame_strata"] = "LOW",
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -225,34 +230,30 @@ _detalhes_database = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["author"] = "Details! Team",
+			["main_frame_strata"] = "LOW",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["use_spark"] = true,
+			["y"] = 4.57763671875e-05,
+			["x"] = 0,
+			["font_face"] = "Friz Quadrata TT",
+			["font_size"] = 10,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
 				["scale"] = 1,
 				["font_shadow"] = true,
-				["y"] = 3.05175781250e-005,
-				["x"] = 3.05175781250e-005,
+				["y"] = 3.0517578125e-05,
+				["x"] = 3.0517578125e-05,
 				["size"] = 32,
 				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
 			},
-			["font_size"] = 10,
-			["x"] = 0,
-			["font_face"] = "Friz Quadrata TT",
-			["y"] = 4.577636718750e-005,
-			["use_spark"] = true,
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
+			["author"] = "Details! Team",
 			["main_frame_locked"] = false,
 			["arrow_anchor_y"] = 0,
 		},
 	},
+	["ignore_nicktag"] = false,
 	["last_encounter"] = "Kel'Thuzad",
 	["mythic_dungeon_currentsaved"] = {
 		["dungeon_name"] = "",
@@ -265,9 +266,9 @@ _detalhes_database = {
 		["dungeon_zone_id"] = 0,
 		["previous_boss_killed_at"] = 0,
 	},
-	["ignore_nicktag"] = false,
-	["last_realversion"] = 132,
-	["combat_counter"] = 868,
+	["on_death_menu"] = true,
+	["last_realversion"] = 140,
+	["combat_counter"] = 880,
 	["combat_id"] = 474,
 	["savedStyles"] = {
 	},
@@ -277,8 +278,8 @@ _detalhes_database = {
 		["reverse"] = false,
 	},
 	["nick_tag_cache"] = {
-		["last_version"] = 10,
-		["nextreset"] = 1536005601,
+		["last_version"] = 11,
+		["nextreset"] = 1564315528,
 	},
 	["announce_deaths"] = {
 		["enabled"] = false,
@@ -314,11 +315,12 @@ _detalhes_database = {
 		}, -- [5]
 		["raid_roster"] = {
 		},
+		["tempo_start"] = 160791.931,
 		["last_events_tables"] = {
 		},
 		["alternate_power"] = {
 		},
-		["combat_counter"] = 864,
+		["combat_counter"] = 874,
 		["totals"] = {
 			0, -- [1]
 			0, -- [2]
@@ -326,53 +328,33 @@ _detalhes_database = {
 				0, -- [1]
 				[0] = 0,
 				["alternatepower"] = 0,
-				[6] = 0,
 				[3] = 0,
+				[6] = 0,
 			}, -- [3]
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["dead"] = 0,
-				["cc_break"] = 0,
+				["cooldowns_defensive"] = 0,
+				["dispell"] = 0,
 				["interrupt"] = 0,
 				["debuff_uptime"] = 0,
-				["dispell"] = 0,
-				["cooldowns_defensive"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
 			}, -- [4]
-			["voidzone_damage"] = 0,
 			["frags_total"] = 0,
+			["voidzone_damage"] = 0,
 		},
 		["player_last_events"] = {
 		},
+		["spells_cast_timeline"] = {
+		},
 		["frags_need_refresh"] = false,
+		["aura_timeline"] = {
+		},
 		["__call"] = {
 		},
 		["data_inicio"] = 0,
-		["end_time"] = 130506.097,
-		["hasSaved"] = true,
-		["frags"] = {
-		},
-		["data_fim"] = 0,
-		["overall_refreshed"] = true,
-		["CombatSkillCache"] = {
-		},
-		["PhaseData"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-			}, -- [1]
-			["damage"] = {
-			},
-			["heal_section"] = {
-			},
-			["heal"] = {
-			},
-			["damage_section"] = {
-			},
-		},
-		["start_time"] = 130506.097,
-		["TimeData"] = {
-		},
+		["end_time"] = 160791.931,
 		["totals_grupo"] = {
 			0, -- [1]
 			0, -- [2]
@@ -380,23 +362,52 @@ _detalhes_database = {
 				0, -- [1]
 				[0] = 0,
 				["alternatepower"] = 0,
-				[6] = 0,
 				[3] = 0,
+				[6] = 0,
 			}, -- [3]
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["dead"] = 0,
-				["cc_break"] = 0,
+				["cooldowns_defensive"] = 0,
+				["dispell"] = 0,
 				["interrupt"] = 0,
 				["debuff_uptime"] = 0,
-				["dispell"] = 0,
-				["cooldowns_defensive"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
 			}, -- [4]
+		},
+		["overall_refreshed"] = true,
+		["hasSaved"] = true,
+		["frags"] = {
+		},
+		["data_fim"] = 0,
+		["cleu_timeline"] = {
+		},
+		["CombatSkillCache"] = {
+		},
+		["cleu_events"] = {
+			["n"] = 1,
+		},
+		["start_time"] = 160791.931,
+		["TimeData"] = {
+		},
+		["PhaseData"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+			}, -- [1]
+			["damage_section"] = {
+			},
+			["heal_section"] = {
+			},
+			["heal"] = {
+			},
+			["damage"] = {
+			},
 		},
 	},
 	["character_data"] = {
-		["logons"] = 75,
+		["logons"] = 79,
 	},
 	["force_font_outline"] = "",
 	["cached_talents"] = {

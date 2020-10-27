@@ -2798,32 +2798,30 @@ ElvCharacterDB = {
 	},
 	["ChatEditHistory"] = {
 		"/g outdpsing this rogue", -- [1]
-		"/i depends how many of the healers are actually gonna heal", -- [2]
-		"/i 100% success", -- [3]
-		"/i just like mythic progress kills :D", -- [4]
-		"/i rekt", -- [5]
-		"/cw Gnott-Terokkar do u need?", -- [6]
-		"/roll", -- [7]
-		"/i retard", -- [8]
-		"/i Ellen is AFK", -- [9]
-		"/i has been since the start", -- [10]
-		"/i Keep ur taunt rdy for tank failures boys", -- [11]
-		"/i U mean the healer that stands in death zones?", -- [12]
-		"/i dps orbs thanks", -- [13]
-		"/g Why would u pay it then :P", -- [14]
-		"/g Don't you have any tea in ur house :P", -- [15]
-		"/g Teatax, the real way the british government makes money", -- [16]
-		"/g Why is the mage tower always destroyed on weekends", -- [17]
-		"/g fml", -- [18]
-		"/g Mage tower in all specs is my only purpose in WoW these days, but the timing", -- [19]
-		"/elvui", -- [20]
-		"/s  I can tank it if u want", -- [21]
-		"/i 2 tanks :P?", -- [22]
+		"/i rekt", -- [2]
+		"/i just like mythic progress kills :D", -- [3]
+		"/cw Gnott-Terokkar do u need?", -- [4]
+		"/roll", -- [5]
+		"/i retard", -- [6]
+		"/i Ellen is AFK", -- [7]
+		"/i has been since the start", -- [8]
+		"/i Keep ur taunt rdy for tank failures boys", -- [9]
+		"/i U mean the healer that stands in death zones?", -- [10]
+		"/i dps orbs thanks", -- [11]
+		"/g Why would u pay it then :P", -- [12]
+		"/g Don't you have any tea in ur house :P", -- [13]
+		"/g Teatax, the real way the british government makes money", -- [14]
+		"/g Why is the mage tower always destroyed on weekends", -- [15]
+		"/g fml", -- [16]
+		"/g Mage tower in all specs is my only purpose in WoW these days, but the timing", -- [17]
+		"/elvui", -- [18]
+		"/s  I can tank it if u want", -- [19]
+		"/i 2 tanks :P?", -- [20]
 	},
 	["BodyGuard"] = {
-		["Active"] = false,
-		["Health"] = 0,
-		["MaxHealth"] = 0,
 		["IsInValidZone"] = false,
+		["MaxHealth"] = 0,
+		["Health"] = 0,
+		["Active"] = false,
 	},
 }

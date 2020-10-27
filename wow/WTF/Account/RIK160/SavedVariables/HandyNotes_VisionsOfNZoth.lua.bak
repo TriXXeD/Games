@@ -1,0 +1,24 @@
+
+HandyNotes_VisionsOfNZothDB = {
+	["profileKeys"] = {
+		["Trixxedbank - Kazzak"] = "Default",
+		["Shanonymous - Tarren Mill"] = "Default",
+		["Achilina - Draenor"] = "Default",
+		["Trixxedbank - Draenor"] = "Default",
+		["Lycotonum - Tarren Mill"] = "Default",
+		["Trixxedosaur - Tarren Mill"] = "Default",
+		["Quelith - Draenor"] = "Default",
+		["Trixxadin - Tarren Mill"] = "Default",
+		["Achilina - Ravencrest"] = "Default",
+		["Xbenedict - Kazzak"] = "Default",
+		["Trixxed - Kazzak"] = "Default",
+		["Artefoxy - Tarren Mill"] = "Default",
+		["Shankspeare - Tarren Mill"] = "Default",
+		["Artefoxmis - Tarren Mill"] = "Default",
+		["Lupalia - Ravencrest"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

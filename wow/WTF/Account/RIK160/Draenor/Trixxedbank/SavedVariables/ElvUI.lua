@@ -4,11 +4,11 @@ ElvCharacterDB = {
 		" Kan du lave mig en gul'dan rune eller skal jeg købe en ?", -- [1]
 		" dank", -- [2]
 		" |cff0070dd|Hitem:140587::::::::1:64::::::|h[Defiled Augment Rune]|h|r er 760g atm lul", -- [3]
-		"/ec", -- [4]
+		"/gladius hide", -- [4]
 		"Kan du lave mig en gul'dan rune eller skal jeg købe en ?", -- [5]
 		"|cff0070dd|Hitem:140587::::::::1:64::::::|h[Defiled Augment Rune]|h|r er 760g atm lul", -- [6]
-		"/elvui", -- [7]
-		"/gladius hide", -- [8]
+		"/ec", -- [7]
+		"/elvui", -- [8]
 		"dank", -- [9]
 	},
 	["ChatHistoryLog"] = {

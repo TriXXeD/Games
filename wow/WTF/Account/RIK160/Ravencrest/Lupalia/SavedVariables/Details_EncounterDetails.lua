@@ -728,12 +728,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dargrul",
 		},
-		[157331] = {
-			["school"] = 8,
+		[55604] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Greater Storm Elemental",
+			["source"] = "Unrelenting Trainee",
 		},
 		[257997] = {
 			["school"] = 1,
@@ -775,15 +778,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tirathon Saltheril",
 		},
-		[55604] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[157331] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Unrelenting Trainee",
+			["source"] = "Greater Storm Elemental",
 		},
 		[255826] = {
 			["school"] = 1,
@@ -1021,14 +1021,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "T'uure",
 		},
-		[55606] = {
-			["school"] = 32,
-			["type"] = "BUFF",
+		[210670] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Unrelenting Rider",
+			["source"] = "Renzay-Ysondre",
 		},
 		[246504] = {
 			["school"] = 4,
@@ -1553,6 +1552,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Garothi Worldbreaker",
 		},
+		[185311] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
+			},
+			["source"] = "Traggad-Ragnaros",
+		},
+		[185438] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Stillis",
+		},
 		[212561] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -1570,22 +1585,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Argus the Unmaker",
 		},
-		[188033] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Micimaci-ChamberofAspects",
-		},
-		[233164] = {
-			["school"] = 32,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Corrupting Shadows",
-		},
 		[192504] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -1596,21 +1595,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tirathon Saltheril",
 		},
-		[194675] = {
-			["school"] = 4,
+		[215279] = {
+			["school"] = 124,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Blazing Imp",
+			["source"] = "Chaos Tear",
 		},
-		[246770] = {
-			["school"] = 8,
+		[249863] = {
+			["school"] = 32,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Torment of Golganneth",
+			["source"] = "Torment of Norgannon",
 		},
 		[237890] = {
 			["school"] = 32,
@@ -1664,12 +1663,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lady Blaumeux",
 		},
-		[215279] = {
-			["school"] = 124,
+		[233164] = {
+			["school"] = 32,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Chaos Tear",
+			["source"] = "Corrupting Shadows",
 		},
 		[245392] = {
 			["school"] = 4,
@@ -1693,23 +1693,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Vulcanar",
 		},
-		[249863] = {
+		[196208] = {
 			["school"] = 32,
-			["type"] = "BUFF",
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Torment of Norgannon",
+			["source"] = "Shadowmoon Warlock",
 		},
-		[245237] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[246770] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Garothi Worldbreaker",
+			["source"] = "Torment of Golganneth",
 		},
 		[245301] = {
 			["school"] = 4,
@@ -1766,12 +1766,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Preemvp",
 		},
-		[243963] = {
-			["school"] = 32,
+		[192799] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Varimathras",
+			["source"] = "Blightshard Skitter",
 		},
 		[256544] = {
 			["school"] = 1,
@@ -1806,15 +1806,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kin'garoth",
 		},
-		[193502] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[243963] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Glayvianna Soulrender",
+			["source"] = "Varimathras",
 		},
 		[253287] = {
 			["school"] = 64,
@@ -1824,12 +1821,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Кишуми-Гордунни",
 		},
-		[192799] = {
-			["school"] = 8,
+		[193502] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Blightshard Skitter",
+			["source"] = "Glayvianna Soulrender",
 		},
 		[257974] = {
 			["school"] = 4,
@@ -2338,13 +2338,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Glazer",
 		},
-		[195488] = {
+		[30153] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Paprikás-Shadowsong",
+			["source"] = "Felguard",
 		},
 		[206387] = {
 			["school"] = 1,
@@ -2380,20 +2379,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Nelur Lightsown",
 		},
+		[215754] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Spawn of Serpentrix",
+		},
 		[244675] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Aggramar",
-		},
-		[203538] = {
-			["school"] = 2,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Smóókies",
 		},
 		[246014] = {
 			["school"] = 4,
@@ -2404,12 +2402,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Aggramar",
 		},
-		[245121] = {
-			["school"] = 4,
+		[137619] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Entropic Mine",
+			["source"] = "Гышак-Ревущийфьорд",
 		},
 		[245631] = {
 			["school"] = 4,
@@ -2420,6 +2419,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Flame of Taeshalach",
 		},
+		[245121] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Entropic Mine",
+		},
 		[61648] = {
 			["school"] = 8,
 			["type"] = "BUFF",
@@ -2428,13 +2434,6 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Micimaci-ChamberofAspects",
-		},
-		[215754] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Spawn of Serpentrix",
 		},
 		[248252] = {
 			["school"] = 4,
@@ -2453,13 +2452,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Murgha the Tempered",
 		},
-		[198428] = {
-			["school"] = 1,
+		[203538] = {
+			["school"] = 2,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Ularogg Cragshaper",
+			["source"] = "Smóókies",
 		},
 		[65081] = {
 			["school"] = 2,
@@ -2491,12 +2490,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Shatug",
 		},
-		[240277] = {
-			["school"] = 4,
+		[191732] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Garothi Worldbreaker",
+			["source"] = "Greater Lightning Elemental",
 		},
 		[251445] = {
 			["school"] = 4,
@@ -2566,12 +2565,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Felsworn Infester",
 		},
-		[191732] = {
-			["school"] = 8,
+		[242832] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Greater Lightning Elemental",
+			["source"] = "Wild Imp",
 		},
 		[247367] = {
 			["school"] = 1,
@@ -3153,12 +3152,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Stillis",
 		},
-		[242832] = {
-			["school"] = 32,
+		[240277] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Wild Imp",
+			["source"] = "Garothi Worldbreaker",
 		},
 		[101643] = {
 			["school"] = 8,
@@ -3203,13 +3202,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Rockbound Trapper",
 		},
-		[137619] = {
+		[198428] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Гышак-Ревущийфьорд",
+			["source"] = "Ularogg Cragshaper",
 		},
 		[210372] = {
 			["school"] = 2,
@@ -3263,13 +3262,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Shadowofdawn-Ragnaros",
 		},
-		[30153] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Felguard",
-		},
 		[244033] = {
 			["school"] = 4,
 			["token"] = {
@@ -3277,6 +3269,14 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Aggramar",
+		},
+		[195488] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Paprikás-Shadowsong",
 		},
 		[72968] = {
 			["school"] = 1,
@@ -3416,6 +3416,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Imonar the Soulhunter",
 		},
+		[183088] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Mightstone Breaker",
+		},
 		[208693] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -3423,13 +3430,6 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Níghtsong-Ragnaros",
-		},
-		[183088] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Mightstone Breaker",
 		},
 		[200551] = {
 			["school"] = 8,
@@ -3464,23 +3464,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Shadow Hunter",
 		},
-		[196208] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[194675] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Shadowmoon Warlock",
-		},
-		[185438] = {
-			["school"] = 1,
-			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Stillis",
+			["source"] = "Blazing Imp",
+		},
+		[245237] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Garothi Worldbreaker",
 		},
 		[94719] = {
 			["school"] = 1,
@@ -3537,14 +3537,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ember",
 		},
-		[185311] = {
-			["school"] = 8,
+		[188033] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_HEAL"] = true,
 			},
-			["source"] = "Traggad-Ragnaros",
+			["source"] = "Micimaci-ChamberofAspects",
 		},
 		[210134] = {
 			["school"] = 64,
@@ -3825,13 +3824,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Faceless Voidcaster",
 		},
-		[210670] = {
+		[201983] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Renzay-Ysondre",
+			["source"] = "Emberhusk Dominator",
 		},
 		[36300] = {
 			["school"] = 1,
@@ -3842,14 +3842,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sigryn",
 		},
-		[201983] = {
-			["school"] = 1,
+		[55606] = {
+			["school"] = 32,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Emberhusk Dominator",
+			["source"] = "Unrelenting Rider",
 		},
 		[251356] = {
 			["school"] = 1,

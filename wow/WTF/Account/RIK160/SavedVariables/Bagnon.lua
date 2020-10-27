@@ -2,27 +2,21 @@
 Bagnon_Sets = {
 	["tackleColor"] = {
 	},
-	["leatherColor"] = {
-	},
-	["enchantColor"] = {
+	["fridgeColor"] = {
 	},
 	["engineerColor"] = {
 	},
 	["refrigeColor"] = {
 	},
-	["profiles"] = {
-	},
-	["mineColor"] = {
-	},
 	["inscribeColor"] = {
+	},
+	["soulColor"] = {
+	},
+	["quiverColor"] = {
 	},
 	["reagentColor"] = {
 	},
 	["gemColor"] = {
-	},
-	["normalColor"] = {
-	},
-	["herbColor"] = {
 	},
 	["global"] = {
 		["inventory"] = {
@@ -53,7 +47,7 @@ Bagnon_Sets = {
 				"contain/all", -- [24]
 				"misc/all", -- [25]
 			},
-			["point"] = "BOTTOMRIGHT",
+			["point"] = "TOPRIGHT",
 			["hiddenBags"] = {
 				[2] = false,
 				[3] = false,
@@ -62,15 +56,15 @@ Bagnon_Sets = {
 			},
 			["hiddenRules"] = {
 			},
-			["y"] = 68.0405044555664,
-			["x"] = -346.010498046875,
-			["brokerObject"] = "SimulationCraft",
+			["y"] = -108.98046875,
+			["x"] = -272.00537109375,
 			["borderColor"] = {
 			},
-			["itemScale"] = 1,
-			["scale"] = 1,
-			["alpha"] = 1,
 			["showBags"] = true,
+			["alpha"] = 1,
+			["scale"] = 1,
+			["itemScale"] = 1,
+			["brokerObject"] = "S&L Friends",
 		},
 		["vault"] = {
 			["rules"] = {
@@ -140,11 +134,11 @@ Bagnon_Sets = {
 			},
 			["color"] = {
 			},
-			["hiddenBags"] = {
-			},
+			["x"] = 679.999938964844,
 			["hiddenRules"] = {
 			},
-			["x"] = 679.999938964844,
+			["hiddenBags"] = {
+			},
 		},
 		["bank"] = {
 			["rules"] = {
@@ -174,22 +168,40 @@ Bagnon_Sets = {
 				"contain/all", -- [24]
 				"misc/all", -- [25]
 			},
-			["point"] = "BOTTOMLEFT",
+			["point"] = "TOPLEFT",
 			["hiddenBags"] = {
 				[11] = false,
-				[10] = false,
 				[7] = false,
+				[10] = false,
+				[6] = false,
+				[-3] = false,
 				[5] = false,
+				[9] = false,
 			},
 			["color"] = {
 			},
 			["hiddenRules"] = {
 			},
-			["y"] = 0,
-			["x"] = 286.022155761719,
+			["y"] = -22.0128173828125,
+			["x"] = 461.0252380371094,
 			["borderColor"] = {
 			},
 			["showBags"] = true,
 		},
+	},
+	["keyColor"] = {
+	},
+	["normalColor"] = {
+	},
+	["profiles"] = {
+	},
+	["mineColor"] = {
+	},
+	["version"] = "9.0.3",
+	["herbColor"] = {
+	},
+	["enchantColor"] = {
+	},
+	["leatherColor"] = {
 	},
 }

@@ -113,3 +113,5 @@ TradeSkillMaster_Crafting: disabled
 TradeSkillMaster_Shopping: disabled
 TradeSkillMaster_Vendoring: disabled
 ElvUI_EverySecondCounts: disabled
+WeakAurasCompanion: enabled
+OPie_Classic: disabled

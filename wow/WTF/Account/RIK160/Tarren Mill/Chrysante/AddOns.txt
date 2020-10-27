@@ -114,3 +114,8 @@ TradeSkillMaster_Shopping: disabled
 TradeSkillMaster_Vendoring: disabled
 ElvUI_EverySecondCounts: disabled
 AAP-Vanilla: enabled
+DBM-Azeroth-BfA: enabled
+DBM-Party-BfA: enabled
+DBM-Uldir: enabled
+DBM-CrucibleofStorms: enabled
+OPie_Classic: disabled

@@ -5,3 +5,4 @@ TradeSkillMaster_Crafting: disabled
 TradeSkillMaster_Mailing: disabled
 TradeSkillMaster_Shopping: disabled
 TradeSkillMaster_Vendoring: disabled
+OPie_Classic: disabled

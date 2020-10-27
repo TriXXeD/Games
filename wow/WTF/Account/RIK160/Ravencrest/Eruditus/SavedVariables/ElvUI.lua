@@ -2797,7 +2797,7 @@ ElvCharacterDB = {
 		}, -- [127]
 	},
 	["ChatEditHistory"] = {
-		" Ye sure ", -- [1]
+		"Ye sure", -- [1]
 		"/wa", -- [2]
 		"/i If u don't know how to use the pods dont fkcing enter", -- [3]
 		"/i im not on about this side", -- [4]
@@ -2819,9 +2819,9 @@ ElvCharacterDB = {
 		"/wave", -- [20]
 	},
 	["BodyGuard"] = {
-		["Active"] = false,
-		["Health"] = 0,
-		["MaxHealth"] = 0,
 		["IsInValidZone"] = false,
+		["MaxHealth"] = 0,
+		["Health"] = 0,
+		["Active"] = false,
 	},
 }

@@ -1,9 +1,91 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.024,
+	["LastVersion"] = 2.0401,
 	["LastPlayerFullName"] = "Trixxedosaur-Tarren Mill",
 	["AutoSelectScales"] = false,
 	["UpgradeTracking"] = false,
+	["ItemLevels"] = {
+		{
+			["ID"] = 166563,
+			["Level"] = 77,
+			["Link"] = "|cffa335ee|Hitem:166563::::::::50:102::6:5:5126:1484:4786:5417:4775::::|h[Deathstalker's Mask]|h|r",
+		}, -- [1]
+		{
+			["ID"] = 158075,
+			["Level"] = 106,
+			["Link"] = "|cffe6cc80|Hitem:158075::::::::50:102::11:4:4932:4933:6316:1520::::|h[Heart of Azeroth]|h|r",
+		}, -- [2]
+		{
+			["ID"] = 157915,
+			["Level"] = 77,
+			["Link"] = "|cffa335ee|Hitem:157915::::::::50:102::28:4:1486:4786:6262:4775::::|h[Gonk Outrunner Shoulderguards]|h|r",
+		}, -- [3]
+		nil, -- [4]
+		{
+			["ID"] = 173438,
+			["Level"] = 83,
+			["Link"] = "|cff0070dd|Hitem:173438::::::::50:102::14:4:1472:4785:6257:4775::::|h[Chestguard of the Insatiable Maw]|h|r",
+		}, -- [5]
+		{
+			["ID"] = 169926,
+			["Level"] = 82,
+			["Link"] = "|cffa335ee|Hitem:169926::::::::50:102::3:4:4798:1478:5849:4783::::|h[Belt of Rising Guardians]|h|r",
+		}, -- [6]
+		{
+			["ID"] = 157914,
+			["Level"] = 68,
+			["Link"] = "|cff0070dd|Hitem:157914::::::::50:102::27:3:4803:1482:4785::::|h[Gonk Outrunner Breeches]|h|r",
+		}, -- [7]
+		{
+			["ID"] = 173477,
+			["Level"] = 76,
+			["Link"] = "|cff0070dd|Hitem:173477::::::::50:102::14:4:6412:6513:1470:4785::::|h[Boots of the Insatiable Maw]|h|r",
+		}, -- [8]
+		{
+			["ID"] = 173489,
+			["Level"] = 76,
+			["Link"] = "|cff0070dd|Hitem:173489::::::::50:102::14:4:6412:6515:1470:4785::::|h[Coils of the Insatiable Maw]|h|r",
+		}, -- [9]
+		{
+			["ID"] = 173492,
+			["Level"] = 76,
+			["Link"] = "|cff0070dd|Hitem:173492::::::::50:102::14:4:6412:6515:1470:4785::::|h[Handwraps of the Insatiable Maw]|h|r",
+		}, -- [10]
+		{
+			["ID"] = 158160,
+			["Level"] = 66,
+			["AlsoFitsIn"] = 12,
+			["Link"] = "|cff0070dd|Hitem:158160::::::::50:102::26:3:4803:1480:4785::::|h[Smuggler's Cove Ring]|h|r",
+		}, -- [11]
+		{
+			["ID"] = 165683,
+			["Level"] = 64,
+			["AlsoFitsIn"] = 11,
+			["Link"] = "|cff0070dd|Hitem:165683::::::::50:102::25:3:4803:1478:4785::::|h[Seal of Dath'Remar]|h|r",
+		}, -- [12]
+		{
+			["ID"] = 167528,
+			["Level"] = 70,
+			["AlsoFitsIn"] = 14,
+			["Link"] = "|cff0070dd|Hitem:167528::::::::50:102::47:3:40:1482:4785::::|h[Notorious Aspirant's Badge]|h|r",
+		}, -- [13]
+		{
+			["ID"] = 158154,
+			["Level"] = 68,
+			["AlsoFitsIn"] = 13,
+			["Link"] = "|cff0070dd|Hitem:158154::::::::50:102::27:3:4803:1482:4785::::|h[Emblem of Zandalar]|h|r",
+		}, -- [14]
+		{
+			["ID"] = 166672,
+			["Level"] = 72,
+			["Link"] = "|cffa335ee|Hitem:166672::::::::50:102::28:3:4803:1486:4786::::|h[Bloodhunter's Drape]|h|r",
+		}, -- [15]
+		{
+			["ID"] = 171154,
+			["Level"] = 76,
+			["Link"] = "|cffa335ee|Hitem:171154::::::::50:102::25:4:6349:1488:4786:5843::::|h[Notorious Gladiator's Staff]|h|r",
+		}, -- [16]
+	},
 	["Artifacts"] = {
 		[128860] = {
 			["Relics"] = {
@@ -42,3 +124,4 @@ PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "DRUID",
 	["LastAdded"] = 1,
 }
+PawnClassicScaleProviderOptions = nil

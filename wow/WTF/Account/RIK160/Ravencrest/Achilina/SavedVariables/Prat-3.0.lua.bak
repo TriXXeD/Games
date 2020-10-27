@@ -1,5 +1,2885 @@
 
 Prat3CharDB = {
 	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["time"] = 1563019370,
+	["scrollback"] = {
+		["ChatFrame5"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 27,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:00]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Destim-ArgentDawn:2161:INSTANCE_CHAT:|h[|cffc69b6dDestim-ArgentDawn|r]|h: well hopefully i can make up for them in that case",
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						1, -- [2]
+						2, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:00]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Mustehab-Outland:2162:INSTANCE_CHAT:|h[|cff00ff96Mustehab-Outland|r]|h: afk",
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						1, -- [2]
+						3, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:00]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Mustehab-Outland:2163:INSTANCE_CHAT:|h[|cff00ff96Mustehab-Outland|r]|h: kick pls",
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						1, -- [2]
+						3, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:00]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Pithiusszz-Draenor:2164:INSTANCE_CHAT:|h[|cfff48cbaPithiusszz-Draenor|r]|h: 10 stacks without even having aggro",
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						1, -- [2]
+						4, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:00]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Darkennrahl-Drak'thul:2166:INSTANCE_CHAT:|h[|cffff7c0aDarkennrahl-Drak'thul|r]|h: kick afk???",
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						1, -- [2]
+						5, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:00]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Destim-ArgentDawn:2170:INSTANCE_CHAT:|h[|cffc69b6dDestim-ArgentDawn|r]|h: lol",
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						1, -- [2]
+						2, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:01]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Achilina-Ravencrest:2173:INSTANCE_CHAT:|h[|cfff48cbaAchilina|r]|h: jsut go",
+					["r"] = 1,
+					["extraData"] = {
+						64, -- [1]
+						1, -- [2]
+						6, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.2823529541492462,
+					["b"] = 0.03529411926865578,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:01]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Achilina-Ravencrest:2174:INSTANCE_CHAT:|h[|cfff48cbaAchilina|r]|h: dont need another dps",
+					["r"] = 1,
+					["extraData"] = {
+						64, -- [1]
+						1, -- [2]
+						6, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.2823529541492462,
+					["b"] = 0.03529411926865578,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:08]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Achilina-Ravencrest:2259:INSTANCE_CHAT:|h[|cfff48cbaAchilina|r]|h: Fatality: Tejmi > 556k Arcane |cff71d5ff|Hspell:252634:0|h[Cosmic Smash]|h|r [|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|tConstellar Designate] + |cff71d5ff|Hspell:258399:0|h[Reap Soul]|h|r",
+					["r"] = 1,
+					["extraData"] = {
+						64, -- [1]
+						1, -- [2]
+						6, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.2823529541492462,
+					["b"] = 0.03529411926865578,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:08]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Achilina-Ravencrest:2260:INSTANCE_CHAT:|h[|cfff48cbaAchilina|r]|h: Fatality: Praesentia > 529k Arcane |cff71d5ff|Hspell:252634:0|h[Cosmic Smash]|h|r [|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|tConstellar Designate] + |cff71d5ff|Hspell:258399:0|h[Reap Soul]|h|r",
+					["r"] = 1,
+					["extraData"] = {
+						64, -- [1]
+						1, -- [2]
+						6, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.2823529541492462,
+					["b"] = 0.03529411926865578,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:08]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Achilina-Ravencrest:2261:INSTANCE_CHAT:|h[|cfff48cbaAchilina|r]|h: Fatality: Darkennrahl > 399k Arcane |cff71d5ff|Hspell:253061:0|h[Starblast]|h|r [|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:0|tConstellar Designate] + |cff71d5ff|Hspell:258399:0|h[Reap Soul]|h|r",
+					["r"] = 1,
+					["extraData"] = {
+						64, -- [1]
+						1, -- [2]
+						6, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.2823529541492462,
+					["b"] = 0.03529411926865578,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:08]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Achilina-Ravencrest:2262:INSTANCE_CHAT:|h[|cfff48cbaAchilina|r]|h: Fatality: Chlodny > 421k Arcane |cff71d5ff|Hspell:253061:0|h[Starblast]|h|r [|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|tConstellar Designate] + |cff71d5ff|Hspell:258399:0|h[Reap Soul]|h|r",
+					["r"] = 1,
+					["extraData"] = {
+						64, -- [1]
+						1, -- [2]
+						6, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.2823529541492462,
+					["b"] = 0.03529411926865578,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:08]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Achilina-Ravencrest:2263:INSTANCE_CHAT:|h[|cfff48cbaAchilina|r]|h: Fatality: Vitrivius > 507k Arcane |cff71d5ff|Hspell:253061:0|h[Starblast]|h|r [|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:0|tConstellar Designate] + |cff71d5ff|Hspell:258399:0|h[Reap Soul]|h|r",
+					["r"] = 1,
+					["extraData"] = {
+						64, -- [1]
+						1, -- [2]
+						6, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.2823529541492462,
+					["b"] = 0.03529411926865578,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:08]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Achilina-Ravencrest:2264:INSTANCE_CHAT:|h[|cfff48cbaAchilina|r]|h: Fatality: Apócälypse > 496k Shadow |cff71d5ff|Hspell:1454:0|h[Life Tap]|h|r [Apócälypse] + |cff71d5ff|Hspell:258399:0|h[Reap Soul]|h|r",
+					["r"] = 1,
+					["extraData"] = {
+						64, -- [1]
+						1, -- [2]
+						6, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.2823529541492462,
+					["b"] = 0.03529411926865578,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:08]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Achilina-Ravencrest:2265:INSTANCE_CHAT:|h[|cfff48cbaAchilina|r]|h: Fatality: Mustehab > 566k Arcane |cff71d5ff|Hspell:252634:0|h[Cosmic Smash]|h|r [|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|tConstellar Designate] + |cff71d5ff|Hspell:258399:0|h[Reap Soul]|h|r",
+					["r"] = 1,
+					["extraData"] = {
+						64, -- [1]
+						1, -- [2]
+						6, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.2823529541492462,
+					["b"] = 0.03529411926865578,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:08]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Achilina-Ravencrest:2266:INSTANCE_CHAT:|h[|cfff48cbaAchilina|r]|h: Fatality: Astara > 458k Arcane |cff71d5ff|Hspell:253061:0|h[Starblast]|h|r [|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|tConstellar Designate] + |cff71d5ff|Hspell:258399:0|h[Reap Soul]|h|r",
+					["r"] = 1,
+					["extraData"] = {
+						64, -- [1]
+						1, -- [2]
+						6, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.2823529541492462,
+					["b"] = 0.03529411926865578,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:08]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Achilina-Ravencrest:2267:INSTANCE_CHAT:|h[|cfff48cbaAchilina|r]|h: Fatality: Zimine > 445k Arcane |cff71d5ff|Hspell:253061:0|h[Starblast]|h|r [|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:0|tConstellar Designate] + |cff71d5ff|Hspell:258399:0|h[Reap Soul]|h|r",
+					["r"] = 1,
+					["extraData"] = {
+						64, -- [1]
+						1, -- [2]
+						6, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.2823529541492462,
+					["b"] = 0.03529411926865578,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:08]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Achilina-Ravencrest:2268:INSTANCE_CHAT:|h[|cfff48cbaAchilina|r]|h: Fatality: |cfff38bb9Achilina|r > 430k Arcane |cff71d5ff|Hspell:253061:0|h[Starblast]|h|r [|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:0|tConstellar Designate] + |cff71d5ff|Hspell:258399:0|h[Reap Soul]|h|r",
+					["r"] = 1,
+					["extraData"] = {
+						64, -- [1]
+						1, -- [2]
+						6, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.2823529541492462,
+					["b"] = 0.03529411926865578,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:11]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Kolav-ArgentDawn:2306:INSTANCE_CHAT:|h[|cffc69b6dKolav-ArgentDawn|r]|h: ress pls ;)",
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						1, -- [2]
+						18, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:11]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Steelsteak-Silvermoon:2318:INSTANCE_CHAT:|h[|cffc69b6dSteelsteak-Silvermoon|r]|h: Did you just ask for a ress?",
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						1, -- [2]
+						19, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:11]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Achilina-Ravencrest:2319:INSTANCE_CHAT:|h[|cfff48cbaAchilina|r]|h: no1 killing orbs :p",
+					["r"] = 1,
+					["extraData"] = {
+						64, -- [1]
+						1, -- [2]
+						6, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.2823529541492462,
+					["b"] = 0.03529411926865578,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:11]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Sírona-AzjolNerub:2324:INSTANCE_CHAT:|h[|cff00ff96Sírona-AzjolNerub|r]|h: gj guys",
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						1, -- [2]
+						20, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:11]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Destim-ArgentDawn:2325:INSTANCE_CHAT:|h[|cffc69b6dDestim-ArgentDawn|r]|h: nice",
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						1, -- [2]
+						2, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:12]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Steelsteak-Silvermoon:2330:INSTANCE_CHAT:|h[|cffc69b6dSteelsteak-Silvermoon|r]|h: When you can just walk into the tree?",
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						1, -- [2]
+						19, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:12]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Steelsteak-Silvermoon:2331:INSTANCE_CHAT:|h[|cffc69b6dSteelsteak-Silvermoon|r]|h: xd",
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						1, -- [2]
+						19, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:31]|r |Hplayer:Achilina-Ravencrest|h[Achilina]|h has earned the achievement |cffffff00|Hachievement:11612:Player-1329-0419982E:1:7:5:18:4294967295:4294967295:4294967295:4294967295|h[Fighting with Style: Challenging]|h|r!",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						65, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[12:11]|r |Hplayer:Achilina-Ravencrest|h[Achilina]|h has earned the achievement |cffffff00|Hachievement:10770:Player-1329-0419982E:1:7:18:18:4294967295:4294967295:4294967295:4294967295|h[The Tangerine Traveler]|h|r!",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						65, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [27]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame4"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 50,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:00]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Destim-ArgentDawn:2161:INSTANCE_CHAT:|h[|cffc69b6dDestim-ArgentDawn|r]|h: well hopefully i can make up for them in that case",
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						1, -- [2]
+						2, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:00]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Mustehab-Outland:2162:INSTANCE_CHAT:|h[|cff00ff96Mustehab-Outland|r]|h: afk",
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						1, -- [2]
+						3, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:00]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Mustehab-Outland:2163:INSTANCE_CHAT:|h[|cff00ff96Mustehab-Outland|r]|h: kick pls",
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						1, -- [2]
+						3, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:00]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Pithiusszz-Draenor:2164:INSTANCE_CHAT:|h[|cfff48cbaPithiusszz-Draenor|r]|h: 10 stacks without even having aggro",
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						1, -- [2]
+						4, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:00]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Darkennrahl-Drak'thul:2166:INSTANCE_CHAT:|h[|cffff7c0aDarkennrahl-Drak'thul|r]|h: kick afk???",
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						1, -- [2]
+						5, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:00]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Destim-ArgentDawn:2170:INSTANCE_CHAT:|h[|cffc69b6dDestim-ArgentDawn|r]|h: lol",
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						1, -- [2]
+						2, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:01]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Achilina-Ravencrest:2173:INSTANCE_CHAT:|h[|cfff48cbaAchilina|r]|h: jsut go",
+					["r"] = 1,
+					["extraData"] = {
+						64, -- [1]
+						1, -- [2]
+						6, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.2823529541492462,
+					["b"] = 0.03529411926865578,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:01]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Achilina-Ravencrest:2174:INSTANCE_CHAT:|h[|cfff48cbaAchilina|r]|h: dont need another dps",
+					["r"] = 1,
+					["extraData"] = {
+						64, -- [1]
+						1, -- [2]
+						6, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.2823529541492462,
+					["b"] = 0.03529411926865578,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:02]|r |Hplayer:Steelsteak-Silvermoon:2188:SAY:|h[|cffc69b6dSteelsteak-Silvermoon|r]|h: [Common] |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t Haste/Vers",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						7, -- [2]
+						8, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:02]|r |Hplayer:Mustehab-Outland:2189:SAY:|h[|cff00ff96Mustehab-Outland|r]|h: [Common] |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_5:0|t Crit/Mast",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						7, -- [2]
+						9, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:03]|r |Hplayer:Darkennrahl-Drak'thul:2199:SAY:|h[|cffff7c0aDarkennrahl-Drak'thul|r]|h: [Common] Taunted",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						7, -- [2]
+						10, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:03]|r |Hplayer:Thagoáts-Silvermoon:2204:SAY:|h[|cffaad372Thagoáts-Silvermoon|r]|h: [Common] |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_7:0|tBurst|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_7:0|t",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						7, -- [2]
+						11, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:04]|r |Hplayer:Thagoáts-Silvermoon:2207:SAY:|h[|cffaad372Thagoáts-Silvermoon|r]|h: [Common] |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_7:0|t4",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						7, -- [2]
+						11, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:04]|r |Hplayer:Thagoáts-Silvermoon:2208:SAY:|h[|cffaad372Thagoáts-Silvermoon|r]|h: [Common] |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_7:0|t3",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						7, -- [2]
+						11, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:04]|r |Hplayer:Thagoáts-Silvermoon:2209:SAY:|h[|cffaad372Thagoáts-Silvermoon|r]|h: [Common] |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_7:0|t2",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						7, -- [2]
+						11, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:04]|r |Hplayer:Achilina-Ravencrest:2213:SAY:|h[|cfff48cbaAchilina|r]|h: [Common] |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|tBurst|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						7, -- [2]
+						12, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:04]|r |Hplayer:Achilina-Ravencrest:2214:SAY:|h[|cfff48cbaAchilina|r]|h: [Common] |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t4",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						7, -- [2]
+						12, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:04]|r |Hplayer:Achilina-Ravencrest:2215:SAY:|h[|cfff48cbaAchilina|r]|h: [Common] |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t3",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						7, -- [2]
+						12, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:04]|r |Hplayer:Achilina-Ravencrest:2216:SAY:|h[|cfff48cbaAchilina|r]|h: [Common] |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t2",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						7, -- [2]
+						12, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:04]|r |Hplayer:Achilina-Ravencrest:2217:SAY:|h[|cfff48cbaAchilina|r]|h: [Common] |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t1",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						7, -- [2]
+						12, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:04]|r |Hplayer:Ivonda-Silvermoon:2221:SAY:|h[|cff0070ddIvonda-Silvermoon|r]|h: [Common] |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:0|tBomb|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:0|t",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						7, -- [2]
+						13, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:04]|r |Hplayer:Darkennrahl-Drak'thul:2222:SAY:|h[|cffff7c0aDarkennrahl-Drak'thul|r]|h: [Common] Taunted",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						7, -- [2]
+						10, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:04]|r |Hplayer:Sírona-AzjolNerub:2227:SAY:|h[|cff00ff96Sírona-AzjolNerub|r]|h: [Common] |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|tBurst|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						7, -- [2]
+						14, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:05]|r |Hplayer:Darkennrahl-Drak'thul:2228:SAY:|h[|cffff7c0aDarkennrahl-Drak'thul|r]|h: [Common] Taunted",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						7, -- [2]
+						10, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:06]|r |Hplayer:Darkennrahl-Drak'thul:2245:SAY:|h[|cffff7c0aDarkennrahl-Drak'thul|r]|h: [Common] Taunted",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						7, -- [2]
+						10, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:06]|r |Hplayer:Achilina-Ravencrest:2248:SAY:|h[|cfff48cbaAchilina|r]|h: [Common] Cosmic Ray on |cfff38bb9Achilina|r",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						7, -- [2]
+						12, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:08]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Achilina-Ravencrest:2259:INSTANCE_CHAT:|h[|cfff48cbaAchilina|r]|h: Fatality: Tejmi > 556k Arcane |cff71d5ff|Hspell:252634:0|h[Cosmic Smash]|h|r [|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|tConstellar Designate] + |cff71d5ff|Hspell:258399:0|h[Reap Soul]|h|r",
+					["r"] = 1,
+					["extraData"] = {
+						64, -- [1]
+						1, -- [2]
+						6, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.2823529541492462,
+					["b"] = 0.03529411926865578,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:08]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Achilina-Ravencrest:2260:INSTANCE_CHAT:|h[|cfff48cbaAchilina|r]|h: Fatality: Praesentia > 529k Arcane |cff71d5ff|Hspell:252634:0|h[Cosmic Smash]|h|r [|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|tConstellar Designate] + |cff71d5ff|Hspell:258399:0|h[Reap Soul]|h|r",
+					["r"] = 1,
+					["extraData"] = {
+						64, -- [1]
+						1, -- [2]
+						6, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.2823529541492462,
+					["b"] = 0.03529411926865578,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:08]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Achilina-Ravencrest:2261:INSTANCE_CHAT:|h[|cfff48cbaAchilina|r]|h: Fatality: Darkennrahl > 399k Arcane |cff71d5ff|Hspell:253061:0|h[Starblast]|h|r [|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:0|tConstellar Designate] + |cff71d5ff|Hspell:258399:0|h[Reap Soul]|h|r",
+					["r"] = 1,
+					["extraData"] = {
+						64, -- [1]
+						1, -- [2]
+						6, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.2823529541492462,
+					["b"] = 0.03529411926865578,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:08]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Achilina-Ravencrest:2262:INSTANCE_CHAT:|h[|cfff48cbaAchilina|r]|h: Fatality: Chlodny > 421k Arcane |cff71d5ff|Hspell:253061:0|h[Starblast]|h|r [|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|tConstellar Designate] + |cff71d5ff|Hspell:258399:0|h[Reap Soul]|h|r",
+					["r"] = 1,
+					["extraData"] = {
+						64, -- [1]
+						1, -- [2]
+						6, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.2823529541492462,
+					["b"] = 0.03529411926865578,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:08]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Achilina-Ravencrest:2263:INSTANCE_CHAT:|h[|cfff48cbaAchilina|r]|h: Fatality: Vitrivius > 507k Arcane |cff71d5ff|Hspell:253061:0|h[Starblast]|h|r [|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:0|tConstellar Designate] + |cff71d5ff|Hspell:258399:0|h[Reap Soul]|h|r",
+					["r"] = 1,
+					["extraData"] = {
+						64, -- [1]
+						1, -- [2]
+						6, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.2823529541492462,
+					["b"] = 0.03529411926865578,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:08]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Achilina-Ravencrest:2264:INSTANCE_CHAT:|h[|cfff48cbaAchilina|r]|h: Fatality: Apócälypse > 496k Shadow |cff71d5ff|Hspell:1454:0|h[Life Tap]|h|r [Apócälypse] + |cff71d5ff|Hspell:258399:0|h[Reap Soul]|h|r",
+					["r"] = 1,
+					["extraData"] = {
+						64, -- [1]
+						1, -- [2]
+						6, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.2823529541492462,
+					["b"] = 0.03529411926865578,
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:08]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Achilina-Ravencrest:2265:INSTANCE_CHAT:|h[|cfff48cbaAchilina|r]|h: Fatality: Mustehab > 566k Arcane |cff71d5ff|Hspell:252634:0|h[Cosmic Smash]|h|r [|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|tConstellar Designate] + |cff71d5ff|Hspell:258399:0|h[Reap Soul]|h|r",
+					["r"] = 1,
+					["extraData"] = {
+						64, -- [1]
+						1, -- [2]
+						6, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.2823529541492462,
+					["b"] = 0.03529411926865578,
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:08]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Achilina-Ravencrest:2266:INSTANCE_CHAT:|h[|cfff48cbaAchilina|r]|h: Fatality: Astara > 458k Arcane |cff71d5ff|Hspell:253061:0|h[Starblast]|h|r [|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|tConstellar Designate] + |cff71d5ff|Hspell:258399:0|h[Reap Soul]|h|r",
+					["r"] = 1,
+					["extraData"] = {
+						64, -- [1]
+						1, -- [2]
+						6, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.2823529541492462,
+					["b"] = 0.03529411926865578,
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:08]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Achilina-Ravencrest:2267:INSTANCE_CHAT:|h[|cfff48cbaAchilina|r]|h: Fatality: Zimine > 445k Arcane |cff71d5ff|Hspell:253061:0|h[Starblast]|h|r [|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:0|tConstellar Designate] + |cff71d5ff|Hspell:258399:0|h[Reap Soul]|h|r",
+					["r"] = 1,
+					["extraData"] = {
+						64, -- [1]
+						1, -- [2]
+						6, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.2823529541492462,
+					["b"] = 0.03529411926865578,
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:08]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Achilina-Ravencrest:2268:INSTANCE_CHAT:|h[|cfff48cbaAchilina|r]|h: Fatality: |cfff38bb9Achilina|r > 430k Arcane |cff71d5ff|Hspell:253061:0|h[Starblast]|h|r [|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:0|tConstellar Designate] + |cff71d5ff|Hspell:258399:0|h[Reap Soul]|h|r",
+					["r"] = 1,
+					["extraData"] = {
+						64, -- [1]
+						1, -- [2]
+						6, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.2823529541492462,
+					["b"] = 0.03529411926865578,
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:09]|r |Hplayer:Darkennrahl-Drak'thul:2272:SAY:|h[|cffff7c0aDarkennrahl-Drak'thul|r]|h: [Common] Taunted",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						7, -- [2]
+						10, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:09]|r |Hplayer:Ivonda-Silvermoon:2280:SAY:|h[|cff0070ddIvonda-Silvermoon|r]|h: [Common] |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|tBurst|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						7, -- [2]
+						13, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:09]|r |Hplayer:Chlodny-DefiasBrotherhood:2281:SAY:|h[|cffc41e3aChlodny-DefiasBrotherhood|r]|h: [Common] |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_7:0|tBurst|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_7:0|t",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						7, -- [2]
+						15, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:10]|r |Hplayer:Praesentia-BurningBlade:2291:SAY:|h[|cffff7c0aPraesentia-BurningBlade|r]|h: [Common] |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:0|tBomb|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:0|t",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						7, -- [2]
+						16, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:11]|r |Hplayer:Vitrivius-DefiasBrotherhood:2302:SAY:|h[|cffaad372Vitrivius-DefiasBrotherhood|r]|h: [Common] |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_7:0|tBurst|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_7:0|t",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						7, -- [2]
+						17, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:11]|r |Hplayer:Darkennrahl-Drak'thul:2303:SAY:|h[|cffff7c0aDarkennrahl-Drak'thul|r]|h: [Common] Taunted",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						7, -- [2]
+						10, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:11]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Kolav-ArgentDawn:2306:INSTANCE_CHAT:|h[|cffc69b6dKolav-ArgentDawn|r]|h: ress pls ;)",
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						1, -- [2]
+						18, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:11]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Steelsteak-Silvermoon:2318:INSTANCE_CHAT:|h[|cffc69b6dSteelsteak-Silvermoon|r]|h: Did you just ask for a ress?",
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						1, -- [2]
+						19, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:11]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Achilina-Ravencrest:2319:INSTANCE_CHAT:|h[|cfff48cbaAchilina|r]|h: no1 killing orbs :p",
+					["r"] = 1,
+					["extraData"] = {
+						64, -- [1]
+						1, -- [2]
+						6, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.2823529541492462,
+					["b"] = 0.03529411926865578,
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:11]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Sírona-AzjolNerub:2324:INSTANCE_CHAT:|h[|cff00ff96Sírona-AzjolNerub|r]|h: gj guys",
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						1, -- [2]
+						20, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:11]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Destim-ArgentDawn:2325:INSTANCE_CHAT:|h[|cffc69b6dDestim-ArgentDawn|r]|h: nice",
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						1, -- [2]
+						2, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:12]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Steelsteak-Silvermoon:2330:INSTANCE_CHAT:|h[|cffc69b6dSteelsteak-Silvermoon|r]|h: When you can just walk into the tree?",
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						1, -- [2]
+						19, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:12]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Steelsteak-Silvermoon:2331:INSTANCE_CHAT:|h[|cffc69b6dSteelsteak-Silvermoon|r]|h: xd",
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						1, -- [2]
+						19, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:55]|h|r |cffb2b2b2[17:08]|r You have learned a new passive effect: |cff71d5ff|Hspell:278833:0|h[Battle for Azeroth Pathfinder]|h|r.",
+					["serverTime"] = 1593702535,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 456306.532,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [50]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame7"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame6"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame8"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame10"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame9"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 32,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:55]|h|r |cffb2b2b2[17:08]|r Loot Specialization set to: Holy",
+					["serverTime"] = 1593702535,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:55]|h|r |cffb2b2b2[17:08]|r You have learned a new passive effect: |cff71d5ff|Hspell:278833:0|h[Battle for Azeroth Pathfinder]|h|r.",
+					["serverTime"] = 1593702535,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 456306.532,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:56]|h|r |cffb2b2b2[17:08]|r |cff1784d1AddOnSkins|r Embed System: - Left: 'Details' | Right: 'Details'",
+					["timestamp"] = 456307.193,
+					["extraData"] = {
+						["n"] = 3,
+					},
+					["serverTime"] = 1593702536,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:57]|h|r |cffb2b2b2[17:08]|r AAP Loaded",
+					["timestamp"] = 456308.311,
+					["extraData"] = {
+						["n"] = 3,
+					},
+					["serverTime"] = 1593702537,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:59]|h|r |cffb2b2b2[17:08]|r |cffffaeaeDetails!:|r A new version has been installed: /details news    ",
+					["timestamp"] = 456310.151,
+					["extraData"] = {
+						["n"] = 3,
+					},
+					["serverTime"] = 1593702539,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:09:01]|h|r |cffb2b2b2[17:09]|r |Hchannel:channel:2|h[2]|h |Hplayer:Lifelêss-Ravencrest:3:2|h[|cffa22fc8Lifelêss|r]|h: WTS boost: M+[10-20] & Lvlup 110-120 &Horrific Visions. with cheapest price!!!!",
+					["serverTime"] = 1593702541,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						37, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456312.596,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:09:01]|h|r |cffb2b2b2[17:09]|r |Hchannel:channel:2|h[2]|h |Hplayer:Bestservice-Ravencrest:4:2|h[|cff00fe95Bestservice|r]|h: WTS |cff66bbff|Hjournal:0:1180:16|h[Ny'alotha, the Waking City]|h|r12/12 Hc Full Run  19:00 - VIP trader   Available Only for gold  / < Cara + Nzoth + raden > / +Mythic 10-18 / smooth and cherry! lowest price",
+					["serverTime"] = 1593702541,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						38, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456312.596,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:09:01]|h|r |cffb2b2b2[17:09]|r |Hchannel:channel:2|h[2]|h |Hplayer:Crazymonk-Ravencrest:5:2|h[|cff00fe95Crazymonk|r]|h: WTS [Freehold] Levelup [110-120] Boost Fast / M+ [10-17] in Time / Vision [0-5] Mask << Cheap >>",
+					["serverTime"] = 1593702541,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						39, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456312.814,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:09:03]|h|r |cffb2b2b2[17:09]|r |Hchannel:channel:2|h[2]|h |Hplayer:Miginah-Ravencrest:6:2|h[|cfffefefeMiginah|r]|h: Selling Ny'alotha Waking City 12/12 Mythic Boost with Full Loots drop Guarantee exactly for your Armor type (+up to 7-9 BiS items) +Giveaway Ny'alotha Allseer Mount Starting today at 17:00 Server time",
+					["serverTime"] = 1593702543,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						40, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456314.279,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:09:06]|h|r |cffb2b2b2[17:09]|r |Hchannel:channel:2|h[2]|h |Hplayer:Gallxbears-Ravencrest:7:2|h[|cfffefefeGallxbears|r]|h: Gallywix is selling Keys 10-24 ! (Mech Mount) |cff66bbff|Hjournal:0:1180:16|h[Ny'alotha, the Waking City]|h|r HC / Mythic ! (Carap+N'Zoth 120k) !  RADEN HC 100k !(VISION 1-5 mask)! Jaina Mount 500k, Alliance & Horde  /W Me",
+					["serverTime"] = 1593702546,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						41, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456317.172,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:09:10]|h|r |cffb2b2b2[17:09]|r |Hchannel:channel:2|h[2]|h |Hplayer:Mamaliano-Ravencrest:8:2|h[|cfffe7b09Mamaliano|r]|h: WTS boost|cff66bbff|Hjournal:0:1180:15|h[Ny'alotha, the Waking City]|h|r<HC>  <Carapace of Nzoth> and <Nzoth The Corruptor> and <Ra-den the Despoiled> heroic. <RIGHT NOW> GOLD ONLY! Get mount, curve and chance on 470 loot. Fast, smooth and cherry",
+					["serverTime"] = 1593702550,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						42, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456321.196,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:09:13]|h|r |cffb2b2b2[17:09]|r |Hchannel:channel:2|h[2]|h |Hplayer:Galysuper-Ravencrest:10:2|h[|cfffefefeGalysuper|r]|h: GALLYWIX |cffffff00|Hachievement:14145:Player-1329-0710E239:0:0:0:-1:0:0:0:0|h[Battle for Azeroth Keystone Master: Season Four]|h|rWTS  m+10-23 ArmorStack/All Dungeons!! 12/12 HC/MYTHIC VIP Loot!! |cff66bbff|Hjournal:0:1180:16|h[Ny'alotha, the Waking City]|h|r ,[Gladiator: Battle for Azeroth Season 4]PVP 0-2400 Gladiator, Visions!! Jaina Mount!!",
+					["serverTime"] = 1593702553,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						43, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456324.445,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:09:16]|h|r |cffb2b2b2[17:09]|r |Hchannel:channel:2|h[2]|h |Hplayer:Novacravenw-Ravencrest:12:2|h[|cff3ec5e9Novacravenw|r]|h: Nova Community  Selling +M(10-22) IN TIME With FREE ARMORSTACK AND SHARELOOT! ||+10=90k || || +12=110k || ||+15=165k || 2x=15%Off , |cff66bbff|Hjournal:0:1180:16|h[Ny'alotha, the Waking City]|h|r Hc Shareloot 250k + Mythic .Vision + Jaina Mount  500k",
+					["serverTime"] = 1593702556,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						44, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456327.811,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:09:16]|h|r |cffb2b2b2[17:09]|r |Hchannel:channel:2|h[2]|h |Hplayer:Novazii-Ravencrest:13:2|h[|cff00fe95Novazii|r]|h: <<NBC>> (Special Offer) WTS M+10 =85k, M+15= 165k with free Armor Stack Buy 2x runs get 10% Discount! (Specific Key Available).Ny'alotha Hc Raid Full Clear=250k (Personal trader available) -Mecha Hm + Mount - FH leveling (Only Gold) Wis Me For Info!!",
+					["serverTime"] = 1593702556,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						45, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456327.811,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:09:18]|h|r |cffb2b2b2[17:09]|r |Hchannel:channel:2|h[2]|h |Hplayer:Nazgreg-Ravencrest:14:2|h[|cff3ec5e9Nazgreg|r]|h: Experienced Guild Group WTS Mythic Dungeons in Time and |cff66bbff|Hjournal:1:2343:14|h[Lady Jaina Proudmoore]|h|r Mythic. Get your |cff71d5ff|Hspell:289555:0|h[Glacial Tidestorm]|h|r at a cheap price! /w for more info!",
+					["serverTime"] = 1593702558,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						46, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456329.957,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:09:20]|h|r |cffb2b2b2[17:09]|r |Hchannel:channel:2|h[2]|h |Hplayer:Bootywarrior-Ravencrest:15:2|h[|cffc59a6cBootywarrior|r]|h: >>>>>>>>> Experienced booster wts CHEAP  0-5 MASK VISION ----470 corrupted item---- You can AFK - over 105+ successful boosts completed! <<<<<<<<<",
+					["serverTime"] = 1593702560,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						47, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456331.164,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:09:22]|h|r |cffb2b2b2[17:09]|r |Hchannel:channel:2|h[2]|h |Hplayer:Keepsy-Ravencrest:16:2|h[|cfffefefeKeepsy|r]|h: <Gallywix Community> GREAT offers on M+ - ANY keys 10-24! ALL LOOT YOURS - Specific Keys - Armor Stack - Bulk Purchase Discounts! /w now!",
+					["serverTime"] = 1593702562,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						48, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456333.167,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:09:22]|h|r |cffb2b2b2[17:09]|r |Hchannel:channel:2|h[2]|h |Hplayer:Daddybooster-Ravencrest:17:2|h[|cfffef367Daddybooster|r]|h: <Nova community> Selling Mythic 12/12 Ny'alotha +2x Free Traders with Mount  + specific Bosses Available , Heroic 12/12  250K + 115K per trader . Jaina mount 500k , M15=165K , M14 = 145K , Free Armor Stack 2x buy , Up to 20% OFF , Visions /w for info",
+					["serverTime"] = 1593702562,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						49, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456333.479,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:09:22]|h|r |cffb2b2b2[17:09]|r |Hchannel:channel:2|h[2]|h [|cffE7E716DND|r] |Hplayer:Posterio-Ravencrest:18:2|h[|cfffefefePosterio|r]|h: WTS Ny’alotha Mythic and Heroic with strong team; Heroic and Mythic Full Gear; we will help to make achievement Mad World; Arena rating 2v2- 3v3. Horrific Visions 5 chest run + masks;",
+					["serverTime"] = 1593702562,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						50, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456333.479,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:09:23]|h|r |cffb2b2b2[17:09]|r |Hchannel:channel:2|h[2]|h |Hplayer:Josters-Ravencrest:19:2|h[|cffa9d271Josters|r]|h: WTS |cffffff00|Hachievement:12605:Player-1329-0711FE08:1:9:2:18:4294967295:4294967295:4294967295:4294967295|h[Conqueror of Azeroth]|h|r for |cffa335ee|Hitem:163577::::::::1:253::::::|h[Conqueror's Scythemaw]|h|r, reputation for |cffa335ee|Hitem:142369::::::::1:253::::::|h[Ivory Hawkstrider]|h|r for gold!",
+					["serverTime"] = 1593702563,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						51, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456334.536,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:09:23]|h|r |cffb2b2b2[17:09]|r |Hchannel:channel:2|h[2]|h |Hplayer:Josters-Ravencrest:20:2|h[|cffa9d271Josters|r]|h: also selling |cffffff00|Hachievement:14191:Player-1329-0711FE08:1:1:15:20:4294967295:4294967295:4294967295:4294967295|h[Servant of N'Zoth]|h|r |cffffff00|Hachievement:12861:Player-1329-0711FE08:1:6:5:19:4294967295:4294967295:4294967295:4294967295|h[Master of Duels]|h|r and victory in PvP-Expeditions. /w me for price!",
+					["serverTime"] = 1593702563,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						51, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456334.536,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:09:24]|h|r |cffb2b2b2[17:09]|r |Hchannel:channel:2|h[2]|h |Hplayer:Cyonagally-Ravencrest:22:2|h[|cffa9d271Cyonagally|r]|h: GALLYWIX  Azshara Font Stacks, Glory Achievements - |cffffff00|Hachievement:14146:Player-1084-08A2986E:0:0:0:-1:65:0:0:0|h[Glory of the Ny'alotha Raider]|h|r + |cff71d5ff|Hspell:316343:0|h[Wriggling Parasite]|h|r & Others such as |cff71d5ff|Hspell:253087:0|h[Antoran Gloomhound]|h|r, BoD Transmog Raids, Insane & Headmaster titles || |cffffff00|Hachievement:3316:Player-1084-08A2986E:1:5:2:20:4294967295:4294967295:4294967295:4294967295|h[Herald of the Titans]|h|r & more!",
+					["serverTime"] = 1593702564,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						52, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456335.532,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:09:26]|h|r |cffb2b2b2[17:09]|r |Hchannel:channel:2|h[2]|h |Hplayer:Zoratsu-Ravencrest:23:2|h[|cfffefefeZoratsu|r]|h: WTS < Carapace - 70k >, < N'zoth the Corruptor - 100k >, < Cara + N'zoth - 130k > Heroic kills. Having Runs every 30 minutes. Accepting payment on all realms. Get your 470+ BiS Gear, Curve and Mount tonight. /w ",
+					["serverTime"] = 1593702566,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						53, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456337.194,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:09:27]|h|r |cffb2b2b2[17:09]|r |Hchannel:channel:2|h[2]|h |Hplayer:Hiphopa-Ravencrest:24:2|h[|cfffef367Hiphopa|r]|h: Nova Community  Selling +M(10-22) IN TIME With FREE ARMORSTACK AND SHARELOOT! ||+10=90k || || +12=110k || ||+14=145k || || +15= 165k ||  2x=10%Off , [Ny'alotha, the Waking City] Hc Share loot 250k , Jaina 500k ,Vision All Servers /w for info",
+					["serverTime"] = 1593702567,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						54, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456338.969,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:09:30]|h|r |cffb2b2b2[17:09]|r |Hchannel:channel:2|h[2]|h |Hplayer:Demonmetal-Ravencrest:25:2|h[|cffa22fc8Demonmetal|r]|h: WTS Mythic+ boost With 3k Rio Group Doing intime [10-17] Keys Whis me for info {We trade all the loot with you} ",
+					["serverTime"] = 1593702570,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						55, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456341.168,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:09:31]|h|r |cffb2b2b2[17:09]|r |Hchannel:channel:2|h[2]|h |Hplayer:Twillightmik-Ravencrest:29:2|h[|cfffefefeTwillightmik|r]|h: Twilight Boosting community: NEW REDUCED PRICES:  We are offering 12/12 HC N'yalotha|||| M+ 10-20|||| PVP Boosts and conquest cap||||Voidtalon TLPD and more. Don't forget to ask about today's combo deals. Pm for more",
+					["serverTime"] = 1593702571,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						56, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456342.914,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:09:34]|h|r |cffb2b2b2[17:09]|r |Hchannel:channel:2|h[2]|h |Hplayer:Overgamee-Ravencrest:33:2|h[|cfffefefeOvergamee|r]|h: <SBS>We are Selling Mythic Dungeon , 3x +11 260k (9x 460 ilvl loot) , 3x +14s 380k(9x 465 ilvl loot) +10/95k ,+11/105K,+12/115k ,+15/170k FREE ARMOR STACK. 0-5maks Available /w fore more info",
+					["serverTime"] = 1593702574,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						57, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456346.031,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:09:35]|h|r |cffb2b2b2[17:09]|r |Hchannel:channel:2|h[2]|h |Hplayer:Rcufreez-Ravencrest:34:2|h[|cff3ec5e9Rcufreez|r]|h: <RCU> WTS M+10 to M+23, guaranteed in time and all loot traded to you! Also selling Jaina mount and Visions (0-5 mask) as well as Mechagon & Ny'alotha 12/12! /w me for more info. ONLY GOLD ANY REALM.",
+					["serverTime"] = 1593702575,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						58, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456346.979,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:09:40]|h|r |cffb2b2b2[17:09]|r |Hchannel:channel:2|h[2]|h |Hplayer:Keepsy-Ravencrest:35:2|h[|cfffefefeKeepsy|r]|h: <Gallywix Community> Offering Visions (0-5 Masks) || M+ 10-21 Keys || Jaina Mount || Nya'lotha 12/12 HC & Mythic || Curve  (Cara & N'zoth) Multiple Runs Per Day || Islands  || PVP || Freehold Levelling || PVE/PVP Coaching || HC Ra-Den || ",
+					["serverTime"] = 1593702580,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						48, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456351.866,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:09:40]|h|r |cffb2b2b2[17:09]|r |Hchannel:channel:2|h[2]|h |Hplayer:Mythrisen-Ravencrest:36:2|h[|cfffef367Mythrisen|r]|h: <Nova> WTS  Boost  Full Run HC |cff66bbff|Hjournal:0:1180:15|h[Ny'alotha, the Waking City]|h|r 250k Each trader is 115k !!/M+15=165k & ARMORSTACK + 5K / M+10 =90k /M+(10-22) intime/2 RUN 10% Discount/Curv 90k/ /Mythic raid NYA /Specific Boss&..",
+					["serverTime"] = 1593702580,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						59, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456352.09,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:09:43]|h|r |cffb2b2b2[17:09]|r |Hchannel:channel:2|h[2]|h |Hplayer:Bestservice-Ravencrest:38:2|h[|cff00fe95Bestservice|r]|h: WTS|cff66bbff|Hjournal:1:2364:14|h[Ra-den the Despoiled]|h|r |cff66bbff|Hjournal:1:2366:14|h[Carapace of N'Zoth]|h|r|cff66bbff|Hjournal:1:2375:14|h[N'Zoth the Corruptor]|h|r) HC  Get mount, curve and chance on 470 loot. +Mythic  6-18.GOLD ONLY ",
+					["serverTime"] = 1593702583,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						38, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456354.59,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:09:46]|h|r |cffb2b2b2[17:09]|r |Hchannel:channel:2|h[2]|h |Hplayer:Kuhrbunn-Ravencrest:40:2|h[|cffa22fc8Kuhrbunn|r]|h: WTS Level Boost 110-120 fast",
+					["serverTime"] = 1593702586,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						60, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456357.628,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:08]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Achilina-Ravencrest:2265:INSTANCE_CHAT:|h[|cfff48cbaAchilina|r]|h: Fatality: Mustehab > 566k Arcane |cff71d5ff|Hspell:252634:0|h[Cosmic Smash]|h|r [|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|tConstellar Designate] + |cff71d5ff|Hspell:258399:0|h[Reap Soul]|h|r",
+					["r"] = 1,
+					["extraData"] = {
+						64, -- [1]
+						1, -- [2]
+						6, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.2823529541492462,
+					["b"] = 0.03529411926865578,
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:08]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Achilina-Ravencrest:2266:INSTANCE_CHAT:|h[|cfff48cbaAchilina|r]|h: Fatality: Astara > 458k Arcane |cff71d5ff|Hspell:253061:0|h[Starblast]|h|r [|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|tConstellar Designate] + |cff71d5ff|Hspell:258399:0|h[Reap Soul]|h|r",
+					["r"] = 1,
+					["extraData"] = {
+						64, -- [1]
+						1, -- [2]
+						6, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.2823529541492462,
+					["b"] = 0.03529411926865578,
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:08]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Achilina-Ravencrest:2267:INSTANCE_CHAT:|h[|cfff48cbaAchilina|r]|h: Fatality: Zimine > 445k Arcane |cff71d5ff|Hspell:253061:0|h[Starblast]|h|r [|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:0|tConstellar Designate] + |cff71d5ff|Hspell:258399:0|h[Reap Soul]|h|r",
+					["r"] = 1,
+					["extraData"] = {
+						64, -- [1]
+						1, -- [2]
+						6, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.2823529541492462,
+					["b"] = 0.03529411926865578,
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:08]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Achilina-Ravencrest:2268:INSTANCE_CHAT:|h[|cfff48cbaAchilina|r]|h: Fatality: |cfff38bb9Achilina|r > 430k Arcane |cff71d5ff|Hspell:253061:0|h[Starblast]|h|r [|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:0|tConstellar Designate] + |cff71d5ff|Hspell:258399:0|h[Reap Soul]|h|r",
+					["r"] = 1,
+					["extraData"] = {
+						64, -- [1]
+						1, -- [2]
+						6, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.2823529541492462,
+					["b"] = 0.03529411926865578,
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:09]|r |Hplayer:Darkennrahl-Drak'thul:2272:SAY:|h[|cffff7c0aDarkennrahl-Drak'thul|r]|h: [Common] Taunted",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						7, -- [2]
+						10, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:09]|r |Hplayer:Ivonda-Silvermoon:2280:SAY:|h[|cff0070ddIvonda-Silvermoon|r]|h: [Common] |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|tBurst|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						7, -- [2]
+						13, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:09]|r |Hplayer:Chlodny-DefiasBrotherhood:2281:SAY:|h[|cffc41e3aChlodny-DefiasBrotherhood|r]|h: [Common] |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_7:0|tBurst|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_7:0|t",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						7, -- [2]
+						15, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:10]|r |Hplayer:Praesentia-BurningBlade:2291:SAY:|h[|cffff7c0aPraesentia-BurningBlade|r]|h: [Common] |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:0|tBomb|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:0|t",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						7, -- [2]
+						16, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:11]|r |Hplayer:Vitrivius-DefiasBrotherhood:2302:SAY:|h[|cffaad372Vitrivius-DefiasBrotherhood|r]|h: [Common] |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_7:0|tBurst|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_7:0|t",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						7, -- [2]
+						17, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:11]|r |Hplayer:Darkennrahl-Drak'thul:2303:SAY:|h[|cffff7c0aDarkennrahl-Drak'thul|r]|h: [Common] Taunted",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						7, -- [2]
+						10, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:11]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Kolav-ArgentDawn:2306:INSTANCE_CHAT:|h[|cffc69b6dKolav-ArgentDawn|r]|h: ress pls ;)",
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						1, -- [2]
+						18, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:11]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Steelsteak-Silvermoon:2318:INSTANCE_CHAT:|h[|cffc69b6dSteelsteak-Silvermoon|r]|h: Did you just ask for a ress?",
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						1, -- [2]
+						19, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:11]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Achilina-Ravencrest:2319:INSTANCE_CHAT:|h[|cfff48cbaAchilina|r]|h: no1 killing orbs :p",
+					["r"] = 1,
+					["extraData"] = {
+						64, -- [1]
+						1, -- [2]
+						6, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.2823529541492462,
+					["b"] = 0.03529411926865578,
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:11]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Sírona-AzjolNerub:2324:INSTANCE_CHAT:|h[|cff00ff96Sírona-AzjolNerub|r]|h: gj guys",
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						1, -- [2]
+						20, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:11]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Destim-ArgentDawn:2325:INSTANCE_CHAT:|h[|cffc69b6dDestim-ArgentDawn|r]|h: nice",
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						1, -- [2]
+						2, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:12]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Steelsteak-Silvermoon:2330:INSTANCE_CHAT:|h[|cffc69b6dSteelsteak-Silvermoon|r]|h: When you can just walk into the tree?",
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						1, -- [2]
+						19, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:12]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Steelsteak-Silvermoon:2331:INSTANCE_CHAT:|h[|cffc69b6dSteelsteak-Silvermoon|r]|h: xd",
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						1, -- [2]
+						19, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:25]|r |Hchannel:channel:2|h[2]|h |Hplayer:Florastoria-Ravencrest:2385:2|h[|cffff7c0aFlorastoria|r]|h: WTS|cff0070dd|Hbattlepet:1544:25:3:1465:289:273:0000000000000000|h[Hatespark the Tiny]|h|r /w offer",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						22, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:26]|r |Hchannel:channel:2|h[2]|h |Hplayer:Talhop-Ravencrest:2389:2|h[|cfff48cbaTalhop|r]|h: <Ninth Order> 11/11M is boosting HC |cff66bbff|Hjournal:0:946:15|h[Antorus, the Burning Throne]|h|r. Full and Argus only runs. Going FRIDAY  20:00 and 22:25. ALL boosters UNSAVED and lootsharing.  Going every fri-sat. /w for info",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						23, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [51]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[16:27]|r |Hchannel:channel:2|h[2]|h |Hplayer:Kittys-Ravencrest:2391:2|h[|cffffffffKittys|r]|h: Multi-Glads BOOSTING in 3V3, 200k=100Rating. Get your elite gear FAST!",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						24, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [52]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:31]|r |Hchannel:channel:2|h[2]|h |Hplayer:Narax-Ravencrest:111:2|h[|cfffff468Narax|r]|h: [WTS] Alani kill ! 10x|cffa335ee|Hitem:86547::::::::110:259::::::|h[Skyshard]|h|r  ready to show ! Get your |cff71d5ff|Hspell:132036:0|h[Thundering Ruby Cloud Serpent]|h|r 100% droprate for 75k 3 more spots !",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						25, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [53]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:31]|r |Hplayer:Achilina-Ravencrest|h[Achilina]|h has earned the achievement |cffffff00|Hachievement:11612:Player-1329-0419982E:1:7:5:18:4294967295:4294967295:4294967295:4294967295|h[Fighting with Style: Challenging]|h|r!",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						65, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:31]|r |Hchannel:channel:2|h[2]|h |Hplayer:Narax-Ravencrest:119:2|h[|cfffff468Narax|r]|h: [WTS] Alani kill ! 10x|cffa335ee|Hitem:86547::::::::110:259::::::|h[Skyshard]|h|r  ready to show ! Get your |cff71d5ff|Hspell:132036:0|h[Thundering Ruby Cloud Serpent]|h|r 100% droprate for 75k 3 more spots !",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						25, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [55]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:31]|r |Hchannel:channel:2|h[2]|h |Hplayer:Narax-Ravencrest:124:2|h[|cfffff468Narax|r]|h: [WTS] Alani kill ! 10x|cffa335ee|Hitem:86547::::::::110:259::::::|h[Skyshard]|h|r  ready to show ! Get your |cff71d5ff|Hspell:132036:0|h[Thundering Ruby Cloud Serpent]|h|r 100% droprate for 75k 3 more spots !",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						25, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [56]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:32]|r |Hchannel:channel:2|h[2]|h |Hplayer:Rageeyy-Ravencrest:126:2|h[|cffffffffRageeyy|r]|h: WTS Heroic Antorus full run personal loot, starting at 22:00 for 350k gold",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						26, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [57]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:33]|r |Hchannel:channel:2|h[2]|h |Hplayer:Rageeyy-Ravencrest:132:2|h[|cffffffffRageeyy|r]|h: WTS Heroic Antorus full run personal loot, starting at 22:00 for 350k gold",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						26, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [58]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:33]|r |Hchannel:channel:2|h[2]|h [|cffE7E716DND|r] |Hplayer:Talhop-Ravencrest:134:2|h[|cfff48cbaTalhop|r]|h: <Ninth Order> 11/11M is boosting HC |cff66bbff|Hjournal:0:946:15|h[Antorus, the Burning Throne]|h|r. Full and Argus only runs. Going FRIDAY  20:00 and 22:25. ALL boosters UNSAVED and lootsharing.  Going every fri-sat. /w for info",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						23, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [59]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:34]|r |Hchannel:channel:2|h[2]|h |Hplayer:Rageeyy-Ravencrest:135:2|h[|cffffffffRageeyy|r]|h: WTS Heroic Antorus full run personal loot, starting at 22:00 for 350k gold",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						26, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [60]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:35]|r |Hchannel:channel:2|h[2]|h |Hplayer:Narax-Ravencrest:140:2|h[|cfffff468Narax|r]|h: [WTS] Alani kill ! 10x|cffa335ee|Hitem:86547::::::::110:259::::::|h[Skyshard]|h|r  ready to show ! Get your |cff71d5ff|Hspell:132036:0|h[Thundering Ruby Cloud Serpent]|h|r 100% droprate for 75k 3 more spots !",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						25, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [61]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:35]|r |Hchannel:channel:2|h[2]|h |Hplayer:Rageeyy-Ravencrest:141:2|h[|cffffffffRageeyy|r]|h: WTS Heroic Antorus full run personal loot, starting at 22:00 for 350k gold",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						26, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [62]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:36]|r |Hchannel:channel:2|h[2]|h [|cffE7E716DND|r] |Hplayer:Talhop-Ravencrest:153:2|h[|cfff48cbaTalhop|r]|h: <Ninth Order> 11/11M is boosting HC |cff66bbff|Hjournal:0:946:15|h[Antorus, the Burning Throne]|h|r. Full and Argus only runs. Going FRIDAY  20:00 and 22:25. ALL boosters UNSAVED and lootsharing.  Going every fri-sat. /w for info",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						23, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [63]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:36]|r |Hchannel:channel:2|h[2]|h |Hplayer:Rageeyy-Ravencrest:154:2|h[|cffffffffRageeyy|r]|h: WTS Heroic Antorus full run personal loot, starting at 22:00 for 350k gold",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						26, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [64]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:36]|r |Hchannel:channel:2|h[2]|h |Hplayer:Narax-Ravencrest:155:2|h[|cfffff468Narax|r]|h: [WTS] Alani kill ! 10x|cffa335ee|Hitem:86547::::::::110:259::::::|h[Skyshard]|h|r  ready to show ! Get your |cff71d5ff|Hspell:132036:0|h[Thundering Ruby Cloud Serpent]|h|r 100% droprate for 75k 3 more spots !",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						25, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [65]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:36]|r |Hchannel:channel:2|h[2]|h |Hplayer:Rageeyy-Ravencrest:158:2|h[|cffffffffRageeyy|r]|h: WTS Heroic Antorus full run personal loot, starting at 22:00 for 350k gold",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						26, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [66]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:36]|r |Hchannel:channel:2|h[2]|h |Hplayer:Ejected-Ravencrest:159:2|h[|cffff7c0aEjected|r]|h: ☻♥♥--WTS Twink Boost Lvl 98-110 ( Req 680+ iLvl ) --2k Per Dungeon---Very Fast-- DruiD BalanCe++ iLvl  865 -- 27% Leech !!!!  --☻♥♥",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						27, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [67]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:37]|r |Hchannel:channel:2|h[2]|h |Hplayer:Rageeyy-Ravencrest:161:2|h[|cffffffffRageeyy|r]|h: WTS Heroic Antorus full run personal loot, starting at 22:00 for 350k gold",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						26, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [68]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:37]|r |Hchannel:channel:2|h[2]|h |Hplayer:Narax-Ravencrest:162:2|h[|cfffff468Narax|r]|h: [WTS] Alani kill ! 10x|cffa335ee|Hitem:86547::::::::110:259::::::|h[Skyshard]|h|r  ready to show ! Get your |cff71d5ff|Hspell:132036:0|h[Thundering Ruby Cloud Serpent]|h|r 100% droprate for 75k 3 more spots !",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						25, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [69]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:37]|r |Hchannel:channel:2|h[2]|h |Hplayer:Ejected-Ravencrest:165:2|h[|cffff7c0aEjected|r]|h: ☻♥♥--WTS Twink Boost Lvl 98-110 ( Req 680+ iLvl ) --2k Per Dungeon---Very Fast-- DruiD BalanCe++ iLvl  865 -- 27% Leech !!!!  --☻♥♥",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						27, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [70]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:37]|r |Hchannel:channel:2|h[2]|h |Hplayer:Ejected-Ravencrest:166:2|h[|cffff7c0aEjected|r]|h: ☻♥♥--WTS Twink Boost Lvl 98-110 ( Req 680+ iLvl ) --2k Per Dungeon---Very Fast-- DruiD BalanCe++ iLvl  865 -- 27% Leech !!!!  --☻♥♥",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						27, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [71]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:37]|r |Hchannel:channel:2|h[2]|h |Hplayer:Rageeyy-Ravencrest:167:2|h[|cffffffffRageeyy|r]|h: WTS Heroic Antorus full run personal loot, starting at 22:00 for 350k gold",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						26, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [72]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:38]|r |Hchannel:channel:2|h[2]|h |Hplayer:Rageeyy-Ravencrest:168:2|h[|cffffffffRageeyy|r]|h: WTS Heroic Antorus full run personal loot, starting at 22:00 for 350k gold",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						26, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [73]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:38]|r |Hchannel:channel:2|h[2]|h |Hplayer:Ejected-Ravencrest:170:2|h[|cffff7c0aEjected|r]|h: ☻♥♥--WTS Twink Boost Lvl 98-110 ( Req 680+ iLvl ) --2k Per Dungeon---Very Fast-- DruiD BalanCe++ iLvl  865 -- 27% Leech !!!!  --☻♥♥",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						27, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [74]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:38]|r |Hchannel:channel:2|h[2]|h |Hplayer:Ejected-Ravencrest:171:2|h[|cffff7c0aEjected|r]|h: ☻♥♥--WTS Twink Boost Lvl 98-110 ( Req 680+ iLvl ) --2k Per Dungeon---Very Fast-- DruiD BalanCe++ iLvl  865 -- 27% Leech !!!!  --☻♥♥",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						27, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [75]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:38]|r |Hchannel:channel:2|h[2]|h [|cffE7E716DND|r] |Hplayer:Talhop-Ravencrest:172:2|h[|cfff48cbaTalhop|r]|h: <Ninth Order> 11/11M is boosting HC |cff66bbff|Hjournal:0:946:15|h[Antorus, the Burning Throne]|h|r. Full and Argus only runs. Going FRIDAY  20:00 and 22:25. ALL boosters UNSAVED and lootsharing.  Going every fri-sat. /w for info",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						23, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [76]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:38]|r |Hchannel:channel:2|h[2]|h |Hplayer:Rageeyy-Ravencrest:173:2|h[|cffffffffRageeyy|r]|h: WTS Heroic Antorus full run personal loot, starting at 22:00 for 350k gold",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						26, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [77]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:39]|r |Hchannel:channel:2|h[2]|h |Hplayer:Florastoria-Ravencrest:175:2|h[|cffff7c0aFlorastoria|r]|h: WTS TCG Pets|cff0070dd|Hbattlepet:242:25:3:1319:305:289:0000000000000000|h[Spectral Tiger Cub]|h|r|cff0070dd|Hbattlepet:328:1:3:152:13:10:0000000000000000|h[Purple Puffer]|h|r   /w offer",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						22, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [78]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:39]|r |Hchannel:channel:2|h[2]|h |Hplayer:Florastoria-Ravencrest:176:2|h[|cffff7c0aFlorastoria|r]|h: WTS|cff0070dd|Hbattlepet:1544:25:3:1465:289:273:0000000000000000|h[Hatespark the Tiny]|h|r /w offer",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						22, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [79]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:39]|r |Hchannel:channel:2|h[2]|h |Hplayer:Ejected-Ravencrest:177:2|h[|cffff7c0aEjected|r]|h: ☻♥♥--WTS Twink Boost Lvl 98-110 ( Req 680+ iLvl ) --2k Per Dungeon---Very Fast-- DruiD BalanCe++ iLvl  865 -- 27% Leech !!!!  --☻♥♥",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						27, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [80]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:39]|r |Hchannel:channel:2|h[2]|h |Hplayer:Ejected-Ravencrest:178:2|h[|cffff7c0aEjected|r]|h: ☻♥♥--WTS Twink Boost Lvl 98-110 ( Req 680+ iLvl ) --2k Per Dungeon---Very Fast-- DruiD BalanCe++ iLvl  865 -- 27% Leech !!!!  --☻♥♥",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						27, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [81]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:39]|r |Hchannel:channel:2|h[2]|h |Hplayer:Rageeyy-Ravencrest:180:2|h[|cffffffffRageeyy|r]|h: WTS Heroic Antorus full run personal loot, starting at 22:00 for 350k gold",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						26, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [82]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:39]|r |Hchannel:channel:2|h[2]|h |Hplayer:Shura-Ravencrest:181:2|h[|cffffffffShura|r]|h: 11/11 (M) guild selling Antorus HC full run and argus only (Personal loot), starting at 19:30 today,  /w me for more info!",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						28, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [83]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:39]|r |Hchannel:channel:2|h[2]|h |Hplayer:Rageeyy-Ravencrest:182:2|h[|cffffffffRageeyy|r]|h: WTS Heroic Antorus full run personal loot, starting at 22:00 for 350k gold",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						26, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [84]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:40]|r |Hchannel:channel:2|h[2]|h |Hplayer:Rageeyy-Ravencrest:186:2|h[|cffffffffRageeyy|r]|h: WTS Heroic Antorus full run personal loot, starting at 22:00 for 350k gold",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						26, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [85]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:40]|r |Hchannel:channel:2|h[2]|h |Hplayer:Narax-Ravencrest:187:2|h[|cfffff468Narax|r]|h: [WTS] Alani kill ! 10x|cffa335ee|Hitem:86547::::::::110:259::::::|h[Skyshard]|h|r  ready to show ! Get your |cff71d5ff|Hspell:132036:0|h[Thundering Ruby Cloud Serpent]|h|r 100% droprate for 75k 3 more spots !",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						25, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [86]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:40]|r |Hchannel:channel:2|h[2]|h |Hplayer:Shura-Ravencrest:188:2|h[|cffffffffShura|r]|h: 11/11 (M) guild selling Antorus HC full run and argus only (Personal loot), starting at 19:30 today,  /w me for more info!",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						28, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [87]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:40]|r |Hchannel:channel:2|h[2]|h |Hplayer:Rageeyy-Ravencrest:191:2|h[|cffffffffRageeyy|r]|h: WTS Heroic Antorus full run personal loot, starting at 22:00 for 350k gold",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						26, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [88]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:41]|r |Hchannel:channel:2|h[2]|h [|cffE7E716DND|r] |Hplayer:Talhop-Ravencrest:199:2|h[|cfff48cbaTalhop|r]|h: <Ninth Order> 11/11M is boosting HC |cff66bbff|Hjournal:0:946:15|h[Antorus, the Burning Throne]|h|r. Full and Argus only runs. Going FRIDAY  20:00 and 22:25. ALL boosters UNSAVED and lootsharing.  Going every fri-sat. /w for info",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						23, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [89]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:41]|r |Hchannel:channel:2|h[2]|h |Hplayer:Rageeyy-Ravencrest:200:2|h[|cffffffffRageeyy|r]|h: WTS Heroic Antorus full run personal loot, starting at 22:00 for 350k gold",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						26, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [90]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:41]|r |Hchannel:channel:2|h[2]|h |Hplayer:Shura-Ravencrest:202:2|h[|cffffffffShura|r]|h: 11/11 (M) guild selling Antorus HC full run and argus only (Personal loot), starting at 19:30 today,  /w me for more info!",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						28, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [91]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:41]|r |Hchannel:channel:2|h[2]|h |Hplayer:Besker-Ravencrest:204:2|h[|cffffffffBesker|r]|h: LF 1 signature for guild charter. Will pay 1000g",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						29, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [92]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:41]|r |Hchannel:channel:2|h[2]|h |Hplayer:Rageeyy-Ravencrest:205:2|h[|cffffffffRageeyy|r]|h: WTS Heroic Antorus full run personal loot, starting at 22:00 for 350k gold",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						26, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [93]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:42]|r |Hchannel:channel:2|h[2]|h |Hplayer:Florastoria-Ravencrest:208:2|h[|cffff7c0aFlorastoria|r]|h: WTS TCG Pets|cff0070dd|Hbattlepet:242:25:3:1319:305:289:0000000000000000|h[Spectral Tiger Cub]|h|r|cff0070dd|Hbattlepet:328:1:3:152:13:10:0000000000000000|h[Purple Puffer]|h|r   /w offer",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						22, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [94]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:42]|r |Hchannel:channel:2|h[2]|h |Hplayer:Florastoria-Ravencrest:209:2|h[|cffff7c0aFlorastoria|r]|h: WTS|cff0070dd|Hbattlepet:1544:25:3:1465:289:273:0000000000000000|h[Hatespark the Tiny]|h|r /w offer",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						22, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [95]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:42]|r |Hchannel:channel:2|h[2]|h |Hplayer:Rageeyy-Ravencrest:212:2|h[|cffffffffRageeyy|r]|h: WTS Heroic Antorus full run personal loot, starting at 22:00 for 350k gold",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						26, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [96]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:42]|r |Hchannel:channel:2|h[2]|h |Hplayer:Rageeyy-Ravencrest:219:2|h[|cffffffffRageeyy|r]|h: WTS Heroic Antorus full run personal loot, starting at 22:00 for 350k gold",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						26, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [97]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:43]|r |Hchannel:channel:2|h[2]|h |Hplayer:Rageeyy-Ravencrest:221:2|h[|cffffffffRageeyy|r]|h: WTS Heroic Antorus full run personal loot, starting at 22:00 for 350k gold",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						26, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [98]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:43]|r |Hchannel:channel:2|h[2]|h |Hplayer:Besker-Ravencrest:226:2|h[|cffffffffBesker|r]|h: LF 1 signature for guild charter. Will pay 1000g",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						29, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [99]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:43]|r |Hchannel:channel:2|h[2]|h [|cffE7E716DND|r] |Hplayer:Talhop-Ravencrest:227:2|h[|cfff48cbaTalhop|r]|h: <Ninth Order> 11/11M is boosting HC |cff66bbff|Hjournal:0:946:15|h[Antorus, the Burning Throne]|h|r. Full and Argus only runs. Going FRIDAY  20:00 and 22:25. ALL boosters UNSAVED and lootsharing.  Going every fri-sat. /w for info",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						23, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [100]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:43]|r |Hchannel:channel:2|h[2]|h |Hplayer:Rageeyy-Ravencrest:228:2|h[|cffffffffRageeyy|r]|h: WTS Heroic Antorus full run personal loot, starting at 22:00 for 350k gold",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						26, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [101]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:43]|r |Hchannel:channel:2|h[2]|h |Hplayer:Wolfskíe-Ravencrest:229:2|h[|cfff48cbaWolfskíe|r]|h: <<Ineffable>> Newly Formed Raiding Guild Recruiting For BFA, Skilled, Dedicated/Social players welcome to get in touch to progress in a chill steady pace Raid Days : Thursday/Sunday 19:30-23:00 Server time, /w for more info !",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						30, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [102]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[21:44]|r |Hchannel:channel:2|h[2]|h |Hplayer:Rageeyy-Ravencrest:232:2|h[|cffffffffRageeyy|r]|h: WTS Heroic Antorus full run personal loot, starting at 22:00 for 350k gold",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						26, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [103]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[12:11]|r |Hplayer:Achilina-Ravencrest|h[Achilina]|h has earned the achievement |cffffff00|Hachievement:10770:Player-1329-0419982E:1:7:18:18:4294967295:4294967295:4294967295:4294967295|h[The Tangerine Traveler]|h|r!",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						65, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [104]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[19:06]|r |Hchannel:channel:2|h[2]|h |Hplayer:Zilverback-Ravencrest:265:2|h[|cff00ff96Zilverback|r]|h:  WTS Bone-White Primal Raptor x9999Giant Dinosaur Bone",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						31, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [105]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[19:06]|r |Hchannel:channel:2|h[2]|h |Hplayer:Zilverback-Ravencrest:266:2|h[|cff00ff96Zilverback|r]|h:  WTS Bone-White Primal Raptor x9999Giant Dinosaur Bone",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						31, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [106]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[19:06]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sunrazor-Ravencrest:268:2|h[|cffff7c0aSunrazor|r]|h: WTS 2nd for today Alani |cffa335ee|Hitem:90655::::::::110:102::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r Got 10 |cffa335ee|Hitem:86547::::::::110:269::::::|h[Skyshard]|h|r! 100% drop chance Personal loot Price: 50k /w me 2 spots left",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						32, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [107]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[19:06]|r |Hchannel:channel:2|h[2]|h |Hplayer:Saiyeman-Ravencrest:271:2|h[|cffc41e3aSaiyeman|r]|h: WTS  Mythic +15  key  /w me for more info!'",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						33, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [108]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[19:06]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sunrazor-Ravencrest:272:2|h[|cffff7c0aSunrazor|r]|h: WTS 2nd for today Alani |cffa335ee|Hitem:90655::::::::110:102::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r Got 10 |cffa335ee|Hitem:86547::::::::110:269::::::|h[Skyshard]|h|r! 100% drop chance Personal loot Price: 50k /w me 2 spots left",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						32, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [109]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[19:06]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sharlicious-Ravencrest:276:2|h[|cff3fc6eaSharlicious|r]|h: WTS |cff0070dd|Hbattlepet:311:1:3:158:11:10:0000000000000000|h[Guardian Cub]|h|r! Cheap compared to AH! /W ME ",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						34, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [110]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[19:06]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sharlicious-Ravencrest:277:2|h[|cff3fc6eaSharlicious|r]|h: WTS |cff0070dd|Hbattlepet:311:1:3:158:11:10:0000000000000000|h[Guardian Cub]|h|r! Cheap compared to AH! /W ME ",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						34, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [111]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[19:07]|r |Hchannel:channel:2|h[2]|h |Hplayer:Saiyeman-Ravencrest:280:2|h[|cffc41e3aSaiyeman|r]|h: WTS  Mythic +15  key  /w me for more info!'",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						33, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [112]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[19:07]|r |Hchannel:channel:2|h[2]|h |Hplayer:Shredbull-Ravencrest:285:2|h[|cfffff468Shredbull|r]|h: LF Someone that needs |cffffff00|Hachievement:156:Player-1329-05174918:0:0:0:-1:0:0:0:0|h[Territorial Dominance]|h|r",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						35, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [113]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[19:07]|r |Hchannel:channel:2|h[2]|h |Hplayer:Shredbull-Ravencrest:286:2|h[|cfffff468Shredbull|r]|h: LF Someone that needs |cffffff00|Hachievement:156:Player-1329-05174918:0:0:0:-1:0:0:0:0|h[Territorial Dominance]|h|r",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						35, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [114]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[19:07]|r |Hchannel:channel:2|h[2]|h |Hplayer:Saiyeman-Ravencrest:291:2|h[|cffc41e3aSaiyeman|r]|h: WTS  Mythic +15  key  /w me for more info!'",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						33, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [115]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[19:08]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sharlicious-Ravencrest:292:2|h[|cff3fc6eaSharlicious|r]|h: WTS |cff0070dd|Hbattlepet:311:1:3:158:11:10:0000000000000000|h[Guardian Cub]|h|r! Cheap compared to AH! /W ME ",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						34, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [116]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[19:08]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sharlicious-Ravencrest:293:2|h[|cff3fc6eaSharlicious|r]|h: WTS |cff0070dd|Hbattlepet:311:1:3:158:11:10:0000000000000000|h[Guardian Cub]|h|r! Cheap compared to AH! /W ME ",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						34, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [117]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[19:08]|r |Hchannel:channel:2|h[2]|h |Hplayer:Florastoria-Ravencrest:294:2|h[|cffff7c0aFlorastoria|r]|h: WTS TCG Pet |cff0070dd|Hbattlepet:183:25:3:1481:276:276:0000000000000000|h[Ethereal Soul-Trader]|h|r|cff0070dd|Hbattlepet:303:1:3:145:11:14:0000000000000000|h[Nightsaber Cub]|h|r    /w offer",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						22, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [118]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[19:08]|r |Hchannel:channel:2|h[2]|h |Hplayer:Florastoria-Ravencrest:295:2|h[|cffff7c0aFlorastoria|r]|h: WTS TCG Pets |cff0070dd|Hbattlepet:302:1:3:161:12:9:0000000000000000|h[Landro's Lichling]|h|r|cff0070dd|Hbattlepet:333:25:3:1465:273:289:0000000000000000|h[Gregarious Grell]|h|r    /w offer",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						22, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [119]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[19:08]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sunrazor-Ravencrest:296:2|h[|cffff7c0aSunrazor|r]|h: WTS 2nd for today Alani |cffa335ee|Hitem:90655::::::::110:102::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r Got 10 |cffa335ee|Hitem:86547::::::::110:269::::::|h[Skyshard]|h|r! 100% drop chance Personal loot Price: 50k /w me 2 spots left",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						32, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [120]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[19:08]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sunrazor-Ravencrest:297:2|h[|cffff7c0aSunrazor|r]|h: WTS 2nd for today Alani |cffa335ee|Hitem:90655::::::::110:102::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r Got 10 |cffa335ee|Hitem:86547::::::::110:269::::::|h[Skyshard]|h|r! 100% drop chance Personal loot Price: 50k /w me 2 spots left",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						32, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [121]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[19:08]|r |Hchannel:channel:2|h[2]|h |Hplayer:Saiyeman-Ravencrest:299:2|h[|cffc41e3aSaiyeman|r]|h: WTS  Mythic +15  key  /w me for more info!'",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						33, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [122]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[19:08]|r |Hchannel:channel:2|h[2]|h |Hplayer:Dreamshiv-Ravencrest:300:2|h[|cfffff468Dreamshiv|r]|h: WTS|cff0070dd|Hbattlepet:169:1:3:152:10:13:0000000000000000|h[Dragon Kite]|h|r&|cffa335ee|Hitem:32756::::::::1:259::::::|h[Gyro-Balanced Khorium Destroyer]|h|r&|cff0070dd|Hbattlepet:333:1:3:155:11:12:0000000000000000|h[Gregarious Grell]|h|r&|cffa335ee|Hitem:118874::::::::1:259:512:29:1:3980:110:::|h[Blackrock Bulwark]|h|r w/ me! Significantly Cheaper than AH! :)",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						36, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [123]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[19:08]|r |Hchannel:channel:2|h[2]|h |Hplayer:Zilverback-Ravencrest:316:2|h[|cff00ff96Zilverback|r]|h:  WTS Bone-White Primal Raptor x9999Giant Dinosaur Bone",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						31, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [124]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[19:09]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sunrazor-Ravencrest:320:2|h[|cffff7c0aSunrazor|r]|h: WTS 2nd for today Alani |cffa335ee|Hitem:90655::::::::110:102::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r Got 10 |cffa335ee|Hitem:86547::::::::110:269::::::|h[Skyshard]|h|r! 100% drop chance Personal loot Price: 50k /w me 2 spots left",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						32, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [125]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[19:09]|r |Hchannel:channel:2|h[2]|h |Hplayer:Dreamshiv-Ravencrest:326:2|h[|cfffff468Dreamshiv|r]|h: WTS|cff0070dd|Hbattlepet:169:1:3:152:10:13:0000000000000000|h[Dragon Kite]|h|r&|cffa335ee|Hitem:32756::::::::1:259::::::|h[Gyro-Balanced Khorium Destroyer]|h|r&|cff0070dd|Hbattlepet:333:1:3:155:11:12:0000000000000000|h[Gregarious Grell]|h|r&|cffa335ee|Hitem:118874::::::::1:259:512:29:1:3980:110:::|h[Blackrock Bulwark]|h|r w/ me! Significantly Cheaper than AH! :)",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						21, -- [2]
+						36, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 456300.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [126]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[17:08]|r Welcome to |cfff38bb9ElvUI|r version |cfff38bb911.41|r, type /ec to access the in-game configuration menu. If you are in need of technical support you can visit us at |cFFFFFFFF[|Hurl:https://www.tukui.org|hhttps://www.tukui.org|h]|r or join our Discord: |cFFFFFFFF[|Hurl:https://discord.gg/xFWcfgE|hhttps://discord.gg/xFWcfgE|h]|r ",
+					["timestamp"] = 456300.074,
+					["extraData"] = {
+						["n"] = 3,
+					},
+				}, -- [127]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:51]|h|r |cffb2b2b2[17:08]|r |cff14adcdS&L Info:|r |cff9482c9Shadow & Light|r version |cff1784d1|cfff38bb93.74|r for ElvUI is loaded. Thanks for the usage.",
+					["timestamp"] = 456300.074,
+					["extraData"] = {
+						["n"] = 3,
+					},
+					["serverTime"] = 1593702531,
+				}, -- [128]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
 	},
 }
