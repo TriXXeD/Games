@@ -1,0 +1,194 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["time"] = 1578237052,
+	["scrollback"] = {
+		["ChatFrame1"] = {
+			{
+				"|cff979797[16:10:34]|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Varahiil-Kazzak:2:CHANNEL:2|h|cfff38bb9Varahiil|r|h|cffd8d8d8]|r: The Gallywix Community || WTS >>MYTHIC+10-22<<  M+10 for 99k, M+15 for 225k || Package Deals ||  Done by 2.3k-3.5k+ Score Players. || Mechagon HM || And Many More... ||  Best Quality for the Best Prices! ", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+				68, -- [5]
+				false, -- [6]
+				1, -- [7]
+				2, -- [8]
+			}, -- [1]
+			{
+				"|cff979797[16:10:35]|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Libelularula-Kazzak:3:CHANNEL:2|h|cff3ec5e9Libelularula|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00NOVA|r|cffffffff>|r is selling M+ boosts.  m +10 is 90k, 2 m +10s for 180k and you get FREE ARMOR STACK and so on. a  +15 is 220k. We also sell MYTHIC EP with SPECIAL OFFERS, Mechagon runs, leveling boost. Whisper me for more info.", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+				68, -- [5]
+				false, -- [6]
+				1, -- [7]
+				4, -- [8]
+			}, -- [2]
+			{
+				"|cff979797[16:10:36]|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Wildést-Kazzak:4:CHANNEL:2|h|cfffe7b09Wildést|r|h|cffd8d8d8]|r: WTS Mythic+10-15 only 90k for 10 /alltradble loot is yours /eazy in time /cheap price /armor stack/you can afk/My group rio is 2k up.    [Boost lvlup 110-120]          /W me for more info...", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+				68, -- [5]
+				false, -- [6]
+				1, -- [7]
+				6, -- [8]
+			}, -- [3]
+			{
+				"|cff979797[16:10:37]|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Azorgallywix-Kazzak:5:CHANNEL:2|h|cff3ec5e9Azorgallywix|r|h|cffd8d8d8]|r: GALLYWIX COMMUNITY || GOLD ONLY || |cff71d5ff|Hspell:289555:0|h[Glacial Tidestorm]|h|r/Jaina Mythic Mount || BMAH Items - T3 Items & Mounts: Living Infernal Core (Green), Core Hound Chain TODAY and many more Rare/BMAH Mounts! PM me to hear more!", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+				68, -- [5]
+				false, -- [6]
+				1, -- [7]
+				8, -- [8]
+			}, -- [4]
+			{
+				"|cff979797[16:10:39]|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Aashiidens-Kazzak:6:CHANNEL:2|h|cff006fdcAashiidens|r|h|cffd8d8d8]|r: WTS World Achiev |cffffff00|Hachievement:12604:Player-1084-08DF3EF0:1:9:22:19:4294967295:4294967295:4294967295:4294967295|h[Conqueror of Azeroth]|h|r Reward |cff71d5ff|Hspell:279454:0|h[Conqueror's Scythemaw]|h|r 2xTitle Also Selling alliance Slayer ", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+				68, -- [5]
+				false, -- [6]
+				1, -- [7]
+				10, -- [8]
+			}, -- [5]
+			{
+				"|cff979797[16:10:40]|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Nuggetstorm-Kazzak:7:CHANNEL:2|h|cff00fe95Nuggetstorm|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Oblivion Boost|r|cffffffff>|r Selling Eternal Palace Heroic With unsaved boosters rolling out their loot! 8/8HC and 7/8HC spots available! Also Curve only runs! Going 17:30 Server Time! /w", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+				68, -- [5]
+				false, -- [6]
+				1, -- [7]
+				12, -- [8]
+			}, -- [6]
+			{
+				"|cff979797[16:10:41]|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Sàvin-Kazzak:8:CHANNEL:2|h|cfffe7b09Sàvin|r|h|cffd8d8d8]|r: Weekend DISCOUNTS ||Sylvanas Community||Get weekly +10 for 98k ONLY .Buy X2 runs and Get free armorstack +13 130k +15 for 225k .Buy 5x runs full armorstack 430k 5+13s for 615k||Jaina muont||MythicTEP Best Price ", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+				68, -- [5]
+				false, -- [6]
+				1, -- [7]
+				14, -- [8]
+			}, -- [7]
+			{
+				"|cff979797[16:10:43]|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Forloveidc-Kazzak:9:CHANNEL:2|h|cff006fdcForloveidc|r|h|cffd8d8d8]|r: WTS World Achiev |cffffff00|Hachievement:12604:Player-1084-08DF3EF0:1:9:22:19:4294967295:4294967295:4294967295:4294967295|h[Conqueror of Azeroth]|h|r Reward |cff71d5ff|Hspell:279454:0|h[Conqueror's Scythemaw]|h|r Also Selling Alliance slayer /w me :) ", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+				68, -- [5]
+				false, -- [6]
+				1, -- [7]
+				16, -- [8]
+			}, -- [8]
+			{
+				"|cff979797[16:10:45]|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Armoredangus-Kazzak:10:CHANNEL:2|h|cffc31d39Armoredangus|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00NOVA|r|cffffffff>|r is selling LAST spots for Mythic Eternal Palace 4/8 tomorrow 20:00!! Also quick and smooth M+10[90k]->15[220k] Keys in time. 2 or more for FREE armorstack!! AND discounted Mechagon, IE's & Freehold Leveling. /w me :)", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+				68, -- [5]
+				false, -- [6]
+				1, -- [7]
+				18, -- [8]
+			}, -- [9]
+			{
+				"|cff979797[16:10:47]|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Triforceprg-Kazzak:11:CHANNEL:2|h|cff00fe95Triforceprg|r|h|cffd8d8d8]|r: WTS |cff66bbff|Hjournal:0:1178:23|h[Operation: Mechagon]|h|r Last boss", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+				68, -- [5]
+				false, -- [6]
+				1, -- [7]
+				20, -- [8]
+			}, -- [10]
+			{
+				"|cff979797[16:10:49]|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Lauraxo-Kazzak:12:CHANNEL:2|h|cffc59a6cLauraxo|r|h|cffd8d8d8]|r: We are selling Azshara's Eternal Palace heroic at 17:30 and 19:00 Today, Done by experienced, unsaved boosters. Get your 430+ ilvl gear, essences and Curve achievement now! /w me if interested. Gold only! ", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+				68, -- [5]
+				false, -- [6]
+				1, -- [7]
+				22, -- [8]
+			}, -- [11]
+			{
+				"|cff979797[16:10:50]|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mangotns-Kazzak:13:CHANNEL:2|h|cff006fdcMangotns|r|h|cffd8d8d8]|r:  We are selling Azshara Heroic, receive the |cffffff00|Hachievement:13784:Player-1305-0AC60CF4:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: Queen Azshara]|h|r achievement for 70k and have the chance to get a 430+ item, we have runs every 30 minutes /w for more info or to book a spot. ", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+				68, -- [5]
+				false, -- [6]
+				1, -- [7]
+				24, -- [8]
+			}, -- [12]
+			{
+				"|cff979797[16:10:50]|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Frenjaoblivi-Kazzak:14:CHANNEL:2|h|cff3ec5e9Frenjaoblivi|r|h|cffd8d8d8]|r: \"|cffffffff<|r|cff00ff00Oblivion Boost Community|r|cffffffff>|r Selling The Eternal Palace Heroic Full Clear TODAY at 17:30 Server Time! 7/8 Spots available too! Secure your chance for plenty of 430+ Items and Curve! Interested? /w me - GOLD ONLY", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+				68, -- [5]
+				false, -- [6]
+				1, -- [7]
+				26, -- [8]
+			}, -- [13]
+			{
+				"|cff979797[16:10:52]|r |Hchannel:channel:1|h[1] |h Left Channel: |Hchannel:1|h[1. General - Orgrimmar]|h", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+				67, -- [5]
+				false, -- [6]
+				28, -- [7]
+				29, -- [8]
+			}, -- [14]
+			{
+				"|cff979797[16:10:52]|r |Hchannel:channel:2|h[2] |h Left Channel: |Hchannel:2|h[2. Trade - City]|h", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+				68, -- [5]
+				false, -- [6]
+				1, -- [7]
+				31, -- [8]
+			}, -- [15]
+			{
+				"|cff979797[16:10:52]|r |Hchannel:channel:3|h[3] |h Left Channel: |Hchannel:3|h[3. LocalDefense - Orgrimmar]|h", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+				69, -- [5]
+				false, -- [6]
+				33, -- [7]
+				34, -- [8]
+			}, -- [16]
+		},
+	},
+}

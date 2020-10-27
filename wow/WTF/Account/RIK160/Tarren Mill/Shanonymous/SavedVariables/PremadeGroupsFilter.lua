@@ -1,5 +1,7 @@
 
 PremadeGroupsFilterState = {
+	["expert"] = false,
+	["moveable"] = false,
 	["t1c6f0"] = {
 		["enabled"] = true,
 		["tanks"] = {

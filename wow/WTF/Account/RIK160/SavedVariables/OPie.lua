@@ -4,8 +4,8 @@ OneRing_Config = {
 		["Draenor-Daemonikos"] = "default",
 		["Kazzak-Trixxed"] = "default",
 	},
-	["_GameVersion"] = "8.1.5",
-	["_OPieVersion"] = "Walnut 2 (3.99)",
+	["_GameVersion"] = "9.0.1",
+	["_OPieVersion"] = "Xe 1a (3.102)",
 	["ProfileStorage"] = {
 		["default"] = {
 			["RingAtMouse"] = true,
@@ -68,10 +68,10 @@ OneRing_Config = {
 					"Pryd/Seph", -- [2]
 					["sliceToken"] = "ABuesbaqBf1",
 				}, -- [10]
-				["limit"] = "WARLOCK",
+				["name"] = "Warlock General",
 				["save"] = true,
 				["hotkey"] = "BUTTON4",
-				["name"] = "Warlock General",
+				["limit"] = "WARLOCK",
 			},
 			["OPieFlagStore"] = {
 				["StoreVersion"] = 2,
@@ -80,3 +80,4 @@ OneRing_Config = {
 	},
 	["_GameLocale"] = "enUS",
 }
+OPie_SavedData = nil

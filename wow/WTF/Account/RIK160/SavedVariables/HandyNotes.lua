@@ -9,18 +9,21 @@ HandyNotesDB = {
 		["Trìxxed - Ravencrest"] = "Trìxxed - Ravencrest",
 		["Trixxedbank - Draenor"] = "Trixxedbank - Draenor",
 		["Lupalia - Ravencrest"] = "Lupalia - Ravencrest",
+		["Achilina - Draenor"] = "Achilina - Draenor",
+		["Trixxedbank - Tarren Mill"] = "Trixxedbank - Tarren Mill",
 		["Xbenedict - Kazzak"] = "Xbenedict - Kazzak",
 		["Trîxxed - Ravencrest"] = "Trîxxed - Ravencrest",
-		["Trixxedosaur - Tarren Mill"] = "Trixxedosaur - Tarren Mill",
+		["Lycotonum - Tarren Mill"] = "Lycotonum - Tarren Mill",
+		["Trixxadin - Tarren Mill"] = "Trixxadin - Tarren Mill",
 		["Quelith - Draenor"] = "Quelith - Draenor",
 		["Shanonymous - Tarren Mill"] = "Shanonymous - Tarren Mill",
-		["Trïxxed - Ravencrest"] = "Trïxxed - Ravencrest",
-		["Trixxedbank - Tarren Mill"] = "Trixxedbank - Tarren Mill",
-		["Fausta - Ravencrest"] = "Fausta - Ravencrest",
+		["Artefoxy - Tarren Mill"] = "Artefoxy - Tarren Mill",
 		["Chrysante - Ravencrest"] = "Chrysante - Ravencrest",
+		["Fausta - Ravencrest"] = "Fausta - Ravencrest",
+		["Trïxxed - Ravencrest"] = "Trïxxed - Ravencrest",
 		["Shankspeare - Tarren Mill"] = "Shankspeare - Tarren Mill",
-		["Lycotonum - Tarren Mill"] = "Lycotonum - Tarren Mill",
-		["Achilina - Draenor"] = "Achilina - Draenor",
+		["Artefoxmis - Tarren Mill"] = "Artefoxmis - Tarren Mill",
+		["Trixxedosaur - Tarren Mill"] = "Trixxedosaur - Tarren Mill",
 	},
 	["profiles"] = {
 		["Trixxedbank - Kazzak"] = {
@@ -39,29 +42,35 @@ HandyNotesDB = {
 		},
 		["Lupalia - Ravencrest"] = {
 		},
+		["Achilina - Draenor"] = {
+		},
+		["Trixxedbank - Tarren Mill"] = {
+		},
 		["Xbenedict - Kazzak"] = {
 		},
 		["Trîxxed - Ravencrest"] = {
 		},
-		["Trixxedosaur - Tarren Mill"] = {
+		["Lycotonum - Tarren Mill"] = {
+		},
+		["Trixxadin - Tarren Mill"] = {
 		},
 		["Quelith - Draenor"] = {
 		},
 		["Shanonymous - Tarren Mill"] = {
 		},
-		["Trïxxed - Ravencrest"] = {
-		},
-		["Trixxedbank - Tarren Mill"] = {
-		},
-		["Fausta - Ravencrest"] = {
+		["Artefoxy - Tarren Mill"] = {
 		},
 		["Chrysante - Ravencrest"] = {
 		},
+		["Fausta - Ravencrest"] = {
+		},
+		["Trïxxed - Ravencrest"] = {
+		},
 		["Shankspeare - Tarren Mill"] = {
 		},
-		["Lycotonum - Tarren Mill"] = {
+		["Artefoxmis - Tarren Mill"] = {
 		},
-		["Achilina - Draenor"] = {
+		["Trixxedosaur - Tarren Mill"] = {
 		},
 	},
 }
@@ -75,18 +84,21 @@ HandyNotes_HandyNotesDB = {
 		["Trìxxed - Ravencrest"] = "Trìxxed - Ravencrest",
 		["Trixxedbank - Draenor"] = "Trixxedbank - Draenor",
 		["Lupalia - Ravencrest"] = "Lupalia - Ravencrest",
+		["Achilina - Draenor"] = "Achilina - Draenor",
+		["Trixxedbank - Tarren Mill"] = "Trixxedbank - Tarren Mill",
 		["Xbenedict - Kazzak"] = "Xbenedict - Kazzak",
 		["Trîxxed - Ravencrest"] = "Trîxxed - Ravencrest",
-		["Trixxedosaur - Tarren Mill"] = "Trixxedosaur - Tarren Mill",
+		["Lycotonum - Tarren Mill"] = "Lycotonum - Tarren Mill",
+		["Trixxadin - Tarren Mill"] = "Trixxadin - Tarren Mill",
 		["Quelith - Draenor"] = "Quelith - Draenor",
 		["Shanonymous - Tarren Mill"] = "Shanonymous - Tarren Mill",
-		["Trïxxed - Ravencrest"] = "Trïxxed - Ravencrest",
-		["Trixxedbank - Tarren Mill"] = "Trixxedbank - Tarren Mill",
-		["Fausta - Ravencrest"] = "Fausta - Ravencrest",
+		["Artefoxy - Tarren Mill"] = "Artefoxy - Tarren Mill",
 		["Chrysante - Ravencrest"] = "Chrysante - Ravencrest",
+		["Fausta - Ravencrest"] = "Fausta - Ravencrest",
+		["Trïxxed - Ravencrest"] = "Trïxxed - Ravencrest",
 		["Shankspeare - Tarren Mill"] = "Shankspeare - Tarren Mill",
-		["Lycotonum - Tarren Mill"] = "Lycotonum - Tarren Mill",
-		["Achilina - Draenor"] = "Achilina - Draenor",
+		["Artefoxmis - Tarren Mill"] = "Artefoxmis - Tarren Mill",
+		["Trixxedosaur - Tarren Mill"] = "Trixxedosaur - Tarren Mill",
 	},
 	["profiles"] = {
 		["Trixxedbank - Kazzak"] = {
@@ -105,29 +117,35 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Lupalia - Ravencrest"] = {
 		},
+		["Achilina - Draenor"] = {
+		},
+		["Trixxedbank - Tarren Mill"] = {
+		},
 		["Xbenedict - Kazzak"] = {
 		},
 		["Trîxxed - Ravencrest"] = {
 		},
-		["Trixxedosaur - Tarren Mill"] = {
+		["Lycotonum - Tarren Mill"] = {
+		},
+		["Trixxadin - Tarren Mill"] = {
 		},
 		["Quelith - Draenor"] = {
 		},
 		["Shanonymous - Tarren Mill"] = {
 		},
-		["Trïxxed - Ravencrest"] = {
-		},
-		["Trixxedbank - Tarren Mill"] = {
-		},
-		["Fausta - Ravencrest"] = {
+		["Artefoxy - Tarren Mill"] = {
 		},
 		["Chrysante - Ravencrest"] = {
 		},
+		["Fausta - Ravencrest"] = {
+		},
+		["Trïxxed - Ravencrest"] = {
+		},
 		["Shankspeare - Tarren Mill"] = {
 		},
-		["Lycotonum - Tarren Mill"] = {
+		["Artefoxmis - Tarren Mill"] = {
 		},
-		["Achilina - Draenor"] = {
+		["Trixxedosaur - Tarren Mill"] = {
 		},
 	},
 }

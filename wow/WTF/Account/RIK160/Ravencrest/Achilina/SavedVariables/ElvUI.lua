@@ -2797,31 +2797,31 @@ ElvCharacterDB = {
 		}, -- [127]
 	},
 	["BodyGuard"] = {
-		["Active"] = false,
-		["Health"] = 0,
-		["MaxHealth"] = 0,
 		["IsInValidZone"] = false,
+		["MaxHealth"] = 0,
+		["Health"] = 0,
+		["Active"] = false,
 	},
 	["ChatEditHistory"] = {
-		"/g Ohh actually I havnt done monk either", -- [1]
-		"/g But that's because I don't consider monks a real class", -- [2]
-		"/g It's the only class I don't have @ 110 :P", -- [3]
-		"/g It's stuck at 100 because i cba", -- [4]
-		"/g That's how little I care about monk, cba to even do invasion", -- [5]
-		"/g that's how i leveled all my other alt s:P", -- [6]
-		"/g Best class is Rogue", -- [7]
-		"/elvui", -- [8]
-		" Yep", -- [9]
-		" Kun seed AoE der tager skade af ikke at stack mastery", -- [10]
-		" Du skal ikke reroll, #StopFlavourPlay", -- [11]
-		"/i what?", -- [12]
-		"/i Very perceptive", -- [13]
-		"/i We are queued", -- [14]
-		"/dbm pull 5", -- [15]
-		"/i kick afks?", -- [16]
-		"/i It's called garbage tanks", -- [17]
-		"/i jsut go", -- [18]
-		"/i dont need another dps", -- [19]
-		"/i no1 killing orbs :p", -- [20]
+		" Yep", -- [1]
+		" Kun seed AoE der tager skade af ikke at stack mastery", -- [2]
+		" Du skal ikke reroll, #StopFlavourPlay", -- [3]
+		"/i We are queued", -- [4]
+		"/i jsut go", -- [5]
+		"/i what?", -- [6]
+		"/i dont need another dps", -- [7]
+		"/i Very perceptive", -- [8]
+		"/i kick afks?", -- [9]
+		"/i It's called garbage tanks", -- [10]
+		"Kun seed AoE der tager skade af ikke at stack mastery", -- [11]
+		"/i no1 killing orbs :p", -- [12]
+		"/dbm pull 5", -- [13]
+		"/g Ohh actually I havnt done monk either", -- [14]
+		"/g Best class is Rogue", -- [15]
+		"Du skal ikke reroll, #StopFlavourPlay", -- [16]
+		"/g It's the only class I don't have @ 110 :P", -- [17]
+		"Yep", -- [18]
+		"/g That's how little I care about monk, cba to even do invasion", -- [19]
+		"/g that's how i leveled all my other alt s:P", -- [20]
 	},
 }

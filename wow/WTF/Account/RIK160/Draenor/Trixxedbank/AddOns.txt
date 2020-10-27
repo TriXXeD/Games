@@ -20,3 +20,10 @@ RaiderIO_DB_KR_H: disabled
 RaiderIO_DB_KR_A: disabled
 BagBrother: enabled
 Azeroth Auto Pilot: enabled
+WeakAurasCompanion: enabled
+OPie_Classic: disabled
+ElvUI_VisualAuraTimers: disabled
+ElvUI_ExtraActionBars: disabled
+ElvUI_CastBarOverlay: disabled
+ElvUI_AuraBarsMovers: disabled
+ElvUI_CustomTweaks: disabled

@@ -1,9 +1,98 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0231,
-	["LastPlayerFullName"] = "Trïxxed-Ravencrest",
+	["LastVersion"] = 2.0244,
+	["ItemLevels"] = {
+		{
+			["ID"] = 152115,
+			["Level"] = 195,
+			["Link"] = "|cffa335ee|Hitem:152115::::::::110:251::4:3:3613:1457:3528:::|h[Dreadwake Helm]|h|r",
+		}, -- [1]
+		{
+			["ID"] = 134497,
+			["Level"] = 210,
+			["Link"] = "|cffa335ee|Hitem:134497::::::::110:251::35:3:3417:1520:3337:::|h[Stormcharged Choker]|h|r",
+		}, -- [2]
+		{
+			["ID"] = 152117,
+			["Level"] = 200,
+			["Link"] = "|cffa335ee|Hitem:152117::::::::110:251::4:3:3613:1462:3336:::|h[Dreadwake Pauldrons]|h|r",
+		}, -- [3]
+		nil, -- [4]
+		{
+			["ID"] = 162775,
+			["Level"] = 215,
+			["Link"] = "|cffa335ee|Hitem:162775::::::::110:251::30:2:1492:3336:::|h[Gravewalker's Chestplate]|h|r",
+		}, -- [5]
+		{
+			["ID"] = 132366,
+			["Level"] = 265,
+			["Link"] = "|cffff8000|Hitem:132366::::::::110:251:::2:3459:3630:::|h[Koltira's Newfound Will]|h|r",
+		}, -- [6]
+		{
+			["ID"] = 152116,
+			["Level"] = 195,
+			["Link"] = "|cffa335ee|Hitem:152116::::::::110:251::4:3:3613:1457:3528:::|h[Dreadwake Legplates]|h|r",
+		}, -- [7]
+		{
+			["ID"] = 152011,
+			["Level"] = 195,
+			["Link"] = "|cffa335ee|Hitem:152011::::::::110:251::4:3:3613:1457:3528:::|h[Eredar Warcouncil Sabatons]|h|r",
+		}, -- [8]
+		{
+			["ID"] = 132458,
+			["Level"] = 265,
+			["Link"] = "|cffff8000|Hitem:132458::::::::110:251:::2:1811:3630:::|h[Toravon's Whiteout Bindings]|h|r",
+		}, -- [9]
+		{
+			["ID"] = 142299,
+			["Level"] = 230,
+			["Link"] = "|cffa335ee|Hitem:142299::::::::110:251::35:4:3534:1808:1532:3337:::|h[Horkin' Stuff-Lobbers]|h|r",
+		}, -- [10]
+		{
+			["ID"] = 152063,
+			["Level"] = 205,
+			["AlsoFitsIn"] = 12,
+			["Link"] = "|cffa335ee|Hitem:152063::::::::110:251::4:3:3613:1467:3336:::|h[Seal of the Portalmaster]|h|r",
+		}, -- [11]
+		{
+			["ID"] = 150989,
+			["Level"] = 200,
+			["AlsoFitsIn"] = 11,
+			["Link"] = "|cffa335ee|Hitem:150989::::::::110:251::30:3:3397:1511:3337:::|h[Foul-Sadist's Seal]|h|r",
+		}, -- [12]
+		{
+			["ID"] = 137419,
+			["Level"] = 192,
+			["AlsoFitsIn"] = 14,
+			["Link"] = "|cffa335ee|Hitem:137419::::::::110:251::43:3:3573:1502:3528:::|h[Chrono Shard]|h|r",
+		}, -- [13]
+		{
+			["ID"] = 141482,
+			["Level"] = 172,
+			["AlsoFitsIn"] = 13,
+			["Link"] = "|cffa335ee|Hitem:141482::::::::110:251::3:2:3466:1472:::|h[Unstable Arcanocrystal]|h|r",
+		}, -- [14]
+		{
+			["ID"] = 152113,
+			["Level"] = 195,
+			["Link"] = "|cffa335ee|Hitem:152113::::::::110:251::4:3:3613:1457:3528:::|h[Dreadwake Greatcloak]|h|r",
+		}, -- [15]
+		{
+			["ID"] = 163011,
+			["Level"] = 210,
+			["AlsoFitsIn"] = 17,
+			["Link"] = "|cffa335ee|Hitem:163011:3370:::::::110:251::30:2:1487:3528:::|h[Gravewalker's Soulblade]|h|r",
+		}, -- [16]
+		{
+			["ID"] = 163011,
+			["Level"] = 210,
+			["AlsoFitsIn"] = 16,
+			["Link"] = "|cffa335ee|Hitem:163011:3368:::::::110:251::29:2:1487:3528:::|h[Gravewalker's Soulblade]|h|r",
+		}, -- [17]
+	},
 	["AutoSelectScales"] = false,
 	["UpgradeTracking"] = false,
+	["LastPlayerFullName"] = "Trïxxed-Ravencrest",
 	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128403] = {

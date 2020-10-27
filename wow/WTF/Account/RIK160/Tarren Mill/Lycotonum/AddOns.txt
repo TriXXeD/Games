@@ -52,7 +52,7 @@ WeakAurasTutorials: enabled
 ClassMonitor: disabled
 ClassMonitor_ConfigUI: disabled
 ElvUI_Config: enabled
-ElvUI_AuraBarsMovers: enabled
+ElvUI_AuraBarsMovers: disabled
 AddOnSkins_ElvUI: enabled
 ElvUI: enabled
 ElvUI_ChatTweaks: enabled
@@ -60,7 +60,7 @@ ElvUI_ChatTweaks_Debug: enabled
 ElvUI_ChatTweaks_Extra: enabled
 ElvUI_ChatTweaks_Spam: enabled
 ElvUI_Enhanced: enabled
-ElvUI_ExtraActionBars: enabled
+ElvUI_ExtraActionBars: disabled
 wMarker: enabled
 DBM-StatusBarTimers: enabled
 DBM-Core: enabled
@@ -183,3 +183,17 @@ ElvUI_SLE: enabled
 DBM-ZuldazarRaid: enabled
 DBM-Challenges: enabled
 AAP-Vanilla: enabled
+WeakAurasCompanion: enabled
+DBM-Azeroth-BfA: enabled
+DBM-Party-BfA: enabled
+DBM-Uldir: enabled
+DBM-CrucibleofStorms: enabled
+OPie_Classic: disabled
+ElvUI_VisualAuraTimers: disabled
+ElvUI_CastBarOverlay: disabled
+ElvUI_CustomTweaks: disabled
+WeakAurasArchive: enabled
+ElvUI_OptionsUI: enabled
+RCLootCouncil: enabled
+ElvUI_DTBars2: disabled
+ElvUI_QuestXP: disabled

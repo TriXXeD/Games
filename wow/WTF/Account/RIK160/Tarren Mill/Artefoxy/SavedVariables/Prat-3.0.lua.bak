@@ -1,0 +1,1598 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["time"] = 1593000485,
+	["scrollback"] = {
+		["ChatFrame5"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 100,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame4"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 100,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 100,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame7"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 100,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame6"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 100,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame8"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 100,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame10"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 100,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame9"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 100,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 73,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:13:56]|h|r |cffb2b2b2[22:13]|r |Hchannel:channel:2|h[2]|h |Hplayer:Hydraboostcm-TarrenMill:372:2|h[|cffc59a6cHydraboostcm|r]|h: <Hydra> WTS |cffffff00|Hachievement:8721:Player-3674-0A5663DF:1:6:14:20:4294967295:4294967295:4294967295:4294967295|h[Fire-Watcher]|h|r Get your Fire-Watcher Title+|cff71d5ff|Hspell:148428:0|h[Ashhide Mushan Beast]|h|r+Pet 120K || Only Mount 50K /w me",
+					["serverTime"] = 1603311235,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						21, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168863.498,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:13:59]|h|r |cffb2b2b2[22:13]|r |Hchannel:channel:2|h[2]|h |Hplayer:Cherts-TarrenMill:373:2|h[|cff006fdcCherts|r]|h: WTS |cffffff00|Hachievement:12604:Player-1084-095AE759:1:9:2:18:4294967295:4294967295:4294967295:4294967295|h[Conqueror of Azeroth]|h|r for |cffa335ee|Hitem:163577::::::::1:262:::::::|h[Conqueror's Scythemaw]|h|r, reputation for |cffa335ee|Hitem:142369::::::::1:262:::::::|h[Ivory Hawkstrider]|h|r for gold!",
+					["serverTime"] = 1603311238,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						31, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168866.381,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:13:59]|h|r |cffb2b2b2[22:13]|r |Hchannel:channel:2|h[2]|h |Hplayer:Cherts-TarrenMill:374:2|h[|cff006fdcCherts|r]|h: also selling |cffffff00|Hachievement:14191:Player-1084-095AE759:1:1:15:20:4294967295:4294967295:4294967295:4294967295|h[Servant of N'Zoth]|h|r |cffffff00|Hachievement:12568:Player-1084-095AE759:1:8:26:18:4294967295:4294967295:4294967295:4294967295|h[The Alliance Slayer]|h|r. /w me for price!",
+					["serverTime"] = 1603311238,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						31, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168866.381,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:14:02]|h|r |cffb2b2b2[22:14]|r |Hchannel:channel:2|h[2]|h |Hplayer:Novaxcr-TarrenMill:375:2|h[|cff00fe97Novaxcr|r]|h: <NOVA> Offering Jaina Mount NOW for 280k! Mythic Nzoth with Mount is only 1.8m Now! 5 Mask Vision 70k! Free Armor Stack; ||2x15=171k|| ||4x15=324k|| ||+15=99k||  Visions, Gold Only /w ",
+					["serverTime"] = 1603311241,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						27, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168869.015,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:14:03]|h|r |cffb2b2b2[22:14]|r |Hchannel:channel:2|h[2]|h |Hplayer:Vegitoadvb-TarrenMill:376:2|h[|cff00fe97Vegitoadvb|r]|h: Dawn Community || WTS >>MYTHIC+<< (10-25) GUARANTEED in time. Armor Stacks & Specific I Ny'alotha 12/12 Mythic || NZOTH MOUNT HC/M || JAINA MOUNT || 10-50 Leveling || Gold only || Whisper for more info! SHADOWLANDS GIVEAWAY: |cFFFFFFFF[|Hurl:https://discord.gg/Bf7TDAb|hhttps://discord.gg/Bf7TDAb|h]|r ",
+					["serverTime"] = 1603311242,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						29, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168869.698,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:14:04]|h|r |cffb2b2b2[22:14]|r |Hchannel:channel:2|h[2]|h |Hplayer:Novasellert-TarrenMill:377:2|h[|cfffef367Novasellert|r]|h: <NOVA>  [M+15=90k] [2x M+15=171k] [4x M +15 = 324k  6x M+15 = 459 **]   also NOVA OFFERING Ny'Alotha HEROIC  PL + SHAREloot 140k  and 60k Per Trader , 5mask =70k [ **FREEHOLD   L E V E L UP 10 ==> 50 **] [Jaine Mount 350k] [PVP RATE ( MOUNT smoldering",
+					["serverTime"] = 1603311243,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						30, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168871.115,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:14:09]|h|r |cffb2b2b2[22:14]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sylvnasboost-TarrenMill:378:2|h[|cffc59a6cSylvnasboost|r]|h: FREE ARMOR STACK (Sylvanas Boost Community )  +14 [100K]/+15 [100k] / x5 M+ 15 [ 420k] /+16 [140k] / +17 [200k]  / 18 [250k]/ Nylotha HC  / JAINA MOUNT ( BEAST DEAL ON MYTHIC NYLOTHA 12/12 MYTHIC  LIMITED SPOTS ! )",
+					["serverTime"] = 1603311248,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						22, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168876.165,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:14:14]|h|r |cffb2b2b2[22:14]|r |Hchannel:channel:2|h[2]|h |Hplayer:Tarrencynd-TarrenMill:380:2|h[|cff00fe97Tarrencynd|r]|h: <ICECROWN> WTS JAINA MOUNT ----- 350k ---- EVERY 30MINS ------TODAY ---- PRE BOOK YOUR SLOT NOW ----- FOR GOLD ONLY ----- DM for more info!!!-",
+					["serverTime"] = 1603311253,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						34, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168881.482,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:14:28]|h|r |cffb2b2b2[22:14]|r |Hchannel:channel:2|h[2]|h |Hplayer:Paddubb-TarrenMill:382:2|h[|cfff38bb9Paddubb|r]|h: <FS> 12/12M [World 257] Selling|cffa335ee|Hitem:174872::::::::50:66::6:1:3524:1:28:787:::|h[Ny'alotha Allseer]|h|r and|cffa335ee|Hitem:166705::::::::50:66::6:1:3524:1:28:688:::|h[Glacial Tidestorm]|h|r!",
+					["serverTime"] = 1603311267,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						44, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168895.033,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:14:29]|h|r |cffb2b2b2[22:14]|r |Hchannel:channel:2|h[2]|h |Hplayer:Novabôost-TarrenMill:383:2|h[|cff006fdcNovabôost|r]|h: <<NOVA>>M+15(90k) 2xM+15(171k) 4xM+15(324K) [Ny'alotht City]12/12 Hc140k PER Trader 60k||12/12 Mythic  4100k+3xFree Trader||Vision 5 Mask 70k||Jaina Mount 350k MechaMount (130K) Hivemind Mount(160k)||Lvl Up 10-50 (400k)",
+					["serverTime"] = 1603311268,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						24, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168896.667,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:14:37]|h|r |cffb2b2b2[22:14]|r |Hchannel:channel:2|h[2]|h |Hplayer:Vegitoadvb-TarrenMill:384:2|h[|cff00fe97Vegitoadvb|r]|h: Dawn Community || WTS >>MYTHIC+<< (10-25) GUARANTEED in time. Armor Stacks & Specific I Ny'alotha 12/12 Mythic || NZOTH MOUNT HC/M || JAINA MOUNT || 10-50 Leveling || Gold only || Whisper for more info! SHADOWLANDS GIVEAWAY: |cFFFFFFFF[|Hurl:https://discord.gg/Bf7TDAb|hhttps://discord.gg/Bf7TDAb|h]|r ",
+					["serverTime"] = 1603311276,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						29, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168904.201,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:14:39]|h|r |cffb2b2b2[22:14]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sylvnasboost-TarrenMill:385:2|h[|cffc59a6cSylvnasboost|r]|h: FREE ARMOR STACK (Sylvanas Boost Community )  +14 [100K]/+15 [100k] / x5 M+ 15 [ 420k] /+16 [140k] / +17 [200k]  / 18 [250k]/ Nylotha HC  / JAINA MOUNT ( BEAST DEAL ON MYTHIC NYLOTHA 12/12 MYTHIC  LIMITED SPOTS ! )",
+					["serverTime"] = 1603311278,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						22, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168906.601,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:14:40]|h|r |cffb2b2b2[22:14]|r |Hchannel:channel:2|h[2]|h |Hplayer:Novaboostqtt-TarrenMill:386:2|h[|cff8687edNovaboostqtt|r]|h: < NOVA > is OFFERING TODAY BIG DISCOUNT Nzoth Mythic + Mount for 1.6MIL --/ Heroic Nyalotha 12/12 FOR 140k! VIP Traders for only 60k----/ [M+15=90k][2x M+15=171k][4x M+15=324k]-/5Mask=70k--/Level UP boost 10-50 --/ JAINA MOUNT 280k ON TODAY",
+					["serverTime"] = 1603311279,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						26, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168906.834,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:14:40]|h|r |cffb2b2b2[22:14]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sylvtaren-TarrenMill:387:2|h[|cffa9d271Sylvtaren|r]|h: FREE ARMOR STACK **** M+15 100k in Time **** <SYLVANAS>(BIG DISCOUNT FOR 5 OR 4 OR 3 RUN}>M+20 400k all loot is yours>>((3x15 280k))**((5x15 410k)) (KEYSTONE MASTER)>|cff71d5ff|Hspell:290718:0|h[Aerial Unit R-21/X]|h|r ((RAID HC/M))/W ME FOR BEST PRICE",
+					["serverTime"] = 1603311279,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						33, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168907.168,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:14:42]|h|r |cffb2b2b2[22:14]|r Quest accepted: Adventurers Wanted: Chromie's Call",
+					["serverTime"] = 1603311281,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 168908.818,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:14:49]|h|r |cffb2b2b2[22:14]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sallenøva-TarrenMill:391:2|h[|cff00fe97Sallenøva|r]|h: ~* NOVA *  OFFERING MYTHIC TODAY 30% Discount Ny'alotha 12/12 + 3 VIP TraderS &  Only 4100k --Nzoth + Mount Only: 1600k--- Heroic  Ny'alotha 12/12 FOR ONLY 140K! Traders For Only 60K! /Jaina Mount: 280k/ M+15: 99K FREE ARMOR STACK / 5 Mask: 70k",
+					["serverTime"] = 1603311288,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						25, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168916.568,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:14:52]|h|r |cffb2b2b2[22:14]|r |Hchannel:channel:2|h[2]|h |Hplayer:Nasimmaa-TarrenMill:392:2|h[|cff006fdcNasimmaa|r]|h: Sylvanas Community > Mythic 15 is 100k -Free Armor Stack ||5run +15 Is 420k ||-||M+16 is 140k||- Mechagon Mount is 150k -- Jaina mount 300k- -|cff66bbff|Hjournal:0:1180:14|h[Ny'alotha, the Waking City]|h|ris 5Vip Trader 420k- Only For gold ",
+					["serverTime"] = 1603311291,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						40, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168919.152,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:14:56]|h|r |cffb2b2b2[22:14]|r |Hchannel:channel:2|h[2]|h |Hplayer:Hydraboostcm-TarrenMill:393:2|h[|cffc59a6cHydraboostcm|r]|h: <Hydra> WTS |cffffff00|Hachievement:8721:Player-3674-0A5663DF:1:6:14:20:4294967295:4294967295:4294967295:4294967295|h[Fire-Watcher]|h|r Get your Fire-Watcher Title+|cff71d5ff|Hspell:148428:0|h[Ashhide Mushan Beast]|h|r+Pet 120K || Only Mount 50K /w me",
+					["serverTime"] = 1603311295,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						21, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168923.536,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:15:02]|h|r |cffb2b2b2[22:15]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sallenøva-TarrenMill:394:2|h[|cff00fe97Sallenøva|r]|h: ~* NOVA *  OFFERING MYTHIC TODAY 30% Discount Ny'alotha 12/12 + 3 VIP TraderS &  Only 4100k --Nzoth + Mount Only: 1600k--- Heroic  Ny'alotha 12/12 FOR ONLY 140K! Traders For Only 60K! /Jaina Mount: 280k/ M+15: 99K FREE ARMOR STACK / 5 Mask: 70k",
+					["serverTime"] = 1603311301,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						25, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168929.086,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:15:03]|h|r |cffb2b2b2[22:15]|r |Hchannel:channel:2|h[2]|h |Hplayer:Marvath-TarrenMill:395:2|h[|cfff38bb9Marvath|r]|h: LFM mythic +0 atal   tank and dps ",
+					["serverTime"] = 1603311302,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						45, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168930.103,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:15:06]|h|r |cffb2b2b2[22:15]|r You have learned a new ability: |cff71d5ff|Hspell:187708:0|h[Carve]|h|r.",
+					["serverTime"] = 1603311305,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 168933.053,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:15:06]|h|r |cffb2b2b2[22:15]|r Adventurers Wanted: Chromie's Call completed.",
+					["serverTime"] = 1603311305,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 168933.071,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:15:06]|h|r |cffb2b2b2[22:15]|r Experience gained: 418.",
+					["serverTime"] = 1603311305,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 168933.071,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:15:06]|h|r |cffb2b2b2[22:15]|r Received 63 Silver, 80 Copper.",
+					["serverTime"] = 1603311305,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 168933.071,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:15:06]|h|r |cffb2b2b2[22:15]|r Congratulations, you have reached |cffFF4E00|Hlevelup:23:LEVEL_UP_TYPE_CHARACTER|h[Level 23]|h|r!",
+					["serverTime"] = 1603311305,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 168933.136,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:15:13]|h|r |cffb2b2b2[22:15]|r |Hchannel:channel:2|h[2]|h |Hplayer:Novaboostqtt-TarrenMill:403:2|h[|cff8687edNovaboostqtt|r]|h: < NOVA > is OFFERING TODAY BIG DISCOUNT Nzoth Mythic + Mount for 1.6MIL --/ Heroic Nyalotha 12/12 FOR 140k! VIP Traders for only 60k----/ [M+15=90k][2x M+15=171k][4x M+15=324k]-/5Mask=70k--/Level UP boost 10-50 --/ JAINA MOUNT 280k ON TODAY",
+					["serverTime"] = 1603311312,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						26, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168939.954,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:15:15]|h|r |cffb2b2b2[22:15]|r |Hchannel:channel:2|h[2]|h |Hplayer:Novaxcr-TarrenMill:404:2|h[|cff00fe97Novaxcr|r]|h: <NOVA> Offering Jaina Mount NOW for 280k! Mythic Nzoth with Mount is only 1.8m Now! 5 Mask Vision 70k! Free Armor Stack; ||2x15=171k|| ||4x15=324k|| ||+15=99k||  Visions, Gold Only /w ",
+					["serverTime"] = 1603311314,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						27, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168942.654,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:15:19]|h|r |cffb2b2b2[22:15]|r |Hchannel:channel:2|h[2]|h |Hplayer:Tarrencynd-TarrenMill:405:2|h[|cff00fe97Tarrencynd|r]|h: <ICECROWN> WTS JAINA MOUNT ----- 350k ---- EVERY 30MINS ------TODAY ---- PRE BOOK YOUR SLOT NOW ----- FOR GOLD ONLY ----- DM for more info!!!-",
+					["serverTime"] = 1603311318,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						34, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168946.271,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:15:22]|h|r |cffb2b2b2[22:15]|r Zelli Hotnozzle yells: The zeppelin to Thunder Bluff has arrived! All aboard for a smooth ride across the Barrens!",
+					["serverTime"] = 1603311321,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						46, -- [2]
+						47, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168949.071,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:15:27]|h|r |cffb2b2b2[22:15]|r |TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq41|k:86:407:BN_INLINE_TOAST_ALERT:0|h[|Kq41|k]|h has gone offline.",
+					["serverTime"] = 1603311326,
+					["r"] = 0.5098039507865906,
+					["extraData"] = {
+						54, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 168953.888,
+					["g"] = 0.7725490927696228,
+					["b"] = 1,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:15:39]|h|r |cffb2b2b2[22:15]|r |Hchannel:channel:2|h[2]|h |Hplayer:Tarrencynd-TarrenMill:408:2|h[|cff00fe97Tarrencynd|r]|h: <M+15=110k>{FREE ARMOR STACK] <Icecrown> [3x +15=300k] I +16=150k I +14=100k I MECHAGON HARDMODE I |cff66bbff|Hjournal:0:1180:15|h[Ny'alotha, the Waking City]|h|r HC - VIP Available I Mythic Ny'alotha 12/12 I MYTHIC N'zoth MOUNT  I Jaina Mount 350k.",
+					["serverTime"] = 1603311338,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						34, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168965.989,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:15:43]|h|r |cffb2b2b2[22:15]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sylvnasboost-TarrenMill:409:2|h[|cffc59a6cSylvnasboost|r]|h: FREE ARMOR STACK (Sylvanas Boost Community )  +14 [100K]/+15 [100k] / x5 M+ 15 [ 420k] /+16 [140k] / +17 [200k]  / 18 [250k]/ Nylotha HC  / JAINA MOUNT ( BEAST DEAL ON MYTHIC NYLOTHA 12/12 MYTHIC  LIMITED SPOTS ! )",
+					["serverTime"] = 1603311342,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						22, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168970.606,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:15:50]|h|r |cffb2b2b2[22:15]|r |Hchannel:channel:2|h[2]|h |Hplayer:Megalvlup-TarrenMill:411:2|h[|cffc31d39Megalvlup|r]|h: Selling 10-50 Freehold boosts! Be 50 in 4-5h and ready for SL! PM for info , now with group discounts!",
+					["serverTime"] = 1603311349,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						48, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168976.973,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:15:51]|h|r |cffb2b2b2[22:15]|r |Hchannel:channel:2|h[2]|h |Hplayer:Tarrencynd-TarrenMill:412:2|h[|cff00fe97Tarrencynd|r]|h: <ICECROWN> WTS JAINA MOUNT ----- 350k ---- EVERY 30MINS ------TODAY ---- PRE BOOK YOUR SLOT NOW ----- FOR GOLD ONLY ----- DM for more info!!!-",
+					["serverTime"] = 1603311350,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						34, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168978.173,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:15:54]|h|r |cffb2b2b2[22:15]|r |Hchannel:channel:2|h[2]|h |Hplayer:Novaxcr-TarrenMill:413:2|h[|cff00fe97Novaxcr|r]|h: <NOVA> Offering Jaina Mount NOW for 280k! Mythic Nzoth with Mount is only 1.8m Now! 5 Mask Vision 70k! Free Armor Stack; ||2x15=171k|| ||4x15=324k|| ||+15=99k||  Visions, Gold Only /w ",
+					["serverTime"] = 1603311353,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						27, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168981.44,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:15:55]|h|r |cffb2b2b2[22:15]|r |Hchannel:channel:2|h[2]|h |Hplayer:Vegitoadvb-TarrenMill:414:2|h[|cff00fe97Vegitoadvb|r]|h: Dawn Community || WTS >>MYTHIC+<< (10-25) GUARANTEED in time. Armor Stacks & Specific I Ny'alotha 12/12 Mythic || NZOTH MOUNT HC/M || JAINA MOUNT || 10-50 Leveling || Gold only || Whisper for more info! SHADOWLANDS GIVEAWAY: |cFFFFFFFF[|Hurl:https://discord.gg/Bf7TDAb|hhttps://discord.gg/Bf7TDAb|h]|r ",
+					["serverTime"] = 1603311354,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						29, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168982.24,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:16:17]|h|r |cffb2b2b2[22:16]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sylvnasboost-TarrenMill:415:2|h[|cffc59a6cSylvnasboost|r]|h: FREE ARMOR STACK (Sylvanas Boost Community )  +14 [100K]/+15 [100k] / x5 M+ 15 [ 420k] /+16 [140k] / +17 [200k]  / 18 [250k]/ Nylotha HC  / JAINA MOUNT ( BEAST DEAL ON MYTHIC NYLOTHA 12/12 MYTHIC  LIMITED SPOTS ! )",
+					["serverTime"] = 1603311376,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						22, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 169003.725,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:16:17]|h|r |cffb2b2b2[22:16]|r |Hchannel:channel:2|h[2]|h |Hplayer:Daéd-TarrenMill:416:2|h[|cff00fe97Daéd|r]|h: Fuck me the adverts are boring.... ",
+					["serverTime"] = 1603311376,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						49, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 169003.958,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:16:29]|h|r |cffb2b2b2[22:16]|r |Hchannel:channel:2|h[2]|h |Hplayer:Novaboostqtt-TarrenMill:418:2|h[|cff8687edNovaboostqtt|r]|h: < NOVA > is OFFERING TODAY BIG DISCOUNT Nzoth Mythic + Mount for 1.6MIL --/ Heroic Nyalotha 12/12 FOR 140k! VIP Traders for only 60k----/ [M+15=90k][2x M+15=171k][4x M+15=324k]-/5Mask=70k--/Level UP boost 10-50 --/ JAINA MOUNT 280k ON TODAY",
+					["serverTime"] = 1603311388,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						26, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 169016.193,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:16:32]|h|r |cffb2b2b2[22:16]|r Quest accepted: The Legion Returns",
+					["serverTime"] = 1603311391,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 169018.76,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:16:32]|h|r |cffb2b2b2[22:16]|r Chromie says: If you find a powerful weapon, just make sure it isn't corrupted by the Burning Legion or Old Gods, okay?",
+					["serverTime"] = 1603311391,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						50, -- [2]
+						51, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 169019.31,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:16:33]|h|r |cffb2b2b2[22:16]|r |Hchannel:channel:2|h[2]|h |Hplayer:Vegitoadvb-TarrenMill:421:2|h[|cff00fe97Vegitoadvb|r]|h: Dawn Community || WTS >>MYTHIC+<< (10-25) GUARANTEED in time. Armor Stacks & Specific I Ny'alotha 12/12 Mythic || NZOTH MOUNT HC/M || JAINA MOUNT || 10-50 Leveling || Gold only || Whisper for more info! SHADOWLANDS GIVEAWAY: |cFFFFFFFF[|Hurl:https://discord.gg/Bf7TDAb|hhttps://discord.gg/Bf7TDAb|h]|r ",
+					["serverTime"] = 1603311392,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						29, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 169020.66,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:16:35]|h|r |cffb2b2b2[22:16]|r |Hchannel:channel:2|h[2]|h |Hplayer:Mandús-TarrenMill:422:2|h[|cffc31d39Mandús|r]|h: get BADBOY addon",
+					["serverTime"] = 1603311394,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						52, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 169022.01,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:16:36]|h|r |cffb2b2b2[22:16]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sallenøva-TarrenMill:424:2|h[|cff00fe97Sallenøva|r]|h: ~* NOVA *  OFFERING MYTHIC TODAY 30% Discount Ny'alotha 12/12 + 3 VIP TraderS &  Only 4100k --Nzoth + Mount Only: 1600k--- Heroic  Ny'alotha 12/12 FOR ONLY 140K! Traders For Only 60K! /Jaina Mount: 280k/ M+15: 99K FREE ARMOR STACK / 5 Mask: 70k",
+					["serverTime"] = 1603311395,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						25, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 169023.41,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:16:39]|h|r |cffb2b2b2[22:16]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sylvtaren-TarrenMill:425:2|h[|cffa9d271Sylvtaren|r]|h: FREE ARMOR STACK **** M+15 100k in Time **** <SYLVANAS>(BIG DISCOUNT FOR 5 OR 4 OR 3 RUN}>M+20 400k all loot is yours>>((3x15 280k))**((5x15 410k)) (KEYSTONE MASTER)>|cff71d5ff|Hspell:290718:0|h[Aerial Unit R-21/X]|h|r ((RAID HC/M))/W ME FOR BEST PRICE",
+					["serverTime"] = 1603311398,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						33, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 169026.277,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:16:40]|h|r |cffb2b2b2[22:16]|r |Hchannel:channel:2|h[2]|h [|cffE7E716DND|r] |Hplayer:Kreamy-TarrenMill:426:2|h[|cfffef367Kreamy|r]|h: WTS RBG wins (for your artifact appearance) or rbg rating /w me with any questions",
+					["serverTime"] = 1603311399,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						23, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 169026.744,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:16:40]|h|r |cffb2b2b2[22:16]|r |Hchannel:channel:2|h[2]|h |Hplayer:Cherts-TarrenMill:427:2|h[|cff006fdcCherts|r]|h: WTS |cffffff00|Hachievement:12604:Player-1084-095AE759:1:9:2:18:4294967295:4294967295:4294967295:4294967295|h[Conqueror of Azeroth]|h|r for |cffa335ee|Hitem:163577::::::::1:262:::::::|h[Conqueror's Scythemaw]|h|r, reputation for |cffa335ee|Hitem:142369::::::::1:262:::::::|h[Ivory Hawkstrider]|h|r for gold!",
+					["serverTime"] = 1603311399,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						31, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 169027.394,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:16:40]|h|r |cffb2b2b2[22:16]|r |Hchannel:channel:2|h[2]|h |Hplayer:Cherts-TarrenMill:428:2|h[|cff006fdcCherts|r]|h: also selling |cffffff00|Hachievement:14191:Player-1084-095AE759:1:1:15:20:4294967295:4294967295:4294967295:4294967295|h[Servant of N'Zoth]|h|r |cffffff00|Hachievement:12568:Player-1084-095AE759:1:8:26:18:4294967295:4294967295:4294967295:4294967295|h[The Alliance Slayer]|h|r. /w me for price!",
+					["serverTime"] = 1603311399,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						31, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 169027.394,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:16:47]|h|r |cffb2b2b2[22:16]|r |Hchannel:channel:2|h[2]|h |Hplayer:Nefriolus-TarrenMill:430:2|h[|cffc59a6cNefriolus|r]|h: send me gold and ill send you feet pics lmao",
+					["serverTime"] = 1603311406,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						53, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 169034.344,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:16:52]|h|r |cffb2b2b2[22:16]|r |Hchannel:channel:2|h[2]|h |Hplayer:Daéd-TarrenMill:431:2|h[|cff00fe97Daéd|r]|h: Ahh thanks! some one said that the other day.. forget the name :) appreciated... ",
+					["serverTime"] = 1603311411,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						49, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 169039.178,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:16:56]|h|r |cffb2b2b2[22:16]|r |Hchannel:channel:2|h[2]|h |Hplayer:Tarrencynd-TarrenMill:432:2|h[|cff00fe97Tarrencynd|r]|h: <ICECROWN> WTS JAINA MOUNT ----- 350k ---- EVERY 30MINS ------TODAY ---- PRE BOOK YOUR SLOT NOW ----- FOR GOLD ONLY ----- DM for more info!!!-",
+					["serverTime"] = 1603311415,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						34, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 169043.195,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [51]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:16:57]|h|r |cffb2b2b2[22:16]|r |Hchannel:channel:2|h[2]|h |Hplayer:Daéd-TarrenMill:433:2|h[|cff00fe97Daéd|r]|h: id rather bobs and vagine!",
+					["serverTime"] = 1603311416,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						49, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 169044.645,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [52]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:17:00]|h|r |cffb2b2b2[22:17]|r |Hchannel:channel:2|h[2]|h |Hplayer:Novaboostqtt-TarrenMill:434:2|h[|cff8687edNovaboostqtt|r]|h: < NOVA > is OFFERING TODAY BIG DISCOUNT Nzoth Mythic + Mount for 1.6MIL --/ Heroic Nyalotha 12/12 FOR 140k! VIP Traders for only 60k----/ [M+15=90k][2x M+15=171k][4x M+15=324k]-/5Mask=70k--/Level UP boost 10-50 --/ JAINA MOUNT 280k ON TODAY",
+					["serverTime"] = 1603311419,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						26, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 169047.395,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [53]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:17:05]|h|r |cffb2b2b2[22:17]|r |Hchannel:channel:2|h[2]|h |Hplayer:Novabôost-TarrenMill:435:2|h[|cff006fdcNovabôost|r]|h: <<NOVA>>M+15(90k) 2xM+15(171k) 4xM+15(324K) [Ny'alotht City]12/12 Hc140k PER Trader 60k||12/12 Mythic  4100k+3xFree Trader||Vision 5 Mask 70k||Jaina Mount 350k MechaMount (130K) Hivemind Mount(160k)||Lvl Up 10-50 (400k)",
+					["serverTime"] = 1603311424,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						24, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 169052.496,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:17:06]|h|r |cffb2b2b2[22:17]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sallenøva-TarrenMill:436:2|h[|cff00fe97Sallenøva|r]|h: ~* NOVA *  OFFERING MYTHIC TODAY 30% Discount Ny'alotha 12/12 + 3 VIP TraderS &  Only 4100k --Nzoth + Mount Only: 1600k--- Heroic  Ny'alotha 12/12 FOR ONLY 140K! Traders For Only 60K! /Jaina Mount: 280k/ M+15: 99K FREE ARMOR STACK / 5 Mask: 70k",
+					["serverTime"] = 1603311425,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						25, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 169053.562,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [55]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:17:08]|h|r |cffb2b2b2[22:17]|r |TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq37|k:19:437:BN_INLINE_TOAST_ALERT:0|h[|Kq37|k] (|TInterface\\ChatFrame\\UI-ChatIcon-Battlenet:14:14:0:0|tXci)|h has come online.",
+					["serverTime"] = 1603311427,
+					["r"] = 0.5098039507865906,
+					["extraData"] = {
+						54, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 169054.829,
+					["g"] = 0.7725490927696228,
+					["b"] = 1,
+				}, -- [56]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:17:11]|h|r |cffb2b2b2[22:17]|r |Hchannel:channel:2|h[2]|h |Hplayer:Elenis-TarrenMill:438:2|h[|cfffef367Elenis|r]|h: I tried the badboy addon didn't work for me :( ",
+					["serverTime"] = 1603311430,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						54, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 169057.779,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [57]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:17:20]|h|r |cffb2b2b2[22:17]|r |Hchannel:channel:2|h[2]|h |Hplayer:Molesto-TarrenMill:440:2|h[|cfffefefeMolesto|r]|h: it works ",
+					["serverTime"] = 1603311439,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						55, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 169067.513,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [58]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:17:21]|h|r |cffb2b2b2[22:17]|r |Hchannel:channel:2|h[2]|h |Hplayer:Thezob-TarrenMill:441:2|h[|cfffef367Thezob|r]|h: get badboy ccleaner too",
+					["serverTime"] = 1603311440,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						39, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 169068.163,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [59]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:17:23]|h|r |cffb2b2b2[22:17]|r |Hchannel:channel:2|h[2]|h |Hplayer:Novaxcr-TarrenMill:442:2|h[|cff00fe97Novaxcr|r]|h: <NOVA> Offering Jaina Mount NOW for 280k! Mythic Nzoth with Mount is only 1.8m Now! 5 Mask Vision 70k! Free Armor Stack; ||2x15=171k|| ||4x15=324k|| ||+15=99k||  Visions, Gold Only /w ",
+					["serverTime"] = 1603311442,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						27, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 169070.43,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [60]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:17:26]|h|r |cffb2b2b2[22:17]|r |Hchannel:channel:2|h[2]|h |Hplayer:Baroonen-TarrenMill:443:2|h[|cfffe7b09Baroonen|r]|h: WTB |cffa335ee|Hitem:169328::::::::50:102:::::::|h[Highborne Compendium of Storms]|h|r",
+					["serverTime"] = 1603311445,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						56, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 169073.664,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [61]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:17:28]|h|r |cffb2b2b2[22:17]|r |Hchannel:channel:2|h[2]|h |Hplayer:Tarrencynd-TarrenMill:444:2|h[|cff00fe97Tarrencynd|r]|h: <ICECROWN> WTS JAINA MOUNT ----- 350k ---- EVERY 30MINS ------TODAY ---- PRE BOOK YOUR SLOT NOW ----- FOR GOLD ONLY ----- DM for more info!!!-",
+					["serverTime"] = 1603311447,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						34, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 169074.864,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [62]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:17:31]|h|r |cffb2b2b2[22:17]|r |Hchannel:channel:2|h[2]|h |Hplayer:Thezob-TarrenMill:445:2|h[|cfffef367Thezob|r]|h: its a custom keyword database you create",
+					["serverTime"] = 1603311450,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						39, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 169078.014,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [63]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:17:37]|h|r |cffb2b2b2[22:17]|r |Hchannel:channel:2|h[2]|h |Hplayer:Pasòka-TarrenMill:446:2|h[|cff8687edPasòka|r]|h: ILL BAN ALL THE BOTS! /W ME OFFER! ACCEPTING ONLY GOLD!",
+					["serverTime"] = 1603311456,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						57, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 169084.631,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [64]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:17:41]|h|r |cffb2b2b2[22:17]|r |Hchannel:channel:2|h[2]|h |Hplayer:Molesto-TarrenMill:447:2|h[|cfffefefeMolesto|r]|h: you need to add words to filter out, and you need the other badboy addons as well",
+					["serverTime"] = 1603311460,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						55, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 169087.932,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [65]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:17:48]|h|r |cffb2b2b2[22:17]|r |Hchannel:channel:2|h[2]|h [|cffE7E716DND|r] |Hplayer:Kreamy-TarrenMill:449:2|h[|cfffef367Kreamy|r]|h: WTS RBG wins (for your artifact appearance) or rbg rating /w me with any questions",
+					["serverTime"] = 1603311467,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						23, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 169095.416,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [66]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:17:50]|h|r |cffb2b2b2[22:17]|r |Hchannel:channel:2|h[2]|h |Hplayer:Vegitoadvb-TarrenMill:450:2|h[|cff00fe97Vegitoadvb|r]|h: Dawn Community || WTS >>MYTHIC+<< (10-25) GUARANTEED in time. Armor Stacks & Specific I Ny'alotha 12/12 Mythic || NZOTH MOUNT HC/M || JAINA MOUNT || 10-50 Leveling || Gold only || Whisper for more info! SHADOWLANDS GIVEAWAY: |cFFFFFFFF[|Hurl:https://discord.gg/Bf7TDAb|hhttps://discord.gg/Bf7TDAb|h]|r ",
+					["serverTime"] = 1603311469,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						29, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 169097.366,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [67]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:17:56]|h|r |cffb2b2b2[22:17]|r You have learned a new ability: |cff71d5ff|Hspell:193290:0|h[Herbalism Skills]|h|r.",
+					["serverTime"] = 1603311475,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 169102.933,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [68]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:17:56]|h|r |cffb2b2b2[22:17]|r You have learned a new ability: |cff71d5ff|Hspell:2383:0|h[Find Herbs]|h|r.",
+					["serverTime"] = 1603311475,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 169102.933,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [69]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:17:56]|h|r |cffb2b2b2[22:17]|r You have learned a new spell: |cff71d5ff|Hspell:2366:0|h[Herb Gathering]|h|r.",
+					["serverTime"] = 1603311475,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 169102.933,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [70]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:17:56]|h|r |cffb2b2b2[22:17]|r You have learned a new ability: |cff71d5ff|Hspell:265819:0|h[Herb Gathering]|h|r.",
+					["serverTime"] = 1603311475,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 169102.933,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [71]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:17:56]|h|r |cffb2b2b2[22:17]|r You have gained the Herbalism skill.",
+					["serverTime"] = 1603311475,
+					["r"] = 0.3333333432674408,
+					["extraData"] = {
+						27, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 169102.933,
+					["g"] = 0.3333333432674408,
+					["b"] = 1,
+				}, -- [72]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:18:00]|h|r |cffb2b2b2[22:18]|r |Hchannel:channel:2|h[2]|h |Hplayer:Novaxcr-TarrenMill:457:2|h[|cff00fe97Novaxcr|r]|h: <NOVA> Offering Jaina Mount NOW for 280k! Mythic Nzoth with Mount is only 1.8m Now! 5 Mask Vision 70k! Free Armor Stack; ||2x15=171k|| ||4x15=324k|| ||+15=99k||  Visions, Gold Only /w ",
+					["serverTime"] = 1603311479,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						27, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 169107.333,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [73]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:12:24]|h|r |cffb2b2b2[22:12]|r |Hchannel:channel:2|h[2]|h |Hplayer:Phonixx-TarrenMill:335:2|h[|cfffe7b09Phonixx|r]|h: WTS BOOST LVL UP 10-50 BEST PRICE",
+					["serverTime"] = 1603311143,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						32, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168771.657,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [74]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:12:25]|h|r |cffb2b2b2[22:12]|r |TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq72|k:46:336:BN_INLINE_TOAST_ALERT:0|h[|Kq72|k] (|TInterface\\ChatFrame\\UI-ChatIcon-Battlenet:14:14:0:0|tNiemi)|h has come online.",
+					["serverTime"] = 1603311144,
+					["r"] = 0.5098039507865906,
+					["extraData"] = {
+						54, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 168772.374,
+					["g"] = 0.7725490927696228,
+					["b"] = 1,
+				}, -- [75]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:12:26]|h|r |cffb2b2b2[22:12]|r |Hchannel:channel:2|h[2]|h |Hplayer:Hydraboostcm-TarrenMill:337:2|h[|cffc59a6cHydraboostcm|r]|h: <Hydra> WTS |cffffff00|Hachievement:8721:Player-3674-0A5663DF:1:6:14:20:4294967295:4294967295:4294967295:4294967295|h[Fire-Watcher]|h|r Get your Fire-Watcher Title+|cff71d5ff|Hspell:148428:0|h[Ashhide Mushan Beast]|h|r+Pet 120K || Only Mount 50K /w me",
+					["serverTime"] = 1603311145,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						21, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168773.491,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [76]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:12:28]|h|r |cffb2b2b2[22:12]|r |Hchannel:channel:2|h[2]|h |Hplayer:Novasellert-TarrenMill:338:2|h[|cfffef367Novasellert|r]|h: <NOVA>  [M+15=90k] [2x M+15=171k] [4x M +15 = 324k  6x M+15 = 459 **]   also NOVA OFFERING Ny'Alotha HEROIC  PL + SHAREloot 140k  and 60k Per Trader , 5mask =70k [ **FREEHOLD   L E V E L UP 10 ==> 50 **] [Jaine Mount 350k] [PVP RATE ( MOUNT smoldering",
+					["serverTime"] = 1603311147,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						30, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168775.041,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [77]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:12:28]|h|r |cffb2b2b2[22:12]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sylvnasboost-TarrenMill:339:2|h[|cffc59a6cSylvnasboost|r]|h: FREE ARMOR STACK (Sylvanas Boost Community )  +14 [100K]/+15 [100k] / x5 M+ 15 [ 420k] /+16 [140k] / +17 [200k]  / 18 [250k]/ Nylotha HC  / JAINA MOUNT ( BEAST DEAL ON MYTHIC NYLOTHA 12/12 MYTHIC  LIMITED SPOTS ! )",
+					["serverTime"] = 1603311147,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						22, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168775.357,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [78]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:12:31]|h|r |cffb2b2b2[22:12]|r You are now queued in the Dungeon Finder.",
+					["serverTime"] = 1603311150,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 168778.091,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [79]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:12:37]|h|r |cffb2b2b2[22:12]|r |Hchannel:channel:2|h[2]|h |Hplayer:Novaxcr-TarrenMill:341:2|h[|cff00fe97Novaxcr|r]|h: <NOVA> Offering Jaina Mount NOW for 280k! Mythic Nzoth with Mount is only 1.8m Now! 5 Mask Vision 70k! Free Armor Stack; ||2x15=171k|| ||4x15=324k|| ||+15=99k||  Visions, Gold Only /w ",
+					["serverTime"] = 1603311156,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						27, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168784.108,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [80]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:12:38]|h|r |cffb2b2b2[22:12]|r |Hchannel:channel:2|h[2]|h |Hplayer:Tarrencynd-TarrenMill:342:2|h[|cff00fe97Tarrencynd|r]|h: <ICECROWN> WTS JAINA MOUNT ----- 350k ---- EVERY 30MINS ------TODAY ---- PRE BOOK YOUR SLOT NOW ----- FOR GOLD ONLY ----- DM for more info!!!-",
+					["serverTime"] = 1603311157,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						34, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168784.991,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [81]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:12:44]|h|r |cffb2b2b2[22:12]|r |Hchannel:channel:2|h[2]|h |Hplayer:Novaboostqtt-TarrenMill:343:2|h[|cff8687edNovaboostqtt|r]|h: < NOVA > is OFFERING TODAY BIG DISCOUNT Nzoth Mythic + Mount for 1.6MIL --/ Heroic Nyalotha 12/12 FOR 140k! VIP Traders for only 60k----/ [M+15=90k][2x M+15=171k][4x M+15=324k]-/5Mask=70k--/Level UP boost 10-50 --/ JAINA MOUNT 280k ON TODAY",
+					["serverTime"] = 1603311163,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						26, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168791.242,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [82]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:12:47]|h|r |cffb2b2b2[22:12]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sylvtaren-TarrenMill:344:2|h[|cffa9d271Sylvtaren|r]|h: FREE ARMOR STACK **** M+15 100k in Time **** <SYLVANAS>(BIG DISCOUNT FOR 5 OR 4 OR 3 RUN}>M+20 400k all loot is yours>>((3x15 280k))**((5x15 410k)) (KEYSTONE MASTER)>|cff71d5ff|Hspell:290718:0|h[Aerial Unit R-21/X]|h|r ((RAID HC/M))/W ME FOR BEST PRICE",
+					["serverTime"] = 1603311166,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						33, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168794.042,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [83]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:12:48]|h|r |cffb2b2b2[22:12]|r |Hchannel:channel:2|h[2]|h |Hplayer:Grimlite-TarrenMill:345:2|h[|cfffefefeGrimlite|r]|h: <Oblivion Community> Selling Nyalotha Heroic going 23:30 Server time!! FRESH ID UNSAVED boosters rolling their items for ONLY 160k! PL no roll spot only 140k!  /w",
+					["serverTime"] = 1603311167,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						41, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168795.192,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [84]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:12:56]|h|r |cffb2b2b2[22:12]|r |Hchannel:channel:2|h[2]|h |Hplayer:Phonixx-TarrenMill:346:2|h[|cfffe7b09Phonixx|r]|h: WTS BOOST LVL UP 10-50 BEST PRICE",
+					["serverTime"] = 1603311175,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						32, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168803.426,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [85]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:12:57]|h|r |cffb2b2b2[22:12]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sallenøva-TarrenMill:348:2|h[|cff00fe97Sallenøva|r]|h: ~* NOVA *  OFFERING MYTHIC TODAY 30% Discount Ny'alotha 12/12 + 3 VIP TraderS &  Only 4100k --Nzoth + Mount Only: 1600k--- Heroic  Ny'alotha 12/12 FOR ONLY 140K! Traders For Only 60K! /Jaina Mount: 280k/ M+15: 99K FREE ARMOR STACK / 5 Mask: 70k",
+					["serverTime"] = 1603311176,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						25, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168804.576,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [86]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:12:58]|h|r |cffb2b2b2[22:12]|r |Hchannel:channel:2|h[2]|h |Hplayer:Lazywar-TarrenMill:349:2|h[|cffc59a6cLazywar|r]|h: Failsquad er en ny norsk guild som vil fokusere på å raide, men også PVP, M+ og social. Vi ønsker at alle føler seg velkommen uansett ferdighetsnivå. Målet er i starten Ahead of the Curve i hver raidtier. Alle er velkommen!l ",
+					["serverTime"] = 1603311177,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						43, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168804.81,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [87]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:12:58]|h|r |cffb2b2b2[22:12]|r |Hchannel:channel:2|h[2]|h |Hplayer:Novabôost-TarrenMill:350:2|h[|cff006fdcNovabôost|r]|h: <<NOVA>>M+15(90k) 2xM+15(171k) 4xM+15(324K) [Ny'alotht City]12/12 Hc140k PER Trader 60k||12/12 Mythic  4100k+3xFree Trader||Vision 5 Mask 70k||Jaina Mount 350k MechaMount (130K) Hivemind Mount(160k)||Lvl Up 10-50 (400k)",
+					["serverTime"] = 1603311177,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						24, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168805.293,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [88]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:13:00]|h|r |cffb2b2b2[22:13]|r |Hchannel:channel:2|h[2]|h |Hplayer:Novasellert-TarrenMill:351:2|h[|cfffef367Novasellert|r]|h: <NOVA>  [M+15=90k] [2x M+15=171k] [4x M +15 = 324k  6x M+15 = 459 **]   also NOVA OFFERING Ny'Alotha HEROIC  PL + SHAREloot 140k  and 60k Per Trader , 5mask =70k [ **FREEHOLD   L E V E L UP 10 ==> 50 **] [Jaine Mount 350k] [PVP RATE ( MOUNT smoldering",
+					["serverTime"] = 1603311179,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						30, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168807.077,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [89]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:13:00]|h|r |cffb2b2b2[22:13]|r |Hchannel:channel:2|h[2]|h |Hplayer:Vegitoadvb-TarrenMill:352:2|h[|cff00fe97Vegitoadvb|r]|h: Dawn Community || WTS >>MYTHIC+<< (10-25) GUARANTEED in time. Armor Stacks & Specific I Ny'alotha 12/12 Mythic || NZOTH MOUNT HC/M || JAINA MOUNT || 10-50 Leveling || Gold only || Whisper for more info! SHADOWLANDS GIVEAWAY: |cFFFFFFFF[|Hurl:https://discord.gg/Bf7TDAb|hhttps://discord.gg/Bf7TDAb|h]|r ",
+					["serverTime"] = 1603311179,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						29, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168807.343,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [90]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:13:00]|h|r |cffb2b2b2[22:13]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sylvnasboost-TarrenMill:353:2|h[|cffc59a6cSylvnasboost|r]|h: FREE ARMOR STACK (Sylvanas Boost Community )  +14 [100K]/+15 [100k] / x5 M+ 15 [ 420k] /+16 [140k] / +17 [200k]  / 18 [250k]/ Nylotha HC  / JAINA MOUNT ( BEAST DEAL ON MYTHIC NYLOTHA 12/12 MYTHIC  LIMITED SPOTS ! )",
+					["serverTime"] = 1603311179,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						22, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168807.343,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [91]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:13:01]|h|r |cffb2b2b2[22:13]|r |Hchannel:channel:2|h[2]|h |Hplayer:Lazywar-TarrenMill:354:2|h[|cffc59a6cLazywar|r]|h: Failsquad er en ny norsk guild som vil fokusere på å raide, men også PVP, M+ og social. Vi ønsker at alle føler seg velkommen uansett ferdighetsnivå. Målet er i starten Ahead of the Curve i hver raidtier. Alle er velkommen!l ",
+					["serverTime"] = 1603311180,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						43, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168808.243,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [92]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:13:07]|h|r |cffb2b2b2[22:13]|r |Hchannel:channel:2|h[2]|h [|cffE7E716DND|r] |Hplayer:Kreamy-TarrenMill:356:2|h[|cfffef367Kreamy|r]|h: WTS RBG wins (for your artifact appearance) or rbg rating /w me with any questions",
+					["serverTime"] = 1603311186,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						23, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168814.194,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [93]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:13:08]|h|r |cffb2b2b2[22:13]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sallenøva-TarrenMill:357:2|h[|cff00fe97Sallenøva|r]|h: ~* NOVA *  OFFERING MYTHIC TODAY 30% Discount Ny'alotha 12/12 + 3 VIP TraderS &  Only 4100k --Nzoth + Mount Only: 1600k--- Heroic  Ny'alotha 12/12 FOR ONLY 140K! Traders For Only 60K! /Jaina Mount: 280k/ M+15: 99K FREE ARMOR STACK / 5 Mask: 70k",
+					["serverTime"] = 1603311187,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						25, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168814.744,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [94]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:13:26]|h|r |cffb2b2b2[22:13]|r |Hchannel:channel:2|h[2]|h |Hplayer:Hydraboostcm-TarrenMill:360:2|h[|cffc59a6cHydraboostcm|r]|h: <Hydra> WTS |cffffff00|Hachievement:8721:Player-3674-0A5663DF:1:6:14:20:4294967295:4294967295:4294967295:4294967295|h[Fire-Watcher]|h|r Get your Fire-Watcher Title+|cff71d5ff|Hspell:148428:0|h[Ashhide Mushan Beast]|h|r+Pet 120K || Only Mount 50K /w me",
+					["serverTime"] = 1603311205,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						21, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168833.328,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [95]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:13:29]|h|r |cffb2b2b2[22:13]|r |Hchannel:channel:2|h[2]|h |Hplayer:Novaxcr-TarrenMill:361:2|h[|cff00fe97Novaxcr|r]|h: <NOVA> Offering Jaina Mount NOW for 280k! Mythic Nzoth with Mount is only 1.8m Now! 5 Mask Vision 70k! Free Armor Stack; ||2x15=171k|| ||4x15=324k|| ||+15=99k||  Visions, Gold Only /w ",
+					["serverTime"] = 1603311208,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						27, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168836.029,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [96]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:13:35]|h|r |cffb2b2b2[22:13]|r |Hchannel:channel:2|h[2]|h |Hplayer:Novabôost-TarrenMill:366:2|h[|cff006fdcNovabôost|r]|h: <<NOVA>>M+15(90k) 2xM+15(171k) 4xM+15(324K) [Ny'alotht City]12/12 Hc140k PER Trader 60k||12/12 Mythic  4100k+3xFree Trader||Vision 5 Mask 70k||Jaina Mount 350k MechaMount (130K) Hivemind Mount(160k)||Lvl Up 10-50 (400k)",
+					["serverTime"] = 1603311214,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						24, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168842.113,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [97]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:13:42]|h|r |cffb2b2b2[22:13]|r |Hchannel:channel:2|h[2]|h |Hplayer:Tarrencynd-TarrenMill:367:2|h[|cff00fe97Tarrencynd|r]|h: <ICECROWN> WTS JAINA MOUNT ----- 350k ---- EVERY 30MINS ------TODAY ---- PRE BOOK YOUR SLOT NOW ----- FOR GOLD ONLY ----- DM for more info!!!-",
+					["serverTime"] = 1603311221,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						34, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168849.413,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [98]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:13:47]|h|r |cffb2b2b2[22:13]|r |Hchannel:channel:2|h[2]|h |Hplayer:Novaboostqtt-TarrenMill:369:2|h[|cff8687edNovaboostqtt|r]|h: < NOVA > is OFFERING TODAY BIG DISCOUNT Nzoth Mythic + Mount for 1.6MIL --/ Heroic Nyalotha 12/12 FOR 140k! VIP Traders for only 60k----/ [M+15=90k][2x M+15=171k][4x M+15=324k]-/5Mask=70k--/Level UP boost 10-50 --/ JAINA MOUNT 280k ON TODAY",
+					["serverTime"] = 1603311226,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						26, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168854.314,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [99]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:13:55]|h|r |cffb2b2b2[22:13]|r |Hchannel:channel:2|h[2]|h [|cffE7E716DND|r] |Hplayer:Kreamy-TarrenMill:371:2|h[|cfffef367Kreamy|r]|h: WTS RBG wins (for your artifact appearance) or rbg rating /w me with any questions",
+					["serverTime"] = 1603311234,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						20, -- [2]
+						23, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 168861.998,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [100]
+			},
+			["maxElements"] = 100,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+	},
+}

@@ -1,556 +1,28 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/ap skip", -- [1]
-		"/cw Waraddict-Draenor actually min first Sephuz tho :D tog sin tid men nu har jeg da en", -- [2]
-		"/g Easiest way to lvl to 110", -- [3]
-		"/run print(IsQuestFlaggedCompleted(44311))", -- [4]
-		"I'm watching some shows tho, so won't be lgging discord", -- [5]
-		"/g we did ya'll a favor", -- [6]
-		"/g Demo is pretty good too, afflic is the same that unholy DK and boomie has", -- [7]
-		"/g 9  mage towers down, just 21  to go :P", -- [8]
+		"/target yosk", -- [1]
+		"/target field marshal tosk", -- [2]
+		"/target field marshal yosk", -- [3]
+		"/tar eric", -- [4]
+		"/1 54 46", -- [5]
+		"/g No bill", -- [6]
+		"sure", -- [7]
+		"/cw Waraddict-Draenor vil gerne have den på lock", -- [8]
 		"/cw Kedodda-Draenor alle mine ikke-lock chars er 930", -- [9]
-		"/g No bill", -- [10]
-		"/g It's just that only good people play warlock", -- [11]
-		"sure", -- [12]
-		"/cw Waraddict-Draenor vil gerne have den på lock", -- [13]
-		"/cw Waraddict-Draenor jeg har T21 4-set :P", -- [14]
-		"/target yosk", -- [15]
-		"/target field marshal tosk", -- [16]
-		"/target field marshal yosk", -- [17]
-		"/astralkeys", -- [18]
+		"/aap skip", -- [10]
+		"/ak", -- [11]
+		"/g keys work too", -- [12]
+		"/cw Waraddict-Draenor jeg har T21 4-set :P", -- [13]
+		"/g we did ya'll a favor", -- [14]
+		"/g It's just that only good people play warlock", -- [15]
+		"/g Demo is pretty good too, afflic is the same that unholy DK and boomie has", -- [16]
+		"/g 9  mage towers down, just 21  to go :P", -- [17]
+		"/ap", -- [18]
 		"/g Just any mythic dungeon", -- [19]
-		"/g keys work too", -- [20]
+		"/astralkeys", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"WTS |cff1eff00|Hitem:152510::::::::1:269::::::|h[Anchor Weed]|h|rx800 650g ea", -- [1]
-			"Korppubank-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Korppubank", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2392, -- [11]
-			"Player-1403-0691E4CB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00ff96Korppubank|r",
-			[51] = 1537649401,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
-			"WTB Anchor Weed 575g Siren's Pollen 50g Riverbud 40g Storm Silver Ore 25g Monelite ore 25g Platinum Ore 25g And ALL other herbs 25g C.O.D ME EVERYTHING Or whisper me!", -- [1]
-			"Exaviel-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Exaviel", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2399, -- [11]
-			"Player-1403-05E19336", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff48cbaExaviel|r",
-			[51] = 1537649409,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
-			"WTB ALL Herbs/Ores/linen Price: (Anchor weed)@500g (Sirren´s Pollen)@45g (Riverbud)@30g (Monelite/Stormsilver/Plat)@20g (Tidespray linen)@10g- C.O.D!!!!!", -- [1]
-			"Malthazor-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Malthazor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2407, -- [11]
-			"Player-1403-07157976", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc41e3aMalthazor|r",
-			[51] = 1537649412,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
-		{
-			"wanna level up some ?", -- [1]
-			"|Kq29|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1677, -- [11]
-			false, -- [12]
-			30, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Wrighthero|r",
-			[51] = 1552933792,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [4]
-		{
-			"sure", -- [1]
-			"|Kq29|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1691, -- [11]
-			false, -- [12]
-			30, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Wrighthero|r",
-			[51] = 1552933813,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [5]
-		{
-			"ready when you are.", -- [1]
-			"|Kq29|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1707, -- [11]
-			false, -- [12]
-			30, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cWrighthero|r",
-			[51] = 1552933856,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [6]
-		{
-			"I'm watching some shows tho, so won't be lgging discord", -- [1]
-			"|Kq29|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1709, -- [11]
-			false, -- [12]
-			30, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cWrighthero|r",
-			[51] = 1552933867,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [7]
-		{
-			"gy", -- [1]
-			"|Kq29|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1710, -- [11]
-			false, -- [12]
-			30, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cWrighthero|r",
-			[51] = 1552933872,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [8]
-		{
-			"yeah thats no problem", -- [1]
-			"|Kq29|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1711, -- [11]
-			false, -- [12]
-			30, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cWrighthero|r",
-			[51] = 1552933876,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [9]
-		{
-			"|cffffff00Nazmir is under attack!|r", -- [1]
-			"", -- [2]
-			"", -- [3]
-			"3. LocalDefense - Nazmir", -- [4]
-			"", -- [5]
-			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Nazmir", -- [9]
-			0, -- [10]
-			392, -- [11]
-			false, -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1553274013,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [10]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:5455:Player-1403-053A95C3:1:3:23:19:4294967295:4294967295:4294967295:4294967295|h[Got My Mind On My Money]|h|r!", -- [1]
-			"Retßull-Draenor", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Retßull-Draenor", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1578, -- [11]
-			"Player-1403-053A95C3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Retßull|r",
-			[51] = 1553349126,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [11]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:12404:Player-1403-053F65F5:1:3:23:19:4294967295:4294967295:4294967295:4294967295|h[Claim Jumper]|h|r!", -- [1]
-			"Totempula-Draenor", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Totempula-Draenor", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1591, -- [11]
-			"Player-1403-053F65F5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcTotempula|r",
-			[51] = 1553349166,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [12]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:685:Player-1403-075116A2:1:3:23:19:4294967295:4294967295:4294967295:4294967295|h[Blackwing Lair]|h|r!", -- [1]
-			"Patria-Draenor", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Patria-Draenor", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1602, -- [11]
-			"Player-1403-075116A2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Patria|r",
-			[51] = 1553349200,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [13]
-		{
-			"greetings Mon", -- [1]
-			"Hugsforheals-Draenor", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1631, -- [11]
-			"Player-1403-06E8B05F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeHugsforheals|r",
-			[51] = 1553349308,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [14]
-		{
-			"Hi thx for the invite", -- [1]
-			"Zougoulou-Draenor", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1632, -- [11]
-			"Player-1403-06BEAD67", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Zougoulou|r",
-			[51] = 1553349312,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [15]
-		{
-			"hello", -- [1]
-			"Taqoh-Draenor", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1633, -- [11]
-			"Player-1403-0720E630", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec5e9Taqoh|r",
-			[51] = 1553349321,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [16]
-		{
-			"anybody for anal play ?", -- [1]
-			"Taqoh-Draenor", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1634, -- [11]
-			"Player-1403-0720E630", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec5e9Taqoh|r",
-			[51] = 1553349325,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [17]
-		{
-			"im saying nothing .... ", -- [1]
-			"Hussÿ-Draenor", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1648, -- [11]
-			"Player-1403-070526E1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Hussÿ|r",
-			[51] = 1553349354,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [18]
-		{
-			"ill take that as a maybe", -- [1]
-			"Taqoh-Draenor", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1653, -- [11]
-			"Player-1403-0720E630", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec5e9Taqoh|r",
-			[51] = 1553349377,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [19]
-		{
-			"isnt that like scrabble?", -- [1]
-			"Jimmysaddle-Draenor", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1654, -- [11]
-			"Player-1403-07288CC2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Jimmysaddle|r",
-			[51] = 1553349385,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [20]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:483:Player-1403-07541F5E:1:3:23:19:4294967295:4294967295:4294967295:4294967295|h[The Violet Hold]|h|r!", -- [1]
-			"Drshockme-Draenor", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Drshockme-Draenor", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1655, -- [11]
-			"Player-1403-07541F5E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcDrshockme|r",
-			[51] = 1553349393,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [21]
-		{
-			"we can call it that if u want", -- [1]
-			"Taqoh-Draenor", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1656, -- [11]
-			"Player-1403-0720E630", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec5e9Taqoh|r",
-			[51] = 1553349394,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [22]
-		{
-			":D", -- [1]
-			"Hussÿ-Draenor", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1658, -- [11]
-			"Player-1403-070526E1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Hussÿ|r",
-			[51] = 1553349399,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [23]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:504:Player-1403-073A1567:1:3:23:19:4294967295:4294967295:4294967295:4294967295|h[100 Quests Completed]|h|r!", -- [1]
-			"Viandelle-Draenor", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Viandelle-Draenor", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1660, -- [11]
-			"Player-1403-073A1567", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cViandelle|r",
-			[51] = 1553349406,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [24]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:4536:Player-1403-0756684C:1:3:23:19:4294967295:4294967295:4294967295:4294967295|h[I'm on a Boat (10 player)]|h|r!", -- [1]
 			"Soulhammers-Draenor", -- [2]
@@ -572,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Soulhammers|r",
 			[51] = 1553349408,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [25]
+		}, -- [1]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:4531:Player-1403-0756684C:1:3:23:19:4294967295:4294967295:4294967295:4294967295|h[Storming the Citadel (10 player)]|h|r!", -- [1]
 			"Soulhammers-Draenor", -- [2]
@@ -594,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Soulhammers|r",
 			[51] = 1553349617,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [26]
+		}, -- [2]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:4537:Player-1403-0756684C:1:3:23:19:4294967295:4294967295:4294967295:4294967295|h[I've Gone and Made a Mess (10 player)]|h|r!", -- [1]
 			"Soulhammers-Draenor", -- [2]
@@ -616,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Soulhammers|r",
 			[51] = 1553349617,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [27]
+		}, -- [3]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:13466:Player-1403-07288CC2:1:3:23:19:4294967295:4294967295:4294967295:4294967295|h[Tides of Vengeance]|h|r!", -- [1]
 			"Jimmysaddle-Draenor", -- [2]
@@ -638,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Jimmysaddle|r",
 			[51] = 1553349726,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [28]
+		}, -- [4]
 		{
 			"hihi", -- [1]
 			"Windtouch-Draenor", -- [2]
@@ -660,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Windtouch|r",
 			[51] = 1553349803,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [29]
+		}, -- [5]
 		{
 			"how0do", -- [1]
 			"Jimmysaddle-Draenor", -- [2]
@@ -682,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Jimmysaddle|r",
 			[51] = 1553349812,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [30]
+		}, -- [6]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12523:Player-1403-06D2C4C3:1:3:23:19:4294967295:4294967295:4294967295:4294967295|h[Heart of Corruption]|h|r!", -- [1]
 			"Mitchmy-Draenor", -- [2]
@@ -704,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcMitchmy|r",
 			[51] = 1553349830,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [31]
+		}, -- [7]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:13296:Player-1403-06C6E20D:1:3:23:19:4294967295:4294967295:4294967295:4294967295|h[War for the Shore]|h|r!", -- [1]
 			"Shockanroll-Draenor", -- [2]
@@ -726,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcShockanroll|r",
 			[51] = 1553349847,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [32]
+		}, -- [8]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12555:Player-1403-05EB86DC:1:3:23:19:4294967295:4294967295:4294967295:4294967295|h[Welcome to Zandalar]|h|r!", -- [1]
 			"Baldár-Draenor", -- [2]
@@ -748,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Baldár|r",
 			[51] = 1553349880,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [33]
+		}, -- [9]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12546:Player-1403-06C6E20D:1:3:23:19:4294967295:4294967295:4294967295:4294967295|h[Superior]|h|r!", -- [1]
 			"Shockanroll-Draenor", -- [2]
@@ -770,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcShockanroll|r",
 			[51] = 1553349967,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [34]
+		}, -- [10]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:504:Player-1403-07308725:1:3:23:19:4294967295:4294967295:4294967295:4294967295|h[100 Quests Completed]|h|r!", -- [1]
 			"Huntisha-Draenor", -- [2]
@@ -792,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Huntisha|r",
 			[51] = 1553350046,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [35]
+		}, -- [11]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12719:Player-1403-06D2C4C3:1:3:23:19:4294967295:4294967295:4294967295:4294967295|h[Spirits Be With You]|h|r!", -- [1]
 			"Mitchmy-Draenor", -- [2]
@@ -814,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcMitchmy|r",
 			[51] = 1553350053,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [36]
+		}, -- [12]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:11652:Player-1403-07288CC2:1:3:23:19:4294967295:4294967295:4294967295:4294967295|h[The Reputable]|h|r!", -- [1]
 			"Jimmysaddle-Draenor", -- [2]
@@ -836,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Jimmysaddle|r",
 			[51] = 1553350063,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [37]
+		}, -- [13]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:4582:Player-1403-0756684C:1:3:23:19:4294967295:4294967295:4294967295:4294967295|h[The Orb Whisperer (10 player)]|h|r!", -- [1]
 			"Soulhammers-Draenor", -- [2]
@@ -858,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Soulhammers|r",
 			[51] = 1553350130,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [38]
+		}, -- [14]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12918:Player-1403-0757AB59:1:3:23:19:4294967295:4294967295:4294967295:4294967295|h[Have a Heart]|h|r!", -- [1]
 			"Vixell-Draenor", -- [2]
@@ -880,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Vixell|r",
 			[51] = 1553350141,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [39]
+		}, -- [15]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:504:Player-1403-07576171:1:3:23:19:4294967295:4294967295:4294967295:4294967295|h[100 Quests Completed]|h|r!", -- [1]
 			"Illisydanna-Draenor", -- [2]
@@ -902,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Illisydanna|r",
 			[51] = 1553350155,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [40]
+		}, -- [16]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:13056:Player-1403-06533D83:1:3:25:19:4294967295:4294967295:4294967295:4294967295|h[Giving a Scrap]|h|r!", -- [1]
 			"Dolanpateu-Draenor", -- [2]
@@ -924,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Dolanpateu|r",
 			[51] = 1553546965,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [41]
+		}, -- [17]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:1717:Player-1403-06D10F05:1:3:25:19:4294967295:4294967295:4294967295:4294967295|h[Wintergrasp Victory]|h|r!", -- [1]
 			"Zrillax-Draenor", -- [2]
@@ -946,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Zrillax|r",
 			[51] = 1553546980,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [42]
+		}, -- [18]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12575:Player-1403-06D10F05:1:3:25:19:4294967295:4294967295:4294967295:4294967295|h[Tour of Duty: Zuldazar]|h|r!", -- [1]
 			"Zrillax-Draenor", -- [2]
@@ -968,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Zrillax|r",
 			[51] = 1553547020,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [43]
+		}, -- [19]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:505:Player-1403-07571FDA:1:3:26:19:4294967295:4294967295:4294967295:4294967295|h[250 Quests Completed]|h|r!", -- [1]
 			"Skrufendh-Draenor", -- [2]
@@ -990,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Skrufendh|r",
 			[51] = 1553621427,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [44]
+		}, -- [20]
 		{
 			"fj", -- [1]
 			"Roboplop-Draenor", -- [2]
@@ -1012,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcRoboplop|r",
 			[51] = 1553622049,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [45]
+		}, -- [21]
 		{
 			"hah du", -- [1]
 			"Kralkuzel-Draenor", -- [2]
@@ -1034,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cKralkuzel|r",
 			[51] = 1553622055,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [46]
+		}, -- [22]
 		{
 			"word up", -- [1]
 			"Dotdotboom-Draenor", -- [2]
@@ -1056,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecDotdotboom|r",
 			[51] = 1553622078,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [47]
+		}, -- [23]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:505:Player-1403-073FB632:1:3:26:19:4294967295:4294967295:4294967295:4294967295|h[250 Quests Completed]|h|r!", -- [1]
 			"Ellesare-Draenor", -- [2]
@@ -1078,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Ellesare|r",
 			[51] = 1553622133,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [48]
+		}, -- [24]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10012:Player-1403-07573EA3:1:3:30:19:4294967295:4294967295:4294967295:4294967295|h[This Land Was Green and Good Until...]|h|r!", -- [1]
 			"Braindeadx-Draenor", -- [2]
@@ -1100,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Braindeadx|r",
 			[51] = 1553963681,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [49]
+		}, -- [25]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10087:Player-1403-07573EA3:1:3:30:19:4294967295:4294967295:4294967295:4294967295|h[You Gotta Keep 'em Separated]|h|r!", -- [1]
 			"Braindeadx-Draenor", -- [2]
@@ -1122,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Braindeadx|r",
 			[51] = 1553963757,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [50]
+		}, -- [26]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12409:Player-1403-075999C8:1:3:30:19:4294967295:4294967295:4294967295:4294967295|h[Seething Shore Victory]|h|r!", -- [1]
 			"Lamatoz-Draenor", -- [2]
@@ -1144,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Lamatoz|r",
 			[51] = 1553963794,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [51]
+		}, -- [27]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10020:Player-1403-07573EA3:1:3:30:19:4294967295:4294967295:4294967295:4294967295|h[Destructor's Rise]|h|r!", -- [1]
 			"Braindeadx-Draenor", -- [2]
@@ -1166,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Braindeadx|r",
 			[51] = 1553963870,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [52]
+		}, -- [28]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:13289:Player-1403-07204F41:1:3:30:19:4294967295:4294967295:4294967295:4294967295|h[Defense of Dazar'alor]|h|r!", -- [1]
 			"Alexlazar-Draenor", -- [2]
@@ -1188,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAlexlazar|r",
 			[51] = 1553963923,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [53]
+		}, -- [29]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10019:Player-1403-07573EA3:1:3:30:19:4294967295:4294967295:4294967295:4294967295|h[The Black Gate]|h|r!", -- [1]
 			"Braindeadx-Draenor", -- [2]
@@ -1210,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Braindeadx|r",
 			[51] = 1553963939,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [54]
+		}, -- [30]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:238:Player-1403-0756CEE7:1:3:30:19:4294967295:4294967295:4294967295:4294967295|h[An Honorable Kill]|h|r!", -- [1]
 			"Köröjörö-Draenor", -- [2]
@@ -1232,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Köröjörö|r",
 			[51] = 1553964000,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [55]
+		}, -- [31]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:515:Player-1403-0759853F:1:3:30:19:4294967295:4294967295:4294967295:4294967295|h[500 Honorable Kills]|h|r!", -- [1]
 			"Volupte-Draenor", -- [2]
@@ -1254,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeVolupte|r",
 			[51] = 1553964030,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [56]
+		}, -- [32]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:13056:Player-1403-075999C8:1:3:30:19:4294967295:4294967295:4294967295:4294967295|h[Giving a Scrap]|h|r!", -- [1]
 			"Lamatoz-Draenor", -- [2]
@@ -1276,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Lamatoz|r",
 			[51] = 1553964113,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [57]
+		}, -- [33]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12844:Player-1403-0748642F:1:3:30:19:4294967295:4294967295:4294967295:4294967295|h[The MOTHERLODE!!]|h|r!", -- [1]
 			"Shellby-Draenor", -- [2]
@@ -1298,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cShellby|r",
 			[51] = 1553964208,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [58]
+		}, -- [34]
 		{
 			"anyone doing the m0 weekly?", -- [1]
 			"Alexlazar-Draenor", -- [2]
@@ -1320,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAlexlazar|r",
 			[51] = 1553964277,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [59]
+		}, -- [35]
 		{
 			"yeah sure", -- [1]
 			"Rigzey-Draenor", -- [2]
@@ -1342,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Rigzey|r",
 			[51] = 1553964285,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [60]
+		}, -- [36]
 		{
 			"maybe we get 5 guildies group", -- [1]
 			"Alexlazar-Draenor", -- [2]
@@ -1364,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAlexlazar|r",
 			[51] = 1553964340,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [61]
+		}, -- [37]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:731:Player-1403-06FADC42:1:3:30:19:4294967295:4294967295:4294967295:4294967295|h[Professional Expert]|h|r!", -- [1]
 			"Evalle-Draenor", -- [2]
@@ -1386,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Evalle|r",
 			[51] = 1553964372,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [62]
+		}, -- [38]
 		{
 			"send me an invite", -- [1]
 			"Rigzey-Draenor", -- [2]
@@ -1408,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Rigzey|r",
 			[51] = 1553964383,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [63]
+		}, -- [39]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:973:Player-1403-0759853F:1:3:30:19:4294967295:4294967295:4294967295:4294967295|h[5 Daily Quests Completed]|h|r!", -- [1]
 			"Volupte-Draenor", -- [2]
@@ -1430,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeVolupte|r",
 			[51] = 1553964401,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [64]
+		}, -- [40]
 		{
 			"healer/tank/dps for m0 weekly?", -- [1]
 			"Alexlazar-Draenor", -- [2]
@@ -1452,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAlexlazar|r",
 			[51] = 1553964427,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [65]
+		}, -- [41]
 		{
 			"anyone wanna do some mythics with us?", -- [1]
 			"Rigzey-Draenor", -- [2]
@@ -1474,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Rigzey|r",
 			[51] = 1553964571,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [66]
+		}, -- [42]
 		{
 			"does it have to be M+0 ?   :P", -- [1]
 			"Zrillax-Draenor", -- [2]
@@ -1496,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Zrillax|r",
 			[51] = 1553964619,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [67]
+		}, -- [43]
 		{
 			"i`m not sure my ilvl can do more then M0:P", -- [1]
 			"Alexlazar-Draenor", -- [2]
@@ -1518,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAlexlazar|r",
 			[51] = 1553964647,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [68]
+		}, -- [44]
 		{
 			"Just any mythic dungeon", -- [1]
 			"Achilina-Draenor", -- [2]
@@ -1540,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAchilina|r",
 			[51] = 1553964648,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [69]
+		}, -- [45]
 		{
 			"keys work too", -- [1]
 			"Achilina-Draenor", -- [2]
@@ -1562,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAchilina|r",
 			[51] = 1553964651,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [70]
+		}, -- [46]
 		{
 			"i wanna", -- [1]
 			"Braindeadx-Draenor", -- [2]
@@ -1584,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Braindeadx|r",
 			[51] = 1553964658,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [71]
+		}, -- [47]
 		{
 			"dps", -- [1]
 			"Braindeadx-Draenor", -- [2]
@@ -1606,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Braindeadx|r",
 			[51] = 1553964660,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [72]
+		}, -- [48]
 		{
 			"|cffa335ee|Hkeystone:158923:245:4:9:5:0:0|h[Keystone: Freehold (4)]|h|r i got this if anyone wants to do it", -- [1]
 			"Rigzey-Draenor", -- [2]
@@ -1628,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Rigzey|r",
 			[51] = 1553964680,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [73]
+		}, -- [49]
 		{
 			"339", -- [1]
 			"Braindeadx-Draenor", -- [2]
@@ -1650,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Braindeadx|r",
 			[51] = 1553964680,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [74]
+		}, -- [50]
 		{
 			"362 ilvl", -- [1]
 			"Alexlazar-Draenor", -- [2]
@@ -1672,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAlexlazar|r",
 			[51] = 1553964695,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [75]
+		}, -- [51]
 		{
 			"its gonna b one hell of a group with 3 rogues, but im game. :P", -- [1]
 			"Zrillax-Draenor", -- [2]
@@ -1694,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Zrillax|r",
 			[51] = 1553964708,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [76]
+		}, -- [52]
 		{
 			"XD", -- [1]
 			"Braindeadx-Draenor", -- [2]
@@ -1716,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Braindeadx|r",
 			[51] = 1553964722,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [77]
+		}, -- [53]
 		{
 			"yo", -- [1]
 			"Pulsaria-Draenor", -- [2]
@@ -1738,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Pulsaria|r",
 			[51] = 1553964739,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [78]
+		}, -- [54]
 		{
 			"yo", -- [1]
 			"Kralkuzel-Draenor", -- [2]
@@ -1760,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cKralkuzel|r",
 			[51] = 1553964760,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [79]
+		}, -- [55]
 		{
 			"yo", -- [1]
 			"Mci-Draenor", -- [2]
@@ -1782,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMci|r",
 			[51] = 1553964764,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [80]
+		}, -- [56]
 		{
 			"yo", -- [1]
 			"Braindeadx-Draenor", -- [2]
@@ -1804,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Braindeadx|r",
 			[51] = 1553964782,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [81]
+		}, -- [57]
 		{
 			"so", -- [1]
 			"Braindeadx-Draenor", -- [2]
@@ -1826,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Braindeadx|r",
 			[51] = 1553964833,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [82]
+		}, -- [58]
 		{
 			"m+ or wat", -- [1]
 			"Braindeadx-Draenor", -- [2]
@@ -1848,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Braindeadx|r",
 			[51] = 1553964840,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [83]
+		}, -- [59]
 		{
 			"can someone get the group on i am getting errors when i want to invite", -- [1]
 			"Alexlazar-Draenor", -- [2]
@@ -1870,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAlexlazar|r",
 			[51] = 1553964848,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [84]
+		}, -- [60]
 		{
 			"for m+ 0?", -- [1]
 			"Braindeadx-Draenor", -- [2]
@@ -1892,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Braindeadx|r",
 			[51] = 1553964873,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [85]
+		}, -- [61]
 		{
 			"if i try to invite anyone, all i get is \"That character does not exist\"", -- [1]
 			"Zrillax-Draenor", -- [2]
@@ -1914,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Zrillax|r",
 			[51] = 1553964879,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [86]
+		}, -- [62]
 		{
 			"i get lua errors:))", -- [1]
 			"Alexlazar-Draenor", -- [2]
@@ -1936,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAlexlazar|r",
 			[51] = 1553964897,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [87]
+		}, -- [63]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:506:Player-1403-0756CEE7:1:3:30:19:4294967295:4294967295:4294967295:4294967295|h[500 Quests Completed]|h|r!", -- [1]
 			"Köröjörö-Draenor", -- [2]
@@ -1958,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Köröjörö|r",
 			[51] = 1553964936,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [88]
+		}, -- [64]
 		{
 			"bugged addon ?", -- [1]
 			"Zrillax-Draenor", -- [2]
@@ -1980,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Zrillax|r",
 			[51] = 1553964945,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [89]
+		}, -- [65]
 		{
 			"guess so. Mine are updated bit`s the first time it does this", -- [1]
 			"Alexlazar-Draenor", -- [2]
@@ -2002,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAlexlazar|r",
 			[51] = 1553964981,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [90]
+		}, -- [66]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10780:Player-1403-075991FF:1:3:30:19:4294967295:4294967295:4294967295:4294967295|h[Eye of Azshara]|h|r!", -- [1]
 			"Kulumay-Draenor", -- [2]
@@ -2024,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kulumay|r",
 			[51] = 1553965009,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [91]
+		}, -- [67]
 		{
 			"ok whenevr u get it sorted inv me for m+ 0", -- [1]
 			"Braindeadx-Draenor", -- [2]
@@ -2046,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Braindeadx|r",
 			[51] = 1553965023,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [92]
+		}, -- [68]
 		{
 			"ok it`s working now. WHo wants invite?", -- [1]
 			"Alexlazar-Draenor", -- [2]
@@ -2068,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAlexlazar|r",
 			[51] = 1553965085,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [93]
+		}, -- [69]
 		{
 			"[Pulsaria] whats this invite about?", -- [1]
 			"Toteminus-Draenor", -- [2]
@@ -2090,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcToteminus|r",
 			[51] = 1553965115,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [94]
+		}, -- [70]
 		{
 			"m0 weekly q", -- [1]
 			"Alexlazar-Draenor", -- [2]
@@ -2112,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAlexlazar|r",
 			[51] = 1553965132,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [95]
+		}, -- [71]
 		{
 			"[Pulsaria] that i can do ty", -- [1]
 			"Toteminus-Draenor", -- [2]
@@ -2134,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcToteminus|r",
 			[51] = 1553965144,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [96]
+		}, -- [72]
 		{
 			"not sure i can enter more then m0 since im just 365", -- [1]
 			"Alexlazar-Draenor", -- [2]
@@ -2156,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAlexlazar|r",
 			[51] = 1553965155,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [97]
+		}, -- [73]
 		{
 			"[Pulsaria] what do you mean?", -- [1]
 			"Toteminus-Draenor", -- [2]
@@ -2178,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcToteminus|r",
 			[51] = 1553965171,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [98]
+		}, -- [74]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:696:Player-1403-07040EAC:1:4:2:19:4294967295:4294967295:4294967295:4294967295|h[Tempest Keep]|h|r!", -- [1]
 			"Bæstet-Draenor", -- [2]
@@ -2200,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Bæstet|r",
 			[51] = 1554234921,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [99]
+		}, -- [75]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:13441:Player-1403-0758E03E:1:4:2:19:4294967295:4294967295:4294967295:4294967295|h[Pushing the Payload]|h|r!", -- [1]
 			"Stiandh-Draenor", -- [2]
@@ -2222,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Stiandh|r",
 			[51] = 1554234922,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [100]
+		}, -- [76]
 		{
 			"aaaand im back!", -- [1]
 			"Jimmysaddle-Draenor", -- [2]
@@ -2244,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Jimmysaddle|r",
 			[51] = 1554234984,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [101]
+		}, -- [77]
 		{
 			"whalecum back", -- [1]
 			"Bæstet-Draenor", -- [2]
@@ -2266,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Bæstet|r",
 			[51] = 1554234994,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [102]
+		}, -- [78]
 		{
 			"Ello", -- [1]
 			"Woolybúlly-Draenor", -- [2]
@@ -2288,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcWoolybúlly|r",
 			[51] = 1554234994,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [103]
+		}, -- [79]
 		{
 			"hi good evening!", -- [1]
 			"Schaahx-Draenor", -- [2]
@@ -2310,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Schaahx|r",
 			[51] = 1554235061,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [104]
+		}, -- [80]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:5794:Player-1403-0756395F:1:4:2:19:4294967295:4294967295:4294967295:4294967295|h[Time Flies When You're Having Fun]|h|r!", -- [1]
 			"Windtouch-Draenor", -- [2]
@@ -2332,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Windtouch|r",
 			[51] = 1554235071,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [105]
+		}, -- [81]
 		{
 			"can anyone invite my 2nd char in guild?", -- [1]
 			"Volupte-Draenor", -- [2]
@@ -2354,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeVolupte|r",
 			[51] = 1554235355,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [106]
+		}, -- [82]
 		{
 			"Sure", -- [1]
 			"Bæstet-Draenor", -- [2]
@@ -2376,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Bæstet|r",
 			[51] = 1554235372,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [107]
+		}, -- [83]
 		{
 			"in about 5 mins yeah in dungeon", -- [1]
 			"Séàmus-Draenor", -- [2]
@@ -2398,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Séàmus|r",
 			[51] = 1554235373,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [108]
+		}, -- [84]
 		{
 			"you can invite me", -- [1]
 			"Bæstet-Draenor", -- [2]
@@ -2420,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Bæstet|r",
 			[51] = 1554235375,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [109]
+		}, -- [85]
 		{
 			"or, i mean", -- [1]
 			"Bæstet-Draenor", -- [2]
@@ -2442,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Bæstet|r",
 			[51] = 1554235378,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [110]
+		}, -- [86]
 		{
 			"whisper me", -- [1]
 			"Bæstet-Draenor", -- [2]
@@ -2464,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Bæstet|r",
 			[51] = 1554235381,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [111]
+		}, -- [87]
 		{
 			"one officer online but he is afk :)", -- [1]
 			"Herka-Draenor", -- [2]
@@ -2486,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Herka|r",
 			[51] = 1554235381,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [112]
+		}, -- [88]
 		{
 			"ok", -- [1]
 			"Volupte-Draenor", -- [2]
@@ -2508,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeVolupte|r",
 			[51] = 1554235401,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [113]
+		}, -- [89]
 		{
 			"give me 10 minutes plz", -- [1]
 			"Volupte-Draenor", -- [2]
@@ -2530,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeVolupte|r",
 			[51] = 1554235405,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [114]
+		}, -- [90]
 		{
 			"boeston you can invite people?", -- [1]
 			"Volupte-Draenor", -- [2]
@@ -2552,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeVolupte|r",
 			[51] = 1554235412,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [115]
+		}, -- [91]
 		{
 			"I think we all can", -- [1]
 			"Bæstet-Draenor", -- [2]
@@ -2574,7 +2046,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Bæstet|r",
 			[51] = 1554235420,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [116]
+		}, -- [92]
 		{
 			"okay", -- [1]
 			"Volupte-Draenor", -- [2]
@@ -2596,7 +2068,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeVolupte|r",
 			[51] = 1554235429,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [117]
+		}, -- [93]
 		{
 			"I have the option to \"invite member\" atleast", -- [1]
 			"Bæstet-Draenor", -- [2]
@@ -2618,7 +2090,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Bæstet|r",
 			[51] = 1554235429,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [118]
+		}, -- [94]
 		{
 			"nice", -- [1]
 			"Volupte-Draenor", -- [2]
@@ -2640,7 +2112,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeVolupte|r",
 			[51] = 1554235429,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [119]
+		}, -- [95]
 		{
 			"Whats the name of your alt?", -- [1]
 			"Bæstet-Draenor", -- [2]
@@ -2662,7 +2134,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Bæstet|r",
 			[51] = 1554235460,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [120]
+		}, -- [96]
 		{
 			"ragnize", -- [1]
 			"Volupte-Draenor", -- [2]
@@ -2684,7 +2156,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeVolupte|r",
 			[51] = 1554235464,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [121]
+		}, -- [97]
 		{
 			"I got it", -- [1]
 			"Woolybúlly-Draenor", -- [2]
@@ -2706,7 +2178,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcWoolybúlly|r",
 			[51] = 1554235469,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [122]
+		}, -- [98]
 		{
 			"but waitn i need to finish bg", -- [1]
 			"Volupte-Draenor", -- [2]
@@ -2728,7 +2200,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeVolupte|r",
 			[51] = 1554235469,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [123]
+		}, -- [99]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12831:Player-1403-070898E4:1:4:2:19:4294967295:4294967295:4294967295:4294967295|h[Freehold]|h|r!", -- [1]
 			"Merassil-Draenor", -- [2]
@@ -2750,7 +2222,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Merassil|r",
 			[51] = 1554235709,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [124]
+		}, -- [100]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12833:Player-1403-070898E4:1:4:2:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Freehold]|h|r!", -- [1]
 			"Merassil-Draenor", -- [2]
@@ -2772,7 +2244,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Merassil|r",
 			[51] = 1554235709,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [125]
+		}, -- [101]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12832:Player-1403-070898E4:1:4:2:19:4294967295:4294967295:4294967295:4294967295|h[Heroic: Freehold]|h|r!", -- [1]
 			"Merassil-Draenor", -- [2]
@@ -2794,7 +2266,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Merassil|r",
 			[51] = 1554235709,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [126]
+		}, -- [102]
 		{
 			"|cffffff00Warbeast Kraal is under attack!|r", -- [1]
 			"", -- [2]
@@ -2816,6 +2288,534 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1554235789,
 			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [103]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12840:Player-1403-060939D9:1:8:1:19:4294967295:4294967295:4294967295:4294967295|h[Tol Dagor]|h|r!", -- [1]
+			"Valadur-Draenor", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Valadur-Draenor", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			99, -- [11]
+			"Player-1403-060939D9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Valadur|r",
+			[51] = 1564693148,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [104]
+		{
+			"Hello :D", -- [1]
+			"Dampkost-Draenor", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			203, -- [11]
+			"Player-1403-072C9E34", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Dampkost|r",
+			[51] = 1565449845,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [105]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:1182:Player-1403-064EB8DE:1:8:10:19:4294967295:4294967295:4294967295:4294967295|h[The Bread Winner]|h|r!", -- [1]
+			"Achilina-Draenor", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Achilina-Draenor", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			670, -- [11]
+			"Player-1403-064EB8DE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cAchilina|r",
+			[51] = 1565451466,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [106]
+		{
+			"|cffffff00Drowned Lands is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Stormsong Valley", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormsong Valley", -- [9]
+			0, -- [10]
+			450, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1565523837,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [107]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:4846:Player-1403-0543DAF5:1:8:12:19:4294967295:4294967295:4294967295:4294967295|h[The Stonecore]|h|r!", -- [1]
+			"Mcshifter-Draenor", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mcshifter-Draenor", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			612, -- [11]
+			"Player-1403-0543DAF5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Mcshifter|r",
+			[51] = 1565628371,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [108]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:5063:Player-1403-0543DAF5:1:8:12:19:4294967295:4294967295:4294967295:4294967295|h[Heroic: The Stonecore]|h|r!", -- [1]
+			"Mcshifter-Draenor", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mcshifter-Draenor", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			613, -- [11]
+			"Player-1403-0543DAF5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Mcshifter|r",
+			[51] = 1565628371,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [109]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12733:Player-1403-064EB8DE:1:8:12:19:4294967295:4294967295:4294967295:4294967295|h[Professional Zandalari Master]|h|r!", -- [1]
+			"Achilina-Draenor", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Achilina-Draenor", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			776, -- [11]
+			"Player-1403-064EB8DE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cAchilina|r",
+			[51] = 1565628997,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [110]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:4840:Player-1403-0543DAF5:1:8:12:19:4294967295:4294967295:4294967295:4294967295|h[Grim Batol]|h|r!", -- [1]
+			"Mcshifter-Draenor", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mcshifter-Draenor", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			863, -- [11]
+			"Player-1403-0543DAF5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Mcshifter|r",
+			[51] = 1565629391,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [111]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:5062:Player-1403-0543DAF5:1:8:12:19:4294967295:4294967295:4294967295:4294967295|h[Heroic: Grim Batol]|h|r!", -- [1]
+			"Mcshifter-Draenor", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mcshifter-Draenor", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			864, -- [11]
+			"Player-1403-0543DAF5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Mcshifter|r",
+			[51] = 1565629391,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [112]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12547:Player-1403-0720DC2A:1:8:12:19:4294967295:4294967295:4294967295:4294967295|h[Epic]|h|r!", -- [1]
+			"Magnez-Draenor", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Magnez-Draenor", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			884, -- [11]
+			"Player-1403-0720DC2A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Magnez|r",
+			[51] = 1565629449,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [113]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12568:Player-1403-0720DC2A:1:8:14:19:4294967295:4294967295:4294967295:4294967295|h[The Alliance Slayer]|h|r!", -- [1]
+			"Magnez-Draenor", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Magnez-Draenor", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1566, -- [11]
+			"Player-1403-0720DC2A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Magnez|r",
+			[51] = 1565805409,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [114]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:513:Player-1403-0720DC2A:1:8:14:19:4294967295:4294967295:4294967295:4294967295|h[100 Honorable Kills]|h|r!", -- [1]
+			"Magnez-Draenor", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Magnez-Draenor", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1572, -- [11]
+			"Player-1403-0720DC2A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Magnez|r",
+			[51] = 1565805436,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [115]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:13284:Player-1403-064EB8DE:1:8:14:19:4294967295:4294967295:4294967295:4294967295|h[Frontline Warrior]|h|r!", -- [1]
+			"Achilina-Draenor", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Achilina-Draenor", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1711, -- [11]
+			"Player-1403-064EB8DE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cAchilina|r",
+			[51] = 1565806088,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [116]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:13388:Player-1403-064EB8DE:1:8:14:19:4294967295:4294967295:4294967295:4294967295|h[Frontline Veteran]|h|r!", -- [1]
+			"Achilina-Draenor", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Achilina-Draenor", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1713, -- [11]
+			"Player-1403-064EB8DE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cAchilina|r",
+			[51] = 1565806088,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [117]
+		{
+			"|cffffff00Whitegrove Chapel is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Drustvar", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Drustvar", -- [9]
+			0, -- [10]
+			26, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1566074949,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [118]
+		{
+			"|cffffff00Whitegrove Chapel is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Drustvar", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Drustvar", -- [9]
+			0, -- [10]
+			154, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1566075520,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [119]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:636:Player-1403-073A477F:1:8:17:19:4294967295:4294967295:4294967295:4294967295|h[Razorfen Downs]|h|r!", -- [1]
+			"Zyuh-Draenor", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Zyuh-Draenor", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			248, -- [11]
+			"Player-1403-073A477F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Zyuh|r",
+			[51] = 1566075879,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [120]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:13776:Player-1403-069C9449:1:8:17:19:4294967295:4294967295:4294967295:4294967295|h[Explore Mechagon]|h|r!", -- [1]
+			"Mardoul-Draenor", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mardoul-Draenor", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			552, -- [11]
+			"Player-1403-069C9449", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cMardoul|r",
+			[51] = 1566077189,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [121]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12544:Player-1403-064EB8DE:1:8:17:19:4294967295:4294967295:4294967295:4294967295|h[Level 120]|h|r!", -- [1]
+			"Achilina-Draenor", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Achilina-Draenor", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			626, -- [11]
+			"Player-1403-064EB8DE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cAchilina|r",
+			[51] = 1566077455,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [122]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:13572:Player-1403-064EB8DE:1:8:18:19:4294967295:4294967295:4294967295:4294967295|h[The Heart Forge]|h|r!", -- [1]
+			"Achilina-Draenor", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Achilina-Draenor", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1298, -- [11]
+			"Player-1403-064EB8DE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cAchilina|r",
+			[51] = 1566079354,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [123]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12561:Player-1403-064EB8DE:1:8:18:19:4294967295:4294967295:4294967295:4294967295|h[Explore Nazmir]|h|r!", -- [1]
+			"Achilina-Draenor", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Achilina-Draenor", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1620, -- [11]
+			"Player-1403-064EB8DE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cAchilina|r",
+			[51] = 1566080446,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [124]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12546:Player-1403-064EB8DE:1:8:18:19:4294967295:4294967295:4294967295:4294967295|h[Superior]|h|r!", -- [1]
+			"Achilina-Draenor", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Achilina-Draenor", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1667, -- [11]
+			"Player-1403-064EB8DE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cAchilina|r",
+			[51] = 1566080668,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [125]
+		{
+			"54 46", -- [1]
+			"Achilina-Draenor", -- [2]
+			"", -- [3]
+			"1. General - Vol'dun", -- [4]
+			"Achilina-Draenor", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Vol'dun", -- [9]
+			0, -- [10]
+			44, -- [11]
+			"Player-1403-064EB8DE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cAchilina|r",
+			[51] = 1566130671,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [126]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12572:Player-1403-064EB8DE:1:8:18:19:4294967295:4294967295:4294967295:4294967295|h[War Supplied]|h|r!", -- [1]
+			"Achilina-Draenor", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Achilina-Draenor", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			46, -- [11]
+			"Player-1403-064EB8DE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cAchilina|r",
+			[51] = 1566130695,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [127]
 	},
 }

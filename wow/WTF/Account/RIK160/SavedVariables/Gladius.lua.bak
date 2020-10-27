@@ -1,30 +1,84 @@
 
 Gladius2DB = {
 	["profileKeys"] = {
-		["Lycotonum - Tarren Mill"] = "Lycotonum - Tarren Mill",
-		["Trixxedosaur - Tarren Mill"] = "Trixxedosaur - Tarren Mill",
-		["Trixxedbank - Draenor"] = "Trixxedbank - Draenor",
 		["Achilina - Draenor"] = "Achilina - Draenor",
-		["Shanonymous - Tarren Mill"] = "Shanonymous - Tarren Mill",
-		["Shankspeare - Tarren Mill"] = "Shankspeare - Tarren Mill",
+		["Trixxadin - Tarren Mill"] = "Trixxadin - Tarren Mill",
 		["Trixxedbank - Tarren Mill"] = "Trixxedbank - Tarren Mill",
 		["Quelith - Draenor"] = "Quelith - Draenor",
+		["Trixxed - Kazzak"] = "Trixxed - Kazzak",
+		["Artefoxy - Tarren Mill"] = "Artefoxy - Tarren Mill",
+		["Shanonymous - Tarren Mill"] = "Shanonymous - Tarren Mill",
+		["Trixxedbank - Draenor"] = "Trixxedbank - Draenor",
+		["Trixxedosaur - Tarren Mill"] = "Trixxedosaur - Tarren Mill",
+		["Shankspeare - Tarren Mill"] = "Shankspeare - Tarren Mill",
+		["Artefoxmis - Tarren Mill"] = "Artefoxmis - Tarren Mill",
+		["Lycotonum - Tarren Mill"] = "Lycotonum - Tarren Mill",
 	},
 	["profiles"] = {
-		["Lycotonum - Tarren Mill"] = {
+		["Achilina - Draenor"] = {
+			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["locked"] = true,
 			["y"] = {
-				["arena1"] = 646.399779554311,
+				["arena1"] = 465.77783245908,
 			},
 			["x"] = {
-				["arena1"] = 203.378631321997,
+				["arena1"] = 46.9333127684058,
 			},
-			["auraVersion"] = 1,
 		},
-		["Trixxedosaur - Tarren Mill"] = {
+		["Trixxadin - Tarren Mill"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
+			["y"] = {
+				["arena1"] = 684.0885994393611,
+			},
+			["x"] = {
+				["arena1"] = 888.8897345405712,
+			},
+		},
+		["Trixxedbank - Tarren Mill"] = {
+			["auraVersion"] = 1,
+			["tagsVersion"] = 4,
+			["x"] = {
+				["arena1"] = 265.956471411388,
+			},
+			["y"] = {
+				["arena1"] = 627.910963005015,
+			},
+		},
+		["Quelith - Draenor"] = {
+			["y"] = {
+				["arena1"] = 548.266679942608,
+			},
+			["x"] = {
+				["arena1"] = 1003.37788887951,
+			},
+			["locked"] = true,
+			["tagsVersion"] = 4,
+			["auraVersion"] = 1,
+		},
+		["Trixxed - Kazzak"] = {
+			["auraVersion"] = 1,
+			["tagsVersion"] = 4,
+		},
+		["Artefoxy - Tarren Mill"] = {
+			["auraVersion"] = 1,
+			["tagsVersion"] = 4,
+			["y"] = {
+				["arena1"] = 503.4664262105944,
+			},
+			["x"] = {
+				["arena1"] = 1067.378434214159,
+			},
+		},
+		["Shanonymous - Tarren Mill"] = {
+			["auraVersion"] = 1,
+			["tagsVersion"] = 4,
+			["y"] = {
+				["arena1"] = 397.5108361717648,
+			},
+			["x"] = {
+				["arena1"] = 815.6454815214529,
+			},
 		},
 		["Trixxedbank - Draenor"] = {
 			["auraVersion"] = 1,
@@ -36,46 +90,30 @@ Gladius2DB = {
 				["arena1"] = 1126.40002727509,
 			},
 		},
-		["Achilina - Draenor"] = {
-			["auraVersion"] = 1,
-			["tagsVersion"] = 4,
-			["x"] = {
-				["arena1"] = 46.9333127684058,
-			},
-			["y"] = {
-				["arena1"] = 465.77783245908,
-			},
-		},
-		["Shanonymous - Tarren Mill"] = {
+		["Trixxedosaur - Tarren Mill"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
 		},
 		["Shankspeare - Tarren Mill"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["y"] = {
-				["arena1"] = 566.755236075951,
-			},
 			["x"] = {
 				["arena1"] = 403.911994672977,
 			},
+			["y"] = {
+				["arena1"] = 566.755236075951,
+			},
 		},
-		["Trixxedbank - Tarren Mill"] = {
+		["Artefoxmis - Tarren Mill"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["y"] = {
-				["arena1"] = 627.910963005015,
-			},
-			["x"] = {
-				["arena1"] = 265.956471411388,
-			},
 		},
-		["Quelith - Draenor"] = {
+		["Lycotonum - Tarren Mill"] = {
 			["y"] = {
-				["arena1"] = 548.266679942608,
+				["arena1"] = 646.399779554311,
 			},
 			["x"] = {
-				["arena1"] = 1003.37788887951,
+				["arena1"] = 203.378631321997,
 			},
 			["locked"] = true,
 			["tagsVersion"] = 4,

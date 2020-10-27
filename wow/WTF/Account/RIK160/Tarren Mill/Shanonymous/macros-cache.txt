@@ -1,14 +1,22 @@
-VER 3 0100000000000002 "Chain Heal" "INV_MISC_QUESTIONMARK"
+VER 3 0100000000000005 "Chain Heal/Light" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [target=mouseover,exists] Chain Heal; Chain Heal
+/cast [target=mouseover,exists, help] Chain Heal; [target=mouseover,exists, harm] Chain Lightning; [harm] Chain Lightning; Chain Heal
 END
 VER 3 0100000000000001 "Healing Surge" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [target=mouseover,exists] Healing Surge; Healing Surge
+/cast [target=mouseover,exists, help] Healing Surge; [target=mouseover,exists, harm] Lightning Bolt; [harm] Lightning Bolt; Healing Surge
+END
+VER 3 0100000000000006 "HW/LB" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,exists, help] Healing Wave; [target=mouseover,exists, harm] Lava Burst; [harm] Lava Burst; Healing Wave
+END
+VER 3 0100000000000007 "Purify Spirit" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,exists, help] Purify Spirit; Purify Spirit
 END
 VER 3 0100000000000003 "Riptide" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [target=mouseover,exists] Riptide; Riptide
+/cast [target=mouseover,exists, help] Riptide;  [target=mouseover,exists, harm] Flame Shock; [harm] Flame Shock; Riptide
 END
 VER 3 0100000000000004 "Wind Shear" "INV_MISC_QUESTIONMARK"
 #showtooltip

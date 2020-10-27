@@ -1,0 +1,2168 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["time"] = 1572730300,
+	["scrollback"] = {
+		["ChatFrame5"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 100,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame4"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 100,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 48,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:34:05]|h|r |cffb2b2b2[22:13]|r |Hchannel:GUILD|h[G]|h |Hplayer:Vealkyri-TarrenMill:1112:GUILD:|h[|cffa9d271Vealkyri|r]|h: |cffa335ee|Hitem:173887::::::::120:253::::::|h[Clutch of Ha-Li]|h|r ^^",
+					["serverTime"] = 1603057033,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 230182.372,
+					["extraData"] = {
+						5, -- [1]
+						5, -- [2]
+						6, -- [3]
+						["n"] = 3,
+					},
+					["g"] = 1,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:34:05]|h|r |cffb2b2b2[22:14]|r |Hchannel:GUILD|h[G]|h |Hplayer:Chungawungas-TarrenMill:1119:GUILD:|h[|cffa9d271Chungawungas|r]|h: ooo",
+					["serverTime"] = 1603057033,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 230182.372,
+					["extraData"] = {
+						5, -- [1]
+						5, -- [2]
+						7, -- [3]
+						["n"] = 3,
+					},
+					["g"] = 1,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:34:05]|h|r |cffb2b2b2[22:14]|r |Hchannel:GUILD|h[G]|h |Hplayer:Vealkyri-TarrenMill:1128:GUILD:|h[|cffa9d271Vealkyri|r]|h: first time killing it xD",
+					["serverTime"] = 1603057033,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 230182.372,
+					["extraData"] = {
+						5, -- [1]
+						5, -- [2]
+						6, -- [3]
+						["n"] = 3,
+					},
+					["g"] = 1,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:34:05]|h|r |cffb2b2b2[22:15]|r |Hchannel:GUILD|h[G]|h |Hplayer:Moozzd-TarrenMill:1147:GUILD:|h[|cfffe7b09Moozzd|r]|h: gz!",
+					["serverTime"] = 1603057033,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 230182.372,
+					["extraData"] = {
+						5, -- [1]
+						5, -- [2]
+						8, -- [3]
+						["n"] = 3,
+					},
+					["g"] = 1,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:34:05]|h|r |cffb2b2b2[22:15]|r |Hchannel:GUILD|h[G]|h |Hplayer:Hårdaharald-TarrenMill:1150:GUILD:|h[|cffc59a6cHårdaharald|r]|h: gz :)",
+					["serverTime"] = 1603057033,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 230182.372,
+					["extraData"] = {
+						5, -- [1]
+						5, -- [2]
+						9, -- [3]
+						["n"] = 3,
+					},
+					["g"] = 1,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:34:05]|h|r |cffb2b2b2[22:17]|r |Hchannel:GUILD|h[G]|h |Hplayer:Avelanee-TarrenMill:1189:GUILD:|h[|cffa22fc8Avelanee|r]|h: Grats on kill!",
+					["serverTime"] = 1603057033,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 230182.372,
+					["extraData"] = {
+						5, -- [1]
+						5, -- [2]
+						10, -- [3]
+						["n"] = 3,
+					},
+					["g"] = 1,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:34:05]|h|r |cffb2b2b2[22:17]|r |Hchannel:GUILD|h[G]|h |Hplayer:Chungawungas-TarrenMill:1191:GUILD:|h[|cffa9d271Chungawungas|r]|h: gz",
+					["serverTime"] = 1603057033,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 230182.372,
+					["extraData"] = {
+						5, -- [1]
+						5, -- [2]
+						7, -- [3]
+						["n"] = 3,
+					},
+					["g"] = 1,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:34:05]|h|r |cffb2b2b2[22:18]|r |Hchannel:GUILD|h[G]|h |Hplayer:Avelanee-TarrenMill:1202:GUILD:|h[|cffa22fc8Avelanee|r]|h: Can i stop playing now?",
+					["serverTime"] = 1603057033,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 230182.372,
+					["extraData"] = {
+						5, -- [1]
+						5, -- [2]
+						10, -- [3]
+						["n"] = 3,
+					},
+					["g"] = 1,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:34:05]|h|r |cffb2b2b2[22:19]|r |Hchannel:GUILD|h[G]|h |Hplayer:Chungawungas-TarrenMill:1226:GUILD:|h[|cffa9d271Chungawungas|r]|h: Sure",
+					["serverTime"] = 1603057033,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 230182.372,
+					["extraData"] = {
+						5, -- [1]
+						5, -- [2]
+						7, -- [3]
+						["n"] = 3,
+					},
+					["g"] = 1,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:34:05]|h|r |cffb2b2b2[17:51]|r |Hchannel:GUILD|h[G]|h |Hplayer:Shigpriesty-TarrenMill:806:GUILD:|h[|cfffefefeShigpriesty|r]|h: evening",
+					["serverTime"] = 1603057033,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 230182.372,
+					["extraData"] = {
+						5, -- [1]
+						5, -- [2]
+						11, -- [3]
+						["n"] = 3,
+					},
+					["g"] = 1,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:34:05]|h|r |cffb2b2b2[18:16]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Victoriyah-Kazzak:1791:INSTANCE_CHAT:|h[|cffa22fc8Victoriyah-Kazzak|r]|h: Interrupted Ethereal Darkcaster's |cff71d5ff|Hspell:34930:0|h[Mana Burn]|h|r!",
+					["serverTime"] = 1603057033,
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 230182.372,
+					["extraData"] = {
+						63, -- [1]
+						12, -- [2]
+						13, -- [3]
+						["n"] = 3,
+					},
+					["g"] = 0.4980392456054688,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:34:05]|h|r |cffb2b2b2[18:18]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Victoriyah-Kazzak:1861:INSTANCE_CHAT:|h[|cffa22fc8Victoriyah-Kazzak|r]|h: Interrupted Ethereal Spellbinder's |cff71d5ff|Hspell:37668:0|h[Immolate]|h|r!",
+					["serverTime"] = 1603057033,
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 230182.372,
+					["extraData"] = {
+						63, -- [1]
+						12, -- [2]
+						13, -- [3]
+						["n"] = 3,
+					},
+					["g"] = 0.4980392456054688,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:34:05]|h|r |cffb2b2b2[18:20]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Victoriyah-Kazzak:1880:INSTANCE_CHAT:|h[|cffa22fc8Victoriyah-Kazzak|r]|h: Interrupted Ethereal Spellbinder's |cff71d5ff|Hspell:37668:0|h[Immolate]|h|r!",
+					["serverTime"] = 1603057033,
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 230182.372,
+					["extraData"] = {
+						63, -- [1]
+						12, -- [2]
+						13, -- [3]
+						["n"] = 3,
+					},
+					["g"] = 0.4980392456054688,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:34:05]|h|r |cffb2b2b2[18:21]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Victoriyah-Kazzak:1896:INSTANCE_CHAT:|h[|cffa22fc8Victoriyah-Kazzak|r]|h: Interrupted Ethereal Spellbinder's |cff71d5ff|Hspell:37668:0|h[Immolate]|h|r!",
+					["serverTime"] = 1603057033,
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 230182.372,
+					["extraData"] = {
+						63, -- [1]
+						12, -- [2]
+						13, -- [3]
+						["n"] = 3,
+					},
+					["g"] = 0.4980392456054688,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:34:05]|h|r |cffb2b2b2[18:21]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Victoriyah-Kazzak:1920:INSTANCE_CHAT:|h[|cffa22fc8Victoriyah-Kazzak|r]|h: Interrupted Ethereal Spellbinder's |cff71d5ff|Hspell:37668:0|h[Immolate]|h|r!",
+					["serverTime"] = 1603057033,
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 230182.372,
+					["extraData"] = {
+						63, -- [1]
+						12, -- [2]
+						13, -- [3]
+						["n"] = 3,
+					},
+					["g"] = 0.4980392456054688,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:34:05]|h|r |cffb2b2b2[18:22]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Victoriyah-Kazzak:1935:INSTANCE_CHAT:|h[|cffa22fc8Victoriyah-Kazzak|r]|h: Interrupted Ethereal Wraith's |cff71d5ff|Hspell:34934:0|h[Shadow Bolt Volley]|h|r!",
+					["serverTime"] = 1603057033,
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 230182.372,
+					["extraData"] = {
+						63, -- [1]
+						12, -- [2]
+						13, -- [3]
+						["n"] = 3,
+					},
+					["g"] = 0.4980392456054688,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:34:05]|h|r |cffb2b2b2[18:23]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Victoriyah-Kazzak:1971:INSTANCE_CHAT:|h[|cffa22fc8Victoriyah-Kazzak|r]|h: Interrupted Ethereal Apprentice's |cff71d5ff|Hspell:32369:0|h[Fireball]|h|r!",
+					["serverTime"] = 1603057033,
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 230182.372,
+					["extraData"] = {
+						63, -- [1]
+						12, -- [2]
+						13, -- [3]
+						["n"] = 3,
+					},
+					["g"] = 0.4980392456054688,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:34:05]|h|r |cffb2b2b2[18:23]|r |Hchannel:INSTANCE_CHAT|h[I]|h |Hplayer:Victoriyah-Kazzak:1976:INSTANCE_CHAT:|h[|cffa22fc8Victoriyah-Kazzak|r]|h: Interrupted Ethereal Apprentice's |cff71d5ff|Hspell:32370:0|h[Frostbolt]|h|r!",
+					["serverTime"] = 1603057033,
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 230182.372,
+					["extraData"] = {
+						63, -- [1]
+						12, -- [2]
+						13, -- [3]
+						["n"] = 3,
+					},
+					["g"] = 0.4980392456054688,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:34:05]|h|r |cffb2b2b2[18:36]|r |Hchannel:GUILD|h[G]|h |Hplayer:Doubledlix-TarrenMill:2358:GUILD:|h[|cffc31d39Doubledlix|r]|h: Hi peeps",
+					["serverTime"] = 1603057033,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 230182.372,
+					["extraData"] = {
+						5, -- [1]
+						5, -- [2]
+						14, -- [3]
+						["n"] = 3,
+					},
+					["g"] = 1,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:34:05]|h|r |cffb2b2b2[18:36]|r |Hchannel:GUILD|h[G]|h |Hplayer:Shigpriesty-TarrenMill:2365:GUILD:|h[|cfffefefeShigpriesty|r]|h: hey",
+					["serverTime"] = 1603057033,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 230182.372,
+					["extraData"] = {
+						5, -- [1]
+						5, -- [2]
+						11, -- [3]
+						["n"] = 3,
+					},
+					["g"] = 1,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:34:05]|h|r |cffb2b2b2[18:36]|r |Hchannel:GUILD|h[G]|h |Hplayer:Bobsn-TarrenMill:2367:GUILD:|h[|cfffe7b09Bobsn|r]|h: ola",
+					["serverTime"] = 1603057033,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 230182.372,
+					["extraData"] = {
+						5, -- [1]
+						5, -- [2]
+						15, -- [3]
+						["n"] = 3,
+					},
+					["g"] = 1,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:34:05]|h|r |cffb2b2b2[18:36]|r |Hchannel:GUILD|h[G]|h |Hplayer:Moozzd-TarrenMill:2370:GUILD:|h[|cfffe7b09Moozzd|r]|h: yo",
+					["serverTime"] = 1603057033,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 230182.372,
+					["extraData"] = {
+						5, -- [1]
+						5, -- [2]
+						8, -- [3]
+						["n"] = 3,
+					},
+					["g"] = 1,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:34:05]|h|r |cffb2b2b2[18:46]|r |Hchannel:GUILD|h[G]|h |Hplayer:Shigpriesty-TarrenMill:2554:GUILD:|h[|cfffefefeShigpriesty|r]|h: +2 dps for a 15 weekly?",
+					["serverTime"] = 1603057033,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 230182.372,
+					["extraData"] = {
+						5, -- [1]
+						5, -- [2]
+						11, -- [3]
+						["n"] = 3,
+					},
+					["g"] = 1,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:34:05]|h|r |cffb2b2b2[18:48]|r |Hchannel:GUILD|h[G]|h |Hplayer:Faendrys-TarrenMill:2573:GUILD:|h[|cfffefefeFaendrys|r]|h: Still looking for dps shig or was that earlier? ",
+					["serverTime"] = 1603057033,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 230182.372,
+					["extraData"] = {
+						5, -- [1]
+						5, -- [2]
+						16, -- [3]
+						["n"] = 3,
+					},
+					["g"] = 1,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:34:05]|h|r |cffb2b2b2[18:48]|r |Hchannel:GUILD|h[G]|h |Hplayer:Shigpriesty-TarrenMill:2576:GUILD:|h[|cfffefefeShigpriesty|r]|h: ye maye",
+					["serverTime"] = 1603057033,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 230182.372,
+					["extraData"] = {
+						5, -- [1]
+						5, -- [2]
+						11, -- [3]
+						["n"] = 3,
+					},
+					["g"] = 1,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:34:05]|h|r |cffb2b2b2[18:48]|r |Hchannel:GUILD|h[G]|h |Hplayer:Shigpriesty-TarrenMill:2579:GUILD:|h[|cfffefefeShigpriesty|r]|h: mate",
+					["serverTime"] = 1603057033,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 230182.372,
+					["extraData"] = {
+						5, -- [1]
+						5, -- [2]
+						11, -- [3]
+						["n"] = 3,
+					},
+					["g"] = 1,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:34:05]|h|r |cffb2b2b2[18:49]|r |Hchannel:GUILD|h[G]|h |Hplayer:Shanonymous-TarrenMill:2583:GUILD:|h[|cff006fdcShanonymous|r]|h: I can join too if you need",
+					["serverTime"] = 1603057033,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 230182.372,
+					["extraData"] = {
+						5, -- [1]
+						5, -- [2]
+						17, -- [3]
+						["n"] = 3,
+					},
+					["g"] = 1,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:34:05]|h|r |cffb2b2b2[18:53]|r |Hchannel:GUILD|h[G]|h |Hplayer:Shigpriesty-TarrenMill:2641:GUILD:|h[|cfffefefeShigpriesty|r]|h: back in ur whole lyco",
+					["serverTime"] = 1603057033,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 230182.372,
+					["extraData"] = {
+						5, -- [1]
+						5, -- [2]
+						11, -- [3]
+						["n"] = 3,
+					},
+					["g"] = 1,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:34:05]|h|r |cffb2b2b2[18:53]|r |Hchannel:GUILD|h[G]|h |Hplayer:Shigpriesty-TarrenMill:2642:GUILD:|h[|cfffefefeShigpriesty|r]|h: hole",
+					["serverTime"] = 1603057033,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 230182.372,
+					["extraData"] = {
+						5, -- [1]
+						5, -- [2]
+						11, -- [3]
+						["n"] = 3,
+					},
+					["g"] = 1,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:34:05]|h|r |cffb2b2b2[16:47]|r |Hchannel:GUILD|h[G]|h |Hplayer:Avebabe-TarrenMill:139:GUILD:|h[|cffc59a6cAvebabe|r]|h: full cubil?",
+					["serverTime"] = 1603057033,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 230182.372,
+					["extraData"] = {
+						5, -- [1]
+						5, -- [2]
+						18, -- [3]
+						["n"] = 3,
+					},
+					["g"] = 1,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:34:05]|h|r |cffb2b2b2[16:47]|r |Hchannel:GUILD|h[G]|h |Hplayer:Faendrys-TarrenMill:142:GUILD:|h[|cfffefefeFaendrys|r]|h: y",
+					["serverTime"] = 1603057033,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 230182.372,
+					["extraData"] = {
+						5, -- [1]
+						5, -- [2]
+						16, -- [3]
+						["n"] = 3,
+					},
+					["g"] = 1,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:34:05]|h|r |cffb2b2b2[16:47]|r |Hchannel:GUILD|h[G]|h |Hplayer:Faendrys-TarrenMill:153:GUILD:|h[|cfffefefeFaendrys|r]|h: though we have 2 shadow priest playing floor priests",
+					["serverTime"] = 1603057033,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 230182.372,
+					["extraData"] = {
+						5, -- [1]
+						5, -- [2]
+						16, -- [3]
+						["n"] = 3,
+					},
+					["g"] = 1,
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:34:05]|h|r |cffb2b2b2[16:48]|r |Hchannel:GUILD|h[G]|h |Hplayer:Avebabe-TarrenMill:166:GUILD:|h[|cffc59a6cAvebabe|r]|h: hahah ",
+					["serverTime"] = 1603057033,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 230182.372,
+					["extraData"] = {
+						5, -- [1]
+						5, -- [2]
+						18, -- [3]
+						["n"] = 3,
+					},
+					["g"] = 1,
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:34:05]|h|r |cffb2b2b2[16:48]|r |Hchannel:GUILD|h[G]|h |Hplayer:Faendrys-TarrenMill:183:GUILD:|h[|cfffefefeFaendrys|r]|h: We both got hit by the gust on maut and died in teh first 20 sec :(",
+					["serverTime"] = 1603057033,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 230182.372,
+					["extraData"] = {
+						5, -- [1]
+						5, -- [2]
+						16, -- [3]
+						["n"] = 3,
+					},
+					["g"] = 1,
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:34:05]|h|r |cffb2b2b2[16:48]|r |Hchannel:GUILD|h[G]|h |Hplayer:Gareki-TarrenMill:188:GUILD:|h[|cfffefefeGareki|r]|h: xD",
+					["serverTime"] = 1603057033,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 230182.372,
+					["extraData"] = {
+						5, -- [1]
+						5, -- [2]
+						19, -- [3]
+						["n"] = 3,
+					},
+					["g"] = 1,
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:34:05]|h|r |cffb2b2b2[16:51]|r |Hchannel:GUILD|h[G]|h |Hplayer:Chungawungas-TarrenMill:192:GUILD:|h[|cffa9d271Chungawungas|r]|h: Go on boys",
+					["serverTime"] = 1603057033,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 230182.372,
+					["extraData"] = {
+						5, -- [1]
+						5, -- [2]
+						7, -- [3]
+						["n"] = 3,
+					},
+					["g"] = 1,
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:34:05]|h|r |cffb2b2b2[18:14]|r |Hchannel:GUILD|h[G]|h |Hplayer:Avelanee-TarrenMill:18:GUILD:|h[|cffa22fc8Avelanee|r]|h: KEYS LKEYS LKEYS LEYS?",
+					["serverTime"] = 1603057033,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 230182.372,
+					["extraData"] = {
+						5, -- [1]
+						5, -- [2]
+						10, -- [3]
+						["n"] = 3,
+					},
+					["g"] = 1,
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:34:05]|h|r |cffb2b2b2[18:15]|r |Hchannel:GUILD|h[G]|h |Hplayer:Fetalicious-TarrenMill:31:GUILD:|h[|cfffefefeFetalicious|r]|h: i want leys pls ",
+					["serverTime"] = 1603057033,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 230182.372,
+					["extraData"] = {
+						5, -- [1]
+						5, -- [2]
+						20, -- [3]
+						["n"] = 3,
+					},
+					["g"] = 1,
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:34:05]|h|r |cffb2b2b2[18:15]|r |Hchannel:GUILD|h[G]|h |Hplayer:Fetalicious-TarrenMill:32:GUILD:|h[|cfffefefeFetalicious|r]|h: where do i get that? ",
+					["serverTime"] = 1603057033,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 230182.372,
+					["extraData"] = {
+						5, -- [1]
+						5, -- [2]
+						20, -- [3]
+						["n"] = 3,
+					},
+					["g"] = 1,
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:34:05]|h|r |cffb2b2b2[18:15]|r |Hchannel:GUILD|h[G]|h |Hplayer:Avelanee-TarrenMill:36:GUILD:|h[|cffa22fc8Avelanee|r]|h: scrub",
+					["serverTime"] = 1603057033,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 230182.372,
+					["extraData"] = {
+						5, -- [1]
+						5, -- [2]
+						10, -- [3]
+						["n"] = 3,
+					},
+					["g"] = 1,
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:34:05]|h|r |cffb2b2b2[18:16]|r |Hchannel:GUILD|h[G]|h |Hplayer:Fetalicious-TarrenMill:53:GUILD:|h[|cfffefefeFetalicious|r]|h: :( ",
+					["serverTime"] = 1603057033,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 230182.372,
+					["extraData"] = {
+						5, -- [1]
+						5, -- [2]
+						20, -- [3]
+						["n"] = 3,
+					},
+					["g"] = 1,
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:34:05]|h|r |cffb2b2b2[19:05]|r |Hchannel:GUILD|h[G]|h |Hplayer:Shandro-TarrenMill:1056:GUILD:|h[|cff006fdcShandro|r]|h: gz",
+					["serverTime"] = 1603057033,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 230182.372,
+					["extraData"] = {
+						5, -- [1]
+						5, -- [2]
+						21, -- [3]
+						["n"] = 3,
+					},
+					["g"] = 1,
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:34:05]|h|r |cffb2b2b2[19:05]|r |Hchannel:GUILD|h[G]|h |Hplayer:Wannabeme-TarrenMill:1064:GUILD:|h[|cff3ec5e9Wannabeme|r]|h: anyone for a quick HM mechagon?",
+					["serverTime"] = 1603057033,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 230182.372,
+					["extraData"] = {
+						5, -- [1]
+						5, -- [2]
+						22, -- [3]
+						["n"] = 3,
+					},
+					["g"] = 1,
+				}, -- [43]
+				{
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 0 |4minute:minutes;, 0 |4second:seconds;",
+					["timestamp"] = 230182.372,
+				}, -- [44]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 230182.372,
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:37:13]|h|r |cffb2b2b2[19:05]|r |Hchannel:GUILD|h[G]|h |Hplayer:Shandro-TarrenMill:1056:GUILD:|h[|cff006fdcShandro|r]|h: gz",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						2, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 230182.372,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:37:13]|h|r |cffb2b2b2[19:05]|r |Hchannel:GUILD|h[G]|h |Hplayer:Wannabeme-TarrenMill:1064:GUILD:|h[|cff3ec5e9Wannabeme|r]|h: anyone for a quick HM mechagon?",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						3, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 230182.372,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:37:23]|h|r |cffb2b2b2[23:37]|r Guild Message of the Day: \"8.3 Over, All mounts aquired. See you all in prepatch!\"",
+					["serverTime"] = 1603057042,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230192.34,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [48]
+			},
+			["maxElements"] = 100,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame7"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 100,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame6"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 100,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame8"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 100,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame10"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 100,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame9"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 100,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 35,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:40:40]|h|r |cffb2b2b2[23:40]|r |Hchannel:channel:2|h[2]|h |Hplayer:Vegitoadvb-TarrenMill:552:2|h[|cff00fe97Vegitoadvb|r]|h: Dawn Community || WTS >>MYTHIC+<< (10-25) GUARANTEED in time. Armor Stacks & Specific I Ny'alotha 12/12 Mythic || NZOTH MOUNT || JAINA MOUNT || 10-50 Leveling || Gold only || Whisper for more info! SHADOWLANDS GIVEAWAY: |cFFFFFFFF[|Hurl:https://discord.gg/Bf7TDAb|hhttps://discord.gg/Bf7TDAb|h]|r ",
+					["serverTime"] = 1603057239,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						4, -- [2]
+						56, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 230389.189,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:40:41]|h|r |cffb2b2b2[23:40]|r |Hchannel:channel:2|h[2]|h |Hplayer:Tarrencynd-TarrenMill:553:2|h[|cff00fe97Tarrencynd|r]|h: <ICECROWN> WTS JAINA MOUNT ----- 350k ---- EVERY 30MINS ------TODAY ---- PRE BOOK YOUR SLOT NOW ----- FOR GOLD ONLY ----- DM for more info!!!-",
+					["serverTime"] = 1603057240,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						4, -- [2]
+						21, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 230390.939,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:40:53]|h|r |cffb2b2b2[23:40]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sylvnasboost-TarrenMill:555:2|h[|cffc59a6cSylvnasboost|r]|h: FREE ARMOR STACK (Sylvanas Boost Community )  +14 [100K]/+15 [100k] / x5 M+ 15 [ 420k] /+16 [140k] / +17 [200k]  / 18 [250k]/ Nylotha HC  / JAINA MOUNT ( BEAST DEAL ON MYTHIC NYLOTHA 12/12 MYTHIC  LIMITED SPOTS ! )",
+					["serverTime"] = 1603057252,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						4, -- [2]
+						13, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 230402.69,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:41:00]|h|r |cffb2b2b2[23:41]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sylvagold-TarrenMill:556:2|h[|cff00fe97Sylvagold|r]|h: << SYLVANAS BOOST >>   M+15 = 100k+ FREE ARMOR STACK   ||  M+20=400k  //   3x+15 = 280k   //   5x +15 = 420k !  //  +18=240k  // Freehold Levelup 10-50  / |cff71d5ff|Hspell:290718:0|h[Aerial Unit R-21/X]|h|r < 150k >/JAINA 300K/5MASK/ W ",
+					["serverTime"] = 1603057259,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						4, -- [2]
+						12, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 230409.374,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:41:10]|h|r |cffb2b2b2[23:41]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sylvaboostt-TarrenMill:558:2|h[|cfff38bb9Sylvaboostt|r]|h: Sylvanas Community||^ FREE ARMOR STACK ^ ||^M+15 JUST FOR 100k ^|| M+16 JUST 140k || 3x run +15 285k  ||  5x run +15 420k || Horrific Visions ||  Ny'alotha HC  / Mythic / Nzoth MOUNT  TONGIHT  || Jaina MounT 300k NOW || PVP Boost || LVL UP BOOST",
+					["serverTime"] = 1603057269,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						4, -- [2]
+						61, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 230419.858,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:41:16]|h|r |cffb2b2b2[23:41]|r |Hchannel:channel:2|h[2]|h |Hplayer:Tarrencynd-TarrenMill:559:2|h[|cff00fe97Tarrencynd|r]|h: <ICECROWN> WTS JAINA MOUNT ----- 350k ---- EVERY 30MINS ------TODAY ---- PRE BOOK YOUR SLOT NOW ----- FOR GOLD ONLY ----- DM for more info!!!-",
+					["serverTime"] = 1603057275,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						4, -- [2]
+						21, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 230425.558,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:41:18]|h|r |cffb2b2b2[23:41]|r |Hchannel:channel:2|h[2]|h |Hplayer:Froststrikee-TarrenMill:560:2|h[|cffc31d39Froststrikee|r]|h: WTS |cff66bbff|Hjournal:0:1001:23|h[Freehold]|h|r Boost lvlup10>50 fast run with pro boosters spacial offer /w me for info",
+					["serverTime"] = 1603057277,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						4, -- [2]
+						57, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 230427.825,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:41:19]|h|r |cffb2b2b2[23:41]|r |Hchannel:channel:2|h[2]|h |Hplayer:Froststrikee-TarrenMill:561:2|h[|cffc31d39Froststrikee|r]|h: wts|cff71d5ff|Hspell:261395:0|h[The Hivemind]|h|rand |cff71d5ff|Hspell:231428:0|h[Smoldering Ember Wyrm]|h|rspecial price /w me for info ;)",
+					["serverTime"] = 1603057278,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						4, -- [2]
+						57, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 230428.309,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:41:24]|h|r |cffb2b2b2[23:41]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sylvnasboost-TarrenMill:562:2|h[|cffc59a6cSylvnasboost|r]|h: FREE ARMOR STACK (Sylvanas Boost Community )  +14 [100K]/+15 [100k] / x5 M+ 15 [ 420k] /+16 [140k] / +17 [200k]  / 18 [250k]/ Nylotha HC  / JAINA MOUNT ( BEAST DEAL ON MYTHIC NYLOTHA 12/12 MYTHIC  LIMITED SPOTS ! )",
+					["serverTime"] = 1603057283,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						4, -- [2]
+						13, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 230433.659,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:41:27]|h|r |cffb2b2b2[23:41]|r |Hchannel:channel:2|h[2]|h |Hplayer:Iccemoo-TarrenMill:563:2|h[|cfffef367Iccemoo|r]|h: <Icecrown> WTS  +15 100k  / +14 for 90k  FREE ARMOR STACK / Heroic NYALOTHA + VIP TRADERS + MYTHIC RAID  /Also SELLING  Mechagon mount /Mythic/ heroic raids Also selling Freehold Leveling,",
+					["serverTime"] = 1603057286,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						4, -- [2]
+						34, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 230436.659,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:41:36]|h|r |cffb2b2b2[23:41]|r |Hchannel:channel:1|h[1]|h |Hplayer:Hunky-TarrenMill:564:1|h[|cfff38bb9Hunky|r]|h: do heilroom scale to lvl 50?",
+					["serverTime"] = 1603057295,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						64, -- [2]
+						65, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 230445.86,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:41:38]|h|r |cffb2b2b2[23:41]|r |Hchannel:channel:2|h[2]|h |Hplayer:Hydraboostcm-TarrenMill:565:2|h[|cffc59a6cHydraboostcm|r]|h: <Hydra> WTS |cffffff00|Hachievement:8721:Player-3674-0A5663DF:1:6:14:20:4294967295:4294967295:4294967295:4294967295|h[Fire-Watcher]|h|r Get your Fire-Watcher Title+|cff71d5ff|Hspell:148428:0|h[Ashhide Mushan Beast]|h|r+Pet 120K || Only Mount 50K /w me",
+					["serverTime"] = 1603057297,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						4, -- [2]
+						60, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 230447.677,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:41:45]|h|r |cffb2b2b2[23:41]|r |Hchannel:channel:2|h[2]|h |Hplayer:Savagestab-TarrenMill:566:2|h[|cfffef367Savagestab|r]|h: Er du dansker og leder efter en frisk start? så er Danish Prime måske noget for dig. vi er en nyopstartet dansk guild, som er lavet da vi er trætte af seriøsiteten i de andre danske guild ift. Pve og pvp. har du sammen holdning?, så join os!",
+					["serverTime"] = 1603057304,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						4, -- [2]
+						66, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 230454.094,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:41:45]|h|r |cffb2b2b2[23:41]|r |Hchannel:channel:1|h[1]|h |Hplayer:Alive-Dentarg:567:1|h[|cfffefefeAlive-Dentarg|r]|h: if you buy the upgrades",
+					["serverTime"] = 1603057304,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						64, -- [2]
+						67, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 230454.327,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:41:48]|h|r |cffb2b2b2[23:41]|r |Hchannel:channel:2|h[2]|h |Hplayer:Iccemoo-TarrenMill:568:2|h[|cfffef367Iccemoo|r]|h: <Icecrown> WTS  +15 100k  / +14 for 90k  FREE ARMOR STACK / Heroic NYALOTHA + VIP TRADERS + MYTHIC RAID  /Also SELLING  Mechagon mount /Mythic/ heroic raids Also selling Freehold Leveling,",
+					["serverTime"] = 1603057307,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						4, -- [2]
+						34, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 230457.044,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:41:54]|h|r |cffb2b2b2[23:41]|r |Hchannel:channel:2|h[2]|h |Hplayer:Smoofers-TarrenMill:569:2|h[|cffa9d271Smoofers|r]|h: What are the requirements for warmode in prepatch? any level requirements?",
+					["serverTime"] = 1603057313,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						4, -- [2]
+						68, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 230463.311,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:42:00]|h|r |cffb2b2b2[23:42]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sylvagold-TarrenMill:571:2|h[|cff00fe97Sylvagold|r]|h: << SYLVANAS BOOST >>   M+15 = 100k+ FREE ARMOR STACK   ||  M+20=400k  //   3x+15 = 280k   //   5x +15 = 420k !  //  +18=240k  // Freehold Levelup 10-50  / |cff71d5ff|Hspell:290718:0|h[Aerial Unit R-21/X]|h|r < 150k >/JAINA 300K/5MASK/ W ",
+					["serverTime"] = 1603057319,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						4, -- [2]
+						12, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 230469.512,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:42:00]|h|r |cffb2b2b2[23:42]|r |Hchannel:channel:2|h[2]|h |Hplayer:Froststrikee-TarrenMill:572:2|h[|cffc31d39Froststrikee|r]|h: wts|cff71d5ff|Hspell:261395:0|h[The Hivemind]|h|rand |cff71d5ff|Hspell:231428:0|h[Smoldering Ember Wyrm]|h|rspecial price /w me for info ;)",
+					["serverTime"] = 1603057319,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						4, -- [2]
+						57, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 230469.512,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:42:01]|h|r |cffb2b2b2[23:42]|r |Hchannel:channel:2|h[2]|h |Hplayer:Froststrikee-TarrenMill:573:2|h[|cffc31d39Froststrikee|r]|h: WTS |cff66bbff|Hjournal:0:1001:23|h[Freehold]|h|r Boost lvlup10>50 fast run with pro boosters spacial offer /w me for info",
+					["serverTime"] = 1603057320,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						4, -- [2]
+						57, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 230470.395,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:42:06]|h|r |cffb2b2b2[23:42]|r |Hchannel:channel:1|h[1]|h |Hplayer:Sopragora-TarrenMill:574:1|h[|cfffe7b09Sopragora|r]|h: POP REND AND ONIXYA",
+					["serverTime"] = 1603057325,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						64, -- [2]
+						69, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 230475.946,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:42:08]|h|r |cffb2b2b2[23:42]|r |Hchannel:channel:2|h[2]|h |Hplayer:Koftisdh-TarrenMill:575:2|h[|cffa22fc8Koftisdh|r]|h: <OBLIVION community> SELLING JAINA MOUNT  |cffa335ee|Hitem:166705::::::::50:577:::::::|h[Glacial Tidestorm]|h|r for only 330k !!! many runs per day! whisper me to book you, before opportunity is gone! /w ",
+					["serverTime"] = 1603057327,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						4, -- [2]
+						63, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 230477.912,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:42:10]|h|r |cffb2b2b2[23:42]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sylvaboostt-TarrenMill:576:2|h[|cfff38bb9Sylvaboostt|r]|h: Sylvanas Community||^ FREE ARMOR STACK ^ ||^M+15 JUST FOR 100k ^|| M+16 JUST 140k || 3x run +15 285k  ||  5x run +15 420k || Horrific Visions ||  Ny'alotha HC  / Mythic / Nzoth MOUNT  TONGIHT  || Jaina MounT 300k NOW || PVP Boost || LVL UP BOOST",
+					["serverTime"] = 1603057329,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						4, -- [2]
+						61, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 230479.862,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:42:10]|h|r |cffb2b2b2[23:42]|r |Hchannel:channel:2|h[2]|h |Hplayer:Prerramos-TarrenMill:577:2|h[|cff8687edPrerramos|r]|h: WTB ALL [Tome of the Quiet Mind] 25G EACH COD OR TRADE EVERYTHING",
+					["serverTime"] = 1603057329,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						4, -- [2]
+						58, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 230479.862,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:42:11]|h|r |cffb2b2b2[23:42]|r |Hchannel:channel:2|h[2]|h |Hplayer:Prerramos-TarrenMill:578:2|h[|cff8687edPrerramos|r]|h: WTB ALL [Tome of the Quiet Mind] 25G EACH COD OR TRADE EVERYTHING",
+					["serverTime"] = 1603057330,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						4, -- [2]
+						58, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 230480.796,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:42:15]|h|r |cffb2b2b2[23:42]|r |Hchannel:channel:2|h[2]|h |Hplayer:Anyâ-TarrenMill:580:2|h[|cffa9d271Anyâ|r]|h: We the guild \"The Unlimited\" are looking for active members for SL. We`re searching all class from 1-50, if your new or old player you`re welcome. /w me for more information",
+					["serverTime"] = 1603057334,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						4, -- [2]
+						62, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 230484.396,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:42:15]|h|r |cffb2b2b2[23:42]|r |Hchannel:channel:2|h[2]|h |Hplayer:Anyâ-TarrenMill:581:2|h[|cffa9d271Anyâ|r]|h: We the guild \"The Unlimited\" are looking for active members for SL. We`re searching all class from 1-50, if your new or old player you`re welcome. /w me for more information",
+					["serverTime"] = 1603057334,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						4, -- [2]
+						62, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 230484.396,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:42:16]|h|r |cffb2b2b2[23:42]|r |Hchannel:channel:1|h[1]|h |Hplayer:Sopragora-TarrenMill:582:1|h[|cfffe7b09Sopragora|r]|h: POP REND AND ONIXYA",
+					["serverTime"] = 1603057335,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						64, -- [2]
+						69, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 230485.863,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:42:19]|h|r |cffb2b2b2[23:42]|r |Hchannel:channel:2|h[2]|h |Hplayer:Vegitoadvb-TarrenMill:583:2|h[|cff00fe97Vegitoadvb|r]|h: Dawn Community || WTS >>MYTHIC+<< (10-25) GUARANTEED in time. Armor Stacks & Specific I Ny'alotha 12/12 Mythic || NZOTH MOUNT || JAINA MOUNT || 10-50 Leveling || Gold only || Whisper for more info! SHADOWLANDS GIVEAWAY: |cFFFFFFFF[|Hurl:https://discord.gg/Bf7TDAb|hhttps://discord.gg/Bf7TDAb|h]|r ",
+					["serverTime"] = 1603057338,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						4, -- [2]
+						56, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 230488.913,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:42:31]|h|r |cffb2b2b2[23:42]|r |Hplayer:Sopragora-TarrenMill:585:YELL:|h[|cfffe7b09Sopragora|r]|h: WHEN ITS THE POP REND",
+					["serverTime"] = 1603057350,
+					["r"] = 1,
+					["extraData"] = {
+						7, -- [1]
+						70, -- [2]
+						71, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 230500.714,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:42:32]|h|r |cffb2b2b2[23:42]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sylvnasboost-TarrenMill:586:2|h[|cffc59a6cSylvnasboost|r]|h: FREE ARMOR STACK (Sylvanas Boost Community )  +14 [100K]/+15 [100k] / x5 M+ 15 [ 420k] /+16 [140k] / +17 [200k]  / 18 [250k]/ Nylotha HC  / JAINA MOUNT ( BEAST DEAL ON MYTHIC NYLOTHA 12/12 MYTHIC  LIMITED SPOTS ! )",
+					["serverTime"] = 1603057351,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						4, -- [2]
+						13, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 230501.248,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:42:35]|h|r |cffb2b2b2[23:42]|r |Hchannel:channel:2|h[2]|h |Hplayer:Iccemoo-TarrenMill:587:2|h[|cfffef367Iccemoo|r]|h: <Icecrown> WTS  +15 100k  / +14 for 90k  FREE ARMOR STACK / Heroic NYALOTHA + VIP TRADERS + MYTHIC RAID  /Also SELLING  Mechagon mount /Mythic/ heroic raids Also selling Freehold Leveling,",
+					["serverTime"] = 1603057354,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						4, -- [2]
+						34, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 230504.398,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:42:56]|h|r |cffb2b2b2[23:42]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sylvagold-TarrenMill:588:2|h[|cff00fe97Sylvagold|r]|h: << SYLVANAS BOOST >>   M+15 = 100k+ FREE ARMOR STACK   ||  M+20=400k  //   3x+15 = 280k   //   5x +15 = 420k !  //  +18=240k  // Freehold Levelup 10-50  / |cff71d5ff|Hspell:290718:0|h[Aerial Unit R-21/X]|h|r < 150k >/JAINA 300K/5MASK/ W ",
+					["serverTime"] = 1603057375,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						4, -- [2]
+						12, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 230525.966,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:43:05]|h|r |cffb2b2b2[23:43]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sneakysquidd-TarrenMill:590:2|h[|cff3ec6eaSneakysquidd|r]|h: DPriest LF Mythic raiding guild that raids Tues/Wed",
+					["serverTime"] = 1603057384,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						4, -- [2]
+						72, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 230534.067,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:43:05]|h|r |cffb2b2b2[23:43]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sylvnasboost-TarrenMill:591:2|h[|cffc59a6cSylvnasboost|r]|h: FREE ARMOR STACK (Sylvanas Boost Community )  +14 [100K]/+15 [100k] / x5 M+ 15 [ 420k] /+16 [140k] / +17 [200k]  / 18 [250k]/ Nylotha HC  / JAINA MOUNT ( BEAST DEAL ON MYTHIC NYLOTHA 12/12 MYTHIC  LIMITED SPOTS ! )",
+					["serverTime"] = 1603057384,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						4, -- [2]
+						13, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 230534.067,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:43:08]|h|r |cffb2b2b2[23:43]|r |Hchannel:channel:2|h[2]|h |Hplayer:Hydraboostcm-TarrenMill:592:2|h[|cffc59a6cHydraboostcm|r]|h: <Hydra> WTS |cffffff00|Hachievement:8721:Player-3674-0A5663DF:1:6:14:20:4294967295:4294967295:4294967295:4294967295|h[Fire-Watcher]|h|r Get your Fire-Watcher Title+|cff71d5ff|Hspell:148428:0|h[Ashhide Mushan Beast]|h|r+Pet 120K || Only Mount 50K /w me",
+					["serverTime"] = 1603057387,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						4, -- [2]
+						60, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 230537.684,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:39:22]|h|r |cffb2b2b2[23:39]|r You have learned a new spell: |cff71d5ff|Hspell:320746:0|h[Surge of Earth]|h|r.",
+					["serverTime"] = 1603057161,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230311.349,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:39:23]|h|r |cffb2b2b2[23:39]|r You have unlearned |cff71d5ff|Hspell:320746:0|h[Surge of Earth]|h|r.",
+					["serverTime"] = 1603057162,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230312.766,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:39:23]|h|r |cffb2b2b2[23:39]|r You have learned a new passive effect: |cff71d5ff|Hspell:200076:0|h[Deluge]|h|r.",
+					["serverTime"] = 1603057162,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230312.766,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:39:24]|h|r |cffb2b2b2[23:39]|r You have unlearned |cff71d5ff|Hspell:200076:0|h[Deluge]|h|r.",
+					["serverTime"] = 1603057163,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230313.233,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:39:24]|h|r |cffb2b2b2[23:39]|r You have learned a new passive effect: |cff71d5ff|Hspell:108283:0|h[Echo of the Elements]|h|r.",
+					["serverTime"] = 1603057163,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230313.233,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:39:30]|h|r |cffb2b2b2[23:39]|r You have unlearned |cff71d5ff|Hspell:108283:0|h[Echo of the Elements]|h|r.",
+					["serverTime"] = 1603057169,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230319.533,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:39:30]|h|r |cffb2b2b2[23:39]|r You have learned a new spell: |cff71d5ff|Hspell:320746:0|h[Surge of Earth]|h|r.",
+					["serverTime"] = 1603057169,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230319.533,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:39:35]|h|r |cffb2b2b2[23:39]|r |Hchannel:channel:2|h[2]|h |Hplayer:Tarrencynd-TarrenMill:490:2|h[|cff00fe97Tarrencynd|r]|h: <ICECROWN> WTS JAINA MOUNT ----- 350k ---- EVERY 30MINS ------TODAY ---- PRE BOOK YOUR SLOT NOW ----- FOR GOLD ONLY ----- DM for more info!!!-",
+					["serverTime"] = 1603057174,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						4, -- [2]
+						21, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 230324.283,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:39:43]|h|r |cffb2b2b2[23:39]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sylvnasboost-TarrenMill:491:2|h[|cffc59a6cSylvnasboost|r]|h: FREE ARMOR STACK (Sylvanas Boost Community )  +14 [100K]/+15 [100k] / x5 M+ 15 [ 420k] /+16 [140k] / +17 [200k]  / 18 [250k]/ Nylotha HC  / JAINA MOUNT ( BEAST DEAL ON MYTHIC NYLOTHA 12/12 MYTHIC  LIMITED SPOTS ! )",
+					["serverTime"] = 1603057182,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						4, -- [2]
+						13, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 230332.601,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:39:49]|h|r |cffb2b2b2[23:39]|r |Hchannel:channel:2|h[2]|h |Hplayer:Iccemoo-TarrenMill:492:2|h[|cfffef367Iccemoo|r]|h: <Icecrown> WTS  +15 100k  / +14 for 90k  FREE ARMOR STACK / Heroic NYALOTHA + VIP TRADERS + MYTHIC RAID  /Also SELLING  Mechagon mount /Mythic/ heroic raids Also selling Freehold Leveling,",
+					["serverTime"] = 1603057188,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						4, -- [2]
+						34, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 230338.335,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:39:49]|h|r |cffb2b2b2[23:39]|r |Hchannel:channel:2|h[2]|h |Hplayer:Prerramos-TarrenMill:493:2|h[|cff8687edPrerramos|r]|h: WTB ALL [Tome of the Quiet Mind] 25G EACH COD OR TRADE EVERYTHING",
+					["serverTime"] = 1603057188,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						4, -- [2]
+						58, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 230338.335,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:39:53]|h|r |cffb2b2b2[23:39]|r You have learned a new ability: |cff71d5ff|Hspell:198838:0|h[Earthen Wall Totem]|h|r.",
+					["serverTime"] = 1603057192,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230342.018,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:39:54]|h|r |cffb2b2b2[23:39]|r You have unlearned |cff71d5ff|Hspell:198838:0|h[Earthen Wall Totem]|h|r.",
+					["serverTime"] = 1603057193,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230343.868,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:39:54]|h|r |cffb2b2b2[23:39]|r You have learned a new ability: |cff71d5ff|Hspell:207399:0|h[Ancestral Protection Totem]|h|r.",
+					["serverTime"] = 1603057193,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230343.868,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:39:55]|h|r |cffb2b2b2[23:39]|r You have unlearned |cff71d5ff|Hspell:207399:0|h[Ancestral Protection Totem]|h|r.",
+					["serverTime"] = 1603057194,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230344.518,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:39:55]|h|r |cffb2b2b2[23:39]|r You have learned a new ability: |cff71d5ff|Hspell:198838:0|h[Earthen Wall Totem]|h|r.",
+					["serverTime"] = 1603057194,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230344.518,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [51]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:39:56]|h|r |cffb2b2b2[23:39]|r You have unlearned |cff71d5ff|Hspell:198838:0|h[Earthen Wall Totem]|h|r.",
+					["serverTime"] = 1603057195,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230345.152,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [52]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:39:56]|h|r |cffb2b2b2[23:39]|r You have learned a new passive effect: |cff71d5ff|Hspell:207401:0|h[Ancestral Vigor]|h|r.",
+					["serverTime"] = 1603057195,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230345.152,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [53]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:39:56]|h|r |cffb2b2b2[23:39]|r You have learned a new passive effect: |cff71d5ff|Hspell:260878:0|h[Spirit Wolf]|h|r.",
+					["serverTime"] = 1603057195,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230345.968,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:39:57]|h|r |cffb2b2b2[23:39]|r You have unlearned |cff71d5ff|Hspell:260878:0|h[Spirit Wolf]|h|r.",
+					["serverTime"] = 1603057196,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230346.418,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [55]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:39:57]|h|r |cffb2b2b2[23:39]|r You have learned a new ability: |cff71d5ff|Hspell:51485:0|h[Earthgrab Totem]|h|r.",
+					["serverTime"] = 1603057196,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230346.418,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [56]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:39:57]|h|r |cffb2b2b2[23:39]|r |Hchannel:channel:2|h[2]|h |Hplayer:Froststrikee-TarrenMill:504:2|h[|cffc31d39Froststrikee|r]|h: WTS |cff66bbff|Hjournal:0:1001:23|h[Freehold]|h|r Boost lvlup10>50 fast run with pro boosters spacial offer /w me for info",
+					["serverTime"] = 1603057196,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						4, -- [2]
+						57, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 230346.902,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [57]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:39:57]|h|r |cffb2b2b2[23:39]|r You have unlearned |cff71d5ff|Hspell:51485:0|h[Earthgrab Totem]|h|r.",
+					["serverTime"] = 1603057196,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230346.919,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [58]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:39:58]|h|r |cffb2b2b2[23:39]|r You have unlearned |cff71d5ff|Hspell:207401:0|h[Ancestral Vigor]|h|r.",
+					["serverTime"] = 1603057197,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230347.552,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [59]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:39:58]|h|r |cffb2b2b2[23:39]|r You have learned a new ability: |cff71d5ff|Hspell:207399:0|h[Ancestral Protection Totem]|h|r.",
+					["serverTime"] = 1603057197,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230347.552,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [60]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:39:58]|h|r |cffb2b2b2[23:39]|r |Hchannel:channel:2|h[2]|h |Hplayer:Froststrikee-TarrenMill:508:2|h[|cffc31d39Froststrikee|r]|h: wts|cff71d5ff|Hspell:261395:0|h[The Hivemind]|h|rand |cff71d5ff|Hspell:231428:0|h[Smoldering Ember Wyrm]|h|rspecial price /w me for info ;)",
+					["serverTime"] = 1603057197,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						4, -- [2]
+						57, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 230347.635,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [61]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:39:59]|h|r |cffb2b2b2[23:39]|r You have unlearned |cff71d5ff|Hspell:207399:0|h[Ancestral Protection Totem]|h|r.",
+					["serverTime"] = 1603057198,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230348.019,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [62]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:39:59]|h|r |cffb2b2b2[23:39]|r You have learned a new ability: |cff71d5ff|Hspell:198838:0|h[Earthen Wall Totem]|h|r.",
+					["serverTime"] = 1603057198,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230348.019,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [63]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:39:59]|h|r |cffb2b2b2[23:39]|r You have unlearned |cff71d5ff|Hspell:198838:0|h[Earthen Wall Totem]|h|r.",
+					["serverTime"] = 1603057198,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230348.619,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [64]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:39:59]|h|r |cffb2b2b2[23:39]|r You have learned a new passive effect: |cff71d5ff|Hspell:207401:0|h[Ancestral Vigor]|h|r.",
+					["serverTime"] = 1603057198,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230348.619,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [65]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:40:00]|h|r |cffb2b2b2[23:40]|r You have unlearned |cff71d5ff|Hspell:207401:0|h[Ancestral Vigor]|h|r.",
+					["serverTime"] = 1603057199,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230349.719,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [66]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:40:00]|h|r |cffb2b2b2[23:40]|r You have learned a new ability: |cff71d5ff|Hspell:198838:0|h[Earthen Wall Totem]|h|r.",
+					["serverTime"] = 1603057199,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230349.719,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [67]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:40:01]|h|r |cffb2b2b2[23:40]|r You have unlearned |cff71d5ff|Hspell:198838:0|h[Earthen Wall Totem]|h|r.",
+					["serverTime"] = 1603057200,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230350.436,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [68]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:40:01]|h|r |cffb2b2b2[23:40]|r You have learned a new ability: |cff71d5ff|Hspell:207399:0|h[Ancestral Protection Totem]|h|r.",
+					["serverTime"] = 1603057200,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230350.436,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [69]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:40:03]|h|r |cffb2b2b2[23:40]|r You have learned a new passive effect: |cff71d5ff|Hspell:30884:0|h[Nature's Guardian]|h|r.",
+					["serverTime"] = 1603057202,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230352.286,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [70]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:40:03]|h|r |cffb2b2b2[23:40]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sylvagold-TarrenMill:518:2|h[|cff00fe97Sylvagold|r]|h: << SYLVANAS BOOST >>   M+15 = 100k+ FREE ARMOR STACK   ||  M+20=400k  //   3x+15 = 280k   //   5x +15 = 420k !  //  +18=240k  // Freehold Levelup 10-50  / |cff71d5ff|Hspell:290718:0|h[Aerial Unit R-21/X]|h|r < 150k >/JAINA 300K/5MASK/ W ",
+					["serverTime"] = 1603057202,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						4, -- [2]
+						12, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 230352.836,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [71]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:40:03]|h|r |cffb2b2b2[23:40]|r You have unlearned |cff71d5ff|Hspell:30884:0|h[Nature's Guardian]|h|r.",
+					["serverTime"] = 1603057202,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230352.986,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [72]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:40:03]|h|r |cffb2b2b2[23:40]|r You have learned a new passive effect: |cff71d5ff|Hspell:192088:0|h[Graceful Spirit]|h|r.",
+					["serverTime"] = 1603057202,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230352.986,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [73]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:40:04]|h|r |cffb2b2b2[23:40]|r You have unlearned |cff71d5ff|Hspell:192088:0|h[Graceful Spirit]|h|r.",
+					["serverTime"] = 1603057203,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230353.669,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [74]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:40:04]|h|r |cffb2b2b2[23:40]|r You have learned a new ability: |cff71d5ff|Hspell:192077:0|h[Wind Rush Totem]|h|r.",
+					["serverTime"] = 1603057203,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230353.669,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [75]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:40:06]|h|r |cffb2b2b2[23:40]|r You have learned a new passive effect: |cff71d5ff|Hspell:280614:0|h[Flash Flood]|h|r.",
+					["serverTime"] = 1603057205,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230355.536,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [76]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:40:07]|h|r |cffb2b2b2[23:40]|r You have unlearned |cff71d5ff|Hspell:280614:0|h[Flash Flood]|h|r.",
+					["serverTime"] = 1603057206,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230356.036,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [77]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:40:07]|h|r |cffb2b2b2[23:40]|r You have learned a new spell: |cff71d5ff|Hspell:207778:0|h[Downpour]|h|r.",
+					["serverTime"] = 1603057206,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230356.036,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [78]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:40:08]|h|r |cffb2b2b2[23:40]|r |Hchannel:channel:2|h[2]|h |Hplayer:Hydraboostcm-TarrenMill:527:2|h[|cffc59a6cHydraboostcm|r]|h: <Hydra> WTS |cffffff00|Hachievement:8721:Player-3674-0A5663DF:1:6:14:20:4294967295:4294967295:4294967295:4294967295|h[Fire-Watcher]|h|r Get your Fire-Watcher Title+|cff71d5ff|Hspell:148428:0|h[Ashhide Mushan Beast]|h|r+Pet 120K || Only Mount 50K /w me",
+					["serverTime"] = 1603057207,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						4, -- [2]
+						60, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 230357.686,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [79]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:40:08]|h|r |cffb2b2b2[23:40]|r You have unlearned |cff71d5ff|Hspell:207778:0|h[Downpour]|h|r.",
+					["serverTime"] = 1603057207,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230357.786,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [80]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:40:08]|h|r |cffb2b2b2[23:40]|r You have learned a new ability: |cff71d5ff|Hspell:157153:0|h[Cloudburst Totem]|h|r.",
+					["serverTime"] = 1603057207,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230357.786,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [81]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:40:09]|h|r |cffb2b2b2[23:40]|r You have unlearned |cff71d5ff|Hspell:157153:0|h[Cloudburst Totem]|h|r.",
+					["serverTime"] = 1603057208,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230358.719,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [82]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:40:09]|h|r |cffb2b2b2[23:40]|r You have learned a new spell: |cff71d5ff|Hspell:207778:0|h[Downpour]|h|r.",
+					["serverTime"] = 1603057208,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230358.719,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [83]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:40:10]|h|r |cffb2b2b2[23:40]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sylvaboostt-TarrenMill:532:2|h[|cfff38bb9Sylvaboostt|r]|h: Sylvanas Community||^ FREE ARMOR STACK ^ ||^M+15 JUST FOR 100k ^|| M+16 JUST 140k || 3x run +15 285k  ||  5x run +15 420k || Horrific Visions ||  Ny'alotha HC  / Mythic / Nzoth MOUNT  TONGIHT  || Jaina MounT 300k NOW || PVP Boost || LVL UP BOOST",
+					["serverTime"] = 1603057209,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						4, -- [2]
+						61, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 230359.953,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [84]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:40:11]|h|r |cffb2b2b2[23:40]|r You have unlearned |cff71d5ff|Hspell:207778:0|h[Downpour]|h|r.",
+					["serverTime"] = 1603057210,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230360.57,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [85]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:40:11]|h|r |cffb2b2b2[23:40]|r You have learned a new ability: |cff71d5ff|Hspell:157153:0|h[Cloudburst Totem]|h|r.",
+					["serverTime"] = 1603057210,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230360.57,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [86]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:40:12]|h|r |cffb2b2b2[23:40]|r You have unlearned |cff71d5ff|Hspell:157153:0|h[Cloudburst Totem]|h|r.",
+					["serverTime"] = 1603057211,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230361.52,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [87]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:40:12]|h|r |cffb2b2b2[23:40]|r You have learned a new spell: |cff71d5ff|Hspell:207778:0|h[Downpour]|h|r.",
+					["serverTime"] = 1603057211,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230361.52,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [88]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:40:22]|h|r |cffb2b2b2[23:40]|r You have unlearned |cff71d5ff|Hspell:207778:0|h[Downpour]|h|r.",
+					["serverTime"] = 1603057221,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230371.737,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [89]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:40:22]|h|r |cffb2b2b2[23:40]|r You have learned a new ability: |cff71d5ff|Hspell:157153:0|h[Cloudburst Totem]|h|r.",
+					["serverTime"] = 1603057221,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230371.737,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [90]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:40:23]|h|r |cffb2b2b2[23:40]|r You have learned a new spell: |cff71d5ff|Hspell:197995:0|h[Wellspring]|h|r.",
+					["serverTime"] = 1603057222,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230372.921,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [91]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:40:25]|h|r |cffb2b2b2[23:40]|r You have unlearned |cff71d5ff|Hspell:157153:0|h[Cloudburst Totem]|h|r.",
+					["serverTime"] = 1603057224,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230374.487,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [92]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:40:25]|h|r |cffb2b2b2[23:40]|r You have learned a new spell: |cff71d5ff|Hspell:207778:0|h[Downpour]|h|r.",
+					["serverTime"] = 1603057224,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230374.487,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [93]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:40:28]|h|r |cffb2b2b2[23:40]|r You have unlearned |cff71d5ff|Hspell:197995:0|h[Wellspring]|h|r.",
+					["serverTime"] = 1603057227,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230377.404,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [94]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:40:28]|h|r |cffb2b2b2[23:40]|r You have learned a new passive effect: |cff71d5ff|Hspell:157154:0|h[High Tide]|h|r.",
+					["serverTime"] = 1603057227,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230377.404,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [95]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:40:29]|h|r |cffb2b2b2[23:40]|r You have unlearned |cff71d5ff|Hspell:157154:0|h[High Tide]|h|r.",
+					["serverTime"] = 1603057228,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230378.054,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [96]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:40:29]|h|r |cffb2b2b2[23:40]|r You have learned a new spell: |cff71d5ff|Hspell:114052:0|h[Ascendance]|h|r.",
+					["serverTime"] = 1603057228,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230378.054,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [97]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:40:29]|h|r |cffb2b2b2[23:40]|r You have unlearned |cff71d5ff|Hspell:114052:0|h[Ascendance]|h|r.",
+					["serverTime"] = 1603057228,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230378.838,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [98]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:40:29]|h|r |cffb2b2b2[23:40]|r You have learned a new spell: |cff71d5ff|Hspell:197995:0|h[Wellspring]|h|r.",
+					["serverTime"] = 1603057228,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 230378.838,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [99]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:40:38]|h|r |cffb2b2b2[23:40]|r |Hchannel:channel:2|h[2]|h |Hplayer:Iccemoo-TarrenMill:551:2|h[|cfffef367Iccemoo|r]|h: <Icecrown> WTS  +15 100k  / +14 for 90k  FREE ARMOR STACK / Heroic NYALOTHA + VIP TRADERS + MYTHIC RAID  /Also SELLING  Mechagon mount /Mythic/ heroic raids Also selling Freehold Leveling,",
+					["serverTime"] = 1603057237,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						4, -- [2]
+						34, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 230387.522,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [100]
+			},
+			["maxElements"] = 100,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+	},
+}

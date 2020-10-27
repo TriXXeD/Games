@@ -1,0 +1,95 @@
+
+PawnOptions = {
+	["LastVersion"] = 2.0401,
+	["LastPlayerFullName"] = "Trixxadin-Tarren Mill",
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
+	["ItemLevels"] = {
+		{
+			["ID"] = 170834,
+			["Level"] = 71,
+			["Link"] = "|cff0070dd|Hitem:170834::::::::50:65:::1:4775::::|h[Sunsoul Helm]|h|r",
+		}, -- [1]
+		{
+			["ID"] = 158075,
+			["Level"] = 104,
+			["Link"] = "|cffe6cc80|Hitem:158075::::::::50:65:::4:4932:4933:4935:1518::::|h[Heart of Azeroth]|h|r",
+		}, -- [2]
+		{
+			["ID"] = 170836,
+			["Level"] = 71,
+			["Link"] = "|cff0070dd|Hitem:170836::::::::50:65:::1:4775::::|h[Sunsoul Pauldrons]|h|r",
+		}, -- [3]
+		nil, -- [4]
+		{
+			["ID"] = 170831,
+			["Level"] = 71,
+			["Link"] = "|cff0070dd|Hitem:170831::::::::50:65:::1:4775::::|h[Sunsoul Battleplate]|h|r",
+		}, -- [5]
+		{
+			["ID"] = 170837,
+			["Level"] = 68,
+			["Link"] = "|cff1eff00|Hitem:170837::::::::50:65:::::::|h[Sunsoul Girdle]|h|r",
+		}, -- [6]
+		{
+			["ID"] = 170835,
+			["Level"] = 68,
+			["Link"] = "|cff1eff00|Hitem:170835::::::::50:65:::::::|h[Sunsoul Legplates]|h|r",
+		}, -- [7]
+		{
+			["ID"] = 170832,
+			["Level"] = 68,
+			["Link"] = "|cff1eff00|Hitem:170832::::::::50:65:::::::|h[Sunsoul Sabatons]|h|r",
+		}, -- [8]
+		{
+			["ID"] = 170838,
+			["Level"] = 68,
+			["Link"] = "|cff1eff00|Hitem:170838::::::::50:65:::::::|h[Sunsoul Vambraces]|h|r",
+		}, -- [9]
+		{
+			["ID"] = 170833,
+			["Level"] = 68,
+			["Link"] = "|cff1eff00|Hitem:170833::::::::50:65:::::::|h[Sunsoul Gauntlets]|h|r",
+		}, -- [10]
+		{
+			["ID"] = 170680,
+			["Level"] = 68,
+			["AlsoFitsIn"] = 12,
+			["Link"] = "|cff1eff00|Hitem:170680::::::::50:65:::::::|h[Sunsoul Ring of Might]|h|r",
+		}, -- [11]
+		{
+			["ID"] = 170681,
+			["Level"] = 68,
+			["AlsoFitsIn"] = 11,
+			["Link"] = "|cff1eff00|Hitem:170681::::::::50:65:::::::|h[Sunsoul Band of Might]|h|r",
+		}, -- [12]
+		{
+			["ID"] = 170682,
+			["Level"] = 68,
+			["AlsoFitsIn"] = 14,
+			["Link"] = "|cff1eff00|Hitem:170682::::::::50:65:::::::|h[Sunsoul Stone of Battle]|h|r",
+		}, -- [13]
+		{
+			["ID"] = 170683,
+			["Level"] = 68,
+			["AlsoFitsIn"] = 13,
+			["Link"] = "|cff1eff00|Hitem:170683::::::::50:65:::::::|h[Sunsoul Idol of Battle]|h|r",
+		}, -- [14]
+		{
+			["ID"] = 170678,
+			["Level"] = 68,
+			["Link"] = "|cff1eff00|Hitem:170678::::::::50:65:::::::|h[Sunsoul Cloak of Battle]|h|r",
+		}, -- [15]
+		{
+			["ID"] = 170677,
+			["Level"] = 68,
+			["Link"] = "|cff1eff00|Hitem:170677::::::::50:65:::::::|h[Sunsoul Warmaul]|h|r",
+		}, -- [16]
+	},
+	["LastKeybindingsSet"] = 1,
+}
+PawnMrRobotScaleProviderOptions = {
+	["LastClass"] = "PALADIN",
+	["LastAdded"] = 1,
+}
+PawnClassicScaleProviderOptions = nil

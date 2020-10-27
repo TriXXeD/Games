@@ -9,3 +9,4 @@ TradeSkillMaster_Vendoring: disabled
 TradeSkillMaster_Warehousing: disabled
 BagBrother: enabled
 Azeroth Auto Pilot: enabled
+OPie_Classic: disabled

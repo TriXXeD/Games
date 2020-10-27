@@ -1,0 +1,138 @@
+
+AUCTIONATOR_SAVEDVARS = {
+	["_50000"] = 500,
+	["_2000"] = 100,
+	["_5000000"] = 10000,
+	["_200000"] = 1000,
+	["_1000000"] = 2500,
+	["_10000"] = 200,
+	["_500"] = 5,
+	["LOG_DE_DATA_X"] = true,
+	["STARTING_DISCOUNT"] = 5,
+}
+AUCTIONATOR_PRICING_HISTORY = {
+}
+AUCTIONATOR_SHOPPING_LISTS = {
+	{
+		["items"] = {
+		},
+		["isRecents"] = 1,
+		["name"] = "Recent Searches",
+	}, -- [1]
+	{
+		["items"] = {
+			"Greater Cosmic Essence", -- [1]
+			"Infinite Dust", -- [2]
+			"Dream Shard", -- [3]
+			"Abyss Crystal", -- [4]
+		},
+		["name"] = "Sample Shopping List #1",
+		["isSorted"] = false,
+	}, -- [2]
+}
+AUCTIONATOR_SHOPPING_LISTS_MIGRATED_V2 = true
+AUCTIONATOR_PRICE_DATABASE = {
+	["Kazzak_Horde"] = {
+	},
+	["Draenor_Horde"] = {
+	},
+	["__dbversion"] = 4,
+	["Ravencrest_Alliance"] = {
+	},
+	["Tarren Mill_Horde"] = {
+	},
+}
+AUCTIONATOR_LAST_SCAN_TIME = nil
+AUCTIONATOR_TOONS = {
+	["Lupalia"] = {
+		["firstSeen"] = 1563019535,
+		["firstVersion"] = "8.2.0",
+		["guid"] = "Player-1329-04193D02",
+	},
+	["Trixxedosaur"] = {
+		["firstSeen"] = 1563018732,
+		["guid"] = "Player-1084-08E93A33",
+		["firstVersion"] = "8.2.0",
+	},
+	["Quelith"] = {
+		["firstSeen"] = 1563019799,
+		["guid"] = "Player-1403-064EC1A2",
+		["firstVersion"] = "8.2.0",
+	},
+	["Xbenedict"] = {
+		["firstSeen"] = 1562787409,
+		["guid"] = "Player-1305-09E89A02",
+		["firstVersion"] = "8.1.0",
+	},
+	["Trîxxed"] = {
+		["firstSeen"] = 1563019645,
+		["guid"] = "Player-1329-04193828",
+		["firstVersion"] = "8.2.0",
+	},
+	["Achilina"] = {
+		["firstSeen"] = 1563019368,
+		["firstVersion"] = "8.2.0",
+		["guid"] = "Player-1403-064EB8DE",
+	},
+	["Trixxedbank"] = {
+		["firstSeen"] = 1561818763,
+		["firstVersion"] = "8.1.0",
+		["guid"] = "Player-1084-08E7D9D6",
+	},
+	["Trìxxed"] = {
+		["firstSeen"] = 1563018980,
+		["firstVersion"] = "8.2.0",
+		["guid"] = "Player-1329-040E7136",
+	},
+	["Artefoxmis"] = {
+		["firstSeen"] = 1579988754,
+		["guid"] = "Player-1084-0957EE18",
+		["firstVersion"] = "8.2.0",
+	},
+	["Eruditus"] = {
+		["firstSeen"] = 1563019224,
+		["guid"] = "Player-1329-0418D442",
+		["firstVersion"] = "8.2.0",
+	},
+	["Trïxxed"] = {
+		["firstSeen"] = 1563018805,
+		["firstVersion"] = "8.2.0",
+		["guid"] = "Player-1329-040E4918",
+	},
+	["Fausta"] = {
+		["firstSeen"] = 1563019447,
+		["guid"] = "Player-1329-0418488A",
+		["firstVersion"] = "8.2.0",
+	},
+	["Lycotonum"] = {
+		["firstSeen"] = 1557426473,
+		["guid"] = "Player-1084-088E2C30",
+		["firstVersion"] = "8.1.0",
+	},
+	["Chrysante"] = {
+		["firstSeen"] = 1563018882,
+		["guid"] = "Player-1329-04166116",
+		["firstVersion"] = "8.2.0",
+	},
+	["Trixxed"] = {
+		["firstSeen"] = 1561578787,
+		["firstVersion"] = "8.1.0",
+		["guid"] = "Player-1305-09CE1263",
+	},
+	["Shanonymous"] = {
+		["firstSeen"] = 1572730298,
+		["guid"] = "Player-1084-08BBF832",
+		["firstVersion"] = "8.2.0",
+	},
+}
+AUCTIONATOR_STACKING_PREFS = {
+}
+AUCTIONATOR_SCAN_MINLEVEL = 1
+AUCTIONATOR_DB_MAXITEM_AGE = 180
+AUCTIONATOR_DB_MAXHIST_AGE = -1
+AUCTIONATOR_DB_MAXHIST_DAYS = 5
+AUCTIONATOR_FS_CHUNK = nil
+AUCTIONATOR_DE_DATA = nil
+AUCTIONATOR_DE_DATA_BAK = nil
+ITEM_ID_VERSION = "3.2.6"
+AUCTIONATOR_SHOW_MAILBOX_TIPS = nil

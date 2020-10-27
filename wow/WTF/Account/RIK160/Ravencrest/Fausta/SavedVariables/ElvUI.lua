@@ -2810,24 +2810,24 @@ ElvCharacterDB = {
 		}, -- [127]
 	},
 	["BodyGuard"] = {
-		["Active"] = false,
-		["Health"] = 0,
-		["MaxHealth"] = 0,
 		["IsInValidZone"] = true,
+		["MaxHealth"] = 0,
+		["Health"] = 0,
+		["Active"] = false,
 	},
 	["ChatEditHistory"] = {
 		" So ur not gonna play BFA?", -- [1]
 		" Just like Gry :D", -- [2]
 		" I play casually now", -- [3]
-		"/y Every1 come to eye", -- [4]
-		"De sælger boosts PT", -- [5]
+		"/i Come to eye", -- [4]
+		"HC Antorus?", -- [5]
 		"BFA coming out soon my man", -- [6]
-		"/i Come to eye", -- [7]
+		"/y Every1 come to eye", -- [7]
 		"Wow will never truly hit the shelf and u know it", -- [8]
 		"Det vist nok hans alt", -- [9]
 		"/i some1 taunt nightmare to eyee", -- [10]
 		"Just like Gry :D", -- [11]
-		"HC Antorus?", -- [12]
+		"De sælger boosts PT", -- [12]
 		"undskyld, 2 :D", -- [13]
 		"/i every1 to eye", -- [14]
 		"Well I didnt play wow in in AUS", -- [15]

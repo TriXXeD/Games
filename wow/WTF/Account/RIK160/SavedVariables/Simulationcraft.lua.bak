@@ -2,53 +2,83 @@
 SimulationCraftDB = {
 	["profileKeys"] = {
 		["Trixxedbank - Kazzak"] = "Trixxedbank - Kazzak",
-		["Xbenedict - Kazzak"] = "Xbenedict - Kazzak",
-		["Fausta - Ravencrest"] = "Fausta - Ravencrest",
-		["Tríxxed - Laughing Skull"] = "Tríxxed - Laughing Skull",
-		["Quelith - Draenor"] = "Quelith - Draenor",
-		["Trixxed - Kazzak"] = "Trixxed - Kazzak",
-		["Trixxedbank - Draenor"] = "Trixxedbank - Draenor",
-		["Shanonymous - Tarren Mill"] = "Shanonymous - Tarren Mill",
-		["Trixxedosaur - Tarren Mill"] = "Trixxedosaur - Tarren Mill",
 		["Achilina - Draenor"] = "Achilina - Draenor",
-		["Shankspeare - Tarren Mill"] = "Shankspeare - Tarren Mill",
+		["Tríxxed - Laughing Skull"] = "Tríxxed - Laughing Skull",
+		["Trixxedosaur - Tarren Mill"] = "Trixxedosaur - Tarren Mill",
+		["Achilina - Ravencrest"] = "Achilina - Ravencrest",
+		["Trìxxed - Ravencrest"] = "Trìxxed - Ravencrest",
 		["Trixxedbank - Tarren Mill"] = "Trixxedbank - Tarren Mill",
+		["Lupalia - Ravencrest"] = "Lupalia - Ravencrest",
+		["Eruditus - Ravencrest"] = "Eruditus - Ravencrest",
+		["Trîxxed - Ravencrest"] = "Trîxxed - Ravencrest",
+		["Xbenedict - Kazzak"] = "Xbenedict - Kazzak",
+		["Chrysante - Ravencrest"] = "Chrysante - Ravencrest",
+		["Shanonymous - Tarren Mill"] = "Shanonymous - Tarren Mill",
+		["Trixxadin - Tarren Mill"] = "Trixxadin - Tarren Mill",
+		["Quelith - Draenor"] = "Quelith - Draenor",
 		["Lycotonum - Tarren Mill"] = "Lycotonum - Tarren Mill",
+		["Artefoxy - Tarren Mill"] = "Artefoxy - Tarren Mill",
+		["Fausta - Ravencrest"] = "Fausta - Ravencrest",
+		["Trixxedbank - Draenor"] = "Trixxedbank - Draenor",
+		["Trïxxed - Ravencrest"] = "Trïxxed - Ravencrest",
+		["Shankspeare - Tarren Mill"] = "Shankspeare - Tarren Mill",
+		["Artefoxmis - Tarren Mill"] = "Artefoxmis - Tarren Mill",
+		["Trixxed - Kazzak"] = "Trixxed - Kazzak",
 	},
 	["profiles"] = {
 		["Trixxedbank - Kazzak"] = {
 		},
-		["Xbenedict - Kazzak"] = {
-		},
-		["Fausta - Ravencrest"] = {
+		["Achilina - Draenor"] = {
 		},
 		["Tríxxed - Laughing Skull"] = {
 		},
-		["Quelith - Draenor"] = {
+		["Trixxedosaur - Tarren Mill"] = {
 		},
-		["Trixxed - Kazzak"] = {
-			["minimap"] = {
-				["minimapPos"] = 208.482220565079,
-			},
+		["Achilina - Ravencrest"] = {
 		},
-		["Trixxedbank - Draenor"] = {
+		["Trìxxed - Ravencrest"] = {
+		},
+		["Trixxedbank - Tarren Mill"] = {
+		},
+		["Lupalia - Ravencrest"] = {
+		},
+		["Eruditus - Ravencrest"] = {
+		},
+		["Trîxxed - Ravencrest"] = {
+		},
+		["Xbenedict - Kazzak"] = {
+		},
+		["Chrysante - Ravencrest"] = {
 		},
 		["Shanonymous - Tarren Mill"] = {
 		},
-		["Trixxedosaur - Tarren Mill"] = {
+		["Trixxadin - Tarren Mill"] = {
 		},
-		["Achilina - Draenor"] = {
+		["Quelith - Draenor"] = {
+		},
+		["Lycotonum - Tarren Mill"] = {
+			["minimap"] = {
+				["minimapPos"] = 212.3914097181442,
+			},
+		},
+		["Artefoxy - Tarren Mill"] = {
+		},
+		["Fausta - Ravencrest"] = {
+		},
+		["Trixxedbank - Draenor"] = {
+		},
+		["Trïxxed - Ravencrest"] = {
 		},
 		["Shankspeare - Tarren Mill"] = {
 			["minimap"] = {
 				["minimapPos"] = 208.044657239354,
 			},
 		},
-		["Trixxedbank - Tarren Mill"] = {
+		["Artefoxmis - Tarren Mill"] = {
 		},
-		["Lycotonum - Tarren Mill"] = {
+		["Trixxed - Kazzak"] = {
 			["minimap"] = {
-				["minimapPos"] = 205.074424026328,
+				["minimapPos"] = 208.482220565079,
 			},
 		},
 	},

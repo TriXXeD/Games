@@ -5,222 +5,24 @@ ElvCharacterDB = {
 		" hvor højt rated er du?", -- [2]
 		" hvor er det klamt", -- [3]
 		" burde være 2400+ for at få sådanne drops", -- [4]
-		"/gladius hide", -- [5]
-		"/g If 927 is enough I can tank", -- [6]
-		"/wa", -- [7]
-		"/cw Cajolobil-Draenor whichever is best for dung", -- [8]
+		"/dbm pull 5", -- [5]
+		"/wa", -- [6]
+		"/g If 927 is enough I can tank", -- [7]
+		"wat", -- [8]
 		"/cw Ahili-Agamaggan Do u need?", -- [9]
-		"wat", -- [10]
+		"/cw Cajolobil-Draenor whichever is best for dung", -- [10]
 		"hvor højt rated er du?", -- [11]
 		"burde være 2400+ for at få sådanne drops", -- [12]
-		"/dbm pull 5", -- [13]
-		"/gladius", -- [14]
+		"/gladius hide", -- [13]
+		"/Xct", -- [14]
 		"/elvui", -- [15]
 		"hvor er det klamt", -- [16]
 		"/dbm pull 7", -- [17]
 		"det seriøst for dumt det gear man får fra det", -- [18]
 		"bare fra pvp?", -- [19]
-		"/Xct", -- [20]
+		"/gladius", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"The Gallywix Community || WTS G'HUUN HEROIC |cffffff00|Hachievement:12536:Player-1403-07229B5F:1:9:9:18:0:0:0:0|h[Ahead of the Curve: G'huun]|h|r @ 22:15 ST TONIGHT! You'll be boosted by several top Method players/streamers.", -- [1]
-			"Despacibro-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Despacibro", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1949, -- [11]
-			"Player-1403-07229B5F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffaad372Despacibro|r",
-			[51] = 1537648214,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
-			"<Yikers> 8/8HC is a group of mythic raiders from Legion/WoD looking to recruit exceptional DPS to begin progressing through mythic raiding throughout BFA. We raid Tue/Fri 19:45-23:00 ST. /w me for a chat.", -- [1]
-			"Nesflix-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Nesflix", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1950, -- [11]
-			"Player-1403-06DC7465", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc41e3aNesflix|r",
-			[51] = 1537648221,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
-			"WTB Anchor Weed 575g Siren's Pollen 50g Riverbud 40g Storm Silver Ore 25g Monelite ore 25g Platinum Ore 25g And ALL other herbs 25g C.O.D ME EVERYTHING Or whisper me!", -- [1]
-			"Exaviel-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Exaviel", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1951, -- [11]
-			"Player-1403-05E19336", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff48cbaExaviel|r",
-			[51] = 1537648226,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
-		{
-			"WTS |cffa335ee|Hitem:161071::::::::120:265::3:4:4798:41:1477:4786:::|h[Bloody Experimenter's Wraps]|h|r|cffa335ee|Hitem:163951::::::::120:265::54:2:1472:4786:::|h[Cinch of the Sainted General]|h|r|cffa335ee|Hitem:152413::::::::120:265::3:3:3610:1487:3337:::|h[Felflame Inferno Shoulderpads]|h|r A Very good price!", -- [1]
-			"Yandexx-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Yandexx", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1952, -- [11]
-			"Player-1403-07121F5E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8787edYandexx|r",
-			[51] = 1537648231,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
-		{
-			"WTS |cffa335ee|Hitem:161071::::::::120:265::3:4:4798:41:1477:4786:::|h[Bloody Experimenter's Wraps]|h|r|cffa335ee|Hitem:163951::::::::120:265::54:2:1472:4786:::|h[Cinch of the Sainted General]|h|r|cffa335ee|Hitem:152413::::::::120:265::3:3:3610:1487:3337:::|h[Felflame Inferno Shoulderpads]|h|r A Very good price!", -- [1]
-			"Yandexx-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Yandexx", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1953, -- [11]
-			"Player-1403-07121F5E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8787edYandexx|r",
-			[51] = 1537648232,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [5]
-		{
-			" WTS  |cffffffff|Hitem:109076::::::::120:255::::::|h[Goblin Glider Kit]|h|r  1k /stack", -- [1]
-			"Cármine-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Cármine", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1955, -- [11]
-			"Player-1403-062E7A46", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffaad372Cármine|r",
-			[51] = 1537648235,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
-		{
-			"WTB Anchor Weed 575g Siren's Pollen 50g Riverbud 40g Storm Silver Ore 25g Monelite ore 25g Platinum Ore 25g And ALL other herbs 25g C.O.D ME EVERYTHING Or whisper me!", -- [1]
-			"Exaviel-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Exaviel", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1956, -- [11]
-			"Player-1403-05E19336", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff48cbaExaviel|r",
-			[51] = 1537648246,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [7]
-		{
-			"WTB Platinum Ore/Storm Silver Ore 20g each.  Monelite Ore 15g each. Tidespray Linen 10g each. BFA green/blue items 100g each. Send Mail Cod !!!", -- [1]
-			"Pachi-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Pachi", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1958, -- [11]
-			"Player-1403-06723C1A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa330c9Pachi|r",
-			[51] = 1537648259,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
-		{
-			"WTS Mythic+ Services! Get your items really fast and prepare for Uldir! Whisp me for more details!", -- [1]
-			"Moyaoborona-Draenor", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Moyaoborona", -- [5]
-			"DND", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1959, -- [11]
-			"Player-1403-072467F6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff0070ddMoyaoborona|r",
-			[51] = 1537648260,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [9]
 		{
 			"WTS |cff1eff00|Hitem:152510::::::::120:105::::::|h[Anchor Weed]|h|rx800 650g ea", -- [1]
 			"Murahdus-Draenor", -- [2]
@@ -242,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aMurahdus|r",
 			[51] = 1537648260,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [10]
+		}, -- [1]
 		{
 			"WTB Anchor Weed 575g Siren's Pollen 50g Riverbud 40g Storm Silver Ore 25g Monelite ore 25g Platinum Ore 25g And ALL other herbs 25g C.O.D ME EVERYTHING Or whisper me!", -- [1]
 			"Exaviel-Draenor", -- [2]
@@ -264,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaExaviel|r",
 			[51] = 1537648266,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [11]
+		}, -- [2]
 		{
 			"WTB Anchor Weed 575g Siren's Pollen 50g Riverbud 40g Storm Silver Ore 25g Monelite ore 25g Platinum Ore 25g And ALL other herbs 25g C.O.D ME EVERYTHING Or whisper me!", -- [1]
 			"Exaviel-Draenor", -- [2]
@@ -286,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaExaviel|r",
 			[51] = 1537648286,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [12]
+		}, -- [3]
 		{
 			" WTS  |cffffffff|Hitem:109076::::::::120:255::::::|h[Goblin Glider Kit]|h|r  1k /stack", -- [1]
 			"Cármine-Draenor", -- [2]
@@ -308,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Cármine|r",
 			[51] = 1537648286,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [13]
+		}, -- [4]
 		{
 			"WTS |cffa335ee|Hitem:161071::::::::120:265::3:4:4798:41:1477:4786:::|h[Bloody Experimenter's Wraps]|h|r|cffa335ee|Hitem:163951::::::::120:265::54:2:1472:4786:::|h[Cinch of the Sainted General]|h|r|cffa335ee|Hitem:152413::::::::120:265::3:3:3610:1487:3337:::|h[Felflame Inferno Shoulderpads]|h|r A Very good price!", -- [1]
 			"Yandexx-Draenor", -- [2]
@@ -330,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edYandexx|r",
 			[51] = 1537648289,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
+		}, -- [5]
 		{
 			"WTS |cffa335ee|Hitem:161071::::::::120:265::3:4:4798:41:1477:4786:::|h[Bloody Experimenter's Wraps]|h|r|cffa335ee|Hitem:163951::::::::120:265::54:2:1472:4786:::|h[Cinch of the Sainted General]|h|r|cffa335ee|Hitem:152413::::::::120:265::3:3:3610:1487:3337:::|h[Felflame Inferno Shoulderpads]|h|r A Very good price!", -- [1]
 			"Yandexx-Draenor", -- [2]
@@ -352,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edYandexx|r",
 			[51] = 1537648290,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [15]
+		}, -- [6]
 		{
 			"<Fall of Mortality> (4/8 HC) Now recruiting 1 tank, 2 healers and dps to complete their roster and clear HC in time to start Mythic! Raid times: thursdays/sundays 21:00 - 00:00. We require a minimum experience in Hc! Whisper me for more info!", -- [1]
 			"Missileboy-Draenor", -- [2]
@@ -374,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Missileboy|r",
 			[51] = 1537648299,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [16]
+		}, -- [7]
 		{
 			"WTB Anchor Weed 575g Siren's Pollen 50g Riverbud 40g Storm Silver Ore 25g Monelite ore 25g Platinum Ore 25g And ALL other herbs 25g C.O.D ME EVERYTHING Or whisper me!", -- [1]
 			"Exaviel-Draenor", -- [2]
@@ -396,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaExaviel|r",
 			[51] = 1537648306,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [17]
+		}, -- [8]
 		{
 			"Uldir 8/8 daily carry, mythic+ runs, gearing, powerlvling and more! Visit gplay.pro for info!", -- [1]
 			"Gplayfour-Draenor", -- [2]
@@ -418,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Gplayfour|r",
 			[51] = 1537648313,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [18]
+		}, -- [9]
 		{
 			"WTS Ghuun HC get ur curve , smooth run with experienced players and the best prices, we are selling for Gold Only.", -- [1]
 			"Shamaniizers-Draenor", -- [2]
@@ -440,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddShamaniizers|r",
 			[51] = 1537648315,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [19]
+		}, -- [10]
 		{
 			" WTS  |cffffffff|Hitem:109076::::::::120:255::::::|h[Goblin Glider Kit]|h|r  1k /stack", -- [1]
 			"Cármine-Draenor", -- [2]
@@ -462,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Cármine|r",
 			[51] = 1537648316,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [20]
+		}, -- [11]
 		{
 			"wts|cffa335ee|Hitem:49282::::::::120:267::::::|h[Big Battle Bear]|h|r", -- [1]
 			"Beyruth-Draenor", -- [2]
@@ -484,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edBeyruth|r",
 			[51] = 1537648322,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [21]
+		}, -- [12]
 		{
 			"wts|cffa335ee|Hitem:49282::::::::120:267::::::|h[Big Battle Bear]|h|r", -- [1]
 			"Beyruth-Draenor", -- [2]
@@ -506,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edBeyruth|r",
 			[51] = 1537648323,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [22]
+		}, -- [13]
 		{
 			"WTS |cff1eff00|Hitem:152510::::::::120:105::::::|h[Anchor Weed]|h|rx800 650g ea", -- [1]
 			"Murahdus-Draenor", -- [2]
@@ -528,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aMurahdus|r",
 			[51] = 1537648325,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [23]
+		}, -- [14]
 		{
 			"WTB Anchor Weed 575g Siren's Pollen 50g Riverbud 40g Storm Silver Ore 25g Monelite ore 25g Platinum Ore 25g And ALL other herbs 25g C.O.D ME EVERYTHING Or whisper me!", -- [1]
 			"Exaviel-Draenor", -- [2]
@@ -550,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaExaviel|r",
 			[51] = 1537648326,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
+		}, -- [15]
 		{
 			"WTB Platinum Ore/Storm Silver Ore 20g each.  Monelite Ore 15g each. Tidespray Linen 10g each. BFA green/blue items 100g each. Send Mail Cod !!!", -- [1]
 			"Pachi-Draenor", -- [2]
@@ -572,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Pachi|r",
 			[51] = 1537648329,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [25]
+		}, -- [16]
 		{
 			"WTS Mythic+ Services! Get your items really fast and prepare for Uldir! Whisp me for more details!", -- [1]
 			"Moyaoborona-Draenor", -- [2]
@@ -594,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddMoyaoborona|r",
 			[51] = 1537648335,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
+		}, -- [17]
 		{
 			"WTS the legendary \"Excalibur\" 100m gold / Only 1 player in Wow owns it!", -- [1]
 			"Revolution-Draenor", -- [2]
@@ -616,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Revolution|r",
 			[51] = 1537648335,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [27]
+		}, -- [18]
 		{
 			"WTS |cffa335ee|Hitem:161071::::::::120:265::3:4:4798:41:1477:4786:::|h[Bloody Experimenter's Wraps]|h|r|cffa335ee|Hitem:163951::::::::120:265::54:2:1472:4786:::|h[Cinch of the Sainted General]|h|r|cffa335ee|Hitem:152413::::::::120:265::3:3:3610:1487:3337:::|h[Felflame Inferno Shoulderpads]|h|r A Very good price!", -- [1]
 			"Yandexx-Draenor", -- [2]
@@ -638,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edYandexx|r",
 			[51] = 1537648337,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [28]
+		}, -- [19]
 		{
 			"WTS |cffa335ee|Hitem:161071::::::::120:265::3:4:4798:41:1477:4786:::|h[Bloody Experimenter's Wraps]|h|r|cffa335ee|Hitem:163951::::::::120:265::54:2:1472:4786:::|h[Cinch of the Sainted General]|h|r|cffa335ee|Hitem:152413::::::::120:265::3:3:3610:1487:3337:::|h[Felflame Inferno Shoulderpads]|h|r A Very good price!", -- [1]
 			"Yandexx-Draenor", -- [2]
@@ -660,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edYandexx|r",
 			[51] = 1537648338,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [29]
+		}, -- [20]
 		{
 			"-PugChamp- 2/8 Mythic Recruiting 1 tank with dps OS  . Also Have 2k RBG Team. 3 Mythic Raids a week Sun, Tue Thur 8pm - 11pm ST. Going for CE in this tier and all to come /w for info.", -- [1]
 			"Tiqó-Draenor", -- [2]
@@ -682,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aTiqó|r",
 			[51] = 1537648339,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [30]
+		}, -- [21]
 		{
 			"-PugChamp- 2/8 Mythic Recruiting 1 tank with dps OS  . Also Have 2k RBG Team. 3 Mythic Raids a week Sun, Tue Thur 8pm - 11pm ST. Going for CE in this tier and all to come /w for info.", -- [1]
 			"Tiqó-Draenor", -- [2]
@@ -704,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aTiqó|r",
 			[51] = 1537648339,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [31]
+		}, -- [22]
 		{
 			"WTS the legendary \"Excalibur\" 100m gold / Only 1 player in Wow owns it!", -- [1]
 			"Revolution-Draenor", -- [2]
@@ -726,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Revolution|r",
 			[51] = 1537648340,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [32]
+		}, -- [23]
 		{
 			" WTS  |cffffffff|Hitem:109076::::::::120:255::::::|h[Goblin Glider Kit]|h|r  1k /stack", -- [1]
 			"Cármine-Draenor", -- [2]
@@ -748,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Cármine|r",
 			[51] = 1537648340,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [33]
+		}, -- [24]
 		{
 			"WTB Anchor Weed 575g Siren's Pollen 50g Riverbud 40g Storm Silver Ore 25g Monelite ore 25g Platinum Ore 25g And ALL other herbs 25g C.O.D ME EVERYTHING Or whisper me!", -- [1]
 			"Exaviel-Draenor", -- [2]
@@ -770,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaExaviel|r",
 			[51] = 1537648346,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [34]
+		}, -- [25]
 		{
 			"WTB |cffffffff|Hitem:152509::::::::120:259::::::|h[Siren's Pollen]|h|r 55g each! CoD me ANY AMOUNT!", -- [1]
 			"Ghazzytv-Draenor", -- [2]
@@ -792,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Ghazzytv|r",
 			[51] = 1537648354,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [35]
+		}, -- [26]
 		{
 			"< FiLTH > 8/8NM 5/8HC LF Ranged DPS for HC / M Raiding / M+. Raiding Thurs & Sun 20:30-23:00 ST. Socials Welcome. http://filth.guildlaunch.com", -- [1]
 			"Fozzmistress-Draenor", -- [2]
@@ -814,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddFozzmistress|r",
 			[51] = 1537648362,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [36]
+		}, -- [27]
 		{
 			"wts|cffa335ee|Hitem:49282::::::::120:267::::::|h[Big Battle Bear]|h|r", -- [1]
 			"Beyruth-Draenor", -- [2]
@@ -836,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edBeyruth|r",
 			[51] = 1537648365,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [37]
+		}, -- [28]
 		{
 			"wts|cffa335ee|Hitem:49282::::::::120:267::::::|h[Big Battle Bear]|h|r", -- [1]
 			"Beyruth-Draenor", -- [2]
@@ -858,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edBeyruth|r",
 			[51] = 1537648365,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [38]
+		}, -- [29]
 		{
 			"WTB Anchor Weed 575g Siren's Pollen 50g Riverbud 40g Storm Silver Ore 25g Monelite ore 25g Platinum Ore 25g And ALL other herbs 25g C.O.D ME EVERYTHING Or whisper me!", -- [1]
 			"Exaviel-Draenor", -- [2]
@@ -880,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaExaviel|r",
 			[51] = 1537648366,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [39]
+		}, -- [30]
 		{
 			"WTS |cffa335ee|Hitem:161071::::::::120:265::3:4:4798:41:1477:4786:::|h[Bloody Experimenter's Wraps]|h|r|cffa335ee|Hitem:163951::::::::120:265::54:2:1472:4786:::|h[Cinch of the Sainted General]|h|r|cffa335ee|Hitem:152413::::::::120:265::3:3:3610:1487:3337:::|h[Felflame Inferno Shoulderpads]|h|r A Very good price!", -- [1]
 			"Yandexx-Draenor", -- [2]
@@ -902,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edYandexx|r",
 			[51] = 1537648369,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [40]
+		}, -- [31]
 		{
 			"WTS |cffa335ee|Hitem:161071::::::::120:265::3:4:4798:41:1477:4786:::|h[Bloody Experimenter's Wraps]|h|r|cffa335ee|Hitem:163951::::::::120:265::54:2:1472:4786:::|h[Cinch of the Sainted General]|h|r|cffa335ee|Hitem:152413::::::::120:265::3:3:3610:1487:3337:::|h[Felflame Inferno Shoulderpads]|h|r A Very good price!", -- [1]
 			"Yandexx-Draenor", -- [2]
@@ -924,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edYandexx|r",
 			[51] = 1537648369,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [41]
+		}, -- [32]
 		{
 			"WTS |cff1eff00|Hitem:152510::::::::120:105::::::|h[Anchor Weed]|h|rx800 650g ea", -- [1]
 			"Murahdus-Draenor", -- [2]
@@ -946,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aMurahdus|r",
 			[51] = 1537648380,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [42]
+		}, -- [33]
 		{
 			"<Fake News> 8/8N 3/8HC is a casual raiding guild currently recruiting all classes and specs for progression! Our raid times are Thu/Sun 20:30-23:30, so if you're interested /w me for more info", -- [1]
 			"Shougle-Draenor", -- [2]
@@ -968,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Shougle|r",
 			[51] = 1537648385,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [43]
+		}, -- [34]
 		{
 			"WTB Anchor Weed 575g Siren's Pollen 50g Riverbud 40g Storm Silver Ore 25g Monelite ore 25g Platinum Ore 25g And ALL other herbs 25g C.O.D ME EVERYTHING Or whisper me!", -- [1]
 			"Exaviel-Draenor", -- [2]
@@ -990,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaExaviel|r",
 			[51] = 1537648386,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [44]
+		}, -- [35]
 		{
 			"WTB Platinum Ore/Storm Silver Ore 20g each.  Monelite Ore 15g each. Tidespray Linen 10g each. BFA green/blue items 100g each. Send Mail Cod !!!", -- [1]
 			"Pachi-Draenor", -- [2]
@@ -1012,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Pachi|r",
 			[51] = 1537648400,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [45]
+		}, -- [36]
 		{
 			"WTS |cffa335ee|Hitem:161071::::::::120:265::3:4:4798:41:1477:4786:::|h[Bloody Experimenter's Wraps]|h|r|cffa335ee|Hitem:163951::::::::120:265::54:2:1472:4786:::|h[Cinch of the Sainted General]|h|r|cffa335ee|Hitem:152413::::::::120:265::3:3:3610:1487:3337:::|h[Felflame Inferno Shoulderpads]|h|r A Very good price!", -- [1]
 			"Yandexx-Draenor", -- [2]
@@ -1034,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edYandexx|r",
 			[51] = 1537648400,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [46]
+		}, -- [37]
 		{
 			"WTS |cffa335ee|Hitem:161071::::::::120:265::3:4:4798:41:1477:4786:::|h[Bloody Experimenter's Wraps]|h|r|cffa335ee|Hitem:163951::::::::120:265::54:2:1472:4786:::|h[Cinch of the Sainted General]|h|r|cffa335ee|Hitem:152413::::::::120:265::3:3:3610:1487:3337:::|h[Felflame Inferno Shoulderpads]|h|r A Very good price!", -- [1]
 			"Yandexx-Draenor", -- [2]
@@ -1056,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edYandexx|r",
 			[51] = 1537648400,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [47]
+		}, -- [38]
 		{
 			" WTS  |cffffffff|Hitem:109076::::::::120:255::::::|h[Goblin Glider Kit]|h|r  1k /stack", -- [1]
 			"Cármine-Draenor", -- [2]
@@ -1078,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Cármine|r",
 			[51] = 1537648402,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [48]
+		}, -- [39]
 		{
 			"WTB Anchor Weed 575g Siren's Pollen 50g Riverbud 40g Storm Silver Ore 25g Monelite ore 25g Platinum Ore 25g And ALL other herbs 25g C.O.D ME EVERYTHING Or whisper me!", -- [1]
 			"Exaviel-Draenor", -- [2]
@@ -1100,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaExaviel|r",
 			[51] = 1537648406,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [49]
+		}, -- [40]
 		{
 			"WTS Mythic+ Services! Get your items really fast and prepare for Uldir! Whisp me for more details!", -- [1]
 			"Moyaoborona-Draenor", -- [2]
@@ -1122,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddMoyaoborona|r",
 			[51] = 1537648410,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [50]
+		}, -- [41]
 		{
 			"WTB BFA Greens/Blues 125 each / Riverbud 40", -- [1]
 			"Lortefjaes-Draenor", -- [2]
@@ -1144,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Lortefjaes|r",
 			[51] = 1537648413,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [51]
+		}, -- [42]
 		{
 			"WTB Anchor Weed 575g Siren's Pollen 50g Riverbud 40g Storm Silver Ore 25g Monelite ore 25g Platinum Ore 25g And ALL other herbs 25g C.O.D ME EVERYTHING Or whisper me!", -- [1]
 			"Exaviel-Draenor", -- [2]
@@ -1166,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaExaviel|r",
 			[51] = 1537648426,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [52]
+		}, -- [43]
 		{
 			"<Brainlag> [8/8N] the only non-Tryhard Semi-Hardcore guild is recruiting active DPS players to fill our LAST 2 raid spots. Monday and Thursday at 19:00 - 22:00. For more info contact me.", -- [1]
 			"Forgohtten-Draenor", -- [2]
@@ -1188,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Forgohtten|r",
 			[51] = 1537648427,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [53]
+		}, -- [44]
 		{
 			"WTS |cff1eff00|Hitem:152510::::::::120:105::::::|h[Anchor Weed]|h|rx800 650g ea", -- [1]
 			"Murahdus-Draenor", -- [2]
@@ -1210,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aMurahdus|r",
 			[51] = 1537648429,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [54]
+		}, -- [45]
 		{
 			"WTS |cffa335ee|Hitem:161071::::::::120:265::3:4:4798:41:1477:4786:::|h[Bloody Experimenter's Wraps]|h|r|cffa335ee|Hitem:163951::::::::120:265::54:2:1472:4786:::|h[Cinch of the Sainted General]|h|r|cffa335ee|Hitem:152413::::::::120:265::3:3:3610:1487:3337:::|h[Felflame Inferno Shoulderpads]|h|r A Very good price!", -- [1]
 			"Yandexx-Draenor", -- [2]
@@ -1232,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edYandexx|r",
 			[51] = 1537648430,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [55]
+		}, -- [46]
 		{
 			"WTS |cffa335ee|Hitem:161071::::::::120:265::3:4:4798:41:1477:4786:::|h[Bloody Experimenter's Wraps]|h|r|cffa335ee|Hitem:163951::::::::120:265::54:2:1472:4786:::|h[Cinch of the Sainted General]|h|r|cffa335ee|Hitem:152413::::::::120:265::3:3:3610:1487:3337:::|h[Felflame Inferno Shoulderpads]|h|r A Very good price!", -- [1]
 			"Yandexx-Draenor", -- [2]
@@ -1254,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edYandexx|r",
 			[51] = 1537648431,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [56]
+		}, -- [47]
 		{
 			"WTS |cffa335ee|Hitem:72145::::::::110:263::14::::|h[Swift Springstrider]|h|r Cheap af", -- [1]
 			"Pablorino-Draenor", -- [2]
@@ -1276,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddPablorino|r",
 			[51] = 1537648435,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [57]
+		}, -- [48]
 		{
 			"<Artificial Talent> Progression raiding guild. Looking to clear all raid tiers in Mythic! - Currently recruiting - MW Monk & Ranged DPS, Raid Days Wed, Thurs & Sun 20:00 - 23:00 All classes considered.", -- [1]
 			"Domberlin", -- [2]
@@ -1298,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edDomberlin|r",
 			[51] = 1538331231,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [58]
+		}, -- [49]
 		{
 			"WTB - |cffffffff|Hitem:152576::::::::40:64::::::|h[Tidespray Linen]|h|r 10g/each & |cffffffff|Hitem:152512::::::::40:64::::::|h[Monelite Ore]|h|r 30g/each & |cffffffff|Hitem:152545::::::::40:64::::::|h[Frenzied Fangtooth]|h|r 35g/each & BFA Greens 100g/each. Send via CoD please. Thanks!", -- [1]
 			"Nilovski-Draenor", -- [2]
@@ -1320,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaNilovski|r",
 			[51] = 1538331306,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
+		}, -- [50]
 		{
 			"<Artificial Talent> Progression raiding guild. Looking to clear all raid tiers in Mythic! - Currently recruiting - MW Monk & Ranged DPS, Raid Days Wed, Thurs & Sun 20:00 - 23:00 All classes considered.", -- [1]
 			"Domberlin-Draenor", -- [2]
@@ -1342,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edDomberlin|r",
 			[51] = 1538331311,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [60]
+		}, -- [51]
 		{
 			"WTB ANCHOR WEED 250G, SIREN'S POLLEN 30g. AKUNDA'S BITE 15G!!! TRADE OR C.O.D!", -- [1]
 			"Exdec-Draenor", -- [2]
@@ -1364,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Exdec|r",
 			[51] = 1538331315,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [61]
+		}, -- [52]
 		{
 			"WTB ANCHOR WEED 250G, SIREN'S POLLEN 30g. AKUNDA'S BITE 15G!!! TRADE OR C.O.D!", -- [1]
 			"Exdec-Draenor", -- [2]
@@ -1386,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Exdec|r",
 			[51] = 1538331315,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [62]
+		}, -- [53]
 		{
 			"WTB - |cffffffff|Hitem:152576::::::::40:64::::::|h[Tidespray Linen]|h|r 10g/each & |cffffffff|Hitem:152512::::::::40:64::::::|h[Monelite Ore]|h|r 30g/each & |cffffffff|Hitem:152545::::::::40:64::::::|h[Frenzied Fangtooth]|h|r 35g/each & BFA Greens 100g/each. Send via CoD please. Thanks!", -- [1]
 			"Nilovski-Draenor", -- [2]
@@ -1408,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaNilovski|r",
 			[51] = 1538331336,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [63]
+		}, -- [54]
 		{
 			"WTB ANCHOR WEED 250G, SIREN'S POLLEN 30g. AKUNDA'S BITE 15G!!! TRADE OR C.O.D!", -- [1]
 			"Exdec-Draenor", -- [2]
@@ -1430,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Exdec|r",
 			[51] = 1538331345,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [64]
+		}, -- [55]
 		{
 			"WTB ANCHOR WEED 250G, SIREN'S POLLEN 30g. AKUNDA'S BITE 15G!!! TRADE OR C.O.D!", -- [1]
 			"Exdec-Draenor", -- [2]
@@ -1452,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Exdec|r",
 			[51] = 1538331347,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [65]
+		}, -- [56]
 		{
 			"<Artificial Talent> Progression raiding guild. Looking to clear all raid tiers in Mythic! - Currently recruiting - MW Monk & Ranged DPS, Raid Days Wed, Thurs & Sun 20:00 - 23:00 All classes considered.", -- [1]
 			"Domberlin-Draenor", -- [2]
@@ -1474,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edDomberlin|r",
 			[51] = 1538331358,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [66]
+		}, -- [57]
 		{
 			"WTB - |cffffffff|Hitem:152576::::::::40:64::::::|h[Tidespray Linen]|h|r 10g/each & |cffffffff|Hitem:152512::::::::40:64::::::|h[Monelite Ore]|h|r 30g/each & |cffffffff|Hitem:152545::::::::40:64::::::|h[Frenzied Fangtooth]|h|r 35g/each & BFA Greens 100g/each. Send via CoD please. Thanks!", -- [1]
 			"Nilovski-Draenor", -- [2]
@@ -1496,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaNilovski|r",
 			[51] = 1538331366,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [67]
+		}, -- [58]
 		{
 			"Malice - 4/8 Mythic - Selling Normal Uldir - 120k - 20:30GT TONIGHT - Message for more info! 1 spot left!", -- [1]
 			"Quinnfabray-Draenor", -- [2]
@@ -1518,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Quinnfabray|r",
 			[51] = 1538331374,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [68]
+		}, -- [59]
 		{
 			"WTB ANCHOR WEED 250G, SIREN'S POLLEN 30g. AKUNDA'S BITE 15G!!! TRADE OR C.O.D!", -- [1]
 			"Exdec-Draenor", -- [2]
@@ -1540,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Exdec|r",
 			[51] = 1538331377,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [69]
+		}, -- [60]
 		{
 			"WTB ANCHOR WEED 250G, SIREN'S POLLEN 30g. AKUNDA'S BITE 15G!!! TRADE OR C.O.D!", -- [1]
 			"Exdec-Draenor", -- [2]
@@ -1562,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Exdec|r",
 			[51] = 1538331378,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [70]
+		}, -- [61]
 		{
 			"<Artificial Talent> Progression raiding guild. Looking to clear all raid tiers in Mythic! - Currently recruiting - MW Monk & Ranged DPS, Raid Days Wed, Thurs & Sun 20:00 - 23:00 All classes considered.", -- [1]
 			"Domberlin-Draenor", -- [2]
@@ -1584,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edDomberlin|r",
 			[51] = 1538331387,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [71]
+		}, -- [62]
 		{
 			"Mythic Uldir. @Mother. Need 1 Healer and 1 Boomie.", -- [1]
 			"Firstbump-Draenor", -- [2]
@@ -1606,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddFirstbump|r",
 			[51] = 1538331394,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [72]
+		}, -- [63]
 		{
 			"WTB - |cffffffff|Hitem:152576::::::::40:64::::::|h[Tidespray Linen]|h|r 10g/each & |cffffffff|Hitem:152512::::::::40:64::::::|h[Monelite Ore]|h|r 30g/each & |cffffffff|Hitem:152545::::::::40:64::::::|h[Frenzied Fangtooth]|h|r 35g/each & BFA Greens 100g/each. Send via CoD please. Thanks!", -- [1]
 			"Nilovski-Draenor", -- [2]
@@ -1628,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaNilovski|r",
 			[51] = 1538331396,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [73]
+		}, -- [64]
 		{
 			"<Affinity PvP> is a fresh new pvp guild. We're looking for all players that are into pvp. /w me for more information. No req on cr/ilvl", -- [1]
 			"Naellababy-Draenor", -- [2]
@@ -1650,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aNaellababy|r",
 			[51] = 1538331397,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [74]
+		}, -- [65]
 		{
 			"Malice - 4/8 Mythic - Selling Normal Uldir - 120k - 20:30GT TONIGHT - Message for more info! 1 spot left!", -- [1]
 			"Quinnfabray-Draenor", -- [2]
@@ -1672,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Quinnfabray|r",
 			[51] = 1538331399,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [66]
 		{
 			"Mythic Uldir. @Mother. Need 1 Healer and 1 Boomie.", -- [1]
 			"Firstbump-Draenor", -- [2]
@@ -1694,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddFirstbump|r",
 			[51] = 1538331404,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [76]
+		}, -- [67]
 		{
 			"WTS Mythic+ Services! Get your items really fast and prepare for Uldir! Whisp me for more details!", -- [1]
 			"Moyaoborona-Draenor", -- [2]
@@ -1716,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddMoyaoborona|r",
 			[51] = 1538331407,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [77]
+		}, -- [68]
 		{
 			"WTB ANCHOR WEED 250G, SIREN'S POLLEN 30g. AKUNDA'S BITE 15G!!! TRADE OR C.O.D!", -- [1]
 			"Exdec-Draenor", -- [2]
@@ -1738,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Exdec|r",
 			[51] = 1538331416,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [78]
+		}, -- [69]
 		{
 			"WTB ANCHOR WEED 250G, SIREN'S POLLEN 30g. AKUNDA'S BITE 15G!!! TRADE OR C.O.D!", -- [1]
 			"Exdec-Draenor", -- [2]
@@ -1760,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Exdec|r",
 			[51] = 1538331416,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [70]
 		{
 			"Mythic Uldir. @Mother. Need 1 Healer and 1 Boomie.", -- [1]
 			"Firstbump-Draenor", -- [2]
@@ -1782,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddFirstbump|r",
 			[51] = 1538331424,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [80]
+		}, -- [71]
 		{
 			"WTB - |cffffffff|Hitem:152576::::::::40:64::::::|h[Tidespray Linen]|h|r 10g/each & |cffffffff|Hitem:152512::::::::40:64::::::|h[Monelite Ore]|h|r 30g/each & |cffffffff|Hitem:152545::::::::40:64::::::|h[Frenzied Fangtooth]|h|r 35g/each & BFA Greens 100g/each. Send via CoD please. Thanks!", -- [1]
 			"Nilovski-Draenor", -- [2]
@@ -1804,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaNilovski|r",
 			[51] = 1538331426,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
+		}, -- [72]
 		{
 			"Mythic Uldir. @Mother. Need 1 Healer and 1 Boomie.", -- [1]
 			"Firstbump-Draenor", -- [2]
@@ -1826,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddFirstbump|r",
 			[51] = 1538331438,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [82]
+		}, -- [73]
 		{
 			"<Artificial Talent> Progression raiding guild. Looking to clear all raid tiers in Mythic! - Currently recruiting - MW Monk & Ranged DPS, Raid Days Wed, Thurs & Sun 20:00 - 23:00 All classes considered.", -- [1]
 			"Domberlin-Draenor", -- [2]
@@ -1848,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edDomberlin|r",
 			[51] = 1538331444,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [83]
+		}, -- [74]
 		{
 			"WTB ANCHOR WEED 250G, SIREN'S POLLEN 30g. AKUNDA'S BITE 15G!!! TRADE OR C.O.D!", -- [1]
 			"Exdec-Draenor", -- [2]
@@ -1870,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Exdec|r",
 			[51] = 1538331450,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [84]
+		}, -- [75]
 		{
 			"WTB ANCHOR WEED 250G, SIREN'S POLLEN 30g. AKUNDA'S BITE 15G!!! TRADE OR C.O.D!", -- [1]
 			"Exdec-Draenor", -- [2]
@@ -1892,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Exdec|r",
 			[51] = 1538331463,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [85]
+		}, -- [76]
 		{
 			"<One Tapped > is here. We all do agree that guild recruitment is like fishing. Boring af and all you get are shoes. Do you wanna help us out? We are 1/8m-6/8HC and in need of ranged DPS. Tue/Thurs is our raid times. Holla @ me ", -- [1]
 			"Cránkthetank-Draenor", -- [2]
@@ -1914,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aCránkthetank|r",
 			[51] = 1538331465,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [77]
 		{
 			"WTS Mythic+ Services! Get your items really fast and prepare for Uldir! Whisp me for more details!", -- [1]
 			"Moyaoborona-Draenor", -- [2]
@@ -1936,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddMoyaoborona|r",
 			[51] = 1538331482,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [87]
+		}, -- [78]
 		{
 			"Malice - 4/8 Mythic - Selling Normal Uldir - 20:30GT TONIGHT - 120k full run - Message for  more info!", -- [1]
 			"Neyekro-Draenor", -- [2]
@@ -1958,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dNeyekro|r",
 			[51] = 1538331483,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [88]
+		}, -- [79]
 		{
 			"<Artificial Talent> Progression raiding guild. Looking to clear all raid tiers in Mythic! - Currently recruiting - MW Monk & Ranged DPS, Raid Days Wed, Thurs & Sun 20:00 - 23:00 All classes considered.", -- [1]
 			"Domberlin-Draenor", -- [2]
@@ -1980,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edDomberlin|r",
 			[51] = 1538331488,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [89]
+		}, -- [80]
 		{
 			"WTS |cffffffff|Hitem:153673::::::::120:270::::::|h[Vantus Rune: Uldir]|h|r", -- [1]
 			"Thundïe-Draenor", -- [2]
@@ -2002,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Thundïe|r",
 			[51] = 1538331488,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [81]
 		{
 			"WTB Tidespray Linen 7g each. Storm Silver Ore 20g each.  Monelite Ore 15g each. Deep Sea Satin 15g each. BFA green/blue items 100g each. Send Mail Cod !!!", -- [1]
 			"Pachi-Draenor", -- [2]
@@ -2024,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Pachi|r",
 			[51] = 1538331492,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [91]
+		}, -- [82]
 		{
 			"Malice - 4/8 Mythic - Selling Normal Uldir - 120k - GOING NOW - Message for more info! Last Spot!", -- [1]
 			"Quinnfabray-Draenor", -- [2]
@@ -2046,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Quinnfabray|r",
 			[51] = 1538331494,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [83]
 		{
 			"Malice - 4/8 Mythic - Selling Normal Uldir - 20:30GT TONIGHT - 120k full run - Message for  more info!", -- [1]
 			"Neyekro-Draenor", -- [2]
@@ -2068,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dNeyekro|r",
 			[51] = 1538331497,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [93]
+		}, -- [84]
 		{
 			"Mythic Uldir. @Mother. Need 1 Healer and 1 Boomie.", -- [1]
 			"Firstbump-Draenor", -- [2]
@@ -2090,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddFirstbump|r",
 			[51] = 1538331499,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [85]
 		{
 			"WTB ANCHOR WEED 250G, SIREN'S POLLEN 30g. AKUNDA'S BITE 15G!!! TRADE OR C.O.D!", -- [1]
 			"Exdec-Draenor", -- [2]
@@ -2112,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Exdec|r",
 			[51] = 1538331504,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [86]
 		{
 			"WTB ANCHOR WEED 250G, SIREN'S POLLEN 30g. AKUNDA'S BITE 15G!!! TRADE OR C.O.D!", -- [1]
 			"Exdec-Draenor", -- [2]
@@ -2134,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Exdec|r",
 			[51] = 1538331504,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [87]
 		{
 			"WTB (Riverbud)25g@ (Siren´s Pollen)35g@ (Anchor weed)250g@ (Moenlite/Stormsilver ore)@20g@ and all herbs 15g@ C.O.D!!!!!", -- [1]
 			"Tryvian-Draenor", -- [2]
@@ -2156,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Tryvian|r",
 			[51] = 1538940785,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [88]
 		{
 			"WTB (Riverbud)25g@ (Siren´s Pollen)35g@ (Anchor weed)250g@ (Moenlite/Stormsilver ore)@20g@ and all herbs 15g@ C.O.D!!!!!", -- [1]
 			"Tryvian-Draenor", -- [2]
@@ -2178,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Tryvian|r",
 			[51] = 1538940800,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [89]
 		{
 			"WTB (Riverbud)25g@ (Siren´s Pollen)35g@ (Anchor weed)250g@ (Moenlite/Stormsilver ore)@20g@ and all herbs 15g@ C.O.D!!!!!", -- [1]
 			"Tryvian-Draenor", -- [2]
@@ -2200,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Tryvian|r",
 			[51] = 1538940815,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [99]
+		}, -- [90]
 		{
 			"WTB (Riverbud)25g@ (Siren´s Pollen)35g@ (Anchor weed)250g@ (Moenlite/Stormsilver ore)@20g@ and all herbs 15g@ C.O.D!!!!!", -- [1]
 			"Tryvian-Draenor", -- [2]
@@ -2222,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Tryvian|r",
 			[51] = 1538940830,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [100]
+		}, -- [91]
 		{
 			"WTB (Riverbud)25g@ (Siren´s Pollen)35g@ (Anchor weed)250g@ (Moenlite/Stormsilver ore)@20g@ and all herbs 15g@ C.O.D!!!!!", -- [1]
 			"Tryvian-Draenor", -- [2]
@@ -2244,7 +2046,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Tryvian|r",
 			[51] = 1538940845,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [101]
+		}, -- [92]
 		{
 			"WTB (Riverbud)25g@ (Siren´s Pollen)35g@ (Anchor weed)250g@ (Moenlite/Stormsilver ore)@20g@ and all herbs 15g@ C.O.D!!!!!", -- [1]
 			"Tryvian-Draenor", -- [2]
@@ -2266,7 +2068,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Tryvian|r",
 			[51] = 1538940860,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [102]
+		}, -- [93]
 		{
 			"<Spiritus> is looking to establish a foothold as a HC raiding guild with hopes of Mythic progression. Newly formed, we are looking for not only experienced players but those with passion to succeed as well as be social, 18+ preferred /w for more info", -- [1]
 			"Talaèdra-Draenor", -- [2]
@@ -2288,7 +2090,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaTalaèdra|r",
 			[51] = 1538940867,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [103]
+		}, -- [94]
 		{
 			"WTB (Riverbud)25g@ (Siren´s Pollen)35g@ (Anchor weed)250g@ (Moenlite/Stormsilver ore)@20g@ and all herbs 15g@ C.O.D!!!!!", -- [1]
 			"Tryvian-Draenor", -- [2]
@@ -2310,7 +2112,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Tryvian|r",
 			[51] = 1538940876,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [104]
+		}, -- [95]
 		{
 			"The Gallywix Community || WTS Myth and G'huun Hc   |cffffff00|Hachievement:12536:Player-1305-07B5705B:1:9:11:18:0:0:0:0|h[Ahead of the Curve: G'huun]|h|r GOING NOW  - UNSAVED Runners rolling out all the loot they do not need. - REDUCED PRICE", -- [1]
 			"Levdra-Draenor", -- [2]
@@ -2332,7 +2134,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaLevdra|r",
 			[51] = 1538940886,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [105]
+		}, -- [96]
 		{
 			"WTB (Riverbud)25g@ (Siren´s Pollen)35g@ (Anchor weed)250g@ (Moenlite/Stormsilver ore)@20g@ and all herbs 15g@ C.O.D!!!!!", -- [1]
 			"Tryvian-Draenor", -- [2]
@@ -2354,7 +2156,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Tryvian|r",
 			[51] = 1538940891,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [106]
+		}, -- [97]
 		{
 			"<Spiritus> is looking to establish a foothold as a HC raiding guild with hopes of Mythic progression. Newly formed, we are looking for not only experienced players but those with passion to succeed as well as be social, 18+ preferred /w for more info", -- [1]
 			"Talaèdra-Draenor", -- [2]
@@ -2376,7 +2178,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaTalaèdra|r",
 			[51] = 1538940901,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [107]
+		}, -- [98]
 		{
 			"WTB (Riverbud)25g@ (Siren´s Pollen)35g@ (Anchor weed)250g@ (Moenlite/Stormsilver ore)@20g@ and all herbs 15g@ C.O.D!!!!!", -- [1]
 			"Tryvian-Draenor", -- [2]
@@ -2398,7 +2200,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Tryvian|r",
 			[51] = 1538940906,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [108]
+		}, -- [99]
 		{
 			"WTS|cffa335ee|Hitem:67151::::::::2:71::::::|h[Reins of Poseidus]|h|r12k", -- [1]
 			"Degrenme-Draenor", -- [2]
@@ -2420,7 +2222,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dDegrenme|r",
 			[51] = 1538940907,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [109]
+		}, -- [100]
 		{
 			"WTB (Riverbud)25g@ (Siren´s Pollen)35g@ (Anchor weed)250g@ (Moenlite/Stormsilver ore)@20g@ and all herbs 15g@ C.O.D!!!!!", -- [1]
 			"Tryvian-Draenor", -- [2]
@@ -2442,7 +2244,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Tryvian|r",
 			[51] = 1538940921,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [110]
+		}, -- [101]
 		{
 			"Selling +10 Weekly Key BOOST! 370+ 1k+ RIO Score Team! Come get your 380+ Weekly Chest Loot and 370+ End of Dungeon loot! Whisper me for info & prices!", -- [1]
 			"Tunnlisa", -- [2]
@@ -2464,7 +2266,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTunnlisa|r",
 			[51] = 1538940943,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [111]
+		}, -- [102]
 		{
 			"WTB (Riverbud)25g@ (Siren´s Pollen)35g@ (Anchor weed)250g@ (Moenlite/Stormsilver ore)@20g@ and all herbs 15g@ C.O.D!!!!!", -- [1]
 			"Tryvian", -- [2]
@@ -2486,7 +2288,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Tryvian|r",
 			[51] = 1538940943,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [112]
+		}, -- [103]
 		{
 			"bm hunt 375 8/8hc 1/8m 1.1k io looking for mythic raiding guild  with 3+ mythic progress ", -- [1]
 			"Mozany", -- [2]
@@ -2508,7 +2310,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Mozany|r",
 			[51] = 1538940943,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [113]
+		}, -- [104]
 		{
 			"<Spiritus> is looking to establish a foothold as a HC raiding guild with hopes of Mythic progression. Newly formed, we are looking for not only experienced players but those with passion to succeed as well as be social, 18+ preferred /w for more info", -- [1]
 			"Talaèdra", -- [2]
@@ -2530,7 +2332,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaTalaèdra|r",
 			[51] = 1538940943,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [114]
+		}, -- [105]
 		{
 			"The Gallywix Community || WTS Myth and G'huun Hc   |cffffff00|Hachievement:12536:Player-1305-07B5705B:1:9:11:18:0:0:0:0|h[Ahead of the Curve: G'huun]|h|r GOING NOW  - UNSAVED Runners rolling out all the loot they do not need. - REDUCED PRICE", -- [1]
 			"Levdra-Draenor", -- [2]
@@ -2552,7 +2354,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaLevdra|r",
 			[51] = 1538940946,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [115]
+		}, -- [106]
 		{
 			"WTB (Riverbud)25g@ (Siren´s Pollen)35g@ (Anchor weed)250g@ (Moenlite/Stormsilver ore)@20g@ and all herbs 15g@ C.O.D!!!!!", -- [1]
 			"Tryvian-Draenor", -- [2]
@@ -2574,7 +2376,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Tryvian|r",
 			[51] = 1538940951,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [116]
+		}, -- [107]
 		{
 			"LFM Mythic Mother and onwards, raid id will be continued through the week via community channel, have atleast Taloc achiev and 8/8hc. join in Group Finder now.", -- [1]
 			"Zeddzz", -- [2]
@@ -2596,7 +2398,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aZeddzz|r",
 			[51] = 1538940964,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [117]
+		}, -- [108]
 		{
 			"WTB (Riverbud)25g@ (Siren´s Pollen)35g@ (Anchor weed)250g@ (Moenlite/Stormsilver ore)@20g@ and all herbs 15g@ C.O.D!!!!!", -- [1]
 			"Tryvian-Draenor", -- [2]
@@ -2618,7 +2420,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Tryvian|r",
 			[51] = 1538940966,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [118]
+		}, -- [109]
 		{
 			"WTS|cffa335ee|Hitem:67151::::::::2:71::::::|h[Reins of Poseidus]|h|r12k", -- [1]
 			"Degrenme-Draenor", -- [2]
@@ -2640,7 +2442,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dDegrenme|r",
 			[51] = 1538940966,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [119]
+		}, -- [110]
 		{
 			"<Spiritus> is looking to establish a foothold as a HC raiding guild with hopes of Mythic progression. Newly formed, we are looking for not only experienced players but those with passion to succeed as well as be social, 18+ preferred /w for more info", -- [1]
 			"Talaèdra-Draenor", -- [2]
@@ -2662,7 +2464,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaTalaèdra|r",
 			[51] = 1538940979,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [120]
+		}, -- [111]
 		{
 			"WTB (Riverbud)25g@ (Siren´s Pollen)35g@ (Anchor weed)250g@ (Moenlite/Stormsilver ore)@20g@ and all herbs 15g@ C.O.D!!!!!", -- [1]
 			"Tryvian-Draenor", -- [2]
@@ -2684,7 +2486,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Tryvian|r",
 			[51] = 1538940981,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [121]
+		}, -- [112]
 		{
 			"LFM Mythic Mother and onwards, raid id will be continued through the week via community channel, have atleast Taloc achiev and 8/8hc. join in Group Finder now.", -- [1]
 			"Zeddzz-Draenor", -- [2]
@@ -2706,7 +2508,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aZeddzz|r",
 			[51] = 1538940985,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [122]
+		}, -- [113]
 		{
 			"WTS Uldir N/H, Mythic dungeons, weekly+10, Leveling 110-120 and more.  pm me for info.", -- [1]
 			"Quickmarii-Draenor", -- [2]
@@ -2728,7 +2530,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddQuickmarii|r",
 			[51] = 1538940989,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [123]
+		}, -- [114]
 		{
 			"WTB (Riverbud)25g@ (Siren´s Pollen)35g@ (Anchor weed)250g@ (Moenlite/Stormsilver ore)@20g@ and all herbs 15g@ C.O.D!!!!!", -- [1]
 			"Tryvian-Draenor", -- [2]
@@ -2750,7 +2552,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Tryvian|r",
 			[51] = 1538940996,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [124]
+		}, -- [115]
 		{
 			"[The Crown Chemical Co.] cleared in 48 seconds [14:31]-[14:31]", -- [1]
 			"Utsutsu-Kazzak", -- [2]
@@ -2772,7 +2574,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaUtsutsu-Kazzak|r",
 			[51] = 1550925111,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [125]
+		}, -- [116]
 		{
 			"<The Blasters> Newly founded. Come Blast, enjoy the perks!", -- [1]
 			"Cheesesteaks-Draenor", -- [2]
@@ -2794,7 +2596,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cCheesesteaks|r",
 			[51] = 1553276165,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [126]
+		}, -- [117]
 		{
 			"yo man hows it blasting", -- [1]
 			"Chubbiebobo-Draenor", -- [2]
@@ -2816,6 +2618,204 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Chubbiebobo|r",
 			[51] = 1553276182,
 			[50] = "CHAT_MSG_GUILD",
+		}, -- [118]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:13441:Player-1403-064EC1A2:1:4:2:19:4294967295:4294967295:4294967295:4294967295|h[Pushing the Payload]|h|r!", -- [1]
+			"Quelith-Draenor", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Quelith-Draenor", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			749, -- [11]
+			"Player-1403-064EC1A2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Quelith|r",
+			[51] = 1554236127,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [119]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12572:Player-1403-064EC1A2:1:8:11:19:4294967295:4294967295:4294967295:4294967295|h[War Supplied]|h|r!", -- [1]
+			"Quelith-Draenor", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Quelith-Draenor", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2404, -- [11]
+			"Player-1403-064EC1A2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Quelith|r",
+			[51] = 1565529642,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [120]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12733:Player-1403-064EC1A2:1:8:11:19:4294967295:4294967295:4294967295:4294967295|h[Professional Zandalari Master]|h|r!", -- [1]
+			"Quelith-Draenor", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Quelith-Draenor", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2473, -- [11]
+			"Player-1403-064EC1A2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Quelith|r",
+			[51] = 1565529949,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [121]
+		{
+			"|cffffff00Grand Bazaar is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Dazar'alor", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Dazar'alor", -- [9]
+			0, -- [10]
+			2793, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1565531339,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [122]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:13284:Player-1403-064EC1A2:1:8:14:19:4294967295:4294967295:4294967295:4294967295|h[Frontline Warrior]|h|r!", -- [1]
+			"Quelith-Draenor", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Quelith-Draenor", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1858, -- [11]
+			"Player-1403-064EC1A2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Quelith|r",
+			[51] = 1565806853,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [123]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:13388:Player-1403-064EC1A2:1:8:14:19:4294967295:4294967295:4294967295:4294967295|h[Frontline Veteran]|h|r!", -- [1]
+			"Quelith-Draenor", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Quelith-Draenor", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1860, -- [11]
+			"Player-1403-064EC1A2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Quelith|r",
+			[51] = 1565806853,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [124]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12544:Player-1403-064EC1A2:1:8:18:19:4294967295:4294967295:4294967295:4294967295|h[Level 120]|h|r!", -- [1]
+			"Quelith-Draenor", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Quelith-Draenor", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			484, -- [11]
+			"Player-1403-064EC1A2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Quelith|r",
+			[51] = 1566151491,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [125]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:13572:Player-1403-064EC1A2:1:8:18:19:4294967295:4294967295:4294967295:4294967295|h[The Heart Forge]|h|r!", -- [1]
+			"Quelith-Draenor", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Quelith-Draenor", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			877, -- [11]
+			"Player-1403-064EC1A2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Quelith|r",
+			[51] = 1566153853,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [126]
+		{
+			"|cffffff00Seekers' Vista is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Stormsong Valley", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormsong Valley", -- [9]
+			0, -- [10]
+			425, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1566232976,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [127]
 	},
 }

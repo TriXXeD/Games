@@ -16,6 +16,6 @@ AtlasLootCharDB = {
 	},
 	["__addonrevision"] = 4325,
 	["minimap"] = {
-		["minimapPos"] = 203.448061056092,
+		["minimapPos"] = 193.7608124117135,
 	},
 }

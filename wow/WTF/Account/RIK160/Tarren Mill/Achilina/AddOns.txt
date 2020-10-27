@@ -83,3 +83,9 @@ DBM-ZuldazarRaid: enabled
 DBM-Brawlers: enabled
 DBM-Challenges: enabled
 AAP-Vanilla: enabled
+DBM-Azeroth-BfA: enabled
+DBM-Party-BfA: enabled
+DBM-Uldir: enabled
+DBM-CrucibleofStorms: enabled
+OPie_Classic: disabled
+RCLootCouncil: enabled

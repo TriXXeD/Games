@@ -1,5 +1,2941 @@
 
 Prat3CharDB = {
 	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["time"] = 1565471842,
+	["scrollback"] = {
+		["ChatFrame5"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 100,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame4"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 14,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:44:40]|h|r |cffb2b2b2[14:44]|r Guild Message of the Day: \"8.3 Over, All mounts aquired. See you all in prepatch!\"",
+					["serverTime"] = 1603025079,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 198228.489,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:44:43]|h|r |cffb2b2b2[14:44]|r |Hchannel:GUILD|h[G]|h |Hplayer:Bóbalót-TarrenMill:3575:GUILD:|h[|cff00fe97Bóbalót|r]|h: lol",
+					["serverTime"] = 1603025082,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						8, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198231.393,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:45:39]|h|r |cffb2b2b2[14:45]|r |Hchannel:GUILD|h[G]|h |Hplayer:Bóbalót-TarrenMill:3587:GUILD:|h[|cff00fe97Bóbalót|r]|h: my biggest thing is because I did very few keys this tier, I don't really know the skip routes for the 10+ keys :(",
+					["serverTime"] = 1603025138,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						8, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198287.093,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:46:18]|h|r |cffb2b2b2[14:46]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:3595:GUILD:|h[|cff006fdcEokira|r]|h: i mean it doesnt really matter if we time them",
+					["serverTime"] = 1603025177,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						2, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198326.28,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:46:23]|h|r |cffb2b2b2[14:46]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:3598:GUILD:|h[|cff006fdcEokira|r]|h: you just wanna practice your tank stuff rite",
+					["serverTime"] = 1603025182,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						2, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198331.163,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:46:30]|h|r |cffb2b2b2[14:46]|r |Hchannel:GUILD|h[G]|h |Hplayer:Bóbalót-TarrenMill:3602:GUILD:|h[|cff00fe97Bóbalót|r]|h: yeah",
+					["serverTime"] = 1603025189,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						8, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198337.864,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:48:55]|h|r |cffb2b2b2[14:48]|r |Hchannel:GUILD|h[G]|h |Hplayer:Fetalicious-TarrenMill:3639:GUILD:|h[|cfffefefeFetalicious|r]|h: I found 76K on a german realm... i have no clue why i have them there",
+					["serverTime"] = 1603025334,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						4, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198483.708,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:49:09]|h|r |cffb2b2b2[14:49]|r |Hchannel:GUILD|h[G]|h |Hplayer:Fetalicious-TarrenMill:3643:GUILD:|h[|cfffefefeFetalicious|r]|h: on my lvl 1 gold collecting chat ",
+					["serverTime"] = 1603025348,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						4, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198496.926,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:49:11]|h|r |cffb2b2b2[14:49]|r |Hchannel:GUILD|h[G]|h |Hplayer:Fetalicious-TarrenMill:3645:GUILD:|h[|cfffefefeFetalicious|r]|h: *char",
+					["serverTime"] = 1603025350,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						4, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198499.643,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:50:21]|h|r |cffb2b2b2[14:50]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eierio-TarrenMill:3663:GUILD:|h[|cfffefefeEierio|r]|h: rdy bob",
+					["serverTime"] = 1603025420,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						37, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198569.215,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:50:46]|h|r |cffb2b2b2[14:50]|r |Hchannel:GUILD|h[G]|h |Hplayer:Fetalicious-TarrenMill:3670:GUILD:|h[|cfffefefeFetalicious|r]|h: same",
+					["serverTime"] = 1603025445,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						4, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198594.284,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:50:49]|h|r |cffb2b2b2[14:50]|r |Hchannel:GUILD|h[G]|h |Hplayer:Bóbalót-TarrenMill:3671:GUILD:|h[|cff00fe97Bóbalót|r]|h: who else is coming for FH+14",
+					["serverTime"] = 1603025448,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						8, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198597.501,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:51:11]|h|r |cffb2b2b2[14:51]|r |Hchannel:GUILD|h[G]|h |Hplayer:Himmeldin-TarrenMill:3680:GUILD:|h[|cfff38bb9Himmeldin|r]|h: Its just my little brother :)",
+					["serverTime"] = 1603025470,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						40, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198619.719,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:51:14]|h|r |cffb2b2b2[14:51]|r |Hchannel:GUILD|h[G]|h |Hplayer:Himmeldin-TarrenMill:3682:GUILD:|h[|cfff38bb9Himmeldin|r]|h: Hope its aight",
+					["serverTime"] = 1603025473,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						40, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198622.286,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:08:02]|h|r |cffb2b2b2[14:08]|r |Hchannel:GUILD|h[G]|h |Hplayer:Wizkíd-TarrenMill:1773:GUILD:|h[|cfffefefeWizkíd|r]|h: :P",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 198219.259,
+					["serverTime"] = 1603022881,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						29, -- [3]
+						["n"] = 3,
+					},
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:08:05]|h|r |cffb2b2b2[14:08]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:1774:GUILD:|h[|cff006fdcEokira|r]|h: but i fucking love surrender now",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 198219.259,
+					["serverTime"] = 1603022884,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						166, -- [3]
+						["n"] = 3,
+					},
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:08:43]|h|r |cffb2b2b2[14:08]|r |Hchannel:GUILD|h[G]|h |Hplayer:Wizkíd-TarrenMill:1778:GUILD:|h[|cfffefefeWizkíd|r]|h: yeah, it's a fun ability ",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 198219.259,
+					["serverTime"] = 1603022922,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						29, -- [3]
+						["n"] = 3,
+					},
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:09:11]|h|r |cffb2b2b2[14:09]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:1781:GUILD:|h[|cff006fdcEokira|r]|h: sanguine week has been questionable for it",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 198219.259,
+					["serverTime"] = 1603022950,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						166, -- [3]
+						["n"] = 3,
+					},
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:09:16]|h|r |cffb2b2b2[14:09]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:1782:GUILD:|h[|cff006fdcEokira|r]|h: tank leaves your surrender target in a pool",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 198219.259,
+					["serverTime"] = 1603022955,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						166, -- [3]
+						["n"] = 3,
+					},
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:09:22]|h|r |cffb2b2b2[14:09]|r |Hchannel:GUILD|h[G]|h |Hplayer:Wizkíd-TarrenMill:1783:GUILD:|h[|cfffefefeWizkíd|r]|h: xD",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 198219.259,
+					["serverTime"] = 1603022961,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						29, -- [3]
+						["n"] = 3,
+					},
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:09:26]|h|r |cffb2b2b2[14:09]|r |Hchannel:GUILD|h[G]|h |Hplayer:Wizkíd-TarrenMill:1786:GUILD:|h[|cfffefefeWizkíd|r]|h: griefing",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 198219.259,
+					["serverTime"] = 1603022965,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						29, -- [3]
+						["n"] = 3,
+					},
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:09:28]|h|r |cffb2b2b2[14:09]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:1788:GUILD:|h[|cff006fdcEokira|r]|h: Final Destination: Surrender to Madness",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 198219.259,
+					["serverTime"] = 1603022967,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						166, -- [3]
+						["n"] = 3,
+					},
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:09:39]|h|r |cffb2b2b2[14:09]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:1790:GUILD:|h[|cff006fdcEokira|r]|h: that implies they know what happened kek",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 198219.259,
+					["serverTime"] = 1603022978,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						166, -- [3]
+						["n"] = 3,
+					},
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:10:21]|h|r |cffb2b2b2[14:10]|r |Hchannel:GUILD|h[G]|h |Hplayer:Wizkíd-TarrenMill:1797:GUILD:|h[|cfffefefeWizkíd|r]|h: Just blame it on them",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 198219.259,
+					["serverTime"] = 1603023020,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						29, -- [3]
+						["n"] = 3,
+					},
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:10:22]|h|r |cffb2b2b2[14:10]|r |Hchannel:GUILD|h[G]|h |Hplayer:Wizkíd-TarrenMill:1799:GUILD:|h[|cfffefefeWizkíd|r]|h: easy",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 198219.259,
+					["serverTime"] = 1603023021,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						29, -- [3]
+						["n"] = 3,
+					},
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:10:28]|h|r |cffb2b2b2[14:10]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:1800:GUILD:|h[|cff006fdcEokira|r]|h: ah makes sense",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 198219.259,
+					["serverTime"] = 1603023027,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						166, -- [3]
+						["n"] = 3,
+					},
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:11:48]|h|r |cffb2b2b2[14:11]|r |Hchannel:GUILD|h[G]|h |Hplayer:Fetalicious-TarrenMill:1812:GUILD:|h[|cfffefefeFetalicious|r]|h: |cff71d5ff|Htalent:21979|h[Surrender to Madness]|h|r is not the best talent this week ^^ ",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 198219.259,
+					["serverTime"] = 1603023107,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						2, -- [3]
+						["n"] = 3,
+					},
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:12:06]|h|r |cffb2b2b2[14:12]|r |Hchannel:GUILD|h[G]|h |Hplayer:Fetalicious-TarrenMill:1815:GUILD:|h[|cfffefefeFetalicious|r]|h: except your are on voice and can ask the other to focus it ^^ ",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 198219.259,
+					["serverTime"] = 1603023125,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						2, -- [3]
+						["n"] = 3,
+					},
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:12:12]|h|r |cffb2b2b2[14:12]|r |Hchannel:GUILD|h[G]|h |Hplayer:Fetalicious-TarrenMill:1817:GUILD:|h[|cfffefefeFetalicious|r]|h: *others",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 198219.259,
+					["serverTime"] = 1603023131,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						2, -- [3]
+						["n"] = 3,
+					},
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:12:29]|h|r |cffb2b2b2[14:12]|r |Hchannel:GUILD|h[G]|h |Hplayer:Fetalicious-TarrenMill:1820:GUILD:|h[|cfffefefeFetalicious|r]|h: not even my guardian works with this talent :( ",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 198219.259,
+					["serverTime"] = 1603023148,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						2, -- [3]
+						["n"] = 3,
+					},
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:12:33]|h|r |cffb2b2b2[14:12]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:1821:GUILD:|h[|cff006fdcEokira|r]|h: you can use it just for the void form tbf",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 198219.259,
+					["serverTime"] = 1603023152,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						166, -- [3]
+						["n"] = 3,
+					},
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:12:53]|h|r |cffb2b2b2[14:12]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:1822:GUILD:|h[|cff006fdcEokira|r]|h: but the double gen + casting while moving is the coolest shit ever",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 198219.259,
+					["serverTime"] = 1603023172,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						166, -- [3]
+						["n"] = 3,
+					},
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:13:05]|h|r |cffb2b2b2[14:13]|r |Hchannel:GUILD|h[G]|h |Hplayer:Wizkíd-TarrenMill:1825:GUILD:|h[|cfffefefeWizkíd|r]|h: wonder if it works on critters",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 198219.259,
+					["serverTime"] = 1603023184,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						29, -- [3]
+						["n"] = 3,
+					},
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:13:12]|h|r |cffb2b2b2[14:13]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:1826:GUILD:|h[|cff006fdcEokira|r]|h: it one shots them",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 198219.259,
+					["serverTime"] = 1603023191,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						166, -- [3]
+						["n"] = 3,
+					},
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:13:23]|h|r |cffb2b2b2[14:13]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:1829:GUILD:|h[|cff006fdcEokira|r]|h: but should give you a form ye",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 198219.259,
+					["serverTime"] = 1603023202,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						166, -- [3]
+						["n"] = 3,
+					},
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:13:39]|h|r |cffb2b2b2[14:13]|r |Hchannel:GUILD|h[G]|h |Hplayer:Wizkíd-TarrenMill:1831:GUILD:|h[|cfffefefeWizkíd|r]|h: but does it count as the target dying?",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 198219.259,
+					["serverTime"] = 1603023218,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						29, -- [3]
+						["n"] = 3,
+					},
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:13:52]|h|r |cffb2b2b2[14:13]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:1834:GUILD:|h[|cff006fdcEokira|r]|h: its tracked via debuff on them ",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 198219.259,
+					["serverTime"] = 1603023231,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						166, -- [3]
+						["n"] = 3,
+					},
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:13:57]|h|r |cffb2b2b2[14:13]|r |Hchannel:GUILD|h[G]|h |Hplayer:Wizkíd-TarrenMill:1835:GUILD:|h[|cfffefefeWizkíd|r]|h: aww",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 198219.259,
+					["serverTime"] = 1603023236,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						29, -- [3]
+						["n"] = 3,
+					},
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:13:58]|h|r |cffb2b2b2[14:13]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:1836:GUILD:|h[|cff006fdcEokira|r]|h: so if the target doesnt exist it should",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 198219.259,
+					["serverTime"] = 1603023237,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						166, -- [3]
+						["n"] = 3,
+					},
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:14:47]|h|r |cffb2b2b2[14:14]|r |Hchannel:GUILD|h[G]|h |Hplayer:Wizkíd-TarrenMill:1848:GUILD:|h[|cfffefefeWizkíd|r]|h: seems to work",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 198219.259,
+					["serverTime"] = 1603023286,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						29, -- [3]
+						["n"] = 3,
+					},
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:14:54]|h|r |cffb2b2b2[14:14]|r |Hchannel:GUILD|h[G]|h |Hplayer:Wizkíd-TarrenMill:1849:GUILD:|h[|cfffefefeWizkíd|r]|h: didnt die anyway",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 198219.259,
+					["serverTime"] = 1603023293,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						29, -- [3]
+						["n"] = 3,
+					},
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:14:58]|h|r |cffb2b2b2[14:14]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:1850:GUILD:|h[|cff006fdcEokira|r]|h: pog",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 198219.259,
+					["serverTime"] = 1603023297,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						166, -- [3]
+						["n"] = 3,
+					},
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:15:12]|h|r |cffb2b2b2[14:15]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:1851:GUILD:|h[|cff006fdcEokira|r]|h: at worst its a second void form charge",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 198219.259,
+					["serverTime"] = 1603023311,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						166, -- [3]
+						["n"] = 3,
+					},
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:15:22]|h|r |cffb2b2b2[14:15]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:1854:GUILD:|h[|cff006fdcEokira|r]|h: at best its crack cocaine void form",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 198219.259,
+					["serverTime"] = 1603023321,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						166, -- [3]
+						["n"] = 3,
+					},
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:15:27]|h|r |cffb2b2b2[14:15]|r |Hchannel:GUILD|h[G]|h |Hplayer:Wizkíd-TarrenMill:1858:GUILD:|h[|cfffefefeWizkíd|r]|h: :D",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 198219.259,
+					["serverTime"] = 1603023326,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						29, -- [3]
+						["n"] = 3,
+					},
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:15:42]|h|r |cffb2b2b2[14:15]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:1861:GUILD:|h[|cff006fdcEokira|r]|h: best shit is get a wave of SA going to a pack first",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 198219.259,
+					["serverTime"] = 1603023341,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						166, -- [3]
+						["n"] = 3,
+					},
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:15:47]|h|r |cffb2b2b2[14:15]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:1862:GUILD:|h[|cff006fdcEokira|r]|h: then StM",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 198219.259,
+					["serverTime"] = 1603023346,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						166, -- [3]
+						["n"] = 3,
+					},
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:16:01]|h|r |cffb2b2b2[14:16]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:1865:GUILD:|h[|cff006fdcEokira|r]|h: and you can spam DP for a solid 6 sec from the insanity when they land",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 198219.259,
+					["serverTime"] = 1603023360,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						166, -- [3]
+						["n"] = 3,
+					},
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:16:09]|h|r |cffb2b2b2[14:16]|r |Hchannel:GUILD|h[G]|h |Hplayer:Wizkíd-TarrenMill:1870:GUILD:|h[|cfffefefeWizkíd|r]|h: lmao",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 198219.259,
+					["serverTime"] = 1603023368,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						29, -- [3]
+						["n"] = 3,
+					},
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:16:27]|h|r |cffb2b2b2[14:16]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:1882:GUILD:|h[|cff006fdcEokira|r]|h: its just awkward at high counts you dont do that xD",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 198219.259,
+					["serverTime"] = 1603023386,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						166, -- [3]
+						["n"] = 3,
+					},
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:17:06]|h|r |cffb2b2b2[14:17]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:1901:GUILD:|h[|cff006fdcEokira|r]|h: i say that but apparently its 4 targets you use SN rip",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 198219.259,
+					["serverTime"] = 1603023425,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						166, -- [3]
+						["n"] = 3,
+					},
+				}, -- [51]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:17:12]|h|r |cffb2b2b2[14:17]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:1902:GUILD:|h[|cff006fdcEokira|r]|h: as a filler i guess",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 198219.259,
+					["serverTime"] = 1603023431,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						166, -- [3]
+						["n"] = 3,
+					},
+				}, -- [52]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:17:36]|h|r |cffb2b2b2[14:17]|r |Hchannel:GUILD|h[G]|h |Hplayer:Wizkíd-TarrenMill:1906:GUILD:|h[|cfffefefeWizkíd|r]|h: ahh okay",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 198219.259,
+					["serverTime"] = 1603023455,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						29, -- [3]
+						["n"] = 3,
+					},
+				}, -- [53]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:18:19]|h|r |cffb2b2b2[14:18]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:1909:GUILD:|h[|cff006fdcEokira|r]|h: ye im not completely comfortable with it yet",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 198219.259,
+					["serverTime"] = 1603023498,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						166, -- [3]
+						["n"] = 3,
+					},
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:18:23]|h|r |cffb2b2b2[14:18]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:1911:GUILD:|h[|cff006fdcEokira|r]|h: feels weird",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 198219.259,
+					["serverTime"] = 1603023502,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						166, -- [3]
+						["n"] = 3,
+					},
+				}, -- [55]
+				{
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 26 |4minute:minutes;, 9 |4second:seconds;",
+					["timestamp"] = 198219.259,
+				}, -- [56]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 198219.259,
+				}, -- [57]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:44:31]|h|r |cffb2b2b2[14:07]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:1762:GUILD:|h[|cff006fdcEokira|r]|h: gameplay wise anyway",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						2, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198219.259,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [58]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:44:31]|h|r |cffb2b2b2[14:08]|r |Hchannel:GUILD|h[G]|h |Hplayer:Wizkíd-TarrenMill:1771:GUILD:|h[|cfffefefeWizkíd|r]|h: who needs VT on everything when you can spam that",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						3, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198219.259,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [59]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:44:31]|h|r |cffb2b2b2[14:08]|r |Hchannel:GUILD|h[G]|h |Hplayer:Wizkíd-TarrenMill:1773:GUILD:|h[|cfffefefeWizkíd|r]|h: :P",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						3, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198219.259,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [60]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:44:31]|h|r |cffb2b2b2[14:08]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:1774:GUILD:|h[|cff006fdcEokira|r]|h: but i fucking love surrender now",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						2, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198219.259,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [61]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:44:31]|h|r |cffb2b2b2[14:08]|r |Hchannel:GUILD|h[G]|h |Hplayer:Wizkíd-TarrenMill:1778:GUILD:|h[|cfffefefeWizkíd|r]|h: yeah, it's a fun ability ",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						3, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198219.259,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [62]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:44:31]|h|r |cffb2b2b2[14:09]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:1781:GUILD:|h[|cff006fdcEokira|r]|h: sanguine week has been questionable for it",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						2, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198219.259,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [63]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:44:31]|h|r |cffb2b2b2[14:09]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:1782:GUILD:|h[|cff006fdcEokira|r]|h: tank leaves your surrender target in a pool",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						2, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198219.259,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [64]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:44:31]|h|r |cffb2b2b2[14:09]|r |Hchannel:GUILD|h[G]|h |Hplayer:Wizkíd-TarrenMill:1783:GUILD:|h[|cfffefefeWizkíd|r]|h: xD",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						3, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198219.259,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [65]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:44:31]|h|r |cffb2b2b2[14:09]|r |Hchannel:GUILD|h[G]|h |Hplayer:Wizkíd-TarrenMill:1786:GUILD:|h[|cfffefefeWizkíd|r]|h: griefing",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						3, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198219.259,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [66]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:44:31]|h|r |cffb2b2b2[14:09]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:1788:GUILD:|h[|cff006fdcEokira|r]|h: Final Destination: Surrender to Madness",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						2, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198219.259,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [67]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:44:31]|h|r |cffb2b2b2[14:09]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:1790:GUILD:|h[|cff006fdcEokira|r]|h: that implies they know what happened kek",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						2, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198219.259,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [68]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:44:31]|h|r |cffb2b2b2[14:10]|r |Hchannel:GUILD|h[G]|h |Hplayer:Wizkíd-TarrenMill:1797:GUILD:|h[|cfffefefeWizkíd|r]|h: Just blame it on them",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						3, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198219.259,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [69]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:44:31]|h|r |cffb2b2b2[14:10]|r |Hchannel:GUILD|h[G]|h |Hplayer:Wizkíd-TarrenMill:1799:GUILD:|h[|cfffefefeWizkíd|r]|h: easy",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						3, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198219.259,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [70]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:44:31]|h|r |cffb2b2b2[14:10]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:1800:GUILD:|h[|cff006fdcEokira|r]|h: ah makes sense",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						2, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198219.259,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [71]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:44:31]|h|r |cffb2b2b2[14:11]|r |Hchannel:GUILD|h[G]|h |Hplayer:Fetalicious-TarrenMill:1812:GUILD:|h[|cfffefefeFetalicious|r]|h: |cff71d5ff|Htalent:21979|h[Surrender to Madness]|h|r is not the best talent this week ^^ ",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						4, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198219.259,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [72]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:44:31]|h|r |cffb2b2b2[14:12]|r |Hchannel:GUILD|h[G]|h |Hplayer:Fetalicious-TarrenMill:1815:GUILD:|h[|cfffefefeFetalicious|r]|h: except your are on voice and can ask the other to focus it ^^ ",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						4, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198219.259,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [73]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:44:31]|h|r |cffb2b2b2[14:12]|r |Hchannel:GUILD|h[G]|h |Hplayer:Fetalicious-TarrenMill:1817:GUILD:|h[|cfffefefeFetalicious|r]|h: *others",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						4, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198219.259,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [74]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:44:31]|h|r |cffb2b2b2[14:12]|r |Hchannel:GUILD|h[G]|h |Hplayer:Fetalicious-TarrenMill:1820:GUILD:|h[|cfffefefeFetalicious|r]|h: not even my guardian works with this talent :( ",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						4, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198219.259,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [75]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:44:31]|h|r |cffb2b2b2[14:12]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:1821:GUILD:|h[|cff006fdcEokira|r]|h: you can use it just for the void form tbf",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						2, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198219.259,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [76]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:44:31]|h|r |cffb2b2b2[14:12]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:1822:GUILD:|h[|cff006fdcEokira|r]|h: but the double gen + casting while moving is the coolest shit ever",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						2, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198219.259,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [77]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:44:31]|h|r |cffb2b2b2[14:13]|r |Hchannel:GUILD|h[G]|h |Hplayer:Wizkíd-TarrenMill:1825:GUILD:|h[|cfffefefeWizkíd|r]|h: wonder if it works on critters",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						3, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198219.259,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [78]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:44:31]|h|r |cffb2b2b2[14:13]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:1826:GUILD:|h[|cff006fdcEokira|r]|h: it one shots them",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						2, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198219.259,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [79]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:44:31]|h|r |cffb2b2b2[14:13]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:1829:GUILD:|h[|cff006fdcEokira|r]|h: but should give you a form ye",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						2, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198219.259,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [80]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:44:31]|h|r |cffb2b2b2[14:13]|r |Hchannel:GUILD|h[G]|h |Hplayer:Wizkíd-TarrenMill:1831:GUILD:|h[|cfffefefeWizkíd|r]|h: but does it count as the target dying?",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						3, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198219.259,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [81]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:44:31]|h|r |cffb2b2b2[14:13]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:1834:GUILD:|h[|cff006fdcEokira|r]|h: its tracked via debuff on them ",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						2, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198219.259,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [82]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:44:31]|h|r |cffb2b2b2[14:13]|r |Hchannel:GUILD|h[G]|h |Hplayer:Wizkíd-TarrenMill:1835:GUILD:|h[|cfffefefeWizkíd|r]|h: aww",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						3, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198219.259,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [83]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:44:31]|h|r |cffb2b2b2[14:13]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:1836:GUILD:|h[|cff006fdcEokira|r]|h: so if the target doesnt exist it should",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						2, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198219.259,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [84]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:44:31]|h|r |cffb2b2b2[14:14]|r |Hchannel:GUILD|h[G]|h |Hplayer:Wizkíd-TarrenMill:1848:GUILD:|h[|cfffefefeWizkíd|r]|h: seems to work",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						3, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198219.259,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [85]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:44:31]|h|r |cffb2b2b2[14:14]|r |Hchannel:GUILD|h[G]|h |Hplayer:Wizkíd-TarrenMill:1849:GUILD:|h[|cfffefefeWizkíd|r]|h: didnt die anyway",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						3, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198219.259,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [86]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:44:31]|h|r |cffb2b2b2[14:14]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:1850:GUILD:|h[|cff006fdcEokira|r]|h: pog",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						2, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198219.259,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [87]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:44:31]|h|r |cffb2b2b2[14:15]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:1851:GUILD:|h[|cff006fdcEokira|r]|h: at worst its a second void form charge",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						2, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198219.259,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [88]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:44:31]|h|r |cffb2b2b2[14:15]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:1854:GUILD:|h[|cff006fdcEokira|r]|h: at best its crack cocaine void form",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						2, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198219.259,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [89]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:44:31]|h|r |cffb2b2b2[14:15]|r |Hchannel:GUILD|h[G]|h |Hplayer:Wizkíd-TarrenMill:1858:GUILD:|h[|cfffefefeWizkíd|r]|h: :D",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						3, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198219.259,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [90]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:44:31]|h|r |cffb2b2b2[14:15]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:1861:GUILD:|h[|cff006fdcEokira|r]|h: best shit is get a wave of SA going to a pack first",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						2, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198219.259,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [91]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:44:31]|h|r |cffb2b2b2[14:15]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:1862:GUILD:|h[|cff006fdcEokira|r]|h: then StM",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						2, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198219.259,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [92]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:44:31]|h|r |cffb2b2b2[14:16]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:1865:GUILD:|h[|cff006fdcEokira|r]|h: and you can spam DP for a solid 6 sec from the insanity when they land",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						2, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198219.259,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [93]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:44:31]|h|r |cffb2b2b2[14:16]|r |Hchannel:GUILD|h[G]|h |Hplayer:Wizkíd-TarrenMill:1870:GUILD:|h[|cfffefefeWizkíd|r]|h: lmao",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						3, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198219.259,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [94]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:44:31]|h|r |cffb2b2b2[14:16]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:1882:GUILD:|h[|cff006fdcEokira|r]|h: its just awkward at high counts you dont do that xD",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						2, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198219.259,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [95]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:44:31]|h|r |cffb2b2b2[14:17]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:1901:GUILD:|h[|cff006fdcEokira|r]|h: i say that but apparently its 4 targets you use SN rip",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						2, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198219.259,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [96]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:44:31]|h|r |cffb2b2b2[14:17]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:1902:GUILD:|h[|cff006fdcEokira|r]|h: as a filler i guess",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						2, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198219.259,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [97]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:44:31]|h|r |cffb2b2b2[14:17]|r |Hchannel:GUILD|h[G]|h |Hplayer:Wizkíd-TarrenMill:1906:GUILD:|h[|cfffefefeWizkíd|r]|h: ahh okay",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						3, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198219.259,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [98]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:44:31]|h|r |cffb2b2b2[14:18]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:1909:GUILD:|h[|cff006fdcEokira|r]|h: ye im not completely comfortable with it yet",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						2, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198219.259,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [99]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:44:31]|h|r |cffb2b2b2[14:18]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:1911:GUILD:|h[|cff006fdcEokira|r]|h: feels weird",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						2, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198219.259,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [100]
+			},
+			["maxElements"] = 100,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 100,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame7"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 100,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame6"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 100,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame8"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 100,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame10"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 100,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame9"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 100,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 17,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:50:43]|h|r |cffb2b2b2[14:50]|r |Hchannel:channel:2|h[2]|h |Hplayer:Robbmage-TarrenMill:3669:2|h[|cff3ec6eaRobbmage|r]|h: classic was never hard ",
+					["serverTime"] = 1603025442,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						10, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198591.484,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:50:46]|h|r |cffb2b2b2[14:50]|r |Hchannel:GUILD|h[G]|h |Hplayer:Fetalicious-TarrenMill:3670:GUILD:|h[|cfffefefeFetalicious|r]|h: same",
+					["serverTime"] = 1603025445,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						4, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198594.284,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:50:49]|h|r |cffb2b2b2[14:50]|r |Hchannel:GUILD|h[G]|h |Hplayer:Bóbalót-TarrenMill:3671:GUILD:|h[|cff00fe97Bóbalót|r]|h: who else is coming for FH+14",
+					["serverTime"] = 1603025448,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						8, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198597.501,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:50:50]|h|r |cffb2b2b2[14:50]|r |Hchannel:channel:2|h[2]|h |Hplayer:Oblivionyes-TarrenMill:3672:2|h[|cff006fdcOblivionyes|r]|h: Oblivion WTS|cffffff00|Hachievement:14055:Player-1084-09CE3B81:0:0:0:-1:0:0:0:0|h[Mythic: N'Zoth the Corruptor]|h|r |cffffff00|Hachievement:14137:Player-1084-09CE3B81:0:0:0:-1:0:0:0:0|h[N'Zoth the Corruptor kills (Heroic Ny'alotha, the Waking City)]|h|r |cffffff00|Hachievement:14146:Player-1084-09CE3B81:0:0:0:-1:0:0:0:0|h[Glory of the Ny'alotha Raider]|h|r & 12/12 HC & Mythic, Loot share &  Jaina/Vision/Mounts & Azshara!  M+ LVL 15+25 In time, message me , only gold! ",
+					["serverTime"] = 1603025449,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						38, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198598.284,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:50:54]|h|r |cffb2b2b2[14:50]|r |Hchannel:channel:2|h[2]|h |Hplayer:Azym-TarrenMill:3674:2|h[|cff006fdcAzym|r]|h: classis cant is hard the same way clash of clans is",
+					["serverTime"] = 1603025453,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						15, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198601.951,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:50:54]|h|r |cffb2b2b2[14:50]|r |Hchannel:channel:2|h[2]|h |Hplayer:Primortus-Dentarg:3675:2|h[|cffc31d39Primortus-Dentarg|r]|h: <Crits N Gigs> recruiting! New TarrenMill/Dentarg guild is LFM for all kinds of content in prepatch and Shadowlands!",
+					["serverTime"] = 1603025453,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						11, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198602.434,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:50:55]|h|r |cffb2b2b2[14:50]|r |Hchannel:channel:2|h[2]|h |Hplayer:Kiluh-TarrenMill:3676:2|h[|cfffe7b09Kiluh|r]|h: Lmao classic is piss easy",
+					["serverTime"] = 1603025454,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						39, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198603.735,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:51:01]|h|r |cffb2b2b2[14:51]|r |Hchannel:channel:2|h[2]|h |Hplayer:Robbmage-TarrenMill:3677:2|h[|cff3ec6eaRobbmage|r]|h: carebear mmos are not hard",
+					["serverTime"] = 1603025460,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						10, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198609.235,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:51:03]|h|r |cffb2b2b2[14:51]|r Bahati-TarrenMill has joined the guild.",
+					["serverTime"] = 1603025462,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 198610.852,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:51:03]|h|r |cffb2b2b2[14:51]|r |Hplayer:Bahati|h[Bahati]|h has come online.",
+					["serverTime"] = 1603025462,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 198610.852,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:51:11]|h|r |cffb2b2b2[14:51]|r |Hchannel:GUILD|h[G]|h |Hplayer:Himmeldin-TarrenMill:3680:GUILD:|h[|cfff38bb9Himmeldin|r]|h: Its just my little brother :)",
+					["serverTime"] = 1603025470,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						40, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198619.719,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:51:14]|h|r |cffb2b2b2[14:51]|r |Hchannel:GUILD|h[G]|h |Hplayer:Himmeldin-TarrenMill:3682:GUILD:|h[|cfff38bb9Himmeldin|r]|h: Hope its aight",
+					["serverTime"] = 1603025473,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						40, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198622.286,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:51:18]|h|r |cffb2b2b2[14:51]|r |Hchannel:channel:2|h[2]|h |Hplayer:Màrsh-TarrenMill:3685:2|h[|cffa9d271Màrsh|r]|h: well dang, it's just how i experience it, calm down, love",
+					["serverTime"] = 1603025477,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						33, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198626.52,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:51:22]|h|r |cffb2b2b2[14:51]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sylvaboostt-TarrenMill:3691:2|h[|cfff38bb9Sylvaboostt|r]|h: Sylvanas Community||^ FREE ARMOR STACK ^ ||^M+15 JUST FOR 100k ^|| M+16 JUST 140k || 3x run +15 285k  ||  5x run +15 420k || Horrific Visions ||  Ny'alotha HC  / Mythic / Nzoth MOUNT  TONGIHT  || Jaina MounT 300k NOW || PVP Boost || LVL UP BOOST",
+					["serverTime"] = 1603025481,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						21, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198630.287,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:51:24]|h|r |cffb2b2b2[14:51]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sylvnasboost-TarrenMill:3694:2|h[|cffc59a6cSylvnasboost|r]|h: FREE ARMOR STACK (Sylvanas Boost Community )  +14 [100K]/+15 [100k] / x5 M+ 15 [ 420k] /+16 [140k] / +17 [200k]  / 18 [250k]/ Nylotha HC  / JAINA MOUNT ( BEAST DEAL ON MYTHIC NYLOTHA 12/12 MYTHIC  LIMITED SPOTS ! )",
+					["serverTime"] = 1603025483,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						6, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198631.953,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:51:32]|h|r |cffb2b2b2[14:51]|r |Hchannel:channel:2|h[2]|h |Hplayer:Robbmage-TarrenMill:3701:2|h[|cff3ec6eaRobbmage|r]|h: u ppl never played real mmos where u lose xp and gear ",
+					["serverTime"] = 1603025491,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						10, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198640.004,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:51:32]|h|r |cffb2b2b2[14:51]|r |Hchannel:channel:2|h[2]|h |Hplayer:Azym-TarrenMill:3702:2|h[|cff006fdcAzym|r]|h: wow we cleared the boss that has less mechanics than certain quest mobs now",
+					["serverTime"] = 1603025491,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						15, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198640.004,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:45:27]|h|r |cffb2b2b2[14:45]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sloppysaurus-TarrenMill:3586:2|h[|cfffe7b09Sloppysaurus|r]|h: totally not a scam but if you have to much money just mail me then i can hold them for you. ",
+					["serverTime"] = 1603025126,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						17, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198274.909,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:45:39]|h|r |cffb2b2b2[14:45]|r |Hchannel:GUILD|h[G]|h |Hplayer:Bóbalót-TarrenMill:3587:GUILD:|h[|cff00fe97Bóbalót|r]|h: my biggest thing is because I did very few keys this tier, I don't really know the skip routes for the 10+ keys :(",
+					["serverTime"] = 1603025138,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						8, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198287.093,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:45:48]|h|r |cffb2b2b2[14:45]|r |Hchannel:channel:2|h[2]|h |Hplayer:Dejávoodoo-TarrenMill:3588:2|h[|cff8687edDejávoodoo|r]|h: good shot for bad boy, thnaks :)",
+					["serverTime"] = 1603025147,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						18, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198295.927,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:45:49]|h|r |cffb2b2b2[14:45]|r |Hchannel:channel:2|h[2]|h |Hplayer:Azym-TarrenMill:3589:2|h[|cff006fdcAzym|r]|h: im a student lol i have negative money you accept that?",
+					["serverTime"] = 1603025148,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						15, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198297.761,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:45:52]|h|r |cffb2b2b2[14:45]|r |Hchannel:channel:2|h[2]|h |Hplayer:Dejávoodoo-TarrenMill:3591:2|h[|cff8687edDejávoodoo|r]|h: shout*",
+					["serverTime"] = 1603025151,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						18, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198300.461,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:45:54]|h|r |cffb2b2b2[14:45]|r Type '/help' for a listing of a few commands.",
+					["serverTime"] = 1603025153,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 198302.161,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:46:04]|h|r |cffb2b2b2[14:46]|r |Hchannel:channel:2|h[2]|h |Hplayer:Shutbox-TarrenMill:3592:2|h[|cffc59a6cShutbox|r]|h: just suck some pp on the docks",
+					["serverTime"] = 1603025163,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						19, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198312.679,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:46:07]|h|r |cffb2b2b2[14:46]|r |Hchannel:channel:2|h[2]|h |Hplayer:Bjernikus-TarrenMill:3593:2|h[|cfffe7b09Bjernikus|r]|h: Yeah bad boy for president",
+					["serverTime"] = 1603025166,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						20, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198315.645,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:46:18]|h|r |cffb2b2b2[14:46]|r |Hchannel:channel:2|h[2]|h |Hplayer:Robbmage-TarrenMill:3594:2|h[|cff3ec6eaRobbmage|r]|h: u never ever pay for gold when u pay monthly to play make no sence",
+					["serverTime"] = 1603025177,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						10, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198326.28,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:46:18]|h|r |cffb2b2b2[14:46]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:3595:GUILD:|h[|cff006fdcEokira|r]|h: i mean it doesnt really matter if we time them",
+					["serverTime"] = 1603025177,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						2, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198326.28,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:46:21]|h|r |cffb2b2b2[14:46]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sylvnasboost-TarrenMill:3596:2|h[|cffc59a6cSylvnasboost|r]|h: FREE ARMOR STACK (Sylvanas Boost Community )  +14 [100K]/+15 [100k] / x5 M+ 15 [ 420k] /+16 [140k] / +17 [200k]  / 18 [250k]/ Nylotha HC  / JAINA MOUNT ( BEAST DEAL ON MYTHIC NYLOTHA 12/12 MYTHIC  LIMITED SPOTS ! )",
+					["serverTime"] = 1603025180,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						6, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198329.396,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:46:22]|h|r |cffb2b2b2[14:46]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sylvaboostt-TarrenMill:3597:2|h[|cfff38bb9Sylvaboostt|r]|h: Sylvanas Community||^ FREE ARMOR STACK ^ ||^M+15 JUST FOR 100k ^|| M+16 JUST 140k || 3x run +15 285k  ||  5x run +15 420k || Horrific Visions ||  Ny'alotha HC  / Mythic / Nzoth MOUNT  TONGIHT  || Jaina MounT 300k NOW || PVP Boost || LVL UP BOOST",
+					["serverTime"] = 1603025181,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						21, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198330.43,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:46:23]|h|r |cffb2b2b2[14:46]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eokira-TarrenMill:3598:GUILD:|h[|cff006fdcEokira|r]|h: you just wanna practice your tank stuff rite",
+					["serverTime"] = 1603025182,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						2, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198331.163,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:46:23]|h|r |cffb2b2b2[14:46]|r |Hchannel:channel:2|h[2]|h |Hplayer:Trylas-TarrenMill:3599:2|h[|cfff38bb9Trylas|r]|h: d",
+					["serverTime"] = 1603025182,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						22, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198331.747,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:46:23]|h|r |cffb2b2b2[14:46]|r |Hchannel:channel:2|h[2]|h |Hplayer:Summerrain-TarrenMill:3600:2|h[|cff8687edSummerrain|r]|h: yeah if you have to much gold, you can mail it to me. Just returned to game need 5k for epic flying lol.",
+					["serverTime"] = 1603025182,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						23, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198331.747,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:46:26]|h|r |cffb2b2b2[14:46]|r |Hchannel:channel:2|h[2]|h |Hplayer:Azym-TarrenMill:3601:2|h[|cff006fdcAzym|r]|h: bad boy should come preinstalled on all social media",
+					["serverTime"] = 1603025185,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						15, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198333.947,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:46:30]|h|r |cffb2b2b2[14:46]|r |Hchannel:GUILD|h[G]|h |Hplayer:Bóbalót-TarrenMill:3602:GUILD:|h[|cff00fe97Bóbalót|r]|h: yeah",
+					["serverTime"] = 1603025189,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						8, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198337.864,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:46:31]|h|r |cffb2b2b2[14:46]|r |Hchannel:channel:2|h[2]|h |Hplayer:Lodendulf-TarrenMill:3603:2|h[|cff00fe97Lodendulf|r]|h: WTS Boos lvlup 15-50",
+					["serverTime"] = 1603025190,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						24, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198339.464,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:46:37]|h|r |cffb2b2b2[14:46]|r |cff00fe95ElvUI:|r ElvUI is out of date. You can download the newest version from www.tukui.org. Get premium membership and have ElvUI automatically updated with the Tukui Client!",
+					["timestamp"] = 198345.398,
+					["extraData"] = {
+						["n"] = 3,
+					},
+					["serverTime"] = 1603025196,
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:46:55]|h|r |cffb2b2b2[14:46]|r |Hchannel:channel:2|h[2]|h |Hplayer:Robbmage-TarrenMill:3604:2|h[|cff3ec6eaRobbmage|r]|h: if u use social media u are a child",
+					["serverTime"] = 1603025214,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						10, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198363.416,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:46:56]|h|r |cffb2b2b2[14:46]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sylvnasboost-TarrenMill:3605:2|h[|cffc59a6cSylvnasboost|r]|h: FREE ARMOR STACK (Sylvanas Boost Community )  +14 [100K]/+15 [100k] / x5 M+ 15 [ 420k] /+16 [140k] / +17 [200k]  / 18 [250k]/ Nylotha HC  / JAINA MOUNT ( BEAST DEAL ON MYTHIC NYLOTHA 12/12 MYTHIC  LIMITED SPOTS ! )",
+					["serverTime"] = 1603025215,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						6, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198364.016,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:47:06]|h|r |cffb2b2b2[14:47]|r |Hchannel:channel:2|h[2]|h |Hplayer:Robbmage-TarrenMill:3606:2|h[|cff3ec6eaRobbmage|r]|h: sociual media is so usless",
+					["serverTime"] = 1603025225,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						10, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198374.4,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:47:12]|h|r |cffb2b2b2[14:47]|r |Hchannel:channel:2|h[2]|h |Hplayer:Azym-TarrenMill:3607:2|h[|cff006fdcAzym|r]|h: just run a few old raids you can get 5k in a hour",
+					["serverTime"] = 1603025231,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						15, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198379.967,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:47:22]|h|r |cffb2b2b2[14:47]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sylvaboostt-TarrenMill:3608:2|h[|cfff38bb9Sylvaboostt|r]|h: Sylvanas Community||^ FREE ARMOR STACK ^ ||^M+15 JUST FOR 100k ^|| M+16 JUST 140k || 3x run +15 285k  ||  5x run +15 420k || Horrific Visions ||  Ny'alotha HC  / Mythic / Nzoth MOUNT  TONGIHT  || Jaina MounT 300k NOW || PVP Boost || LVL UP BOOST",
+					["serverTime"] = 1603025241,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						21, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198390.335,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:47:23]|h|r |cffb2b2b2[14:47]|r |Hchannel:channel:2|h[2]|h |Hplayer:Novaboostqt-TarrenMill:3609:2|h[|cff8687edNovaboostqt|r]|h: < NOVA > is OFFERING TODAY Nyalotha Heroic 12/12 for 140k! VIP Traders for only 60k! also Nyalotha Mythic 12/12 +3Trader 4100k--/Nzoth MYTHIC+Mount for 2.2M--/Jaina mount: 350k / --/ [M+15=90k]Multipe runs discounts -/ 5Mask=70k--/Level up boost 10-50",
+					["serverTime"] = 1603025242,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						7, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198391.068,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:47:24]|h|r |cffb2b2b2[14:47]|r |Hchannel:channel:2|h[2]|h |Hplayer:Trylas-TarrenMill:3610:2|h[|cfff38bb9Trylas|r]|h: robb how old are you ",
+					["serverTime"] = 1603025243,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						22, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198392.435,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:47:30]|h|r |cffb2b2b2[14:47]|r |Hchannel:channel:2|h[2]|h |Hplayer:Bjernikus-TarrenMill:3612:2|h[|cfffe7b09Bjernikus|r]|h: we should revolt against social media",
+					["serverTime"] = 1603025249,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						20, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198398.018,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:47:36]|h|r |cffb2b2b2[14:47]|r |Hchannel:channel:2|h[2]|h |Hplayer:Rhódancílly-TarrenMill:3613:2|h[|cfffefefeRhódancílly|r]|h: loner boomer found",
+					["serverTime"] = 1603025255,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						25, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198403.952,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:47:40]|h|r |cffb2b2b2[14:47]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sloppysaurus-TarrenMill:3614:2|h[|cfffe7b09Sloppysaurus|r]|h: imagine doing content for the money i pay?",
+					["serverTime"] = 1603025259,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						17, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198407.786,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:47:40]|h|r |cffb2b2b2[14:47]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sloppysaurus-TarrenMill:3615:2|h[|cfffe7b09Sloppysaurus|r]|h: the fk",
+					["serverTime"] = 1603025259,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						17, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198408.536,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:47:42]|h|r |cffb2b2b2[14:47]|r |Hplayer:Fetalicious|h[Fetalicious]|h has come online.",
+					["serverTime"] = 1603025261,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 198410.019,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:47:45]|h|r |cffb2b2b2[14:47]|r Eokira has gone offline.",
+					["serverTime"] = 1603025264,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 198413.353,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:47:48]|h|r |cffb2b2b2[14:47]|r |Hchannel:channel:2|h[2]|h |Hplayer:Robbmage-TarrenMill:3618:2|h[|cff3ec6eaRobbmage|r]|h: older then u clearly im not a e begger ",
+					["serverTime"] = 1603025267,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						10, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198416.037,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:47:52]|h|r |cffb2b2b2[14:47]|r |Hchannel:channel:2|h[2]|h |Hplayer:Azym-TarrenMill:3619:2|h[|cff006fdcAzym|r]|h: you can tell rob is around 18 because he thinks he is cool because he is not a part of the system",
+					["serverTime"] = 1603025271,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						15, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198420.037,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [51]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:47:56]|h|r |cffb2b2b2[14:47]|r |Hchannel:channel:2|h[2]|h |Hplayer:Lodendulf-TarrenMill:3620:2|h[|cff00fe97Lodendulf|r]|h: WTS Boost lvlup 15-50",
+					["serverTime"] = 1603025275,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						24, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198423.971,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [52]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:47:56]|h|r |cffb2b2b2[14:47]|r |Hchannel:channel:2|h[2]|h |Hplayer:Trylas-TarrenMill:3621:2|h[|cfff38bb9Trylas|r]|h: think your grandkids want there computer back",
+					["serverTime"] = 1603025275,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						22, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198424.454,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [53]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:47:57]|h|r |cffb2b2b2[14:47]|r |Hchannel:channel:2|h[2]|h |Hplayer:Pandabears-TarrenMill:3622:2|h[|cfffe7b09Pandabears|r]|h: LF portal to shattrah",
+					["serverTime"] = 1603025276,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						26, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198424.987,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:48:01]|h|r |cffb2b2b2[14:48]|r |Hchannel:channel:2|h[2]|h [|cffE7E716Busy|r] |Hplayer:Berfikol-Dentarg:3623:2|h[|cff006fdcBerfikol-Dentarg|r]|h: WTS Ny’alotha Heroic 12/12+ Mythic; Capa  N’Zoth and N’Zoth Mythic and Heroic; M 15-23+ in time; 5 mask vision; Island Expeditions Heroic/ Mythic and PVP.",
+					["serverTime"] = 1603025280,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						27, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198429.004,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [55]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:48:03]|h|r |cffb2b2b2[14:48]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sylvnasboost-TarrenMill:3624:2|h[|cffc59a6cSylvnasboost|r]|h: FREE ARMOR STACK (Sylvanas Boost Community )  +14 [100K]/+15 [100k] / x5 M+ 15 [ 420k] /+16 [140k] / +17 [200k]  / 18 [250k]/ Nylotha HC  / JAINA MOUNT ( BEAST DEAL ON MYTHIC NYLOTHA 12/12 MYTHIC  LIMITED SPOTS ! )",
+					["serverTime"] = 1603025282,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						6, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198431.004,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [56]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:48:04]|h|r |cffb2b2b2[14:48]|r |Hchannel:channel:2|h[2]|h |Hplayer:Nowatersry-TarrenMill:3625:2|h[|cff3ec6eaNowatersry|r]|h: <For Science> 12/12M [World 257] Offers Jaina Mythic Mount for 250k. 50-100k less than communities.",
+					["serverTime"] = 1603025283,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						28, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198432.388,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [57]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:48:05]|h|r |cffb2b2b2[14:48]|r |Hchannel:channel:2|h[2]|h |Hplayer:Helvetesmakt-TarrenMill:3626:2|h[|cffc31d39Helvetesmakt|r]|h: beggars are naggers",
+					["serverTime"] = 1603025284,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						9, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198433.138,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [58]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:48:08]|h|r |cffb2b2b2[14:48]|r |Hplayer:Eierio|h[Eierio]|h has come online.",
+					["serverTime"] = 1603025287,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 198435.888,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [59]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:48:10]|h|r |cffb2b2b2[14:48]|r |Hchannel:channel:2|h[2]|h |Hplayer:Shassk-TarrenMill:3628:2|h[|cff00fe97Shassk|r]|h: Wts Freehold Level Boost 10-50 /w for more info",
+					["serverTime"] = 1603025289,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						16, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198438.088,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [60]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:48:11]|h|r |cffb2b2b2[14:48]|r |Hchannel:channel:2|h[2]|h |Hplayer:Lodendulf-TarrenMill:3629:2|h[|cff00fe97Lodendulf|r]|h: WTS Boost lvlup 15-50 ",
+					["serverTime"] = 1603025290,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						24, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198438.922,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [61]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:48:20]|h|r |cffb2b2b2[14:48]|r |Hchannel:channel:2|h[2]|h |Hplayer:Trylas-TarrenMill:3630:2|h[|cfff38bb9Trylas|r]|h: what a comeback ",
+					["serverTime"] = 1603025299,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						22, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198448.273,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [62]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:48:22]|h|r |cffb2b2b2[14:48]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sylvaboostt-TarrenMill:3631:2|h[|cfff38bb9Sylvaboostt|r]|h: Sylvanas Community||^ FREE ARMOR STACK ^ ||^M+15 JUST FOR 100k ^|| M+16 JUST 140k || 3x run +15 285k  ||  5x run +15 420k || Horrific Visions ||  Ny'alotha HC  / Mythic / Nzoth MOUNT  TONGIHT  || Jaina MounT 300k NOW || PVP Boost || LVL UP BOOST",
+					["serverTime"] = 1603025301,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						21, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198450.356,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [63]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:48:37]|h|r |cffb2b2b2[14:48]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sylvnasboost-TarrenMill:3632:2|h[|cffc59a6cSylvnasboost|r]|h: FREE ARMOR STACK (Sylvanas Boost Community )  +14 [100K]/+15 [100k] / x5 M+ 15 [ 420k] /+16 [140k] / +17 [200k]  / 18 [250k]/ Nylotha HC  / JAINA MOUNT ( BEAST DEAL ON MYTHIC NYLOTHA 12/12 MYTHIC  LIMITED SPOTS ! )",
+					["serverTime"] = 1603025316,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						6, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198465.69,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [64]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:48:40]|h|r |cffb2b2b2[14:48]|r |Hchannel:channel:2|h[2]|h |Hplayer:Robbmage-TarrenMill:3633:2|h[|cff3ec6eaRobbmage|r]|h: funny u where not in your daddys ball sack during vanilla so kid go fap to bald streamers ",
+					["serverTime"] = 1603025319,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						10, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198468.691,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [65]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:48:42]|h|r |cffb2b2b2[14:48]|r Snurk Bucksquick yells: The zeppelin to Grom'gol has just arrived! All aboard for Stranglethorn!",
+					["serverTime"] = 1603025321,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						13, -- [2]
+						14, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198469.791,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [66]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:48:42]|h|r |cffb2b2b2[14:48]|r |Hchannel:channel:2|h[2]|h |Hplayer:Novaboostqt-TarrenMill:3635:2|h[|cff8687edNovaboostqt|r]|h: < NOVA > is OFFERING [M+15=90k] --[2x M+15=171k] -- [4x M+15=324k] --/Nyalotha Heroic 140k- VIP trader only 60k!-/Nyalotha Mythic 12/12+3VIP trader for 4100k-/Jaina mount 350k-- Mythic N'Zoth + Mount=2.2M-/5mask=70k --/Level Up boost lvl 10-50 --",
+					["serverTime"] = 1603025321,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						7, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198470.391,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [67]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:48:47]|h|r |cffb2b2b2[14:48]|r |Hchannel:channel:2|h[2]|h |Hplayer:Nowatersry-TarrenMill:3636:2|h[|cff3ec6eaNowatersry|r]|h: The boosters was better than this tbh",
+					["serverTime"] = 1603025326,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						28, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198475.191,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [68]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:48:52]|h|r |cffb2b2b2[14:48]|r |Hchannel:channel:2|h[2]|h |Hplayer:Nowatersry-TarrenMill:3637:2|h[|cff3ec6eaNowatersry|r]|h: lets be real",
+					["serverTime"] = 1603025331,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						28, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198480.325,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [69]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:48:55]|h|r |cffb2b2b2[14:48]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sharloticka-TarrenMill:3638:2|h[|cff3ec6eaSharloticka|r]|h: <Oblívion Community> Selling Nyalotha Heroic at 18:00 ST. FRESH ID UNSAVED boosters rolling their items for --160k--! Personal spot without rolling only 140k!-  Interested? /w me - gold only",
+					["serverTime"] = 1603025334,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						29, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198483.208,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [70]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:48:55]|h|r |cffb2b2b2[14:48]|r |Hchannel:GUILD|h[G]|h |Hplayer:Fetalicious-TarrenMill:3639:GUILD:|h[|cfffefefeFetalicious|r]|h: I found 76K on a german realm... i have no clue why i have them there",
+					["serverTime"] = 1603025334,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						4, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198483.708,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [71]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:48:56]|h|r |cffb2b2b2[14:48]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sloppysaurus-TarrenMill:3640:2|h[|cfffe7b09Sloppysaurus|r]|h: damm rob its mad",
+					["serverTime"] = 1603025335,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						17, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198484.709,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [72]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:48:58]|h|r |cffb2b2b2[14:48]|r |Hchannel:channel:2|h[2]|h |Hplayer:Mardello-TarrenMill:3641:2|h[|cfffe7b09Mardello|r]|h: <Queens Knights>  Søger nye medlemmer til vores raiding hold og som socials Pt. søger vi dpser (Ikke Lock,Warr)  til main holdet udover, main holdet vil der kommet et casual hold . vi er en dansk guild  +18 med godt selvskab . Skriv for mere",
+					["serverTime"] = 1603025337,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						30, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198486.342,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [73]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:49:01]|h|r |cffb2b2b2[14:49]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sloppysaurus-TarrenMill:3642:2|h[|cfffe7b09Sloppysaurus|r]|h: malding abit there lad?",
+					["serverTime"] = 1603025340,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						17, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198489.576,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [74]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:49:09]|h|r |cffb2b2b2[14:49]|r |Hchannel:GUILD|h[G]|h |Hplayer:Fetalicious-TarrenMill:3643:GUILD:|h[|cfffefefeFetalicious|r]|h: on my lvl 1 gold collecting chat ",
+					["serverTime"] = 1603025348,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						4, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198496.926,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [75]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:49:11]|h|r |cffb2b2b2[14:49]|r |Hchannel:channel:2|h[2]|h |Hplayer:Novaboostqt-TarrenMill:3644:2|h[|cff8687edNovaboostqt|r]|h: < NOVA > is OFFERING [M+15=90k] --[2x M+15=171k] -- [4x M+15=324k] --/Nyalotha Heroic 140k- VIP trader only 60k!-/Nyalotha Mythic 12/12+3VIP trader for 4100k-/Jaina mount 350k-- Mythic N'Zoth + Mount=2.2M-/5mask=70k --/Level Up boost lvl 10-50 --",
+					["serverTime"] = 1603025350,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						7, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198498.793,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [76]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:49:11]|h|r |cffb2b2b2[14:49]|r |Hchannel:GUILD|h[G]|h |Hplayer:Fetalicious-TarrenMill:3645:GUILD:|h[|cfffefefeFetalicious|r]|h: *char",
+					["serverTime"] = 1603025350,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						4, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198499.643,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [77]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:49:16]|h|r |cffb2b2b2[14:49]|r |Hchannel:channel:2|h[2]|h |Hplayer:Alekkerttv-TarrenMill:3647:2|h[|cfffef367Alekkerttv|r]|h: Distinct is recruiting: Clearing all PVE content at a high level within a social, structured, mature, chill, self critical and well performing environment. While hopefully creating and maintaining new online friends. /w me for info",
+					["serverTime"] = 1603025355,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						31, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198504.343,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [78]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:49:19]|h|r |cffb2b2b2[14:49]|r |Hchannel:channel:2|h[2]|h |Hplayer:Robbmage-TarrenMill:3648:2|h[|cff3ec6eaRobbmage|r]|h: malding wtf is that ",
+					["serverTime"] = 1603025358,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						10, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198507.177,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [79]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:49:22]|h|r |cffb2b2b2[14:49]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sylvaboostt-TarrenMill:3649:2|h[|cfff38bb9Sylvaboostt|r]|h: Sylvanas Community||^ FREE ARMOR STACK ^ ||^M+15 JUST FOR 100k ^|| M+16 JUST 140k || 3x run +15 285k  ||  5x run +15 420k || Horrific Visions ||  Ny'alotha HC  / Mythic / Nzoth MOUNT  TONGIHT  || Jaina MounT 300k NOW || PVP Boost || LVL UP BOOST",
+					["serverTime"] = 1603025361,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						21, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198510.344,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [80]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:49:25]|h|r |cffb2b2b2[14:49]|r |Hchannel:channel:2|h[2]|h |Hplayer:Azym-TarrenMill:3650:2|h[|cff006fdcAzym|r]|h: ok rob downgraded to 17 because he still gets mad over people taking in video gamezs",
+					["serverTime"] = 1603025364,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						15, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198513.411,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [81]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:49:27]|h|r |cffb2b2b2[14:49]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sharsybane-TarrenMill:3651:2|h[|cfffefefeSharsybane|r]|h: being mad while balding",
+					["serverTime"] = 1603025366,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						32, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198514.778,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [82]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:49:36]|h|r |cffb2b2b2[14:49]|r |Hchannel:channel:2|h[2]|h |Hplayer:Azym-TarrenMill:3652:2|h[|cff006fdcAzym|r]|h: malding is the word",
+					["serverTime"] = 1603025375,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						15, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198524.045,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [83]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:49:45]|h|r |cffb2b2b2[14:49]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sylvnasboost-TarrenMill:3653:2|h[|cffc59a6cSylvnasboost|r]|h: FREE ARMOR STACK (Sylvanas Boost Community )  +14 [100K]/+15 [100k] / x5 M+ 15 [ 420k] /+16 [140k] / +17 [200k]  / 18 [250k]/ Nylotha HC  / JAINA MOUNT ( BEAST DEAL ON MYTHIC NYLOTHA 12/12 MYTHIC  LIMITED SPOTS ! )",
+					["serverTime"] = 1603025384,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						6, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198533.696,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [84]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:49:52]|h|r |cffb2b2b2[14:49]|r |Hchannel:channel:2|h[2]|h |Hplayer:Màrsh-TarrenMill:3654:2|h[|cffa9d271Màrsh|r]|h: find the asmon fan",
+					["serverTime"] = 1603025391,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						33, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198539.896,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [85]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:49:52]|h|r |cffb2b2b2[14:49]|r |Hchannel:channel:2|h[2]|h |Hplayer:Trylas-TarrenMill:3655:2|h[|cfff38bb9Trylas|r]|h: ohh so you are a vanila guy then fuck back to classic ",
+					["serverTime"] = 1603025391,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						22, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198539.896,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [86]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:49:53]|h|r |cffb2b2b2[14:49]|r |Hchannel:channel:2|h[2]|h |Hplayer:Diddydru-TarrenMill:3656:2|h[|cfffe7b09Diddydru|r]|h: New guild >Curse Of Ambition< 4/12M LFM with mythic exp to build our team for SL progress, Ranged dps and healers are prio but other spots are open, Raid days are Fri + Sat 19:00-23:00ST. /w me for more information",
+					["serverTime"] = 1603025392,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						34, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198541.613,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [87]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:49:54]|h|r |cffb2b2b2[14:49]|r |Hplayer:Lycotonum-TarrenMill:3657:SAY:|h[|cff00fe97Lycotonum|r]|h: WA",
+					["serverTime"] = 1603025393,
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						35, -- [2]
+						36, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198542.463,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [88]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:49:56]|h|r |cffb2b2b2[14:49]|r |cff9900ffWeakAuras:|r Options will open after combat ends.",
+					["timestamp"] = 198543.93,
+					["extraData"] = {
+						["n"] = 3,
+					},
+					["serverTime"] = 1603025395,
+				}, -- [89]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:50:04]|h|r |cffb2b2b2[14:50]|r |Hchannel:channel:2|h[2]|h |Hplayer:Màrsh-TarrenMill:3658:2|h[|cffa9d271Màrsh|r]|h: i found him",
+					["serverTime"] = 1603025403,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						33, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198551.881,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [90]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:50:10]|h|r |cffb2b2b2[14:50]|r |Hchannel:channel:2|h[2]|h |Hplayer:Azym-TarrenMill:3659:2|h[|cff006fdcAzym|r]|h: i bet rob is one of those people who this vanilla is hard",
+					["serverTime"] = 1603025409,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						15, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198558.748,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [91]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:50:14]|h|r |cffb2b2b2[14:50]|r |Hchannel:channel:2|h[2]|h |Hplayer:Trylas-TarrenMill:3660:2|h[|cfff38bb9Trylas|r]|h: so i dont have to hear your shit anymore ",
+					["serverTime"] = 1603025413,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						22, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198562.465,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [92]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:50:20]|h|r |cffb2b2b2[14:50]|r |Hchannel:channel:2|h[2]|h |Hplayer:Robbmage-TarrenMill:3661:2|h[|cff3ec6eaRobbmage|r]|h: why woulde i go back to something i cleared when it was current ",
+					["serverTime"] = 1603025419,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						10, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198567.915,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [93]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:50:21]|h|r |cffb2b2b2[14:50]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sylvnasboost-TarrenMill:3662:2|h[|cffc59a6cSylvnasboost|r]|h: FREE ARMOR STACK (Sylvanas Boost Community )  +14 [100K]/+15 [100k] / x5 M+ 15 [ 420k] /+16 [140k] / +17 [200k]  / 18 [250k]/ Nylotha HC  / JAINA MOUNT ( BEAST DEAL ON MYTHIC NYLOTHA 12/12 MYTHIC  LIMITED SPOTS ! )",
+					["serverTime"] = 1603025420,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						6, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198569.215,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [94]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:50:21]|h|r |cffb2b2b2[14:50]|r |Hchannel:GUILD|h[G]|h |Hplayer:Eierio-TarrenMill:3663:GUILD:|h[|cfffefefeEierio|r]|h: rdy bob",
+					["serverTime"] = 1603025420,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						37, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198569.215,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [95]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:50:22]|h|r |cffb2b2b2[14:50]|r |Hchannel:channel:2|h[2]|h |Hplayer:Sylvaboostt-TarrenMill:3664:2|h[|cfff38bb9Sylvaboostt|r]|h: Sylvanas Community||^ FREE ARMOR STACK ^ ||^M+15 JUST FOR 100k ^|| M+16 JUST 140k || 3x run +15 285k  ||  5x run +15 420k || Horrific Visions ||  Ny'alotha HC  / Mythic / Nzoth MOUNT  TONGIHT  || Jaina MounT 300k NOW || PVP Boost || LVL UP BOOST",
+					["serverTime"] = 1603025421,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						21, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198570.265,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [96]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:50:31]|h|r |cffb2b2b2[14:50]|r |Hchannel:channel:2|h[2]|h |Hplayer:Màrsh-TarrenMill:3665:2|h[|cffa9d271Màrsh|r]|h: classic is hard, and a grind",
+					["serverTime"] = 1603025430,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						33, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198579.016,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [97]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:50:33]|h|r |cffb2b2b2[14:50]|r |Hchannel:channel:2|h[2]|h |Hplayer:Novaboostqt-TarrenMill:3666:2|h[|cff8687edNovaboostqt|r]|h: < NOVA > is OFFERING [M+15=90k] --[2x M+15=171k] -- [4x M+15=324k] --/Nyalotha Heroic 140k- VIP trader only 60k!-/Nyalotha Mythic 12/12+3VIP trader for 4100k-/Jaina mount 350k-- Mythic N'Zoth + Mount=2.2M-/5mask=70k --/Level Up boost lvl 10-50 --",
+					["serverTime"] = 1603025432,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						7, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198580.966,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [98]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:50:34]|h|r |cffb2b2b2[14:50]|r |Hchannel:channel:2|h[2]|h |Hplayer:Màrsh-TarrenMill:3667:2|h[|cffa9d271Màrsh|r]|h: sue me",
+					["serverTime"] = 1603025433,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						33, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198582.183,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [99]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[14:50:41]|h|r |cffb2b2b2[14:50]|r |Hchannel:channel:2|h[2]|h |Hplayer:Shassk-TarrenMill:3668:2|h[|cff00fe97Shassk|r]|h: Wts Freehold Level Boost 10-50 /w for more info",
+					["serverTime"] = 1603025440,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						5, -- [2]
+						16, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 198589.567,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [100]
+			},
+			["maxElements"] = 100,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
 	},
 }
